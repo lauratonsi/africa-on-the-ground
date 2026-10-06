@@ -5,15 +5,66 @@
   "country": "GMB",
   "name": "Albert Market",
   "region": "The Gambia · Banjul",
-  "subtitle": "Card in preparation.",
-  "coords": {
-    "lat": 13.4527,
-    "lon": -16.578,
-    "approx": true
-  },
-  "facts": [],
-  "sections": [],
+  "subtitle": "A street market on Liberation Avenue in Banjul, built in the mid-nineteenth century.",
+  "coords": { "lat": 13.4543, "lon": -16.5724, "approx": true, "cite": ["horizons-albert-market"] },
+  "facts": [
+    { "label": "Kind", "value": "Street market", "cite": ["wikipedia-albert-market"] },
+    { "label": "Street", "value": "Liberation Avenue", "cite": ["wikipedia-albert-market"] },
+    { "label": "Built", "value": "mid-19th century", "cite": ["wikipedia-albert-market", "lonely-planet-albert-market"] },
+    { "label": "Named after", "value": "Prince Albert, husband of Queen Victoria", "cite": ["wikipedia-albert-market", "my-gambia-visit-banjul"] },
+    { "label": "Former official name", "value": "Royal Albert Market", "cite": ["wikipedia-albert-market"] },
+    { "label": "Areas", "value": "household goods, produce, crafts", "cite": ["horizons-albert-market"] }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "Albert Market is a street market in Banjul, on Liberation Avenue. It was built in the mid-nineteenth century and takes its name from Albert, the husband of Queen Victoria, in the years when Britain controlled The Gambia.", "cite": ["wikipedia-albert-market"] },
+            { "text": " A travel guide calls it Banjul's main hub of activity since it was founded, and a tourism magazine calls it one of the oldest markets in The Gambia.", "cite": ["lonely-planet-albert-market", "my-gambia-visit-banjul"] }
+          ]
+        },
+        { "type": "facts" },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "The guide lists stalls of fabrics, hair extensions, shoes, household and electrical goods, a fruit and vegetable market, and drinks stalls and food shops inside.", "cite": ["lonely-planet-albert-market"] },
+            { "text": " The tourism magazine adds fish and herb sellers, and a craft market with woodcarvers and other artists working from purpose-built shops. It describes the stalls as laid out like a labyrinth, wide enough to walk through comfortably.", "cite": ["my-gambia-visit-banjul"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "A travel directory divides the market into three areas: household goods and clothing, a produce market selling fruit, vegetables, meat, fish and dried goods, and a tourist market for crafts. It lists opening hours of 8 AM to 7 PM.", "cite": ["horizons-albert-market"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            { "when": "Mid-19th c.", "text": "The market is built. The sources consulted give no more precise date.", "cite": ["wikipedia-albert-market", "lonely-planet-albert-market"] },
+            { "when": "Sep 2014", "text": "A fire burns a large part of the main market structure and destroys many goods. The Point reports that the cause was still unknown that day, and that the chairman of the market committee said most of the affected traders had no insurance.", "cite": ["the-point-albert-fire-2014"] },
+            { "when": "Feb 2026", "text": "The market committee reports that D56,235 has been collected for victims of a fire at the market, from individuals, other market committees and the chairman. The article does not say when that fire happened.", "cite": ["the-point-albert-committee-2026"] }
+          ],
+          "note": "The two press reports were published twelve years apart. The 2026 article does not date the fire it refers to, so this card does not link it to the one in 2014."
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet."
+    "A precise founding date and who built it. The sources read give only the mid-nineteenth century, and none comes from the city council or an archive.",
+    "The fire behind the February 2026 report: when it happened and how much of the market it affected.",
+    "The state of the market after the fires, including any rebuilding. A search result mentioned a new market complex for vegetable and fish vendors, but the page could not be read and was not used.",
+    "Opening hours, layout and coordinates come from an undated travel directory and have not been checked on the ground.",
+    "Who trades there and what daily life in the market is like. The guides are written for visitors.",
+    "What is sold mainly to visitors and what mainly to people in Banjul. Only the local voices on this card can answer that."
   ]
 }

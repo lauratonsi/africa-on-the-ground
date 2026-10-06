@@ -99,5 +99,69 @@
     "status": "verified",
     "note": "Text of the page supplied by the project owner, because automated access to unesco.org is blocked. One sentence places Wassu in \u201cGuinea\u201d, apparently a slip for The Gambia. The description text is published under CC BY-SA IGO 3.0.",
     "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wikipedia-albert-market",
+    "title": "Albert Market",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Albert_Market",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "A very short article. Basis for the street, the name and the building period. Replace with a city council or archival source.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "lonely-planet-albert-market",
+    "title": "Albert Market",
+    "publisher": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/the-gambia/banjul/attractions/albert-market/a/poi-sig/438082/355670",
+    "tier": "press",
+    "status": "verified",
+    "note": "Travel guide entry, undated. Written for visitors.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "my-gambia-visit-banjul",
+    "title": "Visit Banjul",
+    "publisher": "My Gambia",
+    "url": "https://www.my-gambia.com/mymagazine/visit-banjul/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Tourism magazine page, undated, in a promotional tone.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "horizons-albert-market",
+    "title": "Albert Market in Banjul",
+    "publisher": "Horizons Unlimited",
+    "url": "https://new.horizonsunlimited.com/destinations/poi/gm/albert-market-in-banjul",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Travel directory entry compiled from other pages and undated. Gives the coordinates, opening hours and layout used here.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "the-point-albert-fire-2014",
+    "title": "Banjul Albert Market gutted by fire",
+    "author": "Njie Baldeh",
+    "publisher": "The Point (Banjul)",
+    "published": "2014-09-24",
+    "url": "https://thepoint.gm/africa/gambia/article/banjul-albert-market-gutted-by-fire",
+    "tier": "press",
+    "status": "verified",
+    "note": "Written on the day of the fire, before the cause was known. Updated by the paper in August 2020.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "the-point-albert-committee-2026",
+    "title": "Albert market committee chair Salifu K. Jaiteh calls for unity",
+    "author": "Ismaila Sonko",
+    "publisher": "The Point (Banjul)",
+    "published": "2026-02-17",
+    "url": "https://thepoint.gm/africa/gambia/headlines/albert-market-committee-chair-salifu-k-jaiteh-calls-for-unity",
+    "tier": "press",
+    "status": "verified",
+    "note": "Refers to a fire at the market without saying when it happened.",
+    "retrieved": "2026-10-06"
   }
 ]
