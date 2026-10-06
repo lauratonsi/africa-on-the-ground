@@ -10,9 +10,10 @@ Guide ai luoghi che tengono separati due tipi di conoscenza:
 La separazione è il cuore del progetto. Se i due strati si mescolano, il sito perde la possibilità di dire
 onestamente "questo è documentato" e "questo lo dice una persona".
 
-Il sito è **statico**: nessun database, nessun cookie, nessuna statistica, nessuna risorsa caricata da altri siti,
-nessun dato inviato al sito (il modulo delle note prepara solo un messaggio che la persona manda da sé). Il sito non conserva le note: arrivano da te, di persona, in messaggio o dal modulo di ogni scheda
-(che prepara solo un messaggio), con il consenso dell'autore, e le aggiungi a un file del progetto.
+Il sito è **statico**: nessun database, nessun cookie, nessuna statistica, nessuna risorsa caricata da altri siti.
+Non riceve dati: il modulo delle note di ogni scheda prepara solo un messaggio, che la persona manda da sé
+(WhatsApp, email, Signal). Il sito non conserva le note: arrivano da te, di persona, in messaggio o dal modulo, con il
+consenso dell'autore, e le aggiungi a un file del progetto.
 
 ## Struttura
 
