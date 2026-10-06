@@ -1,0 +1,574 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Home Ground</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap">
+<style>
+/* Layout: one place card, two layers side by side. The record sits in a book-like serif column on the left, local voices in a green sans column on the right. Stacks on phones. */
+:root {
+  --paper: #edf0ef;
+  --surface: #fbfcfb;
+  --ink: #17252d;
+  --ink-soft: #4b5b64;
+  --line: #ccd5d6;
+  --record: #1f3f66;
+  --record-tint: #e3eaf2;
+  --voice: #14594a;
+  --voice-tint: #d6e9e1;
+  --voice-surface: #f1f7f4;
+  --voice-line: #b4d2c6;
+  --on-voice: #ffffff;
+  --flag: #8a4f05;
+  --flag-tint: #f5e9d2;
+  --flag-line: #dcc49a;
+  --danger: #9b2c2c;
+  --f-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --f-record: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0d1519;
+    --surface: #141f26;
+    --ink: #e3e9eb;
+    --ink-soft: #9bacb4;
+    --line: #27363f;
+    --record: #93b8e8;
+    --record-tint: #182a3d;
+    --voice: #6dd0b0;
+    --voice-tint: #12302a;
+    --voice-surface: #0f2420;
+    --voice-line: #24493f;
+    --on-voice: #07211a;
+    --flag: #e3a955;
+    --flag-tint: #2f240f;
+    --flag-line: #5a4519;
+    --danger: #f19090;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0d1519;
+  --surface: #141f26;
+  --ink: #e3e9eb;
+  --ink-soft: #9bacb4;
+  --line: #27363f;
+  --record: #93b8e8;
+  --record-tint: #182a3d;
+  --voice: #6dd0b0;
+  --voice-tint: #12302a;
+  --voice-surface: #0f2420;
+  --voice-line: #24493f;
+  --on-voice: #07211a;
+  --flag: #e3a955;
+  --flag-tint: #2f240f;
+  --flag-line: #5a4519;
+  --danger: #f19090;
+  color-scheme: dark;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-display);
+  font-size: 16px;
+  line-height: 1.5;
+}
+* { box-sizing: border-box; }
+a { color: var(--record); }
+:focus-visible { outline: 2px solid var(--voice); outline-offset: 2px; }
+
+.wrap { max-width: 1160px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); padding-block: 0 56px; }
+
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 650; font-size: 1.05rem; letter-spacing: -0.01em; }
+.brand svg { display: block; }
+.brand .r { fill: var(--record); }
+.brand .v { fill: var(--voice); }
+.tag-proto { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+
+.hero { padding-block: clamp(28px, 6vw, 64px) 28px; display: grid; gap: 14px; }
+.kicker { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 0; }
+h1 { font-weight: 700; font-size: clamp(2.3rem, 7.2vw, 4.7rem); line-height: 1.02; letter-spacing: -0.025em; margin: 0; text-wrap: balance; max-width: 16ch; }
+.sub { margin: 0; font-size: 1.1rem; color: var(--ink-soft); max-width: 60ch; }
+.lede { margin: 6px 0 0; font-size: 1.05rem; max-width: 62ch; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 6px 0 0; padding: 0; list-style: none; }
+.legend li { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; }
+
+.layer-tag { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-mono); font-size: .74rem; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; }
+.layer-tag::before { content: ""; width: 11px; height: 11px; background: currentColor; display: inline-block; }
+.layer-tag.rec { color: var(--record); }
+.layer-tag.voi { color: var(--voice); }
+.layer-tag.gap { color: var(--flag); }
+
+.cols { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 36px); align-items: start; }
+@media (max-width: 920px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- Record layer ---------- */
+.record { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: clamp(18px, 3.2vw, 36px); display: grid; gap: 34px; min-width: 0; }
+.record h2 { font-family: var(--f-display); font-weight: 650; font-size: 1.3rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.record p, .record li, .record dd { font-family: var(--f-record); font-size: 1.0625rem; line-height: 1.65; }
+.record p { margin: 0 0 .9em; max-width: 68ch; }
+.record p:last-child { margin-bottom: 0; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 12px; }
+.cbtn { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; background: none; border: 1px solid var(--line); color: var(--ink-soft); border-radius: 3px; padding: 4px 8px; cursor: pointer; }
+.cbtn:hover { color: var(--record); border-color: var(--record); }
+.cite { font-family: var(--f-mono); font-size: .68rem; vertical-align: super; line-height: 0; margin-left: .15em; color: var(--record); text-decoration: none; white-space: nowrap; }
+.cite:hover { text-decoration: underline; }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 0 0 18px; }
+.facts div { background: var(--surface); padding: 10px 12px; min-width: 0; }
+.facts dt { font-family: var(--f-mono); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.facts dd { margin: 2px 0 0; font-family: var(--f-display); font-weight: 600; font-size: 1.05rem; line-height: 1.3; }
+
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { display: grid; grid-template-columns: 6.6rem minmax(0, 1fr); gap: 4px 18px; padding-block: 12px; border-top: 1px solid var(--line); }
+.timeline li:last-child { border-bottom: 1px solid var(--line); }
+.yr { font-family: var(--f-mono); font-weight: 500; font-size: .86rem; color: var(--record); padding-top: .28rem; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .timeline li { grid-template-columns: minmax(0, 1fr); } .yr { padding-top: 0; } }
+.note-small { font-family: var(--f-display) !important; font-size: .88rem !important; color: var(--ink-soft); line-height: 1.5 !important; }
+
+.gaps { background: var(--flag-tint); border: 1px solid var(--flag-line); border-radius: 4px; padding: 18px 20px; }
+.gaps ul { margin: 10px 0 0; padding-left: 1.1em; }
+.gaps li { margin-bottom: .55em; }
+.gaps li:last-child { margin-bottom: 0; }
+
+.sources ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.sources li { display: grid; gap: 4px; font-family: var(--f-display); font-size: .95rem; line-height: 1.4; scroll-margin-top: 16px; }
+.sources li a { overflow-wrap: anywhere; }
+.tier { justify-self: start; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; border-radius: 3px; padding: 1px 6px; color: var(--record); }
+.tier.chk { color: var(--flag); }
+
+/* ---------- Voices layer ---------- */
+.voices { background: var(--voice-surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: clamp(18px, 3vw, 28px); display: grid; gap: 22px; min-width: 0; }
+.voices h2 { font-weight: 650; font-size: 1.3rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.voices p { margin: 0; }
+.voices .intro { color: var(--ink-soft); font-size: .98rem; }
+
+form { display: grid; gap: 12px; }
+label { display: grid; gap: 5px; font-size: .86rem; font-weight: 600; }
+.row2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 12px; }
+input, select, textarea { width: 100%; min-width: 0; font: inherit; font-weight: 400; color: var(--ink); background: var(--surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: 10px 11px; min-height: 44px; }
+textarea { min-height: 120px; resize: vertical; line-height: 1.5; }
+input:disabled, select:disabled, textarea:disabled { opacity: .55; }
+.q { font-size: .95rem; font-weight: 500; color: var(--voice); margin: 0; }
+.btn { font: inherit; font-weight: 650; background: var(--voice); color: var(--on-voice); border: 0; border-radius: 4px; padding: 11px 16px; min-height: 44px; cursor: pointer; justify-self: start; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.status { font-size: .88rem; min-height: 1.3em; margin: 0; }
+.status.err { color: var(--danger); }
+.hint { font-size: .86rem; color: var(--ink-soft); border: 1px dashed var(--voice-line); border-radius: 4px; padding: 10px 12px; }
+
+.notes { display: grid; gap: 12px; }
+.notes-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.count { font-family: var(--f-mono); font-size: .75rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.empty { border: 1px dashed var(--voice-line); border-radius: 4px; padding: 18px; display: grid; gap: 6px; }
+.empty strong { font-weight: 650; }
+.empty span { color: var(--ink-soft); font-size: .93rem; }
+.nt { background: var(--surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: 14px 16px; display: grid; gap: 8px; min-width: 0; }
+.nt.pend { border-style: dashed; }
+.fine { font-size: .84rem; color: var(--ink-soft); }
+.nt .chip { justify-self: start; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--voice); background: var(--voice-tint); border-radius: 3px; padding: 2px 7px; }
+.nt .txt { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 1rem; line-height: 1.55; margin: 0; }
+.nt .by { font-size: .84rem; color: var(--ink-soft); margin: 0; }
+.nt .by b { color: var(--ink); font-weight: 650; }
+.nt .acts { display: flex; gap: 8px; flex-wrap: wrap; }
+.mini { font-family: var(--f-mono); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; background: none; border: 1px solid var(--voice-line); color: var(--ink-soft); border-radius: 3px; padding: 4px 8px; cursor: pointer; }
+.mini:hover { color: var(--voice); border-color: var(--voice); }
+.mini.danger:hover, .mini.armed { color: var(--danger); border-color: var(--danger); }
+
+.foot { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .86rem; color: var(--ink-soft); max-width: 70ch; }
+#toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--paper); font-size: .88rem; padding: 10px 14px; border-radius: 4px; max-width: calc(100vw - 32px); z-index: 10; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="brand">
+      <svg width="26" height="22" viewBox="0 0 26 22" aria-hidden="true"><rect class="r" x="0" y="0" width="26" height="10"/><rect class="v" x="0" y="12" width="17" height="10"/></svg>
+      Home Ground
+    </span>
+    <span class="tag-proto">Prototype · one card</span>
+  </header>
+
+  <section class="hero">
+    <p class="kicker">The Gambia · River Gambia</p>
+    <h1>Kunta Kinteh Island</h1>
+    <p class="sub">Near Juffureh and Albreda. UNESCO World Heritage since 2003.</p>
+    <p class="lede">Every card on this site keeps two kinds of knowledge apart: what the documented record says, and what the people who live there say. Each is labelled, so a reader always knows which one they are reading.</p>
+    <ul class="legend">
+      <li><span class="layer-tag rec">In the record</span> cited to a source</li>
+      <li><span class="layer-tag voi">From people who live here</span> one person's experience, signed</li>
+    </ul>
+  </section>
+
+  <div class="cols">
+    <!-- ================= LAYER 1: THE RECORD ================= -->
+    <article class="record" id="record">
+      <section id="sec-what">
+        <div class="sec-head">
+          <span class="layer-tag rec">In the record</span>
+          <button class="cbtn" type="button" data-target="sec-what" hidden>Comment</button>
+        </div>
+        <h2>What it is</h2>
+        <p style="margin-top:12px">A small island in the River Gambia with the ruins of a fort first built in 1651 and held by several European powers over the next two centuries.<a class="cite" href="#src-3">[3]</a> UNESCO listed it in 2003 together with six related sites, for what they show about contact between Africa and Europe from the 15th century onward, including both the growth and the abolition of the slave trade.<a class="cite" href="#src-1">[1]</a></p>
+        <dl class="facts">
+          <div><dt>Inscribed</dt><dd>2003<a class="cite" href="#src-1">[1]</a></dd></div>
+          <div><dt>Criteria</dt><dd>iii and vi<a class="cite" href="#src-1">[1]</a></dd></div>
+          <div><dt>Component sites</dt><dd>7<a class="cite" href="#src-1">[1]</a></dd></div>
+          <div><dt>Core area</dt><dd>7.6 ha, 300 ha buffer<a class="cite" href="#src-1">[1]</a></dd></div>
+          <div><dt>Spread along river</dt><dd>about 30 km<a class="cite" href="#src-2">[2]</a></dd></div>
+          <div><dt>Island today</dt><dd>about one sixth of its original size<a class="cite" href="#src-3">[3]</a></dd></div>
+        </dl>
+        <p>The seven sites are the island and its fort, the Portuguese chapel ruins and the CFAO colonial warehouse in Albreda, the Maurel Frères building in Juffureh, the San Domingo Portuguese settlement remains, Fort Bullen, and the Six-Gun Battery.<a class="cite" href="#src-1">[1]</a></p>
+      </section>
+
+      <section id="sec-timeline">
+        <div class="sec-head">
+          <h2>Timeline</h2>
+          <button class="cbtn" type="button" data-target="sec-timeline" hidden>Comment</button>
+        </div>
+        <ol class="timeline">
+          <li><span class="yr">1651</span><span>Settlers from the Duchy of Courland build Jacob Fort on the island, under Major Fock.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1659–1664</span><span>The Dutch take the fort in 1659. Local African kingdoms side with the Courlanders and the Dutch withdraw. The English capture the island in 1661 and the Dutch formally cede it in 1664. It becomes James Island, with Fort James, named for the Duke of York.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1695–1702</span><span>The French seize Fort James in 1695 and have lost it again by 1702.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1750</span><span>The Company of Merchants Trading to Africa takes over administration, after earlier English companies that traded in gold, ivory and enslaved people.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1807</span><span>The British Slave Trade Act. Two defensive works follow on the river, built against slaving.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1816, 1826</span><span>The Six-Gun Battery (1816) and Fort Bullen (1826) are built. The source describes them as the only known defences in the region built to stop slaving.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">1870</span><span>The sites are abandoned.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">2003</span><span>UNESCO inscribes Kunta Kinteh Island and Related Sites.<a class="cite" href="#src-1">[1]</a></span></li>
+          <li><span class="yr">6 Feb 2011</span><span>The island is renamed Kunta Kinteh Island at the request of the artist Chaz Guest.<a class="cite" href="#src-3">[3]</a></span></li>
+          <li><span class="yr">23 Aug 2016</span><span>Heavy rain and wind in Albreda and Juffureh strip part of the roof from the CFAO building. Gambian authorities ask UNESCO for international assistance.<a class="cite" href="#src-2">[2]</a></span></li>
+          <li><span class="yr">Mar 2020</span><span>A National Assembly committee visits the island and calls for urgent action against sea erosion. The press report lists no completed measures.<a class="cite" href="#src-4">[4]</a></span></li>
+        </ol>
+        <p class="note-small" style="margin-top:12px">Most dates above come from an encyclopedia article. They are marked for checking against book-length sources.</p>
+      </section>
+
+      <section id="sec-name">
+        <div class="sec-head">
+          <h2>The name and the novel</h2>
+          <button class="cbtn" type="button" data-target="sec-name" hidden>Comment</button>
+        </div>
+        <p>The island carries the name of Kunta Kinte, the ancestor in Alex Haley's <em>Roots</em>. Haley called the book "faction": a mix of documented history and invented scenes.<a class="cite" href="#src-5">[5]</a></p>
+        <p>Historians have disputed its genealogy. Gary and Elizabeth Mills found that the plantation records they examined contradict Haley's account of the American side of the family.<a class="cite" href="#src-5">[5]</a> On the Gambian side, the head of the national archives doubted the reliability of the griot whose account Haley relied on. The historian Donald Wright wrote in 1981 that Haley's repeated visits led some local people to take in his version, which was then repeated back to him.<a class="cite" href="#src-5">[5]</a> Juffureh also lies about two miles from James Island, a British post since 1661, which sits uneasily with the novel's picture of a village cut off from Europeans.<a class="cite" href="#src-5">[5]</a></p>
+        <p>Jean Muteba Rahier's unfinished study of heritage tourism in Juffureh reports that local guides trained by tourism officials present the story as history, and that many officials, journalists, visitors and guides treat the novel as if it were documented fact.<a class="cite" href="#src-6">[6]</a></p>
+        <p>None of this settles what the island meant in the trade itself. It does mean this card keeps the novel's story and the documented history apart.</p>
+      </section>
+
+      <section id="sec-gaps" class="gaps">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="layer-tag gap">Not yet sourced</span>
+          <button class="cbtn" type="button" data-target="sec-gaps" hidden>Comment</button>
+        </div>
+        <ul>
+          <li>How many people were embarked through this site, and in which years. No dataset or historian's account has been retrieved for this card yet.</li>
+          <li>Primary sources behind the timeline, such as company records and travellers' accounts.</li>
+          <li>The condition of the island and the other six sites after 2020. The newest source found is from that year.</li>
+          <li>What the island means in daily life for people in Juffureh and Albreda. Only the right-hand column can answer that.</li>
+        </ul>
+      </section>
+
+      <section class="sources" id="sec-sources">
+        <div class="sec-head"><h2>Sources</h2></div>
+        <ol>
+          <li id="src-1"><span class="tier">Institutional</span><span>[1] UNESCO World Heritage Centre, Kunta Kinteh Island and Related Sites. <a href="https://whc.unesco.org/en/list/761" target="_blank" rel="noopener">whc.unesco.org/en/list/761</a></span></li>
+          <li id="src-2"><span class="tier">Institutional</span><span>[2] UNESCO World Heritage Centre, news item on storm damage at the site, August 2016. <a href="https://whc.unesco.org/en/news/1552" target="_blank" rel="noopener">whc.unesco.org/en/news/1552</a></span></li>
+          <li id="src-3"><span class="tier chk">Encyclopedia · to verify</span><span>[3] Wikipedia, Kunta Kinteh Island. <a href="https://en.wikipedia.org/wiki/Kunta_Kinteh_Island" target="_blank" rel="noopener">en.wikipedia.org/wiki/Kunta_Kinteh_Island</a></span></li>
+          <li id="src-4"><span class="tier">Press</span><span>[4] The Point (Banjul), Sea erosion threatens Kunta Kinteh Island, 11 March 2020. <a href="https://thepoint.gm/africa/gambia/article/sea-erosion-threatens-kunta-kinteh-island" target="_blank" rel="noopener">thepoint.gm</a></span></li>
+          <li id="src-5"><span class="tier chk">Encyclopedia · to verify</span><span>[5] Wikipedia, Roots: The Saga of an American Family, section on factual accuracy. <a href="https://en.wikipedia.org/wiki/Roots:_The_Saga_of_an_American_Family" target="_blank" rel="noopener">en.wikipedia.org/wiki/Roots:_The_Saga_of_an_American_Family</a></span></li>
+          <li id="src-6"><span class="tier chk">Academic · draft, undated</span><span>[6] Jean Muteba Rahier (Florida International University), Roots/Heritage Tourism in Juffureh. <a href="https://africana.fiu.edu/people/aads-faculty-and-graduate-students-scholarly-presentations/rahier_roots-heritage-tourism-in-juffureh.pdf" target="_blank" rel="noopener">africana.fiu.edu (PDF)</a></span></li>
+        </ol>
+      </section>
+    </article>
+
+    <!-- ================= LAYER 2: LOCAL VOICES ================= -->
+    <aside class="voices" id="voices" aria-label="Notes from people who live here">
+      <div style="display:grid;gap:8px">
+        <span class="layer-tag voi">From people who live here</span>
+        <h2>What it looks like from the ground</h2>
+        <p class="intro">A local's view is a different kind of source from the record. It is one person's experience, and it is shown with their name and how they know the place.</p>
+      </div>
+
+      <form id="form" autocomplete="off">
+        <label for="kind">Your note answers
+          <select id="kind"></select>
+        </label>
+        <p class="q" id="kindQ"></p>
+        <label for="text">Your note
+          <textarea id="text" maxlength="1200" placeholder="Write it the way you would tell a friend who is visiting."></textarea>
+        </label>
+        <div class="row2">
+          <label for="name">Your name
+            <input id="name" type="text" maxlength="60" placeholder="First name is fine">
+          </label>
+          <label for="relation">How you know this place
+            <select id="relation"></select>
+          </label>
+        </div>
+        <button class="btn" id="send" type="submit">Send for review</button>
+        <p class="fine">The card owner reads every note before it appears on the card.</p>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+        <p class="hint" id="formHint" hidden></p>
+      </form>
+
+      <div class="notes" id="queueBox" hidden>
+        <div class="notes-head">
+          <h2 style="font-size:1.05rem">Waiting for your review</h2>
+          <span class="count" id="queueCount"></span>
+        </div>
+        <div id="queue"></div>
+      </div>
+
+      <div class="notes" id="mineBox" hidden>
+        <div class="notes-head">
+          <h2 style="font-size:1.05rem">Your notes waiting for review</h2>
+        </div>
+        <div id="mine"></div>
+      </div>
+
+      <div class="notes">
+        <div class="notes-head">
+          <h2 style="font-size:1.05rem">Notes on this card</h2>
+          <span class="count" id="count"></span>
+        </div>
+        <div id="list"></div>
+      </div>
+    </aside>
+  </div>
+
+  <p class="foot">Prototype for a single card. The record layer is written from the sources listed and still needs checking against book-length sources. The local layer holds only notes that people sent and the card owner approved. Nothing has been written on their behalf.</p>
+</div>
+<div id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  var KINDS = [
+    { id: "look",  label: "What I would look at",     q: "What would you look at on a visit that a guidebook skips?" },
+    { id: "tell",  label: "What I tell my children",  q: "What do you tell your children about this place?" },
+    { id: "eat",   label: "Eating at home",           q: "What do people eat at home around here, and what is cooked mainly for visitors?" },
+    { id: "avoid", label: "What to avoid",            q: "What would you ask visitors not to do, buy or say?" },
+    { id: "fix",   label: "Correction to the record", q: "Does anything in the record on the left read wrong to you? Say which part and what you know." }
+  ];
+  var RELATIONS = [
+    { id: "near",    label: "I live in this area (Juffureh, Albreda or nearby)" },
+    { id: "gambia",  label: "I live elsewhere in The Gambia" },
+    { id: "abroad",  label: "I am Gambian and live abroad" },
+    { id: "other",   label: "Another connection to the place" }
+  ];
+  var KIND_BY = {}, REL_BY = {};
+  KINDS.forEach(function (k) { KIND_BY[k.id] = k; });
+  RELATIONS.forEach(function (r) { REL_BY[r.id] = r; });
+
+  var $ = function (id) { return document.getElementById(id); };
+  var kindSel = $("kind"), relSel = $("relation"), textEl = $("text"), nameEl = $("name");
+  var sendBtn = $("send"), statusEl = $("status"), hintEl = $("formHint"), listEl = $("list"), countEl = $("count");
+  var queueBox = $("queueBox"), queueEl = $("queue"), queueCount = $("queueCount");
+  var mineBox = $("mineBox"), mineEl = $("mine");
+
+  KINDS.forEach(function (k) { var o = document.createElement("option"); o.value = k.id; o.textContent = k.label; kindSel.appendChild(o); });
+  var ph = document.createElement("option"); ph.value = ""; ph.textContent = "Choose one"; relSel.appendChild(ph);
+  RELATIONS.forEach(function (r) { var o = document.createElement("option"); o.value = r.id; o.textContent = r.label; relSel.appendChild(o); });
+  function syncQ() { $("kindQ").textContent = KIND_BY[kindSel.value].q; }
+  kindSel.addEventListener("change", syncQ); syncQ();
+
+  try {
+    var sn = localStorage.getItem("hg_name"), sr = localStorage.getItem("hg_rel");
+    if (sn) nameEl.value = sn;
+    if (sr && REL_BY[sr]) relSel.value = sr;
+  } catch (e) {}
+
+  var db = null, comments = null, uid = null, isAdmin = false;
+  var pub = [], inbox = [], pubLoaded = false;
+  var toastTimer = null;
+
+  function toast(msg) {
+    var t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.hidden = true; }, 4200);
+  }
+  function say(msg, isErr) { statusEl.textContent = msg; statusEl.className = "status" + (isErr ? " err" : ""); }
+  function use(name) {
+    try { return (window.claude && window.claude.use) ? window.claude.use(name).catch(function () { return null; }) : Promise.resolve(null); }
+    catch (e) { return Promise.resolve(null); }
+  }
+  function setFormState(mode) {
+    var off = mode !== "on";
+    [kindSel, textEl, nameEl, relSel, sendBtn].forEach(function (el) { el.disabled = off; });
+    if (mode === "readonly") {
+      hintEl.hidden = false;
+      hintEl.textContent = "You can read this card but not send notes with your current access. Ask the card owner for Contributor access, or use the Comment buttons on the left.";
+    } else if (mode === "off") {
+      hintEl.hidden = false;
+      hintEl.textContent = "Notes are not available in this view. Open the card from its claude.ai link while signed in.";
+    } else { hintEl.hidden = true; }
+  }
+  function errMsg(e) {
+    var c = e && e.code;
+    if (c === "invalid_argument") return "Your access on this card does not allow sending notes. Ask the card owner for Contributor access.";
+    if (c === "quota_exceeded") return "This card has reached its storage limit. Tell the card owner.";
+    if (c === "resource_exhausted") return "Too many requests. Wait a moment and try again.";
+    if (c === "revoked") return "Your access to this card changed. Reload the page.";
+    return "The note was not saved. Your text is still here, try again in a moment.";
+  }
+  function fmtDate(ms) {
+    try { return new Date(ms).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); } catch (e) { return ""; }
+  }
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function plain(n) {
+    return { kind: n.kind, relation: n.relation, name: n.name, text: n.text, authorId: n.authorId || null, createdAt: n.createdAt || Date.now() };
+  }
+  function move(fromCol, toCol, n) {
+    return db.doc(toCol + "/" + n.id).set(plain(n)).then(function () { return db.doc(fromCol + "/" + n.id).delete(); });
+  }
+  function fromSnap(snap) {
+    return snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
+  }
+
+  /* actions: [{label, cls, run, confirmLabel}] */
+  function noteCard(n, cls, actions) {
+    var card = el("article", "nt" + (cls ? " " + cls : ""));
+    var k = KIND_BY[n.kind];
+    card.appendChild(el("span", "chip", k ? k.label : "Note"));
+    card.appendChild(el("p", "txt", n.text || ""));
+    var by = el("p", "by");
+    by.appendChild(el("b", null, n.name || "Anonymous"));
+    var r = REL_BY[n.relation];
+    by.appendChild(document.createTextNode((r ? " · " + r.label : "") + (n.createdAt ? " · " + fmtDate(n.createdAt) : "")));
+    card.appendChild(by);
+    if (actions && actions.length) {
+      var acts = el("div", "acts");
+      actions.forEach(function (a) {
+        var b = el("button", "mini " + (a.cls || ""), a.label);
+        b.type = "button";
+        b.addEventListener("click", function () {
+          if (a.confirmLabel && !b.classList.contains("armed")) { b.classList.add("armed"); b.textContent = a.confirmLabel; return; }
+          b.disabled = true;
+          a.run().catch(function () { toast("That did not go through. Try again."); b.disabled = false; });
+        });
+        acts.appendChild(b);
+      });
+      card.appendChild(acts);
+    }
+    return card;
+  }
+
+  function byNewest(a, b) { return (b.createdAt || 0) - (a.createdAt || 0); }
+  function byOldest(a, b) { return (a.createdAt || 0) - (b.createdAt || 0); }
+
+  function renderPublished() {
+    listEl.replaceChildren();
+    var items = pub.slice().sort(byNewest);
+    countEl.textContent = items.length ? String(items.length) : "";
+    if (!items.length) {
+      var box = el("div", "empty");
+      box.appendChild(el("strong", null, pubLoaded || !db ? "No local voice on this card yet." : "Loading notes…"));
+      box.appendChild(el("span", null, "Notes sent from this page are read by the card owner first. Approved notes appear here with the author's name and how they know the place."));
+      listEl.appendChild(box);
+      return;
+    }
+    var wrap = el("div", "notes");
+    items.forEach(function (n) {
+      var acts = isAdmin ? [{ label: "Unpublish", run: function () { return move("published", "inbox", n); } }] : null;
+      wrap.appendChild(noteCard(n, "", acts));
+    });
+    listEl.appendChild(wrap);
+  }
+
+  function renderQueue() {
+    queueBox.hidden = !isAdmin;
+    if (!isAdmin) return;
+    queueEl.replaceChildren();
+    var items = inbox.slice().sort(byOldest);
+    queueCount.textContent = items.length ? String(items.length) : "";
+    if (!items.length) { queueEl.appendChild(el("p", "hint", "Nothing is waiting for review.")); return; }
+    var wrap = el("div", "notes");
+    items.forEach(function (n) {
+      wrap.appendChild(noteCard(n, "pend", [
+        { label: "Approve and publish", run: function () { return move("inbox", "published", n); } },
+        { label: "Decline", cls: "danger", confirmLabel: "Press again to decline", run: function () { return db.doc("inbox/" + n.id).delete(); } }
+      ]));
+    });
+    queueEl.appendChild(wrap);
+  }
+
+  function renderMine() {
+    var items = (!isAdmin && uid) ? inbox.filter(function (n) { return n.authorId === uid; }).sort(byNewest) : [];
+    mineBox.hidden = !items.length;
+    mineEl.replaceChildren();
+    if (!items.length) return;
+    var wrap = el("div", "notes");
+    items.forEach(function (n) {
+      wrap.appendChild(noteCard(n, "pend", [
+        { label: "Withdraw", cls: "danger", confirmLabel: "Press again to withdraw", run: function () { return db.doc("inbox/" + n.id).delete(); } }
+      ]));
+    });
+    mineEl.appendChild(wrap);
+  }
+
+  function renderAll() { renderQueue(); renderMine(); renderPublished(); }
+
+  $("form").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    if (!db) return;
+    var text = textEl.value.trim(), name = nameEl.value.trim(), rel = relSel.value;
+    if (!name || !rel || text.length < 10) { say("Add your name, how you know the place, and at least a sentence.", true); return; }
+    sendBtn.disabled = true; say("Sending…");
+    var col = isAdmin ? "published" : "inbox";
+    db.collection(col).add({
+      kind: kindSel.value, relation: rel, name: name, text: text,
+      authorId: uid || null, createdAt: Date.now()
+    }).then(function () {
+      textEl.value = "";
+      try { localStorage.setItem("hg_name", name); localStorage.setItem("hg_rel", rel); } catch (e) {}
+      say(isAdmin ? "Published on the card." : "Sent. The card owner reads it first and approves it before it appears on the card.");
+    }).catch(function (e) { say(errMsg(e), true); })
+      .then(function () { sendBtn.disabled = false; });
+  });
+
+  document.querySelectorAll(".cbtn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var target = document.getElementById(b.dataset.target);
+      if (!comments || !target) return;
+      comments.openComposer({ element: target }).then(function (r) {
+        if (r && r.opened === false) toast("Click on the page once, then press Comment again.");
+      }).catch(function () {
+        document.querySelectorAll(".cbtn").forEach(function (x) { x.hidden = true; });
+      });
+    });
+  });
+
+  renderAll();
+
+  Promise.all([use("db"), use("user"), use("comments")]).then(function (res) {
+    var dbNs = res[0], userNs = res[1];
+    comments = res[2];
+    if (comments) document.querySelectorAll(".cbtn").forEach(function (b) { b.hidden = false; });
+    var pre = Promise.resolve();
+    var canWrite = null;
+    if (userNs) {
+      pre = Promise.all([
+        userNs.id().catch(function () { return null; }),
+        userNs.can("data.write").catch(function () { return null; }),
+        userNs.canEdit().catch(function () { return false; })
+      ]).then(function (u) { uid = u[0]; canWrite = u[1]; isAdmin = !!u[2]; });
+    }
+    return pre.then(function () {
+      if (!dbNs) { setFormState("off"); renderAll(); return; }
+      db = dbNs;
+      setFormState(canWrite === false ? "readonly" : "on");
+      db.collection("published").onSnapshot(function (snap) {
+        pub = fromSnap(snap); pubLoaded = true; renderAll();
+      }, function () {
+        pubLoaded = true; renderAll();
+        say("Live notes stopped updating. Reload the page to see new ones.", true);
+      });
+      db.collection("inbox").onSnapshot(function (snap) {
+        inbox = fromSnap(snap); renderAll();
+      }, function () { inbox = []; renderAll(); });
+    });
+  });
+})();
+</script>
+
+</body></html>
