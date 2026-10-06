@@ -24,7 +24,6 @@ Un'ipotesi di ordine di lavoro, da discutere. Non è un impegno.
 - Valutare versioni in altre lingue (italiano, francese, wolof, mandinka) e come marcare le traduzioni.
 
 ## Decisioni aperte
-- Nome definitivo del progetto.
 - Contatto pubblico (campo `contact` in `site.config.json`).
 - Licenza dei contenuti e del codice.
 - Dominio proprio o github.io.

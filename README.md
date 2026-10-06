@@ -1,6 +1,6 @@
-# Home Ground
+# Africa on the Ground
 
-*Nome provvisorio.* Guide ai luoghi che tengono separati due tipi di conoscenza:
+Guide ai luoghi che tengono separati due tipi di conoscenza:
 
 1. **Il racconto documentato.** Ogni affermazione ha una citazione numerata e ogni fonte è etichettata
    per tipo (istituzionale, stampa, accademica, primaria, enciclopedia) e per stato (verificata, da verificare, bozza).
@@ -108,7 +108,7 @@ Le versioni delle azioni nel workflow (`checkout@v4`, ecc.) vanno controllate al
 
 ## Cosa resta da decidere
 
-Vedi `docs/roadmap.md`. In breve: nome definitivo, contatto pubblico, licenza dei contenuti (la scegli tu),
+Vedi `docs/roadmap.md`. In breve: contatto pubblico, licenza dei contenuti (la scegli tu),
 quali font usare, e chi scrive le prime note.
 
 ## Stato dei contenuti
