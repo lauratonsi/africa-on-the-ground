@@ -43,6 +43,16 @@ Se non la si trova, la questione può entrare nelle lacune della scheda.
 Un abitante del villaggio, un gambiano di un'altra regione e uno della diaspora in Italia non dicono le stesse cose.
 Più note sulla stessa scheda sono la norma, non un'anomalia. Non scegliere "la" voce locale e non riassumerle in una sola.
 
+## La pagina Countries
+
+- I dati vengono da fonti istituzionali (Banca Mondiale, ONU) e sono citati come nelle schede. Si dichiara l'anno di
+  ciascun valore e che le cifre di popolazione sono stime.
+- Ciò che è calcolato qui (percentuali, densità, fasce di colore) è dichiarato come tale.
+- Non si stima ciò che manca: il Sahara Occidentale e gli altri territori senza cifre per paese restano fuori e
+  la pagina lo scrive tra le lacune.
+- I confini sono quelli di fatto di Natural Earth. La pagina non prende posizione sulle frontiere contestate.
+- Nessuna voce locale in questa pagina: è tutta nello strato documentato.
+
 ## Privacy
 
 - Il sito non raccoglie dati: nessun modulo, cookie, statistica, font o script esterni. Il build lo verifica.

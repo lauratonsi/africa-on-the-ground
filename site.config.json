@@ -21,6 +21,13 @@
     { "id": "market", "label": "Market",        "shape": "square" },
     { "id": "dish",   "label": "Dish",          "shape": "diamond" }
   ],
+  "subregions": [
+    { "id": "northern", "label": "Northern Africa" },
+    { "id": "western",  "label": "Western Africa" },
+    { "id": "middle",   "label": "Middle Africa" },
+    { "id": "eastern",  "label": "Eastern Africa" },
+    { "id": "southern", "label": "Southern Africa" }
+  ],
   "tiers": {
     "institutional": "Institutional",
     "press": "Press",

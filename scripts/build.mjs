@@ -3,7 +3,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { root, loadAll, validate, report } from "./lib.mjs";
-import { africaMap, gambiaMap, countryCodes, countryName } from "./map.mjs";
+import { africaMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
+import { barList, pairedBars, scatter, fmtInt, fmtPop } from "./charts.mjs";
 
 const data = loadAll();
 const result = validate(data);
@@ -66,7 +67,7 @@ function layout({ title, description, depth, body, current, script = false }) {
 <div class="wrap">
 <header class="top">
   <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
-  <nav><a href="${p}index.html#map">Map</a><a href="${p}index.html#places">Places</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+  <nav><a href="${p}index.html#map">Map</a><a href="${p}index.html#places">Places</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
 </header>
 <main id="main">
 ${body}
@@ -75,7 +76,7 @@ ${body}
   <p>This site sets no cookies, runs no analytics and loads nothing from other sites. <a href="${p}method/index.html">How it works</a></p>
 </footer>
 </div>
-${script ? `<script src="${p}app.js" defer></script>\n` : ""}</body>
+${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js" defer></script>\n` : ""}</body>
 </html>
 `;
 }
@@ -91,7 +92,8 @@ function citedIds(place) {
   return ids;
 }
 
-function renderPlace(p) {
+// Citazioni numerate in ordine di comparsa, con l'elenco delle fonti costruito alla fine.
+function makeCiter() {
   const order = [];
   const cite = (ids) => ids.map((id) => {
     let i = order.indexOf(id);
@@ -99,6 +101,24 @@ function renderPlace(p) {
     const n = i + 1;
     return `<a class="cite" href="#src-${n}" aria-label="Source ${n}">[${n}]</a>`;
   }).join("");
+  const list = () => {
+    const items = order.map((id, i) => {
+      const s = sources.get(id);
+      const n = i + 1;
+      const weak = s.status !== "verified";
+      const tag = esc(config.tiers[s.tier]) + (config.sourceStatus[s.status] ? ` · ${esc(config.sourceStatus[s.status])}` : "");
+      const who = s.author ? `${esc(s.author)}, ` : "";
+      const when = s.published ? `, ${esc(fmtDate(s.published))}` : "";
+      const host = new URL(s.url).host;
+      return `<li id="src-${n}"><span class="tier${weak ? " chk" : ""}">${tag}</span><span>[${n}] ${who}${esc(s.title)}. ${esc(s.publisher)}${when}. <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(host)}</a> <span class="retr">retrieved ${esc(fmtDate(s.retrieved))}</span>${s.note ? `<br><span class="retr">${esc(s.note)}</span>` : ""}</span></li>`;
+    }).join("");
+    return `<section class="sources" id="sec-sources"><h2>Sources</h2><ol>${items}</ol></section>`;
+  };
+  return { cite, list };
+}
+
+function renderPlace(p) {
+  const { cite, list: sourcesList } = makeCiter();
 
   const block = (b) => {
     if (b.type === "p") {
@@ -132,17 +152,7 @@ function renderPlace(p) {
     : "";
 
   // La lista delle fonti si costruisce per ultima, quando l'ordine delle citazioni è completo.
-  const srcItems = order.map((id, i) => {
-    const s = sources.get(id);
-    const n = i + 1;
-    const weak = s.status !== "verified";
-    const tag = esc(config.tiers[s.tier]) + (config.sourceStatus[s.status] ? ` · ${esc(config.sourceStatus[s.status])}` : "");
-    const who = s.author ? `${esc(s.author)}, ` : "";
-    const when = s.published ? `, ${esc(fmtDate(s.published))}` : "";
-    const host = new URL(s.url).host;
-    return `<li id="src-${n}"><span class="tier${weak ? " chk" : ""}">${tag}</span><span>[${n}] ${who}${esc(s.title)}. ${esc(s.publisher)}${when}. <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(host)}</a> <span class="retr">retrieved ${esc(fmtDate(s.retrieved))}</span>${s.note ? `<br><span class="retr">${esc(s.note)}</span>` : ""}</span></li>`;
-  }).join("");
-  const sourcesHtml = `<section class="sources" id="sec-sources"><h2>Sources</h2><ol>${srcItems}</ol></section>`;
+  const sourcesHtml = sourcesList();
 
   const list = (notes[p.slug] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
   const noteCards = list.map((n) => {
@@ -252,6 +262,173 @@ ${mapSection}
   ${published.length ? `<ul class="places" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
 </section>`
 }));
+
+// ---------- pagina Countries ----------
+function renderCountries(list) {
+  const { cite, list: sourcesList } = makeCiter();
+  const subLabel = Object.fromEntries(config.subregions.map((r) => [r.id, r.label]));
+  const tot = list.reduce((a, c) => ({ pop: a.pop + c.population, area: a.area + c.area }), { pop: 0, area: 0 });
+  const den = (c) => c.population / c.area;
+  const byPop = [...list].sort((a, b) => b.population - a.population);
+  const share = (n) => `${(n / tot.pop * 100).toFixed(1)}%`;
+
+  // classi della mappa: sei fasce per misura, una sola tinta (blu) dal chiaro allo scuro
+  const TH = { pop: [2e6, 5e6, 15e6, 40e6, 100e6], area: [3e4, 1e5, 3e5, 7e5, 1.5e6], den: [10, 25, 50, 100, 200] };
+  const cls = (v, th) => { const i = th.findIndex((t) => v < t); return i < 0 ? th.length + 1 : i + 1; };
+  const bins = (c) => ({ pop: cls(c.population, TH.pop), area: cls(c.area, TH.area), den: cls(den(c), TH.den) });
+  const LABELS = {
+    pop: ["under 2 million", "2–5 million", "5–15 million", "15–40 million", "40–100 million", "100 million or more"],
+    area: ["under 30,000 km²", "30,000–100,000", "100,000–300,000", "300,000–700,000", "700,000–1.5 million", "1.5 million or more"],
+    den: ["under 10 per km²", "10–25", "25–50", "50–100", "100–200", "200 or more"]
+  };
+  const NAMES = { pop: "Population", area: "Area", den: "People per km²" };
+  const count = (m, b) => list.filter((c) => bins(c)[m] === b).length;
+  const legends = Object.keys(TH).map((m) => `<div class="scale" data-for="${m}"><p class="scale-t">${NAMES[m]}</p><ol>${LABELS[m].map((t, i) => `<li><span class="sw" data-b="${i + 1}"></span>${esc(t)} <span class="n">${count(m, i + 1)}</span></li>`).join("")}</ol></div>`).join("");
+
+  const tipOf = (c) => `${c.name}. Capital ${c.capital}. Population ${fmtInt(c.population)}, area ${fmtInt(c.area)} km²`;
+  const ISLES = ["CPV", "COM", "MUS", "STP", "SYC"];
+  const isles = ISLES.map((iso) => list.find((c) => c.iso3 === iso)).filter(Boolean).map((c) => {
+    const b = bins(c);
+    return `<span class="isle c" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tipOf(c))}" tabindex="0">${esc(c.name)}</span>`;
+  }).join("");
+
+  // numeri di testa
+  const kpis = [
+    ["Countries", String(list.length)],
+    ["People", fmtPop(tot.pop)],
+    ["Total area", `${(tot.area / 1e6).toFixed(1)} million km²`],
+    ["Average density", `${Math.round(tot.pop / tot.area)} per km²`]
+  ].map(([k, v]) => `<div class="kpi"><span class="kl">${k}</span><span class="kv">${v}</span></div>`).join("");
+
+  // grafico 1: dove vive la gente
+  const top5 = byPop.slice(0, 5).reduce((a, c) => a + c.population, 0);
+  const rest = byPop.slice(15).reduce((a, c) => a + c.population, 0);
+  const chart1 = barList(byPop.slice(0, 15).map((c) => ({
+    label: c.name, value: c.population, text: fmtPop(c.population).replace(" million", " M"), sub: c.subregion,
+    tip: `${c.name}: ${fmtInt(c.population)} people, ${share(c.population)} of Africa`
+  })), { accent: 5 });
+
+  // grafico 2: punti, area contro popolazione
+  const pts = list.map((c) => ({ name: c.name, area: c.area, population: c.population, sub: c.subregion, tip: `${c.name}: ${fmtInt(c.population)} people on ${fmtInt(c.area)} km², ${den(c) < 10 ? den(c).toFixed(1) : Math.round(den(c))} per km²` }));
+  const dSorted = [...list].sort((a, b) => den(b) - den(a));
+  const densest = dSorted[0], sparsest = dSorted[dSorted.length - 1];
+  const bigArea = [...list].sort((a, b) => b.area - a.area)[0];
+  const fmtDen = (c) => (den(c) < 10 ? den(c).toFixed(1) : String(Math.round(den(c))));
+  const chart2 = scatter(pts, { labels: {
+    Nigeria: [-9, 4, "end"], Algeria: [9, 4, "start"], Egypt: [-9, 4, "end"], Mauritius: [9, 4, "start"],
+    Rwanda: [9, 4, "start"], Namibia: [9, 4, "start"], Gambia: [-9, 4, "end"]
+  } });
+
+  // grafico 3: quota di superficie e di popolazione per subregione
+  const subs = config.subregions.map((r) => {
+    const m = list.filter((c) => c.subregion === r.id);
+    const p = m.reduce((a, c) => a + c.population, 0), a = m.reduce((x, c) => x + c.area, 0);
+    return { id: r.id, label: r.label, popShare: p / tot.pop, areaShare: a / tot.area, p, a };
+  }).sort((a, b) => b.popShare - a.popShare);
+  const crowded = [...subs].sort((a, b) => b.popShare / b.areaShare - a.popShare / a.areaShare)[0];
+  const chart3 = pairedBars(subs.map((r) => ({
+    label: r.label, sub: r.id, values: [r.popShare, r.areaShare],
+    tips: [`${r.label}: ${fmtPop(r.p)}, ${(r.popShare * 100).toFixed(1)}% of Africa's people`, `${r.label}: ${fmtInt(r.a)} km², ${(r.areaShare * 100).toFixed(1)}% of Africa's area`]
+  })), ["Share of Africa's population", "Share of Africa's area"]);
+
+  // tabella
+  const cardsOf = (iso) => published.filter((p) => p.country === iso);
+  const rows = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
+    const cards = cardsOf(c.iso3);
+    const cardLink = cards.length ? ` <a class="cardlink" href="../places/${esc(cards[0].slug)}/index.html">${cards.length === 1 ? "1 place card" : `${cards.length} place cards`}</a>` : "";
+    return `<tr data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td></tr>`;
+  }).join("");
+  const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
+
+  const body = `
+<section class="hero">
+  <p class="kicker">Reference</p>
+  <h1>Africa by the numbers</h1>
+  <p class="sub">Where each of the 54 countries sits, its capital, its area and its population.</p>
+  <p class="lede">The figures are the World Bank's${cite(["wb-population", "wb-area", "wb-countries"])}. The shading, the charts and the percentages are calculated here from those figures. Nothing on this page comes from local voices: it is all in the record, and the sources are listed at the bottom.</p>
+</section>
+
+<section class="kpis" aria-label="Africa in four numbers">${kpis}</section>
+
+<section id="map" class="panel" aria-labelledby="cmap-h">
+  <div class="phead">
+    <h2 id="cmap-h">Map</h2>
+    <div class="seg" id="metric" role="group" aria-label="Shade the map by" hidden>
+      <button type="button" data-metric="pop" aria-pressed="true">Population</button>
+      <button type="button" data-metric="area" aria-pressed="false">Area</button>
+      <button type="button" data-metric="den" aria-pressed="false">People per km²</button>
+    </div>
+  </div>
+  <div class="mapwrap" data-m="pop">
+    <div class="mapcol">
+      ${choroplethMap(list, bins)}
+      <p class="isles-t">Island states too small to see on the map</p>
+      <div class="isles">${isles}</div>
+    </div>
+    <div class="legends">
+      ${legends}
+      <p class="fine"><span class="capkey"></span> Capital city. Shaded by the metric chosen above. Western Sahara has no figures and is left unshaded. Somaliland is shaded as part of Somalia.</p>
+    </div>
+  </div>
+  <p class="fine">Country outlines${cite(["natural-earth"])} show de facto boundaries and are not a statement about disputed ones. Subregions follow the United Nations statistical groups${cite(["un-m49"])}.</p>
+</section>
+
+<section id="charts" class="charts">
+  <figure class="chart">
+    <h2>The five most populous countries hold ${share(top5)} of Africa's people</h2>
+    <p class="chart-sub">Fifteen most populous countries, people${cite(["wb-population"])}</p>
+    ${chart1}
+    <figcaption>The other ${list.length - 15} countries together have ${fmtPop(rest)} people, ${share(rest)} of the total. Percentages are calculated here.</figcaption>
+  </figure>
+  <figure class="chart">
+    <h2>${esc(crowded.label)} has the largest share of people compared with its share of land</h2>
+    <p class="chart-sub">Share of the continent's population and area, by subregion${cite(["wb-population", "wb-area", "un-m49"])}</p>
+    ${chart3}
+    <figcaption>${esc(crowded.label)} holds ${(crowded.popShare * 100).toFixed(0)}% of the population on ${(crowded.areaShare * 100).toFixed(0)}% of the area. Shares are calculated here.</figcaption>
+  </figure>
+  <figure class="chart wide">
+    <h2>Size says little about crowding</h2>
+    <p class="chart-sub">Area against population for each country, both on logarithmic scales${cite(["wb-population", "wb-area"])}</p>
+    <div class="subfilter" id="subfilter" hidden><label for="sub">Highlight</label><select id="sub"><option value="all">All subregions</option>${subOptions}</select></div>
+    ${chart2}
+    <figcaption>The diagonal lines mark equal density, labelled in people per km²: countries on the same line are equally crowded. Densities run from ${fmtDen(sparsest)} in ${esc(sparsest.name)} to ${fmtDen(densest)} in ${esc(densest.name)}. ${esc(bigArea.name)} is the largest by area. Density is calculated here and counts empty land, such as desert, in the area.</figcaption>
+  </figure>
+</section>
+
+<section id="table" class="panel" aria-labelledby="tab-h">
+  <div class="phead">
+    <h2 id="tab-h">All ${list.length} countries <span class="count" id="tcount" aria-live="polite"></span></h2>
+    <div class="tools" id="tools" hidden>
+      <label class="sr" for="q">Search by country or capital</label>
+      <input id="q" type="search" placeholder="Search country or capital" autocomplete="off">
+      <label class="sr" for="tsub">Subregion</label>
+      <select id="tsub"><option value="all">All subregions</option>${subOptions}</select>
+    </div>
+  </div>
+  <div class="tablewrap">
+    <table class="data" id="ctable">
+      <thead><tr><th scope="col" data-sort="text">Country</th><th scope="col" data-sort="text">Capital</th><th scope="col" data-sort="text">Subregion</th><th scope="col" class="num" data-sort="num">Area, km²</th><th scope="col" class="num" data-sort="num">Population</th><th scope="col" class="num" data-sort="num">People per km²</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+  <p class="fine">Population is the 2025 value and area the 2023 value, the most recent the World Bank gave for each country${cite(["wb-population", "wb-area"])}. Capitals as listed by the World Bank${cite(["wb-countries"])}.</p>
+</section>
+
+<section id="sec-gaps" class="gaps panel-gaps">
+  <span class="layer-tag gap">Not yet sourced</span>
+  <ul>
+    <li>Population figures are estimates for 2025, not census counts, and countries differ in how recently they counted. This page does not show the uncertainty.</li>
+    <li>Some countries have more than one capital or seat of government. The table shows one name per country, as the World Bank lists it, and does not explain the exceptions.</li>
+    <li>Territories the United Nations lists under Africa, such as Western Sahara, are not included, because the World Bank gives no country figures for them.</li>
+    <li>Nothing yet on languages, economy, history or daily life. Those belong on the place cards, with their own sources and local voices.</li>
+  </ul>
+</section>
+${sourcesList()}`;
+
+  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body });
+}
+
+if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({

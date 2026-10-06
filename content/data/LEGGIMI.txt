@@ -1,0 +1,19 @@
+DATI DELLA PAGINA COUNTRIES
+
+africa-countries.json   54 stati africani: nome, capitale (con coordinate), subregione, popolazione, superficie.
+
+Provenienza (elencata in content/sources.json e citata nella pagina):
+  popolazione   Banca Mondiale, SP.POP.TOTL, ultimo valore disponibile (2025)
+  superficie    Banca Mondiale, AG.SRF.TOTL.K2, ultimo valore disponibile (2023)
+  capitale      Banca Mondiale, metadati dei paesi (una capitale per paese; accenti ripristinati a mano)
+  subregioni    ONU, Statistics Division, standard M49
+
+Il file è generato. Per aggiornarlo (di solito una volta l'anno), da questa cartella del progetto:
+
+  node scripts/prepare-countries.mjs
+
+Poi aggiorna la data "retrieved" delle quattro fonti della Banca Mondiale in content/sources.json
+e rileggi le note della pagina. Lo script si ferma se manca un valore per un paese.
+
+Non sono inclusi i territori che l'ONU elenca sotto l'Africa (per esempio il Sahara Occidentale): la Banca Mondiale
+non dà cifre per paese. Il file non contiene stime fatte a mano: se un dato manca, si dichiara, non si inventa.

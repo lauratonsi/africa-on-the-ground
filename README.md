@@ -20,6 +20,7 @@ con il consenso dell'autore, e le aggiungi a un file del progetto.
 site.config.json          nome, tagline, domande per i locals, etichette, contatto
 content/
   sources.json            tutte le fonti, riusabili da più schede
+  data/                   dati per la pagina Countries (54 paesi), vedi LEGGIMI.txt
   places/<slug>.json      una scheda per luogo (strato 1)
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
   pages/method.html       la pagina pubblica "Method"
@@ -32,6 +33,8 @@ scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/
   map.mjs                 disegna le mappe SVG
+  charts.mjs              disegna i grafici (barre in HTML, punti in SVG)
+  prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)
   prepare-geo.mjs         rigenera src/geo/ dai dati grezzi (si usa di rado)
   serve.mjs               anteprima locale
 docs/
@@ -114,6 +117,14 @@ aggiungerne i contorni a `scripts/prepare-geo.mjs`.
 
 Tipi di blocco previsti nelle sezioni: `p` (paragrafo a frasi citate), `facts` (la griglia dei dati),
 `timeline` (cronologia).
+
+## La pagina Countries
+
+`/countries/` mostra mappa, capitali, superficie e popolazione dei 54 stati africani, con tre grafici e una
+tabella ordinabile. Tutto viene da `content/data/africa-countries.json`, che si rigenera con
+`node scripts/prepare-countries.mjs` (rete necessaria solo per questo comando, non per il build).
+Le percentuali, le fasce di colore e le densità sono calcolate al build, e la pagina lo dice. I numeri e i titoli
+dei grafici non sono scritti a mano: se i dati cambiano, cambiano anche le frasi.
 
 ## Pubblicare su GitHub Pages
 

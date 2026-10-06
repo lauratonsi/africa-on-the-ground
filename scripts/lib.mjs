@@ -30,7 +30,9 @@ export function loadAll() {
   }
   const methodPath = path.join(root, "content", "pages", "method.html");
   const methodHtml = fs.existsSync(methodPath) ? fs.readFileSync(methodPath, "utf8") : "";
-  return { config, sourcesList, places, notes, methodHtml };
+  const countriesPath = path.join(root, "content", "data", "africa-countries.json");
+  const countries = fs.existsSync(countriesPath) ? readJson(countriesPath) : null;
+  return { config, sourcesList, places, notes, methodHtml, countries };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -39,7 +41,7 @@ const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 
-export function validate({ config, sourcesList, places, notes, methodHtml }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, countries }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -54,6 +56,11 @@ export function validate({ config, sourcesList, places, notes, methodHtml }) {
   const tierIds = new Set(Object.keys(config.tiers || {}));
   const statusIds = new Set(Object.keys(config.sourceStatus || {}));
   if (!kindIds.size) err('site.config.json: "noteKinds" è vuoto.');
+  const subIds = new Set();
+  for (const r of config.subregions || []) {
+    if (!r.id || !r.label) err(`site.config.json: subregions "${r.id}" richiede id e label.`);
+    subIds.add(r.id);
+  }
   const SHAPES = ["circle", "square", "diamond"];
   const typeIds = new Set();
   if (!Array.isArray(config.placeTypes) || !config.placeTypes.length) err('site.config.json: "placeTypes" è vuoto.');
@@ -158,6 +165,24 @@ export function validate({ config, sourcesList, places, notes, methodHtml }) {
       (b.items || []).forEach((x) => collect(x.cite));
     }));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
+  }
+  // --- dati dei paesi
+  if (countries) {
+    const w = "data/africa-countries.json";
+    if (!DATE.test(countries.retrieved || "")) err(`${w}: "retrieved" deve essere AAAA-MM-GG.`);
+    checkCite(countries.sources, w);
+    const seen = new Set();
+    for (const c of countries.countries || []) {
+      const cw = `${w} (${c.iso3 || "senza codice"})`;
+      if (!/^[A-Z]{3}$/.test(c.iso3 || "")) err(`${cw}: iso3 mancante o non valido.`);
+      if (seen.has(c.iso3)) err(`${cw}: codice duplicato.`);
+      seen.add(c.iso3);
+      for (const k of ["name", "capital"]) if (!c[k]) err(`${cw}: manca "${k}".`);
+      if (!subIds.has(c.subregion)) err(`${cw}: subregion "${c.subregion}" non prevista in site.config.json.`);
+      for (const k of ["population", "area"]) if (!(typeof c[k] === "number" && c[k] > 0)) err(`${cw}: "${k}" deve essere un numero positivo.`);
+      if (!(Math.abs(c.capitalLat) <= 90 && Math.abs(c.capitalLon) <= 180)) err(`${cw}: coordinate della capitale non valide.`);
+    }
+    if (seen.size !== 54) warn(`${w}: ${seen.size} paesi invece di 54.`);
   }
   for (const id of sources.keys()) {
     if (!used.has(id)) warn(`sources.json: la fonte "${id}" non è citata da nessuna scheda.`);

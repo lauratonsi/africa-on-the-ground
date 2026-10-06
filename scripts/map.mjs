@@ -92,3 +92,27 @@ export function gambiaMap(places, types, { focus = null, hrefFor } = {}) {
   const label = focus ? `Map showing where ${focus.name} is on the River Gambia` : "Map of The Gambia with place cards";
   return `<svg class="map map-gambia${focus ? " map-local" : ""}" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="${esc(label)}"><g fill-rule="evenodd">${land}</g>${rivers}${labels}<g class="pins">${pins}</g></svg>`;
 }
+
+// ---------- mappa a colori per paese (pagina Countries) ----------
+// I contorni di Natural Earth usano alcune sigle proprie: le riportiamo ai codici ISO.
+// Somaliland è disegnata come parte della Somalia, come nell'elenco dei paesi della Banca Mondiale.
+// Il Sahara Occidentale non ha dati e resta senza colore.
+const SHAPE_ISO = { SDS: "SSD", SOL: "SOM", SAH: null };
+
+export function choroplethMap(countries, bins) {
+  const p = projection({ lon0: -19, lon1: 52, lat0: -36, lat1: 38 }, 700);
+  const by = Object.fromEntries(countries.map((c) => [c.iso3, c]));
+  const tip = (c) => `${c.name}. Capital ${c.capital}. Population ${c.population.toLocaleString("en-US")}, area ${c.area.toLocaleString("en-US")} km²`;
+  const land = africa.countries.map((shape) => {
+    const iso = shape.a3 in SHAPE_ISO ? SHAPE_ISO[shape.a3] : shape.a3;
+    const c = iso && by[iso];
+    const d = shapePath(shape.rings, p);
+    if (!c) return `<path class="c nodata" d="${d}"><title>${esc(shape.name)}: no figures</title></path>`;
+    const b = bins(c);
+    return `<path class="c" d="${d}" data-iso="${c.iso3}" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tip(c))}" tabindex="0"><title>${esc(tip(c))}</title></path>`;
+  }).join("");
+  // capitali: un punto con anello del colore della superficie, così si legge anche sui colori scuri
+  const caps = countries.filter((c) => c.capitalLon > -19 && c.capitalLon < 52 && c.capitalLat > -36 && c.capitalLat < 38).map((c) =>
+    `<circle class="cap" cx="${p.x(c.capitalLon)}" cy="${p.y(c.capitalLat)}" r="3.4" data-sub="${c.subregion}"><title>${esc(c.capital)}, capital of ${esc(c.name)}</title></circle>`).join("");
+  return `<svg class="map cmap" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="Map of Africa shaded by country. The table below has the same figures." data-m="pop"><g fill-rule="evenodd">${land}</g><g class="caps">${caps}</g></svg>`;
+}

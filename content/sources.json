@@ -163,5 +163,55 @@
     "status": "verified",
     "note": "Refers to a fire at the market without saying when it happened.",
     "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wb-population",
+    "title": "Population, total (SP.POP.TOTL)",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Most recent value per country, 2025, obtained through the World Bank API. Estimates, not census counts.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wb-area",
+    "title": "Surface area, sq. km (AG.SRF.TOTL.K2)",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/indicator/AG.SRF.TOTL.K2",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Most recent value per country, 2023, obtained through the World Bank API. Total area including inland water.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wb-countries",
+    "title": "Country metadata: capital city",
+    "publisher": "World Bank",
+    "url": "https://api.worldbank.org/v2/country",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "One capital per country. The World Bank writes some names without accents; they are restored here.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "un-m49",
+    "title": "Standard country or area codes for statistical use (M49)",
+    "publisher": "United Nations Statistics Division",
+    "url": "https://unstats.un.org/unsd/methodology/m49/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Source of the five African subregions. The classification is for statistical convenience and implies no assumption about political affiliation.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "natural-earth",
+    "title": "Natural Earth: admin 0 countries, 1:50m and 1:10m",
+    "publisher": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/",
+    "tier": "primary",
+    "status": "verified",
+    "note": "Public domain outlines. They show de facto boundaries and draw Somaliland and Western Sahara as separate areas.",
+    "retrieved": "2026-10-06"
   }
 ]
