@@ -89,7 +89,40 @@ function art(seed, cols, rows) {
 
 const themeButton = `<button class="theme-btn" id="theme" type="button" hidden aria-label="Colour theme"><svg class="i-auto" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 2.5a7.5 7.5 0 0 1 0 15z" fill="currentColor"/></svg><svg class="i-light" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="4" fill="currentColor"/><path d="M10 1.5v2.5M10 16v2.5M1.5 10H4M16 10h2.5M4 4l1.8 1.8M14.2 14.2L16 16M16 4l-1.8 1.8M5.8 14.2L4 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="i-dark" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 12.2A7 7 0 0 1 7.8 3.5a7 7 0 1 0 8.7 8.7z" fill="currentColor"/></svg></button>`;
 
-function layout({ title, description, depth, body, current, script = false }) {
+
+// Il paesaggio della home: cielo, sole, colline, fiume e baobab, disegnato a strati.
+// I colori sono variabili CSS (--sky-*, --far, --mid...), quindi cambiano da soli nel tema scuro.
+function landscape() {
+  const bao = '<g id="baobab" class="bao" stroke-linecap="round" stroke-linejoin="round"><path d="M-34 0 C-40 -50 -30 -110 -18 -160 C-16 -168 16 -168 18 -160 C30 -110 40 -50 34 0 Z" stroke="none"/><path d="M0 -160 L-62 -214 M0 -160 L-24 -230 M0 -160 L30 -232 M0 -160 L68 -210 M0 -160 L96 -176" fill="none" stroke-width="9"/><path d="M-62 -214 L-96 -222 M-62 -214 L-78 -250 M-24 -230 L-44 -266 M-24 -230 L-8 -268 M30 -232 L22 -270 M30 -232 L58 -262 M68 -210 L100 -232 M68 -210 L84 -250 M96 -176 L128 -190" fill="none" stroke-width="5"/><path d="M-96 -222 L-118 -228 M-78 -250 L-86 -280 M-44 -266 L-56 -292 M-8 -268 L2 -298 M22 -270 L18 -300 M58 -262 L78 -286 M100 -232 L126 -248 M84 -250 L96 -278" fill="none" stroke-width="3"/></g>';
+  const stars = [[140, 90, 2], [300, 150, 1.6], [470, 60, 2.2], [640, 130, 1.5], [820, 70, 2], [1010, 140, 1.6], [1180, 80, 2.2], [1330, 170, 1.6], [240, 230, 1.4], [1090, 250, 1.4]]
+    .map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}"/>`).join("");
+  return `<svg class="scape" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="scSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="sk1"/><stop offset=".3" class="sk2"/><stop offset=".55" class="sk3"/><stop offset=".78" class="sk4"/><stop offset="1" class="sk5"/></linearGradient>
+<radialGradient id="scGlow" cx="50%" cy="50%" r="50%"><stop offset="0" class="glow" stop-opacity=".85"/><stop offset="1" class="glow" stop-opacity="0"/></radialGradient>
+<linearGradient id="scRiver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="riv1"/><stop offset="1" class="riv2"/></linearGradient>
+${bao}
+</defs>
+<rect width="1440" height="900" fill="url(#scSky)"/>
+<g class="star">${stars}</g>
+<circle cx="1030" cy="665" r="300" fill="url(#scGlow)"/>
+<circle class="sunfill" cx="1030" cy="665" r="132"/>
+<path class="far" d="M0 640 C150 600 300 625 470 605 S790 585 930 622 S1230 600 1440 630 L1440 900 L0 900 Z"/>
+<path class="mid" d="M0 690 C200 655 380 690 560 668 S900 650 1090 685 S1330 668 1440 690 L1440 900 L0 900 Z"/>
+<path d="M0 720 C260 700 520 730 800 712 S1240 700 1440 722 L1440 790 C1180 778 900 800 640 786 S180 790 0 782 Z" fill="url(#scRiver)" opacity=".92"/>
+<g class="refl" fill="none" stroke-width="3" stroke-linecap="round" opacity=".8"><path d="M970 726 h120 M990 740 h84 M1005 754 h58 M1018 768 h34"/></g>
+<use href="#baobab" transform="translate(470 668) scale(.5)" opacity=".75"/>
+<use href="#baobab" transform="translate(700 676) scale(.36)" opacity=".7"/>
+<path class="near" d="M0 792 C240 770 520 800 820 786 S1260 776 1440 790 L1440 900 L0 900 Z"/>
+<path class="ground" d="M0 850 C300 830 620 864 920 846 S1300 838 1440 850 L1440 900 L0 900 Z"/>
+<use href="#baobab" transform="translate(150 880) scale(1.55)"/>
+<use href="#baobab" transform="translate(560 892) scale(.95)"/>
+<use href="#baobab" transform="translate(1290 892) scale(1.95)"/>
+<g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g>
+</svg>`;
+}
+
+function layout({ title, description, depth, body, current, script = false, bodyClass = "" }) {
   const p = prefix(depth);
   return `<!doctype html>
 <html lang="${esc(config.lang)}">
@@ -102,7 +135,7 @@ function layout({ title, description, depth, body, current, script = false }) {
 <link rel="stylesheet" href="${p}styles.css?v=${VER}">
 <script src="${p}theme.js?v=${VER}"></script>
 </head>
-<body>
+<body${bodyClass ? ` class="${bodyClass}"` : ""}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="wrap top-in">
@@ -329,38 +362,40 @@ write("index.html", layout({
   description: config.tagline,
   depth: 0,
   script: true,
+  bodyClass: "home",
   body: `
-<section class="wrap hero">
-  <div class="hero-grid">
-    <div class="hero-text">
-      <p class="kicker">Place guides</p>
-      <h1>${esc(config.name)}</h1>
-      <p class="sub">${esc(config.tagline)}</p>
-      <p class="actions"><a class="btn" href="#places">See the places</a><a class="btn btn-alt" href="method/index.html">How it works</a></p>
-    </div>
-    <div class="hero-art" aria-hidden="true">${art("africa-on-the-ground", 4, 4)}</div>
+<section class="scape-hero">
+  ${landscape()}
+  <div class="scape-text">
+    <p class="scape-kicker">Place guides</p>
+    <h1>${esc(config.name)}</h1>
+    <p class="scape-sub">${esc(config.tagline)}</p>
+    <p class="actions"><a class="btn btn-cream" href="#places">See the places</a></p>
   </div>
 </section>
-<section class="wrap layers-sec" aria-label="The two layers of every card">
-  <div class="layers">
-    <article class="layer layer-rec">
-      <span class="layer-tag">In the record</span>
-      <h2>What the documents say</h2>
-      <p>Every statement has a numbered citation, and every source is labelled by its kind and by how far it has been checked.</p>
-      <p class="demo">UNESCO inscribed the site in 2003 <span class="cite">[1]</span></p>
-    </article>
-    <article class="layer layer-voi">
-      <span class="layer-tag">From people who know this place</span>
-      <h2>What they tell us</h2>
-      <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
-      <p class="demo">"${esc(config.noteKinds[0].question)}"</p>
-    </article>
-  </div>
-</section>
-<section id="places" class="section">
+<section id="places" class="night">
   <div class="wrap">
-    <h2 class="listh">The place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
-    ${published.length ? `<ul class="places" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
+    <div class="night-head">
+      <h2 class="listh">The place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
+      <p class="night-note">Every card keeps two kinds of knowledge apart: what the record says and what people who know the place say.</p>
+    </div>
+    ${published.length ? `<ul class="places arches" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
+  </div>
+</section>
+<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false"><path d="M0 120 L0 70 C240 10 480 110 720 60 S1200 0 1440 60 L1440 120 Z"/></svg></div>
+<section class="wrap suns-sec" aria-label="The two layers of every card">
+  <h2 class="suns-title">Two kinds of knowledge. Never mixed.</h2>
+  <div class="suns">
+    <article class="sun sun-rec">
+      <span class="layer-tag">In the record</span>
+      <h3>What the documents say</h3>
+      <p>Every statement has a numbered citation, and every source is labelled by its kind and by how far it has been checked.</p>
+    </article>
+    <article class="sun sun-voi">
+      <span class="layer-tag">From people who know this place</span>
+      <h3>What they tell us</h3>
+      <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
+    </article>
   </div>
 </section>
 ${mapSection}
