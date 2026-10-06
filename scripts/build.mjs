@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { root, loadAll, validate, report } from "./lib.mjs";
+import { africaMap, gambiaMap, countryCodes, countryName } from "./map.mjs";
 
 const data = loadAll();
 const result = validate(data);
@@ -10,6 +11,13 @@ report(result);
 if (result.errors.length) {
   console.error("\nBuild interrotto: correggi gli errori sopra.");
   process.exit(1);
+}
+
+for (const { file, data: pl } of data.places) {
+  if (pl.country && !countryCodes.has(pl.country)) {
+    console.error(`  errore: places/${file}: country "${pl.country}" non esiste in src/geo/africa.json.`);
+    process.exit(1);
+  }
 }
 
 const { config, sourcesList, places, notes, methodHtml } = data;
@@ -25,6 +33,13 @@ const fmtDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return 
 const prefix = (depth) => (depth === 0 ? "./" : "../".repeat(depth));
 const kindLabel = Object.fromEntries(config.noteKinds.map((k) => [k.id, k.label]));
 const relLabel = Object.fromEntries(config.relations.map((r) => [r.id, r.label]));
+const types = Object.fromEntries(config.placeTypes.map((t) => [t.id, t]));
+const SHAPE_SVG = {
+  circle: '<circle cx="7" cy="7" r="5.5"/>',
+  square: '<rect x="1.5" y="1.5" width="11" height="11"/>',
+  diamond: '<rect x="2.5" y="2.5" width="9" height="9" transform="rotate(45 7 7)"/>'
+};
+const typeIcon = (id) => `<svg class="ticon" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">${SHAPE_SVG[types[id].shape]}</svg>`;
 
 function write(rel, content) {
   const file = path.join(dist, rel);
@@ -34,7 +49,7 @@ function write(rel, content) {
 
 const brandSvg = '<svg width="26" height="22" viewBox="0 0 26 22" aria-hidden="true"><rect class="r" x="0" y="0" width="26" height="10"/><rect class="v" x="0" y="12" width="17" height="10"/></svg>';
 
-function layout({ title, description, depth, body, current }) {
+function layout({ title, description, depth, body, current, script = false }) {
   const p = prefix(depth);
   return `<!doctype html>
 <html lang="${esc(config.lang)}">
@@ -51,7 +66,7 @@ function layout({ title, description, depth, body, current }) {
 <div class="wrap">
 <header class="top">
   <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
-  <nav><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+  <nav><a href="${p}index.html#map">Map</a><a href="${p}index.html#places">Places</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
 </header>
 <main id="main">
 ${body}
@@ -60,7 +75,7 @@ ${body}
   <p>This site sets no cookies, runs no analytics and loads nothing from other sites. <a href="${p}method/index.html">How it works</a></p>
 </footer>
 </div>
-</body>
+${script ? `<script src="${p}app.js" defer></script>\n` : ""}</body>
 </html>
 `;
 }
@@ -103,6 +118,15 @@ function renderPlace(p) {
     `<section id="sec-${esc(s.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(s.title)}</h2>${s.blocks.map(block).join("")}</section>`
   ).join("\n");
 
+  const hrefSibling = (x) => `../${x.slug}/index.html`;
+  let loc = "";
+  if (p.coords && p.country === "GMB") {
+    const c = p.coords;
+    const how = c.approx ? "Approximate position" : "Position";
+    const src = c.cite ? `, coordinates from ${cite(c.cite)}` : ", not yet sourced";
+    loc = `<figure class="loc">${gambiaMap(published, types, { focus: p, hrefFor: hrefSibling })}<figcaption>${how} on the River Gambia${src}. Outlines: Natural Earth.</figcaption></figure>`;
+  }
+
   const gaps = p.gaps.length
     ? `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">Not yet sourced</span><ul>${p.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`
     : "";
@@ -133,17 +157,21 @@ function renderPlace(p) {
   const contact = config.contact ? ` To offer a note or ask for one to be removed: ${esc(config.contact)}.` : "";
 
   const body = `
-<section class="hero">
-  <p class="kicker">${esc(p.region)}</p>
-  <h1>${esc(p.name)}</h1>
-  <p class="sub">${esc(p.subtitle)}</p>
-  ${p.status === "draft" ? '<p class="draft">Draft, not yet public</p>' : ""}
-  <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
-  <ul class="legend">
-    <li><span class="layer-tag rec">In the record</span> cited to a source</li>
-    <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
-  </ul>
-  <p class="jump"><a href="#voices">Jump to what people who know this place say</a></p>
+<p class="crumb"><a href="../../index.html#places">&larr; All places</a></p>
+<section class="hero hero-place">
+  <div class="hero-text">
+    <p class="kicker">${esc(p.region)}</p>
+    <h1>${esc(p.name)}</h1>
+    <p class="sub">${esc(p.subtitle)}</p>
+    <p class="ptype"><span class="chip-type">${typeIcon(p.type)}${esc(types[p.type].label)}</span>${p.status === "draft" ? '<span class="draft">Draft, not yet public</span>' : ""}</p>
+    <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
+    <ul class="legend">
+      <li><span class="layer-tag rec">In the record</span> cited to a source</li>
+      <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
+    </ul>
+    <p class="jump"><a href="#voices">Jump to what people who know this place say</a></p>
+  </div>
+  ${loc}
 </section>
 <div class="cols">
   <article class="record" id="record">
@@ -179,13 +207,34 @@ for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
 const placeItems = published.map((p) => {
   const n = (notes[p.slug] || []).length;
-  return `<li><a class="place" href="places/${esc(p.slug)}/index.html"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}</span></a></li>`;
+  const where = p.coords ? "" : " · not on the map";
+  return `<li data-slug="${esc(p.slug)}" data-type="${esc(p.type)}"><a class="place" href="places/${esc(p.slug)}/index.html"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}${where}${p.status === "draft" ? " · draft" : ""}</span></a></li>`;
 }).join("");
+
+const usedTypes = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));
+const onMap = [...new Set(published.filter((p) => p.coords && p.country).map((p) => p.country))];
+const typeLegend = usedTypes.map((t) => `<li>${typeIcon(t.id)}${esc(t.label)}</li>`).join("");
+const filterChips = usedTypes.length > 1
+  ? `<div class="filters" id="filters" role="group" aria-label="Filter places by type" hidden><button type="button" class="fbtn" data-filter="all" aria-pressed="true">All</button>${usedTypes.map((t) => `<button type="button" class="fbtn" data-filter="${esc(t.id)}" aria-pressed="false">${typeIcon(t.id)}${esc(t.label)}</button>`).join("")}</div>`
+  : "";
+
+const mapSection = published.some((p) => p.coords)
+  ? `<section id="map" class="mapsec" aria-labelledby="map-h">
+  <div class="maphead"><h2 class="listh" id="map-h">Map</h2>${filterChips}</div>
+  <div class="maps">
+    <figure class="fig-africa">${africaMap(published, types)}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}.</figcaption></figure>
+    <figure class="fig-gambia">${gambiaMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html` })}<figcaption>Point at a marker to see its name, or choose a card below.</figcaption></figure>
+  </div>
+  <ul class="legend legend-types">${typeLegend}</ul>
+  <p class="fine">Positions are approximate unless the card cites a source for them. Country outlines: Natural Earth, public domain.</p>
+</section>`
+  : "";
 
 write("index.html", layout({
   title: config.name,
   description: config.tagline,
   depth: 0,
+  script: true,
   body: `
 <section class="hero">
   <p class="kicker">Place guides</p>
@@ -197,9 +246,10 @@ write("index.html", layout({
     <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
   </ul>
 </section>
-<section>
-  <h2 class="listh">Place cards</h2>
-  ${published.length ? `<ul class="places">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
+${mapSection}
+<section id="places">
+  <h2 class="listh">Place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
+  ${published.length ? `<ul class="places" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
 </section>`
 }));
 
@@ -249,6 +299,7 @@ for (const f of FONTS) {
 // La licenza OFL deve accompagnare i font distribuiti.
 const licDir = path.join(fontDir, "licenses");
 if (faces.length && fs.existsSync(licDir)) fs.cpSync(licDir, path.join(dist, "fonts", "licenses"), { recursive: true });
+fs.copyFileSync(path.join(root, "src", "app.js"), path.join(dist, "app.js"));
 write("styles.css", (faces.length ? faces.join("\n") + "\n" : "") + css);
 console.log(faces.length ? `Font locali inclusi: ${faces.length} file.` : "Nessun font locale trovato in src/fonts: uso i font di sistema.");
 

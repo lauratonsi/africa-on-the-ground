@@ -16,6 +16,11 @@
     { "id": "abroad", "label": "Gambian, lives abroad" },
     { "id": "other",  "label": "Another connection to the place" }
   ],
+  "placeTypes": [
+    { "id": "site",   "label": "Historic site", "shape": "circle" },
+    { "id": "market", "label": "Market",        "shape": "square" },
+    { "id": "dish",   "label": "Dish",          "shape": "diamond" }
+  ],
   "tiers": {
     "institutional": "Institutional",
     "press": "Press",

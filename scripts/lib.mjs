@@ -54,6 +54,13 @@ export function validate({ config, sourcesList, places, notes, methodHtml }) {
   const tierIds = new Set(Object.keys(config.tiers || {}));
   const statusIds = new Set(Object.keys(config.sourceStatus || {}));
   if (!kindIds.size) err('site.config.json: "noteKinds" è vuoto.');
+  const SHAPES = ["circle", "square", "diamond"];
+  const typeIds = new Set();
+  if (!Array.isArray(config.placeTypes) || !config.placeTypes.length) err('site.config.json: "placeTypes" è vuoto.');
+  for (const t of config.placeTypes || []) {
+    if (!t.id || !t.label || !SHAPES.includes(t.shape)) err(`site.config.json: placeTypes "${t.id}" richiede id, label e shape (${SHAPES.join(", ")}).`);
+    typeIds.add(t.id);
+  }
   if (!config.contact) warn('site.config.json: "contact" è vuoto. La pagina Method non dirà come chiedere la rimozione di una nota.');
   if (!methodHtml) warn("content/pages/method.html non trovato.");
 
@@ -90,6 +97,17 @@ export function validate({ config, sourcesList, places, notes, methodHtml }) {
     placeSlugs.add(p.slug);
     if (!["draft", "published"].includes(p.status)) err(`${w}: status deve essere "draft" o "published".`);
     for (const k of ["name", "region", "subtitle"]) if (!p[k]) err(`${w}: manca "${k}".`);
+    if (!typeIds.has(p.type)) err(`${w}: type "${p.type}" non previsto in site.config.json (placeTypes).`);
+    if (p.country != null && !/^[A-Z]{3}$/.test(p.country)) err(`${w}: country deve essere un codice ISO a tre lettere maiuscole, per esempio GMB.`);
+    if (p.coords != null) {
+      const c = p.coords;
+      if (typeof c.lat !== "number" || c.lat < -90 || c.lat > 90 || typeof c.lon !== "number" || c.lon < -180 || c.lon > 180) {
+        err(`${w}: coords richiede lat e lon numerici validi.`);
+      }
+      if (!p.country) err(`${w}: coords richiede anche country.`);
+      if (c.cite != null) checkCite(c.cite, `${w}: coords`);
+      else if (p.status === "published") warn(`${w}: le coordinate non hanno una fonte (coords.cite).`);
+    }
     (p.facts || []).forEach((f, i) => {
       if (!f.label || !f.value) err(`${w}: facts[${i}] senza label o value.`);
       checkCite(f.cite, `${w}: facts[${i}]`);
@@ -133,6 +151,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml }) {
       const s = sources.get(id);
       if (s && s.status !== "verified") weak.add(id);
     });
+    collect(p.coords && p.coords.cite);
     (p.facts || []).forEach((f) => collect(f.cite));
     (p.sections || []).forEach((s) => (s.blocks || []).forEach((b) => {
       (b.parts || []).forEach((x) => collect(x.cite));

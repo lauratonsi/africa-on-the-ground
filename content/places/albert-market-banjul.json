@@ -1,0 +1,19 @@
+{
+  "slug": "albert-market-banjul",
+  "status": "draft",
+  "type": "market",
+  "country": "GMB",
+  "name": "Albert Market",
+  "region": "The Gambia · Banjul",
+  "subtitle": "Card in preparation.",
+  "coords": {
+    "lat": 13.4527,
+    "lon": -16.578,
+    "approx": true
+  },
+  "facts": [],
+  "sections": [],
+  "gaps": [
+    "Everything. This card has not been researched yet."
+  ]
+}

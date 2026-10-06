@@ -1,0 +1,17 @@
+DATI GEOGRAFICI
+
+africa.json   contorni dei paesi africani, semplificati (da Natural Earth 1:50m, admin 0 countries)
+gambia.json   Gambia e Senegal (da Natural Earth 1:10m, admin 0 countries) e il fiume Gambia
+              (Natural Earth 1:10m, rivers and lake centerlines)
+
+Natural Earth è di pubblico dominio: https://www.naturalearthdata.com/about/terms-of-use/
+I dati sono stati scaricati il 6 ottobre 2026 dal repository
+https://github.com/nvkelso/natural-earth-vector (cartella geojson).
+
+I file qui dentro sono generati. Per rigenerarli, scarica i tre file geojson grezzi
+(ne_50m_admin_0_countries, ne_10m_admin_0_countries, ne_10m_rivers_lake_centerlines) in una cartella e lancia:
+
+  node scripts/prepare-geo.mjs <cartella>
+
+Natural Earth mostra i confini de facto: non è una presa di posizione del progetto su confini contestati.
+Le mappe del sito sono illustrative, non servono per navigare.

@@ -24,11 +24,15 @@ content/
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
   pages/method.html       la pagina pubblica "Method"
 src/
-  styles.css              lo stile (due strati, tema chiaro e scuro)
+  styles.css              lo stile (due strati, tema chiaro e scuro, mappe)
+  app.js                  filtro per tipo e evidenziazione sulla home (facoltativo)
+  geo/                    contorni dei paesi per le mappe (Natural Earth), vedi LEGGIMI.txt
   fonts/                  font locali con licenze, vedi LEGGIMI.txt
 scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/
+  map.mjs                 disegna le mappe SVG
+  prepare-geo.mjs         rigenera src/geo/ dai dati grezzi (si usa di rado)
   serve.mjs               anteprima locale
 docs/
   metodo-editoriale.md    le regole del progetto
@@ -93,6 +97,20 @@ Apri `content/notes/<slug>.json` e aggiungi un oggetto. `name` e `relation` sono
    Lo slug deve coincidere con il nome del file.
 3. Crea `content/notes/<nuovo-slug>.json` con `[]`.
 4. `npm run check`.
+
+Ogni luogo ha anche `type` (uno degli `id` di `placeTypes` in `site.config.json`), `country` (codice ISO
+a tre lettere, per esempio `GMB`) e, se si trova su una mappa, `coords`:
+
+```json
+"type": "site",
+"country": "GMB",
+"coords": { "lat": 13.3176, "lon": -16.3614, "cite": ["unesco-761"] }
+```
+
+`coords.cite` indica la fonte delle coordinate; con `"approx": true` il segnaposto è dichiarato approssimativo.
+Un luogo senza `coords` (per esempio un piatto) compare nell'elenco ma non sulla mappa.
+Per ora esiste una mappa di dettaglio solo per la Gambia (`country: "GMB"`); per un altro paese serve prima
+aggiungerne i contorni a `scripts/prepare-geo.mjs`.
 
 Tipi di blocco previsti nelle sezioni: `p` (paragrafo a frasi citate), `facts` (la griglia dei dati),
 `timeline` (cronologia).

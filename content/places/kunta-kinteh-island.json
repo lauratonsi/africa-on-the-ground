@@ -1,9 +1,12 @@
 {
   "slug": "kunta-kinteh-island",
   "status": "published",
+  "type": "site",
+  "country": "GMB",
   "name": "Kunta Kinteh Island",
   "region": "The Gambia · River Gambia",
   "subtitle": "Near Juffureh and Albreda. UNESCO World Heritage since 2003.",
+  "coords": { "lat": 13.3176, "lon": -16.3614, "cite": ["unesco-761"] },
   "facts": [
     { "label": "Inscribed", "value": "2003", "cite": ["unesco-761"] },
     { "label": "Criteria", "value": "iii and vi", "cite": ["unesco-761"] },
