@@ -8,12 +8,12 @@
   "subtitle": "Standing stones of laterite, part of the Stone Circles of Senegambia. UNESCO World Heritage since 2006.",
   "coords": { "lat": 13.6915, "lon": -14.8731, "cite": ["wikipedia-senegambian-stone-circles"] },
   "facts": [
-    { "label": "Inscribed", "value": "2006", "cite": ["wikipedia-senegambian-stone-circles"] },
-    { "label": "Whole property", "value": "4 main groups, 2 countries", "cite": ["wikipedia-senegambian-stone-circles"] },
-    { "label": "Circles at Wassu", "value": "11, with frontal stones", "cite": ["wikipedia-senegambian-stone-circles"] },
-    { "label": "Tallest stone", "value": "2.59 m", "cite": ["wikipedia-senegambian-stone-circles"] },
-    { "label": "Burial mounds near Wassu", "value": "dated AD 927 to 1305", "cite": ["wikipedia-senegambian-stone-circles"] },
-    { "label": "Region", "value": "Central River Region", "cite": ["the-point-wassu-2015"] }
+    { "label": "Inscribed", "value": "2006", "cite": ["unesco-1226"] },
+    { "label": "Criteria", "value": "i and iii", "cite": ["unesco-1226"] },
+    { "label": "Whole property", "value": "4 groups, 93 circles, 2 countries", "cite": ["unesco-1226"] },
+    { "label": "Circles at Wassu", "value": "11, with frontal stones", "cite": ["unesco-1226"] },
+    { "label": "Burial finds at Wassu", "value": "dated AD 927 to 1305", "cite": ["unesco-1226"] },
+    { "label": "Managed by", "value": "National Centre for Arts and Culture", "cite": ["unesco-1226"] }
   ],
   "sections": [
     {
@@ -23,15 +23,17 @@
         {
           "type": "p",
           "parts": [
-            { "text": "Wassu is one of the four main groups of the Stone Circles of Senegambia. The other Gambian group is Kerr Batch, and the two others, Sine Ngayène and Wanar, lie in Senegal.", "cite": ["wikipedia-senegambian-stone-circles"] },
-            { "text": " Taken together the stone circles and mounds are described as the largest concentration of such monuments anywhere, spread over an area about 350 km long and 100 km wide.", "cite": ["wikipedia-senegambian-stone-circles"] }
+            { "text": "Wassu is one of four groups of stone circles that UNESCO lists together as the Stone Circles of Senegambia. The other Gambian group is Kerbatch. Wanar and Sine Ngayène are in Senegal.", "cite": ["unesco-1226"] },
+            { "text": " Between them the four groups hold 93 circles. They belong to a wider concentration of more than 1,000 monuments in a band about 100 km wide along some 350 km of the River Gambia.", "cite": ["unesco-1226"] }
           ]
         },
         { "type": "facts" },
         {
           "type": "p",
           "parts": [
-            { "text": "At Wassu the stones stand in 11 circles. Some stand apart from the circles, usually to the east, and are called frontal stones. The pillars are mostly laterite, cut cylindrical or polygonal, and the encyclopedia article gives an average of about two metres high and seven tons.", "cite": ["wikipedia-senegambian-stone-circles"] }
+            { "text": "Wassu has 11 circles and their frontal stones, and UNESCO says it has the highest stones of the area.", "cite": ["unesco-1226"] },
+            { "text": " Frontal stones are the ones that stand apart from a circle, usually to the east.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "text": " The pillars were cut from nearby laterite quarries with iron tools and shaped into almost identical cylinders or polygons, about two metres high on average and weighing up to seven tons. Each circle has between eight and fourteen stones, in a ring four to six metres across.", "cite": ["unesco-1226"] }
           ]
         }
       ]
@@ -43,15 +45,33 @@
         {
           "type": "timeline",
           "items": [
-            { "when": "3rd c. BCE to 16th c. CE", "text": "The generally accepted range for the monuments across the whole region. Researchers are not certain when each group was built.", "cite": ["wikipedia-senegambian-stone-circles"] },
-            { "when": "AD 927–1305", "text": "Burial mounds near Wassu have been dated to this span. It is not clear whether they were built before or after the stone circles.", "cite": ["wikipedia-senegambian-stone-circles"] },
-            { "when": "1964–65", "text": "The Anglo-Gambian stone circles expedition works at Wassu and at Ker Batch under the auspices of the Royal Anthropological Institute, directed by F.A. Evans and P.O. Beale. A report to the Prime Minister of The Gambia is printed in 1966.", "cite": ["rai-beale-ms465"] },
+            { "when": "3rd c. BC to 16th c. AD", "text": "The span suggested by material excavated from some of the burial mounds across the four groups. UNESCO describes the whole landscape as created over more than 1,500 years. Researchers are not certain when each group was built.", "cite": ["unesco-1226", "wikipedia-senegambian-stone-circles"] },
+            { "when": "AD 927–1305", "text": "Burial finds at Wassu allow the monuments there to be dated to this span. It is not clear whether the mounds were built before or after the stone circles.", "cite": ["unesco-1226", "wikipedia-senegambian-stone-circles"] },
+            { "when": "1964–65", "text": "The Anglo-Gambian stone circles expedition works at Wassu and at Ker Batch under the auspices of the Royal Anthropological Institute. The Institute's catalogue names F.A. Evans and P.O. Beale as its directors. UNESCO's text calls these the most recent excavations at Wassu and says the campaign was led by Evans and Ozanne. A report to the Prime Minister of The Gambia is printed in 1966.", "cite": ["rai-beale-ms465", "unesco-1226"] },
             { "when": "1967", "text": "A laboratory run by Cheikh Anta Diop reports a carbon date for a sample from the Gambian circles. In a November letter Beale writes that it gave a date for the circle at Wassu. The catalogue does not give the date itself.", "cite": ["rai-beale-ms465"] },
             { "when": "1973–74", "text": "A project for archaeological research in Senegambia is sponsored by the Royal Ontario Museum and the University of Waterloo.", "cite": ["rai-beale-ms465"] },
-            { "when": "2006", "text": "The Stone Circles of Senegambia are inscribed on the UNESCO World Heritage List.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "when": "2006", "text": "The Stone Circles of Senegambia are inscribed on the World Heritage List under criteria (i) and (iii), as a joint property of The Gambia and Senegal.", "cite": ["unesco-1226"] },
             { "when": "Oct 2015", "text": "The deputy director general of the National Centre for Arts and Culture says it plans to restore heritage sites in the area and improve facilities for visitors, with private-sector help.", "cite": ["the-point-wassu-2015"] }
-          ],
-          "note": "Dates for the monuments themselves come from an encyclopedia article. They are marked for checking against the excavation reports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "title": "Protection and visiting",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "UNESCO's statement says the National Centre for Arts and Culture manages Wassu and Kerbatch under a law of 1989, amended in 2003. Both sites are fenced. Four thatched round buildings, built in the manner of traditional houses, serve as a museum, a reception for visitors and lodging for the caretaker.", "cite": ["unesco-1226"] },
+            { "text": " Local management committees support the work, and the funding comes mainly from government revenue, including visitor entrance fees, and other subventions.", "cite": ["unesco-1226"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "These lines describe the situation when the statement was written. See the gaps below for what is not known about the site today.", "editorial": true }
+          ]
         }
       ]
     },
@@ -75,18 +95,18 @@
         {
           "type": "p",
           "parts": [
-            { "text": "These figures differ from the ones above: the encyclopedia article gives an average of about seven tons and, for the mounds near Wassu, dates between AD 927 and 1305. This card does not reconcile them. It reports both and marks the gap.", "editorial": true }
+            { "text": "These figures differ from UNESCO's, which give stones of up to seven tons and, for Wassu, burial finds dated between AD 927 and 1305. This card does not reconcile them. It reports both and marks the gap.", "editorial": true }
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "UNESCO's own description of the property, its criteria and its area figures. The UNESCO pages could not be read by automated tools on 6 October 2026, so they were not used.",
-    "The carbon date from 1967 and the dates from the mounds, with their original sources. The numbers here come from an encyclopedia article.",
-    "Who led the 1964–65 expedition. The Royal Anthropological Institute record names F.A. Evans and P.O. Beale, while the encyclopedia article names Paul Ozanne. To be checked against the expedition report.",
-    "The weight of the stones. A 2015 press report quotes 20 tonnes each and the encyclopedia article gives an average of about seven tons.",
-    "The state of the site and its visitor facilities today. The newest source is from 2015, updated in 2020.",
+    "The original excavation reports behind the dates. UNESCO gives the span AD 927 to 1305 for Wassu, and the 1967 carbon date is only mentioned in an archive catalogue, not given.",
+    "Who led the 1964–65 expedition. The Royal Anthropological Institute catalogue names F.A. Evans and P.O. Beale. UNESCO's text names Evans and Ozanne. To be checked against the expedition report.",
+    "The weight of the stones. A 2015 press report quotes about 20 tonnes each. UNESCO gives up to seven tons.",
+    "The coordinates come from an encyclopedia article and have not been checked against UNESCO's map page, which was not part of the text supplied.",
+    "The state of the site and its visitor facilities today. UNESCO's statement describes them as written for the inscription, and the newest press source is from 2015, updated in 2020.",
     "What the circles mean in daily life for people in the villages around Wassu. Only the local voices on this card can answer that."
   ]
 }

@@ -87,7 +87,17 @@
     "url": "https://en.wikipedia.org/wiki/Senegambian_stone_circles",
     "tier": "encyclopedia",
     "status": "to-verify",
-    "note": "Source of the counts, dimensions and dates below. Replace or confirm with the UNESCO pages and excavation reports.",
+    "note": "Used here only for the term frontal stones, the debate over the builders and the coordinates. Confirm against excavation reports.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "unesco-1226",
+    "title": "Stone Circles of Senegambia",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1226",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Text of the page supplied by the project owner, because automated access to unesco.org is blocked. One sentence places Wassu in \u201cGuinea\u201d, apparently a slip for The Gambia. The description text is published under CC BY-SA IGO 3.0.",
     "retrieved": "2026-10-06"
   }
 ]
