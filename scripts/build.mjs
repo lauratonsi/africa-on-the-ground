@@ -47,12 +47,15 @@ function layout({ title, description, depth, body, current }) {
 <link rel="stylesheet" href="${p}styles.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <div class="wrap">
 <header class="top">
   <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
   <nav><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
 </header>
+<main id="main">
 ${body}
+</main>
 <footer class="foot">
   <p>This site sets no cookies, runs no analytics and loads nothing from other sites. <a href="${p}method/index.html">How it works</a></p>
 </footer>
@@ -135,10 +138,12 @@ function renderPlace(p) {
   <h1>${esc(p.name)}</h1>
   <p class="sub">${esc(p.subtitle)}</p>
   ${p.status === "draft" ? '<p class="draft">Draft, not yet public</p>' : ""}
+  <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
   <ul class="legend">
     <li><span class="layer-tag rec">In the record</span> cited to a source</li>
     <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
   </ul>
+  <p class="jump"><a href="#voices">Jump to what people who know this place say</a></p>
 </section>
 <div class="cols">
   <article class="record" id="record">
@@ -204,7 +209,7 @@ write("method/index.html", layout({
   description: "How the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
-  body: `<main class="prose">${methodHtml.replace("<!--contact-->", contactLine)}</main>`
+  body: `<div class="prose">${methodHtml.replace("<!--contact-->", contactLine)}</div>`
 }));
 
 write("404.html", `<!doctype html>
@@ -216,12 +221,21 @@ write(".nojekyll", "");
 
 // ---------- css e font ----------
 let css = fs.readFileSync(path.join(root, "src", "styles.css"), "utf8");
+const LATIN = "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD";
+const LATIN_EXT = "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF";
+// Ogni famiglia ha due file: latin e latin-ext (serve a ŋ, ñ e altre lettere di wolof e mandinka).
+// Il browser scarica il secondo solo se la pagina contiene quelle lettere.
 const FONTS = [
-  { file: "bricolage-grotesque-variable.woff2", family: "Bricolage Grotesque", weight: "300 800", style: "normal" },
-  { file: "source-serif-4-variable.woff2", family: "Source Serif 4", weight: "400 700", style: "normal" },
-  { file: "source-serif-4-italic-variable.woff2", family: "Source Serif 4", weight: "400 700", style: "italic" },
-  { file: "ibm-plex-mono-400.woff2", family: "IBM Plex Mono", weight: "400", style: "normal" },
-  { file: "ibm-plex-mono-500.woff2", family: "IBM Plex Mono", weight: "500", style: "normal" }
+  { file: "bricolage-grotesque-latin-opsz-normal.woff2", family: "Bricolage Grotesque", weight: "200 800", style: "normal", range: LATIN },
+  { file: "bricolage-grotesque-latin-ext-opsz-normal.woff2", family: "Bricolage Grotesque", weight: "200 800", style: "normal", range: LATIN_EXT },
+  { file: "source-serif-4-latin-opsz-normal.woff2", family: "Source Serif 4", weight: "200 900", style: "normal", range: LATIN },
+  { file: "source-serif-4-latin-ext-opsz-normal.woff2", family: "Source Serif 4", weight: "200 900", style: "normal", range: LATIN_EXT },
+  { file: "source-serif-4-latin-opsz-italic.woff2", family: "Source Serif 4", weight: "200 900", style: "italic", range: LATIN },
+  { file: "source-serif-4-latin-ext-opsz-italic.woff2", family: "Source Serif 4", weight: "200 900", style: "italic", range: LATIN_EXT },
+  { file: "ibm-plex-mono-latin-400-normal.woff2", family: "IBM Plex Mono", weight: "400", style: "normal", range: LATIN },
+  { file: "ibm-plex-mono-latin-ext-400-normal.woff2", family: "IBM Plex Mono", weight: "400", style: "normal", range: LATIN_EXT },
+  { file: "ibm-plex-mono-latin-500-normal.woff2", family: "IBM Plex Mono", weight: "500", style: "normal", range: LATIN },
+  { file: "ibm-plex-mono-latin-ext-500-normal.woff2", family: "IBM Plex Mono", weight: "500", style: "normal", range: LATIN_EXT }
 ];
 const fontDir = path.join(root, "src", "fonts");
 const faces = [];
@@ -229,11 +243,14 @@ for (const f of FONTS) {
   if (fs.existsSync(path.join(fontDir, f.file))) {
     fs.mkdirSync(path.join(dist, "fonts"), { recursive: true });
     fs.copyFileSync(path.join(fontDir, f.file), path.join(dist, "fonts", f.file));
-    faces.push(`@font-face{font-family:"${f.family}";src:url("fonts/${f.file}") format("woff2");font-weight:${f.weight};font-style:${f.style};font-display:swap}`);
+    faces.push(`@font-face{font-family:"${f.family}";src:url("fonts/${f.file}") format("woff2");font-weight:${f.weight};font-style:${f.style};font-display:swap;unicode-range:${f.range}}`);
   }
 }
+// La licenza OFL deve accompagnare i font distribuiti.
+const licDir = path.join(fontDir, "licenses");
+if (faces.length && fs.existsSync(licDir)) fs.cpSync(licDir, path.join(dist, "fonts", "licenses"), { recursive: true });
 write("styles.css", (faces.length ? faces.join("\n") + "\n" : "") + css);
-console.log(faces.length ? `Font locali inclusi: ${faces.length}.` : "Nessun font locale trovato in src/fonts: uso i font di sistema.");
+console.log(faces.length ? `Font locali inclusi: ${faces.length} file.` : "Nessun font locale trovato in src/fonts: uso i font di sistema.");
 
 // ---------- controllo finale: nessuna risorsa esterna ----------
 const bad = [];

@@ -54,6 +54,9 @@ a { color: var(--record); }
 :focus-visible { outline: 2px solid var(--voice); outline-offset: 2px; }
 img { max-width: 100%; }
 
+.skip { position: absolute; left: 8px; top: -60px; z-index: 20; background: var(--ink); color: var(--paper); padding: 10px 14px; border-radius: 4px; text-decoration: none; }
+.skip:focus { top: 8px; }
+
 .wrap { max-width: 1160px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); padding-block: 0 56px; }
 
 /* ---------- testata ---------- */
@@ -73,6 +76,10 @@ h1 { font-weight: 700; font-size: clamp(2.3rem, 7.2vw, 4.7rem); line-height: 1.0
 .draft { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--flag); margin: 0; }
 .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 6px 0 0; padding: 0; list-style: none; }
 .legend li { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; }
+
+/* Su schermi stretti le voci stanno sotto il racconto e sotto l'elenco delle fonti: il link le rende raggiungibili. */
+.jump { display: none; margin: 4px 0 0; font-size: .95rem; }
+@media (max-width: 920px) { .jump { display: block; } }
 
 .layer-tag { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-mono); font-size: .74rem; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; }
 .layer-tag::before { content: ""; width: 11px; height: 11px; background: currentColor; display: inline-block; flex: none; }
@@ -119,7 +126,7 @@ h1 { font-weight: 700; font-size: clamp(2.3rem, 7.2vw, 4.7rem); line-height: 1.0
 .tier.chk { color: var(--flag); }
 
 /* ---------- strato 2: le voci ---------- */
-.voices { background: var(--voice-surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: clamp(18px, 3vw, 28px); display: grid; gap: 26px; min-width: 0; }
+.voices { scroll-margin-top: 12px; background: var(--voice-surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: clamp(18px, 3vw, 28px); display: grid; gap: 26px; min-width: 0; }
 .voices h2 { font-weight: 650; font-size: 1.05rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
 .voices .vhead { display: grid; gap: 8px; }
 .voices .vhead h2 { font-size: 1.3rem; }
