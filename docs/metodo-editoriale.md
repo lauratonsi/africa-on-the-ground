@@ -21,6 +21,8 @@ Regole del progetto. La versione pubblica, in inglese, è `content/pages/method.
 
 - **Consenso.** Una nota si pubblica solo se l'autore ha accettato, dopo aver saputo che il repository è pubblico
   e che il testo resta nella cronologia di GitHub anche dopo una rimozione dal sito. Registra data e modalità.
+  Se la nota arriva dal modulo del sito, il consenso è la casella spuntata e il testo che la accompagna, che finisce
+  nel messaggio. Conserva il messaggio originale fuori dal repository come prova.
 - **Anonimato facoltativo.** Nome o soprannome si pubblicano solo se l'autore li vuole. Il legame con il luogo è
   un'etichetta scelta dall'autore e non viene verificata.
 - **Nessun contatto nel repository.** Niente email, telefoni, profili. La validazione blocca i casi più evidenti,
@@ -31,6 +33,23 @@ Regole del progetto. La versione pubblica, in inglese, è `content/pages/method.
   precise: nominare un locale come trappola per turisti espone l'autore e il progetto a contestazioni.
 - **Rimozione.** Chi ha scritto una nota può chiedere in qualsiasi momento di toglierla. Si rimuove dal file e si
   ripubblica. Se serve cancellare anche la cronologia di Git, è un'operazione a parte da valutare caso per caso.
+
+## Come arrivano le note dal sito
+
+Ogni scheda ha un modulo "Add your voice". Il modulo **non invia nulla dal sito**: compone nel browser un messaggio e
+apre WhatsApp, l'email o Signal con il testo già scritto, e la persona decide se inviarlo. Così il sito non raccoglie
+dati e le promesse della pagina Method restano vere.
+
+- I canali si impostano in `site.config.json`, campo `channels`: `whatsapp` (solo cifre con il prefisso, senza +),
+  `email` e `link` (per esempio Signal). Un canale senza valore non compare. Senza nessun canale il modulo può solo
+  copiare il messaggio.
+- Usa un numero e un indirizzo dedicati al progetto, non quelli personali: compaiono nella pagina e nel codice.
+- Il modulo controlla consenso, lunghezza e assenza di email e numeri di telefono, come `npm run check`.
+- Il messaggio ricevuto si trasforma in nota con `npm run add-note` (vedi il README): il comando applica le stesse
+  regole e registra data e modalità del consenso. Poi si legge la nota prima di pubblicare, come sempre.
+- Prima di rendere pubblico il numero o l'indirizzo, prepara l'informativa per chi scrive: chi riceve il messaggio,
+  perché, per quanto lo conservi, come chiedere la rimozione. Il testo del modulo ("What happens to your note") è un
+  punto di partenza e va verificato con chi può dare un parere professionale. Questo documento non è una consulenza legale.
 
 ## Quando uno strato contraddice l'altro
 
@@ -67,7 +86,8 @@ Più note sulla stessa scheda sono la norma, non un'anomalia. Non scegliere "la"
 
 ## Privacy
 
-- Il sito non raccoglie dati: nessun modulo, cookie, statistica, font o script esterni. Il build lo verifica.
+- Il sito non raccoglie dati: nessun cookie, statistica, font o script esterno, e il modulo delle note non invia
+  nulla (prepara un messaggio che la persona manda da sé). Il build verifica che non si carichi nulla da altri domini.
 - L'hosting (GitHub Pages) può tenere propri log dei server, che il progetto non controlla.
 - Le persone con cui parli, le note che raccogli e le prove di consenso sono dati personali trattati da te
   in quanto titolare. Prima di aprire il progetto al pubblico serve un'informativa chiara per gli autori

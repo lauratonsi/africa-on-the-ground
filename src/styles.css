@@ -567,3 +567,34 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .photo-note { margin-block: 0; padding-block: 8px 0; font-size: .82rem; color: var(--ink-soft); }
 .photo-note a { color: var(--ink-soft); }
 .prose-hero { padding-top: clamp(16px, 3vw, 32px); }
+
+/* ======================================================================
+   Modulo "Add your voice": prepara un messaggio, non invia nulla
+   ====================================================================== */
+.share { display: grid; gap: 14px; padding-top: 22px; border-top: 2px solid var(--voice-line); }
+.share h2 { font-size: 1.35rem; }
+.share-intro, .share-nojs { font-size: .96rem; color: var(--ink-soft); }
+.btn-voice { justify-self: start; font: inherit; font-weight: 700; font-size: 1rem; background: var(--voice-fill); color: var(--on-voice); border: 0; border-radius: 999px; padding: 13px 22px; min-height: 48px; cursor: pointer; transition: transform .15s; }
+.btn-voice:hover { transform: translateY(-2px); }
+.btn-voice[hidden], .share-form[hidden], .share-nojs[hidden] { display: none; }
+.share-form { display: grid; gap: 14px; }
+.share-form label { display: grid; gap: 6px; font-weight: 700; font-size: .92rem; }
+.share-form .opt { font-weight: 500; color: var(--ink-soft); }
+.share-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 12px; }
+.share-form input[type="text"], .share-form select, .share-form textarea { width: 100%; min-width: 0; font: inherit; font-weight: 400; color: var(--ink); background: var(--surface); border: 0; box-shadow: inset 0 0 0 1.5px var(--voice-line); border-radius: 12px; padding: 11px 13px; min-height: 46px; }
+.share-form textarea { min-height: 150px; resize: vertical; line-height: 1.5; }
+.share-form input:focus-visible, .share-form select:focus-visible, .share-form textarea:focus-visible { outline: 3px solid var(--saffron); outline-offset: 1px; }
+.share-q { color: var(--voice); font-weight: 600; font-size: .95rem; }
+.share-count { margin: -8px 0 0 !important; font-size: .8rem; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
+.share-form .share-consent { grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: 12px; font-weight: 500; font-size: .9rem; line-height: 1.45; padding: 12px 14px; border-radius: 12px; background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--voice-line); }
+.share-consent input { width: 22px; height: 22px; margin-top: 2px; accent-color: var(--voice-fill); }
+.share-priv { font-size: .9rem; color: var(--ink-soft); }
+.share-priv summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+.share-priv p { margin: 8px 0 0 !important; }
+.share-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.share-send, .share-copy { font: inherit; font-weight: 700; font-size: .95rem; border: 0; border-radius: 999px; padding: 12px 20px; min-height: 46px; cursor: pointer; }
+.share-send { background: var(--voice-fill); color: var(--on-voice); }
+.share-copy { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink-soft); }
+.share-send:hover, .share-copy:hover { transform: translateY(-1px); }
+.share-status { min-height: 1.4em; margin: 0 !important; font-size: .92rem; font-weight: 600; color: var(--ink); }
+.share-status.err { color: var(--voice); }

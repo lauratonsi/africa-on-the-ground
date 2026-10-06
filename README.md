@@ -10,9 +10,9 @@ Guide ai luoghi che tengono separati due tipi di conoscenza:
 La separazione è il cuore del progetto. Se i due strati si mescolano, il sito perde la possibilità di dire
 onestamente "questo è documentato" e "questo lo dice una persona".
 
-Il sito è **statico**: nessun database, nessun modulo, nessun cookie, nessuna statistica, nessuna risorsa
-caricata da altri siti. Le note non arrivano dal sito: le raccogli tu di persona o in messaggio diretto,
-con il consenso dell'autore, e le aggiungi a un file del progetto.
+Il sito è **statico**: nessun database, nessun cookie, nessuna statistica, nessuna risorsa caricata da altri siti,
+nessun dato inviato al sito (il modulo delle note prepara solo un messaggio che la persona manda da sé). Il sito non conserva le note: arrivano da te, di persona, in messaggio o dal modulo di ogni scheda
+(che prepara solo un messaggio), con il consenso dell'autore, e le aggiungi a un file del progetto.
 
 ## Struttura
 
@@ -26,6 +26,7 @@ content/
   pages/method.html       la pagina pubblica "Method"
 src/
   styles.css              lo stile (due strati, mappe); i colori hanno valore chiaro e scuro (light-dark)
+  share.js                modulo "Add your voice": prepara il messaggio con la nota
   theme.js                pulsante del tema: sistema, chiaro, scuro (la scelta resta nel browser)
   app.js                  filtro per tipo e evidenziazione sulla home (facoltativo)
   geo/                    contorni dei paesi per le mappe (Natural Earth), vedi LEGGIMI.txt
@@ -34,6 +35,7 @@ src/
 scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/
+  add-note.mjs            trasforma un messaggio del modulo in una nota (npm run add-note)
   map.mjs                 disegna le mappe SVG
   charts.mjs              disegna i grafici (barre in HTML, punti in SVG)
   prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)
@@ -75,11 +77,37 @@ contatto non configurato.
 
 ## Aggiungere una nota
 
-Apri `content/notes/<slug>.json` e aggiungi un oggetto. `name` e `relation` sono facoltativi.
+Le note arrivano in tre modi: di persona, in messaggio, o dal modulo "Add your voice" di ogni scheda. Il modulo non
+invia nulla dal sito: compone un messaggio (formato `[AOTG-NOTE v1]`) e apre WhatsApp, email o Signal, e la persona lo
+manda a te. Per attivarlo compila i canali in `site.config.json`:
+
+```json
+"channels": [
+  { "id": "whatsapp", "label": "WhatsApp", "type": "whatsapp", "value": "2207001234" },
+  { "id": "email",    "label": "Email",    "type": "email",    "value": "note@esempio.org" },
+  { "id": "signal",   "label": "Signal",   "type": "link",     "value": "https://signal.me/#p/+2207001234" }
+]
+```
+
+Il numero WhatsApp si scrive solo con le cifre, con il prefisso e senza `+`. Un canale con `value` vuoto non compare.
+Usa contatti dedicati al progetto: finiscono nel codice pubblico.
+
+**Dal messaggio alla nota.** Copia il messaggio ricevuto e lancia (su Mac):
+
+```
+pbpaste | npm run add-note                     mostra la nota, senza modificare nulla
+pbpaste | npm run add-note -- --write          la aggiunge a content/notes/<luogo>.json
+```
+
+Opzioni: `--how message|in-person|other` (come è stato dato il consenso), `--date AAAA-MM-GG`, `--anonymous`,
+`--file <percorso>` al posto di `pbpaste`. Il comando rifiuta messaggi senza consenso, con email o telefoni, con un
+luogo o un tipo non previsti. Poi leggi la nota, conserva il messaggio fuori dal repository e lancia `npm run check`.
+
+**A mano.** Apri `content/notes/<slug>.json` e aggiungi un oggetto. `name`, `relation` e `lang` sono facoltativi.
 
 ```json
 {
-  "id": "kunta-kinteh-001",
+  "id": "kunta-kinteh-island-001",
   "kind": "look",
   "text": "Il testo della nota, come l'ha detto l'autore.",
   "name": "Nome o soprannome, se lo vuole",
@@ -92,6 +120,7 @@ Apri `content/notes/<slug>.json` e aggiungi un oggetto. `name` e `relation` sono
 
 - `kind`: uno degli `id` di `noteKinds` in `site.config.json`.
 - `relation`: `near`, `gambia`, `abroad`, `other`, oppure ometti il campo.
+- `lang`: uno degli `id` di `languages` (`en`, `fr`, `it`, `wo`, `mnk`, `ff`, `other`).
 - `consent.how`: `in-person`, `message` o `other`. Conserva tu, fuori dal repository, la prova del consenso.
 - Non scrivere nel repository contatti dell'autore: il repository è pubblico.
 

@@ -28,7 +28,7 @@ const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -39,6 +39,7 @@ const fmtDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return 
 const prefix = (depth) => (depth === 0 ? "./" : "../".repeat(depth));
 const kindLabel = Object.fromEntries(config.noteKinds.map((k) => [k.id, k.label]));
 const relLabel = Object.fromEntries(config.relations.map((r) => [r.id, r.label]));
+const langLabel = Object.fromEntries((config.languages || []).map((l) => [l.id, l.label]));
 const types = Object.fromEntries(config.placeTypes.map((t) => [t.id, t]));
 const SHAPE_SVG = {
   circle: '<circle cx="7" cy="7" r="5.5"/>',
@@ -138,7 +139,7 @@ function compactHero({ kicker, title, sub }) {
 </section>`;
 }
 
-function layout({ title, description, depth, body, current, script = false, bodyClass = "" }) {
+function layout({ title, description, depth, body, current, script = false, extraScripts = [], bodyClass = "" }) {
   const p = prefix(depth);
   return `<!doctype html>
 <html lang="${esc(config.lang)}">
@@ -172,7 +173,7 @@ ${body}
     <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a></p>
   </div>
 </footer>
-${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}</body>
+${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}${extraScripts.map((f) => `<script src="${p}${f}?v=${VER}" defer></script>\n`).join("")}</body>
 </html>
 `;
 }
@@ -255,10 +256,62 @@ function renderPlace(p) {
     const by = [];
     by.push(`<b>${esc(n.name || "Anonymous")}</b>`);
     if (n.relation) by.push(esc(relLabel[n.relation]));
-    if (n.lang) by.push(`written in ${esc(n.lang)}`);
+    if (n.lang) by.push(`written in ${esc(langLabel[n.lang] || n.lang)}`);
     by.push(esc(fmtDate(n.added)));
     return `<article class="nt"><span class="chip">${esc(kindLabel[n.kind])}</span><p class="txt">${esc(n.text)}</p><p class="by">${by.join(" · ")}</p></article>`;
   }).join("");
+  // Modulo per scrivere una nota: prepara un messaggio nel browser, non invia nulla dal sito.
+  const channels = (config.channels || []).filter((c) => c.value);
+  const shareCfg = {
+    place: p.slug, placeName: p.name,
+    kinds: config.noteKinds.map((k) => ({ id: k.id, label: k.label, question: k.question })),
+    channels: channels.map((c) => ({ id: c.id, label: c.label, type: c.type, value: c.value }))
+  };
+  const plainChannels = channels.map((c) => {
+    const href = c.type === "whatsapp" ? `https://wa.me/${c.value}` : c.type === "email" ? `mailto:${c.value}` : c.value;
+    return `<a href="${esc(href)}">${esc(c.label)}</a>`;
+  }).join(", ");
+  const share = `
+    <section class="share" id="share" aria-labelledby="share-h">
+      <h2 id="share-h">Add your voice</h2>
+      <p class="share-intro">If you know this place, you can write a note. Nothing is sent from this page: it prepares a message that you send yourself.</p>
+      <p class="share-nojs" id="share-nojs">${plainChannels ? `Without JavaScript you can still write to the project by ${plainChannels}, and say which card your note is for.` : "Writing a note needs JavaScript here. Ask the person who invited you how to send it."}</p>
+      <button type="button" class="btn-voice" id="share-open" aria-expanded="false" aria-controls="share-form" hidden>Write a note</button>
+      <form class="share-form" id="share-form" hidden novalidate>
+        <label for="sh-kind">Your note answers
+          <select id="sh-kind">${config.noteKinds.map((k) => `<option value="${esc(k.id)}">${esc(k.label)}</option>`).join("")}</select>
+        </label>
+        <p class="share-q" id="sh-q"></p>
+        <label for="sh-text">Your note
+          <textarea id="sh-text" rows="6" maxlength="1200" placeholder="Write it the way you would tell a friend who is visiting."></textarea>
+        </label>
+        <p class="share-count"><span id="sh-count">0</span> / 1200</p>
+        <div class="share-row">
+          <label for="sh-name"><span>Your name or nickname <span class="opt">(optional)</span></span>
+            <input id="sh-name" type="text" maxlength="60" autocomplete="off">
+          </label>
+          <label for="sh-rel"><span>How you know this place <span class="opt">(optional)</span></span>
+            <select id="sh-rel"><option value="">Prefer not to say</option>${config.relations.map((r) => `<option value="${esc(r.id)}">${esc(r.label)}</option>`).join("")}</select>
+          </label>
+        </div>
+        <label for="sh-lang">Language you wrote in
+          <select id="sh-lang">${(config.languages || []).map((l) => `<option value="${esc(l.id)}">${esc(l.label)}</option>`).join("")}</select>
+        </label>
+        <label class="share-consent" for="sh-consent">
+          <input id="sh-consent" type="checkbox">
+          <span>I agree that this note may be published on this site, with the name and connection I gave. I know the repository is public and that the text stays in its history even if it is later removed from the site. My note has no email address or phone number in it.</span>
+        </label>
+        <details class="share-priv">
+          <summary>What happens to your note</summary>
+          <p>This page sends nothing. When you press a button, your phone or computer opens WhatsApp, your email app or Signal with the message already written, and you choose whether to send it.</p>
+          <p>If you do, the message and your contact details reach the project through that service, which has its own privacy rules. The project reads every note and publishes it only if you agreed and it passes a check. The proof of your agreement is kept by the project outside the public repository.</p>
+          <p>You can ask for a note to be removed at any time by writing again. Removing it from the site does not erase the repository's history.</p>
+        </details>
+        <div class="share-actions" id="sh-actions"></div>
+        <p class="share-status" id="sh-status" role="status" aria-live="polite"></p>
+      </form>
+      <script type="application/json" id="share-cfg">${JSON.stringify(shareCfg).replace(/</g, "\\u003c")}</script>
+    </section>`;
   const asks = config.noteKinds.map((k) => `<li><span class="chip">${esc(k.label)}</span> ${esc(k.question)}</li>`).join("");
   const contact = config.contact ? ` To offer a note or ask for one to be removed: ${esc(config.contact)}.` : "";
 
@@ -312,16 +365,17 @@ ${sourcesHtml}
       <div class="notes-head"><h2>Notes on this card</h2><span class="count">${list.length || ""}</span></div>
       ${list.length ? `<div class="notes">${noteCards}</div>` : `<div class="empty"><strong>No local voice on this card yet.</strong><span>Notes are added by the project once the author has agreed to publication.</span></div>`}
     </div>
+    ${share}
     <div class="asks">
       <h2>Questions we ask</h2>
       <ul>${asks}</ul>
     </div>
-    <p class="fine">Notes are collected in person or by direct message, never through this site. <a href="../../method/index.html">How notes are collected</a>.${contact}</p>
+    <p class="fine">Notes are never stored by this site: they reach the project by message, in person or through the form above, which only prepares the message. <a href="../../method/index.html">How notes are collected</a>.${contact}</p>
   </aside>
 </div>
 </div>`;
 
-  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body });
+  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body, extraScripts: ["share.js"] });
 }
 
 // ---------- pagine ----------
@@ -658,6 +712,7 @@ const licDir = path.join(fontDir, "licenses");
 if (faces.length && fs.existsSync(licDir)) fs.cpSync(licDir, path.join(dist, "fonts", "licenses"), { recursive: true });
 fs.copyFileSync(path.join(root, "src", "app.js"), path.join(dist, "app.js"));
 fs.copyFileSync(path.join(root, "src", "theme.js"), path.join(dist, "theme.js"));
+fs.copyFileSync(path.join(root, "src", "share.js"), path.join(dist, "share.js"));
 // Solo le foto delle schede pubblicate: quelle delle bozze non vanno online.
 for (const pl of published) {
   if (!pl.image) continue;

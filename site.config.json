@@ -3,6 +3,20 @@
   "tagline": "Place guides that keep the documented record and the local voice apart.",
   "lang": "en",
   "contact": "",
+  "channels": [
+    { "id": "whatsapp", "label": "WhatsApp", "type": "whatsapp", "value": "" },
+    { "id": "email",    "label": "Email",    "type": "email",    "value": "" },
+    { "id": "signal",   "label": "Signal",   "type": "link",     "value": "" }
+  ],
+  "languages": [
+    { "id": "en",  "label": "English" },
+    { "id": "fr",  "label": "French" },
+    { "id": "it",  "label": "Italian" },
+    { "id": "wo",  "label": "Wolof" },
+    { "id": "mnk", "label": "Mandinka" },
+    { "id": "ff",  "label": "Fula" },
+    { "id": "other", "label": "Another language" }
+  ],
   "noteKinds": [
     { "id": "look",  "label": "What I would look at",     "question": "What would you look at on a visit that a guidebook skips?" },
     { "id": "tell",  "label": "What I tell my children",  "question": "What do you tell your children about this place?" },

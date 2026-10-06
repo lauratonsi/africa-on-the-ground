@@ -61,6 +61,20 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     if (!r.id || !r.label) err(`site.config.json: subregions "${r.id}" richiede id e label.`);
     subIds.add(r.id);
   }
+  // canali con cui chi scrive può inviare una nota: il modulo prepara il messaggio, non lo spedisce
+  const CHANNEL_TYPES = ["whatsapp", "email", "link"];
+  let channelsFilled = 0;
+  for (const ch of config.channels || []) {
+    const w = `site.config.json: channels "${ch.id}"`;
+    if (!ch.id || !ch.label || !CHANNEL_TYPES.includes(ch.type)) { err(`${w} richiede id, label e type (${CHANNEL_TYPES.join(", ")}).`); continue; }
+    if (!ch.value) continue;
+    channelsFilled++;
+    if (ch.type === "whatsapp" && !/^\d{7,15}$/.test(ch.value)) err(`${w}: il numero va scritto solo con cifre, con il prefisso internazionale e senza + (per esempio 2207001234).`);
+    if (ch.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(ch.value)) err(`${w}: indirizzo email non valido.`);
+    if (ch.type === "link" && !/^https:\/\//.test(ch.value)) err(`${w}: il link deve iniziare con https://.`);
+  }
+  if (!channelsFilled) warn('site.config.json: nessun canale in "channels" ha un valore. Il modulo per le note potrà solo copiare il messaggio.');
+  const langIds = new Set((config.languages || []).map((l) => l.id));
   const SHAPES = ["circle", "square", "diamond"];
   const typeIds = new Set();
   if (!Array.isArray(config.placeTypes) || !config.placeTypes.length) err('site.config.json: "placeTypes" è vuoto.');
@@ -218,6 +232,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
         if (!HOW.includes(n.consent.how)) err(`${nw}: consent.how deve essere uno di ${HOW.join(", ")}.`);
       }
       if (!DATE.test(n.added || "")) err(`${nw}: "added" deve essere AAAA-MM-GG.`);
+      if (n.lang != null && langIds.size && !langIds.has(n.lang)) warn(`${nw}: lang "${n.lang}" non è tra le "languages" di site.config.json.`);
       for (const field of ["text", "name"]) {
         const v = n[field];
         if (typeof v === "string" && (EMAIL.test(v) || PHONE.test(v))) {

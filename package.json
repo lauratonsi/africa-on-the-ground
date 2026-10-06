@@ -8,7 +8,8 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/validate.mjs && node scripts/build.mjs"
+    "check": "node scripts/validate.mjs && node scripts/build.mjs",
+    "add-note": "node scripts/add-note.mjs"
   },
   "engines": {
     "node": ">=20"
