@@ -5,84 +5,62 @@
      zafferano  = ciò che non si sa ancora (lacune, attenzione)
    Font: i primi nominati sono locali (src/fonts); se mancano valgono quelli di sistema. */
 
+/* Un solo elenco di colori: ogni variabile ha il valore chiaro e quello scuro (light-dark).
+   Il tema segue il sistema, ma si può forzare con data-theme="light" o "dark" sull'elemento html
+   (lo imposta il pulsante in testata e lo ricorda il browser). */
 :root {
-  --paper: #fbf5ea;
-  --surface: #fffdf8;
-  --sand: #f3e9d6;
-  --ink: #1b1630;
-  --ink-soft: #5a5370;
-  --line: #e6dac2;
+  color-scheme: light dark;
 
-  --record: #2b2399;
-  --record-tint: #e8e5fb;
-  --band: #1d1670;
-  --on-band: #fbf5ea;
+  --paper: light-dark(#fbf5ea, #13102b);
+  --surface: light-dark(#fffdf8, #1d1941);
+  --sand: light-dark(#f3e9d6, #1a1637);
+  --ink: light-dark(#1b1630, #f7f0e3);
+  --ink-soft: light-dark(#5a5370, #b9b1cf);
+  --line: light-dark(#e6dac2, #352f66);
 
-  --voice: #b3340f;
-  --voice-fill: #c63d17;
-  --voice-tint: #fde6db;
-  --voice-surface: #fff1e9;
-  --voice-line: #f3c4ad;
+  --record: light-dark(#2b2399, #b9b3ff);
+  --record-tint: light-dark(#e8e5fb, #26215a);
+  --band: light-dark(#1d1670, #0c0924);
+  --on-band: light-dark(#fbf5ea, #f7f0e3);
 
-  --saffron: #f4b324;
-  --flag: #7a5200;
-  --flag-tint: #fdf0c8;
-  --flag-line: #ecd38a;
+  --voice: light-dark(#b3340f, #ff9a73);
+  --voice-fill: light-dark(#c63d17, #e5603a);
+  --voice-tint: light-dark(#fde6db, #3a1f2c);
+  --voice-surface: light-dark(#fff1e9, #2a1b2e);
+  --voice-line: light-dark(#f3c4ad, #6a3a45);
+  --on-voice: light-dark(#ffffff, #13102b);
+  --on-voice-soft: light-dark(#ffe2d3, #3a1f2c);
 
-  --water: #d8ecf1;
-  --river: #3f93c4;
-  --leaf: #17795a;
+  --saffron: light-dark(#f4b324, #ffc94a);
+  --flag: light-dark(#7a5200, #ffd16b);
+  --flag-tint: light-dark(#fdf0c8, #3a3016);
+  --flag-line: light-dark(#ecd38a, #6b5a22);
 
-  --viz-1: #4338d4;
-  --viz-2: #e0501f;
-  --viz-gray: #cfc4ad;
-  --seq-1: #e8e5fb; --seq-2: #c6c0f7; --seq-3: #9d94ee; --seq-4: #7266e3; --seq-5: #4a3dcb; --seq-6: #281d8c;
+  --water: light-dark(#d8ecf1, #1b3350);
+  --river: light-dark(#3f93c4, #5fb0e0);
+  --leaf: light-dark(#17795a, #3bb98d);
+  --land: light-dark(#fffdf8, #342d78);
+  --land-2: light-dark(#f3e9d6, #28225e);
+
+  --viz-1: light-dark(#4338d4, #8a80ff);
+  --viz-2: light-dark(#e0501f, #ea6332);
+  --viz-gray: light-dark(#cfc4ad, #4a4378);
+  --seq-1: light-dark(#e8e5fb, #2b2470);
+  --seq-2: light-dark(#c6c0f7, #3b33a0);
+  --seq-3: light-dark(#9d94ee, #5547c9);
+  --seq-4: light-dark(#7266e3, #7a6ef0);
+  --seq-5: light-dark(#4a3dcb, #a89fff);
+  --seq-6: light-dark(#281d8c, #d5d0ff);
+  --on-seq: light-dark(#ffffff, #13102b);
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
   --f-record: "Source Serif 4", Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
   --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --radius: 18px;
-  --shadow: 0 1px 2px rgba(27, 22, 48, .06), 0 10px 30px -12px rgba(27, 22, 48, .25);
-  color-scheme: light;
+  --shadow: 0 1px 2px light-dark(rgba(27, 22, 48, .06), rgba(0, 0, 0, .4)), 0 10px 30px -12px light-dark(rgba(27, 22, 48, .25), rgba(0, 0, 0, .7));
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #13102b;
-    --surface: #1d1941;
-    --sand: #1a1637;
-    --ink: #f7f0e3;
-    --ink-soft: #b9b1cf;
-    --line: #352f66;
-
-    --record: #b9b3ff;
-    --record-tint: #26215a;
-    --band: #0c0924;
-    --on-band: #f7f0e3;
-
-    --voice: #ff9a73;
-    --voice-fill: #e5603a;
-    --voice-tint: #3a1f2c;
-    --voice-surface: #2a1b2e;
-    --voice-line: #6a3a45;
-
-    --saffron: #ffc94a;
-    --flag: #ffd16b;
-    --flag-tint: #3a3016;
-    --flag-line: #6b5a22;
-
-    --water: #1b3350;
-    --river: #5fb0e0;
-    --leaf: #3bb98d;
-
-    --viz-1: #8a80ff;
-    --viz-2: #ea6332;
-    --viz-gray: #4a4378;
-    --seq-1: #2b2470; --seq-2: #3b33a0; --seq-3: #5547c9; --seq-4: #7a6ef0; --seq-5: #a89fff; --seq-6: #d5d0ff;
-
-    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px -12px rgba(0, 0, 0, .7);
-    color-scheme: dark;
-  }
-}
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 76px; }
@@ -106,6 +84,12 @@ h1, h2, h3 { text-wrap: balance; }
 .brand .r { fill: var(--record); }
 .brand .v { fill: var(--voice-fill); }
 .brand .s { fill: var(--saffron); }
+.top-r { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.theme-btn { display: inline-grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer; box-shadow: inset 0 0 0 1.5px var(--line); }
+.theme-btn:hover { box-shadow: inset 0 0 0 2px var(--record); }
+.theme-btn[hidden] { display: none; }
+.theme-btn svg { grid-area: 1 / 1; display: none; }
+.theme-btn[data-mode="auto"] .i-auto, .theme-btn[data-mode="light"] .i-light, .theme-btn[data-mode="dark"] .i-dark { display: block; }
 .top nav { display: flex; flex-wrap: wrap; gap: 2px 6px; }
 .top nav a { font-weight: 600; font-size: .98rem; color: var(--ink); text-decoration: none; padding: 8px 12px; border-radius: 999px; }
 .top nav a:hover { background: var(--record-tint); }
@@ -159,9 +143,8 @@ h1 { margin: 0; font-weight: 800; font-size: clamp(2.8rem, 8.4vw, 6.4rem); line-
 .layer p { margin: 0; max-width: 46ch; }
 .layer-rec { background: var(--band); color: var(--on-band); }
 .layer-rec .layer-tag { color: var(--saffron); }
-.layer-voi { background: var(--voice-fill); color: #fff; }
-.layer-voi .layer-tag { color: #ffe2d3; }
-@media (prefers-color-scheme: dark) { .layer-voi { color: #13102b; } .layer-voi .layer-tag { color: #3a1f2c; } }
+.layer-voi { background: var(--voice-fill); color: var(--on-voice); }
+.layer-voi .layer-tag { color: var(--on-voice-soft); }
 .demo { margin-top: 6px !important; font-size: .95rem; }
 .demo .cite { color: var(--saffron); }
 .layer-voi .demo { font-style: italic; }
@@ -194,11 +177,11 @@ h1 { margin: 0; font-weight: 800; font-size: clamp(2.8rem, 8.4vw, 6.4rem); line-
 
 /* ---------- mappe SVG ---------- */
 .map { display: block; width: 100%; height: auto; background: var(--water); border-radius: var(--radius); }
-.map .land { fill: var(--surface); stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.map .land { fill: var(--land); stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
 .map .land.has { fill: var(--saffron); stroke: var(--ink); stroke-width: 1.2; }
 .map-africa .land { stroke-width: .6; }
-.map-gambia .land { fill: var(--sand); }
-.map-gambia .land.has { fill: var(--surface); stroke: var(--record); stroke-width: 1.4; }
+.map-gambia .land { fill: var(--land-2); }
+.map-gambia .land.has { fill: var(--land); stroke: var(--record); stroke-width: 1.4; }
 .map .river { fill: none; stroke: var(--river); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .locator { fill: none; stroke: var(--ink); stroke-width: 1.8; }
 .mlabel { font-family: var(--f-display); font-weight: 600; font-style: italic; font-size: 18px; letter-spacing: .06em; fill: var(--ink-soft); pointer-events: none; }
@@ -406,18 +389,10 @@ figcaption { font-size: .88rem; color: var(--ink-soft); margin-top: 10px; max-wi
 .mapwrap[data-m="pop"] .c[data-pop="4"], .mapwrap[data-m="area"] .c[data-area="4"], .mapwrap[data-m="den"] .c[data-den="4"] { fill: var(--seq-4); background: var(--seq-4); }
 .mapwrap[data-m="pop"] .c[data-pop="5"], .mapwrap[data-m="area"] .c[data-area="5"], .mapwrap[data-m="den"] .c[data-den="5"] { fill: var(--seq-5); background: var(--seq-5); }
 .mapwrap[data-m="pop"] .c[data-pop="6"], .mapwrap[data-m="area"] .c[data-area="6"], .mapwrap[data-m="den"] .c[data-den="6"] { fill: var(--seq-6); background: var(--seq-6); }
-/* testo sulle etichette delle isole: bianco sulle fasce scure, inchiostro sulle chiare */
+/* testo sulle etichette delle isole: sulle fasce scure serve il colore opposto allo sfondo */
 .mapwrap[data-m="pop"] .isle[data-pop="4"], .mapwrap[data-m="pop"] .isle[data-pop="5"], .mapwrap[data-m="pop"] .isle[data-pop="6"],
 .mapwrap[data-m="area"] .isle[data-area="4"], .mapwrap[data-m="area"] .isle[data-area="5"], .mapwrap[data-m="area"] .isle[data-area="6"],
-.mapwrap[data-m="den"] .isle[data-den="4"], .mapwrap[data-m="den"] .isle[data-den="5"], .mapwrap[data-m="den"] .isle[data-den="6"] { color: #fff; }
-@media (prefers-color-scheme: dark) {
-  .mapwrap[data-m="pop"] .isle[data-pop="1"], .mapwrap[data-m="pop"] .isle[data-pop="2"], .mapwrap[data-m="pop"] .isle[data-pop="3"],
-  .mapwrap[data-m="area"] .isle[data-area="1"], .mapwrap[data-m="area"] .isle[data-area="2"], .mapwrap[data-m="area"] .isle[data-area="3"],
-  .mapwrap[data-m="den"] .isle[data-den="1"], .mapwrap[data-m="den"] .isle[data-den="2"], .mapwrap[data-m="den"] .isle[data-den="3"] { color: #f7f0e3; }
-  .mapwrap[data-m="pop"] .isle[data-pop="4"], .mapwrap[data-m="pop"] .isle[data-pop="5"], .mapwrap[data-m="pop"] .isle[data-pop="6"],
-  .mapwrap[data-m="area"] .isle[data-area="4"], .mapwrap[data-m="area"] .isle[data-area="5"], .mapwrap[data-m="area"] .isle[data-area="6"],
-  .mapwrap[data-m="den"] .isle[data-den="4"], .mapwrap[data-m="den"] .isle[data-den="5"], .mapwrap[data-m="den"] .isle[data-den="6"] { color: #13102b; }
-}
+.mapwrap[data-m="den"] .isle[data-den="4"], .mapwrap[data-m="den"] .isle[data-den="5"], .mapwrap[data-m="den"] .isle[data-den="6"] { color: var(--on-seq); }
 
 .charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 48px) clamp(24px, 4vw, 56px); }
 @media (max-width: 920px) { .charts { grid-template-columns: minmax(0, 1fr); } }

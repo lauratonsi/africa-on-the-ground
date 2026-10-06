@@ -25,7 +25,8 @@ content/
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
   pages/method.html       la pagina pubblica "Method"
 src/
-  styles.css              lo stile (due strati, tema chiaro e scuro, mappe)
+  styles.css              lo stile (due strati, mappe); i colori hanno valore chiaro e scuro (light-dark)
+  theme.js                pulsante del tema: sistema, chiaro, scuro (la scelta resta nel browser)
   app.js                  filtro per tipo e evidenziazione sulla home (facoltativo)
   geo/                    contorni dei paesi per le mappe (Natural Earth), vedi LEGGIMI.txt
   fonts/                  font locali con licenze, vedi LEGGIMI.txt
