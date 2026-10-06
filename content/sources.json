@@ -213,5 +213,26 @@
     "status": "verified",
     "note": "Public domain outlines. They show de facto boundaries and draw Somaliland and Western Sahara as separate areas.",
     "retrieved": "2026-10-06"
+  },
+  {
+    "id": "icomos-761",
+    "title": "James Island and Related Sites (Gambia), No 761 rev: evaluation by the Advisory Body",
+    "publisher": "ICOMOS, for the UNESCO World Heritage Committee",
+    "url": "https://whc.unesco.org/archive/advisory_body_evaluation/761rev.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Technical evaluation written for the 2003 inscription, under the property's earlier name. It reports both the State Party's own justification and ICOMOS's view; the card uses the ICOMOS parts unless it says otherwise.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wright-1981",
+    "title": "Uprooting Kunta Kinte: On the Perils of Relying on Encyclopedic Informants",
+    "author": "Donald R. Wright",
+    "publisher": "History in Africa, vol. 8 (1981), pp. 205-217",
+    "url": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/uprooting-kunta-kinte-on-the-perils-of-relying-on-encyclopedic-informants/D30AC97A9019B1698E82919E69D60289",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Only the abstract was read. The full article is behind a paywall.",
+    "retrieved": "2026-10-06"
   }
 ]
