@@ -6,6 +6,15 @@
   "name": "Kunta Kinteh Island",
   "region": "The Gambia · River Gambia",
   "subtitle": "Near Juffureh and Albreda. UNESCO World Heritage since 2003.",
+  "image": {
+    "file": "kunta-kinteh-island",
+    "alt": "A low island in a wide, hazy river, with the ruins of a fort among bare baobab trees and a wooden jetty on the right.",
+    "caption": "Kunta Kinteh Island, then called James Island, seen from the river in 1997. The ruins of the fort stand among baobab trees.",
+    "credit": "Leonora (Ellie) Enking",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Baobabs_on_James_Island_(4383600924).jpg"
+  },
   "coords": { "lat": 13.3176, "lon": -16.3614, "cite": ["unesco-761"] },
   "facts": [
     { "label": "Inscribed", "value": "2003", "cite": ["unesco-761"] },

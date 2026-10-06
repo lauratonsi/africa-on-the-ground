@@ -29,6 +29,7 @@ src/
   app.js                  filtro per tipo e evidenziazione sulla home (facoltativo)
   geo/                    contorni dei paesi per le mappe (Natural Earth), vedi LEGGIMI.txt
   fonts/                  font locali con licenze, vedi LEGGIMI.txt
+  img/places/             foto dei luoghi (due misure ciascuna), con licenza aperta e credito nella scheda
 scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/
@@ -114,6 +115,10 @@ a tre lettere, per esempio `GMB`) e, se si trova su una mappa, `coords`:
 Un luogo senza `coords` (per esempio un piatto) compare nell'elenco ma non sulla mappa.
 Per ora esiste una mappa di dettaglio solo per la Gambia (`country: "GMB"`); per un altro paese serve prima
 aggiungerne i contorni a `scripts/prepare-geo.mjs`.
+
+Una foto si aggiunge con `image` nella scheda (testo alternativo, didascalia, autore, licenza, indirizzi della
+licenza e del file originale) e due file in `src/img/places/`: `<nome>-800.jpg` e `<nome>-1600.jpg`. Il build si
+ferma se manca qualcosa. Solo immagini a licenza aperta; vedi `docs/metodo-editoriale.md`.
 
 Tipi di blocco previsti nelle sezioni: `p` (paragrafo a frasi citate), `facts` (la griglia dei dati),
 `timeline` (cronologia).

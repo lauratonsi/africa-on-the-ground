@@ -53,7 +53,39 @@ function write(rel, content) {
   fs.writeFileSync(file, content);
 }
 
-const brandSvg = '<svg width="26" height="22" viewBox="0 0 26 22" aria-hidden="true"><rect class="r" x="0" y="0" width="26" height="10"/><rect class="v" x="0" y="12" width="17" height="10"/></svg>';
+const brandSvg = '<svg width="30" height="26" viewBox="0 0 30 26" aria-hidden="true"><rect class="r" x="0" y="0" width="30" height="11" rx="5.5"/><rect class="v" x="0" y="14" width="22" height="11" rx="5.5"/><circle class="s" cx="26" cy="19.5" r="4"/></svg>';
+
+// Grafica geometrica generata: forme astratte nei colori del sito, sempre uguale per lo stesso seme.
+// Non riproduce disegni di nessuna tradizione: sono quarti di cerchio, cerchi, strisce.
+function art(seed, cols, rows) {
+  let h = 2166136261;
+  for (const ch of seed) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); }
+  const rnd = () => { h ^= h << 13; h ^= h >>> 17; h ^= h << 5; return ((h >>> 0) % 10000) / 10000; };
+  const COLORS = ["a1", "a2", "a3", "a4", "a5", "a7"];
+  const pick = (arr, not) => { const ok = arr.filter((c) => !not.includes(c)); return ok[Math.floor(rnd() * ok.length)]; };
+  const grid = [];
+  const out = [];
+  for (let y = 0; y < rows; y++) {
+    for (let x = 0; x < cols; x++) {
+      const left = x ? grid[y][x - 1] : null, up = y ? grid[y - 1][x] : null;
+      const bg = pick(COLORS, [left, up].filter(Boolean));
+      (grid[y] = grid[y] || [])[x] = bg;
+      const fg = pick(COLORS, [bg]);
+      const shape = Math.floor(rnd() * 7), rot = Math.floor(rnd() * 4) * 90;
+      const t = `translate(${x * 100} ${y * 100})`;
+      let g = "";
+      if (shape === 0) g = `<path class="${fg}" d="M0 100A100 100 0 0 1 100 0L100 100Z" transform="rotate(${rot} 50 50)"/>`;
+      else if (shape === 1) g = `<circle class="${fg}" cx="50" cy="50" r="36"/>`;
+      else if (shape === 2) g = `<path class="${fg}" d="M0 100A50 50 0 0 1 100 100Z" transform="rotate(${rot} 50 50)"/>`;
+      else if (shape === 3) g = `<path class="${fg}" d="M0 0L100 100L0 100Z" transform="rotate(${rot} 50 50)"/>`;
+      else if (shape === 4) g = `<rect class="${fg}" x="0" y="16" width="100" height="16"/><rect class="${fg}" x="0" y="42" width="100" height="16"/><rect class="${fg}" x="0" y="68" width="100" height="16"/>`;
+      else if (shape === 5) g = `<circle class="${fg}" cx="50" cy="50" r="38"/><circle class="${bg}" cx="50" cy="50" r="18"/>`;
+      else g = `<circle class="${fg}" cx="28" cy="50" r="20"/><circle class="${fg}" cx="72" cy="50" r="20"/>`;
+      out.push(`<g transform="${t}"><rect class="${bg}" width="100" height="100"/>${g}</g>`);
+    }
+  }
+  return `<svg class="art" viewBox="0 0 ${cols * 100} ${rows * 100}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">${out.join("")}</svg>`;
+}
 
 function layout({ title, description, depth, body, current, script = false }) {
   const p = prefix(depth);
@@ -69,18 +101,22 @@ function layout({ title, description, depth, body, current, script = false }) {
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="wrap">
 <header class="top">
-  <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
-  <nav><a href="${p}index.html#map">Map</a><a href="${p}index.html#places">Places</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+  <div class="wrap top-in">
+    <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
+    <nav aria-label="Main"><a href="${p}index.html#places">Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+  </div>
 </header>
 <main id="main">
 ${body}
 </main>
 <footer class="foot">
-  <p>This site sets no cookies, runs no analytics and loads nothing from other sites. <a href="${p}method/index.html">How it works</a></p>
+  <div class="wrap foot-in">
+    <p class="foot-brand">${esc(config.name)}</p>
+    <p>${esc(config.tagline)}</p>
+    <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a></p>
+  </div>
 </footer>
-</div>
 ${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}</body>
 </html>
 `;
@@ -171,23 +207,39 @@ function renderPlace(p) {
   const asks = config.noteKinds.map((k) => `<li><span class="chip">${esc(k.label)}</span> ${esc(k.question)}</li>`).join("");
   const contact = config.contact ? ` To offer a note or ask for one to be removed: ${esc(config.contact)}.` : "";
 
+  const im = p.image;
+  const imgBase = `../../img/places/${im ? esc(im.file) : ""}`;
+  const heroBg = im
+    ? `<picture class="phero-img"><img src="${imgBase}-1600.jpg" srcset="${imgBase}-800.jpg 800w, ${imgBase}-1600.jpg 1600w" sizes="100vw" alt="${esc(im.alt)}" fetchpriority="high"></picture><div class="phero-shade"></div>`
+    : `<div class="phero-art" aria-hidden="true">${art(p.slug, 4, 4)}</div>`;
+  const credit = im
+    ? `<p class="photo-credit">${esc(im.caption)} Photo: ${esc(im.credit)}, <a href="${esc(im.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(im.license)}</a>, via <a href="${esc(im.source)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>`
+    : "";
+
   const body = `
-<p class="crumb"><a href="../../index.html#places">&larr; All places</a></p>
-<section class="hero hero-place">
-  <div class="hero-text">
-    <p class="kicker">${esc(p.region)}</p>
-    <h1>${esc(p.name)}</h1>
-    <p class="sub">${esc(p.subtitle)}</p>
-    <p class="ptype"><span class="chip-type">${typeIcon(p.type)}${esc(types[p.type].label)}</span>${p.status === "draft" ? '<span class="draft">Draft, not yet public</span>' : ""}</p>
-    <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
-    <ul class="legend">
-      <li><span class="layer-tag rec">In the record</span> cited to a source</li>
-      <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
-    </ul>
-    <p class="jump"><a href="#voices">Jump to what people who know this place say</a></p>
+<section class="phero${im ? "" : " noimg"}">
+  ${heroBg}
+  <div class="wrap phero-in">
+    <p class="phero-top crumb"><a href="../../index.html#places">&larr; All places</a></p>
+    <div class="phero-text">
+      <p class="kicker">${esc(p.region)}</p>
+      <h1>${esc(p.name)}</h1>
+      <p class="sub">${esc(p.subtitle)}</p>
+      <p class="ptype"><span class="chip-type">${typeIcon(p.type)}${esc(types[p.type].label)}</span>${p.status === "draft" ? '<span class="draft">Draft, not yet public</span>' : ""}</p>
+    </div>
+    ${loc}
   </div>
-  ${loc}
+  ${credit}
 </section>
+<section class="wrap page-intro">
+  <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
+  <ul class="legend">
+    <li><span class="layer-tag rec">In the record</span> cited to a source</li>
+    <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
+  </ul>
+  <p class="jump"><a href="#voices">Jump to what people who know this place say</a></p>
+</section>
+<div class="wrap">
 <div class="cols">
   <article class="record" id="record">
 ${sections}
@@ -210,6 +262,7 @@ ${sourcesHtml}
     </div>
     <p class="fine">Notes are collected in person or by direct message, never through this site. <a href="../../method/index.html">How notes are collected</a>.${contact}</p>
   </aside>
+</div>
 </div>`;
 
   return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body });
@@ -223,7 +276,10 @@ for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 const placeItems = published.map((p) => {
   const n = (notes[p.slug] || []).length;
   const where = p.coords ? "" : " · not on the map";
-  return `<li data-slug="${esc(p.slug)}" data-type="${esc(p.type)}"><a class="place" href="places/${esc(p.slug)}/index.html"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}${where}${p.status === "draft" ? " · draft" : ""}</span></a></li>`;
+  const media = p.image
+    ? `<img src="img/places/${esc(p.image.file)}-800.jpg" srcset="img/places/${esc(p.image.file)}-800.jpg 800w, img/places/${esc(p.image.file)}-1600.jpg 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="800" height="533" alt="${esc(p.image.alt)}" loading="lazy">`
+    : art(p.slug, 3, 2).replace('class="art"', 'class="art pimg-art"');
+  return `<li data-slug="${esc(p.slug)}" data-type="${esc(p.type)}"><a class="place" href="places/${esc(p.slug)}/index.html"><span class="pimg">${media}${p.status === "draft" ? '<span class="draft pbadge">Draft</span>' : ""}</span><span class="pbody"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}${where}</span></span></a></li>`;
 }).join("");
 
 const usedTypes = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));
@@ -234,14 +290,31 @@ const filterChips = usedTypes.length > 1
   : "";
 
 const mapSection = published.some((p) => p.coords)
-  ? `<section id="map" class="mapsec" aria-labelledby="map-h">
-  <div class="maphead"><h2 class="listh" id="map-h">Map</h2>${filterChips}</div>
+  ? `<section id="map" class="band-indigo section" aria-labelledby="map-h">
+  <div class="wrap">
+  <div class="maphead"><h2 class="listh" id="map-h">Where the cards are</h2>${filterChips}</div>
   <div class="maps">
-    <figure class="fig-africa">${africaMap(published, types, { hrefFor: (iso) => `countries/index.html#c-${iso}` })}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}.</figcaption></figure>
-    <figure class="fig-gambia">${gambiaMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html` })}<figcaption>Point at a marker to see its name, or choose a card below.</figcaption></figure>
+    <figure class="fig-africa">${africaMap(published, types, { hrefFor: (iso) => `countries/index.html#c-${iso}` })}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}. Select it for the country's figures.</figcaption></figure>
+    <figure class="fig-gambia">${gambiaMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html` })}<figcaption>Point at a marker to see its name, or choose a card above.</figcaption></figure>
   </div>
   <ul class="legend legend-types">${typeLegend}</ul>
   <p class="fine">Positions are approximate unless the card cites a source for them. Country outlines: Natural Earth, public domain.</p>
+  </div>
+</section>`
+  : "";
+
+const cList = data.countries ? data.countries.countries : [];
+const cPop = cList.reduce((a, c) => a + c.population, 0);
+const countriesBand = cList.length
+  ? `<section class="band-saffron section">
+  <div class="wrap teaser">
+    <div class="teaser-text">
+      <p class="kicker">Reference</p>
+      <h2 class="listh">${cList.length} countries, ${fmtPop(cPop)} people</h2>
+      <p class="lede">The map, capital, area and population of every African country, with charts and a table you can sort. The figures are the World Bank's and are cited.</p>
+    </div>
+    <p class="actions"><a class="btn" href="countries/index.html">Explore the country data</a></p>
+  </div>
 </section>`
   : "";
 
@@ -251,21 +324,41 @@ write("index.html", layout({
   depth: 0,
   script: true,
   body: `
-<section class="hero">
-  <p class="kicker">Place guides</p>
-  <h1>${esc(config.name)}</h1>
-  <p class="sub">${esc(config.tagline)}</p>
-  <p class="lede">Each card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
-  <ul class="legend">
-    <li><span class="layer-tag rec">In the record</span> cited to a source</li>
-    <li><span class="layer-tag voi">From people who know this place</span> one person's experience, shown as theirs</li>
-  </ul>
+<section class="wrap hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Place guides</p>
+      <h1>${esc(config.name)}</h1>
+      <p class="sub">${esc(config.tagline)}</p>
+      <p class="actions"><a class="btn" href="#places">See the places</a><a class="btn btn-alt" href="method/index.html">How it works</a></p>
+    </div>
+    <div class="hero-art" aria-hidden="true">${art("africa-on-the-ground", 4, 4)}</div>
+  </div>
+</section>
+<section class="wrap layers-sec" aria-label="The two layers of every card">
+  <div class="layers">
+    <article class="layer layer-rec">
+      <span class="layer-tag">In the record</span>
+      <h2>What the documents say</h2>
+      <p>Every statement has a numbered citation, and every source is labelled by its kind and by how far it has been checked.</p>
+      <p class="demo">UNESCO inscribed the site in 2003 <span class="cite">[1]</span></p>
+    </article>
+    <article class="layer layer-voi">
+      <span class="layer-tag">From people who know this place</span>
+      <h2>What they tell us</h2>
+      <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
+      <p class="demo">"${esc(config.noteKinds[0].question)}"</p>
+    </article>
+  </div>
+</section>
+<section id="places" class="section">
+  <div class="wrap">
+    <h2 class="listh">The place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
+    ${published.length ? `<ul class="places" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
+  </div>
 </section>
 ${mapSection}
-<section id="places">
-  <h2 class="listh">Place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
-  ${published.length ? `<ul class="places" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
-</section>`
+${countriesBand}`
 }));
 
 // ---------- pagina Countries ----------
@@ -355,6 +448,7 @@ function renderCountries(list) {
   const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
   const body = `
+<div class="wrap">
 <section class="hero">
   <p class="kicker">Reference</p>
   <h1>Africa by the numbers</h1>
@@ -364,6 +458,8 @@ function renderCountries(list) {
 
 <section class="kpis" aria-label="Africa in four numbers">${kpis}</section>
 
+</div>
+<div class="band-sand section"><div class="wrap">
 <section id="map" class="panel" aria-labelledby="cmap-h">
   <div class="phead">
     <h2 id="cmap-h">Map</h2>
@@ -388,6 +484,8 @@ function renderCountries(list) {
   <p class="fine">Country outlines${cite(["natural-earth"])} show de facto boundaries and are not a statement about disputed ones. Subregions follow the United Nations statistical groups${cite(["un-m49"])}.</p>
 </section>
 
+</div></div>
+<div class="wrap section">
 <section id="charts" class="charts">
   <figure class="chart">
     <h2>The five most populous countries hold ${share(top5)} of Africa's people</h2>
@@ -410,6 +508,8 @@ function renderCountries(list) {
   </figure>
 </section>
 
+</div>
+<div class="band-sand section"><div class="wrap">
 <section id="table" class="panel" aria-labelledby="tab-h">
   <div class="phead">
     <h2 id="tab-h">All ${list.length} countries <span class="count" id="tcount" aria-live="polite"></span></h2>
@@ -429,6 +529,8 @@ function renderCountries(list) {
   <p class="fine">Population is the 2025 value and area the 2023 value, the most recent the World Bank gave for each country${cite(["wb-population", "wb-area"])}. Capitals as listed by the World Bank${cite(["wb-countries"])}.</p>
 </section>
 
+</div></div>
+<div class="wrap section">
 <section id="sec-gaps" class="gaps panel-gaps">
   <span class="layer-tag gap">Not yet sourced</span>
   <ul>
@@ -439,6 +541,7 @@ function renderCountries(list) {
   </ul>
 </section>
 ${sourcesList()}
+</div>
 <script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
   return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body });
@@ -452,7 +555,7 @@ write("method/index.html", layout({
   description: "How the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
-  body: `<div class="prose">${methodHtml.replace("<!--contact-->", contactLine)}</div>`
+  body: `<div class="wrap prose-hero"><div class="prose">${methodHtml.replace("<!--contact-->", contactLine)}</div></div>`
 }));
 
 write("404.html", `<!doctype html>
@@ -493,6 +596,15 @@ for (const f of FONTS) {
 const licDir = path.join(fontDir, "licenses");
 if (faces.length && fs.existsSync(licDir)) fs.cpSync(licDir, path.join(dist, "fonts", "licenses"), { recursive: true });
 fs.copyFileSync(path.join(root, "src", "app.js"), path.join(dist, "app.js"));
+// Solo le foto delle schede pubblicate: quelle delle bozze non vanno online.
+for (const pl of published) {
+  if (!pl.image) continue;
+  for (const size of [800, 1600]) {
+    const name = `${pl.image.file}-${size}.jpg`;
+    fs.mkdirSync(path.join(dist, "img", "places"), { recursive: true });
+    fs.copyFileSync(path.join(root, "src", "img", "places", name), path.join(dist, "img", "places", name));
+  }
+}
 write("styles.css", (faces.length ? faces.join("\n") + "\n" : "") + css);
 console.log(faces.length ? `Font locali inclusi: ${faces.length} file.` : "Nessun font locale trovato in src/fonts: uso i font di sistema.");
 

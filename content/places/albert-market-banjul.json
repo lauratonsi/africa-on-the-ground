@@ -6,6 +6,15 @@
   "name": "Albert Market",
   "region": "The Gambia · Banjul",
   "subtitle": "A street market on Liberation Avenue in Banjul, built in the mid-nineteenth century.",
+  "image": {
+    "file": "albert-market-banjul",
+    "alt": "Vendors at wooden tables piled with aubergines, tomatoes and squash, under a corrugated iron roof.",
+    "caption": "A produce area of Albert Market, photographed in 2009. The photographer titled it Albert market, and Wikimedia Commons files it under Albert Market, Banjul.",
+    "credit": "Demian",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_market_(3407997936).jpg"
+  },
   "coords": { "lat": 13.4543, "lon": -16.5724, "approx": true, "cite": ["horizons-albert-market"] },
   "facts": [
     { "label": "Kind", "value": "Street market", "cite": ["wikipedia-albert-market"] },

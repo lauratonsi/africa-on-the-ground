@@ -106,6 +106,14 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     for (const k of ["name", "region", "subtitle"]) if (!p[k]) err(`${w}: manca "${k}".`);
     if (!typeIds.has(p.type)) err(`${w}: type "${p.type}" non previsto in site.config.json (placeTypes).`);
     if (p.country != null && !/^[A-Z]{3}$/.test(p.country)) err(`${w}: country deve essere un codice ISO a tre lettere maiuscole, per esempio GMB.`);
+    if (p.image != null) {
+      const im = p.image;
+      for (const k of ["file", "alt", "caption", "credit", "license"]) if (!im[k] || typeof im[k] !== "string") err(`${w}: image richiede "${k}".`);
+      for (const k of ["licenseUrl", "source"]) if (!/^https:\/\//.test(im[k] || "")) err(`${w}: image.${k} deve essere un indirizzo https.`);
+      for (const size of [800, 1600]) {
+        if (im.file && !fs.existsSync(path.join(root, "src", "img", "places", `${im.file}-${size}.jpg`))) err(`${w}: manca src/img/places/${im.file}-${size}.jpg.`);
+      }
+    }
     if (p.coords != null) {
       const c = p.coords;
       if (typeof c.lat !== "number" || c.lat < -90 || c.lat > 90 || typeof c.lon !== "number" || c.lon < -180 || c.lon > 180) {

@@ -53,6 +53,18 @@ Più note sulla stessa scheda sono la norma, non un'anomalia. Non scegliere "la"
 - I confini sono quelli di fatto di Natural Earth. La pagina non prende posizione sulle frontiere contestate.
 - Nessuna voce locale in questa pagina: è tutta nello strato documentato.
 
+## Fotografie
+
+- Solo immagini con licenza aperta (per ora da Wikimedia Commons), scaricate e ospitate nel sito: nessuna immagine
+  viene caricata da altri domini.
+- Ogni foto ha nel file della scheda `image` con testo alternativo, didascalia, autore, licenza, indirizzo della
+  licenza e indirizzo del file originale. Il build si ferma se manca uno di questi campi o se mancano i file.
+- Si controlla che la foto mostri davvero quel luogo (le categorie di Commons aiutano) e si scrive in didascalia
+  solo ciò che la foto o la sua scheda dicono, per esempio l'anno dello scatto.
+- Le foto con licenza "share alike" restano sotto la propria licenza anche dentro il sito: la scelta della licenza dei
+  contenuti del progetto non le riguarda.
+- Una foto è un'illustrazione, non una fonte: non sostituisce le citazioni dello strato documentato.
+
 ## Privacy
 
 - Il sito non raccoglie dati: nessun modulo, cookie, statistica, font o script esterni. Il build lo verifica.

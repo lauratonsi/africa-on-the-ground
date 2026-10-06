@@ -6,6 +6,15 @@
   "name": "Wassu Stone Circles",
   "region": "The Gambia · Central River Region",
   "subtitle": "Standing stones of laterite, part of the Stone Circles of Senegambia. UNESCO World Heritage since 2006.",
+  "image": {
+    "file": "wassu-stone-circles",
+    "alt": "Dark red laterite pillars standing on red earth, with dry grass and a few bare trees behind.",
+    "caption": "Laterite stones at Wassu, photographed in 2008.",
+    "credit": "Ikiwaner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Wassu_stone_circle.jpg"
+  },
   "coords": { "lat": 13.6915, "lon": -14.8731, "cite": ["wikipedia-senegambian-stone-circles"] },
   "facts": [
     { "label": "Inscribed", "value": "2006", "cite": ["unesco-1226"] },
