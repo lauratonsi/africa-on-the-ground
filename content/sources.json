@@ -57,5 +57,37 @@
     "status": "draft",
     "note": "Work in progress, no publication year shown.",
     "retrieved": "2026-10-06"
+  },
+  {
+    "id": "rai-beale-ms465",
+    "title": "Beale, Philip Ormrod \u201ccollection\u201d (MS 465): The Gambia stone circles",
+    "publisher": "Royal Anthropological Institute",
+    "url": "https://therai.org.uk/?p=1093",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Archive catalogue of papers on the 1964-65 expedition. It lists reports and letters, including on carbon dating, but does not reproduce the dating result.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "the-point-wassu-2015",
+    "title": "\u2018Wassu Stone Circles are unique to Gambia\u2019",
+    "author": "Njie Baldeh",
+    "publisher": "The Point (Banjul)",
+    "published": "2015-10-13",
+    "url": "https://thepoint.gm/africa/gambia/article/wassu-stone-circles-are-unique-to-gambia",
+    "tier": "press",
+    "status": "verified",
+    "note": "Reports what an official of the National Centre for Arts and Culture said on a tour. Updated by the paper in August 2020.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wikipedia-senegambian-stone-circles",
+    "title": "Senegambian stone circles",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Senegambian_stone_circles",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Source of the counts, dimensions and dates below. Replace or confirm with the UNESCO pages and excavation reports.",
+    "retrieved": "2026-10-06"
   }
 ]

@@ -5,14 +5,88 @@
   "country": "GMB",
   "name": "Wassu Stone Circles",
   "region": "The Gambia · Central River Region",
-  "subtitle": "Card in preparation.",
-  "coords": {
-    "lat": 13.7,
-    "lon": -14.867
-  },
-  "facts": [],
-  "sections": [],
+  "subtitle": "Standing stones of laterite, part of the Stone Circles of Senegambia. UNESCO World Heritage since 2006.",
+  "coords": { "lat": 13.6915, "lon": -14.8731, "cite": ["wikipedia-senegambian-stone-circles"] },
+  "facts": [
+    { "label": "Inscribed", "value": "2006", "cite": ["wikipedia-senegambian-stone-circles"] },
+    { "label": "Whole property", "value": "4 main groups, 2 countries", "cite": ["wikipedia-senegambian-stone-circles"] },
+    { "label": "Circles at Wassu", "value": "11, with frontal stones", "cite": ["wikipedia-senegambian-stone-circles"] },
+    { "label": "Tallest stone", "value": "2.59 m", "cite": ["wikipedia-senegambian-stone-circles"] },
+    { "label": "Burial mounds near Wassu", "value": "dated AD 927 to 1305", "cite": ["wikipedia-senegambian-stone-circles"] },
+    { "label": "Region", "value": "Central River Region", "cite": ["the-point-wassu-2015"] }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "Wassu is one of the four main groups of the Stone Circles of Senegambia. The other Gambian group is Kerr Batch, and the two others, Sine Ngayène and Wanar, lie in Senegal.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "text": " Taken together the stone circles and mounds are described as the largest concentration of such monuments anywhere, spread over an area about 350 km long and 100 km wide.", "cite": ["wikipedia-senegambian-stone-circles"] }
+          ]
+        },
+        { "type": "facts" },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "At Wassu the stones stand in 11 circles. Some stand apart from the circles, usually to the east, and are called frontal stones. The pillars are mostly laterite, cut cylindrical or polygonal, and the encyclopedia article gives an average of about two metres high and seven tons.", "cite": ["wikipedia-senegambian-stone-circles"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            { "when": "3rd c. BCE to 16th c. CE", "text": "The generally accepted range for the monuments across the whole region. Researchers are not certain when each group was built.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "when": "AD 927–1305", "text": "Burial mounds near Wassu have been dated to this span. It is not clear whether they were built before or after the stone circles.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "when": "1964–65", "text": "The Anglo-Gambian stone circles expedition works at Wassu and at Ker Batch under the auspices of the Royal Anthropological Institute, directed by F.A. Evans and P.O. Beale. A report to the Prime Minister of The Gambia is printed in 1966.", "cite": ["rai-beale-ms465"] },
+            { "when": "1967", "text": "A laboratory run by Cheikh Anta Diop reports a carbon date for a sample from the Gambian circles. In a November letter Beale writes that it gave a date for the circle at Wassu. The catalogue does not give the date itself.", "cite": ["rai-beale-ms465"] },
+            { "when": "1973–74", "text": "A project for archaeological research in Senegambia is sponsored by the Royal Ontario Museum and the University of Waterloo.", "cite": ["rai-beale-ms465"] },
+            { "when": "2006", "text": "The Stone Circles of Senegambia are inscribed on the UNESCO World Heritage List.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "when": "Oct 2015", "text": "The deputy director general of the National Centre for Arts and Culture says it plans to restore heritage sites in the area and improve facilities for visitors, with private-sector help.", "cite": ["the-point-wassu-2015"] }
+          ],
+          "note": "Dates for the monuments themselves come from an encyclopedia article. They are marked for checking against the excavation reports."
+        }
+      ]
+    },
+    {
+      "id": "age-and-builders",
+      "title": "How old, and who built them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "There is no consensus on who built the stone circles. No group today claims them as its ancestors' work in its surviving oral history, and the structures resemble burial practices of several living peoples.", "cite": ["wikipedia-senegambian-stone-circles"] },
+            { "text": " Cheikh Anta Diop argued that the Serer built them, while Serer oral history credits earlier occupants of the area, whose identity is debated.", "cite": ["wikipedia-senegambian-stone-circles"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "Speaking to The Point in 2015, an official of the National Centre for Arts and Culture called the Wassu circles unique to The Gambia and to Africa. He said they are more than two thousand years old, that each stone weighs about 20 tonnes, and that they were raised as burial places for kings.", "cite": ["the-point-wassu-2015"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "These figures differ from the ones above: the encyclopedia article gives an average of about seven tons and, for the mounds near Wassu, dates between AD 927 and 1305. This card does not reconcile them. It reports both and marks the gap.", "editorial": true }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet."
+    "UNESCO's own description of the property, its criteria and its area figures. The UNESCO pages could not be read by automated tools on 6 October 2026, so they were not used.",
+    "The carbon date from 1967 and the dates from the mounds, with their original sources. The numbers here come from an encyclopedia article.",
+    "Who led the 1964–65 expedition. The Royal Anthropological Institute record names F.A. Evans and P.O. Beale, while the encyclopedia article names Paul Ozanne. To be checked against the expedition report.",
+    "The weight of the stones. A 2015 press report quotes 20 tonnes each and the encyclopedia article gives an average of about seven tons.",
+    "The state of the site and its visitor facilities today. The newest source is from 2015, updated in 2020.",
+    "What the circles mean in daily life for people in the villages around Wassu. Only the local voices on this card can answer that."
   ]
 }
