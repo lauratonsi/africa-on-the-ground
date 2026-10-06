@@ -25,7 +25,7 @@ content/
   pages/method.html       la pagina pubblica "Method"
 src/
   styles.css              lo stile (due strati, tema chiaro e scuro)
-  fonts/                  font locali opzionali, vedi LEGGIMI.txt
+  fonts/                  font locali con licenze, vedi LEGGIMI.txt
 scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/

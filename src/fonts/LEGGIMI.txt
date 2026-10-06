@@ -1,19 +1,22 @@
-FONT LOCALI (facoltativi)
+FONT LOCALI
 
-Il sito funziona con i font di sistema. Per usare i font scelti per il progetto senza che i
-visitatori chiamino server esterni (per esempio Google), scarica i file e salvali qui con
-questi nomi esatti, in formato woff2:
+Il sito serve i propri font, così i visitatori non chiamano server esterni (per esempio Google).
+Il build incorpora da solo i file elencati in scripts/build.mjs (array FONTS), scrive le regole
+@font-face e copia in dist/fonts/licenses le licenze. Se un file manca, quel font viene ignorato
+e vale il font di sistema indicato in src/styles.css.
 
-  bricolage-grotesque-variable.woff2      Bricolage Grotesque, variabile, pesi 300-800
-  source-serif-4-variable.woff2           Source Serif 4, variabile, pesi 400-700
-  source-serif-4-italic-variable.woff2    Source Serif 4 corsivo, variabile
-  ibm-plex-mono-400.woff2                 IBM Plex Mono Regular
-  ibm-plex-mono-500.woff2                 IBM Plex Mono Medium
+Famiglie (tutte con licenza SIL Open Font License 1.1, testo in licenses/):
 
-Il build li incorpora da solo e scrive le regole @font-face. Se un file manca, quel font
-viene semplicemente ignorato.
+  Bricolage Grotesque   titoli e interfaccia   variabile, pesi 200-800, asse optical size
+  Source Serif 4        racconto documentato   variabile, pesi 200-900, asse optical size, tondo e corsivo
+  IBM Plex Mono         etichette e citazioni  pesi 400 e 500
 
-Prima di pubblicarli controlla la licenza di ciascun font (di solito sono licenze aperte che
-permettono di servirli dal proprio sito, ma va verificato file per file) e conserva qui
-accanto il testo della licenza che accompagna il download. Scarica i file da una fonte
-ufficiale e controlla che il subset includa le lettere accentate che ti servono.
+Ogni famiglia ha due file:
+  *-latin-*      lettere di base, accentate comuni, punteggiatura
+  *-latin-ext-*  lettere estese, tra cui ŋ e ñ (wolof, mandinka)
+Il browser scarica il secondo solo se la pagina contiene quelle lettere.
+
+Provenienza: pacchetti npm @fontsource-variable/bricolage-grotesque 5.3.0,
+@fontsource-variable/source-serif-4 5.3.0 e @fontsource/ibm-plex-mono 5.3.0 (file woff2 ufficiali,
+ottenuti il 6 ottobre 2026). Per aggiornarli, scarica la nuova versione dello stesso pacchetto e
+sostituisci i file mantenendo i nomi.
