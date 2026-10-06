@@ -55,11 +55,13 @@ function pin(place, p, types, { cur, dim, labelSide }) {
 }
 
 // Panoramica dell'Africa: i paesi con almeno una scheda sono evidenziati.
-export function africaMap(places, types) {
+export function africaMap(places, types, { hrefFor } = {}) {
   const p = projection({ lon0: -19, lon1: 52, lat0: -36, lat1: 38 }, 600);
   const have = new Set(places.map((x) => x.country).filter(Boolean));
-  const land = africa.countries.map((c) =>
-    `<path class="land${have.has(c.a3) ? " has" : ""}" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
+  const land = africa.countries.map((c) => {
+    const path = `<path class="land${have.has(c.a3) ? " has" : ""}" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}${have.has(c.a3) && hrefFor ? ": see its figures" : ""}</title></path>`;
+    return have.has(c.a3) && hrefFor ? `<a href="${esc(hrefFor(c.a3))}" aria-label="${esc(c.name)}: figures and place cards">${path}</a>` : path;
+  }).join("");
   const locators = africa.countries.filter((c) => have.has(c.a3)).map((c) => {
     const pts = c.rings.flat();
     const lons = pts.map((q) => q[0]), lats = pts.map((q) => q[1]);
@@ -109,7 +111,7 @@ export function choroplethMap(countries, bins) {
     const d = shapePath(shape.rings, p);
     if (!c) return `<path class="c nodata" d="${d}"><title>${esc(shape.name)}: no figures</title></path>`;
     const b = bins(c);
-    return `<path class="c" d="${d}" data-iso="${c.iso3}" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tip(c))}" tabindex="0"><title>${esc(tip(c))}</title></path>`;
+    return `<path class="c" d="${d}" data-iso="${c.iso3}" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tip(c))}" tabindex="0" role="button" aria-pressed="false" aria-label="${esc(c.name)}"><title>${esc(tip(c))}</title></path>`;
   }).join("");
   // capitali: un punto con anello del colore della superficie, così si legge anche sui colori scuri
   const caps = countries.filter((c) => c.capitalLon > -19 && c.capitalLon < 52 && c.capitalLat > -36 && c.capitalLat < 38).map((c) =>

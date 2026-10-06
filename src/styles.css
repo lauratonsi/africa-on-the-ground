@@ -36,7 +36,7 @@
     --line: #27363f;
     --record: #93b8e8;
     --record-tint: #182a3d;
-    --water: #0f1a20;
+    --water: #1b3040;
     --viz-1: #3987e5;
     --viz-2: #d95926;
     --viz-gray: #46565f;
@@ -381,3 +381,29 @@ table.data tr[hidden] { display: none; }
 
 #tip { position: absolute; z-index: 30; max-width: min(22rem, calc(100vw - 16px)); background: var(--ink); color: var(--paper); font-size: .82rem; line-height: 1.35; padding: 7px 10px; border-radius: 4px; pointer-events: none; }
 #tip[hidden] { display: none; }
+
+/* selezione di un paese */
+.cmap .selring { fill: none; stroke: var(--ink); stroke-width: 2.6; pointer-events: none; }
+.cmap .c.sel { stroke: var(--ink); }
+.isle.sel { outline: 2px solid var(--ink); outline-offset: 2px; }
+table.data tbody tr { cursor: pointer; }
+table.data tbody tr:hover { background: var(--voice-surface); }
+table.data tbody tr.sel { background: var(--record-tint); }
+table.data tbody tr:focus-visible { outline: 2px solid var(--voice); outline-offset: -2px; }
+.detail { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 14px 16px; display: grid; gap: 10px; }
+.detail[hidden] { display: none; }
+.detail h3 { margin: 0; font-size: 1.35rem; font-weight: 650; letter-spacing: -0.015em; }
+.detail p { margin: 0; }
+.detail-hint { color: var(--ink-soft); font-size: .92rem; }
+.detail-cap { color: var(--ink-soft); font-size: .92rem; }
+.detail-dl { margin: 0; display: grid; gap: 6px; }
+.detail-dl div { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 10px; }
+.detail-dl dt { font-family: var(--f-mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); padding-top: .2rem; }
+.detail-dl dd { margin: 0; font-weight: 600; }
+.detail-rank { font-size: .88rem; color: var(--ink-soft); }
+.detail-card { font-weight: 600; }
+.detail-clear { justify-self: start; font: inherit; font-family: var(--f-mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); background: none; border: 1px solid var(--line); border-radius: 3px; padding: 6px 10px; min-height: 36px; cursor: pointer; }
+.detail-clear:hover { color: var(--ink); border-color: var(--ink-soft); }
+.map-africa a { cursor: pointer; }
+.map-africa a:hover .land, .map-africa a:focus-visible .land { stroke: var(--ink); stroke-width: 1.6; }
+.map-africa a:focus-visible { outline: none; }

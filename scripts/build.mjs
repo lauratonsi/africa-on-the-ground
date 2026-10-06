@@ -2,6 +2,7 @@
 // Opzione --drafts per includere anche le schede con status "draft" (solo per anteprima).
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
 import { africaMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, fmtInt, fmtPop } from "./charts.mjs";
@@ -25,6 +26,10 @@ const { config, sourcesList, places, notes, methodHtml } = data;
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
+// Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
+const VER = crypto.createHash("sha1")
+  .update(["src/styles.css", "src/app.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
 
@@ -60,7 +65,7 @@ function layout({ title, description, depth, body, current, script = false }) {
 <meta name="color-scheme" content="light dark">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="stylesheet" href="${p}styles.css">
+<link rel="stylesheet" href="${p}styles.css?v=${VER}">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -76,7 +81,7 @@ ${body}
   <p>This site sets no cookies, runs no analytics and loads nothing from other sites. <a href="${p}method/index.html">How it works</a></p>
 </footer>
 </div>
-${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js" defer></script>\n` : ""}</body>
+${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}</body>
 </html>
 `;
 }
@@ -232,7 +237,7 @@ const mapSection = published.some((p) => p.coords)
   ? `<section id="map" class="mapsec" aria-labelledby="map-h">
   <div class="maphead"><h2 class="listh" id="map-h">Map</h2>${filterChips}</div>
   <div class="maps">
-    <figure class="fig-africa">${africaMap(published, types)}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}.</figcaption></figure>
+    <figure class="fig-africa">${africaMap(published, types, { hrefFor: (iso) => `countries/index.html#c-${iso}` })}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}.</figcaption></figure>
     <figure class="fig-gambia">${gambiaMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html` })}<figcaption>Point at a marker to see its name, or choose a card below.</figcaption></figure>
   </div>
   <ul class="legend legend-types">${typeLegend}</ul>
@@ -289,7 +294,7 @@ function renderCountries(list) {
   const ISLES = ["CPV", "COM", "MUS", "STP", "SYC"];
   const isles = ISLES.map((iso) => list.find((c) => c.iso3 === iso)).filter(Boolean).map((c) => {
     const b = bins(c);
-    return `<span class="isle c" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tipOf(c))}" tabindex="0">${esc(c.name)}</span>`;
+    return `<span class="isle c" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-iso="${c.iso3}" data-tip="${esc(tipOf(c))}" tabindex="0" role="button" aria-pressed="false">${esc(c.name)}</span>`;
   }).join("");
 
   // numeri di testa
@@ -331,12 +336,21 @@ function renderCountries(list) {
     tips: [`${r.label}: ${fmtPop(r.p)}, ${(r.popShare * 100).toFixed(1)}% of Africa's people`, `${r.label}: ${fmtInt(r.a)} km², ${(r.areaShare * 100).toFixed(1)}% of Africa's area`]
   })), ["Share of Africa's population", "Share of Africa's area"]);
 
-  // tabella
+  // classifiche e dati per la scheda del paese che si apre al clic
+  const rank = (fn) => { const o = [...list].sort((a, b) => fn(b) - fn(a)); return Object.fromEntries(o.map((c, i) => [c.iso3, i + 1])); };
+  const rPop = rank((c) => c.population), rArea = rank((c) => c.area), rDen = rank(den);
   const cardsOf = (iso) => published.filter((p) => p.country === iso);
+  const detailData = Object.fromEntries(list.map((c) => [c.iso3, {
+    name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
+    density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
+    rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
+    cards: cardsOf(c.iso3).map((p) => ({ name: p.name, href: `../places/${p.slug}/index.html` }))
+  }]));
+  // tabella
   const rows = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
     const cards = cardsOf(c.iso3);
     const cardLink = cards.length ? ` <a class="cardlink" href="../places/${esc(cards[0].slug)}/index.html">${cards.length === 1 ? "1 place card" : `${cards.length} place cards`}</a>` : "";
-    return `<tr data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td></tr>`;
+    return `<tr id="c-${c.iso3}" data-iso="${c.iso3}" tabindex="0" data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td></tr>`;
   }).join("");
   const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
@@ -366,6 +380,7 @@ function renderCountries(list) {
       <div class="isles">${isles}</div>
     </div>
     <div class="legends">
+      <div class="detail" id="detail" aria-live="polite" hidden><p class="detail-hint">Select a country on the map, or a row in the table, to see its figures.</p></div>
       ${legends}
       <p class="fine"><span class="capkey"></span> Capital city. Shaded by the metric chosen above. Western Sahara has no figures and is left unshaded. Somaliland is shaded as part of Somalia.</p>
     </div>
@@ -423,7 +438,8 @@ function renderCountries(list) {
     <li>Nothing yet on languages, economy, history or daily life. Those belong on the place cards, with their own sources and local voices.</li>
   </ul>
 </section>
-${sourcesList()}`;
+${sourcesList()}
+<script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
   return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body });
 }

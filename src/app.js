@@ -110,4 +110,70 @@
     th.addEventListener("click", run);
     th.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); run(); } });
   });
+
+  // ---------- selezione di un paese: mappa, isole, tabella e scheda restano allineate ----------
+  var cdataEl = $("cdata"), detail = $("detail");
+  var data = cdataEl ? JSON.parse(cdataEl.textContent) : null;
+  if (data && detail) {
+    var targets = all(".cmap .c[data-iso], .isle[data-iso]");
+    var svg = document.querySelector(".cmap");
+    var rowOf = {};
+    rows.forEach(function (tr) { rowOf[tr.getAttribute("data-iso")] = tr; });
+    var el = function (tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+    var NS = "http://www.w3.org/2000/svg";
+
+    var showHint = function () {
+      detail.hidden = false; detail.replaceChildren();
+      detail.appendChild(el("p", "detail-hint", "Select a country on the map, or a row in the table, to see its figures."));
+    };
+    var clear = function () {
+      current = null;
+      targets.forEach(function (t) { t.classList.remove("sel"); t.setAttribute("aria-pressed", "false"); });
+      rows.forEach(function (tr) { tr.classList.remove("sel"); });
+      var old = svg && svg.querySelector(".selring"); if (old) old.remove();
+      showHint();
+      if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+    };
+    var current = null, fromHash = false;
+    var select = function (iso, scroll) {
+      var d = data[iso]; if (!d) return;
+      if (current === iso) { clear(); return; }
+      current = iso;
+      targets.forEach(function (t) { var on = t.getAttribute("data-iso") === iso; t.classList.toggle("sel", on); t.setAttribute("aria-pressed", on ? "true" : "false"); });
+      rows.forEach(function (tr) { tr.classList.toggle("sel", tr.getAttribute("data-iso") === iso); });
+      // un contorno sovrapposto, così si vede per intero anche se confina con paesi disegnati dopo
+      var old = svg && svg.querySelector(".selring"); if (old) old.remove();
+      var path = svg && svg.querySelector('.c[data-iso="' + iso + '"]');
+      if (path) { var ring = document.createElementNS(NS, "path"); ring.setAttribute("d", path.getAttribute("d")); ring.setAttribute("class", "selring"); ring.setAttribute("fill-rule", "evenodd"); svg.insertBefore(ring, svg.querySelector(".caps")); }
+      // scheda
+      detail.hidden = false; detail.replaceChildren();
+      detail.appendChild(el("h3", null, d.name));
+      detail.appendChild(el("p", "detail-cap", "Capital: " + d.capital + " · " + d.sub));
+      var dl = el("dl", "detail-dl");
+      [["Population", d.population + " (" + d.popShare + " of Africa)"], ["Area", d.area + " km²"], ["People per km²", d.density]].forEach(function (r) {
+        var w = el("div"); w.appendChild(el("dt", null, r[0])); w.appendChild(el("dd", null, r[1])); dl.appendChild(w);
+      });
+      detail.appendChild(dl);
+      detail.appendChild(el("p", "detail-rank", "Rank of " + d.n + ": #" + d.rankPop + " by population, #" + d.rankArea + " by area, #" + d.rankDen + " by density."));
+      d.cards.forEach(function (c) { var a = el("a", "detail-card", "Place card: " + c.name); a.href = c.href; detail.appendChild(a); });
+      var b = el("button", "detail-clear", "Clear selection"); b.type = "button"; b.addEventListener("click", clear); detail.appendChild(b);
+      if (history.replaceState) history.replaceState(null, "", "#c-" + iso);
+      // dalla tabella o da un indirizzo con #c-XXX si torna alla mappa, dove si vede la scheda
+      if (scroll === "map") { var mp = $("map"); if (mp) mp.scrollIntoView({ block: "start", behavior: scroll === "map" && fromHash ? "auto" : "smooth" }); }
+      else if (scroll && window.matchMedia("(max-width: 920px)").matches) detail.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    };
+
+    targets.forEach(function (t) {
+      t.addEventListener("click", function () { select(t.getAttribute("data-iso"), true); });
+      t.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(t.getAttribute("data-iso"), true); } });
+    });
+    rows.forEach(function (tr) {
+      tr.addEventListener("click", function (e) { if (e.target.closest("a")) return; select(tr.getAttribute("data-iso"), "map"); });
+      tr.addEventListener("keydown", function (e) { if (e.target === tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(tr.getAttribute("data-iso"), "map"); } });
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && current) clear(); });
+
+    var m = /^#c-([A-Z]{3})$/.exec(location.hash);
+    if (m && data[m[1]]) { fromHash = true; select(m[1], "map"); fromHash = false; } else showHint();
+  }
 })();
