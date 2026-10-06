@@ -1,0 +1,61 @@
+[
+  {
+    "id": "unesco-761",
+    "title": "Kunta Kinteh Island and Related Sites",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/761",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "unesco-news-1552",
+    "title": "News item on storm damage at the site, August 2016",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/news/1552",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "the-point-erosion-2020",
+    "title": "Sea erosion threatens Kunta Kinteh Island",
+    "publisher": "The Point (Banjul)",
+    "published": "2020-03-11",
+    "url": "https://thepoint.gm/africa/gambia/article/sea-erosion-threatens-kunta-kinteh-island",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wikipedia-kunta-kinteh-island",
+    "title": "Kunta Kinteh Island",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kunta_Kinteh_Island",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Most dates in the timeline come from here. Replace or confirm with book-length sources.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wikipedia-roots",
+    "title": "Roots: The Saga of an American Family, section on factual accuracy",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Roots:_The_Saga_of_an_American_Family",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Summarises the work of Mills and Mills, Donald Wright and others. Go to those originals.",
+    "retrieved": "2026-10-06"
+  },
+  {
+    "id": "rahier-roots-tourism",
+    "title": "Roots/Heritage Tourism in Juffureh",
+    "author": "Jean Muteba Rahier",
+    "publisher": "Florida International University",
+    "url": "https://africana.fiu.edu/people/aads-faculty-and-graduate-students-scholarly-presentations/rahier_roots-heritage-tourism-in-juffureh.pdf",
+    "tier": "academic",
+    "status": "draft",
+    "note": "Work in progress, no publication year shown.",
+    "retrieved": "2026-10-06"
+  }
+]

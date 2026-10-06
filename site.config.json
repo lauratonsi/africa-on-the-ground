@@ -1,0 +1,31 @@
+{
+  "name": "Home Ground",
+  "tagline": "Place guides that keep the documented record and the local voice apart.",
+  "lang": "en",
+  "contact": "",
+  "noteKinds": [
+    { "id": "look",  "label": "What I would look at",     "question": "What would you look at on a visit that a guidebook skips?" },
+    { "id": "tell",  "label": "What I tell my children",  "question": "What do you tell your children about this place?" },
+    { "id": "eat",   "label": "Eating at home",           "question": "What do people eat at home around here, and what is cooked mainly for visitors?" },
+    { "id": "avoid", "label": "What to avoid",            "question": "What would you ask visitors not to do, buy or say?" },
+    { "id": "fix",   "label": "Correction to the record", "question": "Does anything in the record read wrong to you? Say which part and what you know." }
+  ],
+  "relations": [
+    { "id": "near",   "label": "Lives in the area" },
+    { "id": "gambia", "label": "Lives elsewhere in The Gambia" },
+    { "id": "abroad", "label": "Gambian, lives abroad" },
+    { "id": "other",  "label": "Another connection to the place" }
+  ],
+  "tiers": {
+    "institutional": "Institutional",
+    "press": "Press",
+    "academic": "Academic",
+    "primary": "Primary source",
+    "encyclopedia": "Encyclopedia"
+  },
+  "sourceStatus": {
+    "verified": "",
+    "to-verify": "to verify",
+    "draft": "draft"
+  }
+}

@@ -1,0 +1,163 @@
+/* Layout: una scheda con due strati affiancati. A sinistra il racconto documentato (serif, tono da libro),
+   a destra le voci di chi conosce il luogo (sans, tono verde). Su schermi stretti gli strati si impilano.
+   I font nominati per primi sono opzionali: se i file stanno in src/fonts il build li incorpora,
+   altrimenti vale il font di sistema indicato dopo. */
+:root {
+  --paper: #edf0ef;
+  --surface: #fbfcfb;
+  --ink: #17252d;
+  --ink-soft: #4b5b64;
+  --line: #ccd5d6;
+  --record: #1f3f66;
+  --voice: #14594a;
+  --voice-tint: #d6e9e1;
+  --voice-surface: #f1f7f4;
+  --voice-line: #b4d2c6;
+  --flag: #8a4f05;
+  --flag-tint: #f5e9d2;
+  --flag-line: #dcc49a;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --f-record: "Source Serif 4", Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0d1519;
+    --surface: #141f26;
+    --ink: #e3e9eb;
+    --ink-soft: #9bacb4;
+    --line: #27363f;
+    --record: #93b8e8;
+    --voice: #6dd0b0;
+    --voice-tint: #12302a;
+    --voice-surface: #0f2420;
+    --voice-line: #24493f;
+    --flag: #e3a955;
+    --flag-tint: #2f240f;
+    --flag-line: #5a4519;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-display);
+  font-size: 16px;
+  line-height: 1.5;
+}
+a { color: var(--record); }
+:focus-visible { outline: 2px solid var(--voice); outline-offset: 2px; }
+img { max-width: 100%; }
+
+.wrap { max-width: 1160px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); padding-block: 0 56px; }
+
+/* ---------- testata ---------- */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 650; font-size: 1.05rem; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+.brand svg { display: block; }
+.brand .r { fill: var(--record); }
+.brand .v { fill: var(--voice); }
+.top nav a { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); text-decoration: none; padding: 6px 2px; }
+.top nav a:hover, .top nav a[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+
+.hero { padding-block: clamp(28px, 6vw, 64px) 28px; display: grid; gap: 14px; }
+.kicker { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 0; }
+h1 { font-weight: 700; font-size: clamp(2.3rem, 7.2vw, 4.7rem); line-height: 1.02; letter-spacing: -0.025em; margin: 0; text-wrap: balance; max-width: 16ch; }
+.sub { margin: 0; font-size: 1.1rem; color: var(--ink-soft); max-width: 60ch; }
+.lede { margin: 6px 0 0; font-size: 1.05rem; max-width: 62ch; }
+.draft { font-family: var(--f-mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--flag); margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 6px 0 0; padding: 0; list-style: none; }
+.legend li { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; }
+
+.layer-tag { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-mono); font-size: .74rem; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; }
+.layer-tag::before { content: ""; width: 11px; height: 11px; background: currentColor; display: inline-block; flex: none; }
+.layer-tag.rec { color: var(--record); }
+.layer-tag.voi { color: var(--voice); }
+.layer-tag.gap { color: var(--flag); }
+
+.cols { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 36px); align-items: start; }
+@media (max-width: 920px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- strato 1: il racconto documentato ---------- */
+.record { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: clamp(18px, 3.2vw, 36px); display: grid; gap: 34px; min-width: 0; }
+.record h2 { font-family: var(--f-display); font-weight: 650; font-size: 1.3rem; letter-spacing: -0.01em; margin: 0 0 12px; text-wrap: balance; }
+.record p, .record li, .record dd { font-family: var(--f-record); font-size: 1.0625rem; line-height: 1.65; }
+.record p { margin: 0 0 .9em; max-width: 68ch; }
+.record p:last-child { margin-bottom: 0; }
+.sec-head { margin-bottom: 12px; }
+.cite { font-family: var(--f-mono); font-size: .68rem; vertical-align: super; line-height: 0; margin-left: .15em; color: var(--record); text-decoration: none; white-space: nowrap; }
+.cite:hover { text-decoration: underline; }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 0 0 18px; }
+.facts div { background: var(--surface); padding: 10px 12px; min-width: 0; }
+.facts dt { font-family: var(--f-mono); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.facts dd { margin: 2px 0 0; font-family: var(--f-display); font-weight: 600; font-size: 1.05rem; line-height: 1.3; }
+
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { display: grid; grid-template-columns: 6.6rem minmax(0, 1fr); gap: 4px 18px; padding-block: 12px; border-top: 1px solid var(--line); }
+.timeline li:last-child { border-bottom: 1px solid var(--line); }
+.yr { font-family: var(--f-mono); font-weight: 500; font-size: .86rem; color: var(--record); padding-top: .28rem; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .timeline li { grid-template-columns: minmax(0, 1fr); } .yr { padding-top: 0; } }
+.record .note-small { font-family: var(--f-display); font-size: .88rem; color: var(--ink-soft); line-height: 1.5; margin-top: 12px; }
+
+.gaps { background: var(--flag-tint); border: 1px solid var(--flag-line); border-radius: 4px; padding: 18px 20px; }
+.gaps ul { margin: 10px 0 0; padding-left: 1.1em; }
+.gaps li { margin-bottom: .55em; }
+.gaps li:last-child { margin-bottom: 0; }
+
+.sources ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; }
+.sources li { display: grid; gap: 4px; font-family: var(--f-display); font-size: .95rem; line-height: 1.4; scroll-margin-top: 16px; }
+.sources li a { overflow-wrap: anywhere; }
+.record .sources li { font-family: var(--f-display); font-size: .95rem; line-height: 1.4; }
+.retr { color: var(--ink-soft); font-size: .84rem; }
+.tier { justify-self: start; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; border-radius: 3px; padding: 1px 6px; color: var(--record); }
+.tier.chk { color: var(--flag); }
+
+/* ---------- strato 2: le voci ---------- */
+.voices { background: var(--voice-surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: clamp(18px, 3vw, 28px); display: grid; gap: 26px; min-width: 0; }
+.voices h2 { font-weight: 650; font-size: 1.05rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.voices .vhead { display: grid; gap: 8px; }
+.voices .vhead h2 { font-size: 1.3rem; }
+.voices p { margin: 0; }
+.voices .intro { color: var(--ink-soft); font-size: .98rem; }
+.fine { font-size: .86rem; color: var(--ink-soft); }
+
+.notes { display: grid; gap: 12px; }
+.notes-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.count { font-family: var(--f-mono); font-size: .75rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.empty { border: 1px dashed var(--voice-line); border-radius: 4px; padding: 18px; display: grid; gap: 6px; }
+.empty strong { font-weight: 650; }
+.empty span { color: var(--ink-soft); font-size: .93rem; }
+.nt { background: var(--surface); border: 1px solid var(--voice-line); border-radius: 4px; padding: 14px 16px; display: grid; gap: 8px; min-width: 0; }
+.chip { justify-self: start; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--voice); background: var(--voice-tint); border-radius: 3px; padding: 2px 7px; }
+.nt .txt { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 1rem; line-height: 1.55; }
+.nt .by { font-size: .84rem; color: var(--ink-soft); }
+.nt .by b { color: var(--ink); font-weight: 650; }
+
+.asks ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.asks li { font-size: .93rem; display: grid; gap: 4px; }
+
+/* ---------- indice e pagine di testo ---------- */
+.listh { font-family: var(--f-mono); font-size: .78rem; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-soft); margin: 8px 0 14px; }
+.places { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 16px; }
+.place { display: grid; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 18px 20px; text-decoration: none; color: var(--ink); height: 100%; }
+.place:hover { border-color: var(--record); }
+.pname { font-weight: 650; font-size: 1.4rem; letter-spacing: -0.015em; line-height: 1.15; }
+.psub { color: var(--ink-soft); font-size: .95rem; }
+.pmeta { font-family: var(--f-mono); font-size: .74rem; color: var(--ink-soft); }
+
+.prose { max-width: 66ch; padding-block: clamp(24px, 5vw, 56px) 8px; }
+.prose h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin-bottom: 14px; }
+.prose h2 { font-size: 1.25rem; font-weight: 650; letter-spacing: -0.01em; margin: 32px 0 8px; }
+.prose p { font-family: var(--f-record); font-size: 1.0625rem; line-height: 1.7; margin: 0 0 1em; }
+.prose .lede { font-family: var(--f-display); font-size: 1.15rem; }
+
+.foot { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .86rem; color: var(--ink-soft); }
+.foot p { margin: 0; max-width: 70ch; }
+
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

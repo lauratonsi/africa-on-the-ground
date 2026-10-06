@@ -1,0 +1,98 @@
+{
+  "slug": "kunta-kinteh-island",
+  "status": "published",
+  "name": "Kunta Kinteh Island",
+  "region": "The Gambia · River Gambia",
+  "subtitle": "Near Juffureh and Albreda. UNESCO World Heritage since 2003.",
+  "facts": [
+    { "label": "Inscribed", "value": "2003", "cite": ["unesco-761"] },
+    { "label": "Criteria", "value": "iii and vi", "cite": ["unesco-761"] },
+    { "label": "Component sites", "value": "7", "cite": ["unesco-761"] },
+    { "label": "Core area", "value": "7.6 ha, 300 ha buffer", "cite": ["unesco-761"] },
+    { "label": "Spread along river", "value": "about 30 km", "cite": ["unesco-news-1552"] },
+    { "label": "Island today", "value": "about one sixth of its original size", "cite": ["wikipedia-kunta-kinteh-island"] }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "A small island in the River Gambia with the ruins of a fort first built in 1651 and held by several European powers over the next two centuries.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "text": " UNESCO listed it in 2003 together with six related sites, for what they show about contact between Africa and Europe from the 15th century onward, including both the growth and the abolition of the slave trade.", "cite": ["unesco-761"] }
+          ]
+        },
+        { "type": "facts" },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "The seven sites are the island and its fort, the Portuguese chapel ruins and the CFAO colonial warehouse in Albreda, the Maurel Frères building in Juffureh, the San Domingo Portuguese settlement remains, Fort Bullen, and the Six-Gun Battery.", "cite": ["unesco-761"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            { "when": "1651", "text": "Settlers from the Duchy of Courland build Jacob Fort on the island, under Major Fock.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1659–1664", "text": "The Dutch take the fort in 1659. Local African kingdoms side with the Courlanders and the Dutch withdraw. The English capture the island in 1661 and the Dutch formally cede it in 1664. It becomes James Island, with Fort James, named for the Duke of York.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1695–1702", "text": "The French seize Fort James in 1695 and have lost it again by 1702.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1750", "text": "The Company of Merchants Trading to Africa takes over administration, after earlier English companies that traded in gold, ivory and enslaved people.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1807", "text": "The British Slave Trade Act. Two defensive works follow on the river, built against slaving.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1816, 1826", "text": "The Six-Gun Battery (1816) and Fort Bullen (1826) are built. The source describes them as the only known defences in the region built to stop slaving.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "1870", "text": "The sites are abandoned.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "2003", "text": "UNESCO inscribes Kunta Kinteh Island and Related Sites.", "cite": ["unesco-761"] },
+            { "when": "6 Feb 2011", "text": "The island is renamed Kunta Kinteh Island at the request of the artist Chaz Guest.", "cite": ["wikipedia-kunta-kinteh-island"] },
+            { "when": "23 Aug 2016", "text": "Heavy rain and wind in Albreda and Juffureh strip part of the roof from the CFAO building. Gambian authorities ask UNESCO for international assistance.", "cite": ["unesco-news-1552"] },
+            { "when": "Mar 2020", "text": "A National Assembly committee visits the island and calls for urgent action against sea erosion. The press report lists no completed measures.", "cite": ["the-point-erosion-2020"] }
+          ],
+          "note": "Most dates above come from an encyclopedia article. They are marked for checking against book-length sources."
+        }
+      ]
+    },
+    {
+      "id": "name-and-novel",
+      "title": "The name and the novel",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            { "text": "The island carries the name of Kunta Kinte, the ancestor in Alex Haley's Roots. Haley called the book \"faction\": a mix of documented history and invented scenes.", "cite": ["wikipedia-roots"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "Historians have disputed its genealogy. Gary and Elizabeth Mills found that the plantation records they examined contradict Haley's account of the American side of the family.", "cite": ["wikipedia-roots"] },
+            { "text": " On the Gambian side, the head of the national archives doubted the reliability of the griot whose account Haley relied on. The historian Donald Wright wrote in 1981 that Haley's repeated visits led some local people to take in his version, which was then repeated back to him.", "cite": ["wikipedia-roots"] },
+            { "text": " Juffureh also lies about two miles from James Island, a British post since 1661, which sits uneasily with the novel's picture of a village cut off from Europeans.", "cite": ["wikipedia-roots"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "Jean Muteba Rahier's unfinished study of heritage tourism in Juffureh reports that local guides trained by tourism officials present the story as history, and that many officials, journalists, visitors and guides treat the novel as if it were documented fact.", "cite": ["rahier-roots-tourism"] }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            { "text": "None of this settles what the island meant in the trade itself. It does mean this card keeps the novel's story and the documented history apart.", "editorial": true }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "How many people were embarked through this site, and in which years. No dataset or historian's account has been retrieved for this card yet.",
+    "Primary sources behind the timeline, such as company records and travellers' accounts.",
+    "The condition of the island and the other six sites after 2020. The newest source found is from that year.",
+    "What the island means in daily life for people in Juffureh and Albreda. Only the local voices on this card can answer that."
+  ]
+}
