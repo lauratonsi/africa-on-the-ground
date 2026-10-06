@@ -122,6 +122,22 @@ ${bao}
 </svg>`;
 }
 
+// Onda che chiude un'apertura e porta alla carta chiara della pagina.
+const heroWave = '<svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 80 L0 44 C240 4 480 70 720 36 S1200 4 1440 40 L1440 80 Z"/></svg>';
+
+// Apertura ridotta con il paesaggio, per le pagine che non sono la home.
+function compactHero({ kicker, title, sub }) {
+  return `<section class="scape-hero compact">
+  ${landscape()}
+  <div class="scape-text">
+    <p class="scape-kicker">${esc(kicker)}</p>
+    <h1>${esc(title)}</h1>
+    ${sub ? `<p class="scape-sub">${esc(sub)}</p>` : ""}
+  </div>
+  ${heroWave}
+</section>`;
+}
+
 function layout({ title, description, depth, body, current, script = false, bodyClass = "" }) {
   const p = prefix(depth);
   return `<!doctype html>
@@ -135,7 +151,7 @@ function layout({ title, description, depth, body, current, script = false, body
 <link rel="stylesheet" href="${p}styles.css?v=${VER}">
 <script src="${p}theme.js?v=${VER}"></script>
 </head>
-<body${bodyClass ? ` class="${bodyClass}"` : ""}>
+<body class="has-hero${bodyClass ? ` ${bodyClass}` : ""}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="wrap top-in">
@@ -250,9 +266,9 @@ function renderPlace(p) {
   const imgBase = `../../img/places/${im ? esc(im.file) : ""}`;
   const heroBg = im
     ? `<picture class="phero-img"><img src="${imgBase}-1600.jpg" srcset="${imgBase}-800.jpg 800w, ${imgBase}-1600.jpg 1600w" sizes="100vw" alt="${esc(im.alt)}" fetchpriority="high"></picture><div class="phero-shade"></div>`
-    : `<div class="phero-art" aria-hidden="true">${art(p.slug, 4, 4)}</div>`;
+    : landscape();
   const credit = im
-    ? `<p class="photo-credit">${esc(im.caption)} Photo: ${esc(im.credit)}, <a href="${esc(im.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(im.license)}</a>, via <a href="${esc(im.source)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>`
+    ? `<p class="wrap photo-note">${esc(im.caption)} Photo: ${esc(im.credit)}, <a href="${esc(im.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(im.license)}</a>, via <a href="${esc(im.source)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>`
     : "";
 
   const body = `
@@ -268,8 +284,9 @@ function renderPlace(p) {
     </div>
     ${loc}
   </div>
-  ${credit}
+  ${heroWave}
 </section>
+${credit}
 <section class="wrap page-intro">
   <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
   <ul class="legend">
@@ -489,11 +506,9 @@ function renderCountries(list) {
   const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
   const body = `
+${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where each of the 54 countries sits, its capital, its area and its population." })}
 <div class="wrap">
-<section class="hero">
-  <p class="kicker">Reference</p>
-  <h1>Africa by the numbers</h1>
-  <p class="sub">Where each of the 54 countries sits, its capital, its area and its population.</p>
+<section class="hero-lede">
   <p class="lede">The figures are the World Bank's${cite(["wb-population", "wb-area", "wb-countries"])}. The shading, the charts and the percentages are calculated here from those figures. Nothing on this page comes from local voices: it is all in the record, and the sources are listed at the bottom.</p>
 </section>
 
@@ -596,7 +611,12 @@ write("method/index.html", layout({
   description: "How the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
-  body: `<div class="wrap prose-hero"><div class="prose">${methodHtml.replace("<!--contact-->", contactLine)}</div></div>`
+  body: (() => {
+    const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
+    const rest = mm ? methodHtml.slice(mm[0].length) : methodHtml;
+    return `${compactHero({ kicker: "How it works", title: mm ? mm[1] : "Method", sub: mm ? mm[2] : "" })}
+<div class="wrap prose-hero"><div class="prose">${rest.replace("<!--contact-->", contactLine)}</div></div>`;
+  })()
 }));
 
 write("404.html", `<!doctype html>
