@@ -28,7 +28,7 @@
 
   function syncQ() {
     var k = cfg.kinds.filter(function (x) { return x.id === kind.value; })[0];
-    q.textContent = k ? k.question : "";
+    q.textContent = (k ? k.question : "") + (k && k.id === "fix" ? " The curator reads corrections but does not publish them as a voice." : "");
   }
   kind.addEventListener("change", syncQ); syncQ();
   text.addEventListener("input", function () { count.textContent = String(text.value.length); });
@@ -64,6 +64,7 @@
     if (d.relation) lines.push("relation: " + d.relation);
     lines.push("lang: " + d.lang, "consent: yes", "---", d.text, "---",
       "I agree that this note may be published on the site, with the name and connection above. " +
+      "I remain the author and may ask for it to be removed. " +
       "I know the repository is public and that the text stays in its history even if it is later removed.");
     return lines.join("\n");
   }

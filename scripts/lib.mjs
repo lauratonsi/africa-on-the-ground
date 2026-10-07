@@ -222,6 +222,12 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       if (ids.has(n.id)) err(`${nw}: id duplicato.`);
       ids.add(n.id);
       if (!kindIds.has(n.kind)) err(`${nw}: kind "${n.kind}" non previsto.`);
+      if (n.kind === "fix") err(`${nw}: le correzioni al racconto documentato non si pubblicano come voci. Usale per correggere la scheda, con una fonte.`);
+      const placeOfNote = places.find((x) => x.data.slug === slug);
+      if (placeOfNote && placeOfNote.data.sensitive) {
+        const rv = n.review;
+        if (!rv || typeof rv.by !== "string" || !rv.by.trim() || !DATE.test(rv.date || "")) err(`${nw}: il luogo è delicato ("sensitive"): serve la revisione di un lettore locale, con review.by e review.date (AAAA-MM-GG).`);
+      }
       if (typeof n.text !== "string" || n.text.trim().length < 10) err(`${nw}: testo troppo corto.`);
       else if (n.text.length > 1200) err(`${nw}: testo oltre i 1200 caratteri.`);
       if (n.name != null && (typeof n.name !== "string" || n.name.length > 60)) err(`${nw}: name non valido (max 60 caratteri, facoltativo).`);

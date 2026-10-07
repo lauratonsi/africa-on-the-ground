@@ -107,5 +107,6 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "source": "https://commons.wikimedia.org/wiki/File%3ARobben_Island_-_Cape_Town%2C_South_Africa_(3883849594).jpg"
-  }
+  },
+  "sensitive": true
 }

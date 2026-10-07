@@ -37,6 +37,7 @@ scripts/
   validate.mjs            controlla i contenuti
   build.mjs               valida e genera il sito in dist/
   add-note.mjs            trasforma un messaggio del modulo in una nota (npm run add-note)
+  remove-note.mjs         toglie una nota dal sito su richiesta dell'autore (npm run remove-note)
   map.mjs                 disegna le mappe SVG
   charts.mjs              disegna i grafici (barre in HTML, punti in SVG)
   prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)
@@ -46,6 +47,7 @@ scripts/
   serve.mjs               anteprima locale
 docs/
   metodo-editoriale.md    le regole del progetto
+  contributi.md           come si gestiscono note, revisione, luoghi delicati e ritiri
   roadmap.md              proposta di fasi e decisioni aperte
 .github/workflows/        pubblicazione su GitHub Pages e controllo sulle pull request
 ```

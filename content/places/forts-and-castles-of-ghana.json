@@ -106,5 +106,6 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File%3ACape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG"
-  }
+  },
+  "sensitive": true
 }

@@ -100,5 +100,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source": "https://commons.wikimedia.org/wiki/File%3AAapravasi_Ghat_Museum%2C_Mauritius_(41).jpg"
-  }
+  },
+  "sensitive": true
 }
