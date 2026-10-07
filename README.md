@@ -151,8 +151,7 @@ a tre lettere, per esempio `GMB`) e, se si trova su una mappa, `coords`:
 
 `coords.cite` indica la fonte delle coordinate; con `"approx": true` il segnaposto è dichiarato approssimativo.
 Un luogo senza `coords` (per esempio un piatto) compare nell'elenco ma non sulla mappa.
-Per ora esiste una mappa di dettaglio solo per la Gambia (`country: "GMB"`); per un altro paese serve prima
-aggiungerne i contorni a `scripts/prepare-geo.mjs`.
+La Gambia (`country: "GMB"`) ha una mappa di dettaglio con il fiume e i luoghi vicini. Le altre schede con coordinate mostrano una mappa locale di posizione costruita dai contorni Natural Earth; per una mappa di dettaglio equivalente serve aggiungere dati geografici specifici al paese.
 
 Una foto si aggiunge con `image` nella scheda (testo alternativo, didascalia, autore, licenza, indirizzi della
 licenza e del file originale) e due file in `src/img/places/`: `<nome>-800.jpg` e `<nome>-1600.jpg`. Il build si

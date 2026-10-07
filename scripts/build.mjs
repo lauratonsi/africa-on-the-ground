@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
-import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, countryLocator, countryCodes, countryName } from "./map.mjs";
+import { africaMap, africaPlacesMap, gambiaMap, countryPlaceMap, choroplethMap, trueSizeBase, countryLocator, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
 import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
 import { spokenLanguages } from "./languages.mjs";
@@ -363,6 +363,11 @@ function renderPlace(p) {
     const how = c.approx ? "Approximate position" : "Position";
     const src = c.cite ? `, coordinates from ${cite(c.cite)}` : ", not yet sourced";
     loc = `<figure class="loc">${gambiaMap(published, types, { focus: p, hrefFor: hrefSibling })}<figcaption>${how} on the River Gambia${src}. Outlines: Natural Earth.</figcaption></figure>`;
+  } else if (p.coords && p.country) {
+    const c = p.coords;
+    const how = c.approx ? "Approximate position" : "Position";
+    const src = c.cite ? `, coordinates from ${cite(c.cite)}` : ", not yet sourced";
+    loc = `<figure class="loc">${countryPlaceMap(p, published, types, { hrefFor: hrefSibling })}<figcaption>${how} in ${esc(countryName(p.country))}${src}. Country outlines: Natural Earth; this is a location map, not a detailed city map.</figcaption></figure>`;
   }
 
   const gaps = p.gaps.length
