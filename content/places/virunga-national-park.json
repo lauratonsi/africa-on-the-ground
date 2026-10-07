@@ -92,12 +92,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "protect",
+      "title": "Protecting it, as reported in 2016",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic reported in 2016 that the park hosted more than 700 bird species and more than 200 mammals, among them 480 of the world's 880 remaining mountain gorillas.",
+              "cite": [
+                "natgeo-virunga-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": " It also said the park has been set aside for conservation since 1925, which keeps natural resources from one of the world's most deeply impoverished populations and stirs discontent among some four million people living around it.",
+              "cite": [
+                "natgeo-virunga-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Since the ethnic conflict in Rwanda spilled into Congo in 1994, the magazine wrote, rangers have faced a constant threat from armed groups, and 152 rangers had been killed since 1996.",
+              "cite": [
+                "natgeo-virunga-2016"
+              ]
+            },
+            {
+              "text": " Gorilla numbers have been rising since the killing of seven gorillas by charcoal traffickers in 2007, and the 250 to 300 gorillas used to people are watched daily by a security team of 80.",
+              "cite": [
+                "natgeo-virunga-2016"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Rangers' and communities' accounts of the armed conflict around the park, which the part of the article read here does not reach.",
     "Oil and the park's borders, a long-running dispute not covered in the lead.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The figures in \"Protecting it\" are National Geographic's, as of 2016: rangers' deaths, gorilla numbers and the security situation have changed since and are not updated here.",
+    "Rangers' and communities' own accounts of the conflict and the park: the 2016 report is one journalist's view, written from the park's side."
   ],
   "coords": {
     "lat": 0.916666667,

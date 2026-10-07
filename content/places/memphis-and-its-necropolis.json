@@ -85,12 +85,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "colossus",
+      "title": "One statue from Memphis, as reported in 2018",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic reported in January 2018 on the move of a granite colossus of Ramesses II, 83 tons and more than 30 feet high, to the Grand Egyptian Museum. It had been carried from the quarries of Aswan to the Temple of Ptah in Memphis in the 13th century BC.",
+              "cite": [
+                "natgeo-ramses-colossus-2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It was rediscovered in 1820 by Giovanni Battista Caviglia, lying on its side in six pieces, and had rested in the ruins of Memphis for more than 130 years. In 1954 President Nasser ordered it brought to Cairo, and in 2006 it was moved to Giza over fears that car emissions were damaging it.",
+              "cite": [
+                "natgeo-ramses-colossus-2018"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The pyramids themselves: this card covers only the ancient city as described in the article's first lines.",
     "Egyptian archaeologists' work on the necropolis and living communities around the site.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That article is about one statue, not the whole site: Memphis's history, the Saqqara tombs and the excavations are not covered by it."
   ],
   "coords": {
     "lat": 29.97604,

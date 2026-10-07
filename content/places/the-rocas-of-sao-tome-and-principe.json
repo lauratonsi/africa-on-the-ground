@@ -79,12 +79,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "after",
+      "title": "The plantations, as reported in 2019 and 2026",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in 2019 that, before World War I, the archipelago was the world's leading cocoa exporter and had 30 cocoa and coffee estates, called roças, with electricity, medical care and a railway, run as what it called a well-oiled feudal system. At their height they housed 20,000 people in villages and 33,000 on the roças.",
+              "cite": [
+                "france24-roca-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Workers came from Angola, Mozambique, Gabon and Congo. After 1876 enslaved workers became \"contract\" employees, often brought by force from the mainland colonies. After independence in 1975 the socialist government nationalised the roças and production failed. About 1,300 people still lived on Roça Agostinho Neto, some of them in its abandoned hospital.",
+              "cite": [
+                "france24-roca-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Africanews reported on 28 July 2026 that six plantations, Monte Café, Água Izé, Diogo Vaz, São João, Sundy and Belo Monte, had been added to the World Heritage List at the Committee meeting in Busan. It says the estates preserve the memory of thousands of workers who were brought to the islands under harsh conditions.",
+              "cite": [
+                "africanews-roca-unesco-2026"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The roças as buildings and as a labour system: their layout, the contract workers (serviçais), and what remains today. The article read here covers only the cocoa trade.",
     "São Toméan voices, including descendants of plantation workers.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The 2019 figures are from one report on one plantation and have not been checked against a census. Descendants' and former workers' own accounts of the roças are not in either report."
   ],
   "image": {
     "file": "the-rocas-of-sao-tome-and-principe",

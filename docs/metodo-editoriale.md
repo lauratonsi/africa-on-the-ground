@@ -123,3 +123,9 @@ da pubblicare ha bisogno anche di fonti indipendenti.
 ## Profili dei paesi (governo, lingue, religioni)
 
 I testi vengono dal CIA World Factbook (pubblico dominio) tramite la copia JSON `factbook/factbook.json`: `node scripts/prepare-factbook.mjs` scrive `content/data/africa-profiles.json`. I testi restano quelli originali, con l'anno di stima che ciascuno porta; l'unica correzione è un refuso nella quota cristiana della RD Congo (nota nel file). La copia non dichiara l'edizione, quindi la fonte `cia-factbook` è segnata "to-verify". Le percentuali di religione e lingua sono stime da censimenti e sondaggi di anni diversi; i paesi senza dato recente andrebbero confrontati con il censimento nazionale.
+
+## Stories (storia, miti, cucina)
+
+Contenuti in `content/stories/<slug>.json`, con le stesse regole delle schede: ogni frase ha la sua fonte (`cite`), `editorial: true` solo per frasi di raccordo che non affermano fatti, e `gaps` (ciò che non si sa) obbligatorio. Tre tipi, definiti in `site.config.json` (`storyKinds`): `history`, `myth`, `food`. I paesi (`countries`) e i luoghi (`places`) collegano la storia al resto del sito. Il tono è narrativo, ma i punti in cui gli storici non concordano vanno scritti come tali: mai una cifra contestata presentata come un dato.
+
+Stato del pilota: sei storie, tutte appoggiate a una sola voce enciclopedica (segnata "to-verify"). Prima di scalare, ogni storia va riletta sulle fonti che la voce cita (storici, cronache, studi) e, per le storie sulla cucina e sui luoghi, accompagnata da voci di chi vive lì.

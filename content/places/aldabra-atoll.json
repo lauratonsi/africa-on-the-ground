@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tortoises",
+      "title": "Tortoises, as described in 2019",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic described Aldabra in 2019 as one of the world's largest coral atolls, more than 700 miles west of Mahé, with around 100,000 giant tortoises. Tortoises once lived on most islands of the Indian Ocean until 17th-century sailors hunted them for provisions, because they can survive months without water or food.",
+              "cite": [
+                "natgeo-aldabra-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Aldabra was the only island in the ocean basin where a few thousand survived. It was set aside as a special reserve in the 1980s and is a natural World Heritage site, managed by the Seychelles Island Foundation.",
+              "cite": [
+                "natgeo-aldabra-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The article calls the atoll extremely inhospitable: razor-sharp coral rock, no fresh water, many mosquitoes and heat. Other wildlife includes flightless Aldabra rails, coconut crabs the size of dinner plates, frigatebirds and sharks.",
+              "cite": [
+                "natgeo-aldabra-2019"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The tortoise population and the research station today. The part of the article read here stops before them.",
     "Conservation management and who decides access.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Population numbers are approximate and the article's own. The scientists' records and the foundation's work are not read here."
   ],
   "coords": {
     "lat": -9.416666667,

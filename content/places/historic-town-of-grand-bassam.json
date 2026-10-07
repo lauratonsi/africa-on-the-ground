@@ -91,12 +91,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "attack",
+      "title": "A seaside town after the 2016 attack, as reported in 2023",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in March 2023 that Grand-Bassam, some 40 kilometres from Abidjan, is a UNESCO World Heritage site with a huge beach on the Atlantic that was highly popular with tourists, expatriates and Ivorians alike.",
+              "cite": [
+                "france24-grand-bassam-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On 13 March 2016 three gunmen with Kalashnikovs attacked the resort; 19 people were killed, including nine foreigners, and 33 were injured. The attack, which lasted about three quarters of an hour, was claimed by al Qaeda in the Islamic Maghreb. Four men were sentenced to life imprisonment in December 2022, though the report says the trial shed little light on the attack.",
+              "cite": [
+                "france24-grand-bassam-2023"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "When and why Grand-Bassam stopped being the capital (the yellow fever outbreak is often cited; the one scholarly article found could not be opened).",
     "The Nzema village that UNESCO describes beside the colonial town, and what residents say about the heritage designation.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report is about the 2016 attack and its aftermath, not about the historic colonial quarter: the architecture and its conservation are not covered by it, and residents' accounts are not included."
   ],
   "coords": {
     "lat": 5.1958333333,

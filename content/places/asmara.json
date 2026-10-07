@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "listing",
+      "title": "Architecture and the listing, as reported in 2017",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Smithsonian Magazine wrote in 2017 that Asmara is rich in modernist architecture built while the Italians colonised Eritrea, when Italian architects could try bold ideas away from Europe's conservative cultural norms.",
+              "cite": [
+                "smithsonian-asmara-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It names the Fiat Tagliero service station, completed in 1939 and shaped like an airplane, an Art Deco bowling alley, and a building designed in the shape of an old radio set. The city has been nicknamed Africa's Miami for its Art Deco buildings.",
+              "cite": [
+                "smithsonian-asmara-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report adds that Eritrean officials lobbied hard for the World Heritage listing, that no foreign press were invited to the celebrations, and that fewer than 1,000 tourists visited in 2015.",
+              "cite": [
+                "smithsonian-asmara-2017"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Eritrean historians and architects on the city, beyond the Tigrinya oral tradition summarised by Wikipedia.",
     "How the buildings are used and cared for today.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The 2017 report is a short news item written from outside Eritrea: Eritrean architects' and residents' views of the listing are not covered here, and the listing's political context is as that article describes it."
   ],
   "coords": {
     "lat": 15.3352777778,

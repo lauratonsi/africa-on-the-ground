@@ -24,13 +24,64 @@
           ]
         }
       ]
+    },
+    {
+      "id": "paintings",
+      "title": "The paintings, as the British Museum's archive describes them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British Museum's archive places Laas Geel on a granite outcrop at 950 metres, on the road between Hargeisa and Berbera, where two seasonal rivers meet. Its name means \"the camel's well\" in Somali, a reference to water near the surface of the dry riverbeds.",
+              "cite": [
+                "bm-rockart-laas-geel"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It says the site was discovered in 2002 by a French team led by Xavier Gutherz, and that the paintings are spread over 20 rock shelters, the biggest about 10 metres long. Most show humpless cows with curved, lyre-like white horns, painted in red, white, black, violet, brown and yellow.",
+              "cite": [
+                "bm-rockart-laas-geel"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The cows' necks are drawn rectangular and abnormally wide, which has been read as mats hung from the neck, perhaps a ceremonial ornament. Human figures with arms outstretched always appear with the cows, and dogs are common, while other animals, such as antelopes, monkeys and two giraffes, are rare.",
+              "cite": [
+                "bm-rockart-laas-geel"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Unlike many rock art sites it has been dated fairly precisely, because excavation in one shelter recovered fallen painted rock: the archaeologists proposed a chronology from the mid-4th to the mid-3rd millennium.",
+              "cite": [
+                "bm-rockart-laas-geel"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Politics of the location: Laas Geel is in Somaliland, whose declared independence from Somalia is not internationally recognised. This card sits under Somalia in the country list; how to present it needs an editorial decision.",
     "Everything beyond the outline: the paintings, who found them and who protects them today.",
     "This place was chosen by the project as one of Somalia's best known; Somalia has no site on the World Heritage List.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That is the museum's account: Somali and Somaliland voices on the site are not presented, and the archive does not spell out the era of the proposed dates in the part read here."
   ],
   "sensitive": true,
   "image": {

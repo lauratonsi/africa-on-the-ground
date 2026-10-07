@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "change",
+      "title": "A city that has had to change, as reported in 2025",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Al Jazeera described in July 2025 the Grand Mosque, built of wooden beams and mudbricks, as the world's tallest mudbrick building, which served travellers as both watchtower and compass. Tuareg artisans learned the building techniques as far away as Timbuktu.",
+              "cite": [
+                "aljazeera-agadez-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The gridded streets of the old town reflect how early Tuareg settlers organised in encampments based on sub-tribes. Between the 8th and 16th centuries, camel caravans carrying ceramics, silk from Arabia and West African gold stopped there, and the old town was listed by UNESCO in 2013.",
+              "cite": [
+                "aljazeera-agadez-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After 2011 the population doubled to 300,000 as migrants sought passage north, the article says. Tourism has collapsed after a Tuareg rebellion and, more recently, the July 2023 coup, and a trader aged 63 says life is hard for anyone who works in tourism.",
+              "cite": [
+                "aljazeera-agadez-2025"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The recent period: security, migration routes through the city and the state of the old town. The part of the article read here stops before them.",
     "The sultanate and its role today, from Tuareg voices.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Residents' and Tuareg artisans' own accounts of the old town and its mosque: the 2025 article quotes only one trader. The figures for the population and the migrant trade are the article's, not checked against a census."
   ],
   "coords": {
     "lat": 16.9736111111,

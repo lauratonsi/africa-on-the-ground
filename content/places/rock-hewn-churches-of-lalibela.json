@@ -78,12 +78,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "pilgrims",
+      "title": "A place of pilgrimage, as reported by Africanews",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Africanews describes the eleven churches as chiselled out of rock, with roofs at ground level and the largest more than 12 metres high. By legend, King Lalibela was instructed by Jesus Christ to build a second Jerusalem for African pilgrims.",
+              "cite": [
+                "africanews-lalibela-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The town was capital of the Zagwe dynasty in the 12th and 13th centuries and is now one of Ethiopia's holiest cities, second only to Aksum. The area remains a centre of pilgrimage, and the population is almost entirely Ethiopian Orthodox.",
+              "cite": [
+                "africanews-lalibela-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says that after some 800 years torrential rain and blistering sun have taken a toll and the buildings are starting to crumble and crack, and that the World Heritage Committee was discussing whether to list the site as in danger.",
+              "cite": [
+                "africanews-lalibela-2024"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Ethiopian Orthodox accounts of the churches and of the pilgrimage, which the article only summarises.",
     "The protective roofs and conservation disputes, and the present state of the town.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Sources differ on when the churches were built: this news report says the end of the 11th and beginning of the 12th century, which is earlier than the dates other sources give. The card does not settle it; an art historian's account should."
   ],
   "coords": {
     "lat": 12.02935,

@@ -85,12 +85,64 @@
           ]
         }
       ]
+    },
+    {
+      "id": "walk",
+      "title": "Walking through it, as a journalist saw it in 2017",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Arab News described Stone Town in 2017 as a centre for both the slave and the spice trades under Omani rule. The House of Wonders was built by Sultan Barghash bin Said in 1883.",
+              "cite": [
+                "arabnews-stone-town-2017"
+              ]
+            },
+            {
+              "text": " Christ Church Cathedral stands on the site of the former slave market, with a marble circle marking where a whipping post once stood.",
+              "cite": [
+                "arabnews-stone-town-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At St. Monica's Lodge, built in the late nineteenth century, two underground chambers are shown where enslaved people were held. A guide told the writer there were fifty men in one room and seventy-five women and children in the other, kept two or three days without food or water.",
+              "cite": [
+                "arabnews-stone-town-2017"
+              ]
+            },
+            {
+              "text": " The figures are the guide's, as quoted.",
+              "cite": [
+                "arabnews-stone-town-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The article called the old town virtually intact, though its architecture is crumbling.",
+              "cite": [
+                "arabnews-stone-town-2017"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "The slave trade in Zanzibar in detail: numbers, markets, abolition. The article read here names it without giving figures.",
     "What residents say about tourism and the loss of old houses.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The slave trade in Zanzibar in detail: the guide's numbers at St. Monica's Lodge are one account and no historical count is given here.",
+    "What residents say about tourism and the loss of old houses."
   ],
   "coords": {
     "lat": -6.16306,

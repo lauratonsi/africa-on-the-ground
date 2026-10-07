@@ -85,12 +85,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "festival",
+      "title": "The festival, as reported in 2018",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in August 2018 that thousands of Yoruba, an ethnic group of around 40 million, were celebrating Osun, whom it describes as the goddess of fertility and water and the wife of Sango, god of fire and thunder.",
+              "cite": [
+                "france24-osun-2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the centre of the ritual is the Arugba, a virgin whose face is covered with a scarlet cloth embroidered with shells, who brings offerings to the river where participants believe the goddess's spirit lives. The offerings include sacrificed chickens, ochre powder, potato chips and gin.",
+              "cite": [
+                "france24-osun-2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says the grove was designated a World Heritage site in 2005 and that many participants blend Yoruba belief with Islam and Christianity, quoting one attendee: if your prayers do not work with one God, try the other ones.",
+              "cite": [
+                "france24-osun-2018"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "The Osun festival and the worshippers' own account of the place, which the article only touches.",
     "Wenger's role as seen by Yoruba voices: the sources read credit her; whether that is how the community tells it is not shown.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Worshippers' and priests' own account of the festival and the grove: the 2018 report was written for a foreign audience and gives only a few quotations."
   ],
   "coords": {
     "lat": 7.75556,

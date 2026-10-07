@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "island",
+      "title": "The island today, as described in 2017",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic wrote in 2017 that Arab merchants used the island as a harbour and trading centre from the 10th to the 15th century, before Vasco da Gama claimed it for Portugal in 1498. For nearly 400 years it was the colonial capital of Portuguese East Africa, on the maritime routes for gold, spices and slaves.",
+              "cite": [
+                "natgeo-island-mozambique-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The capital moved to Lourenço Marques in 1907 and the population dwindled. The island was inscribed in 1991. Stone Town was the seat of government, while the palm-leaf roofs of Macuti Town are emblematic of traditional African architecture, and the Fort of São Sebastião is described as the oldest standing fort in sub-Saharan Africa.",
+              "cite": [
+                "natgeo-island-mozambique-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Residents rely on fishing, and the article says foreign fishing vessels in Mozambican waters are destroying fish populations on reefs.",
+              "cite": [
+                "natgeo-island-mozambique-2017"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The Portuguese period and the slave trade through the island, which the part of the article read here does not reach.",
     "What residents say about heritage, housing and tourism.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "A travel feature from 2017 written by an outside visitor: residents' and historians' accounts of the island's history, including the slave trade, are not covered here."
   ],
   "coords": {
     "lat": -15.03417,

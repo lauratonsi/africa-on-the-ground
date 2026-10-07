@@ -163,7 +163,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}compare/index.html"${current === "compare" ? ' aria-current="page"' : ""}>Compare</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}compare/index.html"${current === "compare" ? ' aria-current="page"' : ""}>Compare</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -248,6 +248,89 @@ function makeCiter() {
   return { cite, list };
 }
 
+
+// ---------- note e modulo di collaborazione, comuni a schede, storie e paesi ----------
+function noteCard(n, kinds) {
+  const k = kinds.find((x) => x.id === n.kind);
+  const by = [];
+  by.push(`<b>${esc(n.name || "Anonymous")}</b>`);
+  if (n.relation) by.push(esc(relLabel[n.relation]));
+  if (n.lang) by.push(`written in ${esc(langLabel[n.lang] || n.lang)}`);
+  by.push(esc(fmtDate(n.added)));
+  if (n.review) by.push(`read by ${esc(n.review.by)}, ${esc(fmtDate(n.review.date))}`);
+  const defs = new Map(((k || {}).fields || []).map((f) => [f.id, f]));
+  const extra = Object.entries(n.fields || {}).map(([fk, fv]) => {
+    const d = defs.get(fk);
+    const val = d && d.type === "select" ? (d.options.find((o) => o.id === fv) || { label: fv }).label : fv;
+    return `<div><dt>${esc(d ? d.label.replace(/\?$/, "") : fk)}</dt><dd>${esc(val)}</dd></div>`;
+  }).join("");
+  return `<article class="nt"><span class="chip">${esc(k ? k.label : n.kind)}</span><p class="txt">${esc(n.text)}</p>${extra ? `<dl class="nt-fields">${extra}</dl>` : ""}<p class="by">${by.join(" · ")}</p></article>`;
+}
+
+// Il modulo prepara un messaggio nel browser: non invia nulla dal sito. `target` dice a cosa si riferisce il messaggio.
+// Per i paesi `choices` offre un menu con i paesi.
+function shareSection({ type, id, name, kinds, heading, intro, depth, choices = null }) {
+  const channels = (config.channels || []).filter((c) => c.value);
+  const cfg = {
+    target: { type, id, name },
+    choices: choices || undefined,
+    kinds: kinds.map((k) => ({ id: k.id, label: k.label, question: k.question, fields: k.fields || [] })),
+    channels: channels.map((c) => ({ id: c.id, label: c.label, type: c.type, value: c.value })),
+    repoNote: "Sending through GitHub makes your message public at once, under your GitHub name. Use another channel if you would rather it stayed private until it is read."
+  };
+  const plainChannels = channels.filter((c) => c.type !== "github").map((c) => {
+    const href = c.type === "whatsapp" ? `https://wa.me/${c.value}` : c.type === "email" ? `mailto:${c.value}` : c.value;
+    return `<a href="${esc(href)}">${esc(c.label)}</a>`;
+  }).join(", ");
+  const up = "../".repeat(depth);
+  const what = type === "place" ? "this card" : type === "story" ? "this story" : "a country";
+  const noChannel = !channels.length;
+  return `
+    <section class="share" id="share" aria-labelledby="share-h">
+      <h2 id="share-h">${esc(heading)}</h2>
+      <p class="share-intro">${esc(intro)} Nothing is sent from this page: it prepares a message that you send yourself.</p>
+      <p class="share-nojs" id="share-nojs">${plainChannels ? `Without JavaScript you can still write to the project by ${plainChannels}, and say ${esc(what)} your note is for.` : "Writing a note needs JavaScript here."}</p>
+      ${noChannel ? `<p class="share-warn">The project has not published a way to receive notes yet. You can write one and copy it: it stays on your device until you send it to the person who asked you for it.</p>` : ""}
+      <button type="button" class="btn-voice" id="share-open" aria-expanded="false" aria-controls="share-form" hidden>Write a note</button>
+      <form class="share-form" id="share-form" hidden novalidate>
+        ${choices ? `<label for="sh-target">Which country is this about?<select id="sh-target">${choices.map((c) => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join("")}</select></label>` : ""}
+        <label for="sh-kind">Your note is
+          <select id="sh-kind">${kinds.map((k) => `<option value="${esc(k.id)}">${esc(k.label)}</option>`).join("")}</select>
+        </label>
+        <p class="share-q" id="sh-q"></p>
+        <div class="share-fields" id="sh-fields"></div>
+        <label for="sh-text">Your note
+          <textarea id="sh-text" rows="6" maxlength="1200" placeholder="Write it the way you would tell a friend."></textarea>
+        </label>
+        <p class="share-count"><span id="sh-count">0</span> / 1200</p>
+        <div class="share-row">
+          <label for="sh-name"><span>Your name or nickname <span class="opt">(optional)</span></span>
+            <input id="sh-name" type="text" maxlength="60" autocomplete="off">
+          </label>
+          <label for="sh-rel"><span>Your connection <span class="opt">(optional)</span></span>
+            <select id="sh-rel"><option value="">Prefer not to say</option>${config.relations.map((r) => `<option value="${esc(r.id)}">${esc(r.label)}</option>`).join("")}</select>
+          </label>
+        </div>
+        <label for="sh-lang">Language you wrote in
+          <select id="sh-lang">${(config.languages || []).map((l) => `<option value="${esc(l.id)}">${esc(l.label)}</option>`).join("")}</select>
+        </label>
+        <label class="share-consent" for="sh-consent">
+          <input id="sh-consent" type="checkbox">
+          <span>I agree that this note may be published on this site, with the name and connection I gave. I know the repository is public and that the text stays in its history even if it is later removed from the site. My note has no email address or phone number in it. A correction is read by the project but is not published as a voice.</span>
+        </label>
+        <details class="share-priv">
+          <summary>What happens to your note</summary>
+          <p>This page sends nothing. When you press a button, your phone or computer opens WhatsApp, your email app, Signal or GitHub with the message already written, and you choose whether to send it.</p>
+          <p>If you do, the message reaches the project through that service, which has its own privacy rules. The project publishes a note only if you agreed and it passes a check, and people who know the subject read it after it is published. The proof of your agreement is kept outside the public repository.</p>
+          <p>You can ask for a note to be removed at any time by writing again. Removing it from the site does not erase the repository's history.</p>
+        </details>
+        <div class="share-actions" id="sh-actions"></div>
+        <p class="share-status" id="sh-status" role="status" aria-live="polite"></p>
+      </form>
+      <script type="application/json" id="share-cfg">${JSON.stringify(cfg).replace(/</g, "\\u003c")}</script>
+    </section>`;
+}
+
 function renderPlace(p) {
   const { cite, list: sourcesList } = makeCiter();
 
@@ -286,73 +369,9 @@ function renderPlace(p) {
   const sourcesHtml = sourcesList();
 
   const list = (notes[p.slug] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
-  const noteCards = list.map((n) => {
-    const by = [];
-    by.push(`<b>${esc(n.name || "Anonymous")}</b>`);
-    if (n.relation) by.push(esc(relLabel[n.relation]));
-    if (n.lang) by.push(`written in ${esc(langLabel[n.lang] || n.lang)}`);
-    by.push(esc(fmtDate(n.added)));
-    if (n.review) by.push(`read by ${esc(n.review.by)}, ${esc(fmtDate(n.review.date))}`);
-    return `<article class="nt"><span class="chip">${esc(kindLabel[n.kind])}</span><p class="txt">${esc(n.text)}</p><p class="by">${by.join(" · ")}</p></article>`;
-  }).join("");
-  // Modulo per scrivere una nota: prepara un messaggio nel browser, non invia nulla dal sito.
-  const channels = (config.channels || []).filter((c) => c.value);
-  const shareCfg = {
-    place: p.slug, placeName: p.name,
-    kinds: config.noteKinds.map((k) => ({ id: k.id, label: k.label, question: k.question })),
-    channels: channels.map((c) => ({ id: c.id, label: c.label, type: c.type, value: c.value }))
-  };
-  const plainChannels = channels.map((c) => {
-    const href = c.type === "whatsapp" ? `https://wa.me/${c.value}` : c.type === "email" ? `mailto:${c.value}` : c.value;
-    return `<a href="${esc(href)}">${esc(c.label)}</a>`;
-  }).join(", ");
-  // Senza un canale configurato il modulo non serve a nessuno: invece del modulo, una frase onesta.
+  const noteCards = list.map((n) => noteCard(n, config.noteKinds)).join("");
   const hasChannel = config.channels.some((c) => c.value);
-  const share = !hasChannel ? `
-    <section class="share" id="share" aria-labelledby="share-h">
-      <h2 id="share-h">Add your voice</h2>
-      <p class="share-intro">Notes are collected in person for now. If you know this place and would like to be asked for a note, read <a href="../../method/index.html">how notes are collected</a>.</p>
-    </section>` : `
-    <section class="share" id="share" aria-labelledby="share-h">
-      <h2 id="share-h">Add your voice</h2>
-      <p class="share-intro">If you know this place, you can write a note. Nothing is sent from this page: it prepares a message that you send yourself.</p>
-      <p class="share-nojs" id="share-nojs">${plainChannels ? `Without JavaScript you can still write to the project by ${plainChannels}, and say which card your note is for.` : "Writing a note needs JavaScript here. Ask the person who invited you how to send it."}</p>
-      <button type="button" class="btn-voice" id="share-open" aria-expanded="false" aria-controls="share-form" hidden>Write a note</button>
-      <form class="share-form" id="share-form" hidden novalidate>
-        <label for="sh-kind">Your note answers
-          <select id="sh-kind">${config.noteKinds.map((k) => `<option value="${esc(k.id)}">${esc(k.label)}</option>`).join("")}</select>
-        </label>
-        <p class="share-q" id="sh-q"></p>
-        <label for="sh-text">Your note
-          <textarea id="sh-text" rows="6" maxlength="1200" placeholder="Write it the way you would tell a friend who is visiting."></textarea>
-        </label>
-        <p class="share-count"><span id="sh-count">0</span> / 1200</p>
-        <div class="share-row">
-          <label for="sh-name"><span>Your name or nickname <span class="opt">(optional)</span></span>
-            <input id="sh-name" type="text" maxlength="60" autocomplete="off">
-          </label>
-          <label for="sh-rel"><span>How you know this place <span class="opt">(optional)</span></span>
-            <select id="sh-rel"><option value="">Prefer not to say</option>${config.relations.map((r) => `<option value="${esc(r.id)}">${esc(r.label)}</option>`).join("")}</select>
-          </label>
-        </div>
-        <label for="sh-lang">Language you wrote in
-          <select id="sh-lang">${(config.languages || []).map((l) => `<option value="${esc(l.id)}">${esc(l.label)}</option>`).join("")}</select>
-        </label>
-        <label class="share-consent" for="sh-consent">
-          <input id="sh-consent" type="checkbox">
-          <span>I agree that this note may be published on this site, with the name and connection I gave. I know the repository is public and that the text stays in its history even if it is later removed from the site. My note has no email address or phone number in it.</span>
-        </label>
-        <details class="share-priv">
-          <summary>What happens to your note</summary>
-          <p>This page sends nothing. When you press a button, your phone or computer opens WhatsApp, your email app or Signal with the message already written, and you choose whether to send it.</p>
-          <p>If you do, the message and your contact details reach the project through that service, which has its own privacy rules. The project reads every note and publishes it only if you agreed and it passes a check. The proof of your agreement is kept by the project outside the public repository.</p>
-          <p>You can ask for a note to be removed at any time by writing again. Removing it from the site does not erase the repository's history.</p>
-        </details>
-        <div class="share-actions" id="sh-actions"></div>
-        <p class="share-status" id="sh-status" role="status" aria-live="polite"></p>
-      </form>
-      <script type="application/json" id="share-cfg">${JSON.stringify(shareCfg).replace(/</g, "\\u003c")}</script>
-    </section>`;
+  const share = shareSection({ type: "place", id: p.slug, name: p.name, kinds: config.noteKinds, heading: "Add your voice", intro: "If you know this place, you can write a note.", depth: 2 });
   const asks = config.noteKinds.map((k) => `<li><span class="chip">${esc(k.label)}</span> ${esc(k.question)}</li>`).join("");
   const contact = config.contact ? ` To offer a note or ask for one to be removed: ${esc(config.contact)}.` : "";
 
@@ -484,6 +503,77 @@ const countriesBand = cList.length
 </section>`
   : "";
 
+
+// ---------- Stories: storia, miti da sfatare, cucina ----------
+const storyKinds = config.storyKinds || [];
+const kindOf = Object.fromEntries(storyKinds.map((k) => [k.id, k]));
+const stories = (data.stories || []).map((x) => x.data).filter((x) => includeDrafts || x.status === "published");
+const storyHref = (x, p = "") => `${p}stories/${x.slug}/index.html`;
+const wordsOf = (st) => st.sections.reduce((n, sec) => n + sec.blocks.reduce((m, b) => m + (b.parts || b.items || []).reduce((k, x) => k + String(x.text).split(/\s+/).length, 0), 0), 0);
+const readMin = (st) => Math.max(1, Math.round(wordsOf(st) / 200));
+const cName = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c.name]));
+
+function storyCard(st, p = "") {
+  const k = kindOf[st.kind];
+  return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${esc(k.label)} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span></a></li>`;
+}
+
+function renderStory(st) {
+  const { cite, list: sourcesList } = makeCiter();
+  const k = kindOf[st.kind];
+  const block = (b) => {
+    if (b.type === "p") return `<p>${b.parts.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("")}</p>`;
+    if (b.type === "timeline") return `<ol class="timeline">${b.items.map((it) => `<li><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>`;
+    return "";
+  };
+  const secs = st.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map(block).join("")}</section>`).join("\n");
+  const kindsHere = (config.storyNoteKinds || {})[st.kind] || [];
+  const sNotes = (notes[`story-${st.slug}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
+  const voices = `<section class="story-voices" id="voices" aria-labelledby="voices-h"><span class="layer-tag voi">From people who know this</span><h2 id="voices-h">What readers add</h2>
+${sNotes.length ? `<div class="notes">${sNotes.map((n) => noteCard(n, kindsHere)).join("")}</div>` : `<div class="empty"><strong>No local voice on this story yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people who know the subject afterwards.</span></div>`}
+${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, heading: "Add what you know", intro: st.kind === "food" ? "Do you cook this, or call it something else? Tell us." : st.kind === "myth" ? "Where did you meet this idea, and what do you see where you live?" : "Does your family or community know this differently, or know where to read more?", depth: 2 })}
+</section>`;
+  const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
+  const relCountries = (st.countries || []).map((c) => `<a href="../../countries/index.html#c-${esc(c)}">${esc(cName[c] || c)}</a>`).join(", ");
+  const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
+  const related = relCountries || relPlaces ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
+  const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
+  const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
+  const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
+<div class="wrap prose-hero"><p class="story-meta">${readMin(st)} minute read · every sentence below carries its source number</p>
+<article class="story">${secs}
+${gaps}
+${voices}
+${related}
+${sourcesList()}
+${moreHtml}</article></div>`;
+  return layout({ title: `${st.title} · ${config.name}`, description: st.subtitle, depth: 2, current: "stories", body, extraScripts: ["share.js"], jump: [...st.sections.map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 5), { id: "sec-gaps", label: "Unknown" }, { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+}
+
+function renderStories() {
+  const groups = storyKinds.map((k) => ({ k, items: stories.filter((x) => x.kind === k.id) })).filter((g) => g.items.length);
+  const body = `${compactHero({ kicker: "Learn", title: "Stories", sub: "Real history, myths checked against the record, and the food behind the places." })}
+<div class="wrap">
+<section class="hero-lede"><p class="lede">The place cards say where. These pages say what happened, what people get wrong, and what is on the table. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p></section>
+${groups.map((g) => `<section id="k-${esc(g.k.id)}" class="story-group"><h2>${esc(g.k.label)}</h2><p class="blurb">${esc(g.k.blurb)}</p><ul class="scards">${g.items.map((x) => storyCard(x, "../")).join("")}</ul></section>`).join("\n")}
+</div>`;
+  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, jump: groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label })) });
+}
+
+const storiesBand = stories.length
+  ? `<section id="stories" class="band-sand section">
+  <div class="wrap">
+    <div class="night-head"><h2 class="listh">Stories</h2><p class="lede">History told with its sources, myths checked against the record, and the food behind the places.</p></div>
+    <ul class="scards">${stories.slice(0, 6).map((x) => storyCard(x)).join("")}</ul>
+    <p class="actions"><a class="btn" href="stories/index.html">All stories</a></p>
+  </div>
+</section>`
+  : "";
+if (stories.length) {
+  write("stories/index.html", renderStories());
+  for (const st of stories) write(`stories/${st.slug}/index.html`, renderStory(st));
+}
+
 write("places/index.html", renderPlaces());
 write("index.html", layout({
   title: config.name,
@@ -491,7 +581,7 @@ write("index.html", layout({
   depth: 0,
   script: true,
   bodyClass: "home",
-  jump: [{ id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
+  jump: [{ id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(storiesBand ? [{ id: "stories", label: "Stories" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
   body: `
 <section class="scape-hero">
   ${landscape()}
@@ -530,6 +620,7 @@ write("index.html", layout({
   </div>
 </section>
 ${mapSection}
+${storiesBand}
 ${countriesBand}`
 }));
 
@@ -611,7 +702,8 @@ function renderCountries(list) {
     name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
     density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
     rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
-    cards: cardsOf(c.iso3).map((p) => ({ name: p.name, href: `../places/${p.slug}/index.html` }))
+    cards: cardsOf(c.iso3).map((p) => ({ name: p.name, href: `../places/${p.slug}/index.html` })),
+    voices: (notes[`country-${c.iso3}`] || []).map((n) => noteCard(n, config.countryNoteKinds || [])).join("")
   }]));
   // tabella
   const rows = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
@@ -703,6 +795,9 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
 
 </div></div>
 <div class="wrap section">
+${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: config.countryNoteKinds || [], heading: "Know a country well?", intro: "Add what the numbers miss, or tell us what looks wrong.", depth: 1, choices: [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => ({ id: c.iso3, name: c.name })) })}
+</div>
+<div class="wrap section">
 <section id="sec-gaps" class="gaps panel-gaps">
   <span class="layer-tag gap">Not yet sourced</span>
   <ul>
@@ -716,7 +811,7 @@ ${sourcesList()}
 </div>
 <script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
-  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }] });
+  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, extraScripts: ["share.js"], body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }, { id: "share", label: "Add yours" }] });
 }
 
 
@@ -843,6 +938,7 @@ ${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Relig
   <noscript><p class="fine">Choosing two countries needs JavaScript. The figures for each country are on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
   <div id="pair-out" aria-live="polite"></div>
 </section>
+${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: config.countryNoteKinds || [], heading: "Know a country well?", intro: "Tell us what the figures miss, or what looks wrong.", depth: 1, choices: [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => ({ id: c.iso3, name: c.name })) })}
 <section id="sec-gaps" class="gaps panel-gaps">
   <span class="layer-tag gap">Not yet sourced</span>
   <ul>
@@ -855,7 +951,7 @@ ${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Relig
 ${sourcesList()}
 </div>
 <script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Compare the countries · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, compared.", depth: 1, current: "compare", script: true, body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+  return layout({ title: `Compare the countries · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, compared.", depth: 1, current: "compare", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));

@@ -92,12 +92,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "neglect",
+      "title": "Left in the quiet, as reported in 2021",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in September 2021 that Leptis Magna, founded by the Phoenicians and later taken by Rome, stands on a hillside with a view of the Mediterranean. It lists a large basilica, a racecourse and a theatre seating up to 15,000 spectators.",
+              "cite": [
+                "france24-leptis-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It was the birthplace of Septimius Severus, emperor from 193 to 211, who lavished resources on his native city. After the 2011 conflict UNESCO placed it and four other Libyan sites on its list of heritage in danger.",
+              "cite": [
+                "france24-leptis-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says there had been no direct attacks or threats against the site, but that archaeological digs had stopped, maintenance was rushed and superficial, and only a handful of visitors, almost all Libyans, came, 120 kilometres from Tripoli.",
+              "cite": [
+                "france24-leptis-2021"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The state of the site after the conflicts in Libya since 2011, which the part of the article read here does not reach.",
     "Libyan archaeologists' and residents' voices.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The site's condition is as of September 2021 and from one news report: digs, maintenance and visitor numbers have not been checked for later years."
   ],
   "coords": {
     "lat": 32.63833,

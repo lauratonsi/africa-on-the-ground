@@ -79,12 +79,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "pyramids",
+      "title": "The pyramids, as National Geographic described them in 2022",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic wrote in 2022 that Sudan has about 255 pyramids, more than twice the number in Egypt, and that Meroë alone has more than 200.",
+              "cite": [
+                "natgeo-nubian-pyramids-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It dates the Kingdom of Kush from 900 BC to AD 400. Of the 41 tombs in Meroë's north cemetery, it says, 38 belong to monarchs who ruled between 250 BC and AD 320.",
+              "cite": [
+                "natgeo-nubian-pyramids-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Unlike Egyptian pyramids, it explains, Nubian burial chambers lie below the pyramids, not inside them. It also reports that sand is slowly swallowing Meroë.",
+              "cite": [
+                "natgeo-nubian-pyramids-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The pyramids and the site's present condition after the war in Sudan, which the part of the article read here does not reach.",
     "Sudanese archaeologists' and residents' accounts.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That article was written before the war that began in Sudan in 2023, so it says nothing about the war's effect on the site, and the site's present condition is not covered here."
   ],
   "coords": {
     "lat": 16.9333333333,

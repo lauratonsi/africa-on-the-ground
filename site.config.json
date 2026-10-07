@@ -21,6 +21,12 @@
       "label": "Signal",
       "type": "link",
       "value": ""
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "type": "github",
+      "value": ""
     }
   ],
   "languages": [
@@ -57,41 +63,152 @@
     {
       "id": "look",
       "label": "What I would look at",
-      "question": "What would you look at on a visit that a guidebook skips?"
+      "question": "What would you look at on a visit that a guidebook skips?",
+      "fields": [
+        {
+          "id": "when",
+          "label": "Best time of day or year",
+          "type": "text",
+          "max": 80
+        }
+      ]
     },
     {
       "id": "tell",
       "label": "What I tell my children",
-      "question": "What do you tell your children about this place?"
+      "question": "What do you tell your children about this place?",
+      "fields": [
+        {
+          "id": "who",
+          "label": "Who told you this?",
+          "type": "select",
+          "options": [
+            {
+              "id": "grandparent",
+              "label": "A grandparent"
+            },
+            {
+              "id": "parent",
+              "label": "A parent"
+            },
+            {
+              "id": "elder",
+              "label": "A community elder"
+            },
+            {
+              "id": "teacher",
+              "label": "A teacher"
+            },
+            {
+              "id": "other",
+              "label": "Someone else"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "eat",
       "label": "Eating at home",
-      "question": "What do people eat at home around here, and what is cooked mainly for visitors?"
+      "question": "What do people eat at home around here, and what is cooked mainly for visitors?",
+      "fields": [
+        {
+          "id": "dish",
+          "label": "Name of the dish or drink, in your language",
+          "type": "text",
+          "max": 80
+        },
+        {
+          "id": "made-for",
+          "label": "Usually made for",
+          "type": "select",
+          "options": [
+            {
+              "id": "everyday",
+              "label": "Everyday meals"
+            },
+            {
+              "id": "celebrations",
+              "label": "Celebrations"
+            },
+            {
+              "id": "religious",
+              "label": "Religious days"
+            },
+            {
+              "id": "visitors",
+              "label": "Visitors"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "avoid",
       "label": "What to avoid",
-      "question": "What would you ask visitors not to do, buy or say?"
+      "question": "What would you ask visitors not to do, buy or say?",
+      "fields": [
+        {
+          "id": "about",
+          "label": "This is about",
+          "type": "select",
+          "options": [
+            {
+              "id": "photos",
+              "label": "Taking photos"
+            },
+            {
+              "id": "buying",
+              "label": "Buying things"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour"
+            },
+            {
+              "id": "speaking",
+              "label": "What is said"
+            },
+            {
+              "id": "other",
+              "label": "Something else"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "fix",
       "label": "Correction to the record",
-      "question": "Does anything in the record read wrong to you? Say which part and what you know."
+      "question": "Does anything in the record read wrong to you? Say which part and what you know.",
+      "fields": [
+        {
+          "id": "which",
+          "label": "Which part is it?",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "id": "check",
+          "label": "Where could the curator check it? (a book, an office, a role)",
+          "type": "text",
+          "max": 160
+        }
+      ]
     }
   ],
   "relations": [
     {
       "id": "near",
-      "label": "Lives in the area"
+      "label": "Lives in or near the place"
     },
     {
       "id": "gambia",
-      "label": "Lives elsewhere in The Gambia"
+      "label": "Lives elsewhere in the country"
     },
     {
       "id": "abroad",
-      "label": "Gambian, lives abroad"
+      "label": "From the country, lives abroad"
     },
     {
       "id": "other",
@@ -156,5 +273,326 @@
     "great-zimbabwe-national-monument",
     "rock-hewn-churches-of-lalibela",
     "medina-of-fez"
+  ],
+  "storyKinds": [
+    {
+      "id": "history",
+      "label": "History",
+      "blurb": "Real events and people, told with what the sources say and where historians disagree."
+    },
+    {
+      "id": "myth",
+      "label": "Myths",
+      "blurb": "A common idea about Africa, checked against the record."
+    },
+    {
+      "id": "food",
+      "label": "Food",
+      "blurb": "Dishes and the people, places and arguments behind them."
+    }
+  ],
+  "storyNoteKinds": {
+    "history": [
+      {
+        "id": "family",
+        "label": "A family or community account",
+        "question": "Does your family or community tell this story differently, or know a part that books leave out?",
+        "fields": [
+          {
+            "id": "where-when",
+            "label": "Where and about when",
+            "type": "text",
+            "max": 120
+          },
+          {
+            "id": "who",
+            "label": "Who told you this?",
+            "type": "select",
+            "options": [
+              {
+                "id": "grandparent",
+                "label": "A grandparent"
+              },
+              {
+                "id": "parent",
+                "label": "A parent"
+              },
+              {
+                "id": "elder",
+                "label": "A community elder"
+              },
+              {
+                "id": "teacher",
+                "label": "A teacher"
+              },
+              {
+                "id": "other",
+                "label": "Someone else"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source",
+        "label": "A source worth reading",
+        "question": "Do you know a book, archive, museum or person who knows more about this?",
+        "fields": [
+          {
+            "id": "title",
+            "label": "Title or name of the source",
+            "type": "text",
+            "max": 160
+          },
+          {
+            "id": "where",
+            "label": "Where it can be found (library, archive, museum, web address)",
+            "type": "text",
+            "max": 160
+          }
+        ]
+      },
+      {
+        "id": "fix",
+        "label": "Correction to the story",
+        "question": "Does something here read wrong to you? Say which part and what you know.",
+        "fields": [
+          {
+            "id": "which",
+            "label": "Which part is it?",
+            "type": "text",
+            "max": 120
+          },
+          {
+            "id": "check",
+            "label": "Where could the curator check it? (a book, an office, a role)",
+            "type": "text",
+            "max": 160
+          }
+        ]
+      }
+    ],
+    "myth": [
+      {
+        "id": "heard",
+        "label": "Where I heard this idea",
+        "question": "Have you heard this idea, at home or abroad? How was it said, and by whom?",
+        "fields": [
+          {
+            "id": "where",
+            "label": "Where did you hear it?",
+            "type": "select",
+            "options": [
+              {
+                "id": "school",
+                "label": "At school"
+              },
+              {
+                "id": "media",
+                "label": "In the media"
+              },
+              {
+                "id": "travel",
+                "label": "While travelling"
+              },
+              {
+                "id": "family",
+                "label": "In my family"
+              },
+              {
+                "id": "other",
+                "label": "Somewhere else"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "counter",
+        "label": "What I see where I live",
+        "question": "What in your own life or town shows this idea to be wrong, or partly right?",
+        "fields": [
+          {
+            "id": "where",
+            "label": "Where do you live? (town or region)",
+            "type": "text",
+            "max": 100
+          }
+        ]
+      },
+      {
+        "id": "fix",
+        "label": "Correction to the story",
+        "question": "Does something here read wrong to you? Say which part and what you know.",
+        "fields": [
+          {
+            "id": "which",
+            "label": "Which part is it?",
+            "type": "text",
+            "max": 120
+          },
+          {
+            "id": "check",
+            "label": "Where could the curator check it? (a book, an office, a role)",
+            "type": "text",
+            "max": 160
+          }
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "name",
+        "label": "What we call it",
+        "question": "What is this dish called where you live, and how do people say it?",
+        "fields": [
+          {
+            "id": "local-name",
+            "label": "Its name where you live",
+            "type": "text",
+            "max": 80
+          },
+          {
+            "id": "community",
+            "label": "Language or community",
+            "type": "text",
+            "max": 80
+          }
+        ]
+      },
+      {
+        "id": "make",
+        "label": "How we make it",
+        "question": "How is it made in your home or town? What do people argue about?",
+        "fields": [
+          {
+            "id": "dish",
+            "label": "Name of the dish, in your language",
+            "type": "text",
+            "max": 80
+          },
+          {
+            "id": "ingredients",
+            "label": "Main ingredients",
+            "type": "text",
+            "max": 200
+          },
+          {
+            "id": "made-for",
+            "label": "Usually made for",
+            "type": "select",
+            "options": [
+              {
+                "id": "everyday",
+                "label": "Everyday meals"
+              },
+              {
+                "id": "celebrations",
+                "label": "Celebrations"
+              },
+              {
+                "id": "religious",
+                "label": "Religious days"
+              },
+              {
+                "id": "visitors",
+                "label": "Visitors"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "when",
+        "label": "When we eat it",
+        "question": "On which days and occasions, and with whom?",
+        "fields": [
+          {
+            "id": "occasion",
+            "label": "The occasion",
+            "type": "text",
+            "max": 100
+          }
+        ]
+      },
+      {
+        "id": "fix",
+        "label": "Correction to the story",
+        "question": "Does something here read wrong to you? Say which part and what you know.",
+        "fields": [
+          {
+            "id": "which",
+            "label": "Which part is it?",
+            "type": "text",
+            "max": 120
+          },
+          {
+            "id": "check",
+            "label": "Where could the curator check it? (a book, an office, a role)",
+            "type": "text",
+            "max": 160
+          }
+        ]
+      }
+    ]
+  },
+  "countryNoteKinds": [
+    {
+      "id": "local",
+      "label": "Something the figures miss",
+      "question": "What should a student or visitor know about this country that numbers do not show?",
+      "fields": [
+        {
+          "id": "topic",
+          "label": "This is about",
+          "type": "select",
+          "options": [
+            {
+              "id": "languages",
+              "label": "Languages"
+            },
+            {
+              "id": "religion",
+              "label": "Religion"
+            },
+            {
+              "id": "food",
+              "label": "Food"
+            },
+            {
+              "id": "history",
+              "label": "History"
+            },
+            {
+              "id": "daily",
+              "label": "Daily life"
+            },
+            {
+              "id": "other",
+              "label": "Something else"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix",
+      "label": "Correction to a figure or label",
+      "question": "Does a figure, a name or a description here look wrong? Say which and what you know.",
+      "fields": [
+        {
+          "id": "which",
+          "label": "Which figure or text?",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "id": "check",
+          "label": "Where could the curator check it?",
+          "type": "text",
+          "max": 160
+        }
+      ]
+    }
   ]
 }

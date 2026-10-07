@@ -92,12 +92,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gamepass",
+      "title": "One shelter: Game Pass, as the British Museum's archive describes it",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British Museum's archive says the Drakensberg mountains are known for their wealth of rock paintings by San communities, often showing people, animals and part-human, part-animal figures called therianthropes. Game Pass Shelter, in the foothills, is one of South Africa's best-known sites.",
+              "cite": [
+                "bm-rockart-gamepass"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Its best-known panel, about 50 centimetres long, shows an eland with its face turned to the viewer and legs crossed as if stumbling, its tail grasped by a therianthrope with hooves. In the early 1970s David Lewis-Williams, studying a copy of it, began to think the figure might be \"idiomatic and metaphorical, rather than illustrative\", an idea partly inspired by testimony from a San man named Qing, who in 1873 guided a colonial official to rock art sites in Lesotho.",
+              "cite": [
+                "bm-rockart-gamepass"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "San voices on the rock art and the landscape, and how Basotho and Zulu communities use the mountains.",
     "How the two countries manage the park together, which the article summarises in one line.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That archive page is about one shelter on the South African side: the Lesotho side of the park and Basotho voices are not covered. The interpretation of the paintings, which draws on a San man's 1873 testimony given to a colonial official, is one researcher's view."
   ],
   "coords": {
     "lat": -29.7652777778,

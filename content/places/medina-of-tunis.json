@@ -79,12 +79,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alive",
+      "title": "A living medina, as reported in 2022",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Africanews reported in July 2022 that the medina was founded in the ninth century and began to expand in the 13th, when Tunis became the capital of the Hafsid kingdom. It has about two dozen small souks devoted to artisans such as tanners, perfume sellers and shoemakers, and was listed in 1979.",
+              "cite": [
+                "africanews-tunis-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "About 25,000 people live in the medina. New initiatives bring in art festivals, guesthouses and a project offering treasure hunts, cooking classes and calligraphy. The report adds that some museums and monuments remain closed, including the Sidi Bou Khrissane and Dar Ben Abdallah museums, closed for 15 years, and that the Zitouna mosque is closed to non-Muslims.",
+              "cite": [
+                "africanews-tunis-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Residents' and craftspeople's accounts of the medina today.",
     "The Ottoman and French periods, which the part of the article read here does not reach.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Residents' accounts of the changes, and of the houses and crafts, are not here. The July 2022 figures are the report's."
   ],
   "coords": {
     "lat": 36.81667,

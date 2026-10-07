@@ -78,12 +78,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sites",
+      "title": "The four sites, as reported in 2023",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported on 20 September 2023 that UNESCO had added four memorials to the World Heritage list. At Nyamata, it says, more than 45,000 people who had sought shelter in the church were killed in one day, and the chapel holds the clothing and rosaries worn by victims along with the weapons used by the perpetrators.",
+              "cite": [
+                "france24-rwanda-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At Murambi, tens of thousands of people who had been encouraged to take refuge in a technical school were executed. Gisozi, the Kigali Genocide Memorial, is the final resting place of around 250,000 victims. At Bisesero, a resistance memorial built in 1998 honours Tutsis who fought back with spears and stones.",
+              "cite": [
+                "france24-rwanda-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The government spokeswoman Yolande Makolo said the decision would help safeguard memory, counter denial and strengthen genocide prevention, and the survivor Marie Grace Mukabyagaju said the memorials would be there as long as possible.",
+              "cite": [
+                "france24-rwanda-2023"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The other three sites, and survivors' own accounts: the right voices here are those of survivors and Rwandan historians, and this card has none of them yet.",
     "The wording of the numbers and of the genocide's history should be checked with Rwandan institutions before publication.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Figures differ between reports (for instance the number killed at Nyamata); the numbers here are one news agency's and the official counts should be consulted. Survivors' and communities' own accounts are not included."
   ],
   "coords": {
     "lat": -2.4555277778,

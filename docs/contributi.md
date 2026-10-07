@@ -46,3 +46,11 @@ Non è una consulenza legale: informativa e trattamento dei dati vanno fatti ver
 - Decidere per quanto tempo si conservano i messaggi originali e il registro.
 - Un contatto pubblico per le correzioni (anche solo un'email dedicata): senza, il link "tell the project" nelle schede non porta da nessuna parte.
 - Trovare i primi lettori locali, per la revisione successiva: non bloccano la pubblicazione.
+
+## Dove si può contribuire e come cambia il messaggio
+
+Il modulo c'è su tre tipi di pagina: schede dei luoghi, storie e pagine dei paesi (Countries e Compare, con un menu per scegliere il paese). A seconda del tipo cambiano le domande (`noteKinds` per i luoghi, `storyNoteKinds` per le storie, divise per filone, e `countryNoteKinds` per i paesi in `site.config.json`) e i campi specifici (`fields`). Il messaggio ha una riga `place:`, `story:` o `country:` e righe `field.<id>:`; `npm run add-note` le legge e salva in `content/notes/<luogo>.json`, `story-<slug>.json` o `country-<ISO3>.json`. Le correzioni (`fix`) non si pubblicano come voci. `remove-note` e `review-note` funzionano su tutti e tre i tipi.
+
+**Canale GitHub.** In `channels` c'è un canale di tipo `github` (valore `proprietario/repository`, per esempio `lauratonsi/africa-on-the-ground`), vuoto di proposito. Se lo si attiva, il modulo apre una nuova issue con il messaggio già scritto. È l'unico canale che non richiede di pubblicare un numero o un indirizzo, ma ha un prezzo: il messaggio diventa pubblico subito, sotto il nome GitHub di chi lo manda. Il modulo lo dice prima. Va deciso con la revisione dopo la pubblicazione e con l'informativa.
+
+**Senza canali.** Il modulo si mostra comunque, con un avviso, e permette di copiare il messaggio. Finché nessun canale ha un valore, nessuno può mandarlo a chi gestisce il progetto.

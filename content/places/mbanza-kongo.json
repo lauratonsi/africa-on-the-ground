@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "city",
+      "title": "The city today, as described in 2024",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Macao Magazine wrote in 2024 that the Kingdom of Kongo, founded in the late 14th century, reached from what is now Gabon through the two Congos into northern Angola. Diogo Cão arrived in 1482; King Nzinga a Nkuwu converted and was baptised João I, and his successor Afonso made Christianity the official religion.",
+              "cite": [
+                "macao-mbanza-kongo-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mbanza Kongo was centred on a royal residence and cemetery, a customary court and a sacred tree, and Portuguese-style buildings and churches were added. The Cathedral of the Holy Saviour of Congo, with adobe and stone walls, fuses African and European styles, and excavations have revealed the royal residence's foundations. The Nkulumbimbi Shrine is a large rock engraved with symbols.",
+              "cite": [
+                "macao-mbanza-kongo-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In January 2024 the president approved an agreement of around US$120 million for restoration and conservation, and a new airport 34 kilometres away was expected in 2025.",
+              "cite": [
+                "macao-mbanza-kongo-2024"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Kongo voices and Angolan historians on the kingdom, beyond the outline in the article.",
     "The Portuguese period, Christianity at the Kongo court and the slave trade, which the part of the article read here does not reach.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That feature is a magazine piece addressed to travellers and investors: the Kongo people's own account of the city, and independent checks on the restoration figures, are not included."
   ],
   "coords": {
     "lat": -6.2688888889,

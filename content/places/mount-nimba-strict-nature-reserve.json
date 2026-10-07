@@ -99,12 +99,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mine",
+      "title": "The mine and the reserve, as reported in January 2026",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Le Monde, in an English translation, reported in January 2026 that the reserve has been a strict nature reserve since a French colonial decree of 1944, was listed in 1981 and was placed on the danger list in 1992, and that about fifty rivers rise there.",
+              "cite": [
+                "lemonde-nimba-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A mining project called Kon Kweni, \"iron stones\" in Kono, would take 2 to 5 million tonnes a year for its first decade from a 15-square-kilometre enclave inside the reserve. The Guinea Iron Ore Mining Company, 85% owned by Ivanhoe Atlantic and 10% by the Guinean state, was awaiting government approval.",
+              "cite": [
+                "lemonde-nimba-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conservation organisations warned of irreversible destruction and asked for a renewable five-year moratorium. The article names the western chimpanzee, critically endangered, and a toad of about two centimetres that it calls the only known viviparous toad in the world, among the species at risk.",
+              "cite": [
+                "lemonde-nimba-2026"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The mining dispute and its present state, which Wikipedia only begins to describe in the part read here.",
     "The communities around the mountain and how they use it.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The mine's status is as of January 2026 and from one translated article: whether it has since been approved is not covered here. Residents' and the Guinean authorities' own accounts are not included."
   ],
   "coords": {
     "lat": 7.60318,

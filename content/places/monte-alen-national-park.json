@@ -30,12 +30,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "apes",
+      "title": "Great apes and hunting, as reported in 2020",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Researchers from the Bristol Zoological Society wrote in 2020 that the Monte Alén–Monts de Cristal–Abanga landscape between Equatorial Guinea and Gabon was identified as of exceptional conservation importance for great apes, and that Equatorial Guinea has more than 16 primate species.",
+              "cite": [
+                "berggorilla-monte-alen-2020"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In a 2019 pilot study with camera traps, hunting activity was detected 184 times, with many snares and shotgun shells along main trails, and hunters with packs of more than five dogs each, a threat not documented before. Gorillas were recorded only twice in four months. The researchers say there is virtually no on-the-ground law enforcement in the protected areas.",
+              "cite": [
+                "berggorilla-monte-alen-2020"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The programme, using camera traps, acoustic recording, transect surveys and invertebrate DNA, grew from 6 cameras over 30 square kilometres to 20 cameras from August 2019, with 30 or more planned for 2020 and 2021.",
+              "cite": [
+                "berggorilla-monte-alen-2020"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Almost everything beyond size and date: the forest, the other wildlife, the communities and who manages the park.",
     "This place was chosen by the project as one of Equatorial Guinea's best known; the country has no site on the World Heritage List, and the choice should be checked with Equatoguinean sources.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That account is written by the research team that runs the monitoring: Equatorial Guinean voices and the authorities' view are not included, and the figures are from a 2019 pilot study."
   ],
   "image": {
     "file": "monte-alen-national-park",

@@ -73,11 +73,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "datasheet",
+      "title": "How the area came to be protected, from a 2007–08 data sheet",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A data sheet from UNEP-WCMC places the area in central Gabon, 290 km east of Libreville and 20 km west of Booué on the Ogooué, at altitudes of 75 to 960 metres. The national park covers 491,291 hectares, with a notional buffer zone of 170,700 hectares that includes seven archaeological complexes.",
+              "cite": [
+                "unepwcmc-lope-okanda"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It traces its protection from a hunting reserve in 1946, through a Lopé Faunal Reserve in 1982, a strict nature reserve in 1996 and the national park in 2002. Seven archaeological cultural areas were gazetted in 2005 and a national parks agency was created in 2007.",
+              "cite": [
+                "unepwcmc-lope-okanda"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The sheet records over 1,550 plant species, 40 of them new to Gabon, and says there were then no active conservation measures at the archaeological sites, which would need consolidation and trained staff. It names commercial poaching and logging bans as priorities.",
+              "cite": [
+                "unepwcmc-lope-okanda"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Nearly everything beyond location and size. The UNESCO title refers to an ecosystem and a relict cultural landscape; the cultural side (archaeology, the Okanda people) has not been described.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That data sheet is from around 2007–08: the park's present management, its wildlife numbers and the state of the archaeological sites are not covered, and neither are local voices."
   ],
   "coords": {
     "lat": -0.5,

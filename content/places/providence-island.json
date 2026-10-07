@@ -30,12 +30,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bicentennial",
+      "title": "Remembering 1822, as reported at the 2022 bicentennial",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Arab News reported on the launch of Liberia's bicentennial on 14 February 2022, marking the arrival in 1822 of free Black Americans, sent by the American Colonization Society, at Providence Island, now part of Monrovia. President George Weah opened the year-long celebrations.",
+              "cite": [
+                "arabnews-liberia-bicentennial-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says Liberia became an independent republic in 1847, the second Black republic after Haiti, and that the descendants of former US slaves governed it until a coup in 1980, followed by a civil war from 1989 to 2003. Heads of state from Togo, Niger, Gambia and Sierra Leone attended, and a US delegation was led by a presidential assistant, Dana Banks.",
+              "cite": [
+                "arabnews-liberia-bicentennial-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Almost everything. The history of the Colonization Society and of the people already living there is contested and needs strong sources and Liberian voices.",
     "This place was chosen by the project as one of Liberia's best known; Liberia has no site on the World Heritage List.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report covers the 2022 ceremony: the Indigenous peoples who lived on the coast, the terms on which land was obtained, and today's residents' views of the island are not included."
   ],
   "image": {
     "file": "providence-island",

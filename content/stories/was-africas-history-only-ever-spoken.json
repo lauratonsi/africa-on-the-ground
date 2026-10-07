@@ -1,0 +1,161 @@
+{
+ "slug": "was-africas-history-only-ever-spoken",
+ "status": "published",
+ "kind": "myth",
+ "title": "Was Africa's history only ever spoken?",
+ "subtitle": "The oral tradition is real and rich. But writing has a long history on the continent too, from the Ge'ez script of Aksum to the manuscripts of Timbuktu.",
+ "countries": [
+  "ETH",
+  "ERI",
+  "MLI"
+ ],
+ "places": [
+  "old-towns-of-djenne"
+ ],
+ "sections": [
+  {
+   "id": "both",
+   "title": "Two ways of remembering",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In the Mande world of West Africa, history is also kept and performed aloud by the jeliw, also called griots.",
+       "cite": [
+        "wikipedia-mansa-musa"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Oral tradition is a way of keeping history. It is not a sign that nothing was written down, and the written record on the continent is old.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geez",
+   "title": "A script from Aksum",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Kingdom of Aksum, in what is now Eritrea and northern Ethiopia, developed its own script, Ge'ez, later adapted to mark vowels and become an abugida.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "A stone raised by King Ezana in the fourth century carries inscriptions in both Greek and Ge'ez.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timbuktu",
+   "title": "The manuscripts of Timbuktu",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Households in Timbuktu, in northern Mali, kept large numbers of manuscripts for centuries. They range in date from the late thirteenth to the early twentieth century and cover art, medicine, philosophy and science as well as copies of the Quran.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Most are in Arabic. Some are written in African languages, including Fula, Songhay, Tamasheq, Bambara and Soninke, using the Arabic script, a practice known as Ajami.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Local scribes copied works by authors such as Plato, Hippocrates and Avicenna, and local authors wrote on history, religion, law, philosophy and poetry.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      },
+      {
+       "text": " One chronicler, Mahmud Kati, recorded a meteor shower in August 1583 that was probably the Perseids.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kept",
+   "title": "Kept at home, then at risk",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The manuscripts were passed down in families, are mostly in poor condition, and most remain unstudied and uncatalogued. Their total number is unknown.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Between 2012 and 2013, during the war in northern Mali, 4,203 of them were burned or stolen. About 350,000 were taken to safety, and 300,000 were still in Bamako in 2022.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Since 2013 a partnership between the Hill Museum & Manuscript Library in Minnesota and a Malian association has photographed more than 150,000 of them.",
+       "cite": [
+        "wikipedia-timbuktu-manuscripts"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Only a few societies on the continent wrote, and most knowledge was kept orally. This story shows that writing existed, not that it was everywhere.",
+  "No count of the Timbuktu manuscripts exists: figures in the source are estimates and rescues are still being catalogued.",
+  "The source is an encyclopedia article. The HMML and UNESCO pages and the Timbuktu chronicles themselves should replace it.",
+  "Other African writing traditions are missing here, among them Nubian and Coptic texts and the Vai, N'ko and Tifinagh scripts."
+ ]
+}

@@ -85,12 +85,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "learning",
+      "title": "A seat of learning, as reported in 2016",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Al Jazeera called al-Qarawiyyin, in Fez, the oldest university in the world, founded in AD 859, and described it as a prestigious centre of science and technology.",
+              "cite": [
+                "aljazeera-qarawiyyin-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Its library keeps rare manuscripts by medieval scholars. The library's curator, Abdelfattah Bougchouf, said people come from all over the world just to check facts on a page of one manuscript.",
+              "cite": [
+                "aljazeera-qarawiyyin-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "To deal with decay and humidity, the restoration installed gutter systems, solar panels and air-conditioning.",
+              "cite": [
+                "aljazeera-qarawiyyin-2016"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The craft quarters, such as the tanneries, and the artisans' own accounts: the article read here does not describe them.",
-    "Housing, population and the state of conservation of the medina.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The \"oldest university\" and AD 859 claims are the article's own and widely repeated: a historian of education should confirm them. Nothing here yet on the craft quarters, housing, or the state of the rest of the medina."
   ],
   "coords": {
     "lat": 34.06111,

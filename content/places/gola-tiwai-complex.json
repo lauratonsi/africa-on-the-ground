@@ -73,11 +73,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "keeping",
+      "title": "Keeping it safe, as reported in 2025",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in July 2025 that Tiwai Island, in the Moa river, measures just 12 square kilometres and has 11 species of primates, among them western chimpanzees, king colobus and Diana monkeys, as well as pygmy hippopotamuses and critically endangered African forest elephants. Gola is the largest expanse of tropical rainforest in Sierra Leone.",
+              "cite": [
+                "france24-gola-tiwai-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Gola-Tiwai complex is Sierra Leone's first UNESCO site. UNESCO's director general called it a jewel of biodiversity and a model of community management. The report tells the story through Tommy Garnett, who founded the Environmental Foundation for Africa in 1992 and, with it, saved Tiwai from near destruction during and after the civil war.",
+              "cite": [
+                "france24-gola-tiwai-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It names deforestation, poaching and climate impacts such as disease outbreaks and severe weather as the main dangers.",
+              "cite": [
+                "france24-gola-tiwai-2025"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Almost everything. The sources found say only when the site was listed. What the complex is, who lives around it and what its protection involves must be researched from scratch.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report is a profile of one conservationist: the communities of the Koya and Barri chiefdoms and the rangers are not heard in it."
   ],
   "coords": {
     "lat": 7.5411666667,

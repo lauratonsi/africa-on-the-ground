@@ -92,12 +92,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "migration",
+      "title": "The migration, as reported at the 2026 listing",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Daily Maverick reported on 28 July 2026 that the landscape was listed on 26 July 2026, South Sudan's first World Heritage site, and added at the same time to the list in danger. It is an 11-million-hectare area incorporating Boma and Badingilo national parks and wildlife corridors, stretching from Juba toward the Sudd wetland and the Ethiopian border.",
+              "cite": [
+                "dailymaverick-boma-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "More than six million antelope, including white-eared kob, tiang, Mongalla gazelle and Bohor reedbuck, migrate there each year, which the report calls the largest remaining land mammal migration on Earth. The landscape also supports Nile lechwe, elephants, wild dogs, lions, leopards and cheetahs.",
+              "cite": [
+                "dailymaverick-boma-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The threats named are armed conflict, commercial poaching for bushmeat, infrastructure such as the Juba–Bor road, which is said to ease commercial hunting, and possible oil and mining. The park operator African Parks' chief executive, Peter Fearnhead, said very few landscapes of this scale remain.",
+              "cite": [
+                "dailymaverick-boma-2026"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The communities who live in and around the parks, and what the listing means for them.",
     "A source on the migration other than a Wikipedia summary, for example the wildlife surveys it relies on.",
     "Coordinates: the UNESCO record has none for this property.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The report quotes the operator and gives no voices from the communities who live along the migration routes. The migration figure comes from an aerial survey that is not read here."
   ]
 }

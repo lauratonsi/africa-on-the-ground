@@ -775,3 +775,32 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .bars + .fine, .sbars + .fine, .tablewrap + .fine { margin-top: 14px; }
 .cmp-grid { margin-top: 24px; }
 .panel h3 { margin-top: 28px; }
+
+/* ---------- Stories ---------- */
+.scards { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 18px; }
+.scard { display: grid; align-content: start; gap: 8px; height: 100%; padding: 22px; border-radius: var(--radius); background: var(--surface); color: var(--ink); text-decoration: none; box-shadow: 0 0 0 1.5px var(--line); transition: transform .2s, box-shadow .2s; }
+.scard:hover { transform: translateY(-3px); box-shadow: 0 0 0 1.5px var(--record), 0 18px 40px -22px rgba(30, 20, 90, .5); }
+.scard:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
+.scard .kicker { font-size: .8rem; font-weight: 700; letter-spacing: .04em; color: var(--record); }
+.scard-t { font-family: var(--f-display); font-size: 1.35rem; line-height: 1.15; text-wrap: balance; }
+.scard-s { font-family: var(--f-record); font-size: .98rem; line-height: 1.5; color: var(--ink-soft); }
+.scard-c { font-size: .82rem; font-weight: 600; color: var(--ink-soft); }
+.scard[data-kind="myth"] .kicker { color: var(--viz-2); } .scard[data-kind="food"] .kicker { color: var(--viz-3); }
+.story-group { margin: 40px 0; }
+.story-group .blurb { color: var(--ink-soft); max-width: 60ch; margin: 4px 0 0; }
+.story-meta { color: var(--ink-soft); font-size: .92rem; margin: 0 0 8px; }
+.story .related, .story .more { margin-top: 40px; }
+.story .related ul { padding-left: 1.1rem; }
+.story .more h2 { margin-bottom: 0; }
+
+/* ---------- modulo: campi per tipo, note con risposte ---------- */
+.share-fields { display: grid; gap: 12px; }
+.share-fields:empty { display: none; }
+.share-warn { margin: 8px 0; padding: 10px 14px; border-radius: 10px; font-size: .92rem; box-shadow: inset 0 0 0 1.5px var(--saffron); background: color-mix(in srgb, var(--saffron) 12%, var(--surface)); }
+.nt-fields { margin: 8px 0 0; display: grid; gap: 4px; font-size: .9rem; }
+.nt-fields div { display: grid; grid-template-columns: minmax(7rem, 11rem) minmax(0, 1fr); gap: 10px; }
+.nt-fields dt { color: var(--ink-soft); font-weight: 600; }
+.nt-fields dd { margin: 0; }
+.story-voices { margin-top: 48px; padding: 24px; border-radius: var(--radius); background: color-mix(in srgb, var(--voice-fill, #ffb347) 10%, var(--surface)); }
+.detail-voices { margin-top: 14px; }
+.detail-voices h4 { margin: 0 0 8px; font-size: .95rem; }

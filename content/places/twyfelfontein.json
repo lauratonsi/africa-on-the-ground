@@ -85,12 +85,63 @@
           ]
         }
       ]
+    },
+    {
+      "id": "engravings",
+      "title": "The engravings, as the British Museum's archive describes them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British Museum's African rock art archive calls Twyfelfontein, or /Ui-//aes, the largest single grouping of ancient engraved images in southern Africa. The core area covers about 57 hectares, near a small but permanent spring.",
+              "cite": [
+                "bm-rockart-twyfelfontein"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It says the site was first formally noted by Reinhard Maack in a 1921 report, and that the name Twyfelfontein, Afrikaans for \"doubtful spring\", came from the farmer David Levin, whose worry about the spring's survival gave it that name. /Ui-//aes means \"place among rocks\" or \"jumping waterhole\" in Khoekhoegowab, the language of the Damara.",
+              "cite": [
+                "bm-rockart-twyfelfontein"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 2005 survey of the core site found 2,075 individual images on 235 rock surfaces. Giraffes are the most numerous animals, followed by rhinoceroses, zebra, gemsbok and ostriches, and human figures are almost absent. The best known image is the \"dancing kudu\", a polished kudu cow surrounded by geometric shapes.",
+              "cite": [
+                "bm-rockart-twyfelfontein"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The archive says the ancestors of the San are thought to have made most of southern Africa's rock paintings and engravings, and that it has been suggested the kudu was chosen in relation to female initiation practices.",
+              "cite": [
+                "bm-rockart-twyfelfontein"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Damara/Nama and San voices on the site and its management.",
     "Dating of the engravings, which the article gives only in broad terms.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That is the museum's account; the Damara and San communities' own understanding of the engravings is not presented here, and the kudu's meaning is a suggestion, not established."
   ],
   "coords": {
     "lat": -20.597,

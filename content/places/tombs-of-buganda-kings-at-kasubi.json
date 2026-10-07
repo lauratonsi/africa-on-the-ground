@@ -85,12 +85,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fire",
+      "title": "After the fire, as reported in 2023",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in August 2023 that a fire destroyed the main tomb building, Muzibu-Azaala-Mpanga, a circular, domed structure built in 1882 that UNESCO had called an architectural masterpiece. At least two people were killed when security forces put down riots after the fire.",
+              "cite": [
+                "france24-kasubi-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The tombs were declared a World Heritage site in 2001 and later placed on the danger list. UNESCO recommended in August 2023 that they be removed from it, after reconstruction with international funding, and said the removal would be a powerful symbol given that half of the sites in danger are in Africa.",
+              "cite": [
+                "france24-kasubi-2023"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The Buganda Kingdom's own account of the fire and the rebuilding, and of what the tombs mean today.",
     "The cause of the 2010 fire, which the article describes as still under investigation.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report was written before the World Heritage Committee met in September 2023: the committee's decision is not covered here. The Buganda kingdom's and caretakers' own accounts of the fire and the rebuilding are not here either."
   ],
   "coords": {
     "lat": 0.348611111,

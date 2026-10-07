@@ -1,0 +1,179 @@
+{
+ "slug": "injera-the-bread-that-is-also-the-plate",
+ "status": "published",
+ "kind": "food",
+ "title": "Injera: the bread that is also the plate",
+ "subtitle": "A sour, spongy flatbread made from a grain that began in Ethiopia, and the centre of the meal in Ethiopia and Eritrea.",
+ "countries": [
+  "ETH",
+  "ERI"
+ ],
+ "places": [
+  "rock-hewn-churches-of-lalibela"
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "title": "What it is",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Injera is a sour, fermented, pancake-like flatbread with a slightly spongy texture, traditionally made of teff flour. In Ethiopia it is a staple, like bread or rice elsewhere.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Teff is a cereal that originated in Ethiopia and is mostly eaten in Ethiopia and Eritrea.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      },
+      {
+       "text": " The same bread is called injera in Amharic, taita in Tigrinya and buddeena in Oromo.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "make",
+   "title": "How it is made",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The teff is milled into fine flour and kneaded with water. The dough is fermented with a starter called ersho, kept from earlier batches, for 24 to 72 hours.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The batter is then poured in a spiral, from the outside in, onto a large round griddle called a mitad, heated to 90–95 °C, and covered. It cooks for two to four minutes.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grain",
+   "title": "A grain with a price",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Teff is expensive, so injera made only of teff is a symbol of wealth, and white teff, dearer than red, signals higher status.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Many cooks mix grains. In the lowlands injera is often made with sorghum and in the highlands more often with barley, and the mix follows the price of teff.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "culture",
+   "title": "More than a food",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Injera is seen as a national dish in Ethiopia, and a picture of a mesob, the basket where it is kept, is on the 10 birr banknote.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Weddings and religious holidays feature it. At funerals, guests from outside the family bring mesobs full of injera. On Ethiopian Orthodox fast days, when believers eat no animal products, it is served with lentil and vegetable dishes.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In and around Bahir Dar, some families wrap a baby in injera after baptism for good luck, and people say that a woman who makes injera with good eyes is as hard-working as a honeybee.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "abroad",
+   "title": "Beyond the Horn",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Similar breads are made in Sudan, Chad and Kenya. In Kenya the Borana and Gabra of the north eat a variant.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In the United States injera became common during the Ethiopian immigration of the 1980s and 1990s, and an Ethiopian-American immigrant, Tedla Desta, opened the first injera bakery, in Alexandria, Virginia.",
+       "cite": [
+        "wikipedia-injera"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The article does not say how old injera is. Its origins are not documented here.",
+  "The customs in Bahir Dar are local and reported by one source; they are not practised everywhere.",
+  "The source is an encyclopedia article. An ethnography of Ethiopian and Eritrean food should replace it, along with voices from cooks.",
+  "Nothing here on Eritrean ways of making and serving taita."
+ ]
+}

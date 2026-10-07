@@ -73,11 +73,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "medinas",
+      "title": "The six medinas, as reported at the 2026 listing",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "AFP reported on 25 July 2026, from Busan, that six medinas, four on Grande Comore and two on Anjouan, were added to the World Heritage List. They were once home to historic sultanates on the Indian Ocean trade routes linking East Africa, the Middle East and Madagascar.",
+              "cite": [
+                "afp-comoros-medinas-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It describes Moroni, from the 14th century, with a Friday Mosque with a green minaret, a dhow port, paved alleyways and multi-storey houses with carved doors. Itsandra is a maritime medina considered a cradle of Swahili civilisation. Iconi dates to the 12th century and holds the tomb of Prince Said Ibrahim, son of the last sultan.",
+              "cite": [
+                "afp-comoros-medinas-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The official assessment called the medinas highly vulnerable, with several in serious disrepair. The culture minister said the listing was not a finish line but a starting point, and officials stressed that these are living towns where people still pray, trade and celebrate.",
+              "cite": [
+                "afp-comoros-medinas-2026"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Almost everything beyond the listing year: which medinas, their history and what residents say about them.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report does not describe the two Anjouan medinas one by one, and residents' and craftspeople's accounts are not included."
   ],
   "image": {
     "file": "medinas-of-the-historical-sultanates-of-the-comoros",

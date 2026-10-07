@@ -36,13 +36,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "afar",
+      "title": "The Afar and its salt, as described in 2012",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "National Geographic wrote in 2012 that the Afar depression has been repeatedly flooded by the Red Sea, most recently about 30,000 years ago, and that each time the seawater evaporated and left thick layers of salt. Some parts of the Afar now sit more than 500 feet below sea level.",
+              "cite": [
+                "natgeo-afar-salt-2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Salt blocks called amole were used as money throughout Ethiopia, and the \"white gold\" has long been an important source of income for the Afar people. The article calls the depression one of the world's most geologically hyperactive regions.",
+              "cite": [
+                "natgeo-afar-salt-2012"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The salt workers and the caravans of the Afar who carried salt: the right voices here, absent from the article read here.",
     "The environmental effect of the salt concessions, which the article's lead only begins to raise.",
     "This place was chosen by the project as one of Djibouti's best known; Djibouti has no site on the World Heritage List.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That article is mostly about the Afar salt mines in Ethiopia and mentions Lake Assal only briefly, so nothing here describes Assal's own mining, caravans or workers."
   ],
   "image": {
     "file": "lake-assal",

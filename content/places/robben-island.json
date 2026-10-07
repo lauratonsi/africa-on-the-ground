@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "care",
+      "title": "Looking after the island, as reported in 2009",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In October 2009 the BBC reported that authorities in Cape Town were gravely concerned about the island's state, with thousands of feral rabbits harming wildlife and undermining historic buildings.",
+              "cite": [
+                "bbc-robben-island-2009"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": " The island sits seven kilometres from Cape Town's beaches and, the report says, received more than 1,800 tourists a day at peak times. Nelson Mandela was held there for most of his 27 years in jail.",
+              "cite": [
+                "bbc-robben-island-2009"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A journalist quoted by the BBC put the rabbits at up to 25,000 and said about 500 fallow deer were being shot by a team of ten hunters. The city and the province warned that poor management risked the loss of World Heritage status.",
+              "cite": [
+                "bbc-robben-island-2009"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Former prisoners' own accounts, including the guides who are ex-prisoners. The article read here gives none.",
     "The island's earlier uses, as quarantine and leper colony and as a military base, which the part read here does not reach.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The state of the island in \"Looking after the island\" is as of 2009 and one news report: rabbit numbers and the site's management have since changed and are not updated here."
   ],
   "coords": {
     "lat": -33.8,

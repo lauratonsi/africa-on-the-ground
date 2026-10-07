@@ -24,12 +24,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "drums",
+      "title": "The drums and the rules around them, as reported in 2022",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Africanews reported in 2022 that the drumming tradition, called ingoma, dates back to the 17th century and honoured the eternal rule of the royal family. When a king took the throne he was said to \"ascend the drum\", which stood for the source of his power.",
+              "cite": [
+                "africanews-burundi-drummers-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Two hallowed drums, Ruciteme and Murimirwa, are kept in a straw hut in Gishora. Historically drums could be carved only from the umuvugaangoma, \"the tree that makes the drum talk\". In 2014 UNESCO inscribed the ritual dance of the royal drum on its intangible heritage list.",
+              "cite": [
+                "africanews-burundi-drummers-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says that in 2017 the government reimposed an old edict banning women from playing the drums, and that since the UNESCO listing troupes must register and private events need permits costing $250. A ministry adviser said the rules protect cultural identity, while a troupe leader said drumming is in their blood and a young engineer said the rules had reduced demand.",
+              "cite": [
+                "africanews-burundi-drummers-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Almost everything. The famous royal drummers, the sanctuary's history and its place on UNESCO's intangible heritage list are not covered by the short article read here; they must be sourced from UNESCO and from Burundian voices.",
     "This place was chosen by the project as one of Burundi's best known; Burundi has no site on the World Heritage List.",
     "A photograph under an open licence.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The 2022 report gives the government's rules as drummers and a ministry adviser see them: women drummers' and Gishora residents' own accounts are not in it, and the rules may have changed since."
   ]
 }

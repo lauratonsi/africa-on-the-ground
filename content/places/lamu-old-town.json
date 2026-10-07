@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "now",
+      "title": "Pressure on the old town, as reported in 2021",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 described Lamu in April 2021 as continuously inhabited for more than 700 years and listed by UNESCO in 2001 as \"the oldest and best preserved Swahili settlement in East Africa\".",
+              "cite": [
+                "france24-lamu-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report said that a decade earlier the island had only two vehicles, and that there were now almost 400 motorbike taxis, called boda bodas. A ban on them from the waterfront and from a 16-hectare zone around the old town had been brought in that February.",
+              "cite": [
+                "france24-lamu-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A UNESCO culture specialist, Karalyn Monteil, warned that Lamu could be placed on the list of heritage sites in danger at the July meeting if nothing was done. Residents disagreed on the ban: the deputy governor said the numbers were surging, while a boda boda cooperative's secretary said young people did not see the benefits.",
+              "cite": [
+                "france24-lamu-2021"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Swahili voices on the town today, which the article read here does not reach.",
     "The Maulidi festival and other living traditions.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The motorbike dispute is as reported in April 2021 and from one news article; the outcome at the July 2021 meeting and the situation now are not covered here."
   ],
   "coords": {
     "lat": -2.284444444,

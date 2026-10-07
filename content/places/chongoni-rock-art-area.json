@@ -85,12 +85,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "paintings",
+      "title": "The paintings, as the British Museum's archive describes them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British Museum's archive says Malawi's rock art consists only of paintings attributed to two distinct groups, hunter-gatherers and farmers, with a chronology running from the Late Stone Age to the 1950s.",
+              "cite": [
+                "bm-rockart-malawi"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rock art is found throughout the country, but the main concentration is in the Chongoni area, in central Malawi near the Mozambique border, where around 150 sites have been located so far. The older paintings attributed to hunter-gatherers occur everywhere, while those made by farmers are concentrated in the Chongoni area and nearby parts of Mozambique and Zambia.",
+              "cite": [
+                "bm-rockart-malawi"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Chewa voices on the paintings and their continuing ritual use, which UNESCO's criterion vi points to but which the article only touches.",
     "Dating of the paintings, which the part of the article read here does not give.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The archive's country page is a general account; the Chewa people's own use and understanding of the paintings is not covered here."
   ],
   "coords": {
     "lat": -14.2185207713,

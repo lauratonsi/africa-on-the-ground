@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "paintings",
+      "title": "The paintings, as the British Museum's archive describes them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British Museum's archive says Tsodilo has around 400 rock art sites with more than 4,000 individual paintings and has been called \"the Louvre of the Desert\". It has four main hills, Male, Female, Child and North, and shows human occupation going back 100,000 years.",
+              "cite": [
+                "bm-rockart-tsodilo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Unlike much San rock art, which is brush-painted in fine lines, the Tsodilo paintings are finger-painted. It counts 160 depictions of cattle shown in the same style as wild animals, and more geometric designs than anywhere else.",
+              "cite": [
+                "bm-rockart-tsodilo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At sunset the western cliffs glow so that the local Juc'hoansi call them the \"Copper Bracelet of the Evening\", and the archive says that for the residents the hills are a sacred place inhabited by the spirits of the ancestors.",
+              "cite": [
+                "bm-rockart-tsodilo"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The communities, including the Hambukushu and the San, for whom the hills are sacred: their own accounts are not in the article read here.",
     "Archaeology: the settlement record the article calls 'unique' is not described in the part read here.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That is the museum's account; residents' and the Juc'hoansi's own accounts of the hills are only mentioned there, not given."
   ],
   "coords": {
     "lat": -18.75,

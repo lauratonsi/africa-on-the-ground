@@ -92,12 +92,57 @@
           ]
         }
       ]
+    },
+    {
+      "id": "names",
+      "title": "Names, and a first-hand account",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The David Livingstone Birthplace Trust gives the falls as 108 metres high, twice the height of Niagara, and says the spray can be seen from 18 miles away.",
+              "cite": [
+                "livingstone-trust-smoke-that-thunders"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": " It records an older name, Shongwe, and the name given by the Makololo, Mosi-oa-tunya, \"the smoke that thunders\". Livingstone, who reached the falls on 16 November 1855, wrote that he used the same liberty as the Makololo in naming them after Queen Victoria.",
+              "cite": [
+                "livingstone-trust-smoke-that-thunders"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "He travelled with an expedition led by Sekeletu, the new Makololo chief, of about 200 men, and reached an island at the edge of the falls by canoe with men who knew the rapids. He cut his initials into a tree and planted peach seeds, and found the saplings eaten by hippopotamuses on his return in 1860.",
+              "cite": [
+                "livingstone-trust-smoke-that-thunders"
+              ]
+            },
+            {
+              "text": " He wrote that it was a hopeless task to convey an idea of the falls in words.",
+              "cite": [
+                "livingstone-trust-smoke-that-thunders"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Lozi, Tonga and other local names and stories, beyond the names given in the article.",
     "Tourism, river flow and the effects of drought on the falls, which the part read here only mentions.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The account in \"Names, and a first-hand account\" is told through Livingstone's own writing by a trust devoted to him: Lozi, Tonga and other local names and stories are not covered beyond the two names given there."
   ],
   "coords": {
     "lat": -17.92453,

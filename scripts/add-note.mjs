@@ -8,6 +8,8 @@
 //          --date AAAA-MM-GG (data del consenso, default oggi)   --anonymous (toglie il nome)
 //          --reviewed "Nome" (facoltativo: se la nota è già stata letta da una persona del posto)
 //
+// Il messaggio dice a cosa si riferisce con una riga "place: <slug>", "story: <slug>" o "country: <ISO3>", e può avere righe
+// "field.<id>: valore" con le risposte specifiche. Le note vanno in content/notes/<slug>.json, story-<slug>.json o country-<ISO3>.json.
 // Il messaggio deve contenere il blocco "[AOTG-NOTE v1]" che scrive il modulo. Le regole sono quelle di `npm run check`:
 // nessuna email o telefono, tipo e legame previsti da site.config.json, consenso presente.
 import fs from "node:fs";
@@ -40,7 +42,7 @@ function parse(raw) {
   const fields = {};
   let i = start + 1;
   for (; i < lines.length && lines[i].trim() !== "---"; i++) {
-    const m = lines[i].match(/^([a-z]+):\s*(.*)$/);
+    const m = lines[i].match(/^([a-z][a-z.-]*):\s*(.*)$/);
     if (m) fields[m[1]] = m[2].trim();
   }
   if (i >= lines.length) fail('manca la riga "---" prima del testo.');
@@ -54,16 +56,33 @@ const today = new Date().toISOString().slice(0, 10);
 const { fields, text } = parse(await readInput());
 
 const data = loadAll();
-const slug = fields.place;
-if (!slug || !data.places.some((p) => p.data.slug === slug)) fail(`il luogo "${slug}" non esiste in content/places.`);
+// a cosa si riferisce il messaggio, e dove vive il file delle note
+let key, kinds, label, sensitive = false;
+if (fields.place) {
+  const pl = data.places.find((p) => p.data.slug === fields.place);
+  if (!pl) fail(`il luogo "${fields.place}" non esiste in content/places.`);
+  key = pl.data.slug; kinds = data.config.noteKinds; label = pl.data.name; sensitive = !!pl.data.sensitive;
+} else if (fields.story) {
+  const st = (data.stories || []).find((x) => x.data.slug === fields.story);
+  if (!st) fail(`la storia "${fields.story}" non esiste in content/stories.`);
+  key = `story-${st.data.slug}`; kinds = (data.config.storyNoteKinds || {})[st.data.kind] || []; label = st.data.title;
+} else if (fields.country) {
+  const c = ((data.countries || {}).countries || []).find((x) => x.iso3 === fields.country);
+  if (!c) fail(`il paese "${fields.country}" non è tra i 54 stati.`);
+  key = `country-${c.iso3}`; kinds = data.config.countryNoteKinds || []; label = c.name;
+} else fail('il messaggio non dice a cosa si riferisce: serve una riga "place:", "story:" o "country:".');
+const slug = key;
 if (fields.consent !== "yes") fail('il messaggio non dice "consent: yes". Senza consenso la nota non si pubblica.');
+const kindDef = kinds.find((k) => k.id === fields.kind);
+if (!kindDef) fail(`il tipo "${fields.kind}" non è previsto per ${label}.`);
+const answers = {};
+for (const [k, v] of Object.entries(fields)) if (k.startsWith("field.")) answers[k.slice(6)] = v;
 
 if (fields.kind === "fix") {
-  console.log(`\nQuesta è una correzione al racconto documentato, non una voce: non si pubblica come nota.\nControlla la segnalazione, cerca una fonte e, se regge, correggi la scheda content/places/${slug}.json citandola.\nTesto ricevuto:\n\n${text}\n`);
+  console.log(`\nQuesta è una correzione, non una voce: non si pubblica come nota.\nControlla la segnalazione per "${label}", cerca una fonte e, se regge, correggi il contenuto.\n\nRisposte date: ${JSON.stringify(answers)}\nTesto:\n${text}\n`);
   process.exit(0);
 }
 const how = opt("how", "message");
-const placeData = data.places.find((p) => p.data.slug === slug).data;
 const reviewer = opt("reviewed");
 
 const entry = {
@@ -73,6 +92,7 @@ const entry = {
   ...(fields.name && !flag("anonymous") ? { name: fields.name } : {}),
   ...(fields.relation ? { relation: fields.relation } : {}),
   ...(fields.lang ? { lang: fields.lang } : {}),
+  ...(Object.keys(answers).length ? { fields: answers } : {}),
   consent: { given: true, date: opt("date", today), how },
   added: today,
   ...(reviewer ? { review: { by: reviewer, date: today } } : {})
@@ -81,7 +101,7 @@ const entry = {
 const file = path.join(root, "content", "notes", `${slug}.json`);
 const list = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : [];
 const nums = list.map((n) => Number((String(n.id).match(/-(\d+)$/) || [])[1] || 0));
-entry.id = `${slug}-${String(Math.max(0, ...nums) + 1).padStart(3, "0")}`;
+entry.id = `${slug.toLowerCase()}-${String(Math.max(0, ...nums) + 1).padStart(3, "0")}`;
 
 // stesse regole di `npm run check`, applicate alla lista con la nota in più
 const checkEntry = entry;
@@ -89,8 +109,8 @@ const result = validate({ ...data, notes: { ...data.notes, [slug]: [...list, che
 const mine = result.errors.filter((e) => e.includes(`notes/${slug}.json`) && e.includes(entry.id));
 if (mine.length) fail(`la nota non passa i controlli:\n  - ${mine.join("\n  - ")}`);
 
-if (placeData.sensitive) console.log(`\nAttenzione: "${placeData.name}" è un luogo delicato. La nota si pubblica come le altre, ma rileggila con particolare cura e fissa la lettura successiva di una persona del posto (npm run review-note).`);
-console.log("\nNota pronta per", slug, ":\n");
+if (sensitive) console.log(`\nAttenzione: "${label}" è un luogo delicato. La nota si pubblica come le altre, ma rileggila con particolare cura e fissa la lettura successiva di una persona del posto (npm run review-note).`);
+console.log("\nNota pronta per", label, `(${slug}):\n`);
 console.log(JSON.stringify(entry, null, 2));
 if (!flag("write")) {
   console.log("\nNon ho modificato nulla. Aggiungi --write per salvarla in", path.relative(root, file));

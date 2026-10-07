@@ -1,0 +1,168 @@
+{
+ "slug": "jollof-rice-a-dish-a-map-and-a-friendly-war",
+ "status": "published",
+ "kind": "food",
+ "title": "Jollof rice: a dish, a map and a friendly war",
+ "subtitle": "Rice cooked in tomato and spices, claimed by half of West Africa. Where does it really come from?",
+ "countries": [
+  "SEN",
+  "GMB",
+  "GHA",
+  "NGA"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "pot",
+   "title": "One pot",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Jollof is a rice dish from Senegal, typically made with long-grain rice, tomatoes, chilis, onions and spices, sometimes with other vegetables or meat, in a single pot. Ingredients and methods vary from region to region.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "It is one of the most common dishes in West Africa and the best known African dish outside the continent.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "origin",
+   "title": "Where it began: three accounts",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The food historian Fran Osseo-Asare traces it to the area of the Jolof or Wolof Empire, where rice was grown. The original dish, thieboudienne, has rice, fish, shellfish and vegetables, and the fishing communities of Saint-Louis are considered its birthplace.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The agricultural historian James McCann doubts that it simply spread from Senegal, and proposes that it travelled with the Mali empire's Djula traders, who carried rice farming and other skills across the region.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The agronomist Marc Dufumier suggests a much more recent origin: colonial peanut farming in Senegal cut the millet and sorghum crops, which were replaced with imported broken rice from Southeast Asia, and cooks had to learn it.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "One clue favours a recent date: the tomatoes, peppers, curry powder and Asian rice varieties in the modern dish suggest it is no older than the nineteenth century.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      },
+      {
+       "text": " In Senegal, oral history credits a cook in Saint-Louis, Penda Mbaye, with creating it when she ran out of barley and used rice instead.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "name",
+   "title": "A name that travelled",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The name jollof comes from the Wolof people. In Wolof the dish is called ceebu jën or benachin in Senegal, Mauritania and The Gambia, in French-speaking areas riz au gras, and in Mali zaamè.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Despite the variations the dish is mutually intelligible across the regions.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wars",
+   "title": "The jollof wars",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Ghana, Nigeria, Sierra Leone, Liberia and Cameroon are all keen to claim the best jollof.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      },
+      {
+       "text": " In the mid-2010s the rivalry, strongest between Nigeria and Ghana, grew into the friendly “Jollof Wars”, with cooking competitions and social media campaigns.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Senegalese version, thieboudienne, has been recognised by UNESCO as intangible cultural heritage.",
+       "cite": [
+        "wikipedia-jollof-rice"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The three explanations of the origin are historians' arguments, not settled fact. No documentary proof dates the first jollof.",
+  "Oral history credits Penda Mbaye, but we have found no written record that confirms it.",
+  "The UNESCO recognition is as the encyclopedia states it and has not yet been checked against UNESCO's list.",
+  "No recipes here, and nothing yet from cooks in the countries involved about how they make and name it."
+ ]
+}

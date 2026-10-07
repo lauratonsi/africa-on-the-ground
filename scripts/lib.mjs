@@ -30,9 +30,13 @@ export function loadAll() {
   }
   const methodPath = path.join(root, "content", "pages", "method.html");
   const methodHtml = fs.existsSync(methodPath) ? fs.readFileSync(methodPath, "utf8") : "";
+  const storiesDir = path.join(root, "content", "stories");
+  const stories = fs.existsSync(storiesDir)
+    ? fs.readdirSync(storiesDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(storiesDir, f)) }))
+    : [];
   const countriesPath = path.join(root, "content", "data", "africa-countries.json");
   const countries = fs.existsSync(countriesPath) ? readJson(countriesPath) : null;
-  return { config, sourcesList, places, notes, methodHtml, countries };
+  return { config, sourcesList, places, notes, methodHtml, countries, stories };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -41,7 +45,7 @@ const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 
-export function validate({ config, sourcesList, places, notes, methodHtml, countries }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [] }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -62,7 +66,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     subIds.add(r.id);
   }
   // canali con cui chi scrive può inviare una nota: il modulo prepara il messaggio, non lo spedisce
-  const CHANNEL_TYPES = ["whatsapp", "email", "link"];
+  const CHANNEL_TYPES = ["whatsapp", "email", "link", "github"];
   let channelsFilled = 0;
   for (const ch of config.channels || []) {
     const w = `site.config.json: channels "${ch.id}"`;
@@ -71,6 +75,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     channelsFilled++;
     if (ch.type === "whatsapp" && !/^\d{7,15}$/.test(ch.value)) err(`${w}: il numero va scritto solo con cifre, con il prefisso internazionale e senza + (per esempio 2207001234).`);
     if (ch.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(ch.value)) err(`${w}: indirizzo email non valido.`);
+    if (ch.type === "github" && !/^[\w.-]+\/[\w.-]+$/.test(ch.value)) err(`${w}: il valore deve essere "proprietario/repository", per esempio lauratonsi/africa-on-the-ground.`);
     if (ch.type === "link" && !/^https:\/\//.test(ch.value)) err(`${w}: il link deve iniziare con https://.`);
   }
   if (!channelsFilled) warn('site.config.json: nessun canale in "channels" ha un valore. Il modulo per le note potrà solo copiare il messaggio.');
@@ -188,6 +193,48 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     }));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
   }
+  // --- storie (storia, miti, cucina): stessa regola delle schede, ogni frase con la sua fonte
+  const storyKinds = new Set((config.storyKinds || []).map((k) => k.id));
+  const storySlugs = new Set();
+  for (const { file, data: st } of stories) {
+    const w = `stories/${file}`;
+    if (!st.slug || !SLUG.test(st.slug)) err(`${w}: slug mancante o non valido.`);
+    else if (`${st.slug}.json` !== file) err(`${w}: lo slug "${st.slug}" deve coincidere con il nome del file.`);
+    if (storySlugs.has(st.slug)) err(`${w}: slug duplicato.`);
+    storySlugs.add(st.slug);
+    if (!["draft", "published"].includes(st.status)) err(`${w}: status deve essere "draft" o "published".`);
+    if (!storyKinds.has(st.kind)) err(`${w}: kind "${st.kind}" non previsto in site.config.json (storyKinds).`);
+    for (const k of ["title", "subtitle"]) if (!st[k]) err(`${w}: manca "${k}".`);
+    for (const code of st.countries || []) if (!/^[A-Z]{3}$/.test(code) || (countries && !(countries.countries || []).some((c) => c.iso3 === code))) err(`${w}: country "${code}" non è tra i 54 stati.`);
+    for (const slug of st.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    if (!Array.isArray(st.sections) || !st.sections.length) err(`${w}: serve almeno una sezione.`);
+    const seen = new Set();
+    (st.sections || []).forEach((sec, si) => {
+      const sw = `${w}: sections[${si}]`;
+      if (!sec.id || !sec.title) err(`${sw}: manca id o title.`);
+      if (seen.has(sec.id)) err(`${sw}: id "${sec.id}" duplicato.`);
+      seen.add(sec.id);
+      (sec.blocks || []).forEach((b, bi) => {
+        const bw = `${sw}.blocks[${bi}]`;
+        if (b.type === "p") {
+          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+          (b.parts || []).forEach((part, pi) => {
+            if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`);
+            if (part.editorial === true) return;
+            checkCite(part.cite, `${bw}.parts[${pi}]`);
+          });
+        } else if (b.type === "timeline") {
+          if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
+          (b.items || []).forEach((it, ii) => { if (!it.when || !it.text) err(`${bw}.items[${ii}]: manca when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline).`);
+      });
+    });
+    if (!Array.isArray(st.gaps) || !st.gaps.length) err(`${w}: "gaps" (ciò che non si sa) deve avere almeno una voce.`);
+    const weak = new Set();
+    const collect = (cite) => (cite || []).forEach((id) => { const s2 = sources.get(id); if (s2 && s2.status !== "verified") weak.add(id); });
+    (st.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collect(x.cite)); (b.items || []).forEach((x) => collect(x.cite)); }));
+    if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
+  }
   // --- dati dei paesi
   if (countries) {
     const w = "data/africa-countries.json";
@@ -213,7 +260,13 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
   // --- note dei locali
   for (const [slug, list] of Object.entries(notes)) {
     const w = `notes/${slug}.json`;
-    if (!placeSlugs.has(slug)) err(`${w}: non esiste un luogo con slug "${slug}".`);
+    // il nome del file dice a cosa si riferisce: <luogo>, story-<storia> o country-<ISO3>
+    let kindList = null;
+    if (placeSlugs.has(slug)) kindList = config.noteKinds || [];
+    else if (slug.startsWith("story-") && stories.some((x) => `story-${x.data.slug}` === slug)) kindList = (config.storyNoteKinds || {})[stories.find((x) => `story-${x.data.slug}` === slug).data.kind] || [];
+    else if (/^country-[A-Z]{3}$/.test(slug) && countries && (countries.countries || []).some((c) => `country-${c.iso3}` === slug)) kindList = config.countryNoteKinds || [];
+    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>) o a un paese (country-<ISO3>).`);
+    const kindsHere = new Map((kindList || []).map((k) => [k.id, k]));
     if (!Array.isArray(list)) { err(`${w}: deve contenere una lista.`); continue; }
     const ids = new Set();
     list.forEach((n, i) => {
@@ -221,7 +274,18 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       if (!n.id || !SLUG.test(n.id)) err(`${nw}: id mancante o non valido.`);
       if (ids.has(n.id)) err(`${nw}: id duplicato.`);
       ids.add(n.id);
-      if (!kindIds.has(n.kind)) err(`${nw}: kind "${n.kind}" non previsto.`);
+      if (!kindsHere.has(n.kind)) err(`${nw}: kind "${n.kind}" non previsto per questo contenuto.`);
+      if (n.fields != null) {
+        const defs = new Map(((kindsHere.get(n.kind) || {}).fields || []).map((f) => [f.id, f]));
+        if (typeof n.fields !== "object" || Array.isArray(n.fields)) err(`${nw}: fields deve essere un oggetto.`);
+        else for (const [fk, fv] of Object.entries(n.fields)) {
+          const def = defs.get(fk);
+          if (!def) { err(`${nw}: il campo "${fk}" non è previsto per il tipo "${n.kind}".`); continue; }
+          if (typeof fv !== "string" || fv.length > (def.max || 300)) { err(`${nw}: il campo "${fk}" deve essere un testo di al massimo ${def.max || 300} caratteri.`); continue; }
+          if (def.type === "select" && !def.options.some((o) => o.id === fv)) err(`${nw}: il campo "${fk}" ha un valore non previsto: "${fv}".`);
+          if (EMAIL.test(fv) || PHONE.test(fv)) err(`${nw}: il campo "${fk}" sembra contenere un indirizzo email o un numero di telefono.`);
+        }
+      }
       if (n.kind === "fix") err(`${nw}: le correzioni al racconto documentato non si pubblicano come voci. Usale per correggere la scheda, con una fonte.`);
       // La revisione di una persona del posto avviene dopo la pubblicazione e si registra quando c'è (review.by, review.date).
       if (n.review != null && (typeof n.review.by !== "string" || !n.review.by.trim() || !DATE.test(n.review.date || ""))) err(`${nw}: review, se presente, ha bisogno di by e date (AAAA-MM-GG).`);

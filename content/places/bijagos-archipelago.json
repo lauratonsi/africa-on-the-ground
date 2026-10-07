@@ -85,12 +85,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "threat",
+      "title": "The islands and the sea, as reported in 2025",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in December 2025 that the archipelago has 88 islands and islets, about 20 of them permanently inhabited, over more than 10,000 square kilometres, with nearly 25,000 inhabitants. The island of Bubaque has nearly 5,000.",
+              "cite": [
+                "france24-bijagos-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The World Heritage site hosts colonies of sea turtles, hippos, sharks, manatees and nearly 850,000 migratory birds, as well as several sacred sites and artisanal fisheries.",
+              "cite": [
+                "france24-bijagos-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An official said the islands lose up to 2 metres of beach a year, while a government report says the coastline retreats up to seven metres a year. Residents spoke of a sea that was once far away, and UNESCO warned of a strong likelihood that climate change would bring erosion and changes in sea level.",
+              "cite": [
+                "france24-bijagos-2025"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The Bijagó people: their society, sacred sites and what they themselves say about protection of the islands. The article read here does not cover them.",
     "What the 2025 World Heritage listing changed for the islands.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The erosion figures differ between an official (up to 2 metres) and a government report (up to seven): neither has been checked here. The islanders' own accounts of the sacred sites and their life are mostly not covered by that report."
   ],
   "coords": {
     "lat": 11.12,

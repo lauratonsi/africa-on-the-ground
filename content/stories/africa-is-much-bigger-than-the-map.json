@@ -1,0 +1,158 @@
+{
+ "slug": "africa-is-much-bigger-than-the-map",
+ "status": "published",
+ "kind": "myth",
+ "title": "Africa is much bigger than the map says",
+ "subtitle": "On the world map most of us grew up with, Africa looks about the size of Greenland. It is fourteen times larger.",
+ "countries": [
+  "COD"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The standard world map of the last few centuries, the Mercator projection, was first presented by the Flemish mapmaker Gerardus Mercator in 1569. In the eighteenth century it became the standard map for navigation, because a ship holding a steady compass bearing draws a straight line on it.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trick",
+   "title": "What the map does",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "To make that work, the projection inflates land the farther it lies from the equator.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      },
+      {
+       "text": " So the closer a place is to the poles, the larger it looks.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The numbers are striking. Greenland looks as big as Africa on the map, while Africa's real area is 14 times larger.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      },
+      {
+       "text": " Greenland's real area is comparable to that of the Democratic Republic of the Congo alone.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      },
+      {
+       "text": " Africa looks roughly the size of South America, but is more than one and a half times as large.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "For Greenland, at a median latitude of 73°, the map stretches areas by a factor of about 11.7.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "real",
+   "title": "How big is Africa?",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Adding up the World Bank's land areas for the 54 countries gives about 30.1 million square kilometres. The sum is calculated here.",
+       "cite": [
+        "wb-area"
+       ]
+      },
+      {
+       "text": " The Democratic Republic of the Congo alone covers about 2.3 million of them.",
+       "cite": [
+        "wb-area"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "title": "Does it matter?",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Critics have long held that the Mercator map is unsuitable for general world maps, and it has been conjectured that, by showing countries near the equator as too small beside Europe and North America, it makes people think of them as less important.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      },
+      {
+       "text": " That is a guess about how people read maps. This page has not tested it.",
+       "editorial": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Mercator himself used an equal-area projection, the sinusoidal, when he wanted to show relative sizes, and atlases largely stopped using his projection for world maps in the 1940s.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In 2025 the African Union supported a campaign for the Equal Earth projection in place of Mercator's. It was led by Togo, whose foreign minister, Robert Dussey, called it a scientific discussion, not a political one.",
+       "cite": [
+        "wikipedia-mercator-projection"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Whether the Mercator map changes how people judge the importance of places is a conjecture in the source, not a measured result. We have no study to cite.",
+  "The comparisons come from one encyclopedia article. An atlas or a cartography text should be added for the numbers.",
+  "The area figures count land area as the World Bank reports it: lakes and inland waters are treated differently from country to country."
+ ]
+}

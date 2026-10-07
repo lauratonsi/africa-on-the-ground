@@ -85,12 +85,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "restore",
+      "title": "Restoring the Casbah, as reported in 2022",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France 24 reported in July 2022 that the Casbah, a densely populated UNESCO-listed district about a kilometre across, has some buildings weakened by earthquakes, floods and fires that are still propped up with scaffolding. More than 300 buildings were shored up in 2008 and 2013.",
+              "cite": [
+                "france24-casbah-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A restoration plan launched in 2012 has a budget of 170 million euros. Part of the citadel, with the Dey's palace, mosque and ammunition store, has been partly open to visitors since November 2020, and the Ketchaoua mosque, closed since 2008, reopened in April 2018 after 37 months of work funded entirely by the Turkish government.",
+              "cite": [
+                "france24-casbah-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Seven restoration projects were under way. The report says residents are sometimes a difficulty, because access for architects and work crews can be refused, and that a cluster of four houses serves as a refuge for independence figures including Djamila Bouhired.",
+              "cite": [
+                "france24-casbah-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "The residents' account of living in the Casbah today and of its condition, which the part of the article read here only mentions.",
     "Algerian historians on the Regency and on the Battle of Algiers.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "Residents' own account of living in the Casbah and of the restoration: the 2022 report mentions them only as an obstacle, which is one side of the story."
   ],
   "coords": {
     "lat": 36.78333,

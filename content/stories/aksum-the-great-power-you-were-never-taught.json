@@ -1,0 +1,173 @@
+{
+ "slug": "aksum-the-great-power-you-were-never-taught",
+ "status": "published",
+ "kind": "history",
+ "title": "Aksum: the great power you were never taught",
+ "subtitle": "Seventeen centuries ago a kingdom in the Horn of Africa minted its own coins, wrote in its own script and sat on the trade route between Rome and India.",
+ "countries": [
+  "ERI",
+  "ETH"
+ ],
+ "places": [
+  "rock-hewn-churches-of-lalibela"
+ ],
+ "sections": [
+  {
+   "id": "power",
+   "title": "One of four great powers",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Kingdom of Aksum was based in what is now Eritrea and northern Ethiopia, with its capital at the city of Axum, and it reached across the Red Sea into southern Arabia. It was founded in the first century.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In the third century Mani, the founder of Manichaeism, counted it among the four great powers of the world, alongside Persia, Rome and China.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade",
+   "title": "Coins, ships and a trade route",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Aksum stood on the trade route between Rome and India and gained a monopoly of Indian Ocean trade.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Under King Endybis, between 270 and 310, it began to mint its own coins. They have been dug up as far away as Caesarea and southern India.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "script",
+   "title": "A script, a stone and a new faith",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Aksumites developed their own script, Ge'ez, which was later changed to mark vowels and became an abugida.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "They also raised giant obelisks to mark the tombs of emperors and nobles. The best known is the Obelisk of Aksum.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Under King Ezana the kingdom adopted Christianity as its state religion in the mid-fourth century, around 325 by one count. After that the Aksumites stopped building the steles.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Three inscriptions on the Ezana Stone record the king's conversion and two military campaigns, one inscribed in Greek and the other in Ge'ez.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fall",
+   "title": "Its widest reach, and its slow end",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Aksum reached its greatest extent under Kaleb (514–542), about 2.5 million square kilometres, after he invaded the kingdom of Himyar in Yemen at the request of the Byzantine emperor. The territory was later lost in wars with Persia.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The decline began in the seventh century, when the kingdom stopped minting currency. A Persian and later Muslim presence in the Red Sea and the weakening of Rome, a main trade partner, hurt its economy, and the population of the city shrank.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The last three centuries are considered a dark age, and the kingdom collapsed under uncertain circumstances around 960.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      },
+      {
+       "text": " Afterwards, despite its place among the foremost empires of late antiquity, Aksum fell into obscurity as Ethiopia stayed isolated through the Late Middle Ages.",
+       "cite": [
+        "wikipedia-kingdom-of-aksum"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The dates for the conversion of Ezana and for the first Aksumite coins are given as ranges: scholars do not agree on exact years.",
+  "Why Aksum declined is still debated: trade, environment and internal causes are all suggested, and no single cause is established.",
+  "The source is an encyclopedia article. A specialist history of Aksum (for instance Munro-Hay) and the excavation reports should replace it.",
+  "Nothing here yet from Ethiopian and Eritrean historians or from the churches that carry the Ge'ez tradition today."
+ ]
+}

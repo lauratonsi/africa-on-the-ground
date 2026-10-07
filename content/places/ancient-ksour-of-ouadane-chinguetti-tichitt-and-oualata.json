@@ -72,13 +72,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sand",
+      "title": "Chinguetti and the sand, as reported in 2025",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Associated Press reported in February 2025 that Chinguetti, a trans-Saharan trading post and one of four UNESCO World Heritage sites in Mauritania, has long drawn poets, scholars and theologians, and holds more than a dozen libraries with thousands of manuscripts, among them some of West Africa's oldest Quranic texts.",
+              "cite": [
+                "ap-chinguetti-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ancient core dates to the 8th century. Shifting sands have long covered it and are now pushing into the neighbourhoods at the town's edge. A retired teacher said Chinguetti had received an annual average of 2.5 centimetres of rain over the past decade, and a date farmer said that if she left, her place would disappear.",
+              "cite": [
+                "ap-chinguetti-2025"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The libraries of Chinguetti and Ouadane, which are famous but not covered by the article read here.",
     "The state of conservation now and what the residents do about the sand.",
     "A photograph under an open licence (the Chinguetti mosque photograph on Commons does not name its author).",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That report is about Chinguetti alone: Ouadane, Tichitt and Oualata, and the families who keep the manuscripts, are not covered by it."
   ],
   "coords": {
     "lat": 20.92889,

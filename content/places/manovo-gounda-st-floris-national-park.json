@@ -86,12 +86,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "recovery",
+      "title": "Abandonment and recovery, as reported in 2024",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 2024 commentary on Mongabay by conservation researchers describes the park as the largest in the Central African savannas, covering 17,400 square kilometres, listed in 1988 and added to the danger list in 1997.",
+              "cite": [
+                "mongabay-manovo-gounda-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After the park was abandoned between 2012 and 2018 amid political instability, they write, elephants, lions, hippos and giraffes were no longer seen by 2017. In 2018 the Wildlife Conservation Society signed an agreement with the government to manage it for 25 years, renewable.",
+              "cite": [
+                "mongabay-manovo-gounda-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "They report 44 trained rangers, 44 \"tango guards\" drawn from herding communities and 32 ecological monitors, and say illegal transhumance fell to less than 3% of its initial value. The park was named among 11 new Biosphere Reserves in 2023.",
+              "cite": [
+                "mongabay-manovo-gounda-2024"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "The state of the wildlife today and of the park's protection. The article read here lists species without saying how many remain.",
     "Who manages the park and the effect of the conflict in the region, which the part of the article read here does not reach.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "That commentary is by researchers connected to the park's management: its figures are not independently checked, and the communities' and herders' own accounts of the rules are not heard."
   ],
   "coords": {
     "lat": 9,

@@ -78,12 +78,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "depot",
+      "title": "The depot, as the site's managers describe it",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Aapravasi Ghat Trust Fund describes the site, in the bay of Trou Fanfaron in Port Louis, as a former immigration depot where indentured immigrants were received and registered between 1849 and 1910, tens of thousands of labourers from India, La Réunion and East Africa, mostly for the sugar estates.",
+              "cite": [
+                "aapravasi-ghat-trust-arts-culture"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Immigrants stayed two to three days. Sixteen stone steps mark the arrival point, and a basalt building of 1849 housed the Office of the Protector of Immigrants. The hospital block is the only complete surviving stone structure, and after 1864 the railway was routed through the depot.",
+              "cite": [
+                "aapravasi-ghat-trust-arts-culture"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In August 1910 the steamship Surada carried more than 200 Indian indentured workers, the last of the system. The site was restored between 2004 and 2010, an interpretation centre opened in 2014, and only about 25% of the original site survives.",
+              "cite": [
+                "aapravasi-ghat-trust-arts-culture"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
     "Indian and Mauritian accounts of the Depot: the article read here gives the institutional history only.",
     "How the labour system compared with slavery, which the article does not discuss.",
-    "Local voices: none yet."
+    "Local voices: none yet.",
+    "The depot's dates differ between sources: the Trust gives 1849 to 1910, while other accounts extend the period; the figures are not reconciled here. The descendants' own accounts are not included, and the Trust is the site's manager, not an independent observer."
   ],
   "coords": {
     "lat": -20.1586388889,
