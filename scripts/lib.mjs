@@ -46,7 +46,9 @@ export function loadAll() {
   if (quiz && fs.existsSync(phrasesPath)) quiz.phrases = readJson(phrasesPath).phrases;
   const duoPath = path.join(root, "content", "data", "duolingo.json");
   const duolingo = fs.existsSync(duoPath) ? readJson(duoPath) : null;
-  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo };
+  const proposedDishesPath = path.join(root, "content", "data", "proposed-dishes.json");
+  const proposedDishes = fs.existsSync(proposedDishesPath) ? readJson(proposedDishesPath) : null;
+  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -55,7 +57,7 @@ const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 
-export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -244,6 +246,20 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     const collect = (cite) => (cite || []).forEach((id) => { const s2 = sources.get(id); if (s2 && s2.status !== "verified") weak.add(id); });
     (st.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collect(x.cite)); (b.items || []).forEach((x) => collect(x.cite)); }));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
+  }
+  // --- registro dei piatti: collega le proposte alle schede senza imporre che siano già tutte scritte
+  if (proposedDishes && proposedDishes.dishes) {
+    const dishPlaces = places.filter(({ data: p }) => p.type === "dish");
+    const placesByCountry = new Map(dishPlaces.map(({ data: p }) => [p.country, p]));
+    const done = new Set(proposedDishes.status?.done || []);
+    for (const { file, data: p } of dishPlaces) {
+      const proposal = proposedDishes.dishes[p.country];
+      if (!proposal) warn(`places/${file}: il piatto non compare in proposed-dishes.json.`);
+      if (proposal && done.has(p.country) && p.status !== "published") warn(`places/${file}: la proposta è segnata done ma la scheda non è published.`);
+    }
+    for (const country of done) {
+      if (!placesByCountry.has(country)) warn(`proposed-dishes.json: ${country} è done ma non ha ancora una scheda dish.`);
+    }
   }
   // --- dati dei paesi
   if (countries) {

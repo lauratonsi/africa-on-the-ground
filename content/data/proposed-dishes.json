@@ -1,305 +1,354 @@
 {
- "note": "Un piatto proposto per ogni paese. È una proposta di lavoro, non un'affermazione: nessun piatto è dichiarato 'nazionale' finché una fonte seria non lo dice. La scelta va confermata caso per caso prima di ricercare la scheda; dove la fiducia è bassa, il nome stesso va verificato.",
- "criteria": [
-  "Un piatto noto e documentato in almeno una fonte non enciclopedica.",
-  "Un piatto diverso per ogni paese: dove due paesi condividono un piatto (moambe, couscous, ugali, nsima) si sceglie un'alternativa o si fa una scheda unica.",
-  "Dove una storia esiste già (injera, jollof, manioca) la scheda la richiama e non la ripete.",
-  "Nessuna scheda dice che un piatto è 'nazionale' senza una fonte che lo dica: i giornali lo ripetono spesso e sbagliano."
- ],
- "retrieved": "2026-10-08",
- "status": {
-  "done": [
-   "EGY",
-   "SEN",
-   "CPV",
-   "BWA"
+  "note": "Un piatto proposto per ogni paese. È una proposta di lavoro, non un'affermazione: nessun piatto è dichiarato 'nazionale' finché una fonte seria non lo dice. La scelta va confermata caso per caso prima di ricercare la scheda; dove la fiducia è bassa, il nome stesso va verificato.",
+  "criteria": [
+    "Un piatto noto e documentato in almeno una fonte non enciclopedica.",
+    "Un piatto diverso per ogni paese: dove due paesi condividono un piatto (moambe, couscous, ugali, nsima) si sceglie un'alternativa o si fa una scheda unica.",
+    "Dove una storia esiste già (injera, jollof, manioca) la scheda la richiama e non la ripete.",
+    "Nessuna scheda dice che un piatto è 'nazionale' senza una fonte che lo dica: i giornali lo ripetono spesso e sbagliano."
   ],
-  "draft": [
-   "GMB"
-  ]
- },
- "dishes": {
-  "DZA": {
-   "dish": "Chakhchoukha",
-   "note": "couscous is the better known; kept for the shared couscous story",
-   "confidence": "medium"
+  "retrieved": "2026-10-08",
+  "status": {
+    "done": [
+      "EGY",
+      "SEN",
+      "CPV",
+      "BWA"
+    ],
+    "draft": [
+      "DZA",
+      "AGO",
+      "BEN",
+      "BFA",
+      "BDI",
+      "CMR",
+      "CAF",
+      "TCD",
+      "COM",
+      "COG",
+      "CIV",
+      "DJI",
+      "COD",
+      "GNQ",
+      "ERI",
+      "SWZ",
+      "ETH",
+      "GAB",
+      "GMB",
+      "GHA",
+      "GIN",
+      "GNB",
+      "KEN",
+      "LSO",
+      "LBR",
+      "LBY",
+      "MDG",
+      "MWI",
+      "MLI",
+      "MRT",
+      "MUS",
+      "MAR",
+      "MOZ",
+      "NAM",
+      "NER",
+      "NGA",
+      "RWA",
+      "STP",
+      "SYC",
+      "SLE",
+      "SOM",
+      "ZAF",
+      "SSD",
+      "SDN",
+      "TZA",
+      "TGO",
+      "TUN",
+      "UGA",
+      "ZMB",
+      "ZWE"
+    ]
   },
-  "AGO": {
-   "dish": "Muamba de galinha",
-   "note": "",
-   "confidence": "high"
-  },
-  "BEN": {
-   "dish": "Amiwo",
-   "note": "pâte rouge; another option is wagashi (cheese)",
-   "confidence": "medium"
-  },
-  "BWA": {
-   "dish": "Seswaa",
-   "note": "",
-   "confidence": "high",
-   "status": "done"
-  },
-  "BFA": {
-   "dish": "Tô",
-   "note": "with a leaf or okra sauce",
-   "confidence": "high"
-  },
-  "BDI": {
-   "dish": "Ibiharage",
-   "note": "Red kidney beans stewed with onion and chilli; sources agree beans are the everyday staple (about once a day per person, according to a travel guide). Confirmed as a dish; not to be called 'the' national dish.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "CPV": {
-   "dish": "Cachupa",
-   "note": "",
-   "confidence": "high",
-   "status": "done"
-  },
-  "CMR": {
-   "dish": "Ndolé",
-   "note": "",
-   "confidence": "high"
-  },
-  "CAF": {
-   "dish": "Gozo with kanda ti nyama",
-   "note": "Cassava porridge (gozo) with a long-simmered stew of cassava leaves, smoked fish or meat and palm oil (kanda). Confirmed as an everyday plate in several food sources.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "TCD": {
-   "dish": "Daraba",
-   "note": "okra stew",
-   "confidence": "medium"
-  },
-  "COM": {
-   "dish": "Pilao",
-   "note": "another option is langouste à la vanille",
-   "confidence": "medium"
-  },
-  "COG": {
-   "dish": "Poulet à la moambe",
-   "note": "shared with Gabon and DR Congo: choose a different dish if the three cards would repeat",
-   "confidence": "medium"
-  },
-  "CIV": {
-   "dish": "Attiéké",
-   "note": "with fish; on UNESCO's intangible heritage list (to verify in a source)",
-   "confidence": "high"
-  },
-  "DJI": {
-   "dish": "Skoudehkaris",
-   "note": "",
-   "confidence": "medium"
-  },
-  "COD": {
-   "dish": "Pondu",
-   "note": "cassava leaves; moambe is shared with Congo",
-   "confidence": "medium"
-  },
-  "EGY": {
-   "dish": "Koshari",
-   "note": "DONE: koshari-egypt",
-   "confidence": "high",
-   "status": "done"
-  },
-  "GNQ": {
-   "dish": "Pepesup (pepper soup)",
-   "note": "Replaces 'succotash', which no source supported. Spicy fish soup named as the signature dish by several food sources; confirm in the card.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "ERI": {
-   "dish": "Zigni",
-   "note": "spiced stew eaten with injera; shared with Ethiopia",
-   "confidence": "medium"
-  },
-  "SWZ": {
-   "dish": "Sishwala",
-   "note": "maize porridge with meat or vegetables",
-   "confidence": "medium"
-  },
-  "ETH": {
-   "dish": "Doro wat",
-   "note": "injera already has its own story",
-   "confidence": "high"
-  },
-  "GAB": {
-   "dish": "Poulet nyembwe",
-   "note": "",
-   "confidence": "high"
-  },
-  "GMB": {
-   "dish": "Domoda",
-   "note": "a draft card already exists (domoda); do not call it the national dish without a good source",
-   "confidence": "high",
-   "status": "draft"
-  },
-  "GHA": {
-   "dish": "Fufu with light soup",
-   "note": "jollof already has a story",
-   "confidence": "high"
-  },
-  "GIN": {
-   "dish": "Riz sauce feuilles",
-   "note": "Rice with a sauce of cooked leaves (sweet potato, cassava, okra) and smoked fish or meat. Confirmed as a family of dishes; fouti is an alternative.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "GNB": {
-   "dish": "Caldo de mancarra",
-   "note": "peanut stew; medium confidence",
-   "confidence": "medium"
-  },
-  "KEN": {
-   "dish": "Ugali with sukuma wiki",
-   "note": "",
-   "confidence": "high"
-  },
-  "LSO": {
-   "dish": "Papa le moroho",
-   "note": "maize porridge with greens",
-   "confidence": "medium"
-  },
-  "LBR": {
-   "dish": "Palm butter soup",
-   "note": "",
-   "confidence": "medium"
-  },
-  "LBY": {
-   "dish": "Bazin",
-   "note": "",
-   "confidence": "medium"
-  },
-  "MDG": {
-   "dish": "Romazava",
-   "note": "",
-   "confidence": "high"
-  },
-  "MWI": {
-   "dish": "Nsima",
-   "note": "with relish; Zambia's card must differ (ifisashi)",
-   "confidence": "high"
-  },
-  "MLI": {
-   "dish": "Tigadèguèna",
-   "note": "peanut-sauce stew",
-   "confidence": "medium"
-  },
-  "MRT": {
-   "dish": "Méchoui (roast lamb)",
-   "note": "Confirmed as a festive dish; note that thieboudienne is also called Mauritania's national dish by some sources, but it is shared with Senegal, so the méchoui is kept for Mauritania.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "MUS": {
-   "dish": "Dholl puri",
-   "note": "",
-   "confidence": "high"
-  },
-  "MAR": {
-   "dish": "Tagine",
-   "note": "couscous is shared with Algeria and Tunisia",
-   "confidence": "high"
-  },
-  "MOZ": {
-   "dish": "Matapa",
-   "note": "cassava leaves and peanuts or coconut",
-   "confidence": "high"
-  },
-  "NAM": {
-   "dish": "Kapana",
-   "note": "street grilled meat",
-   "confidence": "medium"
-  },
-  "NER": {
-   "dish": "Dambou",
-   "note": "",
-   "confidence": "medium"
-  },
-  "NGA": {
-   "dish": "Egusi soup",
-   "note": "jollof already has a story",
-   "confidence": "high"
-  },
-  "RWA": {
-   "dish": "Isombe",
-   "note": "cassava leaves",
-   "confidence": "medium"
-  },
-  "STP": {
-   "dish": "Calulu",
-   "note": "",
-   "confidence": "high"
-  },
-  "SEN": {
-   "dish": "Thieboudienne",
-   "note": "the jollof story already covers its origin; a card can focus on the dish itself",
-   "confidence": "high",
-   "status": "done"
-  },
-  "SYC": {
-   "dish": "Seychellois fish curry",
-   "note": "",
-   "confidence": "medium"
-  },
-  "SLE": {
-   "dish": "Cassava leaf stew",
-   "note": "",
-   "confidence": "medium"
-  },
-  "SOM": {
-   "dish": "Bariis iskukaris",
-   "note": "",
-   "confidence": "medium"
-  },
-  "ZAF": {
-   "dish": "Bobotie",
-   "note": "",
-   "confidence": "high"
-  },
-  "SSD": {
-   "dish": "Kisra",
-   "note": "A thin fermented sorghum pancake, eaten in Sudan and South Sudan; one source calls it South Sudan's national dish, to verify. Sudan's card is ful medames.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "SDN": {
-   "dish": "Ful medames",
-   "note": "shared with Egypt; kisra or gurasa are alternatives",
-   "confidence": "medium"
-  },
-  "TZA": {
-   "dish": "Zanzibar pilau",
-   "note": "Replaces ugali, shared with Kenya. Pilau with cardamom, cinnamon, cloves and cumin is described in several travel sources; ugali is called the national meal by others, so the choice is a judgement to revisit.",
-   "confidence": "medium",
-   "confirmed": "2026-10-08"
-  },
-  "TGO": {
-   "dish": "Akoumé",
-   "note": "",
-   "confidence": "medium"
-  },
-  "TUN": {
-   "dish": "Brik",
-   "note": "",
-   "confidence": "high"
-  },
-  "UGA": {
-   "dish": "Matoke",
-   "note": "",
-   "confidence": "high"
-  },
-  "ZMB": {
-   "dish": "Nshima with ifisashi",
-   "note": "",
-   "confidence": "medium"
-  },
-  "ZWE": {
-   "dish": "Sadza ne nyama",
-   "note": "",
-   "confidence": "high"
+  "dishes": {
+    "DZA": {
+      "dish": "Chakhchoukha",
+      "note": "couscous is the better known; kept for the shared couscous story",
+      "confidence": "medium"
+    },
+    "AGO": {
+      "dish": "Muamba de galinha",
+      "note": "",
+      "confidence": "high"
+    },
+    "BEN": {
+      "dish": "Amiwo",
+      "note": "pâte rouge; another option is wagashi (cheese)",
+      "confidence": "medium"
+    },
+    "BWA": {
+      "dish": "Seswaa",
+      "note": "",
+      "confidence": "high",
+      "status": "done"
+    },
+    "BFA": {
+      "dish": "Tô",
+      "note": "with a leaf or okra sauce",
+      "confidence": "high"
+    },
+    "BDI": {
+      "dish": "Ibiharage",
+      "note": "Red kidney beans stewed with onion and chilli; sources agree beans are the everyday staple (about once a day per person, according to a travel guide). Confirmed as a dish; not to be called 'the' national dish.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "CPV": {
+      "dish": "Cachupa",
+      "note": "",
+      "confidence": "high",
+      "status": "done"
+    },
+    "CMR": {
+      "dish": "Ndolé",
+      "note": "",
+      "confidence": "high"
+    },
+    "CAF": {
+      "dish": "Gozo with kanda ti nyama",
+      "note": "Cassava porridge (gozo) with a long-simmered stew of cassava leaves, smoked fish or meat and palm oil (kanda). Confirmed as an everyday plate in several food sources.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "TCD": {
+      "dish": "Daraba",
+      "note": "okra stew",
+      "confidence": "medium"
+    },
+    "COM": {
+      "dish": "Pilao",
+      "note": "another option is langouste à la vanille",
+      "confidence": "medium"
+    },
+    "COG": {
+      "dish": "Poulet à la moambe",
+      "note": "shared with Gabon and DR Congo: choose a different dish if the three cards would repeat",
+      "confidence": "medium"
+    },
+    "CIV": {
+      "dish": "Attiéké",
+      "note": "with fish; on UNESCO's intangible heritage list (to verify in a source)",
+      "confidence": "high"
+    },
+    "DJI": {
+      "dish": "Skoudehkaris",
+      "note": "",
+      "confidence": "medium"
+    },
+    "COD": {
+      "dish": "Pondu",
+      "note": "cassava leaves; moambe is shared with Congo",
+      "confidence": "medium"
+    },
+    "EGY": {
+      "dish": "Koshari",
+      "note": "DONE: koshari-egypt",
+      "confidence": "high",
+      "status": "done"
+    },
+    "GNQ": {
+      "dish": "Pepesup (pepper soup)",
+      "note": "Replaces 'succotash', which no source supported. Spicy fish soup named as the signature dish by several food sources; confirm in the card.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "ERI": {
+      "dish": "Zigni",
+      "note": "spiced stew eaten with injera; shared with Ethiopia",
+      "confidence": "medium"
+    },
+    "SWZ": {
+      "dish": "Sishwala",
+      "note": "maize porridge with meat or vegetables",
+      "confidence": "medium"
+    },
+    "ETH": {
+      "dish": "Doro wat",
+      "note": "injera already has its own story",
+      "confidence": "high"
+    },
+    "GAB": {
+      "dish": "Poulet nyembwe",
+      "note": "",
+      "confidence": "high"
+    },
+    "GMB": {
+      "dish": "Domoda",
+      "note": "a draft card already exists (domoda); do not call it the national dish without a good source",
+      "confidence": "high",
+      "status": "draft"
+    },
+    "GHA": {
+      "dish": "Fufu with light soup",
+      "note": "jollof already has a story",
+      "confidence": "high"
+    },
+    "GIN": {
+      "dish": "Riz sauce feuilles",
+      "note": "Rice with a sauce of cooked leaves (sweet potato, cassava, okra) and smoked fish or meat. Confirmed as a family of dishes; fouti is an alternative.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "GNB": {
+      "dish": "Caldo de mancarra",
+      "note": "peanut stew; medium confidence",
+      "confidence": "medium"
+    },
+    "KEN": {
+      "dish": "Ugali with sukuma wiki",
+      "note": "",
+      "confidence": "high"
+    },
+    "LSO": {
+      "dish": "Papa le moroho",
+      "note": "maize porridge with greens",
+      "confidence": "medium"
+    },
+    "LBR": {
+      "dish": "Palm butter soup",
+      "note": "",
+      "confidence": "medium"
+    },
+    "LBY": {
+      "dish": "Bazin",
+      "note": "",
+      "confidence": "medium"
+    },
+    "MDG": {
+      "dish": "Romazava",
+      "note": "",
+      "confidence": "high"
+    },
+    "MWI": {
+      "dish": "Nsima",
+      "note": "with relish; Zambia's card must differ (ifisashi)",
+      "confidence": "high"
+    },
+    "MLI": {
+      "dish": "Tigadèguèna",
+      "note": "peanut-sauce stew",
+      "confidence": "medium"
+    },
+    "MRT": {
+      "dish": "Méchoui (roast lamb)",
+      "note": "Confirmed as a festive dish; note that thieboudienne is also called Mauritania's national dish by some sources, but it is shared with Senegal, so the méchoui is kept for Mauritania.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "MUS": {
+      "dish": "Dholl puri",
+      "note": "",
+      "confidence": "high"
+    },
+    "MAR": {
+      "dish": "Tagine",
+      "note": "couscous is shared with Algeria and Tunisia",
+      "confidence": "high"
+    },
+    "MOZ": {
+      "dish": "Matapa",
+      "note": "cassava leaves and peanuts or coconut",
+      "confidence": "high"
+    },
+    "NAM": {
+      "dish": "Kapana",
+      "note": "street grilled meat",
+      "confidence": "medium"
+    },
+    "NER": {
+      "dish": "Dambou",
+      "note": "",
+      "confidence": "medium"
+    },
+    "NGA": {
+      "dish": "Egusi soup",
+      "note": "jollof already has a story",
+      "confidence": "high"
+    },
+    "RWA": {
+      "dish": "Isombe",
+      "note": "cassava leaves",
+      "confidence": "medium"
+    },
+    "STP": {
+      "dish": "Calulu",
+      "note": "",
+      "confidence": "high"
+    },
+    "SEN": {
+      "dish": "Thieboudienne",
+      "note": "the jollof story already covers its origin; a card can focus on the dish itself",
+      "confidence": "high",
+      "status": "done"
+    },
+    "SYC": {
+      "dish": "Seychellois fish curry",
+      "note": "",
+      "confidence": "medium"
+    },
+    "SLE": {
+      "dish": "Cassava leaf stew",
+      "note": "",
+      "confidence": "medium"
+    },
+    "SOM": {
+      "dish": "Bariis iskukaris",
+      "note": "",
+      "confidence": "medium"
+    },
+    "ZAF": {
+      "dish": "Bobotie",
+      "note": "",
+      "confidence": "high"
+    },
+    "SSD": {
+      "dish": "Kisra",
+      "note": "A thin fermented sorghum pancake, eaten in Sudan and South Sudan; one source calls it South Sudan's national dish, to verify. Sudan's card is ful medames.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "SDN": {
+      "dish": "Ful medames",
+      "note": "shared with Egypt; kisra or gurasa are alternatives",
+      "confidence": "medium"
+    },
+    "TZA": {
+      "dish": "Zanzibar pilau",
+      "note": "Replaces ugali, shared with Kenya. Pilau with cardamom, cinnamon, cloves and cumin is described in several travel sources; ugali is called the national meal by others, so the choice is a judgement to revisit.",
+      "confidence": "medium",
+      "confirmed": "2026-10-08"
+    },
+    "TGO": {
+      "dish": "Akoumé",
+      "note": "",
+      "confidence": "medium"
+    },
+    "TUN": {
+      "dish": "Brik",
+      "note": "",
+      "confidence": "high"
+    },
+    "UGA": {
+      "dish": "Matoke",
+      "note": "",
+      "confidence": "high"
+    },
+    "ZMB": {
+      "dish": "Nshima with ifisashi",
+      "note": "",
+      "confidence": "medium"
+    },
+    "ZWE": {
+      "dish": "Sadza ne nyama",
+      "note": "",
+      "confidence": "high"
+    }
   }
- }
 }

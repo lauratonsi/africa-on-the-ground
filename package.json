@@ -9,6 +9,7 @@
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
     "check": "node scripts/validate.mjs && node scripts/build.mjs",
+    "seed-dish-drafts": "node scripts/seed-dish-drafts.mjs",
     "add-note": "node scripts/add-note.mjs",
     "remove-note": "node scripts/remove-note.mjs",
     "review-note": "node scripts/review-note.mjs"

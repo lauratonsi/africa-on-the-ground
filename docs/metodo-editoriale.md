@@ -2,6 +2,12 @@
 
 Regole del progetto. La versione pubblica, in inglese, è `content/pages/method.html`: le due devono dire le stesse cose.
 
+## Chi lo cura
+
+Africa on the Ground è ideato e curato da [Laura Tonsi](https://www.linkedin.com/in/laura-tonsi-05178524a/), laureanda magistrale in Governance e Politiche per l'Innovazione Digitale all'Università di Bologna e Direttrice Tecnica presso Onoranze Funebri Melotti. I suoi filoni di ricerca e interesse riguardano la governance del rischio cyber-fisico tra IT e OT e il contrasto alla disinformazione. Il codice pubblico e il registro di lavoro sono su [GitHub](https://github.com/lauratonsi).
+
+Il progetto nasce dal desiderio di educare sul continente africano raccogliendo le fonti esistenti e, soprattutto, aprendosi ai contributi di chi vive davvero nelle realtà descritte. Vuole contribuire ad abbattere miti e pregiudizi e diventare una piattaforma di celebrazione culturale. È un progetto indipendente di ricerca ed editoria: fonti, incertezze e voci locali restano visibili, così chi legge può distinguere ciò che è documentato, ciò che è ancora da verificare e chi risponde delle scelte fatte.
+
 ## Strato 1: il racconto documentato
 
 - **Ogni affermazione ha una fonte.** Una frase senza citazione è ammessa solo se è un tuo commento di raccordo

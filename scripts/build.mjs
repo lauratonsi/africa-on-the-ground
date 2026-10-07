@@ -167,7 +167,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -925,10 +925,10 @@ function renderSociety(list) {
   const subOpts = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
   const body = `
-${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government and official languages in the 54 countries, with a view of two countries side by side." })}
+${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government and language labels in the 54 countries, with a view of two countries side by side." })}
 <div class="wrap">
 <section class="hero-lede">
-  <p class="lede">Every figure here comes from the World Factbook's entries for each country${cite(["cia-factbook"])}, set next to World Bank population${cite(["wb-population"])}. The comparison, the groupings and the averages are calculated here. Nothing on this page comes from local voices, and the Factbook's numbers are estimates from censuses and surveys of different years.</p>
+  <p class="lede">Every label here comes from the World Factbook's entry for each country${cite(["cia-factbook"])}. The language section keeps three things apart: languages marked official at national level, African language names mentioned in the entry, and Glottolog families for the fourteen quiz languages. None of these is a census of speakers. Nothing on this page comes from local voices, and the Factbook's estimates come from different years.</p>
 </section>
 </div>
 <div class="wrap section" data-tabs>
@@ -953,20 +953,20 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
   <div class="tablewrap">${govTab}</div>
 </section>
 <section id="languages" class="panel" data-tab data-tab-label="Languages" aria-labelledby="lang-h">
-  <h2 id="lang-h">Official languages</h2>
+  <h2 id="lang-h">Languages marked official</h2>
   <p class="cmp-find">${topLang[0][0]} is marked official in ${topLang[0][1].length} countries${topLang[1] ? `, ${topLang[1][0]} in ${topLang[1][1].length}` : ""}.</p>
   ${langBars}
-  <p class="fine">Languages the Factbook marks "official" at national level, counted in countries. Regional or working languages, such as most of Ethiopia's, are not counted. ${oneOff} more languages are official in one country each. Variant names are merged (Kiswahili and Swahili). Official status is taken from the Factbook's text, which does not mark every case: ${noLang.length ? `${noLang.map((r) => esc(r.c.name)).join(" and ")} ${noLang.length === 1 ? "has" : "have"} none marked, so ${noLang.length === 1 ? "it shows" : "they show"} as "none marked", which does not mean ${noLang.length === 1 ? "it has" : "they have"} no official language.` : "every country has one marked."}</p>
+  <p class="fine">These are only the languages the Factbook marks "official" at national level, counted by country. This is a label in the source, not a ranking by number of speakers. Regional or working languages, such as most of Ethiopia's, are not counted. ${oneOff} more languages are official in one country each. Variant names are merged (Kiswahili and Swahili). The Factbook does not mark every case: ${noLang.length ? `${noLang.map((r) => esc(r.c.name)).join(" and ")} ${noLang.length === 1 ? "has" : "have"} none marked, so ${noLang.length === 1 ? "it shows" : "they show"} as "none marked", which does not mean ${noLang.length === 1 ? "it has" : "they have"} no official language.` : "every country has one marked."}</p>
   <h3>How many official languages</h3>
   ${histBars}
   <h3>The four most shared, by subregion</h3>
   <div class="tablewrap">${langTab}</div>
   <p class="fine">Number of countries in each subregion that mark the language official; the grey number is the subregion's total.</p>
-  <h3>African languages named in the Factbook</h3>
+  <h3>African language names mentioned in the Factbook</h3>
   <p class="cmp-find">The Factbook entries name ${spokenSorted.length} African languages or language groups. ${esc(spokenTop[0][0])} is named for ${spokenTop[0][1].length} countries, ${esc(spokenTop[1][0])} for ${spokenTop[1][1].length}; ${spokenSorted.length - spokenMulti} are named for one country only.</p>
   <p class="chart-sub">Twelve languages named for the most countries; ties in alphabetical order</p>
   ${spokenBars}
-  <p class="fine">This counts how often the Factbook names a language, not how many people speak it. The Factbook writes languages differently from one country to the next: some entries list a dozen, others say "numerous indigenous languages" and name none, so a language missing here may well be spoken there. Names are matched from a list written for this page and some variants are merged: Fula includes Fulani, Pulaar and Fulfulde; Mandinka includes Maninka and Malinke; Swahili includes Kiswahili. Arabic, Afrikaans, creoles and European languages are left out, and ${unmatchedAll.length} entries that did not match a language on the list are not counted${cite(["cia-factbook"])}.</p>
+  <p class="fine">This counts mentions in the Factbook, not speakers and not all languages spoken in a country. The Factbook writes languages differently from one country to the next: some entries list a dozen, others say "numerous indigenous languages" and name none, so a language missing here may well be spoken there. Names are matched from a list written for this page and some variants are merged: Fula includes Fulani, Pulaar and Fulfulde; Mandinka includes Maninka and Malinke; Swahili includes Kiswahili. Arabic, Afrikaans, creoles and European languages are left out, and ${unmatchedAll.length} entries that did not match a language on the list are not counted${cite(["cia-factbook"])}.</p>
   <h3>Every language matched, with its countries</h3>
   <p class="fine">For where fourteen of them come from and which can be learned on Duolingo, see <a href="../languages/index.html">Languages</a>.</p>
   <ul class="lang-list fold" data-fold="10" data-fold-what="languages" data-fold-item="li">${spokenList}</ul>
@@ -995,7 +995,7 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
 ${sourcesList()}
 </div>
 <script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and language labels of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
@@ -1194,12 +1194,13 @@ function renderLanguages(list) {
     const ns = (notes[`phrase-${p.id}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
     return `<article class="ph" id="ph-${esc(p.id)}"><h3>${esc(p.label)} <span class="ph-t">${esc(p.phrase)}</span></h3><p class="ph-m">“${esc(p.phrase)}” means “${esc(p.meaning)}”.${cite(p.cite)}</p>${ns.length ? `<div class="notes">${ns.map((n) => noteCard(n, noteKinds)).join("")}</div>` : `<p class="fine">No speaker has looked at this phrase yet.</p>`}</article>`;
   }).join("");
-  const body = `${compactHero({ kicker: "Learn", title: "Languages", sub: "Fourteen African languages: where they come from, where they are spoken, and which you can learn on Duolingo." })}
+  const body = `${compactHero({ kicker: "Learn", title: "Languages", sub: "Fourteen African languages: where they come from, where they are mentioned, and which you can learn on Duolingo." })}
+<div class="wrap"><nav class="pi-jump lang-jump" aria-label="On this page"><a href="#table">The languages</a><a href="#duolingo">Duolingo</a><a href="#phrases">Phrases</a><a href="#share">Add yours</a></nav></div>
 <div class="wrap section">
 <section class="panel" id="table" aria-labelledby="lg-h">
   <h2 id="lg-h">Fourteen languages</h2>
   <p class="ts-intro">These are the languages of the phrases in the <a href="../quiz/index.html">language quiz</a>. The family is Glottolog's${cite(["glottolog"])}; the countries are those whose World Factbook entry names the language${cite(["cia-factbook"])}, so a country missing from a row may well speak it.</p>
-  <div class="tablewrap"><table class="xtab"><thead><tr><th scope="col">Language</th><th scope="col">Family</th><th scope="col">Named in the Factbook for</th><th scope="col">On Duolingo</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <div class="tablewrap"><table class="xtab"><thead><tr><th scope="col">Language</th><th scope="col">Family</th><th scope="col">Factbook mentions</th><th scope="col">On Duolingo</th></tr></thead><tbody>${rows}</tbody></table></div>
   <p class="fine">Glottolog groups languages into families; here only the top-level family is shown. Atlantic-Congo is the large family that holds most languages of West, Central, East and Southern Africa, including Swahili, Zulu and Yoruba. Language names follow Glottolog where they differ: it lists the Malagasy of the highlands as Plateau Malagasy, and Twi as a variety of Akan.</p>
 </section>
 
@@ -1227,7 +1228,7 @@ ${shareSection({ type: "phrase", id: phrases[0].id, name: `${phrases[0].label}: 
 </section>
 ${sourcesList()}
 </div>`;
-  return layout({ title: `Languages · ${config.name}`, description: "Fourteen African languages: family, where they are named, and which can be learned on Duolingo.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["share.js"], body, jump: [{ id: "table", label: "The languages" }, { id: "duolingo", label: "Duolingo" }, { id: "phrases", label: "Phrases" }, { id: "share", label: "Add yours" }] });
+  return layout({ title: `Languages · ${config.name}`, description: "Fourteen African languages: Glottolog family, countries whose Factbook entry names them, and Duolingo courses.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["share.js"], body, jump: [{ id: "table", label: "The languages" }, { id: "duolingo", label: "Duolingo" }, { id: "phrases", label: "Phrases" }, { id: "share", label: "Add yours" }] });
 }
 write("languages/index.html", renderLanguages(data.countries.countries));
 
@@ -1270,8 +1271,8 @@ function renderCountryPage(c, list) {
     ["Population", `${fmtInt(c.population)}, 2025 estimate`, ["wb-population"]],
     ["Area", `${fmtInt(c.area)} km², including inland water`, ["wb-area"]],
     gov ? ["Government", gov, ["cia-factbook"]] : null,
-    official.length ? ["Official languages", official.join(", "), ["cia-factbook"]] : null,
-    named.length ? ["Other African languages named", named.join(", "), ["cia-factbook"]] : null,
+    official.length ? ["Languages marked official by the Factbook", official.join(", "), ["cia-factbook"]] : null,
+    named.length ? ["African languages mentioned by the Factbook", named.join(", "), ["cia-factbook"]] : null,
     relText ? ["Religion, share of people", `${relText}${rel.year ? ` (${rel.year} estimate)` : ""}`, ["cia-factbook"]] : (pr.religions ? ["Religion", dec(pr.religions), ["cia-factbook"]] : null),
     blocs.length ? ["Regional blocs", blocs.map((b) => b.short).join(", "), blocCites] : null
   ].filter(Boolean).map(([k, v, ids]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${cite(ids)}</dd></div>`).join("");
@@ -1351,6 +1352,32 @@ function renderPlaces() {
 </div>`;
   return layout({ title: `Places · ${config.name}`, description: "Every place card, grouped by region.", depth: 1, current: "places", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
 }
+
+// ---------- pagina Capitals: il dato della capitale e lo stato della scheda urbana ----------
+function renderCapitals() {
+  const countries = data.countries ? data.countries.countries : [];
+  const norm = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const cardFor = (c) => published.find((p) => {
+    if (p.country !== c.iso3 || p.type === "dish") return false;
+    const capital = norm(c.capital);
+    return norm(p.name) === capital || norm(p.region).includes(capital) || norm(p.name).includes(capital);
+  });
+  const rows = countries.slice().sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
+    const card = cardFor(c);
+    const content = `<span class="prow-name">${esc(c.capital)}</span><span class="prow-meta">${esc(c.name)} · ${card ? esc(card.name) : "Capital card not yet written"}</span>`;
+    return `<li>${card ? `<a class="prow" href="../places/${esc(card.slug)}/index.html">${content}</a>` : `<div class="prow">${content}</div>`}</li>`;
+  }).join("");
+  const withCards = countries.filter((c) => cardFor(c)).length;
+  const body = `${compactHero({ kicker: "Places", title: "African capitals", sub: "The capital named in the country record, and the place card when one exists." })}
+<div class="wrap places-index">
+  <p class="pi-count">${countries.length} capitals · ${withCards} linked place cards · ${countries.length - withCards} still to write.</p>
+  <section class="hero-lede"><p class="lede">A capital in the country dataset is not automatically a city guide. This index keeps the official country record visible while making the missing urban cards easy to find and complete.</p></section>
+  <ul class="prows">${rows}</ul>
+</div>`;
+  return layout({ title: `Capitals · ${config.name}`, description: "The 54 African capitals and the place cards currently linked to them.", depth: 1, current: "capitals", body });
+}
+
+write("capitals/index.html", renderCapitals());
 
 write("404.html", `<!doctype html>
 <html lang="${esc(config.lang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>Page not found · ${esc(config.name)}</title>

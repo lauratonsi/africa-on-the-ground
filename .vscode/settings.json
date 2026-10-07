@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node - <<'NODE'\nconst fs = require\\('fs'\\);\nconst read = \\(f\\) => JSON\\.parse\\(fs\\.readFileSync\\(f, 'utf8'\\)\\);\nconst countries = read\\('content/data/africa-countries\\.json'\\)\\.countries;\nconst proposed = read\\('content/data/proposed-dishes\\.json'\\);\nconst cards = fs\\.readdirSync\\('content/places'\\)\\.filter\\(f => f\\.endsWith\\('\\.json'\\)\\)\\.map\\(f => read\\(`content/places/\\$\\{f\\}`\\)\\)\\.filter\\(p => p\\.type === 'dish'\\);\nconst byCountry = new Map\\(\\);\nfor \\(const card of cards\\) \\(byCountry\\.get\\(card\\.country\\) \\|\\| byCountry\\.set\\(card\\.country, \\[\\]\\)\\.get\\(card\\.country\\)\\)\\.push\\(card\\.slug\\);\nconst missing = countries\\.filter\\(c => !byCountry\\.has\\(c\\.iso3\\)\\)\\.map\\(c => c\\.iso3\\);\nconst duplicate = \\[\\.\\.\\.byCountry\\]\\.filter\\(\\(\\[, slugs\\]\\) => slugs\\.length > 1\\);\nconst unregistered = cards\\.filter\\(p => !proposed\\.dishes\\[p\\.country\\]\\)\\.map\\(p => p\\.slug\\);\nconst doneWithoutPublished = \\(proposed\\.status\\.done \\|\\| \\[\\]\\)\\.filter\\(iso => !cards\\.some\\(p => p\\.country === iso && p\\.status === 'published'\\)\\);\nconsole\\.log\\(JSON\\.stringify\\(\\{countries: countries\\.length, dishCards: cards\\.length, missing, duplicate, unregistered, doneWithoutPublished\\}, null, 2\\)\\);\nNODE$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

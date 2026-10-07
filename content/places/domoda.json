@@ -10,5 +10,14 @@
   "sections": [],
   "gaps": [
     "Everything. This card has not been researched yet."
-  ]
+  ],
+  "image": {
+    "file": "domoda",
+    "alt": "A bowl of domoda, a peanut-based stew with vegetables and pieces of meat.",
+    "caption": "A bowl of domoda.",
+    "credit": "T.K. Naliaka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ADomoda.jpg"
+  }
 }

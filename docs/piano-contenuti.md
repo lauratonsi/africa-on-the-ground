@@ -9,7 +9,7 @@ Aggiornato l'8 ottobre 2026. Si lavora per fasi, in quest'ordine, e ogni fase pr
 | Pagine dei Paesi | 54 (generate dai dati) | fatto; si arricchiscono con le fasi successive |
 | Storie | 15 (5 storia, 7 miti, 3 cibo; vedi `content/stories`) | circa 30 |
 | Luoghi | 57 schede, quasi tutte siti UNESCO | altri 2 per Paese, di tipo diverso (città vive, mercati, musei, parchi) |
-| Piatti | 1 scheda (koshari), 1 bozza (domoda), più 3 storie di cibo | una scheda per Paese (54), da `proposed-dishes.json` |
+| Piatti | 4 schede pubblicate (koshari, cachupa, seswaa, thieboudienne), 50 bozze tracciate (inclusa domoda), più 3 storie di cibo | una scheda per Paese (54), da `proposed-dishes.json` |
 | Percorsi | 0 | 5 o 6 percorsi che collegano luoghi, storie e dati |
 
 ## Regola di qualità, uguale per tutte le fasi
@@ -50,7 +50,7 @@ Un piatto per Paese (54), come scheda di tipo `dish`. L'elenco di partenza è in
 - **Foto.** Da Wikimedia Commons con licenza aperta; si vede il piatto servito.
 - **Condivisioni.** Dove un piatto è di più Paesi (moambe, couscous, ugali, nsima, thieb) si sceglie un'alternativa o si fa una scheda sola con più Paesi.
 - **Ordine dei lotti.** Prima i piatti ad alta fiducia (circa 20), poi quelli a media, infine quelli a bassa fiducia dopo una tua conferma. Lotti di 5 o 6 schede.
-- **Stato.** Koshari (Egitto) è la scheda pilota, fatta. Domoda (Gambia) è in bozza.
+- **Stato.** Koshari (Egitto), cachupa (Capo Verde), seswaa (Botswana) e thieboudienne (Senegal) sono pubblicati con foto; le altre 50 schede sono bozze generate dal registro, con Domoda (Gambia) già dotata di foto. Il comando `npm run seed-dish-drafts` ricrea solo le schede mancanti e il validator controlla i collegamenti.
 
 ## Fase 4: percorsi
 

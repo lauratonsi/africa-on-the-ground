@@ -1,0 +1,75 @@
+{
+  "slug": "the-gambia-the-name",
+  "status": "published",
+  "kind": "history",
+  "title": "Why is it The Gambia?",
+  "subtitle": "A small word with a long history: the country, the river and the name people use.",
+  "countries": ["GMB"],
+  "places": [],
+  "sections": [
+    {
+      "id": "name",
+      "title": "The name on the map",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The World Factbook calls the country The Gambia, while the country's capital is Banjul and the river running through it is the Gambia River.",
+              "cite": ["cia-factbook", "britannica-gambia"]
+            },
+            {
+              "text": "The article is part of the country's name, not a description added by this site.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "title": "A country shaped by a river",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The country follows the lower Gambia River inland from the Atlantic coast, and its modern borders leave it surrounded by Senegal except at the coast.",
+              "cite": ["britannica-gambia", "wikipedia-gambia"]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "That geography is why the name is easy to flatten into a joke or a grammar correction, even though it points to a specific place and history.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voices",
+      "title": "What the name leaves out",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A map name cannot tell us how people in The Gambia pronounce, translate or explain the country's name in their own languages. That part belongs here to people who live there.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The colonial and precolonial history of the name, including the naming of the river in European maps.",
+    "The country's official naming history at independence and in later constitutional documents.",
+    "How the name is used in Mandinka, Wolof, Fula and other languages spoken in the country.",
+    "A local reading of the story: no one from The Gambia has reviewed it yet."
+  ]
+}

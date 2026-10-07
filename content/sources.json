@@ -2591,5 +2591,25 @@
     "published": "2022-02-15",
     "note": "A wire report on the launch of the bicentennial on 14 February 2022; the publication date is the day after the launch, as the page's own date was not shown.",
     "retrieved": "2026-10-07"
+  },
+  {
+    "id": "britannica-gambia",
+    "title": "The Gambia",
+    "publisher": "Encyclopaedia Britannica",
+    "url": "https://www.britannica.com/place/The-Gambia",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Starting point for the country's name, river geography and borders; replace or confirm with historical and primary sources before treating the naming history as settled.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-gambia",
+    "title": "The Gambia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Gambia",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used only as a lead for the name and geography; its cited historical sources still need to be read.",
+    "retrieved": "2026-10-08"
   }
 ]
