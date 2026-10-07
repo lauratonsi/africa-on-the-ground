@@ -77,6 +77,34 @@
     });
   }
 
+  // ---------- home: scheda con foto al passaggio sui pin ----------
+  var card = $("mapcard");
+  if (card && bigmap) {
+    var box = bigmap.parentNode, cimg = card.querySelector("img"), cb = card.querySelector("b"), cs = card.querySelector("span"), cgo = card.querySelector(".mapcard-go");
+    var touch = window.matchMedia("(hover: none)").matches, shownFor = null;
+    var hideCard = function () { card.hidden = true; shownFor = null; };
+    var showCard = function (pin) {
+      shownFor = pin;
+      cb.textContent = pin.getAttribute("data-name"); cs.textContent = pin.getAttribute("data-meta");
+      var src = pin.getAttribute("data-img");
+      if (src) { cimg.src = src; cimg.hidden = false; } else { cimg.removeAttribute("src"); cimg.hidden = true; }
+      cgo.href = pin.getAttribute("href");
+      card.hidden = false;
+      var br = box.getBoundingClientRect(), pr = pin.getBoundingClientRect(), w = card.offsetWidth, h = card.offsetHeight;
+      var x = pr.left + pr.width / 2 - br.left - w / 2, y = pr.top - br.top - h - 14;
+      if (y < 6) y = pr.bottom - br.top + 14;
+      card.style.left = Math.max(6, Math.min(x, br.width - w - 6)) + "px"; card.style.top = Math.max(6, y) + "px";
+    };
+    all(".map-continent .pin").forEach(function (pin) {
+      ["mouseenter", "focus"].forEach(function (ev) { pin.addEventListener(ev, function () { if (!touch) showCard(pin); }); });
+      ["mouseleave", "blur"].forEach(function (ev) { pin.addEventListener(ev, function () { if (!touch) hideCard(); }); });
+      // sui telefoni il primo tocco mostra la scheda, il secondo (sul pulsante) apre la pagina
+      pin.addEventListener("click", function (e) { if (touch && shownFor !== pin) { e.preventDefault(); showCard(pin); } });
+    });
+    if (touch) { card.classList.add("touch"); document.addEventListener("click", function (e) { if (!card.contains(e.target) && !e.target.closest(".map-continent .pin")) hideCard(); }); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") hideCard(); });
+  }
+
   // ---------- countries ----------
   var table = $("ctable");
   if (!table) return;

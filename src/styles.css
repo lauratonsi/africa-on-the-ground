@@ -696,3 +696,31 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .map-continent .pin:hover circle:not(.hit):not(.ring), .map-continent .pin:hover rect, .map-continent .pin.hl circle:not(.hit):not(.ring), .map-continent .pin.hl rect { transform: scale(2.1); }
 .band-indigo .filters { margin-bottom: 16px; }
 .tag-outline { grid-column: 3; grid-row: 1; font-size: .78rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-soft); padding: 3px 10px; border-radius: 999px; box-shadow: inset 0 0 0 1.5px var(--line); }
+
+/* ---------- mappa dell'Africa, versione notturna ---------- */
+.mapbox { position: relative; }
+.map-continent { background: #0d0a2b; border-radius: var(--radius); box-shadow: 0 30px 80px -30px rgba(0, 0, 0, .7), 0 0 0 1px rgba(255, 255, 255, .08); }
+.map-continent .grat { fill: none; stroke: rgba(255, 255, 255, .07); stroke-width: 1; }
+.map-continent .land, .map-continent .land.has { fill: #2a2478; stroke: rgba(255, 240, 184, .32); stroke-width: 1.1; vector-effect: none; transition: fill .25s; }
+.map-continent .land:hover { fill: #4a3a9a; }
+.map-continent .pin circle:not(.hit):not(.ring):not(.pulse), .map-continent .pin rect { fill: var(--sun); stroke: #0c0924; stroke-width: 2; transform: scale(1.1); filter: drop-shadow(0 0 6px rgba(255, 217, 138, .9)); }
+.map-continent .pin:hover circle:not(.hit):not(.ring):not(.pulse), .map-continent .pin:hover rect, .map-continent .pin:focus-visible circle:not(.hit):not(.ring):not(.pulse), .map-continent .pin:focus-visible rect { transform: scale(1.9); fill: #fff; }
+.map-continent .pulse { display: none; fill: none; stroke: var(--sun); stroke-width: 2; transform-box: fill-box; transform-origin: center; pointer-events: none; }
+.m-ok .map-continent .pulse { display: block; opacity: 0; }
+.m-ok .map-continent.in .pulse { animation: m-pulse 3.2s ease-out infinite; animation-delay: calc(var(--i) * -290ms); }
+@keyframes m-pulse { from { transform: scale(1.1); opacity: .7; } to { transform: scale(3.4); opacity: 0; } }
+/* i pin compaiono a pioggia quando la mappa entra in vista; senza JavaScript restano visibili */
+.m-ok .map-continent:not(.in) .pin { opacity: 0; animation: m-fallback 0s 8s forwards; }
+.m-ok .map-continent.in .pin circle:not(.hit):not(.ring):not(.pulse), .m-ok .map-continent.in .pin rect { animation: m-pop .7s cubic-bezier(.3, 1.5, .5, 1) both; animation-delay: calc(1.1s + var(--i) * 45ms); }
+@keyframes m-pop { from { transform: scale(0); } to { transform: scale(1.1); } }
+.mapcard { position: absolute; z-index: 5; width: 250px; background: var(--surface); color: var(--ink); border-radius: 18px; overflow: hidden; box-shadow: 0 24px 60px -16px rgba(0, 0, 0, .65), 0 0 0 1px var(--line); pointer-events: none; }
+.mapcard[hidden] { display: none; }
+.mapcard img { display: block; width: 100%; height: 130px; object-fit: cover; }
+.mapcard-t { padding: 12px 16px 14px; display: grid; gap: 2px; }
+.mapcard-t b { font-family: var(--f-display); font-size: 1.15rem; line-height: 1.15; }
+.mapcard-t span { font-size: .85rem; color: var(--ink-soft); }
+.mapcard-go { display: none; margin-top: 8px; font-weight: 700; color: var(--record); }
+.mapcard.touch { pointer-events: auto; }
+.mapcard.touch .mapcard-go { display: inline; }
+@media (prefers-reduced-motion: no-preference) { .mapcard:not([hidden]) { animation: m-card .22s cubic-bezier(.2, .8, .2, 1) both; } }
+@keyframes m-card { from { opacity: 0; transform: translateY(6px) scale(.96); } }

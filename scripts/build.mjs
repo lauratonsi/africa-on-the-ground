@@ -462,7 +462,7 @@ const mapSection = bigMap
   <div class="wrap">
   <div class="maphead"><h2 class="listh" id="map-h">${bigMap.count} places on the map</h2>${filterChips}</div>
   ${regionChips}
-  <figure class="mapbox">${bigMap.svg}<figcaption>Select a pin to open its card, or a region to zoom in. Positions come from the UNESCO record where the card cites it, and are otherwise approximate. Country outlines: Natural Earth, public domain.</figcaption></figure>
+  <figure class="mapbox">${bigMap.svg}<div class="mapcard" id="mapcard" hidden><img alt="" width="800" height="533"><div class="mapcard-t"><b></b><span></span><a class="mapcard-go" href="#">Open the card</a></div></div><figcaption>Select a pin to open its card, or a region to zoom in. Positions come from the UNESCO record where the card cites it, and are otherwise approximate. Country outlines: Natural Earth, public domain.</figcaption></figure>
   <ul class="legend legend-types">${typeLegend}</ul>
   </div>
 </section>`

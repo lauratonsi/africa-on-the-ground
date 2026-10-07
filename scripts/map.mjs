@@ -76,11 +76,18 @@ export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions
   const p = projection({ lon0: -19.5, lon1: 52, lat0: -36, lat1: 38 }, 1000);
   const land = africa.countries.map((c) => `<path class="land" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
   const located = places.filter((x) => x.coords);
-  const pins = located.map((x) => {
+  const pins = located.map((x, i) => {
     x._href = hrefFor(x);
     const t = types[x.type] ? types[x.type].label : x.type;
-    return pin(x, p, types, { labelSide: "right" }).replace("<a class=", `<a data-tip="${esc(x.name + " · " + t)}" class=`);
+    const img = x.image ? `img/places/${x.image.file}-800.jpg` : "";
+    return pin(x, p, types, { labelSide: "right" })
+      .replace("<a class=", `<a style="--i:${i}" data-name="${esc(x.name)}" data-meta="${esc(x.region + " · " + t)}" data-img="${esc(img)}" class=`)
+      .replace('<circle class="hit" r="24"/>', '<circle class="hit" r="24"/><circle class="pulse" r="9"/>');
   }).join("");
+  // reticolo di meridiani e paralleli, ogni 10 gradi: serve a far leggere la mappa come una carta
+  let grat = "";
+  for (let lon = -10; lon <= 50; lon += 10) grat += `M${p.x(lon)},0V${p.height}`;
+  for (let lat = -30; lat <= 30; lat += 10) grat += `M0,${p.y(lat)}H${p.width}`;
   const views = {};
   for (const r of subregions) {
     const cs = africa.countries.filter((c) => subOf[c.a3] === r.id);
@@ -92,7 +99,7 @@ export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions
     views[r.id] = [x0, y0, Math.min(p.width, p.x(z) + padX) - x0, Math.min(p.height, p.y(lo) + padY) - y0].map(r1);
   }
   const full = [0, 0, p.width, p.height];
-  const svg = `<svg class="map map-continent" viewBox="${full.join(" ")}" data-full="${full.join(" ")}" role="group" aria-label="Map of Africa with a pin for each place card. Select a pin to open its card."><g fill-rule="evenodd">${land}</g><g class="pins">${pins}</g></svg>`;
+  const svg = `<svg class="map map-continent" viewBox="${full.join(" ")}" data-full="${full.join(" ")}" role="group" aria-label="Map of Africa with a pin for each place card. Select a pin to open its card."><defs><radialGradient id="mcSea" cx="50%" cy="42%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs><rect width="${p.width}" height="${p.height}" fill="url(#mcSea)"/><path class="grat" d="${grat}"/><g fill-rule="evenodd">${land}</g><g class="pins">${pins}</g></svg>`;
   return { svg, views, full, count: located.length };
 }
 

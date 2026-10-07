@@ -52,6 +52,20 @@
     }, { amount: 0.25 });
   }
 
+  // ---------- mappa dell'Africa: i contorni si disegnano, poi compaiono i pin ----------
+  var cm = all(".map-continent")[0];
+  if (cm) {
+    var lands = all(".land", cm);
+    lands.forEach(function (pth) { pth.setAttribute("pathLength", "1"); pth.style.strokeDasharray = "1"; pth.style.strokeDashoffset = "1"; pth.style.fillOpacity = "0"; });
+    hidden.push.apply(hidden, []);
+    inView(cm, function () {
+      cm.classList.add("in");
+      animate(lands, { strokeDashoffset: [1, 0], fillOpacity: [0, 1] }, { duration: 1.8, delay: stagger(0.018), ease: "easeInOut" });
+    }, { amount: 0.25 });
+    // rete di sicurezza: se l'animazione non parte, la mappa torna intera
+    setTimeout(function () { lands.forEach(function (pth) { if (pth.style.strokeDashoffset === "1") { pth.style.strokeDashoffset = "0"; pth.style.fillOpacity = "1"; } }); cm.classList.add("in"); }, 7000);
+  }
+
   // ---------- titoli di sezione ----------
   all("main section h2").forEach(function (el) {
     if (el.closest(".places") || el.closest(".suns")) return;
