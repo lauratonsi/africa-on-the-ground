@@ -28,3 +28,10 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 })();
+
+// Sul telefono il menu scorre: la pagina in cui ci si trova va portata in vista.
+(function () {
+  var cur = document.querySelector('.top nav [aria-current]');
+  var nav = cur && cur.parentNode;
+  if (nav && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = Math.max(0, cur.offsetLeft - 24);
+})();

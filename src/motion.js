@@ -68,44 +68,12 @@
 
   // ---------- titoli di sezione ----------
   all("main section h2").forEach(function (el) {
-    if (el.closest(".places") || el.closest(".suns")) return;
+    if (el.closest(".places") || el.closest(".suns") || document.body.classList.contains("still")) return;
     if (!hide(el)) return;
     inView(el, function () { animate(el, { opacity: [0, 1], transform: ["translateY(16px)", "translateY(0px)"] }, { duration: 0.65, ease: OUT }); }, { amount: 0.4 });
   });
 
-  // ---------- pagina Countries: numeri che contano, barre che crescono, mappa che si accende ----------
-  all(".kpi").forEach(function (box) {
-    var kv = all(".kv", box)[0]; if (!kv) return;
-    var m = kv.textContent.match(/^([\d.,]+)(.*)$/); if (!m) return;
-    var final = kv.textContent, target = parseFloat(m[1].replace(/,/g, "")), dec = (m[1].split(".")[1] || "").length;
-    if (!isFinite(target)) return;
-    inView(box, function () {
-      animate(0, target, { duration: 1.4, ease: "easeOut", onUpdate: function (v) {
-        kv.textContent = v.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + m[2];
-      }, onComplete: function () { kv.textContent = final; } });
-      return function () {};
-    }, { amount: 0.6 });
-  });
-  all(".bars, .paired").forEach(function (box) {
-    var fills = all(".bfill", box); if (!fills.length) return;
-    fills.forEach(function (f) { f.style.transformOrigin = "left center"; });
-    var did = false; fills.forEach(function (f) { if (hide(f, "transform")) did = true; });
-    if (did) inView(box, function () {
-      animate(fills, { transform: ["scaleX(0)", "scaleX(1)"] }, { duration: 0.95, delay: stagger(0.045), ease: OUT });
-    }, { amount: 0.2 });
-  });
-  var cmap = all(".cmap")[0];
-  if (cmap) {
-    var land = all(".c", cmap);
-    if (below(cmap)) { land.forEach(function (p) { p.style.opacity = "0"; hidden.push(p); }); inView(cmap, function () {
-      animate(land, { opacity: [0, 1] }, { duration: 0.6, delay: stagger(0.014), ease: "easeOut" });
-    }, { amount: 0.2 }); }
-  }
-  all(".sc").forEach(function (sc) {
-    var dots = all(".dot", sc); if (!dots.length || !below(sc)) return;
-    dots.forEach(function (d) { d.style.opacity = "0"; hidden.push(d); });
-    inView(sc, function () { animate(dots, { opacity: [0, 1] }, { duration: 0.5, delay: stagger(0.02), ease: "easeOut" }); }, { amount: 0.2 });
-  });
+  // Countries, Society e True size restano ferme: sono pagine da consultare, il movimento le rallenterebbe.
 
   // Rete di sicurezza: se per qualunque motivo un'animazione non parte, dopo 3 secondi tutto torna visibile.
   setTimeout(function () {

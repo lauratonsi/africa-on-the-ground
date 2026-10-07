@@ -8,6 +8,10 @@
   "COD"
  ],
  "places": [],
+ "tool": {
+  "href": "true-size",
+  "label": "Try it yourself: lay other countries over Africa"
+ },
  "sections": [
   {
    "id": "claim",

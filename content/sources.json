@@ -205,6 +205,158 @@
     "retrieved": "2026-10-06"
   },
   {
+    "id": "ecowas-members",
+    "title": "ECOWAS member states",
+    "publisher": "ECOWAS Commission",
+    "url": "https://www.ecowas.int/member-states/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "The page lists 12 states. Its introduction on the same site still says fifteen. Read on 2026-10-07.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "ecowas-history",
+    "title": "History of ECOWAS",
+    "publisher": "ECOWAS Commission",
+    "url": "https://www.ecowas.int/history-2/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Gives the Lagos treaty (1975), its revision (1993) and Mauritania's withdrawal (December 2000).",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "eac-overview",
+    "title": "Overview of EAC",
+    "publisher": "East African Community",
+    "url": "https://www.eac.int/overview-of-eac",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Lists the eight Partner States with their accession dates, and the Treaty's signing and entry into force.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "sadc-members",
+    "title": "SADC member states",
+    "publisher": "Southern African Development Community",
+    "url": "https://www.sadc.int/member-states",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Lists 16 member states. Read on 2026-10-07.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "sadc-history",
+    "title": "History and Treaty",
+    "publisher": "Southern African Development Community",
+    "url": "https://www.sadc.int/pages/history-and-treaty",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Gives the founding of SADCC (1980) and the SADC Declaration and Treaty (1992).",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "comesa-members",
+    "title": "COMESA member states",
+    "publisher": "COMESA",
+    "url": "https://www.comesa.int/comesa-members-states/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "The table lists 21 states. Read on 2026-10-07.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "comesa-brief",
+    "title": "COMESA in brief",
+    "publisher": "COMESA",
+    "url": "https://www.comesa.int/wp-content/uploads/2020/05/COMESA-in-brief-FINAL-_web.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Says COMESA began as the Preferential Trade Area (1981) and became COMESA in 1994.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "au-members",
+    "title": "African Union member states",
+    "publisher": "African Union",
+    "url": "https://au.int/en/member_states/countryprofiles2",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Lists 55 member states by region, including the Sahrawi Republic. The list does not show suspensions.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "au-overview",
+    "title": "African Union overview",
+    "publisher": "African Union",
+    "url": "https://au.int/en/overview",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Gives the founding of the OAU (May 1963) and the launch of the African Union (July 2002).",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "eccas-members",
+    "title": "ECCAS member states and treaty",
+    "publisher": "Economic Community of Central African States",
+    "url": "https://www.ceeac-eccas.org/?p=10157",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Lists 11 member states, the Libreville treaty of 18 October 1983 and its revision of December 2019.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "igad-about",
+    "title": "About IGAD",
+    "publisher": "Intergovernmental Authority on Development",
+    "url": "https://igad.int/about/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Gives the eight member states, IGADD (1986) and the relaunch as IGAD (November 1996).",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "igad-sudan",
+    "title": "Statement on the return of Sudan to IGAD",
+    "publisher": "Intergovernmental Authority on Development",
+    "url": "https://igad.int/statement-by-the-secretariat-of-the-intergovernmental-authority-on-development-igad-on-the-return-of-the-republic-of-the-sudan-to-igad/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Dated 9 February 2026. IGAD welcomes Sudan resuming full participation; the statement does not say when or why Sudan stepped back.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "uneca-amu",
+    "title": "AMU - Arab Maghreb Union",
+    "publisher": "United Nations Economic Commission for Africa",
+    "url": "https://archive.uneca.org/node/2018",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Profile of the Union: five member states, founded in February 1989 in Marrakech. This is the UN commission's description, not the Union's own site.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "eu-countries",
+    "title": "EU countries",
+    "publisher": "European Union (official portal)",
+    "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Official list of the 27 member states, read on 2026-10-07. The 27 names match the list used on the True size page.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "equal-earth-paper",
+    "title": "The Equal Earth map projection",
+    "author": "Bojan Šavrič, Tom Patterson and Bernhard Jenny",
+    "publisher": "International Journal of Geographical Information Science, 33(3), 454-465",
+    "url": "https://doi.org/10.1080/13658816.2018.1504949",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Describes the equal-area projection used on the True size page. Title, authors and journal were checked in the Crossref register; the full paper was not read here. That the projection preserves area was also checked numerically, by integrating the area inside its outline.",
+    "published": "2018-08-07",
+    "retrieved": "2026-10-07"
+  },
+  {
     "id": "natural-earth",
     "title": "Natural Earth: admin 0 countries, 1:50m and 1:10m",
     "publisher": "Natural Earth",

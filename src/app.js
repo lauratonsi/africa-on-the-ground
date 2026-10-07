@@ -152,7 +152,57 @@
   }
 
 
-  // ---------- pagina Compare: filtro per subregione e confronto tra due paesi ----------
+
+  // ---------- schede (tab): una sezione alla volta, con indirizzo diretto a ciascuna ----------
+  // Senza JavaScript le sezioni restano tutte una sotto l'altra. Un indirizzo con #id apre la scheda che lo contiene.
+  all("[data-tabs]").forEach(function (box) {
+    var panels = all(":scope > [data-tab]", box);
+    if (panels.length < 2) return;
+    var bar = document.createElement("div"); bar.className = "tabbar"; bar.setAttribute("role", "tablist");
+    var btns = panels.map(function (p, i) {
+      var b = document.createElement("button"); b.type = "button"; b.setAttribute("role", "tab");
+      b.id = "tab-" + p.id; b.setAttribute("aria-controls", p.id); b.textContent = p.getAttribute("data-tab-label");
+      b.addEventListener("click", function () { show(i, true); });
+      b.addEventListener("keydown", function (e) {
+        var n = e.key === "ArrowRight" ? i + 1 : e.key === "ArrowLeft" ? i - 1 : e.key === "Home" ? 0 : e.key === "End" ? panels.length - 1 : -1;
+        if (n < 0) return; e.preventDefault(); n = (n + panels.length) % panels.length; show(n, true); btns[n].focus();
+      });
+      bar.appendChild(b); p.setAttribute("role", "tabpanel"); p.setAttribute("aria-labelledby", b.id);
+      return b;
+    });
+    box.insertBefore(bar, box.firstChild);
+    function show(i, push) {
+      panels.forEach(function (p, k) { p.hidden = k !== i; btns[k].setAttribute("aria-selected", k === i ? "true" : "false"); btns[k].tabIndex = k === i ? 0 : -1; });
+      if (push && history.replaceState) history.replaceState(null, "", "#" + panels[i].id);
+    }
+    function fromHash() {
+      var id = decodeURIComponent(location.hash.slice(1)); if (!id) return false;
+      var t = document.getElementById(id); if (!t) return false;
+      var i = panels.findIndex(function (p) { return p === t || p.contains(t); });
+      if (i < 0) return false; show(i, false); return true;
+    }
+    if (!fromHash()) show(0, false);
+    window.addEventListener("hashchange", function () { if (fromHash()) { var t = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (t && t.scrollIntoView) t.scrollIntoView(); } });
+  });
+
+  // ---------- anteprime: una lista lunga mostra le prime voci e un pulsante per le altre ----------
+  all("[data-fold]").forEach(function (box) {
+    var n = parseInt(box.getAttribute("data-fold"), 10) || 8;
+    var items = all(box.getAttribute("data-fold-item") || ".srow", box);
+    if (items.length <= n + 1) return;
+    var what = box.getAttribute("data-fold-what") || "items";
+    var btn = document.createElement("button"); btn.type = "button"; btn.className = "fbtn fold-btn";
+    var open = false;
+    function paint() {
+      items.forEach(function (it, k) { it.hidden = !open && k >= n; });
+      btn.textContent = open ? "Show fewer " + what : "Show all " + items.length + " " + what;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    btn.addEventListener("click", function () { open = !open; paint(); });
+    box.classList.add("folded"); box.appendChild(btn); paint();
+  });
+
+  // ---------- pagina Society: filtro per subregione e confronto tra due paesi ----------
   var mk = function (tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
   var cmpSub = $("cmp-sub");
   if (cmpSub) {
@@ -195,6 +245,17 @@
       all("button", metric).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
       wrap.setAttribute("data-m", b.getAttribute("data-metric"));
     });
+    // Regional blocs: si sceglie un blocco e i paesi membri si accendono.
+    var picks = all("button[data-bloc-pick]", wrap);
+    function pickBloc(id) {
+      picks.forEach(function (x) { x.setAttribute("aria-pressed", x.getAttribute("data-bloc-pick") === id ? "true" : "false"); });
+      all("[data-bloc-card]", wrap).forEach(function (c) { c.hidden = c.getAttribute("data-bloc-card") !== id; });
+      all("[data-blocs]", wrap).forEach(function (c) { c.classList.toggle("in", (" " + c.getAttribute("data-blocs") + " ").indexOf(" " + id + " ") >= 0); });
+      wrap.setAttribute("data-bloc", id);
+    }
+    picks.forEach(function (x) { x.addEventListener("click", function () { pickBloc(x.getAttribute("data-bloc-pick")); }); });
+    var on = picks.filter(function (x) { return x.getAttribute("aria-pressed") === "true"; })[0] || picks[0];
+    if (on) pickBloc(on.getAttribute("data-bloc-pick"));
   }
 
   var tools = $("tools"), q = $("q"), tsub = $("tsub"), sub = $("sub"), subfilter = $("subfilter"), tcount = $("tcount");
@@ -281,7 +342,7 @@
       });
       detail.appendChild(dl);
       var pdl = el("dl", "detail-dl detail-prof");
-      [["Government", d.government], ["Languages", d.languages], ["Religions", d.religions]].forEach(function (r) {
+      [["Government", d.government], ["Languages", d.languages], ["Religions", d.religions], ["Regional blocs", d.blocs]].forEach(function (r) {
         if (!r[1]) return; var w = el("div"); w.appendChild(el("dt", null, r[0])); w.appendChild(el("dd", null, r[1])); pdl.appendChild(w);
       });
       detail.appendChild(pdl);

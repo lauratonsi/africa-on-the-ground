@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { root } from "./lib.mjs";
+import { project as eeProject } from "./truesize-math.mjs";
 
 const geo = (f) => JSON.parse(fs.readFileSync(path.join(root, "src", "geo", f), "utf8"));
 const africa = geo("africa.json");
@@ -163,7 +164,7 @@ export function gambiaMap(places, types, { focus = null, hrefFor } = {}) {
 // Somaliland è disegnata come parte della Somalia, come nell'elenco dei paesi della Banca Mondiale.
 // Il Sahara Occidentale non ha dati e resta senza colore.
 
-export function choroplethMap(countries, bins) {
+export function choroplethMap(countries, bins, blocsOf = () => "") {
   const p = projection({ lon0: -19, lon1: 52, lat0: -36, lat1: 38 }, 700);
   const by = Object.fromEntries(countries.map((c) => [c.iso3, c]));
   const tip = (c) => `${c.name}. Capital ${c.capital}. Population ${c.population.toLocaleString("en-US")}, area ${c.area.toLocaleString("en-US")} km²`;
@@ -173,7 +174,7 @@ export function choroplethMap(countries, bins) {
     const d = shapePath(shape.rings, p);
     if (!c) return `<path class="c nodata" d="${d}"><title>${esc(shape.name)}: no figures</title></path>`;
     const b = bins(c);
-    return `<path class="c" d="${d}" data-iso="${c.iso3}" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-tip="${esc(tip(c))}" tabindex="0" role="button" aria-pressed="false" aria-label="${esc(c.name)}"><title>${esc(tip(c))}</title></path>`;
+    return `<path class="c" d="${d}" data-iso="${c.iso3}" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-blocs="${esc(blocsOf(c.iso3))}" data-tip="${esc(tip(c))}" tabindex="0" role="button" aria-pressed="false" aria-label="${esc(c.name)}"><title>${esc(tip(c))}</title></path>`;
   }).join("");
   // capitali: un punto con anello del colore della superficie, così si legge anche sui colori scuri
   const caps = countries.filter((c) => c.capitalLon > -19 && c.capitalLon < 52 && c.capitalLat > -36 && c.capitalLat < 38).map((c) =>
@@ -194,4 +195,34 @@ export function choroplethMap(countries, bins) {
   }
   const names = countries.filter((c) => c.area > 400000 && anchor[c.iso3]).map((c) => `<text class="cn" x="${r1(anchor[c.iso3].x)}" y="${r1(anchor[c.iso3].y)}" text-anchor="middle">${esc(c.name)}</text>`).join("");
   return `<svg class="map cmap" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="Map of Africa shaded by country. The table below has the same figures." data-m="pop"><defs><radialGradient id="cmSea" cx="50%" cy="42%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs><rect width="${p.width}" height="${p.height}" fill="url(#cmSea)"/><path class="grat" d="${grat}"/><g fill-rule="evenodd">${land}</g><g class="cnames" aria-hidden="true">${names}</g><g class="caps">${caps}</g></svg>`;
+}
+
+// ---------- True size: l'Africa in proiezione Equal Earth, base fissa dello strumento ----------
+// La proiezione è quella di src/truesize.js (caricata da truesize-math.mjs), la stessa che il browser usa per le forme trascinate.
+
+export function trueSizeBase() {
+  // finestra visibile: longitudini e latitudini che contengono l'Africa con un margine per trascinare
+  const W = { lon0: -42, lon1: 82, lat0: -50, lat1: 58 };
+  const edge = [];
+  for (let lo = W.lon0; lo <= W.lon1; lo += 2) { edge.push(eeProject(lo, W.lat0), eeProject(lo, W.lat1)); }
+  for (let la = W.lat0; la <= W.lat1; la += 2) { edge.push(eeProject(W.lon0, la), eeProject(W.lon1, la)); }
+  const xs = edge.map((q) => q[0]), ys = edge.map((q) => q[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const scale = 1000 / (x1 - x0);
+  // stesse coordinate di src/truesize.js: x = proiezione * scala, y = -proiezione * scala
+  const pt = (lo, la) => { const q = eeProject(lo, la); return `${r1(q[0] * scale)},${r1(-q[1] * scale)}`; };
+  const ring = (pts) => "M" + pts.map((p) => pt(p[0], p[1])).join("L") + "Z";
+  const countries = africa.countries.map((c) => `<path class="c" d="${c.rings.map((rg) => ring(rg)).join("")}" fill-rule="evenodd"><title>${esc(c.name)}</title></path>`).join("");
+  const grat = [];
+  for (let lo = -40; lo <= 80; lo += 10) { const l = []; for (let la = W.lat0; la <= W.lat1; la += 2) l.push([lo, la]); grat.push("M" + l.map((p) => pt(p[0], p[1])).join("L")); }
+  for (let la = -40; la <= 50; la += 10) { const l = []; for (let lo = W.lon0; lo <= W.lon1; lo += 2) l.push([lo, la]); grat.push("M" + l.map((p) => pt(p[0], p[1])).join("L")); }
+  const equator = []; for (let lo = W.lon0; lo <= W.lon1; lo += 2) equator.push([lo, 0]);
+  return {
+    box: { x: r1(x0 * scale), y: r1(-y1 * scale), w: r1((x1 - x0) * scale), h: r1((y1 - y0) * scale) },
+    viewBox: `${r1(x0 * scale)} ${r1(-y1 * scale)} ${r1((x1 - x0) * scale)} ${r1((y1 - y0) * scale)}`,
+    scale,
+    countries,
+    grat: `<path class="grat" d="${grat.join("")}"/><path class="eq" d="M${equator.map((p) => pt(p[0], p[1])).join("L")}"/>`,
+    lim: [-30, -42, 72, 52]
+  };
 }

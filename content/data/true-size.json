@@ -1,0 +1,9 @@
+{
+ "page": "true-size",
+ "sources": [
+  "natural-earth",
+  "equal-earth-paper",
+  "wikipedia-mercator-projection",
+  "eu-countries"
+ ]
+}

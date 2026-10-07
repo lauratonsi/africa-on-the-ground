@@ -36,7 +36,13 @@ export function loadAll() {
     : [];
   const countriesPath = path.join(root, "content", "data", "africa-countries.json");
   const countries = fs.existsSync(countriesPath) ? readJson(countriesPath) : null;
-  return { config, sourcesList, places, notes, methodHtml, countries, stories };
+  const trueSizePath = path.join(root, "content", "data", "true-size.json");
+  const trueSize = fs.existsSync(trueSizePath) ? readJson(trueSizePath) : null;
+  const blocsPath = path.join(root, "content", "data", "blocs.json");
+  const blocs = fs.existsSync(blocsPath) ? readJson(blocsPath) : null;
+  const quizPath = path.join(root, "content", "quiz.json");
+  const quiz = fs.existsSync(quizPath) ? readJson(quizPath) : null;
+  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -45,7 +51,7 @@ const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 
-export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [] }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -252,6 +258,45 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       if (!(Math.abs(c.capitalLat) <= 90 && Math.abs(c.capitalLon) <= 180)) err(`${cw}: coordinate della capitale non valide.`);
     }
     if (seen.size !== 54) warn(`${w}: ${seen.size} paesi invece di 54.`);
+  }
+  // --- pagina True size: le fonti che cita, scritte in content/data/true-size.json
+  if (trueSize) checkCite(trueSize.sources, "data/true-size.json");
+  // --- blocchi regionali: ogni blocco ha fonte, data di verifica e membri che esistono nell'elenco dei 54 paesi
+  if (blocs) {
+    const known = new Set(((countries || {}).countries || []).map((c) => c.iso3));
+    const ids = new Set();
+    for (const b of blocs.blocs || []) {
+      const w = `data/blocs.json (${b.id || "senza id"})`;
+      if (!SLUG.test(b.id || "")) err(`${w}: id mancante o non valido.`);
+      if (ids.has(b.id)) err(`${w}: id duplicato.`);
+      ids.add(b.id);
+      for (const k of ["name", "short", "founded"]) if (!b[k]) err(`${w}: manca "${k}".`);
+      if (!DATE.test(b.verified || "")) err(`${w}: "verified" deve essere AAAA-MM-GG.`);
+      checkCite(b.cite, w);
+      if (b.foundedCite) checkCite(b.foundedCite, `${w} founded`);
+      if (!Array.isArray(b.members) || !b.members.length) err(`${w}: manca l'elenco dei membri.`);
+      for (const m of b.members || []) if (known.size && !known.has(m)) err(`${w}: il membro "${m}" non è tra i 54 paesi.`);
+      if (new Set(b.members).size !== (b.members || []).length) err(`${w}: membri duplicati.`);
+    }
+  }
+  // --- quiz: ogni domanda ha una risposta tra le opzioni, una spiegazione e almeno una fonte che esiste
+  if (quiz) {
+    const topics = new Set(["myths", "history", "food"]);
+    const storySlugs = new Set(stories.map((x) => x.data.slug));
+    const qids = new Set();
+    for (const x of quiz.questions || []) {
+      const w = `quiz.json (${x.id || "senza id"})`;
+      if (!SLUG.test(x.id || "")) err(`${w}: id mancante o non valido.`);
+      if (qids.has(x.id)) err(`${w}: id duplicato.`);
+      qids.add(x.id);
+      if (!topics.has(x.topic)) err(`${w}: topic "${x.topic}" non previsto.`);
+      if (!x.q) err(`${w}: manca la domanda.`);
+      if (!Array.isArray(x.options) || x.options.length < 3 || x.options.length > 4 || new Set(x.options).size !== x.options.length) err(`${w}: servono 3 o 4 opzioni diverse.`);
+      else if (!x.options.includes(x.answer)) err(`${w}: la risposta non è tra le opzioni.`);
+      if (!x.explain) err(`${w}: manca la spiegazione.`);
+      checkCite(x.cite, w);
+      if (x.story && !storySlugs.has(x.story)) err(`${w}: la storia "${x.story}" non esiste.`);
+    }
   }
   for (const id of sources.keys()) {
     if (!used.has(id)) warn(`sources.json: la fonte "${id}" non è citata da nessuna scheda.`);

@@ -1,0 +1,294 @@
+{
+ "note": "Curated questions. Each answer is a fact taken from a story on the site and carries the same source. More questions are generated from the country and bloc data at build time.",
+ "questions": [
+  {
+   "id": "map-greenland",
+   "topic": "myths",
+   "q": "On the usual Mercator world map, Greenland looks as big as Africa. How many times larger is Africa in real area?",
+   "options": [
+    "2 times",
+    "5 times",
+    "14 times",
+    "30 times"
+   ],
+   "answer": "14 times",
+   "explain": "On the map Greenland looks as big as Africa, while Africa's real area is 14 times larger. The projection inflates land the farther it lies from the equator.",
+   "cite": [
+    "wikipedia-mercator-projection"
+   ],
+   "story": "africa-is-much-bigger-than-the-map"
+  },
+  {
+   "id": "map-drc",
+   "topic": "myths",
+   "q": "Greenland's real area is comparable to that of which single African country?",
+   "options": [
+    "Egypt",
+    "The Democratic Republic of the Congo",
+    "Algeria",
+    "Nigeria"
+   ],
+   "answer": "The Democratic Republic of the Congo",
+   "explain": "Greenland's real area is comparable to that of the Democratic Republic of the Congo alone.",
+   "cite": [
+    "wikipedia-mercator-projection"
+   ],
+   "story": "africa-is-much-bigger-than-the-map"
+  },
+  {
+   "id": "map-equal-earth",
+   "topic": "myths",
+   "q": "In 2025 the African Union supported a campaign to replace Mercator's map with which projection?",
+   "options": [
+    "Robinson",
+    "Equal Earth",
+    "Sinusoidal",
+    "Plate carrée"
+   ],
+   "answer": "Equal Earth",
+   "explain": "The campaign was led by Togo, whose foreign minister called it a scientific discussion, not a political one. Equal Earth keeps areas in proportion.",
+   "cite": [
+    "wikipedia-mercator-projection"
+   ],
+   "story": "africa-is-much-bigger-than-the-map"
+  },
+  {
+   "id": "map-south-america",
+   "topic": "myths",
+   "q": "Africa looks roughly the size of South America on the Mercator map. How much larger is it really?",
+   "options": [
+    "About the same size",
+    "More than one and a half times as large",
+    "Three times as large",
+    "Half the size"
+   ],
+   "answer": "More than one and a half times as large",
+   "explain": "Africa looks roughly the size of South America, but is more than one and a half times as large.",
+   "cite": [
+    "wikipedia-mercator-projection"
+   ],
+   "story": "africa-is-much-bigger-than-the-map"
+  },
+  {
+   "id": "oral-script",
+   "topic": "history",
+   "q": "Which script did the Kingdom of Aksum develop?",
+   "options": [
+    "Tifinagh",
+    "Ge'ez",
+    "Nsibidi",
+    "Arabic"
+   ],
+   "answer": "Ge'ez",
+   "explain": "Aksum developed its own script, Ge'ez, later changed to mark vowels so that it became an abugida.",
+   "cite": [
+    "wikipedia-kingdom-of-aksum"
+   ],
+   "story": "was-africas-history-only-ever-spoken"
+  },
+  {
+   "id": "oral-timbuktu",
+   "topic": "myths",
+   "q": "Most of the manuscripts kept in Timbuktu are written in which language?",
+   "options": [
+    "Arabic",
+    "Latin",
+    "Hausa",
+    "Portuguese"
+   ],
+   "answer": "Arabic",
+   "explain": "Most are in Arabic. Some are in African languages such as Fula, Songhay, Tamasheq, Bambara and Soninke, written in the Arabic script, a practice known as Ajami.",
+   "cite": [
+    "wikipedia-timbuktu-manuscripts"
+   ],
+   "story": "was-africas-history-only-ever-spoken"
+  },
+  {
+   "id": "oral-ajami",
+   "topic": "myths",
+   "q": "Some Timbuktu manuscripts are in African languages. Which script do they use?",
+   "options": [
+    "The Latin alphabet",
+    "The Arabic script",
+    "The Ge'ez script",
+    "Tifinagh"
+   ],
+   "answer": "The Arabic script",
+   "explain": "Writing African languages in the Arabic script is known as Ajami.",
+   "cite": [
+    "wikipedia-timbuktu-manuscripts"
+   ],
+   "story": "was-africas-history-only-ever-spoken"
+  },
+  {
+   "id": "aksum-power",
+   "topic": "history",
+   "q": "In the third century Mani counted Aksum among the four great powers of the world, alongside Persia, Rome and which other?",
+   "options": [
+    "China",
+    "Egypt",
+    "Carthage",
+    "Ghana"
+   ],
+   "answer": "China",
+   "explain": "Mani, the founder of Manichaeism, counted Aksum alongside Persia, Rome and China.",
+   "cite": [
+    "wikipedia-kingdom-of-aksum"
+   ],
+   "story": "aksum-the-great-power-you-were-never-taught"
+  },
+  {
+   "id": "aksum-ezana",
+   "topic": "history",
+   "q": "Which king made Christianity the state religion of Aksum in the mid-fourth century?",
+   "options": [
+    "Kaleb",
+    "Endybis",
+    "Ezana",
+    "Lalibela"
+   ],
+   "answer": "Ezana",
+   "explain": "Under King Ezana the kingdom adopted Christianity as its state religion, around 325 by one count.",
+   "cite": [
+    "wikipedia-kingdom-of-aksum"
+   ],
+   "story": "aksum-the-great-power-you-were-never-taught"
+  },
+  {
+   "id": "musa-richest",
+   "topic": "myths",
+   "q": "Why do historians doubt the claim that Mansa Musa was the richest person who ever lived?",
+   "options": [
+    "His wealth cannot be calculated accurately: the figures come from one chain of Arabic reports",
+    "Historians found his treasury and counted it",
+    "He gave all his gold away before he died",
+    "Mali never produced gold"
+   ],
+   "answer": "His wealth cannot be calculated accurately: the figures come from one chain of Arabic reports",
+   "explain": "Historians such as Hadrien Collet argue his wealth cannot be calculated. Estimates of the gold he carried all come from the same chain of Arabic reports, and turning them into modern money is regarded as unsound.",
+   "cite": [
+    "wikipedia-mansa-musa"
+   ],
+   "story": "mansa-musa-and-the-gold-nobody-could-count"
+  },
+  {
+   "id": "musa-gold",
+   "topic": "history",
+   "q": "About how much of the gold circulating in the medieval Mediterranean is estimated to have come from West Africa?",
+   "options": [
+    "One tenth",
+    "One third",
+    "Two thirds",
+    "Almost all of it"
+   ],
+   "answer": "Two thirds",
+   "explain": "It is estimated that two thirds of the gold circulating in the medieval Mediterranean came from West Africa.",
+   "cite": [
+    "wikipedia-mansa-musa"
+   ],
+   "story": "mansa-musa-and-the-gold-nobody-could-count"
+  },
+  {
+   "id": "musa-price",
+   "topic": "myths",
+   "q": "Did every historian agree that Mansa Musa's gift-giving in Cairo caused a crisis in the price of gold?",
+   "options": [
+    "Yes, all sources agree",
+    "No: Warren Schultz argued the fall was within the normal swings of the price",
+    "Yes, and it lasted a century",
+    "No source mentions the price of gold at all"
+   ],
+   "answer": "No: Warren Schultz argued the fall was within the normal swings of the price",
+   "explain": "The chronicler al-Umari reported a fall in the price of gold, but Warren Schultz has argued it was well within normal swings in Mamluk Egypt.",
+   "cite": [
+    "wikipedia-mansa-musa"
+   ],
+   "story": "mansa-musa-and-the-gold-nobody-could-count"
+  },
+  {
+   "id": "injera-grain",
+   "topic": "food",
+   "q": "Injera is traditionally made from the flour of which cereal?",
+   "options": [
+    "Teff",
+    "Maize",
+    "Rice",
+    "Wheat"
+   ],
+   "answer": "Teff",
+   "explain": "Teff is a cereal that originated in Ethiopia and is mostly eaten in Ethiopia and Eritrea.",
+   "cite": [
+    "wikipedia-injera"
+   ],
+   "story": "injera-the-bread-that-is-also-the-plate"
+  },
+  {
+   "id": "injera-ferment",
+   "topic": "food",
+   "q": "How long is injera dough fermented with its starter, ersho?",
+   "options": [
+    "1 to 2 hours",
+    "24 to 72 hours",
+    "About a week",
+    "It is not fermented"
+   ],
+   "answer": "24 to 72 hours",
+   "explain": "The dough is fermented with a starter called ersho, kept from earlier batches, for 24 to 72 hours.",
+   "cite": [
+    "wikipedia-injera"
+   ],
+   "story": "injera-the-bread-that-is-also-the-plate"
+  },
+  {
+   "id": "injera-mitad",
+   "topic": "food",
+   "q": "What is the large round griddle that injera is cooked on called?",
+   "options": [
+    "Mesob",
+    "Mitad",
+    "Ersho",
+    "Berbere"
+   ],
+   "answer": "Mitad",
+   "explain": "The batter is poured in a spiral onto a large round griddle called a mitad. The mesob is the basket where injera is kept; ersho is the starter.",
+   "cite": [
+    "wikipedia-injera"
+   ],
+   "story": "injera-the-bread-that-is-also-the-plate"
+  },
+  {
+   "id": "jollof-origin",
+   "topic": "food",
+   "q": "What is the original Senegalese dish that jollof rice is traced back to?",
+   "options": [
+    "Egusi",
+    "Fufu",
+    "Thieboudienne",
+    "Waakye"
+   ],
+   "answer": "Thieboudienne",
+   "explain": "The original dish, thieboudienne, has rice, fish, shellfish and vegetables. The fishing communities of Saint-Louis are considered its birthplace.",
+   "cite": [
+    "wikipedia-jollof-rice"
+   ],
+   "story": "jollof-rice-a-dish-a-map-and-a-friendly-war"
+  },
+  {
+   "id": "jollof-wars",
+   "topic": "food",
+   "q": "Which two countries' rivalry grew into the friendly \"Jollof Wars\" in the mid-2010s?",
+   "options": [
+    "Senegal and Mali",
+    "Nigeria and Ghana",
+    "Liberia and Sierra Leone",
+    "Cameroon and Gabon"
+   ],
+   "answer": "Nigeria and Ghana",
+   "explain": "The rivalry was strongest between Nigeria and Ghana, with cooking competitions and social media campaigns.",
+   "cite": [
+    "wikipedia-jollof-rice"
+   ],
+   "story": "jollof-rice-a-dish-a-map-and-a-friendly-war"
+  }
+ ]
+}

@@ -17,3 +17,24 @@ e rileggi le note della pagina. Lo script si ferma se manca un valore per un pae
 
 Non sono inclusi i territori che l'ONU elenca sotto l'Africa (per esempio il Sahara Occidentale): la Banca Mondiale
 non dà cifre per paese. Il file non contiene stime fatte a mano: se un dato manca, si dichiara, non si inventa.
+
+
+PAGINA TRUE SIZE
+
+true-size.json   elenco delle fonti che la pagina cita (serve a validate per controllare che esistano e siano usate).
+src/geo/truesize.json   le nove forme (contorni Natural Earth 1:50m, semplificati) e le aree calcolate. È generato:
+
+  node scripts/prepare-truesize.mjs <cartella con ne_50m_admin_0_countries.geojson>
+
+Le aree sono calcolate dai contorni semplificati con la proiezione Equal Earth, che conserva le aree: sono vicine alle cifre
+ufficiali ma non uguali. Non vanno mescolate con le aree della Banca Mondiale della pagina Countries.
+
+
+BLOCCHI REGIONALI E QUIZ
+
+blocs.json   otto blocchi (AU, ECOWAS, EAC, SADC, COMESA, ECCAS, IGAD, AMU). Per ognuno: membri (codici ISO3 dei 54 paesi),
+             fonti, fondazione e data di verifica. Per cambiare un'appartenenza: rileggi il sito dell'organizzazione,
+             correggi i membri e aggiorna "verified". Il build controlla che fonti e membri esistano.
+../quiz.json domande scritte a mano, ognuna con la fonte della storia da cui viene. Altre domande (capitali, popolazione,
+             area, sottoregioni, blocchi) sono generate dal build con un seme fisso, dai dati dei paesi e dei blocchi.
+             Il quiz non salva nulla nel browser.

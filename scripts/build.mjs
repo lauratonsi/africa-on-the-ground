@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
-import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
+import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
 import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
 
@@ -26,12 +26,13 @@ for (const { file, data: pl } of data.places) {
 }
 
 const { config, sourcesList, places, notes, methodHtml } = data;
+const blocsList = data.blocs ? data.blocs.blocs : [];
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -163,7 +164,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}compare/index.html"${current === "compare" ? ' aria-current="page"' : ""}>Compare</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -536,7 +537,8 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/index.html#c-${esc(c)}">${esc(cName[c] || c)}</a>`).join(", ");
   const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
-  const related = relCountries || relPlaces ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
+  const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
+  const related = relCountries || relPlaces || toolLi ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
@@ -646,11 +648,13 @@ function renderCountries(list) {
   const count = (m, b) => list.filter((c) => bins(c)[m] === b).length;
   const legends = Object.keys(TH).map((m) => `<div class="scale" data-for="${m}"><p class="scale-t">${NAMES[m]}</p><ol>${LABELS[m].map((t, i) => `<li><span class="sw" data-b="${i + 1}"></span>${esc(t)} <span class="n">${count(m, i + 1)}</span></li>`).join("")}</ol></div>`).join("");
 
+  const blocIds = (iso) => blocsList.filter((b) => b.members.includes(iso)).map((b) => b.id);
+  const blocShorts = (iso) => blocsList.filter((b) => b.members.includes(iso)).map((b) => b.short);
   const tipOf = (c) => `${c.name}. Capital ${c.capital}. Population ${fmtInt(c.population)}, area ${fmtInt(c.area)} km²`;
   const ISLES = ["CPV", "COM", "MUS", "STP", "SYC"];
   const isles = ISLES.map((iso) => list.find((c) => c.iso3 === iso)).filter(Boolean).map((c) => {
     const b = bins(c);
-    return `<span class="isle c" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-iso="${c.iso3}" data-tip="${esc(tipOf(c))}" tabindex="0" role="button" aria-pressed="false">${esc(c.name)}</span>`;
+    return `<span class="isle c" data-sub="${c.subregion}" data-pop="${b.pop}" data-area="${b.area}" data-den="${b.den}" data-blocs="${esc(blocIds(c.iso3).join(" "))}" data-iso="${c.iso3}" data-tip="${esc(tipOf(c))}" tabindex="0" role="button" aria-pressed="false">${esc(c.name)}</span>`;
   }).join("");
 
   // numeri di testa
@@ -699,6 +703,7 @@ function renderCountries(list) {
   const profiles = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
   const detailData = Object.fromEntries(list.map((c) => [c.iso3, {
     government: (profiles[c.iso3] || {}).government || "", languages: (profiles[c.iso3] || {}).languages || "", religions: (profiles[c.iso3] || {}).religions || "",
+    blocs: blocShorts(c.iso3).join(", "),
     name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
     density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
     rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
@@ -709,9 +714,28 @@ function renderCountries(list) {
   const rows = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
     const cards = cardsOf(c.iso3);
     const cardLink = cards.length ? ` <a class="cardlink" href="../places/${esc(cards[0].slug)}/index.html">${cards.length === 1 ? "1 place card" : `${cards.length} place cards`}</a>` : "";
-    return `<tr id="c-${c.iso3}" data-iso="${c.iso3}" tabindex="0" data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td></tr>`;
+    return `<tr id="c-${c.iso3}" data-iso="${c.iso3}" tabindex="0" data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td><td data-v="${esc(blocShorts(c.iso3).join(" "))}" class="blocs-cell">${esc(blocShorts(c.iso3).join(" · ") || "none of these")}</td></tr>`;
   }).join("");
   const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
+
+  function blocLegend() {
+    const pick = blocsList.map((b, i) => `<button type="button" class="fbtn" data-bloc-pick="${esc(b.id)}" aria-pressed="${i === 1 ? "true" : "false"}">${esc(b.short)}</button>`).join("");
+    const card = (b) => {
+      const names = b.members.map((iso) => list.find((c) => c.iso3 === iso)).filter(Boolean).map((c) => c.name).sort((x, y) => x.localeCompare(y, "en"));
+      return `<div class="bloc-card" data-bloc-card="${esc(b.id)}" hidden>
+        <h3>${esc(b.name)} <span class="count">${b.members.length} of ${list.length} countries</span></h3>
+        <p>${esc(b.founded)}${cite(b.foundedCite || b.cite)}</p>
+        ${b.membersNote ? `<p>${esc(b.membersNote)}${cite(b.cite)}</p>` : ""}
+        <details class="bloc-members"><summary>Member countries</summary><p>${names.map(esc).join(", ")}.</p></details>
+        <p class="fine">Membership as listed by the organisation, checked ${esc(fmtDate(b.verified))}.</p>
+      </div>`;
+    };
+    return `<div class="scale bloc-legend" data-for="bloc"><p class="scale-t">Regional bloc</p>
+      <div class="filters" role="group" aria-label="Choose a regional bloc">${pick}</div>
+      <p class="fine"><span class="sw" data-b="6"></span> In the bloc <span class="sw sw-out"></span> Not in it</p>
+      ${blocsList.map(card).join("")}
+    </div>`;
+  }
 
   const body = `
 ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where each of the 54 countries sits, its capital, its area and its population." })}
@@ -723,34 +747,33 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
 <section class="kpis" aria-label="Africa in four numbers">${kpis}</section>
 
 </div>
-<div class="band-sand section"><div class="wrap">
-<section id="map" class="panel" aria-labelledby="cmap-h">
+<div class="wrap section" data-tabs>
+<section id="map" class="panel" data-tab data-tab-label="Map" aria-labelledby="cmap-h">
   <div class="phead">
     <h2 id="cmap-h">Map</h2>
     <div class="seg" id="metric" role="group" aria-label="Shade the map by" hidden>
       <button type="button" data-metric="pop" aria-pressed="true">Population</button>
       <button type="button" data-metric="area" aria-pressed="false">Area</button>
       <button type="button" data-metric="den" aria-pressed="false">People per km²</button>
+      ${blocsList.length ? '<button type="button" data-metric="bloc" aria-pressed="false">Regional blocs</button>' : ""}
     </div>
   </div>
   <div class="mapwrap" data-m="pop">
     <div class="mapcol">
-      ${choroplethMap(list, bins)}
+      ${choroplethMap(list, bins, (iso) => blocIds(iso).join(" "))}
       <p class="isles-t">Island states too small to see on the map</p>
       <div class="isles">${isles}</div>
     </div>
     <div class="legends">
       <div class="detail" id="detail" aria-live="polite" hidden><p class="detail-hint">Select a country on the map, or a row in the table, to see its figures.</p></div>
       ${legends}
+      ${blocsList.length ? blocLegend() : ""}
       <p class="fine"><span class="capkey"></span> Capital city. Shaded by the metric chosen above. Western Sahara has no figures and is left unshaded. Somaliland is shaded as part of Somalia.</p>
     </div>
   </div>
   <p class="fine">Country outlines${cite(["natural-earth"])} show de facto boundaries and are not a statement about disputed ones. Subregions follow the United Nations statistical groups${cite(["un-m49"])}.</p>
 </section>
-
-</div></div>
-<div class="wrap section">
-<section id="charts" class="charts">
+<section id="charts" class="charts" data-tab data-tab-label="Charts">
   <figure class="chart">
     <h2>The five most populous countries hold ${share(top5)} of Africa's people</h2>
     <p class="chart-sub">Fifteen most populous countries, people${cite(["wb-population"])}</p>
@@ -771,10 +794,7 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
     <figcaption>The diagonal lines mark equal density, labelled in people per km²: countries on the same line are equally crowded. Densities run from ${fmtDen(sparsest)} in ${esc(sparsest.name)} to ${fmtDen(densest)} in ${esc(densest.name)}. ${esc(bigArea.name)} is the largest by area. Density is calculated here and counts empty land, such as desert, in the area.</figcaption>
   </figure>
 </section>
-
-</div>
-<div class="band-sand section"><div class="wrap">
-<section id="table" class="panel" aria-labelledby="tab-h">
+<section id="table" class="panel" data-tab data-tab-label="All 54 countries" aria-labelledby="tab-h">
   <div class="phead">
     <h2 id="tab-h">All ${list.length} countries <span class="count" id="tcount" aria-live="polite"></span></h2>
     <div class="tools" id="tools" hidden>
@@ -786,14 +806,13 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
   </div>
   <div class="tablewrap">
     <table class="data" id="ctable">
-      <thead><tr><th scope="col" data-sort="text">Country</th><th scope="col" data-sort="text">Capital</th><th scope="col" data-sort="text">Subregion</th><th scope="col" class="num" data-sort="num">Area, km²</th><th scope="col" class="num" data-sort="num">Population</th><th scope="col" class="num" data-sort="num">People per km²</th></tr></thead>
+      <thead><tr><th scope="col" data-sort="text">Country</th><th scope="col" data-sort="text">Capital</th><th scope="col" data-sort="text">Subregion</th><th scope="col" class="num" data-sort="num">Area, km²</th><th scope="col" class="num" data-sort="num">Population</th><th scope="col" class="num" data-sort="num">People per km²</th><th scope="col" data-sort="text">Regional blocs</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
   </div>
   <p class="fine">Population is the 2025 value and area the 2023 value, the most recent the World Bank gave for each country${cite(["wb-population", "wb-area"])}. Capitals as listed by the World Bank${cite(["wb-countries"])}. Government, languages and religions are the World Factbook's own words${cite(["cia-factbook"])}: each carries its own estimate year, and the shares come from censuses and surveys of different dates. Select a country to read them.</p>
 </section>
-
-</div></div>
+</div>
 <div class="wrap section">
 ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: config.countryNoteKinds || [], heading: "Know a country well?", intro: "Add what the numbers miss, or tell us what looks wrong.", depth: 1, choices: [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => ({ id: c.iso3, name: c.name })) })}
 </div>
@@ -804,6 +823,7 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
     <li>Population figures are estimates for 2025, not census counts, and countries differ in how recently they counted. This page does not show the uncertainty.</li>
     <li>Some countries have more than one capital or seat of government. The table shows one name per country, as the World Bank lists it, and does not explain the exceptions.</li>
     <li>Territories the United Nations lists under Africa, such as Western Sahara, are not included, because the World Bank gives no country figures for them.</li>
+    <li>Regional blocs show membership as each organisation lists it on the date given in the Regional blocs panel. They do not show suspensions or states that have announced a withdrawal.</li>
     <li>Nothing yet on languages, economy, history or daily life. Those belong on the place cards, with their own sources and local voices.</li>
   </ul>
 </section>
@@ -811,12 +831,12 @@ ${sourcesList()}
 </div>
 <script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
-  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, extraScripts: ["share.js"], body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }, { id: "share", label: "Add yours" }] });
+  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }, { id: "share", label: "Add yours" }] });
 }
 
 
-// ---------- pagina Compare: religioni, governi e lingue a confronto ----------
-function renderCompare(list) {
+// ---------- pagina Society: religioni, governi e lingue a confronto ----------
+function renderSociety(list) {
   const { cite, list: sourcesList } = makeCiter();
   const profiles = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
   const subLabel = Object.fromEntries(config.subregions.map((r) => [r.id, r.label]));
@@ -885,38 +905,34 @@ function renderCompare(list) {
   const subOpts = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
   const body = `
-${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Religion, government and official languages of the 54 countries, side by side." })}
+${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government and official languages in the 54 countries, with a view of two countries side by side." })}
 <div class="wrap">
 <section class="hero-lede">
   <p class="lede">Every figure here comes from the World Factbook's entries for each country${cite(["cia-factbook"])}, set next to World Bank population${cite(["wb-population"])}. The comparison, the groupings and the averages are calculated here. Nothing on this page comes from local voices, and the Factbook's numbers are estimates from censuses and surveys of different years.</p>
 </section>
 </div>
-<div class="band-sand section"><div class="wrap">
-<section id="religion" class="panel" aria-labelledby="rel-h">
+<div class="wrap section" data-tabs>
+<section id="religion" class="panel" data-tab data-tab-label="Religion" aria-labelledby="rel-h">
   <div class="phead"><h2 id="rel-h">Religion</h2>
     <div class="tools" id="cmp-tools" hidden><label class="sr" for="cmp-sub">Show subregion</label><select id="cmp-sub"><option value="all">All subregions</option>${subOpts}</select></div></div>
   <p class="cmp-find">${lead.christian} countries have a Christian plurality, ${lead.muslim} a Muslim one${lead.traditional + lead.none + lead.asian ? `, and ${lead.traditional + lead.none + lead.asian} neither` : ""}.</p>
   <p>Across the ${withRel.length} countries with shares, weighting each by its 2025 population, about ${pct0(cont.christian)} of people are counted as Christian and ${pct0(cont.muslim)} as Muslim. Those countries hold ${(covered * 100).toFixed(0)}% of Africa's people.</p>
-  ${stackedShares(relRows, SERIES)}
+  <div class="fold" data-fold="8" data-fold-what="countries">${stackedShares(relRows, SERIES)}</div>
   <p class="fine">Sorted by Christian share. Hover or focus a bar for every group. Countries are grouped here from the Factbook's own labels: "Roman Catholic", "Protestant" and the like count as Christian; "animist" and "folk religion" as traditional. Sub-groups inside brackets are ignored, and a share given as "less than 1%" counts as zero, so the remainder falls under "other". ${noRel.length ? `${noRel.map((r) => esc(r.c.name)).join(" and ")} ${noRel.length === 1 ? "has" : "have"} no percentages in the Factbook, so ${noRel.length === 1 ? "it is" : "they are"} left out.` : ""} Hindu, Buddhist, Sikh and Jain shares are grouped together as Asian religions; Mauritius is the only country where they are the largest group.</p>
   <h3>By subregion</h3>
   ${stackedShares(subRows, SERIES)}
   <p class="fine">Population-weighted averages of the country shares, which mix estimate years from ${Math.min(...withRel.map((r) => +r.rel.year || 9999).filter((y) => y < 9999))} to ${Math.max(...withRel.map((r) => +r.rel.year || 0))}.</p>
 </section>
-</div></div>
-<div class="wrap section">
-<section id="government" class="panel" aria-labelledby="gov-h">
+<section id="government" class="panel" data-tab data-tab-label="Government" aria-labelledby="gov-h">
   <h2 id="gov-h">Government</h2>
   <p class="cmp-find">${govCount[0].items.length} of ${list.length} countries are presidential republics.</p>
   ${govBars}
   <p class="fine">The Factbook gives one phrase per country; here they are sorted into six groups. "Federal" is dropped from the label. The entries can lag events: where the Factbook says a country is in transition or was formerly one type, it is placed in the last group. Hover a country for the Factbook's exact words.</p>
-  <div class="cmp-grid">${govChips}</div>
+  <div class="fold" data-fold="2" data-fold-what="groups" data-fold-item=".gov-row"><div class="cmp-grid">${govChips}</div></div>
   <h3>By subregion</h3>
   <div class="tablewrap">${govTab}</div>
 </section>
-</div>
-<div class="band-sand section"><div class="wrap">
-<section id="languages" class="panel" aria-labelledby="lang-h">
+<section id="languages" class="panel" data-tab data-tab-label="Languages" aria-labelledby="lang-h">
   <h2 id="lang-h">Official languages</h2>
   <p class="cmp-find">${topLang[0][0]} is marked official in ${topLang[0][1].length} countries${topLang[1] ? `, ${topLang[1][0]} in ${topLang[1][1].length}` : ""}.</p>
   ${langBars}
@@ -927,9 +943,7 @@ ${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Relig
   <div class="tablewrap">${langTab}</div>
   <p class="fine">Number of countries in each subregion that mark the language official; the grey number is the subregion's total.</p>
 </section>
-</div></div>
-<div class="wrap section">
-<section id="pair" class="panel" aria-labelledby="pair-h">
+<section id="pair" class="panel" data-tab data-tab-label="Two countries" aria-labelledby="pair-h">
   <h2 id="pair-h">Two countries side by side</h2>
   <div class="pair" id="pair-pick" hidden>
     <label>First country<select id="pair-a">${opts}</select></label>
@@ -938,6 +952,8 @@ ${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Relig
   <noscript><p class="fine">Choosing two countries needs JavaScript. The figures for each country are on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
   <div id="pair-out" aria-live="polite"></div>
 </section>
+</div>
+<div class="wrap section">
 ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: config.countryNoteKinds || [], heading: "Know a country well?", intro: "Tell us what the figures miss, or what looks wrong.", depth: 1, choices: [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => ({ id: c.iso3, name: c.name })) })}
 <section id="sec-gaps" class="gaps panel-gaps">
   <span class="layer-tag gap">Not yet sourced</span>
@@ -951,11 +967,169 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
 ${sourcesList()}
 </div>
 <script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Compare the countries · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, compared.", depth: 1, current: "compare", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
-if (data.countries) write("compare/index.html", renderCompare(data.countries.countries));
+if (data.countries) write("society/index.html", renderSociety(data.countries.countries));
+// Il vecchio indirizzo /compare/ è già stato condiviso: resta una pagina che porta a quello nuovo.
+write("compare/index.html", `<!doctype html>
+<html lang="${esc(config.lang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Moved · ${esc(config.name)}</title>
+<meta http-equiv="refresh" content="0; url=../society/index.html"><link rel="canonical" href="../society/index.html"></head>
+<body><p>This page is now <a href="../society/index.html">Society</a>.</p></body></html>
+`);
+
+// ---------- pagina True size: forme trascinabili sopra l'Africa, in proiezione a superficie uguale ----------
+function renderTrueSize() {
+  const { cite, list: sourcesList } = makeCiter();
+  const ts = JSON.parse(fs.readFileSync(path.join(root, "src", "geo", "truesize.json"), "utf8"));
+  const base = trueSizeBase();
+  const mm = (km2) => `${(km2 / 1e6).toFixed(1)} million km²`;
+  const ratio = (a) => { const r = ts.africaArea / a; return r >= 10 ? String(Math.round(r)) : r.toFixed(1); };
+  const MAX = 5;
+  const four = ["usa", "china", "india", "eu"].map((id) => ts.shapes.find((s) => s.id === id));
+  const fourSum = four.reduce((t, s) => t + s.area, 0);
+  const clientData = {
+    scale: base.scale, lim: base.lim, home: [18, 2], start: "greenland", max: MAX,
+    africa: ts.africaArea,
+    shapes: ts.shapes.map((s) => ({ id: s.id, label: s.label, note: s.note, anchor: s.anchor, area: s.area, rings: s.rings }))
+  };
+  const rows = [...ts.shapes].sort((a, b) => b.area - a.area).map((s) => `<tr><th scope="row">${esc(s.label)}</th><td class="n">${esc(mm(s.area))}</td><td class="n">${ratio(s.area)}</td></tr>`).join("");
+  const body = `${compactHero({ kicker: "Tool", title: "True size", sub: "Lay other countries over Africa and see how big it really is." })}
+<div class="wrap section">
+<section class="panel ts" aria-labelledby="ts-h">
+  <h2 id="ts-h">Drag a country onto Africa</h2>
+  <p class="ts-intro">The world map most of us grew up with makes land look bigger the farther it lies from the equator${cite(["wikipedia-mercator-projection"])}. This map uses another projection, Equal Earth, made to keep areas in proportion${cite(["equal-earth-paper"])}. Move a country here and its area stays true: only the shape bends a little, as on any flat map.</p>
+  <div class="ts-grid">
+    <div class="mapcol ts-card">
+      <svg id="ts-svg" class="ts-svg" viewBox="${base.viewBox}" role="group" aria-label="Map of Africa in the Equal Earth projection. Shapes of other countries can be dragged over it; the table below gives the areas.">
+        <defs><radialGradient id="tsSea" cx="50%" cy="46%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs>
+        <rect x="${base.box.x}" y="${base.box.y}" width="${base.box.w}" height="${base.box.h}" fill="url(#tsSea)"/>
+        ${base.grat}
+        <g class="ts-africa">${base.countries}</g>
+        <g id="ts-layer"></g>
+      </svg>
+    </div>
+    <div class="ts-side">
+      <p id="ts-nojs" class="fine">Moving the shapes needs JavaScript. The table below gives every area.</p>
+      <div id="ts-chips" class="ts-chips" role="group" aria-label="Shapes to lay over Africa" hidden>${ts.shapes.map((s) => `<button type="button" class="fbtn" data-id="${esc(s.id)}" aria-pressed="false">${esc(s.label)}</button>`).join("")}</div>
+      <p class="fine ts-max">Up to ${MAX} at a time. Drag a shape, or focus it and use the arrow keys (Shift for bigger steps).</p>
+      <ul id="ts-keys" class="ts-keys" aria-label="Shapes on the map"></ul>
+      <p id="ts-out" class="ts-out" aria-live="polite"></p>
+      <p id="ts-note" class="fine" hidden></p>
+      <div class="ts-btns"><button type="button" class="fbtn" id="ts-reset">Put them back on Africa</button><button type="button" class="fbtn" id="ts-clear">Remove all</button></div>
+    </div>
+  </div>
+  <p class="fine">Africa covers about ${esc(mm(ts.africaArea))} on this page, counting every territory Natural Earth draws on the continent${cite(["natural-earth"])}. Areas are calculated here from simplified outlines, so they are close to official figures but not the same.</p>
+</section>
+
+<section class="panel" id="numbers" aria-labelledby="num-h" style="margin-top:24px">
+  <h2 id="num-h">The numbers</h2>
+  <div class="tablewrap"><table class="xtab"><thead><tr><th scope="col">Shape</th><th scope="col">Area</th><th scope="col">Times in Africa</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="fine">Calculated here from the Natural Earth outlines${cite(["natural-earth"])}, using the Equal Earth projection${cite(["equal-earth-paper"])}. Added up, the ${four.map((s) => esc(s.label.replace(/ \(.*\)$/, ""))).join(", ")} cover ${Math.round(fourSum / ts.africaArea * 100)}% of Africa's area. That is a sum of areas, not a claim that the shapes fit without gaps.</p>
+</section>
+
+<section id="sec-gaps" class="gaps panel-gaps" style="margin-top:24px">
+  <span class="layer-tag gap">What this does not show</span>
+  <ul>
+    <li>The outlines are simplified and show de facto boundaries, so the areas are approximate and the map is illustrative, not for navigation.</li>
+    <li>A shape moved here is rotated on the globe and redrawn, so near the edges of the map it can look a little different from the way it appears on a familiar map.</li>
+    <li>Only nine shapes are offered. The 48 contiguous United States leave out Alaska and Hawaii, and the European Union shape is the 27 current member states, checked against the EU's official list${cite(["eu-countries"])} (membership can change; the check is dated in the source note).</li>
+    <li>Size is the only thing compared. It says nothing about population, wealth or importance.</li>
+  </ul>
+</section>
+${sourcesList()}
+</div>
+<script type="application/json" id="ts-data">${JSON.stringify(clientData).replace(/</g, "\\u003c")}</script>`;
+  return layout({ title: `True size · ${config.name}`, description: "Drag countries over Africa on an equal-area map and compare their true size.", depth: 1, current: "true-size", bodyClass: "still", extraScripts: ["truesize.js"], body, jump: [{ id: "ts-h", label: "The map" }, { id: "numbers", label: "The numbers" }, { id: "sec-gaps", label: "Limits" }] });
+}
+write("true-size/index.html", renderTrueSize());
+
+// ---------- pagina Quiz: domande tratte dalle storie e dai dati del sito, senza salvare nulla ----------
+function renderQuiz(list) {
+  // Generatore con seme fisso: lo stesso build produce sempre le stesse domande.
+  let seed = 20261007;
+  const rnd = () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  const shuffle = (a) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
+  const pick = (a, n) => shuffle(a).slice(0, n);
+  const subLabel = Object.fromEntries(config.subregions.map((r) => [r.id, r.label]));
+  const gen = [];
+  // capitali (si escludono i paesi con più di una capitale riconosciuta)
+  const MULTI = new Set(["ZAF", "SWZ", "BEN", "CIV", "TZA"]);
+  for (const c of pick(list.filter((x) => !MULTI.has(x.iso3)), 14)) {
+    const others = pick(list.filter((x) => x.iso3 !== c.iso3 && !MULTI.has(x.iso3) && x.capital !== c.capital), 3).map((x) => x.capital);
+    gen.push({ id: `gen-cap-${c.iso3.toLowerCase()}`, topic: "countries", q: `Which city does the World Bank list as the capital of ${c.name}?`, options: shuffle([c.capital, ...others]), answer: c.capital, explain: `The World Bank lists ${c.capital} as the capital of ${c.name}. Some countries have more than one seat of government, so questions skip those.`, cite: ["wb-countries"] });
+  }
+  // popolazione e area: coppie con un divario netto, così la risposta non dipende dall'arrotondamento
+  const pair = (key, label, unit, fmt, src, n) => {
+    let made = 0, guard = 0;
+    while (made < n && guard++ < 400) {
+      const [a, b] = pick(list, 2);
+      const hi = a[key] >= b[key] ? a : b, lo = hi === a ? b : a;
+      if (hi[key] / lo[key] < 1.5) continue;
+      const id = `gen-${key}-${hi.iso3.toLowerCase()}-${lo.iso3.toLowerCase()}`;
+      if (gen.some((g) => g.id === id)) continue;
+      gen.push({ id, topic: "countries", q: `Which has ${label}: ${a.name} or ${b.name}?`, options: shuffle([a.name, b.name]), answer: hi.name, explain: `${hi.name}: ${fmt(hi[key])}${unit}. ${lo.name}: ${fmt(lo[key])}${unit}. World Bank figures, ${key === "population" ? "2025 estimates" : "2023 values, total area including inland water"}.`, cite: [src] });
+      made++;
+    }
+  };
+  pair("population", "more people", "", (n) => fmtPop(n), "wb-population", 10);
+  pair("area", "the larger area", " km²", (n) => fmtInt(n), "wb-area", 10);
+  // sottoregioni ONU
+  for (const c of pick(list, 10)) {
+    const ids = config.subregions.map((r) => r.id);
+    const options = shuffle(pick(ids.filter((i) => i !== c.subregion), 3).concat(c.subregion)).map((i) => subLabel[i]);
+    gen.push({ id: `gen-sub-${c.iso3.toLowerCase()}`, topic: "countries", q: `In which United Nations statistical subregion is ${c.name}?`, options, answer: subLabel[c.subregion], explain: `The UN statistical division places ${c.name} in ${subLabel[c.subregion]}. The groups are for statistical convenience and imply no political affiliation.`, cite: ["un-m49"] });
+  }
+  // blocchi regionali: i paesi con uno stato incerto o contestato non vengono mai usati
+  const SKIP = new Set(["BFA", "MLI", "NER", "SDN", "GIN", "ESH"]);
+  for (const b of blocsList.filter((x) => x.id !== "au")) {
+    const inB = list.filter((c) => b.members.includes(c.iso3) && !SKIP.has(c.iso3)), outB = list.filter((c) => !b.members.includes(c.iso3) && !SKIP.has(c.iso3));
+    const yesList = pick(inB, 2);
+    for (let k = 0; k < yesList.length; k++) {
+      const yes = yesList[k], no = pick(outB, 3);
+      gen.push({ id: `gen-bloc-${b.id}-${k}`, topic: "blocs", q: `Which of these countries is on the member list of the ${b.name} (${b.short})?`, options: shuffle([yes.name, ...no.map((c) => c.name)]), answer: yes.name, explain: `${yes.name} is on the ${b.short} member list as checked on ${fmtDate(b.verified)}. Membership changes, so the date matters.`, cite: b.cite });
+    }
+  }
+  const curated = data.quiz ? data.quiz.questions : [];
+  const all = [...curated, ...gen];
+  const ids = [...new Set(all.flatMap((x) => x.cite))];
+  const srcOut = Object.fromEntries(ids.map((id) => { const x = sources.get(id); return [id, { title: x.title, publisher: x.publisher, url: x.url, tier: config.tiers[x.tier], status: config.sourceStatus[x.status] || "", weak: x.status !== "verified" }]; }));
+  const topics = [
+    { id: "mixed", label: "A bit of everything", blurb: "Eight questions from every topic." },
+    { id: "myths", label: "Myths and maps", blurb: "Ideas about Africa that the record does not support." },
+    { id: "history", label: "History", blurb: "Aksum, Mali and the written record." },
+    { id: "food", label: "Food", blurb: "Injera and jollof rice." },
+    { id: "countries", label: "Countries", blurb: "Capitals, population, area and regions." },
+    { id: "blocs", label: "Regional blocs", blurb: "Who belongs to which organisation." }
+  ];
+  const counts = Object.fromEntries(topics.map((t) => [t.id, t.id === "mixed" ? all.length : all.filter((x) => x.topic === t.id).length]));
+  const payload = { questions: all.map((x) => ({ id: x.id, t: x.topic, q: x.q, o: x.options, a: x.answer, e: x.explain, c: x.cite, s: x.story ? `../stories/${x.story}/index.html` : "" })), sources: srcOut, rounds: 8 };
+  const body = `${compactHero({ kicker: "Learn", title: "Quiz", sub: "Questions drawn from the stories and figures on this site. Each answer comes with its source." })}
+<div class="wrap section">
+<section class="panel quiz" id="quiz" aria-labelledby="quiz-h">
+  <h2 id="quiz-h">Test what you know</h2>
+  <p class="quiz-intro">Every answer is a fact from this site, with its source beside it. Nothing you answer is saved or sent anywhere: the site sets no cookies and keeps no score once you leave the page.</p>
+  <noscript><p class="fine">The quiz needs JavaScript. The facts it uses are in the <a href="../stories/index.html">stories</a> and on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
+  <div id="quiz-start" hidden>
+    <ul class="quiz-topics">${topics.map((t) => `<li><button type="button" class="quiz-topic" data-topic="${t.id}"><span class="qt-name">${esc(t.label)}</span><span class="qt-blurb">${esc(t.blurb)}</span><span class="qt-n">${counts[t.id]} questions</span></button></li>`).join("")}</ul>
+  </div>
+  <div id="quiz-play" hidden aria-live="polite"></div>
+</section>
+<section id="sec-gaps" class="gaps panel-gaps" style="margin-top:24px">
+  <span class="layer-tag gap">What the quiz is, and is not</span>
+  <ul>
+    <li>The questions about stories rest on the same sources as the stories, and most of those are still Wikipedia articles that have not been checked against stronger sources. The quiz shows each source's status next to the answer.</li>
+    <li>Questions about countries use the World Bank's figures and the UN's statistical groups, as on the Countries page. Capitals, population and area are the World Bank's, and countries with more than one capital are left out.</li>
+    <li>Bloc questions follow each organisation's own member list on the date shown with the answer. Countries whose status is disputed or recently changed are never used in them.</li>
+    <li>It is a way to remember facts, not a measure of knowledge. Where the record is uncertain, the answer says so.</li>
+  </ul>
+</section>
+</div>
+<script type="application/json" id="quiz-data">${JSON.stringify(payload).replace(/</g, "\\u003c")}</script>`;
+  return layout({ title: `Quiz · ${config.name}`, description: "A quiz built from the stories, countries and regional blocs on this site, with a source for every answer.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["quiz.js"], body, jump: [{ id: "quiz-h", label: "The quiz" }, { id: "sec-gaps", label: "Limits" }] });
+}
+write("quiz/index.html", renderQuiz(data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({
@@ -1044,6 +1218,8 @@ fs.copyFileSync(path.join(root, "src", "share.js"), path.join(dist, "share.js"))
 fs.copyFileSync(path.join(root, "src", "motion.js"), path.join(dist, "motion.js"));
 fs.copyFileSync(path.join(root, "src", "fab.js"), path.join(dist, "fab.js"));
 fs.copyFileSync(path.join(root, "src", "places.js"), path.join(dist, "places.js"));
+fs.copyFileSync(path.join(root, "src", "truesize.js"), path.join(dist, "truesize.js"));
+fs.copyFileSync(path.join(root, "src", "quiz.js"), path.join(dist, "quiz.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
 fs.copyFileSync(path.join(root, "node_modules", "motion", "dist", "motion.js"), path.join(dist, "vendor", "motion.js"));

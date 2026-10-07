@@ -1,0 +1,274 @@
+{
+ "page": "blocs",
+ "note": "Membership as listed on each organisation's own website on the verified date. Re-check before publishing a change: membership moves.",
+ "blocs": [
+  {
+   "id": "au",
+   "name": "African Union",
+   "short": "AU",
+   "verified": "2026-10-07",
+   "cite": [
+    "au-members",
+    "au-overview"
+   ],
+   "founded": "Launched in July 2002 in Durban, South Africa, as successor to the Organisation of African Unity, founded in May 1963 in Addis Ababa.",
+   "foundedCite": [
+    "au-overview"
+   ],
+   "membersNote": "The AU's own list has 55 members: these 54 countries and the Sahrawi Republic (Western Sahara), which is not one of the 54 countries this site holds figures for.",
+   "members": [
+    "DZA",
+    "AGO",
+    "BEN",
+    "BWA",
+    "BFA",
+    "BDI",
+    "CPV",
+    "CMR",
+    "CAF",
+    "TCD",
+    "COM",
+    "COG",
+    "CIV",
+    "DJI",
+    "COD",
+    "EGY",
+    "GNQ",
+    "ERI",
+    "SWZ",
+    "ETH",
+    "GAB",
+    "GMB",
+    "GHA",
+    "GIN",
+    "GNB",
+    "KEN",
+    "LSO",
+    "LBR",
+    "LBY",
+    "MDG",
+    "MWI",
+    "MLI",
+    "MRT",
+    "MUS",
+    "MAR",
+    "MOZ",
+    "NAM",
+    "NER",
+    "NGA",
+    "RWA",
+    "STP",
+    "SEN",
+    "SYC",
+    "SLE",
+    "SOM",
+    "ZAF",
+    "SSD",
+    "SDN",
+    "TZA",
+    "TGO",
+    "TUN",
+    "UGA",
+    "ZMB",
+    "ZWE"
+   ]
+  },
+  {
+   "id": "ecowas",
+   "name": "Economic Community of West African States",
+   "short": "ECOWAS",
+   "verified": "2026-10-07",
+   "cite": [
+    "ecowas-members",
+    "ecowas-history"
+   ],
+   "founded": "Founded by the Treaty of Lagos in 1975; the treaty was revised in 1993.",
+   "foundedCite": [
+    "ecowas-history"
+   ],
+   "membersNote": "ECOWAS's member-states page lists these 12. Burkina Faso, Mali and Niger are not on it, and the page does not say why; its introduction still speaks of fifteen countries. Mauritania withdrew in December 2000.",
+   "members": [
+    "BEN",
+    "CPV",
+    "CIV",
+    "GHA",
+    "GIN",
+    "GNB",
+    "LBR",
+    "NGA",
+    "SEN",
+    "SLE",
+    "GMB",
+    "TGO"
+   ]
+  },
+  {
+   "id": "eac",
+   "name": "East African Community",
+   "short": "EAC",
+   "verified": "2026-10-07",
+   "cite": [
+    "eac-overview"
+   ],
+   "founded": "The Treaty was signed on 30 November 1999 and entered into force on 7 July 2000. Somalia became a full member on 4 March 2024.",
+   "foundedCite": [
+    "eac-overview"
+   ],
+   "membersNote": "Eight Partner States.",
+   "members": [
+    "KEN",
+    "UGA",
+    "TZA",
+    "RWA",
+    "BDI",
+    "SSD",
+    "COD",
+    "SOM"
+   ]
+  },
+  {
+   "id": "sadc",
+   "name": "Southern African Development Community",
+   "short": "SADC",
+   "verified": "2026-10-07",
+   "cite": [
+    "sadc-members",
+    "sadc-history"
+   ],
+   "founded": "Began as the Southern African Development Co-ordination Conference in Lusaka on 1 April 1980. The SADC Treaty, signed in Windhoek on 17 August 1992, turned it into SADC.",
+   "foundedCite": [
+    "sadc-history"
+   ],
+   "membersNote": "Sixteen member states.",
+   "members": [
+    "AGO",
+    "BWA",
+    "COM",
+    "COD",
+    "SWZ",
+    "LSO",
+    "MDG",
+    "MWI",
+    "MUS",
+    "MOZ",
+    "NAM",
+    "SYC",
+    "ZAF",
+    "TZA",
+    "ZMB",
+    "ZWE"
+   ]
+  },
+  {
+   "id": "comesa",
+   "name": "Common Market for Eastern and Southern Africa",
+   "short": "COMESA",
+   "verified": "2026-10-07",
+   "cite": [
+    "comesa-members",
+    "comesa-brief"
+   ],
+   "founded": "Began as the Preferential Trade Area for Eastern and Southern Africa in 1981 and became COMESA in 1994.",
+   "foundedCite": [
+    "comesa-brief"
+   ],
+   "membersNote": "Twenty-one member states.",
+   "members": [
+    "BDI",
+    "COM",
+    "COD",
+    "DJI",
+    "EGY",
+    "ERI",
+    "SWZ",
+    "ETH",
+    "KEN",
+    "LBY",
+    "MDG",
+    "MWI",
+    "MUS",
+    "RWA",
+    "SYC",
+    "SOM",
+    "SDN",
+    "TUN",
+    "UGA",
+    "ZMB",
+    "ZWE"
+   ]
+  },
+  {
+   "id": "eccas",
+   "name": "Economic Community of Central African States",
+   "short": "ECCAS",
+   "verified": "2026-10-07",
+   "cite": [
+    "eccas-members"
+   ],
+   "founded": "Founded by a treaty signed in Libreville on 18 October 1983. The treaty was revised in December 2019.",
+   "foundedCite": [
+    "eccas-members"
+   ],
+   "membersNote": "Eleven member states.",
+   "members": [
+    "AGO",
+    "BDI",
+    "CMR",
+    "CAF",
+    "COG",
+    "COD",
+    "GNQ",
+    "GAB",
+    "RWA",
+    "STP",
+    "TCD"
+   ]
+  },
+  {
+   "id": "igad",
+   "name": "Intergovernmental Authority on Development",
+   "short": "IGAD",
+   "verified": "2026-10-07",
+   "cite": [
+    "igad-about",
+    "igad-sudan"
+   ],
+   "founded": "Began as the Intergovernmental Authority on Drought and Development in 1986 and was relaunched as IGAD at a summit in Djibouti in November 1996.",
+   "foundedCite": [
+    "igad-about"
+   ],
+   "membersNote": "Eight member states. On 9 February 2026 IGAD welcomed Sudan resuming full participation after a period away.",
+   "members": [
+    "DJI",
+    "ERI",
+    "ETH",
+    "KEN",
+    "SOM",
+    "SSD",
+    "SDN",
+    "UGA"
+   ]
+  },
+  {
+   "id": "amu",
+   "name": "Arab Maghreb Union",
+   "short": "AMU",
+   "verified": "2026-10-07",
+   "cite": [
+    "uneca-amu"
+   ],
+   "founded": "Founded in February 1989 in Marrakech.",
+   "foundedCite": [
+    "uneca-amu"
+   ],
+   "membersNote": "Five member states. This list comes from the UN Economic Commission for Africa's profile, not from the Union's own site, which was not read.",
+   "members": [
+    "DZA",
+    "LBY",
+    "MRT",
+    "MAR",
+    "TUN"
+   ]
+  }
+ ]
+}
