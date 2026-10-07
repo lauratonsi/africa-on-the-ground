@@ -1,0 +1,222 @@
+{
+  "slug": "lola-ya-bonobo",
+  "status": "published",
+  "type": "nature",
+  "country": "COD",
+  "name": "Lola ya Bonobo",
+  "region": "DR Congo · Kinshasa",
+  "subtitle": "A sanctuary near Kinshasa where orphaned bonobos are raised and, since 2009, released back into the forest.",
+  "coords": {
+    "lat": -4.48694,
+    "lon": 15.26806,
+    "approx": true,
+    "cite": [
+      "wikipedia-lola-ya-bonobo"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Sanctuary for orphaned bonobos",
+      "cite": [
+        "wikipedia-lola-ya-bonobo"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "Petites Chutes de la Lukaya, south of Kimwenza, Kinshasa",
+      "cite": [
+        "wikipedia-lola-ya-bonobo"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Lingala for \"heaven for bonobos\"",
+      "cite": [
+        "wikipedia-lola-ya-bonobo"
+      ]
+    },
+    {
+      "label": "Run by",
+      "value": "Amis des Bonobos du Congo, founded 1994",
+      "cite": [
+        "bonobos-org-founder"
+      ]
+    },
+    {
+      "label": "Sanctuary opened",
+      "value": "2002",
+      "cite": [
+        "bonobos-org-founder"
+      ]
+    },
+    {
+      "label": "First successful release",
+      "value": "2009",
+      "cite": [
+        "bonobos-org-founder",
+        "mongabay-bonobos-2017"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lola ya Bonobo is a sanctuary for orphaned bonobos at the Petites Chutes de la Lukaya, just south of the suburb of Kimwenza in Kinshasa. Its name means \"heaven for bonobos\" in Lingala.",
+              "cite": [
+                "wikipedia-lola-ya-bonobo"
+              ]
+            },
+            {
+              "text": " It describes itself as the world's only sanctuary for orphaned bonobos.",
+              "cite": [
+                "wikipedia-lola-ya-bonobo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Claudine André, who was born in Belgium and grew up in the Democratic Republic of the Congo, volunteered at the Kinshasa zoo and met Mikeno, a sick baby bonobo. Every bonobo orphan before him had died there.",
+              "cite": [
+                "bonobos-org-founder"
+              ]
+            },
+            {
+              "text": " She founded Amis des Bonobos du Congo in 1994 and opened the sanctuary in 2002.",
+              "cite": [
+                "bonobos-org-founder"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Why there are orphans",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conservation journalists report that many orphans are bonobos captured for the bushmeat trade, to become pets or circus animals, and that many likely saw their mothers killed.",
+              "cite": [
+                "mongabay-bonobos-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The charity says baby bonobos refuse to survive without a mother and need affection as well as food and medicine.",
+              "cite": [
+                "bonobos-org-founder"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "release",
+      "title": "Back into the forest",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2009 the sanctuary carried out the first successful bonobo release, and more than 30 bonobos have since been returned to the wild, the charity says.",
+              "cite": [
+                "bonobos-org-founder"
+              ]
+            },
+            {
+              "text": " Released bonobos go to Ekolo ya Bonobo, \"the land of the bonobos\", a forest near Basankusu in the Congo basin.",
+              "cite": [
+                "mongabay-bonobos-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The sources give different sizes for that forest: more than 120,000 acres from the charity, and 20,000 hectares from Mongabay.",
+              "cite": [
+                "bonobos-org-founder",
+                "mongabay-bonobos-2017"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "How many, and how big",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The charity says the sanctuary holds more than 60 bonobos on 75 acres of forest.",
+              "cite": [
+                "bonobos-org-founder"
+              ]
+            },
+            {
+              "text": " Mongabay, in 2017, says more than 70. Wikipedia gives about 60 on 30 hectares.",
+              "cite": [
+                "mongabay-bonobos-2017",
+                "wikipedia-lola-ya-bonobo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The charity says its education work reaches more than 50,000 people a year; Mongabay gives about 20,000 schoolchildren.",
+              "cite": [
+                "bonobos-org-founder",
+                "mongabay-bonobos-2017"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The number of bonobos, the size of the release forest and the audience of the education programme differ between sources, and the card gives each rather than choose. The charity's figures are its own.",
+    "The founding date: the charity dates the organisation to 1994 and the sanctuary to 2002; Mongabay says the sanctuary was founded in 1994.",
+    "Whether the sanctuary can be visited and how: Wikipedia mentions tours and eco-lodges, but no visitor information was read from the sanctuary itself.",
+    "The voices of Congolese staff and neighbours. The sources tell the story through the founder.",
+    "The status of the 2009 release site today and the number of bonobos living there."
+  ],
+  "image": {
+    "file": "lola-ya-bonobo",
+    "alt": "A bonobo sitting among tall grass, its arms folded over its knees, looking at the camera.",
+    "caption": "A bonobo at Lola ya Bonobo.",
+    "credit": "Fanny Schertzer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALola_ya_bonobo_(9).jpg"
+  }
+}

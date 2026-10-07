@@ -1,0 +1,190 @@
+{
+  "slug": "koshari-egypt",
+  "status": "published",
+  "type": "dish",
+  "country": "EGY",
+  "name": "Koshari",
+  "region": "Egypt",
+  "subtitle": "A layered dish of rice, lentils, pasta and chickpeas under tomato sauce and fried onions, sold on Egyptian streets and cooked at home.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Street food and family dish",
+      "cite": [
+        "egyptianstreets-koshari-2021",
+        "sbs-koshari-2021"
+      ]
+    },
+    {
+      "label": "Also spelled",
+      "value": "kushari, koshary",
+      "cite": [
+        "gulfnews-koshari"
+      ]
+    },
+    {
+      "label": "Layers",
+      "value": "rice, lentils, chickpeas and pasta, cooked separately",
+      "cite": [
+        "gulfnews-koshari",
+        "sbs-koshari-2021"
+      ]
+    },
+    {
+      "label": "Toppings",
+      "value": "spiced tomato sauce, fried onions, a hot sauce (shatta) and garlic vinegar (da'ah)",
+      "cite": [
+        "gulfnews-koshari",
+        "egyptianstreets-koshari-2021"
+      ]
+    },
+    {
+      "label": "Often called",
+      "value": "Egypt's national dish",
+      "cite": [
+        "egyptianstreets-koshari-2021"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Disputed: see below",
+      "cite": [
+        "egyptianstreets-koshari-2021",
+        "sbs-koshari-2021",
+        "gulfnews-koshari"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Koshari is a dish of rice, lentils, chickpeas and pasta, all cooked separately without spices, topped with a peppery hot sauce called shatta, a garlicky vinegar called da'ah, and fried onions.",
+              "cite": [
+                "gulfnews-koshari"
+              ]
+            },
+            {
+              "text": " An Egyptian cook describes it as vegan and easy to make for a large family.",
+              "cite": [
+                "sbs-koshari-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A home cook says her tip for a great koshari is to fry the sliced onions first, so that you get a flavoured oil. She makes it most weekends for her children.",
+              "cite": [
+                "sbs-koshari-2021"
+              ]
+            },
+            {
+              "text": " An Egyptian news site calls it often considered Egypt's national dish.",
+              "cite": [
+                "egyptianstreets-koshari-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Street vendors traditionally prepare it, though it can be made at home. Diners who are not full can ask for a \"kemala\", extra spoonfuls.",
+              "cite": [
+                "egyptianstreets-koshari-2021"
+              ]
+            },
+            {
+              "text": " It is also cooked at family gatherings, a home cook says, as \"a dish made with love\".",
+              "cite": [
+                "sbs-koshari-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "Where it comes from: three accounts",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "One account says the dish came from India, where a similar one is called khichri or khichdi, with Indians who accompanied British soldiers to Egypt in the early 1900s, after the First World War; Italian residents are said to have added the pasta.",
+              "cite": [
+                "egyptianstreets-koshari-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A home cook gives another date: British colonialism in 1882, when Indians and Italians were based in Egypt, and Egyptians then added the fried onions and the tomato sauce.",
+              "cite": [
+                "sbs-koshari-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A newspaper puts the Indian link in the 1800s, with Italian workers on the Suez Canal arriving by the mid-1800s, and adds that some historians see koshari as developing from the Egyptian mujaddara, a dish of rice, lentils and crisp caramelised onions.",
+              "cite": [
+                "gulfnews-koshari"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "These accounts differ on the date and on who brought what, and this card does not choose between them.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The origin. The three press articles read give three different dates, from the 1800s to the early 1900s, and none is a historian's study; an Egyptian food historian is needed.",
+    "What Egyptians call koshari at home, which varies from family to family. One cook is quoted, and the others are written for readers abroad.",
+    "Where and when koshari first appeared in Egyptian cookbooks or shops. Nothing read dates its first sale.",
+    "Prices, where to eat it and which places are best known: none of the sources gives them.",
+    "The photograph shows a bowl with sauces on the side; where it was taken is not given on its page."
+  ],
+  "image": {
+    "file": "koshari-egypt",
+    "alt": "A white bowl of koshari piled with fried onions and chickpeas, with a spoon in it and two metal bowls of red sauce beside it.",
+    "caption": "A bowl of koshari with two sauces served alongside.",
+    "credit": "Flickr user: Furibond",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AKoshari_tahrir.jpg"
+  }
+}

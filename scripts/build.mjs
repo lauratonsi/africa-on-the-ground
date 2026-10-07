@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
-import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, countryCodes, countryName } from "./map.mjs";
+import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, countryLocator, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
 import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
 import { spokenLanguages } from "./languages.mjs";
@@ -49,7 +49,9 @@ const types = Object.fromEntries(config.placeTypes.map((t) => [t.id, t]));
 const SHAPE_SVG = {
   circle: '<circle cx="7" cy="7" r="5.5"/>',
   square: '<rect x="1.5" y="1.5" width="11" height="11"/>',
-  diamond: '<rect x="2.5" y="2.5" width="9" height="9" transform="rotate(45 7 7)"/>'
+  diamond: '<rect x="2.5" y="2.5" width="9" height="9" transform="rotate(45 7 7)"/>',
+  triangle: '<path d="M7 1.5 L12.6 12 L1.4 12 Z"/>',
+  hexagon: '<path d="M7 1.2 L12.2 4.1 L12.2 9.9 L7 12.8 L1.8 9.9 L1.8 4.1 Z"/>'
 };
 const typeIcon = (id) => `<svg class="ticon" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">${SHAPE_SVG[types[id].shape]}</svg>`;
 
@@ -513,6 +515,8 @@ const stories = (data.stories || []).map((x) => x.data).filter((x) => includeDra
 const storyHref = (x, p = "") => `${p}stories/${x.slug}/index.html`;
 const wordsOf = (st) => st.sections.reduce((n, sec) => n + sec.blocks.reduce((m, b) => m + (b.parts || b.items || []).reduce((k, x) => k + String(x.text).split(/\s+/).length, 0), 0), 0);
 const readMin = (st) => Math.max(1, Math.round(wordsOf(st) / 200));
+const countrySlug = (name) => name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const cSlug = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, countrySlug(c.name)]));
 const cName = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c.name]));
 
 function storyCard(st, p = "") {
@@ -536,7 +540,7 @@ ${sNotes.length ? `<div class="notes">${sNotes.map((n) => noteCard(n, kindsHere)
 ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, heading: "Add what you know", intro: st.kind === "food" ? "Do you cook this, or call it something else? Tell us." : st.kind === "myth" ? "Where did you meet this idea, and what do you see where you live?" : "Does your family or community know this differently, or know where to read more?", depth: 2 })}
 </section>`;
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
-  const relCountries = (st.countries || []).map((c) => `<a href="../../countries/index.html#c-${esc(c)}">${esc(cName[c] || c)}</a>`).join(", ");
+  const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
   const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
   const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
   const related = relCountries || relPlaces || toolLi ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
@@ -709,6 +713,7 @@ function renderCountries(list) {
     name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
     density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
     rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
+    page: `${cSlug[c.iso3]}/index.html`,
     cards: cardsOf(c.iso3).map((p) => ({ name: p.name, href: `../places/${p.slug}/index.html` })),
     voices: (notes[`country-${c.iso3}`] || []).map((n) => noteCard(n, config.countryNoteKinds || [])).join("")
   }]));
@@ -1225,6 +1230,83 @@ ${sourcesList()}
   return layout({ title: `Languages · ${config.name}`, description: "Fourteen African languages: family, where they are named, and which can be learned on Duolingo.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["share.js"], body, jump: [{ id: "table", label: "The languages" }, { id: "duolingo", label: "Duolingo" }, { id: "phrases", label: "Phrases" }, { id: "share", label: "Add yours" }] });
 }
 write("languages/index.html", renderLanguages(data.countries.countries));
+
+// ---------- una pagina per ogni paese: i dati già nel sito, messi insieme, con le schede e le storie che lo riguardano ----------
+function renderCountryPage(c, list) {
+  const { cite, list: sourcesList } = makeCiter();
+  const profiles = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
+  const pr = profiles[c.iso3] || {};
+  const dec = (t) => String(t || "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  const sub = (config.subregions.find((r) => r.id === c.subregion) || {}).label || "";
+  const den = c.population / c.area;
+  const rankOf = (fn) => [...list].sort((a, b) => fn(b) - fn(a)).findIndex((x) => x.iso3 === c.iso3) + 1;
+  const rPop = rankOf((x) => x.population), rArea = rankOf((x) => x.area), rDen = rankOf((x) => x.population / x.area);
+  const fmtDen = (n) => (n < 10 ? n.toFixed(1) : fmtInt(n));
+  const rel = religionShares(pr.religions || "");
+  const SERIES = [["christian", "Christian"], ["muslim", "Muslim"], ["traditional", "traditional religions"], ["none", "no religion"], ["asian", "Hindu, Buddhist and other Asian religions"]];
+  const relText = rel ? SERIES.filter(([k]) => rel[k] >= 1).sort((a, b) => rel[b[0]] - rel[a[0]]).map(([k, l]) => `${l} ${rel[k] < 1 ? "under 1" : Math.round(rel[k])}%`).join(", ") : "";
+  const gov = dec(pr.government), langs = dec(pr.languages);
+  const official = officialLanguages(pr.languages || "").filter((l) => l.national).map((l) => l.name);
+  const named = spokenLanguages(pr.languages || "").langs.filter((l) => !l.official).map((l) => l.name);
+  const blocs = blocsList.filter((b) => b.members.includes(c.iso3));
+  const cards = published.filter((p) => p.country === c.iso3);
+  const myStories = stories.filter((x) => (x.countries || []).includes(c.iso3));
+  const cNotes = (notes[`country-${c.iso3}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
+  const kinds = config.countryNoteKinds || [];
+
+  const card = (pl) => {
+    const media = pl.image
+      ? `<img src="../../img/places/${esc(pl.image.file)}-800.jpg" alt="${esc(pl.image.alt || "")}" width="800" height="600" loading="lazy">`
+      : art(pl.slug, 3, 2).replace('class="art"', 'class="art pimg-art"');
+    const n = (notes[pl.slug] || []).length;
+    return `<li><a class="place" href="../../places/${esc(pl.slug)}/index.html"><span class="pimg">${media}</span><span class="pbody"><span class="kicker">${esc(pl.region)}</span><span class="pname">${esc(pl.name)}</span><span class="psub">${esc(pl.subtitle)}</span><span class="pmeta">${typeIcon(pl.type)}${esc(types[pl.type].label)} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span></span></a></li>`;
+  };
+  const storyHrefHere = (x) => `../../stories/${x.slug}/index.html`;
+  const kp = [["Population", fmtPop(c.population)], ["Area", `${fmtInt(c.area)} km²`], ["People per km²", fmtDen(den)], ["Rank by population", `${rPop} of ${list.length}`]];
+  const blocCites = blocs.flatMap((b) => b.cite).filter((v, i, a) => a.indexOf(v) === i);
+  const facts = [
+    ["Capital", c.capital, ["wb-countries"]],
+    ["Region", sub, ["un-m49"]],
+    ["Population", `${fmtInt(c.population)}, 2025 estimate`, ["wb-population"]],
+    ["Area", `${fmtInt(c.area)} km², including inland water`, ["wb-area"]],
+    gov ? ["Government", gov, ["cia-factbook"]] : null,
+    official.length ? ["Official languages", official.join(", "), ["cia-factbook"]] : null,
+    named.length ? ["Other African languages named", named.join(", "), ["cia-factbook"]] : null,
+    relText ? ["Religion, share of people", `${relText}${rel.year ? ` (${rel.year} estimate)` : ""}`, ["cia-factbook"]] : (pr.religions ? ["Religion", dec(pr.religions), ["cia-factbook"]] : null),
+    blocs.length ? ["Regional blocs", blocs.map((b) => b.short).join(", "), blocCites] : null
+  ].filter(Boolean).map(([k, v, ids]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${cite(ids)}</dd></div>`).join("");
+  const lede = `${esc(c.name)} is in ${esc(sub)}. Its capital is ${esc(c.capital)}${cite(["wb-countries"])}. About ${esc(fmtPop(c.population))} people live there${cite(["wb-population"])}, on ${esc(fmtInt(c.area))} km²${cite(["wb-area"])}: ${rPop === 1 ? "the most populous" : `number ${rPop} by population`} and number ${rArea} by area of the ${list.length} countries on this site. The sentences and figures on this page are calculated from those sources; the writing about places and people is on the cards and stories below.`;
+  const body = `${compactHero({ kicker: sub, title: c.name, sub: `Capital ${c.capital} · ${fmtPop(c.population)} people` })}
+<div class="wrap section">
+<section class="kpis" aria-label="${esc(c.name)} in four numbers">${kp.map(([k, v]) => `<div class="kpi"><span class="kl">${esc(k)}</span><span class="kv">${esc(v)}</span></div>`).join("")}</section>
+<section class="panel cp" id="facts" aria-labelledby="cp-h" style="margin-top:24px">
+  <h2 id="cp-h">${esc(c.name)} at a glance</h2>
+  <div class="cp-grid">
+    <div><p class="ts-intro">${lede}</p><dl class="facts">${facts}</dl></div>
+    <div class="cp-map">${countryLocator(c.iso3, `Map of Africa with ${c.name} highlighted.`)}</div>
+  </div>
+</section>
+${cards.length ? `<section id="places" class="cp-sec" aria-labelledby="cpl-h"><h2 id="cpl-h">Places in ${esc(c.name)}</h2><ul class="arches cp-cards">${cards.map(card).join("")}</ul></section>` : ""}
+${myStories.length ? `<section id="stories" class="cp-sec" aria-labelledby="cps-h"><h2 id="cps-h">Stories that touch ${esc(c.name)}</h2><ul class="scards">${myStories.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : ""}
+<section id="more" class="cp-sec" aria-labelledby="cpm-h"><h2 id="cpm-h">Keep exploring</h2>
+  <ul class="duo-list"><li><a href="../index.html#c-${esc(c.iso3)}">${esc(c.name)} in the table of all 54 countries</a>, to compare its figures.</li><li><a href="../../society/index.html">Society</a>: faith, government and languages side by side.</li><li><a href="../../quiz/index.html">The quiz</a>, with questions on countries, history and food.</li></ul></section>
+<section class="story-voices" id="voices" aria-labelledby="cpv-h"><span class="layer-tag voi">From people who know ${esc(c.name)}</span><h2 id="cpv-h">What readers add</h2>
+${cNotes.length ? `<div class="notes">${cNotes.map((n) => noteCard(n, kinds)).join("")}</div>` : `<div class="empty"><strong>No local voice on ${esc(c.name)} yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people who know the subject afterwards.</span></div>`}
+${shareSection({ type: "country", id: c.iso3, name: c.name, kinds, heading: `Do you know ${c.name} well?`, intro: "Add what the figures miss, or tell us what looks wrong.", depth: 2 })}
+</section>
+<section id="sec-gaps" class="gaps panel-gaps" style="margin-top:24px">
+  <span class="layer-tag gap">Not yet sourced</span>
+  <ul>
+    <li>Population is an estimate for 2025 and area a 2023 value; neither is a census figure.</li>
+    <li>Government, languages and religions are the World Factbook's words and carry its own estimate years. Language and religion groupings are ours and flatten real differences.</li>
+    <li>This page has no history, daily life or economy of its own yet. Those belong to the place cards and stories, with their own sources and local voices.</li>
+  </ul>
+</section>
+${sourcesList()}
+</div>`;
+  return layout({ title: `${c.name} · ${config.name}`, description: `${c.name}: capital, population, area, languages, religion, regional blocs, places and stories.`, depth: 2, current: "countries", bodyClass: "still", script: false, extraScripts: ["share.js"], body, jump: [{ id: "facts", label: "At a glance" }, ...(cards.length ? [{ id: "places", label: "Places" }] : []), ...(myStories.length ? [{ id: "stories", label: "Stories" }] : []), { id: "voices", label: "Add yours" }] });
+}
+if (data.countries) for (const c of data.countries.countries) write(`countries/${cSlug[c.iso3]}/index.html`, renderCountryPage(c, data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({

@@ -38,3 +38,16 @@ blocs.json   otto blocchi (AU, ECOWAS, EAC, SADC, COMESA, ECCAS, IGAD, AMU). Per
 ../quiz.json domande scritte a mano, ognuna con la fonte della storia da cui viene. Altre domande (capitali, popolazione,
              area, sottoregioni, blocchi) sono generate dal build con un seme fisso, dai dati dei paesi e dei blocchi.
              Il quiz non salva nulla nel browser.
+
+
+DATI DELLE STORIE (2023)
+
+wb-2023.json   popolazione urbana, popolazione e PIL pro capite del 2023 per i 54 paesi (Banca Mondiale). Rigenerabile con
+               node scripts/prepare-wb2023.mjs. Le storie "Do most Africans live in villages?" e "How rich is Africa?" calcolano da qui;
+               se rigeneri i dati, rileggi le cifre scritte nelle storie, che sono nel testo e non si aggiornano da sole.
+glottolog-langs.json   anche il conteggio delle lingue africane ("africaCounts"), usato nella storia sulle lingue.
+
+
+PIATTI
+
+proposed-dishes.json   un piatto proposto per ognuno dei 54 paesi, con livello di fiducia. È una proposta di lavoro e non viene letta dal build.

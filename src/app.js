@@ -348,6 +348,7 @@
       detail.appendChild(pdl);
       detail.appendChild(el("p", "detail-rank", "Rank of " + d.n + ": #" + d.rankPop + " by population, #" + d.rankArea + " by area, #" + d.rankDen + " by density."));
       if (d.voices) { var vb = el("div", "detail-voices"); var vh = el("h4", null, "Notes from people who know " + d.name); vb.appendChild(vh); vb.insertAdjacentHTML("beforeend", d.voices); detail.appendChild(vb); }
+      var pg = el("a", "detail-card", "Open the page of " + d.name); pg.href = d.page; detail.appendChild(pg);
       d.cards.forEach(function (c) { var a = el("a", "detail-card", "Place card: " + c.name); a.href = c.href; detail.appendChild(a); });
       var b = el("button", "detail-clear", "Clear selection"); b.type = "button"; b.addEventListener("click", clear); detail.appendChild(b);
       if (history.replaceState) history.replaceState(null, "", "#c-" + iso);

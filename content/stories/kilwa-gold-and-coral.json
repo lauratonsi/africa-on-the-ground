@@ -1,0 +1,130 @@
+{
+ "slug": "kilwa-gold-and-coral",
+ "status": "published",
+ "kind": "history",
+ "title": "Kilwa: gold, coral and a city on an island",
+ "subtitle": "A city off the coast of today's Tanzania grew rich on the gold trade and was called one of the most beautiful in the world.",
+ "countries": [
+  "TZA"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Stories about African trade often stop at the Sahara. The Indian Ocean coast had its own trading cities.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "city",
+   "title": "The city",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Kilwa was an island off the coast of East Africa, in what is now southern Tanzania, and flourished as an independent city-state from the 12th to the 15th century.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      },
+      {
+       "text": " It could mint its own copper coins from the 11th or 12th century.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade",
+   "title": "What made it rich",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "It exported ivory, tortoise shells, copper, timber, incense, rock crystal, grain and rhino horns.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      },
+      {
+       "text": " Gold from Zimbabwe reached the port of Sofala, which helped make Kilwa the most prosperous of the Swahili coast cities.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "buildings",
+   "title": "Palace and mosque",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Husuni Kubwa palace was a complex of almost 10,000 square metres.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      },
+      {
+       "text": " The Great Mosque, begun in the 14th century, had monolithic coral columns.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Moroccan traveller Ibn Battuta, visiting around 1331, called Kilwa one of the most beautiful towns in the world.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "title": "The decline",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Portuguese forces attacked Kilwa in 1505, leaving many buildings in ruins, and the city's decline began.",
+       "cite": [
+        "worldhistory-kilwa"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "A single encyclopedia article. Dates and the size of the palace should be checked against archaeological reports.",
+  "Nothing here about the people who lived in Kilwa or how the Swahili coast is remembered there today.",
+  "The place's modern state, and whether it is protected, are not covered."
+ ]
+}

@@ -289,6 +289,362 @@
     "wikipedia-jollof-rice"
    ],
    "story": "jollof-rice-a-dish-a-map-and-a-friendly-war"
+  },
+  {
+   "id": "cont-count",
+   "topic": "myths",
+   "q": "How many countries in Africa does the World Bank give figures for?",
+   "options": [
+    "48",
+    "54",
+    "55",
+    "60"
+   ],
+   "answer": "54",
+   "explain": "The World Bank gives figures for 54 countries. The African Union counts 55 members, because it includes the Sahrawi Republic.",
+   "cite": [
+    "wb-countries",
+    "au-members"
+   ],
+   "story": "africa-is-a-continent-not-a-country"
+  },
+  {
+   "id": "cont-ratio",
+   "topic": "myths",
+   "q": "Roughly how many times more people does Nigeria have than Seychelles?",
+   "options": [
+    "About 19 times",
+    "About 190 times",
+    "About 1,900 times",
+    "About 19,000 times"
+   ],
+   "answer": "About 1,900 times",
+   "explain": "Nigeria has about 237.5 million people and Seychelles about 122,700. The ratio is calculated from the World Bank's 2025 estimates.",
+   "cite": [
+    "wb-population"
+   ],
+   "story": "africa-is-a-continent-not-a-country"
+  },
+  {
+   "id": "lang-count",
+   "topic": "myths",
+   "q": "About how many languages does Glottolog list with Africa as their only macroarea?",
+   "options": [
+    "About 54",
+    "About 200",
+    "More than 2,000",
+    "About 10,000"
+   ],
+   "answer": "More than 2,000",
+   "explain": "Glottolog lists 2,373, or 2,264 after leaving out placeholder entries and sign languages. Some are no longer spoken.",
+   "cite": [
+    "glottolog"
+   ],
+   "story": "do-africans-speak-african"
+  },
+  {
+   "id": "lang-family",
+   "topic": "myths",
+   "q": "Which language family holds the most African languages in Glottolog?",
+   "options": [
+    "Afro-Asiatic",
+    "Nilotic",
+    "Atlantic-Congo",
+    "Mande"
+   ],
+   "answer": "Atlantic-Congo",
+   "explain": "Atlantic-Congo holds 1,407 of the 2,264, about 62%. Afro-Asiatic comes second with 313.",
+   "cite": [
+    "glottolog"
+   ],
+   "story": "do-africans-speak-african"
+  },
+  {
+   "id": "berlin-divide",
+   "topic": "history",
+   "q": "Did the Berlin Conference of 1884–85 itself divide Africa between European powers?",
+   "options": [
+    "Yes, it drew the borders on a single map",
+    "No: it set rules for claims, and the partition came later",
+    "Yes, but only West Africa",
+    "No, it was only about trade in Europe"
+   ],
+   "answer": "No: it set rules for claims, and the partition came later",
+   "explain": "The article says the conference \"did not actually divide the continent\" but gave a framework by which Africa could later be partitioned.",
+   "cite": [
+    "worldhistory-berlin"
+   ],
+   "story": "did-one-conference-carve-up-africa"
+  },
+  {
+   "id": "berlin-who",
+   "topic": "history",
+   "q": "How many African kingdoms or states sent representatives to the Berlin Conference?",
+   "options": [
+    "One",
+    "Three",
+    "Five",
+    "None"
+   ],
+   "answer": "None",
+   "explain": "Fourteen states were represented, and there were no representatives from the African kingdoms, states and cultures whose territories were affected.",
+   "cite": [
+    "worldhistory-berlin"
+   ],
+   "story": "did-one-conference-carve-up-africa"
+  },
+  {
+   "id": "urban-share",
+   "topic": "myths",
+   "q": "About what share of people in Africa lived in urban areas in 2023?",
+   "options": [
+    "About 15%",
+    "About 45%",
+    "About 75%",
+    "About 90%"
+   ],
+   "answer": "About 45%",
+   "explain": "About 672 million of about 1,478 million people, calculated from World Bank figures. In 23 of the 54 countries more than half were urban.",
+   "cite": [
+    "wb-urban-2023",
+    "wb-population-2023"
+   ],
+   "story": "do-most-africans-live-in-villages"
+  },
+  {
+   "id": "urban-gabon",
+   "topic": "myths",
+   "q": "Which of these countries had the highest urban share of its population in 2023?",
+   "options": [
+    "Malawi",
+    "Niger",
+    "Ethiopia",
+    "Gabon"
+   ],
+   "answer": "Gabon",
+   "explain": "Gabon was at about 92%. Malawi, at about 17%, had the lowest of the 54.",
+   "cite": [
+    "wb-urban-2023",
+    "wb-population-2023"
+   ],
+   "story": "do-most-africans-live-in-villages"
+  },
+  {
+   "id": "gdp-top",
+   "topic": "myths",
+   "q": "Which of these countries had the highest GDP per person in 2023?",
+   "options": [
+    "Nigeria",
+    "Seychelles",
+    "Egypt",
+    "Ethiopia"
+   ],
+   "answer": "Seychelles",
+   "explain": "About $18,131, in current US dollars. The lowest was Burundi at about $250.",
+   "cite": [
+    "wb-gdp-pc-2023"
+   ],
+   "story": "how-rich-is-africa"
+  },
+  {
+   "id": "adwa-year",
+   "topic": "history",
+   "q": "In which year did Ethiopia defeat Italy at the Battle of Adwa?",
+   "options": [
+    "1884",
+    "1896",
+    "1914",
+    "1935"
+   ],
+   "answer": "1896",
+   "explain": "The battle was fought on 1 March 1896. Italy then signed the Treaty of Addis Ababa, which recognised Ethiopia's sovereignty.",
+   "cite": [
+    "sahistory-adwa",
+    "wikipedia-battle-of-adwa"
+   ],
+   "story": "was-all-of-africa-colonised"
+  },
+  {
+   "id": "two-exceptions",
+   "topic": "history",
+   "q": "Which two African countries were outside European control in 1914?",
+   "options": [
+    "Egypt and Morocco",
+    "Ethiopia and Liberia",
+    "Ghana and Nigeria",
+    "Sudan and Libya"
+   ],
+   "answer": "Ethiopia and Liberia",
+   "explain": "By 1914 the whole continent, apart from Abyssinia (Ethiopia) and Liberia, came under European control.",
+   "cite": [
+    "worldhistory-berlin"
+   ],
+   "story": "was-all-of-africa-colonised"
+  },
+  {
+   "id": "kush-founder",
+   "topic": "history",
+   "q": "Who was the first Kushite to take the Egyptian throne and found the 25th Dynasty, about 750 BCE?",
+   "options": [
+    "Kashta",
+    "Ashurbanipal",
+    "Tutankhamun",
+    "Arkamani I"
+   ],
+   "answer": "Kashta",
+   "explain": "Kushite control of Egypt lasted until the Assyrian invasion by Ashurbanipal in 666 BCE.",
+   "cite": [
+    "worldhistory-kush"
+   ],
+   "story": "kush-the-kingdom-that-ruled-egypt"
+  },
+  {
+   "id": "kilwa-battuta",
+   "topic": "history",
+   "q": "What did the traveller Ibn Battuta call Kilwa around 1331?",
+   "options": [
+    "A small fishing village",
+    "One of the most beautiful towns in the world",
+    "A city of gold and ivory only",
+    "The capital of Zanzibar"
+   ],
+   "answer": "One of the most beautiful towns in the world",
+   "explain": "He visited around 1331. The Portuguese attacked Kilwa in 1505, leaving many buildings in ruins.",
+   "cite": [
+    "worldhistory-kilwa"
+   ],
+   "story": "kilwa-gold-and-coral"
+  },
+  {
+   "id": "cassava-origin",
+   "topic": "food",
+   "q": "Where did cassava originate?",
+   "options": [
+    "Ethiopia",
+    "South America",
+    "India",
+    "West Africa"
+   ],
+   "answer": "South America",
+   "explain": "Wild populations are centred in west-central Brazil. Portuguese traders introduced it to Africa in the 16th century.",
+   "cite": [
+    "wikipedia-cassava"
+   ],
+   "story": "cassava-the-american-crop-africa-eats"
+  },
+  {
+   "id": "potopoto-founder",
+   "topic": "history",
+   "q": "Who founded the Poto-Poto School of Painting in Brazzaville in 1951?",
+   "options": [
+    "Nicolas Ondongo",
+    "Pierre Lods",
+    "Guy Léon Fylla",
+    "Félix Ossali"
+   ],
+   "answer": "Pierre Lods",
+   "explain": "A French amateur painter. Nicolas Ondongo and Guy Léon Fylla led the cooperative formed after 1960, and Félix Ossali is the painter whose blue birds, in Lods's account, started it.",
+   "cite": [
+    "rhodes-potopoto"
+   ]
+  },
+  {
+   "id": "conhill-court",
+   "topic": "history",
+   "q": "What opened at Constitution Hill in Johannesburg on 21 March 2004, Human Rights Day?",
+   "options": [
+    "A new prison",
+    "The Constitutional Court",
+    "The national parliament",
+    "A railway station"
+   ],
+   "answer": "The Constitutional Court",
+   "explain": "The old prison there had closed on 31 January 1983. Constitution Hill opened to the public the next day.",
+   "cite": [
+    "constitutionhill-history"
+   ]
+  },
+  {
+   "id": "bibalex-capacity",
+   "topic": "history",
+   "q": "How many volumes can the Bibliotheca Alexandrina hold, before using compact storage to expand?",
+   "options": [
+    "500,000",
+    "1 million",
+    "4 million",
+    "20 million"
+   ],
+   "answer": "4 million",
+   "explain": "Up to 4 million volumes, and 8 million with compact storage, say the architects.",
+   "cite": [
+    "snohetta-bibalex"
+   ]
+  },
+  {
+   "id": "zakouma-fall",
+   "topic": "myths",
+   "q": "In Zakouma National Park, about how much did the elephant population fall between 2002 and 2010?",
+   "options": [
+    "About 10%",
+    "About 40%",
+    "About 90%",
+    "It did not fall"
+   ],
+   "answer": "About 90%",
+   "explain": "From more than 4,000 elephants in 2002 to about 400 in 2010, a drop of 90 per cent. It has since recovered.",
+   "cite": [
+    "natgeo-zakouma-2017"
+   ]
+  },
+  {
+   "id": "thieb-unesco",
+   "topic": "food",
+   "q": "In December 2021 UNESCO added which Senegalese dish to its list of the Intangible Cultural Heritage of Humanity?",
+   "options": [
+    "Mafé",
+    "Thieboudienne",
+    "Yassa",
+    "Jollof with chicken"
+   ],
+   "answer": "Thieboudienne",
+   "explain": "In Wolof, ceebu jën means \"rice with fish\". UNESCO said the recipe and techniques are traditionally passed down from mother to daughter.",
+   "cite": [
+    "afp-thieboudienne-2021"
+   ]
+  },
+  {
+   "id": "seswaa-who",
+   "topic": "food",
+   "q": "In Botswana, seswaa, a pounded meat dish for weddings and funerals, is described as prepared mainly by whom?",
+   "options": [
+    "Men",
+    "Children",
+    "Only the guests",
+    "Women only"
+   ],
+   "answer": "Men",
+   "explain": "A student writing about Botswana says it is prepared by men; another source describes several people pounding the meat together.",
+   "cite": [
+    "ciee-seswaa",
+    "chaloafrica-seswaa"
+   ]
+  },
+  {
+   "id": "cachupa-base",
+   "topic": "food",
+   "q": "What is the base of cachupa, the stew linked with Cabo Verde?",
+   "options": [
+    "Corn and beans",
+    "Rice and fish",
+    "Cassava and peanuts",
+    "Wheat and lentils"
+   ],
+   "answer": "Corn and beans",
+   "explain": "Corn like hominy is boiled for hours and combined with beans, meat or fish, and vegetables.",
+   "cite": [
+    "revista-cachupa",
+    "brown-memorydishes-cachupa"
+   ]
   }
  ]
 }

@@ -1,0 +1,109 @@
+{
+ "slug": "do-most-africans-live-in-villages",
+ "status": "published",
+ "kind": "myth",
+ "title": "Do most Africans live in villages?",
+ "subtitle": "About 45 in every 100 Africans lived in a town or city in 2023, and in 23 of the 54 countries most people did.",
+ "countries": [],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The picture of Africa as a continent of villages is old and sticks. Village life is real for very many people. It is not the whole picture.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "title": "What the numbers say",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In 2023 about 672 million people in the 54 countries lived in urban areas, out of about 1,478 million.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      },
+      {
+       "text": " That is about 45%, calculated here by adding the countries' figures.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In 23 of the 54 countries, more than half the people were urban.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      },
+      {
+       "text": " Counted this way, the other 31 were mostly rural.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "range",
+   "title": "Two very different Africas",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The urban share runs from about 17% in Malawi to about 92% in Gabon.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      },
+      {
+       "text": " Niger, South Sudan and Ethiopia are below 25%; Libya is at 88%.",
+       "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "So \"most Africans live in villages\" is true of some countries and false of others, and the share moves with every year.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The figures follow each country's own definition of urban, which differs from country to country; we have not compared those definitions here.",
+  "The sums and percentages are our own arithmetic on 2023 World Bank values. The 2025 population on the Countries page is a different year.",
+  "The data say how many people live in places counted as urban, not how those places look or what work people do there."
+ ]
+}

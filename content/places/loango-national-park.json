@@ -1,0 +1,166 @@
+{
+  "slug": "loango-national-park",
+  "status": "published",
+  "type": "nature",
+  "country": "GAB",
+  "name": "Loango National Park",
+  "region": "Gabon · western coast",
+  "subtitle": "A coastal park in Gabon where forest elephants, buffalo and hippos walk out onto the beach.",
+  "coords": {
+    "lat": -2.1667,
+    "lon": 9.5667,
+    "approx": true,
+    "cite": [
+      "wikipedia-loango"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "National park",
+      "cite": [
+        "wikipedia-loango"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "1,550 km²",
+      "cite": [
+        "wikipedia-loango"
+      ]
+    },
+    {
+      "label": "Established",
+      "value": "2002",
+      "cite": [
+        "wikipedia-loango"
+      ]
+    },
+    {
+      "label": "Coast",
+      "value": "over 100 km of uninhabited coastline",
+      "cite": [
+        "wikipedia-loango"
+      ]
+    },
+    {
+      "label": "Managed by",
+      "value": "National Agency for National Parks",
+      "cite": [
+        "wikipedia-loango"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Loango National Park lies in western Gabon, between the Nkomi and Ndogo lagoons, and covers 1,550 square kilometres. It was established in 2002.",
+              "cite": [
+                "wikipedia-loango"
+              ]
+            },
+            {
+              "text": " It protects savanna, beach, forest and mangrove, including part of the 220 km² Iguéla Lagoon, and more than 100 kilometres of uninhabited coastline.",
+              "cite": [
+                "wikipedia-loango"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conservation reporters call it a pristine forest-savanna mosaic.",
+              "cite": [
+                "mongabay-gabon-parks-2005"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "title": "Wildlife",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Elephants, buffalo, hippopotamuses, gorillas and leopards live on land, and humpback and killer whales in the sea. The park is known for elephants, buffalo, hippos, gorillas and leopards going out onto the beaches.",
+              "cite": [
+                "wikipedia-loango"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parks",
+      "title": "One of thirteen parks",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gabon set aside 13 national parks, more than 10,000 square miles and about 10% of the country. The Wildlife Conservation Society had done field research in Gabon since 1985 and helped plan the parks through surveys of remote areas.",
+              "cite": [
+                "mongabay-gabon-parks-2005"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Mongabay report is dated September 2005 and speaks of the parks as announced then; Wikipedia gives 2002 for Loango's establishment. The sources do not agree on the timeline.",
+              "cite": [
+                "mongabay-gabon-parks-2005",
+                "wikipedia-loango"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conservationists in the report describe resolving conflicts between loggers and preservationists, with the scientist Lee White steering logging away from the most sensitive areas.",
+              "cite": [
+                "mongabay-gabon-parks-2005"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "When the parks were created. The two sources read give 2002 (for Loango) and September 2005 (for the announcement of the 13 parks); neither is an official Gabonese document.",
+    "The state of the park and its animals today. No count of elephants or other wildlife was read, and the sources are a 2005 news report and Wikipedia.",
+    "Who lives around the park and how it affects them. The sources read are written from the conservation side.",
+    "Whether and how it can be visited, which lodges operate there and what they cost. Nothing about access was read.",
+    "The coordinates are Wikipedia's for the park as a whole, not an entrance."
+  ],
+  "image": {
+    "file": "loango-national-park",
+    "alt": "A forest elephant and a calf walking across short green grass, with dark forest behind them.",
+    "caption": "A forest elephant with her calf in Loango National Park.",
+    "credit": "Kurt Dundy at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGabon_Loango_National_Park_Elephant_with_offspring.jpeg"
+  }
+}

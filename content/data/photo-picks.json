@@ -243,5 +243,60 @@
   "file": "Virunga National Park Landscape.jpg",
   "alt": "The dark silhouette of a volcanic peak at dusk, a small cloud above its summit lit gold by the setting sun.",
   "caption": "A Virunga volcano at dusk."
+ },
+ "roca-sundy": {
+  "file": "SUN - Information panel about the 1919 eclipse at Roca Sundy, Principe, 2021.jpg",
+  "alt": "An information panel at Roça Sundy with portraits of Eddington and Einstein and diagrams of the 1919 eclipse photographs, standing on grass.",
+  "caption": "The information panel about the 1919 eclipse at Roça Sundy, photographed in 2021."
+ },
+ "lola-ya-bonobo": {
+  "file": "Lola ya bonobo (9).jpg",
+  "alt": "A bonobo sitting among tall grass, its arms folded over its knees, looking at the camera.",
+  "caption": "A bonobo at Lola ya Bonobo."
+ },
+ "zakouma-national-park": {
+  "file": "Girafe du parc national de Zakouma.jpg",
+  "alt": "A giraffe walking through dry grass with scattered trees behind it.",
+  "caption": "A giraffe in Zakouma National Park."
+ },
+ "poto-poto-school-brazzaville": {
+  "file": "Ecole de peinture de Poto-Poto Brazzaville 01.jpg",
+  "alt": "A yellow sign over a gate under trees, reading Ecole de peinture de Poto-Poto, founded in 1951 by Pierre Lods.",
+  "caption": "The sign over the entrance of the Poto-Poto School of Painting, Brazzaville."
+ },
+ "loango-national-park": {
+  "file": "Gabon Loango National Park Elephant with offspring.jpeg",
+  "alt": "A forest elephant and a calf walking across short green grass, with dark forest behind them.",
+  "caption": "A forest elephant with her calf in Loango National Park."
+ },
+ "constitution-hill-johannesburg": {
+  "file": "ConstitutionalCourtofSouthAfrica-entrance-20070622.jpg",
+  "alt": "A wall at the entrance of the Constitutional Court covered with rows of coloured letters, with a blue tiled border.",
+  "caption": "The entrance wall of the Constitutional Court on Constitution Hill, 2007."
+ },
+ "bibliotheca-alexandrina": {
+  "file": "Egypt, Alexandria, Bibliotheca Alexandrina.jpg",
+  "alt": "The tilted roof of the Bibliotheca Alexandrina with its skylights, beside the granite wall carved with signs, and palm trees along the sea front.",
+  "caption": "The tilted roof and carved granite wall of the Bibliotheca Alexandrina."
+ },
+ "koshari-egypt": {
+  "file": "Koshari tahrir.jpg",
+  "alt": "A white bowl of koshari piled with fried onions and chickpeas, with a spoon in it and two metal bowls of red sauce beside it.",
+  "caption": "A bowl of koshari with two sauces served alongside."
+ },
+ "thieboudienne-senegal": {
+  "file": "Senegalese Thieboudienne.JPG",
+  "alt": "A large steel bowl of orange-brown rice with whole pieces of fish, carrot, cassava, aubergine and chilli laid on top.",
+  "caption": "A bowl of thieboudienne, rice with fish and vegetables."
+ },
+ "cachupa-cabo-verde": {
+  "file": "Cachupa em Sal Rei.jpg",
+  "alt": "A large white dish of cachupa, a pale stew with corn kernels, beans and pieces of meat, with a ladle resting in it.",
+  "caption": "Cachupa served at Sal Rei, on the island of Boa Vista."
+ },
+ "seswaa-botswana": {
+  "file": "Seswaa avec bogobe.jpg",
+  "alt": "A plate with shredded dark meat, beans and a pale portion of maize porridge, and a fork held over it.",
+  "caption": "A plate of seswaa with beans and porridge."
  }
 }

@@ -940,3 +940,17 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .ph h3 { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-size: 1.1rem; }
 .ph-t { font-family: var(--f-record); font-weight: 400; color: var(--ink-soft); }
 .ph-m { margin: 4px 0 8px; font-size: .94rem; }
+
+/* ---------- pagina di un paese ---------- */
+.cp-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 40px); align-items: start; margin-top: 16px; }
+.cp-map { position: sticky; top: 16px; }
+.locator { display: block; width: 100%; height: auto; }
+.locator .else { fill: color-mix(in srgb, var(--ink) 14%, transparent); stroke: var(--paper); stroke-width: .8; }
+.locator .here { fill: var(--viz-2); stroke: var(--ink); stroke-width: 1.2; }
+.cp .facts { margin-top: 18px; }
+.cp-sec { margin-top: 36px; }
+.cp-sec h2 { margin: 0 0 14px; font-weight: 800; font-size: clamp(1.4rem, 3vw, 1.9rem); letter-spacing: -0.03em; }
+.cp-cards { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: 22px; align-items: start; }
+.cp-cards .pimg { aspect-ratio: 4 / 3; }
+.cp-cards .pimg img, .cp-cards .pimg .art { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media (max-width: 52rem) { .cp-grid { grid-template-columns: minmax(0, 1fr); } .cp-map { position: static; max-width: 22rem; } }

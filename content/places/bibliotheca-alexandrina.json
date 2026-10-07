@@ -1,0 +1,175 @@
+{
+  "slug": "bibliotheca-alexandrina",
+  "status": "published",
+  "type": "culture",
+  "country": "EGY",
+  "name": "Bibliotheca Alexandrina",
+  "region": "Egypt · Alexandria",
+  "subtitle": "A library on the Mediterranean in Alexandria, opened in 2002 to recall the spirit of the ancient library, in a tilted granite-walled disc.",
+  "coords": {
+    "lat": 31.20889,
+    "lon": 29.90917,
+    "approx": true,
+    "cite": [
+      "wikipedia-bibalex"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Library and cultural complex",
+      "cite": [
+        "bibalex-overview",
+        "snohetta-bibalex"
+      ]
+    },
+    {
+      "label": "Opened",
+      "value": "2002",
+      "cite": [
+        "snohetta-bibalex-anniversary"
+      ]
+    },
+    {
+      "label": "Architects",
+      "value": "Snøhetta, winners of an international competition",
+      "cite": [
+        "snohetta-bibalex"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "160 m across, 32 m high, 12 m below ground",
+      "cite": [
+        "snohetta-bibalex"
+      ]
+    },
+    {
+      "label": "Capacity",
+      "value": "4 million volumes, expandable to 8 million",
+      "cite": [
+        "snohetta-bibalex"
+      ]
+    },
+    {
+      "label": "Main reading room",
+      "value": "20,000 m² for 2,000 readers",
+      "cite": [
+        "snohetta-bibalex"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The New Library of Alexandria is dedicated, in its own words, to recapturing the spirit of openness and scholarship of the original Bibliotheca Alexandrina.",
+              "cite": [
+                "bibalex-about"
+              ]
+            },
+            {
+              "text": " It officially opened in 2002.",
+              "cite": [
+                "snohetta-bibalex-anniversary"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "The design",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The architects say an international competition in 1988 drew 1,300 architects from 77 countries, with 524 entries reviewed, and was won by the young and unknown practice Snøhetta.",
+              "cite": [
+                "snohetta-bibalex"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The building is a tilted circular form, 160 metres in diameter, 32 metres high and extending 12 metres underground, with 80,000 square metres of floor.",
+              "cite": [
+                "snohetta-bibalex"
+              ]
+            },
+            {
+              "text": " Its granite wall of nearly 6,000 square metres carries around 4,000 unique characters from various alphabets, symbols, musical and mathematical notation, Braille and bar-codes.",
+              "cite": [
+                "snohetta-bibalex"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "title": "What is inside",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The library can hold up to 4 million volumes, and 8 million with compact storage. The reading room spreads over 20,000 square metres and seats 2,000 readers.",
+              "cite": [
+                "snohetta-bibalex"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The library's own overview lists six specialised libraries, four museums (Antiquities, Manuscripts, Sadat and History of Science), a planetarium science centre, a children's ALEXploratorium, twelve academic research centres, an arts centre, sixteen permanent exhibitions and a conference centre.",
+              "cite": [
+                "bibalex-overview"
+              ]
+            },
+            {
+              "text": " It says the complex receives about 1.5 million visitors a year; the architects give one million.",
+              "cite": [
+                "bibalex-overview",
+                "snohetta-bibalex"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The numbers differ between sources: visitors per year, and the competition year (1988 on the architects' page; other accounts say 1989). The card gives what each source says.",
+    "How the library is used by people in Alexandria, and who comes: the sources read are the architects' and the library's own descriptions.",
+    "How many books it actually holds today. The sources give capacity, not the collection.",
+    "What the library's relationship is to the ancient library beyond its own statement of intent; no history of the ancient library is told here.",
+    "The coordinates are Wikipedia's for the complex, not an entrance."
+  ],
+  "image": {
+    "file": "bibliotheca-alexandrina",
+    "alt": "The tilted roof of the Bibliotheca Alexandrina with its skylights, beside the granite wall carved with signs, and palm trees along the sea front.",
+    "caption": "The tilted roof and carved granite wall of the Bibliotheca Alexandrina.",
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AEgypt%2C_Alexandria%2C_Bibliotheca_Alexandrina.jpg"
+  }
+}

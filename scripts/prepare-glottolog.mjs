@@ -36,7 +36,21 @@ for (const [id, code] of Object.entries(WANT)) {
   if (!r) throw new Error(`Codice ${code} non trovato per ${id}`);
   out[id] = { glottocode: code, name: r.Name, level: r.Level, iso: r.ISO639P3code || null, family: (by[r.Family_ID] || {}).Name || null, macroarea: r.Macroarea };
 }
+// Quante lingue ha l'Africa secondo Glottolog: livello "language", con l'Africa come unica macroarea, senza le voci
+// "Bookkeeping" (segnaposto) e le lingue dei segni, che Glottolog classifica a parte. Include alcune lingue non più parlate.
+const af = rec.filter((r) => r.Level === "language" && r.Macroarea === "Africa");
+const famOf = (r) => (by[r.Family_ID] || {}).Name || null;
+const core = af.filter((r) => !["Bookkeeping", "Sign Language"].includes(famOf(r)));
+const fams = {};
+for (const r of core) { const f = famOf(r) || "(isolate)"; fams[f] = (fams[f] || 0) + 1; }
+const africaCounts = {
+  asListed: af.length, afterLeavingOut: core.length,
+  families: Object.keys(fams).filter((f) => f !== "(isolate)").length, isolates: fams["(isolate)"] || 0,
+  atlanticCongo: fams["Atlantic-Congo"], afroAsiatic: fams["Afro-Asiatic"],
+  note: "Languages (not dialects) with Africa as their only macroarea, leaving out Glottolog's bookkeeping entries and sign languages. Some are no longer spoken."
+};
 fs.writeFileSync(path.join(root, "content", "data", "glottolog-langs.json"), JSON.stringify({
-  source: "Glottolog (CLDF export, languages.csv)", license: "CC BY 4.0", retrieved: new Date().toISOString().slice(0, 10), languages: out
+  source: "Glottolog (CLDF export, languages.csv)", license: "CC BY 4.0", retrieved: new Date().toISOString().slice(0, 10), africaCounts, languages: out
 }, null, 1) + "\n");
+console.log(africaCounts);
 console.log(JSON.stringify(out, null, 1));

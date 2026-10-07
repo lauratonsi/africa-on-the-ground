@@ -1,0 +1,165 @@
+{
+  "slug": "cachupa-cabo-verde",
+  "status": "published",
+  "type": "dish",
+  "country": "CPV",
+  "name": "Cachupa",
+  "region": "Cabo Verde",
+  "subtitle": "A slow-cooked stew of corn, beans, vegetables and meat or fish, the dish Cape Verdeans cook for family and carry abroad.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Slow-cooked corn and bean stew",
+      "cite": [
+        "revista-cachupa",
+        "brown-memorydishes-cachupa"
+      ]
+    },
+    {
+      "label": "Base",
+      "value": "corn similar to hominy, beans, vegetables, meat or fish",
+      "cite": [
+        "revista-cachupa",
+        "brown-memorydishes-cachupa"
+      ]
+    },
+    {
+      "label": "Cooking time",
+      "value": "about six hours, in one family's account",
+      "cite": [
+        "brown-memorydishes-cachupa"
+      ]
+    },
+    {
+      "label": "Versions",
+      "value": "cachupa pobre (for the poor) and cachupa rica (for the rich)",
+      "cite": [
+        "revista-cachupa"
+      ]
+    },
+    {
+      "label": "Also spelled",
+      "value": "katxupa, manchup",
+      "cite": [
+        "brown-memorydishes-cachupa"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cachupa is a corn-based dish presented as Cape Verde's national food. White and yellow corn like hominy is boiled for hours, then combined with beans, meat and vegetables.",
+              "cite": [
+                "revista-cachupa"
+              ]
+            },
+            {
+              "text": " The essay's list is lima beans, pork, beef, chicken, yams, turnips, potatoes and cabbage.",
+              "cite": [
+                "revista-cachupa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brown University's oral-history project describes it as a slow-cooked stew of beans, greens, corn, and meat or fish that takes six hours.",
+              "cite": [
+                "brown-memorydishes-cachupa"
+              ]
+            },
+            {
+              "text": " It varies from island to island and has several spellings: cachupa, katxupa, manchup.",
+              "cite": [
+                "brown-memorydishes-cachupa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "In the kitchen",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Harvard essay recalls a weekend event: shopping at the market, preparing the stew outdoors while women sang traditional songs, and eating in stages. Small children could be fed the clear broth, and leftover meat was often fried with eggs for breakfast.",
+              "cite": [
+                "revista-cachupa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It describes two versions, cachupa pobre and cachupa rica, the second with more ingredients.",
+              "cite": [
+                "revista-cachupa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abroad",
+      "title": "Cachupa abroad",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A Cape Verdean family in Providence, Rhode Island says the stew has nourished them through the independence movement, migration to Portugal and their life in the United States. One grandmother taught that you always made food for more than two extra people, in case someone walked by.",
+              "cite": [
+                "brown-memorydishes-cachupa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The family now makes separate meat and vegan versions for different members, and a smaller pot as their once-concentrated community has scattered.",
+              "cite": [
+                "brown-memorydishes-cachupa"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The history of the dish. The two sources are an essay and an oral-history page; neither traces its origins, and claims found elsewhere about its roots in slavery or Portuguese cooking were not read in a source and are not made here.",
+    "How cachupa differs between the islands, and what is eaten in everyday life in Cabo Verde today. Both accounts come from people who write from abroad or from a Cape Verdean family in the United States.",
+    "Quantities and a method: the sources describe the dish and its meaning, not a recipe.",
+    "Where it is sold, and what it costs.",
+    "The photograph shows a serving of the stew; where it was taken is given on its page only as Sal Rei."
+  ],
+  "image": {
+    "file": "cachupa-cabo-verde",
+    "alt": "A large white dish of cachupa, a pale stew with corn kernels, beans and pieces of meat, with a ladle resting in it.",
+    "caption": "Cachupa served at Sal Rei, on the island of Boa Vista.",
+    "credit": "Adriao",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACachupa_em_Sal_Rei.jpg"
+  }
+}

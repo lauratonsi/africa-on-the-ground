@@ -1,0 +1,134 @@
+{
+ "slug": "do-africans-speak-african",
+ "status": "published",
+ "kind": "myth",
+ "title": "Do Africans speak \"African\"?",
+ "subtitle": "There is no language called African. Glottolog lists more than 2,000 of them, in 43 families.",
+ "countries": [
+  "NGA"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Some people say a person speaks \"African\", as if the continent had one language. It has more than two thousand.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "title": "What the count says",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Glottolog, a reference database of the world's languages, lists 2,373 languages with Africa as their only macroarea.",
+       "cite": [
+        "glottolog"
+       ]
+      },
+      {
+       "text": " Leaving out its placeholder entries and the sign languages it files apart, 2,264 remain; some of them are no longer spoken.",
+       "cite": [
+        "glottolog"
+       ]
+      },
+      {
+       "text": " Both counts come from the database's data file, as read for this site.",
+       "cite": [
+        "glottolog"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Those 2,264 belong to 43 families, and another 15 are isolates with no known relatives.",
+       "cite": [
+        "glottolog"
+       ]
+      },
+      {
+       "text": " The largest family, Atlantic-Congo, holds 1,407 of them, about 62%. Afro-Asiatic, which includes Hausa and Amharic, holds 313.",
+       "cite": [
+        "glottolog"
+       ]
+      },
+      {
+       "text": " The percentage is calculated here.",
+       "cite": [
+        "glottolog"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "one",
+   "title": "In one country",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The World Factbook's entry for Nigeria lists English (official), Hausa, Yoruba, Igbo and Fulani, and then adds \"over 500 additional indigenous languages\".",
+       "cite": [
+        "cia-factbook"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "official",
+   "title": "What \"official\" means",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "English is marked official in 22 of the 54 countries, French in 20, Arabic in 12 and Portuguese in 6, according to the Factbook's wording.",
+       "cite": [
+        "cia-factbook"
+       ]
+      },
+      {
+       "text": " Those counts are made on the Society page of this site, and leave out languages the Factbook marks only as regional or working languages.",
+       "cite": [
+        "cia-factbook"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "An official language is the one the state uses for law and schools. It is not necessarily the one people speak at home.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Glottolog's boundary between a language and a dialect is a scholarly choice, and other databases give different totals. Some of the 2,264 are extinct or nearly so.",
+  "The count uses entries with Africa as their only macroarea; languages shared with another macroarea, such as Arabic, are not in it.",
+  "The Factbook writes languages differently from country to country: some entries list a dozen, others name none. Official-language counts use its wording and our reading of it."
+ ]
+}

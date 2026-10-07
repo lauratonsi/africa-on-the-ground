@@ -1,0 +1,149 @@
+{
+ "slug": "was-all-of-africa-colonised",
+ "status": "published",
+ "kind": "history",
+ "title": "Was all of Africa colonised? Ethiopia and the battle of Adwa",
+ "subtitle": "By 1914 only Ethiopia and Liberia were outside European control. Ethiopia won its place on the battlefield, in 1896.",
+ "countries": [
+  "ETH"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Many people learn that the whole continent fell under European rule. Almost all of it did, but not all.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "two",
+   "title": "Two exceptions",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "By 1914 the whole continent, apart from Abyssinia (Ethiopia) and Liberia, came under European control.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "battle",
+   "title": "1 March 1896",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The Battle of Adwa was fought on 1 March 1896 near the town of Adwa in northern Ethiopia, between Italian forces and an army led by Emperor Menelik II and Empress Taytu.",
+       "cite": [
+        "sahistory-adwa",
+        "wikipedia-battle-of-adwa"
+       ]
+      },
+      {
+       "text": " The Italian commander was General Oreste Baratieri.",
+       "cite": [
+        "wikipedia-battle-of-adwa"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The numbers differ by source. One puts the Ethiopian army at about 100,000 and the Italian at 20,000.",
+       "cite": [
+        "sahistory-adwa"
+       ]
+      },
+      {
+       "text": " Another gives 73,000 to over 100,000 Ethiopians against roughly 14,500 to 17,800 Italian combat troops, with about 6,000 Italians killed and 3,865 captured.",
+       "cite": [
+        "wikipedia-battle-of-adwa"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Ethiopia's victory was decisive.",
+       "cite": [
+        "sahistory-adwa"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "treaty",
+   "title": "A treaty in two versions",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The 1889 Treaty of Wuchale was written in two languages with different meaning. The Italian version of Article 17 said Ethiopia had to conduct its foreign affairs through Italy, making it a protectorate; the Amharic version said the emperor could use Italy's help if he wished.",
+       "cite": [
+        "sahistory-adwa",
+        "wikipedia-battle-of-adwa"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "After the battle Italy signed the Treaty of Addis Ababa, which recognised Ethiopia's sovereignty, and that sovereignty held until the Second Italo-Ethiopian War forty years later.",
+       "cite": [
+        "wikipedia-battle-of-adwa"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "title": "Why it mattered",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The victory was quickly recognised as a victory for Black people everywhere and became a symbol of African resistance to European colonial pursuit.",
+       "cite": [
+        "sahistory-adwa"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Army sizes and casualties differ between the two sources, and we give both rather than choose.",
+  "The two sources disagree on the year Menelik denounced the Wuchale treaty, so it is left out.",
+  "Liberia is named only as the other exception, with no account of its own history; that is a story for another page.",
+  "Neither source is a specialist history of Ethiopia, and the Italian side is told only through these two."
+ ]
+}

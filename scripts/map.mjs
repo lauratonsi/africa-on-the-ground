@@ -48,6 +48,8 @@ function pin(place, p, types, { cur, dim, labelSide }) {
   const t = types[place.type] || { shape: "circle", label: place.type };
   const shape = t.shape === "square" ? '<rect x="-8" y="-8" width="16" height="16"/>'
     : t.shape === "diamond" ? '<rect x="-8" y="-8" width="16" height="16" transform="rotate(45)"/>'
+    : t.shape === "triangle" ? '<path d="M0 -11 L10 7 L-10 7 Z"/>'
+    : t.shape === "hexagon" ? '<path d="M0 -11 L10 -5.5 L10 5.5 L0 11 L-10 5.5 L-10 -5.5 Z"/>'
     : '<circle r="9"/>';
   const cls = ["pin", place.status === "draft" ? "draft" : "", cur ? "cur" : "", dim ? "dim" : ""].filter(Boolean).join(" ");
   const label = place.name + (place.coords.approx ? " (approximate position)" : "");
@@ -225,4 +227,14 @@ export function trueSizeBase() {
     grat: `<path class="grat" d="${grat.join("")}"/><path class="eq" d="M${equator.map((p) => pt(p[0], p[1])).join("L")}"/>`,
     lim: [-30, -42, 72, 52]
   };
+}
+
+// ---------- Mappa di localizzazione: l'Africa in grigio con un paese evidenziato (pagina di ogni paese) ----------
+export function countryLocator(iso3, label) {
+  const p = projection({ lon0: -19, lon1: 52, lat0: -36, lat1: 38 }, 520);
+  const land = africa.countries.map((shape) => {
+    const iso = shape.a3 in SHAPE_ISO ? SHAPE_ISO[shape.a3] : shape.a3;
+    return `<path class="${iso === iso3 ? "here" : "else"}" d="${shapePath(shape.rings, p)}"/>`;
+  }).join("");
+  return `<svg class="locator" viewBox="0 0 ${p.width} ${p.height}" role="img" aria-label="${esc(label)}"><g fill-rule="evenodd">${land}</g></svg>`;
 }

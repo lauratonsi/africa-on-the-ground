@@ -230,6 +230,16 @@
       "id": "dish",
       "label": "Dish",
       "shape": "diamond"
+    },
+    {
+      "id": "nature",
+      "label": "Nature and wildlife",
+      "shape": "triangle"
+    },
+    {
+      "id": "culture",
+      "label": "Culture and institutions",
+      "shape": "hexagon"
     }
   ],
   "subregions": [

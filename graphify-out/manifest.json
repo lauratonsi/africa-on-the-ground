@@ -1,0 +1,1178 @@
+{
+  ".mcp.json": {
+    "mtime": 1791373040.6199143,
+    "seen": 1791412218.193045,
+    "ast_hash": "d14d2c85d99319c3acc22b34633b8cec",
+    "semantic_hash": "d14d2c85d99319c3acc22b34633b8cec"
+  },
+  "content/data/africa-countries.json": {
+    "mtime": 1791389439.213457,
+    "seen": 1791412218.1930492,
+    "ast_hash": "438e65a45e53165d0f7f28907f3fc004",
+    "semantic_hash": "438e65a45e53165d0f7f28907f3fc004"
+  },
+  "content/data/africa-profiles.json": {
+    "mtime": 1791389417.9348507,
+    "seen": 1791412218.1930518,
+    "ast_hash": "b7618bd2be5d4ed3953996e823e23609",
+    "semantic_hash": "b7618bd2be5d4ed3953996e823e23609"
+  },
+  "content/data/blocs.json": {
+    "mtime": 1791408515.2714198,
+    "seen": 1791412218.193053,
+    "ast_hash": "0bd1d4b30518189fe4c47a74a5c28625",
+    "semantic_hash": "0bd1d4b30518189fe4c47a74a5c28625"
+  },
+  "content/data/duolingo.json": {
+    "mtime": 1791410469.8966014,
+    "seen": 1791412218.193054,
+    "ast_hash": "1fc2b6c9589215bedf742568ffe69cc6",
+    "semantic_hash": "1fc2b6c9589215bedf742568ffe69cc6"
+  },
+  "content/data/glottolog-langs.json": {
+    "mtime": 1791411283.0337887,
+    "seen": 1791412218.193055,
+    "ast_hash": "a267d92bba2095e56894b7873b4fd8b8",
+    "semantic_hash": "a267d92bba2095e56894b7873b4fd8b8"
+  },
+  "content/data/iso2.json": {
+    "mtime": 1791374920.408701,
+    "seen": 1791412218.193056,
+    "ast_hash": "7bc97b25f58734bc47eb5de92610f401",
+    "semantic_hash": "7bc97b25f58734bc47eb5de92610f401"
+  },
+  "content/data/photo-picks.json": {
+    "mtime": 1791411963.154571,
+    "seen": 1791412218.193057,
+    "ast_hash": "91cd963d6333b53fdb49126e37983449",
+    "semantic_hash": "91cd963d6333b53fdb49126e37983449"
+  },
+  "content/data/proposed-sites.json": {
+    "mtime": 1791374335.0292275,
+    "seen": 1791412218.193057,
+    "ast_hash": "28367f40c5c53635f9bfbfa5e394aaef",
+    "semantic_hash": "28367f40c5c53635f9bfbfa5e394aaef"
+  },
+  "content/data/true-size.json": {
+    "mtime": 1791407419.860905,
+    "seen": 1791412218.193058,
+    "ast_hash": "6b30c43bd1541d56a36f7ec8df69f481",
+    "semantic_hash": "6b30c43bd1541d56a36f7ec8df69f481"
+  },
+  "content/data/unesco-whc-africa.json": {
+    "mtime": 1791375100.5574155,
+    "seen": 1791412218.193059,
+    "ast_hash": "a8077d6a5eac9da20e635b2e5238b665",
+    "semantic_hash": "a8077d6a5eac9da20e635b2e5238b665"
+  },
+  "content/data/wb-2023.json": {
+    "mtime": 1791411515.760686,
+    "seen": 1791412218.1930602,
+    "ast_hash": "4f2f08dc11bbfffb14a7f7688a66f229",
+    "semantic_hash": "4f2f08dc11bbfffb14a7f7688a66f229"
+  },
+  "content/notes/aapravasi-ghat.json": {
+    "mtime": 1791374074.9259865,
+    "seen": 1791412218.193061,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/albert-market-banjul.json": {
+    "mtime": 1791304680.982343,
+    "seen": 1791412218.1930618,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/aldabra-atoll.json": {
+    "mtime": 1791374074.9274259,
+    "seen": 1791412218.193063,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata.json": {
+    "mtime": 1791374074.9257097,
+    "seen": 1791412218.193064,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/asmara.json": {
+    "mtime": 1791374074.9231064,
+    "seen": 1791412218.193065,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/bijagos-archipelago.json": {
+    "mtime": 1791374074.9244246,
+    "seen": 1791412218.193065,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/boma-badingilo-migratory-landscape.json": {
+    "mtime": 1791374074.9278853,
+    "seen": 1791412218.193066,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/casbah-of-algiers.json": {
+    "mtime": 1791374074.919897,
+    "seen": 1791412218.193067,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/chongoni-rock-art-area.json": {
+    "mtime": 1791374074.9253824,
+    "seen": 1791412218.193068,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/cidade-velha.json": {
+    "mtime": 1791374074.9214776,
+    "seen": 1791412218.193069,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/diy-gid-biy-cultural-landscape-of-the-mandara-mountains.json": {
+    "mtime": 1791374074.9216592,
+    "seen": 1791412218.1930702,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/domoda.json": {
+    "mtime": 1791304680.9826734,
+    "seen": 1791412218.1930711,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/forest-massif-of-odzala-kokoua.json": {
+    "mtime": 1791374074.922403,
+    "seen": 1791412218.193072,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/forts-and-castles-of-ghana.json": {
+    "mtime": 1791374074.924068,
+    "seen": 1791412218.193072,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/gishora-drum-sanctuary.json": {
+    "mtime": 1791374335.031687,
+    "seen": 1791412218.193074,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/gola-tiwai-complex.json": {
+    "mtime": 1791374074.92757,
+    "seen": 1791412218.193074,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/great-zimbabwe-national-monument.json": {
+    "mtime": 1791374074.929141,
+    "seen": 1791412218.193075,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/historic-centre-of-agadez.json": {
+    "mtime": 1791374074.9266098,
+    "seen": 1791412218.193076,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/historic-town-of-grand-bassam.json": {
+    "mtime": 1791374074.9226046,
+    "seen": 1791412218.193077,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/island-of-goree.json": {
+    "mtime": 1791374074.9272647,
+    "seen": 1791412218.193078,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/island-of-meroe.json": {
+    "mtime": 1791374074.9280596,
+    "seen": 1791412218.193079,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/island-of-mozambique.json": {
+    "mtime": 1791374074.9263053,
+    "seen": 1791412218.193079,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/koutammakou.json": {
+    "mtime": 1791374074.928427,
+    "seen": 1791412218.19308,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/kunta-kinteh-island.json": {
+    "mtime": 1791301998.0,
+    "seen": 1791412218.1930811,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/laas-geel.json": {
+    "mtime": 1791374335.033423,
+    "seen": 1791412218.193082,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/lake-assal.json": {
+    "mtime": 1791374335.031874,
+    "seen": 1791412218.1930828,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/lakes-of-ounianga.json": {
+    "mtime": 1791374074.922024,
+    "seen": 1791412218.193084,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/lamu-old-town.json": {
+    "mtime": 1791374074.9247217,
+    "seen": 1791412218.193084,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/leptis-magna.json": {
+    "mtime": 1791374074.925062,
+    "seen": 1791412218.193085,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/lope-okanda.json": {
+    "mtime": 1791374074.9238653,
+    "seen": 1791412218.193086,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/maloti-drakensberg-park.json": {
+    "mtime": 1791374074.924905,
+    "seen": 1791412218.1930869,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/manovo-gounda-st-floris-national-park.json": {
+    "mtime": 1791374074.9218404,
+    "seen": 1791412218.193088,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/mantenga-nature-reserve-and-cultural-village.json": {
+    "mtime": 1791374335.0330184,
+    "seen": 1791412218.193089,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/mbanza-kongo.json": {
+    "mtime": 1791374074.9200885,
+    "seen": 1791412218.19309,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/medina-of-fez.json": {
+    "mtime": 1791374074.926139,
+    "seen": 1791412218.1930912,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/medina-of-tunis.json": {
+    "mtime": 1791374074.928597,
+    "seen": 1791412218.1930912,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/medinas-of-the-historical-sultanates-of-the-comoros.json": {
+    "mtime": 1791374074.922229,
+    "seen": 1791412218.193092,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/memorial-sites-of-the-genocide-in-rwanda.json": {
+    "mtime": 1791374074.926936,
+    "seen": 1791412218.193093,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/memphis-and-its-necropolis.json": {
+    "mtime": 1791374074.9229417,
+    "seen": 1791412218.1930938,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/monte-alen-national-park.json": {
+    "mtime": 1791374335.0328407,
+    "seen": 1791412218.193095,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/mosi-oa-tunya-victoria-falls.json": {
+    "mtime": 1791374074.9289646,
+    "seen": 1791412218.193095,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/mount-nimba-strict-nature-reserve.json": {
+    "mtime": 1791374074.924242,
+    "seen": 1791412218.193096,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/old-towns-of-djenne.json": {
+    "mtime": 1791374074.9255307,
+    "seen": 1791412218.1930969,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/osun-osogbo-sacred-grove.json": {
+    "mtime": 1791374074.9267607,
+    "seen": 1791412218.193098,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/providence-island.json": {
+    "mtime": 1791374335.0331814,
+    "seen": 1791412218.193099,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/robben-island.json": {
+    "mtime": 1791374074.927723,
+    "seen": 1791412218.1931,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/rock-hewn-churches-of-lalibela.json": {
+    "mtime": 1791374074.9232857,
+    "seen": 1791412218.1931,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/royal-hill-of-ambohimanga.json": {
+    "mtime": 1791374074.9252174,
+    "seen": 1791412218.1931012,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/royal-palaces-of-abomey.json": {
+    "mtime": 1791374074.920303,
+    "seen": 1791412218.1931021,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/ruins-of-loropeni.json": {
+    "mtime": 1791374074.9212809,
+    "seen": 1791412218.193103,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/stone-town-of-zanzibar.json": {
+    "mtime": 1791374074.92825,
+    "seen": 1791412218.1931038,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/the-rocas-of-sao-tome-and-principe.json": {
+    "mtime": 1791374074.9271069,
+    "seen": 1791412218.193105,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/tombs-of-buganda-kings-at-kasubi.json": {
+    "mtime": 1791374074.9287906,
+    "seen": 1791412218.193105,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/tsodilo.json": {
+    "mtime": 1791374074.9204872,
+    "seen": 1791412218.193106,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/twyfelfontein.json": {
+    "mtime": 1791374074.9264588,
+    "seen": 1791412218.193107,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/virunga-national-park.json": {
+    "mtime": 1791374074.922776,
+    "seen": 1791412218.193108,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/notes/wassu-stone-circles.json": {
+    "mtime": 1791304680.9820852,
+    "seen": 1791412218.193109,
+    "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
+    "semantic_hash": "58e0494c51d30eb3494f7c9198986bb9"
+  },
+  "content/places/aapravasi-ghat.json": {
+    "mtime": 1791393337.9507294,
+    "seen": 1791412218.19311,
+    "ast_hash": "a8308631e69217ab5fab4a93ed4fdeb6",
+    "semantic_hash": "a8308631e69217ab5fab4a93ed4fdeb6"
+  },
+  "content/places/albert-market-banjul.json": {
+    "mtime": 1791309438.8055727,
+    "seen": 1791412218.19311,
+    "ast_hash": "4bef3b1a2fecd04899486b6d55ca166b",
+    "semantic_hash": "4bef3b1a2fecd04899486b6d55ca166b"
+  },
+  "content/places/aldabra-atoll.json": {
+    "mtime": 1791392144.6576138,
+    "seen": 1791412218.193111,
+    "ast_hash": "ff4e840cd0d862babd64c8992aa57c51",
+    "semantic_hash": "ff4e840cd0d862babd64c8992aa57c51"
+  },
+  "content/places/ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata.json": {
+    "mtime": 1791393273.542092,
+    "seen": 1791412218.1931121,
+    "ast_hash": "b84dc458f91927d97a5815f5586fa9cc",
+    "semantic_hash": "b84dc458f91927d97a5815f5586fa9cc"
+  },
+  "content/places/asmara.json": {
+    "mtime": 1791392066.411086,
+    "seen": 1791412218.193113,
+    "ast_hash": "64abe4ede45f0ade9a48551a852f8a4f",
+    "semantic_hash": "64abe4ede45f0ade9a48551a852f8a4f"
+  },
+  "content/places/bijagos-archipelago.json": {
+    "mtime": 1791392322.1899552,
+    "seen": 1791412218.193114,
+    "ast_hash": "39185aee82e69c8b76aa656ff9d6f783",
+    "semantic_hash": "39185aee82e69c8b76aa656ff9d6f783"
+  },
+  "content/places/boma-badingilo-migratory-landscape.json": {
+    "mtime": 1791393337.9515796,
+    "seen": 1791412218.193114,
+    "ast_hash": "0334e2a5c27767cd25bbbcc710db5977",
+    "semantic_hash": "0334e2a5c27767cd25bbbcc710db5977"
+  },
+  "content/places/casbah-of-algiers.json": {
+    "mtime": 1791392066.409046,
+    "seen": 1791412218.193115,
+    "ast_hash": "a6f15103669af551207ce249e9793cef",
+    "semantic_hash": "a6f15103669af551207ce249e9793cef"
+  },
+  "content/places/chongoni-rock-art-area.json": {
+    "mtime": 1791392322.1943412,
+    "seen": 1791412218.193116,
+    "ast_hash": "ed54a4ffc475a01412261e2810888050",
+    "semantic_hash": "ed54a4ffc475a01412261e2810888050"
+  },
+  "content/places/cidade-velha.json": {
+    "mtime": 1791383359.3102055,
+    "seen": 1791412218.193117,
+    "ast_hash": "efb11a9b87a570114c2ca39055b58db9",
+    "semantic_hash": "efb11a9b87a570114c2ca39055b58db9"
+  },
+  "content/places/diy-gid-biy-cultural-landscape-of-the-mandara-mountains.json": {
+    "mtime": 1791389230.9749045,
+    "seen": 1791412218.1931179,
+    "ast_hash": "ab1a2f741d8be3b5eea98f282cf50a54",
+    "semantic_hash": "ab1a2f741d8be3b5eea98f282cf50a54"
+  },
+  "content/places/domoda.json": {
+    "mtime": 1791304680.98259,
+    "seen": 1791412218.193119,
+    "ast_hash": "418f01e92da2f5d09a1b0137355299d1",
+    "semantic_hash": "418f01e92da2f5d09a1b0137355299d1"
+  },
+  "content/places/forest-massif-of-odzala-kokoua.json": {
+    "mtime": 1791389226.3549674,
+    "seen": 1791412218.19312,
+    "ast_hash": "a8cc293f0be451594a78870cccf03c35",
+    "semantic_hash": "a8cc293f0be451594a78870cccf03c35"
+  },
+  "content/places/forts-and-castles-of-ghana.json": {
+    "mtime": 1791383359.3117726,
+    "seen": 1791412218.193121,
+    "ast_hash": "c9fd8c951de3cc86f9edccd674bf785b",
+    "semantic_hash": "c9fd8c951de3cc86f9edccd674bf785b"
+  },
+  "content/places/gishora-drum-sanctuary.json": {
+    "mtime": 1791392391.976433,
+    "seen": 1791412218.193121,
+    "ast_hash": "89ad79e6b75b08ad81305aec4ed440cf",
+    "semantic_hash": "89ad79e6b75b08ad81305aec4ed440cf"
+  },
+  "content/places/gola-tiwai-complex.json": {
+    "mtime": 1791392391.9755485,
+    "seen": 1791412218.1931221,
+    "ast_hash": "79f7254798cc226d33b9c632d2f7549d",
+    "semantic_hash": "79f7254798cc226d33b9c632d2f7549d"
+  },
+  "content/places/great-zimbabwe-national-monument.json": {
+    "mtime": 1791383359.3131616,
+    "seen": 1791412218.193123,
+    "ast_hash": "95489f4383a46d1df18a06d7cd2b0075",
+    "semantic_hash": "95489f4383a46d1df18a06d7cd2b0075"
+  },
+  "content/places/historic-centre-of-agadez.json": {
+    "mtime": 1791392144.6561174,
+    "seen": 1791412218.193125,
+    "ast_hash": "6d8666296fb09d16f3d6c510cb6ceed8",
+    "semantic_hash": "6d8666296fb09d16f3d6c510cb6ceed8"
+  },
+  "content/places/historic-town-of-grand-bassam.json": {
+    "mtime": 1791392322.1912203,
+    "seen": 1791412218.193126,
+    "ast_hash": "01cae57a665ffc425d42150a77d1f0c1",
+    "semantic_hash": "01cae57a665ffc425d42150a77d1f0c1"
+  },
+  "content/places/island-of-goree.json": {
+    "mtime": 1791383359.3144827,
+    "seen": 1791412218.193126,
+    "ast_hash": "5516167d6a8861504648ddc429bb61f0",
+    "semantic_hash": "5516167d6a8861504648ddc429bb61f0"
+  },
+  "content/places/island-of-meroe.json": {
+    "mtime": 1791392066.4085202,
+    "seen": 1791412218.193127,
+    "ast_hash": "c9f88bc015a85f0a33da52006399ef7f",
+    "semantic_hash": "c9f88bc015a85f0a33da52006399ef7f"
+  },
+  "content/places/island-of-mozambique.json": {
+    "mtime": 1791392144.6581256,
+    "seen": 1791412218.1931279,
+    "ast_hash": "ed72de60f9cd62f16462c41c4ff63045",
+    "semantic_hash": "ed72de60f9cd62f16462c41c4ff63045"
+  },
+  "content/places/koutammakou.json": {
+    "mtime": 1791383359.3154306,
+    "seen": 1791412218.193129,
+    "ast_hash": "516ff2050cad31f70b4c92c678edd502",
+    "semantic_hash": "516ff2050cad31f70b4c92c678edd502"
+  },
+  "content/places/kunta-kinteh-island.json": {
+    "mtime": 1791378405.253368,
+    "seen": 1791412218.19313,
+    "ast_hash": "e1d5e1852a1d96e733d30d0cf38c8804",
+    "semantic_hash": "e1d5e1852a1d96e733d30d0cf38c8804"
+  },
+  "content/places/laas-geel.json": {
+    "mtime": 1791392452.7302902,
+    "seen": 1791412218.19313,
+    "ast_hash": "ce2d0901e8d505b75d714ecb0d30bbbd",
+    "semantic_hash": "ce2d0901e8d505b75d714ecb0d30bbbd"
+  },
+  "content/places/lake-assal.json": {
+    "mtime": 1791392322.1919572,
+    "seen": 1791412218.193131,
+    "ast_hash": "f11cbebf1d369e0c83679688eddb78dc",
+    "semantic_hash": "f11cbebf1d369e0c83679688eddb78dc"
+  },
+  "content/places/lakes-of-ounianga.json": {
+    "mtime": 1791383359.3171651,
+    "seen": 1791412218.193132,
+    "ast_hash": "c380c24b2d7560f1949c0d794adfa3c2",
+    "semantic_hash": "c380c24b2d7560f1949c0d794adfa3c2"
+  },
+  "content/places/lamu-old-town.json": {
+    "mtime": 1791392066.408014,
+    "seen": 1791412218.193133,
+    "ast_hash": "e3b9e3167e47f4208937eece4ad63552",
+    "semantic_hash": "e3b9e3167e47f4208937eece4ad63552"
+  },
+  "content/places/leptis-magna.json": {
+    "mtime": 1791392144.6554277,
+    "seen": 1791412218.193134,
+    "ast_hash": "561b1a1c6d5e714de6626f60773f3e69",
+    "semantic_hash": "561b1a1c6d5e714de6626f60773f3e69"
+  },
+  "content/places/lola-ya-bonobo.json": {
+    "mtime": 1791411971.3991835,
+    "seen": 1791412218.193135,
+    "ast_hash": "8d231907094b47bc47d056bbd237f06c",
+    "semantic_hash": "8d231907094b47bc47d056bbd237f06c"
+  },
+  "content/places/lope-okanda.json": {
+    "mtime": 1791393446.9015155,
+    "seen": 1791412218.1931362,
+    "ast_hash": "33fe667eddb0589ea2144346e1d99568",
+    "semantic_hash": "33fe667eddb0589ea2144346e1d99568"
+  },
+  "content/places/maloti-drakensberg-park.json": {
+    "mtime": 1791392452.7313366,
+    "seen": 1791412218.1931362,
+    "ast_hash": "e7343672cae83243ad580b515bf2bc60",
+    "semantic_hash": "e7343672cae83243ad580b515bf2bc60"
+  },
+  "content/places/manovo-gounda-st-floris-national-park.json": {
+    "mtime": 1791393273.5414436,
+    "seen": 1791412218.193137,
+    "ast_hash": "0c3cc3c8c19ff3f350ace1daa2e0ecd2",
+    "semantic_hash": "0c3cc3c8c19ff3f350ace1daa2e0ecd2"
+  },
+  "content/places/mantenga-nature-reserve-and-cultural-village.json": {
+    "mtime": 1791374335.032941,
+    "seen": 1791412218.193138,
+    "ast_hash": "f3b9a13621a77ee2d951095fcaf4ef68",
+    "semantic_hash": "f3b9a13621a77ee2d951095fcaf4ef68"
+  },
+  "content/places/mbanza-kongo.json": {
+    "mtime": 1791393273.5434513,
+    "seen": 1791412218.1931388,
+    "ast_hash": "522fcbcaf674d1fc669fb882b2f12954",
+    "semantic_hash": "522fcbcaf674d1fc669fb882b2f12954"
+  },
+  "content/places/medina-of-fez.json": {
+    "mtime": 1791392066.409627,
+    "seen": 1791412218.19314,
+    "ast_hash": "8b98dc0ddc54d8618bf1ea17c063d85f",
+    "semantic_hash": "8b98dc0ddc54d8618bf1ea17c063d85f"
+  },
+  "content/places/medina-of-tunis.json": {
+    "mtime": 1791392144.6593444,
+    "seen": 1791412218.193141,
+    "ast_hash": "5519e8a518cbca693d06d669e6eb753b",
+    "semantic_hash": "5519e8a518cbca693d06d669e6eb753b"
+  },
+  "content/places/medinas-of-the-historical-sultanates-of-the-comoros.json": {
+    "mtime": 1791393337.9499485,
+    "seen": 1791412218.193142,
+    "ast_hash": "b8ac5eb63d80fb7e06a8580c5438ac4d",
+    "semantic_hash": "b8ac5eb63d80fb7e06a8580c5438ac4d"
+  },
+  "content/places/memorial-sites-of-the-genocide-in-rwanda.json": {
+    "mtime": 1791392144.6586833,
+    "seen": 1791412218.193142,
+    "ast_hash": "67432e35fa994c58e84608472b12ba27",
+    "semantic_hash": "67432e35fa994c58e84608472b12ba27"
+  },
+  "content/places/memphis-and-its-necropolis.json": {
+    "mtime": 1791392144.6599028,
+    "seen": 1791412218.1931431,
+    "ast_hash": "bae697d108bf8a2ae33188064846e098",
+    "semantic_hash": "bae697d108bf8a2ae33188064846e098"
+  },
+  "content/places/monte-alen-national-park.json": {
+    "mtime": 1791393337.949326,
+    "seen": 1791412218.193144,
+    "ast_hash": "20ff2c0eae5ad528975670eaa31bfe15",
+    "semantic_hash": "20ff2c0eae5ad528975670eaa31bfe15"
+  },
+  "content/places/mosi-oa-tunya-victoria-falls.json": {
+    "mtime": 1791391791.3458807,
+    "seen": 1791412218.193145,
+    "ast_hash": "f7ecc925f1b4c4b7244c526169ce0a04",
+    "semantic_hash": "f7ecc925f1b4c4b7244c526169ce0a04"
+  },
+  "content/places/mount-nimba-strict-nature-reserve.json": {
+    "mtime": 1791393273.5427508,
+    "seen": 1791412218.1931462,
+    "ast_hash": "af1ce7d8004a1d7b09dde2e03a6cf894",
+    "semantic_hash": "af1ce7d8004a1d7b09dde2e03a6cf894"
+  },
+  "content/places/old-towns-of-djenne.json": {
+    "mtime": 1791383359.3222358,
+    "seen": 1791412218.1931462,
+    "ast_hash": "009b84cf9e6b923b0187e2e7fd712a71",
+    "semantic_hash": "009b84cf9e6b923b0187e2e7fd712a71"
+  },
+  "content/places/osun-osogbo-sacred-grove.json": {
+    "mtime": 1791392066.4103467,
+    "seen": 1791412218.193147,
+    "ast_hash": "f12a0fbf3f0e924e94f4be13552239c7",
+    "semantic_hash": "f12a0fbf3f0e924e94f4be13552239c7"
+  },
+  "content/places/providence-island.json": {
+    "mtime": 1791393446.9022264,
+    "seen": 1791412218.193148,
+    "ast_hash": "841685655e5a0eb65360cb66cc42f659",
+    "semantic_hash": "841685655e5a0eb65360cb66cc42f659"
+  },
+  "content/places/robben-island.json": {
+    "mtime": 1791391791.345153,
+    "seen": 1791412218.1931489,
+    "ast_hash": "3d02be0a2929f8de9fe8fcf083746b43",
+    "semantic_hash": "3d02be0a2929f8de9fe8fcf083746b43"
+  },
+  "content/places/roca-sundy.json": {
+    "mtime": 1791411967.320145,
+    "seen": 1791412218.19315,
+    "ast_hash": "41c12a6db7747f1d5440180e5981f0c8",
+    "semantic_hash": "41c12a6db7747f1d5440180e5981f0c8"
+  },
+  "content/places/rock-hewn-churches-of-lalibela.json": {
+    "mtime": 1791392322.1893148,
+    "seen": 1791412218.193151,
+    "ast_hash": "df57199dd422e4d20cfb49e0bfc367fd",
+    "semantic_hash": "df57199dd422e4d20cfb49e0bfc367fd"
+  },
+  "content/places/royal-hill-of-ambohimanga.json": {
+    "mtime": 1791383359.3237581,
+    "seen": 1791412218.193151,
+    "ast_hash": "031388ba99c2f186c77f0dddccb6717f",
+    "semantic_hash": "031388ba99c2f186c77f0dddccb6717f"
+  },
+  "content/places/royal-palaces-of-abomey.json": {
+    "mtime": 1791383359.3241596,
+    "seen": 1791412218.193152,
+    "ast_hash": "02442aba41e4d5e28d9a4093f8099285",
+    "semantic_hash": "02442aba41e4d5e28d9a4093f8099285"
+  },
+  "content/places/ruins-of-loropeni.json": {
+    "mtime": 1791383359.324485,
+    "seen": 1791412218.1931531,
+    "ast_hash": "2f7f00bbf829493668402e522932dd23",
+    "semantic_hash": "2f7f00bbf829493668402e522932dd23"
+  },
+  "content/places/stone-town-of-zanzibar.json": {
+    "mtime": 1791391791.3465238,
+    "seen": 1791412218.193154,
+    "ast_hash": "0b612c0b7f013f6cb1e2c3e5a35f84a7",
+    "semantic_hash": "0b612c0b7f013f6cb1e2c3e5a35f84a7"
+  },
+  "content/places/the-rocas-of-sao-tome-and-principe.json": {
+    "mtime": 1791392408.3448029,
+    "seen": 1791412218.193155,
+    "ast_hash": "6fbd3ca4eebfda217dc6adf487877e32",
+    "semantic_hash": "6fbd3ca4eebfda217dc6adf487877e32"
+  },
+  "content/places/tombs-of-buganda-kings-at-kasubi.json": {
+    "mtime": 1791392144.6568263,
+    "seen": 1791412218.193156,
+    "ast_hash": "72ca15578ef15e71c1da64213f2181da",
+    "semantic_hash": "72ca15578ef15e71c1da64213f2181da"
+  },
+  "content/places/tsodilo.json": {
+    "mtime": 1791392322.1936152,
+    "seen": 1791412218.193156,
+    "ast_hash": "6f8d3dc72a192eacdd5212ffa57bdcff",
+    "semantic_hash": "6f8d3dc72a192eacdd5212ffa57bdcff"
+  },
+  "content/places/twyfelfontein.json": {
+    "mtime": 1791392322.1927376,
+    "seen": 1791412218.1931572,
+    "ast_hash": "69e93f7322bb0edcd8eb1aed444af526",
+    "semantic_hash": "69e93f7322bb0edcd8eb1aed444af526"
+  },
+  "content/places/virunga-national-park.json": {
+    "mtime": 1791391791.3441465,
+    "seen": 1791412218.193158,
+    "ast_hash": "ae834adfa9bcfa768d348cd592b6702b",
+    "semantic_hash": "ae834adfa9bcfa768d348cd592b6702b"
+  },
+  "content/places/wassu-stone-circles.json": {
+    "mtime": 1791309438.805075,
+    "seen": 1791412218.1931589,
+    "ast_hash": "c5116b398cdb7226148dcaaff399d516",
+    "semantic_hash": "c5116b398cdb7226148dcaaff399d516"
+  },
+  "content/places/zakouma-national-park.json": {
+    "mtime": 1791411976.4088695,
+    "seen": 1791412218.1931598,
+    "ast_hash": "8e900f58a985364a94ede77be147d4db",
+    "semantic_hash": "8e900f58a985364a94ede77be147d4db"
+  },
+  "content/quiz-phrases.json": {
+    "mtime": 1791409622.3699586,
+    "seen": 1791412218.193161,
+    "ast_hash": "90517205dffcf2f54c4f8c9c0749428d",
+    "semantic_hash": "90517205dffcf2f54c4f8c9c0749428d"
+  },
+  "content/quiz.json": {
+    "mtime": 1791411586.8863704,
+    "seen": 1791412218.193161,
+    "ast_hash": "b54cad1ab8ef3e6905402f7e07955d09",
+    "semantic_hash": "b54cad1ab8ef3e6905402f7e07955d09"
+  },
+  "content/sources.json": {
+    "mtime": 1791411963.1523132,
+    "seen": 1791412218.193162,
+    "ast_hash": "ff802a095d06281650a29d4455e84167",
+    "semantic_hash": "ff802a095d06281650a29d4455e84167"
+  },
+  "content/stories/africa-is-a-continent-not-a-country.json": {
+    "mtime": 1791411321.2491202,
+    "seen": 1791412218.193163,
+    "ast_hash": "69e437fa17b282442e4055d9b2ad04ec",
+    "semantic_hash": "69e437fa17b282442e4055d9b2ad04ec"
+  },
+  "content/stories/africa-is-much-bigger-than-the-map.json": {
+    "mtime": 1791406973.681444,
+    "seen": 1791412218.193164,
+    "ast_hash": "4c6918d268028dfc5a7537a967b0475d",
+    "semantic_hash": "4c6918d268028dfc5a7537a967b0475d"
+  },
+  "content/stories/aksum-the-great-power-you-were-never-taught.json": {
+    "mtime": 1791391069.949996,
+    "seen": 1791412218.193165,
+    "ast_hash": "ab98eb5362d080a9577b53a0a94912ba",
+    "semantic_hash": "ab98eb5362d080a9577b53a0a94912ba"
+  },
+  "content/stories/cassava-the-american-crop-africa-eats.json": {
+    "mtime": 1791411565.1707761,
+    "seen": 1791412218.193166,
+    "ast_hash": "f69f18bd74bd137f78956f01d097fcd7",
+    "semantic_hash": "f69f18bd74bd137f78956f01d097fcd7"
+  },
+  "content/stories/did-one-conference-carve-up-africa.json": {
+    "mtime": 1791411312.1337485,
+    "seen": 1791412218.1931672,
+    "ast_hash": "192069ab4fa976e45197fd149792ecda",
+    "semantic_hash": "192069ab4fa976e45197fd149792ecda"
+  },
+  "content/stories/do-africans-speak-african.json": {
+    "mtime": 1791411312.1334894,
+    "seen": 1791412218.1931672,
+    "ast_hash": "6aba42bc6ab0996fff07d645314b748e",
+    "semantic_hash": "6aba42bc6ab0996fff07d645314b748e"
+  },
+  "content/stories/do-most-africans-live-in-villages.json": {
+    "mtime": 1791411565.1688356,
+    "seen": 1791412218.193168,
+    "ast_hash": "91546982ddf56792f49397c9177dfa75",
+    "semantic_hash": "91546982ddf56792f49397c9177dfa75"
+  },
+  "content/stories/how-rich-is-africa.json": {
+    "mtime": 1791411565.1691368,
+    "seen": 1791412218.1931689,
+    "ast_hash": "b6a05e9523967cca4cede96ab51f5b1b",
+    "semantic_hash": "b6a05e9523967cca4cede96ab51f5b1b"
+  },
+  "content/stories/injera-the-bread-that-is-also-the-plate.json": {
+    "mtime": 1791390987.8587978,
+    "seen": 1791412218.1931698,
+    "ast_hash": "c266eb608b884c83b89efd3863f04b64",
+    "semantic_hash": "c266eb608b884c83b89efd3863f04b64"
+  },
+  "content/stories/jollof-rice-a-dish-a-map-and-a-friendly-war.json": {
+    "mtime": 1791390987.8584552,
+    "seen": 1791412218.193171,
+    "ast_hash": "e7f5c4321d23b7fb3bbd6cbdf5deea66",
+    "semantic_hash": "e7f5c4321d23b7fb3bbd6cbdf5deea66"
+  },
+  "content/stories/kilwa-gold-and-coral.json": {
+    "mtime": 1791411565.1704822,
+    "seen": 1791412218.193172,
+    "ast_hash": "dd6ff854efd2b96b2cbb5b28097900f1",
+    "semantic_hash": "dd6ff854efd2b96b2cbb5b28097900f1"
+  },
+  "content/stories/kush-the-kingdom-that-ruled-egypt.json": {
+    "mtime": 1791411565.17006,
+    "seen": 1791412218.193173,
+    "ast_hash": "5d0b526fa65cd2fd16036bfa33f69192",
+    "semantic_hash": "5d0b526fa65cd2fd16036bfa33f69192"
+  },
+  "content/stories/mansa-musa-and-the-gold-nobody-could-count.json": {
+    "mtime": 1791391069.9512022,
+    "seen": 1791412218.193173,
+    "ast_hash": "619fc789efdbc90fba8c274aa018157a",
+    "semantic_hash": "619fc789efdbc90fba8c274aa018157a"
+  },
+  "content/stories/was-africas-history-only-ever-spoken.json": {
+    "mtime": 1791391069.9505267,
+    "seen": 1791412218.1931741,
+    "ast_hash": "21417573a03df00381373c99a1e7c2d4",
+    "semantic_hash": "21417573a03df00381373c99a1e7c2d4"
+  },
+  "content/stories/was-all-of-africa-colonised.json": {
+    "mtime": 1791411565.1694245,
+    "seen": 1791412218.193175,
+    "ast_hash": "2c9ac780ca096deb518d1ec64765e0b5",
+    "semantic_hash": "2c9ac780ca096deb518d1ec64765e0b5"
+  },
+  "package.json": {
+    "mtime": 1791384356.4708195,
+    "seen": 1791412218.193176,
+    "ast_hash": "738618067be0333caac6921b463a8612",
+    "semantic_hash": "738618067be0333caac6921b463a8612"
+  },
+  "scripts/_ctx.mjs": {
+    "mtime": 1791376748.7951503,
+    "seen": 1791412218.193177,
+    "ast_hash": "3c25bb6d40a75de426aa36a06ac696c4",
+    "semantic_hash": "3c25bb6d40a75de426aa36a06ac696c4"
+  },
+  "scripts/add-note.mjs": {
+    "mtime": 1791410001.2127445,
+    "seen": 1791412218.193177,
+    "ast_hash": "832af54b5b45790acdc44d781ea91fe6",
+    "semantic_hash": "832af54b5b45790acdc44d781ea91fe6"
+  },
+  "scripts/add-photos.mjs": {
+    "mtime": 1791377358.679488,
+    "seen": 1791412218.1931782,
+    "ast_hash": "343a0c000c58e842f2a58c52cdb3f952",
+    "semantic_hash": "343a0c000c58e842f2a58c52cdb3f952"
+  },
+  "scripts/build.mjs": {
+    "mtime": 1791411963.1486378,
+    "seen": 1791412218.193179,
+    "ast_hash": "d60ba2368c3179fb289ed67fc737c7fc",
+    "semantic_hash": "d60ba2368c3179fb289ed67fc737c7fc"
+  },
+  "scripts/charts.mjs": {
+    "mtime": 1791389752.9658484,
+    "seen": 1791412218.1931798,
+    "ast_hash": "2f9a2e79c853fa8259c25898f46bcd51",
+    "semantic_hash": "2f9a2e79c853fa8259c25898f46bcd51"
+  },
+  "scripts/geo-util.mjs": {
+    "mtime": 1791406777.641207,
+    "seen": 1791412218.193181,
+    "ast_hash": "2eb98aa33341aa6aaf6b585724c73de4",
+    "semantic_hash": "2eb98aa33341aa6aaf6b585724c73de4"
+  },
+  "scripts/languages.mjs": {
+    "mtime": 1791409578.121673,
+    "seen": 1791412218.193182,
+    "ast_hash": "170a941ccdd21ee0c820d4297f522ea1",
+    "semantic_hash": "170a941ccdd21ee0c820d4297f522ea1"
+  },
+  "scripts/lib.mjs": {
+    "mtime": 1791412028.6447117,
+    "seen": 1791412218.193183,
+    "ast_hash": "eada7473bf52d7574f1d57f57dad6778",
+    "semantic_hash": "eada7473bf52d7574f1d57f57dad6778"
+  },
+  "scripts/map.mjs": {
+    "mtime": 1791411963.149358,
+    "seen": 1791412218.193183,
+    "ast_hash": "97426bc3336ec39c7b6f2d38695e9565",
+    "semantic_hash": "97426bc3336ec39c7b6f2d38695e9565"
+  },
+  "scripts/prepare-countries.mjs": {
+    "mtime": 1791306204.7813866,
+    "seen": 1791412218.193184,
+    "ast_hash": "3f603144d119925ff1ff36f5a68bee74",
+    "semantic_hash": "3f603144d119925ff1ff36f5a68bee74"
+  },
+  "scripts/prepare-factbook.mjs": {
+    "mtime": 1791389379.216898,
+    "seen": 1791412218.193185,
+    "ast_hash": "5221068612a20bcf5efe562826b0b40a",
+    "semantic_hash": "5221068612a20bcf5efe562826b0b40a"
+  },
+  "scripts/prepare-geo.mjs": {
+    "mtime": 1791406777.6416304,
+    "seen": 1791412218.193186,
+    "ast_hash": "3e199bb5c2188097d908a90349145e83",
+    "semantic_hash": "3e199bb5c2188097d908a90349145e83"
+  },
+  "scripts/prepare-glottolog.mjs": {
+    "mtime": 1791411282.7905507,
+    "seen": 1791412218.193187,
+    "ast_hash": "770f8539ffc785f9df56fad524fa328d",
+    "semantic_hash": "770f8539ffc785f9df56fad524fa328d"
+  },
+  "scripts/prepare-truesize.mjs": {
+    "mtime": 1791407075.1424232,
+    "seen": 1791412218.1931882,
+    "ast_hash": "772c23f14b786d15f38bfc2626cda951",
+    "semantic_hash": "772c23f14b786d15f38bfc2626cda951"
+  },
+  "scripts/prepare-unesco.mjs": {
+    "mtime": 1791375039.9810996,
+    "seen": 1791412218.1931891,
+    "ast_hash": "1821ff32650af146ae2c6b2a0e4d9d71",
+    "semantic_hash": "1821ff32650af146ae2c6b2a0e4d9d71"
+  },
+  "scripts/prepare-wb2023.mjs": {
+    "mtime": 1791411514.6650846,
+    "seen": 1791412218.1931899,
+    "ast_hash": "df459af4d1bffe159df8560e42f26e28",
+    "semantic_hash": "df459af4d1bffe159df8560e42f26e28"
+  },
+  "scripts/profiles.mjs": {
+    "mtime": 1791409560.662301,
+    "seen": 1791412218.1931908,
+    "ast_hash": "3b181694fbd804c89d7f660f963d8c7c",
+    "semantic_hash": "3b181694fbd804c89d7f660f963d8c7c"
+  },
+  "scripts/remove-note.mjs": {
+    "mtime": 1791378405.2701442,
+    "seen": 1791412218.1931908,
+    "ast_hash": "6b4df9eb18f4f1760a5e67e198b3faa3",
+    "semantic_hash": "6b4df9eb18f4f1760a5e67e198b3faa3"
+  },
+  "scripts/review-note.mjs": {
+    "mtime": 1791384356.469882,
+    "seen": 1791412218.193192,
+    "ast_hash": "6ee7c78e60226f4743ad7c8aa9e9460d",
+    "semantic_hash": "6ee7c78e60226f4743ad7c8aa9e9460d"
+  },
+  "scripts/seed-unesco-cards.mjs": {
+    "mtime": 1791375114.9778452,
+    "seen": 1791412218.193193,
+    "ast_hash": "c4bda2bba227f4bf95c1ba10d9b80e28",
+    "semantic_hash": "c4bda2bba227f4bf95c1ba10d9b80e28"
+  },
+  "scripts/serve.mjs": {
+    "mtime": 1791302040.0,
+    "seen": 1791412218.193194,
+    "ast_hash": "2d286d825d46d9a3196f464887635d48",
+    "semantic_hash": "2d286d825d46d9a3196f464887635d48"
+  },
+  "scripts/truesize-math.mjs": {
+    "mtime": 1791406891.9050257,
+    "seen": 1791412218.193195,
+    "ast_hash": "b14a7d5d042ecdd2a00434119f1fca06",
+    "semantic_hash": "b14a7d5d042ecdd2a00434119f1fca06"
+  },
+  "scripts/validate.mjs": {
+    "mtime": 1791302038.0,
+    "seen": 1791412218.193196,
+    "ast_hash": "38503aa9b4b37977f64e20362b55e984",
+    "semantic_hash": "38503aa9b4b37977f64e20362b55e984"
+  },
+  "site.config.json": {
+    "mtime": 1791411963.1480637,
+    "seen": 1791412218.1932,
+    "ast_hash": "0448ab22d4aa2256007e97ae2689bd94",
+    "semantic_hash": "0448ab22d4aa2256007e97ae2689bd94"
+  },
+  "src/app.js": {
+    "mtime": 1791411112.447579,
+    "seen": 1791412218.1932008,
+    "ast_hash": "21de3c48e0aed2881319bd444d694372",
+    "semantic_hash": "21de3c48e0aed2881319bd444d694372"
+  },
+  "src/fab.js": {
+    "mtime": 1791407517.1702156,
+    "seen": 1791412218.1932008,
+    "ast_hash": "ede10ba793778546137dc9a7ce1787f8",
+    "semantic_hash": "ede10ba793778546137dc9a7ce1787f8"
+  },
+  "src/geo/africa.json": {
+    "mtime": 1791304587.4648893,
+    "seen": 1791412218.193202,
+    "ast_hash": "103d4879d59bccfc369f5268043d312e",
+    "semantic_hash": "103d4879d59bccfc369f5268043d312e"
+  },
+  "src/geo/gambia.json": {
+    "mtime": 1791304587.6133246,
+    "seen": 1791412218.193203,
+    "ast_hash": "95c66f3dceea4e6953c8950f0e3888bb",
+    "semantic_hash": "95c66f3dceea4e6953c8950f0e3888bb"
+  },
+  "src/geo/truesize.json": {
+    "mtime": 1791407075.4605029,
+    "seen": 1791412218.193204,
+    "ast_hash": "80ea72e051e60b17ed8dcc68f6c1387f",
+    "semantic_hash": "80ea72e051e60b17ed8dcc68f6c1387f"
+  },
+  "src/motion.js": {
+    "mtime": 1791408248.6199508,
+    "seen": 1791412218.1932049,
+    "ast_hash": "eeb71e9f4683cfe4dd42efabf1803503",
+    "semantic_hash": "eeb71e9f4683cfe4dd42efabf1803503"
+  },
+  "src/places.js": {
+    "mtime": 1791382998.7102587,
+    "seen": 1791412218.193206,
+    "ast_hash": "a026a15bcc297f1ea9eb3acd657c9ca7",
+    "semantic_hash": "a026a15bcc297f1ea9eb3acd657c9ca7"
+  },
+  "src/quiz.js": {
+    "mtime": 1791408634.2330654,
+    "seen": 1791412218.193207,
+    "ast_hash": "05c30b8097368846d17bf4a3c3a08003",
+    "semantic_hash": "05c30b8097368846d17bf4a3c3a08003"
+  },
+  "src/share.js": {
+    "mtime": 1791391428.6496334,
+    "seen": 1791412218.193207,
+    "ast_hash": "e1b56bab7a1bdff8f20af654e04d0b83",
+    "semantic_hash": "e1b56bab7a1bdff8f20af654e04d0b83"
+  },
+  "src/theme.js": {
+    "mtime": 1791382969.4469273,
+    "seen": 1791412218.193208,
+    "ast_hash": "b71ffb709ea62966d3d47edbd422931e",
+    "semantic_hash": "b71ffb709ea62966d3d47edbd422931e"
+  },
+  "src/truesize.js": {
+    "mtime": 1791407564.694041,
+    "seen": 1791412218.1932092,
+    "ast_hash": "9be5d8cc4b1ad9d48e47204b265b5be1",
+    "semantic_hash": "9be5d8cc4b1ad9d48e47204b265b5be1"
+  },
+  ".github/workflows/check.yml": {
+    "mtime": 1791373261.226041,
+    "seen": 1791412218.1932101,
+    "ast_hash": "44629a7f6f0b58a7d1bd7524dd9df3fc",
+    "semantic_hash": "44629a7f6f0b58a7d1bd7524dd9df3fc"
+  },
+  ".github/workflows/pages.yml": {
+    "mtime": 1791373261.225322,
+    "seen": 1791412218.1932108,
+    "ast_hash": "efe84aacee4ea6653597434ddc3173ef",
+    "semantic_hash": "efe84aacee4ea6653597434ddc3173ef"
+  },
+  ".impeccable/critique/2026-10-07T11-48-30Z__dist-index-html.md": {
+    "mtime": 1791373710.3747032,
+    "seen": 1791412218.1932118,
+    "ast_hash": "a7580b191e2cf7646124acd937f90eed",
+    "semantic_hash": "a7580b191e2cf7646124acd937f90eed"
+  },
+  ".impeccable/critique/2026-10-07T12-52-29Z__dist-index-html.md": {
+    "mtime": 1791377549.4732225,
+    "seen": 1791412218.193213,
+    "ast_hash": "1031880adb3084cc9477d54ac7b0a468",
+    "semantic_hash": "1031880adb3084cc9477d54ac7b0a468"
+  },
+  "README.md": {
+    "mtime": 1791389862.5361776,
+    "seen": 1791412218.193214,
+    "ast_hash": "472135e156bce6656ad068153bd3a140",
+    "semantic_hash": "472135e156bce6656ad068153bd3a140"
+  },
+  "content/data/LEGGIMI.txt": {
+    "mtime": 1791411586.8962257,
+    "seen": 1791412218.193214,
+    "ast_hash": "0f4840e474fec732e26ef518d5550e50",
+    "semantic_hash": "0f4840e474fec732e26ef518d5550e50"
+  },
+  "content/pages/method.html": {
+    "mtime": 1791391553.6085918,
+    "seen": 1791412218.193215,
+    "ast_hash": "94c62e46d6dcf8b4997ccdb3072a83c8",
+    "semantic_hash": "94c62e46d6dcf8b4997ccdb3072a83c8"
+  },
+  "docs/contributi.md": {
+    "mtime": 1791408332.9049275,
+    "seen": 1791412218.193216,
+    "ast_hash": "a673fc8fec92125ba008a36a8d0bb1c0",
+    "semantic_hash": "a673fc8fec92125ba008a36a8d0bb1c0"
+  },
+  "docs/metodo-editoriale.md": {
+    "mtime": 1791391069.9706666,
+    "seen": 1791412218.193217,
+    "ast_hash": "6f0a8e415dccbf81381fabdf49cebea6",
+    "semantic_hash": "6f0a8e415dccbf81381fabdf49cebea6"
+  },
+  "docs/piano-contenuti.md": {
+    "mtime": 1791411620.0553865,
+    "seen": 1791412218.193218,
+    "ast_hash": "0b62bfbf2cc3f5f53faf2141e962f69f",
+    "semantic_hash": "0b62bfbf2cc3f5f53faf2141e962f69f"
+  },
+  "docs/prototipo.html": {
+    "mtime": 1791302637.7072892,
+    "seen": 1791412218.193218,
+    "ast_hash": "dd73900041467d95c3d47f0b9b81f3b8",
+    "semantic_hash": "dd73900041467d95c3d47f0b9b81f3b8"
+  },
+  "docs/roadmap.md": {
+    "mtime": 1791303844.9564912,
+    "seen": 1791412218.1932192,
+    "ast_hash": "c9598335cbb5d74d27688f8d49a90818",
+    "semantic_hash": "c9598335cbb5d74d27688f8d49a90818"
+  },
+  "src/geo/LEGGIMI.txt": {
+    "mtime": 1791304869.7691698,
+    "seen": 1791412218.1932201,
+    "ast_hash": "5d3bdf57d26cbcb41ce81a519cab9ca7",
+    "semantic_hash": "5d3bdf57d26cbcb41ce81a519cab9ca7"
+  }
+}

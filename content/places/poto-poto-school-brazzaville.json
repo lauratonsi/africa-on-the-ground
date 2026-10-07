@@ -1,0 +1,214 @@
+{
+  "slug": "poto-poto-school-brazzaville",
+  "status": "published",
+  "type": "culture",
+  "country": "COG",
+  "name": "Poto-Poto School of Painting",
+  "region": "Republic of the Congo · Brazzaville",
+  "subtitle": "A painting workshop in Brazzaville, founded in 1951, known for free creation and simplified, black-lined figures.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Painting workshop, called a school",
+      "cite": [
+        "rhodes-potopoto",
+        "adiac-potopoto-2021"
+      ]
+    },
+    {
+      "label": "Founded",
+      "value": "1951, by Pierre Lods",
+      "cite": [
+        "rhodes-potopoto",
+        "adiac-potopoto-2021"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "Moungali district, Brazzaville; named after the neighbouring Poto-Poto",
+      "cite": [
+        "rhodes-potopoto",
+        "adiac-potopoto-2021"
+      ]
+    },
+    {
+      "label": "Materials",
+      "value": "oil and gouache, paper and brushes",
+      "cite": [
+        "rhodes-potopoto",
+        "adiac-potopoto-2021"
+      ]
+    },
+    {
+      "label": "First pupils named",
+      "value": "Félix Ossali; Nicolas Ondongo (1933–1990)",
+      "cite": [
+        "rhodes-potopoto"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Poto-Poto School was founded in 1951 by Pierre Lods (1921–1988), a French amateur painter, in the suburbs of Brazzaville. It stands in what is now the Moungali district, and takes its name from the nearby Poto-Poto neighbourhood.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            },
+            {
+              "text": " A Congolese news agency notes that despite its name it is a workshop rather than a formal school.",
+              "cite": [
+                "adiac-potopoto-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lods said his inspiration came from his servant Félix Ossali, whom he saw painting blue birds on a map in a style he had not seen in African art; he then invited Ossali and friends to paint informally.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            },
+            {
+              "text": " The source gives this as Lods's own account.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "How it worked",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lods did not enforce formal courses or any discipline that might limit the artists' imagination. Painters worked freely in oil and gouache and drew on what they knew of their own culture; he gave only technical advice about colour.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The news agency describes the same approach: paper, brushes and gouache, without prescriptive technique, and an emphasis on free creation over European academic training.",
+              "cite": [
+                "adiac-potopoto-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "painters",
+      "title": "Painters and style",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nicolas Ondongo, one of the first students, received an award at an exhibition in Paris in 1955 and a gold medal in 1961.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The paintings show everyday Congolese life. A well-known manner called \"Mickeys\" uses simplified figures made of black lines that suggest movement and recall animation sketches.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A second generation includes Iloki, Gotène, Bandzila, Zigoma, Okala, Mounkala, Ikonga, Ngolengo, Elenga, Ndinga and Owassa, several of whom gained international recognition.",
+              "cite": [
+                "adiac-potopoto-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "After independence",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After 1960 Lods left for Senegal, and the artists formed a cooperative led by Nicolas Ondongo and Guy Léon Fylla, which kept his way of working.",
+              "cite": [
+                "rhodes-potopoto"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2021, at seventy, the school was reported to be carrying on \"despite the difficulties it faces\".",
+              "cite": [
+                "adiac-potopoto-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The painters' own account of the school. Both sources tell the story largely through its French founder, and neither discusses debates about a European patron describing what is \"authentic\" African art.",
+    "What the difficulties mentioned in 2021 are, and how the workshop is run and funded now. The news report does not name its current management.",
+    "Whether and how it can be visited. Nothing about opening times or access was read.",
+    "The position comes from a point drawn by OpenStreetMap volunteers in 2022 and has not been checked on the ground.",
+    "Paintings are not shown here: the works are in copyright, and no openly licensed photograph of one was found."
+  ],
+  "image": {
+    "file": "poto-poto-school-brazzaville",
+    "alt": "A yellow sign over a gate under trees, reading Ecole de peinture de Poto-Poto, founded in 1951 by Pierre Lods.",
+    "caption": "The sign over the entrance of the Poto-Poto School of Painting, Brazzaville.",
+    "credit": "Africany",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AEcole_de_peinture_de_Poto-Poto_Brazzaville_01.jpg"
+  },
+  "coords": {
+    "lat": -4.2543,
+    "lon": 15.27438,
+    "approx": true,
+    "cite": [
+      "osm-potopoto-school"
+    ]
+  }
+}

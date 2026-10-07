@@ -90,7 +90,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
   }
   if (!channelsFilled) warn('site.config.json: nessun canale in "channels" ha un valore. Il modulo per le note potrà solo copiare il messaggio.');
   const langIds = new Set((config.languages || []).map((l) => l.id));
-  const SHAPES = ["circle", "square", "diamond"];
+  const SHAPES = ["circle", "square", "diamond", "triangle", "hexagon"];
   const typeIds = new Set();
   if (!Array.isArray(config.placeTypes) || !config.placeTypes.length) err('site.config.json: "placeTypes" è vuoto.');
   for (const t of config.placeTypes || []) {

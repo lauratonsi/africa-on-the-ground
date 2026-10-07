@@ -1,0 +1,119 @@
+{
+ "slug": "kush-the-kingdom-that-ruled-egypt",
+ "status": "published",
+ "kind": "history",
+ "title": "Kush: the African kingdom that ruled Egypt",
+ "subtitle": "In the eighth century BCE, rulers from what is now Sudan became pharaohs of Egypt.",
+ "countries": [
+  "SDN"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Ancient Egypt is usually told as a story on its own. Its southern neighbour, Kush, was a power in its own right, and for a time ruled Egypt.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "where",
+   "title": "Where and when",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Kush occupied the region of modern Sudan, later called Nubia.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      },
+      {
+       "text": " The article divides its history into the Kerma culture (about 2400 to 1500 BCE), the Napata period (about 1500 to 590 BCE) and the Meroe period (about 590 BCE to 350 CE).",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pharaohs",
+   "title": "Pharaohs from the south",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Kashta, about 750 BCE, was the first Kushite to establish himself on the Egyptian throne and founded the 25th Dynasty.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      },
+      {
+       "text": " Kushite control lasted until the Assyrian invasion of Egypt by Ashurbanipal in 666 BCE.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meroe",
+   "title": "Meroe: iron and an unread script",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "After Napata was sacked, about 590 BCE, the capital moved south to Meroe.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      },
+      {
+       "text": " Meroe developed a large iron industry, which needed so much wood for charcoal that it contributed to deforestation.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "King Arkamani I gave up hieroglyphs for the Meroitic script, which has not been deciphered.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      },
+      {
+       "text": " The kingdom fell about 350 CE, after environmental degradation and an Aksumite attack on Meroe about 330 CE.",
+       "cite": [
+        "worldhistory-kush"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "One encyclopedia article. A specialist book on Nubia or Sudan's archaeology should check every date, which are given as approximate.",
+  "The article names the Pyramids of Meroe but gives no count; the popular claim that Sudan has more pyramids than Egypt is not made here for lack of a source.",
+  "Nothing here yet from Sudanese scholars or on the sites themselves."
+ ]
+}

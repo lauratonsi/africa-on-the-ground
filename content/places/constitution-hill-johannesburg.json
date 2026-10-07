@@ -1,0 +1,150 @@
+{
+  "slug": "constitution-hill-johannesburg",
+  "status": "published",
+  "type": "culture",
+  "country": "ZAF",
+  "name": "Constitution Hill",
+  "region": "South Africa · Johannesburg",
+  "subtitle": "A former Johannesburg prison, closed in 1983, where South Africa's Constitutional Court opened on 21 March 2004.",
+  "coords": {
+    "lat": -26.18861,
+    "lon": 28.04278,
+    "approx": true,
+    "cite": [
+      "wikipedia-constitution-hill"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Former prison precinct, museum and Constitutional Court",
+      "cite": [
+        "constitutionhill-history",
+        "constitutionhill-timeline"
+      ]
+    },
+    {
+      "label": "Precinct opened",
+      "value": "1893",
+      "cite": [
+        "constitutionhill-timeline"
+      ]
+    },
+    {
+      "label": "Prison closed",
+      "value": "31 January 1983",
+      "cite": [
+        "constitutionhill-history"
+      ]
+    },
+    {
+      "label": "Constitutional Court inaugurated",
+      "value": "21 March 2004 (Human Rights Day)",
+      "cite": [
+        "constitutionhill-history"
+      ]
+    },
+    {
+      "label": "Opened to the public",
+      "value": "22 March 2004",
+      "cite": [
+        "constitutionhill-history"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Constitution Hill is a precinct in Johannesburg that opened in 1893 as a prison and closed in 1983. In the late 1990s and early 2000s it was revamped to become a museum, and in 2004 the Constitutional Court opened its doors there.",
+              "cite": [
+                "constitutionhill-timeline"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "prison",
+      "title": "The prison years",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The prison doors to the Old Fort and to Number Four were officially closed on 31 January 1983.",
+              "cite": [
+                "constitutionhill-history"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A total of 156 people, among them Nelson Mandela and Oliver Tambo, were arrested and held at the complex before the Treason Trial of 1956.",
+              "cite": [
+                "constitutionhill-history"
+              ]
+            },
+            {
+              "text": " In 1958 some 2,000 women, Winnie Madikizela-Mandela and Albertina Sisulu among them, were detained after protesting the pass laws.",
+              "cite": [
+                "constitutionhill-history"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "court",
+      "title": "A court on the site of a prison",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the mid-1990s the site was identified as the home of the new Constitutional Court.",
+              "cite": [
+                "constitutionhill-history"
+              ]
+            },
+            {
+              "text": " On Human Rights Day, 21 March 2004, the Constitutional Court was inaugurated, and Constitution Hill opened to the public the next day.",
+              "cite": [
+                "constitutionhill-history"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Who built the Old Fort and why, and what the Women's Jail and the Awaiting Trial Block were. The site's history page does not say.",
+    "The prisoners' own accounts. The page names well-known detainees and numbers; the voices of ordinary prisoners are the part a visitor most needs, and this card does not have them.",
+    "What the Constitutional Court has decided and how the building was designed. Neither is covered by the sources read.",
+    "Whether and how it can be visited, guided tours and opening times. The site's pages were read for history only.",
+    "The coordinates are Wikipedia's for the precinct, not an entrance."
+  ],
+  "image": {
+    "file": "constitution-hill-johannesburg",
+    "alt": "A wall at the entrance of the Constitutional Court covered with rows of coloured letters, with a blue tiled border.",
+    "caption": "The entrance wall of the Constitutional Court on Constitution Hill, 2007.",
+    "credit": "André-Pierre from Stellenbosch, South Africa.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AConstitutionalCourtofSouthAfrica-entrance-20070622.jpg"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "thieboudienne-senegal",
+  "status": "published",
+  "type": "dish",
+  "country": "SEN",
+  "name": "Thieboudienne (ceebu jën)",
+  "region": "Senegal",
+  "subtitle": "Rice cooked with fish and vegetables, recognised by UNESCO in December 2021 and eaten from a shared dish.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Rice and fish dish",
+      "cite": [
+        "afp-thieboudienne-2021",
+        "visitesenegal-thieb"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "ceebu jën, \"rice with fish\" in Wolof",
+      "cite": [
+        "afp-thieboudienne-2021"
+      ]
+    },
+    {
+      "label": "Cooked",
+      "value": "about three hours, usually eaten at lunch",
+      "cite": [
+        "afp-thieboudienne-2021"
+      ]
+    },
+    {
+      "label": "Often called",
+      "value": "Senegal's national dish",
+      "cite": [
+        "visitesenegal-thieb"
+      ]
+    },
+    {
+      "label": "UNESCO",
+      "value": "Intangible Cultural Heritage of Humanity, December 2021",
+      "cite": [
+        "afp-thieboudienne-2021",
+        "visitesenegal-thieb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Thieboudienne, in Wolof ceebu jën or \"rice with fish\", is a dish of rice and fish with a variety of vegetables, made with or without tomato.",
+              "cite": [
+                "afp-thieboudienne-2021",
+                "visitesenegal-thieb"
+              ]
+            },
+            {
+              "text": " The AFP report names onions, garlic, carrots and aubergines among the vegetables, and says it takes about three hours to prepare and is typically served at lunch.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A tourism website calls it Senegal's national dish.",
+              "cite": [
+                "visitesenegal-thieb"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unesco",
+      "title": "UNESCO, December 2021",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In December 2021 UNESCO added thieboudienne to its list of the Intangible Cultural Heritage of Humanity, following an application from Senegal's government in October.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            },
+            {
+              "text": " UNESCO said the recipe and techniques are traditionally passed down from mother to daughter.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report adds two rules of eating: do not sit with a raised knee, and do not drop a grain of rice.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A restaurant owner, Thiane Ngom, who has kept the dish on her menu for 25 years, told AFP it was a source of pride for Senegalese that it was recognised worldwide.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "Where it comes from",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The northern city of Saint-Louis, a former French colonial capital, is believed to be the birthplace. According to UNESCO, quoted by AFP, the dish emerged through colonial trade, when rice produced in French Indochina was imported into Senegal.",
+              "cite": [
+                "afp-thieboudienne-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Popular tradition credits a cook named Penda Mbaye, and the tourism site places her in Guet-Ndar, a village of Saint-Louis. Both give it as tradition or attribution, not as a documented fact.",
+              "cite": [
+                "afp-thieboudienne-2021",
+                "visitesenegal-thieb"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Who actually invented the dish, if one person did. The only sources are a news report calling it tradition and a tourism page; no historian is cited.",
+    "How the dish differs between households and regions: the sources read describe one basic form and do not say how the versions with and without tomato are made or eaten.",
+    "UNESCO's own text. Its page could not be read, so everything attributed to UNESCO comes from the AFP report.",
+    "Where to eat it, and what it costs.",
+    "The photograph shows a bowl of the dish; where it was taken is not stated on its page."
+  ],
+  "image": {
+    "file": "thieboudienne-senegal",
+    "alt": "A large steel bowl of orange-brown rice with whole pieces of fish, carrot, cassava, aubergine and chilli laid on top.",
+    "caption": "A bowl of thieboudienne, rice with fish and vegetables.",
+    "credit": "Mariel.cg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASenegalese_Thieboudienne.JPG"
+  }
+}

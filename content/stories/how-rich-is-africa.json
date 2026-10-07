@@ -1,0 +1,101 @@
+{
+ "slug": "how-rich-is-africa",
+ "status": "published",
+ "kind": "myth",
+ "title": "How rich is Africa?",
+ "subtitle": "There is no single answer: income per person in 2023 ran from $250 in Burundi to $18,131 in Seychelles.",
+ "countries": [],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Africa is often described as one economy, poor and uniform. The numbers cannot be summed up in one phrase.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "range",
+   "title": "From $250 to $18,131",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "In 2023 gross domestic product per person, in current US dollars, was about $250 in Burundi and about $18,131 in Seychelles.",
+       "cite": [
+        "wb-gdp-pc-2023"
+       ]
+      },
+      {
+       "text": " The highest is about 73 times the lowest, a ratio calculated here.",
+       "cite": [
+        "wb-gdp-pc-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The middle country of the 52 with a figure was at about $1,709.",
+       "cite": [
+        "wb-gdp-pc-2023"
+       ]
+      },
+      {
+       "text": " Eight countries were above $5,000 and sixteen below $1,000, counted here.",
+       "cite": [
+        "wb-gdp-pc-2023"
+       ]
+      },
+      {
+       "text": " Eritrea and South Sudan have no figure for 2023.",
+       "cite": [
+        "wb-gdp-pc-2023"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "title": "What the number is",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "GDP per person divides a country's total output by its population. It does not say how income is shared, what things cost, or how much work happens outside the market.",
+       "editorial": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "It is a starting point for asking questions, not a verdict on any place.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "GDP per capita in current US dollars depends on exchange rates, so it can move without anyone's life changing. Other measures, such as purchasing-power comparisons, give a different spread and are not used here.",
+  "The summary figures are our own arithmetic on one year's World Bank values; a different year would change them.",
+  "Nothing here covers inequality inside countries, which can be as wide as the gap between them."
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "slug": "did-one-conference-carve-up-africa",
+ "status": "published",
+ "kind": "myth",
+ "title": "Did one conference in Berlin carve up Africa?",
+ "subtitle": "A meeting of fourteen states, with no African representative, set rules for the scramble. It did not draw the map.",
+ "countries": [
+  "COD"
+ ],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The usual short version says that in 1884 European powers sat in Berlin and divided Africa between them with a ruler.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meeting",
+   "title": "What happened",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The conference was held between November 1884 and February 1885. Preliminary discussions began in Berlin on 15 November 1884 and the debates ran until 26 February the next year.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      },
+      {
+       "text": " Fourteen states were represented.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      },
+      {
+       "text": " It was called by the German chancellor Otto von Bismarck.",
+       "cite": [
+        "historyassoc-berlin"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "There were no representatives from the African kingdoms, states and cultures whose territories were about to be affected.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "decided",
+   "title": "What it decided",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "It put the Congo River basin under the authority of King Leopold II of Belgium, with free access for trade and shipping extended to all nations, and left the Congo and Niger rivers open to all powers for trade.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      },
+      {
+       "text": " A European government's claim to a region would be recognised only if it was already effectively in control of it.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "not",
+   "title": "What it did not do",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The article says the conference \"did not actually divide the continent\", but gave a framework by which Africa could later be partitioned into areas of effective European control.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      },
+      {
+       "text": " By 1914 the whole continent, apart from Abyssinia and Liberia, was under European control.",
+       "cite": [
+        "worldhistory-berlin"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "So the story is not wrong that Berlin mattered. It is wrong to picture one afternoon and one map: the borders were drawn over the following decades, by treaties, by force, and by agreements between colonial powers.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Two sources, both secondary and neither a specialist's book. The Historical Association's page was read only in its free introduction; a historian's account of the Scramble for Africa should replace them.",
+  "The sources differ on who asked for the conference; this page says only who called it.",
+  "The page says nothing about how the borders were later drawn or how they were challenged, which is a story of its own."
+ ]
+}

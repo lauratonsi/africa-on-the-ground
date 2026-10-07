@@ -1,0 +1,176 @@
+{
+  "slug": "seswaa-botswana",
+  "status": "published",
+  "type": "dish",
+  "country": "BWA",
+  "name": "Seswaa",
+  "region": "Botswana",
+  "subtitle": "Beef boiled until it falls apart and pounded, cooked by men for weddings and funerals.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Pounded boiled meat",
+      "cite": [
+        "ciee-seswaa",
+        "chaloafrica-seswaa"
+      ]
+    },
+    {
+      "label": "Cooked by",
+      "value": "mainly men",
+      "cite": [
+        "ciee-seswaa"
+      ]
+    },
+    {
+      "label": "Pot",
+      "value": "three-legged iron pot, or large iron pots on wood fires",
+      "cite": [
+        "ciee-seswaa",
+        "chaloafrica-seswaa"
+      ]
+    },
+    {
+      "label": "Served at",
+      "value": "weddings, funerals and celebrations",
+      "cite": [
+        "ciee-seswaa",
+        "chaloafrica-seswaa"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "bogobe (sorghum porridge) and madila (fermented milk), or samp and beans",
+      "cite": [
+        "chaloafrica-seswaa",
+        "ciee-seswaa"
+      ]
+    },
+    {
+      "label": "Often called",
+      "value": "Botswana's national dish",
+      "cite": [
+        "chaloafrica-seswaa"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Seswaa is a salty pounded meat dish prepared by men, simmered until soft with salt, cooking oil and water in a three-legged iron pot, a student writes.",
+              "cite": [
+                "ciee-seswaa"
+              ]
+            },
+            {
+              "text": " It is a standard delicacy at most traditional events, including weddings and funerals.",
+              "cite": [
+                "ciee-seswaa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A safari company calls it Botswana's national dish and says beef is boiled slowly with little more than water and salt.",
+              "cite": [
+                "chaloafrica-seswaa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "title": "How it is made",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Large iron pots simmer over wood fires for hours; when the meat is tender it is lifted into large carved wooden mortars and pounded with heavy pestles until the fibres separate.",
+              "cite": [
+                "chaloafrica-seswaa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The two sources differ on details: one lists cooking oil among the ingredients and speaks of the dish as prepared by men; the other says several people work together, with elders supervising by experience rather than by the clock.",
+              "cite": [
+                "ciee-seswaa",
+                "chaloafrica-seswaa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "title": "At the table",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Meals pair a protein with a starch and a relish. Starches the student lists include sorghum mixed with yellow melon and sour milk, samp with beans, and flat breads.",
+              "cite": [
+                "ciee-seswaa"
+              ]
+            },
+            {
+              "text": " The safari company says seswaa is served with bogobe, a sorghum porridge, and madila, fermented milk.",
+              "cite": [
+                "chaloafrica-seswaa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The safari company writes that nothing about seswaa is individual: it is prepared collectively, served generously and eaten together, and offering it to guests means welcoming them into the community.",
+              "cite": [
+                "chaloafrica-seswaa"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Where the dish comes from and how old it is. Neither source gives a history, and the safari company's article does not cite any.",
+    "The voice of Batswana cooks. The sources are a visiting student and a travel company writing for outsiders.",
+    "The name seswaa and its variants in different parts of Botswana and South Africa: not covered by the sources read.",
+    "Quantities and cuts of meat: not given.",
+    "Where to eat it, and what it costs.",
+    "The photograph shows a plate with samp, beans and seswaa; where it was taken is not stated."
+  ],
+  "image": {
+    "file": "seswaa-botswana",
+    "alt": "A plate with shredded dark meat, beans and a pale portion of maize porridge, and a fork held over it.",
+    "caption": "A plate of seswaa with beans and porridge.",
+    "credit": "Kalanga",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASeswaa_avec_bogobe.jpg"
+  }
+}

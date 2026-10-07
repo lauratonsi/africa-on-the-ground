@@ -1,0 +1,197 @@
+{
+  "slug": "zakouma-national-park",
+  "status": "published",
+  "type": "nature",
+  "country": "TCD",
+  "name": "Zakouma National Park",
+  "region": "Chad · Salamat",
+  "subtitle": "A park in south-eastern Chad whose elephants fell from more than 4,000 to about 400 in eight years, and have since recovered.",
+  "coords": {
+    "lat": 10.8478,
+    "lon": 19.6478,
+    "approx": true,
+    "cite": [
+      "wikipedia-zakouma"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "National park",
+      "cite": [
+        "wikipedia-zakouma"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "3,000 km²",
+      "cite": [
+        "wikipedia-zakouma"
+      ]
+    },
+    {
+      "label": "Established",
+      "value": "1963",
+      "cite": [
+        "wikipedia-zakouma"
+      ]
+    },
+    {
+      "label": "Managed by",
+      "value": "African Parks with Chad's government, since 2010",
+      "cite": [
+        "natgeo-zakouma-2017",
+        "wikipedia-zakouma"
+      ]
+    },
+    {
+      "label": "Elephants, 2002",
+      "value": "more than 4,000",
+      "cite": [
+        "natgeo-zakouma-2017"
+      ]
+    },
+    {
+      "label": "Elephants, 2010",
+      "value": "about 400",
+      "cite": [
+        "natgeo-zakouma-2017"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Zakouma National Park lies in south-eastern Chad, across the Guéra and Salamat regions. It covers 3,000 square kilometres and was established in 1963.",
+              "cite": [
+                "wikipedia-zakouma"
+              ]
+            },
+            {
+              "text": " National Geographic calls it Rhode Island-sized.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "fall",
+      "title": "The fall",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2002 the park had more than 4,000 elephants. By 2010 there were about 400, a drop of 90 per cent, and experts warned the rest would be gone within two or three years if nothing changed.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In August 2012 poachers raided a ranger camp at Heban, shot five men, and a sixth fled and was never found. Only the cook survived, by walking and swimming 12 miles to the nearest village.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "The recovery",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2010 the Chadian government hired African Parks, and Rian Labuschagne and his wife took full managerial control.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rangers received GPS units, radios and horses; an elite rapid-response group, the Mambas, was formed; new bases were built around the park and a second aircraft was brought in.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Only seven elephants were lost in 2011. About 50 calves were born in 2014 and 2015, and 70 in the year before the report.",
+              "cite": [
+                "natgeo-zakouma-2017"
+              ]
+            },
+            {
+              "text": " National Geographic counted more than 500 elephants in January 2017; Wikipedia gives 636 by 2021 and no poaching since 2016.",
+              "cite": [
+                "natgeo-zakouma-2017",
+                "wikipedia-zakouma"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "title": "Giraffes and rhinos",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia says about 60% of the world's Kordofan giraffes live in Zakouma, and that black rhinoceroses, last seen in 1972, were reintroduced from 2017, with five more arriving in December 2023.",
+              "cite": [
+                "wikipedia-zakouma"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The state of the park and its elephants after 2021. The newest figure comes from Wikipedia and should be checked against African Parks' own report, whose site could not be opened.",
+    "How people living around the park experience it, and what the park's management means for them. The sources read tell it from the park's side.",
+    "Whether and how it can be visited. Nothing about access or the season was read.",
+    "The giraffe and rhino figures come from Wikipedia only.",
+    "The coordinates are those given by Wikipedia for the park, not a checked entrance."
+  ],
+  "image": {
+    "file": "zakouma-national-park",
+    "alt": "A giraffe walking through dry grass with scattered trees behind it.",
+    "caption": "A giraffe in Zakouma National Park.",
+    "credit": "Fatakaya",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGirafe_du_parc_national_de_Zakouma.jpg"
+  }
+}

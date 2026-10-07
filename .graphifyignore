@@ -1,0 +1,5 @@
+# Escluso dal grafo: foto dei luoghi (110 JPG, una pagina per scheda le descrive già), guide degli strumenti e testi di licenza dei font
+src/img/
+.claude/skills/
+.claude/agents/
+src/fonts/

@@ -2,6 +2,15 @@
  "source": "Glottolog (CLDF export, languages.csv)",
  "license": "CC BY 4.0",
  "retrieved": "2026-10-07",
+ "africaCounts": {
+  "asListed": 2373,
+  "afterLeavingOut": 2264,
+  "families": 43,
+  "isolates": 15,
+  "atlanticCongo": 1407,
+  "afroAsiatic": 313,
+  "note": "Languages (not dialects) with Africa as their only macroarea, leaving out Glottolog's bookkeeping entries and sign languages. Some are no longer spoken."
+ },
  "languages": {
   "swahili": {
    "glottocode": "swah1253",

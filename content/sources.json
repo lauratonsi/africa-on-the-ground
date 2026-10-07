@@ -2171,6 +2171,417 @@
     "retrieved": "2026-10-07"
   },
   {
+    "id": "worldhistory-berlin",
+    "title": "Berlin Conference 1884-5",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Berlin_Conference_1884-5/",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "A non-profit encyclopedia article. Used for the dates, attendance, the General Act's provisions and the statement that the conference did not itself divide the continent. Check against a historian's book on the Scramble for Africa.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "historyassoc-berlin",
+    "title": "History Abridged: The Berlin Conference 1884-1885",
+    "publisher": "The Historical Association (UK)",
+    "url": "https://www.history.org.uk/publications/resource/10065/history-abridged-the-berlin-conference-18841885",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Only the free introduction was read; the rest is behind a paywall. Used for the list of states represented and for who called the conference.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wb-urban-2023",
+    "title": "Urban population (SP.URB.TOTL), 2023",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/indicator/SP.URB.TOTL",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "2023 values for the 54 countries, obtained through the World Bank API (data last updated 2026-07-13). Each country's own definition of urban applies.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wb-population-2023",
+    "title": "Population, total (SP.POP.TOTL), 2023",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "2023 values, used beside the urban population of the same year. They differ from the 2025 values used on the Countries page.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wb-gdp-pc-2023",
+    "title": "GDP per capita, current US$ (NY.GDP.PCAP.CD), 2023",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "2023 values for 52 of the 54 countries; Eritrea and South Sudan have none for that year. Output per person at market exchange rates, not a measure of how income is shared.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "sahistory-adwa",
+    "title": "Remembering the Battle of Adwa",
+    "publisher": "South African History Online",
+    "url": "https://sahistory.org.za/article/remembering-battle-adwa",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A public-history site. Used for the date, the two armies' rough sizes, the Wuchale treaty dispute and what the victory meant. Compare with a specialist history of Ethiopia.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-battle-of-adwa",
+    "title": "Battle of Adwa",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Adwa",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for commanders, army sizes as ranges, casualties and the treaty that followed. Only the first 100,000 characters of the article were read.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "worldhistory-kush",
+    "title": "Kush",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Kush/",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Non-profit encyclopedia article. Used for the periods, the 25th Dynasty, iron working, the Meroitic script and the end of the kingdom. Check against a specialist book on Nubia.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "worldhistory-kilwa",
+    "title": "Kilwa",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Kilwa/",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Non-profit encyclopedia article. Used for Kilwa's trade, coins, buildings, Ibn Battuta's visit and the Portuguese attack. Check against an archaeological source.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-cassava",
+    "title": "Cassava",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cassava",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for origin, arrival in Africa, production figures, toxicity and processing. Only the first 100,000 characters were read; production figures should be checked against FAO.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "arxiv-lemos-principe-2019",
+    "title": "Einstein and Eddington and the eclipse in Principe: Celebration and science 100 years after",
+    "author": "José P. S. Lemos, Carlos A. R. Herdeiro and Vitor Cardoso",
+    "publisher": "arXiv (preprint)",
+    "url": "https://arxiv.org/abs/1912.08354",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read in full. A preprint by three physicists who organised the 2019 conference on Príncipe; it recounts the 1919 expedition and the centenary events.",
+    "published": "2019-12-18",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "ras-eddington-eclipse",
+    "title": "Eddington's total eclipse",
+    "publisher": "Royal Astronomical Society",
+    "url": "https://ras.ac.uk/eddington-s-total-eclipse",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "The Society's own short account of the 1919 expeditions.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-sundy-principe",
+    "title": "Sundy, São Tomé and Príncipe",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sundy,_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for the settlement's coordinates, population and the 1822 cocoa plantation. The coordinates are for the settlement, not the plantation house.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "bonobos-org-founder",
+    "title": "Our Founder, Claudine André",
+    "publisher": "Friends of Bonobos",
+    "url": "https://www.bonobos.org/our-founders-story",
+    "tier": "primary",
+    "status": "verified",
+    "note": "The sanctuary's supporting charity telling its own story. It is an interested party: figures are its own.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "mongabay-bonobos-2017",
+    "title": "Conservation lessons from the bonobos",
+    "publisher": "Mongabay",
+    "url": "https://news.mongabay.com/2017/05/conservation-lessons-from-the-bonobos/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Conservation news site, May 2017. Its figures differ from the charity's on several points; both are given on the card.",
+    "published": "2017-05-01",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-lola-ya-bonobo",
+    "title": "Lola ya Bonobo",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lola_ya_Bonobo",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for the coordinates, the meaning of the name and membership of the Pan African Sanctuary Alliance.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "natgeo-zakouma-2017",
+    "title": "The Rare African Park Where Elephants Are Thriving",
+    "author": "Rachel Nuwer",
+    "publisher": "National Geographic",
+    "url": "https://www.nationalgeographic.com/animals/article/wildlife-watch-chad-zakouma-elephants-poaching",
+    "tier": "press",
+    "status": "verified",
+    "note": "Wildlife Watch report, 28 January 2017. Its numbers are those of January 2017.",
+    "published": "2017-01-28",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-zakouma",
+    "title": "Zakouma National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Zakouma_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for coordinates, area, founding year, the 2021 elephant count and the giraffe and rhino notes. Check the later figures against African Parks, whose site could not be opened.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "rhodes-potopoto",
+    "title": "History of the Poto-Poto School",
+    "publisher": "Rhodes College (exhibition site 'Surface Tension: Paintings from the Poto-Poto School, 1950-1970')",
+    "url": "https://sites.rhodes.edu/node/7047",
+    "tier": "academic",
+    "status": "verified",
+    "note": "A college museum exhibition's own history page. It tells the school's story largely from Pierre Lods's account and does not discuss debates about it.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "adiac-potopoto-2021",
+    "title": "L'école de peinture de Poto-Poto : 70 ans de création",
+    "publisher": "ADIAC (Agence d'information d'Afrique centrale)",
+    "url": "https://adiac-congo.com/print/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+    "tier": "press",
+    "status": "verified",
+    "note": "Congolese news agency, 28 June 2021, in French. Used for the school's 70th anniversary, its working method and the second generation of painters.",
+    "published": "2021-06-28",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "mongabay-gabon-parks-2005",
+    "title": "Gabon sets aside 10 percent of country as protected parks",
+    "publisher": "Mongabay",
+    "url": "https://news.mongabay.com/2005/09/gabon-sets-aside-10-percent-of-country-as-protected-parks/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Conservation news report dated September 2005. It speaks of the 13 parks as announced then, while other sources date the decision to 2002; the card gives both.",
+    "published": "2005-09-01",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-loango",
+    "title": "Loango National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Loango_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for coordinates, area, founding year, habitats and wildlife. Check against Gabon's National Agency for National Parks, whose site was not read.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "osm-potopoto-school",
+    "title": "École de Peinture de Potopoto (node 9452645230)",
+    "publisher": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/node/9452645230",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "A school point added by volunteers in January 2022. Open data (ODbL). The position has not been checked on the ground.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "snohetta-bibalex",
+    "title": "Bibliotheca Alexandrina",
+    "publisher": "Snøhetta",
+    "url": "https://www.snohetta.com/projects/bibliotheca-alexandrina",
+    "tier": "primary",
+    "status": "verified",
+    "note": "The architects' own project page: the competition, the building's dimensions and capacity. A firm describing its own work.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "snohetta-bibalex-anniversary",
+    "title": "Snøhetta returns to Alexandria for anniversary lecture",
+    "publisher": "Snøhetta",
+    "url": "https://www.snohetta.com/news/snohetta-returns-to-alexandria",
+    "tier": "primary",
+    "status": "verified",
+    "note": "The architects' news page, used only for the year the library opened.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "bibalex-overview",
+    "title": "Overview",
+    "publisher": "Bibliotheca Alexandrina",
+    "url": "https://www.bibalex.org/en/page/overview",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "The library's own overview: its units and its annual visitors.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "bibalex-about",
+    "title": "About the Bibliotheca Alexandrina",
+    "publisher": "Bibliotheca Alexandrina",
+    "url": "https://www.bibalex.org/en/page/about",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "The library's own statement of purpose.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-bibalex",
+    "title": "Bibliotheca Alexandrina",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used only for the coordinates.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "constitutionhill-history",
+    "title": "The history of Constitution Hill",
+    "publisher": "Constitution Hill (Johannesburg)",
+    "url": "https://www.constitutionhill.org.za/pages/history",
+    "tier": "primary",
+    "status": "verified",
+    "note": "The site's own history page. It does not say who built the Old Fort or give details of the Women's Jail.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "constitutionhill-timeline",
+    "title": "Constitution Hill through time",
+    "publisher": "Constitution Hill (Johannesburg)",
+    "url": "https://www.constitutionhill.org.za/pages/timeline",
+    "tier": "primary",
+    "status": "verified",
+    "note": "The site's timeline page, read as text; its interactive timeline was not read.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "wikipedia-constitution-hill",
+    "title": "Constitution Hill, Johannesburg",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used only for the coordinates.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "egyptianstreets-koshari-2021",
+    "title": "The history of koshari is as rich as its flavor",
+    "publisher": "Egyptian Streets",
+    "url": "https://egyptianstreets.com/2021/09/21/the-history-of-koshari-is-as-rich-as-its-flavor/",
+    "tier": "press",
+    "status": "verified",
+    "note": "An Egyptian independent news site, 21 September 2021. It repeats the most common account of the dish's origin and does not cite a document for it.",
+    "published": "2021-09-21",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "sbs-koshari-2021",
+    "title": "Koshari is a regular on this Egyptian family's table",
+    "publisher": "SBS Food (Australia)",
+    "url": "https://www.sbs.com.au/food/article/2021/06/24/koshari-regular-egyptian-familys-table",
+    "tier": "press",
+    "status": "verified",
+    "note": "A home cook, Sahar Elsemary, describes how her family makes koshari, 24 June 2021. A single voice, with her own account of the origin.",
+    "published": "2021-06-24",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "gulfnews-koshari",
+    "title": "Egyptian Koshari, kushari or koshary: a delicious mix of rice, lentils, pasta and cultures",
+    "publisher": "Gulf News",
+    "url": "https://gulfnews.com/amp/food/egyptian-koshari-kushari-or-koshary-a-delicious-mix-of-rice-lentils-pasta-and-cultures-1.1638712028370",
+    "tier": "press",
+    "status": "verified",
+    "note": "A newspaper food feature; the page read does not show its date, which the web address suggests is December 2021. It sets out several origin theories.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "afp-thieboudienne-2021",
+    "title": "Senegal fish dish wins Unesco recognition (AFP, republished by Free Malaysia Today)",
+    "publisher": "AFP, via Free Malaysia Today",
+    "url": "https://www.freemalaysiatoday.com/category/leisure/food/2021/12/16/senegal-fish-dish-wins-unesco-recognition",
+    "tier": "press",
+    "status": "verified",
+    "note": "A news agency report of the UNESCO decision, republished on 16 December 2021. It quotes UNESCO's text but UNESCO's own page was not read.",
+    "published": "2021-12-16",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "visitesenegal-thieb",
+    "title": "Thieboudienne / ceebu jën",
+    "publisher": "Visitez le Sénégal",
+    "url": "https://www.visitezlesenegal.com/en/?p=2236",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A tourism website. It calls the dish the national dish and credits its invention to Penda Mbaye of Guet-Ndar, which the card presents as a tradition, not as documented history.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "revista-cachupa",
+    "title": "Cachupa",
+    "author": "Isabel Ferreira",
+    "publisher": "ReVista: Harvard Review of Latin America (David Rockefeller Center)",
+    "url": "https://revista.drclas.harvard.edu/cachupa",
+    "tier": "academic",
+    "status": "verified",
+    "note": "A personal essay by Isabel Ferreira, who grew up in Cape Verde and teaches Portuguese at Harvard; a first-hand account, not a study of the dish's history.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "brown-memorydishes-cachupa",
+    "title": "The da Graça Family: cachupa",
+    "publisher": "Brown University, Memory Dishes project",
+    "url": "https://sites.brown.edu/memorydishes/?p=23",
+    "tier": "academic",
+    "status": "verified",
+    "note": "A university oral-history project about one Cape Verdean family in Providence and the dish they keep cooking.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "ciee-seswaa",
+    "title": "Delicately flavored Dijo tsa Setswana (Setswana traditional food)",
+    "publisher": "CIEE study abroad blog",
+    "url": "https://ciee.org/go-abroad/college-study-abroad/blog/delicately-flavored-dijo-tsa-setswana-setswana-traditonal-food",
+    "tier": "press",
+    "status": "verified",
+    "note": "A study-abroad student's blog post on food in Botswana. A first-hand account written for other students.",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "id": "chaloafrica-seswaa",
+    "title": "The soul of Botswana: a culinary journey through the heart of Southern Africa",
+    "publisher": "Chalo Africa",
+    "url": "https://www.chaloafrica.com/diary/the-soul-of-botswana-a-culinary-journey-through-the-heart-of-southern-africa/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A safari travel company's article, written to attract travellers; its claims are not sourced.",
+    "retrieved": "2026-10-08"
+  },
+  {
     "id": "arabnews-liberia-bicentennial-2022",
     "title": "Liberia kicks off bicentennial celebrating arrival of Black Americans",
     "publisher": "Arab News",

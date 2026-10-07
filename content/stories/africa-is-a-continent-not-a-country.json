@@ -1,0 +1,121 @@
+{
+ "slug": "africa-is-a-continent-not-a-country",
+ "status": "published",
+ "kind": "myth",
+ "title": "Africa is a continent, not a country",
+ "subtitle": "Fifty-four countries, and the biggest has about 1,900 times more people than the smallest.",
+ "countries": [],
+ "places": [],
+ "sections": [
+  {
+   "id": "claim",
+   "title": "The idea",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "It is easy to hear \"Africa\" used as if it were one place, with one government, one language and one story. It is not.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "title": "Fifty-four countries",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "The World Bank gives figures for 54 countries in Africa.",
+       "cite": [
+        "wb-countries"
+       ]
+      },
+      {
+       "text": " The African Union's own list has 55 members: these 54 and the Sahrawi Republic, which is not one of the 54 here.",
+       "cite": [
+        "au-members"
+       ]
+      },
+      {
+       "text": " The United Nations sorts the 54 into five statistical subregions, which it says are for convenience and imply nothing about political ties.",
+       "cite": [
+        "un-m49"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Together the 54 hold about 1.55 billion people and about 30.1 million square kilometres, sums calculated here from the World Bank's figures.",
+       "cite": [
+        "wb-population",
+        "wb-area"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "range",
+   "title": "How different they are",
+   "blocks": [
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Nigeria has about 237.5 million people. Seychelles has about 122,700.",
+       "cite": [
+        "wb-population"
+       ]
+      },
+      {
+       "text": " The largest has roughly 1,900 times more people than the smallest, a ratio calculated here.",
+       "cite": [
+        "wb-population"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "Algeria covers about 2.38 million square kilometres. Seychelles covers 460.",
+       "cite": [
+        "wb-area"
+       ]
+      },
+      {
+       "text": " That is more than 5,000 times as much, calculated here.",
+       "cite": [
+        "wb-area"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "parts": [
+      {
+       "text": "A country of 123,000 people and one of 237 million cannot be described by a single average, and neither can the continent that holds them.",
+       "editorial": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The count of countries depends on whom you count. The World Bank list has 54 and the African Union 55, because of the Sahrawi Republic; other territories are not counted by either.",
+  "Population is a 2025 estimate and area a 2023 value; both are from the World Bank and are not census figures.",
+  "The ratios are our own arithmetic on those figures."
+ ]
+}

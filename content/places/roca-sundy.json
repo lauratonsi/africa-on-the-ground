@@ -1,0 +1,265 @@
+{
+  "slug": "roca-sundy",
+  "status": "published",
+  "type": "site",
+  "country": "STP",
+  "name": "Roça Sundy",
+  "region": "São Tomé and Príncipe · Príncipe",
+  "subtitle": "A former cocoa plantation on Príncipe where, on 29 May 1919, Arthur Eddington photographed a solar eclipse to test Einstein's theory.",
+  "coords": {
+    "lat": 1.6694,
+    "lon": 7.3842,
+    "approx": true,
+    "cite": [
+      "wikipedia-sundy-principe"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Former plantation (roça)",
+      "cite": [
+        "wikipedia-sundy-principe"
+      ]
+    },
+    {
+      "label": "Settlement",
+      "value": "Sundy, north-west Príncipe, 5 km from Santo António",
+      "cite": [
+        "wikipedia-sundy-principe"
+      ]
+    },
+    {
+      "label": "First cocoa plantation of the archipelago",
+      "value": "1822",
+      "cite": [
+        "wikipedia-sundy-principe"
+      ]
+    },
+    {
+      "label": "Eclipse",
+      "value": "29 May 1919, lasting 302 seconds",
+      "cite": [
+        "arxiv-lemos-principe-2019"
+      ]
+    },
+    {
+      "label": "Expedition",
+      "value": "Arthur Eddington and his assistant Cottingham",
+      "cite": [
+        "arxiv-lemos-principe-2019",
+        "ras-eddington-eclipse"
+      ]
+    },
+    {
+      "label": "Results announced",
+      "value": "6 November 1919",
+      "cite": [
+        "arxiv-lemos-principe-2019"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Sundy is a settlement in the north-west of Príncipe, 5 km from the island capital, Santo António; it had 416 people at the 2012 census.",
+              "cite": [
+                "wikipedia-sundy-principe"
+              ]
+            },
+            {
+              "text": " In 1822 the first cocoa plantation of the whole archipelago was established there.",
+              "cite": [
+                "wikipedia-sundy-principe"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The plantation house belonged to Jerónimo Carneiro, and it is where Eddington and his assistant Cottingham lodged in 1919. The paper says it had all the necessary infrastructure.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The name Sundy is an English spelling of Sundi, which the authors trace to Sumdim, meaning Senhor Dias, a local landowner in the early nineteenth century.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1919",
+      "title": "The eclipse of 29 May 1919",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Einstein's theory predicted that light passing near the Sun would be bent. The eclipse of 29 May 1919 offered a chance to photograph stars near the Sun's edge and measure it.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Two expeditions left England at the beginning of March 1919. Eddington went to Príncipe; the Royal Greenwich Observatory astronomers Crommelin and Davidson went to Sobral, in Brazil.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            },
+            {
+              "text": " The Royal Astronomical Society says Eddington himself went to Príncipe armed with a telescope and glass photographic plates.",
+              "cite": [
+                "ras-eddington-eclipse"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The eclipse lasted 302 seconds, five minutes and two seconds.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            },
+            {
+              "text": " Five months later the plates showed stars near the Sun shifted by the amount Einstein's theory predicted, 1.75 arcseconds for stars near the Sun's rim.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The results were announced on 6 November 1919 at a joint meeting of the Royal Society and the Royal Astronomical Society, and newspapers worldwide headlined the triumph of Einstein's theory.",
+              "cite": [
+                "arxiv-lemos-principe-2019",
+                "ras-eddington-eclipse"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1822",
+              "text": "The first cocoa plantation of the archipelago is established at Sundy.",
+              "cite": [
+                "wikipedia-sundy-principe"
+              ]
+            },
+            {
+              "when": "Early Mar 1919",
+              "text": "Two British expeditions leave England, stop in Lisbon and Funchal, and part there.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            },
+            {
+              "when": "29 May 1919",
+              "text": "The eclipse, 302 seconds long, is photographed from Roça Sundy and from Sobral.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            },
+            {
+              "when": "6 Nov 1919",
+              "text": "The results are announced in London.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            },
+            {
+              "when": "25–30 May 2019",
+              "text": "Príncipe holds a week of celebrations and a scientific conference; a permanent exhibition opens at Roça Sundy.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "Remembering it",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In May 2019 Príncipe held celebrations from 25 to 30 May, with the high point at Roça Sundy on 29 May. An exhibition on the detection of light deflection was opened there and is now permanent.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The paper says the aim of the local project was to draw the attention of Príncipe's inhabitants to the relevance of the 1919 observations and to science in general.",
+              "cite": [
+                "arxiv-lemos-principe-2019"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Who lived and worked on the plantation in 1919, and under what conditions. None of the sources read tells the plantation's labour history, and this card does not guess it.",
+    "What Príncipe's own people remember of the expedition. The paper is written by physicists and describes the centenary from their side.",
+    "What can be seen at Roça Sundy now and how to visit. The paper mentions a permanent exhibition and an information panel; nothing else about the state of the site has been read.",
+    "The size of the deflection actually measured at Príncipe, as opposed to the prediction. The sources say the results matched Einstein's value and give only the predicted figure.",
+    "The coordinates are those of the settlement, not of the plantation house."
+  ],
+  "image": {
+    "file": "roca-sundy",
+    "alt": "An information panel at Roça Sundy with portraits of Eddington and Einstein and diagrams of the 1919 eclipse photographs, standing on grass.",
+    "caption": "The information panel about the 1919 eclipse at Roça Sundy, photographed in 2021.",
+    "credit": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ASUN_-_Information_panel_about_the_1919_eclipse_at_Roca_Sundy%2C_Principe%2C_2021.jpg"
+  }
+}
