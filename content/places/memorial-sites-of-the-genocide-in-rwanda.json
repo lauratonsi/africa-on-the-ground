@@ -49,11 +49,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The property includes four memorial sites. Only one of them, Gisozi, is the Kigali Genocide Memorial, which this card draws on; Nyamata, Murambi and Bisesero are not covered here.",
+              "cite": [
+                "wikipedia-kigali-memorial"
+              ]
+            },
+            {
+              "text": " Wikipedia says the Gisozi memorial commemorates the 1994 genocide against the Tutsi and holds the remains of over 250,000 people. It is run by the Aegis Trust on behalf of the National Commission for the Fight Against Genocide.",
+              "cite": [
+                "wikipedia-kigali-memorial"
+              ]
+            },
+            {
+              "text": " The article says that precisely how many people were killed may never be known, that estimates vary from 500,000 to over a million, and that a figure close to 800,000 is widely accepted.",
+              "cite": [
+                "wikipedia-kigali-memorial"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The other three sites, and survivors' own accounts: the right voices here are those of survivors and Rwandan historians, and this card has none of them yet.",
+    "The wording of the numbers and of the genocide's history should be checked with Rwandan institutions before publication.",
     "Local voices: none yet."
   ],
   "coords": {

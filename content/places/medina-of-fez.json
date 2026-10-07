@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fes el Bali is the oldest part of Fez. Together with Fes Jdid it forms the medina, valued, Wikipedia says, for keeping its pre-modern urban layout and many historic monuments.",
+              "cite": [
+                "wikipedia-fes-el-bali"
+              ]
+            },
+            {
+              "text": " It was founded as the capital of the Idrisid dynasty between 789 and 808 AD, as two separate towns on either side of the Fez River that merged under the Almoravids in the 11th and 12th centuries.",
+              "cite": [
+                "wikipedia-fes-el-bali"
+              ]
+            },
+            {
+              "text": " The Marinids built Fes Jdid next to it in the 13th century as a new administrative capital. Fes el Bali keeps its market streets, narrow alleys and large parts of its walls, with the al-Qarawiyyin University and mosque at its heart.",
+              "cite": [
+                "wikipedia-fes-el-bali"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The craft quarters, such as the tanneries, and the artisans' own accounts: the article read here does not describe them.",
+    "Housing, population and the state of conservation of the medina.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-170"
     ]
+  },
+  "image": {
+    "file": "medina-of-fez",
+    "alt": "A blue-tiled gate with three arches, Bab Bou Jeloud, in Fez.",
+    "caption": "Bab Bou Jeloud, one of the gates of Fez.",
+    "credit": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFes_Bab_Bou_Jeloud_2011.jpg"
   }
 }

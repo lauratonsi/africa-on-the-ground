@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Robben Island lies in Table Bay, 6.9 kilometres from the coast north of Cape Town. Wikipedia says the name comes from the old Dutch word for seals, and that the island is flat, 3.3 kilometres long and 1.9 wide, with an area of 5.08 km².",
+              "cite": [
+                "wikipedia-robben-island"
+              ]
+            },
+            {
+              "text": " It was fortified and used as a prison from the late 17th century until 1996.",
+              "cite": [
+                "wikipedia-robben-island"
+              ]
+            },
+            {
+              "text": " In the late 20th century political prisoners opposed to apartheid were held there. Nelson Mandela was imprisoned on the island for 18 of his 27 years in prison.",
+              "cite": [
+                "wikipedia-robben-island"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Former prisoners' own accounts, including the guides who are ex-prisoners. The article read here gives none.",
+    "The island's earlier uses, as quarantine and leper colony and as a military base, which the part read here does not reach.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-916"
     ]
+  },
+  "image": {
+    "file": "robben-island",
+    "alt": "An aerial view of Robben Island, flat and green with a small harbour, in blue sea with Table Mountain on the horizon.",
+    "caption": "Robben Island, with Table Mountain beyond.",
+    "credit": "South African Tourism from South Africa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ARobben_Island_-_Cape_Town%2C_South_Africa_(3883849594).jpg"
   }
 }

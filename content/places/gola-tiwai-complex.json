@@ -56,10 +56,27 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia's list of World Heritage Sites in Sierra Leone says the country accepted the World Heritage Convention on 7 January 2005 and that the Gola-Tiwai Complex, added to the list in 2025, is its first site, with four more on the tentative list.",
+              "cite": [
+                "wikipedia-wh-sierra-leone"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Almost everything. The sources found say only when the site was listed. What the complex is, who lives around it and what its protection involves must be researched from scratch.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ],

@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ambohimanga is a hill and fortified royal settlement, a rova, about 24 kilometres north-east of Antananarivo. Wikipedia calls it the most significant symbol of Merina cultural identity and the best-preserved monument of the precolonial Merina Kingdom.",
+              "cite": [
+                "wikipedia-ambohimanga"
+              ]
+            },
+            {
+              "text": " It is one of the twelve sacred hills of Imerina and a place of worship to which pilgrims still come from Madagascar and elsewhere.",
+              "cite": [
+                "wikipedia-ambohimanga"
+              ]
+            },
+            {
+              "text": " The article says it became politically important in the early 18th century, when King Andriamasinavalona divided Imerina into four quadrants and gave his son the north-east one, ruled from Ambohimanga.",
+              "cite": [
+                "wikipedia-ambohimanga"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Malagasy voices on the sacred hill and its rituals, beyond the article's summary.",
+    "The Rova of Antananarivo is a different royal site and this card does not cover it.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-950"
     ]
+  },
+  "image": {
+    "file": "royal-hill-of-ambohimanga",
+    "alt": "Red-earth fields and green hills under a pale sky, in a view toward the sacred hill of Ambohimanga.",
+    "caption": "A view of the Ambohimanga hill, Madagascar.",
+    "credit": "Lemurbaby",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AView_of_Ambohimanga_sacred_hill_Madagascar.JPG"
   }
 }

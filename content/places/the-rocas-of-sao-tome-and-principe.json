@@ -56,11 +56,34 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This card draws on an article about cocoa in São Tomé and Príncipe, not on one about the roças themselves. It says cocoa was introduced in 1819, when the islands were a Portuguese colony, and the first tree to grow fully was on Príncipe in 1824.",
+              "cite": [
+                "wikipedia-cocoa-stp"
+              ]
+            },
+            {
+              "text": " From 1905 to 1911 the islands exported more cocoa than anywhere else in the world and were nicknamed the Chocolate Islands. The article says British journalists' revelations of poor labour conditions led to European boycotts of São Toméan cocoa.",
+              "cite": [
+                "wikipedia-cocoa-stp"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "Coordinates: the UNESCO record has none for this property.",
+    "The roças as buildings and as a labour system: their layout, the contract workers (serviçais), and what remains today. The article read here covers only the cocoa trade.",
+    "São Toméan voices, including descendants of plantation workers.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ]

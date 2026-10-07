@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia calls Aldabra the world's second-largest coral atoll, after Kiritimati. It belongs to the Outer Islands of the Seychelles, 1,120 km south-west of the capital Victoria on Mahé.",
+              "cite": [
+                "wikipedia-aldabra"
+              ]
+            },
+            {
+              "text": " The name comes from Arab seafarers, who named the atoll for its harsh, sun-baked environment, and Portuguese navigators visited in 1511.",
+              "cite": [
+                "wikipedia-aldabra"
+              ]
+            },
+            {
+              "text": " In the middle of the 18th century it became a dependency of the French colony of Réunion, and expeditions came to capture the Aldabra giant tortoises. There is no surface fresh water, so explorers exploited tortoises, turtles and fish rather than settling.",
+              "cite": [
+                "wikipedia-aldabra"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The tortoise population and the research station today. The part of the article read here stops before them.",
+    "Conservation management and who decides access.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-185"
     ]
+  },
+  "image": {
+    "file": "aldabra-atoll",
+    "alt": "Satellite view of Aldabra: a long ring of land around a pale turquoise lagoon, in dark blue sea.",
+    "caption": "Aldabra atoll seen from space (NASA Earth Observatory).",
+    "credit": "NASA Earth Observatory image by Wanmei Liang, using Landsat data from the U.S. Geological Survey",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAn_Outpost_for_Evolution_at_Aldabra_Atoll.jpg"
   }
 }

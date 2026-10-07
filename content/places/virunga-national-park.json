@@ -63,11 +63,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Virunga National Park lies in the Albertine Rift in eastern Democratic Republic of the Congo, along the borders with Uganda and Rwanda. Wikipedia says it was created in 1925, covers 7,800 km² and ranges in height from 680 metres to 5,109 metres in the Rwenzori Mountains.",
+              "cite": [
+                "wikipedia-virunga"
+              ]
+            },
+            {
+              "text": " Two active volcanoes, Nyiragongo and Nyamuragira, lie within it. More than 3,000 species of animals and plants have been recorded, over 300 of them found only in the Albertine Rift, including the eastern gorilla and the golden monkey.",
+              "cite": [
+                "wikipedia-virunga"
+              ]
+            },
+            {
+              "text": " It was listed as a World Heritage Site in 1979 for its range of habitats, its biodiversity and its protection of rare mountain gorilla habitat.",
+              "cite": [
+                "wikipedia-virunga"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Rangers' and communities' accounts of the armed conflict around the park, which the part of the article read here does not reach.",
+    "Oil and the park's borders, a long-running dispute not covered in the lead.",
     "Local voices: none yet."
   ],
   "coords": {

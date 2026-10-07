@@ -49,11 +49,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Aapravasi Ghat, 'the Immigration Depot', is a group of buildings in Port Louis, Mauritius, the first British colony to receive indentured labourers from many countries.",
+              "cite": [
+                "wikipedia-aapravasi-ghat"
+              ]
+            },
+            {
+              "text": " Wikipedia says that from 1849 to 1923 half a million Indian indentured labourers passed through it, on their way to plantations across the British Empire, and that 68 percent of Mauritius's people are of Indian ancestry.",
+              "cite": [
+                "wikipedia-aapravasi-ghat"
+              ]
+            },
+            {
+              "text": " It adds that unchecked development in the mid-20th century left only partial remains of three stone buildings, now protected as a national monument.",
+              "cite": [
+                "wikipedia-aapravasi-ghat"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Indian and Mauritian accounts of the Depot: the article read here gives the institutional history only.",
+    "How the labour system compared with slavery, which the article does not discuss.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -62,5 +91,14 @@
     "cite": [
       "unesco-whc-1227"
     ]
+  },
+  "image": {
+    "file": "aapravasi-ghat",
+    "alt": "A long stone wall with openings, part of the surviving Aapravasi Ghat buildings in Port Louis.",
+    "caption": "Part of the Aapravasi Ghat site, Port Louis.",
+    "credit": "Suyash Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAapravasi_Ghat_Museum%2C_Mauritius_(41).jpg"
   }
 }

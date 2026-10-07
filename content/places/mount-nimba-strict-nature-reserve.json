@@ -70,10 +70,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The reserve covers 175.4 km², of which 125.4 km² are in Guinea and 50 km² in Côte d'Ivoire. Its highest point, Mount Richard-Molard at 1,752 metres, is the highest peak of both countries.",
+              "cite": [
+                "wikipedia-mount-nimba"
+              ]
+            },
+            {
+              "text": " Wikipedia notes exceptional numbers of species found nowhere else, among them a genus of live-bearing toads, the Nimba otter shrew and several horseshoe bats.",
+              "cite": [
+                "wikipedia-mount-nimba"
+              ]
+            },
+            {
+              "text": " The reserve was created in 1943 in Côte d'Ivoire and in 1944 in Guinea. The two parts were inscribed on the World Heritage List in 1981 (Guinea) and 1982 (Côte d'Ivoire). Iron-ore exploration in the most fragile mountain zone began in 1992.",
+              "cite": [
+                "wikipedia-mount-nimba"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The mining dispute and its present state, which Wikipedia only begins to describe in the part read here.",
+    "The communities around the mountain and how they use it.",
     "A photograph under an open licence (the one found on Commons is a signboard, not the landscape).",
     "Local voices: none yet."
   ],

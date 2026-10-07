@@ -56,10 +56,52 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "kings",
+      "title": "The kings and their city",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 2023 popular-history article says two traditions recorded in the 18th century give different founders for Abomey: the chief Dakodonu, who died in 1645, or Houegbadja, the first king of Dahomey, who reigned from 1645 to 1685.",
+              "cite": [
+                "ahe-abomey-2023"
+              ]
+            },
+            {
+              "text": " It lists the succession as Houegbadja, Akaba (1685–1708), Agaja, Tegbesu (1740–1774), Kpengla (1774–1789), Agonglo (1789–1797), Adandozan, Gezo (1818–1858), Glele (1858–1889) and Béhanzin (1889–1894).",
+              "cite": [
+                "ahe-abomey-2023"
+              ]
+            },
+            {
+              "text": " The complex held about a dozen royal residences and many other buildings. The article puts it at over a hundred acres, inside a city wall about 30 feet tall that ran for some 2.5 miles.",
+              "cite": [
+                "ahe-abomey-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When the French army marched on Abomey in 1892–94, the same article says, Béhanzin saw that resistance was futile, left to set up a capital in the north, and ordered the palace complex razed, preferring that to leaving the sacred tombs and soul-houses to the enemy.",
+              "cite": [
+                "ahe-abomey-2023"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A specialist history of Dahomey to confirm the dates of the reigns, which differ between published lists, and the account of the 1892–94 war.",
+    "The museum today: what it shows, who runs it and how it tells this history.",
+    "The 2007 removal from the Danger List, and the restoration work since (the sources found are summaries, not the reports).",
     "Local voices: none yet."
   ],
   "coords": {
@@ -71,8 +113,8 @@
   },
   "image": {
     "file": "royal-palaces-of-abomey",
-    "alt": "A palace building with a thatched roof and animal relief panels on its walls, beside a low ochre wall and a courtyard of red earth.",
-    "caption": "A royal palace at Abomey, Benin, with relief panels on its walls.",
+    "alt": "A long, low palace building in Abomey with earthen walls and a roof, seen from across a sandy courtyard.",
+    "caption": "A royal palace at Abomey, Benin.",
     "credit": "Dominik Schwarz",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",

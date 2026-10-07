@@ -5,10 +5,45 @@
   "country": "LBR",
   "name": "Providence Island",
   "region": "Liberia",
-  "subtitle": "Card in preparation.",
+  "subtitle": "The island where American freedmen first settled in Liberia. Card in preparation.",
   "facts": [],
-  "sections": [],
+  "sections": [
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Providence Island was the site of the first successful settlement of American freedmen by the American Colonization Society in Liberia, according to Wikipedia. It was also known as Perseverance, Dozoa or Darzoe Island.",
+              "cite": [
+                "wikipedia-providence-island"
+              ]
+            },
+            {
+              "text": " The article says the government of Liberia has proposed it as a UNESCO World Heritage Site.",
+              "cite": [
+                "wikipedia-providence-island"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet. The country has no site on the UNESCO World Heritage List (Wikipedia list, consulted 7 October 2026), so this place was chosen as one of its best-known; check that choice and every detail against sources before writing."
-  ]
+    "Almost everything. The history of the Colonization Society and of the people already living there is contested and needs strong sources and Liberian voices.",
+    "This place was chosen by the project as one of Liberia's best known; Liberia has no site on the World Heritage List.",
+    "Local voices: none yet."
+  ],
+  "image": {
+    "file": "providence-island",
+    "alt": "A grassy bank and palm trees on the shore, with the buildings of Monrovia across the water.",
+    "caption": "View of downtown Monrovia from Providence Island.",
+    "credit": "Jforest59",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AProvidence_Island_view_of_downtown_Monrovia.jpg"
+  }
 }

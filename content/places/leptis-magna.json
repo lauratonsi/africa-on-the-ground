@@ -63,11 +63,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Leptis Magna was a city of the Carthaginian Empire and of Roman Libya, at the mouth of the Wadi Lebda on the Mediterranean. Wikipedia says it was a Punic settlement before 500 BC.",
+              "cite": [
+                "wikipedia-leptis-magna"
+              ]
+            },
+            {
+              "text": " It grew under Emperor Septimius Severus, who ruled from 193 to 211 and was born there. It fell to the Vandals in 439, rejoined the Eastern Empire in 533, and was abandoned after the Muslim conquest, around 647.",
+              "cite": [
+                "wikipedia-leptis-magna"
+              ]
+            },
+            {
+              "text": " The article says that the city lay buried under sand dunes, which preserved it, until Italian archaeologists unearthed it in the 1920s during the Italian occupation of Libya.",
+              "cite": [
+                "wikipedia-leptis-magna"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The state of the site after the conflicts in Libya since 2011, which the part of the article read here does not reach.",
+    "Libyan archaeologists' and residents' voices.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -76,5 +105,14 @@
     "cite": [
       "unesco-whc-183"
     ]
+  },
+  "image": {
+    "file": "leptis-magna",
+    "alt": "Rows of tall stone columns along a paved street among the ruins of Leptis Magna, under a blue sky.",
+    "caption": "Colonnades at Leptis Magna.",
+    "credit": "joepyrek from Richmond, Va, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALeptis_Magna_(29)_(8288918733).jpg"
   }
 }

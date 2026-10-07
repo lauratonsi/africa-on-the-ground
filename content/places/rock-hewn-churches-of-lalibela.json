@@ -49,11 +49,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia describes eleven monolithic churches near the town of Lalibela, in the Ethiopian Highlands, named after King Gebre Meskel Lalibela of the Zagwe dynasty. The tradition says he built them to recreate Jerusalem.",
+              "cite": [
+                "wikipedia-lalibela"
+              ]
+            },
+            {
+              "text": " It says the site is still in use by the Ethiopian Orthodox Church and is a major pilgrimage place, and that building took 24 years.",
+              "cite": [
+                "wikipedia-lalibela"
+              ]
+            },
+            {
+              "text": " The article reports local tradition that Lalibela, formerly Roha, was founded by an Agew family, the Zagwe, in 1137, and says the churches probably reached their present form over several phases of construction rather than in one reign.",
+              "cite": [
+                "wikipedia-lalibela"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Ethiopian Orthodox accounts of the churches and of the pilgrimage, which the article only summarises.",
+    "The protective roofs and conservation disputes, and the present state of the town.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -62,5 +91,14 @@
     "cite": [
       "unesco-whc-18"
     ]
+  },
+  "image": {
+    "file": "rock-hewn-churches-of-lalibela",
+    "alt": "A rock-hewn church: a block of reddish stone standing in a pit, with steps leading down to its door.",
+    "caption": "One of the rock-hewn churches of Lalibela.",
+    "credit": "Sailko",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALalibela%2C_san_giorgio%2C_esterno_24.jpg"
   }
 }

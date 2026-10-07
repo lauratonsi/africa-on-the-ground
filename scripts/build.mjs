@@ -95,7 +95,9 @@ const themeButton = `<button class="theme-btn" id="theme" type="button" hidden a
 
 // Il paesaggio della home: cielo, sole, colline, fiume e baobab, disegnato a strati.
 // I colori sono variabili CSS (--sky-*, --far, --mid...), quindi cambiano da soli nel tema scuro.
-function landscape() {
+// compact: versione per le pagine interne (sole più basso, baobab più piccoli, niente uccelli sotto la barra)
+function landscape(compact = false) {
+  const sunY = compact ? 706 : 665, sunR = compact ? 120 : 132, bigL = compact ? 1.3 : 1.55, bigR = compact ? 1.5 : 1.95;
   const bao = '<g id="baobab" class="bao" stroke-linecap="round" stroke-linejoin="round"><path d="M-34 0 C-40 -50 -30 -110 -18 -160 C-16 -168 16 -168 18 -160 C30 -110 40 -50 34 0 Z" stroke="none"/><path d="M0 -160 L-62 -214 M0 -160 L-24 -230 M0 -160 L30 -232 M0 -160 L68 -210 M0 -160 L96 -176" fill="none" stroke-width="9"/><path d="M-62 -214 L-96 -222 M-62 -214 L-78 -250 M-24 -230 L-44 -266 M-24 -230 L-8 -268 M30 -232 L22 -270 M30 -232 L58 -262 M68 -210 L100 -232 M68 -210 L84 -250 M96 -176 L128 -190" fill="none" stroke-width="5"/><path d="M-96 -222 L-118 -228 M-78 -250 L-86 -280 M-44 -266 L-56 -292 M-8 -268 L2 -298 M22 -270 L18 -300 M58 -262 L78 -286 M100 -232 L126 -248 M84 -250 L96 -278" fill="none" stroke-width="3"/></g>';
   const stars = [[140, 90, 2], [300, 150, 1.6], [470, 60, 2.2], [640, 130, 1.5], [820, 70, 2], [1010, 140, 1.6], [1180, 80, 2.2], [1330, 170, 1.6], [240, 230, 1.4], [1090, 250, 1.4]]
     .map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}"/>`).join("");
@@ -108,20 +110,20 @@ ${bao}
 </defs>
 <rect width="1440" height="900" fill="url(#scSky)"/>
 <g class="star">${stars}</g>
-<circle cx="1030" cy="665" r="300" fill="url(#scGlow)"/>
-<circle class="sunfill" cx="1030" cy="665" r="132"/>
+<circle class="sun-m" cx="1030" cy="${sunY}" r="300" fill="url(#scGlow)"/>
+<circle class="sunfill sun-m" cx="1030" cy="${sunY}" r="${sunR}"/>
 <path class="far" d="M0 640 C150 600 300 625 470 605 S790 585 930 622 S1230 600 1440 630 L1440 900 L0 900 Z"/>
 <path class="mid" d="M0 690 C200 655 380 690 560 668 S900 650 1090 685 S1330 668 1440 690 L1440 900 L0 900 Z"/>
 <path d="M0 720 C260 700 520 730 800 712 S1240 700 1440 722 L1440 790 C1180 778 900 800 640 786 S180 790 0 782 Z" fill="url(#scRiver)" opacity=".92"/>
-<g class="refl" fill="none" stroke-width="3" stroke-linecap="round" opacity=".8"><path d="M970 726 h120 M990 740 h84 M1005 754 h58 M1018 768 h34"/></g>
+${compact ? "" : '<g class="refl sun-m" fill="none" stroke-width="3" stroke-linecap="round" opacity=".8"><path d="M970 726 h120 M990 740 h84 M1005 754 h58 M1018 768 h34"/></g>'}
 <use href="#baobab" transform="translate(470 668) scale(.5)" opacity=".75"/>
 <use href="#baobab" transform="translate(700 676) scale(.36)" opacity=".7"/>
 <path class="near" d="M0 792 C240 770 520 800 820 786 S1260 776 1440 790 L1440 900 L0 900 Z"/>
 <path class="ground" d="M0 850 C300 830 620 864 920 846 S1300 838 1440 850 L1440 900 L0 900 Z"/>
-<use href="#baobab" transform="translate(150 880) scale(1.55)"/>
+<use href="#baobab" transform="translate(150 880) scale(${bigL})"/>
 <use href="#baobab" transform="translate(560 892) scale(.95)"/>
-<use href="#baobab" transform="translate(1290 892) scale(1.95)"/>
-<g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g>
+<g class="bR"><use href="#baobab" transform="translate(1290 892) scale(${bigR})"/></g>
+${compact ? "" : `<g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g>`}
 </svg>`;
 }
 
@@ -131,7 +133,7 @@ const heroWave = '<svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRat
 // Apertura ridotta con il paesaggio, per le pagine che non sono la home.
 function compactHero({ kicker, title, sub }) {
   return `<section class="scape-hero compact">
-  ${landscape()}
+  ${landscape(true)}
   <div class="scape-text">
     <p class="scape-kicker">${esc(kicker)}</p>
     <h1>${esc(title)}</h1>
@@ -190,6 +192,22 @@ function fab(jump) {
   <ul class="fab-menu" id="fab-menu" hidden>${items}</ul>
   <button type="button" class="fab-btn" id="fab-btn" aria-expanded="false" aria-controls="fab-menu" aria-label="Jump to a section"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 15l6-6 6 6"/></svg></button>
 </div>`;
+}
+
+// Dichiarazione sulle fonti, calcolata: una scheda che poggia solo su UNESCO e su Wikipedia lo dice apertamente.
+function sourcingNote(p) {
+  const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean);
+  if (!ids.length) return "";
+  const isUnesco = (x) => /UNESCO/i.test(x.publisher || "");
+  const others = ids.filter((x) => !isUnesco(x) && x.tier !== "encyclopedia");
+  const hasUnesco = ids.some(isUnesco), hasWiki = ids.some((x) => x.tier === "encyclopedia");
+  if (others.length) {
+    const by = {}; others.forEach((x) => { by[x.tier] = (by[x.tier] || 0) + 1; });
+    const list = Object.entries(by).map(([t, k]) => `${k} ${t}`).join(", ");
+    return `<p class="sourcing">Sources beyond UNESCO and Wikipedia: ${others.length} (${list}). Check each source's status in the list at the end of the card.</p>`;
+  }
+  const base = [hasUnesco ? "UNESCO's own text" : "", hasWiki ? "Wikipedia" : ""].filter(Boolean).join(" and ");
+  return `<p class="sourcing"><strong>Sourcing note.</strong> This card rests on ${base}. No independent source has been added yet, so read it as an outline, not as a finished account.</p>`;
 }
 
 function citedIds(place) {
@@ -355,6 +373,7 @@ function renderPlace(p) {
 </section>
 ${credit}
 <section class="wrap page-intro">
+  ${sourcingNote(p)}
   <p class="lede">This card keeps two kinds of knowledge apart: what the documented record says, and what the people who know the place say. Each is labelled, so a reader always knows which one they are reading.</p>
   <ul class="legend">
     <li><span class="layer-tag rec">In the record</span> cited to a source</li>
@@ -397,14 +416,21 @@ const published = places.map((x) => x.data).filter((p) => includeDrafts || p.sta
 
 for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
-const featured = published.slice(0, 3);
+// In vetrina: schede pubblicate di paesi diversi prima, poi le altre (non le prime tre in ordine alfabetico)
+const featured = (() => {
+  const seen = new Set(), out = [];
+  for (const p of published.filter((x) => x.status === "published")) if (!seen.has(p.country) && out.length < 3) { seen.add(p.country); out.push(p); }
+  for (const p of published.filter((x) => x.status === "published")) if (out.length < 3 && !out.includes(p)) out.push(p);
+  for (const p of published) if (out.length < 3 && !out.includes(p)) out.push(p);
+  return out;
+})();
 const placeItems = featured.map((p) => {
   const n = (notes[p.slug] || []).length;
   const where = p.coords ? "" : " · not on the map";
   const media = p.image
     ? `<img src="img/places/${esc(p.image.file)}-800.jpg" srcset="img/places/${esc(p.image.file)}-800.jpg 800w, img/places/${esc(p.image.file)}-1600.jpg 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="800" height="533" alt="${esc(p.image.alt)}" loading="lazy">`
     : art(p.slug, 3, 2).replace('class="art"', 'class="art pimg-art"');
-  return `<li data-slug="${esc(p.slug)}" data-type="${esc(p.type)}"><a class="place" href="places/${esc(p.slug)}/index.html"><span class="pimg">${media}${p.status === "draft" ? '<span class="draft pbadge">Draft</span>' : ""}</span><span class="pbody"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}${where}</span></span></a></li>`;
+  return `<li data-slug="${esc(p.slug)}" data-type="${esc(p.type)}"><a class="place" href="places/${esc(p.slug)}/index.html"><span class="pimg">${media}${p.status === "draft" ? '<span class="draft pbadge">Draft</span>' : ""}</span><span class="pbody"><span class="kicker">${esc(p.region)}</span><span class="pname">${esc(p.name)}</span><span class="psub">${esc(p.subtitle)}</span><span class="pmeta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}${where}</span></span></a></li>`;
 }).join("");
 
 const usedTypes = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));
@@ -484,6 +510,7 @@ write("index.html", layout({
       <span class="layer-tag">From people who know this place</span>
       <h3>What they tell us</h3>
       <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
+      <p class="sun-more"><a href="places/index.html">Know a place? Open its card and write a note</a></p>
     </article>
   </div>
 </section>
@@ -695,9 +722,10 @@ write("method/index.html", layout({
 function renderPlaces() {
   const cmap = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c]));
   const groups = config.subregions.map((r) => ({ ...r, items: published.filter((p) => (cmap[p.country] || {}).subregion === r.id).sort((a, b) => a.region.localeCompare(b.region) || a.name.localeCompare(b.name)) })).filter((g) => g.items.length);
+  const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
   const row = (p) => {
     const n = (notes[p.slug] || []).length;
-    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="${esc(p.slug)}/index.html"><span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
+    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
   };
   const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
   const usedT = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));
@@ -708,7 +736,7 @@ function renderPlaces() {
     ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
     ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
   </div>`;
-  const body = `${compactHero({ kicker: "All places", title: "Every place card", sub: "One page per place, grouped by region. Each card keeps the documented record and the local voice apart." })}
+  const body = `${compactHero({ kicker: "Places", title: "All places", sub: "One page per place, grouped by region. Each card keeps the documented record and the local voice apart." })}
 <div class="wrap places-index">
   <p class="pi-count" id="pi-count" aria-live="polite">${published.length} ${published.length === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "region" : "regions"}${includeDrafts ? " (drafts included)" : ""}.</p>
   ${tools}

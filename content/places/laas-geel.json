@@ -5,10 +5,32 @@
   "country": "SOM",
   "name": "Laas Geel",
   "region": "Somalia",
-  "subtitle": "Card in preparation.",
+  "subtitle": "Cave paintings near Hargeisa, 4,500 to 5,500 years old. Card in preparation.",
   "facts": [],
-  "sections": [],
+  "sections": [
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Laas Geel is a set of cave formations on the rural outskirts of Hargeisa, Somaliland, in the Maroodi Jeex region. Wikipedia says they hold some of the earliest known cave paintings of domesticated African cattle in the Horn of Africa, and that the rock art is estimated at 4,500 to 5,500 years old.",
+              "cite": [
+                "wikipedia-laas-geel"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet. The country has no site on the UNESCO World Heritage List (Wikipedia list, consulted 7 October 2026), so this place was chosen as one of its best-known; check that choice and every detail against sources before writing."
+    "Politics of the location: Laas Geel is in Somaliland, whose declared independence from Somalia is not internationally recognised. This card sits under Somalia in the country list; how to present it needs an editorial decision.",
+    "Everything beyond the outline: the paintings, who found them and who protects them today.",
+    "This place was chosen by the project as one of Somalia's best known; Somalia has no site on the World Heritage List.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
   ]
 }

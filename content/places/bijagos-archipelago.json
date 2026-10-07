@@ -56,10 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Bijagós are a group of about 88 islands and islets in the Atlantic off Guinea-Bissau. They formed from the ancient delta of the Geba and Grande de Buba rivers and cover 12,958 km².",
+              "cite": [
+                "wikipedia-bijagos"
+              ]
+            },
+            {
+              "text": " Twenty of the islands are inhabited all year round. Bubaque is the most populated, and Bolama is the administrative capital.",
+              "cite": [
+                "wikipedia-bijagos"
+              ]
+            },
+            {
+              "text": " The archipelago has mangroves, palm forests, dry forests and coastal savanna. It became a UNESCO Biosphere Reserve in 1996, and BirdLife International lists it as an Important Bird Area for waders, gulls, terns, flamingos and pelicans.",
+              "cite": [
+                "wikipedia-bijagos"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The Bijagó people: their society, sacred sites and what they themselves say about protection of the islands. The article read here does not cover them.",
+    "What the 2025 World Heritage listing changed for the islands.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ],

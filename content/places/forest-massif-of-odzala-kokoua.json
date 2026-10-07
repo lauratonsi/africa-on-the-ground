@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Odzala-Kokoua is a national park and biosphere reserve in north-western Republic of the Congo, of about 13,500 square kilometres. Wikipedia says it was first protected in 1935, became a biosphere reserve in 1977 and was designated by presidential decree in 2001.",
+              "cite": [
+                "wikipedia-odzala-kokoua"
+              ]
+            },
+            {
+              "text": " It has about 100 mammal species and one of the continent's most diverse primate populations, with old-growth rainforest, savanna, dry forest and many glades.",
+              "cite": [
+                "wikipedia-odzala-kokoua"
+              ]
+            },
+            {
+              "text": " The non-profit African Parks has managed it with the Congolese government since 2010.",
+              "cite": [
+                "wikipedia-odzala-kokoua"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The people who live around the park and their rights to the forest, which the article read here does not discuss.",
+    "Independent surveys behind the wildlife figures.",
     "Local voices: none yet."
   ],
   "coords": {

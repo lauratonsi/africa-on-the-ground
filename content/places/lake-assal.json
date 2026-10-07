@@ -5,10 +5,52 @@
   "country": "DJI",
   "name": "Lake Assal",
   "region": "Djibouti",
-  "subtitle": "Card in preparation.",
+  "subtitle": "A salt lake 155 metres below sea level, the lowest point on land in Africa.",
   "facts": [],
-  "sections": [],
+  "sections": [
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lake Assal is a crater lake in central-western Djibouti, about 120 km west of Djibouti city, at the top of the Great Rift Valley. Wikipedia says it lies 155 metres below sea level in the Afar Triangle, the lowest point on land in Africa and the third-lowest on Earth.",
+              "cite": [
+                "wikipedia-lake-assal"
+              ]
+            },
+            {
+              "text": " It has no outflow and, because of high evaporation, its salinity is ten times that of the sea. The salt is exploited under four concessions awarded in 2002, and nearly 80 percent of production is held by two companies.",
+              "cite": [
+                "wikipedia-lake-assal"
+              ]
+            },
+            {
+              "text": " The lake is a protected zone under Djibouti's National Environmental Action Plan of 2000, though the article says the law does not define its boundaries.",
+              "cite": [
+                "wikipedia-lake-assal"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet. The country has no site on the UNESCO World Heritage List (Wikipedia list, consulted 7 October 2026), so this place was chosen as one of its best-known; check that choice and every detail against sources before writing."
-  ]
+    "The salt workers and the caravans of the Afar who carried salt: the right voices here, absent from the article read here.",
+    "The environmental effect of the salt concessions, which the article's lead only begins to raise.",
+    "This place was chosen by the project as one of Djibouti's best known; Djibouti has no site on the World Heritage List.",
+    "Local voices: none yet."
+  ],
+  "image": {
+    "file": "lake-assal",
+    "alt": "Satellite view of Lake Assal: a dark green lake with a pale salt shore among brown, ridged terrain.",
+    "caption": "Lake Assal seen from space (NASA).",
+    "credit": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALake_Assal_NASA.jpg"
+  }
 }

@@ -56,10 +56,34 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Mandara Mountains are a volcanic range of about 190 km along the northern part of the Cameroon–Nigeria border. Wikipedia gives the highest point as Mount Oupay, at 1,494 metres.",
+              "cite": [
+                "wikipedia-mandara-mountains"
+              ]
+            },
+            {
+              "text": " It says the region is densely populated, mainly by speakers of Chadic languages, including the Mofu and the Kirdi, and that extensive archaeological research has been done there, including at the Diy-Gid-Biy sites.",
+              "cite": [
+                "wikipedia-mandara-mountains"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "What the Diy-Gid-Biy sites are and what the research found. The article names them without describing them.",
+    "The people who live there, in their own words.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ],

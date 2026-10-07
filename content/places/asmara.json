@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Asmara is the capital and largest city of Eritrea. It stands at 2,325 metres, which Wikipedia says makes it the sixth-highest capital in the world and the second-highest in Africa.",
+              "cite": [
+                "wikipedia-asmara"
+              ]
+            },
+            {
+              "text": " Local tradition says the city was founded when four villages united to live in peace after long conflict, and the article describes it as a settlement of over half a millennium on the trade route to Massawa.",
+              "cite": [
+                "wikipedia-asmara"
+              ]
+            },
+            {
+              "text": " It rose to prominence in the 20th century as capital of Italian Eritrea, when rapid urbanisation earned it the name Piccola Roma, 'Little Rome'. UNESCO declared it a World Heritage Site in 2017 for its well-preserved Italian colonial modernist architecture.",
+              "cite": [
+                "wikipedia-asmara"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Eritrean historians and architects on the city, beyond the Tigrinya oral tradition summarised by Wikipedia.",
+    "How the buildings are used and cared for today.",
     "Local voices: none yet."
   ],
   "coords": {

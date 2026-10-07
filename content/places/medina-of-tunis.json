@@ -56,11 +56,34 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Medina of Tunis has been a World Heritage Site since 1979 and contains some 700 monuments, including palaces, mosques, mausoleums, madrasas and fountains, according to Wikipedia.",
+              "cite": [
+                "wikipedia-medina-of-tunis"
+              ]
+            },
+            {
+              "text": " The article says it was founded in 698 around the original core of the Zitouna Mosque and took its essential form in the Hafsid period, when Tunis became a religious, intellectual and economic centre.",
+              "cite": [
+                "wikipedia-medina-of-tunis"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Residents' and craftspeople's accounts of the medina today.",
+    "The Ottoman and French periods, which the part of the article read here does not reach.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +92,14 @@
     "cite": [
       "unesco-whc-36"
     ]
+  },
+  "image": {
+    "file": "medina-of-tunis",
+    "alt": "Flat rooftops of the Medina of Tunis seen from above, with a narrow street running between them.",
+    "caption": "Rooftops of the Medina of Tunis.",
+    "credit": "IssamBarhoumi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMedina_old_Town_of_Tunis.jpeg"
   }
 }

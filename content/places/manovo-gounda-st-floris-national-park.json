@@ -63,11 +63,34 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The park is in the Central African Republic, in Bamingui-Bangoran prefecture near the border with Chad, and was inscribed in 1988 for the diversity of its life, according to Wikipedia.",
+              "cite": [
+                "wikipedia-manovo-gounda"
+              ]
+            },
+            {
+              "text": " It lists among the mammals black rhinoceroses, African elephants, Sudan cheetahs, leopards, buffalos, Kordofan giraffes and West African lions, and says BirdLife International has designated the park an Important Bird Area.",
+              "cite": [
+                "wikipedia-manovo-gounda"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The state of the wildlife today and of the park's protection. The article read here lists species without saying how many remain.",
+    "Who manages the park and the effect of the conflict in the region, which the part of the article read here does not reach.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -76,5 +99,14 @@
     "cite": [
       "unesco-whc-475"
     ]
+  },
+  "image": {
+    "file": "manovo-gounda-st-floris-national-park",
+    "alt": "Large birds standing at the edge of shallow water, with reeds and grass behind.",
+    "caption": "Birds at the water's edge in Manovo-Gounda St Floris.",
+    "credit": "Garoa larrañeta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AManovo.jpg"
   }
 }

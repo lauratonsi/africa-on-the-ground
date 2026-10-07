@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mbanza Kongo is the capital of Zaire Province in north-western Angola, with 221,141 people in 2024. Wikipedia says it was the capital of the Kingdom of Kongo from its foundation, before the Portuguese arrived in 1483, until the kingdom was abolished in 1915, apart from a short abandonment during civil wars in the 17th century.",
+              "cite": [
+                "wikipedia-mbanza-kongo"
+              ]
+            },
+            {
+              "text": " The article says it was founded by the first manikongo, Lukeni, at a junction of major trade routes. The Portuguese first reached it in 1491, after ten days' travel from the mouth of the Congo River.",
+              "cite": [
+                "wikipedia-mbanza-kongo"
+              ]
+            },
+            {
+              "text": " It was declared a World Heritage Site in 2017.",
+              "cite": [
+                "wikipedia-mbanza-kongo"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Kongo voices and Angolan historians on the kingdom, beyond the outline in the article.",
+    "The Portuguese period, Christianity at the Kongo court and the slave trade, which the part of the article read here does not reach.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-1511"
     ]
+  },
+  "image": {
+    "file": "mbanza-kongo",
+    "alt": "An 18th-century engraving of a hilltop settlement above a river, labelled as the residence of the King of Kongo.",
+    "caption": "Engraving of the residence of the King of Kongo at São Salvador (M'banza Kongo), from Astley, 1745.",
+    "credit": "Thomas Astley",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AThe_Bansa%2C_or_residence_of_the_King_of_Kongo%2C_called_St._Salvador_(M'Banza_Kongo)%2C_Astley_1745.jpg"
   }
 }

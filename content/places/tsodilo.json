@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Tsodilo Hills are rock art, rock shelters and caves in Botswana. Wikipedia says UNESCO listed them in 2001 for their religious and spiritual significance to local peoples and their record of human settlement over many millennia, and that over 4,500 rock paintings are estimated there.",
+              "cite": [
+                "wikipedia-tsodilo"
+              ]
+            },
+            {
+              "text": " There are four chief hills, known as Male, Female and Child plus an unnamed knoll. The highest is 1,400 metres above sea level and they stand about 40 km from Shakawe.",
+              "cite": [
+                "wikipedia-tsodilo"
+              ]
+            },
+            {
+              "text": " The article adds that the most famous of the San paintings, the Laurens van der Post panel, is named after the writer who first described them in his 1958 book The Lost World of the Kalahari.",
+              "cite": [
+                "wikipedia-tsodilo"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The communities, including the Hambukushu and the San, for whom the hills are sacred: their own accounts are not in the article read here.",
+    "Archaeology: the settlement record the article calls 'unique' is not described in the part read here.",
     "Local voices: none yet."
   ],
   "coords": {

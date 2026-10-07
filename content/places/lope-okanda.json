@@ -56,10 +56,27 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lopé National Park is in central Gabon. Wikipedia says it is bordered by the Ogooué River to the north and the Chaillu Massif to the south, and has an area of 4,912 km².",
+              "cite": [
+                "wikipedia-lope-national-park"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Nearly everything beyond location and size. The UNESCO title refers to an ecosystem and a relict cultural landscape; the cultural side (archaeology, the Okanda people) has not been described.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ],

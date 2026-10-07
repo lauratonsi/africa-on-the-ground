@@ -7,6 +7,7 @@
   var rows = Array.prototype.slice.call(document.querySelectorAll(".pgroup li"));
   var groups = Array.prototype.slice.call(document.querySelectorAll(".pgroup"));
   var total = rows.length;
+  var links = Array.prototype.slice.call(jump.querySelectorAll("a"));
   var suffix = /drafts included/.test(count.textContent) ? " (drafts included)" : "";
   var state = { type: "all", status: "all", region: "all", text: "" };
   tools.hidden = false;
@@ -22,6 +23,17 @@
       li.hidden = !on; if (on) shown++;
     });
     groups.forEach(function (g) { g.hidden = !g.querySelector("li:not([hidden])"); });
+    // i numeri delle regioni seguono gli altri filtri (non quello di regione)
+    links.forEach(function (a) {
+      var id = a.getAttribute("data-region"), k = 0;
+      rows.forEach(function (li) {
+        if (li.closest(".pgroup").id !== "r-" + id) return;
+        if ((state.type === "all" || li.getAttribute("data-type") === state.type) &&
+            (state.status === "all" || li.getAttribute("data-status") === state.status) &&
+            (!text || li.getAttribute("data-q").indexOf(text) !== -1)) k++;
+      });
+      var n = a.querySelector(".n"); if (n) n.textContent = k;
+    });
     var filtered = shown !== total;
     count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + (groups.length === 1 ? " region" : " regions") + suffix + ".";
     empty.hidden = shown !== 0;
@@ -37,7 +49,6 @@
   });
 
   // Regioni: con JavaScript i link diventano filtri; un secondo clic sulla stessa regione li toglie.
-  var links = Array.prototype.slice.call(jump.querySelectorAll("a"));
   links.forEach(function (a) { a.setAttribute("role", "button"); a.setAttribute("aria-pressed", "false"); });
   jump.addEventListener("click", function (e) {
     var a = e.target.closest("a[data-region]"); if (!a) return;
@@ -48,6 +59,7 @@
     apply();
   });
 
+  jump.addEventListener("keydown", function (e) { if (e.key === " " && e.target.matches("a[data-region]")) { e.preventDefault(); e.target.click(); } });
   q.addEventListener("input", function () { state.text = q.value; apply(); });
   document.getElementById("pi-reset").addEventListener("click", function () {
     state = { type: "all", status: "all", region: "all", text: "" }; q.value = "";

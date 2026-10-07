@@ -63,11 +63,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia says the park was established on 11 June 2001 by linking Sehlabathebe National Park in Lesotho and the uKhahlamba Drakensberg Park in KwaZulu-Natal, South Africa. Its highest peak is Thaba Ntlenyana, 3,482 metres.",
+              "cite": [
+                "wikipedia-maloti-drakensberg"
+              ]
+            },
+            {
+              "text": " It describes the Drakensberg as the highest ground in the sub-region, with montane and sub-alpine ecosystems of globally significant diversity and high endemism.",
+              "cite": [
+                "wikipedia-maloti-drakensberg"
+              ]
+            },
+            {
+              "text": " The article also says the park holds the greatest gallery of rock art in the world, with hundreds of sites and many thousands of images painted by the San, and that the wider transfrontier area was conceived as a peace park of about 8,113 km², 64 percent of it in Lesotho.",
+              "cite": [
+                "wikipedia-maloti-drakensberg"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "San voices on the rock art and the landscape, and how Basotho and Zulu communities use the mountains.",
+    "How the two countries manage the park together, which the article summarises in one line.",
     "Local voices: none yet."
   ],
   "coords": {

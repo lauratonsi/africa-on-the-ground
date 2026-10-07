@@ -9,6 +9,7 @@
    Il tema segue il sistema, ma si può forzare con data-theme="light" o "dark" sull'elemento html
    (lo imposta il pulsante in testata e lo ricorda il browser). */
 :root {
+  --ring: light-dark(#1d1670, #f4b324);
   color-scheme: light dark;
 
   --paper: light-dark(#fbf5ea, #13102b);
@@ -80,7 +81,9 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-t
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-display); font-size: 17px; line-height: 1.55; }
 img { max-width: 100%; display: block; }
 a { color: var(--record); text-underline-offset: 3px; }
-:focus-visible { outline: 3px solid var(--saffron); outline-offset: 2px; border-radius: 3px; }
+:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; border-radius: 3px; }
+/* sull'indaco e sul buio l'anello è zafferano; sulla carta chiara è indaco, per superare il contrasto 3:1 */
+.top :focus-visible, .night :focus-visible, .band-indigo :focus-visible, .scape-hero :focus-visible, .foot :focus-visible, .phero :focus-visible { outline-color: var(--saffron); }
 h1, h2, h3 { text-wrap: balance; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
@@ -425,7 +428,9 @@ figcaption { font-size: .88rem; color: var(--ink-soft); margin-top: 10px; max-wi
 .bval { font-weight: 700; font-size: .85rem; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
 .brow.dim, .prow.dim { opacity: .25; }
 @media (max-width: 480px) { .brow { grid-template-columns: 5.6rem minmax(0, 1fr) 3.8rem; gap: 8px; } }
-.prow { display: grid; gap: 4px; margin-bottom: 10px; }
+.prow { display: grid; grid-template-columns: 56px 1fr auto; align-items: center; column-gap: 14px; row-gap: 2px; padding: 12px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
+.prow-thumb { grid-row: 1 / span 2; width: 56px; height: 72px; border-radius: 999px 999px 10px 10px; overflow: hidden; background: color-mix(in srgb, var(--record) 12%, var(--surface)); display: grid; place-items: center; font-weight: 800; font-size: 1.4rem; color: var(--record); box-shadow: 0 0 0 1.5px var(--line); }
+.prow-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pline { display: grid; grid-template-columns: minmax(0, 1fr) 3.4rem; align-items: center; gap: 12px; }
 .vlegend { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0 0 16px; padding: 0; font-size: .92rem; font-weight: 600; }
 .vlegend li { display: inline-flex; align-items: center; gap: 8px; }
@@ -602,13 +607,13 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 /* ---------- pulsante flottante ---------- */
 .fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 40; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
 .fab[hidden], .fab-menu[hidden] { display: none; }
-.fab-btn { width: 52px; height: 52px; border: 0; border-radius: 50%; display: grid; place-items: center; cursor: pointer; background: var(--sun); color: #1d1670; box-shadow: 0 10px 28px -8px rgba(12, 9, 36, .55), 0 0 0 2px rgba(29, 22, 112, .18); transition: transform .2s; }
+.fab-btn { width: 52px; height: 52px; border: 0; border-radius: 50%; display: grid; place-items: center; cursor: pointer; background: var(--sun); color: #1d1670; box-shadow: 0 10px 28px -8px rgba(12, 9, 36, .55), 0 0 0 2px #1d1670; transition: transform .2s; }
 .fab-btn:hover { transform: translateY(-2px); }
 .fab-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
 .fab-btn svg { transition: transform .2s; }
 .fab-menu { list-style: none; margin: 0; padding: 8px; min-width: 11rem; border-radius: 16px; background: var(--surface); color: var(--ink); box-shadow: 0 18px 40px -14px rgba(12, 9, 36, .5), 0 0 0 1px var(--line); }
-.fab-menu a { display: block; padding: 11px 14px; border-radius: 10px; color: inherit; text-decoration: none; font-weight: 600; font-size: .95rem; }
-.fab-menu a:hover, .fab-menu a:focus-visible { background: var(--tint, rgba(29, 22, 112, .08)); }
+.fab-menu a { display: block; padding: 13px 14px; border-radius: 10px; color: inherit; text-decoration: none; font-weight: 600; font-size: .95rem; }
+.fab-menu a:hover, .fab-menu a:focus-visible { background: color-mix(in srgb, var(--record) 14%, transparent); }
 @media (prefers-reduced-motion: reduce) { .fab-btn, .fab-btn svg { transition: none; } }
 
 /* ---------- pagina Places ---------- */
@@ -624,9 +629,9 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .prow { display: grid; grid-template-columns: 1fr auto; align-items: start; column-gap: 12px; row-gap: 2px; padding: 14px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
 .prow:hover .prow-name, .prow:focus-visible .prow-name { color: var(--record); text-decoration: underline; text-underline-offset: 3px; }
 .prow-name { font-weight: 700; font-size: 1.1rem; }
-.prow-meta { grid-column: 1 / -1; color: var(--ink-soft); font-size: .88rem; }
+.prow-meta { grid-column: 2 / -1; color: var(--ink-soft); font-size: .88rem; }
 .prow .ticon { vertical-align: -2px; margin-right: 4px; }
-.prow .draft { grid-column: 2; grid-row: 1; }
+.prow .draft { grid-column: 3; grid-row: 1; background: transparent; color: var(--ink-soft); box-shadow: inset 0 0 0 1.5px var(--line); font-weight: 600; }
 .night-more { margin-top: clamp(28px, 5vw, 56px); text-align: center; }
 
 /* filtri della pagina Places */
@@ -634,7 +639,17 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .pi-tools[hidden], .pi-empty[hidden], .pgroup[hidden], .pgroup li[hidden] { display: none; }
 .pi-search input { width: 100%; max-width: 30rem; min-height: 48px; padding: 0 18px; border: 0; border-radius: 999px; font: inherit; color: var(--ink); background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--line); }
 .pi-search input:focus-visible { outline: 3px solid var(--record); outline-offset: 2px; }
-.pi-jump a[aria-pressed="true"] { background: var(--record); color: #fff; box-shadow: none; }
+.pi-jump a[aria-pressed="true"] { background: var(--record); color: var(--paper); box-shadow: none; }
 .pi-jump a[aria-pressed="true"] .n { color: inherit; }
 .pi-empty { margin: 8px 0 32px; color: var(--ink-soft); }
 .linkbtn { border: 0; background: none; padding: 0; font: inherit; color: var(--record); text-decoration: underline; cursor: pointer; }
+.sun-more { margin: 14px 0 0; } .sun-more a { color: inherit; font-weight: 700; text-underline-offset: 3px; }
+
+/* paesaggio sui telefoni: il sole e il baobab di destra si spostano dentro l'inquadratura invece di essere tagliati */
+@media (max-width: 760px) {
+  .scape .sun-m { transform: translateX(-330px); }
+  .scape .bR { transform: translateX(-430px); }
+  .scape .bird { display: none; }
+}
+
+.sourcing { margin: 0 0 18px; padding: 12px 16px; border-radius: var(--radius); background: var(--flag-tint); color: var(--ink); font-size: .95rem; max-width: 62ch; }

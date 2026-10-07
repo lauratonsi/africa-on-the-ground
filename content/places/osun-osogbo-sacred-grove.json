@@ -56,10 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The grove runs along the Osun river just outside Osogbo. Wikipedia calls it several centuries old and one of the last sacred forests that once bordered most Yoruba cities.",
+              "cite": [
+                "wikipedia-osun-osogbo"
+              ]
+            },
+            {
+              "text": " It says the grove was desecrated in the 1950s: shrines were neglected, priests left, and fishing, hunting and tree-felling were done freely.",
+              "cite": [
+                "wikipedia-osun-osogbo"
+              ]
+            },
+            {
+              "text": " The article credits the Austrian artist Susanne Wenger (1915–2009), with the support of the Ataoja, the city's king, and of local people, with restoring the traditional protections through the New Sacred Art movement.",
+              "cite": [
+                "wikipedia-osun-osogbo"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The Osun festival and the worshippers' own account of the place, which the article only touches.",
+    "Wenger's role as seen by Yoruba voices: the sources read credit her; whether that is how the community tells it is not shown.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -71,8 +101,8 @@
   },
   "image": {
     "file": "osun-osogbo-sacred-grove",
-    "alt": "A large orange-brown sculpture under a pitched roof, among tall trees in the sacred grove.",
-    "caption": "A sculpture in the Osun-Osogbo sacred grove.",
+    "alt": "Sculptures among dense trees in the Osun-Osogbo sacred grove.",
+    "caption": "The Osun-Osogbo sacred grove.",
     "credit": "ABORISADEADETONA",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",

@@ -764,5 +764,525 @@
     "status": "to-verify",
     "note": "Press report on the April replastering ceremony and on the security situation in Mali in 2018.",
     "retrieved": "2026-10-07"
+  },
+  {
+    "id": "ahe-abomey-2023",
+    "title": "A complete history of Abomey: capital of Dahomey (ca. 1650–1894)",
+    "publisher": "African History Extra, by Isaac Samuel (10 September 2023)",
+    "url": "https://www.africanhistoryextra.com/p/a-complete-history-of-abomey-capital",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A popular-history newsletter, not a peer-reviewed source. Dates of reigns are as the article gives them; check them against a specialist history of Dahomey.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "cnrs-loropeni-2017",
+    "title": "Loropéni and the forts of the Lobi region (Lobi-Or-Fort project)",
+    "publisher": "CNRS Images, photographs by Fabrice Monna (2017)",
+    "url": "https://images.cnrs.fr/en/photo/20170112_0007",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Caption text of a CNRS photo series on the Lobi-Or-Fort research project. Read through a page summary; confirm against the project's publications.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "graphic-cape-coast-2022",
+    "title": "Cape Coast Castle",
+    "publisher": "Graphic Online, by Douglas Anane-Frimpong (6 February 2022)",
+    "url": "https://www.graphic.com.gh/features/features/cape-coast-castle.html",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A newspaper feature on the castle's building history. It does not cover the slave trade in detail. Dates of changes of control differ between sources; check against a scholarly history.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-cidade-velha",
+    "title": "Cidade Velha",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cidade_Velha",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-grand-bassam",
+    "title": "Grand-Bassam",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Grand-Bassam",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-mount-nimba",
+    "title": "Mount Nimba Strict Nature Reserve",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mount_Nimba_Strict_Nature_Reserve",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-bijagos",
+    "title": "Bijagós Islands",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bijag%C3%B3s_Islands",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-agadez",
+    "title": "Agadez",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Agadez",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-osun-osogbo",
+    "title": "Osun-Osogbo",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Osun-Osogbo",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-koutammakou",
+    "title": "Koutammakou",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Koutammakou",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-ancient-ksour",
+    "title": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ancient_Ksour_of_Ouadane,_Chinguetti,_Tichitt_and_Oualata",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-aapravasi-ghat",
+    "title": "Aapravasi Ghat",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aapravasi_Ghat",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-aldabra",
+    "title": "Aldabra",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aldabra",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-asmara",
+    "title": "Asmara",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Asmara",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-chongoni-rock-art",
+    "title": "Chongoni Rock Art Area",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chongoni_Rock_Art_Area",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-great-zimbabwe",
+    "title": "Great Zimbabwe",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-island-of-mozambique",
+    "title": "Island of Mozambique",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-lamu",
+    "title": "Lamu",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lamu",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-lalibela",
+    "title": "Rock-Hewn Churches, Lalibela",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-ambohimanga",
+    "title": "Ambohimanga",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ambohimanga",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-stone-town",
+    "title": "Stone Town",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stone_Town",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-victoria-falls",
+    "title": "Victoria Falls",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-kasubi-tombs",
+    "title": "Kasubi Tombs",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kasubi_Tombs",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-maloti-drakensberg",
+    "title": "Maloti-Drakensberg Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Maloti-Drakensberg_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-robben-island",
+    "title": "Robben Island",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robben_Island",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-tsodilo",
+    "title": "Tsodilo",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tsodilo",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-twyfelfontein",
+    "title": "Twyfelfontein",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Twyfelfontein",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-kigali-memorial",
+    "title": "Kigali Genocide Memorial",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-boma-national-park",
+    "title": "Boma National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Boma_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-odzala-kokoua",
+    "title": "Odzala-Kokoua National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Odzala-Kokoua_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-lakes-of-ounianga",
+    "title": "Lakes of Ounianga",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lakes_of_Ounianga",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-manovo-gounda",
+    "title": "Manovo-Gounda St. Floris National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Manovo-Gounda_St._Floris_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-mbanza-kongo",
+    "title": "M'banza-Kongo",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/M%27banza-Kongo",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-virunga",
+    "title": "Virunga National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Virunga_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-casbah-algiers",
+    "title": "Casbah of Algiers",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Casbah_of_Algiers",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-leptis-magna",
+    "title": "Leptis Magna",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Leptis_Magna",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-fes-el-bali",
+    "title": "Fes el Bali",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fes_el_Bali",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-medina-of-tunis",
+    "title": "Medina of Tunis",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Medina_of_Tunis",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-memphis-egypt",
+    "title": "Memphis, Egypt",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-wh-sierra-leone",
+    "title": "List of World Heritage Sites in Sierra Leone",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Sierra_Leone",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-lope-national-park",
+    "title": "Lopé National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lop%C3%A9_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-mandara-mountains",
+    "title": "Mandara Mountains",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mandara_Mountains",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-cocoa-stp",
+    "title": "Cocoa production in São Tomé and Príncipe",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-meroe",
+    "title": "Meroë",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mero%C3%AB",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-wh-comoros",
+    "title": "List of World Heritage Sites in Comoros",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Comoros",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-gishora",
+    "title": "Gishora",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gishora",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-laas-geel",
+    "title": "Laas Geel",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Laas_Geel",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-lake-assal",
+    "title": "Lake Assal (Djibouti)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-monte-alen",
+    "title": "Monte Alén National Park",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Monte_Al%C3%A9n_National_Park",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-providence-island",
+    "title": "Providence Island, Liberia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Providence_Island,_Liberia",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for background that the UNESCO record does not give. Each statement is limited to the article's lead and opening sections; confirm against specialist sources.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "nova-great-zimbabwe",
+    "title": "Great Zimbabwe (NOVA online, 'Lost Tribes of Israel' companion pages)",
+    "publisher": "PBS NOVA",
+    "url": "https://www.pbs.org/wgbh/nova/israel/zimbabwe2.html",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Public-television companion page. It names Randall-MacIver, Caton-Thompson and the prehistorian Garlake. Read through a page summary; confirm quotations against the original works.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "mcintosh-great-zimbabwe-1998",
+    "title": "Riddle of Great Zimbabwe",
+    "publisher": "Archaeology magazine 51(4), by Roderick J. McIntosh (July/August 1998)",
+    "url": "https://archive.archaeology.org/9807/abstracts/africa.html",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "An archaeologist writing in a general-audience magazine; this is the abstract page. Estimates of population and dates have moved since 1998.",
+    "retrieved": "2026-10-07"
   }
 ]

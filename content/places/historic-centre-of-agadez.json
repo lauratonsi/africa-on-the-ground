@@ -56,10 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Agadez, once spelled Agadès, is the fifth largest city in Niger, with 110,497 people at the 2012 census. It lies in the Sahara and is the capital of the Sultanate of Agadez, one of the traditional Tuareg federations.",
+              "cite": [
+                "wikipedia-agadez"
+              ]
+            },
+            {
+              "text": " The article says it was founded before the 14th century and grew around the trans-Saharan trade, becoming the most important city of the Tuareg. Caravans still bring salt from Bilma.",
+              "cite": [
+                "wikipedia-agadez"
+              ]
+            },
+            {
+              "text": " It became a sultanate in 1449, was conquered by the Songhai Empire in 1515 and stayed part of it until 1591. By then it had around 30,000 people and was a key stop for caravans between Kano and Timbuktu.",
+              "cite": [
+                "wikipedia-agadez"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The recent period: security, migration routes through the city and the state of the old town. The part of the article read here stops before them.",
+    "The sultanate and its role today, from Tuareg voices.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -71,7 +101,7 @@
   },
   "image": {
     "file": "historic-centre-of-agadez",
-    "alt": "The tall, tapering mud-brick minaret of the mosque of Agadez rising above an ochre wall, with two people walking past.",
+    "alt": "The tall mud-brick minaret of the mosque in Agadez.",
     "caption": "The mosque in Agadez, photographed in 1997.",
     "credit": "Dan Lundberg",
     "license": "CC BY-SA 2.0",

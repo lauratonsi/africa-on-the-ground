@@ -5,10 +5,31 @@
   "country": "BDI",
   "name": "Gishora Drum Sanctuary",
   "region": "Burundi",
-  "subtitle": "Card in preparation.",
+  "subtitle": "A royal field near Gitega, Burundi. Card in preparation.",
   "facts": [],
-  "sections": [],
+  "sections": [
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gishora is a field about 7 km north of Gitega, in Gitega Province, Burundi. Wikipedia says it houses a royal palace and a royal field.",
+              "cite": [
+                "wikipedia-gishora"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet. The country has no site on the UNESCO World Heritage List (Wikipedia list, consulted 7 October 2026), so this place was chosen as one of its best-known; check that choice and every detail against sources before writing."
+    "Almost everything. The famous royal drummers, the sanctuary's history and its place on UNESCO's intangible heritage list are not covered by the short article read here; they must be sourced from UNESCO and from Burundian voices.",
+    "This place was chosen by the project as one of Burundi's best known; Burundi has no site on the World Heritage List.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
   ]
 }

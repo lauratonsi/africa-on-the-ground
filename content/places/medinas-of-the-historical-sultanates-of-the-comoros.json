@@ -56,11 +56,27 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia's list of World Heritage Sites in Comoros says the country accepted the convention on 27 September 2000, and that the Medinas of the Historic Sultanates of the Comoros, its only World Heritage Site, were listed in 2026, with three more sites on the tentative list.",
+              "cite": [
+                "wikipedia-wh-comoros"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "Coordinates: the UNESCO record has none for this property.",
+    "Almost everything beyond the listing year: which medinas, their history and what residents say about them.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ]

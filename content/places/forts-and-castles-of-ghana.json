@@ -42,10 +42,53 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "capecoast",
+      "title": "One castle: Cape Coast",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The property is a group of forts and castles along the coast. Cape Coast Castle is one of them, and a 2022 newspaper feature gives its building history.",
+              "cite": [
+                "graphic-cape-coast-2022"
+              ]
+            },
+            {
+              "text": " It says the Portuguese had a trade lodge there in 1555, and that the Swedes began the permanent structure in 1653.",
+              "cite": [
+                "graphic-cape-coast-2022"
+              ]
+            },
+            {
+              "text": " Dutch occupation began in 1660. A British fleet under Captain Holmes took the fort in 1665, and by 1700 the British had upgraded it into a castle.",
+              "cite": [
+                "graphic-cape-coast-2022"
+              ]
+            },
+            {
+              "text": " After a French naval bombardment left it badly damaged, the English rebuilt it entirely after 1760. The feature adds that in the 18th century it became the centre of European education in Ghana.",
+              "cite": [
+                "graphic-cape-coast-2022"
+              ]
+            },
+            {
+              "text": " The feature mentions the castle's part in the trans-Atlantic slave trade but does not describe it.",
+              "cite": [
+                "graphic-cape-coast-2022"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The other forts in the property, which this card does not describe (Elmina is the best known).",
+    "The slave trade at the castle: numbers, conditions, and how the site tells that history today. The only source read here does not cover it.",
+    "A scholarly history to check the dates of changes of control, which differ between sources.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -57,8 +100,8 @@
   },
   "image": {
     "file": "forts-and-castles-of-ghana",
-    "alt": "A row of black cannon along the white ramparts of Cape Coast Castle, facing the sea, with the castle's white buildings at right.",
-    "caption": "Cape Coast Castle, one of the forts in the listed group: cannon on the ramparts above the sea.",
+    "alt": "The white walls and cannon of Cape Coast Castle above the shore.",
+    "caption": "Cape Coast Castle, one of the forts in the listed group.",
     "credit": "Rjruiziii",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",

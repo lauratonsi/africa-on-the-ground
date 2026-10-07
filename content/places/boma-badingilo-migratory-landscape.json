@@ -63,12 +63,41 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Boma National Park is in eastern South Sudan near the Ethiopian border. Wikipedia says it was established in 1977 and covers 22,800 km² of grasslands and floodplains.",
+              "cite": [
+                "wikipedia-boma-national-park"
+              ]
+            },
+            {
+              "text": " The article describes the world's largest annual animal migration, the Great Nile Migration Landscape, in which antelope such as Bohor reedbuck, tiang and white-eared kob move between Bandingilo and Boma National Parks.",
+              "cite": [
+                "wikipedia-boma-national-park"
+              ]
+            },
+            {
+              "text": " It says African Parks signed a 10-year renewable agreement with the government of South Sudan in August 2022 to restore the two parks, and that in July 2026 UNESCO designated the Boma–Badingilo Migratory Landscape and listed it as endangered.",
+              "cite": [
+                "wikipedia-boma-national-park"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The communities who live in and around the parks, and what the listing means for them.",
+    "A source on the migration other than a Wikipedia summary, for example the wildlife surveys it relies on.",
     "Coordinates: the UNESCO record has none for this property.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ]
 }

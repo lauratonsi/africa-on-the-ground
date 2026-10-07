@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lamu is a small town on Lamu Island, in the Lamu Archipelago in Kenya, 341 kilometres by road north-east of Mombasa. The road ends at Mokowe jetty and a sea channel must be crossed to reach it.",
+              "cite": [
+                "wikipedia-lamu"
+              ]
+            },
+            {
+              "text": " Wikipedia says Lamu Fort stands on the seafront and was completed in the early 1820s, and that the town has 23 mosques, among them the Riyadha Mosque of 1900, and a donkey sanctuary. The majority of the population is Muslim.",
+              "cite": [
+                "wikipedia-lamu"
+              ]
+            },
+            {
+              "text": " The town is believed to have been established in 1370 and is described as Kenya's oldest continually inhabited town and one of the original Swahili settlements on the coast.",
+              "cite": [
+                "wikipedia-lamu"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Swahili voices on the town today, which the article read here does not reach.",
+    "The Maulidi festival and other living traditions.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-1055"
     ]
+  },
+  "image": {
+    "file": "lamu-old-town",
+    "alt": "An aerial view of Lamu town, with white buildings, a mosque and boats along the waterfront.",
+    "caption": "Lamu town from above.",
+    "credit": "Almaddy2022",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALamu_Old_Town.jpg"
   }
 }

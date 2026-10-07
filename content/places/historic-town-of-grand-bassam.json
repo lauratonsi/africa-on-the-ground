@@ -56,10 +56,46 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Grand-Bassam is a town in south-eastern Ivory Coast, east of Abidjan, and was briefly the French colonial capital in the late 19th century.",
+              "cite": [
+                "wikipedia-grand-bassam"
+              ]
+            },
+            {
+              "text": " The Ébrié Lagoon divides the town in two. Ancien Bassam, facing the Gulf of Guinea, was the French settlement and has the grander colonial buildings, a cathedral and the National Museum of Costume in the former Governor's Palace.",
+              "cite": [
+                "wikipedia-grand-bassam"
+              ]
+            },
+            {
+              "text": " Nouveau Bassam, across the bridge on the inland side, grew from the African servants' quarters and is now the main commercial centre.",
+              "cite": [
+                "wikipedia-grand-bassam"
+              ]
+            },
+            {
+              "text": " The sub-prefecture had 124,567 people in 2021.",
+              "cite": [
+                "wikipedia-grand-bassam"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "When and why Grand-Bassam stopped being the capital (the yellow fever outbreak is often cited; the one scholarly article found could not be opened).",
+    "The Nzema village that UNESCO describes beside the colonial town, and what residents say about the heritage designation.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -71,7 +107,7 @@
   },
   "image": {
     "file": "historic-town-of-grand-bassam",
-    "alt": "A two-storey colonial house with an arcaded upper floor and a tiled roof, with palm trees in front.",
+    "alt": "A colonial-era house in Grand-Bassam with a veranda and wooden shutters.",
     "caption": "A house from the French colonial period in Grand-Bassam.",
     "credit": "Joker-x",
     "license": "CC BY-SA 3.0",

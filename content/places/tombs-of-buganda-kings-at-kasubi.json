@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Kasubi Tombs, in Kampala, are the burial ground of four kabakas, the kings of Buganda, and other members of the royal family. Wikipedia calls the site an important spiritual and political place for the Ganda people.",
+              "cite": [
+                "wikipedia-kasubi-tombs"
+              ]
+            },
+            {
+              "text": " Major buildings there were almost completely destroyed by fire in March 2010, and the article says the cause was under investigation. The site was put on the List of World Heritage in Danger in July 2010.",
+              "cite": [
+                "wikipedia-kasubi-tombs"
+              ]
+            },
+            {
+              "text": " Reconstruction began in 2014, funded by a fundraising campaign called Etofaali and by the government of Japan. After the buildings were restored in 2023, the article says, the site was removed from the danger list.",
+              "cite": [
+                "wikipedia-kasubi-tombs"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The Buganda Kingdom's own account of the fire and the rebuilding, and of what the tombs mean today.",
+    "The cause of the 2010 fire, which the article describes as still under investigation.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-1022"
     ]
+  },
+  "image": {
+    "file": "tombs-of-buganda-kings-at-kasubi",
+    "alt": "A large round thatched building with a dark arched entrance.",
+    "caption": "A thatched building at the Kasubi Tombs. The photograph is undated, and some of the major buildings burned in 2010.",
+    "credit": "not not phil from SF, CA, US",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AKampala_Kasubi_Tombs.jpg"
   }
 }

@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Casbah is the old town of Algiers. Wikipedia says it was founded in 944 by the Zirids and has been a World Heritage Site since 1992.",
+              "cite": [
+                "wikipedia-casbah-algiers"
+              ]
+            },
+            {
+              "text": " The article says the place was probably inhabited from the Neolithic, was first a Phoenician port, and then Berber and Roman, and that the 10th-century Zirid plan is the present urban framework.",
+              "cite": [
+                "wikipedia-casbah-algiers"
+              ]
+            },
+            {
+              "text": " It reached its peak under the Regency of Algiers, when it was the seat of power. The French colonised it in 1830 and it was gradually marginalised, and during the Algerian War it was a stronghold of FLN fighters.",
+              "cite": [
+                "wikipedia-casbah-algiers"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The residents' account of living in the Casbah today and of its condition, which the part of the article read here only mentions.",
+    "Algerian historians on the Regency and on the Battle of Algiers.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-565"
     ]
+  },
+  "image": {
+    "file": "casbah-of-algiers",
+    "alt": "A narrow lane in the Casbah of Algiers, with a white wall and an arched doorway.",
+    "caption": "A lane in the Casbah of Algiers.",
+    "credit": "toufik Lerari",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAlgerCasbah.jpg"
   }
 }

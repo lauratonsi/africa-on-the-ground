@@ -56,10 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cidade Velha was founded in 1462 by Portuguese traders. Wikipedia calls it the oldest settlement in Cape Verde and its former capital, and the first European colonial settlement in the tropics.",
+              "cite": [
+                "wikipedia-cidade-velha"
+              ]
+            },
+            {
+              "text": " The Portuguese called it Ribeira Grande and changed the name to Cidade Velha, 'old city', in the late 18th century, after the capital moved to Praia.",
+              "cite": [
+                "wikipedia-cidade-velha"
+              ]
+            },
+            {
+              "text": " It lies on the south coast of Santiago, at the mouth of the Ribeira Grande de Santiago river and 10 kilometres west of Praia. Part of the planned original layout is still there, including a royal fortress, two churches and a 16th-century town square.",
+              "cite": [
+                "wikipedia-cidade-velha"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "What happened here in the slave trade: numbers, institutions and archaeology. The UNESCO text mentions its role, but no source on it has been read for this card.",
+    "The Creole culture of the town today, which Wikipedia only mentions.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -71,7 +101,7 @@
   },
   "image": {
     "file": "cidade-velha",
-    "alt": "A small square with a stone pillory column in the middle, low coloured houses at the right and a rocky hill behind.",
+    "alt": "A small square in Cidade Velha with the stone pillory, low colonial houses and hills behind.",
     "caption": "The square with the historic pillory, Cidade Velha, Santiago island.",
     "credit": "Cayambe",
     "license": "CC BY-SA 3.0",

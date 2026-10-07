@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Stone Town, also called Mji Mkongwe, 'old town' in Swahili, is the old part of Zanzibar City, on the west coast of Unguja. The newer part is Ng'ambo, 'the other side'.",
+              "cite": [
+                "wikipedia-stone-town"
+              ]
+            },
+            {
+              "text": " Wikipedia calls it the former capital of the Sultanate of Zanzibar and a flourishing centre of the spice trade and of the Indian Ocean slave trade in the 19th century.",
+              "cite": [
+                "wikipedia-stone-town"
+              ]
+            },
+            {
+              "text": " Its architecture, mostly from the 19th century, mixes Arab, Persian, Indian and European influences. It was designated a World Heritage Site in 2000.",
+              "cite": [
+                "wikipedia-stone-town"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The slave trade in Zanzibar in detail: numbers, markets, abolition. The article read here names it without giving figures.",
+    "What residents say about tourism and the loss of old houses.",
     "Local voices: none yet."
   ],
   "coords": {

@@ -49,11 +49,35 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ouadane and Chinguetti are in the Adrar Region, Tichitt in Tagant and Oualata in Hodh Ech Chargui. Wikipedia says the four towns were founded around the 11th century as stopping places for the trans-Saharan caravans.",
+              "cite": [
+                "wikipedia-ancient-ksour"
+              ]
+            },
+            {
+              "text": " It says they survive with many difficulties, because trade routes have changed and above all because desert sands are advancing.",
+              "cite": [
+                "wikipedia-ancient-ksour"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The libraries of Chinguetti and Ouadane, which are famous but not covered by the article read here.",
+    "The state of conservation now and what the residents do about the sand.",
+    "A photograph under an open licence (the Chinguetti mosque photograph on Commons does not name its author).",
     "Local voices: none yet."
   ],
   "coords": {

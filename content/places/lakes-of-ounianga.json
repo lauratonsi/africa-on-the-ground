@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Lakes of Ounianga are a series of lakes in the Sahara, in a basin in the mountains of west Tibesti and east Ennedi in north-eastern Chad. Wikipedia, citing the UNESCO description, says the desert is hyperarid, with less than 2 millimetres of rain a year.",
+              "cite": [
+                "wikipedia-lakes-of-ounianga"
+              ]
+            },
+            {
+              "text": " It counts 18 lakes in several groups, with a total surface of about 20 square kilometres. The largest, Lake Yoa, covers about 3.5 square kilometres and is 20 metres deep.",
+              "cite": [
+                "wikipedia-lakes-of-ounianga"
+              ]
+            },
+            {
+              "text": " The lakes vary in size, depth, chemical composition and colour.",
+              "cite": [
+                "wikipedia-lakes-of-ounianga"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The communities of Ounianga and what the lakes mean to them: nothing in the article read here.",
+    "The source of the water: the article does not explain it.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-1400"
     ]
+  },
+  "image": {
+    "file": "lakes-of-ounianga",
+    "alt": "A still lake in the desert, with a strip of yellow sand in front and rocky cliffs behind.",
+    "caption": "Lake at Ounianga Serir, Chad.",
+    "credit": "Jacques Taberlet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AOunianga_Serir.jpg"
   }
 }

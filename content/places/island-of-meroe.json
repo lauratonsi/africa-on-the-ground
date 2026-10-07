@@ -56,10 +56,34 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Meroë was an ancient city on the east bank of the Nile, about 200 km north-east of Khartoum, near the villages of Bagrawiyah. Wikipedia says it was the capital of the Kingdom of Kush for several centuries from around 590 BC until the kingdom's collapse in the 4th century AD.",
+              "cite": [
+                "wikipedia-meroe"
+              ]
+            },
+            {
+              "text": " The 'Island of Meroë' was the region of Butana, between the Nile, the Atbara and the Blue Nile. The article names two other Meroitic cities in Butana, Musawwarat es-Sufra and Naqa.",
+              "cite": [
+                "wikipedia-meroe"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The pyramids and the site's present condition after the war in Sudan, which the part of the article read here does not reach.",
+    "Sudanese archaeologists' and residents' accounts.",
     "A photograph under an open licence.",
     "Local voices: none yet."
   ],

@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Memphis was the ancient capital of the first nome of Lower Egypt. Wikipedia says its ruins are near the village of Mit Rahina, in Giza Governorate, and that the pyramid fields that stretch for more than 30 kilometres on its west, including the Pyramids of Giza, are listed with it.",
+              "cite": [
+                "wikipedia-memphis-egypt"
+              ]
+            },
+            {
+              "text": " It says the site is open to the public as an open-air museum.",
+              "cite": [
+                "wikipedia-memphis-egypt"
+              ]
+            },
+            {
+              "text": " The article says that, according to Manetho, a priest and historian of the third century BC, King Menes founded the city, and that it was the capital in the Early Dynastic Period and the Old Kingdom and stayed important throughout ancient Egyptian history.",
+              "cite": [
+                "wikipedia-memphis-egypt"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "The pyramids themselves: this card covers only the ancient city as described in the article's first lines.",
+    "Egyptian archaeologists' work on the necropolis and living communities around the site.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-86"
     ]
+  },
+  "image": {
+    "file": "memphis-and-its-necropolis",
+    "alt": "Fallen stone column drums in grass and shallow water, with houses in the distance.",
+    "caption": "Remains at Memphis, Egypt.",
+    "credit": "Neithsabes (assumed author; public domain)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMemphis200401.JPG"
   }
 }

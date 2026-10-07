@@ -56,11 +56,107 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Wikipedia describes Great Zimbabwe as a city in the hills near Masvingo, settled from around 1000 AD and the capital of the Kingdom of Great Zimbabwe from the 13th century. It is the largest stone structure in precolonial southern Africa.",
+              "cite": [
+                "wikipedia-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " Major construction ran from the 11th to the 15th century, the city was abandoned in the 16th or 17th, and the article says it was built by ancestors of the Shona people.",
+              "cite": [
+                "wikipedia-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " The stone city covers 7.22 square kilometres. The article notes that population estimates vary: earlier ones suggest a peak of around 20,000, while a recent study suggests it did not exceed 10,000.",
+              "cite": [
+                "wikipedia-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " The site has a Hill Complex, a Valley Complex and the Great Enclosure, built at different times.",
+              "cite": [
+                "wikipedia-great-zimbabwe"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "argument",
+      "title": "Who built it, and the argument about it",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 1998 article by the archaeologist Roderick McIntosh says Great Zimbabwe was built between the twelfth and fifteenth centuries by the ancestors of the Shona, and that it is one of some 300 known stone enclosure sites on the Zimbabwe Plateau.",
+              "cite": [
+                "mcintosh-great-zimbabwe-1998"
+              ]
+            },
+            {
+              "text": " It dates the Hill Complex to around AD 1250, the Great Enclosure to the early fourteenth century and the Valley Complex to the early fifteenth.",
+              "cite": [
+                "mcintosh-great-zimbabwe-1998"
+              ]
+            },
+            {
+              "text": " It says the city may have housed as many as 18,000 people at its peak in the late fourteenth century. Wikipedia mentions a more recent study that puts the population at no more than 10,000, so estimates have fallen since.",
+              "cite": [
+                "mcintosh-great-zimbabwe-1998",
+                "wikipedia-great-zimbabwe"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Public television's NOVA site says the site shows iron use by the third century AD, with its rise and its finest walls in the fourteenth and fifteenth centuries, during a great increase in trade.",
+              "cite": [
+                "nova-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " Early European visitors attributed the ruins to Egyptians, Phoenicians or other outsiders, McIntosh writes. David Randall-MacIver concluded in 1905 that they were 'unquestionably African in every detail' and medieval, and Gertrude Caton-Thompson confirmed this in 1931.",
+              "cite": [
+                "mcintosh-great-zimbabwe-1998",
+                "nova-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " NOVA says racial prejudice surrounded the monument until quite recently, and that in the 1960s and 70s Rhodesia's white government suppressed findings that attributed it to African builders, forcing out the prehistorian Garlake.",
+              "cite": [
+                "nova-great-zimbabwe"
+              ]
+            },
+            {
+              "text": " It adds that several African groups claim a link to the site and that the Lemba are particularly insistent about their ancestors' part.",
+              "cite": [
+                "nova-great-zimbabwe"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Zimbabwean historians' own accounts and how the site is used in national identity today. The sources found here are British and American.",
+    "A scholarly study of the dating and the population estimates, to settle the difference between 18,000 and 10,000.",
+    "The Shona and Lemba claims, in their own voices.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +165,14 @@
     "cite": [
       "unesco-whc-364"
     ]
+  },
+  "image": {
+    "file": "great-zimbabwe-national-monument",
+    "alt": "A conical dry-stone tower and stone walls inside the Great Enclosure, with trees behind.",
+    "caption": "The conical tower in the Great Enclosure.",
+    "credit": "Andrew Moore from Johannesburg, South Africa",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AConical_Tower_-_Great_Enclosure_III_(33736918448).jpg"
   }
 }

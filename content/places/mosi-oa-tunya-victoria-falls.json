@@ -63,11 +63,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Victoria Falls, called Mosi-oa-Tunya ('smoke that thunders') in Lozi, is a waterfall on the Zambezi River on the border between Zambia and Zimbabwe. Wikipedia gives its width as 1,708 metres.",
+              "cite": [
+                "wikipedia-victoria-falls"
+              ]
+            },
+            {
+              "text": " The article says archaeology and oral history describe a long African knowledge of the site, and that David Livingstone was introduced to it on 16 November 1855 and named it after Queen Victoria.",
+              "cite": [
+                "wikipedia-victoria-falls"
+              ]
+            },
+            {
+              "text": " Both countries have national parks and tourism infrastructure there. Research in the late 2010s found that changing rainfall due to climate change is likely to alter the character of the falls.",
+              "cite": [
+                "wikipedia-victoria-falls"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Lozi, Tonga and other local names and stories, beyond the names given in the article.",
+    "Tourism, river flow and the effects of drought on the falls, which the part read here only mentions.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -76,5 +105,14 @@
     "cite": [
       "unesco-whc-509"
     ]
+  },
+  "image": {
+    "file": "mosi-oa-tunya-victoria-falls",
+    "alt": "An aerial view of Victoria Falls, with water dropping into a gorge and green forest on both sides.",
+    "caption": "Victoria Falls from the air.",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg"
   }
 }

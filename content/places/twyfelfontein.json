@@ -56,11 +56,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Twyfelfontein, officially ǀUi-ǁAis, 'jumping waterhole', is a site of ancient rock engravings in the Kunene Region of north-western Namibia. It centres on a spring in a valley below a sandstone table mountain that gets very little rain.",
+              "cite": [
+                "wikipedia-twyfelfontein"
+              ]
+            },
+            {
+              "text": " Wikipedia says the valley has been inhabited for 6,000 years, first by hunter-gatherers and later by Khoikhoi herders, who both used it as a place of worship and shamanist ritual. At least 2,500 engraved items have been made there, with a few rock paintings.",
+              "cite": [
+                "wikipedia-twyfelfontein"
+              ]
+            },
+            {
+              "text": " UNESCO approved it in 2007 as Namibia's first World Heritage Site, and the article calls it one of the largest concentrations of petroglyphs in Africa.",
+              "cite": [
+                "wikipedia-twyfelfontein"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
-    "A photograph under an open licence.",
+    "Damara/Nama and San voices on the site and its management.",
+    "Dating of the engravings, which the article gives only in broad terms.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -69,5 +98,14 @@
     "cite": [
       "unesco-whc-1255"
     ]
+  },
+  "image": {
+    "file": "twyfelfontein",
+    "alt": "Rock engravings of circles and animal figures cut into pale brown rock.",
+    "caption": "Rock engravings at Twyfelfontein.",
+    "credit": "Mike from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATwyfelfontein_16.jpg"
   }
 }

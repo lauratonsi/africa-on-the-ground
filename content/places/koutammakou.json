@@ -63,10 +63,40 @@
           "type": "facts"
         }
       ]
+    },
+    {
+      "id": "context",
+      "title": "Background",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Koutammakou was designated in 2004 and expanded in 2023. It lies on the border between northern Togo and Benin, and its traditional mud tower-houses are still the preferred way of living.",
+              "cite": [
+                "wikipedia-koutammakou"
+              ]
+            },
+            {
+              "text": " Many of the houses have two floors, some have flat roofs, and Wikipedia says they are a national symbol of Togo.",
+              "cite": [
+                "wikipedia-koutammakou"
+              ]
+            },
+            {
+              "text": " In 2008 UNESCO's intangible heritage department set up a programme to safeguard the Batammariba's cultural heritage, to complete the inscription. It covers crafts, healing, building, dance, music, archery and oral traditions.",
+              "cite": [
+                "wikipedia-koutammakou"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
-    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "The Batammariba's own account of their architecture and its meaning. The article read here is not by them.",
+    "What the 2023 expansion changed.",
     "Local voices: none yet."
   ],
   "coords": {
