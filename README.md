@@ -38,6 +38,7 @@ scripts/
   build.mjs               valida e genera il sito in dist/
   add-note.mjs            trasforma un messaggio del modulo in una nota (npm run add-note)
   remove-note.mjs         toglie una nota dal sito su richiesta dell'autore (npm run remove-note)
+  review-note.mjs         registra la lettura successiva di una persona del posto (npm run review-note)
   map.mjs                 disegna le mappe SVG
   charts.mjs              disegna i grafici (barre in HTML, punti in SVG)
   prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)

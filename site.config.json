@@ -4,43 +4,138 @@
   "lang": "en",
   "contact": "",
   "channels": [
-    { "id": "whatsapp", "label": "WhatsApp", "type": "whatsapp", "value": "" },
-    { "id": "email",    "label": "Email",    "type": "email",    "value": "" },
-    { "id": "signal",   "label": "Signal",   "type": "link",     "value": "" }
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "type": "whatsapp",
+      "value": ""
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "value": ""
+    },
+    {
+      "id": "signal",
+      "label": "Signal",
+      "type": "link",
+      "value": ""
+    }
   ],
   "languages": [
-    { "id": "en",  "label": "English" },
-    { "id": "fr",  "label": "French" },
-    { "id": "it",  "label": "Italian" },
-    { "id": "wo",  "label": "Wolof" },
-    { "id": "mnk", "label": "Mandinka" },
-    { "id": "ff",  "label": "Fula" },
-    { "id": "other", "label": "Another language" }
+    {
+      "id": "en",
+      "label": "English"
+    },
+    {
+      "id": "fr",
+      "label": "French"
+    },
+    {
+      "id": "it",
+      "label": "Italian"
+    },
+    {
+      "id": "wo",
+      "label": "Wolof"
+    },
+    {
+      "id": "mnk",
+      "label": "Mandinka"
+    },
+    {
+      "id": "ff",
+      "label": "Fula"
+    },
+    {
+      "id": "other",
+      "label": "Another language"
+    }
   ],
   "noteKinds": [
-    { "id": "look",  "label": "What I would look at",     "question": "What would you look at on a visit that a guidebook skips?" },
-    { "id": "tell",  "label": "What I tell my children",  "question": "What do you tell your children about this place?" },
-    { "id": "eat",   "label": "Eating at home",           "question": "What do people eat at home around here, and what is cooked mainly for visitors?" },
-    { "id": "avoid", "label": "What to avoid",            "question": "What would you ask visitors not to do, buy or say?" },
-    { "id": "fix",   "label": "Correction to the record", "question": "Does anything in the record read wrong to you? Say which part and what you know." }
+    {
+      "id": "look",
+      "label": "What I would look at",
+      "question": "What would you look at on a visit that a guidebook skips?"
+    },
+    {
+      "id": "tell",
+      "label": "What I tell my children",
+      "question": "What do you tell your children about this place?"
+    },
+    {
+      "id": "eat",
+      "label": "Eating at home",
+      "question": "What do people eat at home around here, and what is cooked mainly for visitors?"
+    },
+    {
+      "id": "avoid",
+      "label": "What to avoid",
+      "question": "What would you ask visitors not to do, buy or say?"
+    },
+    {
+      "id": "fix",
+      "label": "Correction to the record",
+      "question": "Does anything in the record read wrong to you? Say which part and what you know."
+    }
   ],
   "relations": [
-    { "id": "near",   "label": "Lives in the area" },
-    { "id": "gambia", "label": "Lives elsewhere in The Gambia" },
-    { "id": "abroad", "label": "Gambian, lives abroad" },
-    { "id": "other",  "label": "Another connection to the place" }
+    {
+      "id": "near",
+      "label": "Lives in the area"
+    },
+    {
+      "id": "gambia",
+      "label": "Lives elsewhere in The Gambia"
+    },
+    {
+      "id": "abroad",
+      "label": "Gambian, lives abroad"
+    },
+    {
+      "id": "other",
+      "label": "Another connection to the place"
+    }
   ],
   "placeTypes": [
-    { "id": "site",   "label": "Historic site", "shape": "circle" },
-    { "id": "market", "label": "Market",        "shape": "square" },
-    { "id": "dish",   "label": "Dish",          "shape": "diamond" }
+    {
+      "id": "site",
+      "label": "Historic site",
+      "shape": "circle"
+    },
+    {
+      "id": "market",
+      "label": "Market",
+      "shape": "square"
+    },
+    {
+      "id": "dish",
+      "label": "Dish",
+      "shape": "diamond"
+    }
   ],
   "subregions": [
-    { "id": "northern", "label": "Northern Africa" },
-    { "id": "western",  "label": "Western Africa" },
-    { "id": "middle",   "label": "Middle Africa" },
-    { "id": "eastern",  "label": "Eastern Africa" },
-    { "id": "southern", "label": "Southern Africa" }
+    {
+      "id": "northern",
+      "label": "Northern Africa"
+    },
+    {
+      "id": "western",
+      "label": "Western Africa"
+    },
+    {
+      "id": "middle",
+      "label": "Middle Africa"
+    },
+    {
+      "id": "eastern",
+      "label": "Eastern Africa"
+    },
+    {
+      "id": "southern",
+      "label": "Southern Africa"
+    }
   ],
   "tiers": {
     "institutional": "Institutional",
@@ -53,5 +148,13 @@
     "verified": "",
     "to-verify": "to verify",
     "draft": "draft"
-  }
+  },
+  "featured": [
+    "kunta-kinteh-island",
+    "island-of-goree",
+    "old-towns-of-djenne",
+    "great-zimbabwe-national-monument",
+    "rock-hewn-churches-of-lalibela",
+    "medina-of-fez"
+  ]
 }

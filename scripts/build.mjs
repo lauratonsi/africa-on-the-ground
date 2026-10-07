@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
-import { africaMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
+import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, fmtInt, fmtPop } from "./charts.mjs";
 
 const data = loadAll();
@@ -195,6 +195,7 @@ function fab(jump) {
 }
 
 // Dichiarazione sulle fonti, calcolata: una scheda che poggia solo su UNESCO e su Wikipedia lo dice apertamente.
+const REVIEW = 'It was published without a prior review by people from the place. <a href="../../method/index.html#corrections">If something is wrong or missing, tell the project</a>.';
 function sourcingNote(p) {
   const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean);
   if (!ids.length) return "";
@@ -204,10 +205,10 @@ function sourcingNote(p) {
   if (others.length) {
     const by = {}; others.forEach((x) => { by[x.tier] = (by[x.tier] || 0) + 1; });
     const list = Object.entries(by).map(([t, k]) => `${k} ${t}`).join(", ");
-    return `<p class="sourcing">Sources beyond UNESCO and Wikipedia: ${others.length} (${list}). Check each source's status in the list at the end of the card.</p>`;
+    return `<p class="sourcing">Sources beyond UNESCO and Wikipedia: ${others.length} (${list}). Check each source's status in the list at the end of the card. ${REVIEW}</p>`;
   }
   const base = [hasUnesco ? "UNESCO's own text" : "", hasWiki ? "Wikipedia" : ""].filter(Boolean).join(" and ");
-  return `<p class="sourcing"><strong>Sourcing note.</strong> This card rests on ${base}. No independent source has been added yet, so read it as an outline, not as a finished account.</p>`;
+  return `<p class="sourcing"><strong>Sourcing note.</strong> This card rests on ${base}. No independent source has been added yet, so read it as an outline, not as a finished account. ${REVIEW}</p>`;
 }
 
 function citedIds(place) {
@@ -290,6 +291,7 @@ function renderPlace(p) {
     if (n.relation) by.push(esc(relLabel[n.relation]));
     if (n.lang) by.push(`written in ${esc(langLabel[n.lang] || n.lang)}`);
     by.push(esc(fmtDate(n.added)));
+    if (n.review) by.push(`read by ${esc(n.review.by)}, ${esc(fmtDate(n.review.date))}`);
     return `<article class="nt"><span class="chip">${esc(kindLabel[n.kind])}</span><p class="txt">${esc(n.text)}</p><p class="by">${by.join(" · ")}</p></article>`;
   }).join("");
   // Modulo per scrivere una nota: prepara un messaggio nel browser, non invia nulla dal sito.
@@ -402,7 +404,7 @@ ${sourcesHtml}
     </div>
     <div class="notes">
       <div class="notes-head"><h2>Notes on this card</h2><span class="count">${list.length || ""}</span></div>
-      ${list.length ? `<div class="notes">${noteCards}</div>` : `<div class="empty"><strong>No local voice on this card yet.</strong><span>Notes are added by the project once the author has agreed to publication.</span></div>`}
+      ${list.length ? `<div class="notes">${noteCards}</div>` : `<div class="empty"><strong>No local voice on this card yet.</strong><span>Notes are added by the project once the author has agreed to publication, and are read by people from the place afterwards.</span></div>`}
     </div>
     ${share}
     <div class="asks">
@@ -424,6 +426,8 @@ for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
 // In vetrina: schede pubblicate di paesi diversi prima, poi le altre (non le prime tre in ordine alfabetico)
 const featured = (() => {
+  const chosen = (config.featured || []).map((slug) => published.find((x) => x.slug === slug && x.status === "published")).filter(Boolean);
+  if (chosen.length) return chosen;
   const seen = new Set(), out = [];
   for (const p of published.filter((x) => x.status === "published")) if (!seen.has(p.country) && out.length < 3) { seen.add(p.country); out.push(p); }
   for (const p of published.filter((x) => x.status === "published")) if (out.length < 3 && !out.includes(p)) out.push(p);
@@ -446,16 +450,20 @@ const filterChips = usedTypes.length > 1
   ? `<div class="filters" id="filters" role="group" aria-label="Filter places by type" hidden><button type="button" class="fbtn" data-filter="all" aria-pressed="true">All</button>${usedTypes.map((t) => `<button type="button" class="fbtn" data-filter="${esc(t.id)}" aria-pressed="false">${typeIcon(t.id)}${esc(t.label)}</button>`).join("")}</div>`
   : "";
 
-const mapSection = published.some((p) => p.coords)
+const subOf = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c.subregion]));
+const bigMap = published.some((p) => p.coords)
+  ? africaPlacesMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html`, subOf, subregions: config.subregions })
+  : null;
+const regionChips = bigMap
+  ? `<div class="filters" id="regions" role="group" aria-label="Zoom the map to a region" hidden><button type="button" class="fbtn" data-vb="${bigMap.full.join(" ")}" aria-pressed="true">All Africa</button>${config.subregions.filter((r) => bigMap.views[r.id]).map((r) => `<button type="button" class="fbtn" data-vb="${bigMap.views[r.id].join(" ")}" aria-pressed="false">${esc(r.label.replace(/ Africa$/, ""))}</button>`).join("")}</div>`
+  : "";
+const mapSection = bigMap
   ? `<section id="map" class="band-indigo section" aria-labelledby="map-h">
   <div class="wrap">
-  <div class="maphead"><h2 class="listh" id="map-h">Where the cards are</h2>${filterChips}</div>
-  <div class="maps">
-    <figure class="fig-africa">${africaMap(published, types, { hrefFor: (iso) => `countries/index.html#c-${iso}` })}<figcaption>Highlighted: ${onMap.map((c) => esc(countryName(c))).join(", ")}. Select it for the country's figures.</figcaption></figure>
-    <figure class="fig-gambia">${gambiaMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html` })}<figcaption>Point at a marker to see its name, or choose a card above.</figcaption></figure>
-  </div>
+  <div class="maphead"><h2 class="listh" id="map-h">${bigMap.count} places on the map</h2>${filterChips}</div>
+  ${regionChips}
+  <figure class="mapbox">${bigMap.svg}<figcaption>Select a pin to open its card, or a region to zoom in. Positions come from the UNESCO record where the card cites it, and are otherwise approximate. Country outlines: Natural Earth, public domain.</figcaption></figure>
   <ul class="legend legend-types">${typeLegend}</ul>
-  <p class="fine">Positions are approximate unless the card cites a source for them. Country outlines: Natural Earth, public domain.</p>
   </div>
 </section>`
   : "";
@@ -516,7 +524,7 @@ write("index.html", layout({
       <span class="layer-tag">From people who know this place</span>
       <h3>What they tell us</h3>
       <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
-      <p class="sun-more"><a href="places/index.html">Know a place? Open its card and write a note</a></p>
+      <p class="sun-more">${config.channels.some((c) => c.value) ? '<a href="places/index.html">Know a place? Open its card and write a note</a>' : '<a href="method/index.html">How notes are collected</a>'}</p>
     </article>
   </div>
 </section>
@@ -729,9 +737,10 @@ function renderPlaces() {
   const cmap = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c]));
   const groups = config.subregions.map((r) => ({ ...r, items: published.filter((p) => (cmap[p.country] || {}).subregion === r.id).sort((a, b) => a.region.localeCompare(b.region) || a.name.localeCompare(b.name)) })).filter((g) => g.items.length);
   const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
+  const outline = (p) => { const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean); return ids.length && !ids.some((x) => !/UNESCO/i.test(x.publisher || "") && x.tier !== "encyclopedia"); };
   const row = (p) => {
     const n = (notes[p.slug] || []).length;
-    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
+    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : outline(p) ? '<span class="tag-outline" title="This card rests on UNESCO and Wikipedia only">Outline</span>' : ""}</a></li>`;
   };
   const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
   const usedT = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));

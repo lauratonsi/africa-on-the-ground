@@ -6,7 +6,7 @@
 //
 // Opzioni: --how message|in-person|other (come è stato dato il consenso, default message)
 //          --date AAAA-MM-GG (data del consenso, default oggi)   --anonymous (toglie il nome)
-//          --reviewed "Nome" (chi ha letto la nota: obbligatorio per i luoghi "sensitive", vedi docs/contributi.md)
+//          --reviewed "Nome" (facoltativo: se la nota è già stata letta da una persona del posto)
 //
 // Il messaggio deve contenere il blocco "[AOTG-NOTE v1]" che scrive il modulo. Le regole sono quelle di `npm run check`:
 // nessuna email o telefono, tipo e legame previsti da site.config.json, consenso presente.
@@ -65,7 +65,7 @@ if (fields.kind === "fix") {
 const how = opt("how", "message");
 const placeData = data.places.find((p) => p.data.slug === slug).data;
 const reviewer = opt("reviewed");
-if (placeData.sensitive && !reviewer && flag("write")) fail(`"${placeData.name}" è un luogo delicato: la nota si pubblica solo dopo la lettura di una persona del posto. Aggiungi --reviewed "Nome" quando l'ha letta.`);
+
 const entry = {
   id: "",
   kind: fields.kind,
@@ -84,13 +84,12 @@ const nums = list.map((n) => Number((String(n.id).match(/-(\d+)$/) || [])[1] || 
 entry.id = `${slug}-${String(Math.max(0, ...nums) + 1).padStart(3, "0")}`;
 
 // stesse regole di `npm run check`, applicate alla lista con la nota in più
-// In anteprima un luogo delicato si mostra anche senza revisione, con un avviso; per salvare la revisione è obbligatoria.
-const checkEntry = placeData.sensitive && !reviewer ? { ...entry, review: { by: "(in attesa)", date: today } } : entry;
+const checkEntry = entry;
 const result = validate({ ...data, notes: { ...data.notes, [slug]: [...list, checkEntry] } });
 const mine = result.errors.filter((e) => e.includes(`notes/${slug}.json`) && e.includes(entry.id));
 if (mine.length) fail(`la nota non passa i controlli:\n  - ${mine.join("\n  - ")}`);
 
-if (placeData.sensitive && !reviewer) console.log(`\nAttenzione: "${placeData.name}" è un luogo delicato. Prima di pubblicare, fai leggere la nota a una persona del posto.`);
+if (placeData.sensitive) console.log(`\nAttenzione: "${placeData.name}" è un luogo delicato. La nota si pubblica come le altre, ma rileggila con particolare cura e fissa la lettura successiva di una persona del posto (npm run review-note).`);
 console.log("\nNota pronta per", slug, ":\n");
 console.log(JSON.stringify(entry, null, 2));
 if (!flag("write")) {

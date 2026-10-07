@@ -57,6 +57,26 @@
     });
   }
 
+  // ---------- home: zoom della mappa sulle regioni ----------
+  var regions = $("regions"), bigmap = document.querySelector(".map-continent");
+  if (regions && bigmap) {
+    regions.hidden = false;
+    var cur = bigmap.getAttribute("viewBox").split(" ").map(Number);
+    var setVB = function (v) { bigmap.setAttribute("viewBox", v.map(function (n) { return n.toFixed(1); }).join(" ")); cur = v; };
+    regions.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-vb]"); if (!b) return;
+      all("button", regions).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      var to = b.getAttribute("data-vb").split(" ").map(Number), from = cur.slice();
+      if (window.Motion && document.documentElement.classList.contains("m-ok")) {
+        Motion.animate(0, 1, { duration: 0.8, ease: [0.22, 1, 0.36, 1], onUpdate: function (t) {
+          setVB([0, 1, 2, 3].map(function (i) { return from[i] + (to[i] - from[i]) * t; }));
+        } });
+        // rete di sicurezza: a fine animazione il riquadro è comunque quello richiesto
+        clearTimeout(bigmap._t); bigmap._t = setTimeout(function () { setVB(to); }, 1000);
+      } else setVB(to);
+    });
+  }
+
   // ---------- countries ----------
   var table = $("ctable");
   if (!table) return;

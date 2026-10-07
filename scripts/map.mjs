@@ -71,6 +71,31 @@ export function africaMap(places, types, { hrefFor } = {}) {
   return `<svg class="map map-africa" viewBox="0 0 ${p.width} ${p.height}" role="img" aria-label="Map of Africa. Countries with place cards are highlighted."><g fill-rule="evenodd">${land}</g>${locators}</svg>`;
 }
 
+// Mappa grande dell'Africa con un pin per scheda che ha coordinate. Restituisce anche i riquadri per ingrandire una regione.
+export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions = [] } = {}) {
+  const p = projection({ lon0: -19.5, lon1: 52, lat0: -36, lat1: 38 }, 1000);
+  const land = africa.countries.map((c) => `<path class="land" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
+  const located = places.filter((x) => x.coords);
+  const pins = located.map((x) => {
+    x._href = hrefFor(x);
+    const t = types[x.type] ? types[x.type].label : x.type;
+    return pin(x, p, types, { labelSide: "right" }).replace("<a class=", `<a data-tip="${esc(x.name + " · " + t)}" class=`);
+  }).join("");
+  const views = {};
+  for (const r of subregions) {
+    const cs = africa.countries.filter((c) => subOf[c.a3] === r.id);
+    if (!cs.length) continue;
+    let a = 180, z = -180, lo = 90, hi = -90;
+    for (const c of cs) for (const ring of c.rings) for (const [lon, lat] of ring) { if (lon < a) a = lon; if (lon > z) z = lon; if (lat < lo) lo = lat; if (lat > hi) hi = lat; }
+    const padX = (p.x(z) - p.x(a)) * 0.08 + 12, padY = (p.y(lo) - p.y(hi)) * 0.08 + 12;
+    const x0 = Math.max(0, p.x(a) - padX), y0 = Math.max(0, p.y(hi) - padY);
+    views[r.id] = [x0, y0, Math.min(p.width, p.x(z) + padX) - x0, Math.min(p.height, p.y(lo) + padY) - y0].map(r1);
+  }
+  const full = [0, 0, p.width, p.height];
+  const svg = `<svg class="map map-continent" viewBox="${full.join(" ")}" data-full="${full.join(" ")}" role="group" aria-label="Map of Africa with a pin for each place card. Select a pin to open its card."><g fill-rule="evenodd">${land}</g><g class="pins">${pins}</g></svg>`;
+  return { svg, views, full, count: located.length };
+}
+
 // Dettaglio della Gambia con il fiume e i pin. Se `focus` è dato, la vista si stringe attorno a quel luogo.
 export function gambiaMap(places, types, { focus = null, hrefFor } = {}) {
   let box = { lon0: -16.95, lon1: -13.7, lat0: 13.0, lat1: 13.9 };

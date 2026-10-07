@@ -10,10 +10,11 @@ Non è una consulenza legale: informativa e trattamento dei dati vanno fatti ver
   Foto e fonti suggerite dai lettori restano fuori per ora.
 - **Chi riceve e chi decide:** una sola casella, la tua. Email e numero dedicati al progetto, non personali. Il lettore locale entra più tardi,
   come passaggio di revisione.
-- **Luoghi delicati:** per i luoghi segnati `"sensitive": true` nella scheda (memoria della schiavitù, apartheid, genocidio, conflitti) una nota
-  non si pubblica senza la lettura di una persona del posto. Il controllo (`npm run check`) e il comando `add-note` lo impongono.
-  Oggi sono segnati: Kunta Kinteh, Gorée, i forti del Ghana, Cidade Velha, i memoriali del Ruanda, Robben Island, Aapravasi Ghat,
-  Stone Town di Zanzibar, Providence Island, Laas Geel. L'elenco si cambia nelle schede.
+- **Revisione dopo la pubblicazione, per tutto il progetto:** né le schede né le note passano da una revisione preventiva di chi conosce i luoghi.
+  La lettura di una persona del posto viene dopo, e si registra con `npm run review-note`. Il progetto la dichiara apertamente nelle schede e nella pagina Method.
+  Resta il controllo del curatore (la lista qui sotto) prima di pubblicare una nota, e il ritiro immediato se qualcuno del posto lo chiede.
+- **Luoghi delicati:** il campo `"sensitive": true` non blocca la pubblicazione; fa comparire un avviso in `add-note` (rileggi con più cura, fissa la lettura successiva).
+  Sono segnati: Kunta Kinteh, Gorée, i forti del Ghana, Cidade Velha, i memoriali del Ruanda, Robben Island, Aapravasi Ghat, Stone Town, Providence Island, Laas Geel.
 - **Diritti sul testo:** l'autore resta autore e dà al progetto il permesso di pubblicare; può chiedere il ritiro. Nessuna licenza aperta sulle note.
   La licenza dei contenuti del sito si sceglie dopo (attenzione ai dati UNESCO, CC BY-SA 4.0: vedi `metodo-editoriale.md`).
 
@@ -23,9 +24,9 @@ Non è una consulenza legale: informativa e trattamento dei dati vanno fatti ver
 2. **Registro privato.** Per ogni messaggio annota in un file fuori dal repository: data, canale, luogo, id assegnato, esito (pubblicata, rifiutata, in attesa di revisione, ritirata).
    Un foglio con queste colonne basta.
 3. **Controllo.** `pbpaste | npm run add-note` mostra la nota e dice se passa i controlli. Leggi con la lista qui sotto.
-4. **Revisione locale** (solo luoghi delicati, poi per tutti quando c'è un lettore): la persona legge e dà l'ok. Poi:
-   `pbpaste | npm run add-note -- --write --reviewed "Nome del lettore"`.
-5. **Pubblicazione.** `npm run check`, commit, push. La nota compare con il nome e il legame che l'autore ha scelto.
+4. **Pubblicazione, poi revisione.** `pbpaste | npm run add-note -- --write` salva la nota. Se la nota è già stata letta da una persona del posto, aggiungi `--reviewed "Nome"`.
+   Altrimenti la lettura viene dopo: `npm run review-note -- <id> --by "Nome" --write`.
+5. **Online.** `npm run check`, commit, push. La nota compare con il nome e il legame che l'autore ha scelto.
 6. **Ritiro.** `npm run remove-note -- <id>` mostra la nota, con `--write` la toglie. Poi check, commit, push, e aggiorna il registro.
    Il testo resta nella cronologia pubblica del repository: se l'autore chiede anche di cancellarlo, bisogna riscrivere la storia
    (`git filter-repo`) e rifare il push forzato. Va detto all'autore prima, nel modulo e nella pagina Method lo diciamo già.
@@ -43,4 +44,5 @@ Non è una consulenza legale: informativa e trattamento dei dati vanno fatti ver
 - Compilare `channels` in `site.config.json` con contatti dedicati (numero WhatsApp in sole cifre, email, link Signal).
 - Scrivere l'informativa per chi contribuisce: chi riceve i dati, per quanto tempo, come chiedere accesso e ritiro, e che il repository è pubblico. Farla verificare.
 - Decidere per quanto tempo si conservano i messaggi originali e il registro.
-- Trovare il primo lettore locale per i luoghi delicati. Fino a quel momento il modulo può restare online, ma le note su quei luoghi restano in attesa.
+- Un contatto pubblico per le correzioni (anche solo un'email dedicata): senza, il link "tell the project" nelle schede non porta da nessuna parte.
+- Trovare i primi lettori locali, per la revisione successiva: non bloccano la pubblicazione.
