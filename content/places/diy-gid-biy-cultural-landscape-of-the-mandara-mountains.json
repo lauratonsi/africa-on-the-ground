@@ -84,7 +84,6 @@
   "gaps": [
     "What the Diy-Gid-Biy sites are and what the research found. The article names them without describing them.",
     "The people who live there, in their own words.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -93,5 +92,14 @@
     "cite": [
       "unesco-whc-1745"
     ]
+  },
+  "image": {
+    "file": "diy-gid-biy-cultural-landscape-of-the-mandara-mountains",
+    "alt": "A hillside covered in rounded granite boulders under a pale sky, with a small figure standing among the rocks.",
+    "caption": "The rocky Mora massif in the Mandara Mountains, Cameroon.",
+    "credit": "Serieminou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMassif_de_Mora_Mont_Mandara.jpg"
   }
 }

@@ -104,7 +104,6 @@
   "gaps": [
     "The mining dispute and its present state, which Wikipedia only begins to describe in the part read here.",
     "The communities around the mountain and how they use it.",
-    "A photograph under an open licence (the one found on Commons is a signboard, not the landscape).",
     "Local voices: none yet."
   ],
   "coords": {
@@ -113,5 +112,14 @@
     "cite": [
       "unesco-whc-155"
     ]
+  },
+  "image": {
+    "file": "mount-nimba-strict-nature-reserve",
+    "alt": "A steep green mountainside with grass on the upper slopes, forest in the gullies and cloud drifting over the ridge.",
+    "caption": "Cloud forest on Mount Nimba.",
+    "credit": "Yakoo1986",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMount_Nimba_-_cloud_forests.jpg"
   }
 }

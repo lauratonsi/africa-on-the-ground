@@ -99,5 +99,14 @@
       "unesco-whc-173"
     ]
   },
-  "sensitive": true
+  "sensitive": true,
+  "image": {
+    "file": "stone-town-of-zanzibar",
+    "alt": "A weathered stone fort with crenellated towers and a carved doorway, palm trees and parked motorbikes in front.",
+    "caption": "The Old Fort, Stone Town, Zanzibar.",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFuerte_Viejo%2C_Stone_Town%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-31%2C_DD_32.jpg"
+  }
 }

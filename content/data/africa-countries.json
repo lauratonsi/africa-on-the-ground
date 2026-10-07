@@ -5,7 +5,8 @@
   "wb-area",
   "wb-countries",
   "un-m49",
-  "natural-earth"
+  "natural-earth",
+  "cia-factbook"
  ],
  "countries": [
   {

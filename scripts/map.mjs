@@ -71,8 +71,10 @@ export function africaMap(places, types, { hrefFor } = {}) {
   return `<svg class="map map-africa" viewBox="0 0 ${p.width} ${p.height}" role="img" aria-label="Map of Africa. Countries with place cards are highlighted."><g fill-rule="evenodd">${land}</g>${locators}</svg>`;
 }
 
+const SHAPE_ISO = { SDS: "SSD", SOL: "SOM", SAH: null };
+
 // Mappa grande dell'Africa con un pin per scheda che ha coordinate. Restituisce anche i riquadri per ingrandire una regione.
-export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions = [] } = {}) {
+export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions = [], countries = [], countryHref = null } = {}) {
   const p = projection({ lon0: -19.5, lon1: 52, lat0: -36, lat1: 38 }, 1000);
   const land = africa.countries.map((c) => `<path class="land" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
   const located = places.filter((x) => x.coords);
@@ -96,10 +98,39 @@ export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions
     for (const c of cs) for (const ring of c.rings) for (const [lon, lat] of ring) { if (lon < a) a = lon; if (lon > z) z = lon; if (lat < lo) lo = lat; if (lat > hi) hi = lat; }
     const padX = (p.x(z) - p.x(a)) * 0.08 + 12, padY = (p.y(lo) - p.y(hi)) * 0.08 + 12;
     const x0 = Math.max(0, p.x(a) - padX), y0 = Math.max(0, p.y(hi) - padY);
-    views[r.id] = [x0, y0, Math.min(p.width, p.x(z) + padX) - x0, Math.min(p.height, p.y(lo) + padY) - y0].map(r1);
+    // stesse proporzioni della mappa intera, così il riquadro non cambia altezza quando si ingrandisce
+    let w = Math.min(p.width, p.x(z) + padX) - x0, h = Math.min(p.height, p.y(lo) + padY) - y0;
+    const cx = x0 + w / 2, cy = y0 + h / 2;
+    w = Math.min(p.width, Math.max(w, (h * p.width) / p.height)); h = (w * p.height) / p.width;
+    views[r.id] = [Math.max(0, Math.min(p.width - w, cx - w / 2)), Math.max(0, Math.min(p.height - h, cy - h / 2)), w, h].map(r1);
   }
+  // nomi dei paesi e capitali, ognuno collegato alla scheda del paese nella pagina Countries.
+  // La dimensione in carattere segue lo zoom (--k) e app.js mostra più o meno etichette (data-lod).
+  const byIso = Object.fromEntries(countries.map((c) => [c.iso3, c]));
+  const anchor = {};
+  for (const shape of africa.countries) {
+    const iso = shape.a3 in SHAPE_ISO ? SHAPE_ISO[shape.a3] : shape.a3;
+    if (!iso || !byIso[iso]) continue;
+    for (const ring of shape.rings) {
+      const lons = ring.map((q) => q[0]), lats = ring.map((q) => q[1]);
+      const w = (Math.max(...lons) - Math.min(...lons)) * (Math.max(...lats) - Math.min(...lats));
+      if (!anchor[iso] || w > anchor[iso].w) anchor[iso] = { w, x: p.x((Math.min(...lons) + Math.max(...lons)) / 2), y: p.y((Math.min(...lats) + Math.max(...lats)) / 2) };
+    }
+  }
+  const inside = (x, y) => x > 4 && x < p.width - 4 && y > 4 && y < p.height - 4;
+  const names = countries.filter((c) => anchor[c.iso3] && inside(anchor[c.iso3].x, anchor[c.iso3].y)).map((c) => {
+    const a = anchor[c.iso3];
+    const t = `<text class="cn${c.area > 250000 ? " big" : ""}" x="${r1(a.x)}" y="${r1(a.y)}" text-anchor="middle">${esc(c.name)}</text>`;
+    return countryHref ? `<a href="${esc(countryHref(c.iso3))}" tabindex="-1" aria-hidden="true">${t}</a>` : t;
+  }).join("");
+  const capitals = countries.filter((c) => inside(p.x(c.capitalLon), p.y(c.capitalLat))).map((c) => {
+    const x = r1(p.x(c.capitalLon)), y = r1(p.y(c.capitalLat));
+    const t = `<g class="cp" transform="translate(${x} ${y})"><circle r="3"/><text x="6" y="3.5">${esc(c.capital)}</text></g>`;
+    return countryHref ? `<a href="${esc(countryHref(c.iso3))}" tabindex="-1" aria-hidden="true">${t}</a>` : t;
+  }).join("");
+  const labels = `<g class="clabels">${names}</g><g class="cplabels">${capitals}</g>`;
   const full = [0, 0, p.width, p.height];
-  const svg = `<svg class="map map-continent" viewBox="${full.join(" ")}" data-full="${full.join(" ")}" role="group" aria-label="Map of Africa with a pin for each place card. Select a pin to open its card."><defs><radialGradient id="mcSea" cx="50%" cy="42%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs><rect width="${p.width}" height="${p.height}" fill="url(#mcSea)"/><path class="grat" d="${grat}"/><g fill-rule="evenodd">${land}</g><g class="pins">${pins}</g></svg>`;
+  const svg = `<svg class="map map-continent" data-lod="0" viewBox="${full.join(" ")}" data-full="${full.join(" ")}" role="group" aria-label="Map of Africa with a pin for each place card. Select a pin to open its card."><defs><radialGradient id="mcSea" cx="50%" cy="42%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs><rect width="${p.width}" height="${p.height}" fill="url(#mcSea)"/><path class="grat" d="${grat}"/><g fill-rule="evenodd">${land}</g>${labels}<g class="pins">${pins}</g></svg>`;
   return { svg, views, full, count: located.length };
 }
 
@@ -131,7 +162,6 @@ export function gambiaMap(places, types, { focus = null, hrefFor } = {}) {
 // I contorni di Natural Earth usano alcune sigle proprie: le riportiamo ai codici ISO.
 // Somaliland è disegnata come parte della Somalia, come nell'elenco dei paesi della Banca Mondiale.
 // Il Sahara Occidentale non ha dati e resta senza colore.
-const SHAPE_ISO = { SDS: "SSD", SOL: "SOM", SAH: null };
 
 export function choroplethMap(countries, bins) {
   const p = projection({ lon0: -19, lon1: 52, lat0: -36, lat1: 38 }, 700);

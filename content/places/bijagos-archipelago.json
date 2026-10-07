@@ -90,7 +90,6 @@
   "gaps": [
     "The Bijagó people: their society, sacred sites and what they themselves say about protection of the islands. The article read here does not cover them.",
     "What the 2025 World Heritage listing changed for the islands.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -99,5 +98,14 @@
     "cite": [
       "unesco-whc-1431"
     ]
+  },
+  "image": {
+    "file": "bijagos-archipelago",
+    "alt": "A view from space of the Bijagós islands: dark green and rust-coloured islands scattered in turquoise, silt-streaked water.",
+    "caption": "The Bijagós archipelago seen from orbit.",
+    "credit": "NASA / Crew of STS-37",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABissagos_archipel-satellite.jpg"
   }
 }

@@ -44,6 +44,8 @@ scripts/
   prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)
   prepare-geo.mjs         rigenera src/geo/ dai dati grezzi (si usa di rado)
   prepare-unesco.mjs      scarica i siti UNESCO dei 54 paesi dal portale di dati aperti (si usa di rado)
+  profiles.mjs            legge i testi del Factbook per i confronti (quote di religione, governo, lingue ufficiali)
+  prepare-factbook.mjs    scarica governo, lingue e religioni dei 54 paesi dal CIA World Factbook (si usa di rado)
   seed-unesco-cards.mjs   riempie le bozze dei luoghi UNESCO con i dati ufficiali (si usa di rado)
   serve.mjs               anteprima locale
 docs/

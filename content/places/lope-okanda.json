@@ -77,7 +77,6 @@
   ],
   "gaps": [
     "Nearly everything beyond location and size. The UNESCO title refers to an ecosystem and a relict cultural landscape; the cultural side (archaeology, the Okanda people) has not been described.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -86,5 +85,14 @@
     "cite": [
       "unesco-whc-1147"
     ]
+  },
+  "image": {
+    "file": "lope-okanda",
+    "alt": "Elephants grazing in dry golden grassland, with forest and a mountain behind under a cloudy sky.",
+    "caption": "Elephants in Lopé National Park, Gabon.",
+    "credit": "Ngangorica",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AElephants_in_Lop%C3%A9_National_Park.JPG"
   }
 }

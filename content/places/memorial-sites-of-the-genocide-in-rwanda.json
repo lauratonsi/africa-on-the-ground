@@ -92,5 +92,14 @@
       "unesco-whc-1586"
     ]
   },
-  "sensitive": true
+  "sensitive": true,
+  "image": {
+    "file": "memorial-sites-of-the-genocide-in-rwanda",
+    "alt": "A low brick building with a long, flat roofline and ribbed walls, set back across a red-earth yard with young shrubs.",
+    "caption": "The Nyamata memorial church, Rwanda.",
+    "credit": "Dave Proffer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ANyamata_Genocide_Memorial_Church_-_Flickr_-_Dave_Proffer_(11).jpg"
+  }
 }

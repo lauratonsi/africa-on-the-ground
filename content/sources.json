@@ -1284,5 +1284,15 @@
     "status": "to-verify",
     "note": "An archaeologist writing in a general-audience magazine; this is the abstract page. Estimates of population and dates have moved since 1998.",
     "retrieved": "2026-10-07"
+  },
+  {
+    "id": "cia-factbook",
+    "title": "The World Factbook: Government type, Languages, Religions (africa/*.json)",
+    "publisher": "CIA, via the factbook/factbook.json copy on GitHub",
+    "url": "https://github.com/factbook/factbook.json",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Public-domain text copied unchanged. The copy does not say which edition it holds, and each figure carries its own estimate year in the text. Shares are estimates from censuses or surveys of different years; official languages are as the Factbook records them.",
+    "retrieved": "2026-10-07"
   }
 ]

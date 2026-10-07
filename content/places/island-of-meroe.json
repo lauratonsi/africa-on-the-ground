@@ -84,7 +84,6 @@
   "gaps": [
     "The pyramids and the site's present condition after the war in Sudan, which the part of the article read here does not reach.",
     "Sudanese archaeologists' and residents' accounts.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -93,5 +92,14 @@
     "cite": [
       "unesco-whc-1336"
     ]
+  },
+  "image": {
+    "file": "island-of-meroe",
+    "alt": "Small ruined pyramids on a ridge of orange desert sand, with two people and camels in the foreground.",
+    "caption": "Pyramids at Meroe, Sudan.",
+    "credit": "Hans Birger Nilsen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMer%C3%B6e_Pyramids_with_camles_(35119048185).jpg"
   }
 }

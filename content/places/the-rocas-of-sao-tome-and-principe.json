@@ -84,7 +84,15 @@
   "gaps": [
     "The roças as buildings and as a labour system: their layout, the contract workers (serviçais), and what remains today. The article read here covers only the cocoa trade.",
     "São Toméan voices, including descendants of plantation workers.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "the-rocas-of-sao-tome-and-principe",
+    "alt": "A two-storey white colonial house with a blue-trimmed veranda and arched windows, vehicles parked on the lawn.",
+    "caption": "The main house of the Roça São João dos Angolares, São Tomé.",
+    "credit": "Ji-Elle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade_de_la_Ro%C3%A7a_S%C3%A3o_Jo%C3%A3o_dos_Angolares_(S%C3%A3o_Tom%C3%A9).jpg"
+  }
 }

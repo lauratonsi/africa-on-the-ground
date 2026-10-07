@@ -77,7 +77,15 @@
   ],
   "gaps": [
     "Almost everything beyond the listing year: which medinas, their history and what residents say about them.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "medinas-of-the-historical-sultanates-of-the-comoros",
+    "alt": "A white arcaded mosque with a small tower beside the harbour at dusk, a rusting ship moored on the left.",
+    "caption": "The old mosque and harbour at Moroni, Comoros.",
+    "credit": "Daryl Wallace from Abu Dhabi, UAE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMosque_in_Moroni%2C_Comoros_(3922246919).jpg"
+  }
 }

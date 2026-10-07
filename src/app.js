@@ -62,11 +62,34 @@
   if (regions && bigmap) {
     regions.hidden = false;
     var cur = bigmap.getAttribute("viewBox").split(" ").map(Number);
-    var setVB = function (v) { bigmap.setAttribute("viewBox", v.map(function (n) { return n.toFixed(1); }).join(" ")); cur = v; };
-    regions.addEventListener("click", function (e) {
-      var b = e.target.closest("button[data-vb]"); if (!b) return;
-      all("button", regions).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
-      var to = b.getAttribute("data-vb").split(" ").map(Number), from = cur.slice();
+    var full = cur.slice();
+    var pins = all(".map-continent .pin").map(function (a) {
+      var m = /translate\(([-\d.]+) ([-\d.]+)\)/.exec(a.getAttribute("transform") || "");
+      return { a: a, x: m ? +m[1] : 0, y: m ? +m[2] : 0, near: [] };
+    });
+    // i pin hanno una misura fissa in unità di mappa: li riduciamo quando si ingrandisce, così a una certa
+    // scala i luoghi vicini si separano. Due pin che si toccano alla scala corrente formano un gruppo.
+    var PIN = 26;
+    var mark = function () {
+      var k = Math.max(cur[2] / full[2], 0.08), lim = PIN * k;
+      pins.forEach(function (p) { p.near = []; });
+      pins.forEach(function (p, i) { for (var j = i + 1; j < pins.length; j++) {
+        var q = pins[j]; if (Math.hypot(p.x - q.x, p.y - q.y) < lim) { p.near.push(q); q.near.push(p); }
+      } });
+      pins.forEach(function (p) { p.a.classList.toggle("clu", p.near.length > 0); p.a.setAttribute("data-near", p.near.length); });
+    };
+    var setVB = function (v) {
+      bigmap.setAttribute("viewBox", v.map(function (n) { return n.toFixed(1); }).join(" ")); cur = v;
+      var kk = Math.max(v[2] / full[2], 0.08); bigmap.style.setProperty("--k", kk.toFixed(3));
+      bigmap.setAttribute("data-lod", kk > 0.55 ? "0" : kk > 0.3 ? "1" : "2"); mark();
+    };
+    var group = function (p) {
+      var seen = [p], todo = [p];
+      while (todo.length) todo.pop().near.forEach(function (q) { if (seen.indexOf(q) < 0) { seen.push(q); todo.push(q); } });
+      return seen;
+    };
+    var goTo = function (to) {
+      var from = cur.slice();
       if (window.Motion && document.documentElement.classList.contains("m-ok")) {
         Motion.animate(0, 1, { duration: 0.8, ease: [0.22, 1, 0.36, 1], onUpdate: function (t) {
           setVB([0, 1, 2, 3].map(function (i) { return from[i] + (to[i] - from[i]) * t; }));
@@ -74,6 +97,28 @@
         // rete di sicurezza: a fine animazione il riquadro è comunque quello richiesto
         clearTimeout(bigmap._t); bigmap._t = setTimeout(function () { setVB(to); }, 1000);
       } else setVB(to);
+    };
+    // toccare un pin che ne ha altri addosso ingrandisce sul gruppo, invece di aprire la scheda
+    pins.forEach(function (p) {
+      p.a.addEventListener("click", function (e) {
+        if (!p.near.length) return;
+        e.preventDefault(); e.stopImmediatePropagation();
+        var g = group(p), xs = g.map(function (q) { return q.x; }), ys = g.map(function (q) { return q.y; }), dmin = 1e9;
+        g.forEach(function (q) { q.near.forEach(function (r) { dmin = Math.min(dmin, Math.hypot(q.x - r.x, q.y - r.y)); }); });
+        var bw = Math.max.apply(null, xs) - Math.min.apply(null, xs), bh = Math.max.apply(null, ys) - Math.min.apply(null, ys);
+        var W = Math.min(full[2], Math.max(full[2] * dmin / PIN * 0.8, Math.max(bw, bh * full[2] / full[3]) * 2 + 40, 100)), H = W * full[3] / full[2];
+        var cx = (Math.max.apply(null, xs) + Math.min.apply(null, xs)) / 2, cy = (Math.max.apply(null, ys) + Math.min.apply(null, ys)) / 2;
+        goTo([Math.max(0, Math.min(full[2] - W, cx - W / 2)), Math.max(0, Math.min(full[3] - H, cy - H / 2)), W, H]);
+        if (window.hideMapCard) window.hideMapCard();
+      }, true);
+    });
+    mark();
+    regions.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-vb]"); if (!b) return;
+      all("button", regions).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      var to = b.getAttribute("data-vb").split(" ").map(Number);
+      goTo(to);
+      all("button", regions).forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
     });
   }
 
@@ -85,7 +130,7 @@
     var hideCard = function () { card.hidden = true; shownFor = null; };
     var showCard = function (pin) {
       shownFor = pin;
-      cb.textContent = pin.getAttribute("data-name"); cs.textContent = pin.getAttribute("data-meta");
+      cb.textContent = pin.getAttribute("data-name"); var nr = +pin.getAttribute("data-near") || 0; cs.textContent = pin.getAttribute("data-meta") + (nr ? " · " + nr + " more close by, click to zoom" : "");
       var src = pin.getAttribute("data-img");
       if (src) { cimg.src = src; cimg.hidden = false; } else { cimg.removeAttribute("src"); cimg.hidden = true; }
       cgo.href = pin.getAttribute("href");
@@ -102,7 +147,40 @@
       pin.addEventListener("click", function (e) { if (touch && shownFor !== pin) { e.preventDefault(); showCard(pin); } });
     });
     if (touch) { card.classList.add("touch"); document.addEventListener("click", function (e) { if (!card.contains(e.target) && !e.target.closest(".map-continent .pin")) hideCard(); }); }
+    window.hideMapCard = hideCard;
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") hideCard(); });
+  }
+
+
+  // ---------- pagina Compare: filtro per subregione e confronto tra due paesi ----------
+  var mk = function (tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  var cmpSub = $("cmp-sub");
+  if (cmpSub) {
+    $("cmp-tools").hidden = false;
+    cmpSub.addEventListener("change", function () {
+      var v = cmpSub.value;
+      all("#religion .srow").forEach(function (r) { var s = r.getAttribute("data-sub"); r.hidden = v !== "all" && s !== v && s !== ""; });
+    });
+  }
+  var cmpEl = $("cmpdata"), pa = $("pair-a"), pb = $("pair-b"), pout = $("pair-out");
+  if (cmpEl && pa && pb && pout) {
+    var cd = JSON.parse(cmpEl.textContent);
+    $("pair-pick").hidden = false;
+    var isos = Object.keys(cd);
+    pa.value = cd.ETH ? "ETH" : isos[0]; pb.value = cd.SEN ? "SEN" : isos[1];
+    var drawPair = function () {
+      var a = cd[pa.value], b = cd[pb.value], t = mk("table", "pairtab");
+      t.appendChild(mk("caption", "sr", a.name + " compared with " + b.name));
+      var hr = mk("tr"); hr.appendChild(mk("td")); [a, b].forEach(function (x) { hr.appendChild(mk("th", null, x.name)); });
+      var th = mk("thead"); th.appendChild(hr); t.appendChild(th);
+      var tb = mk("tbody");
+      [["Capital", "capital"], ["Subregion", "sub"], ["Population", "population"], ["Area, km²", "area"], ["People per km²", "density"], ["Government", "government"], ["Languages", "languages"], ["Religions", "religions"]].forEach(function (r) {
+        var tr = mk("tr"); tr.appendChild(mk("th", null, r[0])); tr.firstChild.setAttribute("scope", "row");
+        tr.appendChild(mk("td", null, a[r[1]])); tr.appendChild(mk("td", null, b[r[1]])); tb.appendChild(tr);
+      });
+      t.appendChild(tb); pout.replaceChildren(t);
+    };
+    pa.addEventListener("change", drawPair); pb.addEventListener("change", drawPair); drawPair();
   }
 
   // ---------- countries ----------
@@ -202,6 +280,11 @@
         var w = el("div"); w.appendChild(el("dt", null, r[0])); w.appendChild(el("dd", null, r[1])); dl.appendChild(w);
       });
       detail.appendChild(dl);
+      var pdl = el("dl", "detail-dl detail-prof");
+      [["Government", d.government], ["Languages", d.languages], ["Religions", d.religions]].forEach(function (r) {
+        if (!r[1]) return; var w = el("div"); w.appendChild(el("dt", null, r[0])); w.appendChild(el("dd", null, r[1])); pdl.appendChild(w);
+      });
+      detail.appendChild(pdl);
       detail.appendChild(el("p", "detail-rank", "Rank of " + d.n + ": #" + d.rankPop + " by population, #" + d.rankArea + " by area, #" + d.rankDen + " by density."));
       d.cards.forEach(function (c) { var a = el("a", "detail-card", "Place card: " + c.name); a.href = c.href; detail.appendChild(a); });
       var b = el("button", "detail-clear", "Clear selection"); b.type = "button"; b.addEventListener("click", clear); detail.appendChild(b);

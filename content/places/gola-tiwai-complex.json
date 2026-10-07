@@ -77,7 +77,6 @@
   ],
   "gaps": [
     "Almost everything. The sources found say only when the site was listed. What the complex is, who lives around it and what its protection involves must be researched from scratch.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
   "coords": {
@@ -86,5 +85,14 @@
     "cite": [
       "unesco-whc-1746"
     ]
+  },
+  "image": {
+    "file": "gola-tiwai-complex",
+    "alt": "A fast, brown river running past a low island covered in dense rainforest.",
+    "caption": "The Moa River beside Tiwai Island, Sierra Leone.",
+    "credit": "Dorothy Voorhees",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATiwa_Island_-_flickr.jpg"
   }
 }

@@ -35,7 +35,15 @@
   "gaps": [
     "Almost everything beyond size and date: the forest, the other wildlife, the communities and who manages the park.",
     "This place was chosen by the project as one of Equatorial Guinea's best known; the country has no site on the World Heritage List, and the choice should be checked with Equatoguinean sources.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "monte-alen-national-park",
+    "alt": "Forested hills rising behind oil palms and a papaya tree, under a partly cloudy sky.",
+    "caption": "Forest in the Monte Alén National Park, Equatorial Guinea.",
+    "credit": "Mehlauge",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ANationalpark_Monte_Al%C3%A9n.jpg"
+  }
 }

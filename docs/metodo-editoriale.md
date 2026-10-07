@@ -119,3 +119,7 @@ da pubblicare ha bisogno anche di fonti indipendenti.
 - [ ] Almeno una persona che conosce il luogo ha letto il racconto e può dire se qualcosa suona sbagliato
 - [ ] Note raccolte con consenso registrato
 - [ ] `npm run check` senza errori
+
+## Profili dei paesi (governo, lingue, religioni)
+
+I testi vengono dal CIA World Factbook (pubblico dominio) tramite la copia JSON `factbook/factbook.json`: `node scripts/prepare-factbook.mjs` scrive `content/data/africa-profiles.json`. I testi restano quelli originali, con l'anno di stima che ciascuno porta; l'unica correzione è un refuso nella quota cristiana della RD Congo (nota nel file). La copia non dichiara l'edizione, quindi la fonte `cia-factbook` è segnata "to-verify". Le percentuali di religione e lingua sono stime da censimenti e sondaggi di anni diversi; i paesi senza dato recente andrebbero confrontati con il censimento nazionale.

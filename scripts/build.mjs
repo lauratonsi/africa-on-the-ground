@@ -5,7 +5,8 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { root, loadAll, validate, report } from "./lib.mjs";
 import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, countryCodes, countryName } from "./map.mjs";
-import { barList, pairedBars, scatter, fmtInt, fmtPop } from "./charts.mjs";
+import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
+import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
 
 const data = loadAll();
 const result = validate(data);
@@ -162,7 +163,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}compare/index.html"${current === "compare" ? ' aria-current="page"' : ""}>Compare</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -452,7 +453,7 @@ const filterChips = usedTypes.length > 1
 
 const subOf = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c.subregion]));
 const bigMap = published.some((p) => p.coords)
-  ? africaPlacesMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html`, subOf, subregions: config.subregions })
+  ? africaPlacesMap(published, types, { hrefFor: (x) => `places/${x.slug}/index.html`, subOf, subregions: config.subregions, countries: data.countries ? data.countries.countries : [], countryHref: (iso) => `countries/index.html#c-${iso}` })
   : null;
 const regionChips = bigMap
   ? `<div class="filters" id="regions" role="group" aria-label="Zoom the map to a region" hidden><button type="button" class="fbtn" data-vb="${bigMap.full.join(" ")}" aria-pressed="true">All Africa</button>${config.subregions.filter((r) => bigMap.views[r.id]).map((r) => `<button type="button" class="fbtn" data-vb="${bigMap.views[r.id].join(" ")}" aria-pressed="false">${esc(r.label.replace(/ Africa$/, ""))}</button>`).join("")}</div>`
@@ -604,7 +605,9 @@ function renderCountries(list) {
   const rank = (fn) => { const o = [...list].sort((a, b) => fn(b) - fn(a)); return Object.fromEntries(o.map((c, i) => [c.iso3, i + 1])); };
   const rPop = rank((c) => c.population), rArea = rank((c) => c.area), rDen = rank(den);
   const cardsOf = (iso) => published.filter((p) => p.country === iso);
+  const profiles = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
   const detailData = Object.fromEntries(list.map((c) => [c.iso3, {
+    government: (profiles[c.iso3] || {}).government || "", languages: (profiles[c.iso3] || {}).languages || "", religions: (profiles[c.iso3] || {}).religions || "",
     name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
     density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
     rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
@@ -695,7 +698,7 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
       <tbody>${rows}</tbody>
     </table>
   </div>
-  <p class="fine">Population is the 2025 value and area the 2023 value, the most recent the World Bank gave for each country${cite(["wb-population", "wb-area"])}. Capitals as listed by the World Bank${cite(["wb-countries"])}.</p>
+  <p class="fine">Population is the 2025 value and area the 2023 value, the most recent the World Bank gave for each country${cite(["wb-population", "wb-area"])}. Capitals as listed by the World Bank${cite(["wb-countries"])}. Government, languages and religions are the World Factbook's own words${cite(["cia-factbook"])}: each carries its own estimate year, and the shares come from censuses and surveys of different dates. Select a country to read them.</p>
 </section>
 
 </div></div>
@@ -716,7 +719,147 @@ ${sourcesList()}
   return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }] });
 }
 
+
+// ---------- pagina Compare: religioni, governi e lingue a confronto ----------
+function renderCompare(list) {
+  const { cite, list: sourcesList } = makeCiter();
+  const profiles = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
+  const subLabel = Object.fromEntries(config.subregions.map((r) => [r.id, r.label]));
+  const den = (c) => c.population / c.area;
+  const decode = (t) => String(t || "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  const rows = list.map((c) => {
+    const pr = profiles[c.iso3] || {};
+    return { c, gov: governmentGroup(pr.government || ""), govText: pr.government || "", rel: religionShares(pr.religions || ""), langs: officialLanguages(pr.languages || ""), relText: decode(pr.religions), langText: decode(pr.languages) };
+  });
+  const SERIES = [{ key: "christian", label: "Christian" }, { key: "muslim", label: "Muslim" }, { key: "traditional", label: "Traditional or folk religions" }, { key: "none", label: "No religion or unaffiliated" }, { key: "asian", label: "Hindu, Buddhist and other Asian religions" }, { key: "other", label: "Other, unspecified or not counted" }];
+  const withRel = rows.filter((r) => r.rel);
+  const noRel = rows.filter((r) => !r.rel);
+  const pct0 = (v) => `${v < 1 && v > 0 ? "<1" : Math.round(v)}%`;
+  const biggest = (r) => ["christian", "muslim", "traditional", "none", "asian"].reduce((a, k) => (r.rel[k] > r.rel[a] ? k : a), "christian");
+  const lead = { christian: 0, muslim: 0, traditional: 0, none: 0, asian: 0 };
+  withRel.forEach((r) => lead[biggest(r)]++);
+  const SHORT = { christian: "Christian", muslim: "Muslim", traditional: "traditional", none: "no religion", asian: "Hindu or Buddhist", other: "other" };
+
+  // 1. religione: una barra per paese
+  const relRows = [...withRel].sort((a, b) => b.rel.christian - a.rel.christian || b.rel.muslim - a.rel.muslim).map((r) => {
+    const k = biggest(r);
+    return { label: r.c.name, sub: r.c.subregion, values: r.rel, text: `${pct0(r.rel[k])} ${SHORT[k]}`, tip: `${r.c.name}: ${SERIES.map((x) => `${SHORT[x.key]} ${pct0(r.rel[x.key])}`).join(", ")}${r.rel.year ? ` (${r.rel.year} estimate)` : " (estimate year not given)"}` };
+  });
+  // quota per subregione: media pesata con la popolazione 2025 (stima calcolata qui, mescola anni diversi)
+  const weighted = (subset) => {
+    const w = subset.reduce((a, r) => a + r.c.population, 0);
+    return Object.fromEntries(SERIES.map((x) => [x.key, subset.reduce((a, r) => a + r.rel[x.key] * r.c.population, 0) / w]));
+  };
+  const subRows = config.subregions.map((sr) => {
+    const set = withRel.filter((r) => r.c.subregion === sr.id), all = rows.filter((r) => r.c.subregion === sr.id);
+    if (!set.length) return null;
+    const v = weighted(set);
+    const missing = all.length - set.length;
+    return { label: sr.label, sub: sr.id, values: v, text: `${pct0(v.christian)} Christian · ${pct0(v.muslim)} Muslim`, tip: `${sr.label}: ${SERIES.map((x) => `${SHORT[x.key]} ${pct0(v[x.key])}`).join(", ")}. Weighted by population over ${set.length} of ${all.length} countries${missing ? ` (no shares for ${all.filter((r) => !r.rel).map((r) => r.c.name).join(", ")})` : ""}.` };
+  }).filter(Boolean);
+  const cont = weighted(withRel);
+  const covered = withRel.reduce((a, r) => a + r.c.population, 0) / list.reduce((a, c) => a + c.population, 0);
+
+  // 2. governo
+  const GOVS = ["Presidential republic", "Semi-presidential republic", "Parliamentary republic", "Constitutional monarchy", "Absolute monarchy", "Other or in transition"];
+  const govCount = GOVS.map((g) => ({ g, items: rows.filter((r) => r.gov === g) })).filter((x) => x.items.length);
+  const govBars = barList(govCount.map((x) => ({ label: x.g, value: x.items.length, text: String(x.items.length), tip: `${x.g}: ${x.items.map((r) => r.c.name).join(", ")}`, sub: "" })), { accent: 1 });
+  const govChips = govCount.map((x) => `<div class="gov-row"><h3>${esc(x.g)} <span class="count">${x.items.length}</span></h3><ul class="chips">${x.items.map((r) => `<li title="${esc(r.govText)}">${esc(r.c.name)}</li>`).join("")}</ul></div>`).join("");
+  const govTab = `<table class="xtab"><thead><tr><th scope="col">Subregion</th>${govCount.map((x) => `<th scope="col" class="n">${esc(x.g.replace(" republic", ""))}</th>`).join("")}</tr></thead><tbody>${config.subregions.map((sr) => `<tr><th scope="row">${esc(sr.label)}</th>${govCount.map((x) => `<td class="n">${x.items.filter((r) => r.c.subregion === sr.id).length || "–"}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+
+  // 3. lingue segnate "official" a livello nazionale
+  const langN = {};
+  rows.forEach((r) => r.langs.filter((l) => l.national).forEach((l) => { (langN[l.name] ||= []).push(r.c.name); }));
+  const langSorted = Object.entries(langN).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  const topLang = langSorted.filter(([, v]) => v.length >= 2);
+  const oneOff = langSorted.length - topLang.length;
+  const langBars = barList(topLang.map(([n, v]) => ({ label: n, value: v.length, text: `${v.length} ${v.length === 1 ? "country" : "countries"}`, tip: `${n}: ${v.join(", ")}`, sub: "" })), { accent: 4 });
+  const nat = (r) => r.langs.filter((l) => l.national).length;
+  const noLang = rows.filter((r) => nat(r) === 0);
+  const hist = [["None marked", noLang.length], ["One", rows.filter((r) => nat(r) === 1).length], ["Two", rows.filter((r) => nat(r) === 2).length], ["Three or more", rows.filter((r) => nat(r) >= 3).length]];
+  const histBars = barList(hist.map(([l, n]) => ({ label: l, value: n || 0.0001, text: String(n), tip: `${l}: ${rows.filter((r) => (l === "None marked" ? nat(r) === 0 : l === "One" ? nat(r) === 1 : l === "Two" ? nat(r) === 2 : nat(r) >= 3)).map((r) => r.c.name).join(", ") || "none"}`, sub: "" })), { accent: 4 });
+  const KEY_LANG = ["French", "English", "Arabic", "Portuguese"];
+  const langTab = `<table class="xtab"><thead><tr><th scope="col">Subregion</th>${KEY_LANG.map((l) => `<th scope="col" class="n">${l}</th>`).join("")}</tr></thead><tbody>${config.subregions.map((sr) => {
+    const set = rows.filter((r) => r.c.subregion === sr.id);
+    return `<tr><th scope="row">${esc(sr.label)} <span class="count">${set.length}</span></th>${KEY_LANG.map((l) => `<td class="n">${set.filter((r) => (langN[l] || []).includes(r.c.name)).length || "–"}</td>`).join("")}</tr>`;
+  }).join("")}</tbody></table>`;
+
+  // 4. due paesi a confronto
+  const cmpData = Object.fromEntries(rows.map((r) => [r.c.iso3, { name: r.c.name, capital: r.c.capital, sub: subLabel[r.c.subregion], population: fmtInt(r.c.population), area: fmtInt(r.c.area), density: den(r.c) < 10 ? den(r.c).toFixed(1) : fmtInt(den(r.c)), government: r.govText || "Not given", languages: r.langText || "Not given", religions: r.relText || "Not given" }]));
+  const opts = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => `<option value="${c.iso3}">${esc(c.name)}</option>`).join("");
+  const subOpts = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
+
+  const body = `
+${compactHero({ kicker: "Reference", title: "Compare the countries", sub: "Religion, government and official languages of the 54 countries, side by side." })}
+<div class="wrap">
+<section class="hero-lede">
+  <p class="lede">Every figure here comes from the World Factbook's entries for each country${cite(["cia-factbook"])}, set next to World Bank population${cite(["wb-population"])}. The comparison, the groupings and the averages are calculated here. Nothing on this page comes from local voices, and the Factbook's numbers are estimates from censuses and surveys of different years.</p>
+</section>
+</div>
+<div class="band-sand section"><div class="wrap">
+<section id="religion" class="panel" aria-labelledby="rel-h">
+  <div class="phead"><h2 id="rel-h">Religion</h2>
+    <div class="tools" id="cmp-tools" hidden><label class="sr" for="cmp-sub">Show subregion</label><select id="cmp-sub"><option value="all">All subregions</option>${subOpts}</select></div></div>
+  <p class="cmp-find">${lead.christian} countries have a Christian plurality, ${lead.muslim} a Muslim one${lead.traditional + lead.none + lead.asian ? `, and ${lead.traditional + lead.none + lead.asian} neither` : ""}.</p>
+  <p>Across the ${withRel.length} countries with shares, weighting each by its 2025 population, about ${pct0(cont.christian)} of people are counted as Christian and ${pct0(cont.muslim)} as Muslim. Those countries hold ${(covered * 100).toFixed(0)}% of Africa's people.</p>
+  ${stackedShares(relRows, SERIES)}
+  <p class="fine">Sorted by Christian share. Hover or focus a bar for every group. Countries are grouped here from the Factbook's own labels: "Roman Catholic", "Protestant" and the like count as Christian; "animist" and "folk religion" as traditional. Sub-groups inside brackets are ignored, and a share given as "less than 1%" counts as zero, so the remainder falls under "other". ${noRel.length ? `${noRel.map((r) => esc(r.c.name)).join(" and ")} ${noRel.length === 1 ? "has" : "have"} no percentages in the Factbook, so ${noRel.length === 1 ? "it is" : "they are"} left out.` : ""} Hindu, Buddhist, Sikh and Jain shares are grouped together as Asian religions; Mauritius is the only country where they are the largest group.</p>
+  <h3>By subregion</h3>
+  ${stackedShares(subRows, SERIES)}
+  <p class="fine">Population-weighted averages of the country shares, which mix estimate years from ${Math.min(...withRel.map((r) => +r.rel.year || 9999).filter((y) => y < 9999))} to ${Math.max(...withRel.map((r) => +r.rel.year || 0))}.</p>
+</section>
+</div></div>
+<div class="wrap section">
+<section id="government" class="panel" aria-labelledby="gov-h">
+  <h2 id="gov-h">Government</h2>
+  <p class="cmp-find">${govCount[0].items.length} of ${list.length} countries are presidential republics.</p>
+  ${govBars}
+  <p class="fine">The Factbook gives one phrase per country; here they are sorted into six groups. "Federal" is dropped from the label. The entries can lag events: where the Factbook says a country is in transition or was formerly one type, it is placed in the last group. Hover a country for the Factbook's exact words.</p>
+  <div class="cmp-grid">${govChips}</div>
+  <h3>By subregion</h3>
+  <div class="tablewrap">${govTab}</div>
+</section>
+</div>
+<div class="band-sand section"><div class="wrap">
+<section id="languages" class="panel" aria-labelledby="lang-h">
+  <h2 id="lang-h">Official languages</h2>
+  <p class="cmp-find">${topLang[0][0]} is marked official in ${topLang[0][1].length} countries${topLang[1] ? `, ${topLang[1][0]} in ${topLang[1][1].length}` : ""}.</p>
+  ${langBars}
+  <p class="fine">Languages the Factbook marks "official" at national level, counted in countries. Regional or working languages, such as most of Ethiopia's, are not counted. ${oneOff} more languages are official in one country each. Variant names are merged (Kiswahili and Swahili). Official status is taken from the Factbook's text, which does not mark every case: ${noLang.length ? `${noLang.map((r) => esc(r.c.name)).join(" and ")} ${noLang.length === 1 ? "has" : "have"} none marked, so ${noLang.length === 1 ? "it shows" : "they show"} as "none marked", which does not mean ${noLang.length === 1 ? "it has" : "they have"} no official language.` : "every country has one marked."}</p>
+  <h3>How many official languages</h3>
+  ${histBars}
+  <h3>The four most shared, by subregion</h3>
+  <div class="tablewrap">${langTab}</div>
+  <p class="fine">Number of countries in each subregion that mark the language official; the grey number is the subregion's total.</p>
+</section>
+</div></div>
+<div class="wrap section">
+<section id="pair" class="panel" aria-labelledby="pair-h">
+  <h2 id="pair-h">Two countries side by side</h2>
+  <div class="pair" id="pair-pick" hidden>
+    <label>First country<select id="pair-a">${opts}</select></label>
+    <label>Second country<select id="pair-b">${opts}</select></label>
+  </div>
+  <noscript><p class="fine">Choosing two countries needs JavaScript. The figures for each country are on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
+  <div id="pair-out" aria-live="polite"></div>
+</section>
+<section id="sec-gaps" class="gaps panel-gaps">
+  <span class="layer-tag gap">Not yet sourced</span>
+  <ul>
+    <li>Religion and language shares come from a single source, in estimate years that range widely. Where a national census exists it should replace the Factbook figure, and has not yet been checked.</li>
+    <li>The groupings are ours and flatten real differences: "Christian" joins Catholic, Protestant, Orthodox and independent churches; "Muslim" does not separate Sunni, Shia or Sufi orders.</li>
+    <li>Spoken languages are not shown, only languages marked official, so languages that most people speak at home but that have no official status do not appear.</li>
+    <li>Government types are labels, not an assessment of how a country is governed in practice, and may lag recent changes.</li>
+  </ul>
+</section>
+${sourcesList()}
+</div>
+<script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
+  return layout({ title: `Compare the countries · ${config.name}`, description: "Religion, government and official languages of the 54 African countries, compared.", depth: 1, current: "compare", script: true, body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+}
+
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
+if (data.countries) write("compare/index.html", renderCompare(data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({

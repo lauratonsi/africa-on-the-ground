@@ -30,8 +30,16 @@
     "Politics of the location: Laas Geel is in Somaliland, whose declared independence from Somalia is not internationally recognised. This card sits under Somalia in the country list; how to present it needs an editorial decision.",
     "Everything beyond the outline: the paintings, who found them and who protects them today.",
     "This place was chosen by the project as one of Somalia's best known; Somalia has no site on the World Heritage List.",
-    "A photograph under an open licence.",
     "Local voices: none yet."
   ],
-  "sensitive": true
+  "sensitive": true,
+  "image": {
+    "file": "laas-geel",
+    "alt": "A sandstone overhang whose underside carries faded red and white painted figures of cattle.",
+    "caption": "Rock paintings at Laas Geel.",
+    "credit": "Theodor Hoffsten",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ALaas_Geel_rock_paintings.JPG"
+  }
 }
