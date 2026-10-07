@@ -594,5 +594,98 @@
         }
       ]
     }
+  ],
+  "phraseNoteKinds": [
+    {
+      "id": "speaker",
+      "label": "I speak this language",
+      "question": "Is the phrase right, and how would you say it where you live? Tell us what a learner should know.",
+      "fields": [
+        {
+          "id": "know",
+          "label": "How do you know this language?",
+          "type": "select",
+          "options": [
+            {
+              "id": "first",
+              "label": "It is my first language"
+            },
+            {
+              "id": "fluent",
+              "label": "I speak it well"
+            },
+            {
+              "id": "learner",
+              "label": "I am still learning it"
+            }
+          ]
+        },
+        {
+          "id": "variant",
+          "label": "How is it said where you live?",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "id": "place",
+          "label": "Where is that?",
+          "type": "text",
+          "max": 80
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "label": "Something about the language",
+      "question": "What should a learner know about this language that a phrasebook does not say?",
+      "fields": [
+        {
+          "id": "topic",
+          "label": "This is about",
+          "type": "select",
+          "options": [
+            {
+              "id": "greeting",
+              "label": "Greetings and politeness"
+            },
+            {
+              "id": "sound",
+              "label": "Sounds and pronunciation"
+            },
+            {
+              "id": "writing",
+              "label": "Writing"
+            },
+            {
+              "id": "use",
+              "label": "Where and how it is used"
+            },
+            {
+              "id": "other",
+              "label": "Something else"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix",
+      "label": "The phrase is wrong",
+      "question": "Is the phrase wrong or unnatural? Say how it should be. The project reads corrections but does not publish them as a voice.",
+      "fields": [
+        {
+          "id": "better",
+          "label": "A better way to say it",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "id": "check",
+          "label": "Where could the curator check it?",
+          "type": "text",
+          "max": 160
+        }
+      ]
+    }
   ]
 }

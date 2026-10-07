@@ -1,0 +1,159 @@
+{
+ "note": "Phrases for the quiz question 'Which language is this?'. Each comes from a Wikivoyage phrasebook page, read on the retrieved date; none has been checked by a speaker. 'lang' must match a language name in scripts/languages.mjs so the answer can list the countries.",
+ "phrases": [
+  {
+   "id": "swahili",
+   "label": "Swahili",
+   "lang": "Swahili",
+   "phrase": "Asante sana.",
+   "meaning": "thank you very much",
+   "cite": [
+    "wikivoyage-swahili-phrasebook"
+   ],
+   "group": "east"
+  },
+  {
+   "id": "zulu",
+   "label": "Zulu",
+   "lang": "Zulu",
+   "phrase": "Sawubona.",
+   "meaning": "hello (to one person)",
+   "cite": [
+    "wikivoyage-zulu-phrasebook"
+   ],
+   "group": "south"
+  },
+  {
+   "id": "xhosa",
+   "label": "Xhosa",
+   "lang": "Xhosa",
+   "phrase": "Enkosi.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-xhosa-phrasebook"
+   ],
+   "group": "south"
+  },
+  {
+   "id": "yoruba",
+   "label": "Yoruba",
+   "lang": "Yoruba",
+   "phrase": "Bawo ni?",
+   "meaning": "how are you?",
+   "cite": [
+    "wikivoyage-yoruba-phrasebook"
+   ],
+   "group": "west"
+  },
+  {
+   "id": "hausa",
+   "label": "Hausa",
+   "lang": "Hausa",
+   "phrase": "Na gode.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-hausa-phrasebook"
+   ],
+   "group": "west"
+  },
+  {
+   "id": "wolof",
+   "label": "Wolof",
+   "lang": "Wolof",
+   "phrase": "Jere jef.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-wolof-phrasebook"
+   ],
+   "group": "west"
+  },
+  {
+   "id": "amharic",
+   "label": "Amharic",
+   "lang": "Amharic",
+   "phrase": "ሰላም",
+   "meaning": "hello (informal; Selam)",
+   "cite": [
+    "wikivoyage-amharic-phrasebook"
+   ],
+   "group": "horn"
+  },
+  {
+   "id": "malagasy",
+   "label": "Malagasy",
+   "lang": "Malagasy",
+   "phrase": "Tongasoa!",
+   "meaning": "welcome",
+   "cite": [
+    "wikivoyage-malagasy-phrasebook"
+   ],
+   "group": "indian"
+  },
+  {
+   "id": "kinyarwanda",
+   "label": "Kinyarwanda",
+   "lang": "Kinyarwanda",
+   "phrase": "Murakoze.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-kinyarwanda-phrasebook"
+   ],
+   "group": "east"
+  },
+  {
+   "id": "tswana",
+   "label": "Setswana (Tswana)",
+   "lang": "Tswana",
+   "phrase": "Ke a leboga.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-tswana-phrasebook"
+   ],
+   "group": "south"
+  },
+  {
+   "id": "sesotho",
+   "label": "Sesotho (Sotho)",
+   "lang": "Sotho",
+   "phrase": "Kea leboha.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-sesotho-phrasebook"
+   ],
+   "group": "south"
+  },
+  {
+   "id": "somali",
+   "label": "Somali",
+   "lang": "Somali",
+   "phrase": "Mahadsanid.",
+   "meaning": "thank you",
+   "cite": [
+    "wikivoyage-somali-phrasebook"
+   ],
+   "group": "horn"
+  },
+  {
+   "id": "twi",
+   "label": "Twi (Akan)",
+   "lang": "Akan (Twi, Fante, Asante)",
+   "phrase": "Akwaaba.",
+   "meaning": "welcome",
+   "cite": [
+    "wikivoyage-twi-phrasebook"
+   ],
+   "group": "west"
+  },
+  {
+   "id": "igbo",
+   "label": "Igbo",
+   "lang": "Igbo",
+   "phrase": "Kèdú",
+   "meaning": "hello (informal)",
+   "cite": [
+    "wikivoyage-igbo-phrasebook"
+   ],
+   "group": "west"
+  }
+ ]
+}

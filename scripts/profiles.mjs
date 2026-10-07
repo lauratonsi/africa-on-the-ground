@@ -1,6 +1,6 @@
 // Legge i testi del Factbook (content/data/africa-profiles.json) e ne ricava numeri per i confronti.
 // Il lavoro è prudente: se un testo non si lascia leggere con certezza, il paese resta fuori dal grafico e lo diciamo.
-const decode = (s) => String(s).replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+export const decode = (s) => String(s).replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
 
 // toglie tutto ciò che sta tra parentesi tonde o quadre (sottogruppi, note, anni), anche annidato
 function flat(s) {
@@ -13,7 +13,7 @@ function flat(s) {
   return out.replace(/\s+/g, " ").trim();
 }
 // divide a virgole e punti e virgola fuori dalle parentesi
-function items(s) {
+export function items(s) {
   const parts = []; let cur = "", depth = 0;
   for (const ch of decode(s)) {
     if (ch === "(" || ch === "[") depth++;

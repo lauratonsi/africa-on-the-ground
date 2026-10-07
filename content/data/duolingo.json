@@ -1,0 +1,115 @@
+{
+ "page": "languages",
+ "checked": "2026-10-08",
+ "scope": "Duolingo's own list of all courses, for every interface language, read on the checked date: 285 courses in 43 languages. Courses may have been added or withdrawn since.",
+ "languages": {
+  "swahili": {
+   "status": "yes",
+   "note": "A course exists, taught from English. TIME reported its launch on 3 March 2017 as Duolingo's first African language.",
+   "cite": [
+    "duolingo-all-courses",
+    "duolingo-swahili",
+    "time-duolingo-swahili"
+   ]
+  },
+  "zulu": {
+   "status": "yes",
+   "note": "A course exists, taught from English, made with the South African reading campaign Nal'ibali.",
+   "cite": [
+    "duolingo-all-courses",
+    "duolingo-zulu",
+    "nalibali-zulu",
+    "stuff-duolingo-xhosa-zulu"
+   ]
+  },
+  "xhosa": {
+   "status": "no",
+   "note": "Announced together with Zulu in 2021, but not on Duolingo's list now. An unofficial guide says it was withdrawn in September 2023.",
+   "cite": [
+    "duolingo-all-courses",
+    "stuff-duolingo-xhosa-zulu",
+    "duolingoguides-xhosa"
+   ]
+  },
+  "yoruba": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "hausa": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "wolof": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "amharic": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "malagasy": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "kinyarwanda": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "tswana": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "sesotho": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "somali": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "twi": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  },
+  "igbo": {
+   "status": "no",
+   "note": "No course page found.",
+   "cite": [
+    "duolingo-all-courses"
+   ]
+  }
+ },
+ "sources": [
+  "glottolog"
+ ]
+}

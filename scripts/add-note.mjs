@@ -8,8 +8,8 @@
 //          --date AAAA-MM-GG (data del consenso, default oggi)   --anonymous (toglie il nome)
 //          --reviewed "Nome" (facoltativo: se la nota è già stata letta da una persona del posto)
 //
-// Il messaggio dice a cosa si riferisce con una riga "place: <slug>", "story: <slug>" o "country: <ISO3>", e può avere righe
-// "field.<id>: valore" con le risposte specifiche. Le note vanno in content/notes/<slug>.json, story-<slug>.json o country-<ISO3>.json.
+// Il messaggio dice a cosa si riferisce con una riga "place: <slug>", "story: <slug>", "country: <ISO3>" o "phrase: <id>", e può avere righe
+// "field.<id>: valore" con le risposte specifiche. Le note vanno in content/notes/<slug>.json, story-<slug>.json, country-<ISO3>.json o phrase-<id>.json.
 // Il messaggio deve contenere il blocco "[AOTG-NOTE v1]" che scrive il modulo. Le regole sono quelle di `npm run check`:
 // nessuna email o telefono, tipo e legame previsti da site.config.json, consenso presente.
 import fs from "node:fs";
@@ -70,7 +70,11 @@ if (fields.place) {
   const c = ((data.countries || {}).countries || []).find((x) => x.iso3 === fields.country);
   if (!c) fail(`il paese "${fields.country}" non è tra i 54 stati.`);
   key = `country-${c.iso3}`; kinds = data.config.countryNoteKinds || []; label = c.name;
-} else fail('il messaggio non dice a cosa si riferisce: serve una riga "place:", "story:" o "country:".');
+} else if (fields.phrase) {
+  const ph = ((data.quiz || {}).phrases || []).find((x) => x.id === fields.phrase);
+  if (!ph) fail(`la frase "${fields.phrase}" non esiste in content/quiz-phrases.json.`);
+  key = `phrase-${ph.id}`; kinds = data.config.phraseNoteKinds || []; label = `${ph.label}: ${ph.phrase}`;
+} else fail('il messaggio non dice a cosa si riferisce: serve una riga "place:", "story:", "country:" o "phrase:".');
 const slug = key;
 if (fields.consent !== "yes") fail('il messaggio non dice "consent: yes". Senza consenso la nota non si pubblica.');
 const kindDef = kinds.find((k) => k.id === fields.kind);

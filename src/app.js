@@ -342,7 +342,7 @@
       });
       detail.appendChild(dl);
       var pdl = el("dl", "detail-dl detail-prof");
-      [["Government", d.government], ["Languages", d.languages], ["Religions", d.religions], ["Regional blocs", d.blocs]].forEach(function (r) {
+      [["Government", d.government], ["Languages", d.languages], ["African languages named", d.tongues], ["Religions", d.religions], ["Regional blocs", d.blocs]].forEach(function (r) {
         if (!r[1]) return; var w = el("div"); w.appendChild(el("dt", null, r[0])); w.appendChild(el("dd", null, r[1])); pdl.appendChild(w);
       });
       detail.appendChild(pdl);

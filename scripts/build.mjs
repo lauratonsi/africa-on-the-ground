@@ -7,6 +7,7 @@ import { root, loadAll, validate, report } from "./lib.mjs";
 import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, countryCodes, countryName } from "./map.mjs";
 import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
 import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
+import { spokenLanguages } from "./languages.mjs";
 
 const data = loadAll();
 const result = validate(data);
@@ -270,7 +271,7 @@ function noteCard(n, kinds) {
 
 // Il modulo prepara un messaggio nel browser: non invia nulla dal sito. `target` dice a cosa si riferisce il messaggio.
 // Per i paesi `choices` offre un menu con i paesi.
-function shareSection({ type, id, name, kinds, heading, intro, depth, choices = null }) {
+function shareSection({ type, id, name, kinds, heading, intro, depth, choices = null, choiceLabel = "Which country is this about?" }) {
   const channels = (config.channels || []).filter((c) => c.value);
   const cfg = {
     target: { type, id, name },
@@ -284,7 +285,7 @@ function shareSection({ type, id, name, kinds, heading, intro, depth, choices = 
     return `<a href="${esc(href)}">${esc(c.label)}</a>`;
   }).join(", ");
   const up = "../".repeat(depth);
-  const what = type === "place" ? "this card" : type === "story" ? "this story" : "a country";
+  const what = type === "place" ? "this card" : type === "story" ? "this story" : type === "phrase" ? "a phrase" : "a country";
   const noChannel = !channels.length;
   return `
     <section class="share" id="share" aria-labelledby="share-h">
@@ -294,7 +295,7 @@ function shareSection({ type, id, name, kinds, heading, intro, depth, choices = 
       ${noChannel ? `<p class="share-warn">The project has not published a way to receive notes yet. You can write one and copy it: it stays on your device until you send it to the person who asked you for it.</p>` : ""}
       <button type="button" class="btn-voice" id="share-open" aria-expanded="false" aria-controls="share-form" hidden>Write a note</button>
       <form class="share-form" id="share-form" hidden novalidate>
-        ${choices ? `<label for="sh-target">Which country is this about?<select id="sh-target">${choices.map((c) => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join("")}</select></label>` : ""}
+        ${choices ? `<label for="sh-target">${esc(choiceLabel)}<select id="sh-target">${choices.map((c) => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join("")}</select></label>` : ""}
         <label for="sh-kind">Your note is
           <select id="sh-kind">${kinds.map((k) => `<option value="${esc(k.id)}">${esc(k.label)}</option>`).join("")}</select>
         </label>
@@ -704,6 +705,7 @@ function renderCountries(list) {
   const detailData = Object.fromEntries(list.map((c) => [c.iso3, {
     government: (profiles[c.iso3] || {}).government || "", languages: (profiles[c.iso3] || {}).languages || "", religions: (profiles[c.iso3] || {}).religions || "",
     blocs: blocShorts(c.iso3).join(", "),
+    tongues: spokenLanguages(((profiles[c.iso3] || {}).languages || "")).langs.map((l) => l.name).join(", "),
     name: c.name, capital: c.capital, sub: subLabel[c.subregion], population: fmtInt(c.population), area: fmtInt(c.area),
     density: den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c)), popShare: share(c.population),
     rankPop: rPop[c.iso3], rankArea: rArea[c.iso3], rankDen: rDen[c.iso3], n: list.length,
@@ -899,6 +901,19 @@ function renderSociety(list) {
     return `<tr><th scope="row">${esc(sr.label)} <span class="count">${set.length}</span></th>${KEY_LANG.map((l) => `<td class="n">${set.filter((r) => (langN[l] || []).includes(r.c.name)).length || "–"}</td>`).join("")}</tr>`;
   }).join("")}</tbody></table>`;
 
+  // 3b. lingue africane nominate dal Factbook, ufficiali o no
+  const spokenBy = {}, unmatchedAll = [];
+  rows.forEach((r) => {
+    const sp = spokenLanguages(r.langText);
+    sp.langs.forEach((l) => { (spokenBy[l.name] ||= []).push({ c: r.c, official: l.official }); });
+    unmatchedAll.push(...sp.unmatched);
+  });
+  const spokenSorted = Object.entries(spokenBy).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  const spokenTop = spokenSorted.slice(0, 12);
+  const spokenBars = barList(spokenTop.map(([n, v]) => ({ label: n, value: v.length, text: String(v.length), tip: `${n}: ${v.map((x) => x.c.name).join(", ")}`, sub: "" })), { accent: 4 });
+  const spokenList = spokenSorted.map(([n, v]) => `<li><strong>${esc(n)}</strong> <span class="lang-c">${v.map((x) => esc(x.c.name) + (x.official ? " (official)" : "")).join(", ")}</span></li>`).join("");
+  const spokenMulti = spokenSorted.filter(([, v]) => v.length > 1).length;
+
   // 4. due paesi a confronto
   const cmpData = Object.fromEntries(rows.map((r) => [r.c.iso3, { name: r.c.name, capital: r.c.capital, sub: subLabel[r.c.subregion], population: fmtInt(r.c.population), area: fmtInt(r.c.area), density: den(r.c) < 10 ? den(r.c).toFixed(1) : fmtInt(den(r.c)), government: r.govText || "Not given", languages: r.langText || "Not given", religions: r.relText || "Not given" }]));
   const opts = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => `<option value="${c.iso3}">${esc(c.name)}</option>`).join("");
@@ -942,6 +957,14 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
   <h3>The four most shared, by subregion</h3>
   <div class="tablewrap">${langTab}</div>
   <p class="fine">Number of countries in each subregion that mark the language official; the grey number is the subregion's total.</p>
+  <h3>African languages named in the Factbook</h3>
+  <p class="cmp-find">The Factbook entries name ${spokenSorted.length} African languages or language groups. ${esc(spokenTop[0][0])} is named for ${spokenTop[0][1].length} countries, ${esc(spokenTop[1][0])} for ${spokenTop[1][1].length}; ${spokenSorted.length - spokenMulti} are named for one country only.</p>
+  <p class="chart-sub">Twelve languages named for the most countries; ties in alphabetical order</p>
+  ${spokenBars}
+  <p class="fine">This counts how often the Factbook names a language, not how many people speak it. The Factbook writes languages differently from one country to the next: some entries list a dozen, others say "numerous indigenous languages" and name none, so a language missing here may well be spoken there. Names are matched from a list written for this page and some variants are merged: Fula includes Fulani, Pulaar and Fulfulde; Mandinka includes Maninka and Malinke; Swahili includes Kiswahili. Arabic, Afrikaans, creoles and European languages are left out, and ${unmatchedAll.length} entries that did not match a language on the list are not counted${cite(["cia-factbook"])}.</p>
+  <h3>Every language matched, with its countries</h3>
+  <p class="fine">For where fourteen of them come from and which can be learned on Duolingo, see <a href="../languages/index.html">Languages</a>.</p>
+  <ul class="lang-list fold" data-fold="10" data-fold-what="languages" data-fold-item="li">${spokenList}</ul>
 </section>
 <section id="pair" class="panel" data-tab data-tab-label="Two countries" aria-labelledby="pair-h">
   <h2 id="pair-h">Two countries side by side</h2>
@@ -960,7 +983,7 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
   <ul>
     <li>Religion and language shares come from a single source, in estimate years that range widely. Where a national census exists it should replace the Factbook figure, and has not yet been checked.</li>
     <li>The groupings are ours and flatten real differences: "Christian" joins Catholic, Protestant, Orthodox and independent churches; "Muslim" does not separate Sunni, Shia or Sufi orders.</li>
-    <li>Spoken languages are not shown, only languages marked official, so languages that most people speak at home but that have no official status do not appear.</li>
+    <li>Spoken languages are only partly shown: the Factbook names some of them, and only where its entry for a country lists them. A country whose entry says "numerous indigenous languages" shows none. Numbers of speakers are not given at all.</li>
     <li>Government types are labels, not an assessment of how a country is governed in practice, and may lag recent changes.</li>
   </ul>
 </section>
@@ -1091,6 +1114,18 @@ function renderQuiz(list) {
       gen.push({ id: `gen-bloc-${b.id}-${k}`, topic: "blocs", q: `Which of these countries is on the member list of the ${b.name} (${b.short})?`, options: shuffle([yes.name, ...no.map((c) => c.name)]), answer: yes.name, explain: `${yes.name} is on the ${b.short} member list as checked on ${fmtDate(b.verified)}. Membership changes, so the date matters.`, cite: b.cite });
     }
   }
+  // "Che lingua è questa?": una frase, quattro lingue. I distrattori vengono preferibilmente da gruppi diversi (due lingue sotho-tswana
+  // vicine sarebbero un trabocchetto, non una domanda), e la risposta dice in quali paesi il Factbook nomina la lingua.
+  const profilesQ = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
+  const spokenBy = {};
+  list.forEach((c) => spokenLanguages(String((profilesQ[c.iso3] || {}).languages || "")).langs.forEach((l) => { (spokenBy[l.name] ||= []).push({ c }); }));
+  const phrases = (data.quiz && data.quiz.phrases) || [];
+  for (const ph of phrases) {
+    const far = phrases.filter((x) => x.id !== ph.id && x.group !== ph.group), near = phrases.filter((x) => x.id !== ph.id && x.group === ph.group);
+    const others = [...pick(far, 3), ...pick(near, 3)].slice(0, 3);
+    const where = (spokenBy[ph.lang] || []).map((x) => x.c.name);
+    gen.push({ id: `gen-lang-${ph.id}`, topic: "languages", q: `Which language is this?  “${ph.phrase}”`, options: shuffle([ph.label, ...others.map((x) => x.label)]), answer: ph.label, explain: `“${ph.phrase}” means “${ph.meaning}” in ${ph.label}.${where.length ? ` The World Factbook names it for ${where.length === 1 ? where[0] : `${where.slice(0, -1).join(", ")} and ${where[where.length - 1]}`}.` : ""} The phrase comes from a travellers' phrasebook and has not been checked by a speaker. If you speak this language and see a mistake, tell us.`, cite: [...ph.cite, "cia-factbook"] });
+  }
   const curated = data.quiz ? data.quiz.questions : [];
   const all = [...curated, ...gen];
   const ids = [...new Set(all.flatMap((x) => x.cite))];
@@ -1101,6 +1136,7 @@ function renderQuiz(list) {
     { id: "history", label: "History", blurb: "Aksum, Mali and the written record." },
     { id: "food", label: "Food", blurb: "Injera and jollof rice." },
     { id: "countries", label: "Countries", blurb: "Capitals, population, area and regions." },
+    { id: "languages", label: "Which language is this?", blurb: "A phrase, four languages: guess it, then see where it is spoken." },
     { id: "blocs", label: "Regional blocs", blurb: "Who belongs to which organisation." }
   ];
   const counts = Object.fromEntries(topics.map((t) => [t.id, t.id === "mixed" ? all.length : all.filter((x) => x.topic === t.id).length]));
@@ -1120,6 +1156,7 @@ function renderQuiz(list) {
   <span class="layer-tag gap">What the quiz is, and is not</span>
   <ul>
     <li>The questions about stories rest on the same sources as the stories, and most of those are still Wikipedia articles that have not been checked against stronger sources. The quiz shows each source's status next to the answer.</li>
+    <li>The language questions use phrases from travellers' phrasebooks that no speaker has checked yet. The <a href="../languages/index.html">Languages</a> page says more about each language, and has a form for people who speak them.</li>
     <li>Questions about countries use the World Bank's figures and the UN's statistical groups, as on the Countries page. Capitals, population and area are the World Bank's, and countries with more than one capital are left out.</li>
     <li>Bloc questions follow each organisation's own member list on the date shown with the answer. Countries whose status is disputed or recently changed are never used in them.</li>
     <li>It is a way to remember facts, not a measure of knowledge. Where the record is uncertain, the answer says so.</li>
@@ -1130,6 +1167,64 @@ function renderQuiz(list) {
   return layout({ title: `Quiz · ${config.name}`, description: "A quiz built from the stories, countries and regional blocs on this site, with a source for every answer.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["quiz.js"], body, jump: [{ id: "quiz-h", label: "The quiz" }, { id: "sec-gaps", label: "Limits" }] });
 }
 write("quiz/index.html", renderQuiz(data.countries.countries));
+
+// ---------- pagina Languages: famiglia, dove sono nominate, Duolingo, e il modulo per chi le parla ----------
+function renderLanguages(list) {
+  const { cite, list: sourcesList } = makeCiter();
+  const phrases = (data.quiz && data.quiz.phrases) || [];
+  const glot = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "glottolog-langs.json"), "utf8")).languages;
+  const duo = data.duolingo, duoL = duo.languages;
+  const profilesL = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
+  const spokenBy = {};
+  list.forEach((c) => spokenLanguages(String((profilesL[c.iso3] || {}).languages || "")).langs.forEach((l) => { (spokenBy[l.name] ||= []).push(c.name); }));
+  const yes = phrases.filter((p) => (duoL[p.id] || {}).status === "yes"), no = phrases.filter((p) => (duoL[p.id] || {}).status !== "yes");
+  const names = (a) => a.length < 2 ? a.map((x) => x.label).join("") : `${a.slice(0, -1).map((x) => x.label).join(", ")} and ${a[a.length - 1].label}`;
+  const rows = phrases.map((p) => {
+    const g = glot[p.id], where = spokenBy[p.lang] || [], d = duoL[p.id] || {};
+    return `<tr><th scope="row">${esc(p.label)}</th><td>${g ? `<a href="https://glottolog.org/resource/languoid/id/${esc(g.glottocode)}" target="_blank" rel="noopener noreferrer">${esc(g.family || "Unclassified")}</a>${g.name !== p.label.replace(/ \(.*\)$/, "") ? ` <span class="fine">(Glottolog: ${esc(g.name)})</span>` : ""}` : "–"}</td><td>${where.length ? esc(where.join(", ")) : "<span class=\"fine\">not named</span>"}</td><td><span class="duo ${d.status === "yes" ? "yes" : "no"}">${d.status === "yes" ? "Yes" : "No"}</span></td></tr>`;
+  }).join("");
+  const duoItems = phrases.map((p) => { const d = duoL[p.id] || {}; return (d.status === "yes" || p.id === "xhosa") ? `<li><strong>${esc(p.label)}.</strong> ${esc(d.note)}${cite(d.cite)}</li>` : ""; }).join("");
+  const noteKinds = config.phraseNoteKinds || [];
+  const phraseCards = phrases.map((p) => {
+    const ns = (notes[`phrase-${p.id}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
+    return `<article class="ph" id="ph-${esc(p.id)}"><h3>${esc(p.label)} <span class="ph-t">${esc(p.phrase)}</span></h3><p class="ph-m">“${esc(p.phrase)}” means “${esc(p.meaning)}”.${cite(p.cite)}</p>${ns.length ? `<div class="notes">${ns.map((n) => noteCard(n, noteKinds)).join("")}</div>` : `<p class="fine">No speaker has looked at this phrase yet.</p>`}</article>`;
+  }).join("");
+  const body = `${compactHero({ kicker: "Learn", title: "Languages", sub: "Fourteen African languages: where they come from, where they are spoken, and which you can learn on Duolingo." })}
+<div class="wrap section">
+<section class="panel" id="table" aria-labelledby="lg-h">
+  <h2 id="lg-h">Fourteen languages</h2>
+  <p class="ts-intro">These are the languages of the phrases in the <a href="../quiz/index.html">language quiz</a>. The family is Glottolog's${cite(["glottolog"])}; the countries are those whose World Factbook entry names the language${cite(["cia-factbook"])}, so a country missing from a row may well speak it.</p>
+  <div class="tablewrap"><table class="xtab"><thead><tr><th scope="col">Language</th><th scope="col">Family</th><th scope="col">Named in the Factbook for</th><th scope="col">On Duolingo</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="fine">Glottolog groups languages into families; here only the top-level family is shown. Atlantic-Congo is the large family that holds most languages of West, Central, East and Southern Africa, including Swahili, Zulu and Yoruba. Language names follow Glottolog where they differ: it lists the Malagasy of the highlands as Plateau Malagasy, and Twi as a variety of Akan.</p>
+</section>
+
+<section class="panel" id="duolingo" aria-labelledby="duo-h" style="margin-top:24px">
+  <h2 id="duo-h">Learning them on Duolingo</h2>
+  <p class="ts-intro">Of these fourteen languages, ${yes.length} can be learned on Duolingo from English: ${esc(names(yes))}. For the other ${no.length}, there is no course: Duolingo's own list of every course, for every interface language, has none${cite(["duolingo-all-courses"])}.</p>
+  <ul class="duo-list">${duoItems}</ul>
+  <p class="fine">Checked on ${esc(fmtDate(duo.checked))}. ${esc(duo.scope)} Courses come and go: look at Duolingo itself before relying on this. The list also has Arabic, which is spoken in North Africa but came from elsewhere, and is not counted here. Duolingo is named because many people ask; the site has no link with it and gets nothing from it.</p>
+</section>
+
+<section class="panel" id="phrases" aria-labelledby="ph-h" style="margin-top:24px">
+  <h2 id="ph-h">The phrases, and the people who speak them</h2>
+  <p class="ts-intro">Each phrase comes from a travellers' phrasebook, cited under it, and none has been checked by a speaker. If you speak one of these languages, you can say whether the phrase is right, how it is said where you live, or what a learner should know.</p>
+  <div class="ph-list">${phraseCards}</div>
+</section>
+${shareSection({ type: "phrase", id: phrases[0].id, name: `${phrases[0].label}: ${phrases[0].phrase}`, kinds: noteKinds, heading: "Do you speak one of these languages?", intro: "Tell us if a phrase is right, and what you know about the language.", depth: 1, choiceLabel: "Which phrase is this about?", choices: phrases.map((p) => ({ id: p.id, name: `${p.label}: ${p.phrase}` })) })}
+<section id="sec-gaps" class="gaps panel-gaps">
+  <span class="layer-tag gap">What we do not know</span>
+  <ul>
+    <li>The phrases were read in volunteer-written phrasebooks and have not been checked by speakers. Several languages have more than one standard spelling, and the quiz uses the form the phrasebook gives.</li>
+    <li>Fourteen languages are a small share of the languages of Africa. They were picked because a phrase could be read on a page, not because they matter more.</li>
+    <li>The Duolingo check reads Duolingo's own list of courses; it is not a statement from the company, and it covers only the fourteen languages here, not other apps.</li>
+    <li>The form to send a note is in English only. A short consent text in French and Italian, and an option to stay anonymous, still have to be written with people who use them.</li>
+  </ul>
+</section>
+${sourcesList()}
+</div>`;
+  return layout({ title: `Languages · ${config.name}`, description: "Fourteen African languages: family, where they are named, and which can be learned on Duolingo.", depth: 1, current: "quiz", bodyClass: "still", extraScripts: ["share.js"], body, jump: [{ id: "table", label: "The languages" }, { id: "duolingo", label: "Duolingo" }, { id: "phrases", label: "Phrases" }, { id: "share", label: "Add yours" }] });
+}
+write("languages/index.html", renderLanguages(data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({

@@ -1,0 +1,119 @@
+{
+ "source": "Glottolog (CLDF export, languages.csv)",
+ "license": "CC BY 4.0",
+ "retrieved": "2026-10-07",
+ "languages": {
+  "swahili": {
+   "glottocode": "swah1253",
+   "name": "Swahili",
+   "level": "language",
+   "iso": "swh",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "zulu": {
+   "glottocode": "zulu1248",
+   "name": "Zulu",
+   "level": "language",
+   "iso": "zul",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "xhosa": {
+   "glottocode": "xhos1239",
+   "name": "Xhosa",
+   "level": "language",
+   "iso": "xho",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "yoruba": {
+   "glottocode": "yoru1245",
+   "name": "Yoruba",
+   "level": "language",
+   "iso": "yor",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "hausa": {
+   "glottocode": "haus1257",
+   "name": "Hausa",
+   "level": "language",
+   "iso": "hau",
+   "family": "Afro-Asiatic",
+   "macroarea": "Africa"
+  },
+  "wolof": {
+   "glottocode": "nucl1347",
+   "name": "Wolof",
+   "level": "language",
+   "iso": "wol",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "amharic": {
+   "glottocode": "amha1245",
+   "name": "Amharic",
+   "level": "language",
+   "iso": "amh",
+   "family": "Afro-Asiatic",
+   "macroarea": "Africa"
+  },
+  "malagasy": {
+   "glottocode": "plat1254",
+   "name": "Plateau Malagasy",
+   "level": "language",
+   "iso": "plt",
+   "family": "Austronesian",
+   "macroarea": "Africa"
+  },
+  "kinyarwanda": {
+   "glottocode": "kiny1244",
+   "name": "Kinyarwanda",
+   "level": "language",
+   "iso": "kin",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "tswana": {
+   "glottocode": "tswa1253",
+   "name": "Tswana",
+   "level": "language",
+   "iso": "tsn",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "sesotho": {
+   "glottocode": "sout2807",
+   "name": "Southern Sotho",
+   "level": "language",
+   "iso": "sot",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "somali": {
+   "glottocode": "soma1255",
+   "name": "Somali",
+   "level": "language",
+   "iso": "som",
+   "family": "Afro-Asiatic",
+   "macroarea": "Africa"
+  },
+  "twi": {
+   "glottocode": "akan1250",
+   "name": "Akan",
+   "level": "language",
+   "iso": "aka",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  },
+  "igbo": {
+   "glottocode": "nucl1417",
+   "name": "Igbo",
+   "level": "language",
+   "iso": "ibo",
+   "family": "Atlantic-Congo",
+   "macroarea": "Africa"
+  }
+ }
+}

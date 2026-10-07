@@ -42,7 +42,11 @@ export function loadAll() {
   const blocs = fs.existsSync(blocsPath) ? readJson(blocsPath) : null;
   const quizPath = path.join(root, "content", "quiz.json");
   const quiz = fs.existsSync(quizPath) ? readJson(quizPath) : null;
-  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz };
+  const phrasesPath = path.join(root, "content", "quiz-phrases.json");
+  if (quiz && fs.existsSync(phrasesPath)) quiz.phrases = readJson(phrasesPath).phrases;
+  const duoPath = path.join(root, "content", "data", "duolingo.json");
+  const duolingo = fs.existsSync(duoPath) ? readJson(duoPath) : null;
+  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -51,7 +55,7 @@ const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 
-export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -279,6 +283,15 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       if (new Set(b.members).size !== (b.members || []).length) err(`${w}: membri duplicati.`);
     }
   }
+  // --- pagina Languages: fonti sulla disponibilità di Duolingo e su Glottolog
+  if (duolingo) {
+    checkCite(duolingo.sources, "data/duolingo.json");
+    for (const [k, v] of Object.entries(duolingo.languages || {})) {
+      if (!["yes", "no"].includes(v.status)) err(`data/duolingo.json (${k}): status deve essere "yes" o "no".`);
+      checkCite(v.cite, `data/duolingo.json (${k})`);
+    }
+    if (!DATE.test(duolingo.checked || "")) err('data/duolingo.json: "checked" deve essere AAAA-MM-GG.');
+  }
   // --- quiz: ogni domanda ha una risposta tra le opzioni, una spiegazione e almeno una fonte che esiste
   if (quiz) {
     const topics = new Set(["myths", "history", "food"]);
@@ -298,6 +311,17 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       if (x.story && !storySlugs.has(x.story)) err(`${w}: la storia "${x.story}" non esiste.`);
     }
   }
+  if (quiz && quiz.phrases) {
+    const seenP = new Set();
+    for (const x of quiz.phrases) {
+      const w = `quiz-phrases.json (${x.id || "senza id"})`;
+      if (seenP.has(x.id)) err(`${w}: id duplicato.`);
+      seenP.add(x.id);
+      for (const k of ["label", "lang", "phrase", "meaning", "group"]) if (!x[k]) err(`${w}: manca "${k}".`);
+      checkCite(x.cite, w);
+    }
+    if (quiz.phrases.length < 6) warn("quiz-phrases.json: servono almeno 6 frasi per avere opzioni di gruppi diversi.");
+  }
   for (const id of sources.keys()) {
     if (!used.has(id)) warn(`sources.json: la fonte "${id}" non è citata da nessuna scheda.`);
   }
@@ -310,7 +334,8 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     if (placeSlugs.has(slug)) kindList = config.noteKinds || [];
     else if (slug.startsWith("story-") && stories.some((x) => `story-${x.data.slug}` === slug)) kindList = (config.storyNoteKinds || {})[stories.find((x) => `story-${x.data.slug}` === slug).data.kind] || [];
     else if (/^country-[A-Z]{3}$/.test(slug) && countries && (countries.countries || []).some((c) => `country-${c.iso3}` === slug)) kindList = config.countryNoteKinds || [];
-    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>) o a un paese (country-<ISO3>).`);
+    else if (slug.startsWith("phrase-") && ((quiz || {}).phrases || []).some((x) => `phrase-${x.id}` === slug)) kindList = config.phraseNoteKinds || [];
+    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>), a un paese (country-<ISO3>) o a una frase (phrase-<id>).`);
     const kindsHere = new Map((kindList || []).map((k) => [k.id, k]));
     if (!Array.isArray(list)) { err(`${w}: deve contenere una lista.`); continue; }
     const ids = new Set();
