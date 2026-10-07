@@ -109,21 +109,21 @@ function landscape(compact = false) {
 ${bao}
 </defs>
 <rect width="1440" height="900" fill="url(#scSky)"/>
-<g class="star">${stars}</g>
-<circle class="sun-m" cx="1030" cy="${sunY}" r="300" fill="url(#scGlow)"/>
-<circle class="sunfill sun-m" cx="1030" cy="${sunY}" r="${sunR}"/>
-<path class="far" d="M0 640 C150 600 300 625 470 605 S790 585 930 622 S1230 600 1440 630 L1440 900 L0 900 Z"/>
-<path class="mid" d="M0 690 C200 655 380 690 560 668 S900 650 1090 685 S1330 668 1440 690 L1440 900 L0 900 Z"/>
+<g class="px" data-px="26"><g class="star">${stars}</g></g>
+<g class="px" data-px="80"><g class="sunrise"><circle class="sun-m" cx="1030" cy="${sunY}" r="300" fill="url(#scGlow)"/>
+<circle class="sunfill sun-m" cx="1030" cy="${sunY}" r="${sunR}"/></g></g>
+<g class="px" data-px="52"><path class="far" d="M0 640 C150 600 300 625 470 605 S790 585 930 622 S1230 600 1440 630 L1440 900 L0 900 Z"/></g>
+<g class="px" data-px="34"><path class="mid" d="M0 690 C200 655 380 690 560 668 S900 650 1090 685 S1330 668 1440 690 L1440 900 L0 900 Z"/>
 <path d="M0 720 C260 700 520 730 800 712 S1240 700 1440 722 L1440 790 C1180 778 900 800 640 786 S180 790 0 782 Z" fill="url(#scRiver)" opacity=".92"/>
 ${compact ? "" : '<g class="refl sun-m" fill="none" stroke-width="3" stroke-linecap="round" opacity=".8"><path d="M970 726 h120 M990 740 h84 M1005 754 h58 M1018 768 h34"/></g>'}
 <use href="#baobab" transform="translate(470 668) scale(.5)" opacity=".75"/>
-<use href="#baobab" transform="translate(700 676) scale(.36)" opacity=".7"/>
+<use href="#baobab" transform="translate(700 676) scale(.36)" opacity=".7"/></g>
 <path class="near" d="M0 792 C240 770 520 800 820 786 S1260 776 1440 790 L1440 900 L0 900 Z"/>
 <path class="ground" d="M0 850 C300 830 620 864 920 846 S1300 838 1440 850 L1440 900 L0 900 Z"/>
 <use href="#baobab" transform="translate(150 880) scale(${bigL})"/>
 <use href="#baobab" transform="translate(560 892) scale(.95)"/>
 <g class="bR"><use href="#baobab" transform="translate(1290 892) scale(${bigR})"/></g>
-${compact ? "" : `<g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g>`}
+${compact ? "" : `<g class="px" data-px="18"><g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g></g>`}
 </svg>`;
 }
 
@@ -303,7 +303,13 @@ function renderPlace(p) {
     const href = c.type === "whatsapp" ? `https://wa.me/${c.value}` : c.type === "email" ? `mailto:${c.value}` : c.value;
     return `<a href="${esc(href)}">${esc(c.label)}</a>`;
   }).join(", ");
-  const share = `
+  // Senza un canale configurato il modulo non serve a nessuno: invece del modulo, una frase onesta.
+  const hasChannel = config.channels.some((c) => c.value);
+  const share = !hasChannel ? `
+    <section class="share" id="share" aria-labelledby="share-h">
+      <h2 id="share-h">Add your voice</h2>
+      <p class="share-intro">Notes are collected in person for now. If you know this place and would like to be asked for a note, read <a href="../../method/index.html">how notes are collected</a>.</p>
+    </section>` : `
     <section class="share" id="share" aria-labelledby="share-h">
       <h2 id="share-h">Add your voice</h2>
       <p class="share-intro">If you know this place, you can write a note. Nothing is sent from this page: it prepares a message that you send yourself.</p>
@@ -403,7 +409,7 @@ ${sourcesHtml}
       <h2>Questions we ask</h2>
       <ul>${asks}</ul>
     </div>
-    <p class="fine">Notes are never stored by this site: they reach the project by message, in person or through the form above, which only prepares the message. <a href="../../method/index.html">How notes are collected</a>.${contact}</p>
+    <p class="fine">${hasChannel ? "Notes are never stored by this site: they reach the project by message, in person or through the form above, which only prepares the message." : "Notes are never stored by this site: for now they reach the project in person."} <a href="../../method/index.html">How notes are collected</a>.${contact}</p>
   </aside>
 </div>
 </div>`;

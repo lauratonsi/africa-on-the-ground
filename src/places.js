@@ -37,6 +37,11 @@
     var filtered = shown !== total;
     count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + (groups.length === 1 ? " region" : " regions") + suffix + ".";
     empty.hidden = shown !== 0;
+    // le righe che restano entrano con una breve dissolvenza (solo se il movimento è consentito)
+    if (window.Motion && document.documentElement.classList.contains("m-ok") && filtered) {
+      var vis = rows.filter(function (li) { return !li.hidden; }).slice(0, 36);
+      Motion.animate(vis, { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0px)"] }, { duration: 0.3, delay: Motion.stagger(0.012), ease: "easeOut" });
+    }
   }
 
   Array.prototype.forEach.call(tools.querySelectorAll(".filters"), function (box) {
