@@ -178,5 +178,20 @@ export function choroplethMap(countries, bins) {
   // capitali: un punto con anello del colore della superficie, così si legge anche sui colori scuri
   const caps = countries.filter((c) => c.capitalLon > -19 && c.capitalLon < 52 && c.capitalLat > -36 && c.capitalLat < 38).map((c) =>
     `<circle class="cap" cx="${p.x(c.capitalLon)}" cy="${p.y(c.capitalLat)}" r="3.4" data-sub="${c.subregion}"><title>${esc(c.capital)}, capital of ${esc(c.name)}</title></circle>`).join("");
-  return `<svg class="map cmap" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="Map of Africa shaded by country. The table below has the same figures." data-m="pop"><g fill-rule="evenodd">${land}</g><g class="caps">${caps}</g></svg>`;
+  // stesso stile notturno della mappa della home: mare scuro, reticolo ogni 10 gradi, nomi dei paesi più grandi
+  let grat = "";
+  for (let lon = -10; lon <= 50; lon += 10) grat += `M${p.x(lon)},0V${p.height}`;
+  for (let lat = -30; lat <= 30; lat += 10) grat += `M0,${p.y(lat)}H${p.width}`;
+  const anchor = {};
+  for (const shape of africa.countries) {
+    const iso = shape.a3 in SHAPE_ISO ? SHAPE_ISO[shape.a3] : shape.a3;
+    if (!iso || !by[iso]) continue;
+    for (const ring of shape.rings) {
+      const lons = ring.map((q) => q[0]), lats = ring.map((q) => q[1]);
+      const w = (Math.max(...lons) - Math.min(...lons)) * (Math.max(...lats) - Math.min(...lats));
+      if (!anchor[iso] || w > anchor[iso].w) anchor[iso] = { w, x: p.x((Math.min(...lons) + Math.max(...lons)) / 2), y: p.y((Math.min(...lats) + Math.max(...lats)) / 2) };
+    }
+  }
+  const names = countries.filter((c) => c.area > 400000 && anchor[c.iso3]).map((c) => `<text class="cn" x="${r1(anchor[c.iso3].x)}" y="${r1(anchor[c.iso3].y)}" text-anchor="middle">${esc(c.name)}</text>`).join("");
+  return `<svg class="map cmap" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="Map of Africa shaded by country. The table below has the same figures." data-m="pop"><defs><radialGradient id="cmSea" cx="50%" cy="42%" r="75%"><stop offset="0" stop-color="#2b2380"/><stop offset="1" stop-color="#0d0a2b"/></radialGradient></defs><rect width="${p.width}" height="${p.height}" fill="url(#cmSea)"/><path class="grat" d="${grat}"/><g fill-rule="evenodd">${land}</g><g class="cnames" aria-hidden="true">${names}</g><g class="caps">${caps}</g></svg>`;
 }
