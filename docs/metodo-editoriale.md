@@ -84,6 +84,22 @@ Più note sulla stessa scheda sono la norma, non un'anomalia. Non scegliere "la"
   contenuti del progetto non le riguarda.
 - Una foto è un'illustrazione, non una fonte: non sostituisce le citazioni dello strato documentato.
 
+## Dipendenze
+
+Il sito non è obbligato a essere senza dipendenze: si valutano una per una. Regole: servono davvero, hanno licenza
+compatibile, e il build le copia in `dist/` come file locali (con la licenza). Il controllo sul sito generato continua a
+bloccare qualsiasi risorsa caricata da un altro dominio. Oggi c'è una dipendenza, `motion` (MIT), per le animazioni:
+`src/motion.js` la usa solo come miglioramento progressivo e si ferma con "riduci movimento".
+
+## Dati UNESCO
+
+Il sito web dell'UNESCO blocca le richieste automatiche (403), e non lo aggiriamo. L'UNESCO pubblica però il dataset
+"World Heritage List" sul portale di dati aperti (data.unesco.org, licenza CC BY-SA 4.0): `node scripts/prepare-unesco.mjs`
+lo scarica con pause tra le richieste, e `seed-unesco-cards.mjs` riempie le bozze con anno, categoria, criteri, area,
+coordinate e descrizione ufficiale. La licenza chiede attribuzione (la scheda cita la fonte) e, per le opere derivate, la stessa
+licenza: va deciso prima di scegliere la licenza dei contenuti del sito. Il testo UNESCO è una sola voce istituzionale: una scheda
+da pubblicare ha bisogno anche di fonti indipendenti.
+
 ## Privacy
 
 - Il sito non raccoglie dati: nessun cookie, statistica, font o script esterno, e il modulo delle note non invia

@@ -1,0 +1,174 @@
+{
+  "slug": "old-towns-of-djenne",
+  "status": "draft",
+  "type": "site",
+  "country": "MLI",
+  "name": "Old Towns of Djenné",
+  "region": "Mali",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1988.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1988",
+      "cite": [
+        "unesco-whc-116"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-116"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv",
+      "cite": [
+        "unesco-whc-116"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 2016)",
+      "cite": [
+        "unesco-whc-116"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Inhabited since 250 B.C., Djenné became a market centre and an important link in the trans-Saharan gold trade. In the 15th and 16th centuries, it was one of the centres for the propagation of Islam. Its traditional houses, of which nearly 2,000 have survived, are built on hillocks (toguere) as protection from the seasonal floods.”",
+              "cite": [
+                "unesco-whc-116"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "mosque",
+      "title": "The Great Mosque",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The present Great Mosque of Djenné dates from 1907. The first mosque on the site was built around the 13th century, according to Wikipedia.",
+              "cite": [
+                "wikipedia-great-mosque-djenne"
+              ]
+            },
+            {
+              "text": " The 1907 rebuilding was done with forced labour, under the direction of Ismaila Traoré, head of the town's guild of masons.",
+              "cite": [
+                "wikipedia-great-mosque-djenne"
+              ]
+            },
+            {
+              "text": " Between the two, Seku Amadu had built a mosque in 1834–1836 that the article describes as a large, low building with no towers or ornament.",
+              "cite": [
+                "wikipedia-great-mosque-djenne"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upkeep",
+      "title": "Who looks after it",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The mud-brick walls crack and leak in the Malian climate, and the town has traditionally re-plastered the mosque each year in a ceremony known as the crépissage.",
+              "cite": [
+                "aic-djenne-2012"
+              ]
+            },
+            {
+              "text": " A 2012 post by the conservator Rebecca Rushfield says the Aga Khan Trust for Culture has taken care of the mosque since 2006, and that the replastering had stopped since then, which she says deprived Djenné of a civic holiday.",
+              "cite": [
+                "aic-djenne-2012"
+              ]
+            },
+            {
+              "text": " She gives the Trust's reasoning as follows: decades of replastering had altered the contours of the building and added too much weight to its walls.",
+              "cite": [
+                "aic-djenne-2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A report published in 2018 describes the April replastering as an established event and shows it taking place.",
+              "cite": [
+                "roads-kingdoms-djenne-2018"
+              ]
+            },
+            {
+              "text": " The two sources are six years apart and do not agree. Whether the ceremony stopped, resumed or changed form is not settled here.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The 2006 works caused riots, according to Wikipedia, when workers were seen hacking at the roof. On 5 November 2009 the upper part of the large southern tower collapsed, and the Aga Khan Trust for Culture paid for its rebuilding.",
+              "cite": [
+                "wikipedia-great-mosque-djenne"
+              ]
+            },
+            {
+              "text": " The 2018 report says that militants, some linked to al-Qaeda, had attacked cities elsewhere in Mali, and that Djenné had avoided violence so far.",
+              "cite": [
+                "roads-kingdoms-djenne-2018"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Whether the annual replastering takes place today, and in what form. The two sources found disagree, and neither is recent.",
+    "A scholarly source on the masons' guild and the 1907 rebuilding (Trevor Marchand's work on Djenné is the obvious one; it could not be opened here).",
+    "The Aga Khan Trust for Culture's own account of its 2006–2009 work.",
+    "The town beyond the mosque: the old towns include the archaeological sites of Djenné-Djenno and Hambarketolo, which this card does not describe.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 13.90639,
+    "lon": -4.555,
+    "cite": [
+      "unesco-whc-116"
+    ]
+  },
+  "image": {
+    "file": "old-towns-of-djenne",
+    "alt": "The mud-brick Great Mosque of Djenné with its towers, in front of the Monday market.",
+    "caption": "The Great Mosque of Djenné and the Monday market.",
+    "credit": "qiv",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMoschee_von_Djenn%C3%A9.jpg"
+  }
+}

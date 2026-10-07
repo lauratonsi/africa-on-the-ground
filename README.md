@@ -21,7 +21,7 @@ consenso dell'autore, e le aggiungi a un file del progetto.
 site.config.json          nome, tagline, domande per i locals, etichette, contatto
 content/
   sources.json            tutte le fonti, riusabili da più schede
-  data/                   dati per la pagina Countries (54 paesi), vedi LEGGIMI.txt
+  data/                   dati per la pagina Countries (54 paesi), siti UNESCO (CC BY-SA 4.0) e luoghi proposti
   places/<slug>.json      una scheda per luogo (strato 1)
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
   pages/method.html       la pagina pubblica "Method"
@@ -41,6 +41,8 @@ scripts/
   charts.mjs              disegna i grafici (barre in HTML, punti in SVG)
   prepare-countries.mjs   scarica i dati dei paesi dalla Banca Mondiale (si usa di rado)
   prepare-geo.mjs         rigenera src/geo/ dai dati grezzi (si usa di rado)
+  prepare-unesco.mjs      scarica i siti UNESCO dei 54 paesi dal portale di dati aperti (si usa di rado)
+  seed-unesco-cards.mjs   riempie le bozze dei luoghi UNESCO con i dati ufficiali (si usa di rado)
   serve.mjs               anteprima locale
 docs/
   metodo-editoriale.md    le regole del progetto
@@ -48,7 +50,7 @@ docs/
 .github/workflows/        pubblicazione su GitHub Pages e controllo sulle pull request
 ```
 
-Serve solo Node 20 o successivo. Non ci sono dipendenze da installare.
+Serve Node 20 o successivo e `npm install` (una sola dipendenza, `motion`, per le animazioni). Il build la copia in `dist/vendor/` come file locale con la sua licenza MIT: il sito non carica nulla da altri domini.
 
 ## Comandi
 

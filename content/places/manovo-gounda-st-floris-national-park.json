@@ -1,0 +1,80 @@
+{
+  "slug": "manovo-gounda-st-floris-national-park",
+  "status": "draft",
+  "type": "site",
+  "country": "CAF",
+  "name": "Manovo-Gounda St Floris National Park",
+  "region": "Central African Republic",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 1988.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1988",
+      "cite": [
+        "unesco-whc-475"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-475"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ix, x",
+      "cite": [
+        "unesco-whc-475"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "1,740,000 hectares",
+      "cite": [
+        "unesco-whc-475"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 1997)",
+      "cite": [
+        "unesco-whc-475"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The importance of this park derives from its wealth of flora and fauna. Its vast savannahs are home to a wide variety of species: black rhinoceroses, elephants, cheetahs, leopards, wild dogs, red-fronted gazelles and buffalo, while various types of waterfowl are to be found in the northern floodplains.”",
+              "cite": [
+                "unesco-whc-475"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 9,
+    "lon": 21.5,
+    "cite": [
+      "unesco-whc-475"
+    ]
+  }
+}

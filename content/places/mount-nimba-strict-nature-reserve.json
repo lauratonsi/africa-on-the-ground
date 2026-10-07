@@ -1,0 +1,87 @@
+{
+  "slug": "mount-nimba-strict-nature-reserve",
+  "status": "draft",
+  "type": "site",
+  "country": "GIN",
+  "name": "Mount Nimba Strict Nature Reserve",
+  "region": "Guinea",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 1981.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1981",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ix, x",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "17,632.62 hectares",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 1992)",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    },
+    {
+      "label": "Shared",
+      "value": "with 1 other country",
+      "cite": [
+        "unesco-whc-155"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Located on the borders of Guinea, Liberia and Côte d’Ivoire, Mount Nimba rises above the surrounding savannah. Its slopes are covered by dense forest at the foot of grassy mountain pastures. They harbour an especially rich flora and fauna, with endemic species such as the viviparous toad and chimpanzees that use stones as tools.”",
+              "cite": [
+                "unesco-whc-155"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence (the one found on Commons is a signboard, not the landscape).",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 7.60318,
+    "lon": -8.39097,
+    "cite": [
+      "unesco-whc-155"
+    ]
+  }
+}

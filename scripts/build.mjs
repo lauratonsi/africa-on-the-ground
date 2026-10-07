@@ -15,9 +15,11 @@ if (result.errors.length) {
   process.exit(1);
 }
 
+// Il paese di una scheda deve esistere nell'elenco dei 54 stati (alcune isole piccole non hanno un contorno nella mappa).
+const knownCountries = new Set(data.countries.countries.map((c) => c.iso3));
 for (const { file, data: pl } of data.places) {
-  if (pl.country && !countryCodes.has(pl.country)) {
-    console.error(`  errore: places/${file}: country "${pl.country}" non esiste in src/geo/africa.json.`);
+  if (pl.country && !countryCodes.has(pl.country) && !knownCountries.has(pl.country)) {
+    console.error(`  errore: places/${file}: country "${pl.country}" non è tra i 54 stati di content/data/africa-countries.json.`);
     process.exit(1);
   }
 }
@@ -28,7 +30,7 @@ const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -139,7 +141,7 @@ function compactHero({ kicker, title, sub }) {
 </section>`;
 }
 
-function layout({ title, description, depth, body, current, script = false, extraScripts = [], bodyClass = "" }) {
+function layout({ title, description, depth, body, current, script = false, extraScripts = [], bodyClass = "", jump = [] }) {
   const p = prefix(depth);
   return `<!doctype html>
 <html lang="${esc(config.lang)}">
@@ -158,7 +160,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}index.html#places">Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -173,9 +175,21 @@ ${body}
     <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a></p>
   </div>
 </footer>
-${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}${extraScripts.map((f) => `<script src="${p}${f}?v=${VER}" defer></script>\n`).join("")}</body>
+${fab(jump)}
+${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?v=${VER}" defer></script>\n` : ""}<script src="${p}vendor/motion.js?v=${VER}" defer></script>
+<script src="${p}motion.js?v=${VER}" defer></script>
+${["fab.js", ...extraScripts].map((f) => `<script src="${p}${f}?v=${VER}" defer></script>\n`).join("")}</body>
 </html>
 `;
+}
+
+// Pulsante flottante: salta alle sezioni della pagina o torna in cima. Senza JavaScript resta nascosto.
+function fab(jump) {
+  const items = [{ id: "", label: "Back to top" }, ...jump].map((j) => `<li><a href="${j.id ? "#" + esc(j.id) : "#"}"${j.id ? "" : " data-top"}>${esc(j.label)}</a></li>`).join("");
+  return `<div class="fab" id="fab" hidden>
+  <ul class="fab-menu" id="fab-menu" hidden>${items}</ul>
+  <button type="button" class="fab-btn" id="fab-btn" aria-expanded="false" aria-controls="fab-menu" aria-label="Jump to a section"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 15l6-6 6 6"/></svg></button>
+</div>`;
 }
 
 function citedIds(place) {
@@ -375,7 +389,7 @@ ${sourcesHtml}
 </div>
 </div>`;
 
-  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body, extraScripts: ["share.js"] });
+  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body, extraScripts: ["share.js"], jump: [{ id: "voices", label: "Voices" }, ...(p.sources || p.sections ? [{ id: "sec-sources", label: "Sources" }] : [])] });
 }
 
 // ---------- pagine ----------
@@ -383,7 +397,8 @@ const published = places.map((x) => x.data).filter((p) => includeDrafts || p.sta
 
 for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
-const placeItems = published.map((p) => {
+const featured = published.slice(0, 3);
+const placeItems = featured.map((p) => {
   const n = (notes[p.slug] || []).length;
   const where = p.coords ? "" : " · not on the map";
   const media = p.image
@@ -416,7 +431,7 @@ const mapSection = published.some((p) => p.coords)
 const cList = data.countries ? data.countries.countries : [];
 const cPop = cList.reduce((a, c) => a + c.population, 0);
 const countriesBand = cList.length
-  ? `<section class="band-saffron section">
+  ? `<section id="countries" class="band-saffron section">
   <div class="wrap teaser">
     <div class="teaser-text">
       <p class="kicker">Reference</p>
@@ -428,12 +443,14 @@ const countriesBand = cList.length
 </section>`
   : "";
 
+write("places/index.html", renderPlaces());
 write("index.html", layout({
   title: config.name,
   description: config.tagline,
   depth: 0,
   script: true,
   bodyClass: "home",
+  jump: [{ id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
   body: `
 <section class="scape-hero">
   ${landscape()}
@@ -450,11 +467,12 @@ write("index.html", layout({
       <h2 class="listh">The place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
       <p class="night-note">Every card keeps two kinds of knowledge apart: what the record says and what people who know the place say.</p>
     </div>
-    ${published.length ? `<ul class="places arches" id="placelist">${placeItems}</ul>` : "<p>No place card is published yet.</p>"}
+    ${published.length ? `<ul class="places arches" id="placelist">${placeItems}</ul>
+    <p class="actions night-more"><a class="btn btn-cream" href="places/index.html">Browse all ${published.length} ${published.length === 1 ? "place" : "places"}</a></p>` : "<p>No place card is published yet.</p>"}
   </div>
 </section>
 <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false"><path d="M0 120 L0 70 C240 10 480 110 720 60 S1200 0 1440 60 L1440 120 Z"/></svg></div>
-<section class="wrap suns-sec" aria-label="The two layers of every card">
+<section id="layers" class="wrap suns-sec" aria-label="The two layers of every card">
   <h2 class="suns-title">Two kinds of knowledge. Never mixed.</h2>
   <div class="suns">
     <article class="sun sun-rec">
@@ -654,7 +672,7 @@ ${sourcesList()}
 </div>
 <script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
-  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body });
+  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", script: true, body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
@@ -672,6 +690,34 @@ write("method/index.html", layout({
 <div class="wrap prose-hero"><div class="prose">${rest.replace("<!--contact-->", contactLine)}</div></div>`;
   })()
 }));
+
+// ---------- pagina Places: tutte le schede, per regione ----------
+function renderPlaces() {
+  const cmap = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c]));
+  const groups = config.subregions.map((r) => ({ ...r, items: published.filter((p) => (cmap[p.country] || {}).subregion === r.id).sort((a, b) => a.region.localeCompare(b.region) || a.name.localeCompare(b.name)) })).filter((g) => g.items.length);
+  const row = (p) => {
+    const n = (notes[p.slug] || []).length;
+    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="${esc(p.slug)}/index.html"><span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} sources · ${n} local ${n === 1 ? "note" : "notes"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
+  };
+  const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
+  const usedT = config.placeTypes.filter((t) => published.some((p) => p.type === t.id));
+  const hasDraft = published.some((p) => p.status === "draft");
+  const chip = (attr, val, label, on) => `<button type="button" class="fbtn" data-${attr}="${esc(val)}" aria-pressed="${on ? "true" : "false"}">${label}</button>`;
+  const tools = `<div class="pi-tools" id="pi-tools" hidden>
+    <label class="pi-search"><span class="sr">Search places and countries</span><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
+    ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
+    ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
+  </div>`;
+  const body = `${compactHero({ kicker: "All places", title: "Every place card", sub: "One page per place, grouped by region. Each card keeps the documented record and the local voice apart." })}
+<div class="wrap places-index">
+  <p class="pi-count" id="pi-count" aria-live="polite">${published.length} ${published.length === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "region" : "regions"}${includeDrafts ? " (drafts included)" : ""}.</p>
+  ${tools}
+  <nav class="pi-jump" id="pi-jump" aria-label="Regions">${jumpBar}</nav>
+  <p class="pi-empty" id="pi-empty" role="status" hidden>No place matches these filters. <button type="button" class="linkbtn" id="pi-reset">Clear the filters</button></p>
+  ${groups.map((g) => `<section class="pgroup" id="r-${esc(g.id)}"><h2>${esc(g.label)}</h2><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
+</div>`;
+  return layout({ title: `Places · ${config.name}`, description: "Every place card, grouped by region.", depth: 1, current: "places", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
+}
 
 write("404.html", `<!doctype html>
 <html lang="${esc(config.lang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>Page not found · ${esc(config.name)}</title>
@@ -713,6 +759,13 @@ if (faces.length && fs.existsSync(licDir)) fs.cpSync(licDir, path.join(dist, "fo
 fs.copyFileSync(path.join(root, "src", "app.js"), path.join(dist, "app.js"));
 fs.copyFileSync(path.join(root, "src", "theme.js"), path.join(dist, "theme.js"));
 fs.copyFileSync(path.join(root, "src", "share.js"), path.join(dist, "share.js"));
+fs.copyFileSync(path.join(root, "src", "motion.js"), path.join(dist, "motion.js"));
+fs.copyFileSync(path.join(root, "src", "fab.js"), path.join(dist, "fab.js"));
+fs.copyFileSync(path.join(root, "src", "places.js"), path.join(dist, "places.js"));
+// Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
+fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
+fs.copyFileSync(path.join(root, "node_modules", "motion", "dist", "motion.js"), path.join(dist, "vendor", "motion.js"));
+fs.copyFileSync(path.join(root, "node_modules", "motion", "LICENSE.md"), path.join(dist, "vendor", "motion-LICENSE.md"));
 // Solo le foto delle schede pubblicate: quelle delle bozze non vanno online.
 for (const pl of published) {
   if (!pl.image) continue;

@@ -1,0 +1,88 @@
+{
+  "slug": "koutammakou",
+  "status": "draft",
+  "type": "site",
+  "country": "TGO",
+  "name": "Koutammakou, the Land of the Batammariba",
+  "region": "Togo",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2004.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2004",
+      "cite": [
+        "unesco-whc-1140"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1140"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "v",
+      "cite": [
+        "unesco-whc-1140"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "271,826 hectares",
+      "cite": [
+        "unesco-whc-1140"
+      ]
+    },
+    {
+      "label": "Shared",
+      "value": "with 1 other country",
+      "cite": [
+        "unesco-whc-1140"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Koutammakou landscape in north-eastern Togo and neighbouring Benin is home to the Batammariba, whose remarkable mud tower-houses are known as takienta (sikien in the plural). Nature is strongly associated with the rituals and beliefs of society here. The landscape is exceptional due to the architecture of the tower-houses which reflect the social structure; its farmland and forest; and the associations between people and landscape. The buildings are grouped in villages, which also include ceremonial spaces, springs, sacred rocks and sites reserved for initiation ceremonies.”",
+              "cite": [
+                "unesco-whc-1140"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 10.1480833333,
+    "lon": 1.1002222222,
+    "cite": [
+      "unesco-whc-1140"
+    ]
+  },
+  "image": {
+    "file": "koutammakou",
+    "alt": "A Tammari earthen house with granaries and forked poles, in open countryside.",
+    "caption": "A Tammari house with granaries, Koutammakou.",
+    "credit": "Erik Kristensen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATogo_Taberma_house_02.jpg"
+  }
+}

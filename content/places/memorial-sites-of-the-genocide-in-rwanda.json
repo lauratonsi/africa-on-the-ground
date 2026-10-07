@@ -1,0 +1,66 @@
+{
+  "slug": "memorial-sites-of-the-genocide-in-rwanda",
+  "status": "draft",
+  "type": "site",
+  "country": "RWA",
+  "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero",
+  "region": "Rwanda",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2023.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2023",
+      "cite": [
+        "unesco-whc-1586"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1586"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "24.65 hectares",
+      "cite": [
+        "unesco-whc-1586"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Between April and July 1994, an estimated one million people were killed across Rwanda by armed militias called Interahamwe that targeted Tutsi, but also executed moderate Hutu and Twa people. The victims of the genocide are commemorated in this serial property composed of four memorial sites. Two of the component parts were scenes of massacres: a Catholic church built in the hill of Nyamata in 1980, and a technical school built in the hill of Murambi in 1990. The hill of Gisozi in Kigali City hosts the Kigali Genocide Memorial built in 1999, where more than 250,000 victims have been buried, while the hill of Bisesero in the Western Province hosts a memorial built in 1998, to remember the fight of those who resisted their perpetrators for over two months before being exterminated.”",
+              "cite": [
+                "unesco-whc-1586"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -2.4555277778,
+    "lon": 29.5677222222,
+    "cite": [
+      "unesco-whc-1586"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "rock-hewn-churches-of-lalibela",
+  "status": "draft",
+  "type": "site",
+  "country": "ETH",
+  "name": "Rock-Hewn Churches, Lalibela",
+  "region": "Ethiopia",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1978.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1978",
+      "cite": [
+        "unesco-whc-18"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-18"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, ii, iii",
+      "cite": [
+        "unesco-whc-18"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The 11 medieval monolithic cave churches of this 13th-century 'New Jerusalem' are situated in a mountainous region in the heart of Ethiopia near a traditional village with circular-shaped dwellings. Lalibela is a high place of Ethiopian Christianity, still today a place of pilmigrage and devotion.”",
+              "cite": [
+                "unesco-whc-18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 12.02935,
+    "lon": 39.04042,
+    "cite": [
+      "unesco-whc-18"
+    ]
+  }
+}

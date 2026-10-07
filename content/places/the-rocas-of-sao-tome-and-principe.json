@@ -1,0 +1,67 @@
+{
+  "slug": "the-rocas-of-sao-tome-and-principe",
+  "status": "draft",
+  "type": "site",
+  "country": "STP",
+  "name": "The Roças of Sao Tome and Principe: Colonial Agricultural System and Forced Migration",
+  "region": "São Tomé and Príncipe",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2026.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2026",
+      "cite": [
+        "unesco-whc-1750"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1750"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iv",
+      "cite": [
+        "unesco-whc-1750"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "72.9 hectares",
+      "cite": [
+        "unesco-whc-1750"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The serial property comprises six geographically separate roças (Portuguese colonial agricultural plantations) located on the islands of Sao Tome and Principe: Monte Café, Agua Izé, Diogo Vaz, Sao Joao, Sundy, and Belo Monte. Together, they represent a planned colonial plantation system dedicated primarily to coffee and cocoa production, combining agricultural land, industrial infrastructure, residential areas, and social facilities within highly structured spatial layouts. The property illustrates the operation of a large-scale colonial agro-industrial system, based on forced migration and labour, from the late 19th century through the mid-20th century, to sustain global commodity production after the abolition of slavery.”",
+              "cite": [
+                "unesco-whc-1750"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Coordinates: the UNESCO record has none for this property.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ]
+}

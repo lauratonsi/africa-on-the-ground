@@ -1,0 +1,81 @@
+{
+  "slug": "historic-centre-of-agadez",
+  "status": "draft",
+  "type": "site",
+  "country": "NER",
+  "name": "Historic Centre of Agadez",
+  "region": "Niger",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2013.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2013",
+      "cite": [
+        "unesco-whc-1268"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1268"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iii",
+      "cite": [
+        "unesco-whc-1268"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "77.6 hectares",
+      "cite": [
+        "unesco-whc-1268"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Known as the gateway to the desert, Agadez, on the southern edge of the Sahara desert, developed in the 15th and 16th centuries when the Sultanate of Aïr was established and Touareg tribes were sedentarized in the city, respecting the boundaries of old encampments, which gave rise to a street pattern still in place today. The historic centre of the city, an important crossroads of the caravan trade, is divided into 11 quarters with irregular shapes. They contain numerous earthen dwellings and a well-preserved group of palatial and religious buildings including a 27m high minaret made entirely of mud brick, the highest such structure in the world. The site is marked by ancestral cultural, commercial and handicraft traditions still practiced today and presents exceptional and sophisticated examples of earthen architecture.”",
+              "cite": [
+                "unesco-whc-1268"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 16.9736111111,
+    "lon": 7.9913888889,
+    "cite": [
+      "unesco-whc-1268"
+    ]
+  },
+  "image": {
+    "file": "historic-centre-of-agadez",
+    "alt": "The tall, tapering mud-brick minaret of the mosque of Agadez rising above an ochre wall, with two people walking past.",
+    "caption": "The mosque in Agadez, photographed in 1997.",
+    "credit": "Dan Lundberg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3A1997_277-9A_Agadez_mosque_cropped.jpg"
+  }
+}

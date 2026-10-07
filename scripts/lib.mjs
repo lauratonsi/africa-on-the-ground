@@ -1,4 +1,4 @@
-// Caricamento dei contenuti e regole di validazione. Nessuna dipendenza esterna.
+// Caricamento dei contenuti e regole di validazione. Solo moduli di Node.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

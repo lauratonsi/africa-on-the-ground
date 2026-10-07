@@ -1,0 +1,256 @@
+{
+  "slug": "island-of-goree",
+  "status": "draft",
+  "type": "site",
+  "country": "SEN",
+  "name": "Island of Gorée",
+  "region": "Senegal · Dakar",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1978.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1978",
+      "cite": [
+        "unesco-whc-26"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-26"
+      ]
+    },
+    {
+      "label": "Distance from Dakar",
+      "value": "about 2 km by sea",
+      "cite": [
+        "wikipedia-goree"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "18.2 hectares",
+      "cite": [
+        "wikipedia-goree"
+      ]
+    },
+    {
+      "label": "Residents",
+      "value": "1,680 (2013 census)",
+      "cite": [
+        "wikipedia-goree"
+      ]
+    },
+    {
+      "label": "House of Slaves built",
+      "value": "around 1776",
+      "cite": [
+        "wikipedia-house-of-slaves"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The island of Gorée lies off the coast of Senegal, opposite Dakar. From the 15th to the 19th century, it was the largest slave-trading centre on the African coast. Ruled in succession by the Portuguese, Dutch, English and French, its architecture is characterized by the contrast between the grim slave-quarters and the elegant houses of the slave traders. Today it continues to serve as a reminder of human exploitation and as a sanctuary for reconciliation.”",
+              "cite": [
+                "unesco-whc-26"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gorée is a small island about 900 metres long and 350 metres wide, two kilometres out to sea from the harbour of Dakar.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "text": " It is the smallest and least populated of Dakar's 19 districts, with 1,680 residents at the 2013 census.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The best-known building is the House of Slaves, built around 1776 by Nicolas Pépin, brother of the signare Anne Pépin. It became a museum in 1962 under the curator Boubacar Joseph Ndiaye.",
+              "cite": [
+                "wikipedia-house-of-slaves"
+              ]
+            },
+            {
+              "text": " It is visited by roughly 200,000 people a year, according to the same article, and Nelson Mandela, Pope John Paul II and Barack Obama are among the visitors it lists.",
+              "cite": [
+                "wikipedia-house-of-slaves"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1444",
+              "text": "The Portuguese establish a presence on the island.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "when": "1628",
+              "text": "The Dutch arrive and build forts.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "when": "1663–1664",
+              "text": "A brief period of English control.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "when": "1677",
+              "text": "France captures the island.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "when": "1758–1763 and 1779–1783",
+              "text": "Two periods of British occupation, during and after wars with France.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            },
+            {
+              "when": "1960",
+              "text": "Senegal becomes independent.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contested",
+      "title": "A contested memory",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Historians disagree about how many people were held or shipped from Gorée, and about what the House of Slaves can show.",
+              "cite": [
+                "wikipedia-goree",
+                "wikipedia-house-of-slaves"
+              ]
+            },
+            {
+              "text": " Ndiaye, the museum's first curator, claimed that more than a million enslaved people passed through the house. Supporters later argued for as many as 15 million.",
+              "cite": [
+                "wikipedia-house-of-slaves"
+              ]
+            },
+            {
+              "text": " The historian Philip D. Curtin's research, as the Wikipedia article reports it, records 180,000 enslaved Africans transported from the French posts in Senegambia between 1711 and 1810.",
+              "cite": [
+                "wikipedia-house-of-slaves"
+              ]
+            },
+            {
+              "text": " A 2004 press article quotes Curtin estimating that about 50,000 people may have spent time on the island over four centuries, and saying that it was never a key departure point.",
+              "cite": [
+                "hnn-myth-of-goree"
+              ]
+            },
+            {
+              "text": " Wikipedia's article on the island gives a figure of no more than 500 people a year.",
+              "cite": [
+                "wikipedia-goree"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The same press article reports that the House of Slaves was built in 1775–1778 as a merchant's home, and quotes Curtin saying that the rocks around the Door of No Return are too many for boats to dock there.",
+              "cite": [
+                "hnn-myth-of-goree"
+              ]
+            },
+            {
+              "text": " It also quotes the museum curator Abdoulaye Camara as saying the house gives \"a distorted account\" meant for tourists.",
+              "cite": [
+                "hnn-myth-of-goree"
+              ]
+            },
+            {
+              "text": " The historian Ana Lucia Araujo is quoted in Wikipedia's article as saying it is \"not a real place from where real people left in the numbers they say\".",
+              "cite": [
+                "wikipedia-house-of-slaves"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "A scholarly history of Senegambia, to replace Wikipedia and the press article for the numbers. Curtin (1969) is named but has not been read here.",
+    "Senegalese historians' position and the view of the museum today, beyond one curator quoted in a 2004 article.",
+    "Another figure appears in the House of Slaves article, 26,000 people recorded as passing through the island, without a clear source in what was read.",
+    "UNESCO's longer statement of why the island was inscribed (the open-data record has a justification text that has not been used here).",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 14.66722,
+    "lon": -17.40083,
+    "cite": [
+      "unesco-whc-26"
+    ]
+  },
+  "image": {
+    "file": "island-of-goree",
+    "alt": "Gorée seen from the water, with low coloured houses along the shore.",
+    "caption": "Île de Gorée seen from the sea.",
+    "credit": "Gregor Rom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIle-de-goree.jpg"
+  }
+}

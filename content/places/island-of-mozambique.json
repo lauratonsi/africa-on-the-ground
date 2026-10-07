@@ -1,0 +1,73 @@
+{
+  "slug": "island-of-mozambique",
+  "status": "draft",
+  "type": "site",
+  "country": "MOZ",
+  "name": "Island of Mozambique",
+  "region": "Mozambique",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1991.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1991",
+      "cite": [
+        "unesco-whc-599"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-599"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iv",
+      "cite": [
+        "unesco-whc-599"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "95.7 hectares",
+      "cite": [
+        "unesco-whc-599"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The fortified city of Mozambique is located on this island, a former Portuguese trading-post on the route to India. Its remarkable architectural unity is due to the consistent use, since the 16th century, of the same building techniques, building materials (stone or macuti) and decorative principles.”",
+              "cite": [
+                "unesco-whc-599"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -15.03417,
+    "lon": 40.73583,
+    "cite": [
+      "unesco-whc-599"
+    ]
+  }
+}

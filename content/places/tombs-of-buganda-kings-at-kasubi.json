@@ -1,0 +1,73 @@
+{
+  "slug": "tombs-of-buganda-kings-at-kasubi",
+  "status": "draft",
+  "type": "site",
+  "country": "UGA",
+  "name": "Tombs of Buganda Kings at Kasubi",
+  "region": "Uganda",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2001.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2001",
+      "cite": [
+        "unesco-whc-1022"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1022"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, iii, iv",
+      "cite": [
+        "unesco-whc-1022"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "26.8 hectares",
+      "cite": [
+        "unesco-whc-1022"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Tombs of Buganda Kings at Kasubi constitute a site embracing almost 30 ha of hillside within Kampala district. Most of the site is agricultural, farmed by traditional methods. At its core on the hilltop is the former palace of the Kabakas of Buganda, built in 1882 and converted into the royal burial ground in 1884. Four royal tombs now lie within the Muzibu Azaala Mpanga, the main building, which is circular and surmounted by a dome. It is a major example of an architectural achievement in organic materials, principally wood, thatch, reed, wattle and daub. The site's main significance lies, however, in its intangible values of belief, spirituality, continuity and identity.”",
+              "cite": [
+                "unesco-whc-1022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 0.348611111,
+    "lon": 32.55138889,
+    "cite": [
+      "unesco-whc-1022"
+    ]
+  }
+}

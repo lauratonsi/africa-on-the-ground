@@ -1,0 +1,73 @@
+{
+  "slug": "medina-of-fez",
+  "status": "draft",
+  "type": "site",
+  "country": "MAR",
+  "name": "Medina of Fez",
+  "region": "Morocco",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1981.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1981",
+      "cite": [
+        "unesco-whc-170"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-170"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, v",
+      "cite": [
+        "unesco-whc-170"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "280 hectares",
+      "cite": [
+        "unesco-whc-170"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Founded in the 9th century, Fez reached its height in the 13th–14th centuries under the Marinids, when it replaced Marrakesh as the capital of the kingdom. The urban fabric and the principal monuments in the medina – madrasas, fondouks, palaces, residences, mosques and fountains - date from this period. Although the political capital of Morocco was transferred to Rabat in 1912, Fez has retained its status as the country's cultural and spiritual centre.”",
+              "cite": [
+                "unesco-whc-170"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 34.06111,
+    "lon": -4.97778,
+    "cite": [
+      "unesco-whc-170"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "medina-of-tunis",
+  "status": "draft",
+  "type": "site",
+  "country": "TUN",
+  "name": "Medina of Tunis",
+  "region": "Tunisia",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1979.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1979",
+      "cite": [
+        "unesco-whc-36"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-36"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iii, v",
+      "cite": [
+        "unesco-whc-36"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "296.41 hectares",
+      "cite": [
+        "unesco-whc-36"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Under the Almohads and the Hafsids, from the 12th to the 16th century, Tunis was considered one of the greatest and wealthiest cities in the Islamic world. Some 700 monuments, including palaces, mosques, mausoleums, madrasas and fountains, testify to this remarkable past.”",
+              "cite": [
+                "unesco-whc-36"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 36.81667,
+    "lon": 10.16667,
+    "cite": [
+      "unesco-whc-36"
+    ]
+  }
+}

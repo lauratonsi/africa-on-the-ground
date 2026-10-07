@@ -1,0 +1,66 @@
+{
+  "slug": "ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata",
+  "status": "draft",
+  "type": "site",
+  "country": "MRT",
+  "name": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+  "region": "Mauritania",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1996.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1996",
+      "cite": [
+        "unesco-whc-750"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-750"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv, v",
+      "cite": [
+        "unesco-whc-750"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Founded in the 11th and 12th centuries to serve the caravans crossing the Sahara, these trading and religious centres became focal points of Islamic culture. They have managed to preserve an urban fabric that evolved between the 12th and 16th centuries. Typically, houses with patios crowd along narrow streets around a mosque with a square minaret. They illustrate a traditional way of life centred on the nomadic culture of the people of the western Sahara.”",
+              "cite": [
+                "unesco-whc-750"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 20.92889,
+    "lon": -11.62361,
+    "cite": [
+      "unesco-whc-750"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "chongoni-rock-art-area",
+  "status": "draft",
+  "type": "site",
+  "country": "MWI",
+  "name": "Chongoni Rock-Art Area",
+  "region": "Malawi",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2006.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2006",
+      "cite": [
+        "unesco-whc-476"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-476"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii",
+      "cite": [
+        "unesco-whc-476"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "12,640 hectares",
+      "cite": [
+        "unesco-whc-476"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Situated within a cluster of forested granite hills and covering an area of 126.4 km2, high up the plateau of central Malawi, the 127 sites of this area feature the richest concentration of rock art in Central Africa. They reflect the comparatively scarce tradition of farmer rock art, as well as paintings by BaTwa hunter-gatherers who inhabited the area from the late Stone Age. The Chewa agriculturalists, whose ancestors lived there from the late Iron Age, practised rock painting until well into the 20th century. The symbols in the rock art, which are strongly associated with women, still have cultural relevance amongst the Chewa, and the sites are actively associated with ceremonies and rituals.”",
+              "cite": [
+                "unesco-whc-476"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -14.2185207713,
+    "lon": 34.2070738323,
+    "cite": [
+      "unesco-whc-476"
+    ]
+  }
+}

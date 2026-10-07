@@ -1,0 +1,73 @@
+{
+  "slug": "diy-gid-biy-cultural-landscape-of-the-mandara-mountains",
+  "status": "draft",
+  "type": "site",
+  "country": "CMR",
+  "name": "Diy-Gid-Biy Cultural Landscape of the Mandara Mountains",
+  "region": "Cameroon",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2025.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2025",
+      "cite": [
+        "unesco-whc-1745"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1745"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii",
+      "cite": [
+        "unesco-whc-1745"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "2,500 hectares",
+      "cite": [
+        "unesco-whc-1745"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Located in the Far North Region of Cameroon, the property includes sixteen archaeological sites across seven villages. Known as Diy-Gid-Biy (meaning “Ruin of the Chief’s Residence” in the Mafa language), these dry-stone architectural structures were likely built between the 12th and 17th centuries. While their original builders remain unknown, the area has been inhabited by the Mafa people since the 15th century. The surrounding landscape features agricultural terraces, homes, tombs, places of worship, and artisan activities, reflecting a long-standing cultural and spiritual connection between the people and their environment.”",
+              "cite": [
+                "unesco-whc-1745"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 10.9033333333,
+    "lon": 13.7955555556,
+    "cite": [
+      "unesco-whc-1745"
+    ]
+  }
+}

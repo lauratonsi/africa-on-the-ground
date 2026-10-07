@@ -1,0 +1,73 @@
+{
+  "slug": "royal-hill-of-ambohimanga",
+  "status": "draft",
+  "type": "site",
+  "country": "MDG",
+  "name": "Royal Hill of Ambohimanga",
+  "region": "Madagascar",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2001.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2001",
+      "cite": [
+        "unesco-whc-950"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-950"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv",
+      "cite": [
+        "unesco-whc-950"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "59 hectares",
+      "cite": [
+        "unesco-whc-950"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Royal Hill of Ambohimanga consists of a royal city and burial site, and an ensemble of sacred places. It is associated with strong feelings of national identity, and has maintained its spiritual and sacred character both in ritual practice and the popular imagination for the past 500 years. It remains a place of worship to which pilgrims come from Madagascar and elsewhere.”",
+              "cite": [
+                "unesco-whc-950"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -18.75917,
+    "lon": 47.56278,
+    "cite": [
+      "unesco-whc-950"
+    ]
+  }
+}

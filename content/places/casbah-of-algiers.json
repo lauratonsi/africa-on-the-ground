@@ -1,0 +1,73 @@
+{
+  "slug": "casbah-of-algiers",
+  "status": "draft",
+  "type": "site",
+  "country": "DZA",
+  "name": "Kasbah of Algiers",
+  "region": "Algeria",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1992.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1992",
+      "cite": [
+        "unesco-whc-565"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-565"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, v",
+      "cite": [
+        "unesco-whc-565"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "54.7 hectares",
+      "cite": [
+        "unesco-whc-565"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Kasbah is a unique kind of medina, or Islamic city. It stands in one of the finest coastal sites on the Mediterranean, overlooking the islands where a Carthaginian trading-post was established in the 4th century BC. There are the remains of the citadel, old mosques and Ottoman-style palaces as well as the remains of a traditional urban structure associated with a deep-rooted sense of community.”",
+              "cite": [
+                "unesco-whc-565"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 36.78333,
+    "lon": 3.06028,
+    "cite": [
+      "unesco-whc-565"
+    ]
+  }
+}

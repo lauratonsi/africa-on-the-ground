@@ -1,0 +1,74 @@
+{
+  "slug": "boma-badingilo-migratory-landscape",
+  "status": "draft",
+  "type": "site",
+  "country": "SSD",
+  "name": "Boma–Badingilo Migratory Landscape",
+  "region": "South Sudan",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 2026.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2026",
+      "cite": [
+        "unesco-whc-1808"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-1808"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "vii, ix, x",
+      "cite": [
+        "unesco-whc-1808"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "11,236,800 hectares",
+      "cite": [
+        "unesco-whc-1808"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 2026)",
+      "cite": [
+        "unesco-whc-1808"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The property comprises Boma National Park, Badingilo National Park, and the surrounding floodplain and savanna landscapes in South Sudan. Located at the interface between the Sudd wetland system and the East Sudanian Savanna, it encompasses an extensive mosaic of seasonally flooded grasslands, wetlands, floodplains, woodlands, and savannas shaped by seasonal rainfall and flood dynamics. These interconnected ecosystems sustain one of the world’s largest remaining terrestrial mammal migrations, with an estimated six million White-eared Kob, Tiang, and Mongalla Gazelle moving across a vast and largely unimpeded landscape in response to changing environmental conditions. The site also reflects important cultural, and linguistic diversity of the region with the Murle, Dinka, Nuer, Anyuak and Toposa and other ethnic groups who have been custodians of this landscape through herding, farming and fishing for centuries and even millennia. The property also supports important populations of numerous large mammal species, including Nile Lechwe, African Savanna Elephant, African Wild Dog, Lion, Leopard, Northeastern Africa Cheetah, and Beisa Oryx, as well as significant assemblages of waterbirds, raptors, and migratory bird species. Its exceptional scale, ecological connectivity, habitat diversity, and relative intactness sustain ecological and biological processes that have become increasingly rare globally.”",
+              "cite": [
+                "unesco-whc-1808"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Coordinates: the UNESCO record has none for this property.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ]
+}

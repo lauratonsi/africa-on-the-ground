@@ -60,7 +60,7 @@
   },
   {
     "id": "rai-beale-ms465",
-    "title": "Beale, Philip Ormrod \u201ccollection\u201d (MS 465): The Gambia stone circles",
+    "title": "Beale, Philip Ormrod “collection” (MS 465): The Gambia stone circles",
     "publisher": "Royal Anthropological Institute",
     "url": "https://therai.org.uk/?p=1093",
     "tier": "institutional",
@@ -70,7 +70,7 @@
   },
   {
     "id": "the-point-wassu-2015",
-    "title": "\u2018Wassu Stone Circles are unique to Gambia\u2019",
+    "title": "‘Wassu Stone Circles are unique to Gambia’",
     "author": "Njie Baldeh",
     "publisher": "The Point (Banjul)",
     "published": "2015-10-13",
@@ -97,7 +97,7 @@
     "url": "https://whc.unesco.org/en/list/1226",
     "tier": "institutional",
     "status": "verified",
-    "note": "Text of the page supplied by the project owner, because automated access to unesco.org is blocked. One sentence places Wassu in \u201cGuinea\u201d, apparently a slip for The Gambia. The description text is published under CC BY-SA IGO 3.0.",
+    "note": "Text of the page supplied by the project owner, because automated access to unesco.org is blocked. One sentence places Wassu in “Guinea”, apparently a slip for The Gambia. The description text is published under CC BY-SA IGO 3.0.",
     "retrieved": "2026-10-06"
   },
   {
@@ -234,5 +234,535 @@
     "status": "to-verify",
     "note": "Only the abstract was read. The full article is behind a paywall.",
     "retrieved": "2026-10-06"
+  },
+  {
+    "id": "wikipedia-goree",
+    "title": "Gorée",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gor%C3%A9e",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for the island's size, population, the sequence of colonial powers and the inscription year. Confirm against the UNESCO page and a history of Senegambia.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-house-of-slaves",
+    "title": "House of Slaves",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/House_of_Slaves",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for the building's date, Ndiaye's claims and the historians' critique. Each figure is attributed in the card to whoever the article names; check against Curtin 1969 and Ana Lucia Araujo.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "hnn-myth-of-goree",
+    "title": "The Myth of Goree Island",
+    "publisher": "History News Network, from an article by John Murphy in The Baltimore Sun (30 June 2004)",
+    "url": "https://www.hnn.us/blog/5969",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Press account quoting the historian Philip D. Curtin and the museum curator Abdoulaye Camara. Read for what they are reported to say, not as a count.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-565",
+    "title": "Kasbah of Algiers",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/565/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1511",
+    "title": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1511/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-323",
+    "title": "Royal Palaces of Abomey",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/323/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1021",
+    "title": "Tsodilo",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1021/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1225",
+    "title": "Ruins of Loropéni",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1225/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1310",
+    "title": "Cidade Velha, Historic Centre of Ribeira Grande",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1310/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1745",
+    "title": "Diy-Gid-Biy Cultural Landscape of the Mandara Mountains",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1745/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-475",
+    "title": "Manovo-Gounda St Floris National Park",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/475/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1400",
+    "title": "Lakes of Ounianga",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1400/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1768",
+    "title": "The Medinas of the Historic Sultanates of the Comoros",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1768/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-692",
+    "title": "Forest Massif of Odzala-Kokoua",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/692/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1322",
+    "title": "Historic Town of Grand-Bassam",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1322/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-63",
+    "title": "Virunga National Park",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/63/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-86",
+    "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/86/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1550",
+    "title": "Asmara: A Modernist African City",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1550/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-18",
+    "title": "Rock-Hewn Churches, Lalibela",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/18/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1147",
+    "title": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1147/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-34",
+    "title": "Forts and Castles, Volta, Greater Accra, Central and Western Regions",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/34/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-155",
+    "title": "Mount Nimba Strict Nature Reserve",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/155/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1431",
+    "title": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1431/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1055",
+    "title": "Lamu Old Town",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1055/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-985",
+    "title": "Maloti-Drakensberg Park",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/985/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-183",
+    "title": "Archaeological Site of Leptis Magna",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/183/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-950",
+    "title": "Royal Hill of Ambohimanga",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/950/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-476",
+    "title": "Chongoni Rock-Art Area",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/476/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-116",
+    "title": "Old Towns of Djenné",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/116/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-750",
+    "title": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/750/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1227",
+    "title": "Aapravasi Ghat",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1227/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-170",
+    "title": "Medina of Fez",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/170/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-599",
+    "title": "Island of Mozambique",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/599/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1255",
+    "title": "Twyfelfontein or /Ui-//aes",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1255/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1268",
+    "title": "Historic Centre of Agadez",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1268/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1118",
+    "title": "Osun-Osogbo Sacred Grove",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1118/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1586",
+    "title": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1586/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1750",
+    "title": "The Roças of Sao Tome and Principe: Colonial Agricultural System and Forced Migration",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1750/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-26",
+    "title": "Island of Gorée",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/26/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-185",
+    "title": "Aldabra Atoll",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/185/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1746",
+    "title": "Gola-Tiwai Complex",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1746/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-916",
+    "title": "Robben Island",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/916/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1808",
+    "title": "Boma–Badingilo Migratory Landscape",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1808/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1336",
+    "title": "Archaeological Sites of the Island of Meroe",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1336/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-173",
+    "title": "Stone Town of Zanzibar",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/173/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1140",
+    "title": "Koutammakou, the Land of the Batammariba",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1140/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-36",
+    "title": "Medina of Tunis",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/36/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-1022",
+    "title": "Tombs of Buganda Kings at Kasubi",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/1022/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-509",
+    "title": "Mosi-oa-Tunya / Victoria Falls",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/509/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "unesco-whc-364",
+    "title": "Great Zimbabwe National Monument",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/364/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "wikipedia-great-mosque-djenne",
+    "title": "Great Mosque of Djenné",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Used for the building's dates and builders, the 2006 works and the 2009 collapse. Check against Marchand's work on Djenné's masons and the Aga Khan Trust's own reports.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "aic-djenne-2012",
+    "title": "Mosque of Djenné (Conservators Converse)",
+    "publisher": "American Institute for Conservation, post by Rebecca Rushfield, 27 April 2012",
+    "url": "https://resources.culturalheritage.org/conservators-converse/?p=2855",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "A conservator's blog post from 2012, not a peer-reviewed study. Its statement that the replastering had ceased dates from 2012 and is contradicted or at least not confirmed by later reports.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "roads-kingdoms-djenne-2018",
+    "title": "Saving the Great Mosque of Djenné",
+    "publisher": "Roads & Kingdoms, photographs and text by Annie Risemberg (2018)",
+    "url": "https://roadsandkingdoms.com/2018/saving-the-great-mosque-of-djenne/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Press report on the April replastering ceremony and on the security situation in Mali in 2018.",
+    "retrieved": "2026-10-07"
   }
 ]

@@ -1,0 +1,73 @@
+{
+  "slug": "gola-tiwai-complex",
+  "status": "draft",
+  "type": "site",
+  "country": "SLE",
+  "name": "Gola-Tiwai Complex",
+  "region": "Sierra Leone",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 2025.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2025",
+      "cite": [
+        "unesco-whc-1746"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-1746"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ix, x",
+      "cite": [
+        "unesco-whc-1746"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "71,202.7 hectares",
+      "cite": [
+        "unesco-whc-1746"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “This serial property includes the Gola Rainforest National Park and the Tiwai Island Wildlife Sanctuary. Part of the Greater Gola Landscape, it lies within the Upper Guinean Forest, a biodiversity hotspot. The area hosts more than 1,000 plant species (113 endemic), 55 mammals (19 globally threatened), and key species like the African Forest Elephant and Pygmy Hippopotamus. It also supports up to 448 bird species, including the endangered White-necked Rockfowl. Rich in freshwater fish, butterflies, and dragonflies, the site provides vital habitats and ecosystem services, reflecting high conservation value and ecological integrity.”",
+              "cite": [
+                "unesco-whc-1746"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 7.5411666667,
+    "lon": -11.3478888889,
+    "cite": [
+      "unesco-whc-1746"
+    ]
+  }
+}

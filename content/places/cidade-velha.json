@@ -1,0 +1,81 @@
+{
+  "slug": "cidade-velha",
+  "status": "draft",
+  "type": "site",
+  "country": "CPV",
+  "name": "Cidade Velha, Historic Centre of Ribeira Grande",
+  "region": "Cabo Verde",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2009.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2009",
+      "cite": [
+        "unesco-whc-1310"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1310"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iii",
+      "cite": [
+        "unesco-whc-1310"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "209.1 hectares",
+      "cite": [
+        "unesco-whc-1310"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The town of Ribeira Grande, renamed Cidade Velha in the late 18th century, was the first European colonial outpost in the tropics. Located in the south of the island of Santiago, the town features some of the original street layout impressive remains including two churches, a royal fortress and Pillory Square with its ornate 16th century marble pillar.”",
+              "cite": [
+                "unesco-whc-1310"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 14.9151388889,
+    "lon": -23.6051944444,
+    "cite": [
+      "unesco-whc-1310"
+    ]
+  },
+  "image": {
+    "file": "cidade-velha",
+    "alt": "A small square with a stone pillory column in the middle, low coloured houses at the right and a rocky hill behind.",
+    "caption": "The square with the historic pillory, Cidade Velha, Santiago island.",
+    "credit": "Cayambe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACidade_Velha_Pelourinho_square_b_2011.jpg"
+  }
+}

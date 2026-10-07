@@ -1,0 +1,73 @@
+{
+  "slug": "aldabra-atoll",
+  "status": "draft",
+  "type": "site",
+  "country": "SYC",
+  "name": "Aldabra Atoll",
+  "region": "Seychelles",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 1982.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1982",
+      "cite": [
+        "unesco-whc-185"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-185"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "vii, ix, x",
+      "cite": [
+        "unesco-whc-185"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "35,000 hectares",
+      "cite": [
+        "unesco-whc-185"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The atoll is comprised of four large coral islands which enclose a shallow lagoon; the group of islands is itself surrounded by a coral reef. Due to difficulties of access and the atoll's isolation, Aldabra has been protected from human influence and thus retains some 152,000 giant tortoises, the world's largest population of this reptile.”",
+              "cite": [
+                "unesco-whc-185"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -9.416666667,
+    "lon": 46.41666667,
+    "cite": [
+      "unesco-whc-185"
+    ]
+  }
+}

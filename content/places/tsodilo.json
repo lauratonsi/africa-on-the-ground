@@ -1,0 +1,73 @@
+{
+  "slug": "tsodilo",
+  "status": "draft",
+  "type": "site",
+  "country": "BWA",
+  "name": "Tsodilo",
+  "region": "Botswana",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2001.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2001",
+      "cite": [
+        "unesco-whc-1021"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1021"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, iii",
+      "cite": [
+        "unesco-whc-1021"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "4,800 hectares",
+      "cite": [
+        "unesco-whc-1021"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “With one of the highest concentrations of rock art in the world, Tsodilo has been called the \"Louvre of the Desert\". Over 4,500 paintings are preserved in an area of only 10 km2 of the Kalahari Desert. The archaeological record of the area gives a chronological account of human activities and environmental changes over at least 100,000 years. Local communities in this hostile environment respect Tsodilo as a place of worship frequented by ancestral spirits.”",
+              "cite": [
+                "unesco-whc-1021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -18.75,
+    "lon": 21.73333333,
+    "cite": [
+      "unesco-whc-1021"
+    ]
+  }
+}

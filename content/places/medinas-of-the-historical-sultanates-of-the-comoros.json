@@ -1,0 +1,67 @@
+{
+  "slug": "medinas-of-the-historical-sultanates-of-the-comoros",
+  "status": "draft",
+  "type": "site",
+  "country": "COM",
+  "name": "The Medinas of the Historic Sultanates of the Comoros",
+  "region": "Comoros",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2026.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2026",
+      "cite": [
+        "unesco-whc-1768"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1768"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv",
+      "cite": [
+        "unesco-whc-1768"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "30.47 hectares",
+      "cite": [
+        "unesco-whc-1768"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The serial property is composed of six historic towns which developed from urban nuclei that emerged around at least the 11th century and evolved into city-states around the 14th-15th century. They eventually became the principal urban centres of the sultanates established on the islands of the archipelago of Comoros. With a common hierarchical system of social organisation, based on matrilineal and matrilocal customs, age-group systems, and patrilineal Islamic traditions still alive today, the property showcases insular urban forms and architectural expressions that resulted from cultural exchanges related to migration and Indian Ocean trade networks, embedded in the local social, geographical, and environmental context.”",
+              "cite": [
+                "unesco-whc-1768"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Coordinates: the UNESCO record has none for this property.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ]
+}

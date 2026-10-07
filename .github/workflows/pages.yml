@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 20
       # Valida i contenuti e genera dist/. Se un controllo fallisce il sito non viene pubblicato.
+      - run: npm ci
       - run: npm run check
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

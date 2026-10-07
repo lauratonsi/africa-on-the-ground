@@ -1,0 +1,73 @@
+{
+  "slug": "lakes-of-ounianga",
+  "status": "draft",
+  "type": "site",
+  "country": "TCD",
+  "name": "Lakes of Ounianga",
+  "region": "Chad",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 2012.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2012",
+      "cite": [
+        "unesco-whc-1400"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-1400"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "vii",
+      "cite": [
+        "unesco-whc-1400"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "62,808 hectares",
+      "cite": [
+        "unesco-whc-1400"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The site includes eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert covering an area of 62,808 ha. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. At 436 ha, Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish.”",
+              "cite": [
+                "unesco-whc-1400"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 19.055,
+    "lon": 20.5055555556,
+    "cite": [
+      "unesco-whc-1400"
+    ]
+  }
+}

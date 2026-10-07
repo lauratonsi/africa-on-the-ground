@@ -1,0 +1,80 @@
+{
+  "slug": "leptis-magna",
+  "status": "draft",
+  "type": "site",
+  "country": "LBY",
+  "name": "Archaeological Site of Leptis Magna",
+  "region": "Libya",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1982.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1982",
+      "cite": [
+        "unesco-whc-183"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-183"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, ii, iii",
+      "cite": [
+        "unesco-whc-183"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "387.485 hectares",
+      "cite": [
+        "unesco-whc-183"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 2016)",
+      "cite": [
+        "unesco-whc-183"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Leptis Magna was enlarged and embellished by Septimius Severus, who was born there and later became emperor. It was one of the most beautiful cities of the Roman Empire, with its imposing public monuments, harbour, market-place, storehouses, shops and residential districts.”",
+              "cite": [
+                "unesco-whc-183"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 32.63833,
+    "lon": 14.29306,
+    "cite": [
+      "unesco-whc-183"
+    ]
+  }
+}

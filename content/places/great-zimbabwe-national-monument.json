@@ -1,0 +1,73 @@
+{
+  "slug": "great-zimbabwe-national-monument",
+  "status": "draft",
+  "type": "site",
+  "country": "ZWE",
+  "name": "Great Zimbabwe National Monument",
+  "region": "Zimbabwe",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1986.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1986",
+      "cite": [
+        "unesco-whc-364"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-364"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, iii",
+      "cite": [
+        "unesco-whc-364"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "722 hectares",
+      "cite": [
+        "unesco-whc-364"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The ruins of Great Zimbabwe – the capital of the Queen of Sheba, according to an age-old legend – are a unique testimony to the Bantu civilization of the Shona between the 11th and 15th centuries. The city, which covers an area of nearly 80 ha, was an important trading centre and was renowned from the Middle Ages onwards.”",
+              "cite": [
+                "unesco-whc-364"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -20.271169952,
+    "lon": 30.9332689726,
+    "cite": [
+      "unesco-whc-364"
+    ]
+  }
+}

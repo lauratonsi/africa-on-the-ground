@@ -1,0 +1,80 @@
+{
+  "slug": "mosi-oa-tunya-victoria-falls",
+  "status": "draft",
+  "type": "site",
+  "country": "ZMB",
+  "name": "Mosi-oa-Tunya / Victoria Falls",
+  "region": "Zambia",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 1989.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1989",
+      "cite": [
+        "unesco-whc-509"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-509"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "vii, viii",
+      "cite": [
+        "unesco-whc-509"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "6,860 hectares",
+      "cite": [
+        "unesco-whc-509"
+      ]
+    },
+    {
+      "label": "Shared",
+      "value": "with 1 other country",
+      "cite": [
+        "unesco-whc-509"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “These are among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 km wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 20 km away.”",
+              "cite": [
+                "unesco-whc-509"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -17.92453,
+    "lon": 25.85539,
+    "cite": [
+      "unesco-whc-509"
+    ]
+  }
+}

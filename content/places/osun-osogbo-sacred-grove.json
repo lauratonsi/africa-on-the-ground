@@ -1,0 +1,81 @@
+{
+  "slug": "osun-osogbo-sacred-grove",
+  "status": "draft",
+  "type": "site",
+  "country": "NGA",
+  "name": "Osun-Osogbo Sacred Grove",
+  "region": "Nigeria",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2005.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2005",
+      "cite": [
+        "unesco-whc-1118"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1118"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iii",
+      "cite": [
+        "unesco-whc-1118"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "75 hectares",
+      "cite": [
+        "unesco-whc-1118"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The dense forest of the Osun Sacred Grove, on the outskirts of the city of Osogbo, is one of the last remnants of primary high forest in southern Nigeria. Regarded as the abode of the goddess of fertility Osun, one of the pantheon of Yoruba gods, the landscape of the grove and its meandering river is dotted with sanctuaries and shrines, sculptures and art works in honour of Osun and other deities. The sacred grove, which is now seen as a symbol of identity for all Yoruba people, is probably the last in Yoruba culture. It testifies to the once widespread practice of establishing sacred groves outside all settlements.”",
+              "cite": [
+                "unesco-whc-1118"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 7.75556,
+    "lon": 4.55222,
+    "cite": [
+      "unesco-whc-1118"
+    ]
+  },
+  "image": {
+    "file": "osun-osogbo-sacred-grove",
+    "alt": "A large orange-brown sculpture under a pitched roof, among tall trees in the sacred grove.",
+    "caption": "A sculpture in the Osun-Osogbo sacred grove.",
+    "credit": "ABORISADEADETONA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AOsun_groove_Osogbo.jpg"
+  }
+}

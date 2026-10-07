@@ -1,0 +1,80 @@
+{
+  "slug": "maloti-drakensberg-park",
+  "status": "draft",
+  "type": "site",
+  "country": "LSO",
+  "name": "Maloti-Drakensberg Park",
+  "region": "Lesotho",
+  "subtitle": "A mixed property on the UNESCO World Heritage List since 2000.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2000",
+      "cite": [
+        "unesco-whc-985"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Mixed",
+      "cite": [
+        "unesco-whc-985"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, iii, vii, x",
+      "cite": [
+        "unesco-whc-985"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "249,313 hectares",
+      "cite": [
+        "unesco-whc-985"
+      ]
+    },
+    {
+      "label": "Shared",
+      "value": "with 1 other country",
+      "cite": [
+        "unesco-whc-985"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Maloti-Drakensberg Park is a transnational property composed of the uKhahlamba Drakensberg National Park in South Africa and the Sehlathebe National Park in Lesotho. The site has exceptional natural beauty in its soaring basaltic buttresses, incisive dramatic cutbacks, and golden sandstone ramparts as well as visually spectacular sculptured arches, caves, cliffs, pillars and rock pools. The site's diversity of habitats protects a high level of endemic and globally important plants. The site harbors endangered species such as the Cape vulture (Gyps coprotheres) and the bearded vulture (Gypaetus barbatus). Lesotho’s Sehlabathebe National Park also harbors the Maloti minnow (Pseudobarbus quathlambae), a critically endangered fish species only found in this park. This spectacular natural site contains many caves and rock-shelters with the largest and most concentrated group of paintings in Africa south of the Sahara. They represent the spiritual life of the San people, who lived in this area over a period of 4,000 years.”",
+              "cite": [
+                "unesco-whc-985"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -29.7652777778,
+    "lon": 29.1230555556,
+    "cite": [
+      "unesco-whc-985"
+    ]
+  }
+}

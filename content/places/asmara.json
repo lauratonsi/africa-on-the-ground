@@ -1,0 +1,73 @@
+{
+  "slug": "asmara",
+  "status": "draft",
+  "type": "site",
+  "country": "ERI",
+  "name": "Asmara: A Modernist African City",
+  "region": "Eritrea",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2017.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2017",
+      "cite": [
+        "unesco-whc-1550"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1550"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iv",
+      "cite": [
+        "unesco-whc-1550"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "481 hectares",
+      "cite": [
+        "unesco-whc-1550"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Located at over 2,000 m above sea level, the capital of Eritrea developed from the 1890s onwards as a military outpost for the Italian colonial power. After 1935, Asmara underwent a large scale programme of construction applying the Italian rationalist idiom of the time to governmental edifices, residential and commercial buildings, churches, mosques, synagogues, cinemas, hotels, etc. The property encompasses the area of the city that resulted from various phases of planning between 1893 and 1941, as well as the indigenous unplanned neighbourhoods of Arbate Asmera and Abbashawel. It is an exceptional example of early modernist urbanism at the beginning of the 20th century and its application in an African context.”",
+              "cite": [
+                "unesco-whc-1550"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 15.3352777778,
+    "lon": 38.9358333333,
+    "cite": [
+      "unesco-whc-1550"
+    ]
+  }
+}

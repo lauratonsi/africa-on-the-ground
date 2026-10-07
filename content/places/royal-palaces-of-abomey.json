@@ -1,0 +1,81 @@
+{
+  "slug": "royal-palaces-of-abomey",
+  "status": "draft",
+  "type": "site",
+  "country": "BEN",
+  "name": "Royal Palaces of Abomey",
+  "region": "Benin",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1985.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1985",
+      "cite": [
+        "unesco-whc-323"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-323"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv",
+      "cite": [
+        "unesco-whc-323"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "47.6 hectares",
+      "cite": [
+        "unesco-whc-323"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “From 1625 to 1900, 12 kings succeeded one another at the head of the powerful Kingdom of Abomey. With the exception of King Akaba, who had his own separate enclosure, they all had their palaces built within the same cob-wall area, in keeping with previous palaces as regards the use of space and materials. The royal palaces of Abomey are a unique reminder of this vanished kingdom.”",
+              "cite": [
+                "unesco-whc-323"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 7.183333333,
+    "lon": 1.983333333,
+    "cite": [
+      "unesco-whc-323"
+    ]
+  },
+  "image": {
+    "file": "royal-palaces-of-abomey",
+    "alt": "A palace building with a thatched roof and animal relief panels on its walls, beside a low ochre wall and a courtyard of red earth.",
+    "caption": "A royal palace at Abomey, Benin, with relief panels on its walls.",
+    "credit": "Dominik Schwarz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAbomey-K%C3%B6nigspalast3.jpg"
+  }
+}

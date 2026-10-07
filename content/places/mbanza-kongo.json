@@ -1,0 +1,73 @@
+{
+  "slug": "mbanza-kongo",
+  "status": "draft",
+  "type": "site",
+  "country": "AGO",
+  "name": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+  "region": "Angola",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2017.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2017",
+      "cite": [
+        "unesco-whc-1511"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1511"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv",
+      "cite": [
+        "unesco-whc-1511"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "89.29 hectares",
+      "cite": [
+        "unesco-whc-1511"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The town of Mbanza Kongo, located on a plateau at an altitude of 570 m, was the political and spiritual capital of the Kingdom of Kongo, one of the largest constituted states in Southern Africa from the 14th to 19th centuries. The historical area grew around the royal residence, the customary court and the holy tree, as well as the royal funeral places. When the Portuguese arrived in the 15th century they added stone buildings constructed in accordance with European methods to the existing urban conurbation built in local materials. Mbanza Kongo illustrates, more than anywhere in sub-Saharan Africa, the profound changes caused by the introduction of Christianity and the arrival of the Portuguese into Central Africa.”",
+              "cite": [
+                "unesco-whc-1511"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -6.2688888889,
+    "lon": 14.2497222222,
+    "cite": [
+      "unesco-whc-1511"
+    ]
+  }
+}

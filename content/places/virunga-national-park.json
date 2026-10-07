@@ -1,0 +1,80 @@
+{
+  "slug": "virunga-national-park",
+  "status": "draft",
+  "type": "site",
+  "country": "COD",
+  "name": "Virunga National Park",
+  "region": "DR Congo",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 1979.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1979",
+      "cite": [
+        "unesco-whc-63"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-63"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "vii, viii, x",
+      "cite": [
+        "unesco-whc-63"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "800,000 hectares",
+      "cite": [
+        "unesco-whc-63"
+      ]
+    },
+    {
+      "label": "In Danger",
+      "value": "on UNESCO's List of World Heritage in Danger (since 1994)",
+      "cite": [
+        "unesco-whc-63"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Virunga National Park (covering an area of 790,000 ha) comprises an outstanding diversity of habitats, ranging from swamps and steppes to the snowfields of Rwenzori at an altitude of over 5,000 m, and from lava plains to the savannahs on the slopes of volcanoes. Mountain gorillas are found in the park, some 20,000 hippopotamuses live in the rivers and birds from Siberia spend the winter there.”",
+              "cite": [
+                "unesco-whc-63"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 0.916666667,
+    "lon": 29.16666667,
+    "cite": [
+      "unesco-whc-63"
+    ]
+  }
+}

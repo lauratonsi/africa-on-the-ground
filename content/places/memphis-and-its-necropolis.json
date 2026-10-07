@@ -1,0 +1,73 @@
+{
+  "slug": "memphis-and-its-necropolis",
+  "status": "draft",
+  "type": "site",
+  "country": "EGY",
+  "name": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+  "region": "Egypt",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 1979.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1979",
+      "cite": [
+        "unesco-whc-86"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-86"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "i, iii",
+      "cite": [
+        "unesco-whc-86"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "16,358.52 hectares",
+      "cite": [
+        "unesco-whc-86"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The capital of the Old Kingdom of Egypt has some extraordinary funerary monuments, including rock tombs, ornate mastabas, temples and pyramids. In ancient times, the site was considered one of the Seven Wonders of the World.”",
+              "cite": [
+                "unesco-whc-86"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 29.97604,
+    "lon": 31.13041,
+    "cite": [
+      "unesco-whc-86"
+    ]
+  }
+}

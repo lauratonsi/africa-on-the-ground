@@ -1,0 +1,81 @@
+{
+  "slug": "ruins-of-loropeni",
+  "status": "draft",
+  "type": "site",
+  "country": "BFA",
+  "name": "Ruins of Loropéni",
+  "region": "Burkina Faso",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2009.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2009",
+      "cite": [
+        "unesco-whc-1225"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1225"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii",
+      "cite": [
+        "unesco-whc-1225"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "1.113 hectares",
+      "cite": [
+        "unesco-whc-1225"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The 11,130m2 property, the first to be inscribed in the country, with its imposing stone walls is the best preserved of ten fortresses in the Lobi area and is part of a larger group of 100 stone enclosures that bear testimony to the power of the trans-Saharan gold trade. Situated near the borders of Côte d’Ivoire, Ghana and Togo, the ruins have recently been shown to be at least 1,000 years old. The settlement was occupied by the Lohron or Koulango peoples, who controlled the extraction and transformation of gold in the region when it reached its apogee from the 14th to the 17th century. Much mystery surrounds this site large parts of which have yet to be excavated. The settlement seems to have been abandoned during some periods during its long history. The property which was finally deserted in the early 19th century is expected to yield much more information.”",
+              "cite": [
+                "unesco-whc-1225"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 10.2500229431,
+    "lon": -3.5833384934,
+    "cite": [
+      "unesco-whc-1225"
+    ]
+  },
+  "image": {
+    "file": "ruins-of-loropeni",
+    "alt": "Rough, dark stone walls of the Loropéni ruins, with trees and grass growing around them.",
+    "caption": "Remains of the defensive walls at the Ruins of Loropéni, May 2016.",
+    "credit": "Rik Schuiling / TropCrop-TCS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File%3A2016.05-441-131ap_wall_Lorop%C3%A9ni_Ruins_nr.Lorop%C3%A9ni(Poni_Prv.)%2CBF_sun15may2016-1106h.jpg"
+  }
+}

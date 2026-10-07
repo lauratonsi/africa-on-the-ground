@@ -1,0 +1,66 @@
+{
+  "slug": "aapravasi-ghat",
+  "status": "draft",
+  "type": "site",
+  "country": "MUS",
+  "name": "Aapravasi Ghat",
+  "region": "Mauritius",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2006.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2006",
+      "cite": [
+        "unesco-whc-1227"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1227"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "0.164 hectares",
+      "cite": [
+        "unesco-whc-1227"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “In the district of Port Louis, lies the 1,640 m2 site where the modern indentured labour diaspora began. In 1834, the British Government selected the island of Mauritius to be the first site for what it called ‘the great experiment’ in the use of ‘free’ labour to replace slaves. Between 1834 and 1920, almost half a million indentured labourers arrived from India at Aapravasi Ghat to work in the sugar plantations of Mauritius, or to be transferred to Reunion Island, Australia, southern and eastern Africa or the Caribbean. The buildings of Aapravasi Ghat are among the earliest explicit manifestations of what was to become a global economic system and one of the greatest migrations in history.”",
+              "cite": [
+                "unesco-whc-1227"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -20.1586388889,
+    "lon": 57.5031666666,
+    "cite": [
+      "unesco-whc-1227"
+    ]
+  }
+}

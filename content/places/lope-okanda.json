@@ -1,0 +1,73 @@
+{
+  "slug": "lope-okanda",
+  "status": "draft",
+  "type": "site",
+  "country": "GAB",
+  "name": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda",
+  "region": "Gabon",
+  "subtitle": "A mixed property on the UNESCO World Heritage List since 2007.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2007",
+      "cite": [
+        "unesco-whc-1147"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Mixed",
+      "cite": [
+        "unesco-whc-1147"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, iv, ix, x",
+      "cite": [
+        "unesco-whc-1147"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "511,991 hectares",
+      "cite": [
+        "unesco-whc-1147"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Ecosystem and Relict Cultural Landscape of Lopé-Okanda demonstrates an unusual interface between dense and well-conserved tropical rainforest and relict savannah environments with a great diversity of species, including endangered large mammals, and habitats. The site illustrates ecological and biological processes in terms of species and habitat adaptation to post-glacial climatic changes. It contains evidence of the successive passages of different peoples who have left extensive and comparatively well-preserved remains of habitation around hilltops, caves and shelters, evidence of iron-working and a remarkable collection of some 1,800 petroglyphs (rock carvings). The property’s collection of Neolithic and Iron Age sites, together with the rock art found there, reflects a major migration route of Bantu and other peoples from West Africa along the River Ogooué valley to the north of the dense evergreen Congo forests and to central east and southern Africa, that has shaped the development of the whole of sub-Saharan Africa.”",
+              "cite": [
+                "unesco-whc-1147"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -0.5,
+    "lon": 11.5,
+    "cite": [
+      "unesco-whc-1147"
+    ]
+  }
+}

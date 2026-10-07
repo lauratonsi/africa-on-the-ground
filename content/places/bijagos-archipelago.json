@@ -1,0 +1,73 @@
+{
+  "slug": "bijagos-archipelago",
+  "status": "draft",
+  "type": "site",
+  "country": "GNB",
+  "name": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô",
+  "region": "Guinea-Bissau",
+  "subtitle": "A natural property on the UNESCO World Heritage List since 2025.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2025",
+      "cite": [
+        "unesco-whc-1431"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Natural",
+      "cite": [
+        "unesco-whc-1431"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ix, x",
+      "cite": [
+        "unesco-whc-1431"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "394,067.28 hectares",
+      "cite": [
+        "unesco-whc-1431"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The property includes a continuous series of coastal and marine ecosystems, corresponding to the marine and intertidal environments of the best-preserved areas of the Bijagós Archipelago in Guinea-Bissau. The Archipelago is the only active deltaic archipelago on the African Atlantic coast and one of the few in the world. The site is home to a rich biodiversity, including endangered Green and Leatherback turtles, manatees, dolphins, and over 870,000 migratory shorebirds. It features mangroves, mudflats, and intertidal zones vital for marine life, and supports rare plant species, diverse fish populations, and bird colonies. Poilão Island is a globally important nesting site for turtles.”",
+              "cite": [
+                "unesco-whc-1431"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": 11.12,
+    "lon": -15.9488888889,
+    "cite": [
+      "unesco-whc-1431"
+    ]
+  }
+}

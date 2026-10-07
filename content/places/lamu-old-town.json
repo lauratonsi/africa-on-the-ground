@@ -1,0 +1,73 @@
+{
+  "slug": "lamu-old-town",
+  "status": "draft",
+  "type": "site",
+  "country": "KEN",
+  "name": "Lamu Old Town",
+  "region": "Kenya",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2001.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2001",
+      "cite": [
+        "unesco-whc-1055"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1055"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "ii, iv",
+      "cite": [
+        "unesco-whc-1055"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "15.6 hectares",
+      "cite": [
+        "unesco-whc-1055"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Lamu Old Town is the oldest and best-preserved Swahili settlement in East Africa, retaining its traditional functions. Built in coral stone and mangrove timber, the town is characterized by the simplicity of structural forms enriched by such features as inner courtyards, verandas, and elaborately carved wooden doors. Lamu has hosted major Muslim religious festivals since the 19th century, and has become a significant centre for the study of Islamic and Swahili cultures.”",
+              "cite": [
+                "unesco-whc-1055"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -2.284444444,
+    "lon": 40.8525,
+    "cite": [
+      "unesco-whc-1055"
+    ]
+  }
+}

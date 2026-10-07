@@ -1,0 +1,73 @@
+{
+  "slug": "twyfelfontein",
+  "status": "draft",
+  "type": "site",
+  "country": "NAM",
+  "name": "Twyfelfontein or /Ui-//aes",
+  "region": "Namibia",
+  "subtitle": "A cultural property on the UNESCO World Heritage List since 2007.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "2007",
+      "cite": [
+        "unesco-whc-1255"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Cultural",
+      "cite": [
+        "unesco-whc-1255"
+      ]
+    },
+    {
+      "label": "Criteria",
+      "value": "iii, v",
+      "cite": [
+        "unesco-whc-1255"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "57.427 hectares",
+      "cite": [
+        "unesco-whc-1255"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "title": "What UNESCO says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “Twyfelfontein or /Ui-//aes has one of the largest concentrations of ... petroglyphs, i.e. rock engravings in Africa. Most of these well-preserved engravings represent rhinoceros, . The site also includes six painteelephant, ostrich and giraffe, as well as drawings of human and animal footprintsd rock shelters with motifs of human figures in red ochre. The objects excavated from two sections, date from the Late Stone Age. The site forms a coherent, extensive and high-quality record of ritual practices relating to hunter-gatherer communities in this part of southern Africa over at least 2,000 years, and eloquently illustrates the links between the ritual and economic practices of hunter-gatherers.”",
+              "cite": [
+                "unesco-whc-1255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. UNESCO's text is the institution's own account, so it is one voice. Add scholarly work and reporting before this card is published.",
+    "A photograph under an open licence.",
+    "Local voices: none yet."
+  ],
+  "coords": {
+    "lat": -20.597,
+    "lon": 14.376,
+    "cite": [
+      "unesco-whc-1255"
+    ]
+  }
+}
