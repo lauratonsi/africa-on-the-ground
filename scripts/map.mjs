@@ -161,25 +161,6 @@ export function gambiaMap(places, types, { focus = null, hrefFor } = {}) {
   return `<svg class="map map-gambia${focus ? " map-local" : ""}" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="${esc(label)}"><g fill-rule="evenodd">${land}</g>${rivers}${labels}<g class="pins">${pins}</g></svg>`;
 }
 
-// Mappa locale per gli altri paesi: contorno, contesto vicino e schede coordinate.
-// Non sostituisce una carta dettagliata come quella della Gambia, che ha dati geografici propri.
-export function countryPlaceMap(place, places, types, { hrefFor } = {}) {
-  const countryShapes = africa.countries.filter((c) => c.a3 === place.country);
-  if (!countryShapes.length) return countryLocator(place.country, `Location of ${place.name} in ${countryName(place.country)}.`);
-  const points = countryShapes.flatMap((c) => c.rings.flat());
-  let lon0 = Math.min(...points.map(([lon]) => lon)), lon1 = Math.max(...points.map(([lon]) => lon));
-  let lat0 = Math.min(...points.map(([, lat]) => lat)), lat1 = Math.max(...points.map(([, lat]) => lat));
-  const lonPad = Math.max((lon1 - lon0) * .16, .9), latPad = Math.max((lat1 - lat0) * .16, .55);
-  lon0 -= lonPad; lon1 += lonPad; lat0 -= latPad; lat1 += latPad;
-  const p = projection({ lon0, lon1, lat0, lat1 }, 900);
-  const land = africa.countries.filter((c) => c.rings.some((ring) => touches(ring, p.box))).map((c) => `<path class="land${c.a3 === place.country ? " has" : ""}" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
-  const located = places.filter((x) => x.coords && x.country === place.country && x.coords.lon > lon0 && x.coords.lon < lon1 && x.coords.lat > lat0 && x.coords.lat < lat1).map((x) => {
-    x._href = hrefFor(x);
-    return pin(x, p, types, { cur: x.slug === place.slug, dim: x.slug !== place.slug, labelSide: p.x(x.coords.lon) > p.width * .72 ? "left" : "right" });
-  }).join("");
-  return `<svg class="map map-country map-local" viewBox="0 0 ${p.width} ${p.height}" role="group" aria-label="Map of ${esc(countryName(place.country))} showing ${esc(place.name)} and other place cards with coordinates."><g fill-rule="evenodd">${land}</g><g class="pins">${located}</g></svg>`;
-}
-
 // ---------- mappa a colori per paese (pagina Countries) ----------
 // I contorni di Natural Earth usano alcune sigle proprie: le riportiamo ai codici ISO.
 // Somaliland è disegnata come parte della Somalia, come nell'elenco dei paesi della Banca Mondiale.

@@ -2,25 +2,34 @@
   "slug": "the-gambia-the-name",
   "status": "published",
   "kind": "history",
-  "title": "Why is it The Gambia?",
-  "subtitle": "A small word with a long history: the country, the river and the name people use.",
+  "title": "The country with a river in its name",
+  "subtitle": "Why English says The Gambia, what the river has to do with it, and what a map cannot tell us.",
   "countries": ["GMB"],
   "places": [],
   "sections": [
     {
       "id": "name",
-      "title": "The name on the map",
+      "title": "The article is part of the name",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "The World Factbook calls the country The Gambia, while the country's capital is Banjul and the river running through it is the Gambia River.",
+              "text": "The World Factbook calls the country The Gambia, while its capital is Banjul and its river is the Gambia River.",
               "cite": ["cia-factbook", "britannica-gambia"]
             },
             {
-              "text": "The article is part of the country's name, not a description added by this site.",
+              "text": "The word The is therefore part of the English country name, not an article added by a sentence or by this website.",
               "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "That small word matters because Gambia is also the name of the river and because the country is often discussed beside Senegal, whose territory surrounds it on its landward sides.",
+              "cite": ["britannica-gambia", "wikipedia-gambia"]
             }
           ]
         }
@@ -34,7 +43,7 @@
           "type": "p",
           "parts": [
             {
-              "text": "The country follows the lower Gambia River inland from the Atlantic coast, and its modern borders leave it surrounded by Senegal except at the coast.",
+              "text": "The country follows the lower Gambia River inland from the Atlantic coast. The river is not a border detail at the edge of the map: it is the long geographical feature around which the country is organised.",
               "cite": ["britannica-gambia", "wikipedia-gambia"]
             }
           ]
@@ -43,7 +52,31 @@
           "type": "p",
           "parts": [
             {
-              "text": "That geography is why the name is easy to flatten into a joke or a grammar correction, even though it points to a specific place and history.",
+              "text": "Banjul sits at the river's mouth, where the water reaches the Atlantic. The country's capital, its river and its internationally used name therefore appear together in a very small space.",
+              "cite": ["cia-factbook", "britannica-gambia"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "A narrow shape, a wide history",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On a map, The Gambia can look like a narrow corridor following the river through Senegal. That outline is often treated as a curiosity, but a shape on a map is the result of histories, negotiations and power rather than a natural boundary drawn by the river alone.",
+              "cite": ["britannica-gambia", "wikipedia-gambia"]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The short version of the story is easy to remember; the longer one needs the histories of Senegambia, European trade and colonial rule, and the people who lived along the river before and after those borders were made.",
               "editorial": true
             }
           ]
@@ -52,13 +85,22 @@
     },
     {
       "id": "voices",
-      "title": "What the name leaves out",
+      "title": "What the name does not tell us",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "A map name cannot tell us how people in The Gambia pronounce, translate or explain the country's name in their own languages. That part belongs here to people who live there.",
+              "text": "A map name cannot tell us how people in The Gambia explain the name in Mandinka, Wolof, Fula or another language spoken there. It cannot tell us whether the name feels formal, ordinary, colonial, affectionate or simply practical in different settings.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This is where the documented record must stop and make room for people who live there. The next version of this story should be changed by those voices, not by guessing what the name means to everyone.",
               "editorial": true
             }
           ]
