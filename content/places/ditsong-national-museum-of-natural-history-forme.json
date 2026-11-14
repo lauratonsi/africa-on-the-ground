@@ -1,0 +1,67 @@
+{
+  "slug": "ditsong-national-museum-of-natural-history-forme",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZAF",
+  "name": "Ditsong National Museum of Natural History (formerly Transvaal Museum)",
+  "region": "Pretoria · South Africa",
+  "subtitle": "Gauteng's only natural history museum, in central Pretoria.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1 December 1892 as the Staatsmuseum of the ZAR",
+      "cite": [
+        "cap-ditsong-org-za-09d305"
+      ]
+    },
+    {
+      "label": "Gauteng status",
+      "value": "Only natural history museum in Gauteng",
+      "cite": [
+        "cap-ditsong-org-za-09d305"
+      ]
+    },
+    {
+      "label": "Collections",
+      "value": "Hominid fossils from the Cradle of Humankind",
+      "cite": [
+        "cap-ditsong-org-za-09d305"
+      ]
+    },
+    {
+      "label": "Home of Mrs Ples",
+      "value": "Museum holds Mrs Ples",
+      "cite": [
+        "cap-sahistory-org-za-75e0b8"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gauteng's only natural history museum, in central Pretoria. Founded as the state museum of the old Transvaal republic in 1892, it holds hominid fossils and the specimen known as Mrs Ples.",
+              "cite": [
+                "cap-ditsong-org-za-09d305",
+                "cap-sahistory-org-za-75e0b8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

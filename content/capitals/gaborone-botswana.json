@@ -3,10 +3,133 @@
   "status": "draft",
   "country": "BWA",
   "name": "Gaborone",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Gaborone, capital of Botswana: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 246,325 people live in Gaborone City (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-c30049"
+      ]
+    },
+    {
+      "text": "The city is named after Kgosi Gaborone, a Batlokwa leader; the name is glossed as 'it does not fit badly'.",
+      "cite": [
+        "cap-botswanatourism-co-bw-c6d5f4"
+      ]
+    }
+  ],
+  "places": [
+    "three-dikgosi-monument",
+    "botswana-national-museum-and-art-gallery",
+    "gaborone-game-reserve",
+    "thapong-visual-arts-centre",
+    "university-of-botswana"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Gaborone in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city is named after Kgosi Gaborone, a Batlokwa leader; the name is glossed as 'it does not fit badly'.",
+              "cite": [
+                "cap-botswanatourism-co-bw-c6d5f4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "246,325",
+              "label": "people in Gaborone City, 2022",
+              "cite": [
+                "cap-citypopulation-de-c30049"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Gaborone City?",
+          "min": 0,
+          "max": 800000,
+          "step": 4000,
+          "unit": "",
+          "answer": 246325,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "246,325 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Gaborone City (city proper, as tabulated in the 2022 Population and Housing Census, census date 18 March 2022).",
+              "cite": [
+                "cap-citypopulation-de-c30049"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1967",
+              "tag": "growth",
+              "text": "The National Museum was established in Gaborone.",
+              "cite": [
+                "cap-mmegi-bw-cfc712"
+              ]
+            },
+            {
+              "when": "1982-10-23",
+              "tag": "growth",
+              "text": "Formal inauguration of the University of Botswana (its roots go back to the University of Basutoland, Bechuanaland and Swaziland, opened 1964).",
+              "cite": [
+                "cap-ub-bw-6303e9"
+              ]
+            },
+            {
+              "when": "2005-09-29",
+              "tag": "today",
+              "text": "The Three Dikgosi Monument was inaugurated by President Festus Mogae.",
+              "cite": [
+                "cap-commonwealthwalkway-info-8ee667"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Population from Statistics Botswana PDF or UN data directly (only aggregator citypopulation.de read)",
+    "Not found in a readable source: Institutional or academic source for founding, 1965 move, 1969 rename (only web publishers geographyworlds.com and joelkaben.com read; both weak)",
+    "Not found in a readable source: Origin of name: Botswana Tourism Organisation says the chief settled in Tlokweng area in 1881; other sources (not read) give about 1880 and differing chief epithets; unresolved",
+    "Not found in a readable source: A market (none supported by a readable source)",
+    "Not found in a readable source: Official source for Gaborone Game Reserve establishment date and size (legal declaration orders seen only in search snippets)",
+    "Not found in a readable source: Myth to bust",
+    "Not found in a readable source: Mmegi 1973 art gallery quote is a fetch-tool paraphrase, not verbatim",
+    "Note: all quotes were extracted by the WebFetch summariser, so verify wording against pages before publishing",
+    "Left out because only weak or unofficial sources supported them (13 items, for example: Gaborone was laid out on almost empty ground from 1964 so that Botswana could be governed ).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Botswana has read this profile yet."
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "slug": "basotho-hat-mokorotlo-building",
+  "status": "draft",
+  "type": "culture",
+  "country": "LSO",
+  "name": "Basotho Hat (Mokorotlo) building",
+  "region": "Maseru · Lesotho",
+  "subtitle": "A building in central Maseru designed in the shape of the traditional Basotho conical hat.",
+  "facts": [
+    {
+      "label": "Hat origin tradition",
+      "value": "Hat shape said to be copied from Mount Qiloane next to Thaba Bosiu",
+      "cite": [
+        "cap-southafrica-net-841e4b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A building in central Maseru designed in the shape of the traditional Basotho conical hat. Described by a tourism site as housing a museum on the nation's history, culture and traditions.",
+              "cite": [
+                "cap-southafrica-net-841e4b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "basotho-hat-mokorotlo-building",
+    "alt": "Photograph of Basotho Hat (Mokorotlo) building.",
+    "caption": "Basotho Hat (Mokorotlo) building.",
+    "credit": "Thuleeee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Mokorotlong_Maseru_Lesotho.jpg"
+  }
+}

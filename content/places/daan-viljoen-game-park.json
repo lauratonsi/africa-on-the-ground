@@ -1,0 +1,66 @@
+{
+  "slug": "daan-viljoen-game-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "NAM",
+  "name": "Daan Viljoen Game Park",
+  "region": "Windhoek · Namibia",
+  "subtitle": "A small game park in the Khomas Hochland west of the city.",
+  "facts": [
+    {
+      "label": "Distance",
+      "value": "About 24 km west of Windhoek",
+      "cite": [
+        "cap-visitnamibia-com-na-d8c4ac"
+      ]
+    },
+    {
+      "label": "Size",
+      "value": "40 km2",
+      "cite": [
+        "cap-visitnamibia-com-na-d8c4ac"
+      ]
+    },
+    {
+      "label": "Proclaimed",
+      "value": "1968 (other sources say 1962)",
+      "cite": [
+        "cap-visitnamibia-com-na-d8c4ac"
+      ]
+    },
+    {
+      "label": "Mammals",
+      "value": "Springbok, kudu, eland, gemsbok, wildebeest, Hartmann's mountain zebra, leopard, klipspringer",
+      "cite": [
+        "cap-visitnamibia-com-na-d8c4ac"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A small game park in the Khomas Hochland west of the city. It is home to springbok, kudu and mountain zebra.",
+              "cite": [
+                "cap-visitnamibia-com-na-d8c4ac"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

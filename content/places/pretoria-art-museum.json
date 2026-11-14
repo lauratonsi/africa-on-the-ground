@@ -1,0 +1,61 @@
+{
+  "slug": "pretoria-art-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZAF",
+  "name": "Pretoria Art Museum",
+  "region": "Pretoria · South Africa",
+  "subtitle": "A city art museum in Arcadia Park, devoted to South African art.",
+  "facts": [
+    {
+      "label": "Opening",
+      "value": "Opened 20 May 1964; construction began 1962",
+      "cite": [
+        "cap-sahistory-org-za-f3b3c8"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "Paintings, photographs, graphics, ceramics, sculpture by artists such as Enos Makhubedu, Walter Oltmann, Sam Nhlengethwa",
+      "cite": [
+        "cap-sahistory-org-za-f3b3c8"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A city art museum in Arcadia Park, devoted to South African art. It opened to the public in 1964.",
+              "cite": [
+                "cap-sahistory-org-za-f3b3c8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "pretoria-art-museum",
+    "alt": "Photograph of Pretoria Art Museum.",
+    "caption": "Pretoria Art Museum.",
+    "credit": "Laurens",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Pretoriase_kunsmuseum_1.jpg"
+  }
+}

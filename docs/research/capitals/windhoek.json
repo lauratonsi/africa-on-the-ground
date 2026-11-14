@@ -1,0 +1,550 @@
+{
+ "city": "Windhoek",
+ "country": "NAM",
+ "population": {
+  "value": 494605,
+  "year": 2023,
+  "definition": "Total population of Khomas Region at the 2023 Population and Housing Census (NSA). Windhoek is its urban core: press reports about 486,186 urban residents in the region (Windhoek Observer, urban definition not given). A Windhoek-only figure was not found in a readable official source.",
+  "source": {
+   "title": "Khomas – Namibia Statistics Agency | Census Disemination",
+   "publisher": "Namibia Statistics Agency",
+   "author": null,
+   "date": "2024",
+   "url": "https://census.nsa.org.na/khomas-region/",
+   "tier": "institutional",
+   "quote": "Total Population 494,605"
+  }
+ },
+ "facts": [
+  {
+   "claim": "Windhoek was founded on 18 October 1890, when Major Curt von François laid the foundation stone of the Alte Feste fort for the German protective corps (Schutztruppe).",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "The present Windhoek was founded on 18 October 1890 when Von Francois laid the foundation stone of the fort"
+   }
+  },
+  {
+   "claim": "The first recorded settlements grew up because of the hot springs; Nama and Herero names for the place referred to them.",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "The first recorded settlements were established because of the hot springs in the area."
+   }
+  },
+  {
+   "claim": "The modern name is not settled: the city says some believe Jonker Afrikaner named it after the Winterhoek Mountains near Tulbagh, South Africa.",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "Some believe that Afrikaner named Windhoek after the Winterhoek Mountains near Tulbagh in South Africa"
+   }
+  },
+  {
+   "claim": "The Nama name /Ai-//Gams means Fire Water and the Herero name Otjomuise means Place of Steam; both referred to the hot springs.",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "\"/Ai-//Gams\" (Fire Water) by the Namas, and \"Otjomuise\" (Place of Steam) by the Hereros"
+   }
+  },
+  {
+   "claim": "Development quickened after 1907 as more settlers arrived from Germany and South Africa.",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "After 1907, the town developed more rapidly, with more settlers arriving from Germany and South Africa."
+   }
+  },
+  {
+   "claim": "Windhoek is the capital of Namibia and is run by a municipality established under the Local Authority Act of 1992.",
+   "source": {
+    "title": "About Us",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/about-us/",
+    "tier": "institutional",
+    "quote": "Windhoek is the capital city of Namibia"
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "c. 1849",
+   "claim": "Orlam Captain Jan Jonker Afrikaner settles at the strongest spring in what is now Klein Windhoek.",
+   "tag": "origins",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "the Orlam Captain, Jan Jonker Afrikaner, settled in at the strongest spring"
+   }
+  },
+  {
+   "when": "18 October 1890",
+   "claim": "Von François lays the foundation stone of the fort; the city dates its founding to this day.",
+   "tag": "origins",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "The present Windhoek was founded on 18 October 1890 when Von Francois laid the foundation stone of the fort"
+   }
+  },
+  {
+   "when": "1904",
+   "claim": "During the 1904 Herero war the Alte Feste serves as barracks and shelter for women and children.",
+   "tag": "growth",
+   "source": {
+    "title": "Alte Feste",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/alte-feste/",
+    "tier": "institutional",
+    "quote": "This fortress served as a barracks and shelter for women and children during the 1904 Herero war."
+   }
+  },
+  {
+   "when": "After 1907",
+   "claim": "Faster growth as settlers arrive from Germany and South Africa.",
+   "tag": "growth",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "After 1907, the town developed more rapidly, with more settlers arriving from Germany and South Africa."
+   }
+  },
+  {
+   "when": "12 May 1915",
+   "claim": "South African troops occupy Windhoek on behalf of Britain, ending German colonial rule.",
+   "tag": "growth",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "South African troops occupied Windhoek on 12 May 1915 on behalf of Britain."
+   }
+  },
+  {
+   "when": "10 December 1959",
+   "claim": "Police shoot into a protest against forced removal from the Old Location to Katutura; 11 people are killed.",
+   "tag": "growth",
+   "source": {
+    "title": "History of Old Location and Katutura | Namibia",
+    "publisher": "namibweb.com",
+    "author": null,
+    "date": null,
+    "url": "https://www.namibweb.com/hiskat.htm",
+    "tier": "press",
+    "quote": "The police shot and killed 11 people and some 44 required medical attention."
+   }
+  },
+  {
+   "when": "31 August 1968",
+   "claim": "The Old Location is officially closed after residents are resettled in Katutura.",
+   "tag": "growth",
+   "source": {
+    "title": "History of Old Location and Katutura | Namibia",
+    "publisher": "namibweb.com",
+    "author": null,
+    "date": null,
+    "url": "https://www.namibweb.com/hiskat.htm",
+    "tier": "press",
+    "quote": "The Old Location was officially closed on 31 August 1968."
+   }
+  },
+  {
+   "when": "1990",
+   "claim": "Independence brings considerable investment to the city centre.",
+   "tag": "today",
+   "source": {
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "author": null,
+    "date": null,
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "quote": "Namibia's Independence in 1990 brought considerable investment to the city centre."
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Independence Memorial Museum",
+   "type": "culture",
+   "what": "A national museum on the anti-colonial and independence struggle. It opened in 2014 and shows this history across three galleries.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "20 March 2014",
+     "source": {
+      "title": "Independence Museum",
+      "publisher": "Museums Association of Namibia",
+      "author": null,
+      "date": null,
+      "url": "https://www.museums.com.na/museums/windhoek/independence-museum",
+      "tier": "institutional",
+      "quote": "inaugurated on 20 March 2014"
+     }
+    },
+    {
+     "label": "Purpose",
+     "value": "Dedicated to the anti-colonial and independence struggle",
+     "source": {
+      "title": "Independence Memorial Museum",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/independence-memorial-museum/",
+      "tier": "institutional",
+      "quote": "The museum was opened on 20 March 2014 and it is dedicated to the country’s anti colonial and independence struggle."
+     }
+    },
+    {
+     "label": "Galleries",
+     "value": "Three galleries on resistance and armed liberation struggle",
+     "source": {
+      "title": "Independence Museum",
+      "publisher": "Museums Association of Namibia",
+      "author": null,
+      "date": null,
+      "url": "https://www.museums.com.na/museums/windhoek/independence-museum",
+      "tier": "institutional",
+      "quote": "showcases these aspects throughout three galleries"
+     }
+    },
+    {
+     "label": "View",
+     "value": "Glass elevator on the outside of the building with views over the city",
+     "source": {
+      "title": "Independence Memorial Museum",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/independence-memorial-museum/",
+      "tier": "institutional",
+      "quote": "taking the glass elevator up the outside of the building for great views out over Windhoek"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Windhuk Christuskirche & Independence Memorial Museum 1.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Zairon"
+   },
+   "readSources": [
+    "https://www.museums.com.na/museums/windhoek/independence-museum",
+    "https://www.windhoekcc.org.na/independence-memorial-museum/"
+   ]
+  },
+  {
+   "name": "Heroes' Acre",
+   "type": "site",
+   "what": "The national memorial to the liberation struggle, on the south side of Windhoek. It was inaugurated in 2002.",
+   "facts": [
+    {
+     "label": "Inaugurated",
+     "value": "26 August 2002 by Sam Nujoma",
+     "source": {
+      "title": "Heroes' Acre",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/heroes-acre/",
+      "tier": "institutional",
+      "quote": "inaugurated by His Excellency, Dr. Sam Nujoma, Founding President of the Republic of Namibia, on 26 August 2002"
+     }
+    },
+    {
+     "label": "Design",
+     "value": "Designed by North Korean experts with the City of Windhoek",
+     "source": {
+      "title": "Heroes' Acre",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/heroes-acre/",
+      "tier": "institutional",
+      "quote": "designed by a team of North Korean experts, in collaboration with the City of Windhoek"
+     }
+    },
+    {
+     "label": "Setting",
+     "value": "Between two hills",
+     "source": {
+      "title": "Heroes' Acre",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/heroes-acre/",
+      "tier": "institutional",
+      "quote": "situated between two hills, creating an impressive ambience for the visitor"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Namibia Heroes Acre (92343).jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "IUM 240052021"
+   },
+   "readSources": [
+    "https://www.windhoekcc.org.na/heroes-acre/"
+   ]
+  },
+  {
+   "name": "Namibia Craft Centre (Old Breweries building)",
+   "type": "market",
+   "what": "A craft shop in the former brewery building on Tal Street. It sells work from artists and crafters.",
+   "facts": [
+    {
+     "label": "Opened as craft centre",
+     "value": "1990",
+     "source": {
+      "title": "Namibia Craft Centre Where Creativity Comes To Life",
+      "publisher": "The Namibian",
+      "author": "Netumbo Nekomba",
+      "date": "22 July 2016",
+      "url": "https://www.namibian.com.na/namibia-craft-centre-where-creativity-comes-to-life/",
+      "tier": "press",
+      "quote": "Officially opened in 1990 under Newveld Ventures"
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Old Breweries building on Tal Street",
+     "source": {
+      "title": "Namibia Craft Centre Where Creativity Comes To Life",
+      "publisher": "The Namibian",
+      "author": "Netumbo Nekomba",
+      "date": "22 July 2016",
+      "url": "https://www.namibian.com.na/namibia-craft-centre-where-creativity-comes-to-life/",
+      "tier": "press",
+      "quote": "nestled in the Old Breweries building along Tal Street in Windhoek"
+     }
+    },
+    {
+     "label": "Brewery dedicated",
+     "value": "12 May 1902",
+     "source": {
+      "title": "Old Brewery on the corner of Sam Nujoma and Tal Streets",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/old-brewery-on-the-corner-of-sam-nujoma-and-tal-streets/",
+      "tier": "institutional",
+      "quote": "it was dedicated on May 12, 1902"
+     }
+    },
+    {
+     "label": "Later planned role",
+     "value": "Alte Feste to host a new Craft Centre location and the National Genocide Museum",
+     "source": {
+      "title": "Germany Supports Renovation of the Alte Feste Building",
+      "publisher": "Federal Foreign Office (German Embassy Windhoek)",
+      "author": null,
+      "date": "11 February 2025",
+      "url": "https://windhuk.diplo.de/na-en/2701370-2701370",
+      "tier": "institutional",
+      "quote": "a new location for the Namibia Craft Centre and the National Genocide Museum"
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.namibian.com.na/namibia-craft-centre-where-creativity-comes-to-life/",
+    "https://www.windhoekcc.org.na/old-brewery-on-the-corner-of-sam-nujoma-and-tal-streets/"
+   ]
+  },
+  {
+   "name": "National Art Gallery of Namibia",
+   "type": "culture",
+   "what": "The national art gallery, with a permanent collection and changing exhibitions. It aims to preserve and encourage art in Namibia.",
+   "facts": [
+    {
+     "label": "Goal",
+     "value": "Preserve and encourage art in Namibia",
+     "source": {
+      "title": "National Art Gallery",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/national-art-gallery/",
+      "tier": "institutional",
+      "quote": "the goal of this institution is to preserve and encourage art in Namibia."
+     }
+    },
+    {
+     "label": "Exhibitions",
+     "value": "Regional, national and international art",
+     "source": {
+      "title": "National Art Gallery",
+      "publisher": "City of Windhoek",
+      "author": null,
+      "date": null,
+      "url": "https://www.windhoekcc.org.na/national-art-gallery/",
+      "tier": "institutional",
+      "quote": "hosts contemporary exhibitions of Regional, National and International Art."
+     }
+    },
+    {
+     "label": "Founded",
+     "value": "1990 (per the gallery itself)",
+     "source": {
+      "title": "Vision, Mission and Values",
+      "publisher": "National Art Gallery of Namibia",
+      "author": null,
+      "date": null,
+      "url": "https://nagn.org.na/vision-mission-and-values/",
+      "tier": "institutional",
+      "quote": "It was founded in 1990."
+     }
+    },
+    {
+     "label": "Collection",
+     "value": "Namibian, African and European art",
+     "source": {
+      "title": "Vision, Mission and Values",
+      "publisher": "National Art Gallery of Namibia",
+      "author": null,
+      "date": null,
+      "url": "https://nagn.org.na/vision-mission-and-values/",
+      "tier": "institutional",
+      "quote": "It displays in a permanent exhibition of Namibian, African and European Art."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.windhoekcc.org.na/national-art-gallery/",
+    "https://nagn.org.na/vision-mission-and-values/"
+   ]
+  },
+  {
+   "name": "Daan Viljoen Game Park",
+   "type": "nature",
+   "what": "A small game park in the Khomas Hochland west of the city. It is home to springbok, kudu and mountain zebra.",
+   "facts": [
+    {
+     "label": "Distance",
+     "value": "About 24 km west of Windhoek",
+     "source": {
+      "title": "Daan Viljoen Game Park",
+      "publisher": "Namibia Tourism Board (Visit Namibia)",
+      "author": null,
+      "date": null,
+      "url": "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/",
+      "tier": "institutional",
+      "quote": "Just 24 km west of Windhoek lies a sanctuary."
+     }
+    },
+    {
+     "label": "Size",
+     "value": "40 km2",
+     "source": {
+      "title": "Daan Viljoen Game Park",
+      "publisher": "Namibia Tourism Board (Visit Namibia)",
+      "author": null,
+      "date": null,
+      "url": "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/",
+      "tier": "institutional",
+      "quote": "40 km²"
+     }
+    },
+    {
+     "label": "Proclaimed",
+     "value": "1968 (other sources say 1962)",
+     "source": {
+      "title": "Daan Viljoen Game Park",
+      "publisher": "Namibia Tourism Board (Visit Namibia)",
+      "author": null,
+      "date": null,
+      "url": "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/",
+      "tier": "institutional",
+      "quote": "Proclamation: Daan Viljoen Game Park 1968"
+     }
+    },
+    {
+     "label": "Mammals",
+     "value": "Springbok, kudu, eland, gemsbok, wildebeest, Hartmann's mountain zebra, leopard, klipspringer",
+     "source": {
+      "title": "Daan Viljoen Game Park",
+      "publisher": "Namibia Tourism Board (Visit Namibia)",
+      "author": null,
+      "date": null,
+      "url": "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/",
+      "tier": "institutional",
+      "quote": "Mammals are springbok, kudu, eland, gemsbok, blue wildebeest, Hartmann's mountain zebra, leopard and klipspringer."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/"
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Windhoek simply means 'windy corner' in Afrikaans.",
+  "truth": "The origin is disputed. The City of Windhoek says some believe Jonker Afrikaner named it after the Winterhoek Mountains in South Africa. Older Nama and Herero names referred to the hot springs.",
+  "source": {
+   "title": "History and Heritage",
+   "publisher": "City of Windhoek",
+   "author": null,
+   "date": null,
+   "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+   "tier": "institutional",
+   "quote": "Some believe that Afrikaner named Windhoek after the Winterhoek Mountains near Tulbagh in South Africa"
+  }
+ },
+ "unreadable": [
+  "https://uwcscholar.uwc.ac.za:8443/server/api/core/bitstreams/71d27360-c8d3-49de-a67b-2449f86380c8/content - PDF returned unreadable binary",
+  "https://www.indonesia-dutchcolonialheritage.nl/historicalsites-southafrica/namibiaheritage/namibiahistoricsurvey.pdf - PDF returned unreadable binary",
+  "https://census.nsanamibia.com/wp-content/uploads/2024/10/2023-Population-and-Housing-Census-Main-Report-28-Oct-2024.pdf - 404",
+  "https://www.namibian.com.na/?p=711531 - 404",
+  "https://naa.na/about.html - 400",
+  "https://www.oxfordreference.com/display/10.1093/acref/9780191882913.001.0001/acref-9780191882913-e-8026 - 403"
+ ],
+ "notNotFound": [
+  "Windhoek-only 2023 population figure with urban definition from NSA (only Khomas Region total readable)",
+  "When and why Windhoek became capital (no readable source stating this; only that it is the capital)",
+  "Market place (Oshetu/Single Quarters) - only travel/search snippets, no readable institutional page",
+  "Commons photos for Craft Centre, National Art Gallery and Daan Viljoen (none found)",
+  "Independence date 21 March 1990 in a read source",
+  "Names source for 'wind corner' beyond SAHO page snippet (SAHO page read: 'Windhoek, or windy corner, is a corruption of this name in Afrikaans.')"
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "freedom-park",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZAF",
+  "name": "Freedom Park",
+  "region": "Pretoria · South Africa",
+  "subtitle": "A heritage precinct of memorial sites on Salvokop Hill, Pretoria, commemorating those who died in conflicts that shaped South Africa.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Heritage precinct of memorial sites",
+      "cite": [
+        "cap-southafrica-net-1e35f5"
+      ]
+    },
+    {
+      "label": "Reeds",
+      "value": "Semicircle of 200 reeds signifying rebirth as a nation",
+      "cite": [
+        "cap-southafrica-net-1e35f5"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Salvokop hill in Pretoria",
+      "cite": [
+        "cap-gov-za-b7128c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A heritage precinct of memorial sites on Salvokop Hill, Pretoria, commemorating those who died in conflicts that shaped South Africa. It includes S'khumbuto, a wall of names and a gallery of leaders.",
+              "cite": [
+                "cap-southafrica-net-1e35f5",
+                "cap-gov-za-b7128c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

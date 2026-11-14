@@ -1,0 +1,54 @@
+{
+  "slug": "gaborone-game-reserve",
+  "status": "draft",
+  "type": "nature",
+  "country": "BWA",
+  "name": "Gaborone Game Reserve",
+  "region": "Gaborone · Botswana",
+  "subtitle": "A small fenced reserve on the eastern edge of the city, near the Gaborone Dam.",
+  "facts": [
+    {
+      "label": "Distinctiveness",
+      "value": "One of few national reserves inside a city",
+      "cite": [
+        "cap-botswanatourism-co-bw-7c0e7d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A small fenced reserve on the eastern edge of the city, near the Gaborone Dam. It is described as one of few national reserves inside a city.",
+              "cite": [
+                "cap-botswanatourism-co-bw-7c0e7d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "gaborone-game-reserve",
+    "alt": "Photograph of Gaborone Game Reserve.",
+    "caption": "Gaborone Game Reserve.",
+    "credit": "CNJerem",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Gaborone_Game_Reserve%2C_Entrance_20200402.jpg"
+  }
+}

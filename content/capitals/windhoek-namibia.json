@@ -3,10 +3,286 @@
   "status": "draft",
   "country": "NAM",
   "name": "Windhoek",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Windhoek, capital of Namibia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 494,605 people live in Khomas Region, whose urban core is Windhoek (counted 2023).",
+      "cite": [
+        "cap-census-nsa-org-na-786765"
+      ]
+    },
+    {
+      "text": "Windhoek was founded on 18 October 1890, when Major Curt von François laid the foundation stone of the Alte Feste fort for the German protective corps (Schutztruppe).",
+      "cite": [
+        "cap-windhoekcc-org-na-82035c"
+      ]
+    },
+    {
+      "text": "The first recorded settlements grew up because of the hot springs; Nama and Herero names for the place referred to them.",
+      "cite": [
+        "cap-windhoekcc-org-na-82035c"
+      ]
+    }
+  ],
+  "places": [
+    "independence-memorial-museum",
+    "heroes-acre",
+    "namibia-craft-centre-old-breweries-building",
+    "national-art-gallery-of-namibia",
+    "daan-viljoen-game-park"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Windhoek in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Windhoek was founded on 18 October 1890, when Major Curt von François laid the foundation stone of the Alte Feste fort for the German protective corps (Schutztruppe).",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The first recorded settlements grew up because of the hot springs; Nama and Herero names for the place referred to them.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The modern name is not settled: the city says some believe Jonker Afrikaner named it after the Winterhoek Mountains near Tulbagh, South Africa.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Nama name /Ai-//Gams means Fire Water and the Herero name Otjomuise means Place of Steam; both referred to the hot springs.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Development quickened after 1907 as more settlers arrived from Germany and South Africa.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Windhoek is the capital of Namibia and is run by a municipality established under the Local Authority Act of 1992.",
+              "cite": [
+                "cap-windhoekcc-org-na-462584"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "494,605",
+              "label": "people in Khomas Region, whose urban core is Windhoek, 2023",
+              "cite": [
+                "cap-census-nsa-org-na-786765"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Khomas Region, whose urban core is Windhoek?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 494605,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "494,605 in 2023, according to the figures compiled from the national statistics office. Which area is counted matters: Total population of Khomas Region at the 2023 Population and Housing Census (NSA).",
+              "cite": [
+                "cap-census-nsa-org-na-786765"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "c. 1849",
+              "tag": "origins",
+              "text": "Orlam Captain Jan Jonker Afrikaner settles at the strongest spring in what is now Klein Windhoek.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            },
+            {
+              "when": "18 October 1890",
+              "tag": "origins",
+              "text": "Von François lays the foundation stone of the fort; the city dates its founding to this day.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            },
+            {
+              "when": "1904",
+              "tag": "growth",
+              "text": "During the 1904 Herero war the Alte Feste serves as barracks and shelter for women and children.",
+              "cite": [
+                "cap-windhoekcc-org-na-b776be"
+              ]
+            },
+            {
+              "when": "After 1907",
+              "tag": "growth",
+              "text": "Faster growth as settlers arrive from Germany and South Africa.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            },
+            {
+              "when": "12 May 1915",
+              "tag": "growth",
+              "text": "South African troops occupy Windhoek on behalf of Britain, ending German colonial rule.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            },
+            {
+              "when": "10 December 1959",
+              "tag": "growth",
+              "text": "Police shoot into a protest against forced removal from the Old Location to Katutura; 11 people are killed.",
+              "cite": [
+                "cap-namibweb-com-332f25"
+              ]
+            },
+            {
+              "when": "31 August 1968",
+              "tag": "growth",
+              "text": "The Old Location is officially closed after residents are resettled in Katutura.",
+              "cite": [
+                "cap-namibweb-com-332f25"
+              ]
+            },
+            {
+              "when": "1990",
+              "tag": "today",
+              "text": "Independence brings considerable investment to the city centre.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Windhoek in order.",
+          "items": [
+            {
+              "label": "Orlam Captain Jan Jonker Afrikaner settles at the strongest spring in what is now Klein Wi",
+              "when": "c. 1849",
+              "text": "Orlam Captain Jan Jonker Afrikaner settles at the strongest spring in what is now Klein Windhoek.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            },
+            {
+              "label": "During the 1904 Herero war the Alte Feste serves as barracks and shelter for women and chi",
+              "when": "1904",
+              "text": "During the 1904 Herero war the Alte Feste serves as barracks and shelter for women and children.",
+              "cite": [
+                "cap-windhoekcc-org-na-b776be"
+              ]
+            },
+            {
+              "label": "Police shoot into a protest against forced removal from the Old Location to Katutura; 11 p",
+              "when": "10 December 1959",
+              "text": "Police shoot into a protest against forced removal from the Old Location to Katutura; 11 people are killed.",
+              "cite": [
+                "cap-namibweb-com-332f25"
+              ]
+            },
+            {
+              "label": "Independence brings considerable investment to the city centre.",
+              "when": "1990",
+              "text": "Independence brings considerable investment to the city centre.",
+              "cite": [
+                "cap-windhoekcc-org-na-82035c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Windhoek simply means 'windy corner' in Afrikaans.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The origin is disputed. The City of Windhoek says some believe Jonker Afrikaner named it after the Winterhoek Mountains in South Africa. Older Nama and Herero names referred to the hot springs.",
+          "cite": [
+            "cap-windhoekcc-org-na-82035c"
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Windhoek-only 2023 population figure with urban definition from NSA (only Khomas Region total readable)",
+    "Not found in a readable source: When and why Windhoek became capital (no readable source stating this; only that it is the capital)",
+    "Not found in a readable source: Market place (Oshetu/Single Quarters) - only travel/search snippets, no readable institutional page",
+    "Not found in a readable source: Commons photos for Craft Centre, National Art Gallery and Daan Viljoen (none found)",
+    "Not found in a readable source: Independence date 21 March 1990 in a read source",
+    "Not found in a readable source: Names source for 'wind corner' beyond SAHO page snippet (SAHO page read: 'Windhoek, or windy corner, is a corruption of this name in Afrikaans.')",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Namibia has read this profile yet."
   ]
 }

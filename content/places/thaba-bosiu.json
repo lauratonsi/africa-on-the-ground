@@ -1,0 +1,68 @@
+{
+  "slug": "thaba-bosiu",
+  "status": "draft",
+  "type": "site",
+  "country": "LSO",
+  "name": "Thaba Bosiu",
+  "region": "Maseru · Lesotho",
+  "subtitle": "A flat-topped sandstone mountain stronghold about 20 km east of Maseru, used by Moshoeshoe I as residence and fortress.",
+  "facts": [
+    {
+      "label": "Distance",
+      "value": "About 20 km east of Maseru, about 1,800 m",
+      "cite": [
+        "cap-sahistory-org-za-482cbd"
+      ]
+    },
+    {
+      "label": "Arrival",
+      "value": "1824 per oral tradition",
+      "cite": [
+        "cap-sahistory-org-za-482cbd"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Historic and spiritual heart",
+      "cite": [
+        "cap-sahistory-org-za-482cbd"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A flat-topped sandstone mountain stronghold about 20 km east of Maseru, used by Moshoeshoe I as residence and fortress. Often called the historic and spiritual heart of the Basotho kingdom. (Not checked whether it is on the UNESCO Tentative List; verify before use.)",
+              "cite": [
+                "cap-sahistory-org-za-482cbd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "thaba-bosiu",
+    "alt": "Photograph of Thaba Bosiu.",
+    "caption": "Thaba Bosiu.",
+    "credit": "Vanellus Foto",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Thaba_Bosiu.jpg"
+  }
+}

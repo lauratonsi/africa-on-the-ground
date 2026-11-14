@@ -1,0 +1,69 @@
+{
+  "slug": "botswana-national-museum-and-art-gallery",
+  "status": "draft",
+  "type": "culture",
+  "country": "BWA",
+  "name": "Botswana National Museum and Art Gallery",
+  "region": "Gaborone · Botswana",
+  "subtitle": "The national museum in central Gaborone, with collections of traditional crafts and southern African fine art.",
+  "facts": [
+    {
+      "label": "Established (second source)",
+      "value": "1967",
+      "cite": [
+        "cap-mmegi-bw-ad75c6"
+      ]
+    },
+    {
+      "label": "Art gallery and auditorium",
+      "value": "Added in 1973",
+      "cite": [
+        "cap-mmegi-bw-ad75c6"
+      ]
+    },
+    {
+      "label": "Holdings",
+      "value": "Traditional crafts and southern African fine art",
+      "cite": [
+        "cap-botswanatourism-co-bw-7c0e7d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The national museum in central Gaborone, with collections of traditional crafts and southern African fine art. It also includes the National Art Gallery, the Octagon Gallery and, since 2007, the National Botanical Garden.",
+              "cite": [
+                "cap-mmegi-bw-ad75c6",
+                "cap-botswanatourism-co-bw-7c0e7d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "botswana-national-museum-and-art-gallery",
+    "alt": "Photograph of Botswana National Museum and Art Gallery.",
+    "caption": "Botswana National Museum and Art Gallery.",
+    "credit": "CNJerem",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Gaborone_National_Museum_20200211.jpg"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "rietvlei-nature-reserve",
+  "status": "draft",
+  "type": "nature",
+  "country": "ZAF",
+  "name": "Rietvlei Nature Reserve",
+  "region": "Pretoria · South Africa",
+  "subtitle": "A nature reserve built around a dam, a short distance from Pretoria in the Tshwane municipality.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Close to Pretoria, in Tshwane",
+      "cite": [
+        "cap-southafrica-net-6ef4de"
+      ]
+    },
+    {
+      "label": "Habitat",
+      "value": "Endangered Bankenveld grassland",
+      "cite": [
+        "cap-southafrica-net-6ef4de"
+      ]
+    },
+    {
+      "label": "History",
+      "value": "Dam dug in the 1930s; reserve proclaimed and opened 1948",
+      "cite": [
+        "cap-southafrica-net-6ef4de"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A nature reserve built around a dam, a short distance from Pretoria in the Tshwane municipality. It protects grassland and wildlife.",
+              "cite": [
+                "cap-southafrica-net-6ef4de"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

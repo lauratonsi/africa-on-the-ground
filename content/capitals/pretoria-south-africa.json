@@ -3,10 +3,280 @@
   "status": "draft",
   "country": "ZAF",
   "name": "Pretoria",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Pretoria, capital of South Africa: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 4,040,315 people live in the City of Tshwane metropolitan area, which includes Pretoria (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-84ced9"
+      ]
+    },
+    {
+      "text": "Pretoria was founded in 1855 by Marthinus Pretorius, who named it after his father Andries Pretorius, a Voortrekker leader; he bought the farms Elandspoort and Koedoespoort to create a town for the new Transvaal state.",
+      "cite": [
+        "cap-sahistory-org-za-322ac3"
+      ]
+    },
+    {
+      "text": "Pretoria became the capital of the Transvaal in 1860, replacing Potchefstroom.",
+      "cite": [
+        "cap-sahistory-org-za-322ac3"
+      ]
+    }
+  ],
+  "places": [
+    "union-buildings",
+    "pretoria-art-museum",
+    "ditsong-national-museum-of-natural-history-forme",
+    "rietvlei-nature-reserve",
+    "freedom-park"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Pretoria in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pretoria was founded in 1855 by Marthinus Pretorius, who named it after his father Andries Pretorius, a Voortrekker leader; he bought the farms Elandspoort and Koedoespoort to create a town for the new Transvaal state.",
+              "cite": [
+                "cap-sahistory-org-za-322ac3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pretoria became the capital of the Transvaal in 1860, replacing Potchefstroom.",
+              "cite": [
+                "cap-sahistory-org-za-322ac3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Name origin: named after Andries Pretorius (Voortrekker leader) by his son Marthinus. The alternative name Tshwane is explained by SAHO as a Setswana word, with other theories also given.",
+              "cite": [
+                "cap-sahistory-org-za-5c8aea"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "South Africa has three capitals: Pretoria is the administrative (executive) capital, Cape Town the legislative capital where Parliament sits, Bloemfontein the judicial capital with the Supreme Court of Appeal.",
+              "cite": [
+                "cap-gov-za-8b7427"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The split came from negotiations between Britain and the defeated Boer republics; the administration was based in Pretoria (capital of the Transvaal), Parliament in Cape Town, the judiciary in Bloemfontein (capital of the Orange Free State). The Constitutional Court now sits in Johannesburg.",
+              "cite": [
+                "cap-cfr-org-5e5f2a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pretoria achieved official city status on 14 October 1931.",
+              "cite": [
+                "cap-sahistory-org-za-124836"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "4,040,315",
+              "label": "people in the City of Tshwane metropolitan area, which includes Pretoria, 2022",
+              "cite": [
+                "cap-citypopulation-de-84ced9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the City of Tshwane metropolitan area, which includes Pretoria?",
+          "min": 0,
+          "max": 20000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 4040315,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "4,040,315 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: City of Tshwane Metropolitan Municipality (the whole metro, about 6,298 km2, which includes Pretoria, Centurion, Mamelodi etc.), Census 2022 count.",
+              "cite": [
+                "cap-citypopulation-de-84ced9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1855",
+              "tag": "origins",
+              "text": "Marthinus Pretorius founds the town on two farms, naming it for his father Andries Pretorius.",
+              "cite": [
+                "cap-sahistory-org-za-322ac3"
+              ]
+            },
+            {
+              "when": "1860",
+              "tag": "origins",
+              "text": "Pretoria becomes capital of the Transvaal (South African Republic), replacing Potchefstroom.",
+              "cite": [
+                "cap-sahistory-org-za-322ac3"
+              ]
+            },
+            {
+              "when": "1910",
+              "tag": "growth",
+              "text": "With the Union of South Africa, Pretoria becomes the administrative capital; the Union Buildings (completed 1913) house the administration.",
+              "cite": [
+                "cap-sahistory-org-za-5c8aea"
+              ]
+            },
+            {
+              "when": "1931",
+              "tag": "growth",
+              "text": "Pretoria is granted official city status.",
+              "cite": [
+                "cap-sahistory-org-za-124836"
+              ]
+            },
+            {
+              "when": "1960",
+              "tag": "growth",
+              "text": "Under apartheid-era group areas policy, Laudium is set aside as the residential area for Pretoria's Indian population (Group Areas Act of 1950 described as the cornerstone of apartheid).",
+              "cite": [
+                "cap-sahistory-org-za-e30b65"
+              ]
+            },
+            {
+              "when": "1994",
+              "tag": "today",
+              "text": "Nelson Mandela, South Africa's first democratically elected President, is inaugurated at the Union Buildings.",
+              "cite": [
+                "cap-sahistory-org-za-5ab083"
+              ]
+            },
+            {
+              "when": "2005",
+              "tag": "today",
+              "text": "The South African Geographical Names Council approves the name Tshwane for the city; the change was later rejected by many of Pretoria's citizens and the city is still commonly called Pretoria.",
+              "cite": [
+                "cap-sahistory-org-za-e76d39"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Pretoria in order.",
+          "items": [
+            {
+              "label": "Marthinus Pretorius founds the town on two farms, naming it for his father Andries Pretori",
+              "when": "1855",
+              "text": "Marthinus Pretorius founds the town on two farms, naming it for his father Andries Pretorius.",
+              "cite": [
+                "cap-sahistory-org-za-322ac3"
+              ]
+            },
+            {
+              "label": "With the Union of South Africa, Pretoria becomes the administrative capital; the Union Bui",
+              "when": "1910",
+              "text": "With the Union of South Africa, Pretoria becomes the administrative capital; the Union Buildings (completed 1913) house the administration.",
+              "cite": [
+                "cap-sahistory-org-za-5c8aea"
+              ]
+            },
+            {
+              "label": "Under apartheid-era group areas policy, Laudium is set aside as the residential area for P",
+              "when": "1960",
+              "text": "Under apartheid-era group areas policy, Laudium is set aside as the residential area for Pretoria's Indian population (Group Areas Act of 1950 described as the cornerstone of apartheid).",
+              "cite": [
+                "cap-sahistory-org-za-e30b65"
+              ]
+            },
+            {
+              "label": "The South African Geographical Names Council approves the name Tshwane for the city; the c",
+              "when": "2005",
+              "text": "The South African Geographical Names Council approves the name Tshwane for the city; the change was later rejected by many of Pretoria's citizens and the city is still commonly called Pretoria.",
+              "cite": [
+                "cap-sahistory-org-za-e76d39"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Pretoria is South Africa's only capital.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "South Africa has three capitals: Pretoria (administrative/executive), Cape Town (legislative) and Bloemfontein (judicial).",
+          "cite": [
+            "cap-gov-za-8b7427"
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Population from a Stats SA or UN page directly (only citypopulation.de/Mzansi Mirror relaying Stats SA); no Pretoria urban-area figure",
+    "Not found in a readable source: A market place (Marabastad only seen in search snippets and SAHO segregation page, no readable market source)",
+    "Not found in a readable source: University or library place (UP pages 403)",
+    "Not found in a readable source: Architect of Pretoria Art Museum",
+    "Not found in a readable source: Official/precise sourcing on what happened to the 2005 renaming after SAGNC approval (SAHO page says 'approved' but also 'changed in 2005' loosely; Minister's decision not confirmed in a read page)",
+    "Not found in a readable source: Precise statement of Pretoria's executive role from a government page beyond 'administrative capital'; SAHO founding article also says 'administrative capital since 1994', which conflicts with SAHO's 1910, so I used 1910",
+    "Not found in a readable source: Apartheid-era Pretoria beyond Laudium 1960 quote; Voortrekker republic detail limited to 1855/1860",
+    "Note: quotes were extracted via WebFetch summaries of the pages, so verify wording before publishing",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from South Africa has read this profile yet."
   ]
 }

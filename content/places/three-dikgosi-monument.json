@@ -1,0 +1,76 @@
+{
+  "slug": "three-dikgosi-monument",
+  "status": "draft",
+  "type": "site",
+  "country": "BWA",
+  "name": "Three Dikgosi Monument",
+  "region": "Gaborone · Botswana",
+  "subtitle": "A bronze sculpture in the Gaborone central business district showing three Batswana chiefs who travelled to Britain in 1895.",
+  "facts": [
+    {
+      "label": "Who it depicts",
+      "value": "Khama III, Sebele I and Bathoen I",
+      "cite": [
+        "cap-commonwealthwalkway-info-8ee667"
+      ]
+    },
+    {
+      "label": "Inaugurated",
+      "value": "29 September 2005",
+      "cite": [
+        "cap-commonwealthwalkway-info-8ee667"
+      ]
+    },
+    {
+      "label": "Material and place",
+      "value": "Bronze sculpture, Gaborone CBD",
+      "cite": [
+        "cap-commonwealthwalkway-info-8ee667"
+      ]
+    },
+    {
+      "label": "Significance",
+      "value": "Marks a turning point in Botswana's history (tourism board)",
+      "cite": [
+        "cap-botswanatourism-co-bw-7c0e7d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A bronze sculpture in the Gaborone central business district showing three Batswana chiefs who travelled to Britain in 1895. It was inaugurated in 2005.",
+              "cite": [
+                "cap-commonwealthwalkway-info-8ee667",
+                "cap-botswanatourism-co-bw-7c0e7d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "three-dikgosi-monument",
+    "alt": "Photograph of Three Dikgosi Monument.",
+    "caption": "Three Dikgosi Monument.",
+    "credit": "CivArmy",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Three_Dikgosi_Monument%2C_Gaborone%2C_Botswana.jpg"
+  }
+}

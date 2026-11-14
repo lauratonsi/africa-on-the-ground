@@ -3,10 +3,215 @@
   "status": "draft",
   "country": "LSO",
   "name": "Maseru",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Maseru, capital of Lesotho: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 343,541 people live in the Maseru urban centre (counted 2016).",
+      "cite": [
+        "cap-citypopulation-de-3932ec"
+      ]
+    },
+    {
+      "text": "Maseru was proclaimed the capital of the Basotho people in 1869 by Moshoeshoe I, when it was a modest trading outpost.",
+      "cite": [
+        "cap-ebsco-com-42032d"
+      ]
+    },
+    {
+      "text": "In the same year colonial forces made Maseru administrative headquarters of the British Basutoland Protectorate. (Note: other sources say it began as a British police camp; accounts differ on who founded it.)",
+      "cite": [
+        "cap-ebsco-com-42032d"
+      ]
+    }
+  ],
+  "places": [
+    "basotho-hat-mokorotlo-building",
+    "thaba-bosiu",
+    "lesotho-national-museum"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Maseru in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Maseru was proclaimed the capital of the Basotho people in 1869 by Moshoeshoe I, when it was a modest trading outpost.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the same year colonial forces made Maseru administrative headquarters of the British Basutoland Protectorate. (Note: other sources say it began as a British police camp; accounts differ on who founded it.)",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Since then the city has expanded rapidly, with problems such as poverty and overcrowding.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "343,541",
+              "label": "people in the Maseru urban centre, 2016",
+              "cite": [
+                "cap-citypopulation-de-3932ec"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Maseru urban centre?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 343541,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "343,541 in 2016, according to the figures compiled from the national statistics office. Which area is counted matters: Maseru urban centre, 2016 census (Lesotho Bureau of Statistics figures as compiled by citypopulation.de).",
+              "cite": [
+                "cap-citypopulation-de-3932ec"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1869",
+              "tag": "origins",
+              "text": "Maseru proclaimed capital of the Basotho and made administrative headquarters of the British Basutoland Protectorate.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            },
+            {
+              "when": "1993",
+              "tag": "growth",
+              "text": "Constitutional governance restored after several years of military rule.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            },
+            {
+              "when": "1998",
+              "tag": "growth",
+              "text": "Disputed elections led to violent unrest that left much of Maseru in ruins.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            },
+            {
+              "when": "September 1998",
+              "tag": "growth",
+              "text": "During the South African-led intervention, most of Maseru's central business district was burned and looted.",
+              "cite": [
+                "cap-mg-co-za-148962"
+              ]
+            },
+            {
+              "when": "April 2016",
+              "tag": "today",
+              "text": "Lesotho's sixth scientific census was conducted; Maseru district held about a quarter of the population.",
+              "cite": [
+                "cap-ihsn-org-3524a4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Maseru in order.",
+          "items": [
+            {
+              "label": "Maseru proclaimed capital of the Basotho and made administrative headquarters of the Briti",
+              "when": "1869",
+              "text": "Maseru proclaimed capital of the Basotho and made administrative headquarters of the British Basutoland Protectorate.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            },
+            {
+              "label": "Constitutional governance restored after several years of military rule.",
+              "when": "1993",
+              "text": "Constitutional governance restored after several years of military rule.",
+              "cite": [
+                "cap-ebsco-com-42032d"
+              ]
+            },
+            {
+              "label": "During the South African-led intervention, most of Maseru's central business district was ",
+              "when": "September 1998",
+              "text": "During the South African-led intervention, most of Maseru's central business district was burned and looted.",
+              "cite": [
+                "cap-mg-co-za-148962"
+              ]
+            },
+            {
+              "label": "Lesotho's sixth scientific census was conducted; Maseru district held about a quarter of t",
+              "when": "April 2016",
+              "text": "Lesotho's sixth scientific census was conducted; Maseru district held about a quarter of the population.",
+              "cite": [
+                "cap-ihsn-org-3524a4"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Origin of the name from a museum/university/academic source (only a blog and a travel magazine read)",
+    "Not found in a readable source: Official Bureau of Statistics city-level 2016 figure for Maseru (only district-level preliminary report and a compiler page read); no UN data read",
+    "Not found in a readable source: Why Maseru was chosen as capital beyond one-line statements; independence 1966 not sourced from a read page",
+    "Not found in a readable source: Market, nature reserve/park, university/library places: no readable adequate source (NUL home page read but gives only 'operating since 1945' and is located elsewhere, not verified Roma)",
+    "Not found in a readable source: Photo for Lesotho National Museum",
+    "Not found in a readable source: Common misconception",
+    "Left out because only weak or unofficial sources supported them (7 items, for example: The city began as a police camp before becoming the national capital under British protect).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Lesotho has read this profile yet."
   ]
 }

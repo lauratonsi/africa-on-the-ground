@@ -1,0 +1,67 @@
+{
+  "slug": "thapong-visual-arts-centre",
+  "status": "draft",
+  "type": "culture",
+  "country": "BWA",
+  "name": "Thapong Visual Arts Centre",
+  "region": "Gaborone · Botswana",
+  "subtitle": "An artists' centre in an old building in Gaborone Village, with studios for local artists.",
+  "facts": [
+    {
+      "label": "Workshop founded",
+      "value": "1989",
+      "cite": [
+        "cap-mmegi-bw-289a1e"
+      ]
+    },
+    {
+      "label": "Home",
+      "value": "An old building in Gaborone Village",
+      "cite": [
+        "cap-mmegi-bw-289a1e"
+      ]
+    },
+    {
+      "label": "Prize",
+      "value": "Thapong Artist of the Year award",
+      "cite": [
+        "cap-mmegi-bw-289a1e"
+      ]
+    },
+    {
+      "label": "Mission",
+      "value": "Promote unity and excellence in the visual arts",
+      "cite": [
+        "cap-trianglenetwork-org-338455"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An artists' centre in an old building in Gaborone Village, with studios for local artists. It grew out of the Thapong International Artists' Workshop founded in 1989.",
+              "cite": [
+                "cap-mmegi-bw-289a1e",
+                "cap-trianglenetwork-org-338455"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

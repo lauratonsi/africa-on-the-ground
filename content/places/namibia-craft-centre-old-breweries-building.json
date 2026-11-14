@@ -1,0 +1,68 @@
+{
+  "slug": "namibia-craft-centre-old-breweries-building",
+  "status": "draft",
+  "type": "market",
+  "country": "NAM",
+  "name": "Namibia Craft Centre (Old Breweries building)",
+  "region": "Windhoek · Namibia",
+  "subtitle": "A craft shop in the former brewery building on Tal Street.",
+  "facts": [
+    {
+      "label": "Opened as craft centre",
+      "value": "1990",
+      "cite": [
+        "cap-namibian-com-na-c5a503"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Old Breweries building on Tal Street",
+      "cite": [
+        "cap-namibian-com-na-c5a503"
+      ]
+    },
+    {
+      "label": "Brewery dedicated",
+      "value": "12 May 1902",
+      "cite": [
+        "cap-windhoekcc-org-na-7e4c36"
+      ]
+    },
+    {
+      "label": "Later planned role",
+      "value": "Alte Feste to host a new Craft Centre location and the National Genocide Museum",
+      "cite": [
+        "cap-windhuk-diplo-de-269577"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A craft shop in the former brewery building on Tal Street. It sells work from artists and crafters.",
+              "cite": [
+                "cap-namibian-com-na-c5a503",
+                "cap-windhoekcc-org-na-7e4c36",
+                "cap-windhuk-diplo-de-269577"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

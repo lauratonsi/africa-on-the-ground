@@ -1,0 +1,67 @@
+{
+  "slug": "independence-memorial-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "NAM",
+  "name": "Independence Memorial Museum",
+  "region": "Windhoek · Namibia",
+  "subtitle": "A national museum on the anti-colonial and independence struggle.",
+  "facts": [
+    {
+      "label": "Opened",
+      "value": "20 March 2014",
+      "cite": [
+        "cap-museums-com-na-054d5b"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "Dedicated to the anti-colonial and independence struggle",
+      "cite": [
+        "cap-windhoekcc-org-na-065538"
+      ]
+    },
+    {
+      "label": "Galleries",
+      "value": "Three galleries on resistance and armed liberation struggle",
+      "cite": [
+        "cap-museums-com-na-054d5b"
+      ]
+    },
+    {
+      "label": "View",
+      "value": "Glass elevator on the outside of the building with views over the city",
+      "cite": [
+        "cap-windhoekcc-org-na-065538"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A national museum on the anti-colonial and independence struggle. It opened in 2014 and shows this history across three galleries.",
+              "cite": [
+                "cap-museums-com-na-054d5b",
+                "cap-windhoekcc-org-na-065538"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

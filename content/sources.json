@@ -3031,5 +3031,475 @@
     "status": "verified",
     "note": "A food blog recipe for eight, with each part cooked separately. Read from the page's structured recipe data and used only to compare quantities with the main recipe; the author's ties to Egypt were not verified.",
     "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-c30049",
+    "title": "Botswana: Cities (census table)",
+    "publisher": "citypopulation.de (credits Statistics Botswana)",
+    "url": "https://www.citypopulation.de/en/botswana/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “2022-03-18 | 246,325” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-botswanatourism-co-bw-7c0e7d",
+    "title": "Gaborone",
+    "publisher": "Botswana Tourism Organisation",
+    "url": "https://www.botswanatourism.co.bw/index.php/explore/gaborone",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Gaborone literally means 'it does not fit badly' or 'it is not unbecoming'.” The address was written with https; if it does not open, use the http form.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mmegi-bw-cfc712",
+    "title": "50 years of Botswana's visual arts",
+    "publisher": "Mmegi Online (Spira Tlhankane · 2016-09-28)",
+    "url": "https://mmegi.bw/ampArticle/198808",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The National Museum was established in Gaborone in 1967”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ub-bw-6303e9",
+    "title": "History of UB",
+    "publisher": "University of Botswana",
+    "url": "https://www.ub.bw/about-ub/history",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “formal inauguration of the University of Botswana was performed on October 23, 1982”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-commonwealthwalkway-info-8ee667",
+    "title": "The Three Dikgosi Monument - Commonwealth Walkway",
+    "publisher": "Commonwealth Walkway",
+    "url": "https://commonwealthwalkway.info/place/the-three-dikgosi-monument/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The monument was inaugurated on 29 September 2005 by Festus Mogae, President of Botswana at the time.” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mmegi-bw-ad75c6",
+    "title": "Botswana National Museum and Art Gallery (Know Your Museums)",
+    "publisher": "Mmegi (2018-05-04)",
+    "url": "https://mmegi.bw/ampArticle/208389",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Established in 1967”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mmegi-bw-289a1e",
+    "title": "50 years of Botswana's visual arts",
+    "publisher": "Mmegi (Mompati Tlhankane · 2016-05-28)",
+    "url": "https://www.mmegi.bw/ampArticle/88880",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Thapong International Artists' Workshop was established in 1989”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-trianglenetwork-org-338455",
+    "title": "Thapong, Botswana",
+    "publisher": "Triangle Network",
+    "url": "https://www.trianglenetwork.org/triangle-network/partners/thapong",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “seeks to promote unity and excellence within the Visual Arts in Botswana in all communities”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ub-bw-6b6af5",
+    "title": "About UB",
+    "publisher": "University of Botswana",
+    "url": "https://www.ub.bw/about-ub",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Plot 4775 Notwane Rd.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-3932ec",
+    "title": "Lesotho: Districts, Urban Centers & Peri-Urban Centers",
+    "publisher": "citypopulation.de (citing Lesotho Bureau of Statistics)",
+    "url": "https://www.citypopulation.de/en/lesotho/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Maseru includes population from Berea district.” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ebsco-com-42032d",
+    "title": "Maseru, Lesotho (Research Starter)",
+    "publisher": "EBSCO (Beverly Ballaro · 2022)",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maseru-lesotho",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Maseru existed as a modest trading outpost when Moshoeshoe I proclaimed it the capital of the Basotho people in 1869.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mg-co-za-148962",
+    "title": "SANDF's chaotic invasion",
+    "publisher": "Mail & Guardian (Staff Reporter · 1998-09-25)",
+    "url": "https://mg.co.za/news/south-africa/1998-09-25-sandf-s-chaotic-invasion/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “burning down most of Maseru's central business district and looting whatever remained of the city.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ihsn-org-3524a4",
+    "title": "2016 Population and Housing Census Preliminary Results Report",
+    "publisher": "Lesotho Bureau of Statistics, Ministry of Development Planning (with UNFPA) (October 2016)",
+    "url": "https://catalog.ihsn.org/catalog/8293/download/89061/2016_POPULATION_AND_HOUSING_CENSUS_PRELIMINARY_RESULTS.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “approximately one quarter of the population resides in Maseru with estimated 25.8 percent”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-southafrica-net-841e4b",
+    "title": "The culture of Basotho: history, people, clothing and food",
+    "publisher": "South African Tourism (Libe Mohale)",
+    "url": "https://www.southafrica.net/mw/en/travel/article/the-culture-of-basotho-history-people-clothing-and-food",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Its shape is said to have been copied from that of Qiloane Mountain which is located next to Thaba Bosiu in Lesotho.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-482cbd",
+    "title": "Thaba Bosiu, Lesotho",
+    "publisher": "South African History Online (2020-11-11)",
+    "url": "https://sahistory.org.za/place/thaba-bosiu-lesotho",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “only 20km East of Maseru”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-peaceparks-org-9f344e",
+    "title": "Lesotho is part of world's heritage",
+    "publisher": "Peace Parks Foundation (2005-03-03)",
+    "url": "https://www.peaceparks.org/lesotho-is-part-of-worlds-heritage/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “the national museum where archeological remains are held.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-84ced9",
+    "title": "City of Tshwane (Pretoria) - Census 2022",
+    "publisher": "City Population (citypopulation.de), citing Statistics South Africa (Census date 2022)",
+    "url": "https://www.citypopulation.de/en/southafrica/admin/gauteng/TSH__city_of_tshwane",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Source: Statistics South Africa.” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-322ac3",
+    "title": "Pretoria: The Founding of the City",
+    "publisher": "South African History Online (South African History Online (no individual author) · 2016-04-14 (updated 2026-07-20))",
+    "url": "https://sahistory.org.za/af/article/pretoria-founding-city",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “By end of 1855, the two farms were officially declared as a town.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-5c8aea",
+    "title": "Pretoria, now known as Tshwane",
+    "publisher": "South African History Online (South African History Online · 2011-03-29 (updated 2026-09-17))",
+    "url": "https://www.sahistory.org.za/place/pretoria",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Founded in 1855 by Marthinus Pretorius, son of Andries Pretorius”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-gov-za-8b7427",
+    "title": "South Africa's provinces",
+    "publisher": "South African Government (gov.za)",
+    "url": "https://www.gov.za/node/67",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “is the judicial capital and home to the Supreme Court of Appeal.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-cfr-org-5e5f2a",
+    "title": "South Africa's Three Capitals",
+    "publisher": "Council on Foreign Relations (John Campbell · 2016-02-25)",
+    "url": "https://www.cfr.org/articles/south-africas-three-capitals",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The administration was based in Pretoria”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-124836",
+    "title": "Pretoria receives city status",
+    "publisher": "South African History Online (South African History Online · 2011-03-16 (updated 2020-10-13))",
+    "url": "https://www.sahistory.org.za/dated-event/pretoria-receives-city-status",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “On 14 October 1931, Pretoria achieved official city status.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-e30b65",
+    "title": "Pretoria the Segregated city",
+    "publisher": "South African History Online (South African History Online · 2011-03-29 (updated 2026-07-20))",
+    "url": "https://sahistory.org.za/article/pretoria-segregated-city",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “was set aside as the new residential area for the Indian population of Pretoria”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-5ab083",
+    "title": "Union Buildings, Pretoria",
+    "publisher": "South African History Online (South African History Online · 2011-07-14 (updated 2026-07-20))",
+    "url": "https://www.sahistory.org.za/place/union-buildings-pretoria",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Inauguration of South Africa's first democratically elected President, Nelson Mandela.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-e76d39",
+    "title": "Pretoria (Tshwane): The Naming of a City",
+    "publisher": "South African History Online (South African History Online · 2016-04-14 (updated 2026-07-20))",
+    "url": "https://www.sahistory.org.za/article/pretoria-tshwane-naming-city",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “This new name was approved on 26 May 2005, by the South African Geographical Names Council (SAGNC)”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-theheritageportal-co-za-36b698",
+    "title": "The Birth of the Union Buildings",
+    "publisher": "The Heritage Portal (Claus Schutte · 2016-03-05)",
+    "url": "https://www.theheritageportal.co.za/article/birth-union-buildings",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “I thought this site unworthy of the capital buildings of the now united South Africa.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-f3b3c8",
+    "title": "Pretoria Art Museum",
+    "publisher": "South African History Online (South African History Online · 2017-05-29 (updated 2025-09-07))",
+    "url": "https://sahistory.org.za/place/pretoria-art-museum",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “opened its doors to the public on 20 May 1964.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ditsong-org-za-09d305",
+    "title": "Ditsong: National Museum of Natural History",
+    "publisher": "Ditsong Museums of South Africa",
+    "url": "https://ditsong.org.za/en/our-museums/ditsong-national-museum-of-natural-history/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “founded as the Staatsmuseum of the ZAR on the 1st of December 1892”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-sahistory-org-za-75e0b8",
+    "title": "Transvaal Museum, now known as the National Museum of Natural History",
+    "publisher": "South African History Online (South African History Online · 2011-07-14 (updated 2026-07-20))",
+    "url": "https://www.sahistory.org.za/place/transvaal-museum-now-known-national-museum-natural-history",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The museum is the home of \"Mrs Ples.\"”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-southafrica-net-6ef4de",
+    "title": "Rietvlei Nature Reserve - a land of water",
+    "publisher": "South African Tourism",
+    "url": "https://www.southafrica.net/gl/en/travel/article/rietvlei-nature-reserve-a-land-of-water",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “A stone's throw away from South Africa's capital, the city of Pretoria in Tshwane Municipality.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-southafrica-net-1e35f5",
+    "title": "Freedom Park, Pretoria: monument to South Africa's liberation struggle in Gauteng",
+    "publisher": "South African Tourism",
+    "url": "https://southafrica.net/gl/en/travel/article/freedom-park-pretoria-monument-to-south-africa-s-liberation-struggle-in-gauteng",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “a multifaceted heritage precinct that consists of a series of memorial sites”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-gov-za-b7128c",
+    "title": "FREEDOM PARK",
+    "publisher": "Vuk'uzenzele (Government Communication, gov.za) (Ndivhuwo Khangale · 2007-09)",
+    "url": "https://vukuzenzele.gov.za/freedom-park",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “This heritage site on the Salvokop hill in Pretoria.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-census-nsa-org-na-786765",
+    "title": "Khomas – Namibia Statistics Agency | Census Disemination",
+    "publisher": "Namibia Statistics Agency (2024)",
+    "url": "https://census.nsa.org.na/khomas-region/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Total Population 494,605”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-82035c",
+    "title": "History and Heritage",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/history-and-heritage/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The present Windhoek was founded on 18 October 1890 when Von Francois laid the foundation stone of the fort”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-462584",
+    "title": "About Us",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/about-us/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Windhoek is the capital city of Namibia”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-b776be",
+    "title": "Alte Feste",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/alte-feste/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “This fortress served as a barracks and shelter for women and children during the 1904 Herero war.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-namibweb-com-332f25",
+    "title": "History of Old Location and Katutura | Namibia",
+    "publisher": "namibweb.com",
+    "url": "https://www.namibweb.com/hiskat.htm",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The police shot and killed 11 people and some 44 required medical attention.” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-museums-com-na-054d5b",
+    "title": "Independence Museum",
+    "publisher": "Museums Association of Namibia",
+    "url": "https://www.museums.com.na/museums/windhoek/independence-museum",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “inaugurated on 20 March 2014”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-065538",
+    "title": "Independence Memorial Museum",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/independence-memorial-museum/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The museum was opened on 20 March 2014 and it is dedicated to the country’s anti colonial and independence struggle.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-0fff92",
+    "title": "Heroes' Acre",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/heroes-acre/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “inaugurated by His Excellency, Dr. Sam Nujoma, Founding President of the Republic of Namibia, on 26 August 2002”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-namibian-com-na-c5a503",
+    "title": "Namibia Craft Centre Where Creativity Comes To Life",
+    "publisher": "The Namibian (Netumbo Nekomba · 22 July 2016)",
+    "url": "https://www.namibian.com.na/namibia-craft-centre-where-creativity-comes-to-life/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Officially opened in 1990 under Newveld Ventures”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-7e4c36",
+    "title": "Old Brewery on the corner of Sam Nujoma and Tal Streets",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/old-brewery-on-the-corner-of-sam-nujoma-and-tal-streets/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “it was dedicated on May 12, 1902”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhuk-diplo-de-269577",
+    "title": "Germany Supports Renovation of the Alte Feste Building",
+    "publisher": "Federal Foreign Office (German Embassy Windhoek) (11 February 2025)",
+    "url": "https://windhuk.diplo.de/na-en/2701370-2701370",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “a new location for the Namibia Craft Centre and the National Genocide Museum”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-windhoekcc-org-na-144c2e",
+    "title": "National Art Gallery",
+    "publisher": "City of Windhoek",
+    "url": "https://www.windhoekcc.org.na/national-art-gallery/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “the goal of this institution is to preserve and encourage art in Namibia.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-nagn-org-na-1e3a94",
+    "title": "Vision, Mission and Values",
+    "publisher": "National Art Gallery of Namibia",
+    "url": "https://nagn.org.na/vision-mission-and-values/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “It was founded in 1990.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-visitnamibia-com-na-d8c4ac",
+    "title": "Daan Viljoen Game Park",
+    "publisher": "Namibia Tourism Board (Visit Namibia)",
+    "url": "https://visitnamibia.com.na/2022/02/daan-viljoen-game-park/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Just 24 km west of Windhoek lies a sanctuary.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-botswanatourism-co-bw-c6d5f4",
+    "title": "Gaborone",
+    "publisher": "Botswana Tourism Organisation",
+    "url": "https://www.botswanatourism.co.bw/index.php/explore/gaborone",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Gaborone literally means 'it does not fit badly' or 'it is not unbecoming'.”",
+    "retrieved": "2026-11-14"
   }
 ]
