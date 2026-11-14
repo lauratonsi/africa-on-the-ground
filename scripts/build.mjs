@@ -1471,6 +1471,36 @@ function renderPlaces() {
 }
 
 // ---------- pagina Capitals: il dato della capitale e lo stato della scheda urbana ----------
+// Profilo di una capitale: stessa famiglia di blocchi delle storie, più i luoghi da vedere collegati.
+function renderCapital(c) {
+  const { cite, list: sourcesList } = makeCiter();
+  const country = cName[c.country] || c.country;
+  const typeLabel = Object.fromEntries((config.placeTypes || []).map((t) => [t.id, t.label]));
+  const block = (b) => {
+    if (b.type === "facts") return `<dl class="facts">${c.facts.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${cite(f.cite)}</dd></div>`).join("")}</dl>`;
+    return renderRich(b, cite, { up: "../../" });
+  };
+  const keyHtml = c.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${c.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
+  const secs = (c.sections || []).map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map(block).join("")}</section>`).join("\n");
+  const seeing = (c.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean);
+  const seeHtml = seeing.length ? `<section id="sec-places" class="cap-places"><h2>Places to see in ${esc(c.name)}</h2><ul class="cap-list">${seeing.map((x) => `<li><a href="../../places/${esc(x.slug)}/index.html">${x.image ? `<img src="../../img/places/${esc(x.image.file)}-800.jpg" alt="" width="96" height="72" loading="lazy">` : `<span class="cap-ph" aria-hidden="true">${esc(x.name.charAt(0))}</span>`}<span><strong>${esc(x.name)}</strong><small>${esc(typeLabel[x.type] || x.type)}</small><em>${esc(x.subtitle)}</em></span></a></li>`).join("")}</ul></section>` : "";
+  const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${(c.gaps || []).map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
+  const nList = (notes[`capital-${c.slug}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
+  const voices = `<section class="story-voices" id="voices" aria-labelledby="voices-h"><span class="layer-tag voi">From people who know ${esc(c.name)}</span><h2 id="voices-h">What readers add</h2>
+${nList.length ? `<div class="notes">${nList.map((n) => noteCard(n, config.noteKinds || [])).join("")}</div>` : `<div class="empty"><strong>No local voice on this city yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people from the place afterwards.</span></div>`}
+${shareSection({ type: "capital", id: c.slug, name: c.name, kinds: config.noteKinds || [], heading: `Do you know ${c.name}?`, intro: "Tell us what a visitor should know, or what looks wrong here.", depth: 2 })}
+</section>`;
+  const cSlugC = cSlug[c.country] ? `<li>Country page: <a href="../../countries/${esc(cSlug[c.country])}/index.html">${esc(country)}</a></li>` : "";
+  const body = `${compactHero({ kicker: `Capital · ${country}`, title: c.name, sub: c.subtitle })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+${seeHtml}
+${gaps}
+${voices}
+<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${cSlugC}<li><a href="../index.html">All capitals</a></li></ul></aside>
+${sourcesList()}</article></div>`;
+  return layout({ title: `${c.name} · ${country} · ${config.name}`, description: c.subtitle, depth: 2, current: "capitals", body, extraScripts: ["story.js", "recipe.js", "share.js"], jump: [...(c.sections || []).map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 4), ...(seeing.length ? [{ id: "sec-places", label: "To see" }] : []), { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+}
+
 function renderCapitals() {
   const countries = data.countries ? data.countries.countries : [];
   const norm = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -1501,6 +1531,11 @@ function renderCapitals() {
 }
 
 write("capitals/index.html", renderCapitals());
+for (const { data: c } of capitals) {
+  if (c.status !== "published" && !includeDrafts) continue;
+  if (!(c.sections || []).length) continue; // bozza vuota: nessuna pagina
+  write(`capitals/${c.slug}/index.html`, renderCapital(c));
+}
 
 write("404.html", `<!doctype html>
 <html lang="${esc(config.lang)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>Page not found · ${esc(config.name)}</title>

@@ -64,7 +64,7 @@ const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 const RICH = new Set(["chart", "stat", "callout", "reveal", "figure", "estimate", "check", "order", "table", "recipe"]);
 
-export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [], countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -328,6 +328,44 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     (st.keyPoints || []).forEach((x) => collect(x.cite));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
   }
+  // --- profili delle capitali: stessa famiglia di blocchi delle storie; le bozze vuote sono ammesse, i profili pubblicati no
+  const capSlugs = new Set();
+  for (const { file, data: c } of capitals) {
+    const w = `capitals/${file}`;
+    if (!c.slug || !SLUG.test(c.slug)) err(`${w}: slug mancante o non valido.`);
+    else if (`${c.slug}.json` !== file) err(`${w}: lo slug "${c.slug}" deve coincidere con il nome del file.`);
+    if (capSlugs.has(c.slug)) err(`${w}: slug duplicato.`);
+    capSlugs.add(c.slug);
+    if (!["draft", "published"].includes(c.status)) err(`${w}: status deve essere "draft" o "published".`);
+    if (!/^[A-Z]{3}$/.test(c.country || "") || (countries && !(countries.countries || []).some((x) => x.iso3 === c.country))) err(`${w}: country non valido.`);
+    for (const k of ["name", "subtitle"]) if (!c[k]) err(`${w}: manca "${k}".`);
+    for (const slug of c.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    (c.facts || []).forEach((f, i) => { if (!f.label || !f.value) err(`${w}: facts[${i}] senza label o value.`); checkCite(f.cite, `${w}: facts[${i}]`); });
+    (c.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });
+    const seenC = new Set();
+    (c.sections || []).forEach((sec, si) => {
+      const sw = `${w}: sections[${si}]`;
+      if (!sec.id || !sec.title) err(`${sw}: manca id o title.`);
+      if (seenC.has(sec.id)) err(`${sw}: id "${sec.id}" duplicato.`);
+      seenC.add(sec.id);
+      (sec.blocks || []).forEach((b, bi) => {
+        const bw = `${sw}.blocks[${bi}]`;
+        if (b.type === "facts") { if (!(c.facts || []).length) err(`${bw}: blocco "facts" ma il profilo non ha facts.`); }
+        else checkRichBlock(b, bw, checkCite);
+      });
+    });
+    if (c.status === "published") {
+      if (!(c.keyPoints || []).length) err(`${w}: un profilo pubblicato richiede keyPoints.`);
+      if ((c.sections || []).length < 2) err(`${w}: un profilo pubblicato richiede almeno 2 sezioni.`);
+      if (!Array.isArray(c.gaps) || !c.gaps.length) err(`${w}: "gaps" deve avere almeno una voce.`);
+    }
+    const weakC = new Set();
+    const collectC = (cite) => (cite || []).forEach((id) => { const s2 = sources.get(id); if (s2 && s2.status !== "verified") weakC.add(id); });
+    (c.keyPoints || []).forEach((x) => collectC(x.cite));
+    (c.facts || []).forEach((f) => collectC(f.cite));
+    (c.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collectC(x.cite)); (b.items || []).forEach((x) => collectC(x.cite)); collectC(b.cite); }));
+    if (weakC.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weakC].join(", ")}.`);
+  }
   // --- registro dei piatti: collega le proposte alle schede senza imporre che siano già tutte scritte
   if (proposedDishes && proposedDishes.dishes) {
     const dishPlaces = places.filter(({ data: p }) => p.type === "dish");
@@ -432,7 +470,8 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     else if (slug.startsWith("story-") && stories.some((x) => `story-${x.data.slug}` === slug)) kindList = (config.storyNoteKinds || {})[stories.find((x) => `story-${x.data.slug}` === slug).data.kind] || [];
     else if (/^country-[A-Z]{3}$/.test(slug) && countries && (countries.countries || []).some((c) => `country-${c.iso3}` === slug)) kindList = config.countryNoteKinds || [];
     else if (slug.startsWith("phrase-") && ((quiz || {}).phrases || []).some((x) => `phrase-${x.id}` === slug)) kindList = config.phraseNoteKinds || [];
-    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>), a un paese (country-<ISO3>) o a una frase (phrase-<id>).`);
+    else if (slug.startsWith("capital-") && capitals.some((x) => `capital-${x.data.slug}` === slug)) kindList = config.noteKinds || [];
+    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>), a un paese (country-<ISO3>), a una capitale (capital-<slug>) o a una frase (phrase-<id>).`);
     const kindsHere = new Map((kindList || []).map((k) => [k.id, k]));
     if (!Array.isArray(list)) { err(`${w}: deve contenere una lista.`); continue; }
     const ids = new Set();

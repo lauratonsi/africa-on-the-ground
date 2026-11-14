@@ -1116,3 +1116,29 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .rc-time { color: var(--ink-soft); }
 .rc-timer { margin-left: 8px; padding: 4px 12px; min-height: 36px; }
 .rc-clock { margin-left: 8px; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+/* ---------- giochi della pagina Society ---------- */
+.game { margin: 24px 0; padding: 18px 20px; background: var(--surface); border-radius: var(--radius); box-shadow: inset 0 0 0 1.5px var(--line); }
+.game[hidden] { display: none; }
+.game h3 { margin: 6px 0 12px; font-size: 1.3rem; letter-spacing: -0.02em; }
+.game-q { margin: 0 0 12px; font-weight: 600; }
+.game-opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 10px; margin: 12px 0; }
+.game-opt { display: grid; gap: 2px; text-align: left; font: inherit; color: var(--ink); background: var(--paper); border: 0; border-radius: 12px; padding: 14px 16px; min-height: 52px; cursor: pointer; box-shadow: inset 0 0 0 1.5px var(--line); }
+.game-opt:hover:not(:disabled) { box-shadow: inset 0 0 0 2px var(--record); }
+.game-opt:disabled { cursor: default; }
+.game-opt.is-right { box-shadow: inset 0 0 0 3px var(--viz-3); }
+.game-opt.is-wrong { box-shadow: inset 0 0 0 3px var(--viz-2); }
+.game-sub { font-size: .85rem; color: var(--ink-soft); }
+.game-clues { margin: 0 0 10px; padding-left: 1.3rem; display: grid; gap: 4px; }
+.game-fb { margin: 8px 0; font-weight: 600; }
+.game-score { margin: 10px 0 0; font-size: .9rem; color: var(--ink-soft); font-weight: 700; }
+
+/* ---------- profili delle capitali ---------- */
+.cap-places { margin: 36px 0; }
+.cap-list { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 12px; }
+.cap-list a { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 14px; align-items: center; text-decoration: none; color: var(--ink); background: var(--surface); border-radius: var(--radius); padding: 10px; box-shadow: inset 0 0 0 1.5px var(--line); }
+.cap-list a:hover { box-shadow: inset 0 0 0 2px var(--record); }
+.cap-list img, .cap-ph { width: 96px; height: 72px; border-radius: 12px; object-fit: cover; background: var(--record-tint); display: grid; place-items: center; font-weight: 800; font-size: 1.6rem; color: var(--record); }
+.cap-list strong { display: block; }
+.cap-list small { display: block; color: var(--viz-2); font-weight: 700; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+.cap-list em { display: block; font-style: normal; color: var(--ink-soft); font-size: .92rem; }
