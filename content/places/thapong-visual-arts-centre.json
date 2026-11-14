@@ -1,6 +1,6 @@
 {
   "slug": "thapong-visual-arts-centre",
-  "status": "draft",
+  "status": "published",
   "type": "culture",
   "country": "BWA",
   "name": "Thapong Visual Arts Centre",
@@ -63,5 +63,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "thapong-visual-arts-centre",
+    "alt": "A maker working at Thapong Visual Arts Centre in Gaborone.",
+    "caption": "Making bead jewellery at Thapong Visual Arts Centre.",
+    "credit": "Thuto Kgaladua",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Daisy_Bailelwang_making_bead_jewelelry_at_Thapong_Visual_Arts_Centre.jpg"
+  }
 }

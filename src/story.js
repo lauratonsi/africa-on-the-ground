@@ -117,6 +117,7 @@
     while (order.every(function (v, i) { return v === i; }));
     var list = document.createElement("ol"); list.className = "order-list";
     var res = document.createElement("div"); res.className = "est-result"; res.setAttribute("role", "status"); res.setAttribute("aria-live", "polite"); res.hidden = true;
+    var score = document.createElement("p"); score.className = "game-score"; score.setAttribute("role", "status"); score.setAttribute("aria-live", "polite");
     var checked = false;
     function render(focusIdx, focusDir) {
       list.innerHTML = "";
@@ -147,6 +148,7 @@
     btn.addEventListener("click", function () {
       checked = true; btn.disabled = true; render();
       var ok = order.filter(function (v, i) { return v === i; }).length;
+      score.textContent = "Score: " + (ok * 100) + " / " + (order.length * 100) + " points";
       res.textContent = ok === order.length ? "All " + ok + " in the right place." : ok + " of " + order.length + " in the right place. The correct order is in the list below.";
       if (ok !== order.length) {
         var right = document.createElement("ol"); right.className = "order-correct";
@@ -155,7 +157,8 @@
       }
       res.hidden = false;
     });
-    render(); box.appendChild(list); box.appendChild(btn); box.appendChild(res);
+    score.textContent = "0 / " + (order.length * 100) + " points · move the stops, then check your order";
+    render(); box.appendChild(score); box.appendChild(list); box.appendChild(btn); box.appendChild(res);
   });
 
   // ---------- grafici: scegli quali righe mostrare ----------

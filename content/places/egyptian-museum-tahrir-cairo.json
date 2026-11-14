@@ -1,0 +1,59 @@
+{
+  "slug": "egyptian-museum-tahrir-cairo",
+  "status": "draft",
+  "type": "culture",
+  "country": "EGY",
+  "name": "Egyptian Museum in Tahrir",
+  "region": "Cairo · Egypt",
+  "subtitle": "Historic neoclassical museum opened in 1902 on Tahrir Square, designed by Marcel Dourgnon and preserving over 120,000 pharaonic antiquities.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "15 November 1902",
+      "cite": [
+        "cap-egyptianmuseum-tahrir"
+      ]
+    },
+    {
+      "label": "Architect",
+      "value": "Marcel Dourgnon (neoclassical)",
+      "cite": [
+        "cap-egyptianmuseum-tahrir"
+      ]
+    },
+    {
+      "label": "Holdings",
+      "value": "Over 120,000 ancient Egyptian antiquities",
+      "cite": [
+        "cap-egyptianmuseum-tahrir"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The foundational national museum of ancient Egypt, situated on the northern side of Tahrir Square. Commissioned by the Khedivial government and designed by French architect Marcel Dourgnon following an international architectural competition, the neoclassical red-domed palace opened on 15 November 1902 as the first purpose-built museum in the Middle East, preserving an unparalleled collection of over 120,000 statues, sarcophagi, papyri and royal treasures.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Reorganization of exhibits following the gradual transfer of royal mummies and Tutankhamun collections to the Grand Egyptian Museum and NMEC is ongoing.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

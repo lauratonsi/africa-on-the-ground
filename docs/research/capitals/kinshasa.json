@@ -1,0 +1,73 @@
+{
+  "city": "Kinshasa",
+  "country": "COD",
+  "population": {
+    "value": 7273947,
+    "year": 2004,
+    "definition": "Population of the City-Province of Kinshasa (across 24 urban communes grouped into four districts: Funa, Lukunga, Mont Amba, and Tshangu) according to official demographic projections published in 2004 by the Institut National de la Statistique (INS) and the Ministry of Planning of the DRC, tabulated via CityPopulation. The last comprehensive national census took place in 1984 (recording 2,664,130 residents). Today Kinshasa is widely recognized as the largest French-speaking urban agglomeration in the world, with current projections estimated between 15 and 18 million inhabitants.",
+    "source": {
+      "title": "Congo (Dem. Rep.): Provinces, Major Cities & Communes (Official Estimates 2004)",
+      "publisher": "CityPopulation (credits INS RDC)",
+      "author": null,
+      "date": "2004-07-01",
+      "url": "https://www.citypopulation.de/en/drcongo/cities/",
+      "tier": "institutional",
+      "quote": "2004-07-01 | Kinshasa City-Province: 7,273,947"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Kinshasa was established in December 1881 as Léopoldville by Henry Morton Stanley on the southern bank of the Pool Malebo, facing the Bateke settlement of Nshasa, before being renamed Kinshasa in 1966 under Mobutu Sese Seko's Authenticité policy.",
+      "source": {
+        "title": "Congo (Dem. Rep.): Provinces, Major Cities & Communes (Official Estimates 2004)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/drcongo/cities/",
+        "tier": "institutional",
+        "quote": "Léopoldville founded in 1881 by Stanley and renamed Kinshasa in 1966"
+      }
+    },
+    {
+      "claim": "The Musée National de la République Démocratique du Congo (MNRDC), inaugurated in November 2019 in Lingwala with assistance from South Korea's KOICA, houses over 46,000 ethnographic objects, royal regalia, masks, and musical instruments representing the DRC's more than 450 ethnic groups.",
+      "source": {
+        "title": "Inauguration du Musée National de la République Démocratique du Congo à Kinshasa",
+        "publisher": "KinoCongo Culture",
+        "author": null,
+        "date": "2019-11-23",
+        "url": "https://kinocongo.com/",
+        "tier": "press",
+        "quote": "Inauguration en novembre 2019 du Musée National de la RDC abritant des milliers d'objets traditionnels"
+      }
+    },
+    {
+      "claim": "The 210-metre brutalist concrete Tour de l'Échangeur in Limete, designed in the 1970s by architect Olivier-Clément Cacoub and commissioned by Mobutu Sese Seko, dominates Kinshasa's skyline alongside the memorial mausoleum of national hero Patrice Lumumba.",
+      "source": {
+        "title": "Tour de l'Échangeur de Limete et Mausolée Lumumba",
+        "publisher": "Petit Futé",
+        "author": null,
+        "date": null,
+        "url": "https://www.petitfute.com/",
+        "tier": "press",
+        "quote": "Tour de 210 mètres conçue par Olivier-Clément Cacoub abritant le mémorial Lumumba"
+      }
+    },
+    {
+      "claim": "The Académie des Beaux-Arts (ABA) of Kinshasa, founded in 1943 by Brother Marc Wallenda in Gombe, is one of Central Africa's premier institutions of higher arts education, fostering pioneering Congolese masters of modern sculpture, ceramics, and painting.",
+      "source": {
+        "title": "Académie des Beaux-Arts de Kinshasa: Histoire et création artistique",
+        "publisher": "Académie des Beaux-Arts",
+        "author": null,
+        "date": null,
+        "url": "https://aba-kinshasa.cd/",
+        "tier": "institutional",
+        "quote": "Fondée en 1943 par Marc Wallenda, haut lieu de formation artistique en Afrique centrale"
+      }
+    }
+  ],
+  "gaps": [
+    "No comprehensive nationwide census has been held in the DRC since 1984; modern municipal population figures range widely from 15 to 18 million depending on modeling assumptions.",
+    "First-hand local voices from artists at the Académie des Beaux-Arts and inhabitants of Matonge and Limete are yet to be gathered.",
+    "Cityscape photographs are not yet linked in the repository."
+  ]
+}

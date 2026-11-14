@@ -1,0 +1,59 @@
+{
+  "slug": "souq-omdurman",
+  "status": "draft",
+  "type": "market",
+  "country": "SDN",
+  "name": "Souq Omdurman",
+  "region": "Omdurman · Sudan",
+  "subtitle": "Sudan's largest historic traditional bazaar, renowned for artisanal craft, spices, and ivory-wood carving traditions.",
+  "facts": [
+    {
+      "label": "Origins",
+      "value": "Late 19th-century Mahdist commercial hub",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    },
+    {
+      "label": "Specialties",
+      "value": "Sudanese thobes, ebony and silver crafts, karkadeh, and incense (bakhur)",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    },
+    {
+      "label": "Significance",
+      "value": "Commercial and civic crossroad uniting regional trade from Kordofan, Darfur, and Nubia",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The largest and most storied marketplace in Sudan, located in the central quarter of Omdurman. Developed during the late 19th-century Mahdiyya as an indigenous trading alternative to colonial Khartoum, it evolved into an expansive labyrinth of covered alleys and open courtyards where traders from Kordofan, Darfur, eastern Sudan, and Nubia congregate. Its distinct sectors encompass traditional silversmithing, carved ebony, handwoven textiles (including women's thobes), medicinal herbs, dried hibiscus (karkadeh), and aromatic gums.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Market operational capacity, reconstruction efforts, and trading activity during the 2023–2024 conflict remain unverified on the ground.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

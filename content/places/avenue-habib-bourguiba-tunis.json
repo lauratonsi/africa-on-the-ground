@@ -1,0 +1,59 @@
+{
+  "slug": "avenue-habib-bourguiba-tunis",
+  "status": "draft",
+  "type": "culture",
+  "country": "TUN",
+  "name": "Avenue Habib Bourguiba",
+  "region": "Tunis · Tunisia",
+  "subtitle": "Central boulevard of modern Tunis, lined with ficus trees, the 1902 Art Nouveau municipal theater, and center of the 2011 revolution.",
+  "facts": [
+    {
+      "label": "Théâtre municipal",
+      "value": "Opened 20 November 1902 (Art Nouveau)",
+      "cite": [
+        "cap-mwnf-theatre-bourguiba"
+      ]
+    },
+    {
+      "label": "Architect",
+      "value": "Jean-Émile Resplandy",
+      "cite": [
+        "cap-mwnf-theatre-bourguiba"
+      ]
+    },
+    {
+      "label": "Modern significance",
+      "value": "Focal gathering point of the 2011 revolution",
+      "cite": [
+        "cap-mwnf-theatre-bourguiba"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The central tree-lined artery of modern downtown Tunis, stretching eastward from Bab El Bhar towards Lake Tunis. Laid out during the protectorate as Avenue de la Marine and later renamed after Tunisia's first president, it features the ornate Art Nouveau Théâtre Municipal, the Cathedral of St. Vincent de Paul, and historic cafes, and served as the epicenter of mass citizen protests during the 2011 revolution.",
+              "cite": [
+                "cap-mwnf-theatre-bourguiba"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Municipal planning archives from the 1880s colonial grid layout were only partially reviewed.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

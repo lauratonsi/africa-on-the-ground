@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-des-beaux-arts-algiers",
+  "status": "draft",
+  "type": "culture",
+  "country": "DZA",
+  "name": "Musée National des Beaux-Arts d'Alger",
+  "region": "Algiers · Algeria",
+  "subtitle": "Major art museum opened in 1930 in the Hamma quarter, conserving over 8,000 works of international and modern Algerian art.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "5 May 1930",
+      "cite": [
+        "cap-mwnf-beaux-arts-algiers"
+      ]
+    },
+    {
+      "label": "Architect",
+      "value": "Paul Guion",
+      "cite": [
+        "cap-mwnf-beaux-arts-algiers"
+      ]
+    },
+    {
+      "label": "Holdings",
+      "value": "Over 8,000 works of art",
+      "cite": [
+        "cap-mwnf-beaux-arts-algiers"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "One of the most extensive fine arts museums in Africa and the Mediterranean basin, situated in the Hamma neighborhood overlooking the Jardin d'Essai. Designed by architect Paul Guion and opened in May 1930, it houses over 8,000 artworks spanning historic European painting and sculpture as well as celebrated modern Algerian artists including Baya Mahieddine, Mohamed Racim and Bachir Yellès.",
+              "cite": [
+                "cap-mwnf-beaux-arts-algiers"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital catalogue of post-independence acquisitions is incomplete.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

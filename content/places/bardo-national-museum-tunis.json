@@ -1,0 +1,59 @@
+{
+  "slug": "bardo-national-museum-tunis",
+  "status": "draft",
+  "type": "culture",
+  "country": "TUN",
+  "name": "Bardo National Museum",
+  "region": "Tunis · Tunisia",
+  "subtitle": "National museum established in 1888 in a former beylical palace, renowned for holding the world's finest Roman mosaic collections.",
+  "facts": [
+    {
+      "label": "Opened",
+      "value": "7 May 1888",
+      "cite": [
+        "cap-amvppc-bardo"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Former Husainid beylical palace",
+      "cite": [
+        "cap-amvppc-bardo"
+      ]
+    },
+    {
+      "label": "Famous mosaic",
+      "value": "Virgil composing the Aeneid (3rd century AD)",
+      "cite": [
+        "cap-amvppc-bardo"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The national museum of Tunisia, housed in an ornate 15th- to 19th-century palace of the Husainid beys in Le Bardo. Established in 1888, it holds one of the world's most extensive collections of Roman mosaics, including the 3rd-century portrait of the poet Virgil writing the Aeneid, rescued from archaeological excavations across Carthage, Dougga, and El Jem.",
+              "cite": [
+                "cap-amvppc-bardo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital inventory of Islamic and Punic holdings remains partially available online.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

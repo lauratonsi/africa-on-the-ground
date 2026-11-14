@@ -1,0 +1,59 @@
+{
+  "slug": "nile-confluence-al-mugran-khartoum",
+  "status": "draft",
+  "type": "nature",
+  "country": "SDN",
+  "name": "Nile Confluence (Al-Mugran)",
+  "region": "Khartoum · Sudan",
+  "subtitle": "The geographic convergence where the White Nile and the Blue Nile meet to form the united trunk of the River Nile.",
+  "facts": [
+    {
+      "label": "Arabic name",
+      "value": "Al-Mugran (المقرن, 'the confluence')",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    },
+    {
+      "label": "Tributaries",
+      "value": "White Nile (Lake Victoria) and Blue Nile (Lake Tana)",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    },
+    {
+      "label": "Water contrast",
+      "value": "Noticeable contrast between darker silt-laden Blue Nile and paler slower White Nile",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The defining geographic feature of the Sudanese capital, known in Arabic as Al-Mugran ('the confluence'). Here, the fast-flowing, sediment-rich waters of the Blue Nile originating from the Ethiopian highlands converge with the calmer, wider White Nile flowing north from the African Great Lakes and the Sudd. For several kilometers downstream, the two distinct currents run parallel with visible color contrasts before fully merging to form the main Nile on its course toward Egypt and the Mediterranean.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Hydrological seasonal variation data and riverbank access conditions during the ongoing conflict have not been updated.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

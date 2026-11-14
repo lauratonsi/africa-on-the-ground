@@ -1,6 +1,6 @@
 {
   "slug": "freedom-park",
-  "status": "draft",
+  "status": "published",
   "type": "culture",
   "country": "ZAF",
   "name": "Freedom Park",
@@ -56,5 +56,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "freedom-park",
+    "alt": "A memorial landscape at Freedom Park in Pretoria.",
+    "caption": "Freedom Park, Pretoria.",
+    "credit": "Leo za1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Freedom_Park-333.jpg"
+  }
 }

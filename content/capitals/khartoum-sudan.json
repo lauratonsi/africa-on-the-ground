@@ -3,10 +3,219 @@
   "status": "draft",
   "country": "SDN",
   "name": "Khartoum",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Khartoum, capital of Sudan: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 4,272,728 people lived across the tripartite urban agglomeration of Khartoum, Omdurman, and Khartoum North in the 2008 census.",
+      "cite": [
+        "cap-citypopulation-de-sudan-2008"
+      ]
+    },
+    {
+      "text": "Khartoum stands at the confluence of the White Nile and the Blue Nile (Al-Mugran), joining their currents into the main Nile River.",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    },
+    {
+      "text": "Founded in 1821 as an Egyptian outpost, the city became the seat of the Mahdist State (1885–1898) and colonial Anglo-Egyptian administration before Sudanese independence in 1956.",
+      "cite": [
+        "cap-britannica-khartoum"
+      ]
+    }
+  ],
+  "places": [
+    "island-of-meroe",
+    "national-museum-of-sudan-khartoum",
+    "nile-confluence-al-mugran-khartoum",
+    "mahdi-tomb-and-khalifa-house-omdurman",
+    "souq-omdurman"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Khartoum in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Khartoum was established in 1821 by Ibrahim Pasha, son of Muhammad Ali, at the strategic meeting point of the Blue and White Niles, replacing Sennar as the central administrative hub of Egyptian Sudan.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Sudanese metropolis functions as a tripartite conurbation divided by the Nile waters: Khartoum proper (administrative and commercial core), Omdurman to the west (historic indigenous and Mahdist capital), and Khartoum North (Bahri, industrial center).",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Since April 2023, devastating armed conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) centered in the Khartoum area has displaced millions of residents and caused catastrophic destruction to civilian infrastructure, museums, and historical landmarks.",
+              "cite": [
+                "cap-unesco-sudan-heritage-alert"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "4,272,728",
+              "label": "people in the tripartite conurbation (Khartoum, Omdurman, Bahri), 2008",
+              "cite": [
+                "cap-citypopulation-de-sudan-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in the Khartoum tripartite conurbation in the 2008 census?",
+          "min": 1000000,
+          "max": 8000000,
+          "step": 50000,
+          "unit": "",
+          "answer": 4272728,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "4,272,728 across Khartoum (1,410,858), Omdurman (1,849,659), and Khartoum North (1,012,211) in the 2008 census by the Central Bureau of Statistics. Khartoum State as a whole reached 5.27 million. The active population has drastically shifted since the outbreak of war in April 2023.",
+              "cite": [
+                "cap-citypopulation-de-sudan-2008"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1821",
+              "tag": "origins",
+              "text": "Egyptian forces establish a military outpost at Al-Mugran, founding modern Khartoum.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "when": "1885",
+              "tag": "origins",
+              "text": "Mahdist forces under Muhammad Ahmad conquer Khartoum following a ten-month siege.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "when": "1898",
+              "tag": "growth",
+              "text": "Anglo-Egyptian forces take Omdurman; Kitchener rebuilds Khartoum on a colonial grid plan.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "when": "1956",
+              "tag": "growth",
+              "text": "Sudan achieves independence, confirming Khartoum as the national sovereign capital.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "when": "1971",
+              "tag": "growth",
+              "text": "The National Museum of Sudan opens, preserving relocated Nubian salvage temples.",
+              "cite": [
+                "cap-unesco-nubian-campaign"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "Severe armed conflict breaks out in Khartoum, triggering mass displacement and heritage damage.",
+              "cite": [
+                "cap-unesco-sudan-heritage-alert"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Khartoum in order.",
+          "items": [
+            {
+              "label": "Egyptian forces establish an outpost at Al-Mugran, founding modern Khartoum.",
+              "when": "1821",
+              "text": "Egyptian forces establish an outpost at Al-Mugran, founding modern Khartoum.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "label": "Mahdist forces capture the city after a ten-month siege.",
+              "when": "1885",
+              "text": "Mahdist forces capture the city after a ten-month siege.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "label": "Sudan gains independence from Anglo-Egyptian condominium rule.",
+              "when": "1956",
+              "text": "Sudan gains independence from Anglo-Egyptian condominium rule.",
+              "cite": [
+                "cap-britannica-khartoum"
+              ]
+            },
+            {
+              "label": "The National Museum of Sudan opens with rescued Nubian temples.",
+              "when": "1971",
+              "text": "The National Museum of Sudan opens with rescued Nubian temples.",
+              "cite": [
+                "cap-unesco-nubian-campaign"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "No official nationwide census has occurred since 2008; demographic estimates during the 2023-2024 war remain subject to ongoing humanitarian tracking.",
+    "First-hand local voices and diaspora testimonies on civilian life and heritage conservation during the current conflict are still missing.",
+    "Photograph of Khartoum urban cityscape: not yet linked."
   ]
 }

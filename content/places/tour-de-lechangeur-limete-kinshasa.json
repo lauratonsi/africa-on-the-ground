@@ -1,0 +1,59 @@
+{
+  "slug": "tour-de-lechangeur-limete-kinshasa",
+  "status": "draft",
+  "type": "site",
+  "country": "COD",
+  "name": "Tour de l'Échangeur de Limete",
+  "region": "Kinshasa · Democratic Republic of the Congo",
+  "subtitle": "Monumental 210-metre brutalist concrete tower and Patrice Lumumba mausoleum defining Kinshasa's skyline.",
+  "facts": [
+    {
+      "label": "Height",
+      "value": "210 metres",
+      "cite": [
+        "cap-petitfute-tour-limete"
+      ]
+    },
+    {
+      "label": "Architect & era",
+      "value": "Olivier-Clément Cacoub (constructed 1970–1974 under Mobutu Sese Seko)",
+      "cite": [
+        "cap-petitfute-tour-limete"
+      ]
+    },
+    {
+      "label": "National memorial",
+      "value": "Mausoleum and bronze statue honoring national hero and first Prime Minister Patrice Émery Lumumba",
+      "cite": [
+        "cap-petitfute-tour-limete"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The defining architectural landmark and skyline silhouette of Kinshasa, situated at the major highway junction in Limete. Commissioned in the early 1970s under President Mobutu Sese Seko and designed by French-Tunisian architect Olivier-Clément Cacoub, this monumental reinforced-concrete tower rises 210 meters above the metropolis with four fluted pillars. The surrounding esplanade houses the national memorial and mausoleum dedicated to Patrice Émery Lumumba, hero of Congolese independence.",
+              "cite": [
+                "cap-petitfute-tour-limete"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Observation platform public elevator operational schedule is intermittently documented.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

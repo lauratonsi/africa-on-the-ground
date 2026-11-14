@@ -3,10 +3,236 @@
   "status": "draft",
   "country": "EGY",
   "name": "Cairo",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Cairo, capital of Egypt: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 9,539,673 people live in the Cairo Governorate (counted 2017), while Greater Cairo exceeds 20.1 million.",
+      "cite": [
+        "cap-citypopulation-de-cairo-2017"
+      ]
+    },
+    {
+      "text": "Cairo was founded in 969 CE by the Fatimids under Jawhar al-Siqilli, followed immediately by the founding of Al-Azhar Mosque in 970 CE.",
+      "cite": [
+        "cap-unesco-historic-cairo"
+      ]
+    },
+    {
+      "text": "The Citadel of Cairo, built by Saladin in 1176 on the Mokattam hills, served as the seat of government of Egypt for nearly 700 years.",
+      "cite": [
+        "cap-egymonuments-citadel"
+      ]
+    }
+  ],
+  "places": [
+    "memphis-and-its-necropolis",
+    "al-azhar-mosque-cairo",
+    "citadel-of-saladin-cairo",
+    "khan-el-khalili-cairo",
+    "egyptian-museum-tahrir-cairo"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Cairo in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cairo was established in 969 CE as al-Qāhirah ('The Victorious') by Fatimid general Jawhar al-Siqilli, emerging alongside the earlier Islamic settlements of Fustat and al-Askar.",
+              "cite": [
+                "cap-unesco-historic-cairo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Under the Ayyubid and Mamluk sultanates, Cairo grew into the foremost political and commercial capital of the Islamic world, defended by Saladin's 1176 Citadel and enriched by major bazaars like Khan el-Khalili.",
+              "cite": [
+                "cap-egymonuments-citadel",
+                "cap-mwnf-khan-el-khalili"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 19th and early 20th centuries, modern Cairo expanded toward the Nile under Khedive Ismail and saw the creation of institutions like the neoclassical Egyptian Museum on Tahrir Square in 1902.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "9,539,673",
+              "label": "people in the Cairo Governorate, 2017",
+              "cite": [
+                "cap-citypopulation-de-cairo-2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Cairo Governorate?",
+          "min": 1000000,
+          "max": 25000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 9539673,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "9,539,673 in March 2017, according to the official census conducted by the Central Agency for Public Mobilization and Statistics (CAPMAS). The wider Greater Cairo metropolitan megacity (spanning Cairo, Giza and Qalyubia) counted 20,165,732 residents.",
+              "cite": [
+                "cap-citypopulation-de-cairo-2017"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "969",
+              "tag": "origins",
+              "text": "Jawhar al-Siqilli founds al-Qahirah as the Fatimid imperial capital.",
+              "cite": [
+                "cap-unesco-historic-cairo"
+              ]
+            },
+            {
+              "when": "970–972",
+              "tag": "origins",
+              "text": "Al-Azhar Mosque is built, establishing Egypt's primary congregational mosque and academy.",
+              "cite": [
+                "cap-archnet-al-azhar"
+              ]
+            },
+            {
+              "when": "1176",
+              "tag": "origins",
+              "text": "Saladin initiates construction of the Citadel of Cairo on the Mokattam hill.",
+              "cite": [
+                "cap-egymonuments-citadel"
+              ]
+            },
+            {
+              "when": "1382",
+              "tag": "origins",
+              "text": "Emir Djaharks al-Khalili erects the central caravanserai that forms Khan el-Khalili.",
+              "cite": [
+                "cap-mwnf-khan-el-khalili"
+              ]
+            },
+            {
+              "when": "1848",
+              "tag": "growth",
+              "text": "The alabaster Mosque of Muhammad Ali is completed inside the Citadel of Cairo.",
+              "cite": [
+                "cap-egymonuments-citadel"
+              ]
+            },
+            {
+              "when": "1902-11-15",
+              "tag": "growth",
+              "text": "The Egyptian Museum on Tahrir Square opens to the public, designed by Marcel Dourgnon.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            },
+            {
+              "when": "1979",
+              "tag": "today",
+              "text": "UNESCO inscribes Historic Cairo on the World Heritage List.",
+              "cite": [
+                "cap-unesco-historic-cairo"
+              ]
+            },
+            {
+              "when": "2011-01-25",
+              "tag": "today",
+              "text": "Mass peaceful demonstrations converge on Tahrir Square in the Egyptian revolution.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Cairo in order.",
+          "items": [
+            {
+              "label": "Jawhar al-Siqilli founds al-Qahirah and begins Al-Azhar Mosque.",
+              "when": "969–970",
+              "text": "Jawhar al-Siqilli founds al-Qahirah and begins Al-Azhar Mosque.",
+              "cite": [
+                "cap-unesco-historic-cairo"
+              ]
+            },
+            {
+              "label": "Saladin initiates construction of the Citadel of Cairo.",
+              "when": "1176",
+              "text": "Saladin initiates construction of the Citadel of Cairo.",
+              "cite": [
+                "cap-egymonuments-citadel"
+              ]
+            },
+            {
+              "label": "The Egyptian Museum on Tahrir Square opens to the public.",
+              "when": "1902",
+              "text": "The Egyptian Museum on Tahrir Square opens to the public.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            },
+            {
+              "label": "Tahrir Square becomes the center of the 2011 revolution.",
+              "when": "2011",
+              "text": "Tahrir Square becomes the center of the 2011 revolution.",
+              "cite": [
+                "cap-egyptianmuseum-tahrir"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Difference between the administrative Cairo Governorate (9.54M in 2017) and the Greater Cairo metropolitan megacity (exceeding 20.1 million).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Egypt has read this profile yet."
   ]
 }

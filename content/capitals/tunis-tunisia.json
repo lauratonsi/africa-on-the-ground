@@ -3,10 +3,235 @@
   "status": "draft",
   "country": "TUN",
   "name": "Tunis",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Tunis, capital of Tunisia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 604,599 people live in the municipality of Tunis (counted 2024), within an urban agglomeration of over 2.6 million.",
+      "cite": [
+        "cap-citypopulation-de-tunis-2024"
+      ]
+    },
+    {
+      "text": "Tunis was founded in 698 CE around the Great Mosque Ez-Zitouna, rising to prominence under the Hafsids as capital of Ifriqiya.",
+      "cite": [
+        "cap-mwnf-zitouna"
+      ]
+    },
+    {
+      "text": "Tunis served as capital under the Husainid beys, the French protectorate, and became the sovereign capital of the republic in 1957.",
+      "cite": [
+        "unesco-whc-36"
+      ]
+    }
+  ],
+  "places": [
+    "medina-of-tunis",
+    "bardo-national-museum-tunis",
+    "ez-zitouna-mosque-tunis",
+    "avenue-habib-bourguiba-tunis",
+    "dar-lasram-tunis"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Tunis in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tunis developed around the ancient Punic and Roman settlements near Carthage, refounded as an Islamic city in 698 CE around the Ez-Zitouna Mosque by Umayyad general Hasan ibn al-Nu'man.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Under the Hafsid dynasty (1229–1574) Tunis flourished as one of the wealthiest centers of commerce, architecture and scholarship in the Mediterranean, home to renowned thinker Ibn Khaldun.",
+              "cite": [
+                "unesco-whc-36"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "During the French protectorate (1881–1956) the modern grid city took shape along Avenue de la Marine (now Avenue Habib Bourguiba), which became the focal gathering ground during the 2011 revolution.",
+              "cite": [
+                "cap-mwnf-theatre-bourguiba"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "604,599",
+              "label": "people in the municipality of Tunis, 2024",
+              "cite": [
+                "cap-citypopulation-de-tunis-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the municipality of Tunis?",
+          "min": 100000,
+          "max": 3000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 604599,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "604,599 in November 2024, according to the official census results from the Institut National de la Statistique (INS) of Tunisia. The wider urban agglomeration (Grand Tunis, encompassing four governorates) counted 2,644,640 residents.",
+              "cite": [
+                "cap-citypopulation-de-tunis-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "698",
+              "tag": "origins",
+              "text": "Hasan ibn al-Nu'man founds Arab Tunis and initiates the Ez-Zitouna Mosque.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            },
+            {
+              "when": "1229",
+              "tag": "origins",
+              "text": "The Hafsid dynasty establishes Tunis as the royal capital of Ifriqiya.",
+              "cite": [
+                "unesco-whc-36"
+              ]
+            },
+            {
+              "when": "1332-05-27",
+              "tag": "origins",
+              "text": "Historian and philosopher Ibn Khaldun is born in the Medina of Tunis.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            },
+            {
+              "when": "1574",
+              "tag": "origins",
+              "text": "Ottoman forces under Sinan Pasha capture Tunis, integrating it into the Ottoman Empire.",
+              "cite": [
+                "unesco-whc-36"
+              ]
+            },
+            {
+              "when": "1888-05-07",
+              "tag": "growth",
+              "text": "The Bardo National Museum opens in the former palace of the Husainid beys.",
+              "cite": [
+                "cap-amvppc-bardo"
+              ]
+            },
+            {
+              "when": "1902-11-20",
+              "tag": "growth",
+              "text": "The Art Nouveau Théâtre Municipal de Tunis opens on Avenue Habib Bourguiba.",
+              "cite": [
+                "cap-mwnf-theatre-bourguiba"
+              ]
+            },
+            {
+              "when": "1956-03-20",
+              "tag": "growth",
+              "text": "Tunisia regains independence; Tunis is confirmed as sovereign capital.",
+              "cite": [
+                "unesco-whc-36"
+              ]
+            },
+            {
+              "when": "2011-01-14",
+              "tag": "today",
+              "text": "Mass demonstrations along Avenue Habib Bourguiba culminate in the departure of Ben Ali.",
+              "cite": [
+                "cap-mwnf-theatre-bourguiba"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Tunis in order.",
+          "items": [
+            {
+              "label": "Hasan ibn al-Nu'man founds Arab Tunis and the Zitouna Mosque.",
+              "when": "698",
+              "text": "Hasan ibn al-Nu'man founds Arab Tunis and the Zitouna Mosque.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            },
+            {
+              "label": "Ibn Khaldun is born in the Medina of Tunis.",
+              "when": "1332",
+              "text": "Ibn Khaldun is born in the Medina of Tunis.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            },
+            {
+              "label": "The Bardo National Museum opens in the former beylical palace.",
+              "when": "1888",
+              "text": "The Bardo National Museum opens in the former beylical palace.",
+              "cite": [
+                "cap-amvppc-bardo"
+              ]
+            },
+            {
+              "label": "Avenue Habib Bourguiba becomes the focal point of the 2011 revolution.",
+              "when": "2011",
+              "text": "Avenue Habib Bourguiba becomes the focal point of the 2011 revolution.",
+              "cite": [
+                "cap-mwnf-theatre-bourguiba"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Divergence between the municipal population of Tunis (604,599 in 2024 census) and the wider urban agglomeration (Grand Tunis, 2.64 million across 4 governorates).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Tunisia has read this profile yet."
   ]
 }

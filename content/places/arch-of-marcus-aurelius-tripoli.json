@@ -1,0 +1,59 @@
+{
+  "slug": "arch-of-marcus-aurelius-tripoli",
+  "status": "draft",
+  "type": "site",
+  "country": "LBY",
+  "name": "Arch of Marcus Aurelius",
+  "region": "Tripoli · Libya",
+  "subtitle": "Marble four-sided Roman triumphal arch erected in 163–165 AD in ancient Oea, sole standing Roman monument in the Medina.",
+  "facts": [
+    {
+      "label": "Date",
+      "value": "c. 163–165 AD",
+      "cite": [
+        "cap-archnet-marcus-aurelius-tripoli"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "Marble tetrapylon (quadrifrons) with octagonal dome",
+      "cite": [
+        "cap-archnet-marcus-aurelius-tripoli"
+      ]
+    },
+    {
+      "label": "Patron",
+      "value": "Gaius Calpurnius Celsus (honoring Marcus Aurelius and Lucius Verus)",
+      "cite": [
+        "cap-archnet-marcus-aurelius-tripoli"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A brilliantly preserved Roman marble triumphal arch situated near the northern entrance of the Medina of Tripoli. Built around 163–165 AD by magistrate Gaius Calpurnius Celsus to commemorate the eastern victories of co-emperor Lucius Verus, it is a rare quadrifrons (four-sided gateway) topped with an octagonal cupola and carved reliefs of Roman deities Apollo and Minerva riding griffin-drawn chariots, standing as the only surviving monumental structure of Roman Oea.",
+              "cite": [
+                "cap-archnet-marcus-aurelius-tripoli"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Epigraphic inscription decipherment and conservation assessments of urban marble weathering were reviewed via archaeological summaries.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "gurgi-mosque-tripoli",
+  "status": "draft",
+  "type": "site",
+  "country": "LBY",
+  "name": "Gurgi Mosque",
+  "region": "Tripoli · Libya",
+  "subtitle": "1833 Ottoman-Karamanli mosque in the Medina of Tripoli, crowned by 16 domes on marble columns and an octagonal minaret.",
+  "facts": [
+    {
+      "label": "Completed",
+      "value": "1833",
+      "cite": [
+        "cap-archnet-gurgi-mosque"
+      ]
+    },
+    {
+      "label": "Founder",
+      "value": "Mustafa Gurgi (Karamanli naval commander)",
+      "cite": [
+        "cap-archnet-gurgi-mosque"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "16 domes on marble columns and octagonal minaret",
+      "cite": [
+        "cap-archnet-gurgi-mosque"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A celebrated Ottoman-era mosque located in the historic Medina of Tripoli near the Arch of Marcus Aurelius. Completed in 1833 by naval commander Mustafa Gurgi during the Karamanli dynasty, the mosque features a square prayer hall covered by a grid of 16 small domes supported by ancient marble spolia columns, an octagonal minaret with two carved balconies, and walls clad in polychrome ceramic tiles and delicate Andalusian-style stucco reliefs.",
+              "cite": [
+                "cap-archnet-gurgi-mosque"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Primary waqf foundation deeds of the Gurgi family complex were not accessed directly.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "city": "Rabat",
+  "country": "MAR",
+  "population": {
+    "value": 509916,
+    "year": 2024,
+    "definition": "Population of the municipality/city proper of Rabat (commune urbaine de Rabat) recorded in the 2024 general population and housing census (RGPH 2024, census date 1 September 2024) by the Haut-Commissariat au Plan (HCP) of Morocco, tabulated via citypopulation.de. The Rabat Prefecture counted 515,619 residents, while the twin city of Salé across the Bou Regreg estuary counted 945,101, forming an urban agglomeration of over 1.8 million people.",
+    "source": {
+      "title": "Morocco: Regions, Major Cities & Urban Communes (Census 2024)",
+      "publisher": "CityPopulation (credits Haut-Commissariat au Plan, Royaume du Maroc)",
+      "author": null,
+      "date": "2024-09-01",
+      "url": "https://www.citypopulation.de/en/morocco/cities/",
+      "tier": "press",
+      "quote": "2024-09-01 | 509,916 (Rabat City)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Rabat was established in 1150 by the Almohad Caliph Abd al-Mu'min as a ribat (fortified military camp) on a promontory overlooking the Atlantic and the Bou Regreg estuary.",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "established in 1150 by the Almohad Caliph Abd al-Mu'min"
+      }
+    },
+    {
+      "claim": "In 1195 Caliph Abu Yaqub Yusuf al-Mansur planned to make Rabat the grand imperial capital of the Almohad empire (Ribat al-Fath), constructing monumental ramparts, gates and the Hassan Mosque.",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "planned by Abu Yaqub Yusuf al-Mansur at the end of the 12th century"
+      }
+    },
+    {
+      "claim": "In 1912 General Hubert Lyautey chose Rabat as the administrative capital of the French Protectorate in Morocco, leading to urban planning that respected the historical city while adding the modern Ville Nouvelle.",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "the new town was one of the largest and most ambitious modern urban projects in Africa in the 20th century"
+      }
+    },
+    {
+      "claim": "King Mohammed V reaffirmed Rabat as the national capital upon Morocco's recovery of independence in March 1956.",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "retained as the capital of independent Morocco in 1956"
+      }
+    },
+    {
+      "claim": "In 2012 UNESCO inscribed Rabat on the World Heritage List as a shared heritage bridging ancient, medieval Islamic and 20th-century urban design.",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "inscribed on the World Heritage List in 2012"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "1150",
+      "claim": "Almohad Caliph Abd al-Mu'min builds the original ribat (now Kasbah des Oudayas).",
+      "tag": "origins",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "established in 1150 by the Almohad Caliph Abd al-Mu'min"
+      }
+    },
+    {
+      "when": "1195–1199",
+      "claim": "Abu Yaqub Yusuf al-Mansur expands the city and begins the Hassan Mosque and minaret.",
+      "tag": "origins",
+      "source": {
+        "title": "Tour Hassan et Mausolée Mohammed V",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "begun in 1195 by the Almohad sovereign Yaqub al-Mansur"
+      }
+    },
+    {
+      "when": "14th century",
+      "claim": "The Marinid dynasty develops the Chellah necropolis with a mosque, madrasa and royal tombs.",
+      "tag": "origins",
+      "source": {
+        "title": "Chellah (Sala)",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "developed into a royal necropolis under the Marinid sultans in the 14th century"
+      }
+    },
+    {
+      "when": "1912",
+      "claim": "Rabat is made the administrative capital of the French Protectorate in Morocco.",
+      "tag": "growth",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "chosen by Lyautey as the administrative capital in 1912"
+      }
+    },
+    {
+      "when": "1956-03-02",
+      "claim": "Morocco regains independence under Mohammed V; Rabat is confirmed as the sovereign national capital.",
+      "tag": "growth",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "retained as the capital of independent Morocco"
+      }
+    },
+    {
+      "when": "1971",
+      "claim": "The Mausoleum of Mohammed V, designed by architect Eric Vo Toan, is completed facing the Hassan Tower.",
+      "tag": "today",
+      "source": {
+        "title": "Tour Hassan et Mausolée Mohammed V",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "completed in 1971"
+      }
+    },
+    {
+      "when": "2012",
+      "claim": "UNESCO inscribes Rabat as a World Heritage Site.",
+      "tag": "today",
+      "source": {
+        "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/1401",
+        "tier": "institutional",
+        "quote": "inscribed in 2012"
+      }
+    },
+    {
+      "when": "2014-10",
+      "claim": "The Musée Mohammed VI d'art moderne et contemporain opens in central Rabat.",
+      "tag": "today",
+      "source": {
+        "title": "Musée Mohammed VI d'Art Moderne et Contemporain",
+        "publisher": "Fondation Nationale des Musées du Maroc (FNM)",
+        "author": null,
+        "date": null,
+        "url": "https://fnm.ma/musee-mohammed-vi-dart-moderne-et-contemporain/",
+        "tier": "institutional",
+        "quote": "inauguré en octobre 2014"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Kasbah des Oudayas",
+      "type": "site",
+      "what": "A 12th-century Almohad citadel situated on a cliff over the Atlantic Ocean and the mouth of the Bou Regreg. It features the monumental Bab Oudaia gate, traditional blue-and-white residential alleys, an Andalusian garden and the historic Café Maure.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1150",
+          "source": {
+            "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/list/1401",
+            "tier": "institutional",
+            "quote": "established in 1150"
+          }
+        },
+        {
+          "label": "Monumental gate",
+          "value": "Bab Oudaia (Almohad masterpiece)",
+          "source": {
+            "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/list/1401",
+            "tier": "institutional",
+            "quote": "includes the monumental Almohad gate Bab Oudaia"
+          }
+        },
+        {
+          "label": "UNESCO status",
+          "value": "Inscribed 2012",
+          "source": {
+            "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/list/1401",
+            "tier": "institutional",
+            "quote": "inscribed in 2012"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hassan Tower and Mausoleum of Mohammed V",
+      "type": "site",
+      "what": "A historic complex combining the 44-metre incomplete Almohad minaret begun in 1195 and the 1971 royal mausoleum designed by Vietnamese-French architect Eric Vo Toan in Italian white marble, cedar and traditional zellij.",
+      "facts": [
+        {
+          "label": "Tower begun",
+          "value": "1195 (halted 1199)",
+          "source": {
+            "title": "Tour Hassan et Mausolée Mohammed V",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "begun in 1195 and stopped in 1199"
+          }
+        },
+        {
+          "label": "Tower height",
+          "value": "44 metres",
+          "source": {
+            "title": "Tour Hassan et Mausolée Mohammed V",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "stands at 44 metres"
+          }
+        },
+        {
+          "label": "Mausoleum completed",
+          "value": "1971 (architect Eric Vo Toan)",
+          "source": {
+            "title": "Tour Hassan et Mausolée Mohammed V",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "completed in 1971, designed by architect Eric Vo Toan"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chellah",
+      "type": "site",
+      "what": "A medieval walled necropolis on the Bou Regreg river containing the excavated ruins of ancient Roman Sala Colonia alongside a 14th-century Marinid royal necropolis, surrounded by gardens and nesting storks.",
+      "facts": [
+        {
+          "label": "Antiquity",
+          "value": "Phoenician outpost and Roman Sala Colonia",
+          "source": {
+            "title": "Chellah (Sala)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "Roman Sala Colonia"
+          }
+        },
+        {
+          "label": "Marinid necropolis",
+          "value": "14th century (Sultan Abu al-Hasan)",
+          "source": {
+            "title": "Chellah (Sala)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "Marinid royal necropolis"
+          }
+        },
+        {
+          "label": "UNESCO status",
+          "value": "Inscribed 2012",
+          "source": {
+            "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/list/1401",
+            "tier": "institutional",
+            "quote": "inscribed in 2012"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Musée Mohammed VI d'Art Moderne et Contemporain",
+      "type": "culture",
+      "what": "The flagship national museum of modern and contemporary art in Morocco, opened in 2014 in central Rabat. Designed by architect Karim Chakor, it combines neo-Moorish architectural motifs with contemporary galleries showcasing Moroccan and international 20th- and 21st-century visual art.",
+      "facts": [
+        {
+          "label": "Inaugurated",
+          "value": "October 2014",
+          "source": {
+            "title": "Musée Mohammed VI d'Art Moderne et Contemporain",
+            "publisher": "FNM",
+            "author": null,
+            "date": null,
+            "url": "https://fnm.ma/musee-mohammed-vi-dart-moderne-et-contemporain/",
+            "tier": "institutional",
+            "quote": "inauguré en octobre 2014"
+          }
+        },
+        {
+          "label": "Architect",
+          "value": "Karim Chakor",
+          "source": {
+            "title": "Musée Mohammed VI d'Art Moderne et Contemporain",
+            "publisher": "FNM",
+            "author": null,
+            "date": null,
+            "url": "https://fnm.ma/musee-mohammed-vi-dart-moderne-et-contemporain/",
+            "tier": "institutional",
+            "quote": "conçu par l'architecte Karim Chakor"
+          }
+        },
+        {
+          "label": "Scope",
+          "value": "First public museum dedicated to modern and contemporary art in Morocco",
+          "source": {
+            "title": "Musée Mohammed VI d'Art Moderne et Contemporain",
+            "publisher": "FNM",
+            "author": null,
+            "date": null,
+            "url": "https://fnm.ma/musee-mohammed-vi-dart-moderne-et-contemporain/",
+            "tier": "institutional",
+            "quote": "première grande institution muséale publique dédiée aux arts modernes et contemporains"
+          }
+        }
+      ]
+    }
+  ],
+  "notNotFound": [
+    "Difference between the administrative municipality of Rabat (509k in 2024) and the wider urban agglomeration with Salé and Témara (exceeding 1.8 million).",
+    "Local voices: no verified note received yet from a resident of Rabat."
+  ]
+}

@@ -126,6 +126,15 @@ da pubblicare ha bisogno anche di fonti indipendenti.
 - [ ] Note raccolte con consenso registrato
 - [ ] `npm run check` senza errori
 
+## Sostenibilità, modello benefit e Fair Knowledge
+
+Africa on the Ground rifiuta il modello basato su inserzioni pubblicitarie, tracciamento commerciale o profilazione degli utenti. Per garantire indipendenza editoriale e sostenibilità nel lungo termine, il progetto adotta il modello della **Società Benefit / startup a vocazione sociale**:
+
+- **Accordi educativi e B2B etico:** La sostenibilità economica si fonda su licenze e servizi didattici per università, scuole superiori, istituti culturali e ONG (AOTG for Education).
+- **Principio Fair Knowledge:** Il progetto contrasta l'estrazione non retribuita di conoscenza dal continente africano. Una quota dei proventi derivanti dalle licenze istituzionali è destinata al compenso e alla valorizzazione di storici, ricercatori e persone del posto che verificano le fonti o contribuiscono con note di vissuto locale.
+- **Accesso equo (1-for-1):** Ogni licenza istituzionale sottoscritta nel Nord globale garantisce l'accesso gratuito e la fornitura di risorse offline a scuole, università e biblioteche nei Paesi africani partner.
+- **Riferimento pubblico:** I dettagli per docenti e istituzioni sono consultabili nella pagina dedicata `education/index.html`.
+
 ## Profili dei paesi (governo, lingue, religioni)
 
 I testi vengono dal CIA World Factbook (pubblico dominio) tramite la copia JSON `factbook/factbook.json`: `node scripts/prepare-factbook.mjs` scrive `content/data/africa-profiles.json`. I testi restano quelli originali, con l'anno di stima che ciascuno porta; l'unica correzione è un refuso nella quota cristiana della RD Congo (nota nel file). La copia non dichiara l'edizione, quindi la fonte `cia-factbook` è segnata "to-verify". Le percentuali di religione e lingua sono stime da censimenti e sondaggi di anni diversi; i paesi senza dato recente andrebbero confrontati con il censimento nazionale.

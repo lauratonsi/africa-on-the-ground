@@ -1,0 +1,384 @@
+{
+  "city": "Cairo",
+  "country": "EGY",
+  "population": {
+    "value": 9539673,
+    "year": 2017,
+    "definition": "Population of the Cairo Governorate (Muhafazah al-Qahirah) recorded in the 2017 general census of population, housing and establishments (census date 28 March 2017) conducted by the Central Agency for Public Mobilization and Statistics (CAPMAS) of Egypt, tabulated via citypopulation.de. The urban agglomeration of Greater Cairo (spanning Cairo, Giza and Qalyubia governorates) counted 20,165,732 residents at the same census, making it the most populous urban agglomeration on the African continent.",
+    "source": {
+      "title": "Egypt: Governorates, Major Cities & Urban Communes (Census 2017)",
+      "publisher": "CityPopulation (credits Central Agency for Public Mobilization and Statistics, Egypt)",
+      "author": null,
+      "date": "2017-03-28",
+      "url": "https://www.citypopulation.de/en/egypt/cities/",
+      "tier": "press",
+      "quote": "2017-03-28 | 9,539,673 (Cairo Governorate)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Cairo was founded in 969 AD by the Fatimid military commander Jawhar al-Siqilli under Caliph al-Mu'izz li-Din Allah, naming it al-Qahirah ('The Victorious') as the new imperial capital.",
+      "source": {
+        "title": "Historic Cairo",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/89",
+        "tier": "institutional",
+        "quote": "founded in the 10th century by the Fatimids"
+      }
+    },
+    {
+      "claim": "Construction of Al-Azhar Mosque began in 970 AD, soon developing into a renowned center of higher Islamic learning and one of the oldest continuously operating universities in the world.",
+      "source": {
+        "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/1513",
+        "tier": "academic",
+        "quote": "begun in 970 by Jawhar al-Siqilli, the Fatimid conqueror of Egypt"
+      }
+    },
+    {
+      "claim": "In 1176 Sultan Salah al-Din (Saladin) began construction of the Citadel of Cairo on the Mokattam hills to fortify the city against Crusader armies and establish a centralized seat of government.",
+      "source": {
+        "title": "The Citadel of Saladin",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+        "tier": "institutional",
+        "quote": "begun in 1176 by Salah al-Din al-Ayyubi"
+      }
+    },
+    {
+      "claim": "In 1382 Emir Djaharks al-Khalili built a grand caravanserai on the former site of the Fatimid royal cemetery, which expanded over subsequent centuries into the historic market quarter of Khan el-Khalili.",
+      "source": {
+        "title": "Khan al-Khalili",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "established around 1382 by Emir Djaharks al-Khalili"
+      }
+    },
+    {
+      "claim": "In 1902 the purpose-built neoclassical Museum of Egyptian Antiquities was inaugurated on Tahrir Square, designed by French architect Marcel Dourgnon to house Egypt's pharaonic treasures.",
+      "source": {
+        "title": "The Egyptian Museum in Tahrir",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egyptianmuseumcairo.eg/",
+        "tier": "institutional",
+        "quote": "inaugurated in 1902, designed by French architect Marcel Dourgnon"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "969",
+      "claim": "Jawhar al-Siqilli founds al-Qahirah as the Fatimid imperial capital.",
+      "tag": "origins",
+      "source": {
+        "title": "Historic Cairo",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/89",
+        "tier": "institutional",
+        "quote": "founded in 969 AD"
+      }
+    },
+    {
+      "when": "970–972",
+      "claim": "Al-Azhar Mosque is built, establishing Egypt's primary congregational mosque and intellectual academy.",
+      "tag": "origins",
+      "source": {
+        "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/1513",
+        "tier": "academic",
+        "quote": "founded in 970 and dedicated in 972"
+      }
+    },
+    {
+      "when": "1176",
+      "claim": "Saladin initiates construction of the Citadel of Cairo on the Mokattam hill.",
+      "tag": "origins",
+      "source": {
+        "title": "The Citadel of Saladin",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+        "tier": "institutional",
+        "quote": "founded in 1176 by Saladin"
+      }
+    },
+    {
+      "when": "1382",
+      "claim": "Emir Djaharks al-Khalili erects the central caravanserai that forms Khan el-Khalili.",
+      "tag": "origins",
+      "source": {
+        "title": "Khan al-Khalili",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "built in 1382"
+      }
+    },
+    {
+      "when": "1848",
+      "claim": "The alabaster Mosque of Muhammad Ali is completed inside the Citadel of Cairo.",
+      "tag": "growth",
+      "source": {
+        "title": "The Citadel of Saladin",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+        "tier": "institutional",
+        "quote": "Mosque of Muhammad Ali completed in 1848"
+      }
+    },
+    {
+      "when": "1902-11-15",
+      "claim": "The Egyptian Museum on Tahrir Square opens to the public, designed by Marcel Dourgnon.",
+      "tag": "growth",
+      "source": {
+        "title": "The Egyptian Museum in Tahrir",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egyptianmuseumcairo.eg/",
+        "tier": "institutional",
+        "quote": "opened on 15 November 1902"
+      }
+    },
+    {
+      "when": "1979",
+      "claim": "UNESCO inscribes Historic Cairo on the World Heritage List.",
+      "tag": "today",
+      "source": {
+        "title": "Historic Cairo",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/89",
+        "tier": "institutional",
+        "quote": "inscribed on the World Heritage List in 1979"
+      }
+    },
+    {
+      "when": "2011-01-25",
+      "claim": "Mass peaceful demonstrations converge on Tahrir Square in the Egyptian revolution.",
+      "tag": "today",
+      "source": {
+        "title": "The Egyptian Museum in Tahrir",
+        "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+        "author": null,
+        "date": null,
+        "url": "https://egyptianmuseumcairo.eg/",
+        "tier": "institutional",
+        "quote": "located on historic Tahrir Square"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Al-Azhar Mosque",
+      "type": "site",
+      "what": "The historic Fatimid congregational mosque founded in 970 CE in the heart of Historic Cairo. Over the centuries it grew into the most influential university and authority for Sunni Islamic scholarship globally.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "970 CE (dedicated 972 CE)",
+          "source": {
+            "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/1513",
+            "tier": "academic",
+            "quote": "founded in 970 and dedicated in 972"
+          }
+        },
+        {
+          "label": "Founder",
+          "value": "Jawhar al-Siqilli (Caliph al-Mu'izz)",
+          "source": {
+            "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/1513",
+            "tier": "academic",
+            "quote": "Jawhar al-Siqilli under Caliph al-Mu'izz"
+          }
+        },
+        {
+          "label": "Status",
+          "value": "One of the oldest continually operating universities in the world",
+          "source": {
+            "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/1513",
+            "tier": "academic",
+            "quote": "one of the oldest operating institutions of higher learning"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Citadel of Saladin",
+      "type": "site",
+      "what": "A massive medieval stone fortress perched on the Mokattam hills, founded in 1176 by Salah al-Din. For nearly 700 years it served as the royal seat of Egyptian government, and features the 19th-century alabaster Mosque of Muhammad Ali.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1176 by Salah al-Din al-Ayyubi",
+          "source": {
+            "title": "The Citadel of Saladin",
+            "publisher": "Ministry of Tourism and Antiquities, Egypt",
+            "author": null,
+            "date": null,
+            "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+            "tier": "institutional",
+            "quote": "begun in 1176 by Salah al-Din"
+          }
+        },
+        {
+          "label": "Prominent landmark",
+          "value": "Mosque of Muhammad Ali (Alabaster Mosque, 1848)",
+          "source": {
+            "title": "The Citadel of Saladin",
+            "publisher": "Ministry of Tourism and Antiquities, Egypt",
+            "author": null,
+            "date": null,
+            "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+            "tier": "institutional",
+            "quote": "completed in 1848"
+          }
+        },
+        {
+          "label": "UNESCO status",
+          "value": "Part of Historic Cairo (inscribed 1979)",
+          "source": {
+            "title": "Historic Cairo",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/list/89",
+            "tier": "institutional",
+            "quote": "inscribed in 1979"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khan el-Khalili",
+      "type": "market",
+      "what": "A renowned historic market and bazaar district in Islamic Cairo, originating from a 1382 Mamluk caravanserai built by Emir Djaharks al-Khalili. It is celebrated for traditional metalwork, spices, stained glass, textiles and historical coffeehouses like El Fishawy (operating since 1773).",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1382 (Emir Djaharks al-Khalili)",
+          "source": {
+            "title": "Khan al-Khalili",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "founded in 1382 by Djaharks al-Khalili"
+          }
+        },
+        {
+          "label": "Rebuilt",
+          "value": "1511 (Sultan Qansuh al-Ghuri)",
+          "source": {
+            "title": "Khan al-Khalili",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "reconstructed in 1511"
+          }
+        },
+        {
+          "label": "Historic cafe",
+          "value": "El Fishawy (established 1773)",
+          "source": {
+            "title": "Khan al-Khalili",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "El Fishawy cafe founded in 1773"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Egyptian Museum in Tahrir",
+      "type": "culture",
+      "what": "The historic Museum of Egyptian Antiquities on Tahrir Square, inaugurated in November 1902 in a purpose-built neoclassical palace designed by French architect Marcel Dourgnon. It houses more than 120,000 pharaonic antiquities, papyri and royal statues.",
+      "facts": [
+        {
+          "label": "Inaugurated",
+          "value": "15 November 1902",
+          "source": {
+            "title": "The Egyptian Museum in Tahrir",
+            "publisher": "Ministry of Tourism and Antiquities, Egypt",
+            "author": null,
+            "date": null,
+            "url": "https://egyptianmuseumcairo.eg/",
+            "tier": "institutional",
+            "quote": "opened on 15 November 1902"
+          }
+        },
+        {
+          "label": "Architect",
+          "value": "Marcel Dourgnon (neoclassical)",
+          "source": {
+            "title": "The Egyptian Museum in Tahrir",
+            "publisher": "Ministry of Tourism and Antiquities, Egypt",
+            "author": null,
+            "date": null,
+            "url": "https://egyptianmuseumcairo.eg/",
+            "tier": "institutional",
+            "quote": "designed by Marcel Dourgnon"
+          }
+        },
+        {
+          "label": "Holdings",
+          "value": "Over 120,000 ancient Egyptian antiquities",
+          "source": {
+            "title": "The Egyptian Museum in Tahrir",
+            "publisher": "Ministry of Tourism and Antiquities, Egypt",
+            "author": null,
+            "date": null,
+            "url": "https://egyptianmuseumcairo.eg/",
+            "tier": "institutional",
+            "quote": "houses over 120,000 items"
+          }
+        }
+      ]
+    }
+  ],
+  "notNotFound": [
+    "Difference between the administrative Cairo Governorate (9.54M in 2017) and the Greater Cairo metropolitan megacity (exceeding 20.1 million).",
+    "Local voices: no verified note received yet from a resident of Cairo."
+  ]
+}

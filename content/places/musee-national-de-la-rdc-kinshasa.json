@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-de-la-rdc-kinshasa",
+  "status": "draft",
+  "type": "culture",
+  "country": "COD",
+  "name": "Musée National de la République Démocratique du Congo (MNRDC)",
+  "region": "Kinshasa · Democratic Republic of the Congo",
+  "subtitle": "State-of-the-art national museum inaugurated in 2019 in Lingwala, safeguarding over 46,000 ethnographic treasures.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "23 November 2019",
+      "cite": [
+        "cap-kinocongo-mnrdc-2019"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Boulevard Triomphal, Commune of Lingwala",
+      "cite": [
+        "cap-kinocongo-mnrdc-2019"
+      ]
+    },
+    {
+      "label": "Holdings",
+      "value": "Over 46,000 ethnographic artifacts, royal masks, ceremonial drums, and ritual statuary across DRC's 450+ ethnic cultures",
+      "cite": [
+        "cap-kinocongo-mnrdc-2019"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The flagship national museum of the Democratic Republic of the Congo, inaugurated in November 2019 along Boulevard Triomphal in Kinshasa. Built through international partnership with South Korea (KOICA), the ultramodern facility encompasses climate-controlled galleries housing an extraordinary collection of more than 46,000 ethnographic works. Its exhibition halls present Kuba royal statuary, Pende initiation masks, Mangbetu terracotta, traditional musical harps, and spiritual paraphernalia, celebrating the artistic genius and heritage of the country's hundreds of ethnolinguistic groups.",
+              "cite": [
+                "cap-kinocongo-mnrdc-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital catalogue with international restitution provenance entries is currently in progress.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

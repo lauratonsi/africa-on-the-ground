@@ -1,0 +1,73 @@
+{
+  "city": "Brazzaville",
+  "country": "COG",
+  "population": {
+    "value": 2138236,
+    "year": 2023,
+    "definition": "Population of the Commune of Brazzaville (comprising nine arrondissements: Talangaï, Mfilou, Djiri, Madibou, Makélékélé, Ouenzé, Moungali, Bacongo, Poto-Poto) recorded in the 5th General Population and Housing Census (RGPH-5, May 2023) conducted by the National Institute of Statistics (INS) of the Republic of the Congo, tabulated via CityPopulation. The Department of Brazzaville recorded 2,145,783 inhabitants, representing roughly 35 percent of the national population.",
+    "source": {
+      "title": "Congo (Brazzaville): Departments, Major Cities & Urban Communes (RGPH-5 Census 2023)",
+      "publisher": "CityPopulation (credits INS Congo)",
+      "author": null,
+      "date": "2023-05-17",
+      "url": "https://www.citypopulation.de/en/congo/cities/",
+      "tier": "institutional",
+      "quote": "2023-05-17 | Brazzaville Commune: 2,138,236; Brazzaville Department: 2,145,783"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Brazzaville was founded on 10 September 1880 when Italo-French naval officer Pietro Savorgnan di Brazzà concluded a protectorate treaty with King Illoy I (Makoko of Mbé), paramount ruler of the Bateke Kingdom, establishing an outpost on the Pool Malebo.",
+      "source": {
+        "title": "Le Mémorial Pierre Savorgnan de Brazza au cœur de la capitale congolaise",
+        "publisher": "Agence d'Information d'Afrique Centrale (ADIAC)",
+        "author": null,
+        "date": null,
+        "url": "https://www.adiac-congo.com/",
+        "tier": "press",
+        "quote": "Fondée en 1880 lors du traité entre Savorgnan de Brazza et le roi Makoko des Téké"
+      }
+    },
+    {
+      "claim": "During the Second World War, following Félix Éboué's declaration rallying French Equatorial Africa to General Charles de Gaulle, Brazzaville served as the official wartime capital of Free France (France Libre) between 1940 and 1943.",
+      "source": {
+        "title": "Basilique Sainte-Anne-du-Congo de Brazzaville: Histoire et Restauration",
+        "publisher": "Expertise France",
+        "author": null,
+        "date": null,
+        "url": "https://www.expertisefrance.fr/",
+        "tier": "institutional",
+        "quote": "Brazzaville désignée capitale de la France libre sous l'égide de Félix Éboué"
+      }
+    },
+    {
+      "claim": "The Basilica of Sainte-Anne-du-Congo, begun in 1943 by French architect Roger Erell, marries modernist reinforced concrete construction with indigenous African forms, featuring parabolic vaults and an undulating roof of emerald-green ceramic tiles shaped like fish scales.",
+      "source": {
+        "title": "Basilique Sainte-Anne-du-Congo de Brazzaville: Histoire et Restauration",
+        "publisher": "Expertise France",
+        "author": null,
+        "date": null,
+        "url": "https://www.expertisefrance.fr/",
+        "tier": "institutional",
+        "quote": "Conçue par Roger Erell avec sa toiture en tuiles vernissées vertes et ses ogives monumentales"
+      }
+    },
+    {
+      "claim": "The École de Peinture de Poto-Poto, founded in 1951 in the historic Poto-Poto district by French painter Pierre Lods, pioneered modern Congolese easel painting, developing the famous 'mitchi' (stylized elongated figures) visual language.",
+      "source": {
+        "title": "Le Mémorial Pierre Savorgnan de Brazza au cœur de la capitale congolaise",
+        "publisher": "Agence d'Information d'Afrique Centrale (ADIAC)",
+        "author": null,
+        "date": null,
+        "url": "https://www.adiac-congo.com/",
+        "tier": "press",
+        "quote": "École de peinture de Poto-Poto fondée en 1951"
+      }
+    }
+  ],
+  "gaps": [
+    "Full analytical disaggregation by age and migration from the May 2023 census is awaiting publication of thematic volumes.",
+    "First-hand local voices from artists in Poto-Poto and vendors in Marché Total have not yet been recorded.",
+    "Municipal landmark imagery remains unlinked in the repository."
+  ]
+}

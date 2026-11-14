@@ -1,0 +1,59 @@
+{
+  "slug": "maqam-echahid-algiers",
+  "status": "draft",
+  "type": "site",
+  "country": "DZA",
+  "name": "Maqam Echahid",
+  "region": "Algiers · Algeria",
+  "subtitle": "Monumental Martyrs' Memorial overlooking the Bay of Algiers, erected in 1982 for the 20th anniversary of independence.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "5 July 1982",
+      "cite": [
+        "cap-cerist-maqam-echahid"
+      ]
+    },
+    {
+      "label": "Height",
+      "value": "92 metres",
+      "cite": [
+        "cap-cerist-maqam-echahid"
+      ]
+    },
+    {
+      "label": "Designers",
+      "value": "Bachir Yellès and Marian Konieczny",
+      "cite": [
+        "cap-cerist-maqam-echahid"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A monumental concrete landmark erected in 1982 on the heights overlooking the Bay of Algiers to commemorate the fallen of the Algerian War of Independence. Three soaring stylized palm leaves meet at a height of 92 metres above an underground crypt, eternal flame and the National Museum of the Moudjahid.",
+              "cite": [
+                "cap-cerist-maqam-echahid"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from institutional documentation and should be read against primary architectural records.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

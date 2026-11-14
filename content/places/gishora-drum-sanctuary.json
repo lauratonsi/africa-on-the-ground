@@ -68,8 +68,16 @@
   "gaps": [
     "Almost everything. The famous royal drummers, the sanctuary's history and its place on UNESCO's intangible heritage list are not covered by the short article read here; they must be sourced from UNESCO and from Burundian voices.",
     "This place was chosen by the project as one of Burundi's best known; Burundi has no site on the World Heritage List.",
-    "A photograph under an open licence.",
     "Local voices: none yet.",
     "The 2022 report gives the government's rules as drummers and a ministry adviser see them: women drummers' and Gishora residents' own accounts are not in it, and the rules may have changed since."
-  ]
+  ],
+  "image": {
+    "file": "gishora-drum-sanctuary",
+    "alt": "The Gishora drum sanctuary in Burundi.",
+    "caption": "Gishora sanctuary.",
+    "credit": "AugustineTours",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Gishora_sanctuary-Burundi_Tour.jpg"
+  }
 }

@@ -3,10 +3,236 @@
   "status": "draft",
   "country": "DZA",
   "name": "Algiers",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Algiers, capital of Algeria: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 2,364,230 people live in the urban agglomeration of Algiers (counted 2008).",
+      "cite": [
+        "cap-citypopulation-de-algiers-2008"
+      ]
+    },
+    {
+      "text": "Algiers was refounded around 960 AD by Bologhine ibn Ziri on the ruins of Phoenician and Roman Icosium.",
+      "cite": [
+        "cap-algiers-history-unesco-casbah"
+      ]
+    },
+    {
+      "text": "Algiers became the capital of independent Algeria on 5 July 1962, exactly 132 years after French troops seized the city in 1830.",
+      "cite": [
+        "cap-algiers-history-unesco-casbah"
+      ]
+    }
+  ],
+  "places": [
+    "casbah-of-algiers",
+    "maqam-echahid-algiers",
+    "jardin-dessai-du-hamma-algiers",
+    "musee-national-des-beaux-arts-algiers",
+    "grande-poste-algiers"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Algiers in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Algiers was refounded around 960 AD by Bologhine ibn Ziri, founder of the Zirid dynasty, on the site of ancient Icosium, and named al-Jazā'ir Banī Mazghanna.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1516 the corsair Hayreddin Barbarossa established Ottoman naval presence in Algiers, leading to the creation of the Regency of Algiers under Ottoman suzerainty.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "French forces seized the city on 5 July 1830, beginning 132 years of colonial occupation that ended with the proclamation of Algerian independence on 5 July 1962.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,364,230",
+              "label": "people in the urban agglomeration of Algiers, 2008",
+              "cite": [
+                "cap-citypopulation-de-algiers-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the urban agglomeration of Algiers?",
+          "min": 500000,
+          "max": 5000000,
+          "step": 25000,
+          "unit": "",
+          "answer": 2364230,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,364,230 in 2008, according to the official census results compiled from the Office National des Statistiques (ONS) of Algeria. The entire Wilaya (province) of Algiers counted 2,988,145 residents at the same census.",
+              "cite": [
+                "cap-citypopulation-de-algiers-2008"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "c. 960",
+              "tag": "origins",
+              "text": "Bologhine ibn Ziri refounds the city as al-Jazā'ir Banī Mazghanna on the site of ancient Icosium.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "when": "1516–1529",
+              "tag": "origins",
+              "text": "Hayreddin Barbarossa establishes the Regency of Algiers under Ottoman suzerainty.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "when": "1830-07-05",
+              "tag": "growth",
+              "text": "French expeditionary troops capture Algiers, beginning 132 years of colonial occupation.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "when": "1832",
+              "tag": "growth",
+              "text": "The Jardin d'Essai du Hamma is established as a test and acclimatization botanical garden.",
+              "cite": [
+                "cap-medomed-hamma"
+              ]
+            },
+            {
+              "when": "1913",
+              "tag": "growth",
+              "text": "The Neo-Moorish Grande Poste d'Alger is completed in the city center.",
+              "cite": [
+                "cap-archnet-grande-poste"
+              ]
+            },
+            {
+              "when": "1930",
+              "tag": "growth",
+              "text": "The Musée National des Beaux-Arts d'Alger is inaugurated in the Hamma quarter.",
+              "cite": [
+                "cap-mwnf-beaux-arts-algiers"
+              ]
+            },
+            {
+              "when": "1962-07-05",
+              "tag": "growth",
+              "text": "Algeria proclaims independence; Algiers becomes the sovereign national capital.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "when": "1982-07-05",
+              "tag": "today",
+              "text": "Maqam Echahid (Martyrs' Memorial) is inaugurated for the 20th anniversary of independence.",
+              "cite": [
+                "cap-cerist-maqam-echahid"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Algiers in order.",
+          "items": [
+            {
+              "label": "Bologhine ibn Ziri refounds the city as al-Jazā'ir Banī Mazghanna.",
+              "when": "c. 960",
+              "text": "Bologhine ibn Ziri refounds the city as al-Jazā'ir Banī Mazghanna.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "label": "French expeditionary troops capture Algiers.",
+              "when": "1830",
+              "text": "French expeditionary troops capture Algiers.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "label": "Algeria proclaims independence; Algiers becomes the sovereign national capital.",
+              "when": "1962",
+              "text": "Algeria proclaims independence; Algiers becomes the sovereign national capital.",
+              "cite": [
+                "cap-algiers-history-unesco-casbah"
+              ]
+            },
+            {
+              "label": "Maqam Echahid (Martyrs' Memorial) is inaugurated on the heights.",
+              "when": "1982",
+              "text": "Maqam Echahid (Martyrs' Memorial) is inaugurated on the heights.",
+              "cite": [
+                "cap-cerist-maqam-echahid"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Post-2008 national census data directly from ONS site: the 2022 census raw tables could not be downloaded without session tokens; figures rely on the official 2008 census results published by ONS via CityPopulation.",
+    "Exact metropolitan boundary definition: differs between the agglomeration (2.36M) and the entire wilaya (2.98M).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Algeria has read this profile yet."
   ]
 }

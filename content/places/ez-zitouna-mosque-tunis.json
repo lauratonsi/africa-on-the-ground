@@ -1,0 +1,59 @@
+{
+  "slug": "ez-zitouna-mosque-tunis",
+  "status": "draft",
+  "type": "site",
+  "country": "TUN",
+  "name": "Ez-Zitouna Mosque",
+  "region": "Tunis · Tunisia",
+  "subtitle": "Historic Great Mosque and university in the Medina of Tunis, founded c. 698 CE with 160 antique columns from Carthage.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "c. 698 CE",
+      "cite": [
+        "cap-mwnf-zitouna"
+      ]
+    },
+    {
+      "label": "Columns",
+      "value": "160 antique columns from Carthage",
+      "cite": [
+        "cap-mwnf-zitouna"
+      ]
+    },
+    {
+      "label": "Distinction",
+      "value": "Historic university where Ibn Khaldun studied and taught",
+      "cite": [
+        "cap-mwnf-zitouna"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The principal historic mosque and oldest religious sanctuary of Tunis, founded around 698 CE after the conquest of Carthage. Its prayer hall features approximately 160 antique columns salvaged from the ruins of ancient Carthage. For over a millennium, Ez-Zitouna served as one of the leading university centers of Islamic scholarship in North Africa, where the famous historian Ibn Khaldun studied and taught.",
+              "cite": [
+                "cap-mwnf-zitouna"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Epigraphic documentation of Aghlabid and Zirid remodeling should be verified from primary architectural surveys.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

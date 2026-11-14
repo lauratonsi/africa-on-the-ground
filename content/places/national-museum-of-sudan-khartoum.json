@@ -1,0 +1,70 @@
+{
+  "slug": "national-museum-of-sudan-khartoum",
+  "status": "draft",
+  "type": "culture",
+  "country": "SDN",
+  "name": "National Museum of Sudan",
+  "region": "Khartoum · Sudan",
+  "subtitle": "National repository established in 1971 along Nile Avenue, housing relocated Nubian temples and Christian medieval Faras frescoes.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "1971",
+      "cite": [
+        "cap-unesco-nubian-campaign"
+      ]
+    },
+    {
+      "label": "Key holdings",
+      "value": "Relocated salvage temples (Buhen, Semna, Kumma) and Faras Christian frescoes",
+      "cite": [
+        "cap-unesco-nubian-campaign"
+      ]
+    },
+    {
+      "label": "Heritage alert",
+      "value": "Documented conflict damage and looting risks during the 2023–2024 Sudan war",
+      "cite": [
+        "cap-unesco-sudan-heritage-alert"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The foremost archaeological museum in Sudan, situated along Nile Avenue in central Khartoum. Opened in 1971, its outdoor gardens preserve entire ancient Egyptian and Kushite temples (including Buhen, Semna East, and Kumma) salvaged block-by-block under the UNESCO international campaign prior to the flooding of Lake Nasser, while its interior houses monumental royal Kushite statuary and the renowned wall frescoes salvaged from the medieval Christian cathedral of Faras.",
+              "cite": [
+                "cap-unesco-nubian-campaign"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Following the outbreak of armed hostilities in April 2023, UNESCO and international heritage organizations issued urgent alerts regarding active combat around the museum complex, unauthorized intrusions, and severe risk to its irreplaceable collections.",
+              "cite": [
+                "cap-unesco-sudan-heritage-alert"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Ground verification of individual artifacts and structural integrity post-April 2023 remains constrained by active security conditions.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

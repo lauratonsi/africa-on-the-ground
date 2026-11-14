@@ -1,0 +1,59 @@
+{
+  "slug": "musee-barthelemy-boganda-bangui",
+  "status": "draft",
+  "type": "culture",
+  "country": "CAF",
+  "name": "Musée National Barthélemy Boganda",
+  "region": "Bangui · Central African Republic",
+  "subtitle": "National ethnographic museum preserving Central African musical traditions, Pygmy material culture, and founding history.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "1 December 1966",
+      "cite": [
+        "cap-unesco-boganda-museum"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Former colonial residence of Barthélemy Boganda",
+      "cite": [
+        "cap-unesco-boganda-museum"
+      ]
+    },
+    {
+      "label": "Collections",
+      "value": "Ubangian and Aka Pygmy musical instruments, pottery, hunting gear, and ritual masks",
+      "cite": [
+        "cap-unesco-boganda-museum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The national ethnographic museum of the Central African Republic, located in the 2nd arrondissement of Bangui in the historic villa that served as the home of Barthélemy Boganda, the anti-colonial leader and founding father of the nation. Opened in 1966, the museum safeguards irreplaceable ethnographic collections representing the diverse ethnic cultures of the Ubangi basin, including Aka and BaAka Pygmy material arts, harp-zithers, sanza thumb pianos, ritual terracotta, and royal regalia.",
+              "cite": [
+                "cap-unesco-boganda-museum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Post-conflict artifact conservation inventory and public visiting schedules are pending updated reporting.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

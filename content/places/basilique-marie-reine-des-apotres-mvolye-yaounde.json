@@ -1,0 +1,59 @@
+{
+  "slug": "basilique-marie-reine-des-apotres-mvolye-yaounde",
+  "status": "draft",
+  "type": "culture",
+  "country": "CMR",
+  "name": "Basilique Marie-Reine-des-Apôtres de Mvolyé",
+  "region": "Yaoundé · Cameroon",
+  "subtitle": "Minor basilica crowned with local hard-timber pillars and indigenous Bamun and granite artisanal elements.",
+  "facts": [
+    {
+      "label": "Consecrated",
+      "value": "10 December 2006 (proclaimed minor basilica by Benedict XVI)",
+      "cite": [
+        "cap-actucameroun-mvolye"
+      ]
+    },
+    {
+      "label": "Structure",
+      "value": "Supported by 12 massive columns of precious bubinga and moabi timbers",
+      "cite": [
+        "cap-actucameroun-mvolye"
+      ]
+    },
+    {
+      "label": "Indigenous art",
+      "value": "Granite altar shaped like a traditional abbia gaming piece and Bamun-crafted bronze tabernacle",
+      "cite": [
+        "cap-actucameroun-mvolye"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A celebrated minor basilica situated atop Mvolyé hill in southern Yaoundé, on the grounds where German Pallottine missionaries led by Heinrich Vieter established the first Catholic mission in the area in 1901. Dedicated in 2006, the basilica is renowned for its bold African inculturation architecture: its expansive roof rests upon twelve monumental solid-wood pillars carved from indigenous bubinga and moabi tree trunks representing the apostles, accompanied by an altar carved from grey granite in the form of an ancient game token (abbia) and bronze reliefs fashioned after Bamun royal craft traditions.",
+              "cite": [
+                "cap-actucameroun-mvolye"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Wood conservation monitoring reports and acoustic specifications are unavailable.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

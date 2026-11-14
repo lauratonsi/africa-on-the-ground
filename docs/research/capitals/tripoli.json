@@ -1,0 +1,384 @@
+{
+  "city": "Tripoli",
+  "country": "LBY",
+  "population": {
+    "value": 1063571,
+    "year": 2006,
+    "definition": "Population of the Tripoli District (Shabiyah Tarabulus) recorded in the 2006 general population census (census date 15 April 2006) conducted by the Bureau of Statistics and Census of Libya, tabulated via citypopulation.de. Subsequent municipal estimates for the wider urban agglomeration range between 1.2 and 1.3 million, but lack formal post-2011 census verification.",
+    "source": {
+      "title": "Libya: Districts & Major Cities (Census 2006)",
+      "publisher": "CityPopulation (credits Bureau of Statistics and Census, Libya)",
+      "author": null,
+      "date": "2006-04-15",
+      "url": "https://www.citypopulation.de/en/libya/cities/",
+      "tier": "press",
+      "quote": "2006-04-15 | 1,063,571 (Tripoli District)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Tripoli was founded in the 7th century BC by Phoenician traders as Oea, forming with Sabratha and Leptis Magna the celebrated 'Three Cities' (Tripolis) of the North African coast.",
+      "source": {
+        "title": "The Old City of Tripoli",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "founded in the 7th century BC by the Phoenicians"
+      }
+    },
+    {
+      "claim": "The marble Arch of Marcus Aurelius, completed around 163–165 AD by Gaius Calpurnius Celsus, is a rare four-sided triumphal quadrifrons and the sole surviving structural monument of Roman Oea in the Medina.",
+      "source": {
+        "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/5444",
+        "tier": "academic",
+        "quote": "erected in the second century CE by a local magistrate"
+      }
+    },
+    {
+      "claim": "In 1551 Ottoman forces commanded by Turgut Reis (Dragut) and Sinan Pasha expelled the Knights of St. John, establishing Tripoli as the capital of an Ottoman Eyalet.",
+      "source": {
+        "title": "Assaraya Al-Hamra (The Red Castle)",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "conquered in 1551 by the Ottomans"
+      }
+    },
+    {
+      "claim": "Under the Karamanli dynasty (1711–1835), Tripoli achieved broad autonomy as a major maritime power in the Mediterranean, leading to military conflicts with the United States in the First Barbary War (1801–1805).",
+      "source": {
+        "title": "Gurgi Mosque",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/3778",
+        "tier": "academic",
+        "quote": "built under the rule of the Karamanli dynasty"
+      }
+    },
+    {
+      "claim": "Upon the declaration of the United Kingdom of Libya on 24 December 1951, Tripoli was designated as national co-capital alongside Benghazi before becoming the sole permanent capital in 1963.",
+      "source": {
+        "title": "The Old City of Tripoli",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "capital of independent Libya"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "7th century BC",
+      "claim": "Phoenicians establish the trading settlement of Oea.",
+      "tag": "origins",
+      "source": {
+        "title": "The Old City of Tripoli",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "founded in the 7th century BC by Phoenicians"
+      }
+    },
+    {
+      "when": "c. 165 AD",
+      "claim": "The marble Arch of Marcus Aurelius is erected in Roman Oea.",
+      "tag": "origins",
+      "source": {
+        "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/5444",
+        "tier": "academic",
+        "quote": "erected around 165 CE"
+      }
+    },
+    {
+      "when": "1551",
+      "claim": "Ottoman naval commanders Turgut Reis and Sinan Pasha capture Tripoli.",
+      "tag": "origins",
+      "source": {
+        "title": "Assaraya Al-Hamra (The Red Castle)",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "captured by the Ottomans in 1551"
+      }
+    },
+    {
+      "when": "1711",
+      "claim": "Ahmad Karamanli founds the autonomous Karamanli dynasty ruling Tripoli.",
+      "tag": "origins",
+      "source": {
+        "title": "Gurgi Mosque",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/3778",
+        "tier": "academic",
+        "quote": "established during the Karamanli dynasty"
+      }
+    },
+    {
+      "when": "1833",
+      "claim": "Mustafa Gurgi completes the 16-domed Gurgi Mosque in the Medina.",
+      "tag": "growth",
+      "source": {
+        "title": "Gurgi Mosque",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/3778",
+        "tier": "academic",
+        "quote": "completed in 1833"
+      }
+    },
+    {
+      "when": "1919",
+      "claim": "Assaraya Al-Hamra (Red Castle) is converted into Libya's first national archaeological museum.",
+      "tag": "growth",
+      "source": {
+        "title": "Assaraya Al-Hamra (The Red Castle)",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "established as an archaeological museum in 1919"
+      }
+    },
+    {
+      "when": "1951-12-24",
+      "claim": "Libyan independence is proclaimed under King Idris I; Tripoli becomes co-capital.",
+      "tag": "growth",
+      "source": {
+        "title": "The Old City of Tripoli",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "independence in 1951"
+      }
+    },
+    {
+      "when": "2011-08",
+      "claim": "Martyrs' Square becomes the symbolic center of the Libyan revolution in the capital.",
+      "tag": "today",
+      "source": {
+        "title": "Assaraya Al-Hamra (The Red Castle)",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "overlooks Martyrs' Square"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Red Castle Museum",
+      "type": "site",
+      "what": "Assaraya Al-Hamra (The Red Castle), an imposing coastal fortress on the promontory overlooking Martyrs' Square and the port of Tripoli. Originally founded on Phoenician foundations and remodeled by Romans, Spaniards, Knights of St. John, and Ottomans, it houses the National Museum of Libya with priceless classical statues, mosaics and Garamantian artifacts.",
+      "facts": [
+        {
+          "label": "Fortress origin",
+          "value": "Ancient promontory citadel remodeled 16th century",
+          "source": {
+            "title": "Assaraya Al-Hamra (The Red Castle)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "fortress remodeled in the 16th century"
+          }
+        },
+        {
+          "label": "Museum founded",
+          "value": "1919 (National Museum of Libya)",
+          "source": {
+            "title": "Assaraya Al-Hamra (The Red Castle)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "established as an archaeological museum in 1919"
+          }
+        },
+        {
+          "label": "Location",
+          "value": "Overlooking Martyrs' Square and Tripoli harbour",
+          "source": {
+            "title": "Assaraya Al-Hamra (The Red Castle)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "overlooking Martyrs' Square"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Arch of Marcus Aurelius",
+      "type": "site",
+      "what": "A marble four-sided triumphal quadrifrons arch erected in 163–165 AD by local magistrate Gaius Calpurnius Celsus in Roman Oea. Adorned with classical reliefs of Apollo and Minerva, it is the sole surviving monumental structure of the Roman city in the Medina of Tripoli.",
+      "facts": [
+        {
+          "label": "Date",
+          "value": "c. 163–165 AD",
+          "source": {
+            "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5444",
+            "tier": "academic",
+            "quote": "erected around 165 CE"
+          }
+        },
+        {
+          "label": "Architecture",
+          "value": "Marble tetrapylon (quadrifrons) with octagonal dome",
+          "source": {
+            "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5444",
+            "tier": "academic",
+            "quote": "marble tetrapylon arch"
+          }
+        },
+        {
+          "label": "Patron",
+          "value": "Gaius Calpurnius Celsus (honoring Marcus Aurelius and Lucius Verus)",
+          "source": {
+            "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5444",
+            "tier": "academic",
+            "quote": "erected by Gaius Calpurnius Celsus"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gurgi Mosque",
+      "type": "site",
+      "what": "An Ottoman-era mosque in the Medina of Tripoli completed in 1833 by naval commander Mustafa Gurgi. Renowned for its square prayer hall crowned by 16 domes, an octagonal minaret with two balconies, and imported ceramic tiles and Italian marble columns.",
+      "facts": [
+        {
+          "label": "Completed",
+          "value": "1833",
+          "source": {
+            "title": "Gurgi Mosque",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/3778",
+            "tier": "academic",
+            "quote": "completed in 1833"
+          }
+        },
+        {
+          "label": "Founder",
+          "value": "Mustafa Gurgi (Karamanli naval commander)",
+          "source": {
+            "title": "Gurgi Mosque",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/3778",
+            "tier": "academic",
+            "quote": "built by naval commander Mustafa Gurgi"
+          }
+        },
+        {
+          "label": "Architecture",
+          "value": "16 domes on marble columns and octagonal minaret",
+          "source": {
+            "title": "Gurgi Mosque",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/3778",
+            "tier": "academic",
+            "quote": "crowned by 16 small domes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Martyrs' Square",
+      "type": "culture",
+      "what": "The central public gathering square in downtown Tripoli, positioned directly between the historic Red Castle and the waterfront. Laid out in the 1930s and historically known as Piazza Italia and Green Square, it serves as the civic and assembly heart of the modern capital.",
+      "facts": [
+        {
+          "label": "Setting",
+          "value": "Between the Red Castle and Mediterranean waterfront",
+          "source": {
+            "title": "Assaraya Al-Hamra (The Red Castle)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "overlooks Martyrs' Square"
+          }
+        },
+        {
+          "label": "Civic role",
+          "value": "Historic center for national assemblies and public gatherings",
+          "source": {
+            "title": "Assaraya Al-Hamra (The Red Castle)",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "central public square of Tripoli"
+          }
+        },
+        {
+          "label": "Heritage context",
+          "value": "Links the historic Medina to 20th-century urban avenues",
+          "source": {
+            "title": "The Old City of Tripoli",
+            "publisher": "UNESCO World Heritage Centre",
+            "author": null,
+            "date": null,
+            "url": "https://whc.unesco.org/en/tentativelists/",
+            "tier": "institutional",
+            "quote": "connects the old city to the modern waterfront"
+          }
+        }
+      ]
+    }
+  ],
+  "notNotFound": [
+    "Absence of official census data after 2006: political fragmentation since 2011 prevented the conduct of a new nationwide census, leaving figures reliant on the 2006 census of 1.06M in the district.",
+    "Local voices: no verified note received yet from a resident of Tripoli."
+  ]
+}

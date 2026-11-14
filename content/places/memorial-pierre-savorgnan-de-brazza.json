@@ -1,0 +1,59 @@
+{
+  "slug": "memorial-pierre-savorgnan-de-brazza",
+  "status": "draft",
+  "type": "site",
+  "country": "COG",
+  "name": "Mémorial Pierre Savorgnan de Brazza",
+  "region": "Brazzaville · Republic of the Congo",
+  "subtitle": "Monumental mausoleum along the Congo River preserving the remains of the city's founder and historic documentation.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "3 October 2006",
+      "cite": [
+        "cap-adiac-congo-memorial-brazza"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Overlooking the banks of the Congo River in central Brazzaville",
+      "cite": [
+        "cap-adiac-congo-memorial-brazza"
+      ]
+    },
+    {
+      "label": "Significance",
+      "value": "Houses the crypt of Pietro Savorgnan di Brazzà and his family, commemorating the 1880 treaty with Makoko Illoy I",
+      "cite": [
+        "cap-adiac-congo-memorial-brazza"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A prominent civic memorial and marble mausoleum overlooking the vast waters of the Congo River. Inaugurated in October 2006, it houses the crypt of the Italian-born French explorer Pietro Savorgnan di Brazzà, whose remains, along with those of his wife and four children, were repatriated from Algiers to Brazzaville. The site preserves historical documents, treaties, and bas-relief murals depicting the peaceful pact negotiated in 1880 between Brazza and the Bateke monarch King Makoko Illoy I, which marked the founding of the capital.",
+              "cite": [
+                "cap-adiac-congo-memorial-brazza"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Archival accession records of temporary exhibition galleries are not fully indexed online.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

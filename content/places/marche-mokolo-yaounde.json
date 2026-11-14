@@ -1,0 +1,59 @@
+{
+  "slug": "marche-mokolo-yaounde",
+  "status": "draft",
+  "type": "market",
+  "country": "CMR",
+  "name": "Marché Mokolo",
+  "region": "Yaoundé · Cameroon",
+  "subtitle": "The most expansive and populous open-air trading market in Yaoundé, active across the capital's 2nd arrondissement.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Yaoundé II Arrondissement",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    },
+    {
+      "label": "Trade scope",
+      "value": "Textiles, fresh produce, spices, kitchenware, and second-hand goods",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    },
+    {
+      "label": "Character",
+      "value": "Dense, vibrant commercial nerve center drawing thousands of daily shoppers and traders",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The pulsing commercial heart of Yaoundé, spanning the densely packed alleys of the Mokolo district in Yaoundé II. As one of the largest open markets in the Central African subregion, it serves as the essential distribution center for imported garments, hand-dyed local fabrics, fresh produce trucked in from the fertile Western and Centre regions, traditional condiments, and everyday consumer items, operating from dawn to dusk in an energetic atmosphere of bargaining and street commerce.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Precise census of registered stalls vs. informal vendors is unavailable.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

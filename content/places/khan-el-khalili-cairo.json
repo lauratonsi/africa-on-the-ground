@@ -1,0 +1,59 @@
+{
+  "slug": "khan-el-khalili-cairo",
+  "status": "draft",
+  "type": "market",
+  "country": "EGY",
+  "name": "Khan el-Khalili",
+  "region": "Cairo · Egypt",
+  "subtitle": "Historic 14th-century bazaar and trade district in Islamic Cairo, originating from a 1382 Mamluk caravanserai.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1382 (Emir Djaharks al-Khalili)",
+      "cite": [
+        "cap-mwnf-khan-el-khalili"
+      ]
+    },
+    {
+      "label": "Rebuilt",
+      "value": "1511 (Sultan Qansuh al-Ghuri)",
+      "cite": [
+        "cap-mwnf-khan-el-khalili"
+      ]
+    },
+    {
+      "label": "Historic cafe",
+      "value": "El Fishawy (established 1773)",
+      "cite": [
+        "cap-mwnf-khan-el-khalili"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The premier historic marketplace and bazaar of Islamic Cairo, established around 1382 by Mamluk master of the stables Djaharks al-Khalili as a fortified caravanserai for traveling merchant caravans. Redesigned in the early 16th century under Sultan al-Ghuri with stone archways and gates, it forms an intricate maze of workshops and alleys dedicated to brass engraving, perfumes, glassware and traditional coffeehouses including El Fishawy, in continuous operation since 1773.",
+              "cite": [
+                "cap-mwnf-khan-el-khalili"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Economic registers of traditional trade guilds (tawa'if) across the Ottoman period were not consulted directly.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

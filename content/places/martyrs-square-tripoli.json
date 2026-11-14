@@ -1,0 +1,60 @@
+{
+  "slug": "martyrs-square-tripoli",
+  "status": "draft",
+  "type": "culture",
+  "country": "LBY",
+  "name": "Martyrs' Square",
+  "region": "Tripoli · Libya",
+  "subtitle": "Central public square connecting the Red Castle and the Medina to modern Tripoli avenues, civic center of mass political assemblies.",
+  "facts": [
+    {
+      "label": "Setting",
+      "value": "Between the Red Castle and Mediterranean waterfront",
+      "cite": [
+        "cap-mwnf-assaraya-al-hamra"
+      ]
+    },
+    {
+      "label": "Civic role",
+      "value": "Historic center for national assemblies and public gatherings",
+      "cite": [
+        "cap-mwnf-assaraya-al-hamra"
+      ]
+    },
+    {
+      "label": "Heritage context",
+      "value": "Links the historic Medina to 20th-century urban avenues",
+      "cite": [
+        "cap-unesco-libya-tentative"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The main public open-air plaza of central Tripoli, bounded by the high red walls of Assaraya Al-Hamra, the old Medina, and the Mediterranean seafront. Laid out during the Italian colonial period and known successively as Piazza Italia, Green Square, and Martyrs' Square, it serves as the symbolic civic gathering place where major political milestones, popular protests, and civic celebrations have unfolded throughout 20th- and 21st-century Libyan history.",
+              "cite": [
+                "cap-mwnf-assaraya-al-hamra",
+                "cap-unesco-libya-tentative"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Historical architectural blueprints from the Italian municipal administration in the 1930s were reviewed through secondary sources.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

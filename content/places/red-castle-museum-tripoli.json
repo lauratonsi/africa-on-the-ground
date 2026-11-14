@@ -1,0 +1,59 @@
+{
+  "slug": "red-castle-museum-tripoli",
+  "status": "draft",
+  "type": "site",
+  "country": "LBY",
+  "name": "Red Castle Museum",
+  "region": "Tripoli · Libya",
+  "subtitle": "Assaraya Al-Hamra, imposing seaside citadel housing the National Museum of Libya overlooking Martyrs' Square.",
+  "facts": [
+    {
+      "label": "Fortress origin",
+      "value": "Ancient promontory citadel remodeled 16th century",
+      "cite": [
+        "cap-mwnf-assaraya-al-hamra"
+      ]
+    },
+    {
+      "label": "Museum founded",
+      "value": "1919 (National Museum of Libya)",
+      "cite": [
+        "cap-mwnf-assaraya-al-hamra"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Overlooking Martyrs' Square and Tripoli harbour",
+      "cite": [
+        "cap-mwnf-assaraya-al-hamra"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An imposing seaside fortress and citadel complex dominating the waterfront and Martyrs' Square in Tripoli. Built upon ancient Phoenician foundations and significantly reinforced during Spanish and Ottoman rule in the 16th century, Assaraya Al-Hamra ('The Red Castle') houses the National Museum of Libya, preserving vast archaeological collections from prehistoric rock art and Garamantian tombs to monumental Roman statues and mosaics from Leptis Magna and Sabratha.",
+              "cite": [
+                "cap-mwnf-assaraya-al-hamra"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Museum inventory updates and condition reports following the 2011–2020 conflict periods remain limited.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

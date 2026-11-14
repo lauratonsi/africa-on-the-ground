@@ -9,7 +9,7 @@
   var total = rows.length;
   var links = Array.prototype.slice.call(jump.querySelectorAll("a"));
   var suffix = count && /drafts included/.test(count.textContent) ? " (drafts included)" : "";
-  var state = { type: "all", status: "all", region: "all", text: "" };
+  var state = { type: "all", status: "all", category: "all", country: "all", period: "all", region: "all", text: "" };
   tools.hidden = false;
 
   function apply() {
@@ -18,6 +18,9 @@
       var region = li.closest(".pgroup").id.replace("r-", "");
       var on = (state.type === "all" || li.getAttribute("data-type") === state.type) &&
         (state.status === "all" || li.getAttribute("data-status") === state.status) &&
+        (state.category === "all" || li.getAttribute("data-category") === state.category) &&
+        (state.country === "all" || li.getAttribute("data-country") === state.country) &&
+        (state.period === "all" || li.getAttribute("data-period") === state.period) &&
         (state.region === "all" || region === state.region) &&
         (!text || li.getAttribute("data-q").indexOf(text) !== -1);
       li.hidden = !on; if (on) shown++;
@@ -30,6 +33,9 @@
         if (li.closest(".pgroup").id !== "r-" + id) return;
         if ((state.type === "all" || li.getAttribute("data-type") === state.type) &&
             (state.status === "all" || li.getAttribute("data-status") === state.status) &&
+            (state.category === "all" || li.getAttribute("data-category") === state.category) &&
+            (state.country === "all" || li.getAttribute("data-country") === state.country) &&
+            (state.period === "all" || li.getAttribute("data-period") === state.period) &&
             (!text || li.getAttribute("data-q").indexOf(text) !== -1)) k++;
       });
       var n = a.querySelector(".n"); if (n) n.textContent = k;
@@ -68,7 +74,7 @@
   jump.addEventListener("keydown", function (e) { if (e.key === " " && e.target.matches("a[data-region]")) { e.preventDefault(); e.target.click(); } });
   q.addEventListener("input", function () { state.text = q.value; apply(); });
   document.getElementById("pi-reset").addEventListener("click", function () {
-    state = { type: "all", status: "all", region: "all", text: "" }; q.value = "";
+    state = { type: "all", status: "all", category: "all", country: "all", period: "all", region: "all", text: "" }; q.value = "";
     Array.prototype.forEach.call(tools.querySelectorAll(".filters"), function (box) {
       Array.prototype.forEach.call(box.querySelectorAll("button"), function (x, i) { x.setAttribute("aria-pressed", i === 0 ? "true" : "false"); });
     });

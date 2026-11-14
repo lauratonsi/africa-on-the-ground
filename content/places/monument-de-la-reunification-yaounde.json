@@ -1,0 +1,59 @@
+{
+  "slug": "monument-de-la-reunification-yaounde",
+  "status": "draft",
+  "type": "site",
+  "country": "CMR",
+  "name": "Reunification Monument",
+  "region": "Yaoundé · Cameroon",
+  "subtitle": "Spiraling modernist architectural complex commemorating the 1961 union of French and British Cameroons.",
+  "facts": [
+    {
+      "label": "Constructed",
+      "value": "1973–1976",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    },
+    {
+      "label": "Designers",
+      "value": "Gédéon Mpando, Engelbert Mveng, and Armand Salomon",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    },
+    {
+      "label": "Symbolism",
+      "value": "Two interlocking spiraling columns representing post-colonial national reunification",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A major civic and historical monument erected on Plateau Atemengue in Yaoundé. Built between 1973 and 1976 under the design of sculptor Gédéon Mpando, cultural scholar Engelbert Mveng, and architect Armand Salomon, the complex features a concrete spiraling structure composed of two interlocking columns that meet at the summit, physically and symbolically representing the 1961 merger of the previously separate British Southern Cameroons and French Cameroon into a single republic.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Architectural maintenance archives and accessibility details are partially documented.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -3611,5 +3611,419 @@
     "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “known in siSwati as Umsamo Wesive was built in 1972”",
     "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-algiers-2008",
+    "title": "Algeria: Provinces & Major Cities (Census 2008)",
+    "publisher": "CityPopulation (credits Office National des Statistiques, Algérie)",
+    "url": "https://www.citypopulation.de/en/algeria/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-algiers-history-unesco-casbah",
+    "title": "Kasbah of Algiers",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/565",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-cerist-maqam-echahid",
+    "title": "Mémorial du Martyr (Maqam Echahid)",
+    "publisher": "Centre de Recherche sur l'Information Scientifique et Technique (CERIST)",
+    "url": "https://webtourist.cerist.dz/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-medomed-hamma",
+    "title": "Botanic Garden of Hamma (Algiers)",
+    "publisher": "Med-O-Med (Mediterranean Open Network on Cultural Landscapes and Botanic Gardens)",
+    "url": "https://medomed.org/portfolio/botanic-garden-of-hamma/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-beaux-arts-algiers",
+    "title": "Musée National des Beaux-Arts d'Alger",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-grande-poste",
+    "title": "Grande Poste d'Alger",
+    "publisher": "Archnet (Aga Khan Documentation Center at MIT / AKTC)",
+    "url": "https://archnet.org/sites/5443",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-rabat-2024",
+    "title": "Morocco: Regions, Major Cities & Urban Communes (Census 2024)",
+    "publisher": "CityPopulation (credits Haut-Commissariat au Plan, Royaume du Maroc)",
+    "url": "https://www.citypopulation.de/en/morocco/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-rabat-1401",
+    "title": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1401",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-chellah",
+    "title": "Chellah (Sala)",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-hassan-mausoleum",
+    "title": "Tour Hassan et Mausolée Mohammed V",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-fnm-mmvi-rabat",
+    "title": "Musée Mohammed VI d'Art Moderne et Contemporain",
+    "publisher": "Fondation Nationale des Musées du Maroc (FNM)",
+    "url": "https://fnm.ma/musee-mohammed-vi-dart-moderne-et-contemporain/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-tunis-2024",
+    "title": "Tunisia: Governorates, Major Cities & Communes (Census 2024)",
+    "publisher": "CityPopulation (credits Institut National de la Statistique, Tunisie)",
+    "url": "https://www.citypopulation.de/en/tunisia/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-amvppc-bardo",
+    "title": "Musée National du Bardo",
+    "publisher": "Agence de Mise en Valeur du Patrimoine et de Promotion Culturelle (AMVPPC)",
+    "url": "https://patrimoinedetunisie.com.tn/musee-national-du-bardo/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-zitouna",
+    "title": "Grande Mosquée Zitouna",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-theatre-bourguiba",
+    "title": "Théâtre municipal de Tunis",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-asm-dar-lasram",
+    "title": "Dar Lasram et l'Association de Sauvegarde de la Médina de Tunis",
+    "publisher": "Association de Sauvegarde de la Médina de Tunis (ASM)",
+    "url": "https://www.asmtunis.com/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-cairo-2017",
+    "title": "Egypt: Governorates, Major Cities & Urban Communes (Census 2017)",
+    "publisher": "CityPopulation (credits Central Agency for Public Mobilization and Statistics, Egypt)",
+    "url": "https://www.citypopulation.de/en/egypt/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-historic-cairo",
+    "title": "Historic Cairo",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/89",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-al-azhar",
+    "title": "Jami' al-Azhar (Al-Azhar Mosque)",
+    "publisher": "Archnet (Aga Khan Documentation Center at MIT / AKTC)",
+    "url": "https://archnet.org/sites/1513",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-egymonuments-citadel",
+    "title": "The Citadel of Saladin",
+    "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+    "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-saladin",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-khan-el-khalili",
+    "title": "Khan al-Khalili",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-egyptianmuseum-tahrir",
+    "title": "The Egyptian Museum in Tahrir",
+    "publisher": "Ministry of Tourism and Antiquities, Arab Republic of Egypt",
+    "url": "https://egyptianmuseumcairo.eg/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-libya-2006",
+    "title": "Libya: Districts & Major Cities (Census 2006)",
+    "publisher": "CityPopulation (credits Bureau of Statistics and Census, Libya)",
+    "url": "https://www.citypopulation.de/en/libya/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-libya-tentative",
+    "title": "The Old City of Tripoli",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/tentativelists/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-gurgi-mosque",
+    "title": "Gurgi Mosque",
+    "publisher": "Archnet (Aga Khan Documentation Center at MIT / AKTC)",
+    "url": "https://archnet.org/sites/3778",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-mwnf-assaraya-al-hamra",
+    "title": "Assaraya Al-Hamra (The Red Castle)",
+    "publisher": "Museum With No Frontiers (MWNF)",
+    "url": "https://www.museumwnf.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-marcus-aurelius-tripoli",
+    "title": "Arch of Marcus Aurelius (Oea / Tripoli)",
+    "publisher": "Archnet (MIT / AKTC)",
+    "url": "https://archnet.org/sites/5444",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-sudan-2008",
+    "title": "Sudan: States, Major Cities and Agglomerations - Population Statistics (Census 2008, Central Bureau of Statistics Sudan)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/sudan/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-nubian-campaign",
+    "title": "The International Campaign to Save the Monuments of Nubia",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/activities/172/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-sudan-heritage-alert",
+    "title": "UNESCO Statement on the Threat to Sudan's Cultural Heritage",
+    "publisher": "UNESCO",
+    "url": "https://www.unesco.org/en/articles/unesco-sounds-alarm-threat-cultural-heritage-sudan",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-britannica-khartoum",
+    "title": "Khartoum: History, Geography, and Conurbation",
+    "publisher": "Encyclopaedia Britannica",
+    "url": "https://www.britannica.com/place/Khartoum",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-khalifa-house",
+    "title": "Khalifa House and Mahdi Tomb Complex, Omdurman",
+    "publisher": "Archnet (MIT / AKTC)",
+    "url": "https://archnet.org/sites/5521",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-cameroon-2005",
+    "title": "Cameroon: Regions, Major Cities & Towns - Population Statistics (Census 2005, BUCREP / INS)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/cameroon/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-minculture-cm-musee-national",
+    "title": "Le Musée National du Cameroun - Ancien Palais des Gouverneurs",
+    "publisher": "Ministère des Arts et de la Culture du Cameroun",
+    "url": "https://www.minculture-cameroun-gov.com/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-britannica-yaounde",
+    "title": "Encyclopaedia Britannica - Yaoundé",
+    "publisher": "Encyclopaedia Britannica",
+    "url": "https://www.britannica.com/place/Yaounde",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-actucameroun-mvolye",
+    "title": "Histoire et architecture de la Basilique Marie-Reine-des-Apôtres de Mvolyé",
+    "publisher": "Actu Cameroun",
+    "url": "https://actucameroun.com/",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-car-2003",
+    "title": "Central African Republic: Prefectures & Major Cities - Population Statistics (Census 2003, ICASEES)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/car/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-zenit-bangui-porte-sainte-2015",
+    "title": "Pape François à Bangui: ouverture de la Porte Sainte et proclamation de la capitale spirituelle",
+    "publisher": "Zenit News Agency",
+    "url": "https://zenit.org/",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-boganda-museum",
+    "title": "Sauvegarde du patrimoine en péril en République centrafricaine: Musée de Boganda",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-congo-2023",
+    "title": "Congo (Brazzaville): Departments, Major Cities & Urban Communes (RGPH-5 Census 2023, INS Congo)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/congo/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-expertisefrance-sainte-anne",
+    "title": "Basilique Sainte-Anne-du-Congo de Brazzaville: Histoire et Restauration",
+    "publisher": "Expertise France",
+    "url": "https://www.expertisefrance.fr/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-adiac-congo-memorial-brazza",
+    "title": "Le Mémorial Pierre Savorgnan de Brazza au cœur de la capitale congolaise",
+    "publisher": "Agence d'Information d'Afrique Centrale (ADIAC)",
+    "url": "https://www.adiac-congo.com/",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-drcongo-2004",
+    "title": "Congo (Dem. Rep.): Provinces, Major Cities & Communes (Official Estimates 2004, INS RDC)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/drcongo/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-kinocongo-mnrdc-2019",
+    "title": "Inauguration du Musée National de la République Démocratique du Congo à Kinshasa",
+    "publisher": "KinoCongo Culture",
+    "url": "https://kinocongo.com/",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-petitfute-tour-limete",
+    "title": "Tour de l'Échangeur de Limete et Mausolée Lumumba",
+    "publisher": "Petit Futé",
+    "url": "https://www.petitfute.com/",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-aba-kinshasa",
+    "title": "Académie des Beaux-Arts de Kinshasa: Histoire et création artistique",
+    "publisher": "Académie des Beaux-Arts",
+    "url": "https://aba-kinshasa.cd/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
   }
 ]

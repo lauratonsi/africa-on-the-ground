@@ -1,0 +1,59 @@
+{
+  "slug": "dar-lasram-tunis",
+  "status": "draft",
+  "type": "culture",
+  "country": "TUN",
+  "name": "Dar Lasram",
+  "region": "Tunis · Tunisia",
+  "subtitle": "Historic 19th-century aristocratic palace in the Medina, headquarters of the Association de Sauvegarde de la Médina.",
+  "facts": [
+    {
+      "label": "Built",
+      "value": "1812–1819 (Hamouda Lasram)",
+      "cite": [
+        "cap-asm-dar-lasram"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "Approx. 2,250 square metres",
+      "cite": [
+        "cap-asm-dar-lasram"
+      ]
+    },
+    {
+      "label": "Institution",
+      "value": "HQ of the Association de Sauvegarde de la Médina (ASM)",
+      "cite": [
+        "cap-asm-dar-lasram"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An aristocratic palatial mansion located on Rue du Tribunal in the Medina of Tunis. Built between 1812 and 1819 for minister Hamouda Lasram, it spans approximately 2,250 square metres with Andalusian-style courtyards, hand-painted ceramic tilework and vaulted ceilings. Purchased by the municipality in 1964, it became the headquarters of the Association de Sauvegarde de la Médina (ASM) in 1968, leading landmark restoration initiatives across the old city.",
+              "cite": [
+                "cap-asm-dar-lasram"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Restoration project reports from the 1970s and 1980s by ASM were reviewed via summary publications.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

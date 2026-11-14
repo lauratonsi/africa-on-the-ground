@@ -1,0 +1,59 @@
+{
+  "slug": "citadel-of-saladin-cairo",
+  "status": "draft",
+  "type": "site",
+  "country": "EGY",
+  "name": "Citadel of Saladin",
+  "region": "Cairo · Egypt",
+  "subtitle": "Monumental medieval fortress on the Mokattam hills founded in 1176 by Salah al-Din, seat of Egyptian government for nearly 700 years.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1176 by Salah al-Din al-Ayyubi",
+      "cite": [
+        "cap-egymonuments-citadel"
+      ]
+    },
+    {
+      "label": "Prominent landmark",
+      "value": "Mosque of Muhammad Ali (Alabaster Mosque, 1848)",
+      "cite": [
+        "cap-egymonuments-citadel"
+      ]
+    },
+    {
+      "label": "UNESCO status",
+      "value": "Part of Historic Cairo (inscribed 1979)",
+      "cite": [
+        "cap-unesco-historic-cairo"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A massive medieval military fortification situated on a high spur of the Mokattam hills, initiated in 1176 by Ayyubid Sultan Salah al-Din (Saladin) to protect Cairo from Crusader incursions. It served as the central administrative palace and residence of Egypt's rulers from the Ayyubid and Mamluk eras through the 19th century, crowned by the towering twin minarets and alabaster domes of the Mosque of Muhammad Ali.",
+              "cite": [
+                "cap-egymonuments-citadel"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Subterranean military passages and the deep Well of Joseph (Bir Yusuf) are only partially described in available institutional summaries.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

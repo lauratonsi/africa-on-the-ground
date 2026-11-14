@@ -1,0 +1,385 @@
+{
+  "city": "Algiers",
+  "country": "DZA",
+  "population": {
+    "value": 2364230,
+    "year": 2008,
+    "definition": "Population of the urban agglomeration of El Djazaïr [Algiers] recorded in the 2008 population and housing census (RGPH 2008, census night 14 April 2008) by the Office National des Statistiques (ONS) of Algeria, tabulated via citypopulation.de. The wider Wilaya (province) of Algiers counted 2,988,145 residents at the same census.",
+    "source": {
+      "title": "Algeria: Provinces & Major Cities (Census 2008)",
+      "publisher": "CityPopulation (credits Office National des Statistiques, Algérie)",
+      "author": null,
+      "date": "2008-04-14",
+      "url": "https://www.citypopulation.de/en/algeria/cities/",
+      "tier": "press",
+      "quote": "2008-04-14 | 2,364,230 (urban settlement)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Algiers was refounded around 960 AD by Bologhine ibn Ziri, founder of the Zirid dynasty, on the ruins of the Phoenician and Roman settlement of Icosium, naming it al-Jazā'ir Banī Mazghanna.",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "built on one of the finest coastal sites on the Mediterranean, overlooking the islands where a Carthaginian trading-post was established in the 4th century BC"
+      }
+    },
+    {
+      "claim": "In 1516 the corsair Hayreddin Barbarossa was invited to Algiers, leading to the expulsion of the Spanish from the Peñón fortress in 1529 and establishing the Regency of Algiers under Ottoman suzerainty.",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "the Turkish period (1516-1830) was the most prosperous and decisive for the urban and architectural form of the city"
+      }
+    },
+    {
+      "claim": "French forces seized Algiers on 5 July 1830, initiating 132 years of colonial rule that profoundly altered the lower town while leaving the upper Casbah intact.",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "conquered in 1830 by the French army"
+      }
+    },
+    {
+      "claim": "The Battle of Algiers in 1957 was a major urban guerrilla turning point of the Algerian War of Independence, centered in the narrow alleyways of the Casbah.",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "the Casbah played a central role during the Algerian revolution"
+      }
+    },
+    {
+      "claim": "On 5 July 1962, exactly 132 years after French troops landed, Algerian independence was proclaimed and Algiers became the capital of the sovereign Democratic and Popular Republic of Algeria.",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "national independence in 1962"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "c. 960",
+      "claim": "Bologhine ibn Ziri refounds the city as al-Jazā'ir Banī Mazghanna on the site of ancient Icosium.",
+      "tag": "origins",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "founded in the 10th century by Bologhine ibn Ziri"
+      }
+    },
+    {
+      "when": "1516–1529",
+      "claim": "Hayreddin Barbarossa establishes the Regency of Algiers under Ottoman suzerainty.",
+      "tag": "origins",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "1516-1830 was the most prosperous period"
+      }
+    },
+    {
+      "when": "1830-07-05",
+      "claim": "French expeditionary troops capture Algiers, beginning 132 years of colonial occupation.",
+      "tag": "growth",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "conquered in 1830"
+      }
+    },
+    {
+      "when": "1832",
+      "claim": "The Jardin d'Essai du Hamma is established as a test and acclimatization botanical garden.",
+      "tag": "growth",
+      "source": {
+        "title": "Botanic Garden of Hamma (Algiers)",
+        "publisher": "Med-O-Med",
+        "author": null,
+        "date": null,
+        "url": "https://medomed.org/portfolio/botanic-garden-of-hamma/",
+        "tier": "institutional",
+        "quote": "Established in 1832 during the early years of the French colonization"
+      }
+    },
+    {
+      "when": "1913",
+      "claim": "The Neo-Moorish Grande Poste d'Alger is completed in the city center.",
+      "tag": "growth",
+      "source": {
+        "title": "Grande Poste d'Alger",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/5443",
+        "tier": "academic",
+        "quote": "completed in 1913 by architects Jules Voinot and Marius Toudoire"
+      }
+    },
+    {
+      "when": "1930",
+      "claim": "The Musée National des Beaux-Arts d'Alger is inaugurated in the Hamma quarter.",
+      "tag": "growth",
+      "source": {
+        "title": "Musée National des Beaux-Arts d'Alger",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "opened on 5 May 1930"
+      }
+    },
+    {
+      "when": "1962-07-05",
+      "claim": "Algeria proclaims independence; Algiers becomes the sovereign national capital.",
+      "tag": "growth",
+      "source": {
+        "title": "Kasbah of Algiers",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/565",
+        "tier": "institutional",
+        "quote": "national independence in 1962"
+      }
+    },
+    {
+      "when": "1982-07-05",
+      "claim": "Maqam Echahid (Martyrs' Memorial) is inaugurated for the 20th anniversary of independence.",
+      "tag": "today",
+      "source": {
+        "title": "Mémorial du Martyr (Maqam Echahid)",
+        "publisher": "Centre de Recherche sur l'Information Scientifique et Technique (CERIST)",
+        "author": null,
+        "date": null,
+        "url": "https://webtourist.cerist.dz/",
+        "tier": "institutional",
+        "quote": "inauguré le 5 juillet 1982 à l'occasion du 20e anniversaire de l'indépendance nationale"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Maqam Echahid",
+      "type": "site",
+      "what": "A monumental concrete landmark erected in 1982 on the heights overlooking the Bay of Algiers to commemorate the fallen of the Algerian War of Independence. Three soaring stylized palm leaves meet at a height of 92 metres above an underground crypt and museum.",
+      "facts": [
+        {
+          "label": "Inaugurated",
+          "value": "5 July 1982",
+          "source": {
+            "title": "Mémorial du Martyr (Maqam Echahid)",
+            "publisher": "CERIST",
+            "author": null,
+            "date": null,
+            "url": "https://webtourist.cerist.dz/",
+            "tier": "institutional",
+            "quote": "inauguré le 5 juillet 1982"
+          }
+        },
+        {
+          "label": "Height",
+          "value": "92 metres",
+          "source": {
+            "title": "Mémorial du Martyr (Maqam Echahid)",
+            "publisher": "CERIST",
+            "author": null,
+            "date": null,
+            "url": "https://webtourist.cerist.dz/",
+            "tier": "institutional",
+            "quote": "culmine à 92 mètres de hauteur"
+          }
+        },
+        {
+          "label": "Designers",
+          "value": "Bachir Yellès and Marian Konieczny",
+          "source": {
+            "title": "Mémorial du Martyr (Maqam Echahid)",
+            "publisher": "CERIST",
+            "author": null,
+            "date": null,
+            "url": "https://webtourist.cerist.dz/",
+            "tier": "institutional",
+            "quote": "conçu sur une maquette de Bachir Yellès et réalisé avec le sculpteur Marian Konieczny"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jardin d'Essai du Hamma",
+      "type": "nature",
+      "what": "A historic botanical garden founded in 1832 covering 32 hectares between Arcades Hill and the Bay of Algiers, with centuries-old ficus and palm avenues, bamboo groves and extensive collections of Mediterranean and tropical flora.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1832",
+          "source": {
+            "title": "Botanic Garden of Hamma (Algiers)",
+            "publisher": "Med-O-Med",
+            "author": null,
+            "date": null,
+            "url": "https://medomed.org/portfolio/botanic-garden-of-hamma/",
+            "tier": "institutional",
+            "quote": "Established in 1832 during the early years of the French colonization"
+          }
+        },
+        {
+          "label": "Size",
+          "value": "32 hectares (320,000 m2)",
+          "source": {
+            "title": "Botanic Garden of Hamma (Algiers)",
+            "publisher": "Med-O-Med",
+            "author": null,
+            "date": null,
+            "url": "https://medomed.org/portfolio/botanic-garden-of-hamma/",
+            "tier": "institutional",
+            "quote": "Spanning 320,000 m2 (32 hectares)"
+          }
+        },
+        {
+          "label": "Network",
+          "value": "Med-O-Med Botanic Gardens Network",
+          "source": {
+            "title": "Botanic Garden of Hamma (Algiers)",
+            "publisher": "Med-O-Med",
+            "author": null,
+            "date": null,
+            "url": "https://medomed.org/portfolio/botanic-garden-of-hamma/",
+            "tier": "institutional",
+            "quote": "joined the Med-O-Med Botanic Gardens Network"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Musée National des Beaux-Arts d'Alger",
+      "type": "culture",
+      "what": "One of the most extensive art museums on the African continent, opened in 1930 in the Hamma quarter. It preserves over 8,000 works of art, ranging from historical European painting and sculpture to foundational modern Algerian artists including Baya Mahieddine, Mohamed Racim and Bachir Yellès.",
+      "facts": [
+        {
+          "label": "Inaugurated",
+          "value": "5 May 1930",
+          "source": {
+            "title": "Musée National des Beaux-Arts d'Alger",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "inaugurated on 5 May 1930"
+          }
+        },
+        {
+          "label": "Architect",
+          "value": "Paul Guion",
+          "source": {
+            "title": "Musée National des Beaux-Arts d'Alger",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "designed by architect Paul Guion"
+          }
+        },
+        {
+          "label": "Holdings",
+          "value": "Over 8,000 works of art",
+          "source": {
+            "title": "Musée National des Beaux-Arts d'Alger",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "houses more than 8,000 artworks"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Grande Poste d'Alger",
+      "type": "culture",
+      "what": "The central post office building in central Algiers, completed in 1913 by architects Jules Voinot and Marius Toudoire in the Neo-Moorish architectural style, with a majestic white facade, horseshoe arches, and carved stucco ceilings.",
+      "facts": [
+        {
+          "label": "Completed",
+          "value": "1913",
+          "source": {
+            "title": "Grande Poste d'Alger",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5443",
+            "tier": "academic",
+            "quote": "completed in 1913"
+          }
+        },
+        {
+          "label": "Style",
+          "value": "Neo-Moorish (Arabisant)",
+          "source": {
+            "title": "Grande Poste d'Alger",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5443",
+            "tier": "academic",
+            "quote": "Neo-Moorish style"
+          }
+        },
+        {
+          "label": "Architects",
+          "value": "Jules Voinot and Marius Toudoire",
+          "source": {
+            "title": "Grande Poste d'Alger",
+            "publisher": "Archnet (MIT / AKTC)",
+            "author": null,
+            "date": null,
+            "url": "https://archnet.org/sites/5443",
+            "tier": "academic",
+            "quote": "architects Jules Voinot and Marius Toudoire"
+          }
+        }
+      ]
+    }
+  ],
+  "notNotFound": [
+    "Post-2008 national census data directly from ONS site: the 2022 census raw tables could not be downloaded without session tokens; figures rely on the official 2008 census results published by ONS via CityPopulation.",
+    "Exact metropolitan boundary definition: differs between the agglomeration (2.36M) and the entire wilaya (2.98M).",
+    "Local voices: no verified note received yet from a resident of Algiers."
+  ]
+}

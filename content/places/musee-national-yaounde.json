@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-yaounde",
+  "status": "draft",
+  "type": "culture",
+  "country": "CMR",
+  "name": "Musée National du Cameroun",
+  "region": "Yaoundé · Cameroon",
+  "subtitle": "National cultural museum housed in the former French Governors' Palace and presidential residence.",
+  "facts": [
+    {
+      "label": "Original edifice",
+      "value": "Palais des Gouverneurs (c. 1930–1935)",
+      "cite": [
+        "cap-minculture-cm-musee-national"
+      ]
+    },
+    {
+      "label": "Former use",
+      "value": "Presidential palace of Ahmadou Ahidjo",
+      "cite": [
+        "cap-minculture-cm-musee-national"
+      ]
+    },
+    {
+      "label": "Holdings",
+      "value": "Ethnographic collections, royal thrones, costumes, and musical instruments from Cameroon's ten regions",
+      "cite": [
+        "cap-minculture-cm-musee-national"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The primary national repository of Cameroonian heritage, located in central Yaoundé. The building was constructed during the French mandate in the early 1930s as the Governor's Palace, later serving as the first presidential residence of independent Cameroon under President Ahmadou Ahidjo. Reopened following comprehensive rehabilitation, it displays royal regalia, traditional wooden masks, musical instruments, and contemporary artistic expressions celebrating the rich cultural variety across Cameroon's ten administrative regions.",
+              "cite": [
+                "cap-minculture-cm-musee-national"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full online cataloguing of regional mask collections remains incomplete.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

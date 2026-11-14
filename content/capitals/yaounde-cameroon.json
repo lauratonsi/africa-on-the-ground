@@ -3,10 +3,212 @@
   "status": "draft",
   "country": "CMR",
   "name": "Yaoundé",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Yaoundé, capital of Cameroon: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,881,876 people lived across Yaoundé's seven arrondissements in the 2005 census (projected over 3.7 million today).",
+      "cite": [
+        "cap-citypopulation-de-cameroon-2005"
+      ]
+    },
+    {
+      "text": "Known as the 'City of Seven Hills', Yaoundé was founded in 1889 as a German interior post before becoming the French mandate capital.",
+      "cite": [
+        "cap-britannica-yaounde"
+      ]
+    },
+    {
+      "text": "The Reunification Monument and the National Museum preserve the political and cultural memory of Cameroon's unique post-colonial union.",
+      "cite": [
+        "cap-minculture-cm-musee-national",
+        "cap-britannica-yaounde"
+      ]
+    }
+  ],
+  "places": [
+    "diy-gid-biy-cultural-landscape-of-the-mandara-mountains",
+    "musee-national-yaounde",
+    "monument-de-la-reunification-yaounde",
+    "basilique-marie-reine-des-apotres-mvolye-yaounde",
+    "marche-mokolo-yaounde"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Yaoundé in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yaoundé was established in February 1889 by German explorer Richard Kund as a colonial research and military base among the Ewondo communities, strategically positioned across a scenic landscape of lush rolling hills.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Following the First World War and the partition of German Kamerun, Yaoundé was selected by French colonial authorities as their administrative capital in 1921, succeeding Douala on the coast.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Upon national independence in 1960 and the subsequent reunification with British Southern Cameroons in 1961, Yaoundé became the permanent sovereign capital of the Republic of Cameroon.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,881,876",
+              "label": "people in the Mfoundi Department (Yaoundé), 2005",
+              "cite": [
+                "cap-citypopulation-de-cameroon-2005"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people were counted in Yaoundé in the 2005 census?",
+          "min": 500000,
+          "max": 5000000,
+          "step": 50000,
+          "unit": "",
+          "answer": 1881876,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,881,876 in the 2005 3rd General Population Census across Yaoundé's seven arrondissements. Recent national demographic projections place the metropolitan population above 3.7 million.",
+              "cite": [
+                "cap-citypopulation-de-cameroon-2005"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1889",
+              "tag": "origins",
+              "text": "German expedition under Richard Kund establishes an interior outpost at Yaoundé.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "when": "1921",
+              "tag": "growth",
+              "text": "French authorities designate Yaoundé the capital of French Cameroon, shifting power from Douala.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "when": "1960",
+              "tag": "growth",
+              "text": "Cameroon achieves independence, establishing Yaoundé as the national capital.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "when": "1976",
+              "tag": "growth",
+              "text": "The Reunification Monument is completed on Plateau Atemengue.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "when": "2006",
+              "tag": "today",
+              "text": "The Basilica of Mary Queen of the Apostles at Mvolyé is consecrated.",
+              "cite": [
+                "cap-actucameroun-mvolye"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Yaoundé in order.",
+          "items": [
+            {
+              "label": "German expedition establishes an interior research outpost at Yaoundé.",
+              "when": "1889",
+              "text": "German expedition establishes an interior research outpost at Yaoundé.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "label": "Yaoundé is chosen as capital of French Cameroon over coastal Douala.",
+              "when": "1921",
+              "text": "Yaoundé is chosen as capital of French Cameroon over coastal Douala.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "label": "Cameroon gains national independence, confirming Yaoundé as capital.",
+              "when": "1960",
+              "text": "Cameroon gains national independence, confirming Yaoundé as capital.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            },
+            {
+              "label": "The Reunification Monument is erected to mark the merger of the two Cameroons.",
+              "when": "1976",
+              "text": "The Reunification Monument is erected to mark the merger of the two Cameroons.",
+              "cite": [
+                "cap-britannica-yaounde"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Final published tables of the 4th General Population Census (4e RGPH) remain pending from BUCREP and INS.",
+    "First-hand local voices and memories of urban market life in Mokolo and Mfoundi are still missing.",
+    "Cityscape photograph: not yet linked."
   ]
 }

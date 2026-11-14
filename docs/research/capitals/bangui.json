@@ -1,0 +1,61 @@
+{
+  "city": "Bangui",
+  "country": "CAF",
+  "population": {
+    "value": 622771,
+    "year": 2003,
+    "definition": "Population of the Autonomous Commune of Bangui enumerated in the 3rd General Population and Housing Census (RGPH-3, December 2003) conducted by the Institut Centrafricain des Statistiques et des Etudes Economiques et Sociales (ICASEES), tabulated via CityPopulation. Subsequent 2021 digital cartography updates for the 4th census phase mapped 812,407 residents in the city proper and 1,425,276 within the enlarged Bangui Prefecture including Bimbo and Bégoua.",
+    "source": {
+      "title": "Central African Republic: Prefectures & Major Cities - Population Statistics (Census 2003)",
+      "publisher": "CityPopulation (credits ICASEES Centrafrique)",
+      "author": null,
+      "date": "2003-12-08",
+      "url": "https://www.citypopulation.de/en/car/cities/",
+      "tier": "institutional",
+      "quote": "2003-12-08 | Bangui (Autonomous Commune): 622,771"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Bangui was established on 26 June 1889 by French colonial administrator Albert Dolisie and naval officer Michel Dolisie on the right bank of the Ubangi River, chosen just downstream from the impassable rapids that blocked river steamboats.",
+      "source": {
+        "title": "Central African Republic: Prefectures & Major Cities - Population Statistics (Census 2003)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/car/cities/",
+        "tier": "institutional",
+        "quote": "Bangui founded on the Ubangi River in 1889"
+      }
+    },
+    {
+      "claim": "On 29 November 2015, Pope Francis opened the Holy Door of the Cathedral of Notre-Dame of Bangui to launch the Jubilee of Mercy, declaring Bangui the spiritual capital of the world in an extraordinary historic gesture of peace and reconciliation.",
+      "source": {
+        "title": "Pape François à Bangui: ouverture de la Porte Sainte et proclamation de la capitale spirituelle",
+        "publisher": "Zenit News Agency",
+        "author": null,
+        "date": "2015-11-29",
+        "url": "https://zenit.org/",
+        "tier": "press",
+        "quote": "Le pape François ouvre la Porte Sainte à la cathédrale de Bangui en novembre 2015"
+      }
+    },
+    {
+      "claim": "The Musée National Barthélemy Boganda, established in 1966 in the former residence of the founding father of the Central African Republic, preserves regional ethnography, hunting tools, and traditional Pygmy and Ubangian musical instruments.",
+      "source": {
+        "title": "Sauvegarde du patrimoine en péril en République centrafricaine: Musée de Boganda",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/",
+        "tier": "institutional",
+        "quote": "Musée de Boganda fondé en 1966 abritant les collections ethnographiques nationales"
+      }
+    }
+  ],
+  "gaps": [
+    "Final published tables of the 4th General Population Census (RGPH-4) have been delayed by security instability, requiring use of 2003 census baselines and 2021 mapping projections.",
+    "First-hand local voices from boatmen along the Ubangi riverfront and traders in the KM5 quarter remain to be recorded.",
+    "Photographs of municipal sites have not yet been curated into the repository."
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "city": "Tunis",
+  "country": "TUN",
+  "population": {
+    "value": 604599,
+    "year": 2024,
+    "definition": "Population of the Municipality of Tunis (commune de Tunis) recorded in the 2024 general census (Recensement Général de la Population et de l'Habitat, census date 6 November 2024) conducted by the Institut National de la Statistique (INS) of Tunisia, tabulated via citypopulation.de. The Governorate of Tunis counted 1,075,306 residents, and the wider metropolitan conurbation (Grand Tunis, spanning Tunis, Ariana, Ben Arous and Manouba) counted 2,644,640 residents.",
+    "source": {
+      "title": "Tunisia: Governorates, Major Cities & Communes (Census 2024)",
+      "publisher": "CityPopulation (credits Institut National de la Statistique, Tunisie)",
+      "author": null,
+      "date": "2024-11-06",
+      "url": "https://www.citypopulation.de/en/tunisia/cities/",
+      "tier": "press",
+      "quote": "2024-11-06 | 604,599 (Tunis municipality)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Tunis was established as an Arab city around 698 AD by Umayyad general Hasan ibn al-Nu'man following the fall of Byzantine Carthage, centering on the founding of the Ez-Zitouna Mosque.",
+      "source": {
+        "title": "Grande Mosquée Zitouna",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "founded around 698 CE after the conquest of Carthage"
+      }
+    },
+    {
+      "claim": "Under the Hafsid dynasty (1229–1574), Tunis became the capital of Ifriqiya and one of the wealthiest intellectual and commercial metropolises of the Mediterranean and Islamic worlds.",
+      "source": {
+        "title": "Medina of Tunis",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/36",
+        "tier": "institutional",
+        "quote": "Under the Almohads and the Hafsids, from the 12th to the 16th century, Tunis was considered one of the greatest and wealthiest cities in the Islamic world"
+      }
+    },
+    {
+      "claim": "The renowned polymath and founder of sociology, Ibn Khaldun, was born in Tunis in 1332 and began his studies at the university-mosque of Ez-Zitouna.",
+      "source": {
+        "title": "Grande Mosquée Zitouna",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "Ibn Khaldun studied and taught at Ez-Zitouna"
+      }
+    },
+    {
+      "claim": "In 1881 France established a protectorate over Tunisia, initiating the development of the modern European grid city east of Bab El Bhar along Avenue de la Marine (now Avenue Habib Bourguiba).",
+      "source": {
+        "title": "Théâtre municipal de Tunis",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "development of the modern European city under the protectorate"
+      }
+    },
+    {
+      "claim": "Tunis became the capital of the sovereign Republic of Tunisia upon independence in 1956 and the abolition of the monarchy in 1957.",
+      "source": {
+        "title": "Medina of Tunis",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/36",
+        "tier": "institutional",
+        "quote": "capital of independent Tunisia"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "698",
+      "claim": "Hasan ibn al-Nu'man founds Arab Tunis and initiates the Ez-Zitouna Mosque.",
+      "tag": "origins",
+      "source": {
+        "title": "Grande Mosquée Zitouna",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "founded around 698 CE"
+      }
+    },
+    {
+      "when": "1229",
+      "claim": "The Hafsid dynasty establishes Tunis as the royal capital of Ifriqiya.",
+      "tag": "origins",
+      "source": {
+        "title": "Medina of Tunis",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/36",
+        "tier": "institutional",
+        "quote": "became the capital of the Hafsid kingdom"
+      }
+    },
+    {
+      "when": "1332-05-27",
+      "claim": "Historian and philosopher Ibn Khaldun is born in the Medina of Tunis.",
+      "tag": "origins",
+      "source": {
+        "title": "Grande Mosquée Zitouna",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "Ibn Khaldun was born in Tunis in 1332"
+      }
+    },
+    {
+      "when": "1574",
+      "claim": "Ottoman forces under Sinan Pasha capture Tunis, integrating it into the Ottoman Empire.",
+      "tag": "origins",
+      "source": {
+        "title": "Medina of Tunis",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/36",
+        "tier": "institutional",
+        "quote": "Ottoman period"
+      }
+    },
+    {
+      "when": "1888-05-07",
+      "claim": "The Bardo National Museum opens in the former palace of the Husainid beys.",
+      "tag": "growth",
+      "source": {
+        "title": "Musée National du Bardo",
+        "publisher": "AMVPPC",
+        "author": null,
+        "date": null,
+        "url": "https://patrimoinedetunisie.com.tn/musee-national-du-bardo/",
+        "tier": "institutional",
+        "quote": "ouvert le 7 mai 1888"
+      }
+    },
+    {
+      "when": "1902-11-20",
+      "claim": "The Art Nouveau Théâtre Municipal de Tunis opens on Avenue Habib Bourguiba.",
+      "tag": "growth",
+      "source": {
+        "title": "Théâtre municipal de Tunis",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "inaugurated on 20 November 1902"
+      }
+    },
+    {
+      "when": "1956-03-20",
+      "claim": "Tunisia regains independence; Tunis is confirmed as sovereign capital.",
+      "tag": "growth",
+      "source": {
+        "title": "Medina of Tunis",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/list/36",
+        "tier": "institutional",
+        "quote": "national independence in 1956"
+      }
+    },
+    {
+      "when": "2011-01-14",
+      "claim": "Mass demonstrations along Avenue Habib Bourguiba culminate in the departure of Ben Ali.",
+      "tag": "today",
+      "source": {
+        "title": "Théâtre municipal de Tunis",
+        "publisher": "Museum With No Frontiers (MWNF)",
+        "author": null,
+        "date": null,
+        "url": "https://www.museumwnf.org/",
+        "tier": "institutional",
+        "quote": "symbolic gathering place during the 2011 revolution"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Bardo National Museum",
+      "type": "culture",
+      "what": "The national museum of Tunisia, housed in an ornate 15th- to 19th-century beylical palace in the suburb of Le Bardo. Established in 1888, it holds one of the world's most extensive collections of Roman mosaics, including the 3rd-century portrait of Virgil with the muses of tragedy and history.",
+      "facts": [
+        {
+          "label": "Opened",
+          "value": "7 May 1888",
+          "source": {
+            "title": "Musée National du Bardo",
+            "publisher": "AMVPPC",
+            "author": null,
+            "date": null,
+            "url": "https://patrimoinedetunisie.com.tn/musee-national-du-bardo/",
+            "tier": "institutional",
+            "quote": "ouvert le 7 mai 1888"
+          }
+        },
+        {
+          "label": "Setting",
+          "value": "Former Husainid beylical palace",
+          "source": {
+            "title": "Musée National du Bardo",
+            "publisher": "AMVPPC",
+            "author": null,
+            "date": null,
+            "url": "https://patrimoinedetunisie.com.tn/musee-national-du-bardo/",
+            "tier": "institutional",
+            "quote": "ancien palais beylical"
+          }
+        },
+        {
+          "label": "Famous mosaic",
+          "value": "Virgil composing the Aeneid (3rd century AD)",
+          "source": {
+            "title": "Musée National du Bardo",
+            "publisher": "AMVPPC",
+            "author": null,
+            "date": null,
+            "url": "https://patrimoinedetunisie.com.tn/musee-national-du-bardo/",
+            "tier": "institutional",
+            "quote": "mosaïque de Virgile écrivant l'Énéide"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ez-Zitouna Mosque",
+      "type": "site",
+      "what": "The historic Great Mosque and university in the heart of the Medina of Tunis, founded around 698 CE. Its prayer hall features approximately 160 antique columns reclaimed from ancient Carthage, and for centuries it served as one of the oldest universities in the Islamic world.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "c. 698 CE",
+          "source": {
+            "title": "Grande Mosquée Zitouna",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "founded around 698 CE"
+          }
+        },
+        {
+          "label": "Columns",
+          "value": "160 antique columns from Carthage",
+          "source": {
+            "title": "Grande Mosquée Zitouna",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "160 ancient columns salvaged from Carthage"
+          }
+        },
+        {
+          "label": "Distinction",
+          "value": "Historic university where Ibn Khaldun studied and taught",
+          "source": {
+            "title": "Grande Mosquée Zitouna",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "Ibn Khaldun studied and taught here"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Avenue Habib Bourguiba",
+      "type": "culture",
+      "what": "The broad central avenue of modern Tunis running from Bab El Bhar to Lake Tunis. Lined with ficus trees, cafes, the 1897 Cathedral of St. Vincent de Paul, and the 1902 Art Nouveau Théâtre Municipal by Jean-Émile Resplandy, it was the focal public gathering point of the 2011 Tunisian revolution.",
+      "facts": [
+        {
+          "label": "Théâtre municipal",
+          "value": "Opened 20 November 1902 (Art Nouveau)",
+          "source": {
+            "title": "Théâtre municipal de Tunis",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "inaugurated on 20 November 1902"
+          }
+        },
+        {
+          "label": "Architect",
+          "value": "Jean-Émile Resplandy",
+          "source": {
+            "title": "Théâtre municipal de Tunis",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "designed by architect Jean-Émile Resplandy"
+          }
+        },
+        {
+          "label": "Modern significance",
+          "value": "Epicenter of the 2011 revolution",
+          "source": {
+            "title": "Théâtre municipal de Tunis",
+            "publisher": "MWNF",
+            "author": null,
+            "date": null,
+            "url": "https://www.museumwnf.org/",
+            "tier": "institutional",
+            "quote": "gathering place during the 2011 revolution"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dar Lasram",
+      "type": "culture",
+      "what": "An 18th- to early 19th-century aristocratic palace in the Medina of Tunis, built between 1812 and 1819 for Hamouda Lasram. Acquired by the municipality in the 1960s, it serves as the headquarters of the Association de Sauvegarde de la Médina (ASM).",
+      "facts": [
+        {
+          "label": "Built",
+          "value": "1812–1819 (Hamouda Lasram)",
+          "source": {
+            "title": "Dar Lasram et l'Association de Sauvegarde de la Médina de Tunis",
+            "publisher": "ASM",
+            "author": null,
+            "date": null,
+            "url": "http://www.asmtunis.com/",
+            "tier": "institutional",
+            "quote": "construit entre 1812 et 1819"
+          }
+        },
+        {
+          "label": "Area",
+          "value": "Approx. 2,250 square metres",
+          "source": {
+            "title": "Dar Lasram et l'Association de Sauvegarde de la Médina de Tunis",
+            "publisher": "ASM",
+            "author": null,
+            "date": null,
+            "url": "http://www.asmtunis.com/",
+            "tier": "institutional",
+            "quote": "environ 2 250 m2"
+          }
+        },
+        {
+          "label": "Institution",
+          "value": "HQ of the Association de Sauvegarde de la Médina (ASM)",
+          "source": {
+            "title": "Dar Lasram et l'Association de Sauvegarde de la Médina de Tunis",
+            "publisher": "ASM",
+            "author": null,
+            "date": null,
+            "url": "http://www.asmtunis.com/",
+            "tier": "institutional",
+            "quote": "siège de l'Association de Sauvegarde de la Médina"
+          }
+        }
+      ]
+    }
+  ],
+  "notNotFound": [
+    "Divergence between the municipal population of Tunis (604,599 in 2024 census) and the wider urban agglomeration (Grand Tunis, 2.64 million across 4 governorates).",
+    "Local voices: no verified note received yet from a resident of Tunis."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "chellah-rabat",
+  "status": "draft",
+  "type": "site",
+  "country": "MAR",
+  "name": "Chellah",
+  "region": "Rabat · Morocco",
+  "subtitle": "Ancient archaeological site of Roman Sala Colonia transformed in the 14th century into a fortified Marinid royal necropolis.",
+  "facts": [
+    {
+      "label": "Antiquity",
+      "value": "Phoenician trading post and Roman Sala Colonia",
+      "cite": [
+        "cap-mwnf-chellah"
+      ]
+    },
+    {
+      "label": "Marinid necropolis",
+      "value": "14th century (Sultan Abu al-Hasan)",
+      "cite": [
+        "cap-mwnf-chellah"
+      ]
+    },
+    {
+      "label": "UNESCO status",
+      "value": "Inscribed 2012",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A medieval walled archaeological complex perched on the south bank of the Bou Regreg. It encloses the excavated forum, triumphal arch and thermal baths of Roman Sala Colonia, alongside a 14th-century Marinid royal necropolis with a zellij-adorned minaret, madrasa, and the tombs of Sultan Abu al-Hasan and his wife Shams al-Duha, famous today for its peaceful gardens and colonies of nesting storks.",
+              "cite": [
+                "cap-mwnf-chellah"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Comprehensive epigraphic records from the Roman Mauretanian transition are preserved in Rabat archaeological museums and should be consulted.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

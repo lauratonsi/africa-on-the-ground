@@ -1,0 +1,85 @@
+{
+  "city": "Khartoum",
+  "country": "SDN",
+  "population": {
+    "value": 4272728,
+    "year": 2008,
+    "definition": "Population of the tripartite metropolitan agglomeration formed by Khartoum proper (1,410,858), Omdurman (1,849,659), and Khartoum North / Bahri (1,012,211), recorded in the 2008 Fifth Sudan Population and Housing Census conducted by the Central Bureau of Statistics (CBS) Sudan. Khartoum State as a whole recorded 5,274,321 residents. Since April 2023, armed conflict between the SAF and RSF has caused mass displacement, severing municipal services and radically altering the active demographic reality.",
+    "source": {
+      "title": "Sudan: States, Major Cities and Agglomerations - Population Statistics (Census 2008)",
+      "publisher": "CityPopulation (credits Central Bureau of Statistics, Sudan)",
+      "author": null,
+      "date": "2008-04-22",
+      "url": "https://www.citypopulation.de/en/sudan/cities/",
+      "tier": "institutional",
+      "quote": "2008-04-22 | Khartoum State: 5,274,321; Khartoum: 1,410,858; Omdurman: 1,849,659; Khartoum North: 1,012,211"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Khartoum was established in 1821 as an Egyptian military outpost by Ibrahim Pasha, son of Muhammad Ali, at the confluence of the Blue and White Niles, replacing Sennar as administrative center.",
+      "source": {
+        "title": "Khartoum: History, Geography, and Conurbation",
+        "publisher": "Encyclopaedia Britannica",
+        "author": null,
+        "date": null,
+        "url": "https://www.britannica.com/place/Khartoum",
+        "tier": "press",
+        "quote": "Khartoum was founded in 1821 by Ibrahim Pasha... who established an Egyptian military camp"
+      }
+    },
+    {
+      "claim": "In January 1885 Mahdist forces under Muhammad Ahmad captured Khartoum after an epic ten-month siege, during which British Major-General Charles George Gordon was killed at the Governor's Palace.",
+      "source": {
+        "title": "Khartoum: History, Geography, and Conurbation",
+        "publisher": "Encyclopaedia Britannica",
+        "author": null,
+        "date": null,
+        "url": "https://www.britannica.com/place/Khartoum",
+        "tier": "press",
+        "quote": "The city fell to the Mahdists in 1885... General Gordon was killed"
+      }
+    },
+    {
+      "claim": "Following the 1898 Battle of Omdurman, Herbert Kitchener rebuilt Khartoum in a British colonial grid featuring Union Jack street patterns designed for military surveillance and defensive control.",
+      "source": {
+        "title": "Khartoum: History, Geography, and Conurbation",
+        "publisher": "Encyclopaedia Britannica",
+        "author": null,
+        "date": null,
+        "url": "https://www.britannica.com/place/Khartoum",
+        "tier": "press",
+        "quote": "Kitchener rebuilt the town in the form of the British flag"
+      }
+    },
+    {
+      "claim": "The National Museum of Sudan, opened in 1971 along Nile Avenue, houses rescued Nubian salvage temples (Buhen, Semna, Kumma) relocated during the UNESCO Aswan Dam campaign and medieval Christian Faras Cathedral frescoes.",
+      "source": {
+        "title": "The International Campaign to Save the Monuments of Nubia",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/activities/172/",
+        "tier": "institutional",
+        "quote": "Rescue and transfer of temples to the National Museum of Sudan in Khartoum"
+      }
+    },
+    {
+      "claim": "Since April 2023, severe fighting between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) centered in the Khartoum metropolis has inflicted devastating civilian casualties, widespread displacement, and severe damage to heritage institutions.",
+      "source": {
+        "title": "UNESCO Statement on the Threat to Sudan's Cultural Heritage",
+        "publisher": "UNESCO",
+        "author": null,
+        "date": "2023-06-01",
+        "url": "https://www.unesco.org/en/articles/unesco-sounds-alarm-threat-cultural-heritage-sudan",
+        "tier": "institutional",
+        "quote": "UNESCO sounds the alarm on threats to cultural heritage in Sudan"
+      }
+    }
+  ],
+  "gaps": [
+    "No modern municipal census has been conducted since 2008, and the catastrophic 2023-2024 conflict makes any current population estimate highly provisional and volatile.",
+    "First-hand local voices and contemporary diaspora oral histories on post-conflict heritage integrity in Omdurman and Khartoum North remain to be gathered.",
+    "Ground verification of specific artifacts within the National Museum and Khalifa House remains impossible due to ongoing security restrictions."
+  ]
+}

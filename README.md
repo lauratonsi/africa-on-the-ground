@@ -23,7 +23,8 @@ consenso dell'autore, e le aggiungi a un file del progetto.
 site.config.json          nome, tagline, domande per i locals, etichette, contatto
 content/
   sources.json            tutte le fonti, riusabili da più schede
-  data/                   dati per la pagina Countries (54 paesi), siti UNESCO (CC BY-SA 4.0) e luoghi proposti
+  data/                   dati per Countries, siti UNESCO, luoghi proposti e il catalogo Arte
+  data/art.json           categorie, metadati artistici e il percorso interattivo "Segni nel paesaggio"
   places/<slug>.json      una scheda per luogo (strato 1)
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
   pages/method.json       la pagina pubblica "Method" (blocchi interattivi come nelle storie)
@@ -69,6 +70,48 @@ npm run check        validate + build
 ```
 
 Per vedere anche le schede con `"status": "draft"`: `node scripts/build.mjs --drafts`.
+
+## Sezione Arte
+
+La pagina [Art](places/art/index.html) è una sezione autonoma dentro Places, non una galleria separata:
+collega ogni voce a una scheda di luogo già documentata e mantiene la distinzione tra fatto, fonte e voce locale.
+Il catalogo in `content/data/art.json` organizza le voci in quattro filoni:
+
+- arte rupestre e archeologia;
+- oggetti, musei e collezioni;
+- pratiche vive;
+- scene contemporanee.
+
+Ogni voce può avere metadati editoriali (`category`, `period`, `materials`, `function`) e viene filtrata per
+categoria, Paese e periodo. Il percorso "Segni nel paesaggio" usa le stesse interazioni di ordinamento delle
+storie, ma offre anche collegamenti diretti alle schede dei luoghi e un punteggio locale: ogni tappa nella
+posizione corretta vale 100 punti. Il punteggio non viene salvato. Le schede mostrano immagini locali solo
+quando il file, il credito, la licenza e la fonte sono registrati nel JSON della scheda. Per aggiungere una voce:
+
+1. verifica che la scheda corrispondente in `content/places/` abbia fonti, immagine e licenza sufficienti;
+2. aggiungi lo slug alla categoria corretta in `content/data/art.json`;
+3. aggiungi o aggiorna il relativo oggetto in `art.json` sotto `meta`;
+4. pubblica la scheda solo quando le lacune (`gaps`) sono esplicite e la validazione passa;
+5. esegui `npm run check` e controlla la pagina generata in `dist/places/art/index.html`.
+
+Le immagini d'arte non si pubblicano senza un diritto d'uso e un credito verificabili. Per artisti e scene
+contemporanee distingui sempre artista, opera, istituzione e comunità: una scheda di un luogo non è
+automaticamente una scheda dell'opera o dell'artista.
+
+## Connections
+
+La pagina [Connections](explore/index.html) è un indice guidato delle relazioni editoriali del sito, non una carta
+geografica alternativa. Si parte da un Paese, una capitale, un luogo, una storia o un blocco regionale e si
+seguono solo i collegamenti documentati per quel nodo. Le connessioni sono organizzate in elenchi leggibili per
+categoria, con i nomi completi delle organizzazioni regionali invece delle sole sigle. Il gioco finale propone una breve missione tra due nodi:
+il punteggio mostra i passi fatti e la distanza minima, senza salvare risultati o dati personali.
+Il punto di partenza si cerca in una tendina controllata dalla pagina: si apre cliccando nel campo, filtra mentre
+si scrive e mostra un numero limitato di risultati cliccabili, invece di affidarsi alla tendina nativa dell'intero catalogo.
+
+Non c'è un grafo da decifrare: l'obiettivo principale è capire una relazione e arrivare alla scheda successiva,
+non orientarsi in una rete di elementi tutti equivalenti. Se si aggiungono nuovi tipi di contenuto, bisogna
+aggiornare la costruzione del grafo in `scripts/build.mjs`, le descrizioni delle categorie in `src/explore.js`
+e la composizione responsive in `src/styles.css`.
 
 ## Cosa controlla la validazione
 

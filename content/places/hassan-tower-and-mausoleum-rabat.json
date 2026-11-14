@@ -1,0 +1,59 @@
+{
+  "slug": "hassan-tower-and-mausoleum-rabat",
+  "status": "draft",
+  "type": "site",
+  "country": "MAR",
+  "name": "Hassan Tower and Mausoleum of Mohammed V",
+  "region": "Rabat · Morocco",
+  "subtitle": "Historic esplanade uniting the 44-metre unfinished 12th-century Almohad minaret and the 1971 royal marble mausoleum.",
+  "facts": [
+    {
+      "label": "Tower begun",
+      "value": "1195 (halted 1199)",
+      "cite": [
+        "cap-mwnf-hassan-mausoleum"
+      ]
+    },
+    {
+      "label": "Tower height",
+      "value": "44 metres",
+      "cite": [
+        "cap-mwnf-hassan-mausoleum"
+      ]
+    },
+    {
+      "label": "Mausoleum completed",
+      "value": "1971 (architect Eric Vo Toan)",
+      "cite": [
+        "cap-mwnf-hassan-mausoleum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A monumental religious and memorial esplanade in eastern Rabat. It preserves the 44-metre red sandstone Hassan Tower, the minaret of an ambitious Almohad mosque commissioned in 1195 by Caliph Abu Yaqub Yusuf al-Mansur that remained unfinished after his death. Opposite the column ruins stands the Mausoleum of Mohammed V, completed in 1971 in white Carrara marble and carved mahogany by architect Eric Vo Toan, which contains the royal tombs of Mohammed V and Hassan II.",
+              "cite": [
+                "cap-mwnf-hassan-mausoleum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Structural records of the 1755 Lisbon earthquake's impact on the mosque columns are not fully documented in the cited summaries.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "grande-poste-algiers",
+  "status": "draft",
+  "type": "culture",
+  "country": "DZA",
+  "name": "Grande Poste d'Alger",
+  "region": "Algiers · Algeria",
+  "subtitle": "Central post office building completed in 1913 in the Neo-Moorish architectural style by Jules Voinot and Marius Toudoire.",
+  "facts": [
+    {
+      "label": "Completed",
+      "value": "1913",
+      "cite": [
+        "cap-archnet-grande-poste"
+      ]
+    },
+    {
+      "label": "Style",
+      "value": "Neo-Moorish (Arabisant)",
+      "cite": [
+        "cap-archnet-grande-poste"
+      ]
+    },
+    {
+      "label": "Architects",
+      "value": "Jules Voinot and Marius Toudoire",
+      "cite": [
+        "cap-archnet-grande-poste"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The central post office building of Algiers, standing at the junction of major city boulevards. Built between 1910 and 1913 by architects Jules Voinot and Marius Toudoire in the Neo-Moorish style, it combines monumental white arches, minaret-inspired clock towers and intricate stucco work, serving as a defining urban and civic landmark of central Algiers.",
+              "cite": [
+                "cap-archnet-grande-poste"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Primary municipal archive documents on construction tenders have not been retrieved.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

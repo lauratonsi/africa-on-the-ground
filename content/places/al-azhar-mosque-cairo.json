@@ -1,0 +1,59 @@
+{
+  "slug": "al-azhar-mosque-cairo",
+  "status": "draft",
+  "type": "site",
+  "country": "EGY",
+  "name": "Al-Azhar Mosque",
+  "region": "Cairo · Egypt",
+  "subtitle": "Historic Fatimid congregational mosque founded in 970 CE, evolving into one of the oldest and most prestigious Islamic universities in the world.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "970 CE (dedicated 972 CE)",
+      "cite": [
+        "cap-archnet-al-azhar"
+      ]
+    },
+    {
+      "label": "Founder",
+      "value": "Jawhar al-Siqilli (Caliph al-Mu'izz)",
+      "cite": [
+        "cap-archnet-al-azhar"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "One of the oldest continually operating universities in the world",
+      "cite": [
+        "cap-archnet-al-azhar"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The foundational mosque of Fatimid Cairo, begun in 970 CE by military commander Jawhar al-Siqilli under Caliph al-Mu'izz li-Din Allah. Beyond its status as a monumental five-minaret congregational place of worship, Al-Azhar developed into one of the world's oldest continuously operating institutions of higher learning and the principal intellectual center of Sunni Islamic jurisprudence.",
+              "cite": [
+                "cap-archnet-al-azhar"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Architectural remodeling layers across Mamluk and Ottoman periods should be compared against specialized Cairene epigraphic texts.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

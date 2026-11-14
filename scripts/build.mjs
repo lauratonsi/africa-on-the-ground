@@ -33,7 +33,7 @@ const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "src/explore.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "src/explore.js", "src/method-qa.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -168,7 +168,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -180,7 +180,7 @@ ${body}
   <div class="wrap foot-in">
     <p class="foot-brand">${esc(config.name)}</p>
     <p>${esc(config.tagline)}</p>
-    <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a></p>
+    <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a> · <a href="${p}education/index.html">Education &amp; Mission</a></p>
   </div>
 </footer>
 ${fab(jump)}
@@ -573,7 +573,7 @@ function renderRich(b, cite, ctx) {
     if (b.type === "check") return checkHtmlOf(b);
     if (b.type === "recipe") return recipeHtml(b, cite);
     if (b.type === "order") {
-      const items = b.items.map((it) => ({ label: it.label, html: `<strong>${esc(it.when)}.</strong> ${esc(it.text)}${cite(it.cite)}` }));
+      const items = b.items.map((it) => ({ label: it.label, html: `${it.href ? `<a href="${esc(it.href)}">${esc(it.label)}</a>` : esc(it.label)}: <strong>${esc(it.when)}.</strong> ${esc(it.text)}${cite(it.cite)}` }));
       return `<div class="order" data-items="${esc(JSON.stringify(items))}"><p class="est-k">Put in order</p><p class="est-q">${esc(b.prompt)}</p><details class="est-nojs"><summary>Show the correct order</summary><ol>${items.map((it) => `<li>${it.html}</li>`).join("")}</ol></details></div>`;
     }
     if (b.type === "table") {
@@ -1423,7 +1423,7 @@ write("method/index.html", layout({
   description: "What the site is for, how to use it, how the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
-  extraScripts: ["story.js"],
+  extraScripts: ["story.js", "method-qa.js"],
   body: (() => {
     if (!methodPage) {
       const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
@@ -1450,11 +1450,145 @@ write("method/index.html", layout({
     const pg = fill(methodPage);
     const nocite = () => "";
     const secs = pg.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}"><h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, nocite, { up: "../", contactLine })).join("")}</section>`).join("\n");
-    const kp = pg.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${pg.keyPoints.map((x) => `<li>${esc(x.text)}</li>`).join("")}</ul></aside>` : "";
+    const kp = pg.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short: Key Epistemic Principles</h2><ul>${pg.keyPoints.map((x) => `<li>${esc(x.text)}</li>`).join("")}</ul></aside>` : "";
+    const ragWidget = `<section class="method-rag" id="method-rag" aria-labelledby="rag-title">
+  <div class="method-rag-card">
+    <div class="rag-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Interactive Epistemic Navigator · Local RAG</span></div>
+    <h2 id="rag-title" class="rag-heading">Is Africa on the Ground for you? Ask the methodology</h2>
+    <p class="rag-sub">Query our research protocol, privacy framework, educational pilot, or verification rules. Runs 100% locally in your browser with zero network calls and zero tracking.</p>
+    <div class="rag-form" role="search">
+      <div class="rag-input-wrap">
+        <input type="search" id="rag-input" class="rag-input" placeholder="Type a question (e.g. 'Can I use this for my university syllabus?', 'How are local notes paid?')..." aria-label="Ask a question about the methodology">
+        <button type="button" id="rag-clear" class="rag-clear" aria-label="Clear question" hidden>&times;</button>
+      </div>
+      <div class="rag-chips" aria-label="Common questions">
+        <span class="rag-chips-label">Quick queries:</span>
+        <button type="button" class="rag-chip" data-q="Is AOTG suitable for my university syllabus?">🎓 For university courses</button>
+        <button type="button" class="rag-chip" data-q="How does Fair Knowledge pay local contributors?">⚖️ Fair Knowledge compensation</button>
+        <button type="button" class="rag-chip" data-q="Do you track students or collect cookies?">🔒 Privacy &amp; zero tracking</button>
+        <button type="button" class="rag-chip" data-q="How is this different from Wikipedia or a textbook?">📚 Sourcing vs Wikipedia</button>
+        <button type="button" class="rag-chip" data-q="What happens when a local voice contradicts history?">🌍 When voices disagree</button>
+        <button type="button" class="rag-chip" data-q="Can I use this as a travel guide?">✈️ Is it a travel guide?</button>
+        <button type="button" class="rag-chip" data-q="How can our institution join the 60-day pilot?">🚀 60-Day university pilot</button>
+      </div>
+    </div>
+    <div id="rag-result" class="rag-result" hidden aria-live="polite"></div>
+  </div>
+</section>`;
     return `${compactHero({ kicker: "How it works", title: pg.title, sub: pg.lede })}
-<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${kp}<article class="story method">${secs}</article></div>`;
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${kp}${ragWidget}<article class="story method">${secs}</article></div>`;
   })()
 }));
+
+// ---------- pagina Education: strumenti didattici, pilota e impatto benefit ----------
+function renderEducation() {
+  const jump = [
+    { id: "universities", label: "For Universities" },
+    { id: "pilot", label: "60-Day Pilot" },
+    { id: "fair-knowledge", label: "Fair Knowledge" },
+    { id: "inquiries", label: "Inquiries" }
+  ];
+
+  const body = `${compactHero({
+    kicker: "Higher Education & Impact",
+    title: "Education & Social Mission",
+    sub: "Interactive tools for universities and schools, grounded in verifiable sources, strict privacy and ethical local knowledge."
+  })}
+<div class="wrap"><nav class="pi-jump lang-jump" aria-label="On this page"><a href="#universities">For Universities</a><a href="#pilot">60-Day Pilot</a><a href="#fair-knowledge">Fair Knowledge</a><a href="#inquiries">Inquiries</a></nav></div>
+<div class="wrap section">
+
+<section class="panel" id="universities" aria-labelledby="uni-h">
+  <h2 id="uni-h">De-centering African studies in the classroom</h2>
+  <p class="ts-intro">Traditional textbooks often present the African continent through single narratives, generalized abstractions, or outdated colonial frameworks. Africa on the Ground provides higher education educators with an interactive digital companion that connects documented historiography with authentic lived perspectives.</p>
+  <ul class="duo-list" style="margin-top:20px;">
+    <li>
+      <strong>The Dual-Layer Rigor:</strong>
+      <p>Every claim on the platform is tied to verified academic, primary, or institutional sources with explicit historiographical gaps. Subjective lived experiences of local communities are preserved and presented separately as personal testimony, never confused with fact.</p>
+    </li>
+    <li>
+      <strong>Active, Hands-on Learning:</strong>
+      <p>Students engage through sorting data, testing their assumptions in quizzes, exploring spatial and trade connections, and investigating rock art and living material heritage across all 54 African nations.</p>
+    </li>
+    <li>
+      <strong>Absolute Student Privacy:</strong>
+      <p>Zero tracking, zero cookies, and no student personal data collected or stored. Fully compliant with GDPR and international educational privacy standards.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="panel" id="pilot" aria-labelledby="pilot-h" style="margin-top:28px">
+  <h2 id="pilot-h">The 60-Day Complimentary University Pilot</h2>
+  <p class="ts-intro">For the upcoming academic semester, we are partnering with selected university departments, courses, and educational institutions for an all-inclusive 60-day trial.</p>
+  <div class="tablewrap" style="margin-top:20px;">
+    <table class="xtab">
+      <thead>
+        <tr>
+          <th scope="col">Curriculum Track</th>
+          <th scope="col">Focus &amp; Topics</th>
+          <th scope="col">Pedagogical Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Track 1: Beyond the Map</strong></td>
+          <td>True size, geography, urbanization, demographic data, and language families across 54 countries.</td>
+          <td>Dismantles pervasive geographic and cartographic misconceptions (Mercator distortions, village-only stereotypes).</td>
+        </tr>
+        <tr>
+          <td><strong>Track 2: Pre-colonial Polities &amp; Trade</strong></td>
+          <td>Archaeological and documentary records of Aksum, Kush, Kilwa, Mali Empire, Great Zimbabwe, and Swahili coastlines.</td>
+          <td>Teaches rigorous source criticism and distinguishes primary archaeological records from later colonial interpretations.</td>
+        </tr>
+        <tr>
+          <td><strong>Track 3: Heritage &amp; Living Art</strong></td>
+          <td>Rock art, archaeological artifacts, living practices, and contemporary scenes linked to place cards.</td>
+          <td>Engages students with questions of cultural preservation, restitution, material culture, and contemporary African art.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="fine">The pilot includes complete access for professors, teaching assistants, and up to 150 students per cohort, accompanied by seminar discussion prompts and formative assessment quizzes.</p>
+</section>
+
+<section class="panel" id="fair-knowledge" aria-labelledby="fk-h" style="margin-top:28px">
+  <h2 id="fk-h">Our Benefit Model: The Fair Knowledge Principle</h2>
+  <p class="ts-intro">Africa on the Ground operates as a Benefit Social Enterprise. We reject advertising, data monetization, and the historical pattern of extracting uncompensated knowledge from African communities.</p>
+  <ul class="duo-list" style="margin-top:20px;">
+    <li>
+      <strong>Fair Local Compensation:</strong>
+      <p>A dedicated portion of all institutional subscription revenue is directed into a compensation fund that remunerates local African researchers, writers, and community fact-checkers who contribute or verify place notes.</p>
+    </li>
+    <li>
+      <strong>The 1-for-1 Educational Pledge:</strong>
+      <p>Every commercial university partnership in the Global North directly funds free access, offline learning packages, and low-bandwidth kits for educational institutions, libraries, and schools across African countries.</p>
+    </li>
+    <li>
+      <strong>Independent &amp; Ethical Governance:</strong>
+      <p>Content integrity and source verification are overseen under strict public methodology, preventing commercial or political capture of educational content.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="panel" id="inquiries" aria-labelledby="inq-h" style="margin-top:28px">
+  <h2 id="inq-h">Institutional Inquiries &amp; Pilot Applications</h2>
+  <p class="ts-intro">If you are a university professor, lecturer, department chair, or representative of a cultural/educational organization, we invite you to evaluate Africa on the Ground for your curriculum.</p>
+  <p>To request a 60-day pilot onboarding session or explore an institutional partnership, get in touch with our editorial team:${contactLine ? contactLine : " write to our project contact directly."}</p>
+  <p class="fine">We review pilot applications on a rolling basis prior to each academic semester.</p>
+</section>
+
+</div>`;
+
+  return layout({
+    title: `Education & Social Mission · ${config.name}`,
+    description: "Interactive educational tools for universities and schools, grounded in verifiable sources, strict privacy, and ethical Fair Knowledge compensation.",
+    depth: 1,
+    current: "education",
+    bodyClass: "still",
+    body,
+    jump
+  });
+}
+write("education/index.html", renderEducation());
 
 // ---------- pagina Places: tutte le schede, per regione ----------
 function renderPlaces() {
@@ -1489,13 +1623,19 @@ function renderPlaces() {
 
 function renderArt() {
   const categories = (artCatalog && artCatalog.categories) || [];
+  const artMeta = (artCatalog && artCatalog.meta) || {};
   const bySlug = new Map(published.map((p) => [p.slug, p]));
   const groups = categories.map((g) => ({ ...g, items: g.places.map((slug) => bySlug.get(slug)).filter(Boolean) })).filter((g) => g.items.length);
   const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
   const outline = (p) => { const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean); return ids.length && !ids.some((x) => !/UNESCO/i.test(x.publisher || "") && x.tier !== "encyclopedia"); };
   const row = (p) => {
     const n = (notes[p.slug] || []).length;
-    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="../${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : outline(p) ? '<span class="tag-outline" title="This card rests on UNESCO and Wikipedia only">Outline</span>' : ""}</a></li>`;
+    const m = artMeta[p.slug] || {};
+    const image = p.image
+      ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="800" height="533" loading="lazy">`
+      : `<span class="art-card-initial">${esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
+    const state = p.status === "draft" ? '<span class="draft">In preparation</span>' : outline(p) ? '<span class="tag-outline">Outline</span>' : "";
+    return `<li class="art-card-item" data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-category="${esc(m.category || "unknown")}" data-country="${esc(p.country || "unknown")}" data-period="${esc(m.period || "unknown")}" data-q="${esc((p.name + " " + p.region + " " + (m.materials || "") + " " + (m.function || "")).toLowerCase())}"><a class="art-card" href="../${esc(p.slug)}/index.html"><span class="art-card-image">${image}${state}</span><span class="art-card-body"><span class="art-card-kicker">${esc(m.period || "Art place")} · ${esc(p.region)}</span><span class="art-card-name">${esc(p.name)}</span><span class="art-card-description">${esc(m.materials || m.function || types[p.type].label)}</span><span class="art-card-meta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} ${citedIds(p).size === 1 ? "source" : "sources"}${n ? ` · ${n} local ${n === 1 ? "note" : "notes"}` : ""}</span></span></a></li>`;
   };
   const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
   const allArtItems = groups.flatMap((g) => g.items);
@@ -1507,9 +1647,15 @@ function renderArt() {
     <label class="pi-search"><span class="sr">Search art and places</span><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
     ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
     ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
+    <div class="filters" role="group" aria-label="Filter by art category" data-group="category">${chip("category", "all", "All art categories", true)}${categories.map((g) => chip("category", g.id, esc(g.label), false)).join("")}</div>
+    <div class="filters" role="group" aria-label="Filter by country" data-group="country">${chip("country", "all", "All countries", true)}${[...new Set(allArtItems.map((p) => p.country).filter(Boolean))].sort().map((iso) => chip("country", iso, esc(cName[iso] || iso), false)).join("")}</div>
+    <div class="filters" role="group" aria-label="Filter by period" data-group="period">${chip("period", "all", "All periods", true)}${[...new Set(allArtItems.map((p) => (artMeta[p.slug] || {}).period).filter(Boolean))].sort().map((period) => chip("period", period, esc(period), false)).join("")}</div>
   </div>`;
   const countText = `${totalCards} ${totalCards === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "category" : "categories"}${includeDrafts ? " (drafts included)" : ""}.`;
+  const path = artCatalog.path;
+  const pathSection = path ? `<section class="band-saffron art-path" aria-labelledby="art-path-h"><div class="wrap"><p class="kicker">A guided thread</p><h2 id="art-path-h">${esc(path.title)}</h2><p class="lede">${esc(path.intro)}</p>${renderRich({ type: "order", prompt: path.prompt, items: path.items.map((it) => ({ ...it, label: bySlug.get(it.slug)?.name || it.slug, href: `../${it.slug}/index.html` })) }, () => "", { up: "../../" })}</div></section>` : "";
   const body = `${compactHero({ kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
+ ${pathSection}
 <div class="wrap places-index art-index">
   <p class="places-subnav"><a class="btn btn-alt" href="../index.html">← All places</a></p>
   <p class="art-note">This is a growing index, not a gallery. Open a place card to see its sources, image credit and the local voice the project is still waiting for.</p>
@@ -1519,7 +1665,7 @@ function renderArt() {
   <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches these filters. <button type="button" class="linkbtn" id="pi-reset">Clear the filters</button></p>
   ${groups.map((g) => `<section class="pgroup art-group" id="r-${esc(g.id)}"><div class="art-group-head"><h2>${esc(g.label)}</h2><p class="art-intro">${esc(g.intro)}</p></div><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
 </div>`;
-  return layout({ title: `Art · Places · ${config.name}`, description: artCatalog.lede, depth: 2, current: "art", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
+  return layout({ title: `Art · Places · ${config.name}`, description: artCatalog.lede, depth: 2, current: "art", bodyClass: "art-page", body, extraScripts: ["places.js", "story.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
 }
 
 // ---------- pagina Capitals: il dato della capitale e lo stato della scheda urbana ----------
@@ -1559,31 +1705,106 @@ ${sourcesList()}</article></div>`;
 function renderExplore() {
   const countries = data.countries ? data.countries.countries : [];
   const nodes = [], edges = [], ids = new Set();
-  const add = (id, t, l, h) => { if (!ids.has(id)) { ids.add(id); nodes.push({ id, t, l, h }); } };
-  for (const c of countries) add(`c:${c.iso3}`, "country", c.name, `../countries/${cSlug[c.iso3]}/index.html`);
-  for (const b of blocsList) { add(`b:${b.id}`, "bloc", b.short, "../countries/index.html"); for (const iso of b.members) if (ids.has(`c:${iso}`)) edges.push([`c:${iso}`, `b:${b.id}`]); }
+  const add = (id, t, l, h, s = "") => { if (!ids.has(id)) { ids.add(id); nodes.push({ id, t, l, h, s }); } };
+  for (const c of countries) add(`c:${c.iso3}`, "country", c.name, `../countries/${cSlug[c.iso3]}/index.html`, c.capital ? `Capital: ${c.capital}` : "");
+  for (const b of blocsList) { add(`b:${b.id}`, "bloc", b.name, "../countries/index.html", `${b.members.length} member states`); for (const iso of b.members) if (ids.has(`c:${iso}`)) edges.push([`c:${iso}`, `b:${b.id}`]); }
   const capsHere = capitals.filter(({ data: cp }) => (cp.sections || []).length && (cp.status === "published" || includeDrafts));
-  for (const { data: cp } of capsHere) { add(`k:${cp.slug}`, "capital", cp.name, `../capitals/${cp.slug}/index.html`); edges.push([`k:${cp.slug}`, `c:${cp.country}`]); }
-  for (const pl of published) { if (!pl.country || pl.type === "dish" && !pl.country) continue; add(`p:${pl.slug}`, "place", pl.name, `../places/${pl.slug}/index.html`); if (ids.has(`c:${pl.country}`)) edges.push([`p:${pl.slug}`, `c:${pl.country}`]); }
+  for (const { data: cp } of capsHere) { add(`k:${cp.slug}`, "capital", cp.name, `../capitals/${cp.slug}/index.html`, cp.subtitle || ""); edges.push([`k:${cp.slug}`, `c:${cp.country}`]); }
+  for (const pl of published) { if (!pl.country || pl.type === "dish" && !pl.country) continue; add(`p:${pl.slug}`, "place", pl.name, `../places/${pl.slug}/index.html`, pl.subtitle || ""); if (ids.has(`c:${pl.country}`)) edges.push([`p:${pl.slug}`, `c:${pl.country}`]); }
   for (const { data: cp } of capsHere) for (const slug of cp.places || []) if (ids.has(`p:${slug}`)) edges.push([`k:${cp.slug}`, `p:${slug}`]);
-  for (const st of stories) { add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`); for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]); for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]); }
+  for (const st of stories) { add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`, st.subtitle || ""); for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]); for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]); }
   const graph = { nodes, edges };
   const body = `${compactHero({ kicker: "Explore", title: "Connections", sub: "Everything on this site is linked to something else. Pick a starting point and follow the threads." })}
 <div class="wrap prose-hero">
 <section class="explore" id="explore" aria-labelledby="ex-h">
-  <h2 id="ex-h">Follow the threads</h2>
+  <div class="explore-intro">
+    <div>
+      <p class="layer-tag rec">Interactive Network</p>
+      <h2 id="ex-h">Follow one thread at a time</h2>
+    </div>
+    <p>Connections are the editorial links between countries, places, capitals, stories and regional blocs. Choose a starting point to explore freely, or challenge yourself to find the shortest route between two distant topics.</p>
+  </div>
   <noscript><p class="fine">This explorer needs JavaScript. Without it, every page links to the countries, places and stories connected to it under "Keep exploring".</p></noscript>
   <div class="ex-ui" id="ex-ui" hidden>
-    <div class="ex-bar"><label for="ex-pick">Start from</label><select id="ex-pick"></select><button type="button" class="rc-btn" id="ex-random">Surprise me</button><button type="button" class="rc-btn" id="ex-back" disabled>Back</button></div>
-    <div class="ex-main"><svg class="ex-svg" id="ex-svg" viewBox="-300 -240 600 480" role="img" aria-label="Diagram of the connections of the chosen item; the same links are listed below"></svg>
-    <div class="ex-card" id="ex-card" aria-live="polite"></div></div>
+    <!-- Mode Switcher -->
+    <div class="ex-mode-bar" role="tablist" aria-label="Explorer mode">
+      <button type="button" class="ex-mode-btn is-active" id="ex-mode-explore" role="tab" aria-selected="true">
+        <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="13.5,6.5 11,12 6.5,13.5 9,8"/></svg>
+        <span>Explore freely</span>
+      </button>
+      <button type="button" class="ex-mode-btn" id="ex-mode-quest" role="tab" aria-selected="false">
+        <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="10" r="4"/><circle cx="10" cy="10" r="1.5"/></svg>
+        <span>Thread Quest</span>
+      </button>
+    </div>
+
+    <!-- Quest Challenge HUD (shown when quest mode is active) -->
+    <div class="ex-quest-hud" id="ex-quest-hud" hidden>
+      <div class="ex-quest-header">
+        <div class="ex-quest-title-wrap">
+          <span class="ex-quest-tag">🎯 Thread Quest</span>
+          <h3 class="ex-quest-heading" id="ex-quest-heading">Connect the dots</h3>
+        </div>
+        <div class="ex-quest-actions">
+          <button type="button" class="rc-btn" id="ex-quest-new">New quest</button>
+          <button type="button" class="rc-btn" id="ex-quest-hint">Show route</button>
+        </div>
+      </div>
+      <div class="ex-quest-targets" id="ex-quest-targets"></div>
+      <div class="ex-quest-status" id="ex-quest-status" role="status" aria-live="polite"></div>
+    </div>
+
+    <!-- Search & Quick Navigation Bar -->
+    <div class="ex-bar">
+      <div class="ex-search-wrap">
+        <label for="ex-search" class="ex-search-label">Choose a starting point</label>
+        <div class="ex-search-input-box">
+          <svg class="ex-search-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="M14 14l4.5 4.5"/></svg>
+          <input id="ex-search" type="search" placeholder="Search countries, places, stories, capitals..." autocomplete="off" aria-describedby="ex-search-help" aria-controls="ex-suggestions" aria-expanded="false">
+          <button type="button" class="ex-search-clear" id="ex-search-clear" aria-label="Clear search" hidden>×</button>
+        </div>
+        <div class="ex-suggestions" id="ex-suggestions" role="listbox" hidden></div>
+        <p class="ex-search-help" id="ex-search-help">Click to browse suggestions, or type to filter starting points.</p>
+      </div>
+      <div class="ex-actions">
+        <button type="button" class="rc-btn" id="ex-random" title="Jump to a random starting point">
+          <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-4H9V5h2v4z"/></svg>
+          <span>Surprise me</span>
+        </button>
+        <button type="button" class="rc-btn" id="ex-back" disabled title="Go back to the previous item">
+          <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 15l-5-5 5-5"/></svg>
+          <span>Back</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Thread Trail (Journey breadcrumbs) -->
+    <div class="ex-trail-wrap" id="ex-trail-wrap" hidden>
+      <div class="ex-trail-header">
+        <span class="ex-trail-label">Your Thread:</span>
+        <button type="button" class="ex-trail-reset" id="ex-trail-reset">Clear trail</button>
+      </div>
+      <nav class="ex-trail" id="ex-trail" aria-label="Current exploration thread"></nav>
+    </div>
+
+    <!-- Active Card (Hero of current node) -->
+    <div class="ex-main">
+      <article class="ex-card" id="ex-card" aria-live="polite"></article>
+    </div>
+
+    <!-- Category Filter Tabs for Connected Items -->
+    <div class="ex-filter-wrap" id="ex-filter-wrap">
+      <div class="ex-filter-label">Filter by type:</div>
+      <div class="ex-filter-tabs" id="ex-filter-tabs" role="group" aria-label="Filter connections by category"></div>
+    </div>
+
+    <!-- Connected Items Grid -->
     <div class="ex-lists" id="ex-lists"></div>
   </div>
-  <div class="game" id="ex-game" hidden aria-labelledby="exg-h"><span class="layer-tag rec">Thread game</span><h3 id="exg-h">Get from one to the other</h3><div id="exg-q"></div><p class="game-score" id="exg-score" role="status" aria-live="polite"></p></div>
   <p class="fine">Links come from the content itself: a place card belongs to a country, a story lists its countries and places, a capital lists its places to see, and countries belong to regional blocs. Nothing you do here is saved or sent.</p>
 </section></div>
 <script type="application/json" id="graphdata">${JSON.stringify(graph).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Connections · ${config.name}`, description: "A map of how the countries, capitals, places and stories on this site connect, with a game.", depth: 1, current: "explore", body, extraScripts: ["explore.js"], bodyClass: "still" });
+  return layout({ title: `Connections · ${config.name}`, description: "Follow the editorial links between countries, places, capitals and stories.", depth: 1, current: "explore", body, extraScripts: ["explore.js"], bodyClass: "still connections-page" });
 }
 
 function renderCapitals() {
@@ -1673,6 +1894,7 @@ fs.copyFileSync(path.join(root, "src", "recipe.js"), path.join(dist, "recipe.js"
 fs.copyFileSync(path.join(root, "src", "society.js"), path.join(dist, "society.js"));
 fs.copyFileSync(path.join(root, "src", "explore.js"), path.join(dist, "explore.js"));
 fs.copyFileSync(path.join(root, "src", "languages.js"), path.join(dist, "languages.js"));
+fs.copyFileSync(path.join(root, "src", "method-qa.js"), path.join(dist, "method-qa.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
 fs.copyFileSync(path.join(root, "node_modules", "motion", "dist", "motion.js"), path.join(dist, "vendor", "motion.js"));

@@ -1,0 +1,73 @@
+{
+  "city": "Yaoundé",
+  "country": "CMR",
+  "population": {
+    "value": 1881876,
+    "year": 2005,
+    "definition": "Population of the Mfoundi Department (coterminous with the Yaoundé Urban Community and its seven arrondissements) enumerated in the 3rd General Population and Housing Census (3e RGPH, November 2005) conducted by the Central Bureau of Censuses and Population Studies (BUCREP) and the National Institute of Statistics (INS) of Cameroon, tabulated via CityPopulation. National projections for 2025–2026 estimate the urban population above 3.7 million.",
+    "source": {
+      "title": "Cameroon: Regions, Major Cities & Towns - Population Statistics (Census 2005)",
+      "publisher": "CityPopulation (credits BUCREP / INS Cameroon)",
+      "author": null,
+      "date": "2005-11-11",
+      "url": "https://www.citypopulation.de/en/cameroon/cities/",
+      "tier": "institutional",
+      "quote": "2005-11-11 | Yaoundé (Mfoundi Department): 1,881,876"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Yaoundé was founded in February 1889 as a German military and scientific research post by explorer Richard Kund and botanist Curt Morgen, situated in the hilly territory of the Ewondo people.",
+      "source": {
+        "title": "Encyclopaedia Britannica - Yaoundé",
+        "publisher": "Encyclopaedia Britannica",
+        "author": null,
+        "date": null,
+        "url": "https://www.britannica.com/place/Yaounde",
+        "tier": "press",
+        "quote": "Yaoundé was founded in 1889 during the period of German colonial rule"
+      }
+    },
+    {
+      "claim": "The National Museum of Cameroon occupies the former French Governors' Palace, constructed around 1930–1935, which later served as the official presidential palace of Cameroon's first president Ahmadou Ahidjo before being dedicated to national cultural collections.",
+      "source": {
+        "title": "Le Musée National du Cameroun - Ancien Palais des Gouverneurs",
+        "publisher": "Ministère des Arts et de la Culture du Cameroun",
+        "author": null,
+        "date": null,
+        "url": "http://www.minculture-cameroun-gov.com/",
+        "tier": "institutional",
+        "quote": "Ancien Palais des Gouverneurs français devenu résidence présidentielle puis Musée National"
+      }
+    },
+    {
+      "claim": "The Reunification Monument on Plateau Atemengue was constructed between 1973 and 1976 by artists Gédéon Mpando, Engelbert Mveng, and Armand Salomon to commemorate the 1961 union between French-speaking Cameroon and British Southern Cameroons.",
+      "source": {
+        "title": "Encyclopaedia Britannica - Yaoundé",
+        "publisher": "Encyclopaedia Britannica",
+        "author": null,
+        "date": null,
+        "url": "https://www.britannica.com/place/Yaounde",
+        "tier": "press",
+        "quote": "Monument erected to celebrate the 1961 reunification of the two Cameroons"
+      }
+    },
+    {
+      "claim": "The Minor Basilica of Mary Queen of the Apostles at Mvolyé, consecrated in December 2006 on the historic 1901 mission site of Mgr Heinrich Vieter, features a roof supported by twelve massive columns carved from precious native bubinga and moabi timbers.",
+      "source": {
+        "title": "Histoire et architecture de la Basilique Marie-Reine-des-Apôtres de Mvolyé",
+        "publisher": "Actu Cameroun",
+        "author": null,
+        "date": null,
+        "url": "https://actucameroun.com/",
+        "tier": "press",
+        "quote": "Érigée en basilique mineure en 2006 avec douze colonnes en bubinga et moabi et un autel en granit en forme de jeton d'abbia"
+      }
+    }
+  ],
+  "gaps": [
+    "The 4th General Population and Housing Census (4e RGPH) remains pending formal publication; contemporary urban estimates rely on INS demographic projections.",
+    "First-hand local voices from residents and traders of the Mokolo and Mfoundi markets are yet to be gathered.",
+    "City-level photographs of municipal landmarks are not yet linked in the repository."
+  ]
+}

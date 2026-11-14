@@ -3,10 +3,234 @@
   "status": "draft",
   "country": "MAR",
   "name": "Rabat",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Rabat, capital of Morocco: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 509,916 people live in the city of Rabat (counted 2024), within an urban conurbation of over 1.8 million.",
+      "cite": [
+        "cap-citypopulation-de-rabat-2024"
+      ]
+    },
+    {
+      "text": "Rabat was founded in 1150 by Almohad Caliph Abd al-Mu'min as a ribat overlooking the Bou Regreg and the Atlantic.",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    },
+    {
+      "text": "Rabat was chosen as administrative capital in 1912 under the French protectorate and reaffirmed as capital upon independence in 1956.",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    }
+  ],
+  "places": [
+    "kasbah-des-oudayas-rabat",
+    "hassan-tower-and-mausoleum-rabat",
+    "chellah-rabat",
+    "musee-mohammed-vi-rabat"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Rabat in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rabat was established in 1150 by Almohad Caliph Abd al-Mu'min as a fortified ribat on a high coastal promontory, expanded at the end of the 12th century by Caliph Abu Yaqub Yusuf al-Mansur with monumental walls and gates.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1912 General Hubert Lyautey made Rabat the administrative capital of the French Protectorate in Morocco. Urban planners designed a new town with wide boulevards and public gardens while deliberately conserving the historic Medina and Kasbah.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Upon recovering national independence in March 1956, King Mohammed V retained Rabat as the permanent sovereign capital of Morocco.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "509,916",
+              "label": "people in the city proper of Rabat, 2024",
+              "cite": [
+                "cap-citypopulation-de-rabat-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the city proper of Rabat?",
+          "min": 100000,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 509916,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "509,916 in September 2024, according to the official national census (RGPH 2024) conducted by the Haut-Commissariat au Plan. The Rabat Prefecture counted 515,619 residents, while the metropolitan area shared with twin city Salé across the Bou Regreg exceeds 1.8 million.",
+              "cite": [
+                "cap-citypopulation-de-rabat-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1150",
+              "tag": "origins",
+              "text": "Almohad Caliph Abd al-Mu'min builds the original ribat (Kasbah des Oudayas).",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "when": "1195–1199",
+              "tag": "origins",
+              "text": "Abu Yaqub Yusuf al-Mansur expands the city walls and begins the Hassan Mosque and minaret.",
+              "cite": [
+                "cap-mwnf-hassan-mausoleum"
+              ]
+            },
+            {
+              "when": "14th century",
+              "tag": "origins",
+              "text": "The Marinid dynasty develops the Chellah necropolis with a mosque, madrasa and royal tombs.",
+              "cite": [
+                "cap-mwnf-chellah"
+              ]
+            },
+            {
+              "when": "1912",
+              "tag": "growth",
+              "text": "Rabat is designated the administrative capital of the French Protectorate in Morocco.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "when": "1956-03-02",
+              "tag": "growth",
+              "text": "Morocco recovers independence; Rabat is confirmed as the sovereign national capital.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "when": "1971",
+              "tag": "today",
+              "text": "The Mausoleum of Mohammed V, designed by architect Eric Vo Toan, is completed facing the Hassan Tower.",
+              "cite": [
+                "cap-mwnf-hassan-mausoleum"
+              ]
+            },
+            {
+              "when": "2012",
+              "tag": "today",
+              "text": "UNESCO inscribes Rabat on the World Heritage List as a modern capital and historic city.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "when": "2014-10",
+              "tag": "today",
+              "text": "The Musée Mohammed VI d'art moderne et contemporain opens in central Rabat.",
+              "cite": [
+                "cap-fnm-mmvi-rabat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Rabat in order.",
+          "items": [
+            {
+              "label": "Almohad Caliph Abd al-Mu'min builds the original ribat.",
+              "when": "1150",
+              "text": "Almohad Caliph Abd al-Mu'min builds the original ribat.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "label": "Rabat is designated the capital of the French Protectorate.",
+              "when": "1912",
+              "text": "Rabat is designated the capital of the French Protectorate.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "label": "Morocco recovers independence; Rabat is confirmed as capital.",
+              "when": "1956",
+              "text": "Morocco recovers independence; Rabat is confirmed as capital.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            },
+            {
+              "label": "UNESCO inscribes Rabat as a World Heritage site.",
+              "when": "2012",
+              "text": "UNESCO inscribes Rabat as a World Heritage site.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Difference between the administrative municipality of Rabat (509k in 2024) and the wider urban agglomeration with Salé and Témara (exceeding 1.8 million).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Morocco has read this profile yet."
   ]
 }

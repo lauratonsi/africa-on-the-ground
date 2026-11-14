@@ -1,0 +1,59 @@
+{
+  "slug": "marche-total-bacongo-brazzaville",
+  "status": "draft",
+  "type": "market",
+  "country": "COG",
+  "name": "Marché Total de Bacongo",
+  "region": "Brazzaville · Republic of the Congo",
+  "subtitle": "Brazzaville's largest traditional marketplace, famous for Congolese fabrics, smoked river fish, and medicinal roots.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Bacongo (2nd Arrondissement)",
+      "cite": [
+        "cap-citypopulation-de-congo-2023"
+      ]
+    },
+    {
+      "label": "Origins",
+      "value": "Established in 1957 near a Total service station on Avenue Matsoua",
+      "cite": [
+        "cap-citypopulation-de-congo-2023"
+      ]
+    },
+    {
+      "label": "Specialties",
+      "value": "Congolese pagne wax textiles, smoked capitaine and catfish, cassava leaves (saka-saka), and traditional herbal remedies",
+      "cite": [
+        "cap-citypopulation-de-congo-2023"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The largest, most energetic market in Brazzaville, located in the cultural bastion of Bacongo along Avenue Matsoua. Founded in 1957 near a petrol station from which it took its popular name, Marché Total functions as the primary distribution center for fresh food arriving from the Pool department, river produce from the Congo, colorful Congolese wax print textiles (pagnes), tailored apparel, and natural botanicals used in traditional pharmacopoeia, representing the quintessential community marketplace of the capital.",
+              "cite": [
+                "cap-citypopulation-de-congo-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Precise figures on current stallholders in modernized Hall A versus peripheral street vendors are missing.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

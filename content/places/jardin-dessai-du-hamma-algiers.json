@@ -1,0 +1,59 @@
+{
+  "slug": "jardin-dessai-du-hamma-algiers",
+  "status": "draft",
+  "type": "nature",
+  "country": "DZA",
+  "name": "Jardin d'Essai du Hamma",
+  "region": "Algiers · Algeria",
+  "subtitle": "Historic botanical garden founded in 1832 covering 32 hectares between Arcades Hill and the Bay of Algiers.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1832",
+      "cite": [
+        "cap-medomed-hamma"
+      ]
+    },
+    {
+      "label": "Size",
+      "value": "32 hectares (320,000 m2)",
+      "cite": [
+        "cap-medomed-hamma"
+      ]
+    },
+    {
+      "label": "Network",
+      "value": "Med-O-Med Botanic Gardens Network",
+      "cite": [
+        "cap-medomed-hamma"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A historic botanical garden established in 1832 on coastal marshlands on the slopes of Arcades Hill. Spanning 32 hectares with an arboretum, ancient avenues of giant ficus and palms, and thousands of Mediterranean and subtropical plant species, it serves as a central scientific and recreational green space in Algiers.",
+              "cite": [
+                "cap-medomed-hamma"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Botanical counts and species registers are based on network reports and should be confirmed against Algerian botanical surveys.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

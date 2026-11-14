@@ -1,0 +1,59 @@
+{
+  "slug": "kasbah-des-oudayas-rabat",
+  "status": "draft",
+  "type": "site",
+  "country": "MAR",
+  "name": "Kasbah des Oudayas",
+  "region": "Rabat · Morocco",
+  "subtitle": "12th-century Almohad fortified citadel standing on a cliff above the Bou Regreg estuary and the Atlantic.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1150 (Caliph Abd al-Mu'min)",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    },
+    {
+      "label": "Monumental gate",
+      "value": "Bab Oudaia (Almohad masterpiece)",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    },
+    {
+      "label": "UNESCO status",
+      "value": "Inscribed 2012",
+      "cite": [
+        "cap-unesco-rabat-1401"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 12th-century Almohad citadel situated on a strategic rocky cliff overlooking the Atlantic Ocean and the mouth of the Bou Regreg river. It features the monumental Bab Oudaia ceremonial gate, whitewashed and blue-painted residential lanes, an Andalusian garden laid out in the 1920s, and the historic clifftop terrace of the Café Maure facing Salé.",
+              "cite": [
+                "cap-unesco-rabat-1401"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Archival details on 17th-century Morisco settlement and defenses should be checked against primary Moroccan chronicles.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

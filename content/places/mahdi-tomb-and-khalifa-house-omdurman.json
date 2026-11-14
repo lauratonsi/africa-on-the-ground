@@ -1,0 +1,59 @@
+{
+  "slug": "mahdi-tomb-and-khalifa-house-omdurman",
+  "status": "draft",
+  "type": "site",
+  "country": "SDN",
+  "name": "Mahdi Tomb and Khalifa House",
+  "region": "Omdurman · Sudan",
+  "subtitle": "Historic memorial complex and mudbrick residence marking the capital of the 19th-century Mahdist State.",
+  "facts": [
+    {
+      "label": "Tomb rebuilt",
+      "value": "1947 (original destroyed in 1898 Battle of Omdurman)",
+      "cite": [
+        "cap-archnet-khalifa-house"
+      ]
+    },
+    {
+      "label": "Khalifa House",
+      "value": "Constructed 1888 in traditional mudbrick and burnt brick",
+      "cite": [
+        "cap-archnet-khalifa-house"
+      ]
+    },
+    {
+      "label": "Museum collection",
+      "value": "Mahdist weapons, banners, coinage, and colonial battle relics",
+      "cite": [
+        "cap-archnet-khalifa-house"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The political and spiritual heart of the historical Mahdist State in Omdurman. The silver-domed mausoleum honors Muhammad Ahmad al-Mahdi, whose forces captured Khartoum in 1885. The original structure was razed by Anglo-Egyptian troops in 1898 and rebuilt with its distinctive conical dome in 1947 by his son, Sayyid Abd al-Rahman al-Mahdi. Immediately adjacent stands the Khalifa House, a sprawling two-storey burnt-brick residence built in 1888 for Khalifa Abdallahi ibn Muhammad, preserved since 1928 as an ethnographic and historical museum.",
+              "cite": [
+                "cap-archnet-khalifa-house"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Museum opening status and collection conditions during recent urban hostilities in Omdurman require field assessment.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

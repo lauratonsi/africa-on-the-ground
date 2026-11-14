@@ -1,0 +1,59 @@
+{
+  "slug": "musee-mohammed-vi-rabat",
+  "status": "draft",
+  "type": "culture",
+  "country": "MAR",
+  "name": "Musée Mohammed VI d'Art Moderne et Contemporain",
+  "region": "Rabat · Morocco",
+  "subtitle": "National museum of modern and contemporary art opened in 2014 in central Rabat, designed by architect Karim Chakor.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "October 2014",
+      "cite": [
+        "cap-fnm-mmvi-rabat"
+      ]
+    },
+    {
+      "label": "Architect",
+      "value": "Karim Chakor",
+      "cite": [
+        "cap-fnm-mmvi-rabat"
+      ]
+    },
+    {
+      "label": "Scope",
+      "value": "First public museum dedicated to modern and contemporary art in Morocco",
+      "cite": [
+        "cap-fnm-mmvi-rabat"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The premier public museum dedicated entirely to modern and contemporary visual art in Morocco. Situated in central Rabat near the railway station and opened in October 2014, the building, designed by Moroccan architect Karim Chakor, reinterprets traditional arabesque, double-arched colonnades and carved plaster within a modern museum layout, showcasing permanent collections of major 20th- and 21st-century Moroccan artists alongside international touring exhibitions.",
+              "cite": [
+                "cap-fnm-mmvi-rabat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital catalogue of modern acquisitions is administered by the Fondation Nationale des Musées and was only partially consulted.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}
