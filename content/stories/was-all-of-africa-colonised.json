@@ -367,5 +367,17 @@
         "ebsco-ethiopia-repels-2023"
       ]
     }
+  ],
+  "deeper": [
+    {
+      "source": "rubenson-wichale-1964",
+      "kind": "article",
+      "why": "A scholarly article on the two versions of Article 17 of the Treaty of Wuchale; only the abstract is free."
+    },
+    {
+      "source": "ebsco-adwa-2020",
+      "kind": "article",
+      "why": "A short reference overview of the battle, a quick way in."
+    }
   ]
 }

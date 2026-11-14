@@ -308,5 +308,22 @@
         "noain-natgeo-kilwa-2020"
       ]
     }
+  ],
+  "deeper": [
+    {
+      "source": "horton-kilwa-chronology",
+      "kind": "article",
+      "why": "An open-access scholarly paper revising the dates of Kilwa's first buildings and coins."
+    },
+    {
+      "source": "noain-natgeo-kilwa-2020",
+      "kind": "news",
+      "why": "A readable National Geographic article on Kilwa's gold trade and its end."
+    },
+    {
+      "source": "patel-archaeology-2014",
+      "kind": "article",
+      "why": "An Archaeology magazine article on Swahili stone towns and the palace of Husuni Kubwa."
+    }
   ]
 }

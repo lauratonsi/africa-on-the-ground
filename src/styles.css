@@ -431,9 +431,7 @@ figcaption { font-size: .88rem; color: var(--ink-soft); margin-top: 10px; max-wi
 .bval { font-weight: 700; font-size: .85rem; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
 .brow.dim, .prow.dim { opacity: .25; }
 @media (max-width: 480px) { .brow { grid-template-columns: 5.6rem minmax(0, 1fr) 3.8rem; gap: 8px; } }
-.prow { display: grid; grid-template-columns: 56px 1fr auto; align-items: center; column-gap: 14px; row-gap: 2px; padding: 12px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
-.prow-thumb { grid-row: 1 / span 2; width: 56px; height: 72px; border-radius: 999px 999px 10px 10px; overflow: hidden; background: color-mix(in srgb, var(--record) 12%, var(--surface)); display: grid; place-items: center; font-weight: 800; font-size: 1.4rem; color: var(--record); box-shadow: 0 0 0 1.5px var(--line); }
-.prow-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.paired .prow { display: grid; gap: 4px; margin-bottom: 10px; }
 .pline { display: grid; grid-template-columns: minmax(0, 1fr) 3.4rem; align-items: center; gap: 12px; }
 .vlegend { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0 0 16px; padding: 0; font-size: .92rem; font-weight: 600; }
 .vlegend li { display: inline-flex; align-items: center; gap: 8px; }
@@ -620,11 +618,15 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .fab-menu a:hover, .fab-menu a:focus-visible { background: color-mix(in srgb, var(--record) 14%, transparent); }
 @media (prefers-reduced-motion: reduce) { .fab-btn, .fab-btn svg { transition: none; } }
 
-/* ---------- pagina Places ---------- */
+/* ---------- pagina Places & Art ---------- */
 .places-index { padding-block: clamp(24px, 4vw, 48px) clamp(56px, 8vw, 110px); }
 .places-subnav { margin: 0 0 24px; }
-.art-note { max-width: 62ch; margin: 0 0 28px; color: var(--ink-soft); }
-.art-intro { max-width: 58ch; margin: -4px 0 8px; color: var(--ink-soft); }
+.art-index .places-subnav { margin-bottom: 20px; }
+.art-note { max-width: 64ch; margin: 0 0 24px; color: var(--ink-soft); font-size: 1.02rem; line-height: 1.5; }
+.art-group { margin-bottom: clamp(36px, 6vw, 64px); scroll-margin-top: 80px; }
+.art-group-head { margin-bottom: 14px; }
+.art-group h2 { margin: 0 0 6px; font-size: clamp(1.4rem, 2.8vw, 1.85rem); }
+.art-intro { max-width: 62ch; margin: 0; color: var(--ink-soft); font-size: .96rem; line-height: 1.45; }
 .pi-count { margin: 0 0 18px; color: var(--ink-soft); }
 .pi-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: clamp(24px, 4vw, 44px); }
 .pi-jump a { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 600; box-shadow: inset 0 0 0 1.5px var(--line); }
@@ -632,13 +634,15 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .pi-jump .n { color: var(--ink-soft); font-weight: 500; }
 .pgroup { margin-bottom: clamp(28px, 5vw, 56px); scroll-margin-top: 80px; }
 .pgroup h2 { margin: 0 0 12px; font-size: clamp(1.5rem, 3vw, 2rem); }
-.prows { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 4px 28px; }
-.prow { display: grid; grid-template-columns: 1fr auto; align-items: start; column-gap: 12px; row-gap: 2px; padding: 14px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
+.prows { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 10px 28px; }
+.prow { display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; align-items: center; column-gap: 14px; row-gap: 3px; padding: 12px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
 .prow:hover .prow-name, .prow:focus-visible .prow-name { color: var(--record); text-decoration: underline; text-underline-offset: 3px; }
-.prow-name { font-weight: 700; font-size: 1.1rem; }
-.prow-meta { grid-column: 2 / -1; color: var(--ink-soft); font-size: .88rem; }
+.prow-thumb { grid-column: 1; grid-row: 1 / span 2; width: 56px; height: 72px; border-radius: 999px 999px 10px 10px; overflow: hidden; background: color-mix(in srgb, var(--record) 12%, var(--surface)); display: grid; place-items: center; font-weight: 800; font-size: 1.4rem; color: var(--record); box-shadow: 0 0 0 1.5px var(--line); flex-shrink: 0; }
+.prow-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.prow-name { grid-column: 2; grid-row: 1; font-weight: 700; font-size: 1.08rem; line-height: 1.25; min-width: 0; }
+.prow-meta { grid-column: 2; grid-row: 2; color: var(--ink-soft); font-size: .88rem; line-height: 1.35; min-width: 0; }
 .prow .ticon { vertical-align: -2px; margin-right: 4px; }
-.prow .draft { grid-column: 3; grid-row: 1; background: transparent; color: var(--ink-soft); box-shadow: inset 0 0 0 1.5px var(--line); font-weight: 600; }
+.prow .draft { grid-column: 3; grid-row: 1 / span 2; align-self: center; justify-self: end; background: transparent; color: var(--ink-soft); box-shadow: inset 0 0 0 1.5px var(--line); font-weight: 600; font-size: .78rem; padding: 3px 8px; border-radius: 999px; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
 .night-more { margin-top: clamp(28px, 5vw, 56px); text-align: center; }
 
 /* filtri della pagina Places */
@@ -714,7 +718,7 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .map-continent .pin circle:not(.hit):not(.ring), .map-continent .pin rect { transform: scale(1.5); stroke-width: 2.5; }
 .map-continent .pin:hover circle:not(.hit):not(.ring), .map-continent .pin:hover rect, .map-continent .pin.hl circle:not(.hit):not(.ring), .map-continent .pin.hl rect { transform: scale(2.1); }
 .band-indigo .filters { margin-bottom: 16px; }
-.tag-outline { grid-column: 3; grid-row: 1; font-size: .78rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-soft); padding: 3px 10px; border-radius: 999px; box-shadow: inset 0 0 0 1.5px var(--line); }
+.tag-outline { grid-column: 3; grid-row: 1 / span 2; align-self: center; justify-self: end; font-size: .78rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-soft); padding: 3px 10px; border-radius: 999px; box-shadow: inset 0 0 0 1.5px var(--line); white-space: nowrap; }
 
 /* ---------- mappa dell'Africa, versione notturna ---------- */
 .mapbox { position: relative; }

@@ -298,5 +298,17 @@
     "No account from mixed-descent people or their families is quoted.",
     "The legal status of the 1947 repeal decree is unclear in the report and is not covered here.",
     "No one from Eritrea or Ethiopia has read this page yet."
+  ],
+  "deeper": [
+    {
+      "source": "camera-pdl-5634-meticci",
+      "kind": "document",
+      "why": "The parliamentary report that sets out the 1937 to 1952 laws and the estimates of how many children were affected."
+    },
+    {
+      "source": "internazionale-meticci-2021",
+      "kind": "news",
+      "why": "A journalist's account of the children and what became of them, in Italian."
+    }
   ]
 }

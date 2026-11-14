@@ -80,6 +80,25 @@ Come procedere, a lotti di 5 o 6 capitali per regione, con rilettura umana dopo 
 - **Voci locali**: ogni profilo invita una persona della città a leggerlo, con la cura già prevista per i luoghi legati a storie dolorose.
 - Il formato delle schede dei luoghi ora accetta gli stessi blocchi delle storie (stima, ordine, tabella, domande, ricetta); basta riempirle.
 
+## Un altro lato da esplorare: arte (ricognizione del 14 novembre 2026)
+
+La pista è sostenibile: esiste molto materiale digitale, ma diviso in famiglie con accessibilità e diritti diversi. Non conviene partire da una galleria indistinta di immagini; meglio costruire schede brevi, con contesto, luogo, comunità, data o periodo, materiali, funzione e licenza della riproduzione.
+
+- **Arte rupestre e archeologia**: il progetto African Rock Art del British Museum ha catalogato circa 23.000 fotografie digitali, esplorabili per Paese e tema; le immagini sono dichiarate utilizzabili per studio, ricerca e insegnamento. È materiale adatto a mappe, confronti temporali e storie sulla lettura del paesaggio.
+- **Collezioni museali e oggetti**: Smithsonian/National Museum of African Art, The Met e British Museum offrono cataloghi online di migliaia di oggetti, con schede, provenienze, periodi, materiali e in alcuni casi immagini ad alta risoluzione o open access. Tipi ricorrenti: scultura, maschere, ceramica, metalli, tessili, gioielli, fotografia e arte moderna/contemporanea.
+- **Patrimonio costruito e cultura viva**: UNESCO, Dive into Heritage, Afro Heritage Atlas e African Built Heritage Digital Hub collegano siti, architetture, tecniche, rituali, musica, danza e artigianato. Qui il materiale non è solo "opera": è pratica, luogo, memoria e trasmissione; servono fonti locali e consenso quando si documentano conoscenze sensibili.
+- **Arte contemporanea**: esistono archivi di artisti, biennali, gallerie, mostre digitali e guide di ricerca, ma il materiale è più frammentato e spesso protetto da copyright. È una pista ricca per profili e percorsi, meno adatta al riuso diretto delle immagini.
+- **Fotografie e archivi storici**: gli archivi fotografici, per esempio quelli collegati allo Smithsonian, permettono di raccontare persone, atelier, performance e trasformazioni urbane; bisogna distinguere sempre tra immagine consultabile e immagine riutilizzabile.
+
+Primo possibile perimetro editoriale, da verificare prima di iniziare:
+
+1. **Segni nel paesaggio**: arte rupestre, incisioni, pitture e archeologia, con una mappa e una cronologia.
+2. **Oggetti che fanno cose**: maschere, tessili, ceramiche, sculture e strumenti, spiegando funzione e contesto invece di presentarli come oggetti esotici.
+3. **Luoghi che producono cultura**: laboratori, musei, scuole, quartieri, festival e biennali.
+4. **Pratiche vive**: tecniche, musica, danza, tatuaggio, acconciature e artigianato, solo con voci e fonti adeguate.
+
+Fonti di partenza: [British Museum African Rock Art](https://africanrockart.britishmuseum.org/), [National Museum of African Art](https://africa.si.edu/collection/), [Smithsonian Collections Search](https://collections.si.edu/search/), [The Met, African Art](https://www.metmuseum.org/departments/african-art), [UNESCO Priority Africa](https://ich.unesco.org/en/priority-africa), [UNESCO Dive into Heritage](https://whc.unesco.org/en/dive-into-heritage/), [Afro Heritage Atlas](https://afroatlas.org/) e [African Built Heritage Digital Hub](https://african-built-heritage-nu.hub.arcgis.com/).
+
 ## Regola di fondo (14 novembre 2026)
 
 Il gioco e l'interattività sono la base di tutte le sezioni, non solo delle storie: storie, schede dei luoghi, profili delle capitali, la pagina Method e le pagine di dati usano la stessa famiglia di blocchi. La pagina Method è ora costruita da `content/pages/method.json` con gli stessi blocchi, con numeri contati dal contenuto del sito a ogni build.

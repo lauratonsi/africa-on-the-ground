@@ -855,5 +855,32 @@
       "text": "The colour line was written into law after, and against, this mixing.",
       "editorial": true
     }
+  ],
+  "deeper": [
+    {
+      "source": "bryc-2015-us-ancestry",
+      "kind": "article",
+      "why": "The full open-access study behind the US figures on this page, with its methods and limits."
+    },
+    {
+      "source": "hollfelder-2020-afrikaner",
+      "kind": "article",
+      "why": "The genome study of 77 Afrikaners, including how its authors compare the result with church-record genealogy."
+    },
+    {
+      "source": "green-2022-cape-colony",
+      "kind": "book",
+      "why": "An open-access book on how the Cape Colony grew; the chapters on population and slavery give the context for the Afrikaner results."
+    },
+    {
+      "source": "giliomee-1983-cape-society",
+      "kind": "article",
+      "why": "A historian's review of intermarriage and concubinage at the Cape, with the studies it draws on."
+    },
+    {
+      "source": "desouza-2019-brazil",
+      "kind": "article",
+      "why": "A review of 51 studies of Brazilian ancestry, region by region."
+    }
   ]
 }

@@ -35,7 +35,8 @@
       var n = a.querySelector(".n"); if (n) n.textContent = k;
     });
     var filtered = shown !== total;
-    if (count) count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + (groups.length === 1 ? " region" : " regions") + suffix + ".";
+    var groupWord = document.querySelector(".art-index") ? (groups.length === 1 ? " category" : " categories") : (groups.length === 1 ? " region" : " regions");
+    if (count) count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + groupWord + suffix + ".";
     empty.hidden = shown !== 0;
     // le righe che restano entrano con una breve dissolvenza (solo se il movimento è consentito)
     if (window.Motion && document.documentElement.classList.contains("m-ok") && filtered) {

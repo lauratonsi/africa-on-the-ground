@@ -221,5 +221,12 @@
     "African voices on the association of the colonies are absent: no African politician or writer of the period is quoted.",
     "The book's own sources (the Pan-European journal, treaty texts, EEC papers) have not been read here.",
     "No one from the Congo or Algeria has read this page yet."
+  ],
+  "deeper": [
+    {
+      "source": "hansen-jonsson-2014-eurafrica",
+      "kind": "book",
+      "why": "An open-access book that follows the idea of Eurafrica from the 1920s to the 1957 treaty."
+    }
   ]
 }

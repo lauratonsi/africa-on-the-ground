@@ -8,6 +8,7 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
+    "preview": "node scripts/build.mjs --drafts && node scripts/serve.mjs",
     "check": "node scripts/validate.mjs && node scripts/build.mjs",
     "seed-dish-drafts": "node scripts/seed-dish-drafts.mjs",
     "seed-capital-drafts": "node scripts/seed-capital-drafts.mjs",

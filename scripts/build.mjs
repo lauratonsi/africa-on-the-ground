@@ -1491,19 +1491,33 @@ function renderArt() {
   const categories = (artCatalog && artCatalog.categories) || [];
   const bySlug = new Map(published.map((p) => [p.slug, p]));
   const groups = categories.map((g) => ({ ...g, items: g.places.map((slug) => bySlug.get(slug)).filter(Boolean) })).filter((g) => g.items.length);
-  const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.charAt(0))}</span>`;
-  const row = (p) => `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="../${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} ${citedIds(p).size === 1 ? "source" : "sources"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
+  const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
+  const outline = (p) => { const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean); return ids.length && !ids.some((x) => !/UNESCO/i.test(x.publisher || "") && x.tier !== "encyclopedia"); };
+  const row = (p) => {
+    const n = (notes[p.slug] || []).length;
+    return `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="../${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size}\u00a0${citedIds(p).size === 1 ? "source" : "sources"} · ${n ? `${n} local ${n === 1 ? "note" : "notes"}` : "no local notes yet"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : outline(p) ? '<span class="tag-outline" title="This card rests on UNESCO and Wikipedia only">Outline</span>' : ""}</a></li>`;
+  };
   const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
+  const allArtItems = groups.flatMap((g) => g.items);
+  const totalCards = allArtItems.length;
+  const usedT = config.placeTypes.filter((t) => allArtItems.some((p) => p.type === t.id));
+  const hasDraft = allArtItems.some((p) => p.status === "draft");
+  const chip = (attr, val, label, on) => `<button type="button" class="fbtn" data-${attr}="${esc(val)}" aria-pressed="${on ? "true" : "false"}">${label}</button>`;
   const tools = `<div class="pi-tools" id="pi-tools" hidden>
-    <label class="pi-search"><span class="sr">Search art and places</span><input type="search" id="pi-q" placeholder="Search art and places" autocomplete="off"></label>
+    <label class="pi-search"><span class="sr">Search art and places</span><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
+    ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
+    ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
   </div>`;
+  const countText = `${totalCards} ${totalCards === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "category" : "categories"}${includeDrafts ? " (drafts included)" : ""}.`;
   const body = `${compactHero({ kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
 <div class="wrap places-index art-index">
+  <p class="places-subnav"><a class="btn btn-alt" href="../index.html">← All places</a></p>
   <p class="art-note">This is a growing index, not a gallery. Open a place card to see its sources, image credit and the local voice the project is still waiting for.</p>
+  <p class="pi-count" id="pi-count" aria-live="polite">${countText}</p>
   ${tools}
   <nav class="pi-jump" id="pi-jump" aria-label="Art categories">${jumpBar}</nav>
-  <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches this search. <button type="button" class="linkbtn" id="pi-reset">Clear the search</button></p>
-  ${groups.map((g) => `<section class="pgroup art-group" id="r-${esc(g.id)}"><h2>${esc(g.label)}</h2><p class="art-intro">${esc(g.intro)}</p><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
+  <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches these filters. <button type="button" class="linkbtn" id="pi-reset">Clear the filters</button></p>
+  ${groups.map((g) => `<section class="pgroup art-group" id="r-${esc(g.id)}"><div class="art-group-head"><h2>${esc(g.label)}</h2><p class="art-intro">${esc(g.intro)}</p></div><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
 </div>`;
   return layout({ title: `Art · Places · ${config.name}`, description: artCatalog.lede, depth: 2, current: "art", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
 }

@@ -353,5 +353,22 @@
         "ancient-origins-musa-400bn"
       ]
     }
+  ],
+  "deeper": [
+    {
+      "source": "digitalhistory-musa-cairo",
+      "kind": "document",
+      "why": "Al-Umari's account of Musa's visit to Cairo in English translation, a primary source worth reading in full."
+    },
+    {
+      "source": "northwestern-caravans-hajj",
+      "kind": "museum",
+      "why": "A Northwestern University library project on Mansa Musa's pilgrimage."
+    },
+    {
+      "source": "sidedoor-good-as-gold",
+      "kind": "podcast",
+      "why": "A Smithsonian podcast episode on Mansa Musa and the stories told about his gold."
+    }
   ]
 }

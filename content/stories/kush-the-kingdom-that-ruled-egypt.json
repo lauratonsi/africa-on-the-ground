@@ -365,5 +365,22 @@
         "grzymski-meroitic-1983"
       ]
     }
+  ],
+  "deeper": [
+    {
+      "source": "isac-nubia",
+      "kind": "museum",
+      "why": "A University of Chicago museum page on Nubian history from Kerma to Meroe."
+    },
+    {
+      "source": "kerma-museum-history",
+      "kind": "museum",
+      "why": "The Kerma excavation's own history page, with its periods and dates."
+    },
+    {
+      "source": "grzymski-meroitic-1983",
+      "kind": "article",
+      "why": "A 1983 magazine article on the Meroitic script and the language it hides."
+    }
   ]
 }

@@ -443,5 +443,17 @@
         "phillipson-2001-aksum"
       ]
     }
+  ],
+  "deeper": [
+    {
+      "source": "phillipson-2001-aksum",
+      "kind": "article",
+      "why": "A scholarly overview of Aksum's coins, stelae and decline, free as a PDF."
+    },
+    {
+      "source": "bm-african-kingdoms-timeline",
+      "kind": "museum",
+      "why": "A British Museum timeline of African kingdoms, to see Aksum beside the others."
+    }
   ]
 }
