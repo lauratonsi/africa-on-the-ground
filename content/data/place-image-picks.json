@@ -19,16 +19,6 @@
     "alt": "Photograph of University of Botswana.",
     "caption": "University of Botswana."
   },
-  "basotho-hat-mokorotlo-building": {
-    "file": "Mokorotlong Maseru Lesotho.jpg",
-    "alt": "Photograph of Basotho Hat (Mokorotlo) building.",
-    "caption": "Basotho Hat (Mokorotlo) building."
-  },
-  "thaba-bosiu": {
-    "file": "Thaba Bosiu.jpg",
-    "alt": "Photograph of Thaba Bosiu.",
-    "caption": "Thaba Bosiu."
-  },
   "union-buildings": {
     "file": "Union Buildings Pretoria 05.jpg",
     "alt": "Photograph of Union Buildings.",
@@ -49,11 +39,6 @@
     "alt": "Photograph of Rietvlei Nature Reserve.",
     "caption": "Rietvlei Nature Reserve."
   },
-  "freedom-park": {
-    "file": "South Africa-Pretoria-Freedom Park01.jpg",
-    "alt": "Photograph of Freedom Park.",
-    "caption": "Freedom Park."
-  },
   "independence-memorial-museum": {
     "file": "Windhuk Christuskirche & Independence Memorial Museum 1.jpg",
     "alt": "Photograph of Independence Memorial Museum.",
@@ -63,5 +48,35 @@
     "file": "Namibia Heroes Acre (92343).jpg",
     "alt": "Photograph of Heroes' Acre.",
     "caption": "Heroes' Acre."
+  },
+  "sibebe-rock": {
+    "file": "Granite monolith.jpg",
+    "alt": "Photograph of Sibebe Rock.",
+    "caption": "Sibebe Rock."
+  },
+  "mantenga-nature-reserve-and-cultural-village": {
+    "file": "Mantenga Falls.jpg",
+    "alt": "Photograph of Mantenga Nature Reserve and Cultural Village.",
+    "caption": "Mantenga Nature Reserve and Cultural Village."
+  },
+  "swazi-candles-centre-malkerns-valley": {
+    "file": "SZ-matsapha-swazi-candles-1.jpg",
+    "alt": "Photograph of Swazi Candles Centre (Malkerns Valley).",
+    "caption": "Swazi Candles Centre (Malkerns Valley)."
+  },
+  "basotho-hat-mokorotlo-building": {
+    "file": "Mokorotlong Maseru Lesotho.jpg",
+    "alt": "Photograph of Basotho Hat (Mokorotlo) building.",
+    "caption": "Basotho Hat (Mokorotlo) building."
+  },
+  "thaba-bosiu": {
+    "file": "Thaba Bosiu.jpg",
+    "alt": "Photograph of Thaba Bosiu.",
+    "caption": "Thaba Bosiu."
+  },
+  "freedom-park": {
+    "file": "South Africa-Pretoria-Freedom Park01.jpg",
+    "alt": "Photograph of Freedom Park.",
+    "caption": "Freedom Park."
   }
 }

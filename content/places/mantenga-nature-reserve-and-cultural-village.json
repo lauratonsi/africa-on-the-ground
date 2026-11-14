@@ -10,5 +10,14 @@
   "sections": [],
   "gaps": [
     "Everything. This card has not been researched yet. The country has no site on the UNESCO World Heritage List (Wikipedia list, consulted 7 October 2026), so this place was chosen as one of its best-known; check that choice and every detail against sources before writing."
-  ]
+  ],
+  "image": {
+    "file": "mantenga-nature-reserve-and-cultural-village",
+    "alt": "Photograph of Mantenga Nature Reserve and Cultural Village.",
+    "caption": "Mantenga Nature Reserve and Cultural Village.",
+    "credit": "TheLizardQueen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Mantenga_Falls.jpg"
+  }
 }

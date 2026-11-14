@@ -3,10 +3,257 @@
   "status": "draft",
   "country": "SWZ",
   "name": "Mbabane",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Mbabane, capital of Eswatini: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 60,691 people live in Mbabane (counted 2017).",
+      "cite": [
+        "cap-citypopulation-de-4e14dc"
+      ]
+    },
+    {
+      "text": "Mbabane was conferred city status in 1992, which created the Mbabane City Council.",
+      "cite": [
+        "cap-gov-sz-f80fdb"
+      ]
+    },
+    {
+      "text": "When King Mswati III took the throne in 1986, Mbabane was still largely an administrative town; population grew from about 38,290 (1986) to 60,691 (2017).",
+      "cite": [
+        "cap-gov-sz-f80fdb"
+      ]
+    }
+  ],
+  "places": [
+    "sibebe-rock",
+    "mantenga-nature-reserve-and-cultural-village",
+    "swazi-candles-centre-malkerns-valley",
+    "eswatini-national-museum-lobamba"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Mbabane in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mbabane was conferred city status in 1992, which created the Mbabane City Council.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When King Mswati III took the throne in 1986, Mbabane was still largely an administrative town; population grew from about 38,290 (1986) to 60,691 (2017).",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mbabane's history is traced to Chief Mbabane Kunene, who settled the area in the 1750s (the likely origin of the name; the tourism page does not explicitly say the town was named for him).",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The British moved the administrative capital of Swaziland from Manzini to Mbabane after the Boer War damaged Manzini.",
+              "cite": [
+                "cap-ebsco-com-f49fbb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Manzini municipal council records that after the Anglo-Boer war ended in May 1902, British settlers preferred the highveld for the administrative capital.",
+              "cite": [
+                "cap-manzinicity-co-sz-9bd7ce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "60,691",
+              "label": "people in Mbabane, 2017",
+              "cite": [
+                "cap-citypopulation-de-4e14dc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Mbabane?",
+          "min": 0,
+          "max": 200000,
+          "step": 1000,
+          "unit": "",
+          "answer": 60691,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "60,691 in 2017, according to the figures compiled from the national statistics office. Which area is counted matters: 2017 census count (census night 11 May 2017) for Mbabane as listed in a table of cities and urban centres compiled from Central Statistical Office results; the page does not define city vs urban-area boundary.",
+              "cite": [
+                "cap-citypopulation-de-4e14dc"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1750s",
+              "tag": "origins",
+              "text": "Chief Mbabane Kunene settles in the area.",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            },
+            {
+              "when": "1902-1903",
+              "tag": "origins",
+              "text": "After the Anglo-Boer war the British make Mbabane the colonial administrative capital (sources give 1902 or 1903).",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            },
+            {
+              "when": "1968",
+              "tag": "growth",
+              "text": "Independence; Mbabane begins to expand markedly.",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            },
+            {
+              "when": "1986",
+              "tag": "growth",
+              "text": "Mbabane has about 38,290 residents and is still largely an administrative town.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            },
+            {
+              "when": "1992",
+              "tag": "growth",
+              "text": "City status conferred; Mbabane City Council created.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            },
+            {
+              "when": "2010",
+              "tag": "today",
+              "text": "Corporate Place introduces high-rise commercial development.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            },
+            {
+              "when": "2011",
+              "tag": "today",
+              "text": "Limkokwing University of Creative Technology is established in the city.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Mbabane in order.",
+          "items": [
+            {
+              "label": "Chief Mbabane Kunene settles in the area.",
+              "when": "1750s",
+              "text": "Chief Mbabane Kunene settles in the area.",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            },
+            {
+              "label": "Independence; Mbabane begins to expand markedly.",
+              "when": "1968",
+              "text": "Independence; Mbabane begins to expand markedly.",
+              "cite": [
+                "cap-thekingdomofeswatini-com-7f6582"
+              ]
+            },
+            {
+              "label": "City status conferred; Mbabane City Council created.",
+              "when": "1992",
+              "text": "City status conferred; Mbabane City Council created.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            },
+            {
+              "label": "Limkokwing University of Creative Technology is established in the city.",
+              "when": "2011",
+              "text": "Limkokwing University of Creative Technology is established in the city.",
+              "cite": [
+                "cap-gov-sz-f80fdb"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Mbabane Swazi Market: no readable source describing it beyond a one-line tourism-board mention of traditional markets (place omitted)",
+    "Not found in a readable source: Indingilizi Gallery: only one Mail & Guardian line read (Nellie Bowles, 2011-11-11); too thin for a place entry",
+    "Not found in a readable source: Name origin: only the tourism board's chief Mbabane Kunene 1750s line; no source explicitly states the town is named after him",
+    "Not found in a readable source: Founding date: 1887 Mickey Wells claim seen only on aggregator/Wikipedia-derived pages, not used",
+    "Not found in a readable source: Capital date conflict: 1902 (EBSCO, Manzini council context) vs 1903 (tourism board)",
+    "Not found in a readable source: Population from national statistics office or UN directly: not found; value is from citypopulation.de crediting CSO, and matches 40years.gov.sz",
+    "Not found in a readable source: Population definition: not stated by any readable source",
+    "Not found in a readable source: Myth corrected by a source: none found",
+    "Not found in a readable source: Sibebe Rock size: tourism page also says 16,500 ha, which looks inconsistent with a single dome and was not used",
+    "Not found in a readable source: Commons photo for Swazi Candles is captioned Matsapha; location label may be inexact. No Commons file found for Mbabane market beyond a 1979 'Portable market hut' photo, or for the National Museum",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Eswatini has read this profile yet."
   ]
 }

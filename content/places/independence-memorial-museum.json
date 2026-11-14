@@ -63,5 +63,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "independence-memorial-museum",
+    "alt": "Photograph of Independence Memorial Museum.",
+    "caption": "Independence Memorial Museum.",
+    "credit": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Windhuk_Christuskirche_%26_Independence_Memorial_Museum_1.jpg"
+  }
 }

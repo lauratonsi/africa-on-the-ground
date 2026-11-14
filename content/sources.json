@@ -3501,5 +3501,115 @@
     "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Gaborone literally means 'it does not fit badly' or 'it is not unbecoming'.”",
     "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-4e14dc",
+    "title": "Eswatini: cities and urban centers (census table)",
+    "publisher": "citypopulation.de (credits Central Statistical Office Swaziland)",
+    "url": "https://www.citypopulation.de/en/eswatini/cities/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Central Statistical Office Swaziland” This is a secondary or unofficial source: confirm with an official page.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-gov-sz-f80fdb",
+    "title": "MBABANE: FROM TOWN TO CAPITAL CITY",
+    "publisher": "Government of Eswatini, Ruby Jubilee site (40years.gov.sz) (2026-04-06)",
+    "url": "https://40years.gov.sz/mbabane-from-town-to-capital-city/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “City status in 1992 marked a defining milestone in Mbabane's modern growth story.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-7f6582",
+    "title": "Mbabane | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website (Eswatini Tourism Authority logo)",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/mbabane/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Mbabane's history dates back to the 1750s, when Chief Mbabane Kunene settled in the area.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-ebsco-com-f49fbb",
+    "title": "Mbabane, Eswatini",
+    "publisher": "EBSCO Research Starters (Lynn-nore Chittom · 2022)",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/mbabane-eswatini",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “the British leaders moved the administrative capital of Swaziland from the city of Manzini to Mbabane”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-manzinicity-co-sz-9bd7ce",
+    "title": "History of Manzini",
+    "publisher": "Municipal Council of Manzini",
+    "url": "https://manzinicity.co.sz/history-of-manzini/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “the new British settlers preferred the highveld as the new administrative capital”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-de8c67",
+    "title": "Sibebe Rock | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/sibebe-rock/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “just north of Mbabane”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-b37eeb",
+    "title": "Mantenga Reserve, Village & Falls | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/mantenga-reserve-village-falls/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Swaziland's largest waterfall by volume.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-947e22",
+    "title": "Ezulwini Valley | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/ezulwini-valley/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Unspoilt woodlands with a traditional cultural village experience.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-4c818e",
+    "title": "Swazi Candles Centre | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/swazi-candles-centre/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “more like stepping into a colourful community than a typical craft market.”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-3eb57f",
+    "title": "Shopping | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/eswatini-experiences/culture/shopping/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “debatably the largest collection of candles you will find in Africa!”",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-thekingdomofeswatini-com-127a32",
+    "title": "Lobamba | The Kingdom of Eswatini (Swaziland)",
+    "publisher": "The Kingdom of Eswatini tourism website",
+    "url": "https://www.thekingdomofeswatini.com/central-eswatini/lobamba/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “known in siSwati as Umsamo Wesive was built in 1972”",
+    "retrieved": "2026-11-14"
   }
 ]

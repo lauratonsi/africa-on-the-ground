@@ -1,0 +1,69 @@
+{
+  "slug": "swazi-candles-centre-malkerns-valley",
+  "status": "draft",
+  "type": "culture",
+  "country": "SWZ",
+  "name": "Swazi Candles Centre (Malkerns Valley)",
+  "region": "Mbabane · Eswatini",
+  "subtitle": "A craft complex in the Malkerns Valley where artisans make candles, woodcarvings, beadwork and textiles.",
+  "facts": [
+    {
+      "label": "Character",
+      "value": "community of craft outlets",
+      "cite": [
+        "cap-thekingdomofeswatini-com-4c818e"
+      ]
+    },
+    {
+      "label": "Candles",
+      "value": "hand-poured",
+      "cite": [
+        "cap-thekingdomofeswatini-com-4c818e"
+      ]
+    },
+    {
+      "label": "Scale",
+      "value": "claimed largest candle collection in Africa",
+      "cite": [
+        "cap-thekingdomofeswatini-com-3eb57f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A craft complex in the Malkerns Valley where artisans make candles, woodcarvings, beadwork and textiles. It also holds shops, a bookshop and the Yebo! Art Gallery.",
+              "cite": [
+                "cap-thekingdomofeswatini-com-4c818e",
+                "cap-thekingdomofeswatini-com-3eb57f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "swazi-candles-centre-malkerns-valley",
+    "alt": "Photograph of Swazi Candles Centre (Malkerns Valley).",
+    "caption": "Swazi Candles Centre (Malkerns Valley).",
+    "credit": "Bgabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/SZ-matsapha-swazi-candles-1.jpg"
+  }
+}

@@ -55,5 +55,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "rietvlei-nature-reserve",
+    "alt": "Photograph of Rietvlei Nature Reserve.",
+    "caption": "Rietvlei Nature Reserve.",
+    "credit": "Ossewa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Rietvlei_Nature_Reserve.jpg"
+  }
 }

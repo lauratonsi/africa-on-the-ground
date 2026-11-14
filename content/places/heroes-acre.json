@@ -55,5 +55,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "heroes-acre",
+    "alt": "Photograph of Heroes' Acre.",
+    "caption": "Heroes' Acre.",
+    "credit": "IUM 240052021",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Namibia_Heroes_Acre_(92343).jpg"
+  }
 }

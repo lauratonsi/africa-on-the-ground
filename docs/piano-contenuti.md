@@ -83,3 +83,10 @@ Come procedere, a lotti di 5 o 6 capitali per regione, con rilettura umana dopo 
 ## Regola di fondo (14 novembre 2026)
 
 Il gioco e l'interattività sono la base di tutte le sezioni, non solo delle storie: storie, schede dei luoghi, profili delle capitali, la pagina Method e le pagine di dati usano la stessa famiglia di blocchi. La pagina Method è ora costruita da `content/pages/method.json` con gli stessi blocchi, con numeri contati dal contenuto del sito a ogni build.
+
+### Avanzamento dei profili delle capitali (aggiornato il 14 novembre 2026)
+
+Si procede zona per zona (le cinque sottoregioni del sito). Il metodo: una ricerca per capitale con regole di fonti fisse (niente Wikipedia, Britannica, BBC o UNESCO come unica fonte; ogni dato con citazione letta), poi `assemble.py` trasforma i risultati in profilo, schede dei luoghi, fonti e scelte di immagini; le bozze restano `draft` finché una persona non le rilegge. Le ricerche grezze con le citazioni sono in `docs/research/capitals/`.
+
+- **Africa australe (5 capitali): fatto in bozza** (Gaborone, Maseru, Pretoria, Windhoek, Mbabane), 22 schede di luoghi nuove. Punti deboli: fonti istituzionali spesso illeggibili (siti di statistica e di turismo non raggiungibili); per Gaborone sono state tolte le frasi su fondazione, trasferimento da Mafeking e indipendenza perché reggevano solo su siti deboli; per quasi tutte manca un mercato.
+- Prossime zone, nell'ordine: Africa settentrionale (6), centrale (9), occidentale (16), orientale (18).
