@@ -4025,5 +4025,104 @@
     "tier": "institutional",
     "status": "verified",
     "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-gabon-2013",
+    "title": "Gabon: Provinces, Cities & Urban Communes - Population Statistics (Census 2013, DGS Gabon)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/gabon/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-culturalheritage-nkembo",
+    "title": "Église Saint-Michel de Nkembo: Architecture et sculptures sur bois de Zéphirin Lendogno",
+    "publisher": "Cultural Heritage Online",
+    "url": "https://culturalheritageonline.com/",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-gabon-bwiti",
+    "title": "Gabon: Patrimoine culturel matériel et traditions rituelles Bwiti",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-eqguinea-2015",
+    "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015, INEGE)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/eqguinea/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-archnet-catedral-malabo",
+    "title": "Catedral de Santa Isabel de Malabo: Arquitectura neogótica colonial",
+    "publisher": "Archnet (MIT / AKTC)",
+    "url": "https://archnet.org/sites/5512",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-chad-2009",
+    "title": "Chad: Regions & Major Cities - Population Statistics (Census 2009, INSEED)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/chad/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-chad-heritage",
+    "title": "Musée National du Tchad: Collections paléontologiques et civilisation Sao",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-saotome-2012",
+    "title": "São Tomé and Príncipe: Districts & Major Cities (Census 2012, INE STP)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/saotome/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-hpip-forte-sao-sebastiao",
+    "title": "Forte de São Sebastião e Museu Nacional de São Tomé",
+    "publisher": "Património de Influência Portuguesa (HPIP)",
+    "url": "https://hpip.org/pt/Heritage/Details/1271",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-citypopulation-de-angola-2014",
+    "title": "Angola: Provinces & Major Cities - Population Statistics (Census 2014, INE Angola)",
+    "publisher": "CityPopulation",
+    "url": "https://www.citypopulation.de/en/angola/cities/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "cap-unesco-tentative-luanda-slave",
+    "title": "Sites de la mémoire de la traite transatlantique: Morro da Cruz e Fortaleza de São Miguel",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/tentativelists/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-14"
   }
 ]

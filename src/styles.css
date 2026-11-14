@@ -1924,3 +1924,29 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .rag-empty { border-left-color: var(--viz-2); padding: 18px 20px; }
 .rag-empty-msg { margin: 0 0 6px; font-weight: 700; }
 
+/* ---------- Metodologia: Executive Principles Grid & Layout Refinements ---------- */
+.method-principles { margin: 8px 0 36px; padding: clamp(20px, 3.5vw, 32px); background: var(--record-tint); border-radius: var(--radius); }
+.method-principles-head { margin-bottom: 20px; }
+.method-principles-head h2 { margin: 6px 0 0; font-weight: 800; font-size: clamp(1.4rem, 2.8vw, 1.9rem); letter-spacing: -0.025em; line-height: 1.15; }
+.principles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 16px; margin-top: 16px; }
+.principle-card { background: var(--surface); border-radius: var(--radius); padding: 20px; box-shadow: inset 0 0 0 1.5px var(--line); display: flex; gap: 16px; align-items: flex-start; transition: transform .15s ease, box-shadow .15s ease; }
+.principle-card:hover { transform: translateY(-2px); box-shadow: inset 0 0 0 2px var(--record), 0 4px 12px rgba(0,0,0,.06); }
+.principle-icon { flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--record-tint); color: var(--record); display: grid; place-items: center; }
+.principle-title { margin: 0 0 6px; font-weight: 800; font-size: 1.05rem; letter-spacing: -0.015em; line-height: 1.25; color: var(--ink); }
+.principle-desc { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--ink-soft); }
+
+.rag-input-icon { position: absolute; left: 16px; color: var(--ink-soft); pointer-events: none; }
+.rag-input-wrap .rag-input { padding-left: 48px; }
+
+/* Metodologia: sezioni e tabelle */
+.story.method section { margin-top: clamp(48px, 7vw, 84px); padding-top: clamp(24px, 4vw, 36px); border-top: 1.5px solid var(--line); }
+.story.method section:first-of-type { border-top: 0; padding-top: 0; margin-top: 16px; }
+.story.method section > h2 { font-size: clamp(1.5rem, 3.2vw, 2.1rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.2; margin-bottom: 20px; color: var(--ink); display: flex; align-items: center; gap: 12px; }
+.story.method section > h2::before { content: ""; width: 12px; height: 12px; border-radius: 3px; background: var(--record); flex: none; }
+.story.method section:nth-of-type(even) > h2::before { background: var(--saffron); }
+
+/* Badges per la tabella di compatibilità */
+td[data-v="Ideal"] { font-weight: 800; color: #15803d; background: rgba(34, 197, 94, 0.12); padding: 4px 12px; border-radius: 999px; display: inline-block; }
+td[data-v="Not for you"] { font-weight: 700; color: #b91c1c; background: rgba(239, 68, 68, 0.10); padding: 4px 12px; border-radius: 999px; display: inline-block; }
+
+

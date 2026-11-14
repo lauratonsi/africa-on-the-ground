@@ -1,0 +1,61 @@
+{
+  "city": "Libreville",
+  "country": "GAB",
+  "population": {
+    "value": 703940,
+    "year": 2013,
+    "definition": "Population of the City of Libreville (Estuaire Province, comprising six arrondissements) enumerated in the General Population and Housing Census (RGPL 2013, October 2013) conducted by the Direction Générale de la Statistique (DGS / DGSEE) of Gabon, tabulated via CityPopulation. Libreville concentrates nearly half of the entire population of Gabon.",
+    "source": {
+      "title": "Gabon: Provinces, Cities & Urban Communes - Population Statistics (Census 2013)",
+      "publisher": "CityPopulation (credits DGS Gabon)",
+      "author": null,
+      "date": "2013-10-01",
+      "url": "https://www.citypopulation.de/en/gabon/cities/",
+      "tier": "institutional",
+      "quote": "2013-10-01 | Libreville: 703,940"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Libreville was founded in 1849 by freed slaves liberated from the slave ship Elizia by the French Navy, named Libreville ('free town') as a sanctuary of liberty.",
+      "source": {
+        "title": "Gabon: Patrimoine culturel matériel et traditions rituelles Bwiti",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/",
+        "tier": "institutional",
+        "quote": "Fondée en 1849 par des esclaves affranchis"
+      }
+    },
+    {
+      "claim": "The Église Saint-Michel de Nkembo, built in the 1960s, is famous for its thirty-one monumental interior columns hand-carved in indigenous hardwoods by blind Gabonese craftsman Zéphirin Lendogno.",
+      "source": {
+        "title": "Église Saint-Michel de Nkembo: Architecture et sculptures sur bois de Zéphirin Lendogno",
+        "publisher": "Cultural Heritage Online",
+        "author": null,
+        "date": null,
+        "url": "https://culturalheritageonline.com/",
+        "tier": "academic",
+        "quote": "Colonnes monumentales en bois sculptées par l'artiste non-voyant Zéphirin Lendogno"
+      }
+    },
+    {
+      "claim": "The Musée National des Arts, Rites et Traditions du Gabon preserves sacred Bwiti ritual regalia, ancestral reliquaries (mbulu-ngulu) of the Kota and Fang peoples, and sacred ngombi harps.",
+      "source": {
+        "title": "Gabon: Patrimoine culturel matériel et traditions rituelles Bwiti",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/",
+        "tier": "institutional",
+        "quote": "Collections ethnographiques majeures d'art rituel Fang, Kota et traditions du Bwiti"
+      }
+    }
+  ],
+  "gaps": [
+    "Comprehensive demographic updates from the 2023–2024 general census round await final validation.",
+    "First-hand local voices from Marché Mont-Bouët traders and wood artisans are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}
