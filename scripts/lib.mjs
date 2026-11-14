@@ -48,7 +48,11 @@ export function loadAll() {
   const duolingo = fs.existsSync(duoPath) ? readJson(duoPath) : null;
   const proposedDishesPath = path.join(root, "content", "data", "proposed-dishes.json");
   const proposedDishes = fs.existsSync(proposedDishesPath) ? readJson(proposedDishesPath) : null;
-  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes };
+  const capitalsDir = path.join(root, "content", "capitals");
+  const capitals = fs.existsSync(capitalsDir)
+    ? fs.readdirSync(capitalsDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(capitalsDir, f)) }))
+    : [];
+  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, capitals };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -238,13 +242,44 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
         } else if (b.type === "timeline") {
           if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
           (b.items || []).forEach((it, ii) => { if (!it.when || !it.text) err(`${bw}.items[${ii}]: manca when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
-        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline).`);
+        } else if (b.type === "stat") {
+          if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
+          (b.items || []).forEach((it, ii) => { if (!it.value || !it.label) err(`${bw}.items[${ii}]: manca value o label.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+        } else if (b.type === "callout" || b.type === "reveal") {
+          if (b.type === "callout" && !b.title) err(`${bw}: callout senza title.`);
+          if (b.type === "reveal" && !b.prompt) err(`${bw}: reveal senza prompt.`);
+          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+          (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
+        } else if (b.type === "figure") {
+          const im = b.image || {};
+          for (const k of ["file", "alt", "caption", "credit", "license"]) if (!im[k] || typeof im[k] !== "string") err(`${bw}: image richiede "${k}".`);
+          for (const k of ["licenseUrl", "source"]) if (!/^https:\/\//.test(im[k] || "")) err(`${bw}: image.${k} deve essere un indirizzo https.`);
+          for (const size of [800, 1600]) if (im.file && !fs.existsSync(path.join(root, "src", "img", "stories", `${im.file}-${size}.jpg`))) err(`${bw}: manca src/img/stories/${im.file}-${size}.jpg.`);
+        } else if (b.type === "chart") {
+          if (!["stacked", "bars"].includes(b.kind)) err(`${bw}: chart.kind deve essere "stacked" o "bars".`);
+          if (!b.title) err(`${bw}: chart senza title.`);
+          if (!b.note) err(`${bw}: chart senza note (dichiara che cosa è calcolato qui e che cosa viene dalla fonte).`);
+          checkCite(b.cite, bw);
+          if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
+          if (b.kind === "stacked") {
+            const keys = (b.series || []).map((x) => x.key);
+            if (!keys.length) err(`${bw}: chart stacked senza series.`);
+            (b.rows || []).forEach((r, ri) => {
+              if (!r.label || !r.text) err(`${bw}.rows[${ri}]: manca label o text.`);
+              const tot = keys.reduce((n, k) => n + (r.values?.[k] || 0), 0);
+              if (Math.abs(tot - 100) > 0.6) err(`${bw}.rows[${ri}]: i valori sommano ${tot.toFixed(1)}, non 100.`);
+            });
+          } else (b.rows || []).forEach((r, ri) => { if (!r.label || typeof r.value !== "number" || !r.text) err(`${bw}.rows[${ri}]: serve label, value numerico e text.`); });
+        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline, chart, stat, callout, reveal, figure).`);
       });
     });
+    (st.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });
+    (st.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { if (b.type === "timeline" && b.tags) { const ids = new Set(b.tags.map((t) => t.id)); (b.items || []).forEach((it) => { if (it.tag && !ids.has(it.tag)) err(`${w}: timeline, tag "${it.tag}" non dichiarato in tags.`); }); } }));
     if (!Array.isArray(st.gaps) || !st.gaps.length) err(`${w}: "gaps" (ciò che non si sa) deve avere almeno una voce.`);
     const weak = new Set();
     const collect = (cite) => (cite || []).forEach((id) => { const s2 = sources.get(id); if (s2 && s2.status !== "verified") weak.add(id); });
-    (st.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collect(x.cite)); (b.items || []).forEach((x) => collect(x.cite)); }));
+    (st.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collect(x.cite)); (b.items || []).forEach((x) => collect(x.cite)); collect(b.cite); }));
+    (st.keyPoints || []).forEach((x) => collect(x.cite));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
   }
   // --- registro dei piatti: collega le proposte alle schede senza imporre che siano già tutte scritte

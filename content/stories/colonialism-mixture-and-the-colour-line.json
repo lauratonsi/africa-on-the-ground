@@ -1,0 +1,764 @@
+{
+  "slug": "colonialism-mixture-and-the-colour-line",
+  "status": "draft",
+  "kind": "history",
+  "title": "The colour line was drawn after the mixing",
+  "subtitle": "What DNA and Cape records say about who is descended from whom, and why 'mixed marriage' is the wrong label for much of it.",
+  "countries": [
+    "ZAF"
+  ],
+  "places": [
+    "robben-island"
+  ],
+  "sections": [
+    {
+      "id": "process",
+      "title": "Colonialism grew by steps",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1652 the Dutch East India Company set up a trading post at the Cape of Good Hope. Twenty-five years later the area it controlled was roughly 650 square kilometres; by the end of the eighteenth century it was roughly 250,000.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            },
+            {
+              "text": " Colonialism grew by steps, and the historian Erik Green argues that the expansion was neither intended nor planned.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "12.5 million",
+              "label": "people counted as forced aboard slave ships",
+              "cite": [
+                "neh-slave-trade-database"
+              ]
+            },
+            {
+              "value": "10.7 million",
+              "label": "counted as surviving the crossing",
+              "cite": [
+                "neh-slave-trade-database"
+              ]
+            },
+            {
+              "value": "63,000",
+              "label": "people imported as slaves to the Cape, 1652-1808",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Long before that, European ships were already taking people out of Africa. The Trans-Atlantic Slave Trade Database project counts about 12.5 million Africans forced aboard slave ships and about 10.7 million who survived the crossing.",
+              "cite": [
+                "neh-slave-trade-database"
+              ]
+            },
+            {
+              "text": " Its database documents about two-thirds of all slaving voyages between 1514 and 1866; the totals are estimates and some values are imputed where records are missing.",
+              "cite": [
+                "slavevoyages-methodology"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Who tried to forbid mixing, and when",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "law",
+              "label": "Laws"
+            },
+            {
+              "id": "slavery",
+              "label": "Slavery and settlement"
+            }
+          ],
+          "items": [
+            {
+              "when": "1514-1866",
+              "tag": "slavery",
+              "text": "The period covered by the voyages in the Trans-Atlantic Slave Trade Database.",
+              "cite": [
+                "slavevoyages-methodology"
+              ]
+            },
+            {
+              "when": "1652",
+              "tag": "slavery",
+              "text": "The Dutch East India Company sets up a trading post at the Cape of Good Hope; settlers are allowed to farm from 1657.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            },
+            {
+              "when": "1664",
+              "tag": "law",
+              "text": "Colonial Maryland passes what the Library of Congress calls the first colonial anti-amalgamation law.",
+              "cite": [
+                "loc-loving-virginia"
+              ]
+            },
+            {
+              "when": "1691",
+              "tag": "law",
+              "text": "A Virginia colony law provides that any white person married to a black or mulatto is banished.",
+              "cite": [
+                "loc-loving-virginia"
+              ]
+            },
+            {
+              "when": "1924",
+              "tag": "law",
+              "text": "Virginia passes its Racial Integrity Act, influenced by the eugenics movement; it was one of 29 states with such laws.",
+              "cite": [
+                "supremecourthistory-loving"
+              ]
+            },
+            {
+              "when": "1937-40",
+              "tag": "law",
+              "text": "Italy bans conjugal-type relationships between Italians and subjects of its East African colony, then bars fathers from recognising mixed-race children (see the next story).",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "when": "1967",
+              "tag": "law",
+              "text": "The US Supreme Court rules unanimously for the Lovings, holding that Virginia's ban violated the Due Process Clause of the Fourteenth Amendment.",
+              "cite": [
+                "supremecourthistory-loving"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A law is only written against something that is already happening.",
+              "editorial": true
+            },
+            {
+              "text": " Read this timeline as a record of fear and control, not as a record of how often people mixed. For that we need DNA.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dna",
+      "title": "What DNA shows",
+      "blocks": [
+        {
+          "type": "reveal",
+          "prompt": "Before you read on: what share of white Americans do you think carry at least 1 percent African ancestry?",
+          "parts": [
+            {
+              "text": "About 3.5 percent in a sample of 148,789 European Americans; in Louisiana and South Carolina the authors report as much as 12 percent.",
+              "cite": [
+                "bryc-2015-us-ancestry"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the largest US study of this kind, about 3.5 percent of European Americans have 1 percent or more African ancestry, and the study counted 148,789 of them.",
+              "cite": [
+                "bryc-2015-us-ancestry"
+              ]
+            },
+            {
+              "text": " In South Carolina and Louisiana the authors report that such people make up as much as 12 percent of European Americans.",
+              "cite": [
+                "bryc-2015-us-ancestry"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "stacked",
+          "title": "Average ancestry of three groups of Americans",
+          "sub": "Share of genome, by the way people described themselves",
+          "series": [
+            {
+              "key": "afr",
+              "label": "African"
+            },
+            {
+              "key": "eur",
+              "label": "European"
+            },
+            {
+              "key": "nat",
+              "label": "Native American"
+            },
+            {
+              "key": "oth",
+              "label": "Other or unassigned (calculated)",
+              "cls": 6
+            }
+          ],
+          "rows": [
+            {
+              "label": "African Americans",
+              "values": {
+                "afr": 73.2,
+                "eur": 24.0,
+                "nat": 0.8,
+                "oth": 2.0
+              },
+              "text": "73.2% African",
+              "tip": "African Americans: 73.2% African, 24.0% European, 0.8% Native American"
+            },
+            {
+              "label": "Latinos",
+              "values": {
+                "afr": 6.2,
+                "eur": 65.1,
+                "nat": 18.0,
+                "oth": 10.7
+              },
+              "text": "6.2% African",
+              "tip": "Latinos: 6.2% African, 65.1% European, 18.0% Native American"
+            },
+            {
+              "label": "European Americans",
+              "values": {
+                "afr": 0.2,
+                "eur": 98.6,
+                "nat": 0.2,
+                "oth": 1.0
+              },
+              "text": "0.2% African",
+              "tip": "European Americans: 0.2% African, 98.6% European, 0.2% Native American"
+            }
+          ],
+          "cite": [
+            "bryc-2015-us-ancestry"
+          ],
+          "note": "Figures are the study's group averages (European Americans from its Table 1, rounded). The 'other or unassigned' segment is calculated here as 100 minus the three reported shares. Participants are 23andMe customers, not a random sample of the US."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "For African Americans the average is 24.0 percent European ancestry.",
+              "cite": [
+                "bryc-2015-us-ancestry"
+              ]
+            },
+            {
+              "text": " The groups were defined by social labels first, and the DNA was read afterwards.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "What a percentage of ancestry is",
+          "parts": [
+            {
+              "text": "The studies compare each genome with reference populations. The result is a proportion, not a label, and groups were defined by social categories first, with the DNA read afterwards.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Brazil a review of 51 studies finds weighted averages of 68.1 percent European, 19.6 percent African and 11.6 percent Native American ancestry.",
+              "cite": [
+                "desouza-2019-brazil"
+              ]
+            },
+            {
+              "text": " The highest European share is in the South, the highest African share in the Northeast and the highest Native American share in the North.",
+              "cite": [
+                "desouza-2019-brazil"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "stacked",
+          "title": "Ancestry across Brazil",
+          "sub": "Weighted average share of genome, by region",
+          "series": [
+            {
+              "key": "afr",
+              "label": "African"
+            },
+            {
+              "key": "eur",
+              "label": "European"
+            },
+            {
+              "key": "nat",
+              "label": "Native American"
+            },
+            {
+              "key": "oth",
+              "label": "Other or unassigned (calculated)",
+              "cls": 6
+            }
+          ],
+          "rows": [
+            {
+              "label": "Brazil, all studies",
+              "values": {
+                "afr": 19.6,
+                "eur": 68.1,
+                "nat": 11.6,
+                "oth": 0.7
+              },
+              "text": "19.6% African",
+              "tip": "Brazil, all studies: 19.6% African, 68.1% European, 11.6% Native American"
+            },
+            {
+              "label": "North",
+              "values": {
+                "afr": 19.8,
+                "eur": 52.6,
+                "nat": 27.7,
+                "oth": 0
+              },
+              "text": "19.8% African",
+              "tip": "North: 19.8% African, 52.6% European, 27.7% Native American"
+            },
+            {
+              "label": "Northeast",
+              "values": {
+                "afr": 35.2,
+                "eur": 50.8,
+                "nat": 13.9,
+                "oth": 0.1
+              },
+              "text": "35.2% African",
+              "tip": "Northeast: 35.2% African, 50.8% European, 13.9% Native American"
+            },
+            {
+              "label": "Southeast",
+              "values": {
+                "afr": 19.2,
+                "eur": 72.3,
+                "nat": 7.6,
+                "oth": 0.9
+              },
+              "text": "19.2% African",
+              "tip": "Southeast: 19.2% African, 72.3% European, 7.6% Native American"
+            },
+            {
+              "label": "South",
+              "values": {
+                "afr": 8.4,
+                "eur": 81.8,
+                "nat": 8.6,
+                "oth": 1.2
+              },
+              "text": "8.4% African",
+              "tip": "South: 8.4% African, 81.8% European, 8.6% Native American"
+            },
+            {
+              "label": "Centre-West",
+              "values": {
+                "afr": 24.2,
+                "eur": 62.7,
+                "nat": 13.1,
+                "oth": 0.0
+              },
+              "text": "24.2% African",
+              "tip": "Centre-West: 24.2% African, 62.7% European, 13.1% Native American"
+            }
+          ],
+          "cite": [
+            "desouza-2019-brazil"
+          ],
+          "note": "Figures are the review's weighted means by region (Table 1). The 'other or unassigned' segment is calculated here as 100 minus the three reported shares; for most rows it is small and comes from rounding. The authors warn that estimates depend on the markers and the sampling used."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In South Africa, a genome study of 77 Afrikaners finds an average of 95.3 percent European ancestry.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            },
+            {
+              "text": " Only one of the 77 had no evidence of non-European ancestry.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            },
+            {
+              "text": " Genealogists working from church records had estimated 5.5 to 7.2 percent, and the authors say these records may be biased.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "Where the non-European 4.8 percent of Afrikaner ancestry comes from",
+          "sub": "Average share of genome, 77 individuals",
+          "rows": [
+            {
+              "label": "South Asian",
+              "value": 1.7,
+              "text": "1.7%"
+            },
+            {
+              "label": "Khoe-San",
+              "value": 1.3,
+              "text": "1.3%"
+            },
+            {
+              "label": "East Asian",
+              "value": 0.9,
+              "text": "0.9%"
+            },
+            {
+              "label": "West and East African",
+              "value": 0.8,
+              "text": "0.8%"
+            },
+            {
+              "label": "Native American",
+              "value": 0.1,
+              "text": "0.1%"
+            }
+          ],
+          "cite": [
+            "hollfelder-2020-afrikaner"
+          ],
+          "note": "Figures as reported by the study for its six-cluster model. The total of 4.8 percent is the authors' own figure; the text elsewhere gives 4.7."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The study dates a single admixture event to about 9 generations ago.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            },
+            {
+              "text": " The authors link much of the African and Asian share to people brought to the Cape as slaves, and a smaller part to local Khoe-San.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Mixing is not the same as marriage",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the Cape, about 63,000 slaves were imported from Asia and elsewhere in Africa between 1652 and 1808.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            },
+            {
+              "text": " Enslaving the Khoesan was not allowed, which is why settlers relied on imported slaves.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            },
+            {
+              "text": " The next paragraphs show what historians of the Cape say about the unions that produced this ancestry.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "By 1793 the colony held about 25,000 settlers, 20,000 slaves and about 25,000 Khoesan.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            },
+            {
+              "text": " Settler men always outnumbered settler women; the ratio fell from about six men to one woman in the early period to about 1.5 to 1 at the end of the eighteenth century.",
+              "cite": [
+                "green-2022-cape-colony"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Think first: if mixed marriages were legal at the Cape, what share of marriages do you think were mixed?",
+          "parts": [
+            {
+              "text": "Giliomee cites 5 to 8 percent in Cape Town in 1757-66, 1.2 percent in the Swartland in 1800-40 and 5 to 6 percent on the eastern frontier in 1798.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "Slave women per 100 slave men at the Cape",
+          "sub": "Women as a share of the number of men, selected years",
+          "rows": [
+            {
+              "label": "1687",
+              "value": 18,
+              "text": "18"
+            },
+            {
+              "label": "1701",
+              "value": 13,
+              "text": "13"
+            },
+            {
+              "label": "1733",
+              "value": 17,
+              "text": "17"
+            },
+            {
+              "label": "1763",
+              "value": 19,
+              "text": "19"
+            },
+            {
+              "label": "1793",
+              "value": 28,
+              "text": "28"
+            }
+          ],
+          "cite": [
+            "green-2022-cape-colony"
+          ],
+          "note": "Figures are the 'women as a percentage of men' column of the book's Table 4.11, which takes them from Worden (1985); the book counts only slaves and gives sex ratios for adults. Years selected here for readability."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Historian Hermann Giliomee reviews the Cape evidence and finds that mixed marriages were legal there, unlike in the American South, but rare.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            },
+            {
+              "text": " He cites 5 to 8 percent of marriages in studies of Cape Town in 1757-66, 1.2 percent in the Swartland district in 1800-40, and 5 to 6 percent of couples on the eastern frontier in 1798.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            },
+            {
+              "text": " In a sample of 1,063 children baptised in 1807, only 5 percent had a non-European grandparent.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Giliomee also stresses that unions outside marriage were another matter: he writes of a high incidence of miscegenation in and around Cape Town, which he calls, quoting a sociologist, overwhelmingly a form of concubinage, the sexual aspect of dominant-group men exploiting subordinate-group women.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            },
+            {
+              "text": " He adds that such mixing is no proof of racial tolerance.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "He reports the historian Robert Ross's observation that about 10 percent of adult Cape-born white men failed to find legitimate wives and entered unions with women classed as coloured.",
+              "cite": [
+                "giliomee-1983-cape-society"
+              ]
+            },
+            {
+              "text": " The figures are drawn from studies of different places and years, so they are indications and not a single census.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This agrees with the genome study: about 5 percent non-European ancestry in the Afrikaner sample, against 5.5 to 7.2 percent from church-record genealogy.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            },
+            {
+              "text": " Two independent methods, baptism records and DNA, land in the same range.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the Afrikaner study the authors write that European men had a clear preference for Asian and locally born slaves over African and Malagasy women.",
+              "cite": [
+                "hollfelder-2020-afrikaner"
+              ]
+            },
+            {
+              "text": " In the US study the X chromosome carries 5 percent more African ancestry in African Americans than the rest of the genome, which points to more African women than African men among the ancestors.",
+              "cite": [
+                "bryc-2015-us-ancestry"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Brazil review also notes that, in general, males have higher European ancestry and females higher African or Native American ancestry.",
+              "cite": [
+                "desouza-2019-brazil"
+              ]
+            },
+            {
+              "text": " None of these sources counts how many unions were chosen and how many were forced; Giliomee's account points to exploitation outside marriage, not to a count.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "So the honest way to put it is that mixing happened at scale, inside systems of slavery and colonial rule that gave one side most of the power.",
+              "editorial": true
+            },
+            {
+              "text": " 'Mixed marriages' describes some of it and hides much of the rest.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meaning",
+      "title": "What this does and does not show",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It shows that groups drawn as separate by law and by social labels were, in the genomes of the people living in them, more connected than the labels say.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It does not show that all of any population has recent African ancestry, nor that ancestry percentages define who anyone is.",
+              "editorial": true
+            },
+            {
+              "text": " The numbers above are averages, and the study samples are not the whole population.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Separately, all humans share an African origin; that is a different claim from the one on this page and has its own sources.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The DNA studies describe ancestry as proportions of reference populations, a model with limits; the Afrikaner and US samples are small or self-selected.",
+    "The link between Cape demography and the Afrikaner DNA result now rests on Giliomee (1983) and the genome paper; newer work such as Shell's Children of Bondage (1994) and the genealogical studies cited by Hollfelder et al. should be read before publishing.",
+    "No verified figure for African ancestry in Italians or in other European populations: this page covers the US, Brazil and the Afrikaners only.",
+    "Left out until a solid source is found: the share of Africa under European control around 1870 and 1914, the Berlin Conference, and South Africa's Prohibition of Mixed Marriages Act of 1949.",
+    "Spanish, Portuguese, French, Belgian and British colonies outside these cases (Mexico, the Caribbean, Congo, Algeria) are not covered.",
+    "Nobody from South Africa or Brazil has read this page yet; the voices section is empty."
+  ],
+  "keyPoints": [
+    {
+      "text": "In a 2015 study of 148,789 European Americans, about 3.5 percent had at least 1 percent African ancestry.",
+      "cite": [
+        "bryc-2015-us-ancestry"
+      ]
+    },
+    {
+      "text": "African Americans carry 24 percent European ancestry on average; Afrikaners about 5 percent non-European.",
+      "cite": [
+        "bryc-2015-us-ancestry",
+        "hollfelder-2020-afrikaner"
+      ]
+    },
+    {
+      "text": "At the Cape, mixed marriages were legal but rare; most mixing happened outside marriage, under unequal power.",
+      "cite": [
+        "giliomee-1983-cape-society"
+      ]
+    },
+    {
+      "text": "The colour line was written into law after, and against, this mixing.",
+      "editorial": true
+    }
+  ]
+}

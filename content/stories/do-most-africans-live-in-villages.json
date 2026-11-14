@@ -1,109 +1,279 @@
 {
- "slug": "do-most-africans-live-in-villages",
- "status": "published",
- "kind": "myth",
- "title": "Do most Africans live in villages?",
- "subtitle": "About 45 in every 100 Africans lived in a town or city in 2023, and in 23 of the 54 countries most people did.",
- "countries": [],
- "places": [],
- "sections": [
-  {
-   "id": "claim",
-   "title": "The idea",
-   "blocks": [
+  "slug": "do-most-africans-live-in-villages",
+  "status": "published",
+  "kind": "myth",
+  "title": "Do most Africans live in villages?",
+  "subtitle": "About 45 in every 100 Africans lived in a town or city in 2023, and in 23 of the 54 countries most people did.",
+  "countries": [],
+  "places": [],
+  "sections": [
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The picture of Africa as a continent of villages is old and sticks. Village life is real for very many people. It is not the whole picture.",
-       "editorial": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "count",
-   "title": "What the numbers say",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "In 2023 about 672 million people in the 54 countries lived in urban areas, out of about 1,478 million.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      },
-      {
-       "text": " That is about 45%, calculated here by adding the countries' figures.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      }
-     ]
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The picture of Africa as a continent of villages is old and sticks. Village life is real for very many people. It is not the whole picture.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Think first: out of every 100 Africans, how many do you think live in towns and cities?",
+          "parts": [
+            {
+              "text": "About 45, in 2023, counted by adding the countries' own urban figures.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "In 23 of the 54 countries, more than half the people were urban.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      },
-      {
-       "text": " Counted this way, the other 31 were mostly rural.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "range",
-   "title": "Two very different Africas",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The urban share runs from about 17% in Malawi to about 92% in Gabon.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      },
-      {
-       "text": " Niger, South Sudan and Ethiopia are below 25%; Libya is at 88%.",
-       "cite": [
-        "wb-urban-2023",
-        "wb-population-2023"
-       ]
-      }
-     ]
+      "id": "count",
+      "title": "What the numbers say",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "45%",
+              "label": "of about 1,478 million people lived in urban areas",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            },
+            {
+              "value": "23 of 54",
+              "label": "countries where most people were urban",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2023 about 672 million people in the 54 countries lived in urban areas, out of about 1,478 million.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            },
+            {
+              "text": " That is about 45%, calculated here by adding the countries' figures.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 23 of the 54 countries, more than half the people were urban.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            },
+            {
+              "text": " Counted this way, the other 31 were mostly rural.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "So \"most Africans live in villages\" is true of some countries and false of others, and the share moves with every year.",
-       "editorial": true
-      }
-     ]
+      "id": "range",
+      "title": "Two very different Africas",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The urban share runs from about 17% in Malawi to about 92% in Gabon.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            },
+            {
+              "text": " Niger, South Sudan and Ethiopia are below 25%; Libya is at 88%.",
+              "cite": [
+                "wb-urban-2023",
+                "wb-population-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "So \"most Africans live in villages\" is true of some countries and false of others, and the share moves with every year.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "stacked",
+          "title": "The five most and least urban countries",
+          "sub": "Share of people in urban and rural areas, 2023",
+          "series": [
+            {
+              "key": "urban",
+              "label": "Urban"
+            },
+            {
+              "key": "rural",
+              "label": "Rural (calculated as the rest)"
+            }
+          ],
+          "rows": [
+            {
+              "label": "Gabon",
+              "values": {
+                "urban": 91.6,
+                "rural": 8.4
+              },
+              "text": "92% urban",
+              "tip": "Gabon: 92% urban"
+            },
+            {
+              "label": "Libya",
+              "values": {
+                "urban": 87.9,
+                "rural": 12.1
+              },
+              "text": "88% urban",
+              "tip": "Libya: 88% urban"
+            },
+            {
+              "label": "Cabo Verde",
+              "values": {
+                "urban": 75.9,
+                "rural": 24.1
+              },
+              "text": "76% urban",
+              "tip": "Cabo Verde: 76% urban"
+            },
+            {
+              "label": "Algeria",
+              "values": {
+                "urban": 74.7,
+                "rural": 25.3
+              },
+              "text": "75% urban",
+              "tip": "Algeria: 75% urban"
+            },
+            {
+              "label": "Djibouti",
+              "values": {
+                "urban": 72.8,
+                "rural": 27.2
+              },
+              "text": "73% urban",
+              "tip": "Djibouti: 73% urban"
+            },
+            {
+              "label": "Burundi",
+              "values": {
+                "urban": 23.6,
+                "rural": 76.4
+              },
+              "text": "24% urban",
+              "tip": "Burundi: 24% urban"
+            },
+            {
+              "label": "Ethiopia",
+              "values": {
+                "urban": 23.1,
+                "rural": 76.9
+              },
+              "text": "23% urban",
+              "tip": "Ethiopia: 23% urban"
+            },
+            {
+              "label": "South Sudan",
+              "values": {
+                "urban": 21.1,
+                "rural": 78.9
+              },
+              "text": "21% urban",
+              "tip": "South Sudan: 21% urban"
+            },
+            {
+              "label": "Niger",
+              "values": {
+                "urban": 17.8,
+                "rural": 82.2
+              },
+              "text": "18% urban",
+              "tip": "Niger: 18% urban"
+            },
+            {
+              "label": "Malawi",
+              "values": {
+                "urban": 17.0,
+                "rural": 83.0
+              },
+              "text": "17% urban",
+              "tip": "Malawi: 17% urban"
+            }
+          ],
+          "cite": [
+            "wb-urban-2023",
+            "wb-population-2023"
+          ],
+          "note": "Urban share is calculated here as urban population divided by total population, both World Bank 2023, rounded. Each country uses its own definition of urban. The ten countries shown are the five highest and five lowest of the 54."
+        }
+      ]
     }
-   ]
-  }
- ],
- "gaps": [
-  "The figures follow each country's own definition of urban, which differs from country to country; we have not compared those definitions here.",
-  "The sums and percentages are our own arithmetic on 2023 World Bank values. The 2025 population on the Countries page is a different year.",
-  "The data say how many people live in places counted as urban, not how those places look or what work people do there."
- ]
+  ],
+  "gaps": [
+    "The figures follow each country's own definition of urban, which differs from country to country; we have not compared those definitions here.",
+    "The sums and percentages are our own arithmetic on 2023 World Bank values. The 2025 population on the Countries page is a different year.",
+    "The data say how many people live in places counted as urban, not how those places look or what work people do there."
+  ],
+  "keyPoints": [
+    {
+      "text": "About 45 in every 100 Africans lived in a town or city in 2023.",
+      "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+      ]
+    },
+    {
+      "text": "In 23 of the 54 countries, more than half the people were urban.",
+      "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+      ]
+    },
+    {
+      "text": "The urban share runs from about 17% in Malawi to about 92% in Gabon.",
+      "cite": [
+        "wb-urban-2023",
+        "wb-population-2023"
+      ]
+    }
+  ]
 }

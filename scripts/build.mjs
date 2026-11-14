@@ -26,14 +26,14 @@ for (const { file, data: pl } of data.places) {
   }
 }
 
-const { config, sourcesList, places, notes, methodHtml } = data;
+const { config, sourcesList, places, notes, methodHtml, capitals = [] } = data;
 const blocsList = data.blocs ? data.blocs.blocs : [];
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -42,6 +42,7 @@ const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const fmtDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
 const prefix = (depth) => (depth === 0 ? "./" : "../".repeat(depth));
+const pageCountrySlug = (name) => String(name).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const kindLabel = Object.fromEntries(config.noteKinds.map((k) => [k.id, k.label]));
 const relLabel = Object.fromEntries(config.relations.map((r) => [r.id, r.label]));
 const langLabel = Object.fromEntries((config.languages || []).map((l) => [l.id, l.label]));
@@ -392,7 +393,7 @@ function renderPlace(p) {
 <section class="phero${im ? "" : " noimg"}">
   ${heroBg}
   <div class="wrap phero-in">
-    <p class="phero-top crumb"><a href="../../index.html#places">&larr; All places</a></p>
+    <p class="phero-top crumb"><a href="../../index.html#places">&larr; All places</a>${p.country && data.countries ? ` <span aria-hidden="true">·</span> <a href="../../countries/${esc(pageCountrySlug((data.countries.countries.find((c) => c.iso3 === p.country) || {}).name || p.country))}/index.html">${esc((data.countries.countries.find((c) => c.iso3 === p.country) || {}).name || p.country)}</a>` : ""}</p>
     <div class="phero-text">
       <p class="kicker">${esc(p.region)}</p>
       <h1>${esc(p.name)}</h1>
@@ -529,7 +530,21 @@ function renderStory(st) {
   const k = kindOf[st.kind];
   const block = (b) => {
     if (b.type === "p") return `<p>${b.parts.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("")}</p>`;
-    if (b.type === "timeline") return `<ol class="timeline">${b.items.map((it) => `<li><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>`;
+    if (b.type === "timeline") return `<ol class="timeline"${b.tags ? ` data-tags="${esc(JSON.stringify(b.tags))}"` : ""}>${b.items.map((it) => `<li${it.tag ? ` data-tag="${esc(it.tag)}"` : ""}><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>`;
+    const parts = (arr) => arr.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("");
+    if (b.type === "stat") return `<ul class="stats">${b.items.map((it) => `<li><span class="stat-v">${esc(it.value)}</span><span class="stat-l">${esc(it.label)}${it.cite ? cite(it.cite) : ""}</span></li>`).join("")}</ul>`;
+    if (b.type === "callout") return `<aside class="callout"><p class="callout-t">${esc(b.title)}</p><p>${parts(b.parts)}</p></aside>`;
+    if (b.type === "reveal") return `<details class="reveal"><summary><span class="reveal-k">Think first</span><span>${esc(b.prompt)}</span></summary><p>${parts(b.parts)}</p></details>`;
+    if (b.type === "figure") {
+      const f = b.image;
+      return `<figure class="story-fig"><img src="../../img/stories/${esc(f.file)}-800.jpg" srcset="../../img/stories/${esc(f.file)}-800.jpg 800w, ../../img/stories/${esc(f.file)}-1600.jpg 1600w" sizes="(max-width: 700px) 100vw, 46rem" width="800" height="${esc(f.height || 533)}" alt="${esc(f.alt)}" loading="lazy"><figcaption>${esc(f.caption)} <span class="credit">${esc(f.credit)}, <a href="${esc(f.licenseUrl)}" rel="noopener">${esc(f.license)}</a>, <a href="${esc(f.source)}" rel="noopener">source</a>.</span></figcaption></figure>`;
+    }
+    if (b.type === "chart") {
+      const g = b.kind === "stacked"
+        ? stackedShares(b.rows.map((r) => ({ ...r, tip: r.tip || r.text })), b.series)
+        : barList(b.rows.map((r) => ({ ...r, tip: r.tip || r.text })), { accent: b.rows.length });
+      return `<figure class="chart story-chart"><p class="chart-title">${esc(b.title)}</p>${b.sub ? `<p class="chart-sub">${esc(b.sub)}${cite(b.cite)}</p>` : ""}${g}<figcaption>${esc(b.note)}</figcaption></figure>`;
+    }
     return "";
   };
   const secs = st.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map(block).join("")}</section>`).join("\n");
@@ -539,6 +554,10 @@ function renderStory(st) {
 ${sNotes.length ? `<div class="notes">${sNotes.map((n) => noteCard(n, kindsHere)).join("")}</div>` : `<div class="empty"><strong>No local voice on this story yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people who know the subject afterwards.</span></div>`}
 ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, heading: "Add what you know", intro: st.kind === "food" ? "Do you cook this, or call it something else? Tell us." : st.kind === "myth" ? "Where did you meet this idea, and what do you see where you live?" : "Does your family or community know this differently, or know where to read more?", depth: 2 })}
 </section>`;
+  const checkQs = ((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug);
+  const checkHtml = (q) => `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
+  const checks = checkQs.length ? `<section id="sec-check" class="checks"><span class="layer-tag rec">Try it</span><h2>Check what you took in</h2>${checkQs.map(checkHtml).join("")}<p class="note-small">These questions are also in the <a href="../../quiz/index.html">quiz</a>. Nothing you answer is saved.</p></section>` : "";
+  const keyHtml = st.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${st.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
   const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
@@ -548,13 +567,14 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
 <div class="wrap prose-hero"><p class="story-meta">${readMin(st)} minute read · every sentence below carries its source number</p>
-<article class="story">${secs}
+${keyHtml}<article class="story">${secs}
+${checks}
 ${gaps}
 ${voices}
 ${related}
 ${sourcesList()}
 ${moreHtml}</article></div>`;
-  return layout({ title: `${st.title} · ${config.name}`, description: st.subtitle, depth: 2, current: "stories", body, extraScripts: ["share.js"], jump: [...st.sections.map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 5), { id: "sec-gaps", label: "Unknown" }, { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+  return layout({ title: `${st.title} · ${config.name}`, description: st.subtitle, depth: 2, current: "stories", body, extraScripts: ["story.js", "share.js"], jump: [...st.sections.map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 5), { id: "sec-gaps", label: "Unknown" }, { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
 }
 
 function renderStories() {
@@ -916,7 +936,7 @@ function renderSociety(list) {
   const spokenSorted = Object.entries(spokenBy).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
   const spokenTop = spokenSorted.slice(0, 12);
   const spokenBars = barList(spokenTop.map(([n, v]) => ({ label: n, value: v.length, text: String(v.length), tip: `${n}: ${v.map((x) => x.c.name).join(", ")}`, sub: "" })), { accent: 4 });
-  const spokenList = spokenSorted.map(([n, v]) => `<li><strong>${esc(n)}</strong> <span class="lang-c">${v.map((x) => esc(x.c.name) + (x.official ? " (official)" : "")).join(", ")}</span></li>`).join("");
+  const spokenList = spokenSorted.map(([n, v], i) => `<li class="lang-item"><button type="button" class="lang-choice" data-language-choice="${esc(n)}" aria-expanded="false"><span><strong>${esc(n)}</strong><small>${v.length} ${v.length === 1 ? "country" : "countries"} named</small></span><span class="lang-arrow" aria-hidden="true">+</span></button><div class="lang-detail" hidden><p>${v.length === 1 ? "Named in the Factbook for" : "Named in the Factbook for"}:</p><ul>${v.map((x) => `<li>${esc(x.c.name)}${x.official ? " <span class=\"lang-official\">official</span>" : ""}</li>`).join("")}</ul></div></li>`).join("");
   const spokenMulti = spokenSorted.filter(([, v]) => v.length > 1).length;
 
   // 4. due paesi a confronto
@@ -969,7 +989,9 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
   <p class="fine">This counts mentions in the Factbook, not speakers and not all languages spoken in a country. The Factbook writes languages differently from one country to the next: some entries list a dozen, others say "numerous indigenous languages" and name none, so a language missing here may well be spoken there. Names are matched from a list written for this page and some variants are merged: Fula includes Fulani, Pulaar and Fulfulde; Mandinka includes Maninka and Malinke; Swahili includes Kiswahili. Arabic, Afrikaans, creoles and European languages are left out, and ${unmatchedAll.length} entries that did not match a language on the list are not counted${cite(["cia-factbook"])}.</p>
   <h3>Every language matched, with its countries</h3>
   <p class="fine">For where fourteen of them come from and which can be learned on Duolingo, see <a href="../languages/index.html">Languages</a>.</p>
-  <ul class="lang-list fold" data-fold="10" data-fold-what="languages" data-fold-item="li">${spokenList}</ul>
+  <div class="lang-explorer" id="lang-explorer"><div><strong>Explore the languages</strong><span id="lang-progress">0 explored</span></div><p>Choose a language to reveal where the Factbook mentions it. This is a way to explore the list, not a count of speakers.</p></div>
+  <section class="lang-game" id="language-game" aria-labelledby="language-game-title"><div class="lang-game-head"><div><span class="layer-tag rec">Language game</span><h3 id="language-game-title">Where is this language mentioned?</h3></div><span id="lang-score" class="lang-score">0 / 5</span></div><p id="lang-question" class="lang-question">Loading a round…</p><div id="lang-options" class="lang-options" role="group" aria-labelledby="language-game-title"></div><p id="lang-feedback" class="lang-feedback" aria-live="polite"></p><button id="lang-next" class="btn lang-next" type="button" hidden>Next round</button><script type="application/json" id="lang-game-data">${JSON.stringify(spokenSorted.filter(([, v]) => v.length > 1).map(([name, entries]) => ({ name, countries: entries.map((x) => x.c.name), source: { title: sources.get("cia-factbook").title, publisher: sources.get("cia-factbook").publisher, url: sources.get("cia-factbook").url } }))).replace(/</g, "\\u003c")}</script></section>
+  <ul class="lang-list fold" data-fold="10" data-fold-what="languages" data-fold-item=".lang-item">${spokenList}</ul>
 </section>
 <section id="pair" class="panel" data-tab data-tab-label="Two countries" aria-labelledby="pair-h">
   <h2 id="pair-h">Two countries side by side</h2>
@@ -995,7 +1017,7 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
 ${sourcesList()}
 </div>
 <script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and language labels of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and language labels of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js", "languages.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
@@ -1290,7 +1312,7 @@ function renderCountryPage(c, list) {
 ${cards.length ? `<section id="places" class="cp-sec" aria-labelledby="cpl-h"><h2 id="cpl-h">Places in ${esc(c.name)}</h2><ul class="arches cp-cards">${cards.map(card).join("")}</ul></section>` : ""}
 ${myStories.length ? `<section id="stories" class="cp-sec" aria-labelledby="cps-h"><h2 id="cps-h">Stories that touch ${esc(c.name)}</h2><ul class="scards">${myStories.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : ""}
 <section id="more" class="cp-sec" aria-labelledby="cpm-h"><h2 id="cpm-h">Keep exploring</h2>
-  <ul class="duo-list"><li><a href="../index.html#c-${esc(c.iso3)}">${esc(c.name)} in the table of all 54 countries</a>, to compare its figures.</li><li><a href="../../society/index.html">Society</a>: faith, government and languages side by side.</li><li><a href="../../quiz/index.html">The quiz</a>, with questions on countries, history and food.</li></ul></section>
+  <ul class="duo-list"><li><a href="../../capitals/index.html#cap-${esc(c.iso3)}">${esc(c.capital)}</a>, this country's capital and its place-card status.</li><li><a href="../index.html#c-${esc(c.iso3)}">${esc(c.name)} in the table of all 54 countries</a>, to compare its figures.</li><li><a href="../../society/index.html">Society</a>: faith, government and languages side by side.</li><li><a href="../../quiz/index.html">The quiz</a>, with questions on countries, history and food.</li></ul></section>
 <section class="story-voices" id="voices" aria-labelledby="cpv-h"><span class="layer-tag voi">From people who know ${esc(c.name)}</span><h2 id="cpv-h">What readers add</h2>
 ${cNotes.length ? `<div class="notes">${cNotes.map((n) => noteCard(n, kinds)).join("")}</div>` : `<div class="empty"><strong>No local voice on ${esc(c.name)} yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people who know the subject afterwards.</span></div>`}
 ${shareSection({ type: "country", id: c.iso3, name: c.name, kinds, heading: `Do you know ${c.name} well?`, intro: "Add what the figures miss, or tell us what looks wrong.", depth: 2 })}
@@ -1357,22 +1379,28 @@ function renderPlaces() {
 function renderCapitals() {
   const countries = data.countries ? data.countries.countries : [];
   const norm = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-  const cardFor = (c) => published.find((p) => {
-    if (p.country !== c.iso3 || p.type === "dish") return false;
-    const capital = norm(c.capital);
-    return norm(p.name) === capital || norm(p.region).includes(capital) || norm(p.name).includes(capital);
+  const profileFor = (c) => capitals.find(({ data: p }) => p.country === c.iso3)?.data || null;
+  const relatedFor = (c) => published.filter((p) => {
+    if (p.country !== c.iso3 || p.type === "dish" || p.capital === true) return false;
+    return norm(p.region).split(" · ").some((part) => part === norm(c.capital));
   });
-  const rows = countries.slice().sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
-    const card = cardFor(c);
-    const content = `<span class="prow-name">${esc(c.capital)}</span><span class="prow-meta">${esc(c.name)} · ${card ? esc(card.name) : "Capital card not yet written"}</span>`;
-    return `<li>${card ? `<a class="prow" href="../places/${esc(card.slug)}/index.html">${content}</a>` : `<div class="prow">${content}</div>`}</li>`;
-  }).join("");
-  const withCards = countries.filter((c) => cardFor(c)).length;
+  const row = (c) => {
+    const profile = profileFor(c);
+    const related = relatedFor(c);
+    const relatedText = related.length ? related.map((p) => `<a href="../places/${esc(p.slug)}/index.html">${esc(p.name)}</a>`).join(", ") : "";
+    return `<li id="cap-${esc(c.iso3)}" class="capital-row"><div class="capital-link"><span class="capital-city">${esc(c.capital)}</span><span class="capital-country">${esc(c.name)}</span>${profile && profile.status === "published" ? `<a class="capital-status linked" href="../capitals/${esc(profile.slug)}/index.html">Open city profile</a>` : `<span class="capital-status">City profile in preparation</span>`}${relatedText ? `<span class="capital-related"><b>Related place cards:</b> ${relatedText}</span>` : ""}</div></li>`;
+  };
+  const groups = config.subregions.map((r) => ({ ...r, items: countries.filter((c) => c.subregion === r.id).sort((a, b) => a.name.localeCompare(b.name, "en")) })).filter((g) => g.items.length);
+  const rows = groups.map((g) => `<section class="capital-group" id="cap-region-${esc(g.id)}"><h2>${esc(g.label)}</h2><ul class="capital-list">${g.items.map(row).join("")}</ul></section>`).join("");
+  const jump = groups.map((g) => `<a href="#cap-region-${esc(g.id)}">${esc(g.label)}</a>`).join("");
+  const withCards = countries.filter((c) => profileFor(c)?.status === "published").length;
+  const withRelated = countries.filter((c) => relatedFor(c).length).length;
   const body = `${compactHero({ kicker: "Places", title: "African capitals", sub: "The capital named in the country record, and the place card when one exists." })}
 <div class="wrap places-index">
-  <p class="pi-count">${countries.length} capitals · ${withCards} linked place cards · ${countries.length - withCards} still to write.</p>
-  <section class="hero-lede"><p class="lede">A capital in the country dataset is not automatically a city guide. This index keeps the official country record visible while making the missing urban cards easy to find and complete.</p></section>
-  <ul class="prows">${rows}</ul>
+  <p class="pi-count">${countries.length} capitals · ${withCards} city cards · ${withRelated} capitals with related place cards · ${countries.length - withCards} city cards still to write.</p>
+  <section class="hero-lede"><p class="lede">This index keeps two things apart: a card about the capital city itself, and place cards located in or linked to that city. Both are useful, but they are not the same kind of guide.</p></section>
+  <nav class="pi-jump capital-jump" aria-label="Regions">${jump}</nav>
+  ${rows}
 </div>`;
   return layout({ title: `Capitals · ${config.name}`, description: "The 54 African capitals and the place cards currently linked to them.", depth: 1, current: "capitals", body });
 }
@@ -1424,6 +1452,8 @@ fs.copyFileSync(path.join(root, "src", "fab.js"), path.join(dist, "fab.js"));
 fs.copyFileSync(path.join(root, "src", "places.js"), path.join(dist, "places.js"));
 fs.copyFileSync(path.join(root, "src", "truesize.js"), path.join(dist, "truesize.js"));
 fs.copyFileSync(path.join(root, "src", "quiz.js"), path.join(dist, "quiz.js"));
+fs.copyFileSync(path.join(root, "src", "story.js"), path.join(dist, "story.js"));
+fs.copyFileSync(path.join(root, "src", "languages.js"), path.join(dist, "languages.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
 fs.copyFileSync(path.join(root, "node_modules", "motion", "dist", "motion.js"), path.join(dist, "vendor", "motion.js"));

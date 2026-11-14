@@ -1,0 +1,227 @@
+{
+  "slug": "the-children-italy-did-not-recognise",
+  "status": "draft",
+  "kind": "history",
+  "title": "The children Italy did not recognise",
+  "subtitle": "Italian colonial laws of 1937 and 1940 banned conjugal-type relationships with Africans and barred fathers from recognising their mixed-race children. Nobody knows how many there were.",
+  "countries": [
+    "ERI",
+    "ETH"
+  ],
+  "places": [
+    "asmara"
+  ],
+  "keyPoints": [
+    {
+      "text": "A 1937 decree-law banned 'conjugal' relationships between Italians and subjects of Italian East Africa; a 1940 law barred Italian fathers from recognising mixed-race children.",
+      "cite": [
+        "camera-pdl-5634-meticci"
+      ]
+    },
+    {
+      "text": "After the Ethiopian war the Italian population in the colony rose from under 5,000 to about 75,000, 78 percent of them men.",
+      "cite": [
+        "camera-pdl-5634-meticci"
+      ]
+    },
+    {
+      "text": "Estimates of the number of mixed-descent children differ: about 15,000 in one report, at least 20,000 in a journalist's count.",
+      "cite": [
+        "camera-pdl-5634-meticci",
+        "internazionale-meticci-2021"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "law",
+      "title": "The laws",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "law",
+              "label": "Italian laws"
+            },
+            {
+              "id": "repeal",
+              "label": "Repeal"
+            }
+          ],
+          "items": [
+            {
+              "when": "1937",
+              "tag": "law",
+              "text": "A decree-law of 19 April bans relationships 'of a conjugal nature' between Italian citizens and subjects of Italian East Africa; it is converted into law 2590 of 30 December.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "when": "1939",
+              "tag": "law",
+              "text": "A law of 29 June makes the birth of an Italo-Eritrean child an explicit clue to the offence.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "when": "1940",
+              "tag": "law",
+              "text": "Law 822 on 'rules concerning meticci' is passed; it bars the Italian father from recognising his mixed-race child.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "when": "1947",
+              "tag": "repeal",
+              "text": "The law is repealed in Italy by a legislative decree of 3 August.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "when": "1952",
+              "tag": "repeal",
+              "text": "The British administration in Eritrea repeals the Italian law by proclamation.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The parliamentary report that gives these dates calls the 1940 law 'sciagurate', or wretched.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "text": " It also notes serious doubts about whether the 1947 decree is in force today.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "How many children?",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "5,000 → 75,000",
+              "label": "Italians in the colony after the Ethiopian war, 78 percent men",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Think first: why might nobody know the exact number?",
+          "parts": [
+            {
+              "text": "The report to parliament itself says that precise statistics do not exist, and its own estimates cite no source.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "Estimates of mixed-descent children",
+          "sub": "Three figures from two sources; they are not measurements",
+          "rows": [
+            {
+              "label": "Journalist's count, at least",
+              "value": 20000,
+              "text": "20,000"
+            },
+            {
+              "label": "Parliamentary report, whole period, about",
+              "value": 15000,
+              "text": "15,000"
+            },
+            {
+              "label": "Parliamentary report, born under the 1940 law, probably about",
+              "value": 10000,
+              "text": "10,000"
+            }
+          ],
+          "cite": [
+            "camera-pdl-5634-meticci",
+            "internazionale-meticci-2021"
+          ],
+          "note": "Figures as stated by the two sources: the journalist Vittorio Longhi in Internazionale (2021), and the report to the Italian parliament. Neither cites a study, and the periods are not the same."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Of the 20,000 or more, the journalist says only five or six thousand were recognised.",
+              "cite": [
+                "internazionale-meticci-2021"
+              ]
+            },
+            {
+              "text": " The two estimates cannot be reconciled with the sources we have.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "What happened to them",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report says the 1940 law stayed in force through most of the period when Italo-Eritrean children were born.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "text": " Most of these children grew up in Africa, so they do not explain ancestry in Italy itself.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "A gap we cannot fill yet",
+          "parts": [
+            {
+              "text": "We have no account from the children themselves or their descendants. A counted list by a priest in Massawa names 349 people, a separate and much smaller figure.",
+              "cite": [
+                "internazionale-meticci-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The two estimates (about 15,000 and at least 20,000) cannot be reconciled; neither cites a study. Work by historians such as Barrera and Campassi is the next source to read.",
+    "No account from mixed-descent people or their families is quoted.",
+    "The legal status of the 1947 repeal decree is unclear in the report and is not covered here.",
+    "No one from Eritrea or Ethiopia has read this page yet."
+  ]
+}

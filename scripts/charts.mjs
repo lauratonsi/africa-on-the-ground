@@ -68,7 +68,7 @@ ${grid}<g clip-path="url(#scclip)">${dens.map((d) => d.line).join("")}</g>${dens
 // Barre impilate al 100%: una riga per paese o gruppo, segmenti con colori fissi per categoria.
 // `series`: [{ key, label }], `rows`: [{ label, sub, values: {key: percent}, text, tip }]
 export function stackedShares(rows, series) {
-  const legend = `<ul class="vlegend">${series.map((s, i) => `<li><span class="vkey c${i + 1}"></span>${esc(s.label)}</li>`).join("")}</ul>`;
-  const body = rows.map((r) => `<div class="srow" data-sub="${esc(r.sub || "")}" data-tip="${esc(r.tip)}" tabindex="0"><span class="bname">${esc(r.label)}</span><span class="strack">${series.map((s, i) => (r.values[s.key] > 0 ? `<span class="seg c${i + 1}" style="width:${r.values[s.key].toFixed(2)}%"></span>` : "")).join("")}</span><span class="bval">${esc(r.text)}</span></div>`).join("");
+  const legend = `<ul class="vlegend">${series.map((s, i) => `<li><span class="vkey c${s.cls || i + 1}"></span>${esc(s.label)}</li>`).join("")}</ul>`;
+  const body = rows.map((r) => `<div class="srow" data-sub="${esc(r.sub || "")}" data-tip="${esc(r.tip)}" tabindex="0"><span class="bname">${esc(r.label)}</span><span class="strack">${series.map((s, i) => (r.values[s.key] > 0 ? `<span class="seg c${s.cls || i + 1}" style="width:${r.values[s.key].toFixed(2)}%"></span>` : "")).join("")}</span><span class="bval">${esc(r.text)}</span></div>`).join("");
   return `${legend}<div class="sbars" role="list">${body}</div>`;
 }

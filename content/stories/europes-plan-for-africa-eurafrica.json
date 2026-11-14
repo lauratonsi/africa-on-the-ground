@@ -1,0 +1,198 @@
+{
+  "slug": "europes-plan-for-africa-eurafrica",
+  "status": "draft",
+  "kind": "history",
+  "title": "Europe's plan for Africa, in its own words",
+  "subtitle": "In 1929 and in 1957, European leaders and writers described Africa as a supplier of land, labour and resources, and the new Europe was built with the colonies inside it.",
+  "countries": [
+    "COD",
+    "DZA"
+  ],
+  "places": [],
+  "keyPoints": [
+    {
+      "text": "A 1929 Pan-European journal listed what Africa could give Europe: raw materials, food, land, labour and markets.",
+      "cite": [
+        "hansen-jonsson-2014-eurafrica"
+      ]
+    },
+    {
+      "text": "When the European Economic Community began in 1957, it included its six members' colonial possessions.",
+      "cite": [
+        "hansen-jonsson-2014-eurafrica"
+      ]
+    },
+    {
+      "text": "The same writer who urged settlement in Africa warned against black workers and soldiers coming to Europe.",
+      "cite": [
+        "hansen-jonsson-2014-eurafrica"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "idea",
+      "title": "Europe's plantation",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1929 the Pan-European movement's journal described what Africa could offer Europe: raw materials, food, land for its overpopulation, labour for its unemployed and markets for its products.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            },
+            {
+              "text": " The movement's founder was Richard Coudenhove-Kalergi.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Read the words carefully",
+          "parts": [
+            {
+              "text": "The authors Hansen and Jonsson show that the movement called Africa 'Europe's plantation' and presented settlement as the answer to Europe's overpopulation.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The same journal published a proposal to send a first group of 650,000 European settlers.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            },
+            {
+              "text": " The proposal was a plan, not a record of what happened.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limit",
+      "title": "Land and labour, but not people",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The authors show that Coudenhove-Kalergi, while urging Europeans to settle in Africa, also warned against large numbers of black workers and soldiers coming to Europe.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            },
+            {
+              "text": " Read next to the previous section, the idea was that Europe could take land and labour from Africa, but not people.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Think first: does this look more like a partnership or like a one-way flow?",
+          "parts": [
+            {
+              "text": "That is for readers to judge. What the sources let us say is who benefits in the movement's own list: raw materials, food, land, labour and markets all flow to Europe.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treaty",
+      "title": "1957: the colonies inside the new Europe",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "idea",
+              "label": "The idea"
+            },
+            {
+              "id": "institution",
+              "label": "The institution"
+            }
+          ],
+          "items": [
+            {
+              "when": "1929",
+              "tag": "idea",
+              "text": "The Pan-European journal sets out Africa as a supplier of resources, land and labour for Europe.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            },
+            {
+              "when": "1957",
+              "tag": "institution",
+              "text": "The European Economic Community is founded together with its member states' colonial possessions.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When the European Economic Community was founded in 1957, it included not only six member states but also their colonial possessions, including the Belgian Congo and French West and Equatorial Africa.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            },
+            {
+              "text": " In official language these were 'overseas countries and territories'.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Algeria, then an integral part of France, was formally integrated and excluded from some provisions of the Treaty.",
+              "cite": [
+                "hansen-jonsson-2014-eurafrica"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "One reading, not the only one",
+          "parts": [
+            {
+              "text": "Hansen and Jonsson argue that decolonisation was less of a clean break than the usual story suggests. Other historians read 1957-60 differently, and this page does not try to settle it.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "This story rests on one book, Hansen and Jonsson's Eurafrica (2014); a second historian's account of the 1957 treaty and its overseas territories is needed.",
+    "African voices on the association of the colonies are absent: no African politician or writer of the period is quoted.",
+    "The book's own sources (the Pan-European journal, treaty texts, EEC papers) have not been read here.",
+    "No one from the Congo or Algeria has read this page yet."
+  ]
+}

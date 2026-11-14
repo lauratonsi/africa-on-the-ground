@@ -1,101 +1,219 @@
 {
- "slug": "how-rich-is-africa",
- "status": "published",
- "kind": "myth",
- "title": "How rich is Africa?",
- "subtitle": "There is no single answer: income per person in 2023 ran from $250 in Burundi to $18,131 in Seychelles.",
- "countries": [],
- "places": [],
- "sections": [
-  {
-   "id": "claim",
-   "title": "The idea",
-   "blocks": [
+  "slug": "how-rich-is-africa",
+  "status": "published",
+  "kind": "myth",
+  "title": "How rich is Africa?",
+  "subtitle": "There is no single answer: income per person in 2023 ran from $250 in Burundi to $18,131 in Seychelles.",
+  "countries": [],
+  "places": [],
+  "sections": [
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Africa is often described as one economy, poor and uniform. The numbers cannot be summed up in one phrase.",
-       "editorial": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "range",
-   "title": "From $250 to $18,131",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "In 2023 gross domestic product per person, in current US dollars, was about $250 in Burundi and about $18,131 in Seychelles.",
-       "cite": [
-        "wb-gdp-pc-2023"
-       ]
-      },
-      {
-       "text": " The highest is about 73 times the lowest, a ratio calculated here.",
-       "cite": [
-        "wb-gdp-pc-2023"
-       ]
-      }
-     ]
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Africa is often described as one economy, poor and uniform. The numbers cannot be summed up in one phrase.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Think first: how many times higher do you think the richest African country's income per person is than the lowest?",
+          "parts": [
+            {
+              "text": "About 73 times, in 2023 World Bank figures.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The middle country of the 52 with a figure was at about $1,709.",
-       "cite": [
-        "wb-gdp-pc-2023"
-       ]
-      },
-      {
-       "text": " Eight countries were above $5,000 and sixteen below $1,000, counted here.",
-       "cite": [
-        "wb-gdp-pc-2023"
-       ]
-      },
-      {
-       "text": " Eritrea and South Sudan have no figure for 2023.",
-       "cite": [
-        "wb-gdp-pc-2023"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "what",
-   "title": "What the number is",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "GDP per person divides a country's total output by its population. It does not say how income is shared, what things cost, or how much work happens outside the market.",
-       "editorial": true
-      }
-     ]
+      "id": "range",
+      "title": "From $250 to $18,131",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "$250",
+              "label": "Burundi, GDP per person in 2023",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            },
+            {
+              "value": "$1,709",
+              "label": "the middle country of the 52 with a figure",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            },
+            {
+              "value": "$18,131",
+              "label": "Seychelles",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2023 gross domestic product per person, in current US dollars, was about $250 in Burundi and about $18,131 in Seychelles.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            },
+            {
+              "text": " The highest is about 73 times the lowest, a ratio calculated here.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The middle country of the 52 with a figure was at about $1,709.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            },
+            {
+              "text": " Eight countries were above $5,000 and sixteen below $1,000, counted here.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            },
+            {
+              "text": " Eritrea and South Sudan have no figure for 2023.",
+              "cite": [
+                "wb-gdp-pc-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "The five highest and the five lowest",
+          "sub": "GDP per person in 2023, current US dollars",
+          "rows": [
+            {
+              "label": "Seychelles",
+              "value": 18131,
+              "text": "$18,131"
+            },
+            {
+              "label": "Mauritius",
+              "value": 11270,
+              "text": "$11,270"
+            },
+            {
+              "label": "Botswana",
+              "value": 7827,
+              "text": "$7,827"
+            },
+            {
+              "label": "Gabon",
+              "value": 7803,
+              "text": "$7,803"
+            },
+            {
+              "label": "Equatorial Guinea",
+              "value": 6788,
+              "text": "$6,788"
+            },
+            {
+              "label": "Mozambique",
+              "value": 622,
+              "text": "$622"
+            },
+            {
+              "label": "Somalia",
+              "value": 597,
+              "text": "$597"
+            },
+            {
+              "label": "Madagascar",
+              "value": 514,
+              "text": "$514"
+            },
+            {
+              "label": "Central African Republic",
+              "value": 496,
+              "text": "$496"
+            },
+            {
+              "label": "Burundi",
+              "value": 250,
+              "text": "$250"
+            }
+          ],
+          "cite": [
+            "wb-gdp-pc-2023"
+          ],
+          "note": "Values are the World Bank's NY.GDP.PCAP.CD for 2023, rounded. Which countries are shown (five highest, five lowest of the 52 with a figure) is chosen here. Eritrea and South Sudan have no 2023 figure."
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "It is a starting point for asking questions, not a verdict on any place.",
-       "editorial": true
-      }
-     ]
+      "id": "what",
+      "title": "What the number is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "GDP per person divides a country's total output by its population. It does not say how income is shared, what things cost, or how much work happens outside the market.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is a starting point for asking questions, not a verdict on any place.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
     }
-   ]
-  }
- ],
- "gaps": [
-  "GDP per capita in current US dollars depends on exchange rates, so it can move without anyone's life changing. Other measures, such as purchasing-power comparisons, give a different spread and are not used here.",
-  "The summary figures are our own arithmetic on one year's World Bank values; a different year would change them.",
-  "Nothing here covers inequality inside countries, which can be as wide as the gap between them."
- ]
+  ],
+  "gaps": [
+    "GDP per capita in current US dollars depends on exchange rates, so it can move without anyone's life changing. Other measures, such as purchasing-power comparisons, give a different spread and are not used here.",
+    "The summary figures are our own arithmetic on one year's World Bank values; a different year would change them.",
+    "Nothing here covers inequality inside countries, which can be as wide as the gap between them."
+  ],
+  "keyPoints": [
+    {
+      "text": "In 2023 income per person ran from about $250 in Burundi to about $18,131 in Seychelles.",
+      "cite": [
+        "wb-gdp-pc-2023"
+      ]
+    },
+    {
+      "text": "The highest is about 73 times the lowest; the middle country of the 52 with a figure was at about $1,709.",
+      "cite": [
+        "wb-gdp-pc-2023"
+      ]
+    },
+    {
+      "text": "GDP per person is a starting point for questions, not a verdict on any place.",
+      "editorial": true
+    }
+  ]
 }

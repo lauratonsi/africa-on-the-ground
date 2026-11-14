@@ -2177,7 +2177,7 @@
     "url": "https://www.worldhistory.org/Berlin_Conference_1884-5/",
     "tier": "encyclopedia",
     "status": "to-verify",
-    "note": "A non-profit encyclopedia article. Used for the dates, attendance, the General Act's provisions and the statement that the conference did not itself divide the continent. Check against a historian's book on the Scramble for Africa.",
+    "note": "Could not be read again on 14 Nov 2026 (HTTP 403). The earlier note says it supports the dates and that the conference did not itself divide the continent; unchecked in this session.",
     "retrieved": "2026-10-08"
   },
   {
@@ -2611,5 +2611,125 @@
     "status": "to-verify",
     "note": "Used only as a lead for the name and geography; its cited historical sources still need to be read.",
     "retrieved": "2026-10-08"
+  },
+  {
+    "id": "bryc-2015-us-ancestry",
+    "title": "The Genetic Ancestry of African Americans, Latinos, and European Americans across the United States",
+    "publisher": "American Journal of Human Genetics 96(1):37-53 (Bryc et al., 2015)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4289685/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read in full text through the Discussion. Sample is 23andMe customers who consented to research, so it is not a random sample of the US.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "hollfelder-2020-afrikaner",
+    "title": "Patterns of African and Asian admixture in the Afrikaner population of South Africa",
+    "publisher": "BMC Biology 18:16 (Hollfelder et al., 2020)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7038537",
+    "tier": "academic",
+    "status": "verified",
+    "note": "77 Afrikaner individuals. Figures read from the main text; supplementary tables not read.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "desouza-2019-brazil",
+    "title": "A systematic scoping review of the genetic ancestry of the Brazilian population",
+    "publisher": "Genetics and Molecular Biology 42(3):495-508 (de Souza et al., 2019)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6905439",
+    "tier": "academic",
+    "status": "verified",
+    "note": "51 studies, 81 populations. Weighted by number of individuals. Estimates depend on the markers and sampling used.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "neh-slave-trade-database",
+    "title": "The Transatlantic Slave Trade Database",
+    "publisher": "National Endowment for the Humanities",
+    "url": "https://www.neh.gov/project/transatlantic-slave-trade-database",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read in full. Opening paragraph: 'Some 12.5 million Africans were taken from their homes and forced aboard slave ships' and 'About 10.7 million people survived the horrors of the Middle Passage between 1526 and 1866'. Note that the NEH 2010 feature 'Gross Injustice' says nearly 1.5 million died, which does not match 12.5 minus 10.7 (about 1.8 million).",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "slavevoyages-methodology",
+    "title": "Methodology: Trans-Atlantic Slave Trade Database",
+    "publisher": "SlaveVoyages (Rice University)",
+    "url": "https://legacy.slavevoyages.org/blog/methodology-trans-atlantic",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read from the text (the last 17k characters, appendix tables, only summarised). Says the Voyages Database documents two-thirds of all slaving voyages that sailed between 1514 and 1866, and that the Estimates page suggests 12.5 million departed Africa and 10.7 million disembarked. Missing values are imputed; the essay does not say so in one sentence for the two totals.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "camera-pdl-5634-meticci",
+    "title": "Progetto di legge n. 5634, relazione",
+    "publisher": "Camera dei deputati (Italy)",
+    "url": "https://documenti.camera.it/_dati/leg13/lavori/stampati/sk6000/relazion/5634.htm",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read in full. Confirms the 1937 decree-law, law 2590 of 1937, the 1940 law 822 (which barred Italian fathers from recognising mixed-race children), repeal in 1947 and, in Eritrea, 1952. The report's own estimates are unsourced: about 15,000 mixed-descent children over some sixty years, probably about 10,000 of them born while the 1940 law was in force. It notes the Italian population in the colony rose from under 5,000 to about 75,000, 78% men, after the Ethiopian war, and has 'serious doubts' about whether the 1947 decree is in force.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "internazionale-meticci-2021",
+    "title": "Figlie e figli delle colonie che l'Italia vuole dimenticare",
+    "publisher": "Internazionale (Vincenzo Giardina, 2021)",
+    "url": "https://www.internazionale.it/notizie/vincenzo-giardina/2021/11/13/italia-eritrea-colonialismo-figli",
+    "tier": "press",
+    "status": "verified",
+    "note": "Read up to the subscription notice. The estimate of at least 20,000 mixed-descent children in about sixty years, of whom 5-6 thousand recognised, is attributed to the journalist Vittorio Longhi; no study is cited. The same article mentions a separate count of 349 names collected by padre Protasio Delfini.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "loc-loving-virginia",
+    "title": "Loving v. Virginia: Banished for Love",
+    "publisher": "Library of Congress, In Custodia Legis",
+    "url": "https://blogs.loc.gov/law/2017/06/loving-v-virginia-banished-for-love/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read in full (Francisco Macias, 12 June 2017). Gives Maryland 1664 as the first colonial anti-amalgamation law and a Virginia colony law of 1691 under which 'any white person married to a black or mulatto is banished'; and the 1924 Virginia law defining 'white' as having 'no trace whatsoever of any blood other than Caucasian'.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "supremecourthistory-loving",
+    "title": "Loving v. Virginia (1967)",
+    "publisher": "Supreme Court Historical Society",
+    "url": "https://civics.supremecourthistory.org/article/loving-v-virginia/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read in full; no author or date shown. Unanimous decision of 12 June 1967 for the Lovings; says the law violated the Due Process Clause of the Fourteenth Amendment; says Virginia was one of 29 states with such laws in 1924 when it passed the Racial Integrity Act, influenced by the eugenics movement.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "hansen-jonsson-2014-eurafrica",
+    "title": "Eurafrica: The Untold History of European Integration and Colonialism",
+    "publisher": "Bloomsbury Academic, 2014 (Peo Hansen and Stefan Jonsson); open access, CC BY-NC 3.0",
+    "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read from the local copy in colonizzazione/Eurafrica.md. Used from the Introduction (EEC of 1957 and its overseas territories) and Chapter 2 (Pan-European movement, 1929). The url points to the licence; the book itself is open access from the publisher. Non-commercial use only, with credit to authors and publisher.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "green-2022-cape-colony",
+    "title": "Creating the Cape Colony: The Political Economy of Settler Colonization",
+    "publisher": "Bloomsbury Academic, 2022 (Erik Green); open access, CC BY-NC-ND 3.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read from the local copy in colonizzazione/. Used from the Introduction, Chapter 3 (population) and Chapter 4 (slavery, Table 4.11 from Worden 1985). The licence forbids derivative versions, so this site only cites and summarises figures, with no reproduced tables or passages. The url points to the licence.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "giliomee-1983-cape-society",
+    "title": "Eighteenth century Cape society and its historiography: Culture, race, and class",
+    "publisher": "Social Dynamics 9(1):18-29 (Hermann Giliomee, 1983), DOI 10.1080/02533958308458331; read from the University of Cape Town open repository copy",
+    "url": "https://open.uct.ac.za/server/api/core/bitstreams/12e958a4-e146-46c2-b78b-5fe0b2f318d9/content",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read in full text (section 4, 'The permeability of the colour line', pp. 24-25). A critical review of George Fredrickson's comparison of the Cape and the American South; it reports figures from Heese, Botha, De Bruyn, Elphick and Shell, Worden and Ross. 1983 work: newer research (for example Shell's Children of Bondage, 1994) should be checked.",
+    "retrieved": "2026-11-14"
   }
 ]
