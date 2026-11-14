@@ -8,7 +8,7 @@
   var groups = Array.prototype.slice.call(document.querySelectorAll(".pgroup"));
   var total = rows.length;
   var links = Array.prototype.slice.call(jump.querySelectorAll("a"));
-  var suffix = /drafts included/.test(count.textContent) ? " (drafts included)" : "";
+  var suffix = count && /drafts included/.test(count.textContent) ? " (drafts included)" : "";
   var state = { type: "all", status: "all", region: "all", text: "" };
   tools.hidden = false;
 
@@ -35,7 +35,7 @@
       var n = a.querySelector(".n"); if (n) n.textContent = k;
     });
     var filtered = shown !== total;
-    count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + (groups.length === 1 ? " region" : " regions") + suffix + ".";
+    if (count) count.textContent = filtered ? shown + " of " + total + " cards" : total + (total === 1 ? " card" : " cards") + " in " + groups.length + (groups.length === 1 ? " region" : " regions") + suffix + ".";
     empty.hidden = shown !== 0;
     // le righe che restano entrano con una breve dissolvenza (solo se il movimento è consentito)
     if (window.Motion && document.documentElement.classList.contains("m-ok") && filtered) {
