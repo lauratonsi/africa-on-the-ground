@@ -1,107 +1,239 @@
 {
- "slug": "cassava-the-american-crop-africa-eats",
- "status": "published",
- "kind": "food",
- "title": "Cassava: the American crop that feeds Africa",
- "subtitle": "Most people who eat garri or fufu today are eating a plant that came from Brazil in the 16th century.",
- "countries": [
-  "NGA"
- ],
- "places": [],
- "sections": [
-  {
-   "id": "claim",
-   "title": "The idea",
-   "blocks": [
+  "slug": "cassava-the-american-crop-africa-eats",
+  "status": "published",
+  "kind": "food",
+  "title": "Cassava: the American crop that feeds Africa",
+  "subtitle": "Most people who eat garri or fufu today are eating a plant that came from Brazil in the 16th century.",
+  "countries": [
+    "NGA"
+  ],
+  "places": [],
+  "sections": [
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Cassava feels like the oldest food in many African kitchens. It is not as old as it feels.",
-       "editorial": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "origin",
-   "title": "Where it comes from",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Cassava originated in South America; wild populations are centred in west-central Brazil, where it was probably first domesticated no more than 10,000 years ago.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      },
-      {
-       "text": " Portuguese traders introduced it to Africa from Brazil in the 16th century.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "making",
-   "title": "Making it safe",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Raw cassava roots, peels and leaves are dangerous to eat because they contain toxic cyanogenic glycosides.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      },
-      {
-       "text": " Traditional preparation, soaking, fermenting and cooking, reduces the cyanogenic potential by 85 to 99 per cent.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      }
-     ]
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cassava feels like the oldest food in many African kitchens. It is not as old as it feels.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Garri, fufu and lafun in West Africa are made by soaking, fermenting and cooking cassava roots.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "today",
-   "title": "Nigeria's share",
-   "blocks": [
+      "id": "origin",
+      "title": "Where it comes from",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cassava originated in South America; wild populations are centred in west-central Brazil, where it was probably first domesticated no more than 10,000 years ago.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "text": " Portuguese traders introduced it to Africa from Brazil in the 16th century.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these three moments in order.",
+          "items": [
+            {
+              "label": "Cassava is probably first domesticated in Brazil",
+              "when": "up to 10,000 years ago",
+              "text": "Wild populations are centred in west-central Brazil, where it was probably first domesticated no more than 10,000 years ago.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "label": "Portuguese traders bring it to Africa",
+              "when": "16th century",
+              "text": "Portuguese traders introduced it to Africa from Brazil.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "label": "Nigeria produces 60.8 million tonnes",
+              "when": "2022",
+              "text": "About 18% of the world's 330 million tonnes.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Nigeria produced 60.8 million tonnes of cassava in 2022, about 18% of the world's 330 million tonnes.",
-       "cite": [
-        "wikipedia-cassava"
-       ]
-      }
-     ]
+      "id": "making",
+      "title": "Making it safe",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Raw cassava roots, peels and leaves are dangerous to eat because they contain toxic cyanogenic glycosides.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "text": " Traditional preparation, soaking, fermenting and cooking, reduces the cyanogenic potential by 85 to 99 per cent.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Garri, fufu and lafun in West Africa are made by soaking, fermenting and cooking cassava roots.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Traditional preparation of cassava (soaking, fermenting, cooking) reduces its cyanogenic potential by how much?",
+          "options": [
+            "5 to 15 per cent",
+            "25 to 40 per cent",
+            "85 to 99 per cent",
+            "It does not reduce it"
+          ],
+          "answer": "85 to 99 per cent",
+          "explain": "Traditional preparation, soaking, fermenting and cooking, reduces the cyanogenic potential by 85 to 99 per cent.",
+          "cite": [
+            "wikipedia-cassava"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "Nigeria's share",
+      "blocks": [
+        {
+          "type": "estimate",
+          "prompt": "What share of the world's cassava did Nigeria produce in 2022?",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "answer": 18,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "About 18 percent: 60.8 million of 330 million tonnes.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "60.8 million t",
+              "label": "cassava produced by Nigeria in 2022",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "value": "330 million t",
+              "label": "produced in the world",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            },
+            {
+              "value": "85–99%",
+              "label": "drop in cyanogenic potential from traditional preparation",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nigeria produced 60.8 million tonnes of cassava in 2022, about 18% of the world's 330 million tonnes.",
+              "cite": [
+                "wikipedia-cassava"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "Cassava production in 2022",
+          "sub": "Million tonnes",
+          "rows": [
+            {
+              "label": "Nigeria",
+              "value": 60.8,
+              "text": "60.8"
+            },
+            {
+              "label": "Rest of the world (calculated)",
+              "value": 269.2,
+              "text": "269.2"
+            }
+          ],
+          "cite": [
+            "wikipedia-cassava"
+          ],
+          "note": "Nigeria's figure and the world total are as given by the source; the rest of the world is calculated here as 330 minus 60.8."
+        }
+      ]
     }
-   ]
-  }
- ],
- "gaps": [
-  "Every claim rests on one Wikipedia article. The production figures should be checked against the FAO's statistics and the history against a food historian.",
-  "Cassava came to Africa in the 16th century; this page does not say how, in what quantities or with what consequences for the people who grew it.",
-  "Only West African dishes are named. Cassava is eaten across the continent under many other names."
- ]
+  ],
+  "gaps": [
+    "Every claim rests on one Wikipedia article. The production figures should be checked against the FAO's statistics and the history against a food historian.",
+    "Cassava came to Africa in the 16th century; this page does not say how, in what quantities or with what consequences for the people who grew it.",
+    "Only West African dishes are named. Cassava is eaten across the continent under many other names.",
+    "The figures come from an encyclopedia article that summarises FAO data; the FAO table itself should be cited."
+  ],
+  "keyPoints": [
+    {
+      "text": "Cassava originated in South America and Portuguese traders introduced it to Africa from Brazil in the 16th century.",
+      "cite": [
+        "wikipedia-cassava"
+      ]
+    },
+    {
+      "text": "Raw cassava is dangerous because it contains toxic cyanogenic glycosides; soaking, fermenting and cooking reduce the cyanogenic potential by 85 to 99 per cent.",
+      "cite": [
+        "wikipedia-cassava"
+      ]
+    },
+    {
+      "text": "Nigeria produced 60.8 million tonnes in 2022, about 18% of the world's 330 million tonnes.",
+      "cite": [
+        "wikipedia-cassava"
+      ]
+    }
+  ]
 }

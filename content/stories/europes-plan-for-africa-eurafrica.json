@@ -52,6 +52,20 @@
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "paneurope-1924",
+            "alt": "World map with Europe, most of Africa, and parts of Asia and the Americas coloured blue.",
+            "caption": "Pan-Europe 'according to Coudenhove-Kalergi, 1924', as redrawn by a Wikimedia Commons contributor; it is not the movement's own map. Africa appears inside it.",
+            "credit": "Chrischerf",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Paneurope_according_Coudenhove-Kalergi_1924.png",
+            "width": 800,
+            "height": 351
+          }
+        },
+        {
           "type": "callout",
           "title": "Read the words carefully",
           "parts": [
@@ -184,6 +198,19 @@
               "text": "Hansen and Jonsson argue that decolonisation was less of a clean break than the usual story suggests. Other historians read 1957-60 differently, and this page does not try to settle it.",
               "editorial": true
             }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: when the European Economic Community began in 1957, it covered only European territory.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "It included its six member states' colonial possessions, called overseas countries and territories, among them the Belgian Congo and French West and Equatorial Africa.",
+          "cite": [
+            "hansen-jonsson-2014-eurafrica"
           ]
         }
       ]

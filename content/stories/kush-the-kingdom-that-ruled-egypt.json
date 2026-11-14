@@ -1,119 +1,316 @@
 {
- "slug": "kush-the-kingdom-that-ruled-egypt",
- "status": "published",
- "kind": "history",
- "title": "Kush: the African kingdom that ruled Egypt",
- "subtitle": "In the eighth century BCE, rulers from what is now Sudan became pharaohs of Egypt.",
- "countries": [
-  "SDN"
- ],
- "places": [],
- "sections": [
-  {
-   "id": "claim",
-   "title": "The idea",
-   "blocks": [
+  "slug": "kush-the-kingdom-that-ruled-egypt",
+  "status": "published",
+  "kind": "history",
+  "title": "Kush: the African kingdom that ruled Egypt",
+  "subtitle": "In the eighth century BCE, rulers from what is now Sudan became pharaohs of Egypt.",
+  "countries": [
+    "SDN"
+  ],
+  "places": [],
+  "sections": [
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Ancient Egypt is usually told as a story on its own. Its southern neighbour, Kush, was a power in its own right, and for a time ruled Egypt.",
-       "editorial": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "where",
-   "title": "Where and when",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Kush occupied the region of modern Sudan, later called Nubia.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      },
-      {
-       "text": " The article divides its history into the Kerma culture (about 2400 to 1500 BCE), the Napata period (about 1500 to 590 BCE) and the Meroe period (about 590 BCE to 350 CE).",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "pharaohs",
-   "title": "Pharaohs from the south",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "Kashta, about 750 BCE, was the first Kushite to establish himself on the Egyptian throne and founded the 25th Dynasty.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      },
-      {
-       "text": " Kushite control lasted until the Assyrian invasion of Egypt by Ashurbanipal in 666 BCE.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "meroe",
-   "title": "Meroe: iron and an unread script",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "After Napata was sacked, about 590 BCE, the capital moved south to Meroe.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      },
-      {
-       "text": " Meroe developed a large iron industry, which needed so much wood for charcoal that it contributed to deforestation.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      }
-     ]
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ancient Egypt is usually told as a story on its own. Its southern neighbour, Kush, was a power in its own right, and for a time ruled Egypt.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "King Arkamani I gave up hieroglyphs for the Meroitic script, which has not been deciphered.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      },
-      {
-       "text": " The kingdom fell about 350 CE, after environmental degradation and an Aksumite attack on Meroe about 330 CE.",
-       "cite": [
-        "worldhistory-kush"
-       ]
-      }
-     ]
+      "id": "where",
+      "title": "Where and when",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kush occupied the region of modern Sudan, later called Nubia.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "text": " The article divides its history into the Kerma culture (about 2400 to 1500 BCE), the Napata period (about 1500 to 590 BCE) and the Meroe period (about 590 BCE to 350 CE).",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "3",
+              "label": "periods in the article: Kerma, Napata and Meroe",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "value": "c. 750 BCE",
+              "label": "Kashta founds the 25th Dynasty of Egypt",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "value": "666 BCE",
+              "label": "end of Kushite control, after the Assyrian invasion",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "period",
+              "label": "Periods"
+            },
+            {
+              "id": "egypt",
+              "label": "Kush and Egypt"
+            },
+            {
+              "id": "end",
+              "label": "Decline"
+            }
+          ],
+          "items": [
+            {
+              "when": "c. 2400–1500 BCE",
+              "tag": "period",
+              "text": "The Kerma culture.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "c. 1500–590 BCE",
+              "tag": "period",
+              "text": "The Napata period.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "c. 750 BCE",
+              "tag": "egypt",
+              "text": "Kashta establishes himself on the Egyptian throne and founds the 25th Dynasty.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "666 BCE",
+              "tag": "egypt",
+              "text": "Kushite control ends with the Assyrian invasion of Egypt by Ashurbanipal.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "c. 590 BCE",
+              "tag": "period",
+              "text": "Napata is sacked and the capital moves south to Meroe; the Meroe period runs to about 350 CE.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "c. 330 CE",
+              "tag": "end",
+              "text": "An Aksumite attack on Meroe.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "when": "c. 350 CE",
+              "tag": "end",
+              "text": "The kingdom falls, after environmental degradation and the Aksumite attack.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharaohs",
+      "title": "Pharaohs from the south",
+      "blocks": [
+        {
+          "type": "estimate",
+          "prompt": "In which year BCE did the Assyrian invasion end Kushite control of Egypt?",
+          "min": 400,
+          "max": 900,
+          "step": 1,
+          "unit": " BCE",
+          "answer": 666,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "In 666 BCE, with the Assyrian invasion of Egypt by Ashurbanipal.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kashta, about 750 BCE, was the first Kushite to establish himself on the Egyptian throne and founded the 25th Dynasty.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "text": " Kushite control lasted until the Assyrian invasion of Egypt by Ashurbanipal in 666 BCE.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meroe",
+      "title": "Meroe: iron and an unread script",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After Napata was sacked, about 590 BCE, the capital moved south to Meroe.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "text": " Meroe developed a large iron industry, which needed so much wood for charcoal that it contributed to deforestation.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "King Arkamani I gave up hieroglyphs for the Meroitic script, which has not been deciphered.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "text": " The kingdom fell about 350 CE, after environmental degradation and an Aksumite attack on Meroe about 330 CE.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these four moments in order, earliest first.",
+          "items": [
+            {
+              "label": "Kashta founds the 25th Dynasty",
+              "when": "c. 750 BCE",
+              "text": "Kashta is the first Kushite to establish himself on the Egyptian throne.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "label": "The Assyrians end Kushite control",
+              "when": "666 BCE",
+              "text": "Ashurbanipal's invasion ends Kushite control of Egypt.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "label": "Napata is sacked, the capital moves to Meroe",
+              "when": "c. 590 BCE",
+              "text": "After Napata was sacked the capital moved south to Meroe.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            },
+            {
+              "label": "The kingdom falls",
+              "when": "c. 350 CE",
+              "text": "After environmental degradation and an Aksumite attack on Meroe about 330 CE.",
+              "cite": [
+                "worldhistory-kush"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: the Meroitic script has been fully deciphered.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The article says King Arkamani I gave up hieroglyphs for the Meroitic script, which has not been deciphered.",
+          "cite": [
+            "worldhistory-kush"
+          ]
+        }
+      ]
     }
-   ]
-  }
- ],
- "gaps": [
-  "One encyclopedia article. A specialist book on Nubia or Sudan's archaeology should check every date, which are given as approximate.",
-  "The article names the Pyramids of Meroe but gives no count; the popular claim that Sudan has more pyramids than Egypt is not made here for lack of a source.",
-  "Nothing here yet from Sudanese scholars or on the sites themselves."
- ]
+  ],
+  "gaps": [
+    "One encyclopedia article. A specialist book on Nubia or Sudan's archaeology should check every date, which are given as approximate.",
+    "The article names the Pyramids of Meroe but gives no count; the popular claim that Sudan has more pyramids than Egypt is not made here for lack of a source.",
+    "Nothing here yet from Sudanese scholars or on the sites themselves.",
+    "The dates and claims come from a single encyclopedia article; a specialist history of Kush should replace it."
+  ],
+  "keyPoints": [
+    {
+      "text": "Kush occupied the region of modern Sudan, later called Nubia.",
+      "cite": [
+        "worldhistory-kush"
+      ]
+    },
+    {
+      "text": "Kashta, about 750 BCE, was the first Kushite to establish himself on the Egyptian throne and founded the 25th Dynasty.",
+      "cite": [
+        "worldhistory-kush"
+      ]
+    },
+    {
+      "text": "Kushite control lasted until the Assyrian invasion of Egypt by Ashurbanipal in 666 BCE.",
+      "cite": [
+        "worldhistory-kush"
+      ]
+    },
+    {
+      "text": "Meroe developed a large iron industry and a script, Meroitic, that has not been deciphered.",
+      "cite": [
+        "worldhistory-kush"
+      ]
+    }
+  ]
 }

@@ -21,8 +21,14 @@
           ]
         },
         {
-          "type": "reveal",
-          "prompt": "Think first: how many countries are there in Africa?",
+          "type": "estimate",
+          "prompt": "How many countries are there in Africa?",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "",
+          "answer": 54,
+          "decimals": 0,
           "parts": [
             {
               "text": "54 in the World Bank's list; the African Union counts 55 members, including the Sahrawi Republic.",
@@ -195,6 +201,364 @@
             "wb-population"
           ],
           "note": "Figures are the World Bank's latest population in this site's country data (2025), rounded. The two smallest are barely visible on the same scale, which is the point. The selection is made here."
+        },
+        {
+          "type": "table",
+          "title": "All 54 countries",
+          "sub": "Population (2025) and area (2023) from the World Bank, with the subregion used in this site. Click a column heading to sort.",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Country"
+            },
+            {
+              "key": "sub",
+              "label": "Subregion"
+            },
+            {
+              "key": "pop",
+              "label": "Population",
+              "type": "number",
+              "format": "int"
+            },
+            {
+              "key": "area",
+              "label": "Area, km²",
+              "type": "number",
+              "format": "int"
+            }
+          ],
+          "rows": [
+            {
+              "name": "Nigeria",
+              "sub": "Western",
+              "pop": 237527782,
+              "area": 923770
+            },
+            {
+              "name": "Ethiopia",
+              "sub": "Eastern",
+              "pop": 135472051,
+              "area": 1136240
+            },
+            {
+              "name": "Egypt",
+              "sub": "Northern",
+              "pop": 118365995,
+              "area": 1001450
+            },
+            {
+              "name": "DR Congo",
+              "sub": "Middle",
+              "pop": 112832473,
+              "area": 2344860
+            },
+            {
+              "name": "Tanzania",
+              "sub": "Eastern",
+              "pop": 70545865,
+              "area": 947300
+            },
+            {
+              "name": "South Africa",
+              "sub": "Southern",
+              "pop": 64747319,
+              "area": 1219090
+            },
+            {
+              "name": "Kenya",
+              "sub": "Eastern",
+              "pop": 57532493,
+              "area": 591969
+            },
+            {
+              "name": "Sudan",
+              "sub": "Northern",
+              "pop": 51662147,
+              "area": 1878000
+            },
+            {
+              "name": "Uganda",
+              "sub": "Eastern",
+              "pop": 51384894,
+              "area": 241550
+            },
+            {
+              "name": "Algeria",
+              "sub": "Northern",
+              "pop": 47435312,
+              "area": 2381740
+            },
+            {
+              "name": "Angola",
+              "sub": "Middle",
+              "pop": 39040039,
+              "area": 1246700
+            },
+            {
+              "name": "Morocco",
+              "sub": "Northern",
+              "pop": 38430770,
+              "area": 446550
+            },
+            {
+              "name": "Mozambique",
+              "sub": "Eastern",
+              "pop": 35631653,
+              "area": 799380
+            },
+            {
+              "name": "Ghana",
+              "sub": "Western",
+              "pop": 35064272,
+              "area": 238539
+            },
+            {
+              "name": "Madagascar",
+              "sub": "Eastern",
+              "pop": 32740678,
+              "area": 587295
+            },
+            {
+              "name": "Côte d'Ivoire",
+              "sub": "Western",
+              "pop": 32711547,
+              "area": 322460
+            },
+            {
+              "name": "Cameroon",
+              "sub": "Middle",
+              "pop": 29879337,
+              "area": 475440
+            },
+            {
+              "name": "Niger",
+              "sub": "Western",
+              "pop": 27917831,
+              "area": 1267000
+            },
+            {
+              "name": "Mali",
+              "sub": "Western",
+              "pop": 25198821,
+              "area": 1240190
+            },
+            {
+              "name": "Burkina Faso",
+              "sub": "Western",
+              "pop": 24074580,
+              "area": 274200
+            },
+            {
+              "name": "Malawi",
+              "sub": "Eastern",
+              "pop": 22216120,
+              "area": 118480
+            },
+            {
+              "name": "Zambia",
+              "sub": "Eastern",
+              "pop": 21913874,
+              "area": 752610
+            },
+            {
+              "name": "Chad",
+              "sub": "Middle",
+              "pop": 21003705,
+              "area": 1284000
+            },
+            {
+              "name": "Somalia",
+              "sub": "Eastern",
+              "pop": 19654739,
+              "area": 637660
+            },
+            {
+              "name": "Senegal",
+              "sub": "Western",
+              "pop": 18931966,
+              "area": 196710
+            },
+            {
+              "name": "Zimbabwe",
+              "sub": "Eastern",
+              "pop": 16950795,
+              "area": 390760
+            },
+            {
+              "name": "Guinea",
+              "sub": "Western",
+              "pop": 15099727,
+              "area": 245860
+            },
+            {
+              "name": "Benin",
+              "sub": "Western",
+              "pop": 14814460,
+              "area": 114760
+            },
+            {
+              "name": "Rwanda",
+              "sub": "Eastern",
+              "pop": 14569341,
+              "area": 26338
+            },
+            {
+              "name": "Burundi",
+              "sub": "Eastern",
+              "pop": 14390003,
+              "area": 27830
+            },
+            {
+              "name": "Tunisia",
+              "sub": "Northern",
+              "pop": 12348573,
+              "area": 163610
+            },
+            {
+              "name": "South Sudan",
+              "sub": "Eastern",
+              "pop": 12188788,
+              "area": 646883
+            },
+            {
+              "name": "Sierra Leone",
+              "sub": "Western",
+              "pop": 8819794,
+              "area": 72300
+            },
+            {
+              "name": "Togo",
+              "sub": "Western",
+              "pop": 8591626,
+              "area": 56790
+            },
+            {
+              "name": "Libya",
+              "sub": "Northern",
+              "pop": 7458555,
+              "area": 1759540
+            },
+            {
+              "name": "Congo",
+              "sub": "Middle",
+              "pop": 6484437,
+              "area": 342000
+            },
+            {
+              "name": "Liberia",
+              "sub": "Western",
+              "pop": 5731206,
+              "area": 111370
+            },
+            {
+              "name": "Central African Republic",
+              "sub": "Middle",
+              "pop": 5513282,
+              "area": 622980
+            },
+            {
+              "name": "Mauritania",
+              "sub": "Western",
+              "pop": 5315065,
+              "area": 1030700
+            },
+            {
+              "name": "Eritrea",
+              "sub": "Eastern",
+              "pop": 3607003,
+              "area": 121766
+            },
+            {
+              "name": "Namibia",
+              "sub": "Southern",
+              "pop": 3092816,
+              "area": 824290
+            },
+            {
+              "name": "Gambia",
+              "sub": "Western",
+              "pop": 2822093,
+              "area": 11300
+            },
+            {
+              "name": "Gabon",
+              "sub": "Middle",
+              "pop": 2593130,
+              "area": 267670
+            },
+            {
+              "name": "Botswana",
+              "sub": "Southern",
+              "pop": 2562122,
+              "area": 581730
+            },
+            {
+              "name": "Lesotho",
+              "sub": "Southern",
+              "pop": 2363325,
+              "area": 30360
+            },
+            {
+              "name": "Guinea-Bissau",
+              "sub": "Western",
+              "pop": 2249515,
+              "area": 36130
+            },
+            {
+              "name": "Equatorial Guinea",
+              "sub": "Middle",
+              "pop": 1938431,
+              "area": 28050
+            },
+            {
+              "name": "Eswatini",
+              "sub": "Southern",
+              "pop": 1256174,
+              "area": 17360
+            },
+            {
+              "name": "Mauritius",
+              "sub": "Eastern",
+              "pop": 1243741,
+              "area": 2010
+            },
+            {
+              "name": "Djibouti",
+              "sub": "Eastern",
+              "pop": 1184076,
+              "area": 23200
+            },
+            {
+              "name": "Comoros",
+              "sub": "Eastern",
+              "pop": 882847,
+              "area": 1861
+            },
+            {
+              "name": "Cabo Verde",
+              "sub": "Western",
+              "pop": 527326,
+              "area": 4030
+            },
+            {
+              "name": "São Tomé and Príncipe",
+              "sub": "Middle",
+              "pop": 240254,
+              "area": 960
+            },
+            {
+              "name": "Seychelles",
+              "sub": "Eastern",
+              "pop": 122730,
+              "area": 460
+            }
+          ],
+          "cite": [
+            "wb-population",
+            "wb-area"
+          ],
+          "note": "Latest World Bank values in this site's country data. The subregion follows the grouping used on the Countries page."
         }
       ]
     }

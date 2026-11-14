@@ -23,8 +23,14 @@
           ]
         },
         {
-          "type": "reveal",
-          "prompt": "Think first: how many languages do you think are spoken only in Africa?",
+          "type": "estimate",
+          "prompt": "How many languages do you think are spoken only in Africa?",
+          "min": 0,
+          "max": 5000,
+          "step": 10,
+          "unit": "",
+          "answer": 2264,
+          "decimals": 0,
           "parts": [
             {
               "text": "Glottolog lists 2,264, some of them no longer spoken.",

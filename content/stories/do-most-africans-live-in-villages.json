@@ -21,8 +21,14 @@
           ]
         },
         {
-          "type": "reveal",
-          "prompt": "Think first: out of every 100 Africans, how many do you think live in towns and cities?",
+          "type": "estimate",
+          "prompt": "Out of every 100 Africans, how many live in towns and cities?",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "",
+          "answer": 45,
+          "decimals": 0,
           "parts": [
             {
               "text": "About 45, in 2023, counted by adding the countries' own urban figures.",
@@ -244,6 +250,306 @@
             "wb-population-2023"
           ],
           "note": "Urban share is calculated here as urban population divided by total population, both World Bank 2023, rounded. Each country uses its own definition of urban. The ten countries shown are the five highest and five lowest of the 54."
+        },
+        {
+          "type": "table",
+          "title": "Urban share, all 54 countries",
+          "sub": "Share of people in urban areas and total population, 2023. Click a column heading to sort.",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Country"
+            },
+            {
+              "key": "share",
+              "label": "Urban share",
+              "type": "number",
+              "format": "pct"
+            },
+            {
+              "key": "pop",
+              "label": "Population",
+              "type": "number",
+              "format": "int"
+            }
+          ],
+          "rows": [
+            {
+              "name": "Gabon",
+              "share": 91.63759981229795,
+              "pop": 2484789
+            },
+            {
+              "name": "Libya",
+              "share": 87.86472240218166,
+              "pop": 7305659
+            },
+            {
+              "name": "Cabo Verde",
+              "share": 75.90646544049655,
+              "pop": 522331
+            },
+            {
+              "name": "Algeria",
+              "share": 74.73280767513906,
+              "pop": 46164219
+            },
+            {
+              "name": "Djibouti",
+              "share": 72.84083181837106,
+              "pop": 1152944
+            },
+            {
+              "name": "Equatorial Guinea",
+              "share": 71.12904718629926,
+              "pop": 1847549
+            },
+            {
+              "name": "Tunisia",
+              "share": 70.02666545140906,
+              "pop": 12200431
+            },
+            {
+              "name": "Angola",
+              "share": 69.85150383786015,
+              "pop": 36749906
+            },
+            {
+              "name": "São Tomé and Príncipe",
+              "share": 68.6045453954806,
+              "pop": 230871
+            },
+            {
+              "name": "Botswana",
+              "share": 67.02126887515905,
+              "pop": 2480244
+            },
+            {
+              "name": "Gambia",
+              "share": 63.8020345868647,
+              "pop": 2697845
+            },
+            {
+              "name": "Congo",
+              "share": 63.66267527214237,
+              "pop": 6182885
+            },
+            {
+              "name": "South Africa",
+              "share": 63.58237018872757,
+              "pop": 63212384
+            },
+            {
+              "name": "Morocco",
+              "share": 62.67374972837259,
+              "pop": 37712505
+            },
+            {
+              "name": "Nigeria",
+              "share": 62.174676125938255,
+              "pop": 227882945
+            },
+            {
+              "name": "Mauritania",
+              "share": 59.714250500901855,
+              "pop": 5022441
+            },
+            {
+              "name": "Ghana",
+              "share": 57.80747518180613,
+              "pop": 33787914
+            },
+            {
+              "name": "Cameroon",
+              "share": 55.128687670646066,
+              "pop": 28372687
+            },
+            {
+              "name": "Liberia",
+              "share": 54.997869118160814,
+              "pop": 5493031
+            },
+            {
+              "name": "Senegal",
+              "share": 54.699228707304904,
+              "pop": 18077573
+            },
+            {
+              "name": "Somalia",
+              "share": 54.07144275317065,
+              "pop": 18358615
+            },
+            {
+              "name": "Côte d'Ivoire",
+              "share": 53.40752034274654,
+              "pop": 31165654
+            },
+            {
+              "name": "Benin",
+              "share": 51.74578985494614,
+              "pop": 14111034
+            },
+            {
+              "name": "Namibia",
+              "share": 49.954591398520805,
+              "pop": 2963095
+            },
+            {
+              "name": "Guinea-Bissau",
+              "share": 45.59240323980571,
+              "pop": 2153339
+            },
+            {
+              "name": "Seychelles",
+              "share": 45.09697511125212,
+              "pop": 119773
+            },
+            {
+              "name": "Zambia",
+              "share": 45.028584057153154,
+              "pop": 20723965
+            },
+            {
+              "name": "Sierra Leone",
+              "share": 44.80932123256843,
+              "pop": 8460512
+            },
+            {
+              "name": "DR Congo",
+              "share": 44.37547345687078,
+              "pop": 105789731
+            },
+            {
+              "name": "Central African Republic",
+              "share": 43.698370144830946,
+              "pop": 5152421
+            },
+            {
+              "name": "Togo",
+              "share": 43.2496823264043,
+              "pop": 8223850
+            },
+            {
+              "name": "Egypt",
+              "share": 42.70981121950267,
+              "pop": 114535772
+            },
+            {
+              "name": "Lesotho",
+              "share": 42.67817217772917,
+              "pop": 2311472
+            },
+            {
+              "name": "Zimbabwe",
+              "share": 39.291934028777746,
+              "pop": 16340822
+            },
+            {
+              "name": "Mauritius",
+              "share": 39.00397790568511,
+              "pop": 1248647
+            },
+            {
+              "name": "Guinea",
+              "share": 37.64540659144153,
+              "pop": 14405468
+            },
+            {
+              "name": "Mozambique",
+              "share": 35.7149780170512,
+              "pop": 33635160
+            },
+            {
+              "name": "Tanzania",
+              "share": 35.47480226173243,
+              "pop": 66617606
+            },
+            {
+              "name": "Sudan",
+              "share": 34.79600688139077,
+              "pop": 50042791
+            },
+            {
+              "name": "Eritrea",
+              "share": 34.69641740553655,
+              "pop": 3470390
+            },
+            {
+              "name": "Comoros",
+              "share": 33.150201026121046,
+              "pop": 850387
+            },
+            {
+              "name": "Madagascar",
+              "share": 31.979945333898023,
+              "pop": 31195932
+            },
+            {
+              "name": "Kenya",
+              "share": 31.633034660924412,
+              "pop": 55339003
+            },
+            {
+              "name": "Mali",
+              "share": 31.003187454044905,
+              "pop": 23769127
+            },
+            {
+              "name": "Uganda",
+              "share": 30.605935667392796,
+              "pop": 48656601
+            },
+            {
+              "name": "Rwanda",
+              "share": 28.85553311193237,
+              "pop": 13954471
+            },
+            {
+              "name": "Burkina Faso",
+              "share": 27.78724591084357,
+              "pop": 23025776
+            },
+            {
+              "name": "Chad",
+              "share": 26.33054065145185,
+              "pop": 19319064
+            },
+            {
+              "name": "Eswatini",
+              "share": 25.808163470962352,
+              "pop": 1230506
+            },
+            {
+              "name": "Burundi",
+              "share": 23.5534736603735,
+              "pop": 13689450
+            },
+            {
+              "name": "Ethiopia",
+              "share": 23.058647018177368,
+              "pop": 128691692
+            },
+            {
+              "name": "South Sudan",
+              "share": 21.073771523944096,
+              "pop": 11483374
+            },
+            {
+              "name": "Niger",
+              "share": 17.750686576502854,
+              "pop": 26159867
+            },
+            {
+              "name": "Malawi",
+              "share": 16.974872920358813,
+              "pop": 21104482
+            }
+          ],
+          "cite": [
+            "wb-urban-2023",
+            "wb-population-2023"
+          ],
+          "note": "Urban share is calculated here as urban population divided by total population, both World Bank 2023. Each country uses its own definition of urban."
         }
       ]
     }

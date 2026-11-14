@@ -164,6 +164,82 @@
               "editorial": true
             }
           ]
+        },
+        {
+          "type": "order",
+          "prompt": "Five laws or rulings, from three countries. Put them in the order they happened.",
+          "items": [
+            {
+              "label": "Maryland: the first colonial anti-amalgamation law",
+              "when": "1664",
+              "text": "Colonial Maryland passes what the Library of Congress calls the first colonial anti-amalgamation law.",
+              "cite": [
+                "loc-loving-virginia"
+              ]
+            },
+            {
+              "label": "Virginia colony: a white person married to a black or mulatto is banished",
+              "when": "1691",
+              "text": "A Virginia colony law provides that any white person married to a black or mulatto is banished.",
+              "cite": [
+                "loc-loving-virginia"
+              ]
+            },
+            {
+              "label": "Virginia: the Racial Integrity Act",
+              "when": "1924",
+              "text": "Virginia passes its Racial Integrity Act, influenced by the eugenics movement.",
+              "cite": [
+                "supremecourthistory-loving"
+              ]
+            },
+            {
+              "label": "Italy: fathers barred from recognising mixed-race children",
+              "when": "1940",
+              "text": "Italy's law on meticci bars Italian fathers from recognising their mixed-race children.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "label": "United States: Loving v. Virginia",
+              "when": "1967",
+              "text": "The US Supreme Court rules unanimously for the Lovings.",
+              "cite": [
+                "supremecourthistory-loving"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "racial-integrity-1924",
+            "alt": "Front page of the Virginia Health Bulletin, March 1924, headed 'The New Virginia Law To Preserve Racial Integrity'.",
+            "caption": "The Virginia Health Bulletin of March 1924, explaining the new law 'to preserve racial integrity'.",
+            "credit": "Unknown",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/The_Virginia_Racial_Integrity_Act_of_1924.jpg",
+            "width": 568,
+            "height": 787,
+            "narrow": true
+          }
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "loving-1967",
+            "alt": "Black-and-white photograph of Mildred and Richard Loving close together in front of a shelf of law books.",
+            "caption": "Mildred and Richard Loving in 1967, the year the US Supreme Court ruled in their favour.",
+            "credit": "United Press International",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Mildred_and_Richard_Loving_1967_by_UPI.jpg",
+            "width": 800,
+            "height": 965,
+            "narrow": true
+          }
         }
       ]
     },
@@ -172,8 +248,14 @@
       "title": "What DNA shows",
       "blocks": [
         {
-          "type": "reveal",
-          "prompt": "Before you read on: what share of white Americans do you think carry at least 1 percent African ancestry?",
+          "type": "estimate",
+          "prompt": "What share of white Americans do you think carry at least 1 percent African ancestry?",
+          "min": 0,
+          "max": 30,
+          "step": 0.5,
+          "unit": "%",
+          "answer": 3.5,
+          "decimals": 1,
           "parts": [
             {
               "text": "About 3.5 percent in a sample of 148,789 European Americans; in Louisiana and South Carolina the authors report as much as 12 percent.",
@@ -534,6 +616,19 @@
                 "giliomee-1983-cape-society"
               ]
             }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: mixed marriages were illegal in the Dutch Cape Colony.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "Giliomee writes that mixed marriages were legally permitted at the Cape, unlike in the American South, though they were rare.",
+          "cite": [
+            "giliomee-1983-cape-society"
           ]
         },
         {

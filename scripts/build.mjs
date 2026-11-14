@@ -528,6 +528,7 @@ function storyCard(st, p = "") {
 function renderStory(st) {
   const { cite, list: sourcesList } = makeCiter();
   const k = kindOf[st.kind];
+  const checkHtmlOf = (q) => `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
   const block = (b) => {
     if (b.type === "p") return `<p>${b.parts.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("")}</p>`;
     if (b.type === "timeline") return `<ol class="timeline"${b.tags ? ` data-tags="${esc(JSON.stringify(b.tags))}"` : ""}>${b.items.map((it) => `<li${it.tag ? ` data-tag="${esc(it.tag)}"` : ""}><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>`;
@@ -537,7 +538,23 @@ function renderStory(st) {
     if (b.type === "reveal") return `<details class="reveal"><summary><span class="reveal-k">Think first</span><span>${esc(b.prompt)}</span></summary><p>${parts(b.parts)}</p></details>`;
     if (b.type === "figure") {
       const f = b.image;
-      return `<figure class="story-fig"><img src="../../img/stories/${esc(f.file)}-800.jpg" srcset="../../img/stories/${esc(f.file)}-800.jpg 800w, ../../img/stories/${esc(f.file)}-1600.jpg 1600w" sizes="(max-width: 700px) 100vw, 46rem" width="800" height="${esc(f.height || 533)}" alt="${esc(f.alt)}" loading="lazy"><figcaption>${esc(f.caption)} <span class="credit">${esc(f.credit)}, <a href="${esc(f.licenseUrl)}" rel="noopener">${esc(f.license)}</a>, <a href="${esc(f.source)}" rel="noopener">source</a>.</span></figcaption></figure>`;
+      return `<figure class="story-fig${f.narrow ? " narrow" : ""}"><img src="../../img/stories/${esc(f.file)}-800.jpg" width="${esc(f.width || 800)}" height="${esc(f.height || 533)}" alt="${esc(f.alt)}" loading="lazy"><figcaption>${esc(f.caption)} <span class="credit">${esc(f.credit)}, <a href="${esc(f.licenseUrl)}" rel="noopener">${esc(f.license)}</a>, <a href="${esc(f.source)}" rel="noopener">source</a>.</span></figcaption></figure>`;
+    }
+    if (b.type === "estimate") {
+      const dec = b.decimals || 0;
+      const shown = Number(b.answer).toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+      return `<div class="estimate" data-min="${b.min}" data-max="${b.max}" data-step="${b.step || 1}" data-answer="${b.answer}" data-unit="${esc(b.unit || "")}" data-dec="${dec}"><p class="est-k">Make a guess</p><p class="est-q">${esc(b.prompt)}</p><details class="est-nojs"><summary>Show the answer</summary><p class="est-fb"><strong>${shown}${esc(b.unit || "")}.</strong> ${parts(b.parts)}</p></details></div>`;
+    }
+    if (b.type === "check") return checkHtmlOf(b);
+    if (b.type === "order") {
+      const items = b.items.map((it) => ({ label: it.label, html: `<strong>${esc(it.when)}.</strong> ${esc(it.text)}${cite(it.cite)}` }));
+      return `<div class="order" data-items="${esc(JSON.stringify(items))}"><p class="est-k">Put in order</p><p class="est-q">${esc(b.prompt)}</p><details class="est-nojs"><summary>Show the correct order</summary><ol>${items.map((it) => `<li>${it.html}</li>`).join("")}</ol></details></div>`;
+    }
+    if (b.type === "table") {
+      const fmt = (v, f) => (v == null ? "n/a" : f === "int" ? Math.round(v).toLocaleString("en-US") : f === "usd" ? "$" + Math.round(v).toLocaleString("en-US") : f === "pct" ? Number(v).toFixed(1) + "%" : esc(v));
+      const head = b.columns.map((c) => `<th scope="col" data-type="${c.type || "text"}">${esc(c.label)}</th>`).join("");
+      const rows = b.rows.map((r) => `<tr>${b.columns.map((c, i) => { const v = r[c.key]; const cell = c.format ? fmt(v, c.format) : esc(v); return i === 0 ? `<th scope="row">${cell}</th>` : `<td data-v="${v == null ? "" : esc(v)}"${c.type === "number" ? ' class="num"' : ""}>${cell}</td>`; }).join("")}</tr>`).join("");
+      return `<div class="dt" data-filterable="${b.filter === false ? "no" : "yes"}"><p class="chart-title">${esc(b.title)}</p>${b.sub ? `<p class="chart-sub">${esc(b.sub)}${cite(b.cite)}</p>` : ""}<div class="dt-wrap" role="region" aria-label="${esc(b.title)}" tabindex="0"><table><caption class="sr-only">${esc(b.title)}</caption><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div><p class="note-small">${esc(b.note)}</p></div>`;
     }
     if (b.type === "chart") {
       const g = b.kind === "stacked"
@@ -555,8 +572,8 @@ ${sNotes.length ? `<div class="notes">${sNotes.map((n) => noteCard(n, kindsHere)
 ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, heading: "Add what you know", intro: st.kind === "food" ? "Do you cook this, or call it something else? Tell us." : st.kind === "myth" ? "Where did you meet this idea, and what do you see where you live?" : "Does your family or community know this differently, or know where to read more?", depth: 2 })}
 </section>`;
   const checkQs = ((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug);
-  const checkHtml = (q) => `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
-  const checks = checkQs.length ? `<section id="sec-check" class="checks"><span class="layer-tag rec">Try it</span><h2>Check what you took in</h2>${checkQs.map(checkHtml).join("")}<p class="note-small">These questions are also in the <a href="../../quiz/index.html">quiz</a>. Nothing you answer is saved.</p></section>` : "";
+  const checkHtml = checkHtmlOf;
+  const checks = checkQs.length ? `<section id="sec-check" class="checks"><span class="layer-tag rec">Try it</span><h2>Check what you took in</h2>${checkQs.map(checkHtml).join("")}<p class="check-score" role="status" aria-live="polite" hidden></p><p class="note-small">These questions are also in the <a href="../../quiz/index.html">quiz</a>. Nothing you answer is saved.</p></section>` : "";
   const keyHtml = st.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${st.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
@@ -567,7 +584,7 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
 <div class="wrap prose-hero"><p class="story-meta">${readMin(st)} minute read · every sentence below carries its source number</p>
-${keyHtml}<article class="story">${secs}
+<div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
 ${checks}
 ${gaps}
 ${voices}
@@ -1465,6 +1482,17 @@ for (const pl of published) {
     const name = `${pl.image.file}-${size}.jpg`;
     fs.mkdirSync(path.join(dist, "img", "places"), { recursive: true });
     fs.copyFileSync(path.join(root, "src", "img", "places", name), path.join(dist, "img", "places", name));
+  }
+}
+// Immagini delle storie: si copiano solo quelle usate da storie pubblicate (o da bozze, se si costruisce con --drafts).
+for (const st of stories) {
+  for (const sec of st.sections) for (const b of sec.blocks) {
+    if (b.type !== "figure") continue;
+    for (const size of [800, 1600]) {
+      const name = `${b.image.file}-${size}.jpg`;
+      fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
+      fs.copyFileSync(path.join(root, "src", "img", "stories", name), path.join(dist, "img", "stories", name));
+    }
   }
 }
 write("styles.css", (faces.length ? faces.join("\n") + "\n" : "") + css);

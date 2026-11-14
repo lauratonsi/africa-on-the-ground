@@ -38,6 +38,21 @@
       "title": "The laws",
       "blocks": [
         {
+          "type": "figure",
+          "image": {
+            "file": "iea-map-1936",
+            "alt": "Colour map headed 'Africa Orientale Italiana', with Ethiopia labelled 'Impero di Etiopia' and the Red Sea and Gulf of Aden on the upper right.",
+            "caption": "Italy's official map of Africa Orientale Italiana, Istituto Geografico Militare, Florence, 1936.",
+            "credit": "Istituto Geografico Militare, Firenze",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Italian_East_Africa_map_1936.jpg",
+            "width": 625,
+            "height": 848,
+            "narrow": true
+          }
+        },
+        {
           "type": "timeline",
           "tags": [
             {
@@ -85,6 +100,52 @@
             {
               "when": "1952",
               "tag": "repeal",
+              "text": "The British administration in Eritrea repeals the Italian law by proclamation.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these five steps in the order they happened.",
+          "items": [
+            {
+              "label": "The decree-law banning 'conjugal' relationships",
+              "when": "1937",
+              "text": "The decree-law of 19 April bans relationships of a conjugal nature between Italian citizens and subjects of Italian East Africa.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "label": "Birth of a child made a clue to the offence",
+              "when": "1939",
+              "text": "A law of 29 June makes the birth of an Italo-Eritrean child an explicit clue to the offence.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "label": "The law on meticci",
+              "when": "1940",
+              "text": "Law 822 bars the Italian father from recognising his mixed-race child.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "label": "Italy repeals the law",
+              "when": "1947",
+              "text": "A legislative decree of 3 August repeals the law in Italy.",
+              "cite": [
+                "camera-pdl-5634-meticci"
+              ]
+            },
+            {
+              "label": "Britain repeals it in Eritrea",
+              "when": "1952",
               "text": "The British administration in Eritrea repeals the Italian law by proclamation.",
               "cite": [
                 "camera-pdl-5634-meticci"
@@ -202,6 +263,20 @@
               "editorial": true
             }
           ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "fiat-tagliero-asmara",
+            "alt": "The Fiat Tagliero service station in Asmara, a white building with a tower and long cantilevered concrete wings.",
+            "caption": "The Fiat Tagliero service station in Asmara, a building from the Italian colonial period.",
+            "credit": "Martin Schibbye",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Fiat_Tagliero_building_in_Asmara.jpg",
+            "width": 800,
+            "height": 530
+          }
         },
         {
           "type": "callout",

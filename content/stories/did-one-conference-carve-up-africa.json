@@ -1,128 +1,270 @@
 {
- "slug": "did-one-conference-carve-up-africa",
- "status": "published",
- "kind": "myth",
- "title": "Did one conference in Berlin carve up Africa?",
- "subtitle": "A meeting of fourteen states, with no African representative, set rules for the scramble. It did not draw the map.",
- "countries": [
-  "COD"
- ],
- "places": [],
- "sections": [
-  {
-   "id": "claim",
-   "title": "The idea",
-   "blocks": [
+  "slug": "did-one-conference-carve-up-africa",
+  "status": "published",
+  "kind": "myth",
+  "title": "Did one conference in Berlin carve up Africa?",
+  "subtitle": "A meeting of fourteen states, with no African representative, set rules for the scramble. It did not draw the map.",
+  "countries": [
+    "COD"
+  ],
+  "places": [],
+  "sections": [
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The usual short version says that in 1884 European powers sat in Berlin and divided Africa between them with a ruler.",
-       "editorial": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "meeting",
-   "title": "What happened",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The conference was held between November 1884 and February 1885. Preliminary discussions began in Berlin on 15 November 1884 and the debates ran until 26 February the next year.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      },
-      {
-       "text": " Fourteen states were represented.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      },
-      {
-       "text": " It was called by the German chancellor Otto von Bismarck.",
-       "cite": [
-        "historyassoc-berlin"
-       ]
-      }
-     ]
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The usual short version says that in 1884 European powers sat in Berlin and divided Africa between them with a ruler.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "berlin-cake-1885",
+            "alt": "Pen drawing of Otto von Bismarck standing with a raised knife over a cake labelled 'AFRIQUE', with six delegates seated around a table watching him.",
+            "caption": "A French cartoon of the Berlin Conference: Bismarck, who called it, cuts a cake labelled 'Afrique' while the delegates watch. L'Illustration, 3 January 1885, uncredited.",
+            "credit": "anonymous",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Berlin_Conference%2C_1884%E2%80%9385.jpg",
+            "width": 800,
+            "height": 738
+          }
+        },
+        {
+          "type": "callout",
+          "title": "A picture of the myth",
+          "parts": [
+            {
+              "text": "This is how the conference was pictured at the time and ever since: one man, one knife, one cake. The sources below tell a different story, about rules and not a map.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "There were no representatives from the African kingdoms, states and cultures whose territories were about to be affected.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "decided",
-   "title": "What it decided",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "It put the Congo River basin under the authority of King Leopold II of Belgium, with free access for trade and shipping extended to all nations, and left the Congo and Niger rivers open to all powers for trade.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      },
-      {
-       "text": " A European government's claim to a region would be recognised only if it was already effectively in control of it.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "not",
-   "title": "What it did not do",
-   "blocks": [
-    {
-     "type": "p",
-     "parts": [
-      {
-       "text": "The article says the conference \"did not actually divide the continent\", but gave a framework by which Africa could later be partitioned into areas of effective European control.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      },
-      {
-       "text": " By 1914 the whole continent, apart from Abyssinia and Liberia, was under European control.",
-       "cite": [
-        "worldhistory-berlin"
-       ]
-      }
-     ]
+      "id": "meeting",
+      "title": "What happened",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "14",
+              "label": "states represented",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "value": "0",
+              "label": "African representatives",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "value": "15 Nov 1884 – 26 Feb 1885",
+              "label": "from first discussions to the end of the debates",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "How many African kingdoms or states do you think had a representative at the conference?",
+          "min": 0,
+          "max": 14,
+          "step": 1,
+          "unit": "",
+          "answer": 0,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "None. The source says there were no representatives from the African kingdoms, states and cultures whose territories were about to be affected.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The conference was held between November 1884 and February 1885. Preliminary discussions began in Berlin on 15 November 1884 and the debates ran until 26 February the next year.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "text": " Fourteen states were represented.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "text": " It was called by the German chancellor Otto von Bismarck.",
+              "cite": [
+                "historyassoc-berlin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "There were no representatives from the African kingdoms, states and cultures whose territories were about to be affected.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "p",
-     "parts": [
-      {
-       "text": "So the story is not wrong that Berlin mattered. It is wrong to picture one afternoon and one map: the borders were drawn over the following decades, by treaties, by force, and by agreements between colonial powers.",
-       "editorial": true
-      }
-     ]
+      "id": "decided",
+      "title": "What it decided",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It put the Congo River basin under the authority of King Leopold II of Belgium, with free access for trade and shipping extended to all nations, and left the Congo and Niger rivers open to all powers for trade.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "text": " A European government's claim to a region would be recognised only if it was already effectively in control of it.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Rules, not a map",
+          "parts": [
+            {
+              "text": "The conference's test was effective control: a claim would be recognised only where a European government already held the region.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "not",
+      "title": "What it did not do",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The article says the conference \"did not actually divide the continent\", but gave a framework by which Africa could later be partitioned into areas of effective European control.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "text": " By 1914 the whole continent, apart from Abyssinia and Liberia, was under European control.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "So the story is not wrong that Berlin mattered. It is wrong to picture one afternoon and one map: the borders were drawn over the following decades, by treaties, by force, and by agreements between colonial powers.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "rhodes-colossus-1892",
+            "alt": "Engraving from Punch of Cecil Rhodes as a giant with one foot at the Cape and the other in north Africa, holding a telegraph wire, captioned 'The Rhodes Colossus, striding from Cape Town to Cairo'.",
+            "caption": "'The Rhodes Colossus: striding from Cape Town to Cairo', by Edward Linley Sambourne, Punch, 10 December 1892. A satirist's picture of ambition, not a record of borders.",
+            "credit": "Edward Linley Sambourne",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Rhodes_Colossus_Punch_1892.jpg",
+            "width": 800,
+            "height": 1053,
+            "narrow": true
+          }
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "15 Nov 1884",
+              "text": "Preliminary discussions begin in Berlin.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "when": "26 Feb 1885",
+              "text": "The debates end.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            },
+            {
+              "when": "1914",
+              "text": "The whole continent, apart from Abyssinia and Liberia, is under European control.",
+              "cite": [
+                "worldhistory-berlin"
+              ]
+            }
+          ]
+        }
+      ]
     }
-   ]
-  }
- ],
- "gaps": [
-  "Two sources, both secondary and neither a specialist's book. The Historical Association's page was read only in its free introduction; a historian's account of the Scramble for Africa should replace them.",
-  "The sources differ on who asked for the conference; this page says only who called it.",
-  "The page says nothing about how the borders were later drawn or how they were challenged, which is a story of its own."
- ]
+  ],
+  "gaps": [
+    "Two sources, both secondary and neither a specialist's book. The Historical Association's page was read only in its free introduction; a historian's account of the Scramble for Africa should replace them.",
+    "The sources differ on who asked for the conference; this page says only who called it.",
+    "The page says nothing about how the borders were later drawn or how they were challenged, which is a story of its own.",
+    "The two cartoons are satire: they show how people imagined the scramble, not what the conference decided. The caption of each says so."
+  ],
+  "keyPoints": [
+    {
+      "text": "The conference ran from November 1884 to February 1885, and fourteen states were represented.",
+      "cite": [
+        "worldhistory-berlin"
+      ]
+    },
+    {
+      "text": "No African kingdom, state or culture whose territory was about to be affected had a representative.",
+      "cite": [
+        "worldhistory-berlin"
+      ]
+    },
+    {
+      "text": "It recognised a claim only where a European government was already in effective control, and the source says it 'did not actually divide the continent'.",
+      "cite": [
+        "worldhistory-berlin"
+      ]
+    }
+  ]
 }

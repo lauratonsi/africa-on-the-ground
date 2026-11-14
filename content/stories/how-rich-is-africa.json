@@ -21,8 +21,14 @@
           ]
         },
         {
-          "type": "reveal",
-          "prompt": "Think first: how many times higher do you think the richest African country's income per person is than the lowest?",
+          "type": "estimate",
+          "prompt": "How many times higher is the richest African country's income per person than the lowest?",
+          "min": 1,
+          "max": 200,
+          "step": 1,
+          "unit": "×",
+          "answer": 73,
+          "decimals": 0,
           "parts": [
             {
               "text": "About 73 times, in 2023 World Bank figures.",
@@ -165,6 +171,237 @@
             "wb-gdp-pc-2023"
           ],
           "note": "Values are the World Bank's NY.GDP.PCAP.CD for 2023, rounded. Which countries are shown (five highest, five lowest of the 52 with a figure) is chosen here. Eritrea and South Sudan have no 2023 figure."
+        },
+        {
+          "type": "table",
+          "title": "Income per person, all 52 countries with a figure",
+          "sub": "GDP per person, 2023, current US dollars. Click a column heading to sort.",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Country"
+            },
+            {
+              "key": "gdp",
+              "label": "GDP per person",
+              "type": "number",
+              "format": "usd"
+            }
+          ],
+          "rows": [
+            {
+              "name": "Seychelles",
+              "gdp": 18130.5297135548
+            },
+            {
+              "name": "Mauritius",
+              "gdp": 11269.9684462139
+            },
+            {
+              "name": "Botswana",
+              "gdp": 7827.30027960734
+            },
+            {
+              "name": "Gabon",
+              "gdp": 7802.82433276138
+            },
+            {
+              "name": "Equatorial Guinea",
+              "gdp": 6788.35271638376
+            },
+            {
+              "name": "South Africa",
+              "gdp": 6034.27208964673
+            },
+            {
+              "name": "Libya",
+              "gdp": 6026.51518708812
+            },
+            {
+              "name": "Algeria",
+              "gdp": 5370.477235078
+            },
+            {
+              "name": "Cabo Verde",
+              "gdp": 4794.90119772843
+            },
+            {
+              "name": "Namibia",
+              "gdp": 4225.99102418102
+            },
+            {
+              "name": "Tunisia",
+              "gdp": 3951.11683376921
+            },
+            {
+              "name": "Morocco",
+              "gdp": 3813.72607421875
+            },
+            {
+              "name": "Eswatini",
+              "gdp": 3755.52111232464
+            },
+            {
+              "name": "Egypt",
+              "gdp": 3456.78965212363
+            },
+            {
+              "name": "Djibouti",
+              "gdp": 3381.29779710722
+            },
+            {
+              "name": "São Tomé and Príncipe",
+              "gdp": 2990.6606143535
+            },
+            {
+              "name": "Angola",
+              "gdp": 2885.51349130806
+            },
+            {
+              "name": "Côte d'Ivoire",
+              "gdp": 2591.9659048119
+            },
+            {
+              "name": "Congo",
+              "gdp": 2477.97845544866
+            },
+            {
+              "name": "Ghana",
+              "gdp": 2383.90410476221
+            },
+            {
+              "name": "Zimbabwe",
+              "gdp": 2195.22502010174
+            },
+            {
+              "name": "Nigeria",
+              "gdp": 2138.76383718757
+            },
+            {
+              "name": "Mauritania",
+              "gdp": 2127.9576285973
+            },
+            {
+              "name": "Kenya",
+              "gdp": 1942.58802756191
+            },
+            {
+              "name": "Comoros",
+              "gdp": 1723.89474946474
+            },
+            {
+              "name": "Cameroon",
+              "gdp": 1720.47510154506
+            },
+            {
+              "name": "Senegal",
+              "gdp": 1698.03387300843
+            },
+            {
+              "name": "Guinea",
+              "gdp": 1555.49375806861
+            },
+            {
+              "name": "Benin",
+              "gdp": 1394.17784721831
+            },
+            {
+              "name": "Zambia",
+              "gdp": 1330.72780576709
+            },
+            {
+              "name": "Tanzania",
+              "gdp": 1224.00219726563
+            },
+            {
+              "name": "Togo",
+              "gdp": 1182.32951436696
+            },
+            {
+              "name": "Rwanda",
+              "gdp": 1061.05788154076
+            },
+            {
+              "name": "Ethiopia",
+              "gdp": 1055.81091593061
+            },
+            {
+              "name": "Mali",
+              "gdp": 1042.44223444837
+            },
+            {
+              "name": "Uganda",
+              "gdp": 1002.30913917142
+            },
+            {
+              "name": "Guinea-Bissau",
+              "gdp": 964.431832665395
+            },
+            {
+              "name": "Chad",
+              "gdp": 949.991054236266
+            },
+            {
+              "name": "Lesotho",
+              "gdp": 921.435141557056
+            },
+            {
+              "name": "Gambia",
+              "gdp": 883.024111978927
+            },
+            {
+              "name": "Burkina Faso",
+              "gdp": 873.198061670247
+            },
+            {
+              "name": "Liberia",
+              "gdp": 799.194470229642
+            },
+            {
+              "name": "Sudan",
+              "gdp": 797.283447265625
+            },
+            {
+              "name": "Sierra Leone",
+              "gdp": 758.329137301888
+            },
+            {
+              "name": "DR Congo",
+              "gdp": 660.21205238997
+            },
+            {
+              "name": "Niger",
+              "gdp": 647.930108509567
+            },
+            {
+              "name": "Malawi",
+              "gdp": 633.214767978695
+            },
+            {
+              "name": "Mozambique",
+              "gdp": 622.191133245967
+            },
+            {
+              "name": "Somalia",
+              "gdp": 596.885985135589
+            },
+            {
+              "name": "Madagascar",
+              "gdp": 514.064076551927
+            },
+            {
+              "name": "Central African Republic",
+              "gdp": 495.978897288721
+            },
+            {
+              "name": "Burundi",
+              "gdp": 249.795164039029
+            }
+          ],
+          "cite": [
+            "wb-gdp-pc-2023"
+          ],
+          "note": "World Bank NY.GDP.PCAP.CD for 2023, rounded to the dollar. Eritrea and South Sudan have no 2023 figure and are left out."
         }
       ]
     },

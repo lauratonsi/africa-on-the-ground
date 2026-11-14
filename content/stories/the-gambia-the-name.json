@@ -4,7 +4,9 @@
   "kind": "history",
   "title": "The country with a river in its name",
   "subtitle": "Why English says The Gambia, what the river has to do with it, and what a map cannot tell us.",
-  "countries": ["GMB"],
+  "countries": [
+    "GMB"
+  ],
   "places": [],
   "sections": [
     {
@@ -16,7 +18,10 @@
           "parts": [
             {
               "text": "The World Factbook calls the country The Gambia, while its capital is Banjul and its river is the Gambia River.",
-              "cite": ["cia-factbook", "britannica-gambia"]
+              "cite": [
+                "cia-factbook",
+                "britannica-gambia"
+              ]
             },
             {
               "text": "The word The is therefore part of the English country name, not an article added by a sentence or by this website.",
@@ -29,8 +34,25 @@
           "parts": [
             {
               "text": "That small word matters because Gambia is also the name of the river and because the country is often discussed beside Senegal, whose territory surrounds it on its landward sides.",
-              "cite": ["britannica-gambia", "wikipedia-gambia"]
+              "cite": [
+                "britannica-gambia",
+                "wikipedia-gambia"
+              ]
             }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: 'The' in The Gambia is just an article added by whoever writes the sentence.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The World Factbook calls the country The Gambia: the word The is part of the English country name.",
+          "cite": [
+            "cia-factbook",
+            "britannica-gambia"
           ]
         }
       ]
@@ -44,7 +66,10 @@
           "parts": [
             {
               "text": "The country follows the lower Gambia River inland from the Atlantic coast. The river is not a border detail at the edge of the map: it is the long geographical feature around which the country is organised.",
-              "cite": ["britannica-gambia", "wikipedia-gambia"]
+              "cite": [
+                "britannica-gambia",
+                "wikipedia-gambia"
+              ]
             }
           ]
         },
@@ -53,7 +78,10 @@
           "parts": [
             {
               "text": "Banjul sits at the river's mouth, where the water reaches the Atlantic. The country's capital, its river and its internationally used name therefore appear together in a very small space.",
-              "cite": ["cia-factbook", "britannica-gambia"]
+              "cite": [
+                "cia-factbook",
+                "britannica-gambia"
+              ]
             }
           ]
         }
@@ -68,7 +96,10 @@
           "parts": [
             {
               "text": "On a map, The Gambia can look like a narrow corridor following the river through Senegal. That outline is often treated as a curiosity, but a shape on a map is the result of histories, negotiations and power rather than a natural boundary drawn by the river alone.",
-              "cite": ["britannica-gambia", "wikipedia-gambia"]
+              "cite": [
+                "britannica-gambia",
+                "wikipedia-gambia"
+              ]
             }
           ]
         },
@@ -112,6 +143,27 @@
     "The colonial and precolonial history of the name, including the naming of the river in European maps.",
     "The country's official naming history at independence and in later constitutional documents.",
     "How the name is used in Mandinka, Wolof, Fula and other languages spoken in the country.",
-    "A local reading of the story: no one from The Gambia has reviewed it yet."
+    "A local reading of the story: no one from The Gambia has reviewed it yet.",
+    "No figure, date or image has been added to this story yet; the colonial history of the name is the main gap."
+  ],
+  "keyPoints": [
+    {
+      "text": "The World Factbook calls the country The Gambia, while its capital is Banjul and its river is the Gambia River.",
+      "cite": [
+        "cia-factbook",
+        "britannica-gambia"
+      ]
+    },
+    {
+      "text": "The country follows the lower Gambia River inland from the Atlantic coast.",
+      "cite": [
+        "britannica-gambia",
+        "wikipedia-gambia"
+      ]
+    },
+    {
+      "text": "A map name cannot tell us what the name means to the people who live there.",
+      "editorial": true
+    }
   ]
 }

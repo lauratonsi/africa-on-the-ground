@@ -245,6 +245,23 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
         } else if (b.type === "stat") {
           if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
           (b.items || []).forEach((it, ii) => { if (!it.value || !it.label) err(`${bw}.items[${ii}]: manca value o label.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+        } else if (b.type === "estimate") {
+          for (const k of ["min", "max", "answer"]) if (typeof b[k] !== "number") err(`${bw}: estimate richiede "${k}" numerico.`);
+          if (typeof b.answer === "number" && (b.answer < b.min || b.answer > b.max)) err(`${bw}: la risposta è fuori dall'intervallo.`);
+          if (!b.prompt) err(`${bw}: estimate senza prompt.`);
+          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+          (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
+        } else if (b.type === "check") {
+          if (!b.q || !Array.isArray(b.options) || b.options.length < 2 || !b.options.includes(b.answer) || !b.explain) err(`${bw}: check richiede q, options, answer tra le options e explain.`);
+          checkCite(b.cite, bw);
+        } else if (b.type === "order") {
+          if (!b.prompt || !Array.isArray(b.items) || b.items.length < 3) err(`${bw}: order richiede prompt e almeno 3 items nell'ordine corretto.`);
+          (b.items || []).forEach((it, ii) => { if (!it.label || !it.when || !it.text) err(`${bw}.items[${ii}]: manca label, when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+        } else if (b.type === "table") {
+          if (!b.title || !b.note) err(`${bw}: table richiede title e note.`);
+          if (!Array.isArray(b.columns) || b.columns.length < 2) err(`${bw}: columns richiede almeno 2 colonne.`);
+          if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
+          checkCite(b.cite, bw);
         } else if (b.type === "callout" || b.type === "reveal") {
           if (b.type === "callout" && !b.title) err(`${bw}: callout senza title.`);
           if (b.type === "reveal" && !b.prompt) err(`${bw}: reveal senza prompt.`);
@@ -270,7 +287,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
               if (Math.abs(tot - 100) > 0.6) err(`${bw}.rows[${ri}]: i valori sommano ${tot.toFixed(1)}, non 100.`);
             });
           } else (b.rows || []).forEach((r, ri) => { if (!r.label || typeof r.value !== "number" || !r.text) err(`${bw}.rows[${ri}]: serve label, value numerico e text.`); });
-        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline, chart, stat, callout, reveal, figure).`);
+        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline, chart, stat, callout, reveal, figure, estimate, check, order, table).`);
       });
     });
     (st.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });
