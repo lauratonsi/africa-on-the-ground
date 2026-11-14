@@ -50,11 +50,13 @@ export function loadAll() {
   const duolingo = fs.existsSync(duoPath) ? readJson(duoPath) : null;
   const proposedDishesPath = path.join(root, "content", "data", "proposed-dishes.json");
   const proposedDishes = fs.existsSync(proposedDishesPath) ? readJson(proposedDishesPath) : null;
+  const artPath = path.join(root, "content", "data", "art.json");
+  const artCatalog = fs.existsSync(artPath) ? readJson(artPath) : null;
   const capitalsDir = path.join(root, "content", "capitals");
   const capitals = fs.existsSync(capitalsDir)
     ? fs.readdirSync(capitalsDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(capitalsDir, f)) }))
     : [];
-  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, capitals };
+  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, artCatalog, capitals };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -142,6 +144,19 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     if (!Array.isArray(b.steps) || b.steps.length < 2) err(`${bw}: recipe richiede almeno 2 passi.`);
     (b.steps || []).forEach((st, si) => { if (!st.text) err(`${bw}.steps[${si}]: manca text.`); });
     checkCite(b.cite, bw);
+  };
+  // "Go deeper": ogni link verso l'esterno rimanda a una fonte registrata in sources.json (quindi con tipo e stato), con il motivo per leggerla
+  const DEEPER_KINDS = new Set(["book", "article", "museum", "archive", "data", "podcast", "document", "news"]);
+  const checkDeeper = (list, w) => {
+    if (list == null) return;
+    if (!Array.isArray(list)) { err(`${w}: "deeper" deve essere una lista.`); return; }
+    list.forEach((d, i) => {
+      const dw = `${w}: deeper[${i}]`;
+      if (!d.source || !sources.has(d.source)) err(`${dw}: la fonte "${d.source}" non esiste in sources.json.`);
+      else used.add(d.source);
+      if (!DEEPER_KINDS.has(d.kind)) err(`${dw}: kind deve essere uno tra ${[...DEEPER_KINDS].join(", ")}.`);
+      if (!d.why || typeof d.why !== "string") err(`${dw}: manca "why" (perché vale la pena leggerla).`);
+    });
   };
   const checkRichBlock = (b, bw, checkCite) => {
       if (b.type === "p") {
@@ -243,6 +258,7 @@ const checkRecipeBlock = (b, bw, checkCite) => {
       if (!f.label || !f.value) err(`${w}: facts[${i}] senza label o value.`);
       checkCite(f.cite, `${w}: facts[${i}]`);
     });
+    checkDeeper(p.deeper, w);
     const seenSections = new Set();
     (p.sections || []).forEach((s, si) => {
       const sw = `${w}: sections[${si}]`;
@@ -307,6 +323,7 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     for (const k of ["title", "subtitle"]) if (!st[k]) err(`${w}: manca "${k}".`);
     for (const code of st.countries || []) if (!/^[A-Z]{3}$/.test(code) || (countries && !(countries.countries || []).some((c) => c.iso3 === code))) err(`${w}: country "${code}" non è tra i 54 stati.`);
     for (const slug of st.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    checkDeeper(st.deeper, w);
     if (!Array.isArray(st.sections) || !st.sections.length) err(`${w}: serve almeno una sezione.`);
     const seen = new Set();
     (st.sections || []).forEach((sec, si) => {
@@ -340,6 +357,7 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     if (!/^[A-Z]{3}$/.test(c.country || "") || (countries && !(countries.countries || []).some((x) => x.iso3 === c.country))) err(`${w}: country non valido.`);
     for (const k of ["name", "subtitle"]) if (!c[k]) err(`${w}: manca "${k}".`);
     for (const slug of c.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    checkDeeper(c.deeper, w);
     (c.facts || []).forEach((f, i) => { if (!f.label || !f.value) err(`${w}: facts[${i}] senza label o value.`); checkCite(f.cite, `${w}: facts[${i}]`); });
     (c.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });
     const seenC = new Set();

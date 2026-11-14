@@ -1,0 +1,50 @@
+{
+  "title": "Art",
+  "lede": "A first map of art, objects and living practices already present in the place cards.",
+  "categories": [
+    {
+      "id": "rock-art",
+      "label": "Rock art and archaeology",
+      "intro": "Marks in stone, ancient landscapes and the evidence they leave behind.",
+      "places": [
+        "chongoni-rock-art-area",
+        "laas-geel",
+        "tsodilo",
+        "twyfelfontein"
+      ]
+    },
+    {
+      "id": "collections",
+      "label": "Objects and collections",
+      "intro": "Museums and galleries where objects are kept, interpreted and made public.",
+      "places": [
+        "botswana-national-museum-and-art-gallery",
+        "national-art-gallery-of-namibia",
+        "pretoria-art-museum",
+        "independence-memorial-museum"
+      ]
+    },
+    {
+      "id": "living",
+      "label": "Living practices",
+      "intro": "Craft, performance and cultural places that are still used, taught and changed.",
+      "places": [
+        "gishora-drum-sanctuary",
+        "osun-osogbo-sacred-grove",
+        "poto-poto-school-brazzaville",
+        "swazi-candles-centre-malkerns-valley"
+      ]
+    },
+    {
+      "id": "contemporary",
+      "label": "Contemporary scenes",
+      "intro": "Studios, schools and institutions that connect inherited forms with present-day work.",
+      "places": [
+        "thapong-visual-arts-centre",
+        "namibia-craft-centre-old-breweries-building",
+        "freedom-park",
+        "heroes-acre"
+      ]
+    }
+  ]
+}

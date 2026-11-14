@@ -622,6 +622,9 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 
 /* ---------- pagina Places ---------- */
 .places-index { padding-block: clamp(24px, 4vw, 48px) clamp(56px, 8vw, 110px); }
+.places-subnav { margin: 0 0 24px; }
+.art-note { max-width: 62ch; margin: 0 0 28px; color: var(--ink-soft); }
+.art-intro { max-width: 58ch; margin: -4px 0 8px; color: var(--ink-soft); }
 .pi-count { margin: 0 0 18px; color: var(--ink-soft); }
 .pi-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: clamp(24px, 4vw, 44px); }
 .pi-jump a { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 600; box-shadow: inset 0 0 0 1.5px var(--line); }
@@ -1142,3 +1145,14 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 .cap-list strong { display: block; }
 .cap-list small { display: block; color: var(--viz-2); font-weight: 700; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
 .cap-list em { display: block; font-style: normal; color: var(--ink-soft); font-size: .92rem; }
+
+/* ---------- approfondimenti verso l'esterno ---------- */
+.deeper { margin: 36px 0; padding: 18px 20px; background: var(--surface); border-radius: var(--radius); box-shadow: inset 0 0 0 1.5px var(--line); }
+.deeper h2 { margin: 6px 0 12px; }
+.deeper-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.deeper-list li { display: grid; gap: 2px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.deeper-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.deeper-kind { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--viz-2); font-weight: 800; }
+.deeper-list a { font-weight: 700; }
+.deeper-meta { color: var(--ink-soft); font-size: .88rem; }
+.deeper-list p { margin: 4px 0 0; }

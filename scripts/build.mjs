@@ -26,14 +26,14 @@ for (const { file, data: pl } of data.places) {
   }
 }
 
-const { config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [] } = data;
+const { config, sourcesList, places, notes, methodHtml, methodPage = null, artCatalog = null, capitals = [] } = data;
 const blocsList = data.blocs ? data.blocs.blocs : [];
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "src/explore.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -168,7 +168,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -229,6 +229,17 @@ function citedIds(place) {
 }
 
 // Citazioni numerate in ordine di comparsa, con l'elenco delle fonti costruito alla fine.
+// "Go deeper": link verso l'esterno, sempre a una fonte registrata (con tipo e stato), con il motivo per leggerla.
+const DEEPER_LABEL = { book: "Book", article: "Article", museum: "Museum or collection", archive: "Archive", data: "Data", podcast: "Podcast", document: "Primary document", news: "News report" };
+function deeperHtml(list) {
+  if (!list || !list.length) return "";
+  const items = list.map((d) => {
+    const src = sources.get(d.source);
+    return `<li><span class="deeper-kind">${esc(DEEPER_LABEL[d.kind] || d.kind)}</span><a href="${esc(src.url)}" rel="noopener">${esc(src.title)}</a><span class="deeper-meta">${esc(src.publisher)}${src.status !== "verified" ? " · not yet verified" : ""}</span><p>${esc(d.why)}</p></li>`;
+  }).join("");
+  return `<section id="sec-deeper" class="deeper"><span class="layer-tag rec">Go deeper</span><h2>Keep learning beyond this site</h2><ul class="deeper-list">${items}</ul><p class="note-small">These pages are outside this site and have their own terms. We read them first, and this site sets nothing on your device when you follow a link.</p></section>`;
+}
+
 function makeCiter() {
   const order = [];
   const cite = (ids) => (ids || []).map((id) => {
@@ -429,6 +440,7 @@ ${credit}
   <article class="record" id="record">
 <div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}
 ${sections}
+${deeperHtml(p.deeper)}
 ${gaps}
 ${sourcesHtml}
   </article>
@@ -600,7 +612,9 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
   const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
   const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
-  const related = relCountries || relPlaces || toolLi ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
+  const relStories = stories.filter((x) => x.slug !== st.slug && ((x.countries || []).some((c) => (st.countries || []).includes(c)) || (x.places || []).some((pl) => (st.places || []).includes(pl)))).slice(0, 4).map((x) => `<a href="../${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
+  const relCaps = (st.countries || []).map((iso) => capitals.find(({ data: cp }) => cp.country === iso && (cp.sections || []).length && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a>`).join(", ");
+  const related = relCountries || relPlaces || toolLi || relStories || relCaps ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
@@ -609,6 +623,7 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
 ${checks}
 ${gaps}
 ${voices}
+${deeperHtml(st.deeper)}
 ${related}
 ${sourcesList()}
 ${moreHtml}</article></div>`;
@@ -640,6 +655,7 @@ if (stories.length) {
 }
 
 write("places/index.html", renderPlaces());
+if (artCatalog) write("places/art/index.html", renderArt());
 write("index.html", layout({
   title: config.name,
   description: config.tagline,
@@ -1461,6 +1477,7 @@ function renderPlaces() {
   </div>`;
   const body = `${compactHero({ kicker: "Places", title: "All places", sub: "One page per place, grouped by region. Each card keeps the documented record and the local voice apart." })}
 <div class="wrap places-index">
+  <p class="places-subnav"><a class="btn btn-alt" href="art/index.html">Explore art in the places</a></p>
   <p class="pi-count" id="pi-count" aria-live="polite">${published.length} ${published.length === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "region" : "regions"}${includeDrafts ? " (drafts included)" : ""}.</p>
   ${tools}
   <nav class="pi-jump" id="pi-jump" aria-label="Regions">${jumpBar}</nav>
@@ -1468,6 +1485,27 @@ function renderPlaces() {
   ${groups.map((g) => `<section class="pgroup" id="r-${esc(g.id)}"><h2>${esc(g.label)}</h2><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
 </div>`;
   return layout({ title: `Places · ${config.name}`, description: "Every place card, grouped by region.", depth: 1, current: "places", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
+}
+
+function renderArt() {
+  const categories = (artCatalog && artCatalog.categories) || [];
+  const bySlug = new Map(published.map((p) => [p.slug, p]));
+  const groups = categories.map((g) => ({ ...g, items: g.places.map((slug) => bySlug.get(slug)).filter(Boolean) })).filter((g) => g.items.length);
+  const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.charAt(0))}</span>`;
+  const row = (p) => `<li data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-q="${esc((p.name + " " + p.region).toLowerCase())}"><a class="prow" href="../${esc(p.slug)}/index.html">${thumb(p)}<span class="prow-name">${esc(p.name)}</span><span class="prow-meta">${esc(p.region)} · ${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} ${citedIds(p).size === 1 ? "source" : "sources"}</span>${p.status === "draft" ? '<span class="draft">Draft</span>' : ""}</a></li>`;
+  const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
+  const tools = `<div class="pi-tools" id="pi-tools" hidden>
+    <label class="pi-search"><span class="sr">Search art and places</span><input type="search" id="pi-q" placeholder="Search art and places" autocomplete="off"></label>
+  </div>`;
+  const body = `${compactHero({ kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
+<div class="wrap places-index art-index">
+  <p class="art-note">This is a growing index, not a gallery. Open a place card to see its sources, image credit and the local voice the project is still waiting for.</p>
+  ${tools}
+  <nav class="pi-jump" id="pi-jump" aria-label="Art categories">${jumpBar}</nav>
+  <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches this search. <button type="button" class="linkbtn" id="pi-reset">Clear the search</button></p>
+  ${groups.map((g) => `<section class="pgroup art-group" id="r-${esc(g.id)}"><h2>${esc(g.label)}</h2><p class="art-intro">${esc(g.intro)}</p><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
+</div>`;
+  return layout({ title: `Art · Places · ${config.name}`, description: artCatalog.lede, depth: 2, current: "art", body, extraScripts: ["places.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
 }
 
 // ---------- pagina Capitals: il dato della capitale e lo stato della scheda urbana ----------
@@ -1490,15 +1528,48 @@ function renderCapital(c) {
 ${nList.length ? `<div class="notes">${nList.map((n) => noteCard(n, config.noteKinds || [])).join("")}</div>` : `<div class="empty"><strong>No local voice on this city yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people from the place afterwards.</span></div>`}
 ${shareSection({ type: "capital", id: c.slug, name: c.name, kinds: config.noteKinds || [], heading: `Do you know ${c.name}?`, intro: "Tell us what a visitor should know, or what looks wrong here.", depth: 2 })}
 </section>`;
+  const capStories = stories.filter((x) => (x.countries || []).includes(c.country)).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const cSlugC = cSlug[c.country] ? `<li>Country page: <a href="../../countries/${esc(cSlug[c.country])}/index.html">${esc(country)}</a></li>` : "";
   const body = `${compactHero({ kicker: `Capital · ${country}`, title: c.name, sub: c.subtitle })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
 ${seeHtml}
 ${gaps}
 ${voices}
-<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${cSlugC}<li><a href="../index.html">All capitals</a></li></ul></aside>
+${deeperHtml(c.deeper)}
+<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${cSlugC}${capStories ? `<li>Stories: ${capStories}</li>` : ""}<li><a href="../index.html">All capitals</a></li></ul></aside>
 ${sourcesList()}</article></div>`;
   return layout({ title: `${c.name} · ${country} · ${config.name}`, description: c.subtitle, depth: 2, current: "capitals", body, extraScripts: ["story.js", "recipe.js", "share.js"], jump: [...(c.sections || []).map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 4), ...(seeing.length ? [{ id: "sec-places", label: "To see" }] : []), { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+}
+
+// Pagina "Connections": il grafo dei collegamenti tra Paesi, capitali, luoghi, storie e blocchi regionali, da esplorare e da giocare.
+function renderExplore() {
+  const countries = data.countries ? data.countries.countries : [];
+  const nodes = [], edges = [], ids = new Set();
+  const add = (id, t, l, h) => { if (!ids.has(id)) { ids.add(id); nodes.push({ id, t, l, h }); } };
+  for (const c of countries) add(`c:${c.iso3}`, "country", c.name, `../countries/${cSlug[c.iso3]}/index.html`);
+  for (const b of blocsList) { add(`b:${b.id}`, "bloc", b.short, "../countries/index.html"); for (const iso of b.members) if (ids.has(`c:${iso}`)) edges.push([`c:${iso}`, `b:${b.id}`]); }
+  const capsHere = capitals.filter(({ data: cp }) => (cp.sections || []).length && (cp.status === "published" || includeDrafts));
+  for (const { data: cp } of capsHere) { add(`k:${cp.slug}`, "capital", cp.name, `../capitals/${cp.slug}/index.html`); edges.push([`k:${cp.slug}`, `c:${cp.country}`]); }
+  for (const pl of published) { if (!pl.country || pl.type === "dish" && !pl.country) continue; add(`p:${pl.slug}`, "place", pl.name, `../places/${pl.slug}/index.html`); if (ids.has(`c:${pl.country}`)) edges.push([`p:${pl.slug}`, `c:${pl.country}`]); }
+  for (const { data: cp } of capsHere) for (const slug of cp.places || []) if (ids.has(`p:${slug}`)) edges.push([`k:${cp.slug}`, `p:${slug}`]);
+  for (const st of stories) { add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`); for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]); for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]); }
+  const graph = { nodes, edges };
+  const body = `${compactHero({ kicker: "Explore", title: "Connections", sub: "Everything on this site is linked to something else. Pick a starting point and follow the threads." })}
+<div class="wrap prose-hero">
+<section class="explore" id="explore" aria-labelledby="ex-h">
+  <h2 id="ex-h">Follow the threads</h2>
+  <noscript><p class="fine">This explorer needs JavaScript. Without it, every page links to the countries, places and stories connected to it under "Keep exploring".</p></noscript>
+  <div class="ex-ui" id="ex-ui" hidden>
+    <div class="ex-bar"><label for="ex-pick">Start from</label><select id="ex-pick"></select><button type="button" class="rc-btn" id="ex-random">Surprise me</button><button type="button" class="rc-btn" id="ex-back" disabled>Back</button></div>
+    <div class="ex-main"><svg class="ex-svg" id="ex-svg" viewBox="-300 -240 600 480" role="img" aria-label="Diagram of the connections of the chosen item; the same links are listed below"></svg>
+    <div class="ex-card" id="ex-card" aria-live="polite"></div></div>
+    <div class="ex-lists" id="ex-lists"></div>
+  </div>
+  <div class="game" id="ex-game" hidden aria-labelledby="exg-h"><span class="layer-tag rec">Thread game</span><h3 id="exg-h">Get from one to the other</h3><div id="exg-q"></div><p class="game-score" id="exg-score" role="status" aria-live="polite"></p></div>
+  <p class="fine">Links come from the content itself: a place card belongs to a country, a story lists its countries and places, a capital lists its places to see, and countries belong to regional blocs. Nothing you do here is saved or sent.</p>
+</section></div>
+<script type="application/json" id="graphdata">${JSON.stringify(graph).replace(/</g, "\\u003c")}</script>`;
+  return layout({ title: `Connections · ${config.name}`, description: "A map of how the countries, capitals, places and stories on this site connect, with a game.", depth: 1, current: "explore", body, extraScripts: ["explore.js"], bodyClass: "still" });
 }
 
 function renderCapitals() {
@@ -1531,6 +1602,7 @@ function renderCapitals() {
 }
 
 write("capitals/index.html", renderCapitals());
+write("explore/index.html", renderExplore());
 for (const { data: c } of capitals) {
   if (c.status !== "published" && !includeDrafts) continue;
   if (!(c.sections || []).length) continue; // bozza vuota: nessuna pagina
@@ -1585,6 +1657,7 @@ fs.copyFileSync(path.join(root, "src", "quiz.js"), path.join(dist, "quiz.js"));
 fs.copyFileSync(path.join(root, "src", "story.js"), path.join(dist, "story.js"));
 fs.copyFileSync(path.join(root, "src", "recipe.js"), path.join(dist, "recipe.js"));
 fs.copyFileSync(path.join(root, "src", "society.js"), path.join(dist, "society.js"));
+fs.copyFileSync(path.join(root, "src", "explore.js"), path.join(dist, "explore.js"));
 fs.copyFileSync(path.join(root, "src", "languages.js"), path.join(dist, "languages.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
