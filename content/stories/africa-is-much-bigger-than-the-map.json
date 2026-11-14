@@ -70,6 +70,20 @@
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "tissot-mercator",
+            "alt": "A Mercator world map with equal red circles at regular intervals, growing larger toward the poles.",
+            "caption": "A Mercator map with identical circles placed at regular intervals: on the map they grow larger toward the poles, though all are the same size on the ground.",
+            "credit": "Stefan Kühn",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "source": "https://commons.wikimedia.org/wiki/Tissot_mercator.png",
+            "width": 777,
+            "height": 720
+          }
+        },
+        {
           "type": "p",
           "parts": [
             {

@@ -47,20 +47,35 @@
           "type": "p",
           "parts": [
             {
-              "text": "The Kingdom of Aksum, in what is now Eritrea and northern Ethiopia, developed its own script, Ge'ez, later adapted to mark vowels and become an abugida.",
+              "text": "Aksum, in what is now Eritrea and northern Ethiopia, had its own locally developed Ge'ez script.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
               ]
             }
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "ezana-stone",
+            "alt": "A tall slab of grey stone standing inside a small stone building, its surface covered in lines of inscribed letters.",
+            "caption": "The Ezana Stone at Aksum, which carries inscriptions in Greek and Ge'ez.",
+            "credit": "Rod Waddington from Kergunyah, Australia",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "source": "https://commons.wikimedia.org/wiki/Ezana_Stone%2C_Aksum_(6183743976).jpg",
+            "width": 800,
+            "height": 1315,
+            "narrow": true
+          }
+        },
+        {
           "type": "p",
           "parts": [
             {
-              "text": "A stone raised by King Ezana in the fourth century carries inscriptions in both Greek and Ge'ez.",
+              "text": "Four of King Ezana's inscriptions are written in Greek and Ge'ez.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
               ]
             }
           ]
@@ -111,6 +126,20 @@
               ]
             }
           ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "timbuktu-astronomy",
+            "alt": "Two open pages of an old Arabic manuscript with circular diagrams and lines of handwritten text.",
+            "caption": "Pages of Timbuktu manuscripts with circular astronomical diagrams.",
+            "credit": "Elias Altmimi",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Timbuktu-manuscripts-astronomy-mathematics.jpg",
+            "width": 800,
+            "height": 533
+          }
         },
         {
           "type": "p",
@@ -222,11 +251,11 @@
           ],
           "items": [
             {
-              "when": "4th century",
+              "when": "mid-4th century",
               "tag": "record",
-              "text": "King Ezana's stone carries inscriptions in Greek and Ge'ez.",
+              "text": "King Ezana's reign; four of his inscriptions are written in Greek and Ge'ez.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
               ]
             },
             {
@@ -268,11 +297,11 @@
           "prompt": "Put these four moments in order.",
           "items": [
             {
-              "label": "Ezana's stone is inscribed in Greek and Ge'ez",
-              "when": "4th century",
-              "text": "A stone raised by King Ezana carries inscriptions in both Greek and Ge'ez.",
+              "label": "Ezana's inscriptions are written in Greek and Ge'ez",
+              "when": "mid-4th century",
+              "text": "Four of Ezana's inscriptions are written in Greek and Ge'ez.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
               ]
             },
             {
@@ -318,9 +347,9 @@
       ]
     },
     {
-      "text": "Aksum developed its own script, Ge'ez, and a fourth-century stone of King Ezana carries inscriptions in Greek and Ge'ez.",
+      "text": "Aksum had its own locally developed Ge'ez script, and four of King Ezana's inscriptions are written in Greek and Ge'ez.",
       "cite": [
-        "wikipedia-kingdom-of-aksum"
+        "ebsco-aksum-2022"
       ]
     },
     {

@@ -169,6 +169,213 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Cook koshari at home",
+          "servings": 4,
+          "sub": "One version, for four, as given by Muna Kenny of Munaty Cooking. Steps are paraphrased.",
+          "cite": [
+            "munaty-koshari-2023",
+            "hungrypaprikas-koshari-2023"
+          ],
+          "ingredients": [
+            {
+              "name": "onion, thinly sliced, for frying",
+              "unit": "large",
+              "amount": 1
+            },
+            {
+              "name": "cooking oil, for frying the onion",
+              "unit": "cup",
+              "amount": 0.5,
+              "note": "up to ¾ cup"
+            },
+            {
+              "name": "short-grain rice, washed",
+              "unit": "cup",
+              "amount": 1
+            },
+            {
+              "name": "green lentils",
+              "unit": "cup",
+              "amount": 0.25,
+              "note": "washed and soaked in very hot water for 1 hour"
+            },
+            {
+              "name": "small elbow macaroni, uncooked",
+              "unit": "cup",
+              "amount": 0.5
+            },
+            {
+              "name": "vermicelli, uncooked",
+              "unit": "cup",
+              "amount": 0.25
+            },
+            {
+              "name": "spaghetti, broken in pieces",
+              "unit": "g",
+              "amount": 60
+            },
+            {
+              "name": "onion oil from frying the onion",
+              "unit": "tbsp",
+              "amount": 3
+            },
+            {
+              "name": "chicken or vegetable bouillon cube",
+              "unit": "",
+              "amount": 1
+            },
+            {
+              "name": "boiling water",
+              "unit": "cups",
+              "amount": 3.5
+            },
+            {
+              "name": "tomato, pureed (or two medium tomatoes)",
+              "unit": "large",
+              "amount": 1
+            },
+            {
+              "name": "tomato paste",
+              "unit": "tbsp",
+              "amount": 1
+            },
+            {
+              "name": "garlic, minced",
+              "unit": "tsp",
+              "amount": 1.5
+            },
+            {
+              "name": "black pepper",
+              "unit": "tsp",
+              "amount": 0.25
+            },
+            {
+              "name": "ground cumin",
+              "unit": "tsp",
+              "amount": 0.25
+            },
+            {
+              "name": "ground coriander",
+              "unit": "tsp",
+              "amount": 0.25
+            },
+            {
+              "name": "salt",
+              "unit": "tsp",
+              "amount": 0.25
+            },
+            {
+              "name": "sugar",
+              "unit": "tsp",
+              "amount": 0.25
+            },
+            {
+              "name": "onion oil",
+              "unit": "tbsp",
+              "amount": 2
+            },
+            {
+              "name": "water for the tomato sauce",
+              "unit": "cup",
+              "amount": 1
+            },
+            {
+              "name": "water for the cumin sauce",
+              "unit": "cup",
+              "amount": 1
+            },
+            {
+              "name": "garlic, minced",
+              "unit": "tsp",
+              "amount": 1
+            },
+            {
+              "name": "ground cumin",
+              "unit": "tsp",
+              "amount": 0.5
+            },
+            {
+              "name": "ground coriander",
+              "unit": "tsp",
+              "amount": 0.5
+            },
+            {
+              "name": "salt",
+              "unit": "tsp",
+              "amount": 0.5
+            },
+            {
+              "name": "white vinegar",
+              "unit": "tbsp",
+              "amount": 1
+            },
+            {
+              "name": "onion oil for the chili sauce",
+              "unit": "tbsp",
+              "amount": 2.5
+            },
+            {
+              "name": "chili powder",
+              "unit": "tsp",
+              "amount": 1
+            },
+            {
+              "name": "tomato sauce, from above",
+              "unit": "tbsp",
+              "amount": 1,
+              "note": "1 to 2 tbsp"
+            },
+            {
+              "name": "cumin sauce, from above",
+              "unit": "tbsp",
+              "amount": 2
+            },
+            {
+              "name": "cooked chickpeas, canned is fine",
+              "unit": "cup",
+              "amount": 1
+            }
+          ],
+          "steps": [
+            {
+              "text": "Soak the green lentils in very hot water for an hour, then drain."
+            },
+            {
+              "text": "Fry the sliced onion in the oil, stirring, until brown. Lift it onto paper towels to crisp and keep the oil: this is the onion oil."
+            },
+            {
+              "text": "In a large pan, fry the vermicelli in 3 tablespoons of onion oil until brown, then add the washed rice and fry for a minute or two."
+            },
+            {
+              "text": "Stir in the lentils and macaroni, then the bouillon and boiling water, and add the broken spaghetti as it comes near the boil."
+            },
+            {
+              "text": "When no water shows on the surface, stir gently, turn the heat to the lowest, cover and cook for 11 to 13 minutes, then let it rest and fluff it.",
+              "minutes": 11
+            },
+            {
+              "text": "Tomato sauce: fry the garlic in onion oil, add the pureed tomato, then the paste, spices, salt and sugar, then the water. Simmer until oil rises to the top and the sauce thickens slightly."
+            },
+            {
+              "text": "Cumin sauce: boil the water with garlic, cumin, coriander and salt, add the vinegar and switch off the heat."
+            },
+            {
+              "text": "Chili sauce: briefly fry the chili powder in onion oil, add some tomato sauce and cumin sauce, mix and switch off. Open a window: the fumes can make you cough."
+            },
+            {
+              "text": "Serve: rice and pasta on the plate, tomato sauce in the middle, a little chili sauce, chickpeas, the crisp onions and cumin sauce on the side."
+            }
+          ],
+          "note": "Koshari recipes differ a lot from cook to cook. Two published versions we compared, this one-pan recipe for four and a recipe for eight with each part cooked separately, differ by more than a quarter in lentils, onions and vinegar per serving. Treat these quantities as one cook's version, not as the dish's rule."
+        }
+      ]
     }
   ],
   "gaps": [

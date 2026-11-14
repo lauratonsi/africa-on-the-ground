@@ -28,6 +28,20 @@
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "jollof-rice",
+            "alt": "A heap of orange-red cooked rice, the colour of jollof, in a white container.",
+            "caption": "Jollof rice.",
+            "credit": "DromoTetteh",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Jollof_(Jollof-_Rice).jpg",
+            "width": 800,
+            "height": 533
+          }
+        },
+        {
           "type": "p",
           "parts": [
             {
@@ -77,6 +91,24 @@
             "wikipedia-jollof-rice"
           ],
           "note": "Summarised from the source's account of each scholar's view."
+        },
+        {
+          "type": "estimate",
+          "prompt": "The tomatoes, peppers, curry powder and Asian rice varieties in the modern dish suggest it is no older than which century?",
+          "min": 14,
+          "max": 21,
+          "step": 1,
+          "unit": "th century",
+          "answer": 19,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "The nineteenth century: one clue favours a recent date.",
+              "cite": [
+                "wikipedia-jollof-rice"
+              ]
+            }
+          ]
         },
         {
           "type": "p",
@@ -147,6 +179,40 @@
       "id": "name",
       "title": "A name that travelled",
       "blocks": [
+        {
+          "type": "table",
+          "filter": false,
+          "title": "One dish, many names",
+          "sub": "What jollof is called, according to the source",
+          "columns": [
+            {
+              "key": "where",
+              "label": "Where"
+            },
+            {
+              "key": "name",
+              "label": "Name"
+            }
+          ],
+          "rows": [
+            {
+              "where": "Senegal, Mauritania and The Gambia (in Wolof)",
+              "name": "ceebu jën or benachin"
+            },
+            {
+              "where": "French-speaking areas",
+              "name": "riz au gras"
+            },
+            {
+              "where": "Mali",
+              "name": "zaamè"
+            }
+          ],
+          "cite": [
+            "wikipedia-jollof-rice"
+          ],
+          "note": "As listed by the source. Other languages and countries use other names."
+        },
         {
           "type": "p",
           "parts": [
@@ -238,6 +304,124 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook along",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Cook a Nigerian-style jollof",
+          "servings": 12,
+          "sub": "One version, for twelve, as given by Jess and Jo Edun in olive magazine. Steps are paraphrased.",
+          "cite": [
+            "olive-flygerians-jollof"
+          ],
+          "ingredients": [
+            {
+              "name": "parboiled basmati rice",
+              "unit": "kg",
+              "amount": 2,
+              "note": "a golden sella type, rinsed until the water runs clear"
+            },
+            {
+              "name": "large red Romano peppers, chopped",
+              "unit": "",
+              "amount": 4
+            },
+            {
+              "name": "tin of plum tomatoes",
+              "unit": "g",
+              "amount": 400
+            },
+            {
+              "name": "red Scotch Bonnet chillies",
+              "unit": "",
+              "amount": 2,
+              "note": "adjust for heat"
+            },
+            {
+              "name": "garlic cloves",
+              "unit": "",
+              "amount": 4
+            },
+            {
+              "name": "large white onions",
+              "unit": "",
+              "amount": 2,
+              "note": "one chopped, one sliced"
+            },
+            {
+              "name": "tomato purée",
+              "unit": "g",
+              "amount": 400
+            },
+            {
+              "name": "vegetable oil",
+              "unit": "ml",
+              "amount": 300
+            },
+            {
+              "name": "chicken stock powder",
+              "unit": "tbsp",
+              "amount": 3,
+              "note": "or 2 tbsp vegetable bouillon powder"
+            },
+            {
+              "name": "dried thyme",
+              "unit": "tbsp",
+              "amount": 1
+            },
+            {
+              "name": "curry powder",
+              "unit": "tbsp",
+              "amount": 1
+            },
+            {
+              "name": "smoked paprika",
+              "unit": "tbsp",
+              "amount": 1
+            },
+            {
+              "name": "bay leaves",
+              "unit": "",
+              "amount": 2
+            },
+            {
+              "name": "boiled water",
+              "unit": "litre",
+              "amount": 1
+            }
+          ],
+          "steps": [
+            {
+              "text": "Rinse the rice under lukewarm water until the water runs clear."
+            },
+            {
+              "text": "Blend the peppers, tinned tomatoes, chillies, garlic and the chopped onion to a smooth paste."
+            },
+            {
+              "text": "Heat the oil in a deep pot and cook the sliced onion with the tomato purée until the oil turns red and the onion is translucent. Lower the heat, stir in the blended paste and the seasonings, and simmer with the lid on for 10 minutes. Add salt to taste.",
+              "minutes": 10
+            },
+            {
+              "text": "Stir the rice into the sauce, pour in the boiled water, cover the pot with foil or baking paper under the lid to trap the steam, and cook on low heat for 30 minutes.",
+              "minutes": 30
+            },
+            {
+              "text": "Turn the rice gently and check it. If it is still hard or needs salt, add water or salt and cook another 10 minutes if needed."
+            },
+            {
+              "text": "Remove the foil, turn the heat to maximum and let the bottom burn for the smoky flavour: 5 to 10 minutes for a mild smoke, 10 to 15 for a deep one.",
+              "minutes": 5
+            },
+            {
+              "text": "Serve hot, scooping from the top to avoid the burned base, unless you like it."
+            }
+          ],
+          "note": "Jollof recipes vary by country, family and cook. Other published Nigerian recipes use less oil per cup of rice, a different rice or a stew base cooked beforehand. This is not the Senegalese ceebu jën, which is a different recipe made with fish and vegetables."
+        }
+      ]
     }
   ],
   "gaps": [
@@ -245,7 +429,8 @@
     "Oral history credits Penda Mbaye, but we have found no written record that confirms it.",
     "The UNESCO recognition is as the encyclopedia states it and has not yet been checked against UNESCO's list.",
     "No recipes here, and nothing yet from cooks in the countries involved about how they make and name it.",
-    "All three origin accounts come from one encyclopedia article summarising scholars; their own publications should be cited."
+    "All three origin accounts come from one encyclopedia article summarising scholars; their own publications should be cited.",
+    "One recipe is offered for cooking along; Senegalese and Ghanaian versions, and a second Nigerian one for comparison, are still missing."
   ],
   "keyPoints": [
     {

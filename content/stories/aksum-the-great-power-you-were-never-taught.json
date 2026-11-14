@@ -3,7 +3,7 @@
   "status": "published",
   "kind": "history",
   "title": "Aksum: the great power you were never taught",
-  "subtitle": "Seventeen centuries ago a kingdom in the Horn of Africa minted its own coins, wrote in its own script and sat on the trade route between Rome and India.",
+  "subtitle": "Seventeen centuries ago a kingdom in the Horn of Africa minted gold coins in its own name, raised stone stelae over its rulers and was named among the world's great kingdoms by Mani.",
   "countries": [
     "ERI",
     "ETH"
@@ -14,27 +14,63 @@
   "sections": [
     {
       "id": "power",
-      "title": "One of four great powers",
+      "title": "One of the great kingdoms",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "The Kingdom of Aksum was based in what is now Eritrea and northern Ethiopia, with its capital at the city of Axum, and it reached across the Red Sea into southern Arabia. It was founded in the first century.",
+              "text": "Aksum was the principal metropolis of a major polity that arose during the early centuries AD in the highlands of northern Ethiopia and southern Eritrea.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " At times its authority extended east across the Red Sea to the Yemeni highlands.",
+              "cite": [
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " There is no sign of settlement at the site of Aksum itself until the first century AD, and the processes that formed the kingdom remain very poorly understood.",
+              "cite": [
+                "phillipson-2001-aksum"
               ]
             }
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "axum-obelisk-engraving",
+            "alt": "Early nineteenth-century engraving of a tall stone obelisk beside a church at Axum, with trees, hills and three small figures in the foreground.",
+            "caption": "'View of the Obelisk and Church at Axum', an engraving after Henry Salt.",
+            "credit": "Charles Heath / After Henry Salt",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Henry_Salt_-_View_of_the_Obelisk_and_Church_at_Axum_1248719.jpg",
+            "width": 760,
+            "height": 565
+          }
+        },
+        {
           "type": "p",
           "parts": [
             {
-              "text": "In the third century Mani, the founder of Manichaeism, counted it among the four great powers of the world, alongside Persia, Rome and China.",
+              "text": "A Manichaean text, the Kephalaia, lists four great kingdoms in the world: Babylon and Persia, the Romans, the Axumites and a fourth called Silis, and says that none surpasses them.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "kephalaia-gardner-1995"
               ]
+            },
+            {
+              "text": " A reference overview gives the four as Aksum, Rome, Persia and China.",
+              "cite": [
+                "ebsco-aksum-2022"
+              ]
+            },
+            {
+              "text": " Other scholars read Silis as China; we have not read their work.",
+              "editorial": true
             }
           ]
         },
@@ -42,56 +78,63 @@
           "type": "stat",
           "items": [
             {
-              "value": "4",
-              "label": "great powers of the world in Mani's count, with Persia, Rome and China",
+              "value": "AD 270",
+              "label": "date of the first coins, in the name of King Endybis",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "value": "2.5 million km²",
-              "label": "its greatest extent, under Kaleb (514–542)",
+              "value": "c. AD 340",
+              "label": "Christianity formally adopted under King Ezana",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "value": "c. 960",
-              "label": "when the kingdom collapsed, under uncertain circumstances",
+              "value": "525",
+              "label": "Aksum's army invades Yemen at the request of the Byzantine emperor",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "tobi-himyar-ocd-2017"
               ]
             }
           ]
         },
         {
           "type": "check",
-          "q": "Which three powers did Mani list beside Aksum as the world's four great powers?",
+          "q": "In the Kephalaia, which kingdom is named beside the Romans, the Axumites and Babylon-Persia as one of the world's four great kingdoms?",
           "options": [
-            "Persia, Rome and China",
-            "Egypt, Greece and India",
-            "Persia, Byzantium and Arabia",
-            "Rome, Carthage and Persia"
+            "Silis, usually read as China",
+            "Egypt",
+            "India",
+            "Carthage"
           ],
-          "answer": "Persia, Rome and China",
-          "explain": "In the third century Mani, founder of Manichaeism, counted Aksum among the four great powers alongside Persia, Rome and China.",
+          "answer": "Silis, usually read as China",
+          "explain": "The Kephalaia lists the kingdom of Babylon and Persia, of the Romans, of the Axumites and of Silis; reading Silis as China comes from other scholars, and a reference overview names China as the fourth.",
           "cite": [
-            "wikipedia-kingdom-of-aksum"
+            "kephalaia-gardner-1995",
+            "ebsco-aksum-2022"
           ]
         }
       ]
     },
     {
       "id": "trade",
-      "title": "Coins, ships and a trade route",
+      "title": "Coins and a trade route",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "Aksum stood on the trade route between Rome and India and gained a monopoly of Indian Ocean trade.",
+              "text": "The first coin issues, dated around AD 270, bear the name of King Endybis.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " Aksumite gold coins are found only rarely in Ethiopia and Eritrea but more often overseas, notably in Yemen and India.",
+              "cite": [
+                "phillipson-2001-aksum"
               ]
             }
           ]
@@ -100,10 +143,14 @@
           "type": "p",
           "parts": [
             {
-              "text": "Under King Endybis, between 270 and 310, it began to mint its own coins. They have been dug up as far away as Caesarea and southern India.",
+              "text": "The British Museum says that many Aksumite gold coins were traded from Ethiopia to Yemen or India.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "bm-money-gallery-2020"
               ]
+            },
+            {
+              "text": " That is evidence of a trading kingdom, not of a monopoly, which this page does not claim.",
+              "editorial": true
             }
           ]
         }
@@ -111,15 +158,60 @@
     },
     {
       "id": "script",
-      "title": "A script, a stone and a new faith",
+      "title": "A script, stone stelae and a new faith",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "The Aksumites developed their own script, Ge'ez, which was later changed to mark vowels and became an abugida.",
+              "text": "Aksum had its own locally developed Ge'ez script.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
+              ]
+            },
+            {
+              "text": " Its monolithic stelae are now interpreted as royal grave-markers of the third to fourth centuries.",
+              "cite": [
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " The towering obelisks were carved from single pieces of stone.",
+              "cite": [
+                "ebsco-aksum-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "ezana-stone",
+            "alt": "A tall slab of grey stone standing inside a small stone building, its surface covered in lines of inscribed letters.",
+            "caption": "The Ezana Stone at Aksum, which carries inscriptions in Greek and Ge'ez.",
+            "credit": "Rod Waddington from Kergunyah, Australia",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "source": "https://commons.wikimedia.org/wiki/Ezana_Stone%2C_Aksum_(6183743976).jpg",
+            "width": 800,
+            "height": 1315,
+            "narrow": true
+          }
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Christianity was formally adopted under King Ezana around AD 340, and the crescent and disc was replaced during his reign by the Christian cross.",
+              "cite": [
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " The British Museum's timeline gives around AD 350 and a reference overview says the mid-fourth century.",
+              "cite": [
+                "bm-african-kingdoms-timeline",
+                "ebsco-aksum-2022"
               ]
             }
           ]
@@ -128,31 +220,9 @@
           "type": "p",
           "parts": [
             {
-              "text": "They also raised giant obelisks to mark the tombs of emperors and nobles. The best known is the Obelisk of Aksum.",
+              "text": "Four of Ezana's inscriptions are written in Greek and Ge'ez.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Under King Ezana the kingdom adopted Christianity as its state religion in the mid-fourth century, around 325 by one count. After that the Aksumites stopped building the steles.",
-              "cite": [
-                "wikipedia-kingdom-of-aksum"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Three inscriptions on the Ezana Stone record the king's conversion and two military campaigns, one inscribed in Greek and the other in Ge'ez.",
-              "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "ebsco-aksum-2022"
               ]
             }
           ]
@@ -161,22 +231,22 @@
     },
     {
       "id": "fall",
-      "title": "Its widest reach, and its slow end",
+      "title": "Its reach, and its slow end",
       "blocks": [
         {
           "type": "estimate",
-          "prompt": "Under King Kaleb, roughly how many million square kilometres did Aksum cover at its widest?",
-          "min": 0,
-          "max": 10,
-          "step": 0.1,
-          "unit": " million km²",
-          "answer": 2.5,
-          "decimals": 1,
+          "prompt": "In which year did Aksum's army invade Yemen at the request of the Byzantine emperor?",
+          "min": 400,
+          "max": 700,
+          "step": 1,
+          "unit": "",
+          "answer": 525,
+          "decimals": 0,
           "parts": [
             {
-              "text": "About 2.5 million square kilometres, after Kaleb invaded the kingdom of Himyar in Yemen at the request of the Byzantine emperor.",
+              "text": "In 525, according to the Oxford Classical Dictionary.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "tobi-himyar-ocd-2017"
               ]
             }
           ]
@@ -185,9 +255,9 @@
           "type": "p",
           "parts": [
             {
-              "text": "Aksum reached its greatest extent under Kaleb (514–542), about 2.5 million square kilometres, after he invaded the kingdom of Himyar in Yemen at the request of the Byzantine emperor. The territory was later lost in wars with Persia.",
+              "text": "The army of Axum invaded Yemen in 525 at the request of the Christian Byzantine emperor.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "tobi-himyar-ocd-2017"
               ]
             }
           ]
@@ -196,27 +266,37 @@
           "type": "p",
           "parts": [
             {
-              "text": "The decline began in the seventh century, when the kingdom stopped minting currency. A Persian and later Muslim presence in the Red Sea and the weakening of Rome, a main trade partner, hurt its economy, and the population of the city shrank.",
+              "text": "Issue of the coinage ceased during the seventh century.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The last three centuries are considered a dark age, and the kingdom collapsed under uncertain circumstances around 960.",
-              "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "text": " Afterwards, despite its place among the foremost empires of late antiquity, Aksum fell into obscurity as Ethiopia stayed isolated through the Late Middle Ages.",
+              "text": " Phillipson says the conquest of Egypt in 642 effectively cut Aksum's link with long-distance trade, and he also cites environmental stress, including timber loss and soil erosion.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ethiopian tradition is often read as showing that Aksum survived as a political capital into the tenth century, and its coinage was formerly thought to have continued until then.",
+              "cite": [
+                "phillipson-2001-aksum"
+              ]
+            },
+            {
+              "text": " A reference overview says its political prominence had dissipated by the end of the first millennium.",
+              "cite": [
+                "ebsco-aksum-2022"
+              ]
+            },
+            {
+              "text": " So the end was slow and its date depends on what is measured: coins, settlement or tradition.",
+              "editorial": true
             }
           ]
         },
@@ -229,7 +309,7 @@
             },
             {
               "id": "faith",
-              "label": "Faith and script"
+              "label": "Faith"
             },
             {
               "id": "decline",
@@ -238,97 +318,90 @@
           ],
           "items": [
             {
-              "when": "1st century",
+              "when": "1st century AD",
               "tag": "rise",
-              "text": "The Kingdom of Aksum is founded.",
+              "text": "The first sign of settlement at the site of Aksum.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "when": "3rd century",
+              "when": "c. AD 270",
               "tag": "rise",
-              "text": "Mani counts it among the four great powers.",
+              "text": "The first coins, in the name of King Endybis.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "when": "270–310",
-              "tag": "rise",
-              "text": "Under King Endybis it begins to mint its own coins.",
-              "cite": [
-                "wikipedia-kingdom-of-aksum"
-              ]
-            },
-            {
-              "when": "mid-4th century",
+              "when": "c. AD 340",
               "tag": "faith",
-              "text": "Under King Ezana the kingdom adopts Christianity as its state religion, around 325 by one count.",
+              "text": "Ezana formally adopts Christianity; the British Museum gives about 350.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum",
+                "bm-african-kingdoms-timeline"
               ]
             },
             {
-              "when": "514–542",
+              "when": "525",
               "tag": "rise",
-              "text": "Kaleb takes Aksum to its greatest extent.",
+              "text": "Aksum's army invades Yemen at the request of the Byzantine emperor.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "tobi-himyar-ocd-2017"
               ]
             },
             {
               "when": "7th century",
               "tag": "decline",
-              "text": "The kingdom stops minting currency and decline begins.",
+              "text": "Issue of the coinage ceases.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "when": "c. 960",
+              "when": "642",
               "tag": "decline",
-              "text": "The kingdom collapses under uncertain circumstances.",
+              "text": "The conquest of Egypt cuts Aksum's link with long-distance trade.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             }
           ]
         },
         {
           "type": "order",
-          "prompt": "Put four moments of Aksum's history in order.",
+          "prompt": "Put these four moments in order.",
           "items": [
             {
-              "label": "Aksum begins minting its own coins",
-              "when": "270–310",
-              "text": "Under King Endybis, Aksum begins to mint coins.",
+              "label": "The first coins are struck",
+              "when": "c. AD 270",
+              "text": "The first issues bear the name of King Endybis.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "label": "Ezana adopts Christianity as the state religion",
-              "when": "mid-4th century",
-              "text": "The kingdom adopts Christianity as its state religion.",
+              "label": "Ezana adopts Christianity",
+              "when": "c. AD 340",
+              "text": "Christianity was formally adopted under King Ezana.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             },
             {
-              "label": "Kaleb reaches the widest extent",
-              "when": "514–542",
-              "text": "Aksum reaches about 2.5 million square kilometres.",
+              "label": "The army invades Yemen",
+              "when": "525",
+              "text": "At the request of the Byzantine emperor.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "tobi-himyar-ocd-2017"
               ]
             },
             {
-              "label": "The kingdom collapses",
-              "when": "c. 960",
-              "text": "It collapses under uncertain circumstances.",
+              "label": "Coinage ceases",
+              "when": "7th century",
+              "text": "Issue of the coinage ceased during the seventh century.",
               "cite": [
-                "wikipedia-kingdom-of-aksum"
+                "phillipson-2001-aksum"
               ]
             }
           ]
@@ -337,35 +410,37 @@
     }
   ],
   "gaps": [
-    "The dates for the conversion of Ezana and for the first Aksumite coins are given as ranges: scholars do not agree on exact years.",
-    "Why Aksum declined is still debated: trade, environment and internal causes are all suggested, and no single cause is established.",
-    "The source is an encyclopedia article. A specialist history of Aksum (for instance Munro-Hay) and the excavation reports should replace it.",
-    "Nothing here yet from Ethiopian and Eritrean historians or from the churches that carry the Ge'ez tradition today.",
-    "The whole story rests on one encyclopedia article; a specialist history of Aksum is needed for the dates and for the claim about the four great powers."
+    "Not found in a readable source and left out: the area of 2.5 million square kilometres, Kaleb's reign dates, coin finds as far as Caesarea, the vowel system of Ge'ez, the trilingual text of the Ezana Stone and the date of 960 for the end.",
+    "The Metropolitan Museum and UNESCO pages on Aksum could not be opened (errors 429 and 403) and are not cited; they are the likeliest sources for the Ezana Stone's languages.",
+    "Dates for Ezana's conversion differ between sources (about 330 to 350); this page gives Phillipson's and notes the British Museum's.",
+    "The reading of Silis as China comes from other scholars whose work was not read; the reference overview names China.",
+    "No one from Eritrea or Ethiopia has read this page yet."
   ],
   "keyPoints": [
     {
-      "text": "Aksum was based in what is now Eritrea and northern Ethiopia, and reached across the Red Sea into southern Arabia.",
+      "text": "Aksum was the principal metropolis of a major polity that arose in the early centuries AD in the highlands of northern Ethiopia and southern Eritrea; at times its authority reached across the Red Sea to Yemen.",
       "cite": [
-        "wikipedia-kingdom-of-aksum"
+        "phillipson-2001-aksum"
       ]
     },
     {
-      "text": "In the third century Mani counted it among the four great powers of the world, alongside Persia, Rome and China.",
+      "text": "Its first coins, dated around AD 270, bear the name of King Endybis; many of its gold coins were traded to Yemen or India.",
       "cite": [
-        "wikipedia-kingdom-of-aksum"
+        "phillipson-2001-aksum",
+        "bm-money-gallery-2020"
       ]
     },
     {
-      "text": "It minted its own coins from between 270 and 310 and developed its own script, Ge'ez.",
+      "text": "Christianity was formally adopted under King Ezana around AD 340, though some sources say about 350.",
       "cite": [
-        "wikipedia-kingdom-of-aksum"
+        "phillipson-2001-aksum",
+        "bm-african-kingdoms-timeline"
       ]
     },
     {
-      "text": "Under Kaleb (514–542) it reached about 2.5 million square kilometres; it collapsed around 960.",
+      "text": "Coinage ceased in the seventh century, which Phillipson ties to the conquest of Egypt in 642 cutting Aksum off from long-distance trade.",
       "cite": [
-        "wikipedia-kingdom-of-aksum"
+        "phillipson-2001-aksum"
       ]
     }
   ]

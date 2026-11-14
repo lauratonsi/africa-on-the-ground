@@ -16,105 +16,98 @@
       "title": "A journey that put Mali on the map",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1324 Mansa Musa, a devout Muslim, set off on pilgrimage to Mecca.",
+              "cite": [
+                "sidedoor-good-as-gold"
+              ]
+            },
+            {
+              "text": " The route taken by the ruler and his entourage in 1324–25 covered over 4,000 miles.",
+              "cite": [
+                "northwestern-caravans-hajj"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "musa-catalan-atlas",
+            "alt": "Medieval painted map detail of a crowned, seated king holding a gold nugget in one hand and a sceptre in the other.",
+            "caption": "The king of Mali holding a gold nugget, from the Catalan Atlas of 1375 (attributed to Abraham Cresques).",
+            "credit": "attributed to Abraham Cresques",
+            "license": "Public domain",
+            "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+            "width": 800,
+            "height": 913,
+            "narrow": true
+          }
+        },
+        {
           "type": "stat",
           "items": [
             {
               "value": "1324–25",
               "label": "the pilgrimage",
               "cite": [
-                "wikipedia-mansa-musa"
+                "northwestern-caravans-hajj"
               ]
             },
             {
-              "value": "2,700 miles",
-              "label": "about how far he travelled",
+              "value": "4,000+ miles",
+              "label": "the length of the route, on one source",
               "cite": [
-                "wikipedia-mansa-musa"
+                "northwestern-caravans-hajj"
               ]
             },
             {
-              "value": "3 months",
-              "label": "he stayed in Cairo",
+              "value": "c. 1312–1337",
+              "label": "his reign, by the British Museum's timeline",
               "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "In 1324 the ruler of the Mali Empire left his kingdom for Mecca.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            },
-            {
-              "text": " Mansa Musa made his pilgrimage between 1324 and 1325, a journey of about 2,700 miles.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "He reached the outskirts of Cairo in July 1324 and camped for three days beside the Pyramids of Giza before crossing the Nile into the city.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            },
-            {
-              "text": " There he met the Mamluk sultan, al-Nasir Muhammad, who expected him to bow. Musa at first refused, and then did so, saying he was bowing for God alone.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "He stayed in Cairo for three months and left on 18 October with the official pilgrim caravan to Mecca.",
-              "cite": [
-                "wikipedia-mansa-musa"
+                "bm-african-kingdoms-timeline"
               ]
             }
           ]
         },
         {
           "type": "timeline",
-          "items": [
+          "tags": [
             {
-              "when": "1324",
-              "text": "Musa and his entourage reach Cairo in July.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
+              "id": "journey",
+              "label": "The journey"
             },
             {
-              "when": "18 Oct 1324",
-              "text": "He leaves Cairo with the official caravan for Mecca.",
+              "id": "sources",
+              "label": "The sources"
+            }
+          ],
+          "items": [
+            {
+              "when": "c. 1312–1337",
+              "tag": "journey",
+              "text": "The reign of Mansa Musa, emperor of Mali.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "bm-african-kingdoms-timeline"
               ]
             },
             {
               "when": "1324–25",
-              "text": "The whole pilgrimage, about 2,700 miles.",
+              "tag": "journey",
+              "text": "The pilgrimage to Mecca.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "northwestern-caravans-hajj"
               ]
             },
             {
-              "when": "probably 1337",
-              "text": "Death. The sources disagree: calculations from the reign lengths give 1332, and the most likely date, accepted by many scholars, is 1337.",
+              "when": "about ten years later",
+              "tag": "sources",
+              "text": "Al-Umari records the account of Musa's visit to Cairo.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "northwestern-caravans-hajj"
               ]
             }
           ]
@@ -126,19 +119,34 @@
       "title": "How much gold? Nobody knows",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An Arab writer reported that he travelled with 20,000 people and more than 2,000 pounds of gold.",
+              "cite": [
+                "sidedoor-good-as-gold"
+              ]
+            },
+            {
+              "text": " Other retellings give other totals, so none of them is a measurement.",
+              "editorial": true
+            }
+          ]
+        },
+        {
           "type": "estimate",
-          "prompt": "What share of the gold circulating in the medieval Mediterranean do you think came from West Africa?",
+          "prompt": "By one estimate, what share of the world's gold supply did Musa's Mali control?",
           "min": 0,
           "max": 100,
           "step": 1,
           "unit": "%",
-          "answer": 67,
+          "answer": 50,
           "decimals": 0,
           "parts": [
             {
-              "text": "An estimate says two thirds, so about 67 percent.",
+              "text": "An estimated half, according to South African History Online, a weaker source.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "sahistory-mali-timbuktu"
               ]
             }
           ]
@@ -147,54 +155,15 @@
           "type": "p",
           "parts": [
             {
-              "text": "The chroniclers who wrote about the journey give very different numbers for his caravan and for the gold it carried, and modern historians treat those numbers as rhetorical rather than statistical.",
+              "text": "A Smithsonian podcast says he is said to have been the richest man ever.",
               "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "One later Arabic account says his procession included more than 12,000 attendants, each carrying a bar of gold, and 80 camels each carrying between 23 and 136 kilograms of gold dust.",
-              "cite": [
-                "wikipedia-mansa-musa"
+                "sidedoor-good-as-gold"
               ]
             },
             {
-              "text": " That range is so wide that the article calls it a literary convention, not a measurement.",
+              "text": " A 2026 fact-check says economic historians agree his wealth cannot be pinned to a number, and traces the figure of $400 billion to a 2012 website list.",
               "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "This is why the claim, repeated in many online articles, that he was the richest person who ever lived is hard to defend. Historians such as Hadrien Collet argue that his wealth cannot be calculated accurately.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            },
-            {
-              "text": " Estimates that he carried as much as 18 tons of gold, sometimes turned into billions of dollars, all come from the same chain of Arabic reports, not from independent counts. Historians regard turning them into modern money as unsound.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "One more thing makes the numbers shakier: Musa himself spread the rumour that gold grew like a plant in his kingdom.",
-              "cite": [
-                "wikipedia-mansa-musa"
+                "ancient-origins-musa-400bn"
               ]
             }
           ]
@@ -204,9 +173,9 @@
           "title": "A number to distrust",
           "parts": [
             {
-              "text": "Estimates that he carried as much as 18 tons of gold all come from the same chain of Arabic reports, and historians regard turning them into modern money as unsound.",
+              "text": "The $400 billion figure traces to a 2012 website list, not to a medieval source.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "ancient-origins-musa-400bn"
               ]
             }
           ]
@@ -219,9 +188,10 @@
             "Fact"
           ],
           "answer": "Myth",
-          "explain": "The claim is hard to defend: historians such as Hadrien Collet argue that his wealth cannot be calculated accurately.",
+          "explain": "A 2026 fact-check says economic historians agree his wealth cannot be pinned to a number, and the Smithsonian podcast only says he is 'said to have been' the richest.",
           "cite": [
-            "wikipedia-mansa-musa"
+            "ancient-origins-musa-400bn",
+            "sidedoor-good-as-gold"
           ]
         }
       ]
@@ -234,38 +204,25 @@
           "type": "p",
           "parts": [
             {
-              "text": "Mali's wealth came principally from controlling and taxing the trade in salt from the north and in gold panned and mined in Bambuk and Bure to the south.",
+              "text": "The British Museum says that Mali's power and wealth came from trading gold and salt, including through the city of Timbuktu.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "bm-african-kingdoms-timeline"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The geographer Ibn Hawqal wrote that the king of Ghana was 'the wealthiest king on the face of the earth'; the page dates this to 951, though other sources say about 977.",
+              "cite": [
+                "bu-kingdom-of-ghana"
               ]
             },
             {
-              "text": " It is estimated that two thirds of the gold circulating in the medieval Mediterranean came from West Africa.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The wealth came from trade and tribute rather than from direct control of the goldfields, and the gold Musa took on pilgrimage probably represented years of accumulated tribute.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The idea of a fabulously rich West African king is older than Musa by more than three centuries: in 951 the geographer Ibn Hawqal wrote that the king of Ghana was the wealthiest king on earth.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
+              "text": " So the idea of a fabulously rich West African king is older than Musa by more than three centuries.",
+              "editorial": true
             }
           ]
         }
@@ -279,9 +236,9 @@
           "type": "p",
           "parts": [
             {
-              "text": "The story goes that Musa's gift-giving in Cairo pushed down the price of gold. The chronicler al-Umari said that a mithqal of gold, worth 25 silver dirhams before Musa arrived, fell below 22 dirhams afterwards and stayed there for at least twelve years.",
+              "text": "Al-Umari wrote that Musa left no court emir and no holder of a royal office without the gift of a load of gold.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "bu-kingdom-of-mali"
               ]
             }
           ]
@@ -290,9 +247,9 @@
           "type": "p",
           "parts": [
             {
-              "text": "Not every historian agrees that this was a crisis: Warren Schultz has argued that the fall was well within the normal swings in the price of gold in Mamluk Egypt.",
+              "text": "Al-Umari also reported that the price of gold in Cairo fell: the mithqal, which had not gone below 25 dirhams, afterwards did not exceed 22, and this had lasted about twelve years.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "digitalhistory-musa-cairo"
               ]
             }
           ]
@@ -301,11 +258,31 @@
           "type": "p",
           "parts": [
             {
-              "text": "The return journey went badly. Many of the Malian pilgrims died of cold, hunger or bandit raids, and Musa ran out of money. He had to resell what he had bought in Cairo and borrow from merchants. Some accounts say the lenders were never fully repaid.",
+              "text": "Other sources give the length of the fall as between ten and twelve years, or about ten.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "sahistory-mali-timbuktu",
+                "sidedoor-good-as-gold"
               ]
+            },
+            {
+              "text": " How large and lasting the fall really was is a question for the specialist literature, which this page has not read.",
+              "editorial": true
             }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "According to al-Umari, how long had gold stayed at the lower price in Cairo?",
+          "options": [
+            "About twelve years",
+            "One month",
+            "About two years",
+            "A century"
+          ],
+          "answer": "About twelve years",
+          "explain": "Al-Umari's account, as printed in Levtzion and Hopkins, says this had been the state of affairs for about twelve years.",
+          "cite": [
+            "digitalhistory-musa-cairo"
           ]
         }
       ]
@@ -318,15 +295,15 @@
           "type": "p",
           "parts": [
             {
-              "text": "Much of what is known about Musa comes from Arabic writers, above all al-Umari and Ibn Khaldun, who wrote after the pilgrimage and learned about him from officials he had befriended in Cairo.",
+              "text": "Al-Umari recorded the account about a decade after the visit.",
               "cite": [
-                "wikipedia-mansa-musa"
+                "northwestern-caravans-hajj"
               ]
             },
             {
-              "text": " More comes from two seventeenth-century manuscripts written in Timbuktu, the Tarikh Ibn al-Mukhtar and the Tarikh al-Sudan.",
+              "text": " His text is printed in the Corpus of Early Arabic Sources for West African History, by Levtzion and Hopkins (1981).",
               "cite": [
-                "wikipedia-mansa-musa"
+                "bu-kingdom-of-mali"
               ]
             }
           ]
@@ -335,21 +312,8 @@
           "type": "p",
           "parts": [
             {
-              "text": "Mali's own oral tradition, kept by the jeliw (singular jeli), also called griots, says relatively little about him. Some of them criticise him for abandoning tradition, and some say he wasted Mali's wealth.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "This matters for the idea of a golden age: the perception may partly reflect that his reign is the best recorded by Arabic sources, not that he was necessarily richer or stronger than other rulers of Mali.",
-              "cite": [
-                "wikipedia-mansa-musa"
-              ]
+              "text": "Much of what we know therefore reaches us through Arabic writers. Mali's own oral tradition is not represented in the sources read for this page, so the story here is the record's, not Mali's.",
+              "editorial": true
             }
           ]
         }
@@ -357,35 +321,36 @@
     }
   ],
   "gaps": [
-    "No independent record from Mali itself survives for the pilgrimage: every figure comes from Arabic authors writing afterwards or from much later chronicles.",
-    "The size of the caravan, the amount of gold, and the effect on prices in Cairo are all disputed. This story does not settle them.",
-    "The source for this story is an encyclopedia article that cites the primary writers and modern historians. The next step is to read Hunwick, Levtzion and Schultz directly.",
-    "Nothing here yet from Mali's own historians or from the jeliw about how they tell the story today.",
-    "The source is one encyclopedia article that summarises the historians; the primary Arabic texts have not been read here."
+    "Left out because no readable source outside Wikipedia supported them: the figure of 2,700 miles, the three days at the Pyramids, the three months in Cairo and the departure on 18 October, the two thirds of Mediterranean gold, Bambuk and Bure as the gold fields, the two seventeenth-century Timbuktu chronicles, and the date of 1337 for his death.",
+    "The Metropolitan Museum pages on the trans-Saharan gold trade could not be opened (error 429) and are not cited.",
+    "Warren Schultz's 2006 article on the price of gold in Cairo, and Levtzion and Hopkins's Corpus itself, were not read directly; the account here comes from extracts.",
+    "Ibn Hawqal's date differs between sources (951 on the page used, about 977 elsewhere).",
+    "Two sources used, South African History Online and a fact-check on Ancient Origins, are weaker and marked 'to verify'."
   ],
   "keyPoints": [
     {
-      "text": "In 1324 the ruler of the Mali Empire left for Mecca, a journey of about 2,700 miles, and stayed three months in Cairo.",
+      "text": "In 1324 Mansa Musa set off on pilgrimage to Mecca; the route of 1324–25 covered over 4,000 miles.",
       "cite": [
-        "wikipedia-mansa-musa"
+        "sidedoor-good-as-gold",
+        "northwestern-caravans-hajj"
       ]
     },
     {
-      "text": "The chroniclers' numbers for his caravan and gold differ so widely that historians treat them as rhetorical, not statistical.",
+      "text": "An Arab writer reported 20,000 people and more than 2,000 pounds of gold; the numbers cannot be treated as a count.",
       "cite": [
-        "wikipedia-mansa-musa"
+        "sidedoor-good-as-gold"
       ]
     },
     {
-      "text": "It is estimated that two thirds of the gold circulating in the medieval Mediterranean came from West Africa.",
+      "text": "Al-Umari wrote that the price of gold in Cairo stayed low for about twelve years after the visit.",
       "cite": [
-        "wikipedia-mansa-musa"
+        "digitalhistory-musa-cairo"
       ]
     },
     {
-      "text": "Much of what we know comes from Arabic writers; Mali's own oral tradition says relatively little about him.",
+      "text": "Economic historians agree his wealth cannot be pinned to a number, says a recent fact-check.",
       "cite": [
-        "wikipedia-mansa-musa"
+        "ancient-origins-musa-400bn"
       ]
     }
   ]

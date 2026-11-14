@@ -46,6 +46,21 @@
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "cassava-roots",
+            "alt": "A hand holding up several freshly harvested cassava roots, with soil still on them, against a cloudy sky and green plants.",
+            "caption": "Harvested cassava roots.",
+            "credit": "Denis kasozi",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Harvested_cassava_roots_02.jpg",
+            "width": 800,
+            "height": 1422,
+            "narrow": true
+          }
+        },
+        {
           "type": "order",
           "prompt": "Put these three moments in order.",
           "items": [

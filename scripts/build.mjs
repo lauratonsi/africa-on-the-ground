@@ -26,14 +26,14 @@ for (const { file, data: pl } of data.places) {
   }
 }
 
-const { config, sourcesList, places, notes, methodHtml, capitals = [] } = data;
+const { config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [] } = data;
 const blocsList = data.blocs ? data.blocs.blocs : [];
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -231,7 +231,7 @@ function citedIds(place) {
 // Citazioni numerate in ordine di comparsa, con l'elenco delle fonti costruito alla fine.
 function makeCiter() {
   const order = [];
-  const cite = (ids) => ids.map((id) => {
+  const cite = (ids) => (ids || []).map((id) => {
     let i = order.indexOf(id);
     if (i < 0) { order.push(id); i = order.length - 1; }
     const n = i + 1;
@@ -336,6 +336,14 @@ function shareSection({ type, id, name, kinds, heading, intro, depth, choices = 
     </section>`;
 }
 
+// Ricetta interattiva: senza JavaScript mostra le quantità di base; con JavaScript scala le porzioni, spunta i passi e avvia i timer.
+const fmtAmt = (n) => (Number.isInteger(n) ? String(n) : String(Math.round(n * 100) / 100));
+function recipeHtml(b, cite) {
+  const ing = b.ingredients.map((i) => `<li${i.amount != null ? ` data-amount="${i.amount}"` : ""} data-unit="${esc(i.unit || "")}"><span class="rc-amt">${i.amount != null ? esc(fmtAmt(i.amount)) + (i.unit ? " " + esc(i.unit) : "") : esc(i.unit || "")}</span> <span class="rc-name">${esc(i.name)}</span>${i.note ? ` <em class="rc-note">${esc(i.note)}</em>` : ""}</li>`).join("");
+  const steps = b.steps.map((st) => `<li${st.minutes ? ` data-min="${st.minutes}"` : ""}>${esc(st.text)}${st.minutes ? ` <span class="rc-time">(${st.minutes} min)</span>` : ""}</li>`).join("");
+  return `<div class="recipe" data-base="${b.servings}"><p class="chart-title">${esc(b.title)}</p><p class="chart-sub">${esc(b.sub || "One version of the dish, as given by the source. Recipes differ from cook to cook.")}${cite(b.cite)}</p><p class="rc-serv-k">Makes <strong class="rc-serv-n">${b.servings}</strong> servings</p><h3 class="rc-h">Ingredients</h3><ul class="rc-ing">${ing}</ul><h3 class="rc-h">Steps</h3><ol class="rc-steps">${steps}</ol><p class="note-small">${esc(b.note)}</p></div>`;
+}
+
 function renderPlace(p) {
   const { cite, list: sourcesList } = makeCiter();
 
@@ -350,13 +358,15 @@ function renderPlace(p) {
       return `<ol class="timeline">${b.items.map((it) => `<li><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>` +
         (b.note ? `<p class="note-small">${esc(b.note)}</p>` : "");
     }
-    return "";
+    if (b.type === "recipe") return recipeHtml(b, cite);
+    return renderRich(b, cite, { up: "../../" });
   };
 
   const sections = p.sections.map((s, i) =>
     `<section id="sec-${esc(s.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(s.title)}</h2>${s.blocks.map(block).join("")}</section>`
   ).join("\n");
 
+  const keyHtml = p.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${p.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const hrefSibling = (x) => `../${x.slug}/index.html`;
   let loc = "";
   if (p.coords && p.country === "GMB") {
@@ -417,6 +427,7 @@ ${credit}
 <div class="wrap">
 <div class="cols">
   <article class="record" id="record">
+<div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}
 ${sections}
 ${gaps}
 ${sourcesHtml}
@@ -441,7 +452,7 @@ ${sourcesHtml}
 </div>
 </div>`;
 
-  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body, extraScripts: ["share.js"], jump: [{ id: "voices", label: "Voices" }, ...(p.sources || p.sections ? [{ id: "sec-sources", label: "Sources" }] : [])] });
+  return layout({ title: `${p.name} · ${config.name}`, description: p.subtitle, depth: 2, body, extraScripts: ["story.js", "recipe.js", "share.js"], jump: [{ id: "voices", label: "Voices" }, ...(p.sources || p.sections ? [{ id: "sec-sources", label: "Sources" }] : [])] });
 }
 
 // ---------- pagine ----------
@@ -525,11 +536,13 @@ function storyCard(st, p = "") {
   return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${esc(k.label)} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span></a></li>`;
 }
 
-function renderStory(st) {
-  const { cite, list: sourcesList } = makeCiter();
-  const k = kindOf[st.kind];
-  const checkHtmlOf = (q) => `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
-  const block = (b) => {
+// Rendering condiviso dei blocchi ricchi (storie, schede dei luoghi, pagine come Method).
+// `cite` riceve una lista di id di fonte e restituisce il richiamo numerato (vuoto se non ci sono fonti).
+function checkHtmlWith(q, cite) {
+  return `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
+}
+function renderRich(b, cite, ctx) {
+  const checkHtmlOf = (q) => checkHtmlWith(q, cite);
     if (b.type === "p") return `<p>${b.parts.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("")}</p>`;
     if (b.type === "timeline") return `<ol class="timeline"${b.tags ? ` data-tags="${esc(JSON.stringify(b.tags))}"` : ""}>${b.items.map((it) => `<li${it.tag ? ` data-tag="${esc(it.tag)}"` : ""}><span class="yr">${esc(it.when)}</span><span>${esc(it.text)}${cite(it.cite)}</span></li>`).join("")}</ol>`;
     const parts = (arr) => arr.map((x) => esc(x.text) + (x.cite ? cite(x.cite) : "")).join("");
@@ -538,7 +551,7 @@ function renderStory(st) {
     if (b.type === "reveal") return `<details class="reveal"><summary><span class="reveal-k">Think first</span><span>${esc(b.prompt)}</span></summary><p>${parts(b.parts)}</p></details>`;
     if (b.type === "figure") {
       const f = b.image;
-      return `<figure class="story-fig${f.narrow ? " narrow" : ""}"><img src="../../img/stories/${esc(f.file)}-800.jpg" width="${esc(f.width || 800)}" height="${esc(f.height || 533)}" alt="${esc(f.alt)}" loading="lazy"><figcaption>${esc(f.caption)} <span class="credit">${esc(f.credit)}, <a href="${esc(f.licenseUrl)}" rel="noopener">${esc(f.license)}</a>, <a href="${esc(f.source)}" rel="noopener">source</a>.</span></figcaption></figure>`;
+      return `<figure class="story-fig${f.narrow ? " narrow" : ""}"><img src="${ctx.up}img/stories/${esc(f.file)}-800.jpg" width="${esc(f.width || 800)}" height="${esc(f.height || 533)}" alt="${esc(f.alt)}" loading="lazy"><figcaption>${esc(f.caption)} <span class="credit">${esc(f.credit)}, <a href="${esc(f.licenseUrl)}" rel="noopener">${esc(f.license)}</a>, <a href="${esc(f.source)}" rel="noopener">source</a>.</span></figcaption></figure>`;
     }
     if (b.type === "estimate") {
       const dec = b.decimals || 0;
@@ -546,6 +559,7 @@ function renderStory(st) {
       return `<div class="estimate" data-min="${b.min}" data-max="${b.max}" data-step="${b.step || 1}" data-answer="${b.answer}" data-unit="${esc(b.unit || "")}" data-dec="${dec}"><p class="est-k">Make a guess</p><p class="est-q">${esc(b.prompt)}</p><details class="est-nojs"><summary>Show the answer</summary><p class="est-fb"><strong>${shown}${esc(b.unit || "")}.</strong> ${parts(b.parts)}</p></details></div>`;
     }
     if (b.type === "check") return checkHtmlOf(b);
+    if (b.type === "recipe") return recipeHtml(b, cite);
     if (b.type === "order") {
       const items = b.items.map((it) => ({ label: it.label, html: `<strong>${esc(it.when)}.</strong> ${esc(it.text)}${cite(it.cite)}` }));
       return `<div class="order" data-items="${esc(JSON.stringify(items))}"><p class="est-k">Put in order</p><p class="est-q">${esc(b.prompt)}</p><details class="est-nojs"><summary>Show the correct order</summary><ol>${items.map((it) => `<li>${it.html}</li>`).join("")}</ol></details></div>`;
@@ -562,8 +576,15 @@ function renderStory(st) {
         : barList(b.rows.map((r) => ({ ...r, tip: r.tip || r.text })), { accent: b.rows.length });
       return `<figure class="chart story-chart"><p class="chart-title">${esc(b.title)}</p>${b.sub ? `<p class="chart-sub">${esc(b.sub)}${cite(b.cite)}</p>` : ""}${g}<figcaption>${esc(b.note)}</figcaption></figure>`;
     }
-    return "";
-  };
+  if (b.type === "html") return String(b.html).replace("<!--contact-->", ctx.contactLine || "");
+  return "";
+}
+
+function renderStory(st) {
+  const { cite, list: sourcesList } = makeCiter();
+  const k = kindOf[st.kind];
+  const checkHtmlOf = (q) => checkHtmlWith(q, cite);
+  const block = (b) => renderRich(b, cite, { up: "../../" });
   const secs = st.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map(block).join("")}</section>`).join("\n");
   const kindsHere = (config.storyNoteKinds || {})[st.kind] || [];
   const sNotes = (notes[`story-${st.slug}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
@@ -591,7 +612,7 @@ ${voices}
 ${related}
 ${sourcesList()}
 ${moreHtml}</article></div>`;
-  return layout({ title: `${st.title} · ${config.name}`, description: st.subtitle, depth: 2, current: "stories", body, extraScripts: ["story.js", "share.js"], jump: [...st.sections.map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 5), { id: "sec-gaps", label: "Unknown" }, { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+  return layout({ title: `${st.title} · ${config.name}`, description: st.subtitle, depth: 2, current: "stories", body, extraScripts: ["story.js", "recipe.js", "share.js"], jump: [...st.sections.map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 5), { id: "sec-gaps", label: "Unknown" }, { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
 }
 
 function renderStories() {
@@ -638,8 +659,8 @@ write("index.html", layout({
 </section>
 <section id="about" class="wrap suns-sec" aria-labelledby="about-h">
   <h2 class="suns-title" id="about-h">More than a travel guide</h2>
-  <p class="lede">This site exists to teach, in an interactive way, and to bring many sides of African cultures into one place. It is written for adults, in plain language, and nothing you do on it is saved or sent anywhere.</p>
-  <div class="suns">
+  <p class="lede about-lede">This site exists to teach, in an interactive way, and to bring many sides of African cultures into one place. It is written for adults, in plain language, and nothing you do on it is saved or sent anywhere.</p>
+  <div class="suns about">
     <article class="sun"><h3>Learn by doing</h3><p>Guess before you read the answer, put events in order, sort the data, compare groups in a chart and test yourself with a quiz.</p><p><a href="stories/index.html">Stories</a> · <a href="quiz/index.html">Quiz</a></p></article>
     <article class="sun"><h3>Many sides of one culture</h3><p>History, food, languages, places and numbers sit side by side, and each links to the others.</p><p><a href="places/index.html">Places</a> · <a href="countries/index.html">Countries</a> · <a href="society/index.html">Society</a></p></article>
     <article class="sun"><h3>Sourced and honest</h3><p>Every statement carries its source, and each page says what is still not known. <a href="method/index.html">How it works</a></p></article>
@@ -970,6 +991,17 @@ function renderSociety(list) {
   const opts = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => `<option value="${c.iso3}">${esc(c.name)}</option>`).join("");
   const subOpts = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
+  // Gioco: dati incorporati per i due giochi (nessun dato esce dal browser)
+  const clueLangs = (r) => { const n = r.langs.filter((l) => l.national).map((l) => l.name); return n.length ? n.join(", ") : "none marked official at national level"; };
+  const gameData = {
+    hl: withRel.map((r) => ({ n: r.c.name, sub: subLabel[r.c.subregion], christian: Math.round(r.rel.christian), muslim: Math.round(r.rel.muslim) })),
+    gc: rows.map((r) => ({ n: r.c.name, sub: r.c.subregion, clues: [`Subregion: ${subLabel[r.c.subregion]}`, `Population: about ${fmtPop(r.c.population)}`, `Government: ${r.gov.toLowerCase()}`, `Languages marked official: ${clueLangs(r)}`, ...(r.rel ? [`Largest religion group: ${SHORT[biggest(r)]}, about ${pct0(r.rel[biggest(r)])}`] : [])] }))
+  };
+  const estS = (prompt, mn, mx, ans, parts, unit = "") => renderRich({ type: "estimate", prompt, min: mn, max: mx, step: 1, unit, answer: ans, decimals: 0, parts }, cite, { up: "../" });
+  const CIA = ["cia-factbook"];
+  const estRel = estS("In how many of the 54 countries do you think Muslims are the largest religious group?", 0, 54, lead.muslim, [{ text: `${lead.muslim} of the ${withRel.length} countries with shares, counted here from the Factbook's labels.`, cite: CIA }]);
+  const estGov = estS("How many of the 54 countries do you think are presidential republics?", 0, 54, govCount[0].items.length, [{ text: `${govCount[0].items.length}, counted here from the Factbook's government labels.`, cite: CIA }]);
+  const estLang = estS("In how many countries is French marked as an official language?", 0, 54, (langN["French"] || []).length, [{ text: `${(langN["French"] || []).length}, counted here from the Factbook's labels.`, cite: CIA }]);
   const body = `
 ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government and language labels in the 54 countries, with a view of two countries side by side." })}
 <div class="wrap">
@@ -978,9 +1010,18 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
 </section>
 </div>
 <div class="wrap section" data-tabs>
+<section id="play" class="panel" data-tab data-tab-label="Play" aria-labelledby="play-h">
+  <h2 id="play-h">Play with the data</h2>
+  <p class="lede">Two quick games built from the same Factbook labels as the rest of this page. Your score stays in your browser and disappears when you leave.</p>
+  <noscript><p class="fine">The games need JavaScript. The data they use is in the other tabs.</p></noscript>
+  <div class="game" id="game-hl" hidden aria-labelledby="hl-h"><span class="layer-tag rec">Higher or lower</span><h3 id="hl-h">Which has the larger share?</h3><div id="hl-q"></div><p class="game-score" id="hl-score" role="status" aria-live="polite"></p></div>
+  <div class="game" id="game-gc" hidden aria-labelledby="gc-h"><span class="layer-tag rec">Guess the country</span><h3 id="gc-h">Which country is it?</h3><div id="gc-q"></div><p class="game-score" id="gc-score" role="status" aria-live="polite"></p></div>
+  <p class="fine">Shares and labels are the Factbook's, with estimate years that differ by country; a few countries have no religion shares and are left out of the first game.</p>
+</section>
 <section id="religion" class="panel" data-tab data-tab-label="Religion" aria-labelledby="rel-h">
   <div class="phead"><h2 id="rel-h">Religion</h2>
     <div class="tools" id="cmp-tools" hidden><label class="sr" for="cmp-sub">Show subregion</label><select id="cmp-sub"><option value="all">All subregions</option>${subOpts}</select></div></div>
+  ${estRel}
   <p class="cmp-find">${lead.christian} countries have a Christian plurality, ${lead.muslim} a Muslim one${lead.traditional + lead.none + lead.asian ? `, and ${lead.traditional + lead.none + lead.asian} neither` : ""}.</p>
   <p>Across the ${withRel.length} countries with shares, weighting each by its 2025 population, about ${pct0(cont.christian)} of people are counted as Christian and ${pct0(cont.muslim)} as Muslim. Those countries hold ${(covered * 100).toFixed(0)}% of Africa's people.</p>
   <div class="fold" data-fold="8" data-fold-what="countries">${stackedShares(relRows, SERIES)}</div>
@@ -991,6 +1032,7 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
 </section>
 <section id="government" class="panel" data-tab data-tab-label="Government" aria-labelledby="gov-h">
   <h2 id="gov-h">Government</h2>
+  ${estGov}
   <p class="cmp-find">${govCount[0].items.length} of ${list.length} countries are presidential republics.</p>
   ${govBars}
   <p class="fine">The Factbook gives one phrase per country; here they are sorted into six groups. "Federal" is dropped from the label. The entries can lag events: where the Factbook says a country is in transition or was formerly one type, it is placed in the last group. Hover a country for the Factbook's exact words.</p>
@@ -1000,6 +1042,7 @@ ${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government a
 </section>
 <section id="languages" class="panel" data-tab data-tab-label="Languages" aria-labelledby="lang-h">
   <h2 id="lang-h">Languages marked official</h2>
+  ${estLang}
   <p class="cmp-find">${topLang[0][0]} is marked official in ${topLang[0][1].length} countries${topLang[1] ? `, ${topLang[1][0]} in ${topLang[1][1].length}` : ""}.</p>
   ${langBars}
   <p class="fine">These are only the languages the Factbook marks "official" at national level, counted by country. This is a label in the source, not a ranking by number of speakers. Regional or working languages, such as most of Ethiopia's, are not counted. ${oneOff} more languages are official in one country each. Variant names are merged (Kiswahili and Swahili). The Factbook does not mark every case: ${noLang.length ? `${noLang.map((r) => esc(r.c.name)).join(" and ")} ${noLang.length === 1 ? "has" : "have"} none marked, so ${noLang.length === 1 ? "it shows" : "they show"} as "none marked", which does not mean ${noLang.length === 1 ? "it has" : "they have"} no official language.` : "every country has one marked."}</p>
@@ -1042,8 +1085,9 @@ ${shareSection({ type: "country", id: list[0].iso3, name: list[0].name, kinds: c
 </section>
 ${sourcesList()}
 </div>
-<script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>`;
-  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and language labels of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["share.js", "languages.js"], body, jump: [{ id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
+<script type="application/json" id="cmpdata">${JSON.stringify(cmpData).replace(/</g, "\\u003c")}</script>
+<script type="application/json" id="gamedata">${JSON.stringify(gameData).replace(/</g, "\\u003c")}</script>`;
+  return layout({ title: `Society: faith, government, language · ${config.name}`, description: "Religion, government and language labels of the 54 African countries, with two countries side by side.", depth: 1, current: "society", bodyClass: "still", script: true, extraScripts: ["story.js", "society.js", "share.js", "languages.js"], body, jump: [{ id: "play", label: "Play" }, { id: "religion", label: "Religion" }, { id: "government", label: "Government" }, { id: "languages", label: "Languages" }, { id: "pair", label: "Side by side" }] });
 }
 
 if (data.countries) write("countries/index.html", renderCountries(data.countries.countries));
@@ -1360,14 +1404,39 @@ if (data.countries) for (const c of data.countries.countries) write(`countries/$
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({
   title: `Method · ${config.name}`,
-  description: "What the site is for, how the record is sourced and how local notes are collected.",
+  description: "What the site is for, how to use it, how the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
+  extraScripts: ["story.js"],
   body: (() => {
-    const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
-    const rest = mm ? methodHtml.slice(mm[0].length) : methodHtml;
-    return `${compactHero({ kicker: "How it works", title: mm ? mm[1] : "Method", sub: mm ? mm[2] : "" })}
+    if (!methodPage) {
+      const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
+      const rest = mm ? methodHtml.slice(mm[0].length) : methodHtml;
+      return `${compactHero({ kicker: "How it works", title: mm ? mm[1] : "Method", sub: mm ? mm[2] : "" })}
 <div class="wrap prose-hero"><div class="prose">${rest.replace("<!--contact-->", contactLine)}</div></div>`;
+    }
+    // Numeri contati dal contenuto del sito ogni volta che si costruisce la pagina.
+    const reg = sourcesList;
+    const nVer = reg.filter((x) => x.status === "verified").length;
+    const tiers = ["institutional", "academic", "primary", "press", "encyclopedia"];
+    const tierRows = tiers.map((t) => {
+      const all = reg.filter((x) => x.tier === t); const ok = all.filter((x) => x.status === "verified").length;
+      const pct = all.length ? Math.round(ok / all.length * 1000) / 10 : 0;
+      return { label: (config.tiers[t] || t), values: { ok: pct, todo: Math.round((100 - pct) * 10) / 10 }, text: `${pct}% of ${all.length}` };
+    });
+    const tokens = { stories: stories.length, places: published.length, countries: data.countries ? data.countries.countries.length : 54, quiz: data.quiz ? data.quiz.questions.length : 0, sources: reg.length, verified: nVer, toverify: reg.length - nVer };
+    const fill = (v) => {
+      if (typeof v === "string") { if (v === "{{tierRows}}") return tierRows; const r = v.replace(/\{\{(\w+)\}\}/g, (_, k) => (k in tokens ? tokens[k].toLocaleString("en-US") : _)); return r; }
+      if (Array.isArray(v)) return v.map(fill);
+      if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, ["min", "max", "answer", "step", "decimals"].includes(k) && typeof x === "string" && /^\{\{\w+\}\}$/.test(x) ? Number(String(x).replace(/\{\{(\w+)\}\}/g, (_, kk) => tokens[kk])) : fill(x)]));
+      return v;
+    };
+    const pg = fill(methodPage);
+    const nocite = () => "";
+    const secs = pg.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}"><h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, nocite, { up: "../", contactLine })).join("")}</section>`).join("\n");
+    const kp = pg.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${pg.keyPoints.map((x) => `<li>${esc(x.text)}</li>`).join("")}</ul></aside>` : "";
+    return `${compactHero({ kicker: "How it works", title: pg.title, sub: pg.lede })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${kp}<article class="story method">${secs}</article></div>`;
   })()
 }));
 
@@ -1479,6 +1548,8 @@ fs.copyFileSync(path.join(root, "src", "places.js"), path.join(dist, "places.js"
 fs.copyFileSync(path.join(root, "src", "truesize.js"), path.join(dist, "truesize.js"));
 fs.copyFileSync(path.join(root, "src", "quiz.js"), path.join(dist, "quiz.js"));
 fs.copyFileSync(path.join(root, "src", "story.js"), path.join(dist, "story.js"));
+fs.copyFileSync(path.join(root, "src", "recipe.js"), path.join(dist, "recipe.js"));
+fs.copyFileSync(path.join(root, "src", "society.js"), path.join(dist, "society.js"));
 fs.copyFileSync(path.join(root, "src", "languages.js"), path.join(dist, "languages.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
@@ -1497,7 +1568,7 @@ for (const pl of published) {
 for (const st of stories) {
   for (const sec of st.sections) for (const b of sec.blocks) {
     if (b.type !== "figure") continue;
-    for (const size of [800, 1600]) {
+    for (const size of [800]) { // la pagina usa solo la versione da 800 px; la 1600 resta nei sorgenti
       const name = `${b.image.file}-${size}.jpg`;
       fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
       fs.copyFileSync(path.join(root, "src", "img", "stories", name), path.join(dist, "img", "stories", name));

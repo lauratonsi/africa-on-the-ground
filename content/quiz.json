@@ -460,7 +460,7 @@
       "explain": "The battle was fought on 1 March 1896. Italy then signed the Treaty of Addis Ababa, which recognised Ethiopia's sovereignty.",
       "cite": [
         "sahistory-adwa",
-        "wikipedia-battle-of-adwa"
+        "ebsco-adwa-2020"
       ],
       "story": "was-all-of-africa-colonised"
     },
@@ -484,24 +484,24 @@
     {
       "id": "kush-founder",
       "topic": "history",
-      "q": "Who was the first Kushite to take the Egyptian throne and found the 25th Dynasty, about 750 BCE?",
+      "q": "According to the University of Chicago, who controlled all of Egypt in what became the Twenty-Fifth Dynasty, after Kashta took over Upper Egypt?",
       "options": [
-        "Kashta",
+        "Piankhi",
         "Ashurbanipal",
-        "Tutankhamun",
-        "Arkamani I"
+        "Taharqa",
+        "Ezana"
       ],
-      "answer": "Kashta",
-      "explain": "Kushite control of Egypt lasted until the Assyrian invasion by Ashurbanipal in 666 BCE.",
+      "answer": "Piankhi",
+      "explain": "Kashta took over Upper Egypt, followed by his son Piankhi, who controlled all of Egypt in what became known as the Twenty-Fifth Dynasty.",
       "cite": [
-        "worldhistory-kush"
+        "isac-nubia"
       ],
       "story": "kush-the-kingdom-that-ruled-egypt"
     },
     {
       "id": "kilwa-battuta",
       "topic": "history",
-      "q": "What did the traveller Ibn Battuta call Kilwa around 1331?",
+      "q": "What did the fourteenth-century traveller Ibn Battuta call Kilwa?",
       "options": [
         "A small fishing village",
         "One of the most beautiful towns in the world",
@@ -509,9 +509,9 @@
         "The capital of Zanzibar"
       ],
       "answer": "One of the most beautiful towns in the world",
-      "explain": "He visited around 1331. The Portuguese attacked Kilwa in 1505, leaving many buildings in ruins.",
+      "explain": "National Geographic History quotes Ibn Battuta calling Kilwa one of the most beautiful towns in the world.",
       "cite": [
-        "worldhistory-kilwa"
+        "noain-natgeo-kilwa-2020"
       ],
       "story": "kilwa-gold-and-coral"
     },

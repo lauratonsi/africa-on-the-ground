@@ -30,6 +30,8 @@ export function loadAll() {
   }
   const methodPath = path.join(root, "content", "pages", "method.html");
   const methodHtml = fs.existsSync(methodPath) ? fs.readFileSync(methodPath, "utf8") : "";
+  const methodJsonPath = path.join(root, "content", "pages", "method.json");
+  const methodPage = fs.existsSync(methodJsonPath) ? readJson(methodJsonPath) : null;
   const storiesDir = path.join(root, "content", "stories");
   const stories = fs.existsSync(storiesDir)
     ? fs.readdirSync(storiesDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(storiesDir, f)) }))
@@ -52,7 +54,7 @@ export function loadAll() {
   const capitals = fs.existsSync(capitalsDir)
     ? fs.readdirSync(capitalsDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(capitalsDir, f)) }))
     : [];
-  return { config, sourcesList, places, notes, methodHtml, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, capitals };
+  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, capitals };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -60,8 +62,9 @@ const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const EMAIL = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
+const RICH = new Set(["chart", "stat", "callout", "reveal", "figure", "estimate", "check", "order", "table", "recipe"]);
 
-export function validate({ config, sourcesList, places, notes, methodHtml, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -104,7 +107,16 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     typeIds.add(t.id);
   }
   if (!config.contact) warn('site.config.json: "contact" è vuoto. La pagina Method non dirà come chiedere la rimozione di una nota.');
-  if (!methodHtml) warn("content/pages/method.html non trovato.");
+  if (!methodHtml && !methodPage) warn("content/pages/method.json non trovato.");
+  if (methodPage) {
+    // pagina Method: stessa famiglia di blocchi delle storie; qui le fonti sono facoltative (si contano i dati del sito)
+    const ok = new Set(["html", "stat", "callout", "reveal", "estimate", "check", "order", "table", "chart", "figure", "recipe"]);
+    if (!methodPage.title || !methodPage.lede) err("method.json: servono title e lede.");
+    (methodPage.sections || []).forEach((sec, si) => {
+      if (!sec.id || !sec.title) err(`method.json: sections[${si}] senza id o title.`);
+      (sec.blocks || []).forEach((b, bi) => { if (!ok.has(b.type)) err(`method.json: sections[${si}].blocks[${bi}]: tipo "${b.type}" non previsto.`); });
+    });
+  }
 
   // --- fonti
   const sources = new Map();
@@ -122,6 +134,75 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     if (s.retrieved && !DATE.test(s.retrieved)) err(`${where}: "retrieved" deve essere AAAA-MM-GG.`);
   }
 
+const checkRecipeBlock = (b, bw, checkCite) => {
+    if (!b.title || !b.note) err(`${bw}: recipe richiede title e note (che cosa varia tra le versioni).`);
+    if (typeof b.servings !== "number" || b.servings < 1) err(`${bw}: recipe richiede servings numerico.`);
+    if (!Array.isArray(b.ingredients) || b.ingredients.length < 2) err(`${bw}: recipe richiede almeno 2 ingredienti.`);
+    (b.ingredients || []).forEach((i, ii) => { if (!i.name) err(`${bw}.ingredients[${ii}]: manca name.`); if (i.amount != null && typeof i.amount !== "number") err(`${bw}.ingredients[${ii}]: amount deve essere un numero o assente.`); });
+    if (!Array.isArray(b.steps) || b.steps.length < 2) err(`${bw}: recipe richiede almeno 2 passi.`);
+    (b.steps || []).forEach((st, si) => { if (!st.text) err(`${bw}.steps[${si}]: manca text.`); });
+    checkCite(b.cite, bw);
+  };
+  const checkRichBlock = (b, bw, checkCite) => {
+      if (b.type === "p") {
+        if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+        (b.parts || []).forEach((part, pi) => {
+          if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`);
+          if (part.editorial === true) return;
+          checkCite(part.cite, `${bw}.parts[${pi}]`);
+        });
+      } else if (b.type === "timeline") {
+        if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
+        (b.items || []).forEach((it, ii) => { if (!it.when || !it.text) err(`${bw}.items[${ii}]: manca when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+      } else if (b.type === "stat") {
+        if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
+        (b.items || []).forEach((it, ii) => { if (!it.value || !it.label) err(`${bw}.items[${ii}]: manca value o label.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+      } else if (b.type === "recipe") {
+        checkRecipeBlock(b, bw, checkCite);
+      } else if (b.type === "estimate") {
+        for (const k of ["min", "max", "answer"]) if (typeof b[k] !== "number") err(`${bw}: estimate richiede "${k}" numerico.`);
+        if (typeof b.answer === "number" && (b.answer < b.min || b.answer > b.max)) err(`${bw}: la risposta è fuori dall'intervallo.`);
+        if (!b.prompt) err(`${bw}: estimate senza prompt.`);
+        if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+        (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
+      } else if (b.type === "check") {
+        if (!b.q || !Array.isArray(b.options) || b.options.length < 2 || !b.options.includes(b.answer) || !b.explain) err(`${bw}: check richiede q, options, answer tra le options e explain.`);
+        checkCite(b.cite, bw);
+      } else if (b.type === "order") {
+        if (!b.prompt || !Array.isArray(b.items) || b.items.length < 3) err(`${bw}: order richiede prompt e almeno 3 items nell'ordine corretto.`);
+        (b.items || []).forEach((it, ii) => { if (!it.label || !it.when || !it.text) err(`${bw}.items[${ii}]: manca label, when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
+      } else if (b.type === "table") {
+        if (!b.title || !b.note) err(`${bw}: table richiede title e note.`);
+        if (!Array.isArray(b.columns) || b.columns.length < 2) err(`${bw}: columns richiede almeno 2 colonne.`);
+        if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
+        checkCite(b.cite, bw);
+      } else if (b.type === "callout" || b.type === "reveal") {
+        if (b.type === "callout" && !b.title) err(`${bw}: callout senza title.`);
+        if (b.type === "reveal" && !b.prompt) err(`${bw}: reveal senza prompt.`);
+        if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
+        (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
+      } else if (b.type === "figure") {
+        const im = b.image || {};
+        for (const k of ["file", "alt", "caption", "credit", "license"]) if (!im[k] || typeof im[k] !== "string") err(`${bw}: image richiede "${k}".`);
+        for (const k of ["licenseUrl", "source"]) if (!/^https:\/\//.test(im[k] || "")) err(`${bw}: image.${k} deve essere un indirizzo https.`);
+        for (const size of [800]) if (im.file && !fs.existsSync(path.join(root, "src", "img", "stories", `${im.file}-${size}.jpg`))) err(`${bw}: manca src/img/stories/${im.file}-${size}.jpg.`);
+      } else if (b.type === "chart") {
+        if (!["stacked", "bars"].includes(b.kind)) err(`${bw}: chart.kind deve essere "stacked" o "bars".`);
+        if (!b.title) err(`${bw}: chart senza title.`);
+        if (!b.note) err(`${bw}: chart senza note (dichiara che cosa è calcolato qui e che cosa viene dalla fonte).`);
+        checkCite(b.cite, bw);
+        if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
+        if (b.kind === "stacked") {
+          const keys = (b.series || []).map((x) => x.key);
+          if (!keys.length) err(`${bw}: chart stacked senza series.`);
+          (b.rows || []).forEach((r, ri) => {
+            if (!r.label || !r.text) err(`${bw}.rows[${ri}]: manca label o text.`);
+            const tot = keys.reduce((n, k) => n + (r.values?.[k] || 0), 0);
+            if (Math.abs(tot - 100) > 0.6) err(`${bw}.rows[${ri}]: i valori sommano ${tot.toFixed(1)}, non 100.`);
+          });
+        } else (b.rows || []).forEach((r, ri) => { if (!r.label || typeof r.value !== "number" || !r.text) err(`${bw}.rows[${ri}]: serve label, value numerico e text.`); });
+      } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline, chart, stat, callout, reveal, figure, estimate, check, order, table, recipe).`);
+  };
   // --- luoghi
   const used = new Set();
   const placeSlugs = new Set();
@@ -187,8 +268,10 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
             if (!it.when || !it.text) err(`${iw}: manca when o text.`);
             checkCite(it.cite, iw);
           });
+        } else if (RICH.has(b.type)) {
+          checkRichBlock(b, bw, checkCite);
         } else {
-          err(`${bw}: tipo di blocco "${b.type}" non previsto (p, facts, timeline).`);
+          err(`${bw}: tipo di blocco "${b.type}" non previsto (p, facts, timeline, ${[...RICH].join(", ")}).`);
         }
       });
     });
@@ -206,6 +289,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
     (p.sections || []).forEach((s) => (s.blocks || []).forEach((b) => {
       (b.parts || []).forEach((x) => collect(x.cite));
       (b.items || []).forEach((x) => collect(x.cite));
+      collect(b.cite);
     }));
     if (weak.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weak].join(", ")}.`);
   }
@@ -232,62 +316,7 @@ export function validate({ config, sourcesList, places, notes, methodHtml, count
       seen.add(sec.id);
       (sec.blocks || []).forEach((b, bi) => {
         const bw = `${sw}.blocks[${bi}]`;
-        if (b.type === "p") {
-          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
-          (b.parts || []).forEach((part, pi) => {
-            if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`);
-            if (part.editorial === true) return;
-            checkCite(part.cite, `${bw}.parts[${pi}]`);
-          });
-        } else if (b.type === "timeline") {
-          if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
-          (b.items || []).forEach((it, ii) => { if (!it.when || !it.text) err(`${bw}.items[${ii}]: manca when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
-        } else if (b.type === "stat") {
-          if (!Array.isArray(b.items) || !b.items.length) err(`${bw}: items vuoto.`);
-          (b.items || []).forEach((it, ii) => { if (!it.value || !it.label) err(`${bw}.items[${ii}]: manca value o label.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
-        } else if (b.type === "estimate") {
-          for (const k of ["min", "max", "answer"]) if (typeof b[k] !== "number") err(`${bw}: estimate richiede "${k}" numerico.`);
-          if (typeof b.answer === "number" && (b.answer < b.min || b.answer > b.max)) err(`${bw}: la risposta è fuori dall'intervallo.`);
-          if (!b.prompt) err(`${bw}: estimate senza prompt.`);
-          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
-          (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
-        } else if (b.type === "check") {
-          if (!b.q || !Array.isArray(b.options) || b.options.length < 2 || !b.options.includes(b.answer) || !b.explain) err(`${bw}: check richiede q, options, answer tra le options e explain.`);
-          checkCite(b.cite, bw);
-        } else if (b.type === "order") {
-          if (!b.prompt || !Array.isArray(b.items) || b.items.length < 3) err(`${bw}: order richiede prompt e almeno 3 items nell'ordine corretto.`);
-          (b.items || []).forEach((it, ii) => { if (!it.label || !it.when || !it.text) err(`${bw}.items[${ii}]: manca label, when o text.`); checkCite(it.cite, `${bw}.items[${ii}]`); });
-        } else if (b.type === "table") {
-          if (!b.title || !b.note) err(`${bw}: table richiede title e note.`);
-          if (!Array.isArray(b.columns) || b.columns.length < 2) err(`${bw}: columns richiede almeno 2 colonne.`);
-          if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
-          checkCite(b.cite, bw);
-        } else if (b.type === "callout" || b.type === "reveal") {
-          if (b.type === "callout" && !b.title) err(`${bw}: callout senza title.`);
-          if (b.type === "reveal" && !b.prompt) err(`${bw}: reveal senza prompt.`);
-          if (!Array.isArray(b.parts) || !b.parts.length) err(`${bw}: parts vuoto.`);
-          (b.parts || []).forEach((part, pi) => { if (!part.text) err(`${bw}.parts[${pi}]: testo vuoto.`); if (part.editorial === true) return; checkCite(part.cite, `${bw}.parts[${pi}]`); });
-        } else if (b.type === "figure") {
-          const im = b.image || {};
-          for (const k of ["file", "alt", "caption", "credit", "license"]) if (!im[k] || typeof im[k] !== "string") err(`${bw}: image richiede "${k}".`);
-          for (const k of ["licenseUrl", "source"]) if (!/^https:\/\//.test(im[k] || "")) err(`${bw}: image.${k} deve essere un indirizzo https.`);
-          for (const size of [800, 1600]) if (im.file && !fs.existsSync(path.join(root, "src", "img", "stories", `${im.file}-${size}.jpg`))) err(`${bw}: manca src/img/stories/${im.file}-${size}.jpg.`);
-        } else if (b.type === "chart") {
-          if (!["stacked", "bars"].includes(b.kind)) err(`${bw}: chart.kind deve essere "stacked" o "bars".`);
-          if (!b.title) err(`${bw}: chart senza title.`);
-          if (!b.note) err(`${bw}: chart senza note (dichiara che cosa è calcolato qui e che cosa viene dalla fonte).`);
-          checkCite(b.cite, bw);
-          if (!Array.isArray(b.rows) || !b.rows.length) err(`${bw}: rows vuoto.`);
-          if (b.kind === "stacked") {
-            const keys = (b.series || []).map((x) => x.key);
-            if (!keys.length) err(`${bw}: chart stacked senza series.`);
-            (b.rows || []).forEach((r, ri) => {
-              if (!r.label || !r.text) err(`${bw}.rows[${ri}]: manca label o text.`);
-              const tot = keys.reduce((n, k) => n + (r.values?.[k] || 0), 0);
-              if (Math.abs(tot - 100) > 0.6) err(`${bw}.rows[${ri}]: i valori sommano ${tot.toFixed(1)}, non 100.`);
-            });
-          } else (b.rows || []).forEach((r, ri) => { if (!r.label || typeof r.value !== "number" || !r.text) err(`${bw}.rows[${ri}]: serve label, value numerico e text.`); });
-        } else err(`${bw}: tipo di blocco "${b.type}" non previsto (p, timeline, chart, stat, callout, reveal, figure, estimate, check, order, table).`);
+        checkRichBlock(b, bw, checkCite);
       });
     });
     (st.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });

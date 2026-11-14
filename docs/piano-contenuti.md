@@ -61,3 +61,25 @@ Pagine che collegano luoghi, storie, piatti e dati attorno a un tema: scrittura 
 - Le voci locali arrivano con il modulo: per ogni lotto, almeno una persona del posto da cui sperare una lettura.
 - Il quiz cresce con le storie (due domande per storia).
 - Le pagine dei Paesi si aggiornano da sole quando entrano schede e storie nuove.
+
+## Da fare dopo il miglioramento delle storie esistenti (idee del 14 novembre 2026)
+
+Obiettivo di fondo, deciso il 14 novembre 2026: il sito insegna in modo interattivo a un pubblico adulto e unisce molti lati delle culture africane; non è una guida turistica. Ogni storia nuova segue il modello di "The children Italy did not recognise": riquadro "In short", numeri, stima, cronologia, gioco dell'ordine, grafici o tabelle, domande e immagini con licenza aperta.
+
+- **Digital divide e mito del "cellulare per tutti".** Spiegare la differenza tra abbonamenti SIM, persone che usano internet, copertura di rete, costo dei dati e uso reale; sfatare l'idea che quasi tutti in Africa abbiano un cellulare. Fonti da cercare: ITU, GSMA (Mobile Economy Africa), Banca Mondiale, Afrobarometer. Dati per Paese con grafici selezionabili e tabella ordinabile; una stima con cursore ("quante persone usano internet?").
+- **"Cosa succede in Africa oggi".** Una sezione di aggiornamento su conflitti, crisi umanitarie e genocidi in corso: ogni affermazione con fonti istituzionali o di ricerca (ONU, ACLED, Uppsala Conflict Data Program, corti internazionali), distinzione netta tra "accertato da un tribunale o da un organo ONU" e "accusato o indagato", date degli ultimi aggiornamenti dichiarate, voci locali solo con il consenso e con particolare cura. Argomento delicato: lotti piccoli e rilettura umana prima di pubblicare.
+
+## Luoghi da vedere, a partire dalle capitali (idea del 14 novembre 2026)
+
+Stato: le 54 capitali hanno ciascuna un profilo vuoto in `content/capitals/` (bozze create da `scripts/seed-capital-drafts.mjs`, non ancora ricercate). Le schede dei luoghi sono 55 siti UNESCO più pochi piatti, un mercato e qualche luogo di cultura o natura.
+
+Come procedere, a lotti di 5 o 6 capitali per regione, con rilettura umana dopo ogni lotto:
+- **Profilo della capitale** nello stesso formato interattivo delle storie: "In short", numeri (popolazione della città con fonte e anno), cronologia con filtri, una stima con cursore, il gioco dell'ordine, una domanda "mito o fatto" e un'immagine con licenza aperta.
+- **Da vedere**: da 3 a 5 luoghi per capitale che non siano siti UNESCO (mercati, musei, università, parchi, luoghi della cultura viva), ciascuno come scheda nel sito e collegato al profilo.
+- **Fonti**: almeno una non UNESCO e non Wikipedia per ogni profilo o scheda; dove manca, la scheda resta "outline" con i `gaps` dichiarati.
+- **Voci locali**: ogni profilo invita una persona della città a leggerlo, con la cura già prevista per i luoghi legati a storie dolorose.
+- Il formato delle schede dei luoghi ora accetta gli stessi blocchi delle storie (stima, ordine, tabella, domande, ricetta); basta riempirle.
+
+## Regola di fondo (14 novembre 2026)
+
+Il gioco e l'interattività sono la base di tutte le sezioni, non solo delle storie: storie, schede dei luoghi, profili delle capitali, la pagina Method e le pagine di dati usano la stessa famiglia di blocchi. La pagina Method è ora costruita da `content/pages/method.json` con gli stessi blocchi, con numeri contati dal contenuto del sito a ogni build.

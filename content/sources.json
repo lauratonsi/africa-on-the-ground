@@ -2731,5 +2731,305 @@
     "status": "verified",
     "note": "Read in full text (section 4, 'The permeability of the colour line', pp. 24-25). A critical review of George Fredrickson's comparison of the Cape and the American South; it reports figures from Heese, Botha, De Bruyn, Elphick and Shell, Worden and Ross. 1983 work: newer research (for example Shell's Children of Bondage, 1994) should be checked.",
     "retrieved": "2026-11-14"
+  },
+  {
+    "id": "phillipson-2001-aksum",
+    "title": "Aksum: An African Civilisation in its World Contexts",
+    "publisher": "Proceedings of the British Academy 111, pp. 23-59 (David W. Phillipson, 2001)",
+    "url": "https://www.thebritishacademy.ac.uk/documents/2486/111p023.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Read through a summarising fetch tool; quotes as reported. Best single source for Aksum's coinage, stelae, Christianity (around AD 340) and decline (coinage ceased in the seventh century).",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "bm-african-kingdoms-timeline",
+    "title": "African Kingdoms Timeline",
+    "publisher": "The British Museum (PDF, 2024)",
+    "url": "https://www.britishmuseum.org/sites/default/files/2024-04/African_Kingdoms_Timeline.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Gives Aksum as c. AD 50-900 and its largest extent; adoption of Christianity around AD 350.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "bm-money-gallery-2020",
+    "title": "Money Gallery large print information, Room 68",
+    "publisher": "The British Museum (2020)",
+    "url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Says many Aksumite gold coins were traded from Ethiopia to Yemen or India.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "tobi-himyar-ocd-2017",
+    "title": "Himyar, kingdom of",
+    "publisher": "Oxford Classical Dictionary, Oxford University Press (Yosef Yuval Tobi, 2017)",
+    "url": "https://academic.oup.com/edited-volume/61673/chapter/548062792",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Says the army of Axum invaded Yemen in 525 at the request of the Christian Byzantine emperor.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "kephalaia-gardner-1995",
+    "title": "The Kephalaia of the Teacher, chapter 77 (translation Iain Gardner)",
+    "publisher": "Brill, 1995; hosted by the Sasanika project, UC Irvine",
+    "url": "https://sites.uci.edu/sasanika/files/2020/01/Kephalaia.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "A Manichaean text listing four great kingdoms: Babylon and Persia, the Romans, the Axumites and 'Silis'. The identification of Silis with China comes from other scholars, not read here.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "ebsco-aksum-2022",
+    "title": "Kingdom of Aksum",
+    "publisher": "EBSCO Research Starters (Shumet Sishagne, 2022)",
+    "url": "https://www.ebsco.com/research-starters/history/kingdom-aksum/",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "A reference overview used as a second source: four great kingdoms, locally developed Ge'ez script, obelisks, mid-fourth-century Christianity, four inscriptions of Ezana in Greek and Ge'ez.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "isac-nubia",
+    "title": "History of Ancient Nubia",
+    "publisher": "Institute for the Study of Ancient Cultures, University of Chicago",
+    "url": "https://isac.uchicago.edu/museum-exhibits/history-ancient-nubiaOLD",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "No author or date shown. Kerma as one of the great empires of the second millennium BCE; Kashta took over Upper Egypt and his son Piankhi all of Egypt; the capital moved to Meroe in the third century BCE; Ezana of Aksum invaded and occupied Meroe.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "natgeo-nubian-kings-2025",
+    "title": "Nubian kings ruled Egypt for less than 100 years. Their influence lasted centuries.",
+    "publisher": "National Geographic (David Rull Ribo, 7 Feb 2025)",
+    "url": "https://www.nationalgeographic.com/history/article/nubian-pharaohs-kushite-ancient-egypt",
+    "tier": "press",
+    "status": "verified",
+    "note": "Gives 667 BCE for Taharqa losing Lower Egypt to Ashurbanipal and 663 BCE for Tanutamani's defeat.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "kerma-museum-history",
+    "title": "History: Kerma",
+    "publisher": "Kerma museum and excavation site (kerma.ch)",
+    "url": "https://kerma.ch/en/history/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "No author or date. Early, Middle and Classic Kerma (c. 2450 to 1480 BCE), Napatan from about 730 and Meroitic from about 400 BCE to 400 CE in its table; Piankhy establishes the 25th Dynasty.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "grzymski-meroitic-1983",
+    "title": "The Meroitic Mystery",
+    "publisher": "Saudi Aramco World, July/August 1983 (Krzysztof Grzymski)",
+    "url": "https://archive.aramcoworld.com/issue/198304/the.meroitic.mystery-from.nubia.the.land.of.kush.a.language.lost.in.history.htm",
+    "tier": "press",
+    "status": "verified",
+    "note": "Magazine article by a museum archaeologist: the Meroitic scripts can be read but the language is still unknown. Dated: 1983.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "humphris-eichhorn-iron",
+    "title": "Fuel selection during long-term ancient iron production in Sudan",
+    "publisher": "Azania (J. Humphris and B. Eichhorn)",
+    "url": "https://www.repository.cam.ac.uk/handle/1810/293681",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Repository page read. Charcoal data 'neither point to fuel shortage nor to environmental degradation'. Year not shown on the page; probably 2019.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "carey-meroe-iron-2019",
+    "title": "The ironworking remains in the royal city of Meroe",
+    "publisher": "Antiquity 93(368), 2019 (C. Carey, F. Stremke, J. Humphris)",
+    "url": "https://cambridge.org/core/journals/antiquity/article/ironworking-remains-in-the-royal-city-of-meroe-new-insights-on-the-nile-corridor-and-the-kingdom-of-kush/B44821E549BB735D365EBFFB974F7F58",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Abstract only read: the slagheaps are extensive.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "horton-kilwa-chronology",
+    "title": "The Chronology of Kilwa Kisiwani, AD 800-1500",
+    "publisher": "White Rose Research Online, accepted manuscript (Horton, Olsen, Fleisher, Wynne-Jones)",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/194369/1/Kilwa_and_Archaeology_final.docx",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Open-access manuscript in .docx form; journal and year not shown (about 2022-23). Places the first coral buildings and coins at the end of the tenth century; notes older dating to the late twelfth. Look for the published version before relying on it.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "noain-natgeo-kilwa-2020",
+    "title": "Kilwa, the abandoned East African city, once controlled the medieval gold trade",
+    "publisher": "National Geographic History (Maria Jose Noain, 3 Sept 2020)",
+    "url": "https://www.nationalgeographic.com/history/magazine/2020/07-08/abandoned-east-african-city-kilwa-controlled-medieval-gold-trade/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Reputable popular journalism: dhows laden with gold, grain, wood and ivory; own coins; Husuni Kubwa palace; Ibn Battuta's praise; Almeida's occupation in 1505.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "patel-archaeology-2014",
+    "title": "Stone Towns of the Swahili Coast",
+    "publisher": "Archaeology magazine, Jan/Feb 2014 (Samir S. Patel)",
+    "url": "https://archaeology.org/exclusives/articles/1568-husuni-kubwa-kilwa-kiswani-al-hasan-ibn-sulaiman",
+    "tier": "press",
+    "status": "verified",
+    "note": "Magazine article: Husuni Kubwa a residence with some 100 rooms; ivory, gold and slaves as trade goods.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "rubenson-wichale-1964",
+    "title": "The Protectorate Paragraph of the Wichale Treaty",
+    "publisher": "Journal of African History 5(2), pp. 243-283 (Sven Rubenson, 1964)",
+    "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/protectorate-paragraph-of-the-wichale-treaty/A3D4433C066D6FDA30C9F5D29482B0A8",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Abstract only (the full article is paywalled): a significant discrepancy between the Amharic and Italian versions of the article.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "ebsco-adwa-2020",
+    "title": "Battle of Adwa",
+    "publisher": "EBSCO Research Starters (Michael Ruth, 2020)",
+    "url": "https://www.ebsco.com/research-starters/history/battle-adwa/",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Reference overview: 1 March 1896, General Baratieri, about 100,000 Ethiopians and about 17,000 Italians, a decisive Ethiopian victory.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "ebsco-ethiopia-repels-2023",
+    "title": "Ethiopia Repels Italian Invasion",
+    "publisher": "EBSCO Research Starters (Branden C. McCullough, 2023)",
+    "url": "https://www.ebsco.com/research-starters/history/ethiopia-repels-italian-invasion/",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Reference overview: Italian and Amharic versions of Article 17; Adwa as a symbol for Africans; a motivation for returning to Ethiopia in 1935.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "thecollector-italo-ethiopian-2024",
+    "title": "The First Italo-Ethiopian War: When the Colonizers Lost",
+    "publisher": "TheCollector (Maria-Anita Ronchini, 22 May 2024)",
+    "url": "https://www.thecollector.com/first-italo-ethiopian-war/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Popular history. Used for the Treaty of Addis Ababa of 26 October 1896 and for about six thousand dead and some three thousand prisoners. Replace with a historian's book (for example Raymond Jonas, The Battle of Adwa, 2011).",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "ethiopianpoliticalhistory-adwa",
+    "title": "The Battle of Adwa",
+    "publisher": "Ethiopia: A Political History (website, no author or date)",
+    "url": "https://ethiopianpoliticalhistory.org/events/battle-of-adwa/",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Authorship unknown; it cites Jonas (2011), Marcus (1995) and Bahru Zewde (2001). Used only for 'Empress Taytu accompanied the campaign'.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "bu-kingdom-of-ghana",
+    "title": "Kingdom of Ghana (extracts from Ibn Hawqal and al-Bakri)",
+    "publisher": "Boston University African Studies Center",
+    "url": "https://www.bu.edu/africa/outreach/resources/k_o_ghana",
+    "tier": "academic",
+    "status": "verified",
+    "note": "No author or date. Gives Ibn Hawqal's words, dated 951 on the page (other sources say about 977): 'the wealthiest king on the face of the earth'.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "bu-kingdom-of-mali",
+    "title": "Kingdom of Mali (al-Umari extract)",
+    "publisher": "Boston University African Studies Center",
+    "url": "https://www.bu.edu/africa/?p=377",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Extract from al-Umari, citing Levtzion and Hopkins, Corpus of Early Arabic Sources for West African History (1981), pp. 269-273: 'He left no court emir nor holder of a royal office without the gift of a load of gold.'",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "digitalhistory-musa-cairo",
+    "title": "Mansa Musa's Visit to Cairo",
+    "publisher": "Digital History, University of Houston (text from Levtzion and Hopkins, 1981)",
+    "url": "https://www.digitalhistory.uh.edu/active_learning/explorations/1492/mansa_musa_visit.cfm",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Al-Umari's account of the gold price after Musa's visit: the mithqal did not go below 25 dirhams and was generally above; afterwards it does not exceed 22 or less; this has been so for about twelve years. Check the full page for the exact wording.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "sidedoor-good-as-gold",
+    "title": "Sidedoor, season 3, episode 18: Good as Gold (transcript)",
+    "publisher": "Smithsonian Institution (2021)",
+    "url": "https://www.si.edu/sites/default/files/s3e18_good_as_gold_transcript.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "A podcast transcript: the 1324 pilgrimage; an Arab writer reported 20,000 people and more than 2,000 pounds of gold; 'said to have been the richest man ever'.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "northwestern-caravans-hajj",
+    "title": "Mansa Musa's Hajj to Mecca (Caravans of Gold, Fragments in Time)",
+    "publisher": "Northwestern University library project (publisher not stated on the page)",
+    "url": "https://caravans.library.northwestern.edu/tour/mansa-musas-hajj-to-mecca/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "No author or date shown: the route of 1324-25, over 4,000 miles, and al-Umari recording the account about a decade later.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "sahistory-mali-timbuktu",
+    "title": "The Kingdom of Mali and the City of Timbuktu in the 14th Century",
+    "publisher": "South African History Online (2016, updated 2026)",
+    "url": "https://sahistory.org.za/ref/A-0121379",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Educational reference, weaker than the others: Musa 'controlled the source of an estimated half of the world's gold supply'; the price fall lasted 'between ten and twelve years'.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "ancient-origins-musa-400bn",
+    "title": "$400 Billion Mansa Musa Fortune Traces to a 2012 Website List",
+    "publisher": "Ancient Origins (Aris Manus, 23 Oct 2026)",
+    "url": "https://www.ancient-origins.net/news-history-archaeology/mansa-musa-400-billion-richest-man-fact-check-00103294",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "A news-style fact-check: economic historians agree his wealth cannot be pinned to a number; the $400 billion figure traces to a 2012 website list.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "munaty-koshari-2023",
+    "title": "Egyptian Koshari Made in One Pan",
+    "publisher": "Munaty Cooking (Muna Kenny, 2023)",
+    "url": "https://www.munatycooking.com/egyptian-koshari/",
+    "tier": "press",
+    "status": "verified",
+    "note": "A food blog recipe for four. Quantities and steps read from the page's own structured recipe data. The author's ties to Egypt were not verified. The page carries a copyright notice, so this site paraphrases the steps and links to the original.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "olive-flygerians-jollof",
+    "title": "Nigerian jollof rice",
+    "publisher": "olive magazine (Jess and Jo Edun, The Flygerians)",
+    "url": "https://www.olivemagazine.com/recipes/entertain/nigerian-jollof-rice",
+    "tier": "press",
+    "status": "verified",
+    "note": "A published recipe for 12. Quantities and steps read from the page's own structured recipe data. The page's date and terms of reuse are not shown, so this site paraphrases the steps and links to the original.",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "id": "hungrypaprikas-koshari-2023",
+    "title": "Authentic Koshari (Egyptian Rice, Lentils & Pasta)",
+    "publisher": "Hungry Paprikas (Amina Al-Saigh, 2023)",
+    "url": "https://www.hungrypaprikas.com/authentic-koshari/",
+    "tier": "press",
+    "status": "verified",
+    "note": "A food blog recipe for eight, with each part cooked separately. Read from the page's structured recipe data and used only to compare quantities with the main recipe; the author's ties to Egypt were not verified.",
+    "retrieved": "2026-11-14"
   }
 ]

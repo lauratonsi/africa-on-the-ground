@@ -1,6 +1,8 @@
 # Africa on the Ground
 
-Guide ai luoghi che tengono separati due tipi di conoscenza:
+Africa on the Ground è prima di tutto un sito educativo e interattivo: serve a insegnare, a un pubblico adulto, e a riunire in un solo posto molti lati delle culture africane (storia, cibo, lingue, luoghi, numeri e voci di chi ci vive). Non è una guida turistica. Storie, grafici, tabelle e quiz si usano, non solo si leggono.
+
+Due tipi di conoscenza restano separati:
 
 1. **Il racconto documentato.** Ogni affermazione ha una citazione numerata e ogni fonte è etichettata
    per tipo (istituzionale, stampa, accademica, primaria, enciclopedia) e per stato (verificata, da verificare, bozza).
@@ -24,7 +26,7 @@ content/
   data/                   dati per la pagina Countries (54 paesi), siti UNESCO (CC BY-SA 4.0) e luoghi proposti
   places/<slug>.json      una scheda per luogo (strato 1)
   notes/<slug>.json       le note approvate per quel luogo (strato 2)
-  pages/method.html       la pagina pubblica "Method"
+  pages/method.json       la pagina pubblica "Method" (blocchi interattivi come nelle storie)
 src/
   styles.css              lo stile (due strati, mappe); i colori hanno valore chiaro e scuro (light-dark)
   share.js                modulo "Add your voice": prepara il messaggio con la nota

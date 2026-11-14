@@ -1,0 +1,384 @@
+{
+  "title": "Method",
+  "lede": "Africa on the Ground is a site for learning about the African continent by doing: reading, guessing, comparing and testing yourself, with every claim sourced and local voices kept apart from the record.",
+  "keyPoints": [
+    {
+      "text": "This site teaches by doing: you guess, put events in order, sort data and check yourself as you read.",
+      "editorial": true
+    },
+    {
+      "text": "Every statement carries its source, and each page says what is still not known.",
+      "editorial": true
+    },
+    {
+      "text": "What people tell us is shown as theirs, never as fact.",
+      "editorial": true
+    },
+    {
+      "text": "Nothing you do here is saved or sent anywhere.",
+      "editorial": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "What this site is for",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>This is not a travel guide. Its main aim is to teach, in an interactive way, and to bring many sides of African cultures into one place, so that a reader can move from a story to a place, from a place to a dish, and from a dish to a map or a table of numbers without leaving the site.</p><p>It is written for adults, in plain language, and assumes no prior knowledge. Everything is built to be done and not only read, and nothing you answer is saved or sent anywhere.</p>"
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "{{stories}}",
+              "label": "stories, each with questions, charts or games"
+            },
+            {
+              "value": "{{places}}",
+              "label": "place cards"
+            },
+            {
+              "value": "{{countries}}",
+              "label": "country pages, with data you can sort"
+            },
+            {
+              "value": "{{quiz}}",
+              "label": "hand-written quiz questions, each with a source"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Counted when the page is built",
+          "parts": [
+            {
+              "text": "These four numbers are counted from the site's own content each time it is built, so they stay true as the site grows.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tour",
+      "title": "How to use it: a quick tour",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Every page uses the same small set of tools. Try one now: the guess below is about this very site.</p>"
+        },
+        {
+          "type": "estimate",
+          "prompt": "How many countries does this site have a page for?",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "",
+          "answer": "{{countries}}",
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "One page for each of the 54 countries in the World Bank's list for Africa, with its data, places and stories.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "filter": false,
+          "title": "The tools you will meet",
+          "sub": "What each one asks of you, and where to find it",
+          "columns": [
+            {
+              "key": "tool",
+              "label": "Tool"
+            },
+            {
+              "key": "do",
+              "label": "What you do"
+            },
+            {
+              "key": "where",
+              "label": "Where"
+            }
+          ],
+          "rows": [
+            {
+              "tool": "Make a guess",
+              "do": "Move a slider, lock in your guess, then see the answer and the distance from it",
+              "where": "Stories"
+            },
+            {
+              "tool": "Think first",
+              "do": "Answer in your head, then open the box",
+              "where": "Stories"
+            },
+            {
+              "tool": "Put in order",
+              "do": "Move events up and down, check, then see the dates and sources",
+              "where": "Stories"
+            },
+            {
+              "tool": "Choose rows",
+              "do": "Show or hide rows of a chart to compare groups",
+              "where": "Charts in stories"
+            },
+            {
+              "tool": "Sort and filter",
+              "do": "Click a column heading to sort; type to filter by name",
+              "where": "Tables, Countries"
+            },
+            {
+              "tool": "Check what you took in",
+              "do": "Answer, then see the explanation and its source",
+              "where": "End of each story, Quiz"
+            },
+            {
+              "tool": "Cook along",
+              "do": "Change the servings, tick off steps, start a timer",
+              "where": "Dish cards"
+            }
+          ],
+          "note": "Every tool also works without JavaScript: the answer is then shown in a box you can open. None of them saves or sends anything."
+        }
+      ]
+    },
+    {
+      "id": "who-makes-this",
+      "title": "Who makes this",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Africa on the Ground was conceived and is curated by <a href=\"https://www.linkedin.com/in/laura-tonsi-05178524a/\">Laura Tonsi</a>, a graduate student in Governance and Policies for Digital Innovation at the University of Bologna and Technical Director at Onoranze Funebri Melotti. Her research and professional interests focus on cyber-physical risk governance across IT and OT, and on countering disinformation. The public code and the project's working record are on <a href=\"https://github.com/lauratonsi\">GitHub</a>.</p>\n<p>The project grew from a wish to help people learn about the African continent through a record that keeps existing sources visible while making room to grow through contributions from people who actually live in the places described. It aims to challenge myths and prejudice, and to become a platform for cultural recognition and celebration. It is an independent research and editorial effort: sources, uncertainty and local voices are kept visible so that readers can see what is documented, what is still being checked and who is responsible for the choices made here.</p>"
+        }
+      ]
+    },
+    {
+      "id": "the-record",
+      "title": "The record",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Every statement in the record layer carries a numbered citation. The sources are listed at the bottom of the card, each labelled with its kind: institutional (for example a UNESCO page), press, academic, primary, or encyclopedia. A source marked \"to verify\" is a starting point, meant to be confirmed or replaced by a stronger one. Each card also lists what is not yet sourced.</p>"
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "{{sources}}",
+              "label": "sources in the registry"
+            },
+            {
+              "value": "{{verified}}",
+              "label": "read and confirmed"
+            },
+            {
+              "value": "{{toverify}}",
+              "label": "still marked 'to verify'"
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "How many of the sources in the registry are still marked 'to verify'?",
+          "min": 0,
+          "max": "{{sources}}",
+          "step": 1,
+          "unit": "",
+          "answer": "{{toverify}}",
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "They are counted from the registry each time the site is built. A 'to verify' source is a starting point that still needs to be confirmed or replaced.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "stacked",
+          "title": "Sources by kind and by checking status",
+          "sub": "Share of each kind that has been read and confirmed",
+          "series": [
+            {
+              "key": "ok",
+              "label": "Verified"
+            },
+            {
+              "key": "todo",
+              "label": "To verify"
+            }
+          ],
+          "rows": "{{tierRows}}",
+          "note": "Counted from content/sources.json when the page is built. 'Draft' sources, if any, are counted with 'to verify'."
+        },
+        {
+          "type": "check",
+          "q": "A source marked 'to verify' is...",
+          "options": [
+            "a starting point, meant to be confirmed or replaced by a stronger one",
+            "a source the project has proved false",
+            "a local voice",
+            "the project's own opinion"
+          ],
+          "answer": "a starting point, meant to be confirmed or replaced by a stronger one",
+          "explain": "A source marked 'to verify' is a starting point, meant to be confirmed or replaced by a stronger one."
+        }
+      ]
+    },
+    {
+      "id": "local-voices",
+      "title": "Local voices",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>A local note is one person's experience, written in their own words and shown as theirs. Notes reach the project in person, by direct message, or through the form on each card, and are published only with the author's agreement. Authors choose whether to give a name and how to describe their connection to the place. The project does not verify either. Notes are not edited, except for typing slips agreed with the author, and a translation is marked as one. The author stays the author of the text and gives the project permission to publish it; the project does not claim ownership.</p>\n<p>Notes are published after the project's own reading and the author's agreement, and then offered for reading by people from the place. A note says when someone from the place has read it. For places tied to painful history, such as the slave trade, apartheid or genocide, the project reads with particular care and takes a note down at once if anyone from the place asks. A message that tells the project the record reads wrong is read and checked, but it is not published as a voice: the record changes only with a source.</p>\n\n<p>Notes can be added to a place card, to a story and to a country. Each form asks a few questions suited to what you are adding: for a dish, its name where you live and what it is made for; for a story about history, where your family or community tells it differently; for a country, what the numbers miss. The questions are optional and the answers are shown beside your note.</p>"
+        },
+        {
+          "type": "order",
+          "prompt": "Put the life of a local note in order, from the first step to the last.",
+          "items": [
+            {
+              "label": "Someone sends a note, in person, by message or through the form",
+              "when": "Step 1",
+              "text": "Notes reach the project in person, by direct message, or through the form on each card."
+            },
+            {
+              "label": "The project reads it and the author agrees to publication",
+              "when": "Step 2",
+              "text": "Notes are published only with the author's agreement, after the project's own reading."
+            },
+            {
+              "label": "It is published, shown as the author's own words",
+              "when": "Step 3",
+              "text": "A note is one person's experience, shown as theirs and not as fact."
+            },
+            {
+              "label": "People from the place are invited to read it",
+              "when": "Step 4",
+              "text": "It is then offered for reading by people from the place."
+            },
+            {
+              "label": "The note shows when someone from the place has read it",
+              "when": "Step 5",
+              "text": "A note says when someone from the place has read it."
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: the project edits notes to polish them before publication.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "Notes are not edited, except for typing slips agreed with the author, and a translation is marked as one."
+        }
+      ]
+    },
+    {
+      "id": "when-a-note-disagrees-with-the-record",
+      "title": "When a note disagrees with the record",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Neither layer overwrites the other. If a note says the record reads wrong, the project looks for a source that settles the point. The record changes only when one is found, and the change is cited like everything else.</p>"
+        },
+        {
+          "type": "check",
+          "q": "If a note says the record reads wrong, what can change the record?",
+          "options": [
+            "A source that settles the point",
+            "More notes saying the same thing",
+            "A message to the project",
+            "A vote by readers"
+          ],
+          "answer": "A source that settles the point",
+          "explain": "Neither layer overwrites the other. The record changes only when a source is found, and the change is cited like everything else."
+        }
+      ]
+    },
+    {
+      "id": "corrections",
+      "title": "Review and corrections",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Place cards are published without a prior review by people from the places they describe. Each card says so. Review comes afterwards: anyone can report a mistake, a gap or a missing viewpoint. The project checks it against sources, corrects the card when a source supports the change, and says when it cannot find one. Reports are read, but a report is not published as a voice: only a note, with its author's agreement, appears in the voices layer.<!--contact--></p>"
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: place cards are reviewed by people from the place before they are published.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "Place cards are published without a prior review by people from the places they describe, and each card says so. Review comes afterwards."
+        }
+      ]
+    },
+    {
+      "id": "photographs",
+      "title": "Photographs",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Photographs come from Wikimedia Commons and carry an open licence. Each card gives the photographer, the licence and a link to the original file. A photograph shows a place on one day, so it is an illustration and not a statement about how the place looks now.</p>"
+        }
+      ]
+    },
+    {
+      "id": "what-this-site-collects",
+      "title": "What this site collects",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Nothing. There are no cookies, no analytics and no files loaded from other sites. The form on each card does not send anything to this site: it writes a message in your own browser, and nothing leaves your phone or computer until you choose to send that message yourself, by WhatsApp, email or Signal. If you do, the message and your contact details reach the project through that service, which has its own privacy rules. The project keeps your message, and the proof of your agreement, outside the public repository. The site is hosted on GitHub Pages, whose servers may keep their own logs. The project does not control or see them.</p>"
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "0",
+              "label": "cookies"
+            },
+            {
+              "value": "0",
+              "label": "analytics scripts"
+            },
+            {
+              "value": "0",
+              "label": "files loaded from other sites"
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Does the form on a card send your note to this site?",
+          "options": [
+            "No: it writes a message in your own browser, and you choose whether to send it",
+            "Yes, as soon as you press the button",
+            "Yes, if you tick a box",
+            "Only on a phone"
+          ],
+          "answer": "No: it writes a message in your own browser, and you choose whether to send it",
+          "explain": "The form does not send anything to this site: nothing leaves your phone or computer until you choose to send the message yourself."
+        }
+      ]
+    },
+    {
+      "id": "removing-a-note",
+      "title": "Removing a note",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>An author can ask at any time for their note to be removed. The project takes it off the site at once. The text stays in the public history of the repository unless that history is rewritten, which the project does on request.<!--contact--></p>"
+        }
+      ]
+    }
+  ]
+}

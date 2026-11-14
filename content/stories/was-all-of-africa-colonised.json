@@ -3,7 +3,7 @@
   "status": "published",
   "kind": "history",
   "title": "Was all of Africa colonised? Ethiopia and the battle of Adwa",
-  "subtitle": "By 1914 only Ethiopia and Liberia were outside European control. Ethiopia won its place on the battlefield, in 1896.",
+  "subtitle": "By 1914 almost all of Africa was under European control. Ethiopia's victory at the battle of Adwa, in 1896, is a main reason it was not.",
   "countries": [
     "ETH"
   ],
@@ -36,6 +36,10 @@
               "cite": [
                 "worldhistory-berlin"
               ]
+            },
+            {
+              "text": " The list is a simplification: other sources add small states, and we have not weighed them here.",
+              "editorial": true
             }
           ]
         }
@@ -46,29 +50,42 @@
       "title": "1 March 1896",
       "blocks": [
         {
+          "type": "figure",
+          "image": {
+            "file": "adwa-painting",
+            "alt": "Brightly coloured Ethiopian painting of the Battle of Adwa, with rows of Ethiopian soldiers on the left and Italian troops and cannon on the right, and a saint on horseback in a rainbow above.",
+            "caption": "An Ethiopian painting of the Battle of Adwa; the artist is unknown.",
+            "credit": "Unknown artist",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Ethiopian_painting%2C_Battle_of_Adwa%2C_1896.jpg",
+            "width": 800,
+            "height": 576
+          }
+        },
+        {
           "type": "stat",
           "items": [
             {
               "value": "1 March 1896",
-              "label": "the Battle of Adwa",
+              "label": "the Battle of Adwa, near the town of Adwa in Ethiopia",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020"
               ]
             },
             {
-              "value": "1889",
-              "label": "the Treaty of Wuchale, in two versions",
+              "value": "~100,000",
+              "label": "Ethiopian soldiers, by the figure most sources give",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020",
+                "ebsco-ethiopia-repels-2023"
               ]
             },
             {
-              "value": "~40 years",
-              "label": "Ethiopian sovereignty held until the Second Italo-Ethiopian War",
+              "value": "~17,000",
+              "label": "Italian troops, in one reference overview",
               "cite": [
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020"
               ]
             }
           ]
@@ -77,44 +94,47 @@
           "type": "p",
           "parts": [
             {
-              "text": "The Battle of Adwa was fought on 1 March 1896 near the town of Adwa in northern Ethiopia, between Italian forces and an army led by Emperor Menelik II and Empress Taytu.",
+              "text": "The Battle of Adwa was fought on 1 March 1896 near the town of Adwa in Ethiopia.",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020"
               ]
             },
             {
               "text": " The Italian commander was General Oreste Baratieri.",
               "cite": [
-                "wikipedia-battle-of-adwa"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The numbers differ by source. One puts the Ethiopian army at about 100,000 and the Italian at 20,000.",
-              "cite": [
-                "sahistory-adwa"
+                "ebsco-adwa-2020",
+                "ethiopianpoliticalhistory-adwa"
               ]
             },
             {
-              "text": " Another gives 73,000 to over 100,000 Ethiopians against roughly 14,500 to 17,800 Italian combat troops, with about 6,000 Italians killed and 3,865 captured.",
+              "text": " Menelik won a decisive victory, securing Ethiopia's sovereignty.",
               "cite": [
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020"
+              ]
+            },
+            {
+              "text": " Empress Taytu accompanied the campaign.",
+              "cite": [
+                "ethiopianpoliticalhistory-adwa"
               ]
             }
           ]
         },
         {
-          "type": "p",
+          "type": "estimate",
+          "prompt": "About how many soldiers do sources say the Ethiopian army had at Adwa?",
+          "min": 0,
+          "max": 300000,
+          "step": 5000,
+          "unit": "",
+          "answer": 100000,
+          "decimals": 0,
           "parts": [
             {
-              "text": "Ethiopia's victory was decisive.",
+              "text": "About 100,000, or at least 100,000 in another overview. The numbers differ between sources.",
               "cite": [
-                "sahistory-adwa"
+                "ebsco-adwa-2020",
+                "ebsco-ethiopia-repels-2023"
               ]
             }
           ]
@@ -122,7 +142,7 @@
         {
           "type": "table",
           "filter": false,
-          "title": "Two sources, two sets of numbers",
+          "title": "Sources, and their numbers",
           "sub": "Army sizes at Adwa according to each source",
           "columns": [
             {
@@ -135,7 +155,7 @@
             },
             {
               "key": "ita",
-              "label": "Italian army"
+              "label": "Italian side"
             }
           ],
           "rows": [
@@ -145,16 +165,32 @@
               "ita": "20,000"
             },
             {
-              "src": "Wikipedia",
-              "eth": "73,000 to over 100,000",
-              "ita": "roughly 14,500 to 17,800 combat troops"
+              "src": "EBSCO overview (2020)",
+              "eth": "about 100,000",
+              "ita": "approximately 17,000"
+            },
+            {
+              "src": "EBSCO overview (2023)",
+              "eth": "at least 100,000",
+              "ita": "just under 45,000 troops available to Baratieri (likely the whole colonial force)"
             }
           ],
           "cite": [
             "sahistory-adwa",
-            "wikipedia-battle-of-adwa"
+            "ebsco-adwa-2020",
+            "ebsco-ethiopia-repels-2023"
           ],
-          "note": "The two sources disagree and we give both. Wikipedia also gives about 6,000 Italians killed and 3,865 captured."
+          "note": "The sources disagree and we give each. Losses also differ: one overview says about 5,000 Italians were lost and about 7,000 Ethiopians died; a popular history says about 6,000 Italians dead and some 3,000 taken prisoner."
+        },
+        {
+          "type": "callout",
+          "title": "Why the numbers differ",
+          "parts": [
+            {
+              "text": "Army sizes in the nineteenth century were estimated by the people fighting, and the Italian figure may count different things (those engaged, or the whole colony's force). Treat all of these as estimates.",
+              "editorial": true
+            }
+          ]
         }
       ]
     },
@@ -163,31 +199,18 @@
       "title": "A treaty in two versions",
       "blocks": [
         {
-          "type": "estimate",
-          "prompt": "For roughly how many years did Ethiopia's sovereignty hold after Adwa, until the Second Italo-Ethiopian War?",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "unit": " years",
-          "answer": 40,
-          "decimals": 0,
-          "parts": [
-            {
-              "text": "About forty years.",
-              "cite": [
-                "wikipedia-battle-of-adwa"
-              ]
-            }
-          ]
-        },
-        {
           "type": "p",
           "parts": [
             {
               "text": "The 1889 Treaty of Wuchale was written in two languages with different meaning. The Italian version of Article 17 said Ethiopia had to conduct its foreign affairs through Italy, making it a protectorate; the Amharic version said the emperor could use Italy's help if he wished.",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "sahistory-adwa"
+              ]
+            },
+            {
+              "text": " Sven Rubenson's study speaks of a significant discrepancy between the Amharic and Italian versions of the article.",
+              "cite": [
+                "rubenson-wichale-1964"
               ]
             }
           ]
@@ -196,9 +219,34 @@
           "type": "p",
           "parts": [
             {
-              "text": "After the battle Italy signed the Treaty of Addis Ababa, which recognised Ethiopia's sovereignty, and that sovereignty held until the Second Italo-Ethiopian War forty years later.",
+              "text": "On 26 October 1896 Italy formally acknowledged Ethiopia's independence in the Treaty of Addis Ababa.",
               "cite": [
-                "wikipedia-battle-of-adwa"
+                "thecollector-italo-ethiopian-2024"
+              ]
+            },
+            {
+              "text": " Adwa was a powerful motivation for Italy returning to Ethiopia in 1935.",
+              "cite": [
+                "ebsco-ethiopia-repels-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many years passed between Adwa and the Italian return to Ethiopia in 1935?",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": " years",
+          "answer": 39,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "39 years: 1935 minus 1896, calculated here.",
+              "cite": [
+                "ebsco-adwa-2020",
+                "ebsco-ethiopia-repels-2023"
               ]
             }
           ]
@@ -214,7 +262,7 @@
           "explain": "The Italian version said Ethiopia had to conduct its foreign affairs through Italy, making it a protectorate; the Amharic version said the emperor could use Italy's help if he wished.",
           "cite": [
             "sahistory-adwa",
-            "wikipedia-battle-of-adwa"
+            "rubenson-wichale-1964"
           ]
         },
         {
@@ -224,35 +272,33 @@
             {
               "label": "The Treaty of Wuchale, in two languages",
               "when": "1889",
-              "text": "The treaty was written in two languages with different meaning.",
+              "text": "The Italian and Amharic versions of Article 17 differed.",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "sahistory-adwa"
               ]
             },
             {
               "label": "The Battle of Adwa",
               "when": "1 March 1896",
-              "text": "Ethiopia's victory was decisive.",
+              "text": "Menelik won a decisive victory.",
               "cite": [
-                "sahistory-adwa",
-                "wikipedia-battle-of-adwa"
+                "ebsco-adwa-2020"
               ]
             },
             {
-              "label": "Italy signs the Treaty of Addis Ababa",
-              "when": "after Adwa",
-              "text": "It recognised Ethiopia's sovereignty.",
+              "label": "The Treaty of Addis Ababa",
+              "when": "26 October 1896",
+              "text": "Italy formally acknowledged Ethiopia's independence.",
               "cite": [
-                "wikipedia-battle-of-adwa"
+                "thecollector-italo-ethiopian-2024"
               ]
             },
             {
-              "label": "The Second Italo-Ethiopian War",
-              "when": "about forty years later",
-              "text": "Ethiopian sovereignty held until the Second Italo-Ethiopian War.",
+              "label": "Italy returns to Ethiopia",
+              "when": "1935",
+              "text": "Adwa was a powerful motivation.",
               "cite": [
-                "wikipedia-battle-of-adwa"
+                "ebsco-ethiopia-repels-2023"
               ]
             }
           ]
@@ -267,9 +313,21 @@
           "type": "p",
           "parts": [
             {
-              "text": "The victory was quickly recognised as a victory for Black people everywhere and became a symbol of African resistance to European colonial pursuit.",
+              "text": "Adwa became a symbol for Africans across the continent with which to identify.",
               "cite": [
-                "sahistory-adwa"
+                "ebsco-ethiopia-repels-2023"
+              ]
+            },
+            {
+              "text": " It is celebrated as a symbol of national pride and resistance against colonialism.",
+              "cite": [
+                "ebsco-adwa-2020"
+              ]
+            },
+            {
+              "text": " A popular history calls it an international symbol of Pan-Africanism and Black pride.",
+              "cite": [
+                "thecollector-italo-ethiopian-2024"
               ]
             }
           ]
@@ -278,11 +336,11 @@
     }
   ],
   "gaps": [
-    "Army sizes and casualties differ between the two sources, and we give both rather than choose.",
-    "The two sources disagree on the year Menelik denounced the Wuchale treaty, so it is left out.",
-    "Liberia is named only as the other exception, with no account of its own history; that is a story for another page.",
-    "Neither source is a specialist history of Ethiopia, and the Italian side is told only through these two.",
-    "The Wuchale and Adwa details rest on two secondary sources; a specialist history of Ethiopia should be added."
+    "The army sizes, losses and the dates of the Treaty of Addis Ababa rest on reference overviews and a popular history; Raymond Jonas, The Battle of Adwa (Harvard UP, 2011), is the book to read next.",
+    "Left out because no readable source outside Wikipedia supported them: the figures of 73,000 to over 100,000 Ethiopians against 14,500 to 17,800 Italian combat troops and 3,865 prisoners, and the claim that the victory was 'quickly' seen as a victory for Black people everywhere.",
+    "The statement that only Ethiopia and Liberia stayed independent rests on one encyclopedia article; other sources list further small states.",
+    "The Rubenson article was read only in abstract; its full text is paywalled.",
+    "No one from Ethiopia or Eritrea has read this page yet."
   ],
   "keyPoints": [
     {
@@ -292,17 +350,21 @@
       ]
     },
     {
-      "text": "The Battle of Adwa was fought on 1 March 1896 between Italian forces and an army led by Emperor Menelik II and Empress Taytu; Ethiopia's victory was decisive.",
+      "text": "The Battle of Adwa was fought on 1 March 1896; Menelik won a decisive victory, securing Ethiopia's sovereignty.",
       "cite": [
-        "sahistory-adwa",
-        "wikipedia-battle-of-adwa"
+        "ebsco-adwa-2020"
       ]
     },
     {
-      "text": "The 1889 Treaty of Wuchale had two versions with different meaning; after the battle Italy signed the Treaty of Addis Ababa recognising Ethiopia's sovereignty.",
+      "text": "The Italian and Amharic versions of Article 17 of the 1889 Treaty of Wuchale differed significantly.",
       "cite": [
-        "sahistory-adwa",
-        "wikipedia-battle-of-adwa"
+        "rubenson-wichale-1964"
+      ]
+    },
+    {
+      "text": "Adwa became a symbol for Africans across the continent.",
+      "cite": [
+        "ebsco-ethiopia-repels-2023"
       ]
     }
   ]

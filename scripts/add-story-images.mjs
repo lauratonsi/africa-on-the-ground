@@ -14,8 +14,19 @@ const done = fs.existsSync(outFile) ? JSON.parse(fs.readFileSync(outFile, "utf8"
 const LICENSE_URL = { "CC BY-SA 4.0": "https://creativecommons.org/licenses/by-sa/4.0/", "Public domain": "https://creativecommons.org/publicdomain/mark/1.0/", "CC BY-SA 3.0": "https://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 2.0": "https://creativecommons.org/licenses/by-sa/2.0/", "CC BY 2.0": "https://creativecommons.org/licenses/by/2.0/", "CC BY 3.0": "https://creativecommons.org/licenses/by/3.0/", "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/", "CC0": "https://creativecommons.org/publicdomain/zero/1.0/" };
 const dir = path.join(root, "src", "img", "stories");
 fs.mkdirSync(dir, { recursive: true });
-const j = async (u) => { const r = await fetch(u, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error(`${r.status} ${u}`); return r.json(); };
-const get = async (u, out) => { const r = await fetch(u, { headers: { "User-Agent": UA }, redirect: "follow" }); if (!r.ok) throw new Error(`${r.status} ${u}`); fs.writeFileSync(out, Buffer.from(await r.arrayBuffer())); };
+// Commons limita le richieste troppo frequenti (429): si aspetta quanto indicato e si riprova.
+const polite = async (u, opts) => {
+  for (let i = 0; i < 6; i++) {
+    const r = await fetch(u, { ...opts, headers: { "User-Agent": UA } });
+    if (r.status !== 429 && r.status !== 503) { if (!r.ok) throw new Error(`${r.status} ${u}`); return r; }
+    const wait = (Number(r.headers.get("retry-after")) || 20 * (i + 1)) * 1000;
+    console.log(`  ${r.status}: attendo ${Math.round(wait / 1000)} s`);
+    await sleep(wait);
+  }
+  throw new Error(`troppi tentativi: ${u}`);
+};
+const j = async (u) => (await polite(u, {})).json();
+const get = async (u, out) => { const r = await polite(u, { redirect: "follow" }); fs.writeFileSync(out, Buffer.from(await r.arrayBuffer())); };
 const only = process.argv.slice(2);
 
 for (const [id, p] of Object.entries(picks)) {
@@ -26,7 +37,7 @@ for (const [id, p] of Object.entries(picks)) {
   const ii = Object.values(m.query.pages)[0].imageinfo?.[0];
   if (!ii) { console.log("manca", id); continue; }
   const lic = ii.extmetadata.LicenseShortName.value;
-  const artist = String(ii.extmetadata.Artist ? ii.extmetadata.Artist.value : "").replace(/<[^>]+>/g, "").replace(/https?:\/\/\S+/g, "").replace(/\s+/g, " ").trim();
+  const artist = String(ii.extmetadata.Artist ? ii.extmetadata.Artist.value : "").replace(/<[^>]+>/g, "").replace(/https?:\/\/\S+/g, "").replace(/\s+/g, " ").trim().replace(/^(.{3,}?)\1$/, "$1");
   const artistFinal = artist || (lic === "Public domain" ? "Unknown author (public domain)" : "");
   if (!LICENSE_URL[lic] || !artistFinal) { console.log(`SALTATA ${id}: licenza "${lic}" o autore "${artist}"`); continue; }
   const enc = encodeURIComponent(p.file.replace(/ /g, "_"));
@@ -42,5 +53,5 @@ for (const [id, p] of Object.entries(picks)) {
   done[id] = { file: id, alt: p.alt, caption: p.caption, credit: artistFinal, license: lic, licenseUrl: LICENSE_URL[lic], source: `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.file.replace(/ /g, "_"))}`, width: pw, height: ph, ...(p.narrow ? { narrow: true } : {}) };
   fs.writeFileSync(outFile, JSON.stringify(done, null, 2) + "\n");
   console.log(`ok ${id}: ${lic}, ${artist.slice(0, 40)}, ${ii.width}x${ii.height} -> ${pw}x${ph}`);
-  await sleep(2500);
+  await sleep(6000);
 }

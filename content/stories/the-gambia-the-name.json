@@ -92,6 +92,54 @@
       "title": "A narrow shape, a wide history",
       "blocks": [
         {
+          "type": "stat",
+          "items": [
+            {
+              "value": "11,300 km²",
+              "label": "area of The Gambia (World Bank, 2023)",
+              "cite": [
+                "wb-area"
+              ]
+            },
+            {
+              "value": "2.8 million",
+              "label": "people (World Bank, 2025)",
+              "cite": [
+                "wb-population"
+              ]
+            },
+            {
+              "value": "49 of 54",
+              "label": "rank by area, counting the largest country as 1 (calculated here)",
+              "cite": [
+                "wb-area"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "Among the 54 African countries, ranked by area with the largest as number 1, where do you think The Gambia comes?",
+          "min": 1,
+          "max": 54,
+          "step": 1,
+          "unit": "",
+          "answer": 49,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "Number 49 of 54, calculated here from the World Bank's land areas.",
+              "cite": [
+                "wb-area"
+              ]
+            },
+            {
+              "text": "The five smaller countries, Cabo Verde, Comoros, Mauritius, São Tomé and Príncipe and Seychelles, are all islands.",
+              "editorial": true
+            }
+          ]
+        },
+        {
           "type": "p",
           "parts": [
             {
@@ -111,6 +159,28 @@
               "editorial": true
             }
           ]
+        },
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "The Gambia and its neighbour",
+          "sub": "Land area, square kilometres",
+          "rows": [
+            {
+              "label": "Senegal",
+              "value": 196710,
+              "text": "196,710"
+            },
+            {
+              "label": "The Gambia",
+              "value": 11300,
+              "text": "11,300"
+            }
+          ],
+          "cite": [
+            "wb-area"
+          ],
+          "note": "Land areas as given by the World Bank in this site's country data (2023). Senegal is about 17 times the area of The Gambia, a ratio calculated here."
         }
       ]
     },
@@ -144,7 +214,7 @@
     "The country's official naming history at independence and in later constitutional documents.",
     "How the name is used in Mandinka, Wolof, Fula and other languages spoken in the country.",
     "A local reading of the story: no one from The Gambia has reviewed it yet.",
-    "No figure, date or image has been added to this story yet; the colonial history of the name is the main gap."
+    "No image has been added yet, and the colonial history of the name is still the main gap."
   ],
   "keyPoints": [
     {
@@ -164,6 +234,12 @@
     {
       "text": "A map name cannot tell us what the name means to the people who live there.",
       "editorial": true
+    },
+    {
+      "text": "By area The Gambia is number 49 of the 54 African countries (calculated here from World Bank data).",
+      "cite": [
+        "wb-area"
+      ]
     }
   ]
 }

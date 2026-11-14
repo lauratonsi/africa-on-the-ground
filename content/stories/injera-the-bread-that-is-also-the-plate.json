@@ -104,6 +104,20 @@
           ]
         },
         {
+          "type": "figure",
+          "image": {
+            "file": "injera-mitad",
+            "alt": "A large round clay griddle over a small wood fire, with a thin layer of pale injera batter cooking on it.",
+            "caption": "Injera batter cooking on a mitad, the large round griddle, over a wood fire.",
+            "credit": "PhoTom - ፎቶም Photography",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/Injera_stove_.._and_fresh_Injera_being_cooked.JPG",
+            "width": 800,
+            "height": 600
+          }
+        },
+        {
           "type": "estimate",
           "prompt": "At most, how many hours is injera dough left to ferment?",
           "min": 0,
