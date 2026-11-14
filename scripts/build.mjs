@@ -625,15 +625,24 @@ write("index.html", layout({
   depth: 0,
   script: true,
   bodyClass: "home",
-  jump: [{ id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(storiesBand ? [{ id: "stories", label: "Stories" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
+  jump: [{ id: "about", label: "What it is" }, { id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(storiesBand ? [{ id: "stories", label: "Stories" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
   body: `
 <section class="scape-hero">
   ${landscape()}
   <div class="scape-text">
-    <p class="scape-kicker">Place guides</p>
+    <p class="scape-kicker">Learn by exploring</p>
     <h1>${esc(config.name)}</h1>
     <p class="scape-sub">${esc(config.tagline)}</p>
-    <p class="actions"><a class="btn btn-cream" href="#places">See the places</a></p>
+    <p class="actions"><a class="btn btn-cream" href="stories/index.html">Start with a story</a> <a class="btn btn-cream" href="#places">See the places</a></p>
+  </div>
+</section>
+<section id="about" class="wrap suns-sec" aria-labelledby="about-h">
+  <h2 class="suns-title" id="about-h">More than a travel guide</h2>
+  <p class="lede">This site exists to teach, in an interactive way, and to bring many sides of African cultures into one place. It is written for adults, in plain language, and nothing you do on it is saved or sent anywhere.</p>
+  <div class="suns">
+    <article class="sun"><h3>Learn by doing</h3><p>Guess before you read the answer, put events in order, sort the data, compare groups in a chart and test yourself with a quiz.</p><p><a href="stories/index.html">Stories</a> · <a href="quiz/index.html">Quiz</a></p></article>
+    <article class="sun"><h3>Many sides of one culture</h3><p>History, food, languages, places and numbers sit side by side, and each links to the others.</p><p><a href="places/index.html">Places</a> · <a href="countries/index.html">Countries</a> · <a href="society/index.html">Society</a></p></article>
+    <article class="sun"><h3>Sourced and honest</h3><p>Every statement carries its source, and each page says what is still not known. <a href="method/index.html">How it works</a></p></article>
   </div>
 </section>
 <section id="places" class="night">
@@ -1351,7 +1360,7 @@ if (data.countries) for (const c of data.countries.countries) write(`countries/$
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
 write("method/index.html", layout({
   title: `Method · ${config.name}`,
-  description: "How the record is sourced and how local notes are collected.",
+  description: "What the site is for, how the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
   body: (() => {
