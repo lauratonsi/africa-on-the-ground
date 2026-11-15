@@ -327,6 +327,7 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     for (const k of ["title", "subtitle"]) if (!st[k]) err(`${w}: manca "${k}".`);
     for (const code of st.countries || []) if (!/^[A-Z]{3}$/.test(code) || (countries && !(countries.countries || []).some((c) => c.iso3 === code))) err(`${w}: country "${code}" non è tra i 54 stati.`);
     for (const slug of st.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    for (const slug of st.peoples || []) if (!peoples.some((x) => x.data.slug === slug)) err(`${w}: il popolo "${slug}" non esiste.`);
     checkDeeper(st.deeper, w);
     if (!Array.isArray(st.sections) || !st.sections.length) err(`${w}: serve almeno una sezione.`);
     const seen = new Set();
@@ -396,6 +397,8 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     else if (`${c.slug}.json` !== file) err(`${w}: lo slug "${c.slug}" deve coincidere con il nome del file.`);
     if (peopleSlugs.has(c.slug)) err(`${w}: slug duplicato.`);
     peopleSlugs.add(c.slug);
+    for (const slug of c.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
+    for (const slug of c.capitals || []) if (!capitals.some((x) => x.data.slug === slug)) err(`${w}: la capitale "${slug}" non esiste.`);
     if (!["draft", "published"].includes(c.status)) err(`${w}: status deve essere "draft" o "published".`);
     if (!Array.isArray(c.countries) || !c.countries.length) err(`${w}: countries deve elencare almeno un paese.`);
     (c.countries || []).forEach((iso) => { if (!/^[A-Z]{3}$/.test(iso) || (countries && !(countries.countries || []).some((x) => x.iso3 === iso))) err(`${w}: country "${iso}" non valido.`); });

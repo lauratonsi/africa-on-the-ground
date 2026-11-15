@@ -18,6 +18,7 @@
     { id: "capital", label: "Capital", plural: "Capitals", color: "var(--viz-2)", icon: '<svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M2 17h16v2H2zM4 9h2v6H4zm5 0h2v6H9zm5 0h2v6h-2zM10 2L2 7v1h16V7z"/></svg>' },
     { id: "place", label: "Place", plural: "Places", color: "var(--viz-3)", icon: '<svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M10 2C6.7 2 4 4.7 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.3-2.7-6-6-6zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z"/></svg>' },
     { id: "story", label: "Story", plural: "Stories", color: "var(--viz-4)", icon: '<svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M4 3h10a2 2 0 012 2v12a1 1 0 01-1.5.8L10 15.5l-4.5 2.3A1 1 0 014 17V3z"/></svg>' },
+    { id: "people", label: "People", plural: "Peoples", color: "var(--viz-6)", icon: '<svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor" aria-hidden="true"><circle cx="7" cy="6" r="3"/><circle cx="14" cy="7" r="2.4"/><path d="M1 17c0-3.3 2.7-6 6-6s6 2.7 6 6zM13 12.2c2.7 0 5 2 5 4.8h-4.2c0-1.9-.3-3.5-.8-4.8z"/></svg>' },
     { id: "bloc", label: "Regional bloc", plural: "Regional blocs", color: "var(--viz-5)", icon: '<svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="5" r="3"/><circle cx="5" cy="14" r="3"/><circle cx="15" cy="14" r="3"/><path d="M8 7l-2 5M12 7l2 5M8 14h4"/></svg>' }
   ];
 
@@ -293,6 +294,7 @@
         t.id === "capital" ? "Capitals closely linked to this editorial record." :
         t.id === "place" ? "Heritage site or cultural place you can jump to next." :
         t.id === "story" ? "In-depth editorial story exploring this context." :
+        t.id === "people" ? "A people whose profile is linked here by name in the sources." :
         "Regional organisation uniting this country."
       );
       group.appendChild(note);
@@ -358,7 +360,7 @@
   // Quest Logic
   function newQuest() {
     var pool = G.nodes.filter(function (n) {
-      return (n.t === "story" || n.t === "place" || n.t === "country" || n.t === "capital") && (adj[n.id] || []).length > 0;
+      return (n.t === "story" || n.t === "place" || n.t === "country" || n.t === "capital" || n.t === "people") && (adj[n.id] || []).length > 0;
     });
     var a, b, path, tries = 0;
     do {

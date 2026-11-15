@@ -4,10 +4,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { root } from "./lib.mjs";
+import { sleep } from "./commons.mjs";
 
 const UA = "AfricaOnTheGround/0.1 (educational site; open data)";
 const base = "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records";
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const countries = JSON.parse(fs.readFileSync(path.join(root, "content/data/africa-countries.json"), "utf8")).countries;
 const iso2 = JSON.parse(fs.readFileSync(path.join(root, "content/data/iso2.json"), "utf8"));
 const wanted = new Set(countries.map((c) => iso2[c.iso3]));

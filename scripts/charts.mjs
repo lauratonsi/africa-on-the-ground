@@ -1,6 +1,6 @@
 // Grafici generati al build, senza librerie. Barre in HTML/CSS (scalano bene su telefono),
 // grafico a punti in SVG. Colori e spessori sono nel CSS (variabili --viz-*).
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+import { esc } from "./html.mjs";
 export const fmtInt = (n) => Math.round(n).toLocaleString("en-US");
 export const fmtPop = (n) => (n >= 1e9 ? `${(n / 1e9).toFixed(2)} billion` : `${(n / 1e6).toFixed(n < 1e7 ? 1 : 0)} million`);
 const fmtM = (n) => (n >= 1e6 ? `${(n / 1e6).toFixed(n < 1e7 ? 1 : 0)} M` : `${Math.round(n / 1e3)} k`);

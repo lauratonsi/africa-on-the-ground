@@ -7053,5 +7053,85 @@
     "status": "verified",
     "retrieved": "2026-11-15",
     "note": "Quote confirmed on the page or in the PDF text by an automatic check on 15 November 2026 (curly quotes and layout aside)."
+  },
+  {
+    "id": "geschiere-leidschrift-1994",
+    "title": "Peter Geschiere, article on witchcraft and politics, in Leidschrift: Politieke Cultuur in Post-Koloniaal Afrika (1994)",
+    "publisher": "Leiden University repository",
+    "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/73133/1?col=81522198910002711",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "geschiere-legal-pluralism-1996",
+    "title": "Peter Geschiere, article in Journal of Legal Pluralism and Unofficial Law, nos. 37-38 (1996)",
+    "publisher": "Commission on Folk Law and Legal Pluralism",
+    "url": "https://commission-on-legal-pluralism.com/system/commission-on-legal-pluralism/volumes/37-38/geschiere-art.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "geschiere-second-pair-of-eyes-2021",
+    "title": "Getting a second pair of eyes (chapter by Peter Geschiere, 2021)",
+    "publisher": "Sidestone Press, via UvA",
+    "url": "https://pure.uva.nl/ws/files/249550970/Getting_a_second_pair_of_eyes.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "geschiere-historicity-witchcraft-2019",
+    "title": "The historicity of witchcraft narratives: examples from the forest region of South Cameroon (abstract)",
+    "publisher": "UvA-DARE (University of Amsterdam)",
+    "url": "https://dare.uva.nl/id/09ac70a2-8a90-45e4-aef0-a0c2b1ff440e",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "jaso-ardener-obituary-1987",
+    "title": "Edwin Ardener, obituary in the Journal of the Anthropological Society of Oxford (1987)",
+    "publisher": "Oxford University Research Archive",
+    "url": "https://ora.ox.ac.uk/objects/uuid:c17289ea-ec4b-4728-a202-c275b431f858/files/rpg15bg048",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "comaroff-occult-economies-1999",
+    "title": "Occult economies and the violence of abstraction: notes from the South African postcolony (American Ethnologist 26(2), 1999)",
+    "publisher": "Jean and John Comaroff (author's website copy)",
+    "url": "https://jeancomaroff.com/essays/occult-economies-and-the-violence-of-abstraction-notes-from-the-south-african-postcolony-2/",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "encyclopedia-religion-african-witchcraft",
+    "title": "Witchcraft: African witchcraft (Encyclopedia of Religion, 1987)",
+    "publisher": "Gale, via Encyclopedia.com",
+    "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/witchcraft-african-witchcraft",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "kohnert-witchcraft-giga",
+    "title": "Dirk Kohnert, working paper on witchcraft in Africa (MPRA paper 111582)",
+    "publisher": "GIGA Institute of African Affairs / MPRA",
+    "url": "https://mpra.ub.uni-muenchen.de/111582/1/MPRA_paper_111582.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-15",
+    "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
   }
 ]

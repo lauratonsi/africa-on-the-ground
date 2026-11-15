@@ -5,25 +5,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { root } from "./lib.mjs";
+import { sleep, LICENSE_URL, makeFetcher } from "./commons.mjs";
 
 const UA = "AfricaOnTheGroundPlaceImages/0.1 (open-licence images for an educational site)";
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const picks = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "place-image-picks.json"), "utf8"));
-const LICENSE_URL = { "CC BY-SA 4.0": "https://creativecommons.org/licenses/by-sa/4.0/", "Public domain": "https://creativecommons.org/publicdomain/mark/1.0/", "CC BY-SA 3.0": "https://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 2.0": "https://creativecommons.org/licenses/by-sa/2.0/", "CC BY 2.0": "https://creativecommons.org/licenses/by/2.0/", "CC BY 3.0": "https://creativecommons.org/licenses/by/3.0/", "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/", "CC0": "https://creativecommons.org/publicdomain/zero/1.0/" };
 const dir = path.join(root, "src", "img", "places");
 fs.mkdirSync(dir, { recursive: true });
-const polite = async (u, opts) => {
-  for (let i = 0; i < 6; i++) {
-    const r = await fetch(u, { ...opts, headers: { "User-Agent": UA } });
-    if (r.status !== 429 && r.status !== 503) { if (!r.ok) throw new Error(`${r.status} ${u}`); return r; }
-    const wait = (Number(r.headers.get("retry-after")) || 20 * (i + 1)) * 1000;
-    console.log(`  ${r.status}: attendo ${Math.round(wait / 1000)} s`);
-    await sleep(wait);
-  }
-  throw new Error(`troppi tentativi: ${u}`);
-};
-const j = async (u) => (await polite(u, {})).json();
-const get = async (u, out) => { const r = await polite(u, { redirect: "follow" }); fs.writeFileSync(out, Buffer.from(await r.arrayBuffer())); };
+const { j, get: getRaw } = makeFetcher(UA);
+const get = (u, out) => getRaw(u, out, fs);
 const only = process.argv.slice(2);
 
 for (const [slug, p] of Object.entries(picks)) {

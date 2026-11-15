@@ -5,12 +5,13 @@
   "title": "Is 'black magic' an African thing?",
   "subtitle": "The phrase hides three different things: a religion, a belief about misfortune, and a set of accusations that kill. Only the last is a human-rights emergency, and Europe has been there too.",
   "countries": [
-    "TZA",
-    "GHA",
     "BEN",
-    "ZAF",
+    "CMR",
     "COD",
-    "MWI"
+    "GHA",
+    "MWI",
+    "TZA",
+    "ZAF"
   ],
   "places": [],
   "keyPoints": [
@@ -30,6 +31,12 @@
       "text": "Historians' consensus is that 100,000-110,000 Europeans were tried for witchcraft between about 1400 and 1750, about half of them executed.",
       "cite": [
         "leeson-russ-witch-trials-2018"
+      ]
+    },
+    {
+      "text": "The 'invisible plantations' stories belong to a newer form of Cameroonian witchcraft tied to European trade and new wealth, not to the older Maka djambe.",
+      "cite": [
+        "geschiere-leidschrift-1994"
       ]
     }
   ],
@@ -244,6 +251,152 @@
       ]
     },
     {
+      "id": "plantations",
+      "title": "Witchcraft, money and the plantation",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In south-east Cameroon the Maka word for witchcraft is djambe. The anthropologist Peter Geschiere, who has worked among the Maka for decades, wrote that Maka witches have a special substance, which they call djamb, in their belly, 'which permits them to leave their body'.",
+              "cite": [
+                "geschiere-leidschrift-1994"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2021 he put it in plainer terms: people describe the djambe as 'a small but aggressive animal (sharp teeth)' that lives in a person's belly.",
+              "cite": [
+                "geschiere-second-pair-of-eyes-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The belly is not only Maka. Geschiere gives the same idea for the neighbouring Beti (evu), Duala (ewusu) and Bakweri (liemba).",
+              "cite": [
+                "geschiere-legal-pluralism-1996"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The djambe itself is older than the plantations. Geschiere describes a 'striking continuity' between the war-heroes of pre-colonial days, the colonial chiefs, the village notables and the modern elite, all of whom were credited with occult power.",
+              "cite": [
+                "geschiere-legal-pluralism-1996"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "What does belong to the plantation world is a newer form. In it, victims are no longer eaten but turned into zombies and put to work; they are said to be taken in lorries to Mount Kupe, 'where they have to work on invisible plantations'.",
+              "cite": [
+                "geschiere-leidschrift-1994"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Geschiere ties this form to 'the growing impact of European trade' in the 19th century, and says that it became prevalent in the Maka region of the south, centre and east 'only quite recently'. He adds that the old elements are now expressed in a new idiom with 'commercial, one could even say capitalist, overtones'.",
+              "cite": [
+                "geschiere-leidschrift-1994"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The word 'plantations' has a real history behind it. The Germans, he notes, had created in western Cameroon 'one of the few large-scale plantation complexes in West Africa'. Labour was recruited at first by coercion or through chiefs, and later through wage labour.",
+              "cite": [
+                "geschiere-leidschrift-1994"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Earlier, Edwin Ardener had studied the Bakweri, whose own form of the belief was called nyongo. An obituary summarises his 1970 essay: the Bakweri 'think' witchcraft where we might 'think' economics. When poverty strikes, those who are wealthy 'must be the witches who drain the resources of others'.",
+              "cite": [
+                "jaso-ardener-obituary-1987"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Where the memory is right, and where it needs care",
+          "parts": [
+            {
+              "text": "Right: the Maka djambe is described as living in the belly, and as harming kin.",
+              "cite": [
+                "geschiere-leidschrift-1994",
+                "geschiere-second-pair-of-eyes-2021"
+              ]
+            },
+            {
+              "text": " Needs care: the sources tie the plantations to a newer form of witchcraft, not to the djambe itself, and not to the Maka in colonial times. Geschiere calls djambe 'not a timeless tradition but a flexible and often internally inconsistent set of elements'.",
+              "cite": [
+                "geschiere-historicity-witchcraft-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Beyond Cameroon the picture is wider but less specific. Jean and John Comaroff write that in much of Africa 'the colonial encounter played on pre-existing enchantments' and at times 'multiplied the sorts of frictions that ignite witch hunts'.",
+              "cite": [
+                "comaroff-occult-economies-1999"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Colonial rule also changed the law: it banned many divination practices such as the poison ordeal and usually made imputing witchcraft punishable.",
+              "cite": [
+                "encyclopedia-religion-african-witchcraft"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A caution from the literature: one author, citing Ardener, warns that the content of witchcraft belief varies with the society's economy, so 'we have to caution against generalizations'.",
+              "cite": [
+                "kohnert-witchcraft-giga"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "harm",
       "title": "Where it turns deadly",
       "blocks": [
@@ -419,8 +572,11 @@
     "Benin's recognition of Vodun is dated 1996 by the AP, but a Benin tour operator cites a law of 20 August 1997. We have not checked the official gazette.",
     "The text of Human Rights Council resolution 47/8 (2021) was not opened; it is known here only through the OHCHR report.",
     "The Pew data are from 2008-09. We found no newer country-by-country figure.",
-    "The sources for the voices are an NGO and a survivor quoted by Amnesty. No African scholar's text has been read yet.",
     "The Kinshasa claim rests on a 2006 Human Rights Watch release, not a recent study. We did not verify a percentage of accused street children.",
-    "A human reader from one of the affected communities should review this story before it is published."
+    "A human reader from one of the affected communities should review this story before it is published.",
+    "Ardener's 1970 essay on the Bakweri was not read at source: it is known here through a 1987 obituary and encyclopedia entries.",
+    "The plantation material is from Cameroon (Bakweri, Duala, Maka). The sources do not show it to be a pattern for all of Africa.",
+    "We read no Maka speaker's own account of the djambe: all the Maka material is Geschiere's, a Dutch anthropologist.",
+    "The belly detail for the Beti (evu) and Fang (evur) was not checked in the original ethnographies (Laburthe-Tolra and others)."
   ]
 }

@@ -1047,6 +1047,41 @@
         "cap-ejol-aau-edu-et-099bc5"
       ],
       "people": "oromo"
+    },
+    {
+      "id": "witch-djambe-belly",
+      "topic": "myths",
+      "q": "In Geschiere's accounts of the Maka of Cameroon, where is the djambe said to live?",
+      "options": [
+        "In a person's belly",
+        "In a sacred tree",
+        "In the village granary",
+        "In the river"
+      ],
+      "answer": "In a person's belly",
+      "explain": "Geschiere describes the djambe as a substance or small aggressive animal that lives in a person's belly. The same idea appears for the Beti, Duala and Bakweri under other names.",
+      "cite": [
+        "geschiere-second-pair-of-eyes-2021",
+        "geschiere-legal-pluralism-1996"
+      ],
+      "story": "is-black-magic-an-african-thing"
+    },
+    {
+      "id": "witch-invisible-plantations",
+      "topic": "myths",
+      "q": "According to Geschiere, to which kind of witchcraft do the 'invisible plantations' stories belong?",
+      "options": [
+        "A newer form tied to trade and new wealth",
+        "The oldest Maka djambe",
+        "A colonial law",
+        "A healing ritual"
+      ],
+      "answer": "A newer form tied to trade and new wealth",
+      "explain": "In that form, victims are turned into zombies and made to work on invisible plantations. Geschiere links it to European trade and the new rich, and says it reached the Maka region only recently.",
+      "cite": [
+        "geschiere-leidschrift-1994"
+      ],
+      "story": "is-black-magic-an-african-thing"
     }
   ]
 }

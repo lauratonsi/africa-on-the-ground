@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { root } from "./lib.mjs";
 import { project as eeProject } from "./truesize-math.mjs";
+import { esc } from "./html.mjs";
 
 const geo = (f) => JSON.parse(fs.readFileSync(path.join(root, "src", "geo", f), "utf8"));
 const africa = geo("africa.json");
@@ -12,7 +13,6 @@ const gambia = geo("gambia.json");
 export const countryCodes = new Set(africa.countries.map((c) => c.a3));
 export const countryName = (a3) => (africa.countries.find((c) => c.a3 === a3) || {}).name || a3;
 
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const r1 = (n) => Math.round(n * 10) / 10;
 
 // Proiezione piana con correzione del coseno alla latitudine centrale.

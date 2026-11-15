@@ -8,6 +8,7 @@ import { africaMap, africaPlacesMap, gambiaMap, choroplethMap, trueSizeBase, cou
 import { barList, pairedBars, scatter, stackedShares, fmtInt, fmtPop } from "./charts.mjs";
 import { religionShares, governmentGroup, officialLanguages } from "./profiles.mjs";
 import { spokenLanguages } from "./languages.mjs";
+import { esc } from "./html.mjs";
 
 const data = loadAll();
 const result = validate(data);
@@ -39,7 +40,6 @@ fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const fmtDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
 const prefix = (depth) => (depth === 0 ? "./" : "../".repeat(depth));
 const pageCountrySlug = (name) => String(name).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -618,10 +618,11 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
   const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
+  const relPeoples = (st.peoples || []).map((sl) => peoples.find(({ data: pp }) => pp.slug === sl && (pp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: pp }) => `<a href="../../peoples/${esc(pp.slug)}/index.html">${esc(pp.name)}</a>`).join(", ");
   const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
   const relStories = stories.filter((x) => x.slug !== st.slug && ((x.countries || []).some((c) => (st.countries || []).includes(c)) || (x.places || []).some((pl) => (st.places || []).includes(pl)))).slice(0, 4).map((x) => `<a href="../${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const relCaps = (st.countries || []).map((iso) => capitals.find(({ data: cp }) => cp.country === iso && (cp.sections || []).length && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a>`).join(", ");
-  const related = relCountries || relPlaces || toolLi || relStories || relCaps ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
+  const related = relCountries || relPlaces || toolLi || relStories || relCaps || relPeoples ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relPeoples ? `<li>People: ${relPeoples}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
@@ -1863,6 +1864,10 @@ function renderPeople(c) {
   const keyHtml = c.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${c.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const secs = (c.sections || []).map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../../" })).join("")}</section>`).join("\n");
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${(c.gaps || []).map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
+  const linkedStories = stories.filter((x) => (x.peoples || []).includes(c.slug)).map((x) => `<li>Story: <a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a></li>`);
+  const linkedPlaces = (c.places || []).map((sl) => published.find((x) => x.slug === sl)).filter(Boolean).map((x) => `<li>Place: <a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a></li>`);
+  const linkedCaps = (c.capitals || []).map((sl) => capitals.find(({ data: cp }) => cp.slug === sl && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<li>Capital: <a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a></li>`);
+  const peopleRelated = linkedStories.length || linkedPlaces.length || linkedCaps.length ? `<aside class="related" aria-label="Related"><h2>Linked by name</h2><p class="note-small">These links are chosen by hand: each page named below mentions this people in its own sources.</p><ul>${[...linkedStories, ...linkedPlaces, ...linkedCaps].join("")}<li><a href="../index.html">All peoples</a></li></ul></aside>` : "";
   const nList = (notes[`people-${c.slug}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
   const voices = `<section class="story-voices" id="voices" aria-labelledby="voices-h"><span class="layer-tag voi">From people who belong to this group</span><h2 id="voices-h">What readers add</h2>
 ${nList.length ? `<div class="notes">${nList.map((n) => noteCard(n, config.noteKinds || [])).join("")}</div>` : `<div class="empty"><strong>No voice from the group yet.</strong><span>This page was written from published sources by outsiders. It should be read by people from the group before it is published, and what they add stays apart from the record.</span></div>`}
@@ -1872,6 +1877,7 @@ ${shareSection({ type: "people", id: c.slug, name: c.name, kinds: config.noteKin
   const sts = stories.filter((x) => (x.countries || []).some((i) => (c.countries || []).includes(i))).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const body = `${compactHero({ kicker: `People · ${(c.countries || []).map((i) => cName[i] || i).join(", ")}`, title: c.name, sub: c.subtitle })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+${peopleRelated}
 ${pageChecks("people", c.slug, cite)}
 ${gaps}
 ${voices}
@@ -1893,6 +1899,14 @@ function renderExplore() {
   for (const pl of published) { if (!pl.country || pl.type === "dish" && !pl.country) continue; add(`p:${pl.slug}`, "place", pl.name, `../places/${pl.slug}/index.html`, pl.subtitle || ""); if (ids.has(`c:${pl.country}`)) edges.push([`p:${pl.slug}`, `c:${pl.country}`]); }
   for (const { data: cp } of capsHere) for (const slug of cp.places || []) if (ids.has(`p:${slug}`)) edges.push([`k:${cp.slug}`, `p:${slug}`]);
   for (const st of stories) { add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`, st.subtitle || ""); for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]); for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]); }
+  // Popoli: legati ai loro paesi, ai luoghi e alle capitali che le schede nominano e alle storie che li citano (collegamenti scelti a mano, mai dedotti).
+  for (const { data: pp } of peoples.filter(({ data: x }) => x.status === "published" || includeDrafts)) {
+    add(`e:${pp.slug}`, "people", pp.name, `../peoples/${pp.slug}/index.html`, pp.subtitle || "");
+    for (const iso of pp.countries || []) if (ids.has(`c:${iso}`)) edges.push([`e:${pp.slug}`, `c:${iso}`]);
+    for (const slug of pp.places || []) if (ids.has(`p:${slug}`)) edges.push([`e:${pp.slug}`, `p:${slug}`]);
+    for (const slug of pp.capitals || []) if (ids.has(`k:${slug}`)) edges.push([`e:${pp.slug}`, `k:${slug}`]);
+    for (const st of stories) if ((st.peoples || []).includes(pp.slug)) edges.push([`e:${pp.slug}`, `s:${st.slug}`]);
+  }
   const graph = { nodes, edges };
   const body = `${compactHero({ kicker: "Explore", title: "Connections", sub: "Everything on this site is linked to something else. Pick a starting point and follow the threads." })}
 <div class="wrap prose-hero">
@@ -1902,7 +1916,7 @@ function renderExplore() {
       <p class="layer-tag rec">Interactive Network</p>
       <h2 id="ex-h">Follow one thread at a time</h2>
     </div>
-    <p>Connections are the editorial links between countries, places, capitals, stories and regional blocs. Choose a starting point to explore freely, or challenge yourself to find the shortest route between two distant topics.</p>
+    <p>Connections are the editorial links between countries, places, capitals, peoples, stories and regional blocs. Choose a starting point to explore freely, or challenge yourself to find the shortest route between two distant topics.</p>
   </div>
   <noscript><p class="fine">This explorer needs JavaScript. Without it, every page links to the countries, places and stories connected to it under "Keep exploring".</p></noscript>
   <div class="ex-ui" id="ex-ui" hidden>
