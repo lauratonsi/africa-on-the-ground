@@ -5,13 +5,62 @@
   "country": "GNB",
   "name": "Bissau Velho",
   "region": "Bissau · Guinea-Bissau",
-  "subtitle": "Colonial old town on the Geba estuary featuring Portuguese pastel trading houses and cobblestone avenues.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bissau Velho is the old colonial core of the capital.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "'Old Bissau', the colonial-era quarter",
+      "cite": [
+        "cap-aljazeera-com-f58da6"
+      ]
+    },
+    {
+      "label": "Facades",
+      "value": "After independence, owners were required by law to repaint facades each December for a decade",
+      "cite": [
+        "cap-aljazeera-com-f58da6"
+      ]
+    },
+    {
+      "label": "Colonial buildings",
+      "value": "Most roads are still lined with buildings from the Portuguese colonial period",
+      "cite": [
+        "cap-aljazeera-com-f58da6"
+      ]
+    },
+    {
+      "label": "Condition",
+      "value": "Many structures are abandoned and crumbling",
+      "cite": [
+        "cap-aljazeera-com-f58da6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bissau Velho is the old colonial core of the capital. Many of its colonial buildings still stand but are abandoned and crumbling.",
+              "cite": [
+                "cap-aljazeera-com-f58da6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Full architectural conservation and classification inventories for private buildings are pending.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "slug": "royal-palace-and-museum-of-foumban-bamum-kingdom",
+  "status": "draft",
+  "type": "site",
+  "country": "CMR",
+  "name": "Royal Palace and Museum of Foumban (Bamum kingdom)",
+  "region": "Foumban · West Region · Cameroon",
+  "subtitle": "The royal palace in Foumban was built during the reign of King Njoya, who also opened royal treasures to the wider community.",
+  "facts": [
+    {
+      "label": "Palace",
+      "value": "Njoya's reign (1889-1933) saw the construction of a magnificent palace in Foumban.",
+      "cite": [
+        "cap-theafricanmirror-africa-d4e30f"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Njoya decided to open the royal treasures to the wider community, breaking with a tradition of exclusivity tied to specific ceremonies.",
+      "cite": [
+        "cap-theafricanmirror-africa-d4e30f"
+      ]
+    },
+    {
+      "label": "Museum move",
+      "value": "The museum was originally in the royal palace and was relocated to a new building under King Ibrahim Mbombo Njoya.",
+      "cite": [
+        "cap-theafricanmirror-africa-d4e30f"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "The African Mirror reports that the king built a royal museum housing over 3,000 artifacts.",
+      "cite": [
+        "cap-theafricanmirror-africa-d4e30f"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "AFP reports the Museum of the Bamoun Kings contains 12,500 pieces, including weapons, pipes and musical instruments, only a few previously shown in the palace (counts differ between sources).",
+      "cite": [
+        "cap-voanews-com-ee03fc"
+      ]
+    },
+    {
+      "label": "Why a new building",
+      "value": "Construction of the new museum was launched in 2013 because the palace rooms were too cramped.",
+      "cite": [
+        "cap-voanews-com-ee03fc"
+      ]
+    },
+    {
+      "label": "Living heritage",
+      "value": "The Nguon, a set of Bamoun rituals celebrated in an annual festival, joined UNESCO's Intangible Heritage list months before the museum opened (April 2024).",
+      "cite": [
+        "cap-voanews-com-ee03fc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The royal palace in Foumban was built during the reign of King Njoya, who also opened royal treasures to the wider community. The museum, first in the palace, was moved to a new building under King Ibrahim Mbombo Njoya; reports on its holdings range from over 3,000 to 12,500 pieces.",
+              "cite": [
+                "cap-theafricanmirror-africa-d4e30f",
+                "cap-voanews-com-ee03fc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Palace completion year not verified from a readable source",
+    "Not found in a readable source: Founding date of the kingdom differs between sources (1384 AFP vs 1394 elsewhere); not asserted",
+    "Local voices: none yet."
+  ]
+}

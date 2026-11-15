@@ -1,61 +1,614 @@
 {
-  "city": "Bangui",
-  "country": "CAF",
-  "population": {
-    "value": 622771,
-    "year": 2003,
-    "definition": "Population of the Autonomous Commune of Bangui enumerated in the 3rd General Population and Housing Census (RGPH-3, December 2003) conducted by the Institut Centrafricain des Statistiques et des Etudes Economiques et Sociales (ICASEES), tabulated via CityPopulation. Subsequent 2021 digital cartography updates for the 4th census phase mapped 812,407 residents in the city proper and 1,425,276 within the enlarged Bangui Prefecture including Bimbo and Bégoua.",
-    "source": {
-      "title": "Central African Republic: Prefectures & Major Cities - Population Statistics (Census 2003)",
-      "publisher": "CityPopulation (credits ICASEES Centrafrique)",
-      "author": null,
-      "date": "2003-12-08",
-      "url": "https://www.citypopulation.de/en/car/cities/",
-      "tier": "institutional",
-      "quote": "2003-12-08 | Bangui (Autonomous Commune): 622,771"
-    }
+ "city": "Bangui",
+ "country": "CAF",
+ "population": {
+  "value": 451691,
+  "year": 1988,
+  "definition": "Bangui as counted in the 1988 general census (RGP 1988) analysis of results; the 2003 census figure could not be verified on a readable page",
+  "source": {
+   "title": "Recensement général de la population 1988 : principaux résultats, analyse",
+   "publisher": "Ministère du Plan, République centrafricaine (via IREDA/CEPED)",
+   "author": null,
+   "date": null,
+   "url": "https://ireda.ceped.org/inventaire/ressources/caf-1988-rec-o2_principaux_resultats_analyse.pdf",
+   "tier": "institutional",
+   "quote": "Bangui compte à elle seule 451.691 habitants soit 46% de la population urbaine",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Radio Ndeke Luka reports that Bangui was created in 1889 by Michel Dolisie, a French explorer and administrator.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "la création de la ville de Bangui en 1889 par Michel Dolisie, un explorateur et administrateur français",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Bangui became the chief town (chef-lieu) of Oubangui-Chari, a subdivision of French Equatorial Africa, from 1910.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "Elle devient le chef-lieu de l’Oubangui-Chari, subdivision de l’Afrique-Équatoriale française à partir de 1910",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Since 2021 Bangui has been a prefecture with 4 sub-prefectures and 10 arrondissements, placed under a governorate.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "Depuis 2021, elle est devenue une préfecture comptant 4 sous-préfectures et 10 arrondissements et placée sous un gouvernorat",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Municipal authorities say Bangui's area grew from 97 km2 to 347 km2 in recent years.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "la superficie de Bangui est passée de 97 km2 à 347 km2, selon les autorités municipales",
+    "verified": true
+   }
+  },
+  {
+   "claim": "UN-Habitat describes Bangui as covering 67 square kilometres and made up of eight arrondissements.",
+   "source": {
+    "title": "Bangui (fiche ville)",
+    "publisher": "UN-Habitat",
+    "author": null,
+    "date": "2019",
+    "url": "https://unhabitat.org/sites/default/files/2022/07/bangui_fr.pdf",
+    "tier": "institutional",
+    "quote": "Bangui couvre une superficie de 67 kilomètres carrés et est composée de huit arrondissements",
+    "verified": true
+   }
+  },
+  {
+   "claim": "At the 1988 census Bangui alone had 451,691 inhabitants, 46% of the urban population of the Central African Republic.",
+   "source": {
+    "title": "Recensement général de la population 1988 : principaux résultats, analyse",
+    "publisher": "Ministère du Plan, République centrafricaine (via IREDA/CEPED)",
+    "author": null,
+    "date": null,
+    "url": "https://ireda.ceped.org/inventaire/ressources/caf-1988-rec-o2_principaux_resultats_analyse.pdf",
+    "tier": "institutional",
+    "quote": "Bangui compte à elle seule 451.691 habitants soit 46% de la population urbaine",
+    "verified": true
+   }
+  },
+  {
+   "claim": "According to ICASEES data published in 2024, the capital had reached more than 1,400,000 inhabitants (a statistics-institute figure, not a census count).",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "la capitale centrafricaine a atteint plus de 1.400.000 habitants",
+    "verified": true
+   }
+  },
+  {
+   "claim": "UN-Habitat says Bangui is home to about 41% of the total urban population of the Central African Republic.",
+   "source": {
+    "title": "Central African Republic country brief",
+    "publisher": "UN-Habitat",
+    "author": null,
+    "date": "2023",
+    "url": "https://unhabitat.org/sites/default/files/2023/07/car_country_brief_fr.pdf",
+    "tier": "institutional",
+    "quote": "abrite environ 41 % de la population urbaine totale",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 1960s the dredger LEOTARD was used to fill in the swamps of Bangui so that industries such as BATA, CENTRACOLOR, CICI and AGIP could be set up.",
+   "source": {
+    "title": "Vers une navigation en toute saison entre Bangui et Brazzaville",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2012-07-22",
+    "url": "https://www.radiondekeluka.org/10105-vers-une-navigation-en-toute-saison-entre-bangui-et-brazzaville",
+    "tier": "press",
+    "quote": "la drague LEOTARD a permis de remblayer les marécages de Bangui",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Boats called pirogues ferry people and luggage across the Oubangui from Bangui to the island of Mbongossoa.",
+   "source": {
+    "title": "Bangui : à la découverte « des taximen de la rivière » sur l’Oubangui",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2021-07-18",
+    "url": "https://www.radiondekeluka.org/37203-bangui-a-la-decouverte-des-taximen-de-la-riviere-sur-l-oubangui",
+    "tier": "press",
+    "quote": "pirogues afin de traverser vers l’ile Mbongossoa",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1889",
+   "tag": "origins",
+   "claim": "Bangui was created by the French explorer and administrator Michel Dolisie.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "la création de la ville de Bangui en 1889 par Michel Dolisie",
+    "verified": true
+   }
+  },
+  {
+   "when": "1910",
+   "tag": "origins",
+   "claim": "Bangui became chef-lieu of Oubangui-Chari within French Equatorial Africa.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "chef-lieu de l’Oubangui-Chari, subdivision de l’Afrique-Équatoriale française à partir de 1910",
+    "verified": true
+   }
+  },
+  {
+   "when": "1 December 1958",
+   "tag": "growth",
+   "claim": "Barthélemy Boganda proclaimed the Central African Republic, limited to the borders of the former Oubangui-Chari.",
+   "source": {
+    "title": "RCA : une date d’indépendance qui en cache une autre",
+    "publisher": "Journal de Bangui (source RFI)",
+    "author": null,
+    "date": "2021-08-13",
+    "url": "https://www.journaldebangui.com/rca-une-date-dindependance-qui-en-cache-une-autre/",
+    "tier": "press",
+    "quote": "Barthélémy Boganda proclame alors, le 1er décembre 1958, la création de la République centrafricaine",
+    "verified": true
+   }
+  },
+  {
+   "when": "13 August 1960",
+   "tag": "growth",
+   "claim": "The country officially became independent.",
+   "source": {
+    "title": "RCA : une date d’indépendance qui en cache une autre",
+    "publisher": "Journal de Bangui (source RFI)",
+    "author": null,
+    "date": "2021-08-13",
+    "url": "https://www.journaldebangui.com/rca-une-date-dindependance-qui-en-cache-une-autre/",
+    "tier": "press",
+    "quote": "Officiellement, le pays est devenu indépendant le 13 août 1960",
+    "verified": true
+   }
+  },
+  {
+   "when": "4 December 1977",
+   "tag": "growth",
+   "claim": "Jean-Bedel Bokassa crowned himself emperor in a ceremony for 5,000 guests at the Palais des sports of Bangui.",
+   "source": {
+    "title": "Le sacre impérial de Bokassa en Centrafrique en 1977",
+    "publisher": "RTBF",
+    "author": null,
+    "date": "2023",
+    "url": "https://www.rtbf.be/article/le-sacre-imperial-de-bokassa-en-centrafrique-en-1977-signe-avant-coureur-de-l-echec-francais-en-afrique-11295891",
+    "tier": "press",
+    "quote": "une cérémonie où sont conviés 5000 invités se tient au palais des sports de Bangui... le chef de l’État, le président Jean-Bedel Bokassa, se couronne empereur de Centrafrique",
+    "verified": true
+   }
+  },
+  {
+   "when": "24 March 2013",
+   "tag": "today",
+   "claim": "President Bozizé fled to the DR Congo, according to one of his advisers, as rebels took Bangui.",
+   "source": {
+    "title": "Centrafrique: les rebelles prennent Bangui, Bozizé fuit en RDC",
+    "publisher": "Radio Okapi (AFP via Romandie)",
+    "author": "AFP",
+    "date": "2013-03-24",
+    "url": "https://www.radiookapi.net/lu-sur-le-web/2013/03/24/centrafrique-les-rebelles-prennent-bangui-bozize-fuit-en-rdc-afp-romandie",
+    "tier": "press",
+    "quote": "rebelles prennent Bangui, Bozizé fuit en RDC",
+    "verified": true
+   }
+  },
+  {
+   "when": "29 November 2015",
+   "tag": "today",
+   "claim": "Pope Francis opened the Holy Door of the cathedral of Bangui.",
+   "source": {
+    "title": "Ouverture de la Porte Sainte de la cathédrale de Bangui et messe (29 novembre 2015)",
+    "publisher": "Le Saint-Siège",
+    "author": "Pape François",
+    "date": "2015-11-29",
+    "url": "https://www.vatican.va/content/francesco/fr/homilies/2015/documents/papa-francesco_20151129_repcentrafricana-omelia-cattedrale-bangui.pdf",
+    "tier": "primary",
+    "quote": "OUVERTURE DE LA PORTE SAINTE DE LA CATHÉDRALE DE BANGUI",
+    "verified": true
+   }
+  },
+  {
+   "when": "2021",
+   "tag": "today",
+   "claim": "Bangui became a prefecture with 4 sub-prefectures and 10 arrondissements, under a governorate.",
+   "source": {
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka",
+    "author": null,
+    "date": "2024-06-26",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "quote": "Depuis 2021, elle est devenue une préfecture comptant 4 sous-préfectures et 10 arrondissements",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Manovo-Gounda St Floris National Park",
+   "type": "site",
+   "what": "A large savanna park in the north-east of the Central African Republic, listed as a UNESCO World Heritage Site in 1988. It covers 17,400 square kilometres and has been part of a Biosphere Reserve complex since 2023.",
+   "facts": [
     {
-      "claim": "Bangui was established on 26 June 1889 by French colonial administrator Albert Dolisie and naval officer Michel Dolisie on the right bank of the Ubangi River, chosen just downstream from the impassable rapids that blocked river steamboats.",
-      "source": {
-        "title": "Central African Republic: Prefectures & Major Cities - Population Statistics (Census 2003)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/car/cities/",
-        "tier": "institutional",
-        "quote": "Bangui founded on the Ubangi River in 1889"
-      }
+     "label": "Area",
+     "value": "17,400 km2",
+     "source": {
+      "title": "Conservation comeback in Central African Republic’s Manovo-Gounda St Floris National Park (commentary)",
+      "publisher": "Mongabay",
+      "author": null,
+      "date": "2024-03",
+      "url": "https://news.mongabay.com/2024/03/conservation-comeback-in-central-african-republic-manovo-gounda-st-floris-national-park-commentary/",
+      "tier": "press",
+      "quote": "is the largest park in the Central African savannas, covering 17,400 square kilometers",
+      "verified": true
+     }
     },
     {
-      "claim": "On 29 November 2015, Pope Francis opened the Holy Door of the Cathedral of Notre-Dame of Bangui to launch the Jubilee of Mercy, declaring Bangui the spiritual capital of the world in an extraordinary historic gesture of peace and reconciliation.",
-      "source": {
-        "title": "Pape François à Bangui: ouverture de la Porte Sainte et proclamation de la capitale spirituelle",
-        "publisher": "Zenit News Agency",
-        "author": null,
-        "date": "2015-11-29",
-        "url": "https://zenit.org/",
-        "tier": "press",
-        "quote": "Le pape François ouvre la Porte Sainte à la cathédrale de Bangui en novembre 2015"
-      }
+     "label": "World Heritage listing",
+     "value": "1988",
+     "source": {
+      "title": "Conservation comeback in Central African Republic’s Manovo-Gounda St Floris National Park (commentary)",
+      "publisher": "Mongabay",
+      "author": null,
+      "date": "2024-03",
+      "url": "https://news.mongabay.com/2024/03/conservation-comeback-in-central-african-republic-manovo-gounda-st-floris-national-park-commentary/",
+      "tier": "press",
+      "quote": "was listed as a UNESCO World Heritage Site in 1988",
+      "verified": true
+     }
     },
     {
-      "claim": "The Musée National Barthélemy Boganda, established in 1966 in the former residence of the founding father of the Central African Republic, preserves regional ethnography, hunting tools, and traditional Pygmy and Ubangian musical instruments.",
-      "source": {
-        "title": "Sauvegarde du patrimoine en péril en République centrafricaine: Musée de Boganda",
-        "publisher": "UNESCO World Heritage Centre",
-        "author": null,
-        "date": null,
-        "url": "https://whc.unesco.org/",
-        "tier": "institutional",
-        "quote": "Musée de Boganda fondé en 1966 abritant les collections ethnographiques nationales"
-      }
+     "label": "Established",
+     "value": "1979",
+     "source": {
+      "title": "Manovo-Gounda-St Floris, the forgotten giant of Central Africa’s savannas",
+      "publisher": "Ecofin Agency",
+      "author": null,
+      "date": null,
+      "url": "https://www.ecofinagency.com/news-tourism/0202-52473-manovo-gounda-st-floris-the-forgotten-giant-of-central-africa-s-savannas",
+      "tier": "press",
+      "quote": "Established in 1979, the park was added to UNESCO’s World Heritage List in 1988",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "North-east, near the borders with Chad and Sudan",
+     "source": {
+      "title": "Manovo-Gounda-St Floris, the forgotten giant of Central Africa’s savannas",
+      "publisher": "Ecofin Agency",
+      "author": null,
+      "date": null,
+      "url": "https://www.ecofinagency.com/news-tourism/0202-52473-manovo-gounda-st-floris-the-forgotten-giant-of-central-africa-s-savannas",
+      "tier": "press",
+      "quote": "Located in the northeastern part of the Central African Republic, near the borders with Chad and Sudan",
+      "verified": true
+     }
+    },
+    {
+     "label": "Biosphere Reserve",
+     "value": "2023",
+     "source": {
+      "title": "Conservation comeback in Central African Republic’s Manovo-Gounda St Floris National Park (commentary)",
+      "publisher": "Mongabay",
+      "author": null,
+      "date": "2024-03",
+      "url": "https://news.mongabay.com/2024/03/conservation-comeback-in-central-african-republic-manovo-gounda-st-floris-national-park-commentary/",
+      "tier": "press",
+      "quote": "among the 11 new Biosphere Reserves in 2023",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final published tables of the 4th General Population Census (RGPH-4) have been delayed by security instability, requiring use of 2003 census baselines and 2021 mapping projections.",
-    "First-hand local voices from boatmen along the Ubangi riverfront and traders in the KM5 quarter remain to be recorded.",
-    "Photographs of municipal sites have not yet been curated into the repository."
-  ]
+   ]
+  },
+  {
+   "name": "Cathédrale Notre-Dame de Bangui",
+   "type": "culture",
+   "what": "The Catholic cathedral of Bangui, where Pope Francis opened a Holy Door on 29 November 2015.",
+   "facts": [
+    {
+     "label": "Papal visit",
+     "value": "Pope Francis, 29 November 2015",
+     "source": {
+      "title": "Ouverture de la Porte Sainte de la cathédrale de Bangui et messe (29 novembre 2015)",
+      "publisher": "Le Saint-Siège",
+      "author": "Pape François",
+      "date": "2015-11-29",
+      "url": "https://www.vatican.va/content/francesco/fr/homilies/2015/documents/papa-francesco_20151129_repcentrafricana-omelia-cattedrale-bangui.pdf",
+      "tier": "primary",
+      "quote": "OUVERTURE DE LA PORTE SAINTE DE LA CATHÉDRALE DE BANGUI",
+      "verified": true
+     }
+    },
+    {
+     "label": "Holy Year",
+     "value": "The Holy Year of Mercy began there ahead of Rome",
+     "source": {
+      "title": "Ouverture de la Porte Sainte de la cathédrale de Bangui et messe (29 novembre 2015)",
+      "publisher": "Le Saint-Siège",
+      "author": "Pape François",
+      "date": "2015-11-29",
+      "url": "https://www.vatican.va/content/francesco/fr/homilies/2015/documents/papa-francesco_20151129_repcentrafricana-omelia-cattedrale-bangui.pdf",
+      "tier": "primary",
+      "quote": "L’Année Sainte de la Miséricorde commence en avance sur cette terre",
+      "verified": true
+     }
+    },
+    {
+     "label": "Papal words",
+     "value": "Called Bangui the spiritual capital of the world",
+     "source": {
+      "title": "Ouverture de la Porte Sainte de la cathédrale de Bangui et messe (29 novembre 2015)",
+      "publisher": "Le Saint-Siège",
+      "author": "Pape François",
+      "date": "2015-11-29",
+      "url": "https://www.vatican.va/content/francesco/fr/homilies/2015/documents/papa-francesco_20151129_repcentrafricana-omelia-cattedrale-bangui.pdf",
+      "tier": "primary",
+      "quote": "ici, dans cette capitale spirituelle du monde, aujourd’hui",
+      "verified": true
+     }
+    },
+    {
+     "label": "Jurisdiction",
+     "value": "Metropolitan Archdiocese of Bangui",
+     "source": {
+      "title": "Cathédrale Notre-Dame de l’Immaculée Conception, Bangui",
+      "publisher": "GCatholic",
+      "author": null,
+      "date": null,
+      "url": "https://gcatholic.org/churches/africa/1947.htm",
+      "tier": "primary",
+      "quote": "Jurisdiction: Metropolitan Archdiocese of Bangui",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée National Barthélemy Boganda",
+   "type": "culture",
+   "what": "The national museum of the Central African Republic, in the 2nd arrondissement of Bangui, housed in the former residence of Barthélemy Boganda.",
+   "facts": [
+    {
+     "label": "Created",
+     "value": "1964",
+     "source": {
+      "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+      "tier": "press",
+      "quote": "le musée national Barthélemy Boganda a été créé en 1964",
+      "verified": true
+     }
+    },
+    {
+     "label": "Inaugurated",
+     "value": "1966",
+     "source": {
+      "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+      "tier": "press",
+      "quote": "Depuis son inauguration en 1966",
+      "verified": true
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Former residence of Boganda",
+     "source": {
+      "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+      "tier": "press",
+      "quote": "parce qu’il est installé dans son ancienne résidence",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "2nd arrondissement of Bangui",
+     "source": {
+      "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+      "tier": "press",
+      "quote": "Situé dans le deuxième arrondissement de Bangui",
+      "verified": true
+     }
+    },
+    {
+     "label": "Sound archives",
+     "value": "Recorded in the 1960s",
+     "source": {
+      "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+      "tier": "press",
+      "quote": "les archives sonores de la région qui est collecté dans les années 63",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Marché KM5 (PK5)",
+   "type": "market",
+   "what": "The PK5 or KM5 district is known for its large market and is described as the economic lung of Bangui.",
+   "facts": [
+    {
+     "label": "Also known as",
+     "value": "PK5 (Point kilométrique 5), also KM5",
+     "source": {
+      "title": "COI Focus République centrafricaine : situation sécuritaire à Bangui",
+      "publisher": "CGVS / Commissariat général aux réfugiés et aux apatrides (Belgique)",
+      "author": null,
+      "date": "2026-01-21",
+      "url": "https://www.cgvs.be/sites/default/files/rapporten/coi_focus_republique_centrafricaine_rca._situation_securitaire_a_bangui_20260121.pdf",
+      "tier": "institutional",
+      "quote": "Point kilométrique 5 (PK5, également connu comme KM5)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Role",
+     "value": "Economic lung of the capital",
+     "source": {
+      "title": "COI Focus République centrafricaine : situation sécuritaire à Bangui",
+      "publisher": "CGVS / Commissariat général aux réfugiés et aux apatrides (Belgique)",
+      "author": null,
+      "date": "2026-01-21",
+      "url": "https://www.cgvs.be/sites/default/files/rapporten/coi_focus_republique_centrafricaine_rca._situation_securitaire_a_bangui_20260121.pdf",
+      "tier": "institutional",
+      "quote": "En tant que poumon économique de la capitale, ce quartier est aussi une cible privilégiée du banditisme",
+      "verified": true
+     }
+    },
+    {
+     "label": "Reputation",
+     "value": "Known for its large market",
+     "source": {
+      "title": "COI Focus République centrafricaine : situation sécuritaire à Bangui",
+      "publisher": "CGVS / Commissariat général aux réfugiés et aux apatrides (Belgique)",
+      "author": null,
+      "date": "2026-01-21",
+      "url": "https://www.cgvs.be/sites/default/files/rapporten/coi_focus_republique_centrafricaine_rca._situation_securitaire_a_bangui_20260121.pdf",
+      "tier": "institutional",
+      "quote": "véritable poumon économique » du pays connu pour son grand marché",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Oubangui Riverfront and Rapids",
+   "type": "nature",
+   "what": "The Oubangui river at Bangui, crossed by pirogues and subject to severe low water in the dry season.",
+   "facts": [
+    {
+     "label": "River taxis",
+     "value": "Pirogues carry 8 passengers and up to 2 tonnes",
+     "source": {
+      "title": "Bangui : à la découverte « des taximen de la rivière » sur l’Oubangui",
+      "publisher": "Radio Ndeke Luka",
+      "author": null,
+      "date": "2021-07-18",
+      "url": "https://www.radiondekeluka.org/37203-bangui-a-la-decouverte-des-taximen-de-la-riviere-sur-l-oubangui",
+      "tier": "press",
+      "quote": "transporte huit passagers, quelques bagages, avec une capacité de charge allant jusqu’à 2 tonnes",
+      "verified": true
+     }
+    },
+    {
+     "label": "Crossing",
+     "value": "To the island of Mbongossoa",
+     "source": {
+      "title": "Bangui : à la découverte « des taximen de la rivière » sur l’Oubangui",
+      "publisher": "Radio Ndeke Luka",
+      "author": null,
+      "date": "2021-07-18",
+      "url": "https://www.radiondekeluka.org/37203-bangui-a-la-decouverte-des-taximen-de-la-riviere-sur-l-oubangui",
+      "tier": "press",
+      "quote": "pirogues afin de traverser vers l’ile Mbongossoa",
+      "verified": true
+     }
+    },
+    {
+     "label": "Dredging",
+     "value": "Started 21 July 2012 at Kolongo",
+     "source": {
+      "title": "Vers une navigation en toute saison entre Bangui et Brazzaville",
+      "publisher": "Radio Ndeke Luka",
+      "author": null,
+      "date": "2012-07-22",
+      "url": "https://www.radiondekeluka.org/10105-vers-une-navigation-en-toute-saison-entre-bangui-et-brazzaville",
+      "tier": "press",
+      "quote": "Les travaux de dragage du Fleuve Oubangui ont démarré ce 21 juillet 2012 à Kolongo à Bangui",
+      "verified": true
+     }
+    },
+    {
+     "label": "Low water",
+     "value": "Often severe in the dry season",
+     "source": {
+      "title": "Vers une navigation en toute saison entre Bangui et Brazzaville",
+      "publisher": "Radio Ndeke Luka",
+      "author": null,
+      "date": "2012-07-22",
+      "url": "https://www.radiondekeluka.org/10105-vers-une-navigation-en-toute-saison-entre-bangui-et-brazzaville",
+      "tier": "press",
+      "quote": "l’Oubangui connait souvent un étiage sévère en saison sèche",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "2003 census population of Bangui (622,771 appears only on aggregator/secondary pages; no readable ICASEES page found), so the 1988 census figure is given instead",
+  "Rapids of Bangui and the origin of the name Oubangui: no readable non-encyclopedia page found",
+  "Construction date and architecture of the cathedral (only Wikipedia/ArchDaily seen; not usable)",
+  "UNESCO whc.unesco.org pages return 403",
+  "Universalis, IRD Horizon and Kaiciid pages unreadable",
+  "No well-sourced myth-or-fact item found"
+ ]
 }

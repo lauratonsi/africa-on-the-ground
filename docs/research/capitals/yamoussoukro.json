@@ -1,61 +1,617 @@
 {
-  "city": "Yamoussoukro",
-  "country": "CIV",
-  "population": {
-    "value": 372559,
-    "year": 2021,
-    "definition": "Population of the Department of Yamoussoukro (comprising Yamoussoukro and Kossou sub-prefectures) enumerated in the 5th General Population and Housing Census (RGPH 2021) conducted by the Institut National de la Statistique (INS) of Côte d'Ivoire, tabulated via CityPopulation. The broader Autonomous District of Yamoussoukro recorded 422,072 inhabitants. In March 1983, Yamoussoukro was officially proclaimed the political and administrative capital of Côte d'Ivoire, while Abidjan remains the economic engine.",
-    "source": {
-      "title": "Côte d'Ivoire: Autonomous Districts, Departments & Major Cities (Census 2021)",
-      "publisher": "CityPopulation (credits INS Côte d'Ivoire)",
-      "author": null,
-      "date": "2021-12-14",
-      "url": "https://www.citypopulation.de/en/cotedivoire/cities/",
-      "tier": "institutional",
-      "quote": "2021-12-14 | Yamoussoukro Department: 372,559; Yamoussoukro Autonomous District: 422,072"
-    }
+ "city": "Yamoussoukro",
+ "country": "CIV",
+ "population": {
+  "value": 340234,
+  "year": 2021,
+  "definition": "Yamoussoukro chef-lieu (city) within the Département and Autonomous District of Yamoussoukro, RGPH 2021 (INS/ANStat); the district as a whole had 422,072",
+  "source": {
+   "title": "District Autonome de Yamoussoukro",
+   "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+   "author": null,
+   "date": "2025",
+   "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+   "tier": "institutional",
+   "quote": "YAMOUSSOUKRO (Chef - Lieu) 173 978 166 256 340 234",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "The Autonomous District of Yamoussoukro covers 2,132 km2, 0.7% of the national territory.",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "Il s’étend sur une superficie de 2 132 km 2 et couvre ainsi 0,7% du territoire national",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "At the 2021 census (RGPH 2021) the Autonomous District of Yamoussoukro had 422,072 inhabitants, of whom 340,234 in the chef-lieu (city).",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "DISTRICT AUTONOME YAMOUSSOUKRO 217 176 204 897 422 072",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Ministry of the Economy describes Yamoussoukro as chef-lieu of the Autonomous District and political and administrative capital of Côte d'Ivoire.",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "Chef-lieu du District Autonome et Capitale Politique et Administrative de la Côte d’Ivoire",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Ministry of the Economy describes Yamoussoukro as a training hub for Ivorian youth in particular and francophone Africa in general.",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "Elle est également le pôle de formation de la jeunesse ivoirienne, en particulier, et de l’Afrique francophone, en général",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Yamoussoukro has one industrial zone of 750 ha, of which 250 ha are used, with 24 active companies (MCIPPME, 2022).",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "01 zone industrielle existe sur une superficie de 750 ha dont 250 ha exploités, avec 24 entreprises en activité",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The district has eight commercial banks, the Treasury bank and six microfinance structures.",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "08 banques commerciales, la banque du Trésor et 06 structures de microfinance",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The administrator Simon Maurice renamed the village of N'Gokro Yamoussoukro in honour of Queen Yamoussou; the suffix \"kro\" means village in Baoulé.",
+   "source": {
+    "title": "Kami, N'Gokro et les Boigny : deux villages, un nom et une histoire intimement liée",
+    "publisher": "Rezo-Ivoire",
+    "author": null,
+    "date": null,
+    "url": "https://rezoivoire.net/ivoire/patrimoine/1641/kami-ngokro-et-les-boigny-deux-villages-un-nom-et-une-histoire-intimement-liee-2.html",
+    "tier": "press",
+    "quote": "rebaptise le village du nom de Yamoussoukro en hommage à la reine Yamoussou (le suffixe “kro” ajouter signifie village en langue baoulé)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 1983 Ivory Coast's National Assembly voted to transfer the capital to Yamoussoukro, President Houphouët-Boigny's birthplace, as \"a tribute from a grateful nation to a widely respected leader\".",
+   "source": {
+    "title": "Grateful Ivory Coast turns President's home town into majestic capital",
+    "publisher": "The Christian Science Monitor",
+    "author": null,
+    "date": "1983-04-08",
+    "url": "https://www.csmonitor.com/1983/0408/040864.html",
+    "tier": "press",
+    "quote": "a tribute from a grateful nation to a widely respected leader",
+    "verified": true
+   }
+  },
+  {
+   "claim": "An academic study says that although Yamoussoukro has been the political and administrative capital since 21 March 1983, it is still awaiting the transfer of state institutions.",
+   "source": {
+    "title": "Problématique du transfert effectif de la capitale politique et administrative à Yamoussoukro (Côte d'Ivoire) : 1983-2017",
+    "publisher": "UIRTUS (revue académique)",
+    "author": "Kouakou Didié",
+    "date": "2021",
+    "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
+    "tier": "academic",
+    "quote": "The political and administrative capital of Côte d’Ivoire since March 21, 1983, Yamoussoukro is still awaiting the transfer of state institutions",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The same study argues that the effective transfer is hindered by a lack of political will and by a land question.",
+   "source": {
+    "title": "Problématique du transfert effectif de la capitale politique et administrative à Yamoussoukro (Côte d'Ivoire) : 1983-2017",
+    "publisher": "UIRTUS (revue académique)",
+    "author": "Kouakou Didié",
+    "date": "2021",
+    "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
+    "tier": "academic",
+    "quote": "le transfert effectif de la capitale à Yamoussoukro est entravé par un manque de volonté politique et par une question foncière",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The ten artificial lakes of Yamoussoukro were created in 1966 on the initiative and funding of President Houphouët-Boigny.",
+   "source": {
+    "title": "Lacs Yamoussoukro : des rôles touristiques et mystiques",
+    "publisher": "Lebanco.net",
+    "author": "Robert-Patrice Zouhou",
+    "date": "2020-11-12",
+    "url": "https://www.lebanco.net/news/41431-cote-divoire-lacs-yamoussoukro-1-des-roles-touristiques-et-mystiques.html",
+    "tier": "press",
+    "quote": "Les lacs de Yamoussoukro, au nombre de dix, ont été créés en 1966 sous l’inspiration et le financement du Président Félix Houphouët-Boigny",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Yamoussoukro is where the village of Houphouët, N'Gokro, stood, and it became the political capital of the country.",
+   "source": {
+    "title": "Côte d'Ivoire : les « caïmans du président », impressionnants et incontournables",
+    "publisher": "Le360 Afrique (AFP)",
+    "author": "AFP",
+    "date": "2024-02-01",
+    "url": "https://afrique.le360.ma/culture/cote-divoire-les-caimans-du-president-impressionnants-et-incontournables_HD22ORQDWZE2DFMLYVHNZSNWRM/",
+    "tier": "press",
+    "quote": "C’est là qu’était le village d’Houphouët, N’Gokro, devenue la capitale politique du pays",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1901",
+   "tag": "origins",
+   "claim": "Queen Yamoussou led the village of N'Gokro at the time of French colonisation.",
+   "source": {
+    "title": "Kami, N'Gokro et les Boigny : deux villages, un nom et une histoire intimement liée",
+    "publisher": "Rezo-Ivoire",
+    "author": null,
+    "date": null,
+    "url": "https://rezoivoire.net/ivoire/patrimoine/1641/kami-ngokro-et-les-boigny-deux-villages-un-nom-et-une-histoire-intimement-liee-2.html",
+    "tier": "press",
+    "quote": "En 1901, c’est la reine Yamoussou, parente de Kouassi N’Go qui dirigeait le village de N’Gokro",
+    "verified": true
+   }
+  },
+  {
+   "when": "1966",
+   "tag": "growth",
+   "claim": "The ten artificial lakes of Yamoussoukro were created.",
+   "source": {
+    "title": "Lacs Yamoussoukro : des rôles touristiques et mystiques",
+    "publisher": "Lebanco.net",
+    "author": "Robert-Patrice Zouhou",
+    "date": "2020-11-12",
+    "url": "https://www.lebanco.net/news/41431-cote-divoire-lacs-yamoussoukro-1-des-roles-touristiques-et-mystiques.html",
+    "tier": "press",
+    "quote": "Les lacs de Yamoussoukro, au nombre de dix, ont été créés en 1966",
+    "verified": true
+   }
+  },
+  {
+   "when": "21 March 1983",
+   "tag": "growth",
+   "claim": "Yamoussoukro became the political and administrative capital of Côte d'Ivoire.",
+   "source": {
+    "title": "Problématique du transfert effectif de la capitale politique et administrative à Yamoussoukro (Côte d'Ivoire) : 1983-2017",
+    "publisher": "UIRTUS (revue académique)",
+    "author": "Kouakou Didié",
+    "date": "2021",
+    "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
+    "tier": "academic",
+    "quote": "The political and administrative capital of Côte d’Ivoire since March 21, 1983",
+    "verified": true
+   }
+  },
+  {
+   "when": "10 August 1985",
+   "tag": "growth",
+   "claim": "Pope John Paul II laid the first stone of the Basilica of Our Lady of Peace.",
+   "source": {
+    "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+    "publisher": "Abidjan.net News (AIP)",
+    "author": null,
+    "date": null,
+    "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+    "tier": "press",
+    "quote": "après avoir lui-même, posé la première pierre le 10 août 1985",
+    "verified": true
+   }
+  },
+  {
+   "when": "1986-1989",
+   "tag": "growth",
+   "claim": "The basilica was built by 24 national and international companies.",
+   "source": {
+    "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+    "publisher": "Abidjan.net News (AIP)",
+    "author": null,
+    "date": null,
+    "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+    "tier": "press",
+    "quote": "Elle a été réalisée par 24 entreprises nationales et internationales entre 1986 et 1989",
+    "verified": true
+   }
+  },
+  {
+   "when": "10 September 1990",
+   "tag": "growth",
+   "claim": "Pope John Paul II consecrated the basilica.",
+   "source": {
+    "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+    "publisher": "Abidjan.net News (AIP)",
+    "author": null,
+    "date": null,
+    "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+    "tier": "press",
+    "quote": "Le pape Jean-Paul II a consacré (inauguré ) la basilique le 10 septembre 1990",
+    "verified": true
+   }
+  },
+  {
+   "when": "5 December 1997",
+   "tag": "today",
+   "claim": "The headquarters of the Fondation Félix Houphouët-Boigny pour la Recherche de la Paix was inaugurated by the symbolic handing over of keys to the UNESCO Director-General.",
+   "source": {
+    "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+    "publisher": "Irénées.net",
+    "author": null,
+    "date": null,
+    "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+    "tier": "institutional",
+    "quote": "inauguré le 5 décembre 1997 par la remise symbolique des clés au Directeur Général de l’UNESCO",
+    "verified": true
+   }
+  },
+  {
+   "when": "2021",
+   "tag": "today",
+   "claim": "The RGPH 2021 census counted 422,072 inhabitants in the Autonomous District of Yamoussoukro.",
+   "source": {
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021",
+    "author": null,
+    "date": "2025",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "quote": "DISTRICT AUTONOME YAMOUSSOUKRO 217 176 204 897 422 072",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Historic Town of Grand-Bassam",
+   "type": "site",
+   "what": "Grand-Bassam, east of Yamoussoukro on the coast, was the first capital of Côte d'Ivoire from 1893 and was inscribed on the UNESCO World Heritage List in 2012.",
+   "facts": [
     {
-      "claim": "Originally a Baoulé agricultural village named N'Gokro, Yamoussoukro was renamed in honour of Queen Yamousso, great-aunt of Félix Houphouët-Boigny, and chosen in March 1983 as Côte d'Ivoire's official capital.",
-      "source": {
-        "title": "Côte d'Ivoire: Autonomous Districts, Departments & Major Cities (Census 2021)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/cotedivoire/cities/",
-        "tier": "institutional",
-        "quote": "Yamoussoukro désignée capitale politique et administrative en 1983"
-      }
+     "label": "Capital",
+     "value": "Proclaimed capital of Côte d'Ivoire in 1893",
+     "source": {
+      "title": "Grand-Bassam : découvrez l'histoire fascinante de la première capitale ivoirienne",
+      "publisher": "Pulse Côte d'Ivoire",
+      "author": null,
+      "date": "2025-09-24",
+      "url": "https://www.pulse.ci/article/grand-bassam-decouvrez-lhistoire-fascinante-de-la-premiere-capitale-ivoirienne-2025092402352802134",
+      "tier": "press",
+      "quote": "En 1893, Bassam est proclamée capitale de la Côte d’Ivoire",
+      "verified": true
+     }
     },
     {
-      "claim": "The Basilica of Our Lady of Peace (Notre-Dame de la Paix), designed by architect Pierre Fakhoury and consecrated by Pope John Paul II in 1990, is the largest Christian church in the world by surface area (30,000 m²), featuring a 158-metre dome and 7,000 m² of hand-blown French stained glass.",
-      "source": {
-        "title": "Basilique Notre-Dame de la Paix de Yamoussoukro",
-        "publisher": "Direction Générale des Cultes de Côte d'Ivoire",
-        "author": null,
-        "date": null,
-        "url": "https://cultes.gouv.ci/",
-        "tier": "institutional",
-        "quote": "Plus grande basilique chrétienne au monde consacrée en 1990 par Jean-Paul II"
-      }
+     "label": "Yellow fever",
+     "value": "Epidemic 1899-1903; capital moved to Bingerville in 1900, then Abidjan in 1933",
+     "source": {
+      "title": "Grand-Bassam : découvrez l'histoire fascinante de la première capitale ivoirienne",
+      "publisher": "Pulse Côte d'Ivoire",
+      "author": null,
+      "date": "2025-09-24",
+      "url": "https://www.pulse.ci/article/grand-bassam-decouvrez-lhistoire-fascinante-de-la-premiere-capitale-ivoirienne-2025092402352802134",
+      "tier": "press",
+      "quote": "une épidémie de fièvre jaune (1899-1903) décime la population et provoque le transfert de la capitale vers Bingerville en 1900, puis Abidjan en 1933",
+      "verified": true
+     }
     },
     {
-      "claim": "The presidential palace complex is surrounded by artificial lakes famously inhabited by hundreds of sacred West African crocodiles, traditionally fed daily in a time-honored civic spectacle.",
-      "source": {
-        "title": "Basilique Notre-Dame de la Paix de Yamoussoukro",
-        "publisher": "Direction Générale des Cultes de Côte d'Ivoire",
-        "author": null,
-        "date": null,
-        "url": "https://cultes.gouv.ci/",
-        "tier": "institutional",
-        "quote": "Palais présidentiel entouré du célèbre lac aux crocodiles sacrés"
-      }
+     "label": "World Heritage",
+     "value": "Inscribed in 2012",
+     "source": {
+      "title": "Grand-Bassam : découvrez l'histoire fascinante de la première capitale ivoirienne",
+      "publisher": "Pulse Côte d'Ivoire",
+      "author": null,
+      "date": "2025-09-24",
+      "url": "https://www.pulse.ci/article/grand-bassam-decouvrez-lhistoire-fascinante-de-la-premiere-capitale-ivoirienne-2025092402352802134",
+      "tier": "press",
+      "quote": "Son inscription au patrimoine mondial en 2012",
+      "verified": true
+     }
+    },
+    {
+     "label": "Costume museum",
+     "value": "In the former governor's palace",
+     "source": {
+      "title": "Grand-Bassam : découvrez l'histoire fascinante de la première capitale ivoirienne",
+      "publisher": "Pulse Côte d'Ivoire",
+      "author": null,
+      "date": "2025-09-24",
+      "url": "https://www.pulse.ci/article/grand-bassam-decouvrez-lhistoire-fascinante-de-la-premiere-capitale-ivoirienne-2025092402352802134",
+      "tier": "press",
+      "quote": "musée du costume installé dans l’ancien palais du gouverneur",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Civil servant relocation progress metrics from Abidjan to Yamoussoukro are partially documented.",
-    "First-hand local voices from Baoulé textile weavers in surrounding villages are missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Basilique Notre-Dame de la Paix",
+   "type": "culture",
+   "what": "A basilica consecrated by Pope John Paul II on 10 September 1990, topped by a 90 m wide dome and 158 m high overall.",
+   "facts": [
+    {
+     "label": "First stone",
+     "value": "10 August 1985",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "posé la première pierre le 10 août 1985",
+      "verified": true
+     }
+    },
+    {
+     "label": "Consecration",
+     "value": "10 September 1990, by Pope John Paul II",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "Le pape Jean-Paul II a consacré (inauguré ) la basilique le 10 septembre 1990",
+      "verified": true
+     }
+    },
+    {
+     "label": "Dome",
+     "value": "90 m in diameter, 60 m high",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "Elle est surmontée d’un dôme de 90 m de diamètre, de 60 m de hauteur et d’une lanterne de 40 m de hauteur",
+      "verified": true
+     }
+    },
+    {
+     "label": "Height",
+     "value": "158 m",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "Le poids total est estimé à 98 000 tonnes pour une hauteur de 158 m",
+      "verified": true
+     }
+    },
+    {
+     "label": "Capacity",
+     "value": "18,000 places, of which 7,000 seated",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "La basilique peut contenir 18 000 places dont 7 000 assises",
+      "verified": true
+     }
+    },
+    {
+     "label": "Architects",
+     "value": "Pierre Fakhoury and Patrick d'Hauthuille, chosen 4 February 1986",
+     "source": {
+      "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+      "publisher": "Abidjan.net News (AIP)",
+      "author": null,
+      "date": null,
+      "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+      "tier": "press",
+      "quote": "La basilique est bâtie sur les plans des architectes Pierre Fakhoury et Patrick d’Hauthuille, choisis par le Président Félix Houphouët-Boigny, le 4 février 1986",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Fondation Félix Houphouët-Boigny pour la Recherche de la Paix",
+   "type": "culture",
+   "what": "A private foundation of international vocation, recognised as being of public utility, with its headquarters in Yamoussoukro.",
+   "facts": [
+    {
+     "label": "Created",
+     "value": "10 November 1973",
+     "source": {
+      "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+      "publisher": "Irénées.net",
+      "author": null,
+      "date": null,
+      "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+      "tier": "institutional",
+      "quote": "Créée le 10 novembre 1973, la Fondation FELIX HOUPHOUËT-BOIGNY est devenue depuis 1997, la Fondation FELIX HOUPHOUËT-BOIGNY pour la Recherche de la Paix",
+      "verified": true
+     }
+    },
+    {
+     "label": "Headquarters",
+     "value": "Built 1977-1987, inaugurated 5 December 1997",
+     "source": {
+      "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+      "publisher": "Irénées.net",
+      "author": null,
+      "date": null,
+      "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+      "tier": "institutional",
+      "quote": "Son siège ultramoderne fut construit à Yamoussoukro de 1977 à 1987 et inauguré le 5 décembre 1997",
+      "verified": true
+     }
+    },
+    {
+     "label": "Status",
+     "value": "Private foundation of international vocation, recognised as of public utility",
+     "source": {
+      "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+      "publisher": "Irénées.net",
+      "author": null,
+      "date": null,
+      "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+      "tier": "institutional",
+      "quote": "La FHB est une Fondation privée à vocation internationale reconnue d’utilité publique",
+      "verified": true
+     }
+    },
+    {
+     "label": "Departments",
+     "value": "Peace Research and Historical Research",
+     "source": {
+      "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+      "publisher": "Irénées.net",
+      "author": null,
+      "date": null,
+      "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+      "tier": "institutional",
+      "quote": "ses deux départements de recherche : Le Département de la Recherche de la Paix et le Département des Recherches Historiques",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Palais Présidentiel et Lac aux Crocodiles",
+   "type": "site",
+   "what": "The former residence of President Houphouët-Boigny, bordered by lakes where around 300 crocodiles, which he collected, live.",
+   "facts": [
+    {
+     "label": "Crocodiles",
+     "value": "About 300, collected by Houphouët-Boigny",
+     "source": {
+      "title": "Côte d'Ivoire : les « caïmans du président », impressionnants et incontournables",
+      "publisher": "Le360 Afrique (AFP)",
+      "author": "AFP",
+      "date": "2024-02-01",
+      "url": "https://afrique.le360.ma/culture/cote-divoire-les-caimans-du-president-impressionnants-et-incontournables_HD22ORQDWZE2DFMLYVHNZSNWRM/",
+      "tier": "press",
+      "quote": "Yamoussoukro s’en remet à ses quelques 300 sauriens que collectionnait l’ancien président Félix Houphouët-Boigny",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "The lake adjoins the former presidential palace",
+     "source": {
+      "title": "Côte d'Ivoire : les « caïmans du président », impressionnants et incontournables",
+      "publisher": "Le360 Afrique (AFP)",
+      "author": "AFP",
+      "date": "2024-02-01",
+      "url": "https://afrique.le360.ma/culture/cote-divoire-les-caimans-du-president-impressionnants-et-incontournables_HD22ORQDWZE2DFMLYVHNZSNWRM/",
+      "tier": "press",
+      "quote": "lac aux caïmans», qui jouxte l’ancien palais du président",
+      "verified": true
+     }
+    },
+    {
+     "label": "Feeding",
+     "value": "Live chickens thrown to the crocodiles for visitors",
+     "source": {
+      "title": "Côte d'Ivoire : les « caïmans du président », impressionnants et incontournables",
+      "publisher": "Le360 Afrique (AFP)",
+      "author": "AFP",
+      "date": "2024-02-01",
+      "url": "https://afrique.le360.ma/culture/cote-divoire-les-caimans-du-president-impressionnants-et-incontournables_HD22ORQDWZE2DFMLYVHNZSNWRM/",
+      "tier": "press",
+      "quote": "un frêle poulet est jeté en l’air et finit dans l’impressionnante gueule des «caïmans du président»",
+      "verified": true
+     }
+    },
+    {
+     "label": "Lakes",
+     "value": "Ten artificial lakes created in 1966",
+     "source": {
+      "title": "Lacs Yamoussoukro : des rôles touristiques et mystiques",
+      "publisher": "Lebanco.net",
+      "author": "Robert-Patrice Zouhou",
+      "date": "2020-11-12",
+      "url": "https://www.lebanco.net/news/41431-cote-divoire-lacs-yamoussoukro-1-des-roles-touristiques-et-mystiques.html",
+      "tier": "press",
+      "quote": "Les lacs de Yamoussoukro, au nombre de dix, ont été créés en 1966",
+      "verified": true
+     }
+    },
+    {
+     "label": "Condition (2020)",
+     "value": "Lakes almost abandoned and invaded by aquatic plants",
+     "source": {
+      "title": "Lacs Yamoussoukro : des rôles touristiques et mystiques",
+      "publisher": "Lebanco.net",
+      "author": "Robert-Patrice Zouhou",
+      "date": "2020-11-12",
+      "url": "https://www.lebanco.net/news/41431-cote-divoire-lacs-yamoussoukro-1-des-roles-touristiques-et-mystiques.html",
+      "tier": "press",
+      "quote": "Aujourd’hui, les lacs sont presque laissés à l’abandon par les autorités locales et nationales",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Abidjan is the capital of Côte d'Ivoire.",
+  "truth": "Yamoussoukro has been the political and administrative capital since 21 March 1983, although the transfer of state institutions from Abidjan is still awaited, according to an academic study.",
+  "source": {
+   "title": "Problématique du transfert effectif de la capitale politique et administrative à Yamoussoukro (Côte d'Ivoire) : 1983-2017",
+   "publisher": "UIRTUS (revue académique)",
+   "author": "Kouakou Didié",
+   "date": "2021",
+   "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
+   "tier": "academic",
+   "quote": "The political and administrative capital of Côte d’Ivoire since March 21, 1983, Yamoussoukro is still awaiting the transfer of state institutions",
+   "verified": true
+  }
+ },
+ "unreadable": [],
+ "notNotFound": [
+  "City-proper census report on the INS/ANStat site itself: the figure comes from the INS table reproduced on the Ministry of Economy portal",
+  "Basilica construction cost: sources disagree and none official, so no cost recorded",
+  "UNESCO whc.unesco.org pages return 403 so Grand-Bassam facts rely on Ivorian press (Pulse, Rezo-Ivoire)",
+  "Date of the renaming of N'Gokro to Yamoussoukro (1909 appears on blogs only)",
+  "Yamoussoukro geography/climate from a readable non-encyclopedic source"
+ ]
 }

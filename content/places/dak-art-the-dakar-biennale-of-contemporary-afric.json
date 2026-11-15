@@ -1,0 +1,88 @@
+{
+  "slug": "dak-art-the-dakar-biennale-of-contemporary-afric",
+  "status": "draft",
+  "type": "culture",
+  "country": "SEN",
+  "name": "Dak'Art, the Dakar Biennale of contemporary African art",
+  "region": "Dakar · Senegal",
+  "subtitle": "Dak'Art is a biennale in Dakar organised under the Senegalese Ministry of Culture.",
+  "facts": [
+    {
+      "label": "Organiser",
+      "value": "The organiser is listed as the Senegalese Ministry of Culture.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "Founding",
+      "value": "Dak'Art was conceived in 1989 as a biennale alternating between literature and art.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "First editions",
+      "value": "The first edition in 1990 focused on literature and the 1992 edition on visual art.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "In 1996 Dak'Art became an exhibition specifically devoted to contemporary African art.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "Local roots",
+      "value": "The biennale came about through the Senegalese state and local artists who since the seventies had organised regular annual art exhibitions.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "Funding risk",
+      "value": "In 2010 the European Commission, a major financial partner, did not support the event.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    },
+    {
+      "label": "Curators",
+      "value": "The 2016 edition was curated by Simon Njami.",
+      "cite": [
+        "cap-biennialfoundation-org-4e840a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dak'Art is a biennale in Dakar organised under the Senegalese Ministry of Culture. Conceived in 1989 to alternate between literature and art, it held its first visual-arts edition in 1992 and became an exhibition devoted to contemporary African art in 1996.",
+              "cite": [
+                "cap-biennialfoundation-org-4e840a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Only one source (Biennial Foundation, reproducing biennaledakar.org); on-curating.org and other pages not checked for quotes",
+    "Local voices: none yet."
+  ]
+}

@@ -6,9 +6,21 @@
   "subtitle": "Dakar, capital of Senegal: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "Dakar Department numbered 1,278,469 residents in the 2023 census (over 4 million in the wider Dakar Region).",
+      "text": "About 1,278,471 people live in the département of Dakar (the core city, without its suburbs) (counted 2023).",
       "cite": [
-        "cap-citypopulation-de-senegal-2023"
+        "cap-ansd-sn-c534f8"
+      ]
+    },
+    {
+      "text": "Before the French arrived, the Cape Verde peninsula, where Dakar stands, had been occupied by the Lebu people since the end of the 14th century.",
+      "cite": [
+        "cap-metropolitiques-eu-25f62a"
+      ]
+    },
+    {
+      "text": "In 1857 a French ship's captain, Protêt, took possession of Dakar and on 25 May declared the place a French possession.",
+      "cite": [
+        "cap-napoleon-org-2a9511"
       ]
     }
   ],
@@ -24,41 +36,349 @@
       "title": "Dakar in brief",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Before the French arrived, the Cape Verde peninsula, where Dakar stands, had been occupied by the Lebu people since the end of the 14th century.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1857 a French ship's captain, Protêt, took possession of Dakar and on 25 May declared the place a French possession.",
+              "cite": [
+                "cap-napoleon-org-2a9511"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Colonists began moving from over-populated Gorée to the fishing village of Dakar, which had a natural deep port.",
+              "cite": [
+                "cap-napoleon-org-2a9511"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1902 the capital of French West Africa moved from Saint-Louis to Dakar.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dakar's population rose from 3,000 in 1869 to 18,000 in 1904 and 214,000 in 1945.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Dakar region lies at the extreme west of the Cap-Vert peninsula, on the Atlantic coast, and covers about 550 km2.",
+              "cite": [
+                "cap-ansd-sn-c534f8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Since June 1958 the Dakar region has been the seat of government and the capital of the country.",
+              "cite": [
+                "cap-ansd-sn-c534f8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Pointe des Almadies, at the north-west of the Cap-Vert peninsula, is the westernmost point of the African continent.",
+              "cite": [
+                "cap-visitezlesenegal-com-492ca2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Port of Dakar handled 29.66 million tonnes of traffic in 2025, up from 24.58 million tonnes the year before.",
+              "cite": [
+                "cap-ecofinagency-com-67af85"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the Dakar region 68.7% of residents aged 3 and over often use Wolof.",
+              "cite": [
+                "cap-ansd-sn-c534f8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Dakar Biennale of contemporary African art was set up in 1989; its 1992 edition was the first devoted to the visual arts.",
+              "cite": [
+                "cap-biennaledakar-org-72f9ec"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Dakar Biennale's 1996 edition began a series reserved exclusively for the visual arts of Africa and its diaspora.",
+              "cite": [
+                "cap-biennaledakar-org-72f9ec"
+              ]
+            }
+          ]
+        },
+        {
           "type": "stat",
           "items": [
             {
-              "value": "1,278,469",
-              "label": "residents in Dakar Department, 2023 (4.00M in Dakar Region)",
+              "value": "1,278,471",
+              "label": "people in the département of Dakar (the core city, without its suburbs), 2023",
               "cite": [
-                "cap-citypopulation-de-senegal-2023"
+                "cap-ansd-sn-c534f8"
               ]
             }
           ]
         },
         {
           "type": "estimate",
-          "prompt": "About how many people lived in the Dakar Department in the 2023 census?",
-          "min": 500000,
-          "max": 5000000,
-          "step": 50000,
+          "prompt": "About how many people do you think live in the département of Dakar (the core city, without its suburbs)?",
+          "min": 0,
+          "max": 4000000,
+          "step": 20000,
           "unit": "",
-          "answer": 1278469,
+          "answer": 1278471,
           "decimals": 0,
           "parts": [
             {
-              "text": "1,278,469 in the central Dakar Department (and 4,004,427 across the five departments of Dakar Region) in the 2023 census by ANSD Sénégal.",
+              "text": "1,278,471 in 2023, according to the figures compiled from the national statistics office. Which area is counted matters: Département de Dakar (the core city: its 79 km2 area, without Pikine, Guédiawaye, Keur Massar or Rufisque); the wider Dakar region counted 4,004,426 inhabitants.",
               "cite": [
-                "cap-citypopulation-de-senegal-2023"
+                "cap-ansd-sn-c534f8"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "End of the 14th century",
+              "tag": "origins",
+              "text": "The Lebu people occupied the Cape Verde peninsula, where Dakar now stands.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            },
+            {
+              "when": "1857",
+              "tag": "origins",
+              "text": "Captain Protêt took possession of Dakar for France and declared it a French possession on 25 May.",
+              "cite": [
+                "cap-napoleon-org-2a9511"
+              ]
+            },
+            {
+              "when": "1885",
+              "tag": "growth",
+              "text": "The railway between Dakar and Saint-Louis was built, which secured the success of the town.",
+              "cite": [
+                "cap-napoleon-org-2a9511"
+              ]
+            },
+            {
+              "when": "1902",
+              "tag": "growth",
+              "text": "The capital of French West Africa moved from Saint-Louis to Dakar.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            },
+            {
+              "when": "1945",
+              "tag": "growth",
+              "text": "Dakar's first master plan was drawn up, creating the modern city with the Allées du Centenaire.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            },
+            {
+              "when": "1966",
+              "tag": "today",
+              "text": "The first World Festival of Black Arts took place in Dakar, where Senghor launched the idea of a museum of Black civilisations.",
+              "cite": [
+                "cap-afrique-le360-ma-5770ce"
+              ]
+            },
+            {
+              "when": "1978",
+              "tag": "today",
+              "text": "The Island of Gorée, off Dakar, was inscribed on UNESCO's World Heritage List.",
+              "cite": [
+                "cap-courier-unesco-org-8645e4"
+              ]
+            },
+            {
+              "when": "1992",
+              "tag": "today",
+              "text": "The Dakar Biennale held its first edition devoted to the visual arts.",
+              "cite": [
+                "cap-biennaledakar-org-72f9ec"
+              ]
+            },
+            {
+              "when": "2010",
+              "tag": "today",
+              "text": "The African Renaissance Monument was unveiled on 3 April, the day before Senegal's 50th independence anniversary.",
+              "cite": [
+                "cap-africanews-com-1391ea"
+              ]
+            },
+            {
+              "when": "2018",
+              "tag": "today",
+              "text": "The Museum of Black Civilisations was inaugurated by President Macky Sall, seven years after works began under Abdoulaye Wade.",
+              "cite": [
+                "cap-afrique-le360-ma-5770ce"
+              ]
+            },
+            {
+              "when": "2020",
+              "tag": "today",
+              "text": "Excavators began to demolish the Sandaga market building so that the authorities could rebuild and modernise it.",
+              "cite": [
+                "cap-arabnews-pk-ef4564"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "The fifth national census counted 4,004,426 inhabitants in the Dakar region.",
+              "cite": [
+                "cap-ansd-sn-c534f8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Dakar in order.",
+          "items": [
+            {
+              "label": "The Lebu people occupied the Cape Verde peninsula, where Dakar now stands.",
+              "when": "End of the 14th century",
+              "text": "The Lebu people occupied the Cape Verde peninsula, where Dakar now stands.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            },
+            {
+              "label": "Dakar's first master plan was drawn up, creating the modern city with the…",
+              "when": "1945",
+              "text": "Dakar's first master plan was drawn up, creating the modern city with the Allées du Centenaire.",
+              "cite": [
+                "cap-metropolitiques-eu-25f62a"
+              ]
+            },
+            {
+              "label": "The African Renaissance Monument was unveiled on 3 April, the day before…",
+              "when": "2010",
+              "text": "The African Renaissance Monument was unveiled on 3 April, the day before Senegal's 50th independence anniversary.",
+              "cite": [
+                "cap-africanews-com-1391ea"
+              ]
+            },
+            {
+              "label": "The fifth national census counted 4,004,426 inhabitants in the Dakar region.",
+              "when": "2023",
+              "text": "The fifth national census counted 4,004,426 inhabitants in the Dakar region.",
+              "cite": [
+                "cap-ansd-sn-c534f8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Gorée is often presented as the centre of the transatlantic slave trade.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "UNESCO's own Courier notes that the central role of the island in the history of the transatlantic slave trade is now debated, even though its House of Slaves became the emblem of that history.",
+          "cite": [
+            "cap-courier-unesco-org-8645e4"
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: UNESCO World Heritage Centre pages (whc.unesco.org) return 403, so Gorée facts rely on the UNESCO Courier and the UN Africa Renewal.",
+    "Not found in a readable source: Monument height: sources give 49 m (Africanews), 50 m and 52 m (Politis); recorded as disputed.",
+    "Not found in a readable source: MCN exact inauguration date (6 December 2018 in other press) not verified in a readable page; only the year is recorded.",
+    "Not found in a readable source: City-proper census figure is for the département de Dakar; the commune d'arrondissement boundaries differ.",
+    "Not found in a readable source: Sandaga year of opening beyond 1933 and Dakar independence 1960 date not verified from a readable non-excluded source.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Senegal has read this profile yet."
   ]
 }

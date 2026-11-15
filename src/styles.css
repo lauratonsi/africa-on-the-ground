@@ -2063,3 +2063,27 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 
 .scard-q { display: inline-block; margin-top: 8px; font-size: 0.8rem; font-weight: 700; }
 .warmup { margin: 0 0 40px; padding: 20px; border: 1px solid var(--line, currentColor); border-radius: 12px; }
+/* Percorsi di lettura e gioco delle storie */
+.trails, .sgame { margin: 0 0 40px; }
+.trail-list { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.trail { padding: 20px; border-radius: var(--radius); background: var(--surface); box-shadow: 0 0 0 1.5px var(--line); }
+.trail h3 { margin: 0 0 6px; }
+.trail-steps { list-style: none; margin: 12px 0; padding: 0; display: grid; gap: 6px; }
+.trail-steps a { display: flex; gap: 10px; align-items: baseline; text-decoration: none; color: var(--ink); }
+.trail-steps a:hover span:last-child { text-decoration: underline; }
+.trail-n { flex: none; display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; font-size: .8rem; font-weight: 700; background: color-mix(in srgb, var(--record) 18%, var(--surface)); color: var(--ink); }
+.trail-bar { margin: 12px 0 20px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface); box-shadow: 0 0 0 1.5px var(--line); }
+.trail-bar[hidden] { display: none; }
+.trail-title { margin: 0 0 8px; font-weight: 700; }
+.trail-dots { list-style: none; display: flex; gap: 6px; margin: 0 0 10px; padding: 0; }
+.trail-dots li { flex: 1; height: 8px; border-radius: 4px; background: var(--line); }
+.trail-dots li.done { background: var(--record); }
+.trail-dots li.now { background: var(--record); box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--record); }
+.trail-why { margin: 0 0 10px; }
+.trail-nav { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 8px 0 0; }
+.trail-end { margin: 32px 0; padding: 20px; border-radius: var(--radius); background: var(--surface); box-shadow: 0 0 0 2px var(--record); }
+.trail-end h2 { margin-top: 0; }
+.sgame { padding: 20px; border: 1px solid var(--line); border-radius: 12px; }
+.sg-head { margin: 0 0 8px; font-weight: 700; }
+.sg-q { margin: 0 0 14px; font-size: 1.1rem; }
+.sg-opts { display: grid; gap: 8px; margin-bottom: 12px; }

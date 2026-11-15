@@ -224,4 +224,37 @@
     window.addEventListener("scroll", function () { if (!tick) { tick = true; requestAnimationFrame(upd); } }, { passive: true });
     upd();
   }
+
+  // ---------- percorso di lettura: lo stato è nell'indirizzo (?trail=<id>&step=<n>), non viene salvato da nessuna parte ----------
+  (function () {
+    var bar = document.getElementById("trail-bar"), raw = document.getElementById("trail-data");
+    if (!bar || !raw) return;
+    var q = new URLSearchParams(location.search), id = q.get("trail"), n = parseInt(q.get("step"), 10);
+    var T; try { T = JSON.parse(raw.textContent); } catch (e) { return; }
+    var t = T.filter(function (x) { return x.id === id; })[0];
+    if (!t || !(n >= 1 && n <= t.steps.length) || t.steps[n - 1].slug !== location.pathname.split("/").slice(-2)[0]) return;
+    var base = "../../stories/";
+    function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+    var top = el("p", "trail-title", "Trail: " + t.title + " · stop " + n + " of " + t.steps.length);
+    var dots = el("ol", "trail-dots"); dots.setAttribute("aria-label", "Trail progress");
+    t.steps.forEach(function (st, i) {
+      var li = el("li", i + 1 < n ? "done" : i + 1 === n ? "now" : "", ""); li.setAttribute("aria-label", "Stop " + (i + 1) + ": " + st.title + (i + 1 < n ? " (done)" : i + 1 === n ? " (you are here)" : ""));
+      dots.appendChild(li);
+    });
+    bar.appendChild(top); bar.appendChild(dots);
+    var nav = el("p", "trail-nav");
+    if (n > 1) { var a = el("a", null, "← " + t.steps[n - 2].title); a.href = "../" + t.steps[n - 2].slug + "/index.html?trail=" + id + "&step=" + (n - 1); nav.appendChild(a); }
+    if (n < t.steps.length) { var b = el("a", "btn", "Next stop: " + t.steps[n].title); b.href = "../" + t.steps[n].slug + "/index.html?trail=" + id + "&step=" + (n + 1); nav.appendChild(b); bar.appendChild(el("p", "trail-why", t.steps[n].why)); }
+    bar.hidden = false;
+    // in fondo alla storia: il passo successivo, o la chiusura del percorso
+    var art = document.querySelector("article.story");
+    if (art) {
+      var end = el("aside", "trail-end"); end.setAttribute("aria-label", "Trail");
+      if (n < t.steps.length) { end.appendChild(el("h2", null, "Next on this trail")); end.appendChild(el("p", null, t.steps[n].why)); }
+      else { end.appendChild(el("h2", null, "Trail complete")); end.appendChild(el("p", null, "You read all " + t.steps.length + " stops of “" + t.title + "”. Nothing is saved; your next step is the quiz.")); var qz = el("a", "btn", "Try the quiz"); qz.href = "../../quiz/index.html"; end.appendChild(qz); }
+      end.appendChild(nav.cloneNode(true));
+      art.appendChild(end);
+    }
+    bar.appendChild(nav);
+  })();
 })();

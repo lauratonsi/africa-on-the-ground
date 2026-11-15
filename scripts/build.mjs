@@ -34,7 +34,7 @@ const includeDrafts = process.argv.includes("--drafts");
 const dist = path.join(root, "dist");
 // Versione degli asset: cambia quando cambiano stile, script o build, così il browser non usa file vecchi.
 const VER = crypto.createHash("sha1")
-  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/recipe.js", "src/society.js", "src/explore.js", "src/method-qa.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
+  .update(["src/styles.css", "src/app.js", "src/theme.js", "src/share.js", "src/motion.js", "src/fab.js", "src/places.js", "src/truesize.js", "src/quiz.js", "src/story.js", "src/storygame.js", "src/recipe.js", "src/society.js", "src/explore.js", "src/method-qa.js", "scripts/build.mjs"].map((f) => fs.readFileSync(path.join(root, f))).join("\n"))
   .digest("hex").slice(0, 8);
 fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
@@ -625,9 +625,11 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const related = relCountries || relPlaces || toolLi || relStories || relCaps || relPeoples ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relPeoples ? `<li>People: ${relPeoples}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
+  const trailsHere = (((data.trails && data.trails.trails) || [])).map((t) => ({ ...t, steps: t.steps.filter((x) => stories.some((y) => y.slug === x.story)) })).filter((t) => t.steps.length >= 4 && t.steps.some((x) => x.story === st.slug)).map((t) => ({ id: t.id, title: t.title, steps: t.steps.map((x) => ({ slug: x.story, title: (stories.find((y) => y.slug === x.story) || {}).title, why: x.why })) }));
+  const trailData = trailsHere.length ? `<script type="application/json" id="trail-data">${JSON.stringify(trailsHere).replace(/</g, "\\u003c")}</script>` : "";
   const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
 <div class="wrap prose-hero"><p class="story-meta">${readMin(st)} minute read · every sentence below carries its source number</p>
-<div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+<div class="read-progress" aria-hidden="true"><span></span></div><div id="trail-bar" class="trail-bar" hidden></div>${trailData}${keyHtml}<article class="story">${secs}
 ${checks}
 ${gaps}
 ${voices}
@@ -649,14 +651,24 @@ function renderStories() {
     if (warmQs.length === 5) break;
   }
   const warm = warmQs.length ? `<section id="sec-warmup" class="checks warmup"><span class="layer-tag rec">Warm-up round</span><h2>Five questions before you read</h2><p class="note-small">Guess first. Each answer points to the story that explains it.</p>${warmQs.map((q) => checkHtmlWith({ ...q, explain: q.explain + " Read more: " + stories.find((x) => x.slug === q.story).title + "." }, () => "")).join("")}<p class="check-score" role="status" aria-live="polite" hidden></p><p class="note-small">Nothing is saved: the score disappears when you leave the page. <a href="../quiz/index.html">Full quiz</a></p></section>` : "";
+  // Percorsi di lettura: ogni tappa è un link con ?trail=<id>&step=<n>; la pagina della storia legge l'indirizzo e mostra dove si è. Nessun dato viene salvato.
+  const storyBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
+  // Le storie in bozza non compaiono nelle versioni pubbliche: le tappe che le citano vengono saltate (un percorso resta solo con almeno 4 tappe).
+  const trailList = ((data.trails && data.trails.trails) || []).map((t) => ({ ...t, steps: t.steps.filter((x) => storyBySlug[x.story]) })).filter((t) => t.steps.length >= 4);
+  const trailsHtml = trailList.length ? `<section id="sec-trails" class="trails"><span class="layer-tag rec">Reading trails</span><h2>Pick a trail</h2><p class="note-small">Each trail is six stories in an order that builds. Open the first stop: the next one is waiting at the end of each story. Nothing is saved; where you are is carried in the page address.</p><ol class="trail-list">${trailList.map((t) => `<li class="trail"><h3>${esc(t.title)}</h3><p>${esc(t.intro)}</p><ol class="trail-steps">${t.steps.map((stp, i) => `<li><a href="${esc(storyHref(storyBySlug[stp.story], ""))}?trail=${esc(t.id)}&amp;step=${i + 1}"><span class="trail-n" aria-hidden="true">${i + 1}</span><span>${esc(storyBySlug[stp.story].title)}</span></a></li>`).join("")}</ol><p><a class="btn" href="${esc(storyHref(storyBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1">Start this trail</a></p></li>`).join("")}</ol></section>` : "";
+  // Gioco "Di quale storia è?": frasi prese dai punti chiave delle storie (già con fonte). Nessuna frase inventata; i distrattori sono altre storie.
+  const gameItems = stories.flatMap((x) => (x.keyPoints || []).filter((k) => k.text.length >= 50 && k.text.length <= 230).map((k) => ({ t: k.text, s: x.slug, n: x.title, k: x.kind })));
+  const gameHtml = gameItems.length >= 20 ? `<section id="sec-game" class="sgame" aria-labelledby="sg-h"><span class="layer-tag rec">Game</span><h2 id="sg-h">Which story is this from?</h2><p class="note-small">A fact from the stories, four possible stories. Six rounds; streaks count. Nothing is saved.</p><noscript><p class="note-small">This game needs JavaScript.</p></noscript><div id="sgame" hidden></div><script type="application/json" id="sgame-data">${JSON.stringify({ items: gameItems, base: "" }).replace(/</g, "\\u003c")}</script></section>` : "";
   const groups = storyKinds.map((k) => ({ k, items: stories.filter((x) => x.kind === k.id) })).filter((g) => g.items.length);
   const body = `${compactHero({ kicker: "Learn", title: "Stories", sub: "Real history, myths checked against the record, and the food behind the places." })}
 <div class="wrap">
 <section class="hero-lede"><p class="lede">The place cards say where. These pages say what happened, what people get wrong, and what is on the table. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p></section>
 ${warm}
+${trailsHtml}
+${gameHtml}
 ${groups.map((g) => `<section id="k-${esc(g.k.id)}" class="story-group"><h2>${esc(g.k.label)}</h2><p class="blurb">${esc(g.k.blurb)}</p><ul class="scards">${g.items.map((x) => storyCard(x, "../")).join("")}</ul></section>`).join("\n")}
 </div>`;
-  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, extraScripts: ["story.js"], jump: groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label })) });
+  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, extraScripts: ["story.js", "storygame.js"], jump: [{ id: "sec-warmup", label: "Warm-up" }, { id: "sec-trails", label: "Trails" }, { id: "sec-game", label: "Game" }, ...groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label }))] });
 }
 
 const storiesBand = stories.length
@@ -2094,6 +2106,7 @@ fs.copyFileSync(path.join(root, "src", "story.js"), path.join(dist, "story.js"))
 fs.copyFileSync(path.join(root, "src", "recipe.js"), path.join(dist, "recipe.js"));
 fs.copyFileSync(path.join(root, "src", "society.js"), path.join(dist, "society.js"));
 fs.copyFileSync(path.join(root, "src", "explore.js"), path.join(dist, "explore.js"));
+fs.copyFileSync(path.join(root, "src", "storygame.js"), path.join(dist, "storygame.js"));
 fs.copyFileSync(path.join(root, "src", "languages.js"), path.join(dist, "languages.js"));
 fs.copyFileSync(path.join(root, "src", "method-qa.js"), path.join(dist, "method-qa.js"));
 // Motion (MIT) è una dipendenza npm: si copia in dist come file locale, con la sua licenza.

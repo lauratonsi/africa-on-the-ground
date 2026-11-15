@@ -6,9 +6,21 @@
   "subtitle": "Lomé, capital of Togo: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "Greater Lomé numbered 2,188,376 residents across Golfe and Agoè-Nyivé prefectures in the 2022 census.",
+      "text": "About 2,188,376 people live in Greater Lomé (counted 2022).",
       "cite": [
-        "cap-citypopulation-de-togo-2022"
+        "cap-inseed-tg-0092c3"
+      ]
+    },
+    {
+      "text": "In the 2022 census the Golfe prefecture counted 1,305,681 people.",
+      "cite": [
+        "cap-inseed-tg-0092c3"
+      ]
+    },
+    {
+      "text": "German governor August Köhler made Lomé the capital of Togo, and a palace was built for him between 1898 and 1905.",
+      "cite": [
+        "cap-togocultures-com-715473"
       ]
     }
   ],
@@ -24,31 +36,330 @@
       "title": "Lomé in brief",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 2022 census the Golfe prefecture counted 1,305,681 people.",
+              "cite": [
+                "cap-inseed-tg-0092c3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "German governor August Köhler made Lomé the capital of Togo, and a palace was built for him between 1898 and 1905.",
+              "cite": [
+                "cap-togocultures-com-715473"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The governor's palace was built to be recognisable from a long distance so that it would impress ships at sea.",
+              "cite": [
+                "cap-togocultures-com-715473"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lomé's first wharf was a wooden one built by the Germans in 1890; after a fire it was replaced in 1904 by a second wharf of steel frames on concrete piles.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Togo became independent on 27 April 1960, and on 20 July of that year a German-Togolese agreement was signed to build a port.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The deep-water Port of Lomé received its first ship alongside, the Birte Hugo Stinnes, on 21 January 1967.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Annual port traffic grew from 252,600 tonnes in 1968 to 402,600 tonnes in 1972.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2024 the Port of Lomé handled 2.06 million containers (TEU), up 8% on the year before.",
+              "cite": [
+                "cap-republiquetogolaise-tg-0a99d5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Port of Lomé ranks 92nd in Lloyd's List's 2025 top 100 container ports and is the only sub-Saharan African port in that list.",
+              "cite": [
+                "cap-republiquetogolaise-tg-0a99d5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Port of Lomé is described as the only deep-water port of the sub-region.",
+              "cite": [
+                "cap-republiquetogolaise-tg-0a99d5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Palais de Lomé, a restored colonial palace, is described as the only contemporary art centre in Africa fully financed by the state.",
+              "cite": [
+                "cap-theartnewspaper-com-bc8963"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Akodessewa fetish market in Lomé covers more than 1,000 m2.",
+              "cite": [
+                "cap-tourisme-gouv-tg-a0f0de"
+              ]
+            }
+          ]
+        },
+        {
           "type": "stat",
           "items": [
             {
               "value": "2,188,376",
-              "label": "residents in Greater Lomé (Golfe and Agoè-Nyivé), 2022",
+              "label": "people in Greater Lomé, 2022",
               "cite": [
-                "cap-citypopulation-de-togo-2022"
+                "cap-inseed-tg-0092c3"
               ]
             }
           ]
         },
         {
           "type": "estimate",
-          "prompt": "About how many people lived in Greater Lomé in the 2022 census?",
-          "min": 800000,
-          "max": 3500000,
-          "step": 50000,
+          "prompt": "About how many people do you think live in Greater Lomé?",
+          "min": 0,
+          "max": 7000000,
+          "step": 40000,
           "unit": "",
           "answer": 2188376,
           "decimals": 0,
           "parts": [
             {
-              "text": "2,188,376 residents across Greater Lomé (Golfe: 1,305,681; Agoè-Nyivé: 882,695) in the November 2022 census by INSEED Togo.",
+              "text": "2,188,376 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Grand Lomé region (Golfe plus Agoè-Nyivé prefectures); the Golfe prefecture alone counted 1,305,681.",
               "cite": [
-                "cap-citypopulation-de-togo-2022"
+                "cap-inseed-tg-0092c3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1890",
+              "tag": "origins",
+              "text": "The Germans built a wooden wharf on metal piles at Lomé.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "1898",
+              "tag": "origins",
+              "text": "Construction of the governor's palace began, ordered by Governor August Köhler.",
+              "cite": [
+                "cap-jeuneafrique-com-9ea0c8"
+              ]
+            },
+            {
+              "when": "1904",
+              "tag": "growth",
+              "text": "A second wharf, of steel frames on concrete piles, replaced the first after a fire.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "1905",
+              "tag": "growth",
+              "text": "The governor's palace was completed.",
+              "cite": [
+                "cap-jeuneafrique-com-9ea0c8"
+              ]
+            },
+            {
+              "when": "1928",
+              "tag": "growth",
+              "text": "The French opened their own wharf at Lomé.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "1959",
+              "tag": "growth",
+              "text": "Togolese authorities decided to build a deep-water port because the French wharf could not cope.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "27 April 1960",
+              "tag": "growth",
+              "text": "Togo became independent.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "1962",
+              "tag": "growth",
+              "text": "The first stone of the deep-water port of Lomé was laid on 23 November.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "1967",
+              "tag": "growth",
+              "text": "The first ship, the Birte Hugo Stinnes, came alongside at the new port on 21 January.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "when": "2013",
+              "tag": "today",
+              "text": "The Grand Marché de Lomé burned in the night of 11 to 12 January.",
+              "cite": [
+                "cap-togopresse-tg-7afeba"
+              ]
+            },
+            {
+              "when": "2019",
+              "tag": "today",
+              "text": "The Palais de Lomé opened to the public as an art centre on 28 November.",
+              "cite": [
+                "cap-theartnewspaper-com-bc8963"
+              ]
+            },
+            {
+              "when": "2022",
+              "tag": "today",
+              "text": "The fifth census counted 2,188,376 people in Grand Lomé.",
+              "cite": [
+                "cap-inseed-tg-0092c3"
+              ]
+            },
+            {
+              "when": "2025",
+              "tag": "today",
+              "text": "The Port of Lomé rose to 92nd in Lloyd's List's top 100 container ports.",
+              "cite": [
+                "cap-republiquetogolaise-tg-0a99d5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Lomé in order.",
+          "items": [
+            {
+              "label": "The Germans built a wooden wharf on metal piles at Lomé.",
+              "when": "1890",
+              "text": "The Germans built a wooden wharf on metal piles at Lomé.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "label": "The French opened their own wharf at Lomé.",
+              "when": "1928",
+              "text": "The French opened their own wharf at Lomé.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "label": "The first ship, the Birte Hugo Stinnes, came alongside at the new port on 21…",
+              "when": "1967",
+              "text": "The first ship, the Birte Hugo Stinnes, came alongside at the new port on 21 January.",
+              "cite": [
+                "cap-togo-port-net-2898a1"
+              ]
+            },
+            {
+              "label": "The Port of Lomé rose to 92nd in Lloyd's List's top 100 container ports.",
+              "when": "2025",
+              "text": "The Port of Lomé rose to 92nd in Lloyd's List's top 100 container ports.",
+              "cite": [
+                "cap-republiquetogolaise-tg-0a99d5"
               ]
             }
           ]
@@ -57,8 +368,13 @@
     }
   ],
   "gaps": [
-    "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Date and details of Lomé's foundation (c. 1880 vs 1897 capital move) could not be verified: the IRD papers by Marguerat return HTML instead of PDF to curl; blog sources not used.",
+    "Not found in a readable source: UNESCO World Heritage Centre pages return 403; Koutammakou facts come from Cultural Heritage Online, a heritage magazine rather than UNESCO.",
+    "Not found in a readable source: Grand Marché reconstruction status is contradictory across sources (ministry says rebuilt, local press says unfinished); only the 2013 fire and the 2020 project are recorded.",
+    "Not found in a readable source: Independence Monument source is a ministry tourism-promotion page; its anecdotes (e.g. the blessed torch) were not recorded.",
+    "Not found in a readable source: Lomé city-proper population: the Golfe prefecture figure is given only in the definition, since the leaflet table splits columns; Grand Lomé is recorded as the value.",
+    "Not found in a readable source: Port of Lomé and sources for Lomé's geography (Gulf of Guinea coast, border with Ghana) not verified.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Togo has read this profile yet."
   ]
 }

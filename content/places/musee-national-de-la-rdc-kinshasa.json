@@ -4,14 +4,64 @@
   "type": "culture",
   "country": "COD",
   "name": "Musée National de la République Démocratique du Congo (MNRDC)",
-  "region": "Kinshasa · Democratic Republic of the Congo",
-  "subtitle": "State-of-the-art national museum inaugurated in 2019 in Lingwala, safeguarding over 46,000 ethnographic treasures.",
-  "facts": [],
-  "sections": [],
+  "region": "Kinshasa · DR Congo",
+  "subtitle": "The MNRDC in Kinshasa is devoted to the cultural history of the country's many ethnic groups and historical periods, with a capacity of 12,000 objects.",
+  "facts": [
+    {
+      "label": "Capacity",
+      "value": "12,000 objects",
+      "cite": [
+        "cap-acp-cd-bbbad0"
+      ]
+    },
+    {
+      "label": "Focus",
+      "value": "Cultural history of the country's many ethnic groups and historical periods",
+      "cite": [
+        "cap-acp-cd-bbbad0"
+      ]
+    },
+    {
+      "label": "Kutshu headdress",
+      "value": "Traditional headdress of Kasaï-Oriental, a symbol of authority, wisdom and prestige",
+      "cite": [
+        "cap-acp-cd-bbbad0"
+      ]
+    },
+    {
+      "label": "Tetela croisette",
+      "value": "Cross-shaped currency of the Sankuru province used in long-distance trade",
+      "cite": [
+        "cap-acp-cd-15f9be"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The MNRDC in Kinshasa is devoted to the cultural history of the country's many ethnic groups and historical periods, with a capacity of 12,000 objects.",
+              "cite": [
+                "cap-acp-cd-bbbad0",
+                "cap-acp-cd-15f9be"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Full digital catalogue with international restitution provenance entries is currently in progress.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

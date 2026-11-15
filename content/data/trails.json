@@ -1,0 +1,70 @@
+{
+  "note": "Reading trails: ordered sequences of existing stories. The 'why' lines are editorial connectors, not claims; every fact stays in the stories, with its source.",
+  "trails": [
+    {
+      "id": "myths-first",
+      "title": "Myths first",
+      "intro": "Six ideas about Africa that sound solid and fall apart on contact with the record.",
+      "steps": [
+        { "story": "africa-is-a-continent-not-a-country", "why": "Start with the biggest slip: treating a continent as one place." },
+        { "story": "africa-is-much-bigger-than-the-map", "why": "Then the map itself, which shrinks the continent." },
+        { "story": "does-africa-have-tribes", "why": "Next, a word that flattens millions of people into a box." },
+        { "story": "is-black-magic-an-african-thing", "why": "Then a phrase that hides a religion, a belief and a set of accusations." },
+        { "story": "the-men-who-veil", "why": "Then a custom that reverses what many readers expect." },
+        { "story": "do-africans-speak-african", "why": "Finish with the language that does not exist." }
+      ]
+    },
+    {
+      "id": "who-ruled",
+      "title": "Kingdoms and other ways to rule",
+      "intro": "From the Nile to the Swahili coast and the Gold Coast: powers you were rarely taught, and one that had no king.",
+      "steps": [
+        { "story": "kush-the-kingdom-that-ruled-egypt", "why": "Begin on the Nile, with a kingdom that ruled Egypt." },
+        { "story": "aksum-the-great-power-you-were-never-taught", "why": "Move up to the highlands of the Red Sea trade." },
+        { "story": "mansa-musa-and-the-gold-nobody-could-count", "why": "Cross to West Africa and its gold." },
+        { "story": "kilwa-gold-and-coral", "why": "Go down the East African coast to the other gold trade." },
+        { "story": "the-golden-stool", "why": "Back to West Africa, to a stool that stands for a nation." },
+        { "story": "the-gadaa-democracy", "why": "End with a system of government without monarchs." }
+      ]
+    },
+    {
+      "id": "lines-on-the-map",
+      "title": "Lines on the map",
+      "intro": "How borders, plans and labels were drawn for Africa, and what they left behind.",
+      "steps": [
+        { "story": "did-one-conference-carve-up-africa", "why": "Start with the conference everyone mentions." },
+        { "story": "was-all-of-africa-colonised", "why": "Then check how complete the colonial map really was." },
+        { "story": "europes-plan-for-africa-eurafrica", "why": "Look at a plan that treated the continent as Europe's extension." },
+        { "story": "colonialism-mixture-and-the-colour-line", "why": "See how colonial categories entered families." },
+        { "story": "the-children-italy-did-not-recognise", "why": "Follow one case of children caught between those categories." },
+        { "story": "the-gambia-the-name", "why": "Finish with a name on the map, and what a name cannot tell." }
+      ]
+    },
+    {
+      "id": "on-the-plate",
+      "title": "On the plate",
+      "intro": "Six foods, and the crops, trade and arguments behind them.",
+      "steps": [
+        { "story": "cassava-the-american-crop-africa-eats", "why": "Start with a crop that came from the Americas." },
+        { "story": "fufu-and-ugali-the-staple-that-feeds-a-continent", "why": "See how staples became the core of the meal." },
+        { "story": "jollof-rice-a-dish-a-map-and-a-friendly-war", "why": "Follow one dish across borders and arguments." },
+        { "story": "injera-the-bread-that-is-also-the-plate", "why": "Go to the highlands, where bread is also the plate." },
+        { "story": "coffee-the-ethiopian-bean-that-woke-the-world", "why": "Stay there for the bean the world took away." },
+        { "story": "couscous-the-dish-that-united-the-maghreb", "why": "End in the Maghreb, with a dish four countries share." }
+      ]
+    },
+    {
+      "id": "ways-of-knowing",
+      "title": "Ways of knowing and keeping order",
+      "intro": "Oral records, birds, masks and low roofs: how knowledge and accountability work without paper.",
+      "steps": [
+        { "story": "was-africas-history-only-ever-spoken", "why": "Begin by testing the idea that history was only spoken." },
+        { "story": "talking-to-wild-birds", "why": "Then a kind of knowledge shared between people and birds." },
+        { "story": "the-land-of-twins", "why": "Then a belief about twins that shapes carving and care." },
+        { "story": "the-satirical-masks", "why": "Then masks that let people criticise chiefs." },
+        { "story": "the-low-ceiling-parliament", "why": "Then a meeting place built to keep tempers down." },
+        { "story": "the-men-who-veil", "why": "End with a code of honour worn on the face." }
+      ]
+    }
+  ]
+}

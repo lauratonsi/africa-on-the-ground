@@ -6,9 +6,21 @@
   "subtitle": "Yamoussoukro, capital of Côte d'Ivoire: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The Basilica of Notre-Dame de la Paix is the largest Christian church in the world by surface area, featuring a 158-metre dome.",
+      "text": "About 340,234 people live in the chef-lieu of Yamoussoukro (counted 2021).",
       "cite": [
-        "cap-unesco-notre-dame-de-la-paix"
+        "cap-economie-ivoirienne-ci-fd46a8"
+      ]
+    },
+    {
+      "text": "The Autonomous District of Yamoussoukro covers 2,132 km2, 0.7% of the national territory.",
+      "cite": [
+        "cap-economie-ivoirienne-ci-fd46a8"
+      ]
+    },
+    {
+      "text": "At the 2021 census (RGPH 2021) the Autonomous District of Yamoussoukro had 422,072 inhabitants, of whom 340,234 in the chef-lieu (city).",
+      "cite": [
+        "cap-economie-ivoirienne-ci-fd46a8"
       ]
     }
   ],
@@ -27,9 +39,160 @@
           "type": "p",
           "parts": [
             {
-              "text": "The city is celebrated for its wide multi-lane boulevards, the colossal Basilica of Our Lady of Peace, the UNESCO-affiliated Félix Houphouët-Boigny Peace Foundation, and its sacred crocodile lakes.",
+              "text": "The Autonomous District of Yamoussoukro covers 2,132 km2, 0.7% of the national territory.",
               "cite": [
-                "cap-unesco-notre-dame-de-la-paix"
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the 2021 census (RGPH 2021) the Autonomous District of Yamoussoukro had 422,072 inhabitants, of whom 340,234 in the chef-lieu (city).",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Ministry of the Economy describes Yamoussoukro as chef-lieu of the Autonomous District and political and administrative capital of Côte d'Ivoire.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Ministry of the Economy describes Yamoussoukro as a training hub for Ivorian youth in particular and francophone Africa in general.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yamoussoukro has one industrial zone of 750 ha, of which 250 ha are used, with 24 active companies (MCIPPME, 2022).",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The district has eight commercial banks, the Treasury bank and six microfinance structures.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The administrator Simon Maurice renamed the village of N'Gokro Yamoussoukro in honour of Queen Yamoussou; the suffix \"kro\" means village in Baoulé.",
+              "cite": [
+                "cap-rezoivoire-net-16bdfc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1983 Ivory Coast's National Assembly voted to transfer the capital to Yamoussoukro, President Houphouët-Boigny's birthplace, as \"a tribute from a grateful nation to a widely respected leader\".",
+              "cite": [
+                "cap-csmonitor-com-d35bd9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An academic study says that although Yamoussoukro has been the political and administrative capital since 21 March 1983, it is still awaiting the transfer of state institutions.",
+              "cite": [
+                "cap-uirtus-net-635653"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The same study argues that the effective transfer is hindered by a lack of political will and by a land question.",
+              "cite": [
+                "cap-uirtus-net-635653"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ten artificial lakes of Yamoussoukro were created in 1966 on the initiative and funding of President Houphouët-Boigny.",
+              "cite": [
+                "cap-lebanco-net-2c227c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yamoussoukro is where the village of Houphouët, N'Gokro, stood, and it became the political capital of the country.",
+              "cite": [
+                "cap-afrique-le360-ma-2bdc37"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "340,234",
+              "label": "people in the chef-lieu of Yamoussoukro, 2021",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the chef-lieu of Yamoussoukro?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 340234,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "340,234 in 2021, according to the figures compiled from the national statistics office. Which area is counted matters: Yamoussoukro chef-lieu (city) within the Département and Autonomous District of Yamoussoukro, RGPH 2021 (INS/ANStat); the district as a whole had 422,072.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
               ]
             }
           ]
@@ -58,30 +221,132 @@
           ],
           "items": [
             {
-              "when": "1987",
-              "tag": "growth",
-              "text": "The monumental Félix Houphouët-Boigny Foundation for Peace Research is completed.",
+              "when": "1901",
+              "tag": "origins",
+              "text": "Queen Yamoussou led the village of N'Gokro at the time of French colonisation.",
               "cite": [
-                "cap-unesco-notre-dame-de-la-paix"
+                "cap-rezoivoire-net-16bdfc"
               ]
             },
             {
-              "when": "1990",
+              "when": "1966",
               "tag": "growth",
-              "text": "Pope John Paul II consecrates the Basilica of Our Lady of Peace.",
+              "text": "The ten artificial lakes of Yamoussoukro were created.",
               "cite": [
-                "cap-unesco-notre-dame-de-la-paix"
+                "cap-lebanco-net-2c227c"
+              ]
+            },
+            {
+              "when": "21 March 1983",
+              "tag": "growth",
+              "text": "Yamoussoukro became the political and administrative capital of Côte d'Ivoire.",
+              "cite": [
+                "cap-uirtus-net-635653"
+              ]
+            },
+            {
+              "when": "10 August 1985",
+              "tag": "growth",
+              "text": "Pope John Paul II laid the first stone of the Basilica of Our Lady of Peace.",
+              "cite": [
+                "cap-news-abidjan-net-7901b4"
+              ]
+            },
+            {
+              "when": "1986-1989",
+              "tag": "growth",
+              "text": "The basilica was built by 24 national and international companies.",
+              "cite": [
+                "cap-news-abidjan-net-7901b4"
+              ]
+            },
+            {
+              "when": "10 September 1990",
+              "tag": "growth",
+              "text": "Pope John Paul II consecrated the basilica.",
+              "cite": [
+                "cap-news-abidjan-net-7901b4"
+              ]
+            },
+            {
+              "when": "5 December 1997",
+              "tag": "today",
+              "text": "The headquarters of the Fondation Félix Houphouët-Boigny pour la Recherche de la Paix was inaugurated by the symbolic handing over of keys to the UNESCO Director-General.",
+              "cite": [
+                "cap-irenees-net-65b5fd"
+              ]
+            },
+            {
+              "when": "2021",
+              "tag": "today",
+              "text": "The RGPH 2021 census counted 422,072 inhabitants in the Autonomous District of Yamoussoukro.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
               ]
             }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Yamoussoukro in order.",
+          "items": [
+            {
+              "label": "Queen Yamoussou led the village of N'Gokro at the time of French colonisation.",
+              "when": "1901",
+              "text": "Queen Yamoussou led the village of N'Gokro at the time of French colonisation.",
+              "cite": [
+                "cap-rezoivoire-net-16bdfc"
+              ]
+            },
+            {
+              "label": "Yamoussoukro became the political and administrative capital of Côte d'Ivoire.",
+              "when": "21 March 1983",
+              "text": "Yamoussoukro became the political and administrative capital of Côte d'Ivoire.",
+              "cite": [
+                "cap-uirtus-net-635653"
+              ]
+            },
+            {
+              "label": "Pope John Paul II consecrated the basilica.",
+              "when": "10 September 1990",
+              "text": "Pope John Paul II consecrated the basilica.",
+              "cite": [
+                "cap-news-abidjan-net-7901b4"
+              ]
+            },
+            {
+              "label": "The RGPH 2021 census counted 422,072 inhabitants in the Autonomous District…",
+              "when": "2021",
+              "text": "The RGPH 2021 census counted 422,072 inhabitants in the Autonomous District of Yamoussoukro.",
+              "cite": [
+                "cap-economie-ivoirienne-ci-fd46a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Abidjan is the capital of Côte d'Ivoire.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "Yamoussoukro has been the political and administrative capital since 21 March 1983, although the transfer of state institutions from Abidjan is still awaited, according to an academic study.",
+          "cite": [
+            "cap-uirtus-net-635653"
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "Civil servant relocation progress metrics from Abidjan to Yamoussoukro are partially documented.",
-    "First-hand local voices from Baoulé textile weavers in surrounding villages are missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: City-proper census report on the INS/ANStat site itself: the figure comes from the INS table reproduced on the Ministry of Economy portal",
+    "Not found in a readable source: Basilica construction cost: sources disagree and none official, so no cost recorded",
+    "Not found in a readable source: UNESCO whc.unesco.org pages return 403 so Grand-Bassam facts rely on Ivorian press (Pulse, Rezo-Ivoire)",
+    "Not found in a readable source: Date of the renaming of N'Gokro to Yamoussoukro (1909 appears on blogs only)",
+    "Not found in a readable source: Yamoussoukro geography/climate from a readable non-encyclopedic source",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Côte d'Ivoire has read this profile yet."
   ]
 }

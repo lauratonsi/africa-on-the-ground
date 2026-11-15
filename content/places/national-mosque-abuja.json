@@ -5,12 +5,70 @@
   "country": "NGA",
   "name": "Abuja National Mosque",
   "region": "Abuja · Nigeria",
-  "subtitle": "Monumental national mosque built in 1984 featuring a golden dome and four 120-metre minarets.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Nigeria's national mosque, in the capital, is known for its golden dome and four minarets.",
+  "facts": [
+    {
+      "label": "Completed",
+      "value": "1984",
+      "cite": [
+        "cap-tribuneonlineng-com-7f3e2f"
+      ]
+    },
+    {
+      "label": "Capacity",
+      "value": "Up to 25,000 worshippers",
+      "cite": [
+        "cap-tribuneonlineng-com-7f3e2f"
+      ]
+    },
+    {
+      "label": "Features",
+      "value": "A golden dome and four towering minarets",
+      "cite": [
+        "cap-tribuneonlineng-com-7f3e2f"
+      ]
+    },
+    {
+      "label": "Council founded",
+      "value": "1981, inaugurated by Sultan Abubakar III of Sokoto",
+      "cite": [
+        "cap-commonwealthunion-com-21f75c"
+      ]
+    },
+    {
+      "label": "Visitors",
+      "value": "Open to visitors of all faiths",
+      "cite": [
+        "cap-commonwealthunion-com-21f75c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nigeria's national mosque, in the capital, is known for its golden dome and four minarets. The Nigerian press calls it the country's largest mosque.",
+              "cite": [
+                "cap-tribuneonlineng-com-7f3e2f",
+                "cap-commonwealthunion-com-21f75c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

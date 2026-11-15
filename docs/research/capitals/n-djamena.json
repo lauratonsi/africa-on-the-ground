@@ -1,0 +1,654 @@
+{
+ "city": "N'Djamena",
+ "country": "TCD",
+ "population": {
+  "value": 993492,
+  "year": 2009,
+  "definition": "Ville de N'Djamena (ten arrondissements, 64 quartiers) at the 2009 second national census (RGPH2); other publications give 951,418 or 963,657 for the same census",
+  "source": {
+   "title": "Synthèse des études thématiques (Tchad), juin 2012",
+   "publisher": "Facilitation canadienne / Commission des forêts d'Afrique centrale (CCR-RAC), citing INSEED RGPH2",
+   "author": null,
+   "date": "2012-06",
+   "url": "https://archive-ccr-rac.pfbc-cbfp.org/docs/research_docs/Facilitation%20canadienne%202011/TCHAD_DT7_Synthese_Juin2012_PourImpression.pdf",
+   "tier": "academic",
+   "quote": "En 2009, elle compte 993 492 habitants, soit près de 8,9 pour cent de la population totale du pays",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "N'Djamena was founded by the French in 1900 and was originally called Fort Lamy.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "N’Djamena was founded by the French in 1900 and was originally called Fort Lamy",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 1973 President François Tombalbaye renamed the city N'Djamena as part of his 'Africanization' project.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "In 1973, Chad’s first president, François Tombalbaye, renamed the city N’Djamena as part of his “Africanization” project for the country",
+    "verified": true
+   }
+  },
+  {
+   "claim": "N'Djamena lies on the banks of the Chari River, directly across from Kousséri in Cameroon, and is Chad's chief export centre.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "Situated on the banks of the Chari River, directly across from the city of Kousséri in Cameroon, the capital is Chad’s chief export center",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Chari and Logone rivers meet near N'Djamena; both feed Lake Chad.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "Both the Chari and Logone rivers meet near N’Djamena and both are feeder systems for Lake Chad",
+    "verified": true
+   }
+  },
+  {
+   "claim": "N'Djamena has ten arrondissements comprising 64 quartiers.",
+   "source": {
+    "title": "Synthèse des études thématiques (Tchad), juin 2012",
+    "publisher": "Facilitation canadienne / Commission des forêts d'Afrique centrale (CCR-RAC), citing INSEED RGPH2",
+    "author": null,
+    "date": "2012-06",
+    "url": "https://archive-ccr-rac.pfbc-cbfp.org/docs/research_docs/Facilitation%20canadienne%202011/TCHAD_DT7_Synthese_Juin2012_PourImpression.pdf",
+    "tier": "academic",
+    "quote": "La ville de N’Djaména compte actuellement dix arrondissements comprenant 64 quartiers",
+    "verified": true
+   }
+  },
+  {
+   "claim": "N'Djamena's population was 530,965 in 1993, or 8.5 per cent of Chad's population, according to the 2012 thematic synthesis.",
+   "source": {
+    "title": "Synthèse des études thématiques (Tchad), juin 2012",
+    "publisher": "Facilitation canadienne / Commission des forêts d'Afrique centrale (CCR-RAC), citing INSEED RGPH2",
+    "author": null,
+    "date": "2012-06",
+    "url": "https://archive-ccr-rac.pfbc-cbfp.org/docs/research_docs/Facilitation%20canadienne%202011/TCHAD_DT7_Synthese_Juin2012_PourImpression.pdf",
+    "tier": "academic",
+    "quote": "la population s’élève à 530 965 habitants en 1993, soit 8,5 pour cent de la population totale du Tchad estimée à 6 246 648 habitants",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Fort-Lamy already had a first mosque in 1910, in front of the governor's office, built with the colony's financial support.",
+   "source": {
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média",
+    "author": null,
+    "date": "2026-09-02",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "quote": "Dès 1910, la ville dispose déjà d’une première mosquée située en face du bureau du gouverneur, construite avec le soutien financier de la colonie",
+    "verified": true
+   }
+  },
+  {
+   "claim": "A mosque was built from the local budget in 1939-1940 at the junction of the Ambassatna, Gardolé and Mardjandafack districts.",
+   "source": {
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média",
+    "author": null,
+    "date": "2026-09-02",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "quote": "Entre 1939 et 1940, une mosquée est construite sur le budget local, au cœur de la ville",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Toumaï skull (Sahelanthropus tchadensis) was found on 19 July 2001 in the Djourab desert by a Franco-Chadian team led by Michel Brunet.",
+   "source": {
+    "title": "Tchad-France : 25 ans de coopération scientifique autour de Toumaï",
+    "publisher": "Alwihda Info",
+    "author": null,
+    "date": "2026",
+    "url": "https://www.alwihdainfo.com/tchad-france-25-ans-de-cooperation-scientifique-autour-de-toumai/",
+    "tier": "press",
+    "quote": "Découvert le 19 juillet 2001 dans le désert du Djourab par une équipe franco-tchadienne dirigée par le professeur Michel Brunet",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The central market of N'Djamena is commonly called 'souk kabir'.",
+   "source": {
+    "title": "Bientôt 2 semaines, le marché central est plongé dans le noir",
+    "publisher": "Flashtchad",
+    "author": null,
+    "date": "2024-04-24",
+    "url": "https://flashtchad.com/bientot-2-semaines-le-marche-central-est-plonge-dans-le-noir/",
+    "tier": "press",
+    "quote": "Communément appelé «souk kabir», le marché central de N’Djamena",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1900",
+   "tag": "origins",
+   "claim": "The French founded the city as Fort Lamy.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "N’Djamena was founded by the French in 1900 and was originally called Fort Lamy",
+    "verified": true
+   }
+  },
+  {
+   "when": "1910",
+   "tag": "origins",
+   "claim": "Fort-Lamy had its first mosque, in front of the governor's office.",
+   "source": {
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média",
+    "author": null,
+    "date": "2026-09-02",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "quote": "Dès 1910, la ville dispose déjà d’une première mosquée située en face du bureau du gouverneur",
+    "verified": true
+   }
+  },
+  {
+   "when": "1939-1940",
+   "tag": "growth",
+   "claim": "A mosque was built from the local budget in the centre of Fort-Lamy.",
+   "source": {
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média",
+    "author": null,
+    "date": "2026-09-02",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "quote": "Entre 1939 et 1940, une mosquée est construite sur le budget local, au cœur de la ville",
+    "verified": true
+   }
+  },
+  {
+   "when": "1962",
+   "tag": "growth",
+   "claim": "The Chad National Museum was established (on 6 October) in temporary quarters in Fort-Lamy.",
+   "source": {
+    "title": "Musée National N'Djamena",
+    "publisher": "MoMAA (Museum of Modern African Art) directory",
+    "author": null,
+    "date": null,
+    "url": "https://momaa.org/directory/musee-national-ndjamena/",
+    "tier": "encyclopedia",
+    "quote": "Established on October 6, 1962, the museum initially operated from temporary quarters and was known as Chad National Museum, Fort-Lamy",
+    "verified": true
+   }
+  },
+  {
+   "when": "1964",
+   "tag": "growth",
+   "claim": "The National Museum moved to the former town hall near the Place de l'Indépendance.",
+   "source": {
+    "title": "Musée National N'Djamena",
+    "publisher": "MoMAA (Museum of Modern African Art) directory",
+    "author": null,
+    "date": null,
+    "url": "https://momaa.org/directory/musee-national-ndjamena/",
+    "tier": "encyclopedia",
+    "quote": "In 1964, the museum was relocated to the former town hall, situated near the Place de l'Indépendance",
+    "verified": true
+   }
+  },
+  {
+   "when": "1972",
+   "tag": "growth",
+   "claim": "King Faisal of Saudi Arabia visited Chad at President Tombalbaye's invitation.",
+   "source": {
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média",
+    "author": null,
+    "date": "2026-09-02",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "quote": "Un nouveau chapitre s’ouvre en 1972 avec la visite au Tchad du roi Fayçal d’Arabie Saoudite, invité par le président François Tombalbaye",
+    "verified": true
+   }
+  },
+  {
+   "when": "1973",
+   "tag": "growth",
+   "claim": "Tombalbaye renamed Fort Lamy as N'Djamena.",
+   "source": {
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "author": null,
+    "date": null,
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "quote": "In 1973, Chad’s first president, François Tombalbaye, renamed the city N’Djamena as part of his “Africanization” project for the country",
+    "verified": true
+   }
+  },
+  {
+   "when": "2001",
+   "tag": "today",
+   "claim": "The Toumaï skull was found in the Djourab desert by a Franco-Chadian team.",
+   "source": {
+    "title": "Tchad-France : 25 ans de coopération scientifique autour de Toumaï",
+    "publisher": "Alwihda Info",
+    "author": null,
+    "date": "2026",
+    "url": "https://www.alwihdainfo.com/tchad-france-25-ans-de-cooperation-scientifique-autour-de-toumai/",
+    "tier": "press",
+    "quote": "Découvert le 19 juillet 2001 dans le désert du Djourab par une équipe franco-tchadienne dirigée par le professeur Michel Brunet",
+    "verified": true
+   }
+  },
+  {
+   "when": "2009",
+   "tag": "today",
+   "claim": "The second census counted 993,492 inhabitants in the city.",
+   "source": {
+    "title": "Synthèse des études thématiques (Tchad), juin 2012",
+    "publisher": "Facilitation canadienne / Commission des forêts d'Afrique centrale (CCR-RAC), citing INSEED RGPH2",
+    "author": null,
+    "date": "2012-06",
+    "url": "https://archive-ccr-rac.pfbc-cbfp.org/docs/research_docs/Facilitation%20canadienne%202011/TCHAD_DT7_Synthese_Juin2012_PourImpression.pdf",
+    "tier": "academic",
+    "quote": "En 2009, elle compte 993 492 habitants, soit près de 8,9 pour cent de la population totale du pays",
+    "verified": true
+   }
+  },
+  {
+   "when": "2010",
+   "tag": "today",
+   "claim": "The National Museum moved into a modern purpose-built complex near the National Assembly and the National Library.",
+   "source": {
+    "title": "Musée National du Tchad (National Museum of Chad)",
+    "publisher": "Beglobality",
+    "author": null,
+    "date": null,
+    "url": "https://beglobality.com/locations/musee-national-du-tchad-national-museum-of-chad/",
+    "tier": "press",
+    "quote": "Since 2010 , it has been housed in a modern purpose-built complex situated near important national institutions, including the National Assembly and the National Library",
+    "verified": true
+   }
+  },
+  {
+   "when": "2012",
+   "tag": "today",
+   "claim": "UNESCO declared the Lakes of Ounianga the first World Heritage Site of Chad.",
+   "source": {
+    "title": "The Lakes of Ounianga - UNESCO World Heritage Site",
+    "publisher": "Explore Chad",
+    "author": null,
+    "date": null,
+    "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
+    "tier": "institutional",
+    "quote": "In 2012 UNESCO declared the Lakes of Ounianga the first World Heritage Site of Chad",
+    "verified": true
+   }
+  },
+  {
+   "when": "2024",
+   "tag": "today",
+   "claim": "The central market was left without electricity for almost two weeks.",
+   "source": {
+    "title": "Bientôt 2 semaines, le marché central est plongé dans le noir",
+    "publisher": "Flashtchad",
+    "author": null,
+    "date": "2024-04-24",
+    "url": "https://flashtchad.com/bientot-2-semaines-le-marche-central-est-plonge-dans-le-noir/",
+    "tier": "press",
+    "quote": "Communément appelé «souk kabir», le marché central de N’Djamena subit depuis presque 2 semaines une coupure d’électricité",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Lakes of Ounianga",
+   "type": "site",
+   "what": "A group of Saharan lakes in northern Chad, declared Chad's first World Heritage Site in 2012. They include the biggest and deepest lakes of the Sahara, such as Lake Teli in Ounianga Serir.",
+   "facts": [
+    {
+     "label": "World Heritage listing",
+     "value": "2012 (Chad's first)",
+     "source": {
+      "title": "The Lakes of Ounianga - UNESCO World Heritage Site",
+      "publisher": "Explore Chad",
+      "author": null,
+      "date": null,
+      "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
+      "tier": "institutional",
+      "quote": "In 2012 UNESCO declared the Lakes of Ounianga the first World Heritage Site of Chad",
+      "verified": true
+     }
+    },
+    {
+     "label": "Superlatives",
+     "value": "Biggest and deepest lakes of the Sahara",
+     "source": {
+      "title": "The Lakes of Ounianga - UNESCO World Heritage Site",
+      "publisher": "Explore Chad",
+      "author": null,
+      "date": null,
+      "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
+      "tier": "institutional",
+      "quote": "The Lakes of Ounianga are home to the biggest and deepest lakes of the Sahara",
+      "verified": true
+     }
+    },
+    {
+     "label": "Lake Teli",
+     "value": "Area of about 600 football pitches",
+     "source": {
+      "title": "The Lakes of Ounianga - UNESCO World Heritage Site",
+      "publisher": "Explore Chad",
+      "author": null,
+      "date": null,
+      "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
+      "tier": "institutional",
+      "quote": "The surface area of the largest lake, Lake Teli in Ounianga Serir, is that of 600 football pitches",
+      "verified": true
+     }
+    },
+    {
+     "label": "Lake groups",
+     "value": "Ounianga Kebir and Ounianga Serir",
+     "source": {
+      "title": "High prevalence of urinary schistosomiasis in a desert population: results from an exploratory study around the Ounianga lakes in Chad",
+      "publisher": "PLOS / PubMed Central (peer-reviewed)",
+      "author": null,
+      "date": "2022",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8740043/",
+      "tier": "academic",
+      "quote": "the Sahara desert lakes of Ounianga Kebir and Ounianga Serir in northern Chad",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Zakouma National Park",
+   "type": "nature",
+   "what": "A national park established in 1963 in south-eastern Chad, covering about 3,054 km2. Poaching decimated its elephants between 2002 and 2010, and since African Parks took over management in 2010 the herd has recovered.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "1963",
+     "source": {
+      "title": "Zakouma: The Chadian national park that became a conservation comeback story",
+      "publisher": "Getaway",
+      "author": null,
+      "date": null,
+      "url": "https://www.getaway.co.za/destinations/national-parks/zakouma-the-chadian-national-park-that-became-a-conservation-comeback-story/",
+      "tier": "press",
+      "quote": "Established in 1963, Zakouma National Park covers approximately 3,054 square kilometres in southeastern Chad",
+      "verified": true
+     }
+    },
+    {
+     "label": "Elephant decline",
+     "value": "From 22,000 in the 1970s to 4,500 in 2002",
+     "source": {
+      "title": "Elephants make a comeback in Chad's national park",
+      "publisher": "Action for Elephants UK",
+      "author": null,
+      "date": null,
+      "url": "https://www.actionforelephantsuk.org/african-elephants-comeback-zakouma-chad/",
+      "tier": "institutional",
+      "quote": "the park’s elephant population, which had already declined from 22,000 in the 1970s to 4,500 in 2002, dropped by more than 90%",
+      "verified": true
+     }
+    },
+    {
+     "label": "African Parks",
+     "value": "Invited by the government in 2010",
+     "source": {
+      "title": "Elephants make a comeback in Chad's national park",
+      "publisher": "Action for Elephants UK",
+      "author": null,
+      "date": null,
+      "url": "https://www.actionforelephantsuk.org/african-elephants-comeback-zakouma-chad/",
+      "tier": "institutional",
+      "quote": "In 2010 everything changed when African Parks was invited by the Chad government to sign a long-term agreement to restore and manage the park",
+      "verified": true
+     }
+    },
+    {
+     "label": "Kordofan giraffe",
+     "value": "Around 1,500, the species' last stronghold",
+     "source": {
+      "title": "Elephants make a comeback in Chad's national park",
+      "publisher": "Action for Elephants UK",
+      "author": null,
+      "date": null,
+      "url": "https://www.actionforelephantsuk.org/african-elephants-comeback-zakouma-chad/",
+      "tier": "institutional",
+      "quote": "Zakouma’s population of Kordofan giraffe has grown to around 1,500 individuals",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée National du Tchad",
+   "type": "culture",
+   "what": "The national museum was established in 1962 and has been housed since 2010 in a modern purpose-built complex. It covers archaeology, ethnography, history, Islamic heritage and paleontology, including a human-origins section with Toumaï casts.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "6 October 1962",
+     "source": {
+      "title": "Musée National N'Djamena",
+      "publisher": "MoMAA (Museum of Modern African Art) directory",
+      "author": null,
+      "date": null,
+      "url": "https://momaa.org/directory/musee-national-ndjamena/",
+      "tier": "encyclopedia",
+      "quote": "Established on October 6, 1962, the museum initially operated from temporary quarters and was known as Chad National Museum, Fort-Lamy",
+      "verified": true
+     }
+    },
+    {
+     "label": "Current building",
+     "value": "Modern purpose-built complex since 2010",
+     "source": {
+      "title": "Musée National du Tchad (National Museum of Chad)",
+      "publisher": "Beglobality",
+      "author": null,
+      "date": null,
+      "url": "https://beglobality.com/locations/musee-national-du-tchad-national-museum-of-chad/",
+      "tier": "press",
+      "quote": "Since 2010 , it has been housed in a modern purpose-built complex situated near important national institutions",
+      "verified": true
+     }
+    },
+    {
+     "label": "Human origins section",
+     "value": "Casts and fossils incl. Toumaï and Abel",
+     "source": {
+      "title": "Musée National du Tchad (National Museum of Chad)",
+      "publisher": "Beglobality",
+      "author": null,
+      "date": null,
+      "url": "https://beglobality.com/locations/musee-national-du-tchad-national-museum-of-chad/",
+      "tier": "press",
+      "quote": "featuring casts and fossils of important early hominids discovered in Chad, such as Toumaï (Sahelanthropus tchadensis) and Abel (Australopithecus bahrelghazali)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Paleontology wing",
+     "value": "Created through Chad-France cooperation around Toumaï",
+     "source": {
+      "title": "Tchad-France : 25 ans de coopération scientifique autour de Toumaï",
+      "publisher": "Alwihda Info",
+      "author": null,
+      "date": "2026",
+      "url": "https://www.alwihdainfo.com/tchad-france-25-ans-de-cooperation-scientifique-autour-de-toumai/",
+      "tier": "press",
+      "quote": "la création d’une aile spécialisée au Musée national",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grande Mosquée Fayçal de N'Djamena",
+   "type": "culture",
+   "what": "The mosque is linked to King Faisal of Saudi Arabia's 1972 visit to Chad and stands on a square named after him. Earlier mosques had been built in Fort-Lamy in 1910 and in 1939-1940, and the new mosque was inaugurated under General Félix Malloum.",
+   "facts": [
+    {
+     "label": "King Faisal's visit",
+     "value": "1972, at President Tombalbaye's invitation",
+     "source": {
+      "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+      "publisher": "Técor Média",
+      "author": null,
+      "date": "2026-09-02",
+      "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+      "tier": "press",
+      "quote": "Un nouveau chapitre s’ouvre en 1972 avec la visite au Tchad du roi Fayçal d’Arabie Saoudite, invité par le président François Tombalbaye",
+      "verified": true
+     }
+    },
+    {
+     "label": "Square",
+     "value": "Named 'Place Roi Fayçal' in 1972",
+     "source": {
+      "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+      "publisher": "Técor Média",
+      "author": null,
+      "date": "2026-09-02",
+      "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+      "tier": "press",
+      "quote": "la place en forme de demi-cercle située devant la mosquée est officiellement baptisée « Place Roi Fayçal » par le maire de l’époque, Mahamat Djarma",
+      "verified": true
+     }
+    },
+    {
+     "label": "Inauguration",
+     "value": "Under General Félix Malloum",
+     "source": {
+      "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+      "publisher": "Técor Média",
+      "author": null,
+      "date": "2026-09-02",
+      "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+      "tier": "press",
+      "quote": "Inaugurée sous la présidence du général Félix Malloum, la nouvelle Mosquée Roi Fayçal devient alors l’un des édifices religieux majeurs de la capitale",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grand Marché de N'Djamena",
+   "type": "market",
+   "what": "The central market of the capital is commonly called 'souk kabir'. In April 2024 a power cut left it dark for almost two weeks.",
+   "facts": [
+    {
+     "label": "Local name",
+     "value": "Souk kabir",
+     "source": {
+      "title": "Bientôt 2 semaines, le marché central est plongé dans le noir",
+      "publisher": "Flashtchad",
+      "author": null,
+      "date": "2024-04-24",
+      "url": "https://flashtchad.com/bientot-2-semaines-le-marche-central-est-plonge-dans-le-noir/",
+      "tier": "press",
+      "quote": "Communément appelé «souk kabir», le marché central de N’Djamena",
+      "verified": true
+     }
+    },
+    {
+     "label": "Power cut",
+     "value": "Almost two weeks, April 2024",
+     "source": {
+      "title": "Bientôt 2 semaines, le marché central est plongé dans le noir",
+      "publisher": "Flashtchad",
+      "author": null,
+      "date": "2024-04-24",
+      "url": "https://flashtchad.com/bientot-2-semaines-le-marche-central-est-plonge-dans-le-noir/",
+      "tier": "press",
+      "quote": "subit depuis presque 2 semaines une coupure d’électricité qui a plongé le marché dans le noir",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Place de la Nation",
+   "type": "site",
+   "what": "The square in the Mardjandafak district of N'Djamena's 2nd arrondissement where the national independence day parades are held, and the site of a monument to the martyrs.",
+   "facts": [
+    {
+     "label": "Location",
+     "value": "Mardjandafak district, 2nd arrondissement",
+     "source": {
+      "title": "Tchad : la fête de l'indépendance célébrée à N'Djamena",
+      "publisher": "Flashtchad",
+      "author": null,
+      "date": "2024-08-12",
+      "url": "https://flashtchad.com/tchad-la-fete-de-lindependance-celebree-a-ndjamena/",
+      "tier": "press",
+      "quote": "Place de la Nation, située au quartier Mardjandafak, dans la commune du 2e arrondissement de N’Djamena",
+      "verified": true
+     }
+    },
+    {
+     "label": "Independence ceremony",
+     "value": "11 August 2025: president laid a wreath at the martyrs' monument",
+     "source": {
+      "title": "Tchad : 65 ans d'indépendance célébrés à N'Djamena",
+      "publisher": "Seneweb",
+      "author": null,
+      "date": "2025-08-11",
+      "url": "https://www.seneweb.com/fr/news/Afrique/tchad-65-ans-dindependance-celebres-a-ndjamena_n_464715.html",
+      "tier": "press",
+      "quote": "Le président Mahamat Idriss Déby Itno a rendu hommage aux martyrs, en déposant une gerbe de fleurs au monument qui leur est dédié",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Chad's INSEED site (inseed.td) is JavaScript-only and its PDFs return an HTML page, so the RGPH2 report could not be read; the population figure comes from a 2012 thematic synthesis citing INSEED. Other publications give 951,418 or 963,657 for the same 2009 census, which could not be reconciled.",
+  "The INSEED catalogue (anad.inseed.td) lists 963,657 for 'Ville de N'Djamena' but only as a variable category, so it was not recorded as the main value.",
+  "UNESCO World Heritage Centre pages return 403: Lakes of Ounianga facts come from Explore Chad (institutional tourism site) and a peer-reviewed article.",
+  "Zakouma area/elephant figures differ between sources; the current elephant count (c. 550-800) was not recorded.",
+  "Place de la Nation: no source found for its construction date or design; a 2026 article on a new monument on a 'place de l'Indépendance' near the presidential palace was not recorded because it is unclear whether it is the same site.",
+  "No readable independent source found for the Grand Mosque's exact opening year (1970s) or size, and none for the Grand Marché's history beyond its local name.",
+  "Wikipedia-derived pages and Persée paper on the Grand Marché (1978, abstract only) not usable for facts."
+ ]
+}

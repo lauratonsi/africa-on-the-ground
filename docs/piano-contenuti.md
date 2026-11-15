@@ -9,7 +9,7 @@ Aggiornato l'8 ottobre 2026. Si lavora per fasi, in quest'ordine, e ogni fase pr
 | Pagine dei Paesi | 54 (generate dai dati) | fatto; si arricchiscono con le fasi successive |
 | Storie | 15 (5 storia, 7 miti, 3 cibo; vedi `content/stories`) | circa 30 |
 | Luoghi | 240 schede create (siti UNESCO, musei, mercati, paesaggi e architetture urbane) | almeno 2-4 per Paese, di tipo diverso (città vive, mercati, musei, parchi) |
-| Capitali | 36 schede complete su 54 (Africa australe 5/5, Africa settentrionale 6/6, Africa centrale 9/9, Africa occidentale 16/16) | 54 profili interattivi con stime demografiche da censimento, timeline e quiz d'ordinamento |
+| Capitali | 54 profili in bozza con almeno 4 blocchi di contenuto (australe 5/5, settentrionale 6/6, orientale 18/18, centrale 9/9, occidentale 16/16); nessuno riletto da una persona | 54 profili interattivi con stime demografiche da censimento, timeline e quiz d'ordinamento |
 | Piatti | 4 schede pubblicate (koshari, cachupa, seswaa, thieboudienne), 50 bozze tracciate (inclusa domoda), più 3 storie di cibo | una scheda per Paese (54), da `proposed-dishes.json` |
 | Percorsi | 0 | 5 o 6 percorsi che collegano luoghi, storie e dati |
 
@@ -193,3 +193,12 @@ Una sezione dedicata ai popoli dell'Africa, da avviare dopo i profili delle capi
 ### Verifica delle citazioni (15 novembre 2026)
 
 Tutte le coppie (indirizzo, citazione) di `docs/research/capitals/` sono state controllate con una ricerca del testo nella pagina (risultati in `docs/research/quote-check-2026-11-15.json`): 459 su 807 trovate, 174 non verificabili (pagine bloccate, PDF), 58 segnate come parafrasi dall'agente, 107 non trovate. 35 indirizzi non contenevano nessuna delle citazioni attribuite (soprattutto pagine iniziali di siti e pagine di statistica usate per fatti storici): le affermazioni che poggiavano solo su quelle sono state tolte da 67 file. Restano vuoti o quasi 19 profili di capitale e 45 schede di luoghi (Africa occidentale e centrale): vanno ricercati di nuovo con fonti che si possano leggere.
+
+
+## Rifacimento delle capitali e passaggio all'arte (15 novembre 2026)
+
+**Capitali.** Le 19 capitali rimaste vuote o magre dopo il controllo delle citazioni (Banjul, Bissau, Conakry, Kinshasa, Malabo, Monrovia, Ouagadougou, Porto-Novo, Praia, Abuja, Bamako, Brazzaville, Dakar, Freetown, Lomé, N'Djamena, Bangui, Luanda, Yamoussoukro) sono state ricercate di nuovo con una regola più severa: un fatto entra solo se uno script (`vq.py`, nella cartella di lavoro, non nel repo) scarica la pagina con curl e ritrova la citazione. Ho poi rifatto io la verifica su tutte le 621 citazioni (209 pagine): nessuna mancante. Le ricerche sono in `docs/research/capitals/`.
+- Limiti noti: il sito dell'UNESCO blocca le richieste automatiche (403), quindi i siti UNESCO poggiano su ONU, IUCN e stampa; molte cifre di popolazione sono preliminari o vecchie (Kinshasa 1984, Bangui 1988) e l'area è dichiarata accanto alla cifra; 46 fonti nuove restano "da verificare".
+- Restano 5 schede di luoghi senza fatti (Mercado Central di Malabo, Mantenga, Église Saint-Michel di Libreville, Red Castle Museum, National Heroes Acre).
+
+**Arte.** Il catalogo passa da 25 a 63 voci (con le bozze): 26 schede già esistenti (21 musei e collezioni, 5 laboratori e centri) sono entrate nel catalogo, e 12 schede nuove sono state ricercate con la stessa regola (Nok, Ife, Igun, bogolan, kente, Makonde, Ndebele, Dak'Art, Zeitz MOCAA, Foumban, Dogon, Kuba). Nuova categoria "Objects that do things". Cinque delle 12 poggiano su una sola fonte (Nok, Ife, Igun, bogolan, Dak'Art): la scheda lo dichiara. Per le pratiche vive manca la rilettura di chi le pratica. Mancano ancora: foto per le schede nuove, arte contemporanea oltre Dak'Art e Zeitz, domande del quiz sull'arte.

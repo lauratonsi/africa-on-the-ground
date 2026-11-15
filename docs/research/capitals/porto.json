@@ -1,0 +1,538 @@
+{
+ "city": "Porto-Novo",
+ "country": "BEN",
+ "population": {
+  "value": 264320,
+  "year": 2013,
+  "definition": "Town (ville) of Porto-Novo, RGPH4 2013 total population, as reproduced in a master thesis table of the successive censuses (1961: 64,000; 1979: 133,168; 1992: 179,138; 2002: 223,552); the INSAE/INStaD primary pages returned HTTP 503 and could not be read",
+  "source": {
+   "title": "Sauvegarde et valorisation du patrimoine immatériel béninois (master thesis, section on population of Porto-Novo, citing RGPH 1979-2013)",
+   "publisher": "Mémoire Online",
+   "author": null,
+   "date": null,
+   "url": "https://www.memoireonline.com/12/21/12505/m_Sauvegarde-et-valorisation-du-patrimoine-immateriel-beninois-un-centre-de-promotion-des-rythmes-e7.html",
+   "tier": "academic",
+   "quote": "RGPH4 (2013) Population totale (habitant) 64000 133168 179 138 223 552 264 320",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Porto-Novo is the city of three names: Adjatchè for the Yoruba, Hogbonou for the Fon, Goun and Ayizo, and Porto-Novo, the name given by Europeans.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Porto-Novo, Adjatchè pour les yorubas, Hogbonou pour les fons les gouns et les ayizo, la ville aux trois noms",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The name Porto-Novo was given in 1730 because of a resemblance to the city of Porto.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "ainsi baptisée en 1730 à cause de sa ressemblance avec la ville de Porto",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Hogbonu was founded in the 16th century by Aja princes who left Allada after Allada was taken by the kingdom of Abomey.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Fondé au cours du XVIe siècle par des princes Ajas partis d'Allada, après la prise d'Allada par le royaume d'Abomey",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Porto-Novo lies in south-east Benin, 30 km from Cotonou and 12 km from the Nigerian border.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "à 30 km de Cotonou et à 12 km de la frontière du Nigéria",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Goun and Yoruba people make up more than 80 per cent of the population, alongside Aja, Toffin, Mina and other groups.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "En dehors des Gouns et des Yorubas qui constituent plus de 80% de la population",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Porto-Novo is one of the three communes with a special status in Benin.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "l’une des trois communes à statut particulier que compte le Bénin",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Its status as capital was confirmed after independence in 1960, and the National Assembly sits in the Governors' Palace where independence was proclaimed.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Son statut de capitale confirmé même après l’indépendance du Bénin en 1960, la ville abrite de grandes institutions politiques dont entre autres l’assemblée Nationale logée au Palais de Gouverneurs",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 2009 the city counted 450 Afro-Brazilian buildings; by 2016 fewer than 400 were left.",
+   "source": {
+    "title": "Benin's Afro-Brazilian heritage faces risks",
+    "publisher": "Saudi Gazette (AFP)",
+    "author": "Sophie Bouillon",
+    "date": "2016-08-06",
+    "url": "https://saudigazette.com.sa/article/160644",
+    "tier": "press",
+    "quote": "In 2009, Porto-Novo’s director of culture and patrimony Richard Hounsou counted 450 buildings of the Afro-Brazilian type but said today “there are fewer than 400 left",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Porto-Novo was once a great kingdom alongside Abomey.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Autrefois, Porto-Novo a été un grand royaume à coté de Abomey.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The city's rhythms such as AkoNhoun, Adjogan and Kaka continue to be performed by groups such as the Ballet de la capitale and Ashakata.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Porto-Novo continue de porter vers le monde, ses rythmes originaux comme AkoNhoun, Adjogan, Kaka",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "16th century",
+   "tag": "origins",
+   "claim": "Hogbonu was founded by Aja princes from Allada.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Fondé au cours du XVIe siècle par des princes Ajas partis d'Allada",
+    "verified": true
+   }
+  },
+  {
+   "when": "1730",
+   "tag": "origins",
+   "claim": "The city was baptised Porto-Novo because of its resemblance to Porto.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "ainsi baptisée en 1730 à cause de sa ressemblance avec la ville de Porto",
+    "verified": true
+   }
+  },
+  {
+   "when": "1863",
+   "tag": "growth",
+   "claim": "King Soji signed a first protectorate treaty with the French.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "En 1863, le roi Soji signe un premier traité de protectorat avec les Français",
+    "verified": true
+   }
+  },
+  {
+   "when": "1882",
+   "tag": "growth",
+   "claim": "A second treaty with King Toffa I marked the installation of the French colonial administration.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "puis un second en 1882 survient avec le roi Toffa 1er et marque l’installation de l’administration coloniale française",
+    "verified": true
+   }
+  },
+  {
+   "when": "colonial period",
+   "tag": "growth",
+   "claim": "The French created the colony of Dahomey, of which Porto-Novo became the capital.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Les Français créent la colonie du Dahomey, dont Porto-Novo devient la capitale.",
+    "verified": true
+   }
+  },
+  {
+   "when": "1943",
+   "tag": "growth",
+   "claim": "Benin's first museum was created by IFAN in 1943 to popularise the history of the kings of Danhomè (the Abomey museum).",
+   "source": {
+    "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+    "publisher": "Académie des Sciences d'Outre-Mer",
+    "author": "Richard Sogan",
+    "date": "2020-10-16",
+    "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+    "tier": "academic",
+    "quote": "le premier musée béninois est créé en 1943 (Arrêté n°4238/IFAN) par l’Institut Français d’Afrique noire en vue de « vulgariser » la connaissance de l’histoire des rois du Danhomè",
+    "verified": true
+   }
+  },
+  {
+   "when": "1960",
+   "tag": "growth",
+   "claim": "Porto-Novo kept its capital status after the independence of Benin in 1960.",
+   "source": {
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "author": null,
+    "date": null,
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "quote": "Son statut de capitale confirmé même après l’indépendance du Bénin en 1960",
+    "verified": true
+   }
+  },
+  {
+   "when": "1966",
+   "tag": "growth",
+   "claim": "The Alexandre Sènou Adandé Ethnographic Museum was created by the IRAD in 1966, according to this account.",
+   "source": {
+    "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+    "publisher": "Académie des Sciences d'Outre-Mer",
+    "author": "Richard Sogan",
+    "date": "2020-10-16",
+    "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+    "tier": "academic",
+    "quote": "Créé par l'Institut de Recherche Appliqués du Dahomey (IRAD) en 1966, le MEASA est un des tout premiers musées nationaux",
+    "verified": true
+   }
+  },
+  {
+   "when": "1988",
+   "tag": "today",
+   "claim": "The Musée Honmè was created in 1988 in the palace of the former kings of Hogbonou.",
+   "source": {
+    "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+    "publisher": "Académie des Sciences d'Outre-Mer",
+    "author": "Richard Sogan",
+    "date": "2020-10-16",
+    "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+    "tier": "academic",
+    "quote": "Créé en 1988, le musée est installé dans le Palais des anciens Rois du Royaume de Hogbonou (Porto-Novo).",
+    "verified": true
+   }
+  },
+  {
+   "when": "2013",
+   "tag": "today",
+   "claim": "The 2013 census (RGPH4) counted 264,320 inhabitants in the town of Porto-Novo.",
+   "source": {
+    "title": "Sauvegarde et valorisation du patrimoine immatériel béninois (master thesis, section on population of Porto-Novo, citing RGPH 1979-2013)",
+    "publisher": "Mémoire Online",
+    "author": null,
+    "date": null,
+    "url": "https://www.memoireonline.com/12/21/12505/m_Sauvegarde-et-valorisation-du-patrimoine-immateriel-beninois-un-centre-de-promotion-des-rythmes-e7.html",
+    "tier": "academic",
+    "quote": "RGPH4 (2013) Population totale (habitant) 64000 133168 179 138 223 552 264 320",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Royal Palaces of Abomey",
+   "type": "site",
+   "what": "The Abomey palaces, decorated with bas-reliefs, sculptures and murals, were extensively burnt by King Behanzin in 1892 in defiance of French rule. Benin's first museum, created in 1943, was set up to popularise the history of the kings of Danhomè.",
+   "facts": [
+    {
+     "label": "First museum",
+     "value": "1943, to popularise the history of the kings of Danhomè",
+     "source": {
+      "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+      "publisher": "Académie des Sciences d'Outre-Mer",
+      "author": "Richard Sogan",
+      "date": "2020-10-16",
+      "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+      "tier": "academic",
+      "quote": "le premier musée béninois est créé en 1943 (Arrêté n°4238/IFAN) par l’Institut Français d’Afrique noire en vue de « vulgariser » la connaissance de l’histoire des rois du Danhomè",
+      "verified": true
+     }
+    },
+    {
+     "label": "Visitable palaces",
+     "value": "the historic palaces of Ghézo, Glélé and Béhanzin",
+     "source": {
+      "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+      "publisher": "Académie des Sciences d'Outre-Mer",
+      "author": "Richard Sogan",
+      "date": "2020-10-16",
+      "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+      "tier": "academic",
+      "quote": "les offres de visite des Palais historiques de GhézoGlélé et Béhanzin",
+      "verified": true
+     }
+    },
+    {
+     "label": "Decoration",
+     "value": "bas-reliefs, sculptures and murals",
+     "source": {
+      "title": "Dahomey Royal Palaces Of Abomey, Benin",
+      "publisher": "WorldAtlas",
+      "author": null,
+      "date": null,
+      "url": "https://www.worldatlas.com/articles/dahomey-royal-palaces-of-abomey-benin.html",
+      "tier": "encyclopedia",
+      "quote": "The palaces were decorated with bas-reliefs, sculptures, and murals and were centers for the development of various craft styles.",
+      "verified": true
+     }
+    },
+    {
+     "label": "1892 fire",
+     "value": "burnt by King Behanzin in defiance of French rule",
+     "source": {
+      "title": "Dahomey Royal Palaces Of Abomey, Benin",
+      "publisher": "WorldAtlas",
+      "author": null,
+      "date": null,
+      "url": "https://www.worldatlas.com/articles/dahomey-royal-palaces-of-abomey-benin.html",
+      "tier": "encyclopedia",
+      "quote": "The palaces were however extensively burnt by King Behanzin of Abomey in 1892, as an act of defiance against French rule.",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grande Mosquée de Porto-Novo",
+   "type": "culture",
+   "what": "The Grand Mosque is an Afro-Brazilian building with a ceramic minaret, multicoloured walls and a carved wooden door. The head of the city heritage agency says it looks like a church because the former slaves were used to building churches in Brazil; a new mosque now stands beside it.",
+   "facts": [
+    {
+     "label": "Appearance",
+     "value": "ceramic minaret, multicoloured walls, carved wooden door",
+     "source": {
+      "title": "Benin's Afro-Brazilian heritage faces risks",
+      "publisher": "Saudi Gazette (AFP)",
+      "author": "Sophie Bouillon",
+      "date": "2016-08-06",
+      "url": "https://saudigazette.com.sa/article/160644",
+      "tier": "press",
+      "quote": "a fine ceramic minaret, multicolored walls and a great, carved wooden door, the Grand Mosque in Benin’s capital is a marvel of",
+      "verified": true
+     }
+    },
+    {
+     "label": "Resemblance to a church",
+     "value": "the heritage agency head says it looks like a church because the former slaves built churches in Brazil",
+     "source": {
+      "title": "Benin's Afro-Brazilian heritage faces risks",
+      "publisher": "Saudi Gazette (AFP)",
+      "author": "Sophie Bouillon",
+      "date": "2016-08-06",
+      "url": "https://saudigazette.com.sa/article/160644",
+      "tier": "press",
+      "quote": "“It looks just like a church in all ways because the former slaves were used to building churches in Brazil,” said Moubarak Mourchid, head of the city’s heritage agency.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Today",
+     "value": "a new mosque was built beside it and the older one is a tourist attraction",
+     "source": {
+      "title": "In a capital's Afro-Brazilian architecture, traces of a complex story",
+      "publisher": "The Christian Science Monitor",
+      "author": "Karim Okanla",
+      "date": "2020-11-23",
+      "url": "https://proof.csmonitor.com/World/Africa/2020/1123/In-a-capital-s-Afro-Brazilian-architecture-traces-of-a-complex-story",
+      "tier": "press",
+      "quote": "Instead, a brand new mosque has been built next to it, and the older mosque is now a tourist attraction.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Style and location",
+     "value": "Afro-Brazilian architecture, located in the grand marché",
+     "source": {
+      "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+      "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+      "author": null,
+      "date": null,
+      "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+      "tier": "institutional",
+      "quote": "la mosquée centrale à l’architecture de type afro brésilien dans le grand marché",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée Honmè (Palais Royal de Hogbonou)",
+   "type": "culture",
+   "what": "The Musée Honmè was created in 1988 in the palace of the former kings of Hogbonou, once the home of King Toffa I, who reigned from 1874 to 1908.",
+   "facts": [
+    {
+     "label": "Created",
+     "value": "1988, in the palace of the former kings of Hogbonou",
+     "source": {
+      "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+      "publisher": "Académie des Sciences d'Outre-Mer",
+      "author": "Richard Sogan",
+      "date": "2020-10-16",
+      "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+      "tier": "academic",
+      "quote": "Créé en 1988, le musée est installé dans le Palais des anciens Rois du Royaume de Hogbonou (Porto-Novo).",
+      "verified": true
+     }
+    },
+    {
+     "label": "Former residence",
+     "value": "King Toffa I, popularly known as King Toffa's Palace",
+     "source": {
+      "title": "Royal Palace Musée Honmé",
+      "publisher": "MoMAA (Museum of Modern African Art) directory",
+      "author": null,
+      "date": null,
+      "url": "https://momaa.org/directory/royal-palace-musee-honme/",
+      "tier": "press",
+      "quote": "The palace, once home to King Toffa I and popularly known as King Toffa's Palace, now serves as a museum",
+      "verified": true
+     }
+    },
+    {
+     "label": "Reign of Toffa I",
+     "value": "1874 to 1908",
+     "source": {
+      "title": "Royal Palace Musée Honmé",
+      "publisher": "MoMAA (Museum of Modern African Art) directory",
+      "author": null,
+      "date": null,
+      "url": "https://momaa.org/directory/royal-palace-musee-honme/",
+      "tier": "press",
+      "quote": "From his ascension in 1874 until his demise in 1908, King Toffa was known for his openness and collaboration with the colonial powers",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée Ethnographique Alexandre Sènou Adandé",
+   "type": "culture",
+   "what": "Created by the IRAD in 1966 according to one account, the museum holds a rare collection of Guèlèdè masks. It is named after the ethnologist Alexandre Sènou Adandé, former chief archivist and librarian at IFAN Dakar.",
+   "facts": [
+    {
+     "label": "Created",
+     "value": "1966, by the IRAD",
+     "source": {
+      "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+      "publisher": "Académie des Sciences d'Outre-Mer",
+      "author": "Richard Sogan",
+      "date": "2020-10-16",
+      "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+      "tier": "academic",
+      "quote": "Créé par l'Institut de Recherche Appliqués du Dahomey (IRAD) en 1966, le MEASA est un des tout premiers musées nationaux",
+      "verified": true
+     }
+    },
+    {
+     "label": "Collection",
+     "value": "a rare collection of Guèlèdè masks",
+     "source": {
+      "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+      "publisher": "Académie des Sciences d'Outre-Mer",
+      "author": "Richard Sogan",
+      "date": "2020-10-16",
+      "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+      "tier": "academic",
+      "quote": "Le MEASA dispose d’une très belle et rare collection de masques Guèlèdè",
+      "verified": true
+     }
+    },
+    {
+     "label": "Namesake",
+     "value": "ethnologist, chief archivist and librarian at IFAN Dakar 1948 to 1960",
+     "source": {
+      "title": "Museums of Benin",
+      "publisher": "africa.com",
+      "author": null,
+      "date": null,
+      "url": "https://africa.com/museums-of-benin",
+      "tier": "press",
+      "quote": "a noted ethnologist, who was chief archivist and librarian at the Institut Fondamental d’Afrique Noire of Dakar from 1948 to 1960",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Population: INSAE/INStaD (instad.bj) census pages were all HTTP 503 during the session, so the 264,320 figure (RGPH4, 2013) is verified only on a master thesis that reproduces the census series; the INSAE primary page was not readable. Not using citypopulation.de.",
+  "Royal Palaces of Abomey and Musée Honmè: UNESCO pages (whc.unesco.org) returned 403; Getty and other pages found only by search could not be fetched; the Abomey quote on guided visits in.",
+  "Date conflict: one source (academieoutremer) says the MEASA was created in 1966 by the IRAD, but also footnotes that it was the second national museum created in 1957; other pages give 1957. Not resolved.",
+  "Date of construction of the Grande Mosquée: sources disagree (1906-1912, 1911-1935, 1912-1925); not recorded.",
+  "No well-sourced myth-or-fact item found for Porto-Novo. Further web searches were not possible (search budget used up)."
+ ]
+}

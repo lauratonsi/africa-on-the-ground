@@ -4,17 +4,306 @@
   "country": "LBR",
   "name": "Monrovia",
   "subtitle": "Monrovia, capital of Liberia: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "keyPoints": [
+    {
+      "text": "About 1,760,000 people live in urban Montserrado County (Monrovia, a rounded figure) (counted 2022).",
+      "cite": [
+        "cap-localvoicesliberia-com-6584e3"
+      ]
+    },
+    {
+      "text": "Monrovia is named in honour of James Monroe, fifth president of the United States, and was founded by freed enslaved people who wished to establish a new country in Africa.",
+      "cite": [
+        "cap-ebsco-com-021d5a"
+      ]
+    },
+    {
+      "text": "The city is built on a cluster of small islands and peninsulas, with lagoons fed by the Mesurado River.",
+      "cite": [
+        "cap-ebsco-com-021d5a"
+      ]
+    }
+  ],
   "places": [
     "providence-island",
     "national-museum-of-liberia-monrovia",
     "waterside-market-monrovia"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Monrovia in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Monrovia is named in honour of James Monroe, fifth president of the United States, and was founded by freed enslaved people who wished to establish a new country in Africa.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city is built on a cluster of small islands and peninsulas, with lagoons fed by the Mesurado River.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bushrod Island, east of the city centre, holds the capital's deepwater port and most of its industrial infrastructure.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Monrovia has a rainy season lasting from May through October.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 1960s improvements to Monrovia's port and ship repair facilities made it home to one of the world's largest fleets of ocean-going merchant vessels.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Monrovia is still recovering from the 2014-15 Ebola epidemic, which prompted foreign investors and companies to leave Liberia and diverted government funds from public investment.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Liberia's urban population grew from 1.63 million in 2008 to 2.86 million in 2022, and the census report names Monrovia and Montserrado County as the principal destinations for migrants.",
+              "cite": [
+                "cap-localvoicesliberia-com-6584e3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Monrovia was nearly destroyed in the civil wars: the first Liberian civil war (1989-96) was followed by a second (1999-2003) that further devastated the city.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,760,000",
+              "label": "people in urban Montserrado County (Monrovia, a rounded figure), 2022",
+              "cite": [
+                "cap-localvoicesliberia-com-6584e3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in urban Montserrado County (Monrovia, a rounded figure)?",
+          "min": 0,
+          "max": 6000000,
+          "step": 30000,
+          "unit": "",
+          "answer": 1760000,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,760,000 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Monrovia (urban Montserrado County), rounded figure of 1.76 million reported by a fact-check citing the 2022 census thematic report on population projections; the exact LISGIS table could not be read (LISGIS pages need JavaScript).",
+              "cite": [
+                "cap-localvoicesliberia-com-6584e3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1821",
+              "tag": "origins",
+              "text": "In December 1821 the American Colonization Society acquired a strip of coast between the Mesurado and Junk rivers for trade goods valued at US$300.",
+              "cite": [
+                "cap-globalsecurity-org-5a4692"
+              ]
+            },
+            {
+              "when": "1822",
+              "tag": "origins",
+              "text": "A small party took possession of Providence Island in the mouth of the Mesurado, and in April 1822 the first permanent settlement was established on the mainland near present-day Monrovia.",
+              "cite": [
+                "cap-globalsecurity-org-5a4692"
+              ]
+            },
+            {
+              "when": "1822",
+              "tag": "origins",
+              "text": "Former enslaved people arrived at Providence Island, now Monrovia, in 1822 as part of an American Colonization Society mission.",
+              "cite": [
+                "cap-arabnews-com-bff165"
+              ]
+            },
+            {
+              "when": "1958",
+              "tag": "growth",
+              "text": "The National Museum of Liberia was established by President William V. S. Tubman.",
+              "cite": [
+                "cap-mainlymuseums-com-a80036"
+              ]
+            },
+            {
+              "when": "1960s",
+              "tag": "growth",
+              "text": "Improvements to Monrovia's port made it home to one of the world's largest fleets of merchant vessels.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            },
+            {
+              "when": "1989",
+              "tag": "growth",
+              "text": "A civil war broke out between the forces of Samuel Doe and supporters of Charles Taylor.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            },
+            {
+              "when": "1999-2003",
+              "tag": "growth",
+              "text": "The second Liberian civil war broke out soon after the first ended and further devastated the city.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            },
+            {
+              "when": "1987",
+              "tag": "growth",
+              "text": "The National Museum has been housed in the Old Supreme Court building since 1987.",
+              "cite": [
+                "cap-mainlymuseums-com-a80036"
+              ]
+            },
+            {
+              "when": "2014-2015",
+              "tag": "today",
+              "text": "The Ebola epidemic struck Monrovia and Liberia, prompting foreign investors to leave.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            },
+            {
+              "when": "2020",
+              "tag": "today",
+              "text": "The Monrovia City Council began erecting modern market tables at the Waterside general market.",
+              "cite": [
+                "cap-thenewdawnliberia-com-3d0c8a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Monrovia in order.",
+          "items": [
+            {
+              "label": "In December 1821 the American Colonization Society acquired a strip of coast…",
+              "when": "1821",
+              "text": "In December 1821 the American Colonization Society acquired a strip of coast between the Mesurado and Junk rivers for trade goods valued at US$300.",
+              "cite": [
+                "cap-globalsecurity-org-5a4692"
+              ]
+            },
+            {
+              "label": "The National Museum of Liberia was established by President William V. S.…",
+              "when": "1958",
+              "text": "The National Museum of Liberia was established by President William V. S. Tubman.",
+              "cite": [
+                "cap-mainlymuseums-com-a80036"
+              ]
+            },
+            {
+              "label": "The second Liberian civil war broke out soon after the first ended and…",
+              "when": "1999-2003",
+              "text": "The second Liberian civil war broke out soon after the first ended and further devastated the city.",
+              "cite": [
+                "cap-ebsco-com-021d5a"
+              ]
+            },
+            {
+              "label": "The Monrovia City Council began erecting modern market tables at the…",
+              "when": "2020",
+              "text": "The Monrovia City Council began erecting modern market tables at the Waterside general market.",
+              "cite": [
+                "cap-thenewdawnliberia-com-3d0c8a"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Published neighborhood tables from the 2022 census round await complete official tabulation.",
-    "First-hand local voices from Waterside traders and Kru Town fisherfolk have not yet been recorded.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Exact census count for Monrovia city proper (2022): LISGIS report and thematic reports are JavaScript pages (UNREADABLE); only the rounded 1.76 million figure from a Liberian fact-check citing the census thematic report was verified. Other figures (1,761,032; 2,225,911 metro) appear only on Wikipedia-derived pages.",
+    "Not found in a readable source: Providence Island, National Museum and Waterside have no official city-government or museum page that was readable; sources are press and a reference database (EBSCO Research Starters, tier encyclopedia).",
+    "Not found in a readable source: Many pages (UNESCO, Liberian Observer, Met Museum, History Today) returned 403/429/404 and were not used.",
+    "Not found in a readable source: No well-sourced myth-or-fact item found for Monrovia.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Liberia has read this profile yet."
   ]
 }

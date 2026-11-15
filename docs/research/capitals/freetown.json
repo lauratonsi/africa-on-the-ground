@@ -1,74 +1,581 @@
 {
-  "city": "Freetown",
-  "country": "SLE",
-  "population": {
-    "value": 1055964,
-    "year": 2015,
-    "definition": "Population of the Western Area Urban district comprising the historic municipality of Freetown (covering 82.35 km² across Central, East, and West wards) enumerated in the December 2015 Population and Housing Census conducted by Statistics Sierra Leone (Stats SL), tabulated via CityPopulation. The 2021 mid-term census registered 609,174 inhabitants under heavily contested methodological circumstances noted by national statistical authorities and international development partners.",
-    "source": {
-      "title": "Sierra Leone: Administrative Division and Western Area Urban - Population Statistics (Census 2015)",
-      "publisher": "CityPopulation (credits Statistics Sierra Leone)",
-      "author": null,
-      "date": "2015-12-04",
-      "url": "https://www.citypopulation.de/en/sierraleone/admin/",
-      "tier": "institutional",
-      "quote": "2015-12-04 | Western Area Urban (Freetown): 1,055,964; 2021 Mid-term: 609,174"
-    }
+ "city": "Freetown",
+ "country": "SLE",
+ "population": {
+  "value": 1055964,
+  "year": 2015,
+  "definition": "Western Area Urban district (the Freetown urban area) in the 2015 census; the provisional 2021 mid-term census figure of 606,701 was publicly disputed and is not used",
+  "source": {
+   "title": "Sierra Leone 2015 Population and Housing Census: Summary of Final Results",
+   "publisher": "Statistics Sierra Leone (hosted by WHO AFRO)",
+   "author": null,
+   "date": "2016",
+   "url": "https://www.afro.who.int/sites/default/files/2017-06/census2015.pdf",
+   "tier": "institutional",
+   "quote": "Western Area: Western Area Rural – 444,270 and Western Area Urban – 1,055,964",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Freetown City Council describes Freetown as Sierra Leone's capital, principal port, commercial hub and largest city.",
+   "source": {
+    "title": "Welcome to Freetown",
+    "publisher": "Freetown City Council",
+    "author": null,
+    "date": null,
+    "url": "https://fcc.gov.sl/",
+    "tier": "institutional",
+    "quote": "Freetown is our capital, principal port, commercial hub, and largest city",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Freetown City Council says the city is home to over a million people, 40% of Sierra Leone's urban population.",
+   "source": {
+    "title": "Welcome to Freetown",
+    "publisher": "Freetown City Council",
+    "author": null,
+    "date": null,
+    "url": "https://fcc.gov.sl/",
+    "tier": "institutional",
+    "quote": "Home to over 1 million people — 40% of Sierra Leone’s urban population",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Philanthropists founded the 'Province of Freedom' in 1787; it later became Freetown.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "In 1787, British philanthropists founded the “Province of Freedom” which later became Freetown",
+    "verified": true
+   }
+  },
+  {
+   "claim": "About 1,200 freed Black settlers, later known as the Nova Scotians, travelled from Halifax to Sierra Leone by ship in 1792.",
+   "source": {
+    "title": "Sierra Leone's 400-year-old Cotton Tree was treasured national symbol with a Canadian connection",
+    "publisher": "The Globe and Mail",
+    "author": null,
+    "date": "2023-05-28",
+    "url": "https://www.theglobeandmail.com/world/article-sierra-leones-400-year-old-cotton-tree-was-treasured-national-symbol/",
+    "tier": "press",
+    "quote": "About 1,200 freed African American slaves, later known as the Nova Scotians, travelled to Sierra Leone by ship from Halifax in 1792",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Britain set up a naval base at Freetown to patrol against illegal slave ships.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "The British established a naval base in Freetown to patrol against illegal slave ships",
+    "verified": true
+   }
+  },
+  {
+   "claim": "By 1855 more than 50,000 freed slaves had been settled in Freetown.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "By 1855, over 50,000 freed slaves had been settled in Freetown",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Krio, a lingua franca, is the default language of communication in Sierra Leone, particularly in the major cities including Freetown.",
+   "source": {
+    "title": "Survey chapter: Krio",
+    "publisher": "Atlas of Pidgin and Creole Language Structures Online (APiCS)",
+    "author": null,
+    "date": null,
+    "url": "https://apics-online.info/surveys/15",
+    "tier": "academic",
+    "quote": "As a lingua franca, Krio is the default language of communication in Sierra Leone, particularly in the major cities including Freetown",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Sierra Leone Ports Authority says Freetown has probably the finest natural harbour, being sheltered, in West Africa.",
+   "source": {
+    "title": "Introduction to Queen Elizabeth II Quay proposed Development Projects",
+    "publisher": "Sierra Leone Ports Authority",
+    "author": null,
+    "date": null,
+    "url": "https://slpha.sl/wp-content/uploads/2023/09/slpa1.pdf",
+    "tier": "institutional",
+    "quote": "The Port has probably the finest natural harbour (being sheltered) in West Africa",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Sierra Leone's main seaport, the Queen Elizabeth II Quay, is in the east end of Freetown at Clinetown and has 7 berths.",
+   "source": {
+    "title": "Introduction to Queen Elizabeth II Quay proposed Development Projects",
+    "publisher": "Sierra Leone Ports Authority",
+    "author": null,
+    "date": null,
+    "url": "https://slpha.sl/wp-content/uploads/2023/09/slpa1.pdf",
+    "tier": "institutional",
+    "quote": "The main seaport in Sierra Leone is the Queen Elizabeth II Quay located in the east end of the capital Freetown at Clinetown",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Fourah Bay College, founded in Freetown in 1827, was the first Western-style university on the West African coast.",
+   "source": {
+    "title": "African Agency and Colonial Committees at Fourah Bay College",
+    "publisher": "Docomomo Journal",
+    "author": null,
+    "date": "2023-12-15",
+    "url": "https://docomomojournal.com/index.php/journal/article/view/573",
+    "tier": "academic",
+    "quote": "Fourah Bay College was the first Western-style university to be established along the West African coast in 1827",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Freetown City Council reports planting and tracking 1.2 million trees against its 1 million trees target (#FreetownTheTreeTown).",
+   "source": {
+    "title": "Welcome to Freetown",
+    "publisher": "Freetown City Council",
+    "author": null,
+    "date": null,
+    "url": "https://fcc.gov.sl/",
+    "tier": "institutional",
+    "quote": "the planting and tracking of 1.2m trees against # FreetownTheTreeTown’s 1m trees target",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1787",
+   "tag": "origins",
+   "claim": "British philanthropists founded the 'Province of Freedom', which later became Freetown.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "In 1787, British philanthropists founded the “Province of Freedom” which later became Freetown",
+    "verified": true
+   }
+  },
+  {
+   "when": "1792",
+   "tag": "origins",
+   "claim": "About 1,200 freed settlers from Nova Scotia travelled by ship from Halifax to Sierra Leone.",
+   "source": {
+    "title": "Sierra Leone's 400-year-old Cotton Tree was treasured national symbol with a Canadian connection",
+    "publisher": "The Globe and Mail",
+    "author": null,
+    "date": "2023-05-28",
+    "url": "https://www.theglobeandmail.com/world/article-sierra-leones-400-year-old-cotton-tree-was-treasured-national-symbol/",
+    "tier": "press",
+    "quote": "About 1,200 freed African American slaves, later known as the Nova Scotians, travelled to Sierra Leone by ship from Halifax in 1792",
+    "verified": true
+   }
+  },
+  {
+   "when": "1808",
+   "tag": "growth",
+   "claim": "The colony officially became a British Crown Colony.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "Few years later in 1808, the colony officially became a British Crown Colony",
+    "verified": true
+   }
+  },
+  {
+   "when": "1827",
+   "tag": "growth",
+   "claim": "Fourah Bay College was established, the first Western-style university on the West African coast.",
+   "source": {
+    "title": "African Agency and Colonial Committees at Fourah Bay College",
+    "publisher": "Docomomo Journal",
+    "author": null,
+    "date": "2023-12-15",
+    "url": "https://docomomojournal.com/index.php/journal/article/view/573",
+    "tier": "academic",
+    "quote": "Fourah Bay College was the first Western-style university to be established along the West African coast in 1827",
+    "verified": true
+   }
+  },
+  {
+   "when": "1845",
+   "tag": "growth",
+   "claim": "Construction of the original Fourah Bay College building began in Cline Town under its first principal, Edward Jones.",
+   "source": {
+    "title": "Old Fourah Bay College Building: Mirroring the evolution of Freetown",
+    "publisher": "Bright Continent (Cleveland State University)",
+    "author": null,
+    "date": null,
+    "url": "https://access.thebrightcontinent.org/items/show/30",
+    "tier": "academic",
+    "quote": "Its name changed to Fourah Bay College when this building’s 1845 construction began in the Clinetown neighborhood under the supervision of its first principal",
+    "verified": true
+   }
+  },
+  {
+   "when": "1855",
+   "tag": "growth",
+   "claim": "By this year more than 50,000 freed slaves had been settled in Freetown.",
+   "source": {
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "author": null,
+    "date": null,
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "quote": "By 1855, over 50,000 freed slaves had been settled in Freetown",
+    "verified": true
+   }
+  },
+  {
+   "when": "1957",
+   "tag": "growth",
+   "claim": "The Sierra Leone National Museum was established as the museum of the Sierra Leone Society.",
+   "source": {
+    "title": "Sierra Leone's National Treasure",
+    "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
+    "author": null,
+    "date": null,
+    "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
+    "tier": "institutional",
+    "quote": "Sierra Leone's National Museum was established as the museum of the Sierra Leone Society in 1957",
+    "verified": true
+   }
+  },
+  {
+   "when": "1961",
+   "tag": "today",
+   "claim": "Sierra Leone became independent.",
+   "source": {
+    "title": "African Agency and Colonial Committees at Fourah Bay College",
+    "publisher": "Docomomo Journal",
+    "author": null,
+    "date": "2023-12-15",
+    "url": "https://docomomojournal.com/index.php/journal/article/view/573",
+    "tier": "academic",
+    "quote": "Following Independence in 1961",
+    "verified": true
+   }
+  },
+  {
+   "when": "1999",
+   "tag": "today",
+   "claim": "The effects of the Civil War in 1999 and a fire shortly afterward left the Old Fourah Bay College building in poor condition.",
+   "source": {
+    "title": "Old Fourah Bay College Building: Mirroring the evolution of Freetown",
+    "publisher": "Bright Continent (Cleveland State University)",
+    "author": null,
+    "date": null,
+    "url": "https://access.thebrightcontinent.org/items/show/30",
+    "tier": "academic",
+    "quote": "The effects of the Sierra Leone Civil War in 1999 and a fire shortly afterward have left the building in poor condition",
+    "verified": true
+   }
+  },
+  {
+   "when": "2015",
+   "tag": "today",
+   "claim": "The national census counted 1,055,964 people in Western Area Urban.",
+   "source": {
+    "title": "Sierra Leone 2015 Population and Housing Census: Summary of Final Results",
+    "publisher": "Statistics Sierra Leone (hosted by WHO AFRO)",
+    "author": null,
+    "date": "2016",
+    "url": "https://www.afro.who.int/sites/default/files/2017-06/census2015.pdf",
+    "tier": "institutional",
+    "quote": "Western Area: Western Area Rural – 444,270 and Western Area Urban – 1,055,964",
+    "verified": true
+   }
+  },
+  {
+   "when": "2023",
+   "tag": "today",
+   "claim": "The Cotton Tree, a national symbol, was felled in a storm.",
+   "source": {
+    "title": "Storm fells symbolic 400-year-old cotton tree in Sierra Leone",
+    "publisher": "Al Jazeera",
+    "author": null,
+    "date": "2023-05-25",
+    "url": "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone",
+    "tier": "press",
+    "quote": "Wednesday’s storm left nothing of the tree but a stump",
+    "verified": true
+   }
+  },
+  {
+   "when": "2025",
+   "tag": "today",
+   "claim": "Gola Rainforest National Park and Tiwai Island, as the Gola-Tiwai Complex, were named a UNESCO World Heritage site, Sierra Leone's first.",
+   "source": {
+    "title": "Celebrating on the world stage - Gola Rainforest joins World Heritage Site list",
+    "publisher": "RSPB",
+    "author": null,
+    "date": "2025-07-14",
+    "url": "https://www.rspb.org.uk/whats-happening/news/gola-world-heritage",
+    "tier": "institutional",
+    "quote": "Gola has now been declared a new UNESCO Natural World Heritage Site",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Gola-Tiwai Complex",
+   "type": "site",
+   "what": "Sierra Leone's first UNESCO World Heritage site, joining the Gola Rainforest National Park with Tiwai Island. Tiwai is a 12 km2 island in the Moa river with 11 primate species, while Gola is home to over 320 bird species.",
+   "facts": [
     {
-      "claim": "Founded in March 1792 by Black Loyalists (Nova Scotian Settlers)—formerly enslaved Africans who gained freedom by fighting for Britain in the American War of Independence—Freetown was designed as a haven for liberated Africans.",
-      "source": {
-        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
-        "publisher": "Monuments and Relics Commission of Sierra Leone",
-        "author": null,
-        "date": null,
-        "url": "https://mrcsl.org/",
-        "tier": "institutional",
-        "quote": "Freetown founded in 1792 by Nova Scotian settlers beneath the historic Cotton Tree"
-      }
+     "label": "UNESCO inscription",
+     "value": "2025 (Sierra Leone's first World Heritage site)",
+     "source": {
+      "title": "Celebrating on the world stage - Gola Rainforest joins World Heritage Site list",
+      "publisher": "RSPB",
+      "author": null,
+      "date": "2025-07-14",
+      "url": "https://www.rspb.org.uk/whats-happening/news/gola-world-heritage",
+      "tier": "institutional",
+      "quote": "Gola has now been declared a new UNESCO Natural World Heritage Site",
+      "verified": true
+     }
     },
     {
-      "claim": "The historic Cotton Tree (Ceiba pentandra), estimated at over 400 years old, served as the founding civic meeting place and spiritual symbol of national liberty until it was toppled by a severe rainstorm on 24 May 2023.",
-      "source": {
-        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
-        "publisher": "Monuments and Relics Commission of Sierra Leone",
-        "author": null,
-        "date": null,
-        "url": "https://mrcsl.org/",
-        "tier": "institutional",
-        "quote": "The Cotton Tree in central Freetown fell on 24 May 2023 after four centuries of symbolic life"
-      }
+     "label": "Tiwai Island",
+     "value": "12 km2, 11 primate species",
+     "source": {
+      "title": "Sierra Leone's Tiwai Island added to UNESCO's World Heritage list",
+      "publisher": "TRT Afrika",
+      "author": null,
+      "date": "2025",
+      "url": "https://www.trtafrika.com/english/article/2729f8afcc6f",
+      "tier": "press",
+      "quote": "The island, located in the Moa river, measures just 12 square kilometres and has 11 species of primates",
+      "verified": true
+     }
     },
     {
-      "claim": "Old Fourah Bay College, founded in 1827 by the Church Missionary Society and affiliated with Durham University in 1876, established Freetown as the premier educational center of modern West Africa ('Athens of West Africa').",
-      "source": {
-        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
-        "publisher": "Monuments and Relics Commission of Sierra Leone",
-        "author": null,
-        "date": null,
-        "url": "https://mrcsl.org/",
-        "tier": "institutional",
-        "quote": "Fourah Bay College established in 1827 as the first western-style university in sub-Saharan Africa"
-      }
+     "label": "Gola Rainforest National Park",
+     "value": "Over 320 bird species",
+     "source": {
+      "title": "Celebrating on the world stage - Gola Rainforest joins World Heritage Site list",
+      "publisher": "RSPB",
+      "author": null,
+      "date": "2025-07-14",
+      "url": "https://www.rspb.org.uk/whats-happening/news/gola-world-heritage",
+      "tier": "institutional",
+      "quote": "Home to over 320 bird species as well as endangered mammals including Pygmy Hippo, pangolins, Forest Elephants and Chimpanzees",
+      "verified": true
+     }
     }
-  ],
-  "timeline": [
+   ]
+  },
+  {
+   "name": "The Historic Cotton Tree",
+   "type": "site",
+   "what": "A national symbol that stood in the centre of Freetown until a storm felled it in May 2023. Locals say returning settlers prayed under it in the late 1700s, and it once towered over a busy roundabout near the national museum.",
+   "facts": [
     {
-      "year": 1792,
-      "event": "Arrival of 1,192 Black Loyalists from Halifax, Nova Scotia, who clear forest beneath the Cotton Tree and officially found Freetown."
+     "label": "Fell",
+     "value": "May 2023, in a storm",
+     "source": {
+      "title": "Storm fells symbolic 400-year-old cotton tree in Sierra Leone",
+      "publisher": "Al Jazeera",
+      "author": null,
+      "date": "2023-05-25",
+      "url": "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone",
+      "tier": "press",
+      "quote": "Wednesday’s storm left nothing of the tree but a stump",
+      "verified": true
+     }
     },
     {
-      "year": 1808,
-      "event": "Britain declares Freetown and the Sierra Leone peninsula a Crown Colony, establishing the Vice-Admiralty Court for the suppression of the transatlantic slave trade."
+     "label": "Size and age",
+     "value": "About 70 m tall, roughly 400 years old (estimates vary)",
+     "source": {
+      "title": "Storm fells symbolic 400-year-old cotton tree in Sierra Leone",
+      "publisher": "Al Jazeera",
+      "author": null,
+      "date": "2023-05-25",
+      "url": "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone",
+      "tier": "press",
+      "quote": "The roughly 400-year-old tree, which had stood 70 metres (230 feet) tall and 15 metres (50 feet) wide",
+      "verified": true
+     }
     },
     {
-      "year": 1827,
-      "event": "Foundation of Fourah Bay College at Mount Aureol and Cline Town, training generations of African educators, church leaders, and civil servants."
+     "label": "Legend",
+     "value": "Returnees prayed under it in the late 1700s",
+     "source": {
+      "title": "Storm fells symbolic 400-year-old cotton tree in Sierra Leone",
+      "publisher": "Al Jazeera",
+      "author": null,
+      "date": "2023-05-25",
+      "url": "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone",
+      "tier": "press",
+      "quote": "Locals say when the returnees arrived by boat in the late 1700s, they gathered under its branches to offer prayers in their new home, which they called Freetown",
+      "verified": true
+     }
     },
     {
-      "year": 1961,
-      "event": "Sierra Leone achieves independence within the Commonwealth on 27 April 1961, with Freetown confirmed as the national capital under Prime Minister Sir Milton Margai."
+     "label": "Setting",
+     "value": "Roundabout near the national museum, post office and highest court",
+     "source": {
+      "title": "Sierra Leone's symbolic Cotton Tree destroyed in rain storm",
+      "publisher": "Africanews",
+      "author": null,
+      "date": "2023-05-25",
+      "url": "https://www.africanews.com/2023/05/25/sierra-leones-symbolic-cotton-tree-destroyed-in-rain-storm/",
+      "tier": "press",
+      "quote": "Freetown residents continued to pray beneath the tree, which in recent decades towered over a busy roundabout near the national museum, the central post office and the country's highest court",
+      "verified": true
+     }
     }
-  ]
+   ]
+  },
+  {
+   "name": "Sierra Leone National Museum",
+   "type": "culture",
+   "what": "Established in 1957 as the museum of the Sierra Leone Society, it is housed in the former Cotton Tree Railway Station in the centre of Freetown. Its founding collections were assembled from 1946 by the Monuments and Relics Commission.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "1957",
+     "source": {
+      "title": "Sierra Leone's National Treasure",
+      "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
+      "author": null,
+      "date": null,
+      "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
+      "tier": "institutional",
+      "quote": "Sierra Leone's National Museum was established as the museum of the Sierra Leone Society in 1957",
+      "verified": true
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Former Cotton Tree Railway Station",
+     "source": {
+      "title": "Sierra Leone's National Treasure",
+      "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
+      "author": null,
+      "date": null,
+      "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
+      "tier": "institutional",
+      "quote": "It is housed in what had originally been the Cotton Tree Railway Station in the centre of Freetown",
+      "verified": true
+     }
+    },
+    {
+     "label": "Founding collections",
+     "value": "Assembled from 1946 by the Monuments and Relics Commission",
+     "source": {
+      "title": "Sierra Leone's National Treasure",
+      "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
+      "author": null,
+      "date": null,
+      "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
+      "tier": "institutional",
+      "quote": "The founding collections of the museum were assembled by Sierra Leone's Monuments and Relics Commission from 1946",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Old Fourah Bay College",
+   "type": "site",
+   "what": "The original Fourah Bay College building, begun in 1845 in Cline Town, is a four-story laterite structure and a national monument. Only its external walls remain after a fire in 1999.",
+   "facts": [
+    {
+     "label": "Construction began",
+     "value": "1845",
+     "source": {
+      "title": "Old Fourah Bay College Building: Mirroring the evolution of Freetown",
+      "publisher": "Bright Continent (Cleveland State University)",
+      "author": null,
+      "date": null,
+      "url": "https://access.thebrightcontinent.org/items/show/30",
+      "tier": "academic",
+      "quote": "Its name changed to Fourah Bay College when this building’s 1845 construction began in the Clinetown neighborhood",
+      "verified": true
+     }
+    },
+    {
+     "label": "Structure",
+     "value": "Four-story laterite building",
+     "source": {
+      "title": "Sierra Leone: Old Fourah Bay College Building in state of disrepair",
+      "publisher": "Premier Media",
+      "author": null,
+      "date": null,
+      "url": "https://www.premiermedia-sl.com/sierra-leone-old-fourah-bay-college-building-in-state-of-disrepair/",
+      "tier": "press",
+      "quote": "It was a massive four story building by the standards of the time, built of dressed stone blocks of laterite",
+      "verified": true
+     }
+    },
+    {
+     "label": "National Monument",
+     "value": "Proclaimed 1955",
+     "source": {
+      "title": "Sierra Leone: Old Fourah Bay College Building in state of disrepair",
+      "publisher": "Premier Media",
+      "author": null,
+      "date": null,
+      "url": "https://www.premiermedia-sl.com/sierra-leone-old-fourah-bay-college-building-in-state-of-disrepair/",
+      "tier": "press",
+      "quote": "The Original Fourah Bay College building was proclaimed a National Monument in 1955",
+      "verified": true
+     }
+    },
+    {
+     "label": "Fire",
+     "value": "1999",
+     "source": {
+      "title": "Sierra Leone: Old Fourah Bay College Building in state of disrepair",
+      "publisher": "Premier Media",
+      "author": null,
+      "date": null,
+      "url": "https://www.premiermedia-sl.com/sierra-leone-old-fourah-bay-college-building-in-state-of-disrepair/",
+      "tier": "press",
+      "quote": "What remains of this once majestic building is only its four external walls, after it had been burnt down in 1999",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "The 2021 mid-term census (Western Area Urban 606,701) is provisional and publicly disputed (readable pages: Sierra Leone Telegraph, not recorded); the 2015 census figure is used instead.",
+  "UNESCO World Heritage Centre pages return 403, so Gola-Tiwai and Old Fourah Bay College (tentative list) were sourced from RSPB, TRT Afrika and other readable pages.",
+  "Cotton Tree age is uncertain (Africanews says both 200 and 400 years; Atlas Obscura only 'existed in 1787'); no well-sourced myth-or-fact item was found.",
+  "Freetown founding date: sources differ between 1787 (Province of Freedom) and 1792 (Nova Scotian settlers); BlackPast and Britannica-type pages not usable.",
+  "Freetown geography (peninsula/hills) and economy beyond the port, and the 1961 independence date of Freetown as capital, were not verified beyond what is recorded."
+ ]
 }

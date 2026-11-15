@@ -5,13 +5,65 @@
   "country": "MLI",
   "name": "Grand Marché Dabanani",
   "region": "Bamako · Mali",
-  "subtitle": "The immense beating heart of commerce in Bamako, famed for hand-painted Bogolan mud-cloth and traditional pharmacopoeia.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Dabanani is the part of Bamako's Grand Marché that has burned repeatedly.",
+  "facts": [
+    {
+      "label": "Fires",
+      "value": "Described in 2024 as burning almost every year at Dabanani",
+      "cite": [
+        "cap-actuelmedia-net-fc7d20"
+      ]
+    },
+    {
+      "label": "14 February 2024",
+      "value": "A fire broke out around 2 a.m. at Dabanani",
+      "cite": [
+        "cap-afriksoir-net-87c4b5"
+      ]
+    },
+    {
+      "label": "2017 fire",
+      "value": "The December 2017 fire of the 'marché rose' was its third, after 1993 and 2014, and the most serious",
+      "cite": [
+        "cap-voaafrique-com-108158"
+      ]
+    },
+    {
+      "label": "Access",
+      "value": "Narrow alleys make it hard for firefighters to reach the market",
+      "cite": [
+        "cap-bamada-net-8f0e01"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dabanani is the part of Bamako's Grand Marché that has burned repeatedly. Press reports describe frequent fires and narrow alleys that hamper firefighters.",
+              "cite": [
+                "cap-actuelmedia-net-fc7d20",
+                "cap-afriksoir-net-87c4b5",
+                "cap-voaafrique-com-108158",
+                "cap-bamada-net-8f0e01"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Registered vendor guild inventories following the market reconstruction are partially documented.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

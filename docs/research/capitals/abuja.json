@@ -1,74 +1,498 @@
 {
-  "city": "Abuja",
-  "country": "NGA",
-  "population": {
-    "value": 1406239,
-    "year": 2006,
-    "definition": "Population of the Federal Capital Territory (FCT, 7,620 km²), including the Abuja Municipal Area Council (AMAC, 776,298 residents), enumerated in the March 2006 Population and Housing Census conducted by the National Population Commission (NPC) of Nigeria, tabulated via CityPopulation. Official 2022 projections estimate the FCT population at approximately 3,067,500 residents.",
-    "source": {
-      "title": "Nigeria: Administrative Division and Federal Capital Territory - Population Statistics (Census 2006 & Projections)",
-      "publisher": "CityPopulation (credits NPC Nigeria)",
-      "author": null,
-      "date": "2006-03-21",
-      "url": "https://www.citypopulation.de/en/nigeria/admin/",
-      "tier": "institutional",
-      "quote": "2006-03-21 | Federal Capital Territory total: 1,406,239 (Abuja Municipal: 776,298)"
-    }
+ "city": "Abuja",
+ "country": "NGA",
+ "population": {
+  "value": 776298,
+  "year": 2006,
+  "definition": "Abuja Municipal Area Council (AMAC), the council area of the Federal Capital Territory that contains the city of Abuja, 2006 census as tabulated by the National Bureau of Statistics",
+  "source": {
+   "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+   "publisher": "National Bureau of Statistics, Nigeria",
+   "author": null,
+   "date": "2010",
+   "url": "https://nigerianstat.gov.ng/download/71",
+   "tier": "institutional",
+   "quote": "AMAC 415,951 360,347 776,298",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "The Federal Capital Territory had 1,406,239 inhabitants in the 2006 census, across six council areas.",
+   "source": {
+    "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+    "publisher": "National Bureau of Statistics, Nigeria",
+    "author": null,
+    "date": "2010",
+    "url": "https://nigerianstat.gov.ng/download/71",
+    "tier": "institutional",
+    "quote": "Total 733,172 673,067 1,406,239",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Abuja Municipal Area Council grew from 226,949 inhabitants in 1991 to 776,298 in 2006.",
+   "source": {
+    "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+    "publisher": "National Bureau of Statistics, Nigeria",
+    "author": null,
+    "date": "2010",
+    "url": "https://nigerianstat.gov.ng/download/71",
+    "tier": "institutional",
+    "quote": "Abuja Municipal 129,388 97,561 226,949 AMAC 415,951 360,347 776,298",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Abuja site was chosen as a more neutral and more central location for Nigeria's many ethnic and religious groups.",
+   "source": {
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa",
+    "author": "Lois Ugbede",
+    "date": "2020",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "quote": "The choice of Abuja was made as it was seen as a more neutral land for Nigeria’s many ethnic and religious groups and as a more central location in the country",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The site was inhabited by several ethnic groups, such as the Gbagyi, Koro, Gade and Gwandara, none of them among the dominant nationalities Hausa, Igbo, Yoruba and Ijaw.",
+   "source": {
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa",
+    "author": "Lois Ugbede",
+    "date": "2020",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "quote": "Abuja was a site in the center of the country inhabited by several ethnic groups like the Gbagyi, Koro, Gade, and Gwandara, none of which belongs to the dominant nationalities: Hausa, Igbo, Yoruba, and Ijaw",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The decision to build the new capital displaced the native residents of old Abuja, and the displacement remains controversial.",
+   "source": {
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa",
+    "author": "Lois Ugbede",
+    "date": "2020",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "quote": "This decision, however, led to the displacement of the native people who were residents of the old Abuja",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Aso Rock is the highest geographical point of the Federal Capital City and was used as the reference point for the first concept plan drawn by International Planning Associates for the Abuja Master Plan.",
+   "source": {
+    "title": "The contemporary and historical Aso Rock",
+    "publisher": "Daily Trust",
+    "author": "Umar Shuaibu",
+    "date": "2023-12-08",
+    "url": "https://dailytrust.com/the-contemporary-and-historical-aso-rock/",
+    "tier": "press",
+    "quote": "the Aso Rock was used as the reference point while drawing the first concept plan for the development of the city by the International Planning Associates (IPA), while producing the Abuja Master Plan",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The aesthetics of the surrounding hills (Suleja, Zuma-Bwari-Aso, Karu-Agwai and Zango-Kuku) also guided the choice of the city's site.",
+   "source": {
+    "title": "The Natural Landmarks Of Abuja And National Monuments",
+    "publisher": "Daily Trust",
+    "author": null,
+    "date": null,
+    "url": "https://dailytrust.com/the-natural-landmarks-of-abuja-and-national-monuments/",
+    "tier": "press",
+    "quote": "The aesthetics of the surrounding Suleja hills to the west, Zuma-Bwari-Aso hills to its north, Karu-Agwai hills to the east and the Zango-Kuku hills to the south also guided the site selection for the city’s location",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Abuja National Mosque is the largest mosque in Nigeria, according to the Nigerian press.",
+   "source": {
+    "title": "6 largest mosques in Nigeria",
+    "publisher": "Tribune Online",
+    "author": null,
+    "date": null,
+    "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+    "tier": "press",
+    "quote": "The Abuja National Mosque, also known as the Nigerian National Mosque, is the largest in Nigeria",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1976",
+   "tag": "origins",
+   "claim": "General Murtala Mohammed announced that Abuja would be developed as the new capital.",
+   "source": {
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa",
+    "author": "Lois Ugbede",
+    "date": "2020",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "quote": "In 1976, the then head of state, General Murtala Mohammed announced that Abuja would be developed as the new capital",
+    "verified": true
+   }
+  },
+  {
+   "when": "1981",
+   "tag": "growth",
+   "claim": "The Abuja National Mosque Council was inaugurated by the Sultan of Sokoto, Abubakar III, as the mosque project began.",
+   "source": {
+    "title": "Nigeria's Abuja National Mosque: A Symbol of Faith, Culture, and Unity",
+    "publisher": "Commonwealth Union",
+    "author": "Ruwanthi Abeyakoon",
+    "date": "2025-07-31",
+    "url": "https://www.commonwealthunion.com/nigerias-abuja-national-mosque-a-symbol-of-faith-culture-and-unity/",
+    "tier": "press",
+    "quote": "In 1981, the Abuja National Mosque Council was inaugurated by Sultan Abubakar III of Sokoto",
+    "verified": true
+   }
+  },
+  {
+   "when": "1984",
+   "tag": "growth",
+   "claim": "The Abuja National Mosque was completed, according to a Nigerian press list of the largest mosques.",
+   "source": {
+    "title": "6 largest mosques in Nigeria",
+    "publisher": "Tribune Online",
+    "author": null,
+    "date": null,
+    "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+    "tier": "press",
+    "quote": "it was completed in 1984 and can accommodate up to 25,000 worshippers",
+    "verified": true
+   }
+  },
+  {
+   "when": "1991",
+   "tag": "growth",
+   "claim": "Abuja became the new capital of Nigeria in December 1991, after construction began in the 1980s.",
+   "source": {
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa",
+    "author": "Lois Ugbede",
+    "date": "2020",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "quote": "Construction started in the 1980s and Abuja became the new capital in December 1991",
+    "verified": true
+   }
+  },
+  {
+   "when": "1991",
+   "tag": "growth",
+   "claim": "The census recorded 226,949 people in Abuja Municipal.",
+   "source": {
+    "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+    "publisher": "National Bureau of Statistics, Nigeria",
+    "author": null,
+    "date": "2010",
+    "url": "https://nigerianstat.gov.ng/download/71",
+    "tier": "institutional",
+    "quote": "Abuja Municipal 129,388 97,561 226,949",
+    "verified": true
+   }
+  },
+  {
+   "when": "2006",
+   "tag": "today",
+   "claim": "The census recorded 776,298 people in Abuja Municipal Area Council, within an FCT total of 1,406,239.",
+   "source": {
+    "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+    "publisher": "National Bureau of Statistics, Nigeria",
+    "author": null,
+    "date": "2010",
+    "url": "https://nigerianstat.gov.ng/download/71",
+    "tier": "institutional",
+    "quote": "AMAC 415,951 360,347 776,298",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Osun-Osogbo Sacred Grove",
+   "type": "site",
+   "what": "The grove lies on the Osun River just outside Osogbo, in south-west Nigeria, far from Abuja. It is dedicated to the Yoruba goddess Osun and is one of only two UNESCO World Heritage sites in Nigeria.",
+   "facts": [
     {
-      "claim": "Conceived in the 1970s to replace congested coastal Lagos, Abuja was chosen for its central geographical location, neutral ethnic territory, and temperate savannah plateau climate, officially proclaimed Federal Capital under Decree No. 6 of 1976.",
-      "source": {
-        "title": "National Monuments and Heritage Landmarks of Nigeria",
-        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
-        "author": null,
-        "date": null,
-        "url": "https://ncmm.gov.ng/",
-        "tier": "institutional",
-        "quote": "Creation of the Federal Capital Territory in 1976 and relocation of capital from Lagos"
-      }
+     "label": "Dedicated to",
+     "value": "Osun, Yoruba goddess of love and fertility, said to dwell in the river",
+     "source": {
+      "title": "On the brink: Inside the project to save Osun Oshogbo",
+      "publisher": "CNN",
+      "author": null,
+      "date": "2016-01-08",
+      "url": "https://www.cnn.com/2016/01/08/africa/osun-oshogbo-sacred-grove/index.html",
+      "tier": "press",
+      "quote": "in the river runs Osun, goddess of love and fertility",
+      "verified": true
+     }
     },
     {
-      "claim": "Aso Rock, a monolithic granite inselberg towering 400 metres above the surrounding plain, dominates the city's skyline directly behind the Nigerian Presidential Complex (Aso Villa), the National Assembly, and the Supreme Court.",
-      "source": {
-        "title": "National Monuments and Heritage Landmarks of Nigeria",
-        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
-        "author": null,
-        "date": null,
-        "url": "https://ncmm.gov.ng/",
-        "tier": "institutional",
-        "quote": "Aso Rock inselberg towers over the Federal Three Arms Zone"
-      }
+     "label": "Age and rarity",
+     "value": "Founded some 400 years ago; the largest sacred grove to have survived the spread of Christianity and Islam in Nigeria",
+     "source": {
+      "title": "On the brink: Inside the project to save Osun Oshogbo",
+      "publisher": "CNN",
+      "author": null,
+      "date": "2016-01-08",
+      "url": "https://www.cnn.com/2016/01/08/africa/osun-oshogbo-sacred-grove/index.html",
+      "tier": "press",
+      "quote": "Founded some 400 years ago, it’s the largest sacred grove to have survived the spread of Christianity and Islam in Nigeria",
+      "verified": true
+     }
     },
     {
-      "claim": "The Nigerian National Mosque and the National Christian Centre stand as architectural symbols of national unity and interfaith coexistence in the heart of Abuja's Central Business District.",
-      "source": {
-        "title": "National Monuments and Heritage Landmarks of Nigeria",
-        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
-        "author": null,
-        "date": null,
-        "url": "https://ncmm.gov.ng/",
-        "tier": "institutional",
-        "quote": "National Mosque (1984) and National Ecumenical Centre represent Nigeria's dual religious heritage"
-      }
+     "label": "Size",
+     "value": "75 hectares, on the banks of the Osun River in Osogbo",
+     "source": {
+      "title": "Sacred Groves",
+      "publisher": "Adunni Olorisha Trust-Adunni Osun Foundation",
+      "author": null,
+      "date": null,
+      "url": "https://aot-aof.org/sacred-groves/",
+      "tier": "primary",
+      "quote": "the 75 hectare Sacred Groves located in the town of Osogbo on the banks of the Osun River is the last example of its kind",
+      "verified": true
+     }
+    },
+    {
+     "label": "World Heritage",
+     "value": "Designated by UNESCO in 2005",
+     "source": {
+      "title": "Sacred Groves",
+      "publisher": "Adunni Olorisha Trust-Adunni Osun Foundation",
+      "author": null,
+      "date": null,
+      "url": "https://aot-aof.org/sacred-groves/",
+      "tier": "primary",
+      "quote": "In 2005, UNESCO recognised its outstanding universal value by designating the Sacred Groves a World Heritage site",
+      "verified": true
+     }
     }
-  ],
-  "timeline": [
+   ]
+  },
+  {
+   "name": "Abuja National Mosque",
+   "type": "site",
+   "what": "Nigeria's national mosque, in the capital, is known for its golden dome and four minarets. The Nigerian press calls it the country's largest mosque.",
+   "facts": [
     {
-      "year": 1976,
-      "event": "General Murtala Mohammed promulgates Decree No. 6 establishing the Federal Capital Territory at Abuja, commissioning a modern master plan by International Planning Associates."
+     "label": "Completed",
+     "value": "1984",
+     "source": {
+      "title": "6 largest mosques in Nigeria",
+      "publisher": "Tribune Online",
+      "author": null,
+      "date": null,
+      "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+      "tier": "press",
+      "quote": "it was completed in 1984",
+      "verified": true
+     }
     },
     {
-      "year": 1984,
-      "event": "Inauguration of the Abuja National Mosque, establishing an iconic golden dome and four 120-metre minarets in the new federal core."
+     "label": "Capacity",
+     "value": "Up to 25,000 worshippers",
+     "source": {
+      "title": "6 largest mosques in Nigeria",
+      "publisher": "Tribune Online",
+      "author": null,
+      "date": null,
+      "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+      "tier": "press",
+      "quote": "can accommodate up to 25,000 worshippers",
+      "verified": true
+     }
     },
     {
-      "year": 1991,
-      "event": "General Ibrahim Babangida formally relocates the seat of the federal government of Nigeria from Lagos to Abuja on 12 December 1991."
+     "label": "Features",
+     "value": "A golden dome and four towering minarets",
+     "source": {
+      "title": "6 largest mosques in Nigeria",
+      "publisher": "Tribune Online",
+      "author": null,
+      "date": null,
+      "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+      "tier": "press",
+      "quote": "The mosque features a striking golden dome and four towering minarets",
+      "verified": true
+     }
     },
     {
-      "year": 2005,
-      "event": "Completion and dedication of the National Christian Centre (National Ecumenical Centre), completing the monumental religious axis of the capital."
+     "label": "Council founded",
+     "value": "1981, inaugurated by Sultan Abubakar III of Sokoto",
+     "source": {
+      "title": "Nigeria's Abuja National Mosque: A Symbol of Faith, Culture, and Unity",
+      "publisher": "Commonwealth Union",
+      "author": "Ruwanthi Abeyakoon",
+      "date": "2025-07-31",
+      "url": "https://www.commonwealthunion.com/nigerias-abuja-national-mosque-a-symbol-of-faith-culture-and-unity/",
+      "tier": "press",
+      "quote": "In 1981, the Abuja National Mosque Council was inaugurated by Sultan Abubakar III of Sokoto",
+      "verified": true
+     }
+    },
+    {
+     "label": "Visitors",
+     "value": "Open to visitors of all faiths",
+     "source": {
+      "title": "Nigeria's Abuja National Mosque: A Symbol of Faith, Culture, and Unity",
+      "publisher": "Commonwealth Union",
+      "author": "Ruwanthi Abeyakoon",
+      "date": "2025-07-31",
+      "url": "https://www.commonwealthunion.com/nigerias-abuja-national-mosque-a-symbol-of-faith-culture-and-unity/",
+      "tier": "press",
+      "quote": "this mosque is open to visitors of all faiths",
+      "verified": true
+     }
     }
-  ]
+   ]
+  },
+  {
+   "name": "National Christian Centre",
+   "type": "site",
+   "what": "The National Christian Centre was first known as the National Ecumenical Centre. A Daily Trust opinion piece says it remained under construction for more than 20 years and that a government move to complete it was contested.",
+   "facts": [
+    {
+     "label": "Former name",
+     "value": "National Ecumenical Centre",
+     "source": {
+      "title": "The National Mosque Still Stands",
+      "publisher": "Daily Trust",
+      "author": null,
+      "date": null,
+      "url": "https://dailytrust.com/the-national-mosque-still-stands/",
+      "tier": "press",
+      "quote": "the building of the National Ecumenical Centre that had remained under construction for more than 20 years",
+      "verified": true
+     }
+    },
+    {
+     "label": "Construction",
+     "value": "Under construction for more than 20 years after the National Mosque was built",
+     "source": {
+      "title": "The National Mosque Still Stands",
+      "publisher": "Daily Trust",
+      "author": null,
+      "date": null,
+      "url": "https://dailytrust.com/the-national-mosque-still-stands/",
+      "tier": "press",
+      "quote": "the National Ecumenical Centre that had remained under construction for more than 20 years after the National Mosque was designed, built and commissioned",
+      "verified": true
+     }
+    },
+    {
+     "label": "Controversy",
+     "value": "The Emir of Gwandu, then chairman of the National Mosque board, objected to a government move to complete it",
+     "source": {
+      "title": "The National Mosque Still Stands",
+      "publisher": "Daily Trust",
+      "author": null,
+      "date": null,
+      "url": "https://dailytrust.com/the-national-mosque-still-stands/",
+      "tier": "press",
+      "quote": "It was His Royal Highness, Alhaji Mustapha Jokolo, the then Emir of Gwandu that confronted Obasanjo over the government’s clandestine move to complete the building of the National Ecumenical Centre",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Aso Rock",
+   "type": "nature",
+   "what": "Aso Rock is a granite inselberg that dominates the skyline of Abuja. It was the reference point of the city's first concept plan and takes its name from the community that lived around it.",
+   "facts": [
+    {
+     "label": "Planning role",
+     "value": "Reference point for the first concept plan of the city by International Planning Associates",
+     "source": {
+      "title": "The contemporary and historical Aso Rock",
+      "publisher": "Daily Trust",
+      "author": "Umar Shuaibu",
+      "date": "2023-12-08",
+      "url": "https://dailytrust.com/the-contemporary-and-historical-aso-rock/",
+      "tier": "press",
+      "quote": "the Aso Rock was used as the reference point while drawing the first concept plan for the development of the city by the International Planning Associates (IPA)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Geology",
+     "value": "Described as the most prominent granite inselberg and the most dramatic and easily recognised feature within the Federal Capital City",
+     "source": {
+      "title": "The Natural Landmarks Of Abuja And National Monuments",
+      "publisher": "Daily Trust",
+      "author": null,
+      "date": null,
+      "url": "https://dailytrust.com/the-natural-landmarks-of-abuja-and-national-monuments/",
+      "tier": "press",
+      "quote": "The Aso Hill is the most prominent granite inselberg, the most dramatic and easily recognized feature within the FCC",
+      "verified": true
+     }
+    },
+    {
+     "label": "Visibility",
+     "value": "Dominates the view for as much as twenty miles",
+     "source": {
+      "title": "The Natural Landmarks Of Abuja And National Monuments",
+      "publisher": "Daily Trust",
+      "author": null,
+      "date": null,
+      "url": "https://dailytrust.com/the-natural-landmarks-of-abuja-and-national-monuments/",
+      "tier": "press",
+      "quote": "The Aso Hill dominates view for as much as twenty miles",
+      "verified": true
+     }
+    },
+    {
+     "label": "Name",
+     "value": "Derived from the name of the original community around it, the Gwandara of Aso",
+     "source": {
+      "title": "The contemporary and historical Aso Rock",
+      "publisher": "Daily Trust",
+      "author": "Umar Shuaibu",
+      "date": "2023-12-08",
+      "url": "https://dailytrust.com/the-contemporary-and-historical-aso-rock/",
+      "tier": "press",
+      "quote": "The Aso Rock derived its name from the name of the original community inhabiting the area surrounding it",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Abuja was an empty 'no man's land' before it was chosen as the capital.",
+  "truth": "The site was inhabited by several ethnic groups including the Gbagyi, Koro, Gade and Gwandara; the Gbagyi say they were the original settlers and have continued to fight for the land.",
+  "source": {
+   "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+   "publisher": "Dubawa",
+   "author": "Lois Ugbede",
+   "date": "2020",
+   "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+   "tier": "press",
+   "quote": "Abuja was a site in the center of the country inhabited by several ethnic groups like the Gbagyi, Koro, Gade, and Gwandara",
+   "verified": true
+  }
+ },
+ "unreadable": [
+  "https://whc.unesco.org/en/list/1332/ and other whc.unesco.org pages (403)",
+  "https://www.thecable.ng/obasanjo-im-a-christian-but-i-refused-to-finance-can-building-with-public-funds/ (403)",
+  "https://www.premiumtimesng.com/... Otedola Ecumenical Centre (no response)",
+  "https://www.researchgate.net/... (403)"
+ ],
+ "notNotFound": [
+  "Population is the 2006 census figure for Abuja Municipal Area Council (the council area containing the city), not a delimited 'city proper'; no later census exists.",
+  "National Mosque: sources conflict on dates (Tribune: completed 1984; Daily Trust: designed, built and commissioned in Babangida's era, which began in 1985); only the 1984 and 1981 statements are recorded, the conflict is unresolved.",
+  "National Christian Centre: dedication date, architect and capacity could not be verified in a readable non-travel source; facts rest on one Daily Trust opinion piece.",
+  "Economy and culture facts about Abuja city itself were not recorded for lack of a readable institutional source.",
+  "Osun-Osogbo is in Osogbo, Osun State, not in Abuja; UNESCO page unreadable so facts come from CNN and the grove's trust."
+ ]
 }

@@ -1,61 +1,608 @@
 {
-  "city": "Conakry",
-  "country": "GIN",
-  "population": {
-    "value": 1660973,
-    "year": 2014,
-    "definition": "Population of the Special Zone of Conakry (comprising five core urban communes: Kaloum, Dixinn, Matam, Ratoma, and Matoto) recorded in the 3rd General Population and Housing Census (RGPH-3, March 2014) conducted by the Institut National de la Statistique (INS) of Guinea, tabulated via CityPopulation. Extended agglomeration mapping numbered 1,940,544, with contemporary estimates surpassing 2.5 million.",
-    "source": {
-      "title": "Guinea: Regions, Major Cities & Urban Communes (Census 2014)",
-      "publisher": "CityPopulation (credits INS Guinea)",
-      "author": null,
-      "date": "2014-03-01",
-      "url": "https://www.citypopulation.de/en/guinea/cities/",
-      "tier": "institutional",
-      "quote": "2014-03-01 | Conakry Special Zone: 1,660,973; Greater urban area: 1,940,544"
-    }
+ "city": "Conakry",
+ "country": "GIN",
+ "population": {
+  "value": 3407327,
+  "year": 2025,
+  "definition": "Conakry administrative region (entirely urban, about 450 km2, six communes), RGPH-4 2025 preliminary results with counts adjusted by the post-enumeration survey",
+  "source": {
+   "title": "Résultats préliminaires du RGPH-4 de la Guinée",
+   "publisher": "Institut National de la Statistique (Guinée)",
+   "author": null,
+   "date": "2026-02",
+   "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/rapports_enquetes/RGPH-4/Resultats_preliminaires_rgph_4.pdf",
+   "tier": "institutional",
+   "quote": "avec respectivement 3 407 327 habitants (19,4 %)",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Conakry was founded from nothing in colonial times; the French settled there in 1885, when the Peninsula of Tumbo held two sparsely populated villages, Conakry and Boulbinet.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "When the French settled there in 1885, the Peninsula of Tumbo consisted of two sparsely populated villages, Conakry and Boulbinet",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The initial site of the city was the Tumbo Peninsula, about 5 by 3 km.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "The initial site was the Tumbo Peninsula (about 5 by 3 km)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Baga and the Susu, allied peoples, made up the city's initial population.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "The Baga, considered to constitute the demographic foundation of the city, and the Susu were allied peoples that made up the city’s initial population",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Between the two World Wars the city's expansion was restricted to the peninsula, a municipal area of about 3 km2.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "it formed a municipal area of about 3 km2",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The colonial city was built on a grid of 14 avenues numbered from the western end of the peninsula and 12 boulevards.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "The city was constructed on a grid of 14 avenues that were numbered starting from the western end of the peninsula, and 12 boulevards",
+    "verified": true
+   }
+  },
+  {
+   "claim": "At independence the city and its suburbs had about 70,000 inhabitants.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "At independence, the city and its suburbs had about 70 000 inhabitants",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Conakry is the country's capital and only sizeable international harbour, an outlet for bauxite exports.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "As the country’s capital and only sizeable international harbour (an outlet for bauxite exports)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Kaloum is the current name of the former city centre, previously called Tumbo.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "Kaloum (the current name of the former city centre, previously called Tumbo)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Conakry region covers 450 km2 and is organised into 6 urban communes and 130 quartiers (2022).",
+   "source": {
+    "title": "La région de Conakry en chiffres 2022",
+    "publisher": "Institut National de la Statistique (Guinée)",
+    "author": null,
+    "date": "2023-11",
+    "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/annuelles/annuaire/region/Rgion_de_CONAKRY.pdf",
+    "tier": "institutional",
+    "quote": "Superficie = 450 km2",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Conakry is 100% urban and holds a little over half (50.3%) of Guinea's urban population (RGPH-4, 2025).",
+   "source": {
+    "title": "Résultats préliminaires du RGPH-4 de la Guinée",
+    "publisher": "Institut National de la Statistique (Guinée)",
+    "author": null,
+    "date": "2026-02",
+    "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/rapports_enquetes/RGPH-4/Resultats_preliminaires_rgph_4.pdf",
+    "tier": "institutional",
+    "quote": "Conakry concentre un peu plus de la moitié (50,3 %) de la population urbaine du pays",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Because the entrance to Kaloum can easily be blockaded, demonstrations are left mainly to the main roads leading from the suburbs towards the old centre.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "Since the entrance to Kaloum can be easily blockaded, the main places left for demonstrations are the main roads",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1885",
+   "tag": "origins",
+   "claim": "The French colonial establishment at Conakry dates from 1885.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "since its colonial establishment in 1885",
+    "verified": true
+   }
+  },
+  {
+   "when": "1904",
+   "tag": "origins",
+   "claim": "A municipality was introduced in 1904 and controlled by the colonial administration until 1956.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "Conakry had a municipality, which was introduced in 1904 and controlled by the administration until 1956",
+    "verified": true
+   }
+  },
+  {
+   "when": "1908",
+   "tag": "growth",
+   "claim": "A railway linked Conakry to Mamou in 1908, reached Kouroussa in 1910 and Kankan in 1914.",
+   "source": {
+    "title": "Guinea: colonial period",
+    "publisher": "Encyclopedia of African History (K. Shillington, ed.), web copy",
+    "author": null,
+    "date": null,
+    "url": "https://webguine.site/bibliotheque/shillington_encyclopedia/guinea_colonial_period.html",
+    "tier": "encyclopedia",
+    "quote": "it linked Conakry to Mamou (about 186 miles from the capital) in 1908 and reached Kouroussa in 1910 and Kankan in 1914",
+    "verified": true
+   }
+  },
+  {
+   "when": "1953",
+   "tag": "growth",
+   "claim": "Iron ore was extracted near Conakry from 1953 by the Compagnie Minière de la Guinée française.",
+   "source": {
+    "title": "Guinea: colonial period",
+    "publisher": "Encyclopedia of African History (K. Shillington, ed.), web copy",
+    "author": null,
+    "date": null,
+    "url": "https://webguine.site/bibliotheque/shillington_encyclopedia/guinea_colonial_period.html",
+    "tier": "encyclopedia",
+    "quote": "Iron ore was extracted near Conakry beginning in 1953",
+    "verified": true
+   }
+  },
+  {
+   "when": "1958",
+   "tag": "growth",
+   "claim": "Guinea voted 'no' in the September 1958 referendum on its membership of the French Community.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "the September 1958 referendum on its membership of the French Community",
+    "verified": true
+   }
+  },
+  {
+   "when": "1977",
+   "tag": "growth",
+   "claim": "In 1977 women organised a protest demonstration over the food crisis, breaking the pattern of the period.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "The pattern was broken in 1977 when women organised a protest demonstration over the food crisis",
+    "verified": true
+   }
+  },
+  {
+   "when": "1983",
+   "tag": "growth",
+   "claim": "The first stone of the Fayçal Mosque in Donka was laid in 1983.",
+   "source": {
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA",
+    "author": "Odile Goerg",
+    "date": "2011",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "quote": "although the first stone was laid only in 1983",
+    "verified": true
+   }
+  },
+  {
+   "when": "2018",
+   "tag": "today",
+   "claim": "A fire in the night of 17-18 March 2018 destroyed at least 300 shops, stalls and kiosks in Madina market.",
+   "source": {
+    "title": "Guinée: le plus grand marché de Conakry ravagé par un incendie",
+    "publisher": "Wakat Séra",
+    "author": null,
+    "date": "2018-03-19",
+    "url": "https://www.wakatsera.com/guinee-le-plus-grand-marche-de-conakry-ravage-par-un-incendie/",
+    "tier": "press",
+    "quote": "Une partie du marché de Madina, le plus grand de Conakry en Guinée, a été ravagée par un grand incendie qui s’est déclaré dans la nuit du samedi 17 au dimanche 18 mars 2018",
+    "verified": true
+   }
+  },
+  {
+   "when": "2023",
+   "tag": "today",
+   "claim": "On 22 March 2023 the Prime Minister reopened the Grande Mosquée Fayçal after several years of renovation.",
+   "source": {
+    "title": "Culte : le Premier ministre procède à la réouverture de la grande mosquée Fayçal",
+    "publisher": "Guinéenews",
+    "author": null,
+    "date": "2023-03-22",
+    "url": "https://guineenews.org/2023/03/22/culte-le-premier-ministre-procede-a-la-reouverture-de-la-grande-mosquee-faycal/",
+    "tier": "press",
+    "quote": "a procédé ce mercredi 22 mars à la réouverture de la grande mosquée Fayçal de Conakry",
+    "verified": true
+   }
+  },
+  {
+   "when": "2025",
+   "tag": "today",
+   "claim": "The 2025 census (RGPH-4, preliminary) counted 3,407,327 people in the Conakry region.",
+   "source": {
+    "title": "Résultats préliminaires du RGPH-4 de la Guinée",
+    "publisher": "Institut National de la Statistique (Guinée)",
+    "author": null,
+    "date": "2026-02",
+    "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/rapports_enquetes/RGPH-4/Resultats_preliminaires_rgph_4.pdf",
+    "tier": "institutional",
+    "quote": "avec respectivement 3 407 327 habitants (19,4 %)",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Mount Nimba Strict Nature Reserve",
+   "type": "site",
+   "what": "The Nimba range is a 40 km ridge on the borders of Guinea, Liberia and Côte d'Ivoire. It is a transboundary World Heritage site listed as in danger, and home to the Nimba toad.",
+   "facts": [
     {
-      "claim": "Conakry was founded in 1887 on Tombo Island, later connected by a causeway to the Kaloum Peninsula, succeeding Benty in 1904 as the colonial capital of French Guinea.",
-      "source": {
-        "title": "Guinea: Regions, Major Cities & Urban Communes (Census 2014)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/guinea/cities/",
-        "tier": "institutional",
-        "quote": "Founded on Tombo Island and became capital in 1904"
-      }
+     "label": "World Heritage",
+     "value": "Inscribed 1981 (Guinea) and 1982 (Côte d'Ivoire) under natural criteria ix and x; transboundary site in danger",
+     "source": {
+      "title": "Mount Nimba Strict Nature Reserve – World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "author": null,
+      "date": null,
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mount-nimba-strict-nature-reserve/",
+      "tier": "institutional",
+      "quote": "NATURAL WORLD HERITAGE TRANSBOUNDARY SITE IN DANGER 1981 &1982: Inscribed on the World Heritage List under Natural Criteria ix and x",
+      "verified": true
+     }
     },
     {
-      "claim": "The Grande Mosquée de Conakry, inaugurated in 1982 by President Ahmed Sékou Touré with support from King Fahd of Saudi Arabia, is one of the largest mosques in sub-Saharan Africa, accommodating over 25,000 worshippers.",
-      "source": {
-        "title": "Patrimoine culturel de Conakry: Musée de Sandervalia et Grande Mosquée",
-        "publisher": "Ministère de la Culture, du Tourisme et de l'Artisanat de Guinée",
-        "author": null,
-        "date": null,
-        "url": "https://mcta.gov.gn/",
-        "tier": "institutional",
-        "quote": "Grande Mosquée de Conakry inaugurée en 1982 pouvant accueillir 25 000 fidèles"
-      }
+     "label": "Range",
+     "value": "A 40 km-long narrow ridge running southwest to northeast",
+     "source": {
+      "title": "Mount Nimba Strict Nature Reserve – World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "author": null,
+      "date": null,
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mount-nimba-strict-nature-reserve/",
+      "tier": "institutional",
+      "quote": "The Mount Nimba range is a 40 km-long narrow ridge running southwest to northeast",
+      "verified": true
+     }
     },
     {
-      "claim": "The Musée National de Sandervalia in Kaloum houses irreplaceable artistic treasures of the coastal Guinea peoples, including monumental shoulder masks (D'mba / Nimba) of the Baga tradition and ancient musical instruments.",
-      "source": {
-        "title": "Patrimoine culturel de Conakry: Musée de Sandervalia et Grande Mosquée",
-        "publisher": "Ministère de la Culture, du Tourisme et de l'Artisanat de Guinée",
-        "author": null,
-        "date": null,
-        "url": "https://mcta.gov.gn/",
-        "tier": "institutional",
-        "quote": "Musée de Sandervalia abritant les célèbres masques Nimba des Baga"
-      }
+     "label": "Fauna",
+     "value": "More than 500 new species of fauna described in the Guineo-Ivorian reserve",
+     "source": {
+      "title": "Mount Nimba Strict Nature Reserve – World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "author": null,
+      "date": null,
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mount-nimba-strict-nature-reserve/",
+      "tier": "institutional",
+      "quote": "More than 500 new species of fauna were described in the Guineo-Ivorian Mount Nimba Reserve",
+      "verified": true
+     }
+    },
+    {
+     "label": "Nimba toad",
+     "value": "Viviparous, among the world's few tailless amphibians that give live birth",
+     "source": {
+      "title": "Mount Nimba Strict Nature Reserve – World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "author": null,
+      "date": null,
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mount-nimba-strict-nature-reserve/",
+      "tier": "institutional",
+      "quote": "one of the world’s few tailless amphibians that is totally viviparous",
+      "verified": true
+     }
+    },
+    {
+     "label": "Mining threat",
+     "value": "Kon Kweni iron-ore project planned to be carved out of the reserve (2026 report)",
+     "source": {
+      "title": "Leaked study warns of irreversible damage from iron ore mine in Guinea UNESCO site",
+      "publisher": "Mongabay",
+      "author": null,
+      "date": "2026-06",
+      "url": "https://news.mongabay.com/2026/06/leaked-study-warns-of-irreversible-damage-from-iron-ore-mine-in-guinea-unesco-site/",
+      "tier": "press",
+      "quote": "The project, named Kon Kweni, is to be carved out of Mount Nimba Strict Nature Reserve",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final analytical results of the 4th general population census (RGPH-4) await official dissemination.",
-    "First-hand local voices from boatmen navigating the Îles de Los and traders in Marché Madina are still missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Grande Mosquée de Conakry",
+   "type": "culture",
+   "what": "The Fayçal Mosque in the suburb of Donka was funded and designed by Saudi Arabia and Morocco. It fell into disrepair and was reopened after renovation in March 2023.",
+   "facts": [
+    {
+     "label": "Origin",
+     "value": "Funded and designed by Saudi Arabia and Morocco; a building of the First Republic",
+     "source": {
+      "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+      "publisher": "CODESRIA",
+      "author": "Odile Goerg",
+      "date": "2011",
+      "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+      "tier": "academic",
+      "quote": "Funded and designed by Saudi Arabia and Morocco, the large Fayçal Mosque in the suburb of Donka",
+      "verified": true
+     }
+    },
+    {
+     "label": "Foundation stone",
+     "value": "Laid in 1983",
+     "source": {
+      "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+      "publisher": "CODESRIA",
+      "author": "Odile Goerg",
+      "date": "2011",
+      "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+      "tier": "academic",
+      "quote": "although the first stone was laid only in 1983",
+      "verified": true
+     }
+    },
+    {
+     "label": "Disrepair",
+     "value": "In 2017: cracked walls, pierced roof, carpets removed",
+     "source": {
+      "title": "Guinée: polémique autour de la grande mosquée Fayçal qui tombe en ruine",
+      "publisher": "Le360 Afrique",
+      "author": null,
+      "date": "2017-07-22",
+      "url": "https://afrique.le360.ma/guinee/societe/2017/07/22/13614-guinee-polemique-autour-de-la-grande-mosquee-faycal-qui-tombe-en-ruine-13614/",
+      "tier": "press",
+      "quote": "Murs fissurés, toit percé, tapis retirés",
+      "verified": true
+     }
+    },
+    {
+     "label": "Reopening",
+     "value": "Reopened on 22 March 2023 after several years of renovation",
+     "source": {
+      "title": "Culte : le Premier ministre procède à la réouverture de la grande mosquée Fayçal",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2023-03-22",
+      "url": "https://guineenews.org/2023/03/22/culte-le-premier-ministre-procede-a-la-reouverture-de-la-grande-mosquee-faycal/",
+      "tier": "press",
+      "quote": "après plusieurs années de rénovation",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée National de Sandervalia",
+   "type": "culture",
+   "what": "Guinea's national museum stands in Sandervalia, in Kaloum, on a site named after the explorer Aimé Olivier de Sanderval. Its oldest monument is his hut, built around 1897.",
+   "facts": [
+    {
+     "label": "Oldest monument",
+     "value": "The hut (case) of Aimé Olivier de Sanderval",
+     "source": {
+      "title": "Arts et culture : à la découverte du Musée national de Guinée",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2023-04-06",
+      "url": "https://guineenews.org/2023/04/06/arts-et-culture-a-la-decouverte-du-musee-national-de-guinee/",
+      "tier": "press",
+      "quote": "La case d’Aimé Olivier de Sanderval est le plus ancien monument",
+      "verified": true
+     }
+    },
+    {
+     "label": "Built",
+     "value": "Around 1897 by the French explorer Olivier de Sanderval",
+     "source": {
+      "title": "Arts et culture : à la découverte du Musée national de Guinée",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2023-04-06",
+      "url": "https://guineenews.org/2023/04/06/arts-et-culture-a-la-decouverte-du-musee-national-de-guinee/",
+      "tier": "press",
+      "quote": "Elle fut construite vers 1897 par l’explorateur français Olivier de Sanderval",
+      "verified": true
+     }
+    },
+    {
+     "label": "Origin of the museum",
+     "value": "Site retained as the National Museum during a sanitation campaign under Ahmed Sékou Touré",
+     "source": {
+      "title": "Arts et culture : à la découverte du Musée national de Guinée",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2023-04-06",
+      "url": "https://guineenews.org/2023/04/06/arts-et-culture-a-la-decouverte-du-musee-national-de-guinee/",
+      "tier": "press",
+      "quote": "à la faveur d’une campagne d’assainissement initiée par feu le président Ahmed Sékou Touré, le site a été retenu comme Musée national",
+      "verified": true
+     }
+    },
+    {
+     "label": "Courtyard",
+     "value": "Holds historic monuments to men and women who marked the country's history",
+     "source": {
+      "title": "Arts et culture : à la découverte du Musée national de Guinée",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2023-04-06",
+      "url": "https://guineenews.org/2023/04/06/arts-et-culture-a-la-decouverte-du-musee-national-de-guinee/",
+      "tier": "press",
+      "quote": "La vaste cour du Musée national de Guinée renferme des monuments historiques des hommes et des femmes qui ont marqué l’histoire du pays",
+      "verified": true
+     }
+    },
+    {
+     "label": "Neighbourhood",
+     "value": "Sandervalia is one of the neighbourhoods whose place names inform the city's history",
+     "source": {
+      "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+      "publisher": "CODESRIA",
+      "author": "Odile Goerg",
+      "date": "2011",
+      "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+      "tier": "academic",
+      "quote": "They included the Manquepas, Sandervalia and Coronthie neighbourhoods, whose place names provide information about the city’s history",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Marché Madina",
+   "type": "market",
+   "what": "Madina is described as the largest market in Conakry and the country's largest commercial centre. It has suffered several fires, including in 2018 and 2025.",
+   "facts": [
+    {
+     "label": "Scale",
+     "value": "The largest market in Conakry",
+     "source": {
+      "title": "Guinée: le plus grand marché de Conakry ravagé par un incendie",
+      "publisher": "Wakat Séra",
+      "author": null,
+      "date": "2018-03-19",
+      "url": "https://www.wakatsera.com/guinee-le-plus-grand-marche-de-conakry-ravage-par-un-incendie/",
+      "tier": "press",
+      "quote": "Une partie du marché de Madina, le plus grand de Conakry en Guinée",
+      "verified": true
+     }
+    },
+    {
+     "label": "Role",
+     "value": "Described as the country's largest commercial centre",
+     "source": {
+      "title": "Urgent Conakry : le grand marché en feu",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2025-08-07",
+      "url": "https://guineenews.org/2025/08/07/urgent-conakry-le-grand-marche-en-feu-maire/",
+      "tier": "press",
+      "quote": "Un violent incendie est en cours au marché Madina, le plus grands centre commercial du pays",
+      "verified": true
+     }
+    },
+    {
+     "label": "2018 fire",
+     "value": "At least 300 shops, stalls and kiosks destroyed (RFI)",
+     "source": {
+      "title": "Guinée: le plus grand marché de Conakry ravagé par un incendie",
+      "publisher": "Wakat Séra",
+      "author": null,
+      "date": "2018-03-19",
+      "url": "https://www.wakatsera.com/guinee-le-plus-grand-marche-de-conakry-ravage-par-un-incendie/",
+      "tier": "press",
+      "quote": "Selon RFI, au moins 300 commerces, étals et kiosques ont été détruits par les flammes",
+      "verified": true
+     }
+    },
+    {
+     "label": "Prices",
+     "value": "Guinéenews toured Conakry markets including Madina (the largest) to check Ramadan prices",
+     "source": {
+      "title": "Panier de la ménagère à Conakry : le niveau des prix des denrées à l'entame du Ramadan",
+      "publisher": "Guinéenews",
+      "author": null,
+      "date": "2024-03-13",
+      "url": "https://guineenews.org/2024/03/13/panier-de-la-menagere-a-conakry-le-niveau-des-prix-des-denrees-a-lentame-du-ramadan/",
+      "tier": "press",
+      "quote": "Madina (le plus grand)",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Census 2014 city figure not recorded: INS regional sheet table (1,675,069 for the region) is a garbled extract and was not used; 2025 preliminary figure is the only census value recorded",
+  "UNESCO whc.unesco.org returns 403; UNEP-WCMC datasheet used for Nimba",
+  "Mosque: sources conflict (Goerg: first stone 1983; secondary sources say opened 1982); only the Goerg date recorded",
+  "1977 market women's revolt at Madina not recorded: only Wikipedia/face2face (403) sources found; Goerg only mentions the 1977 women's protest without naming Madina",
+  "Museum founding year not verified",
+  "No myth-or-fact found"
+ ]
 }

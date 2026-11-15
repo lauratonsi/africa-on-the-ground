@@ -3,19 +3,344 @@
   "status": "draft",
   "country": "GMB",
   "name": "Banjul",
-  "subtitle": "Banjul, capital of The Gambia: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "subtitle": "Banjul, capital of Gambia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 31,054 people live in the Banjul local government area (the island city) (counted 2013).",
+      "cite": [
+        "cap-gbosdata-org-f8e75a"
+      ]
+    },
+    {
+      "text": "On 23 April 1816 Captain Alexander Grant made a treaty with the king of Kombo, Tomani Bojang, leasing the island to the British for 103 iron bars a year.",
+      "cite": [
+        "cap-accessgambia-com-b8537c"
+      ]
+    },
+    {
+      "text": "The lease was paid as a yearly sum of 103 iron bars.",
+      "cite": [
+        "cap-accessgambia-com-b8537c"
+      ]
+    }
+  ],
   "places": [
     "kunta-kinteh-island",
     "albert-market-banjul",
     "arch-22-banjul",
     "national-museum-of-the-gambia-banjul"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Banjul in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On 23 April 1816 Captain Alexander Grant made a treaty with the king of Kombo, Tomani Bojang, leasing the island to the British for 103 iron bars a year.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The lease was paid as a yearly sum of 103 iron bars.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The settlement was named Bathurst after the British Colonial Secretary, and the island before 1816 was known to the Portuguese as Banjulo.",
+              "cite": [
+                "cap-globalsecurity-org-cbffb3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bathurst was renamed Banjul in 1973.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 1980s, after a period of stagnation, many residents left Banjul for the Kombos, creating the Greater Banjul area.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 2013 census Banjul had the smallest share of the national population of any local government area, 1.6 percent.",
+              "cite": [
+                "cap-gbosdata-org-066711"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Banjul had the lowest share of females of any local government area in 2013, at 48.9 percent.",
+              "cite": [
+                "cap-gbosdata-org-066711"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Banjul municipality is the seat of government of The Gambia.",
+              "cite": [
+                "cap-dhsprogram-com-cd6e68"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Banjul and Kanifing are entirely urban, with no rural strata, in the 2013 survey design.",
+              "cite": [
+                "cap-dhsprogram-com-cd6e68"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Comparing the 2013 and 2024 censuses, Banjul was the only local government area whose population declined (by 15 percent).",
+              "cite": [
+                "cap-factcheckgambia-org-0f55d6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Gambia Ports Authority took over cargo handling in the port of Banjul from 1 January 1973.",
+              "cite": [
+                "cap-standard-gm-a7fca7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The museum's ground floor is dedicated to an exhibition on Banjul's history called 'Banjul, Bathurst, Banjul'.",
+              "cite": [
+                "cap-my-gambia-com-48d6da"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "31,054",
+              "label": "people in the Banjul local government area (the island city), 2013",
+              "cite": [
+                "cap-gbosdata-org-f8e75a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Banjul local government area (the island city)?",
+          "min": 0,
+          "max": 100000,
+          "step": 500,
+          "unit": "",
+          "answer": 31054,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "31,054 in 2013, according to the figures compiled from the national statistics office. Which area is counted matters: Banjul Local Government Area (Banjul City Council), the island city, 2013 census, both sexes.",
+              "cite": [
+                "cap-gbosdata-org-f8e75a"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1455",
+              "tag": "origins",
+              "text": "Portuguese navigators entered the mouth of the Gambia River in 1455 and were driven off by hostile locals.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            },
+            {
+              "when": "1816",
+              "tag": "origins",
+              "text": "Captain Alexander Grant concluded a treaty with Tomani Bojang, king of Kombo, for the island on 23 April 1816.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            },
+            {
+              "when": "1965",
+              "tag": "growth",
+              "text": "The name Bathurst symbolised British colonial rule over the island from 1816 to 1965.",
+              "cite": [
+                "cap-my-gambia-com-48d6da"
+              ]
+            },
+            {
+              "when": "1972",
+              "tag": "growth",
+              "text": "The Gambia Ports Authority began operating on 1 July 1972.",
+              "cite": [
+                "cap-standard-gm-a7fca7"
+              ]
+            },
+            {
+              "when": "1973",
+              "tag": "growth",
+              "text": "Bathurst was renamed Banjul.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            },
+            {
+              "when": "1985",
+              "tag": "growth",
+              "text": "The National Museum was created in 1985 by the first ministry of culture.",
+              "cite": [
+                "cap-my-gambia-com-48d6da"
+              ]
+            },
+            {
+              "when": "1995-1996",
+              "tag": "growth",
+              "text": "Arch 22 was built between 1995 and 1996 at a cost of US$1 million.",
+              "cite": [
+                "cap-justiceinfo-net-02a797"
+              ]
+            },
+            {
+              "when": "2013",
+              "tag": "today",
+              "text": "The 2013 census counted 31,054 people in Banjul.",
+              "cite": [
+                "cap-gbosdata-org-f8e75a"
+              ]
+            },
+            {
+              "when": "2017",
+              "tag": "today",
+              "text": "After the fall of Yahya Jammeh in January 2017 the 'unknown soldier' statue from Arch 22 was removed and later relocated to the National Museum.",
+              "cite": [
+                "cap-justiceinfo-net-02a797"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Banjul in order.",
+          "items": [
+            {
+              "label": "Portuguese navigators entered the mouth of the Gambia River in 1455 and were…",
+              "when": "1455",
+              "text": "Portuguese navigators entered the mouth of the Gambia River in 1455 and were driven off by hostile locals.",
+              "cite": [
+                "cap-accessgambia-com-b8537c"
+              ]
+            },
+            {
+              "label": "The Gambia Ports Authority began operating on 1 July 1972.",
+              "when": "1972",
+              "text": "The Gambia Ports Authority began operating on 1 July 1972.",
+              "cite": [
+                "cap-standard-gm-a7fca7"
+              ]
+            },
+            {
+              "label": "Arch 22 was built between 1995 and 1996 at a cost of US$1 million.",
+              "when": "1995-1996",
+              "text": "Arch 22 was built between 1995 and 1996 at a cost of US$1 million.",
+              "cite": [
+                "cap-justiceinfo-net-02a797"
+              ]
+            },
+            {
+              "label": "After the fall of Yahya Jammeh in January 2017 the 'unknown soldier' statue…",
+              "when": "2017",
+              "text": "After the fall of Yahya Jammeh in January 2017 the 'unknown soldier' statue from Arch 22 was removed and later relocated to the National Museum.",
+              "cite": [
+                "cap-justiceinfo-net-02a797"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Final published tables of the 2024 digital census are pending release from GBoS.",
-    "First-hand local voices from Barra ferry commuters and market women in Albert Market are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Census 2024 figure for Banjul city (reported elsewhere as 26,461) could not be verified on a readable official page; 2013 census used",
+    "Not found in a readable source: UNESCO whc.unesco.org pages return 403, so the UNESCO Multimedia Archives page was used for Kunta Kinteh Island",
+    "Not found in a readable source: No myth-or-fact item found with a readable source",
+    "Not found in a readable source: Some sources (Access Gambia, GlobalSecurity, My Gambia, Mainly Museums) are tourism/reference sites; a national-institution source for the 1816 treaty was not found",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Gambia has read this profile yet."
   ]
 }

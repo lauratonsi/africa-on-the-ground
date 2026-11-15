@@ -1,61 +1,495 @@
 {
-  "city": "Praia",
-  "country": "CPV",
-  "population": {
-    "value": 141219,
-    "year": 2021,
-    "definition": "Population of the Municipality of Praia (Concelho da Praia) on Santiago Island recorded in the 5th General Population and Housing Census (RGPH-2021, June 2021) conducted by the Instituto Nacional de Estatística (INE) of Cabo Verde, tabulated via CityPopulation. Praia accounts for nearly 29 percent of Cabo Verde's total national population.",
-    "source": {
-      "title": "Cabo Verde: Municipalities & Major Localities (Census 2021)",
-      "publisher": "CityPopulation (credits INE Cabo Verde)",
-      "author": null,
-      "date": "2021-06-16",
-      "url": "https://www.citypopulation.de/en/caboverde/cities/",
-      "tier": "institutional",
-      "quote": "2021-06-16 | Praia Municipality: 141,219"
-    }
+ "city": "Praia",
+ "country": "CPV",
+ "population": {
+  "value": 131602,
+  "year": 2010,
+  "definition": "Praia, the capital city and seat of the municipality of the same name, as given by the UN-Habitat urban profile citing the 2010 census; the same document elsewhere gives 131,719 for the municipal area of 258.1 km2",
+  "source": {
+   "title": "Perfil Urbano da Cidade da Praia",
+   "publisher": "UN-Habitat / Câmara Municipal da Praia",
+   "author": null,
+   "date": "2010",
+   "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+   "tier": "institutional",
+   "quote": "cidade capital constitui-se, desde então, no maior centro populacional do país albergando uma população de 131.602 habitantes conforme dados publicados no Censo de 2010",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Praia, the capital of the Republic of Cabo Verde, lies on the southern coast of Santiago, the largest island of the archipelago.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "A Cidade da Praia, capital da República de Cabo Verde e sede do Município do mesmo nome, situa-se no litoral Sul da ilha de Santiago, a maior ilha do arquipélago",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The city sits on a plateau with a central square, around which stand its main institutions such as churches, courts, town hall, market, banks and hospitals.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "a Cidade da Praia se encontra localizada num planalto, com uma praça central e, ao seu redor, as principais instituições e serviços, como igrejas, tribunais, câmara ou prefeitura, mercado, bancos, hospitais, escolas",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The town of Praia de Santa Maria appeared in 1615, when settlement began on a plateau near a beach that the colonisers called Santa Maria.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "A vila da Praia de Santa Maria surgiu em 1615, quando se deu o início do povoamento de um planalto situado perto de uma praia chamada pelos colonizadores de Santa Maria",
+    "verified": true
+   }
+  },
+  {
+   "claim": "After national independence in 1975 Praia experienced a demographic explosion caused by strong migration from the other islands and municipalities.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "Com o advento da independência nacional em 1975, a cidade da Praia conheceu uma explosão demográfica em consequência de um forte movimento migratório das restantes ilhas e concelhos do país",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The municipal territory of Praia covers 258.1 km2.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "convivem num espaço municipal de 258,1 km2",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Praia hosts the country's main industries and most of its services.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "é na capital que se encontram as principais indústrias do país e a generalidade dos serviços produzidos pelo país",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Praia airport was the first airport built and certified after independence.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "O Aeroporto da Praia foi o primeiro aeroporto a ser construído e certificado depois da Independência",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 2005 two of the three parishes of the municipality, its rural area, became a new municipality, Ribeira Grande de Santiago.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "parte importante da sua área rural (duas das 3 freguesias do concelho) se terem transformado num novo município em 2005, o da Ribeira Grande de Santiago",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Sucupira and Plateau markets are the capital's main markets, around which many informal street vendors work.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "A capital apresenta um número considerável de vendedores ambulantes ou informais, especialmente ao redor dos principais mercados da capital: Sucupira e Plateau",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1515",
+   "tag": "origins",
+   "claim": "The port of Praia is the place where enslaved Africans were landed from 1515, according to a study of the city's urban history.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "desde o desembarque dos africanos escravizados no porto da Praia, em 1515",
+    "verified": true
+   }
+  },
+  {
+   "when": "1615",
+   "tag": "origins",
+   "claim": "The town of Praia de Santa Maria arose when settlement of the plateau began.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "A vila da Praia de Santa Maria surgiu em 1615",
+    "verified": true
+   }
+  },
+  {
+   "when": "1770",
+   "tag": "growth",
+   "claim": "The official transfer of the capital from Ribeira Grande to Praia de Santa Maria took place.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "A passagem oficial da capital de Ribeira Grande para a Praia de Santa Maria aconteceu em 1770",
+    "verified": true
+   }
+  },
+  {
+   "when": "1858",
+   "tag": "growth",
+   "claim": "A decree raised Praia from town to city and made it definitively the capital of Cabo Verde.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "Através de um decreto de 1858, com a elevação do estatuto de vila para o de cidade, Praia tornou-se definitivamente a capital de Cabo Verde",
+    "verified": true
+   }
+  },
+  {
+   "when": "1975",
+   "tag": "today",
+   "claim": "After independence the city of Praia came to be understood as the Plateau plus all the surrounding neighbourhoods.",
+   "source": {
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB)",
+    "author": "Rutte Cardoso Andrade",
+    "date": "2019",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "quote": "Depois da independência, em 1975, é que se passou a considerar a cidade da Praia como sendo o Plateau, incluindo todos os bairros circundantes",
+    "verified": true
+   }
+  },
+  {
+   "when": "2005",
+   "tag": "today",
+   "claim": "Part of Praia's rural area became the new municipality of Ribeira Grande de Santiago.",
+   "source": {
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia",
+    "author": null,
+    "date": "2010",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "quote": "se terem transformado num novo município em 2005, o da Ribeira Grande de Santiago",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Cidade Velha, Historic Centre of Ribeira Grande",
+   "type": "site",
+   "what": "Cidade Velha, formerly Ribeira Grande, lies on the south of Santiago island. The UN reported UNESCO's description of it as the first colonial town built by Europeans in the tropics, with remains including two churches, a royal fortress and a pillory square.",
+   "facts": [
     {
-      "claim": "In 1770 the colonial capital of Cape Verde was transferred from Cidade Velha (Ribeira Grande) to Praia da Santa Maria due to the natural defensive advantages of the elevated volcanic Plateau and a deeper, well-sheltered harbor.",
-      "source": {
-        "title": "O Centro Histórico da Praia (Plateau) e o património crioulo",
-        "publisher": "Instituto do Património Cultural (IPC Cabo Verde)",
-        "author": null,
-        "date": null,
-        "url": "https://ipc.cv/",
-        "tier": "institutional",
-        "quote": "Transferência da capital de Cabo Verde para a Praia em 1770"
-      }
+     "label": "Status",
+     "value": "First colonial town built by Europeans in the tropics (UNESCO, reported by UN News, 2009)",
+     "source": {
+      "title": "UNESCO : La ville cap-verdienne de Cidade Velha au patrimoine mondial",
+      "publisher": "ONU Info (UN News)",
+      "author": null,
+      "date": "2009-06",
+      "url": "https://news.un.org/fr/story/2009/06/160572",
+      "tier": "institutional",
+      "quote": "a été la première ville coloniale construite par les Européens sous les tropiques",
+      "verified": true
+     }
     },
     {
-      "claim": "O Plateau, Praia's historic downtown, features Portuguese colonial neoclassical civic architecture centered around Praça Alexandre Albuquerque, flanked by the Presidential Palace, the Pro-Cathedral, and the Municipal Chamber.",
-      "source": {
-        "title": "O Centro Histórico da Praia (Plateau) e o património crioulo",
-        "publisher": "Instituto do Património Cultural (IPC Cabo Verde)",
-        "author": null,
-        "date": null,
-        "url": "https://ipc.cv/",
-        "tier": "institutional",
-        "quote": "Centro histórico do Plateau com traçado colonial e praça central"
-      }
+     "label": "Surviving remains",
+     "value": "Two churches, a royal fortress and the pillory square with its Manueline marble column",
+     "source": {
+      "title": "UNESCO : La ville cap-verdienne de Cidade Velha au patrimoine mondial",
+      "publisher": "ONU Info (UN News)",
+      "author": null,
+      "date": "2009-06",
+      "url": "https://news.un.org/fr/story/2009/06/160572",
+      "tier": "institutional",
+      "quote": "deux églises, une forteresse royale et la place du Pilori avec sa colonne de marbre de style manuélin",
+      "verified": true
+     }
     },
     {
-      "claim": "Mercado de Sucupira in Várzea is the archipelago's largest open-air bazaar, renowned as a dynamic crossroads for pan-African textiles, fresh island fruits, and Cape Verdean traditional handicrafts.",
-      "source": {
-        "title": "Cabo Verde: Municipalities & Major Localities (Census 2021)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/caboverde/cities/",
-        "tier": "institutional",
-        "quote": "Mercado de Sucupira maior centro comercial ao ar livre de Cabo Verde"
-      }
+     "label": "Name",
+     "value": "Ribeira Grande, renamed Cidade Velha at the end of the 18th century",
+     "source": {
+      "title": "UNESCO : La ville cap-verdienne de Cidade Velha au patrimoine mondial",
+      "publisher": "ONU Info (UN News)",
+      "author": null,
+      "date": "2009-06",
+      "url": "https://news.un.org/fr/story/2009/06/160572",
+      "tier": "institutional",
+      "quote": "La ville de Ribeira Grande, rebaptisée Cidade Velha à la fin du XVIIIème siècle",
+      "verified": true
+     }
+    },
+    {
+     "label": "Capital until",
+     "value": "1770, when the capital officially passed to Praia de Santa Maria",
+     "source": {
+      "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+      "publisher": "Revista Africas (UNEB)",
+      "author": "Rutte Cardoso Andrade",
+      "date": "2019",
+      "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+      "tier": "academic",
+      "quote": "A passagem oficial da capital de Ribeira Grande para a Praia de Santa Maria aconteceu em 1770",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Locality-level microdata for recent suburban expansion across Palmarejo and Cidadela are partially accessible online.",
-    "First-hand local voices from traditional tabanka performers and battêras are still missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "O Plateau e Praça Alexandre Albuquerque",
+   "type": "site",
+   "what": "The Plateau is the historic core of Praia, on the plateau where settlement began in 1615. It was the administrative seat of the country before independence, and neighbourhoods grew around it afterwards.",
+   "facts": [
+    {
+     "label": "Settlement began",
+     "value": "1615, on a plateau near a beach called Santa Maria",
+     "source": {
+      "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+      "publisher": "Revista Africas (UNEB)",
+      "author": "Rutte Cardoso Andrade",
+      "date": "2019",
+      "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+      "tier": "academic",
+      "quote": "A vila da Praia de Santa Maria surgiu em 1615, quando se deu o início do povoamento de um planalto",
+      "verified": true
+     }
+    },
+    {
+     "label": "Role",
+     "value": "Administrative seat of the country until independence",
+     "source": {
+      "title": "Perfil Urbano da Cidade da Praia",
+      "publisher": "UN-Habitat / Câmara Municipal da Praia",
+      "author": null,
+      "date": "2010",
+      "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+      "tier": "institutional",
+      "quote": "os bairros emergentes nas proximidades do Plateau, até então sede administrativa do país",
+      "verified": true
+     }
+    },
+    {
+     "label": "Layout",
+     "value": "A central square surrounded by churches, courts, town hall, market, banks and hospitals",
+     "source": {
+      "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+      "publisher": "Revista Africas (UNEB)",
+      "author": "Rutte Cardoso Andrade",
+      "date": "2019",
+      "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+      "tier": "academic",
+      "quote": "com uma praça central e, ao seu redor, as principais instituições e serviços, como igrejas, tribunais, câmara ou prefeitura, mercado, bancos, hospitais, escolas",
+      "verified": true
+     }
+    },
+    {
+     "label": "Markets",
+     "value": "The Plateau is one of the capital's two main markets, with informal vendors around it",
+     "source": {
+      "title": "Perfil Urbano da Cidade da Praia",
+      "publisher": "UN-Habitat / Câmara Municipal da Praia",
+      "author": null,
+      "date": "2010",
+      "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+      "tier": "institutional",
+      "quote": "especialmente ao redor dos principais mercados da capital: Sucupira e Plateau",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Museu Etnográfico da Praia",
+   "type": "culture",
+   "what": "The Ethnographic Museum stands on Rua 5 de Julho in the Plateau. It opened in 1997 to preserve and publicise traditional heritage such as costume, pottery, cloth and basketry.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "27 November 1997",
+     "source": {
+      "title": "Museu Etnográfico da Praia quer atrair público e triplicar o número de visitantes",
+      "publisher": "Caboverde-info",
+      "author": null,
+      "date": "2017",
+      "url": "https://www.caboverde-info.com/eng/News/Museu-Etnografico-da-Praia-quer-atrair-publico-e-triplicar-o-numero-de-visitantes-para-este-ano",
+      "tier": "press",
+      "quote": "Museu Etnográfico da Praia abriu as portas a 27 de Novembro de 1997",
+      "verified": true
+     }
+    },
+    {
+     "label": "Collections",
+     "value": "Traditional costumes, pottery, cloth weaving and basketry",
+     "source": {
+      "title": "Museu Etnográfico da Praia quer atrair público e triplicar o número de visitantes",
+      "publisher": "Caboverde-info",
+      "author": null,
+      "date": "2017",
+      "url": "https://www.caboverde-info.com/eng/News/Museu-Etnografico-da-Praia-quer-atrair-publico-e-triplicar-o-numero-de-visitantes-para-este-ano",
+      "tier": "press",
+      "quote": "serve para preservar e divulgar o património (trajes tradicionais, olaria, panaria e cestaria)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Rua 5 de Julho",
+     "source": {
+      "title": "Museu Etnográfico da Praia quer atrair público e triplicar o número de visitantes",
+      "publisher": "Caboverde-info",
+      "author": null,
+      "date": "2017",
+      "url": "https://www.caboverde-info.com/eng/News/Museu-Etnografico-da-Praia-quer-atrair-publico-e-triplicar-o-numero-de-visitantes-para-este-ano",
+      "tier": "press",
+      "quote": "Rua 5 de Julho, onde fica situado o Museu Etnográfico da Praia",
+      "verified": true
+     }
+    },
+    {
+     "label": "Language work",
+     "value": "Each 21 February the museum promotes Creole for International Mother Language Day",
+     "source": {
+      "title": "Museu Etnográfico da Praia quer atrair público e triplicar o número de visitantes",
+      "publisher": "Caboverde-info",
+      "author": null,
+      "date": "2017",
+      "url": "https://www.caboverde-info.com/eng/News/Museu-Etnografico-da-Praia-quer-atrair-publico-e-triplicar-o-numero-de-visitantes-para-este-ano",
+      "tier": "press",
+      "quote": "Brinca ku nos Língua” realizado por altura do Dia Internacional da Língua Materna (21 de Fevereiro), em que o museu divulga e promove a língua materna, ou seja, o crioulo",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mercado de Sucupira",
+   "type": "market",
+   "what": "Sucupira is described by the press as the largest open-air market in Cabo Verde. Traders and customers from several West African countries make it a place of cultural exchange.",
+   "facts": [
+    {
+     "label": "Size",
+     "value": "Described as the largest open-air market in Cabo Verde",
+     "source": {
+      "title": "Vhils fez retratos de Amílcar Cabral e Cesária Évora em Cabo Verde",
+      "publisher": "Diário de Notícias (Lusa)",
+      "author": null,
+      "date": "2019-10-26",
+      "url": "https://www.dn.pt/cultura/vhils-fez-retratos-de-amilcar-cabral-e-cesaria-evora-em-cabo-verde-11448493.html",
+      "tier": "press",
+      "quote": "o maior mercado a céu aberto de Cabo Verde",
+      "verified": true
+     }
+    },
+    {
+     "label": "Traders",
+     "value": "Welcomes citizens from Senegal, Guinea-Bissau, Nigeria, Mali and Guinea-Conakry",
+     "source": {
+      "title": "Cultural Diversity: Merchants of Sucupira call for respect and dialogue among cultures",
+      "publisher": "Inforpress",
+      "author": null,
+      "date": "2026-05-21",
+      "url": "https://www.inforpress.cv/en/cultural-diversity-merchants-of-sucupira-call-for-respect-and-dialogue-among-cultures",
+      "tier": "press",
+      "quote": "Known for welcoming citizens from various African countries, such as Senegal, Guinea-Bissau, Nigeria, Mali, and Guinea-Conakry",
+      "verified": true
+     }
+    },
+    {
+     "label": "Informal trade",
+     "value": "Informal street vendors cluster around Sucupira and the Plateau market",
+     "source": {
+      "title": "Perfil Urbano da Cidade da Praia",
+      "publisher": "UN-Habitat / Câmara Municipal da Praia",
+      "author": null,
+      "date": "2010",
+      "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+      "tier": "institutional",
+      "quote": "especialmente ao redor dos principais mercados da capital: Sucupira e Plateau",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Praia has always been the capital of Cabo Verde.",
+  "truth": "The capital was Ribeira Grande (today Cidade Velha) until the official transfer to Praia de Santa Maria in 1770; a decree of 1858 then made Praia a city and definitively the capital.",
+  "source": {
+   "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+   "publisher": "Revista Africas (UNEB)",
+   "author": "Rutte Cardoso Andrade",
+   "date": "2019",
+   "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+   "tier": "academic",
+   "quote": "A passagem oficial da capital de Ribeira Grande para a Praia de Santa Maria aconteceu em 1770",
+   "verified": true
+  }
+ },
+ "unreadable": [
+  "https://whc.unesco.org/en/list/1310/ (403)",
+  "https://www.anacao.cv/wp-content/uploads/2022/05/Caderno-Praia-768.pdf (Cloudflare)",
+  "https://cmsf.cv/wp-content/uploads/2020/07/resultados_preliminares_rgph-2021.pdf"
+ ],
+ "notNotFound": [
+  "2021 census (RGPH-2021) figure for Praia municipality not found on a readable official page; only the share 29.6% of national total appeared in press (RTP/Lusa), so population given is the 2010 census figure from the UN-Habitat profile (which itself quotes 131,602 and 131,719 in different places).",
+  "Praia Plateau/Praça Alexandre Albuquerque: no institutional page on the square itself was readable (CICOP page 404); facts are about the Plateau.",
+  "Founding of Cidade Velha in 1462 and its inscription date: only UNESCO pages carry them and these return 403.",
+  "Museu Etnográfico: reopening date conflicts between sources (17 vs 18 October 2016), not recorded."
+ ]
 }

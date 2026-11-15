@@ -1,0 +1,126 @@
+{
+  "slug": "kente-weaving-at-bonwire-and-among-the-ewe",
+  "status": "draft",
+  "type": "culture",
+  "country": "GHA",
+  "name": "Kente weaving at Bonwire and among the Ewe",
+  "region": "Bonwire, Ashanti · Ghana",
+  "subtitle": "Kente is a strip-woven cloth made by Asante and Ewe weavers in Ghana.",
+  "facts": [
+    {
+      "label": "Where",
+      "value": "Bonwire is a town in the Ashanti region known specifically for Asante kente weaving.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "Who weaves",
+      "value": "Traditionally Asante and Ewe men weave kente, using a wooden treadle loom to make long strips.",
+      "cite": [
+        "cap-eusa-org-10b79b"
+      ]
+    },
+    {
+      "label": "Who weaves in Bonwire",
+      "value": "In Bonwire women predominantly work in farming and men in weaving.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "Kente strips are woven on a double heddle loom that can be 200 feet or longer.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "Learning the craft",
+      "value": "Males born and raised in Bonwire are trained to weave kente.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "Size of the village",
+      "value": "In 1998 Bonwire had roughly 9,000 people, and the authors give a present figure close to 12,000.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "Origin story",
+      "value": "Bonwire's origin story names two farmer brothers, Kuragu and Ameyaw, as the first to weave kente in the 17th century.",
+      "cite": [
+        "cap-gbcghanaonline-com-77ac15"
+      ]
+    },
+    {
+      "label": "Ewe kente",
+      "value": "Ewe weavers are known for a popular version of kente called Agomevor, which dates to the sixteenth century.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    },
+    {
+      "label": "Ewe and Asante differences",
+      "value": "Ewe kente often shows a tweed effect from plying different coloured threads, and may include pictorial symbols.",
+      "cite": [
+        "cap-webexhibits-org-a4bca5"
+      ]
+    },
+    {
+      "label": "Museum",
+      "value": "The Bonwire Kente Museum is an initiative of the Ministry of Tourism, Arts and Culture and sits beside the Bonwire Kente Village, the hub for weaving and sales.",
+      "cite": [
+        "cap-gbcghanaonline-com-77ac15"
+      ]
+    },
+    {
+      "label": "Change and risk",
+      "value": "The chief of Bonwire asked government to help set up a factory for the yarn and raw materials of kente weaving, which are sometimes difficult to come by.",
+      "cite": [
+        "cap-gbcghanaonline-com-77ac15"
+      ]
+    },
+    {
+      "label": "Women's role",
+      "value": "Women play other roles in the kente economy with significant economic power, such as marketing and retailing.",
+      "cite": [
+        "cap-cambridge-org-694d4d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kente is a strip-woven cloth made by Asante and Ewe weavers in Ghana. Bonwire, a town in the Ashanti region, is known for Asante kente weaving, where men weave on a double heddle loom and women mostly farm; Ewe weavers make their own version, known as Agomevor. A kente museum opened at Bonwire in 2024.",
+              "cite": [
+                "cap-cambridge-org-694d4d",
+                "cap-eusa-org-10b79b",
+                "cap-gbcghanaonline-com-77ac15",
+                "cap-webexhibits-org-a4bca5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No maker or community member has reviewed this text yet.",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}

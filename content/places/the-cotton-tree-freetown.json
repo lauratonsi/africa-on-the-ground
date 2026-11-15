@@ -5,12 +5,63 @@
   "country": "SLE",
   "name": "The Historic Cotton Tree",
   "region": "Freetown · Sierra Leone",
-  "subtitle": "Centuries-old kapok tree where freed Black Loyalist settlers gathered in 1792, revered as the national symbol of liberty.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A national symbol that stood in the centre of Freetown until a storm felled it in May 2023.",
+  "facts": [
+    {
+      "label": "Fell",
+      "value": "May 2023, in a storm",
+      "cite": [
+        "cap-aljazeera-com-10c271"
+      ]
+    },
+    {
+      "label": "Size and age",
+      "value": "About 70 m tall, roughly 400 years old (estimates vary)",
+      "cite": [
+        "cap-aljazeera-com-10c271"
+      ]
+    },
+    {
+      "label": "Legend",
+      "value": "Returnees prayed under it in the late 1700s",
+      "cite": [
+        "cap-aljazeera-com-10c271"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Roundabout near the national museum, post office and highest court",
+      "cite": [
+        "cap-africanews-com-df2489"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A national symbol that stood in the centre of Freetown until a storm felled it in May 2023. Locals say returning settlers prayed under it in the late 1700s, and it once towered over a busy roundabout near the national museum.",
+              "cite": [
+                "cap-aljazeera-com-10c271",
+                "cap-africanews-com-df2489"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

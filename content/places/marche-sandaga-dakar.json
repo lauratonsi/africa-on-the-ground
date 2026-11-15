@@ -5,12 +5,55 @@
   "country": "SEN",
   "name": "Marché Sandaga",
   "region": "Dakar · Senegal",
-  "subtitle": "Historic neo-Sudanese central market in downtown Dakar Plateau, legendary center of commerce and fashion.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A great hall built in the Sudanese-Sahel tradition in 1933, which for almost a century was one of Dakar's main trading centres.",
+  "facts": [
+    {
+      "label": "Built",
+      "value": "1933",
+      "cite": [
+        "cap-arabnews-pk-ef4564"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "One of Dakar's main trading centres for almost a century",
+      "cite": [
+        "cap-arabnews-pk-ef4564"
+      ]
+    },
+    {
+      "label": "Demolition begun",
+      "value": "August 2020",
+      "cite": [
+        "cap-arabnews-pk-ef4564"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A great hall built in the Sudanese-Sahel tradition in 1933, which for almost a century was one of Dakar's main trading centres. Demolition began in August 2020.",
+              "cite": [
+                "cap-arabnews-pk-ef4564"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

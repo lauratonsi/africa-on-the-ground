@@ -1,61 +1,531 @@
 {
-  "city": "Bamako",
-  "country": "MLI",
-  "population": {
-    "value": 2124032,
-    "year": 2009,
-    "definition": "Population of the Capital District of Bamako (comprising six urban communes: Communes I through VI) recorded in the 4th General Population and Housing Census (RGPH-4, April 2009) conducted by the Institut National de la Statistique (INSTAT) of Mali, tabulated via CityPopulation. Provisional results of the 2022 5th General Census (RGPH-5) enumerate 4,227,569 residents, reflecting the city doubling its population in thirteen years.",
-    "source": {
-      "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
-      "publisher": "CityPopulation (credits INSTAT Mali)",
-      "author": null,
-      "date": "2009-04-17",
-      "url": "https://www.citypopulation.de/en/mali/cities/",
-      "tier": "institutional",
-      "quote": "2009-04-17 | Bamako District: 2,124,032 (2022 census: 4,227,569)"
-    }
+ "city": "Bamako",
+ "country": "MLI",
+ "population": {
+  "value": 4227569,
+  "year": 2022,
+  "definition": "District of Bamako, resident population at the fifth general census (RGPH5, 2022), preliminary results report published November 2023",
+  "source": {
+   "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+   "publisher": "INSTAT Mali (Institut national de la statistique)",
+   "author": null,
+   "date": "2023-11",
+   "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+   "tier": "institutional",
+   "quote": "Le district de Bamako, où réside une population de 4 227 569 habitants, soit 18,9 % de l’ensemble de la population, est le plus peuplé",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Bamako comes from the Bambara for 'marigot du crocodile' (crocodile backwater), and was founded at the end of the 16th century by the Niaré, formerly called Niakaté, originally Sarakolé.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "a été fondée à la fin du XVIe siècle par les Niaré, anciennement appelés Niakaté, qui sont des Sarakolés à l'origine",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The three crocodiles that symbolise Bamako come from the three backwaters (Lido, Diafarana and Bèlèsôkô) that once crossed the city and flowed into the Niger.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "Les trois crocodiles qui symbolisent Bamako trouvent leur origine à partir des trois marigots qui traversaient Bamako : Lido, Diafarana et Bèlèsôkô",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Niaréla, the Niaré quarter, is one of the oldest districts of Bamako.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "Niaréla, le quartier des Niaré, est un des plus anciens quartiers de Bamako",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The district of Bamako holds 18.9 percent of Mali's population and is the most populous region.",
+   "source": {
+    "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+    "publisher": "INSTAT Mali (Institut national de la statistique)",
+    "author": null,
+    "date": "2023-11",
+    "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+    "tier": "institutional",
+    "quote": "soit 18,9 % de l’ensemble de la population, est le plus peuplé",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The district of Bamako has an urbanisation rate of 99.7 percent, the highest in Mali.",
+   "source": {
+    "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+    "publisher": "INSTAT Mali (Institut national de la statistique)",
+    "author": null,
+    "date": "2023-11",
+    "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+    "tier": "institutional",
+    "quote": "Les taux d’urbanisation les plus élevés sont observés à Bamako (99,7 %)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "More than half of Mali's urban population lives in the district of Bamako (62 percent).",
+   "source": {
+    "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+    "publisher": "INSTAT Mali (Institut national de la statistique)",
+    "author": null,
+    "date": "2023-11",
+    "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+    "tier": "institutional",
+    "quote": "plus de la moitié de la population résidente urbaine vit dans le district de Bamako (62 %)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Koulouba palace, built between 1903 and 1907 as the governor's palace, became the seat of the presidency of the Republic at independence in 1960.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "Entre 1903 et 1907 est construit le palais de Koulouba, palais du gouverneur puis siège de la présidence de la République à partir de l’indépendance en 1960",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Point G hospital began to be built in 1905.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "En 1905 débute la construction de l’Hôpital du point G",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "late 16th century",
+   "tag": "origins",
+   "claim": "Bamako was founded by the Niaré (Niakaté), who were originally Sarakolé.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "a été fondée à la fin du XVIe siècle par les Niaré",
+    "verified": true
+   }
+  },
+  {
+   "when": "1883",
+   "tag": "origins",
+   "claim": "On 1 February French forces led by Borgnis-Desbordes entered Bamako, then a fortified village of 600 inhabitants.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "Bamako est un gros village fortifié de 600 habitants, lorsque le 1er février 1883, les Français, avec Borgnis-Desbordes, y pénètrent",
+    "verified": true
+   }
+  },
+  {
+   "when": "1895",
+   "tag": "growth",
+   "claim": "Bamako became the administrative seat (chef-lieu) of a cercle.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "En 1895, elle devient chef-lieu de cercle",
+    "verified": true
+   }
+  },
+  {
+   "when": "1899",
+   "tag": "growth",
+   "claim": "Bamako became capital of Haut Sénégal-Niger on 17 October, and of French Sudan in 1920.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "capitale du Haut Sénégal-Niger le 17 octobre 1899 puis du Soudan français en 1920",
+    "verified": true
+   }
+  },
+  {
+   "when": "1904",
+   "tag": "growth",
+   "claim": "The Dakar-Niger railway line was inaugurated.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "En 1904, la ligne du chemin de fer Dakar-Niger est inaugurée",
+    "verified": true
+   }
+  },
+  {
+   "when": "1960",
+   "tag": "today",
+   "claim": "Koulouba palace became the seat of the presidency of the Republic at independence.",
+   "source": {
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru",
+    "author": null,
+    "date": "2017-02-03",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "quote": "siège de la présidence de la République à partir de l’indépendance en 1960",
+    "verified": true
+   }
+  },
+  {
+   "when": "1976",
+   "tag": "growth",
+   "claim": "The Grande Mosquée, rebuilt from 1966 with Saudi support, was inaugurated on 30 July by President Moussa Traoré.",
+   "source": {
+    "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+    "publisher": "Bamada.net",
+    "author": null,
+    "date": "2017",
+    "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+    "tier": "press",
+    "quote": "Elle fut inaugurée le 30 juillet 1976 par l’ancien président de la République, le Général Moussa Traoré",
+    "verified": true
+   }
+  },
+  {
+   "when": "2022",
+   "tag": "today",
+   "claim": "The fifth general census (RGPH5) found 4,227,569 residents in the district of Bamako.",
+   "source": {
+    "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+    "publisher": "INSTAT Mali (Institut national de la statistique)",
+    "author": null,
+    "date": "2023-11",
+    "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+    "tier": "institutional",
+    "quote": "Le district de Bamako, où réside une population de 4 227 569 habitants",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Old Towns of Djenné",
+   "type": "site",
+   "what": "The Old Towns of Djenné, in the Niger inland delta far from Bamako, were inscribed on the World Heritage List in 1988. The Great Mosque dominates the market square and is replastered each year by the community.",
+   "facts": [
     {
-      "claim": "Originally a cluster of Bozo and Bambara fishing and agricultural villages along the Niger River ('Bama-ko', meaning 'crocodile pond'), Bamako became the capital of French Sudan in 1908.",
-      "source": {
-        "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/mali/cities/",
-        "tier": "institutional",
-        "quote": "Bamako made capital of French Sudan in 1908"
-      }
+     "label": "Inscribed",
+     "value": "1988, under criteria iii and iv",
+     "source": {
+      "title": "Mali, Les Villes Anciennes de Djenné, Site du patrimoine mondial C 116 rev, mission de suivi réactif 13-17 mars 2006",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS / ICCROM",
+      "author": null,
+      "date": "2006-03",
+      "url": "https://whc.unesco.org/archive/2006/mis116rev-mar06.pdf",
+      "tier": "institutional",
+      "quote": "Il a été classé sur la Liste du patrimoine mondial de l’UNESCO en 1988 au titre des critères iii et iv",
+      "verified": true
+     }
     },
     {
-      "claim": "The Musée National du Mali, housed in award-winning local cut-stone architecture designed by Jean-Loup Pivin, safeguards masterworks of Dogon statuary, Bozo puppets, prehistoric textiles, and musical harps.",
-      "source": {
-        "title": "Le Musée National du Mali: Architecture de terre et trésors du Niger",
-        "publisher": "Ministère de l'Artisanat, de la Culture, de l'Industrie Hôtelière et du Tourisme du Mali",
-        "author": null,
-        "date": null,
-        "url": "https://culture.gouv.ml/",
-        "tier": "institutional",
-        "quote": "Musée national d'architecture en terre crue et pierre abritant les trésors artistiques du Mali"
-      }
+     "label": "Archaeological sites",
+     "value": "Four archaeological sites inscribed alongside the town",
+     "source": {
+      "title": "Mali, Les Villes Anciennes de Djenné, Site du patrimoine mondial C 116 rev, mission de suivi réactif 13-17 mars 2006",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS / ICCROM",
+      "author": null,
+      "date": "2006-03",
+      "url": "https://whc.unesco.org/archive/2006/mis116rev-mar06.pdf",
+      "tier": "institutional",
+      "quote": "quatre sites archéologiques de Djenné ont été inscrits comme bien du patrimoine mondial en 1988",
+      "verified": true
+     }
     },
     {
-      "claim": "Grand Marché Dabanani in central Bamako is the commercial heart of the Sahelian metropolis, renowned for hand-dyed indigo fabrics, authentic Bogolan mud-cloth, and herbal traditional medicines.",
-      "source": {
-        "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/mali/cities/",
-        "tier": "institutional",
-        "quote": "Grand Marché Dabanani carrefour des tissus bogolan et de l'artisanat sahélien"
-      }
+     "label": "Great Mosque",
+     "value": "Rebuilt in 1907; it dominates the market square",
+     "source": {
+      "title": "Mali, Les Villes Anciennes de Djenné, Site du patrimoine mondial C 116 rev, mission de suivi réactif 13-17 mars 2006",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS / ICCROM",
+      "author": null,
+      "date": "2006-03",
+      "url": "https://whc.unesco.org/archive/2006/mis116rev-mar06.pdf",
+      "tier": "institutional",
+      "quote": "dominée par la grande mosquée de Djenné reconstruite en 1907",
+      "verified": true
+     }
+    },
+    {
+     "label": "Replastering",
+     "value": "Annual replastering of the Great Mosque with banco (earth plaster), June 2025 event reported by AFP",
+     "source": {
+      "title": "Des milliers de Maliens recrépissent l'iconique mosquée de Djenné",
+      "publisher": "France 24 (AFP)",
+      "author": null,
+      "date": "2025-06-13",
+      "url": "https://www.france24.com/fr/info-en-continu/20250613-des-milliers-de-maliens-recr%C3%A9pissent-l-iconique-mosqu%C3%A9e-de-djenn%C3%A9",
+      "tier": "press",
+      "quote": "pour le crépissage annuel de la grande mosquée de Djenné, le 12 juin 2025",
+      "verified": true
+     }
+    },
+    {
+     "label": "Population",
+     "value": "About forty thousand inhabitants, with traditional banco houses preserved",
+     "source": {
+      "title": "Des milliers de Maliens recrépissent l'iconique mosquée de Djenné",
+      "publisher": "France 24 (AFP)",
+      "author": null,
+      "date": "2025-06-13",
+      "url": "https://www.france24.com/fr/info-en-continu/20250613-des-milliers-de-maliens-recr%C3%A9pissent-l-iconique-mosqu%C3%A9e-de-djenn%C3%A9",
+      "tier": "press",
+      "quote": "La ville de Djenné, qui compte une quarantaine de milliers d'habitants et qui a préservé ses maisons traditionnelles en banco, est inscrite depuis 1988 par l'Unesco",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final published microdata tables of the 2022 5th census round are pending completion by INSTAT.",
-    "First-hand local voices from Bogolan master dyers and Bozo river fishermen are missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Musée National du Mali",
+   "type": "culture",
+   "what": "The National Museum in Bamako displays Tellem textiles found in the Sangha caves of Dogon country, as well as bogolan mud cloth.",
+   "facts": [
+    {
+     "label": "Tellem textiles",
+     "value": "Found in the Sangha caves in Dogon country between 1960 and 1964, shown at the museum since 2002",
+     "source": {
+      "title": "Au Musée National du Mali, les textiles exposés parlent civilisation antique",
+      "publisher": "Anadolu Agency",
+      "author": null,
+      "date": null,
+      "url": "https://www.aa.com.tr/fr/culture-et-arts/au-mus%C3%A9e-national-du-mali-les-textiles-expos%C3%A9s-parlent-civilisation-antique/8623",
+      "tier": "press",
+      "quote": "découverts dans les grottes de Sangha au pays Dogon (Nord-Ouest, au niveau de la falaise de Bandiagara) entre 1960 et 1964 et sont désormais exposés au Musée National à Bamako, depuis 2002",
+      "verified": true
+     }
+    },
+    {
+     "label": "Age of the textiles",
+     "value": "Some date from the 11th century, the most recent from the 18th, according to the museum's director",
+     "source": {
+      "title": "Au Musée National du Mali, les textiles exposés parlent civilisation antique",
+      "publisher": "Anadolu Agency",
+      "author": null,
+      "date": null,
+      "url": "https://www.aa.com.tr/fr/culture-et-arts/au-mus%C3%A9e-national-du-mali-les-textiles-expos%C3%A9s-parlent-civilisation-antique/8623",
+      "tier": "press",
+      "quote": "certains tissus datent du 11e siècle et que les plus récents, du 18e",
+      "verified": true
+     }
+    },
+    {
+     "label": "Bogolan",
+     "value": "Mud-cloth technique; 'bogo' means earth and 'lan' technique in Bambara",
+     "source": {
+      "title": "Au Musée National du Mali, les textiles exposés parlent civilisation antique",
+      "publisher": "Anadolu Agency",
+      "author": null,
+      "date": null,
+      "url": "https://www.aa.com.tr/fr/culture-et-arts/au-mus%C3%A9e-national-du-mali-les-textiles-expos%C3%A9s-parlent-civilisation-antique/8623",
+      "tier": "press",
+      "quote": "Bogo” veut dire “terre” et “lan” veut dire “technique",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grande Mosquée de Bamako",
+   "type": "culture",
+   "what": "The Grande Mosquée de Bamako, built in 1948, was rebuilt from 1966 with Saudi backing and inaugurated in 1976. A decree of April 2017 gave it the name of King Faisal.",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "1948, rebuilt from 1966 with Saudi support under King Faisal",
+     "source": {
+      "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+      "publisher": "Bamada.net",
+      "author": null,
+      "date": "2017",
+      "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+      "tier": "press",
+      "quote": "construite en 1948, a subi une reconstruction à partir de 1966 grâce au soutien du Royaume d’Arabie saoudite",
+      "verified": true
+     }
+    },
+    {
+     "label": "Inaugurated",
+     "value": "30 July 1976, by President Moussa Traoré",
+     "source": {
+      "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+      "publisher": "Bamada.net",
+      "author": null,
+      "date": "2017",
+      "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+      "tier": "press",
+      "quote": "Elle fut inaugurée le 30 juillet 1976 par l’ancien président de la République, le Général Moussa Traoré",
+      "verified": true
+     }
+    },
+    {
+     "label": "Renamed",
+     "value": "Named after King Faisal by presidential decree of 5 April 2017",
+     "source": {
+      "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+      "publisher": "Bamada.net",
+      "author": null,
+      "date": "2017",
+      "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+      "tier": "press",
+      "quote": "Cette décision a été prise par Décret présidentiel pris en conseil des ministres le 5 avril 2017",
+      "verified": true
+     }
+    },
+    {
+     "label": "Origin of the project",
+     "value": "Traced to King Faisal's visit to Mali on 17 September 1966",
+     "source": {
+      "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+      "publisher": "Bamada.net",
+      "author": null,
+      "date": "2017",
+      "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+      "tier": "press",
+      "quote": "remonte de la visite du Roi Fayçal au Mali le 17 septembre 1966",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grand Marché Dabanani",
+   "type": "market",
+   "what": "Dabanani is the part of Bamako's Grand Marché that has burned repeatedly. Press reports describe frequent fires and narrow alleys that hamper firefighters.",
+   "facts": [
+    {
+     "label": "Fires",
+     "value": "Described in 2024 as burning almost every year at Dabanani",
+     "source": {
+      "title": "Incendie au grand marché de Bamako : des dizaines de magasins sont partis en fumée",
+      "publisher": "Actuel Média",
+      "author": null,
+      "date": "2024-02-28",
+      "url": "https://actuelmedia.net/2024/02/28/incendie-au-grand-marche-de-bamako-des-dizaines-de-magasins-sont-partis-en-fumee/",
+      "tier": "press",
+      "quote": "Presque chaque année le marché de Bamako plus précisément à dabanani, connaît un incendie dévastateur à répétition",
+      "verified": true
+     }
+    },
+    {
+     "label": "14 February 2024",
+     "value": "A fire broke out around 2 a.m. at Dabanani",
+     "source": {
+      "title": "Mali : Une partie du grand marché de Bamako ravagée par un incendie",
+      "publisher": "Afrik Soir",
+      "author": "Karina Fofana",
+      "date": "2025-03-30",
+      "url": "https://afriksoir.net/mali-une-partie-du-grand-marche-de-bamako-ravagee-par-un-incendie/",
+      "tier": "press",
+      "quote": "Le 14 février 2024, un sinistre s’était déclaré vers 2 heures du matin au niveau de Dabanani",
+      "verified": true
+     }
+    },
+    {
+     "label": "2017 fire",
+     "value": "The December 2017 fire of the 'marché rose' was its third, after 1993 and 2014, and the most serious",
+     "source": {
+      "title": "Reconstruction après l'incendie qui a frappé le marché de Bamako",
+      "publisher": "VOA Afrique",
+      "author": null,
+      "date": "2017-12",
+      "url": "https://www.voaafrique.com/a/un-nouvel-incendie-sur-le-marche-de-bamako/4161873.html",
+      "tier": "press",
+      "quote": "Le marché rose de Bamako vient de connaitre son 3e incendie, après 1993 et 2014, l'incendie du 11 décembre est le plus grave",
+      "verified": true
+     }
+    },
+    {
+     "label": "Access",
+     "value": "Narrow alleys make it hard for firefighters to reach the market",
+     "source": {
+      "title": "Bamako : le marché rose en feu",
+      "publisher": "Bamada.net",
+      "author": "Mohamed Keita",
+      "date": "2017-12-12",
+      "url": "https://bamada.net/bamako-le-marche-rose-en-feu",
+      "tier": "press",
+      "quote": "Il est difficile pour les sapeurs-pompiers d’accéder au marché parce que les allées sont très étroites",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Bamako was already a large city when the French arrived.",
+  "truth": "At the end of the 19th century Bamako was a large fortified village of 600 inhabitants when the French entered it on 1 February 1883; the district now has 4,227,569 residents (2022).",
+  "source": {
+   "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+   "publisher": "Kibaru",
+   "author": null,
+   "date": "2017-02-03",
+   "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+   "tier": "press",
+   "quote": "À la fin du XIXe siècle, Bamako est un gros village fortifié de 600 habitants",
+   "verified": true
+  }
+ },
+ "unreadable": [
+  "https://whc.unesco.org/en/list/116/ (403)",
+  "https://musee-national-mali.org/presentation/ (no text)",
+  "https://fuga.gouv.ml/infrastructure/le-musee-national-du-mali/ (no response)",
+  "https://www.maliweb.net/... (403)",
+  "https://www.afrik.com/le-mali-tisse-sa-memoire (403)",
+  "https://instat-mali.org/.../repvil-rgph5_rgph.pdf (404)"
+ ],
+ "notNotFound": [
+  "Population is from the preliminary RGPH5 report (November 2023); no final report with a city-proper figure was read. The 2009 census figure (1,810,366) was not verified on a readable official page.",
+  "Musée National du Mali: founding date (1953 under IFAN, building 1981) found only in sources that were unreadable or tourist sites, so not recorded.",
+  "Grand Marché Dabanani: origins and date of the 1993-1996 rebuilding not verified from a readable page; the 'marché rose' of the 2017 report is treated as Bamako's central market.",
+  "Djenné: dating of the first mosque and of Djenné-Djenno not verified; UNESCO list page returns 403.",
+  "Bamako city-proper vs district: the census figure is for the District of Bamako (the capital's administrative district).",
+  "Mosque capacity and architecture of the Bamako Grande Mosquée not verified."
+ ]
 }

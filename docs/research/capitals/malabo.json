@@ -1,61 +1,571 @@
 {
-  "city": "Malabo",
-  "country": "GNQ",
-  "population": {
-    "value": 257000,
-    "year": 2015,
-    "definition": "Population of the City of Malabo enumerated in the 4th General Population and Housing Census (IV Censo de Población y Vivienda 2015) conducted by the Instituto Nacional de Estadística de Guinea Ecuatorial (INEGE), tabulated via CityPopulation. Bioko Norte Province as a whole recorded 300,374 residents.",
-    "source": {
-      "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
-      "publisher": "CityPopulation (credits INEGE)",
-      "author": null,
-      "date": "2015-07-01",
-      "url": "https://www.citypopulation.de/en/eqguinea/cities/",
-      "tier": "institutional",
-      "quote": "2015-07-01 | Malabo: 257,000; Bioko Norte Province: 300,374"
-    }
+ "city": "Malabo",
+ "country": "GNQ",
+ "population": {
+  "value": 271008,
+  "year": 2015,
+  "definition": "Malabo district (distrito) as tabulated in the 2015 census (IV Censo General de Población y Vivienda), reproduced in the INEGE 2025 statistical yearbook; not a separate urban-agglomeration figure",
+  "source": {
+   "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+   "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+   "author": null,
+   "date": "2025",
+   "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+   "tier": "institutional",
+   "quote": "2015 District Bata Malabo Ebibeyin Mongomo ... 309.345 271.008 94.019",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Bioko island covers 2,017 km2 and, according to INEGE, was called Fernando Poo during Spanish colonisation in honour of the Portuguese navigator who discovered it in 1472.",
+   "source": {
+    "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+    "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+    "author": null,
+    "date": "2025",
+    "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+    "tier": "institutional",
+    "quote": "dont 2 017 km² correspondent à l'île de Bioko ... Elle a été appelée Fernando Poo pendant la colonisation espagnole, en l'honneur du navigateur portugais qui l'a découverte en 1472",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Bioko is ringed by a coastal plain about 5 km wide, which holds three bays, one of them the bay of the port of Malabo.",
+   "source": {
+    "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+    "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+    "author": null,
+    "date": "2025",
+    "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+    "tier": "institutional",
+    "quote": "L'île est entourée d'une plaine côtière d'environ 5 kilomètres de large ... celle du port de Malabo, celle de La Concepción et celle de Luba",
+    "verified": true
+   }
+  },
+  {
+   "claim": "A presidential decree of January 2026 declared Ciudad de la Paz, in Djibloho province, the capital of Equatorial Guinea in place of Malabo.",
+   "source": {
+    "title": "E.Guinea relocates capital to 'city of peace'",
+    "publisher": "Daily Tribune (AFP)",
+    "author": null,
+    "date": "2026-01-04",
+    "url": "https://tribune.net.ph/2026/01/04/eguinea-relocates-capital-to-city-of-peace",
+    "tier": "press",
+    "quote": "Ciudad de la Paz, in the province of Djibloho, is declared the capital of the Republic of Equatorial Guinea",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Malabo is described as a city of about 300,000 people on Bioko Island, which official institutions were given a year to leave after the 2026 capital decree.",
+   "source": {
+    "title": "Equatorial Guinea's new capital still has no residents",
+    "publisher": "Kuwait Times (AFP)",
+    "author": null,
+    "date": "2026",
+    "url": "https://kuwaittimes.com/article/49584/world/equatorial-guineas-new-capital-still-has-no-residents/",
+    "tier": "press",
+    "quote": "Official institutions have been given a year to move from the old capital Malabo, a city of about 300,000 on Bioko Island in the Gulf of Guinea.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Malabo was the capital from independence from Spain in 1968 until the 2026 decree.",
+   "source": {
+    "title": "Equatorial Guinea's new capital still has no residents",
+    "publisher": "Kuwait Times (AFP)",
+    "author": null,
+    "date": "2026",
+    "url": "https://kuwaittimes.com/article/49584/world/equatorial-guineas-new-capital-still-has-no-residents/",
+    "tier": "press",
+    "quote": "Malabo had been the capital since independence from Spain in 1968",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The British called the settlement Port Clarence and it was later named Santa Isabel in honour of the Queen of Spain.",
+   "source": {
+    "title": "Aldaba (UNED) article on Spain and Equatorial Guinea",
+    "publisher": "Aldaba, UNED",
+    "author": null,
+    "date": null,
+    "url": "https://revistas.uned.es/index.php/ALDABA/article/download/20474/16963/40478",
+    "tier": "academic",
+    "quote": "Fue llamada por los ingleses Port Clarence y posteriormente, Santa Isabel en honor de la reina de España",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The expansion of Malabo has deepened uneven urban planning, producing neighbourhoods with large social differences and poor connections, according to the Spanish cultural centre in the city.",
+   "source": {
+    "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+    "publisher": "AECID, Centro Cultural de España en Malabo",
+    "author": null,
+    "date": "2023",
+    "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+    "tier": "institutional",
+    "quote": "El proceso expansivo de Malabo ha acuciado la desigual articulación urbanística, dando lugar a barrios con grandes diferencias sociales y mal conectados.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "INEGE's yearbook tracks air traffic at the airport of Malabo and the arrival of commercial ships at the ports of Malabo and Bata.",
+   "source": {
+    "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+    "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+    "author": null,
+    "date": "2025",
+    "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+    "tier": "institutional",
+    "quote": "Tableau 179: Trafic aérien de l’aéroport de Malabo ... Graphique 37: Évolution annuelle de l’arrivée des navires commerciaux aux ports de Malabo et Bata",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Rapid urban growth of Malabo, the former political capital on Bioko island, and of Bata was among the reasons cited for moving the capital.",
+   "source": {
+    "title": "Ciudad de la Paz devient la nouvelle capitale de la Guinée équatoriale",
+    "publisher": "Le360 Afrique (AFP)",
+    "author": null,
+    "date": "2026-01-03",
+    "url": "https://afrique.le360.ma/politique/ciudad-de-la-paz-devient-la-nouvelle-capitale-de-la-guinee-equatoriale_N2FQNKPILFABJLWG3AR7S2K76A/",
+    "tier": "press",
+    "quote": "la croissance urbaine rapide des villes de Malabo (ex-capitale politique située sur l’île de Bioko) et Bata",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Malabo, the capital, lies in the northern part of the island of Bioko.",
+   "source": {
+    "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+    "publisher": "AECID, Centro Cultural de España en Malabo",
+    "author": null,
+    "date": "2023",
+    "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+    "tier": "institutional",
+    "quote": "La ciudad de Malabo, capital del país, está situada en la parte norte de la Isla de Bioko.",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1472",
+   "tag": "origins",
+   "claim": "The island of Bioko, later called Fernando Poo, was discovered by a Portuguese navigator, according to INEGE.",
+   "source": {
+    "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+    "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+    "author": null,
+    "date": "2025",
+    "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+    "tier": "institutional",
+    "quote": "Elle a été appelée Fernando Poo pendant la colonisation espagnole, en l'honneur du navigateur portugais qui l'a découverte en 1472",
+    "verified": true
+   }
+  },
+  {
+   "when": "1827",
+   "tag": "origins",
+   "claim": "Clarence Port, the settlement that became Malabo, was founded by William Owen on 25 December 1827.",
+   "source": {
+    "title": "Fernando Póo centro de influencia anglosajón en el siglo XIX",
+    "publisher": "Estudios africanos (Universidad Autónoma de Madrid)",
+    "author": "Max Liniger-Goumaz",
+    "date": "2001",
+    "url": "https://revistas-new.uam.es/reauam/article/download/21432/18787/73903",
+    "tier": "academic",
+    "quote": "1827 Fundación de Clarence Port por William D. Owen, el 25 de diciembre",
+    "verified": true
+   }
+  },
+  {
+   "when": "1827-1834",
+   "tag": "origins",
+   "claim": "The short-lived British occupation of Fernando Po established the town of Clarence and brought liberated Africans freed from slave ships to the island.",
+   "source": {
+    "title": "Commerce, Christianity and the Origins of the 'Creoles' of Fernando Po",
+    "publisher": "Journal of African History (Cambridge University Press)",
+    "author": null,
+    "date": null,
+    "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/commerce-christianity-and-the-origins-of-the-creoles-of-fernando-po/F15A468AE04D3C394E060AE54A4E6CC5",
+    "tier": "academic",
+    "quote": "The short-lived British occupation of Fernando Po, 1827–34, established the town of Clarence and brought to the island a number of settlers, and in particular ‘liberated Africans’",
+    "verified": true
+   }
+  },
+  {
+   "when": "1843",
+   "tag": "growth",
+   "claim": "Spain formally asserted sovereignty over Fernando Poo under Lerena and Port Clarence was renamed Santa Isabel.",
+   "source": {
+    "title": "Fernando Póo centro de influencia anglosajón en el siglo XIX",
+    "publisher": "Estudios africanos (Universidad Autónoma de Madrid)",
+    "author": "Max Liniger-Goumaz",
+    "date": "2001",
+    "url": "https://revistas-new.uam.es/reauam/article/download/21432/18787/73903",
+    "tier": "academic",
+    "quote": "1843 Afirmación formal de la soberanía española sobre Femando Póo por Lerena; Port Clarence es bautizado Santa Isabel.",
+    "verified": true
+   }
+  },
+  {
+   "when": "1916",
+   "tag": "growth",
+   "claim": "The neo-Gothic cathedral of Santa Isabel, begun in 1897, was opened to worship on 22 January 1916.",
+   "source": {
+    "title": "Another Gaudí’s work in Africa?",
+    "publisher": "Antonio Gaudí Foundation",
+    "author": null,
+    "date": null,
+    "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+    "tier": "institutional",
+    "quote": "Its construction began in 1897 and was opened to worship on January 22, 1916",
+    "verified": true
+   }
+  },
+  {
+   "when": "1968",
+   "tag": "growth",
+   "claim": "Malabo became the capital of independent Equatorial Guinea.",
+   "source": {
+    "title": "Equatorial Guinea's new capital still has no residents",
+    "publisher": "Kuwait Times (AFP)",
+    "author": null,
+    "date": "2026",
+    "url": "https://kuwaittimes.com/article/49584/world/equatorial-guineas-new-capital-still-has-no-residents/",
+    "tier": "press",
+    "quote": "Malabo had been the capital since independence from Spain in 1968",
+    "verified": true
+   }
+  },
+  {
+   "when": "2003",
+   "tag": "today",
+   "claim": "The Centro Cultural de España en Malabo opened its doors on 15 February 2003.",
+   "source": {
+    "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+    "publisher": "AECID, Centro Cultural de España en Malabo",
+    "author": null,
+    "date": "2023",
+    "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+    "tier": "institutional",
+    "quote": "El 15 de febrero de 2003 el CCEM abrió sus puertas",
+    "verified": true
+   }
+  },
+  {
+   "when": "2020",
+   "tag": "today",
+   "claim": "A fire destroyed the roof of the century-old cathedral while it was closed for restoration.",
+   "source": {
+    "title": "Blaze engulfs historic E.Guinea cathedral",
+    "publisher": "Business Standard (AFP/PTI)",
+    "author": null,
+    "date": "2020-01-16",
+    "url": "https://www.business-standard.com/article/pti-stories/blaze-engulfs-historic-e-guinea-cathedral-120011600102_1.html",
+    "tier": "press",
+    "quote": "The whole roof is gone, the interior is burned.",
+    "verified": true
+   }
+  },
+  {
+   "when": "2026",
+   "tag": "today",
+   "claim": "A presidential decree moved the capital from Malabo to Ciudad de la Paz.",
+   "source": {
+    "title": "E.Guinea relocates capital to 'city of peace'",
+    "publisher": "Daily Tribune (AFP)",
+    "author": null,
+    "date": "2026-01-04",
+    "url": "https://tribune.net.ph/2026/01/04/eguinea-relocates-capital-to-city-of-peace",
+    "tier": "press",
+    "quote": "Ciudad de la Paz, in the province of Djibloho, is declared the capital of the Republic of Equatorial Guinea",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Monte Alén National Park",
+   "type": "site",
+   "what": "Monte Alén National Park, established in 1990 on the mainland, covers about 2,000 km2 and shelters central chimpanzees and western lowland gorillas among 15 to 16 primate species. Monte Alén and Monte Mitra, at about 1,250 m, are thought to be the highest massifs of mainland Equatorial Guinea.",
+   "facts": [
     {
-      "claim": "Malabo was founded in 1827 as Port Clarence by British naval captain William Fitzwilliam Owen as a naval base to suppress the Atlantic slave trade and resettle liberated captives.",
-      "source": {
-        "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/eqguinea/cities/",
-        "tier": "institutional",
-        "quote": "Founded in 1827 as Port Clarence before becoming Santa Isabel and later Malabo"
-      }
+     "label": "Area",
+     "value": "about 2,000 km2",
+     "source": {
+      "title": "Monte Alén National Park",
+      "publisher": "IUCN APES Atlas",
+      "author": null,
+      "date": null,
+      "url": "https://wiki.iucnapesportal.org/index.php/Monte_Al%C3%A9n_National_Park",
+      "tier": "institutional",
+      "quote": "The site has a total size of 2,000 km²",
+      "verified": true
+     }
     },
     {
-      "claim": "The Catedral de Santa Isabel de Malabo, designed by architect Luis Segarra Llairadó and consecrated in 1916, is a prominent Spanish colonial Neo-Gothic cathedral featuring twin 40-metre spires.",
-      "source": {
-        "title": "Catedral de Santa Isabel de Malabo: Arquitectura neogótica colonial",
-        "publisher": "Archnet (MIT / AKTC)",
-        "author": null,
-        "date": null,
-        "url": "https://archnet.org/sites/5512",
-        "tier": "academic",
-        "quote": "Catedral neogótica consagrada en 1916 con torres de 40 metros"
-      }
+     "label": "Established",
+     "value": "1990",
+     "source": {
+      "title": "Monte Alén National Park",
+      "publisher": "IUCN APES Atlas",
+      "author": null,
+      "date": null,
+      "url": "https://wiki.iucnapesportal.org/index.php/Monte_Al%C3%A9n_National_Park",
+      "tier": "institutional",
+      "quote": "Established in 1990, Monte Alén National Park is located in Equatorial Guinea",
+      "verified": true
+     }
     },
     {
-      "claim": "In 1973, the city of Santa Isabel was officially rechristened Malabo in honour of King Malabo Löpèlo Mëlaka, the last traditional Bubi monarch of Bioko Island.",
-      "source": {
-        "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/eqguinea/cities/",
-        "tier": "institutional",
-        "quote": "Renamed Malabo in 1973 after the Bubi king Malabo"
-      }
+     "label": "Apes present",
+     "value": "central chimpanzees and western lowland gorillas",
+     "source": {
+      "title": "Monte Alén National Park",
+      "publisher": "IUCN APES Atlas",
+      "author": null,
+      "date": null,
+      "url": "https://wiki.iucnapesportal.org/index.php/Monte_Al%C3%A9n_National_Park",
+      "tier": "institutional",
+      "quote": "Central chimpanzees ( Pan troglodytes troglodytes ) & western lowland gorillas ( Gorilla gorilla gorilla ) are present in Monte Alén National Park.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Highest massifs",
+     "value": "Monte Alén and Monte Mitra, about 1,250 m",
+     "source": {
+      "title": "Monte Alen National Park (6381)",
+      "publisher": "Key Biodiversity Areas Partnership",
+      "author": null,
+      "date": null,
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/6381",
+      "tier": "institutional",
+      "quote": "At 1,250 m, Monte Alen and Monte Mitra (also within the National Park) are thought to be the highest massifs in mainland Equatorial Guinea",
+      "verified": true
+     }
+    },
+    {
+     "label": "Protected-area category",
+     "value": "national park (category II), 200,000 ha",
+     "source": {
+      "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+      "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+      "author": null,
+      "date": "2025",
+      "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+      "tier": "institutional",
+      "quote": "Parc National de Mont Alen II Loi nº 6/2025 200.000",
+      "verified": true
+     }
+    },
+    {
+     "label": "Primates",
+     "value": "15 to 16 species",
+     "source": {
+      "title": "Distribution, status and conservation of primates in Monte Alen National Park, Equatorial Guinea",
+      "publisher": "Oryx (Cambridge University Press)",
+      "author": null,
+      "date": "2009",
+      "url": "https://cambridge.org/core/journals/oryx/article/distribution-status-and-conservation-of-primates-in-monte-alen-national-park-equatorial-guinea/2009272CFF85C5C96CA0D99F04F64868",
+      "tier": "academic",
+      "quote": "there is a high primate diversity (15–16 distinct species) in Monte Alen",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Precise neighborhood breakdowns for recent metropolitan extensions in Malabo II are partially published.",
-    "First-hand local voices from Bubi elders and island fishermen have not yet been recorded.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Catedral de Santa Isabel de Malabo",
+   "type": "culture",
+   "what": "This neo-Gothic cathedral with three naves was built between 1897 and 1916, with two 40-metre towers finished in 1924. A fire destroyed its roof in January 2020 while it was closed for restoration; a link to Gaudí is not supported by any known document.",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "1897 to 1916, neo-Gothic, three naves",
+     "source": {
+      "title": "Another Gaudí’s work in Africa?",
+      "publisher": "Antonio Gaudí Foundation",
+      "author": null,
+      "date": null,
+      "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+      "tier": "institutional",
+      "quote": "The monument was erected between 1897 and 1916 ... It is a neo-Gothic church with three naves with a Latin cross plan inscribed in a rectangle.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Towers",
+     "value": "two 40-metre towers finished in 1924",
+     "source": {
+      "title": "Another Gaudí’s work in Africa?",
+      "publisher": "Antonio Gaudí Foundation",
+      "author": null,
+      "date": null,
+      "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+      "tier": "institutional",
+      "quote": "there were still the two 40-meter-tall towers to be built on the facade, finished in 1924",
+      "verified": true
+     }
+    },
+    {
+     "label": "Gaudí attribution",
+     "value": "no known document supports it",
+     "source": {
+      "title": "Another Gaudí’s work in Africa?",
+      "publisher": "Antonio Gaudí Foundation",
+      "author": null,
+      "date": null,
+      "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+      "tier": "institutional",
+      "quote": "Gaudí’s intervention is not supported by any known document.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Fire",
+     "value": "roof destroyed in January 2020 while closed for restoration",
+     "source": {
+      "title": "Blaze engulfs historic E.Guinea cathedral",
+      "publisher": "Business Standard (AFP/PTI)",
+      "author": null,
+      "date": "2020-01-16",
+      "url": "https://www.business-standard.com/article/pti-stories/blaze-engulfs-historic-e-guinea-cathedral-120011600102_1.html",
+      "tier": "press",
+      "quote": "the cathedral has been closed to the public since January 7 for restoration work",
+      "verified": true
+     }
+    },
+    {
+     "label": "Heritage listing",
+     "value": "listed among national assets of tourist interest",
+     "source": {
+      "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+      "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+      "author": null,
+      "date": "2025",
+      "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+      "tier": "institutional",
+      "quote": "Catedral de Santa Isabel ... Arrêté ministériel n° 2/2022, en date du 1er février, par lequel sont déclarés biens et fêtes nationaux d'intérêt touristique",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Parque Nacional de Malabo",
+   "type": "nature",
+   "what": "The Parque Nacional de Malabo appears in the official list of national assets of tourist and cultural interest for the Malabo district, declared by ministerial decree in 2022. No further description could be verified.",
+   "facts": [
+    {
+     "label": "Heritage listing",
+     "value": "listed among national assets of tourist and cultural interest (decree 2/2022)",
+     "source": {
+      "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+      "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial)",
+      "author": null,
+      "date": "2025",
+      "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+      "tier": "institutional",
+      "quote": "Parque Nacional de Malabo ... Arrêté ministériel n° 2/2022, en date du 1er février, par lequel sont déclarés biens et fêtes nationaux d'intérêt touristique",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mercado Central de Malabo",
+   "type": "market",
+   "what": "No verifiable source was found for this market.",
+   "facts": []
+  },
+  {
+   "name": "Centro Cultural de España en Malabo (CCEM)",
+   "type": "culture",
+   "what": "The CCEM opened on 15 February 2003 in the Caracolas neighbourhood, as heir of the Centro Cultural Hispano-Guineano created in 1982. It is an L-shaped two-floor building of 2,264 m2 built around a central courtyard.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "15 February 2003",
+     "source": {
+      "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+      "publisher": "AECID, Centro Cultural de España en Malabo",
+      "author": null,
+      "date": "2023",
+      "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+      "tier": "institutional",
+      "quote": "Este edificio fue inaugurado el 15 de febrero de 2003.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Predecessor",
+     "value": "Centro Cultural Hispano-Guineano, created 1982",
+     "source": {
+      "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+      "publisher": "AECID, Centro Cultural de España en Malabo",
+      "author": null,
+      "date": "2023",
+      "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+      "tier": "institutional",
+      "quote": "El CCEM es heredero del antiguo Centro Cultural Hispano - Guineano (CCH-G), el primer Centro Cultural de gestión mixta de la Cooperación Española en todo el mundo, creado en 1982",
+      "verified": true
+     }
+    },
+    {
+     "label": "Building",
+     "value": "L-shaped, two floors, 2,264 m2 built on a 6,636 m2 plot",
+     "source": {
+      "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+      "publisher": "AECID, Centro Cultural de España en Malabo",
+      "author": null,
+      "date": "2023",
+      "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+      "tier": "institutional",
+      "quote": "es un edificio en forma de L construido alrededor de un gran patio central con dos plantas, la superficie construida es de 2.264 m2, sobre una parcela de 6.636 m2",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Caracolas neighbourhood, airport road",
+     "source": {
+      "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+      "publisher": "AECID, Centro Cultural de España en Malabo",
+      "author": null,
+      "date": "2023",
+      "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+      "tier": "institutional",
+      "quote": "El CCEM está ubicado en el barrio de Caracolas, en la carretera del aeropuerto, cercano al centro de la ciudad.",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Antoni Gaudí designed or approved the cathedral of Malabo.",
+  "truth": "Several publications said Gaudí advised the designer, but the Gaudí Foundation states that no known document supports any intervention by him; the monument was built between 1897 and 1916 by the Claretian missionary Luis Sagarra Llauradó.",
+  "source": {
+   "title": "Another Gaudí’s work in Africa?",
+   "publisher": "Antonio Gaudí Foundation",
+   "author": null,
+   "date": null,
+   "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+   "tier": "institutional",
+   "quote": "Gaudí’s intervention is not supported by any known document.",
+   "verified": true
+  }
+ },
+ "unreadable": [],
+ "notNotFound": [
+  "Mercado Central de Malabo: no readable, verifiable source found (searches returned only other cities); card left without facts.",
+  "Population of Malabo city proper: INEGE yearbook gives only the Malabo district figure (271,008 in 2015 census); no separate urban-area census figure found.",
+  "Date of renaming Santa Isabel to Malabo (1973) and origin of the name Malabo: only Wikipedia-derived or unreadable pages found, so not recorded.",
+  "Several sites (UNESCO, Wikipedia mirrors, Atlas Obscura, Lonely Planet) not used: 403 or banned sources.",
+  "place \"Parque Nacional de Malabo\": only 1 verified fact(s)",
+  "place \"Mercado Central de Malabo\": only 0 verified fact(s)"
+ ]
 }

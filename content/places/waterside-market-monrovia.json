@@ -5,13 +5,57 @@
   "country": "LBR",
   "name": "Waterside Market",
   "region": "Monrovia · Liberia",
-  "subtitle": "Historic bustling merchant market beneath Mamba Point along the Mesurado River.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Waterside is a major market of Monrovia where, among many other items, African batik crafts and woodcarvings are sold.",
+  "facts": [
+    {
+      "label": "Goods",
+      "value": "African batik crafts and woodcarvings among many other items",
+      "cite": [
+        "cap-ebsco-com-021d5a"
+      ]
+    },
+    {
+      "label": "2020 clearance",
+      "value": "police demolished makeshift stalls near the street",
+      "cite": [
+        "cap-frontpageafricaonline-com-178026"
+      ]
+    },
+    {
+      "label": "2020 new tables",
+      "value": "City Council erected modern market tables",
+      "cite": [
+        "cap-thenewdawnliberia-com-3d0c8a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Waterside is a major market of Monrovia where, among many other items, African batik crafts and woodcarvings are sold. In 2020 the city council cleared makeshift stalls and began erecting modern market tables.",
+              "cite": [
+                "cap-ebsco-com-021d5a",
+                "cap-frontpageafricaonline-com-178026",
+                "cap-thenewdawnliberia-com-3d0c8a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Precise data on post-war municipal stall licensing and modernization plans are limited.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

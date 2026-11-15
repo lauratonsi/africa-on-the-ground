@@ -5,13 +5,70 @@
   "country": "GIN",
   "name": "Musée National de Sandervalia",
   "region": "Conakry · Guinea",
-  "subtitle": "National ethnographic museum in Kaloum safeguarding sacred Baga Nimba headdress masks and forest statuary.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Guinea's national museum stands in Sandervalia, in Kaloum, on a site named after the explorer Aimé Olivier de Sanderval.",
+  "facts": [
+    {
+      "label": "Oldest monument",
+      "value": "The hut (case) of Aimé Olivier de Sanderval",
+      "cite": [
+        "cap-guineenews-org-63ab80"
+      ]
+    },
+    {
+      "label": "Built",
+      "value": "Around 1897 by the French explorer Olivier de Sanderval",
+      "cite": [
+        "cap-guineenews-org-63ab80"
+      ]
+    },
+    {
+      "label": "Origin of the museum",
+      "value": "Site retained as the National Museum during a sanitation campaign under Ahmed Sékou Touré",
+      "cite": [
+        "cap-guineenews-org-63ab80"
+      ]
+    },
+    {
+      "label": "Courtyard",
+      "value": "Holds historic monuments to men and women who marked the country's history",
+      "cite": [
+        "cap-guineenews-org-63ab80"
+      ]
+    },
+    {
+      "label": "Neighbourhood",
+      "value": "Sandervalia is one of the neighbourhoods whose place names inform the city's history",
+      "cite": [
+        "cap-publication-codesria-org-c23611"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Guinea's national museum stands in Sandervalia, in Kaloum, on a site named after the explorer Aimé Olivier de Sanderval. Its oldest monument is his hut, built around 1897.",
+              "cite": [
+                "cap-guineenews-org-63ab80",
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Digital inventory with high-resolution photographic documentation is currently being compiled.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

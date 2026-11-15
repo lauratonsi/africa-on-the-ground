@@ -1,73 +1,631 @@
 {
-  "city": "Kinshasa",
-  "country": "COD",
-  "population": {
-    "value": 7273947,
-    "year": 2004,
-    "definition": "Population of the City-Province of Kinshasa (across 24 urban communes grouped into four districts: Funa, Lukunga, Mont Amba, and Tshangu) according to official demographic projections published in 2004 by the Institut National de la Statistique (INS) and the Ministry of Planning of the DRC, tabulated via CityPopulation. The last comprehensive national census took place in 1984 (recording 2,664,130 residents). Today Kinshasa is widely recognized as the largest French-speaking urban agglomeration in the world, with current projections estimated between 15 and 18 million inhabitants.",
-    "source": {
-      "title": "Congo (Dem. Rep.): Provinces, Major Cities & Communes (Official Estimates 2004)",
-      "publisher": "CityPopulation (credits INS RDC)",
-      "author": null,
-      "date": "2004-07-01",
-      "url": "https://www.citypopulation.de/en/drcongo/cities/",
-      "tier": "institutional",
-      "quote": "2004-07-01 | Kinshasa City-Province: 7,273,947"
-    }
+ "city": "Kinshasa",
+ "country": "COD",
+ "population": {
+  "value": 2664200,
+  "year": 1984,
+  "definition": "Ville de Kinshasa, 1984 scientific census (the last census held in the DRC); all later figures are projections",
+  "source": {
+   "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+   "publisher": "Crisis States Research Centre, LSE",
+   "author": "Pascal Kapagama; Rachel Waterhouse",
+   "date": "2009-07",
+   "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+   "tier": "academic",
+   "quote": "A l’issue du recensement de 1984, l’effectif de la population de la ville de Kinshasa s’est élevé à 2.664.200 habitants",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "The last census in the DRC was held in 1984, so all population figures for Kinshasa are projection-based.",
+   "source": {
+    "title": "Profiling Living Conditions of the DRC Urban Population: Access to Housing and Services in Kinshasa Province",
+    "publisher": "World Bank",
+    "author": null,
+    "date": "2021",
+    "url": "https://documents1.worldbank.org/curated/en/638901637330907469/pdf/Profiling-Living-Conditions-of-the-DRC-Urban-Population-Access-to-Housing-and-Services-in-Kinshasa-Province.pdf",
+    "tier": "institutional",
+    "quote": "the last being in 1984, all population figures for Kinshasa—either Kinshasa Province or Kinshasa City—are projection based",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Léopoldville, originally Stanley Pool station, arose from Henry Morton Stanley's third expedition to the Congo (1879-1884).",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "la ville de Léopoldville, actuellement Kinshasa, est née suite à la troisième expédition de Henry Morton Stanley au Congo (1879-1884)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Léopoldville is named after Leopold II, king of the Belgians, who commissioned the expeditions.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Léopoldville vient du nom de Léopold II, roi des belges ayant commandité ladite expédition",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The capital of the Congo was at Boma and was transferred to Léopoldville in 1929.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Alors que la capitale du Congo se trouvait jusque là à Boma5, elle sera transférée à Léopoldville en 19296",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Kinshasa lies on the bank of the Congo River at the exit of Pool Malebo and the start of the cataracts.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Kinshasa est une ville tentaculaire située en bordure du fleuve Congo à la sortie du Pool Malebo et au début des puissantes chutes et cataractes",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Before 1960 Kinshasa was a commercial centre before becoming an administrative capital.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Avant 1960, Kinshasa était un centre commercial avant de devenir une capitale administrative",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Léopoldville received civil status as a city, with annexed zones and 11 communes, in 1957.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "C’est en 1957 que Léopoldville recevra sa personnalité civile en tant que ville avec des zones annexes et composée de 11 communes",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Kinshasa comprises 24 communes, of which Maluku, Nsele, Mont-Ngafula and Ngaliema are the largest.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Kinshasa qui comprend actuellement 24 communes, dont Maluku, Nsele, Mont-Ngafula et Ngaliema sont les plus grandes",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Kinshasa's population was 1,635,600 in 1975.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "En 1975, elle comptait 1.635.600 habitants",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The DRC is preparing its second general population census, the first since 1984.",
+   "source": {
+    "title": "La RDC veut effectuer le premier recensement de sa population depuis 1984",
+    "publisher": "RFI / Fraternité Matin",
+    "author": null,
+    "date": "2025-11-20",
+    "url": "https://www.fratmat.info/article/2638273/etranger/republique-democratique-du-congo/la-rdc-veut-effectuer-le-premier-recensement-de-sa-population-depuis-1984",
+    "tier": "press",
+    "quote": "Le dernier remonte à 1984, soit près de 40 ans sans données démographiques complètes et actualisées",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1881",
+   "tag": "origins",
+   "claim": "The post of Léopoldville is dated to 1881, regarded as the starting point of the history of the city of Kinshasa.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Lumenga Neso qui situe la création du poste de Léopoldville en 1881",
+    "verified": true
+   }
+  },
+  {
+   "when": "1929",
+   "tag": "growth",
+   "claim": "The capital of the Congo was transferred from Boma to Léopoldville in 1929.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "Alors que la capitale du Congo se trouvait jusque là à Boma5, elle sera transférée à Léopoldville en 19296",
+    "verified": true
+   }
+  },
+  {
+   "when": "1957",
+   "tag": "growth",
+   "claim": "Léopoldville received civil status as a city with 11 communes.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "C’est en 1957 que Léopoldville recevra sa personnalité civile en tant que ville avec des zones annexes et composée de 11 communes",
+    "verified": true
+   }
+  },
+  {
+   "when": "1966",
+   "tag": "growth",
+   "claim": "On 30 June 1966 President Mobutu proclaimed Patrice Lumumba a national hero and announced a large monument to him, the origin of the Limete Interchange.",
+   "source": {
+    "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "author": null,
+    "date": null,
+    "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+    "tier": "press",
+    "quote": "L’idée de l’Échangeur de Limete remonte au 30 juin 1966, lorsque le Président Mobutu Sese Seko proclama Patrice Emery Lumumba héros national",
+    "verified": true
+   }
+  },
+  {
+   "when": "1974",
+   "tag": "growth",
+   "claim": "Work on the Limete Interchange was interrupted between 1974 and 1978.",
+   "source": {
+    "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "author": null,
+    "date": null,
+    "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+    "tier": "press",
+    "quote": "L’interruption des travaux entre 1974 et 1978 demeure l’un des épisodes les plus controversés de l’histoire de l’Échangeur de Limete",
+    "verified": true
+   }
+  },
+  {
+   "when": "1984",
+   "tag": "growth",
+   "claim": "The 1984 census counted 2,664,200 people in the city of Kinshasa.",
+   "source": {
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE",
+    "author": "Pascal Kapagama; Rachel Waterhouse",
+    "date": "2009-07",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "academic",
+    "quote": "A l’issue du recensement de 1984, l’effectif de la population de la ville de Kinshasa s’est élevé à 2.664.200 habitants",
+    "verified": true
+   }
+  },
+  {
+   "when": "2011",
+   "tag": "today",
+   "claim": "A partial rehabilitation in 2011 installed the Museum of Contemporary and Multimedia Art and a 6.5 m statue of Lumumba at the foot of the Limete tower.",
+   "source": {
+    "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "author": null,
+    "date": null,
+    "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+    "tier": "press",
+    "quote": "En 2011, une réhabilitation partielle permit notamment l’installation du Musée d’art contemporain et multimédia",
+    "verified": true
+   }
+  },
+  {
+   "when": "2018",
+   "tag": "today",
+   "claim": "The Académie des Beaux-Arts, founded in 1943, celebrated its 75th anniversary in 2018.",
+   "source": {
+    "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+    "publisher": "Actualite.cd",
+    "author": null,
+    "date": "2018-11-30",
+    "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+    "tier": "press",
+    "quote": "Fondée en 1943 par Frère Marc Stanislas Wallenda, l'Académie des Beaux-Arts de Kinshasa souffle cette année ses 75 bougies",
+    "verified": true
+   }
+  },
+  {
+   "when": "2023",
+   "tag": "today",
+   "claim": "The Limete Interchange Tower became the logo of the 9th Jeux de la Francophonie, held in Kinshasa from 26 July to 6 August 2023.",
+   "source": {
+    "title": "Jeux de la Francophonie: à la découverte de la Tour Échangeur de Limete, monument symbole de Kinshasa",
+    "publisher": "Le360 Afrique",
+    "author": "Christian Nyamabu Kabeya",
+    "date": "2023-08-05",
+    "url": "https://afrique.le360.ma/sports/jeux-de-la-francophonie-a-la-decouverte-de-la-tour-echangeur-de-limete-monument-symbole-de-kinshasa_APQQECJXJVGBFGDL6J3VU5EVBQ/",
+    "tier": "press",
+    "quote": "symbolise aujourd’hui le logo des 9èmes jeux de la francophonie organisés à Kinshasa du 26 juillet au 6 août 2023",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Virunga National Park",
+   "type": "nature",
+   "what": "Virunga was set up in 1925 as Parc National Albert, the first national park in Africa, and became a UNESCO World Heritage Site in 1979. It protects mountain gorillas and other great apes.",
+   "facts": [
     {
-      "claim": "Kinshasa was established in December 1881 as Léopoldville by Henry Morton Stanley on the southern bank of the Pool Malebo, facing the Bateke settlement of Nshasa, before being renamed Kinshasa in 1966 under Mobutu Sese Seko's Authenticité policy.",
-      "source": {
-        "title": "Congo (Dem. Rep.): Provinces, Major Cities & Communes (Official Estimates 2004)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/drcongo/cities/",
-        "tier": "institutional",
-        "quote": "Léopoldville founded in 1881 by Stanley and renamed Kinshasa in 1966"
-      }
+     "label": "Established",
+     "value": "1925, as Parc National Albert; Africa's first national park",
+     "source": {
+      "title": "History - Visit Virunga",
+      "publisher": "Visit Virunga",
+      "author": null,
+      "date": null,
+      "url": "https://www.visitvirunga.com/park-information/history/",
+      "tier": "institutional",
+      "quote": "It was set up in 1925 as Parc National Albert and thus became the first national park in Africa, gaining its UNESCO designation in 1979",
+      "verified": true
+     }
     },
     {
-      "claim": "The Musée National de la République Démocratique du Congo (MNRDC), inaugurated in November 2019 in Lingwala with assistance from South Korea's KOICA, houses over 46,000 ethnographic objects, royal regalia, masks, and musical instruments representing the DRC's more than 450 ethnic groups.",
-      "source": {
-        "title": "Inauguration du Musée National de la République Démocratique du Congo à Kinshasa",
-        "publisher": "KinoCongo Culture",
-        "author": null,
-        "date": "2019-11-23",
-        "url": "https://kinocongo.com/",
-        "tier": "press",
-        "quote": "Inauguration en novembre 2019 du Musée National de la RDC abritant des milliers d'objets traditionnels"
-      }
+     "label": "Founder",
+     "value": "King Albert I of Belgium",
+     "source": {
+      "title": "History - Visit Virunga",
+      "publisher": "Visit Virunga",
+      "author": null,
+      "date": null,
+      "url": "https://www.visitvirunga.com/park-information/history/",
+      "tier": "institutional",
+      "quote": "The park was founded by King Albert I of Belgium and originally known as Albert National Park",
+      "verified": true
+     }
     },
     {
-      "claim": "The 210-metre brutalist concrete Tour de l'Échangeur in Limete, designed in the 1970s by architect Olivier-Clément Cacoub and commissioned by Mobutu Sese Seko, dominates Kinshasa's skyline alongside the memorial mausoleum of national hero Patrice Lumumba.",
-      "source": {
-        "title": "Tour de l'Échangeur de Limete et Mausolée Lumumba",
-        "publisher": "Petit Futé",
-        "author": null,
-        "date": null,
-        "url": "https://www.petitfute.com/",
-        "tier": "press",
-        "quote": "Tour de 210 mètres conçue par Olivier-Clément Cacoub abritant le mémorial Lumumba"
-      }
+     "label": "Wildlife",
+     "value": "Home to three taxa of great apes and one-third of the world's remaining mountain gorillas",
+     "source": {
+      "title": "Virunga National Park (official site)",
+      "publisher": "Virunga National Park",
+      "author": null,
+      "date": null,
+      "url": "https://virunga.org/",
+      "tier": "institutional",
+      "quote": "Home to three taxa of great apes ... Home to one-third of the world's remaining mountain gorillas",
+      "verified": true
+     }
     },
     {
-      "claim": "The Académie des Beaux-Arts (ABA) of Kinshasa, founded in 1943 by Brother Marc Wallenda in Gombe, is one of Central Africa's premier institutions of higher arts education, fostering pioneering Congolese masters of modern sculpture, ceramics, and painting.",
-      "source": {
-        "title": "Académie des Beaux-Arts de Kinshasa: Histoire et création artistique",
-        "publisher": "Académie des Beaux-Arts",
-        "author": null,
-        "date": null,
-        "url": "https://aba-kinshasa.cd/",
-        "tier": "institutional",
-        "quote": "Fondée en 1943 par Marc Wallenda, haut lieu de formation artistique en Afrique centrale"
-      }
+     "label": "Area",
+     "value": "About 7,800 km² (3,000 square miles)",
+     "source": {
+      "title": "Rangers Killed in Africa's Oldest Park Push Death Toll to 150",
+      "publisher": "National Geographic",
+      "author": null,
+      "date": "2016-03-14",
+      "url": "https://www.nationalgeographic.com/adventure/article/160314-two-rangers-killed-virunga-national-park",
+      "tier": "press",
+      "quote": "The 3,000-square-mile (7,800 square kilometers) reserve was established in 1925 as Africa's first national park",
+      "verified": true
+     }
+    },
+    {
+     "label": "Danger",
+     "value": "UNESCO changed the site's status to 'endangered' after the park lost control to militias",
+     "source": {
+      "title": "History - Visit Virunga",
+      "publisher": "Visit Virunga",
+      "author": null,
+      "date": null,
+      "url": "https://www.visitvirunga.com/park-information/history/",
+      "tier": "institutional",
+      "quote": "UNESCO changed the World Heritage Site status to “endangered.”",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "No comprehensive nationwide census has been held in the DRC since 1984; modern municipal population figures range widely from 15 to 18 million depending on modeling assumptions.",
-    "First-hand local voices from artists at the Académie des Beaux-Arts and inhabitants of Matonge and Limete are yet to be gathered.",
-    "Cityscape photographs are not yet linked in the repository."
-  ]
+   ]
+  },
+  {
+   "name": "Lola ya Bonobo",
+   "type": "nature",
+   "what": "Lola ya Bonobo is a sanctuary near Kinshasa where orphaned bonobos rescued from the illegal wildlife trade find care. Its operator describes it as the world's only bonobo sanctuary.",
+   "facts": [
+    {
+     "label": "Role",
+     "value": "Orphaned bonobos rescued from the illegal wildlife trade find safety and comfort",
+     "source": {
+      "title": "Friends of Bonobos / Lola ya Bonobo",
+      "publisher": "Friends of Bonobos",
+      "author": null,
+      "date": null,
+      "url": "https://www.friendsofbonobos.org",
+      "tier": "primary",
+      "quote": "At Lola ya Bonobo sanctuary, orphaned bonobos rescued from the illegal trade in wildlife find safety and comfort",
+      "verified": true
+     }
+    },
+    {
+     "label": "Uniqueness",
+     "value": "Described as the world's only bonobo sanctuary",
+     "source": {
+      "title": "Friends of Bonobos / Lola ya Bonobo",
+      "publisher": "Friends of Bonobos",
+      "author": null,
+      "date": null,
+      "url": "https://www.friendsofbonobos.org",
+      "tier": "primary",
+      "quote": "World’s only bonobo sanctuary",
+      "verified": true
+     }
+    },
+    {
+     "label": "Approach",
+     "value": "Rescue, sanctuary and rewilding of endangered bonobos",
+     "source": {
+      "title": "Friends of Bonobos / Lola ya Bonobo",
+      "publisher": "Friends of Bonobos",
+      "author": null,
+      "date": null,
+      "url": "https://www.friendsofbonobos.org",
+      "tier": "primary",
+      "quote": "We provide rescue, sanctuary and rewilding to endangered bonobos",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Musée National de la République Démocratique du Congo (MNRDC)",
+   "type": "culture",
+   "what": "The MNRDC in Kinshasa is devoted to the cultural history of the country's many ethnic groups and historical periods, with a capacity of 12,000 objects.",
+   "facts": [
+    {
+     "label": "Capacity",
+     "value": "12,000 objects",
+     "source": {
+      "title": "La coiffe 'Kutshu' du Kasaï Oriental mise en valeur au MNRDC",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/la-coiffe-kusthu-du-kasai-oriental-mise-en-valeur-au-mnrdc/",
+      "tier": "press",
+      "quote": "Doté d’une capacité d’accueil de 12000 objets, le musée national de la république démocratique du Congo (MNRDC), situé à Kinshasa",
+      "verified": true
+     }
+    },
+    {
+     "label": "Focus",
+     "value": "Cultural history of the country's many ethnic groups and historical periods",
+     "source": {
+      "title": "La coiffe 'Kutshu' du Kasaï Oriental mise en valeur au MNRDC",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/la-coiffe-kusthu-du-kasai-oriental-mise-en-valeur-au-mnrdc/",
+      "tier": "press",
+      "quote": "est consacré à l’histoire culturelle des nombreux groupes ethniques et aux époques historiques du pays",
+      "verified": true
+     }
+    },
+    {
+     "label": "Kutshu headdress",
+     "value": "Traditional headdress of Kasaï-Oriental, a symbol of authority, wisdom and prestige",
+     "source": {
+      "title": "La coiffe 'Kutshu' du Kasaï Oriental mise en valeur au MNRDC",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/la-coiffe-kusthu-du-kasai-oriental-mise-en-valeur-au-mnrdc/",
+      "tier": "press",
+      "quote": "La coiffe traditionnelle ‘‘Kutshu’’, symbole d’autorité, de sagesse et de prestige au Kasaï-Oriental",
+      "verified": true
+     }
+    },
+    {
+     "label": "Tetela croisette",
+     "value": "Cross-shaped currency of the Sankuru province used in long-distance trade",
+     "source": {
+      "title": "La croisette Tetela illustre l'histoire monétaire et commerciale précoloniale congolaise",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/rdc-la-croisette-tetela-illustre-lhistoire-monetaire-et-commerciale-precoloniale-congolaise/",
+      "tier": "press",
+      "quote": "Utilisée principalement par les populations de l’actuelle province du Sankuru, la Croisette Tetela occupait une place importante dans les échanges commerciaux",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Tour de l'Échangeur de Limete",
+   "type": "site",
+   "what": "The Limete Interchange Tower grew out of Mobutu's 1966 promise of a monument to Patrice Lumumba. The 210 m concrete tower was completed but most of the interchange roadworks were not.",
+   "facts": [
+    {
+     "label": "Origin",
+     "value": "Mobutu proclaimed Lumumba a national hero on 30 June 1966 and announced a monument",
+     "source": {
+      "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+      "tier": "press",
+      "quote": "L’idée de l’Échangeur de Limete remonte au 30 juin 1966, lorsque le Président Mobutu Sese Seko proclama Patrice Emery Lumumba héros national",
+      "verified": true
+     }
+    },
+    {
+     "label": "Names",
+     "value": "Monument Lumumba, Monument aux Héros nationaux, Tour de Limete",
+     "source": {
+      "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+      "tier": "press",
+      "quote": "« Monument Lumumba », « Monument aux Héros nationaux » et « Tour de Limete »",
+      "verified": true
+     }
+    },
+    {
+     "label": "Height",
+     "value": "210 m reinforced-concrete tower with four lift columns",
+     "source": {
+      "title": "Jeux de la Francophonie: à la découverte de la Tour Échangeur de Limete, monument symbole de Kinshasa",
+      "publisher": "Le360 Afrique",
+      "author": "Christian Nyamabu Kabeya",
+      "date": "2023-08-05",
+      "url": "https://afrique.le360.ma/sports/jeux-de-la-francophonie-a-la-decouverte-de-la-tour-echangeur-de-limete-monument-symbole-de-kinshasa_APQQECJXJVGBFGDL6J3VU5EVBQ/",
+      "tier": "press",
+      "quote": "La construction de la tour en béton armé de 210 mètres avec 4 colonnes à l’intérieur desquelles sont placés des ascenseurs",
+      "verified": true
+     }
+    },
+    {
+     "label": "Work halted",
+     "value": "1974-1978",
+     "source": {
+      "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+      "tier": "press",
+      "quote": "L’interruption des travaux entre 1974 et 1978",
+      "verified": true
+     }
+    },
+    {
+     "label": "Today",
+     "value": "Managed by the Institut des Musées nationaux du Congo",
+     "source": {
+      "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+      "publisher": "Agence Congolaise de Presse (ACP)",
+      "author": null,
+      "date": null,
+      "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+      "tier": "press",
+      "quote": "l’Échangeur de Limete est placé sous la gestion de l’Institut des Musées nationaux du Congo",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Académie des Beaux-Arts de Kinshasa",
+   "type": "culture",
+   "what": "The Académie des Beaux-Arts de Kinshasa was founded in 1943 by Frère Marc Stanislas Wallenda. It trains artists in painting, sculpture, ceramics, metal, restoration, visual communication and architecture.",
+   "facts": [
+    {
+     "label": "Founded",
+     "value": "1943, by Frère Marc Stanislas Wallenda",
+     "source": {
+      "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+      "publisher": "Actualite.cd",
+      "author": null,
+      "date": "2018-11-30",
+      "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+      "tier": "press",
+      "quote": "Fondée en 1943 par Frère Marc Stanislas Wallenda",
+      "verified": true
+     }
+    },
+    {
+     "label": "Departments",
+     "value": "Painting, sculpture, ceramics, metal, conservation and restoration, visual communication, interior architecture",
+     "source": {
+      "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+      "publisher": "Actualite.cd",
+      "author": null,
+      "date": "2018-11-30",
+      "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+      "tier": "press",
+      "quote": "la peinture, la sculpture, la céramique, le métal, la conservation et la restauration des oeuvres d'art, la communication visuelle ainsi que l'architecture d'intérieur",
+      "verified": true
+     }
+    },
+    {
+     "label": "Alumni",
+     "value": "Masters Ndamvu, Lufwa, Liyolo, Bamba, Mavinga, Lema, Freddy Tsimba and others",
+     "source": {
+      "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+      "publisher": "Actualite.cd",
+      "author": null,
+      "date": "2018-11-30",
+      "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+      "tier": "press",
+      "quote": "Maîtres Ndamvu, Lufwa, Liyolo, Bamba, Mavinga, Lema, Freddy Tsimba et d’autres sont passées par l’Académie des Beaux Arts de Kinshasa",
+      "verified": true
+     }
+    },
+    {
+     "label": "Abroad",
+     "value": "About fifteen Congolese artists trained there exhibit at the Grassi museum in Leipzig",
+     "source": {
+      "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+      "publisher": "Actualite.cd",
+      "author": null,
+      "date": "2018-11-30",
+      "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+      "tier": "press",
+      "quote": "une quinzaine d’artistes congolais, formés par son institution, exposent au musée Grassi, à Leipzig",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "No census since 1984; population given is the 1984 census (Kapagama & Waterhouse 2009 quoting it); original INS tables not found",
+  "Founding date 1881 is attributed in the source to Lumenga Neso (the source's own wording), not independently confirmed",
+  "Renaming Léopoldville to Kinshasa (1966) not recorded: no readable non-Wikipedia source found",
+  "Lola ya Bonobo: founding year and founder not verified (search budget exhausted); only the operator's own site was readable",
+  "MNRDC founding date not verified",
+  "whc.unesco.org returns 403, so UNESCO pages not used for Virunga",
+  "Web search budget was exhausted before Kinshasa places could be fully explored",
+  "No myth-or-fact found"
+ ]
 }

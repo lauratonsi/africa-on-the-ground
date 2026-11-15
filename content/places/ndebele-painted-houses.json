@@ -1,0 +1,126 @@
+{
+  "slug": "ndebele-painted-houses",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZAF",
+  "name": "Ndebele painted houses",
+  "region": "Mpumalanga · South Africa",
+  "subtitle": "The painted houses often called Ndebele are produced mostly by the Ndzundza Ndebele of Mpumalanga and Gauteng.",
+  "facts": [
+    {
+      "label": "Who",
+      "value": "The famous house painting, beadwork and ornamentation often called Ndebele are produced mostly by the Ndzundza Ndebele of Mpumalanga and Gauteng.",
+      "cite": [
+        "cap-sahistory-org-za-8386a2"
+      ]
+    },
+    {
+      "label": "How it was first made",
+      "value": "The earliest wall art shows tonal patterns painted by women with their fingers on the mud and dung walls of round houses.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Materials",
+      "value": "Before acrylic pigments arrived in South Africa in the 1940s only natural pigments were used.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Upkeep",
+      "value": "Walls had to be resurfaced each year after the summer rains because natural pigments were fragile.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Passing it on",
+      "value": "Wall painting and beadwork were household duties of women, and patterns passed from mother to daughter.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Who designs",
+      "value": "Married women of the household design the images for the outer gates, front and side walls.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "History and meaning",
+      "value": "Until 1883 the Ndebele were powerful landowners; in the author's reading, their wall paintings later became guideposts announcing that Ndebele lived there.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Link to beadwork",
+      "value": "Levinsohn argues the first wall designs derive from centuries-old Ndebele beadwork patterns.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Ndebele wall art now includes stylised images of airplanes and light bulb fixtures.",
+      "cite": [
+        "cap-culturalsurvival-org-45f0e5"
+      ]
+    },
+    {
+      "label": "A painter's training",
+      "value": "Esther Mahlangu learned Ndebele wall painting and beadwork as a child from traditions passed down from her mother and grandmother.",
+      "cite": [
+        "cap-sahistory-org-za-151f4a"
+      ]
+    },
+    {
+      "label": "Museum village",
+      "value": "Between 1980 and 1991 Mahlangu lived and worked at the Botshabelo Historical Village, an open-air museum of Ndebele culture.",
+      "cite": [
+        "cap-sahistory-org-za-151f4a"
+      ]
+    },
+    {
+      "label": "Teaching today",
+      "value": "In her school pupils learn to mix pigments and paint straight lines freehand, using fingers or chicken feathers.",
+      "cite": [
+        "cap-sahistory-org-za-151f4a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The painted houses often called Ndebele are produced mostly by the Ndzundza Ndebele of Mpumalanga and Gauteng. Women paint the walls, and the skill passes from mother to daughter. Early walls used natural pigments, and acrylic paints arrived in the 1940s.",
+              "cite": [
+                "cap-sahistory-org-za-8386a2",
+                "cap-culturalsurvival-org-45f0e5",
+                "cap-sahistory-org-za-151f4a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No maker or community member has reviewed this text yet.",
+    "Not found in a readable source: Date of origin of house painting not given consistently in readable sources; not recorded",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}

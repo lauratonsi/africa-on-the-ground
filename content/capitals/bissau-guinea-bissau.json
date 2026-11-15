@@ -4,18 +4,305 @@
   "country": "GNB",
   "name": "Bissau",
   "subtitle": "Bissau, capital of Guinea-Bissau: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "keyPoints": [
+    {
+      "text": "About 387,909 people live in the Autonomous Sector of Bissau (counted 2009).",
+      "cite": [
+        "cap-web-archive-org-280717"
+      ]
+    },
+    {
+      "text": "Work on building the Fortaleza de São José de Bissau began in 1765, a first step in creating a differentiated space on the island of Bissau.",
+      "cite": [
+        "cap-aladaainternacional-com-476c31"
+      ]
+    },
+    {
+      "text": "Only after the Bissau War of 1844 did the Portuguese obtain exclusive control of a small plot of land on the island, a real Portuguese enclave in the territory of the Papel people.",
+      "cite": [
+        "cap-aladaainternacional-com-476c31"
+      ]
+    }
+  ],
   "places": [
     "bijagos-archipelago",
     "fortaleza-de-sao-jose-da-amura-bissau",
     "bissau-velho-historic-district",
     "mercado-de-bandim-bissau"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Bissau in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Work on building the Fortaleza de São José de Bissau began in 1765, a first step in creating a differentiated space on the island of Bissau.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Only after the Bissau War of 1844 did the Portuguese obtain exclusive control of a small plot of land on the island, a real Portuguese enclave in the territory of the Papel people.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bissau was founded as a fort in 1765 and, after the slave trade declined in the early 19th century, became the chief commercial centre of Portuguese Guinea.",
+              "cite": [
+                "cap-globalsecurity-org-b164d1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On 19 December 1941 the capital of Portuguese Guinea was moved from Bolama to Bissau, where new infrastructure including a port had begun to be built.",
+              "cite": [
+                "cap-rtp-pt-3a6d79"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Sector Autónomo de Bissau is the Guinea-Bissau administrative unit alongside the eight regions.",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 2009 census the largest share of the national population, 25.1 percent, lived in the Sector Autónomo de Bissau.",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the Sector Autónomo de Bissau the Balanta (20.5%), Fula (18.0%), Papel (15.7%) and Mandinga peoples were the most numerous ethnic groups in 2009.",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "For a decade after independence, residents and business owners in Bissau Velho were required by law to repaint their building facades each December.",
+              "cite": [
+                "cap-aljazeera-com-f58da6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bandim, in Bissau, is considered the largest and best-supplied market in the country.",
+              "cite": [
+                "cap-repositorio-unilab-edu-br-674738"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "387,909",
+              "label": "people in the Autonomous Sector of Bissau, 2009",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Autonomous Sector of Bissau?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 387909,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "387,909 in 2009, according to the figures compiled from the national statistics office. Which area is counted matters: Sector Autónomo de Bissau (SAB), 3rd General Population and Housing Census 2009 (RGPH-2009), population corrected for post-census survey omission, including collective residents.",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1460",
+              "tag": "origins",
+              "text": "From the arrival of the Portuguese in the region in 1460, Portuguese and Papel peoples contended for power over the social spaces of the island of Bissau.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            },
+            {
+              "when": "1765",
+              "tag": "origins",
+              "text": "Construction of the Fortaleza de São José de Bissau began in 1765.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            },
+            {
+              "when": "1844",
+              "tag": "growth",
+              "text": "The Bissau War of 1844 allowed the Portuguese to build a real enclave on the island.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            },
+            {
+              "when": "1879",
+              "tag": "growth",
+              "text": "Bolama became capital of the Portuguese colony on 18 March 1879, administered separately from Cape Verde.",
+              "cite": [
+                "cap-rtp-pt-3a6d79"
+              ]
+            },
+            {
+              "when": "1941",
+              "tag": "growth",
+              "text": "The colonial capital was transferred from Bolama to Bissau on 19 December 1941.",
+              "cite": [
+                "cap-rtp-pt-3a6d79"
+              ]
+            },
+            {
+              "when": "1974",
+              "tag": "growth",
+              "text": "Guinea-Bissau became independent in 1974; for a decade afterwards Bissau Velho owners had to repaint facades each December.",
+              "cite": [
+                "cap-aljazeera-com-f58da6"
+              ]
+            },
+            {
+              "when": "2009",
+              "tag": "today",
+              "text": "The 2009 census corrected population of the Sector Autónomo de Bissau was 387,909.",
+              "cite": [
+                "cap-web-archive-org-280717"
+              ]
+            },
+            {
+              "when": "2025",
+              "tag": "today",
+              "text": "The Bijagós Archipelago – Omatí Minhô became Guinea-Bissau's first World Heritage site.",
+              "cite": [
+                "cap-iucn-org-c6b44a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Bissau in order.",
+          "items": [
+            {
+              "label": "From the arrival of the Portuguese in the region in 1460, Portuguese and…",
+              "when": "1460",
+              "text": "From the arrival of the Portuguese in the region in 1460, Portuguese and Papel peoples contended for power over the social spaces of the island of Bissau.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            },
+            {
+              "label": "The Bissau War of 1844 allowed the Portuguese to build a real enclave on the…",
+              "when": "1844",
+              "text": "The Bissau War of 1844 allowed the Portuguese to build a real enclave on the island.",
+              "cite": [
+                "cap-aladaainternacional-com-476c31"
+              ]
+            },
+            {
+              "label": "Guinea-Bissau became independent in 1974; for a decade afterwards Bissau…",
+              "when": "1974",
+              "text": "Guinea-Bissau became independent in 1974; for a decade afterwards Bissau Velho owners had to repaint facades each December.",
+              "cite": [
+                "cap-aljazeera-com-f58da6"
+              ]
+            },
+            {
+              "label": "The Bijagós Archipelago – Omatí Minhô became Guinea-Bissau's first World…",
+              "when": "2025",
+              "text": "The Bijagós Archipelago – Omatí Minhô became Guinea-Bissau's first World Heritage site.",
+              "cite": [
+                "cap-iucn-org-c6b44a"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Final analytical tables from the subsequent general population census round remain delayed.",
-    "First-hand local voices from traditional Papel elders and cashew traders of Bandim are missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Official 2009 INE census page with SAB total: only an archived (web.archive.org) copy of INE's published report was readable; stat-guinebissau.com is now a hijacked domain",
+    "Not found in a readable source: Population is the corrected 2009 figure incl. collective residents; households-only uncorrected count is 365,097",
+    "Not found in a readable source: No census newer than 2009 found",
+    "Not found in a readable source: whc.unesco.org pages return 403; IUCN and Anadolu used for Bijagós",
+    "Not found in a readable source: Infopedia (Capitania de Bissau, 1692/1696 fort dates) returned 403, so 1696 fort founding not recorded",
+    "Not found in a readable source: No myth-or-fact found",
+    "Not found in a readable source: Opening/inscription date of Bijagós (July 2025) only from press/IUCN release month",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Guinea-Bissau has read this profile yet."
   ]
 }

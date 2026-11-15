@@ -1,70 +1,69 @@
 {
   "slug": "providence-island",
-  "status": "published",
+  "status": "draft",
   "type": "site",
   "country": "LBR",
   "name": "Providence Island",
-  "region": "Liberia",
-  "subtitle": "The island where American freedmen first settled in Liberia. Card in preparation.",
-  "facts": [],
-  "sections": [
+  "region": "Monrovia · Liberia",
+  "subtitle": "Providence Island, in the mouth of the Mesurado, is where the founders of Monrovia first arrived in 1822 as part of an American Colonization Society mission.",
+  "facts": [
     {
-      "id": "context",
-      "title": "Background",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Providence Island was the site of the first successful settlement of American freedmen by the American Colonization Society in Liberia, according to Wikipedia. It was also known as Perseverance, Dozoa or Darzoe Island.",
-              "cite": [
-                "wikipedia-providence-island"
-              ]
-            },
-            {
-              "text": " The article says the government of Liberia has proposed it as a UNESCO World Heritage Site.",
-              "cite": [
-                "wikipedia-providence-island"
-              ]
-            }
-          ]
-        }
+      "label": "Role",
+      "value": "point of arrival of the founders of Monrovia",
+      "cite": [
+        "cap-ebsco-com-021d5a"
       ]
     },
     {
-      "id": "bicentennial",
-      "title": "Remembering 1822, as reported at the 2022 bicentennial",
+      "label": "Arrival",
+      "value": "1822",
+      "cite": [
+        "cap-ebsco-com-021d5a"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "in the mouth of the Mesurado",
+      "cite": [
+        "cap-globalsecurity-org-5a4692"
+      ]
+    },
+    {
+      "label": "Settlers",
+      "value": "former slaves sent by the American Colonization Society",
+      "cite": [
+        "cap-arabnews-com-bff165"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "Arab News reported on the launch of Liberia's bicentennial on 14 February 2022, marking the arrival in 1822 of free Black Americans, sent by the American Colonization Society, at Providence Island, now part of Monrovia. President George Weah opened the year-long celebrations.",
+              "text": "Providence Island, in the mouth of the Mesurado, is where the founders of Monrovia first arrived in 1822 as part of an American Colonization Society mission. A cultural center now stands there.",
               "cite": [
-                "arabnews-liberia-bicentennial-2022"
+                "cap-ebsco-com-021d5a",
+                "cap-globalsecurity-org-5a4692",
+                "cap-arabnews-com-bff165"
               ]
             }
           ]
         },
         {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The report says Liberia became an independent republic in 1847, the second Black republic after Haiti, and that the descendants of former US slaves governed it until a coup in 1980, followed by a civil war from 1989 to 2003. Heads of state from Togo, Niger, Gambia and Sierra Leone attended, and a US delegation was led by a presidential assistant, Dana Banks.",
-              "cite": [
-                "arabnews-liberia-bicentennial-2022"
-              ]
-            }
-          ]
+          "type": "facts"
         }
       ]
     }
   ],
   "gaps": [
-    "Almost everything. The history of the Colonization Society and of the people already living there is contested and needs strong sources and Liberian voices.",
-    "This place was chosen by the project as one of Liberia's best known; Liberia has no site on the World Heritage List.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "That report covers the 2022 ceremony: the Indigenous peoples who lived on the coast, the terms on which land was obtained, and today's residents' views of the island are not included."
+    "Photograph: see the licence line if one is shown."
   ],
   "image": {
     "file": "providence-island",
@@ -74,6 +73,5 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source": "https://commons.wikimedia.org/wiki/File%3AProvidence_Island_view_of_downtown_Monrovia.jpg"
-  },
-  "sensitive": true
+  }
 }

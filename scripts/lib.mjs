@@ -38,6 +38,8 @@ export function loadAll() {
     : [];
   const countriesPath = path.join(root, "content", "data", "africa-countries.json");
   const countries = fs.existsSync(countriesPath) ? readJson(countriesPath) : null;
+  const trailsPath = path.join(root, "content", "data", "trails.json");
+  const trails = fs.existsSync(trailsPath) ? readJson(trailsPath) : null;
   const trueSizePath = path.join(root, "content", "data", "true-size.json");
   const trueSize = fs.existsSync(trueSizePath) ? readJson(trueSizePath) : null;
   const blocsPath = path.join(root, "content", "data", "blocs.json");
@@ -60,7 +62,7 @@ export function loadAll() {
   const peoples = fs.existsSync(peoplesDir)
     ? fs.readdirSync(peoplesDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(peoplesDir, f)) }))
     : [];
-  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, artCatalog, capitals, peoples };
+  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, trails, blocs, quiz, duolingo, proposedDishes, artCatalog, capitals, peoples };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -70,7 +72,7 @@ const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 const RICH = new Set(["chart", "stat", "callout", "reveal", "figure", "estimate", "check", "order", "table", "recipe"]);
 
-export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [], peoples = [], countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [], peoples = [], countries, stories = [], trueSize = null, trails = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -457,6 +459,22 @@ const checkRecipeBlock = (b, bw, checkCite) => {
       if (!(Math.abs(c.capitalLat) <= 90 && Math.abs(c.capitalLon) <= 180)) err(`${cw}: coordinate della capitale non valide.`);
     }
     if (seen.size !== 54) warn(`${w}: ${seen.size} paesi invece di 54.`);
+  }
+  // --- percorsi di lettura (content/data/trails.json): sequenze di storie esistenti, con una riga editoriale per tappa
+  if (trails) {
+    const seenT = new Set();
+    for (const t of trails.trails || []) {
+      const w = `data/trails.json: percorso "${t.id}"`;
+      if (!t.id || seenT.has(t.id)) err(`${w}: id mancante o duplicato.`);
+      seenT.add(t.id);
+      if (!t.title || !t.intro) err(`${w}: richiede title e intro.`);
+      if (!Array.isArray(t.steps) || t.steps.length < 4) err(`${w}: servono almeno 4 tappe.`);
+      for (const [i, step] of (t.steps || []).entries()) {
+        if (!stories.some((x) => x.data.slug === step.story)) err(`${w}, tappa ${i + 1}: la storia "${step.story}" non esiste.`);
+        if (!step.why) err(`${w}, tappa ${i + 1}: manca "why".`);
+      }
+      if (new Set((t.steps || []).map((x) => x.story)).size !== (t.steps || []).length) err(`${w}: una storia compare due volte.`);
+    }
   }
   // --- pagina True size: le fonti che cita, scritte in content/data/true-size.json
   if (trueSize) checkCite(trueSize.sources, "data/true-size.json");

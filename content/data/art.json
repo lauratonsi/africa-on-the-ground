@@ -6,13 +6,41 @@
     "intro": "Follow seven places from prehistoric marks in stone to Kushite pyramids, medieval stone citadels, royal bas-reliefs, and modern painting workshops. Put them in chronological order.",
     "prompt": "Put these stops in historical sequence: from the oldest rock art to modern institutions.",
     "items": [
-      { "slug": "laas-geel", "when": "2nd millennium BCE", "text": "Painted rock shelters preserve pastoral figures of cattle and people in Somaliland." },
-      { "slug": "island-of-meroe", "when": "3rd century BCE", "text": "Kushite pyramids and temples develop distinct Nubian architectural and relief traditions." },
-      { "slug": "great-zimbabwe-national-monument", "when": "11th–15th century", "text": "Granite dry-stone enclosures rise alongside royal soapstone bird sculptures." },
-      { "slug": "old-towns-of-djenne", "when": "13th century", "text": "Sudano-Sahelian monumental earthen architecture flourishes with mason guild traditions." },
-      { "slug": "royal-palaces-of-abomey", "when": "17th–19th century", "text": "Fon rulers commission polychrome clay bas-reliefs and royal appliqué tapestries." },
-      { "slug": "poto-poto-school-brazzaville", "when": "1951", "text": "A painting workshop in Brazzaville pioneers modern African easel painting." },
-      { "slug": "national-art-gallery-of-namibia", "when": "1990", "text": "Post-independence national gallery preserves and displays Namibian and African visual arts." }
+      {
+        "slug": "laas-geel",
+        "when": "2nd millennium BCE",
+        "text": "Painted rock shelters preserve pastoral figures of cattle and people in Somaliland."
+      },
+      {
+        "slug": "island-of-meroe",
+        "when": "3rd century BCE",
+        "text": "Kushite pyramids and temples develop distinct Nubian architectural and relief traditions."
+      },
+      {
+        "slug": "great-zimbabwe-national-monument",
+        "when": "11th–15th century",
+        "text": "Granite dry-stone enclosures rise alongside royal soapstone bird sculptures."
+      },
+      {
+        "slug": "old-towns-of-djenne",
+        "when": "13th century",
+        "text": "Sudano-Sahelian monumental earthen architecture flourishes with mason guild traditions."
+      },
+      {
+        "slug": "royal-palaces-of-abomey",
+        "when": "17th–19th century",
+        "text": "Fon rulers commission polychrome clay bas-reliefs and royal appliqué tapestries."
+      },
+      {
+        "slug": "poto-poto-school-brazzaville",
+        "when": "1951",
+        "text": "A painting workshop in Brazzaville pioneers modern African easel painting."
+      },
+      {
+        "slug": "national-art-gallery-of-namibia",
+        "when": "1990",
+        "text": "Post-independence national gallery preserves and displays Namibian and African visual arts."
+      }
     ]
   },
   "categories": [
@@ -28,6 +56,16 @@
         "wassu-stone-circles",
         "lope-okanda",
         "island-of-meroe"
+      ]
+    },
+    {
+      "id": "objects",
+      "label": "Objects that do things",
+      "intro": "Masks, cloths, terracottas, bronzes and carvings seen through what they are for: who makes them, who uses them, and what a community does with them.",
+      "places": [
+        "ife-heads-and-the-national-museum-of-ife",
+        "kuba-cloth-and-kuba-royal-art",
+        "nok-terracotta-sculptures-and-the-jos-museum"
       ]
     },
     {
@@ -54,7 +92,31 @@
         "national-art-gallery-of-namibia",
         "pretoria-art-museum",
         "bibliotheca-alexandrina",
-        "asmara"
+        "asmara",
+        "musee-des-civilisations-noires-dakar",
+        "musee-national-du-mali-bamako",
+        "musee-ethnographique-adande-porto-novo",
+        "musee-honme-porto-novo",
+        "musee-national-des-beaux-arts-algiers",
+        "musee-mohammed-vi-rabat",
+        "national-gallery-of-zimbabwe",
+        "rwanda-art-museum",
+        "bardo-national-museum-tunis",
+        "egyptian-museum-tahrir-cairo",
+        "nairobi-national-museum",
+        "uganda-museum",
+        "musee-national-de-sandervalia-conakry",
+        "musee-national-de-la-rdc-kinshasa",
+        "musee-national-du-tchad-ndjamena",
+        "sierra-leone-national-museum-freetown",
+        "national-museum-of-the-gambia-banjul",
+        "musee-national-boubou-hama-niamey",
+        "musee-national-des-arts-rites-et-traditions-libreville",
+        "somali-national-museum",
+        "national-museum-of-sudan-khartoum",
+        "dak-art-the-dakar-biennale-of-contemporary-afric",
+        "royal-palace-and-museum-of-foumban-bamum-kingdom",
+        "zeitz-museum-of-contemporary-art-africa-zeitz-mo"
       ]
     },
     {
@@ -66,7 +128,18 @@
         "osun-osogbo-sacred-grove",
         "poto-poto-school-brazzaville",
         "thapong-visual-arts-centre",
-        "freedom-park"
+        "freedom-park",
+        "academie-des-beaux-arts-kinshasa",
+        "inema-arts-center",
+        "chapungu-sculpture-park",
+        "namibia-craft-centre-old-breweries-building",
+        "swazi-candles-centre-malkerns-valley",
+        "bogolanfini-mud-cloth-mali",
+        "dogon-masks-and-the-dama-ceremony",
+        "igun-street-bronze-casters-igun-eronmwon-benin-c",
+        "kente-weaving-at-bonwire-and-among-the-ewe",
+        "makonde-carving",
+        "ndebele-painted-houses"
       ]
     }
   ],
@@ -220,6 +293,143 @@
       "period": "21st century",
       "materials": "Quartzite, wood, bronze, landscape architecture and garden design",
       "function": "Monumental commemorative landscape honoring struggles for freedom"
+    },
+    "musee-des-civilisations-noires-dakar": {
+      "category": "collections"
+    },
+    "musee-national-du-mali-bamako": {
+      "category": "collections"
+    },
+    "musee-ethnographique-adande-porto-novo": {
+      "category": "collections"
+    },
+    "musee-honme-porto-novo": {
+      "category": "collections"
+    },
+    "musee-national-des-beaux-arts-algiers": {
+      "category": "collections"
+    },
+    "musee-mohammed-vi-rabat": {
+      "category": "collections"
+    },
+    "national-gallery-of-zimbabwe": {
+      "category": "collections"
+    },
+    "rwanda-art-museum": {
+      "category": "collections"
+    },
+    "bardo-national-museum-tunis": {
+      "category": "collections"
+    },
+    "egyptian-museum-tahrir-cairo": {
+      "category": "collections"
+    },
+    "nairobi-national-museum": {
+      "category": "collections"
+    },
+    "uganda-museum": {
+      "category": "collections"
+    },
+    "musee-national-de-sandervalia-conakry": {
+      "category": "collections"
+    },
+    "musee-national-de-la-rdc-kinshasa": {
+      "category": "collections"
+    },
+    "musee-national-du-tchad-ndjamena": {
+      "category": "collections"
+    },
+    "sierra-leone-national-museum-freetown": {
+      "category": "collections"
+    },
+    "national-museum-of-the-gambia-banjul": {
+      "category": "collections"
+    },
+    "musee-national-boubou-hama-niamey": {
+      "category": "collections"
+    },
+    "musee-national-des-arts-rites-et-traditions-libreville": {
+      "category": "collections"
+    },
+    "somali-national-museum": {
+      "category": "collections"
+    },
+    "national-museum-of-sudan-khartoum": {
+      "category": "collections"
+    },
+    "academie-des-beaux-arts-kinshasa": {
+      "category": "living"
+    },
+    "inema-arts-center": {
+      "category": "living"
+    },
+    "chapungu-sculpture-park": {
+      "category": "living"
+    },
+    "namibia-craft-centre-old-breweries-building": {
+      "category": "living"
+    },
+    "swazi-candles-centre-malkerns-valley": {
+      "category": "living"
+    },
+    "bogolanfini-mud-cloth-mali": {
+      "category": "living",
+      "materials": "cotton, leaf dye, fermented river mud",
+      "function": "initiation cloth and hunters' clothing; now also for tourists and fashion"
+    },
+    "dak-art-the-dakar-biennale-of-contemporary-afric": {
+      "category": "collections",
+      "function": "Recurring exhibition of contemporary African art"
+    },
+    "dogon-masks-and-the-dama-ceremony": {
+      "category": "living",
+      "function": "funerary rites ending mourning; also official celebrations"
+    },
+    "royal-palace-and-museum-of-foumban-bamum-kingdom": {
+      "category": "collections",
+      "period": "palace built in the reign of Njoya (1889-1933)",
+      "function": "royal palace and museum of the Bamoun kings"
+    },
+    "ife-heads-and-the-national-museum-of-ife": {
+      "category": "objects",
+      "period": "12th-15th century",
+      "materials": "copper alloy and terracotta",
+      "function": "portraits of rulers (ooni) according to study"
+    },
+    "igun-street-bronze-casters-igun-eronmwon-benin-c": {
+      "category": "living",
+      "materials": "bronze/brass, clay, wax",
+      "function": "casting for the Oba palace, later for other buyers"
+    },
+    "kente-weaving-at-bonwire-and-among-the-ewe": {
+      "category": "living",
+      "function": "Prestige cloth worn at formal, traditional and religious events"
+    },
+    "kuba-cloth-and-kuba-royal-art": {
+      "category": "objects",
+      "period": "late 19th-early 20th century (examples held by LACMA)",
+      "materials": "raffia palm fibre",
+      "function": "ceremonial dress, prestige, currency"
+    },
+    "makonde-carving": {
+      "category": "living",
+      "materials": "Ebony and other woods (sourced); mapiko masks of light wood",
+      "function": "Initiation masks (mapiko) and, since the colonial era, sculpture made for sale"
+    },
+    "ndebele-painted-houses": {
+      "category": "living",
+      "materials": "Natural pigments (ochres, black, limestone whitewash); acrylic paints from the 1940s",
+      "function": "Women's house decoration that marks family and identity"
+    },
+    "nok-terracotta-sculptures-and-the-jos-museum": {
+      "category": "objects",
+      "period": "c. 1000 BC to 500 AD",
+      "materials": "terracotta"
+    },
+    "zeitz-museum-of-contemporary-art-africa-zeitz-mo": {
+      "category": "collections",
+      "period": "converted from a 1920s grain silo",
+      "function": "public museum of contemporary art from Africa and its diaspora"
     }
   }
 }

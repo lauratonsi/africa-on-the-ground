@@ -1,61 +1,550 @@
 {
-  "city": "Ouagadougou",
-  "country": "BFA",
-  "population": {
-    "value": 2415266,
-    "year": 2019,
-    "definition": "Population of the Commune of Ouagadougou enumerated in the 5th General Population and Housing Census (5e RGPH, November 2019) conducted by the Institut National de la Statistique et de la Démographie (INSD) of Burkina Faso, tabulated via CityPopulation. Ouagadougou is the capital and largest metropolis of Burkina Faso.",
-    "source": {
-      "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
-      "publisher": "CityPopulation (credits INSD Burkina Faso)",
-      "author": null,
-      "date": "2019-11-16",
-      "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
-      "tier": "institutional",
-      "quote": "2019-11-16 | Ouagadougou: 2,415,266"
-    }
+ "city": "Ouagadougou",
+ "country": "BFA",
+ "population": {
+  "value": 2415266,
+  "year": 2019,
+  "definition": "Commune of Ouagadougou (518 km2), 5th General Census of Population and Housing (RGPH 2019); 1,183,557 men and 1,231,709 women",
+  "source": {
+   "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+   "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+   "author": null,
+   "date": "2022-12",
+   "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+   "tier": "institutional",
+   "quote": "Ouagadougou compte 2 415 266 d’habitants selon les résultats du cinquième Recensement général de la population et de l’habitation (5e RGPH), réalisé en 2019",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "The commune of Ouagadougou covers 518 km2, or 0.2 per cent of the national territory.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Elle couvre une superficie de 518 km² (SDAGO, 2010), soit 0,2% du territoire national.",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Ouagadougou's 2019 population is 11.78 per cent of Burkina Faso's total and 45.1 per cent of its urban population.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "soit 11,78% de la population totale du pays et 45,1% de celle des villes du Burkina Faso",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The commune population rose from 441,514 in 1985 to 1,475,839 in 2006 and 2,415,266 in 2019.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Elle est passée de 441 514 habitants en 1985 à 1 475 839 habitants en 2006 pour atteindre 2 415 266 habitants en 2019.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The commune lies on a vast peneplain of the Centre region with altitudes between 300 and 350 m.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Elle fait partie de la vaste pénéplaine de la région du Centre dont les altitudes varient entre 300 et 350 m.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The rainy season lasts from June to September and concentrates nearly 80 per cent of the rain.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "La saison des pluies dure de juin à septembre et concentre près de 80% des pluies",
+    "verified": true
+   }
+  },
+  {
+   "claim": "As capital of the state and seat of region, province and department, Ouagadougou hosts the headquarters of all ministries.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Ouagadougou abrite le siège de tous les départements ministériels et les services déconcentrés de l’Etat",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Mooré is the dominant language among the main languages commonly spoken in the commune of Ouagadougou.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "parmi les principales langues couramment parlées dans la commune de Ouagadougou, le mooré est la langue dominante",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Population density in the commune rose from 2,847.9 inhabitants per km2 in 2006 to 4,385.5 in 2019.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Elle est de 2 847,9 hbts/km² en 2006 et de 4 385,5 hbts/km² en 2019",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The short rainy season feeds four dams inside the city, used for drinking water, market gardening and fishing.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "permet d’alimenter les quatre (4) barrages intra urbains pour les besoins de consommation humaine, de pratique de cultures maraîchères et de pêche",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Ouagadougou is also the capital of the largest and strongest Mossi kingdom of the same name.",
+   "source": {
+    "title": "Mossi (Encyclopedia of World Cultures)",
+    "publisher": "Encyclopedia.com",
+    "author": null,
+    "date": null,
+    "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mossi-0",
+    "tier": "encyclopedia",
+    "quote": "The national capital, Ouagadougou, is also the capital of the largest and strongest Mossi kingdom, which has the same name.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The ruler of the Ouagadougou kingdom bore the title Mogho (or Moro) Naba, meaning \"ruler of the world\".",
+   "source": {
+    "title": "Mossi (Encyclopedia of World Cultures)",
+    "publisher": "Encyclopedia.com",
+    "author": null,
+    "date": null,
+    "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mossi-0",
+    "tier": "encyclopedia",
+    "quote": "was Mogho (or Moro ) Naba , meaning “ruler of the world.”",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1897",
+   "tag": "origins",
+   "claim": "The Voulet mission entered Ouagadougou, capital of the Mossi empire, and signed a treaty of peace and protectorate with the Mossi naba on 20 January 1897.",
+   "source": {
+    "title": "Haute-Volta, colonie française, 1919, Burkina Faso",
+    "publisher": "Digithèque MJP, Université de Perpignan",
+    "author": null,
+    "date": null,
+    "url": "https://mjp.univ-perp.fr/constit/bf1919.htm",
+    "tier": "academic",
+    "quote": "elle entre à Ouagadougou, la capitale de l'empire Mossi et signe un traité de paix et de protectorat avec Kouka-Koutou, naba du Mossi, le 20 janvier1897",
+    "verified": true
+   }
+  },
+  {
+   "when": "1919",
+   "tag": "growth",
+   "claim": "The decree of 1 March 1919 created the colony of Haute-Volta by dividing Haut-Sénégal-Niger.",
+   "source": {
+    "title": "Haute-Volta, colonie française, 1919, Burkina Faso",
+    "publisher": "Digithèque MJP, Université de Perpignan",
+    "author": null,
+    "date": null,
+    "url": "https://mjp.univ-perp.fr/constit/bf1919.htm",
+    "tier": "academic",
+    "quote": "le décret du 1er mars 1919 constitue la colonie de Haute-Volta",
+    "verified": true
+   }
+  },
+  {
+   "when": "1922",
+   "tag": "growth",
+   "claim": "The first stone of the palace of the Baloum Naaba, official spokesman of the Mogho Naaba, was laid on 22 November 1922.",
+   "source": {
+    "title": "Burkina: le palais centenaire du Baloum Naaba de Ouagadougou",
+    "publisher": "Wakat Séra",
+    "author": null,
+    "date": "2022-11",
+    "url": "https://www.wakatsera.com/?p=77776",
+    "tier": "press",
+    "quote": "la première pierre fut posée, le mercredi 22 novembre 1922",
+    "verified": true
+   }
+  },
+  {
+   "when": "1947",
+   "tag": "growth",
+   "claim": "Haute-Volta was re-established by law no. 47-1707 of 4 September 1947.",
+   "source": {
+    "title": "Haute-Volta, colonie française, 1919, Burkina Faso",
+    "publisher": "Digithèque MJP, Université de Perpignan",
+    "author": null,
+    "date": null,
+    "url": "https://mjp.univ-perp.fr/constit/bf1919.htm",
+    "tier": "academic",
+    "quote": "la Haute-Volta est reconstituée par la loi n°47-1707 du 4 septembre 1947",
+    "verified": true
+   }
+  },
+  {
+   "when": "1954",
+   "tag": "growth",
+   "claim": "The central market left the site of the present Place de la Révolution in 1954 and moved to its current 3.6 ha site, Rood-woko.",
+   "source": {
+    "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+    "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+    "author": null,
+    "date": "1993",
+    "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+    "tier": "academic",
+    "quote": "jusqu'en 1954 date 2 laquelle il a été transféré sur le site actuel de 3,6 ha",
+    "verified": true
+   }
+  },
+  {
+   "when": "1985",
+   "tag": "growth",
+   "claim": "On 26 August 1985 the reconstruction of the central market was decided as part of the planning scheme for the commercial zone.",
+   "source": {
+    "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+    "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+    "author": null,
+    "date": "1993",
+    "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+    "tier": "academic",
+    "quote": "décidé le 26 août 1985",
+    "verified": true
+   }
+  },
+  {
+   "when": "1988",
+   "tag": "growth",
+   "claim": "The mixed-economy company SOGEMA-B, which manages the new central market Rood-woko, was created on 9 March 1988 for 99 years.",
+   "source": {
+    "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+    "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+    "author": null,
+    "date": "1993",
+    "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+    "tier": "academic",
+    "quote": "la SOGEMA-B créée le 9 mars 1988 pour une durée de 99 ans",
+    "verified": true
+   }
+  },
+  {
+   "when": "2003",
+   "tag": "today",
+   "claim": "A fire swept through the central market in 2003, after which the city authorities took strict measures.",
+   "source": {
+    "title": "Rood Woko, marché central de Ouagadougou : où va nous mener le raag’ ya yaaré ?",
+    "publisher": "Burkina24",
+    "author": null,
+    "date": "2011-12-08",
+    "url": "https://burkina24.com/2011/12/08/rood-woko-marche-central-de-ouagadougou-ou-va-nous-mener-le-raag-ya-yaare/",
+    "tier": "press",
+    "quote": "Après la réfection du marché central suite à l’incendie qui a tout emporté sur son passage en 2003",
+    "verified": true
+   }
+  },
+  {
+   "when": "2019",
+   "tag": "today",
+   "claim": "The 2019 census counted 2,415,266 inhabitants in the commune.",
+   "source": {
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso)",
+    "author": null,
+    "date": "2022-12",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "quote": "Ouagadougou compte 2 415 266 d’habitants selon les résultats du cinquième Recensement général de la population et de l’habitation (5e RGPH), réalisé en 2019",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Ruins of Loropéni",
+   "type": "site",
+   "what": "The Ruins of Loropéni consist of laterite stone perimeter walls up to six metres high around a large abandoned settlement. Radiocarbon dates suggest the enclosure goes back at least to the 11th century and flourished between the 14th and 17th centuries, in a tradition linked to gold mining.",
+   "facts": [
     {
-      "claim": "Ouagadougou was founded in the 15th century as Wogodogo by the legendary Mossi leader Oubri, grandson of Princess Yennenga, becoming the permanent imperial capital of the Mogho Naaba.",
-      "source": {
-        "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
-        "tier": "institutional",
-        "quote": "Founded in the 15th century as the seat of the Mossi Kingdom"
-      }
+     "label": "Walls",
+     "value": "laterite stone walls up to six metres high around a large abandoned settlement",
+     "source": {
+      "title": "World Heritage Committee 33rd session: nominations, The Ruins of Loropéni (Statement of Outstanding Universal Value)",
+      "publisher": "UNESCO World Heritage Centre",
+      "author": null,
+      "date": "2009",
+      "url": "https://whc.unesco.org/archive/2009/whc09-33com-8Be.pdf",
+      "tier": "institutional",
+      "quote": "imposing, tall, laterite stone perimeter walls, up to six metres in height, surrounding a large abandoned settlement",
+      "verified": true
+     }
     },
     {
-      "claim": "Every Friday morning at the royal palace, the Mogho Naaba performs the ancient ritual of the 'Faux Départ' (Nabayious Gou), symbolically dramatizing a royal call to war and subsequent commitment to peace following pleas from his court.",
-      "source": {
-        "title": "Cour royale du Mogho Naaba et tradition du Nabayious Gou à Ouagadougou",
-        "publisher": "Ministère de la Communication, de la Culture, des Arts et du Tourisme du Burkina Faso",
-        "author": null,
-        "date": null,
-        "url": "https://culture.gov.bf/",
-        "tier": "institutional",
-        "quote": "Cérémonie séculaire du faux départ du Mogho Naaba tenue chaque vendredi matin"
-      }
+     "label": "Age",
+     "value": "at least 11th century; flourished 14th to 17th century",
+     "source": {
+      "title": "World Heritage Committee 33rd session: nominations, The Ruins of Loropéni (Statement of Outstanding Universal Value)",
+      "publisher": "UNESCO World Heritage Centre",
+      "author": null,
+      "date": "2009",
+      "url": "https://whc.unesco.org/archive/2009/whc09-33com-8Be.pdf",
+      "tier": "institutional",
+      "quote": "the walled enclosure at Loropéni dates back at least to the 11th century AD and flourished between the 14th and 17th centuries",
+      "verified": true
+     }
     },
     {
-      "claim": "Grand Marché Rood Woko is the central commercial lung of Ouagadougou, celebrated across West Africa for its bustling trade in Faso Dan Fani handwoven cotton, leathercraft, and Sahelian commodities.",
-      "source": {
-        "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
-        "tier": "institutional",
-        "quote": "Grand Marché Rood Woko au cœur de l'économie de la capitale burkinabè"
-      }
+     "label": "World Heritage criterion",
+     "value": "(iii): best preserved fortified settlement linked to gold mining",
+     "source": {
+      "title": "World Heritage Committee 33rd session: nominations, The Ruins of Loropéni (Statement of Outstanding Universal Value)",
+      "publisher": "UNESCO World Heritage Centre",
+      "author": null,
+      "date": "2009",
+      "url": "https://whc.unesco.org/archive/2009/whc09-33com-8Be.pdf",
+      "tier": "institutional",
+      "quote": "Loropéni is the best preserved example of a type of fortified settlements in a wide part of West Africa, linked to the tradition of gold mining",
+      "verified": true
+     }
+    },
+    {
+     "label": "Conservation",
+     "value": "the only ruined stone monument of the south-west in a relatively good state of preservation",
+     "source": {
+      "title": "Les enjeux de la conservation de la grande bâtisse en ruines de Loropéni",
+      "publisher": "Université Joseph Ki-Zerbo (ACAREF revue)",
+      "author": "Lassina Simporé and Tô Hien",
+      "date": "2024",
+      "url": "https://revues.acaref.net/wp-content/uploads/sites/3/2024/05/11-Lassina-SIMPORE_-To-HIEN.pdf",
+      "tier": "academic",
+      "quote": "Of the many ruined stone monuments in south-west Burkina Faso, only the ruined building at Loropéni is in a relatively good state of preservation.",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Precise post-2019 internal displacement inflows to the peripheral communes of Ouagadougou are tracked provisionally by humanitarian agencies.",
-    "First-hand local voices from Faso Dan Fani weavers and bronze casters at the Village Artisanal are still missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Palais du Mogho Naaba",
+   "type": "culture",
+   "what": "The palace of the Mogho Naaba, king of the Mossi of Ouagadougou, hosts each Friday the \"faux départ\" rite, which recalls an old conflict over the succession. The Mogho Naaba also holds council with his ministers each morning, and the palace hosts the 15 May Day of Customs and Traditions.",
+   "facts": [
+    {
+     "label": "Friday ritual",
+     "value": "the \"faux départ\" is played out each Friday in the palace",
+     "source": {
+      "title": "FESPACO 2025 : Des festivaliers participent à la cérémonie du Faux Départ du Moogho Naaba",
+      "publisher": "Sidwaya",
+      "author": null,
+      "date": "2025-02-28",
+      "url": "https://www.sidwaya.info/fespaco-2025-des-festivaliers-participent-a-la-ceremonie-du-faux-depart-du-moogho-naaba/",
+      "tier": "press",
+      "quote": "Chaque vendredi, cette scène historique est rejouée dans le palais du Mogho Naaba à Ouagadougou.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Origin of the ritual",
+     "value": "recalls a conflict over the enthronement of Moogho Naaba Koundoumié over his elder brother Naaba Yadéga",
+     "source": {
+      "title": "FESPACO 2025 : Des festivaliers participent à la cérémonie du Faux Départ du Moogho Naaba",
+      "publisher": "Sidwaya",
+      "author": null,
+      "date": "2025-02-28",
+      "url": "https://www.sidwaya.info/fespaco-2025-des-festivaliers-participent-a-la-ceremonie-du-faux-depart-du-moogho-naaba/",
+      "tier": "press",
+      "quote": "Cette cérémonie rappelle un conflit qui éclata suite à l’introduction du Moogho Naaba Koundoumié au détriment de son grand frère Naaba Yadéga.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Setting of the rite",
+     "value": "the back courtyard of the palace of Mogho Naaba Baongo II",
+     "source": {
+      "title": "Reportage/Le \"Faux départ\" du Mogho Naaba : Un rite oscillant entre mémoire et sérénité, en plein centre de Ouagadougou",
+      "publisher": "Fraternité Matin",
+      "author": null,
+      "date": "2025",
+      "url": "https://www.fratmat.info/article/2633114/culture/reportagele-faux-depart-du-mogho-naaba-un-rite-oscillant-entre-memoire-et-serenite-en-plein-centre-de-ouagadougou",
+      "tier": "press",
+      "quote": "Un rituel enraciné dans la coutume du royaume Mossi, qui se déroule en toute intimité sacrée à l'arrière-cour du palais du Mogho Naaba Baongo II.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Court",
+     "value": "the Mogho Naaba holds a council with his ministers each morning",
+     "source": {
+      "title": "Journée des coutumes et traditions",
+      "publisher": "Wakat Séra",
+      "author": null,
+      "date": "2024-05-15",
+      "url": "https://www.wakatsera.com/?p=102817",
+      "tier": "press",
+      "quote": "comme chaque matin, a tenu son conseil avec ses ministres et autres conseillers",
+      "verified": true
+     }
+    },
+    {
+     "label": "Customs day",
+     "value": "the 15 May Day of Customs and Traditions is celebrated at the royal palace",
+     "source": {
+      "title": "Journée des coutumes et traditions",
+      "publisher": "Wakat Séra",
+      "author": null,
+      "date": "2024-05-15",
+      "url": "https://www.wakatsera.com/?p=102817",
+      "tier": "press",
+      "quote": "La Journée des coutumes et des traditions, instituée désormais pour chaque 15 mai de l’année au Burkina Faso, a été célébrée, ce mercredi, avec faste, au Palais royal du Moogho Naaba Baongho",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grand Marché Rood Woko",
+   "type": "market",
+   "what": "Rood Woko, the central market of Ouagadougou, moved to its present 3.6 ha site in 1954. Its reconstruction was decided on 26 August 1985, a company was created in 1988 to manage it, and a fire swept through the market in 2003.",
+   "facts": [
+    {
+     "label": "Current site",
+     "value": "3.6 ha, since 1954",
+     "source": {
+      "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+      "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+      "author": null,
+      "date": "1993",
+      "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+      "tier": "academic",
+      "quote": "jusqu'en 1954 date 2 laquelle il a été transféré sur le site actuel de 3,6 ha",
+      "verified": true
+     }
+    },
+    {
+     "label": "Reconstruction decision",
+     "value": "26 August 1985",
+     "source": {
+      "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+      "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+      "author": null,
+      "date": "1993",
+      "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+      "tier": "academic",
+      "quote": "décidé le 26 août 1985",
+      "verified": true
+     }
+    },
+    {
+     "label": "Management company",
+     "value": "SOGEMA-B, created 9 March 1988 for 99 years",
+     "source": {
+      "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+      "publisher": "IRD (Institut de recherche pour le développement), BEEP",
+      "author": null,
+      "date": "1993",
+      "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+      "tier": "academic",
+      "quote": "la SOGEMA-B créée le 9 mars 1988 pour une durée de 99 ans",
+      "verified": true
+     }
+    },
+    {
+     "label": "Fire",
+     "value": "2003",
+     "source": {
+      "title": "Rood Woko, marché central de Ouagadougou : où va nous mener le raag’ ya yaaré ?",
+      "publisher": "Burkina24",
+      "author": null,
+      "date": "2011-12-08",
+      "url": "https://burkina24.com/2011/12/08/rood-woko-marche-central-de-ouagadougou-ou-va-nous-mener-le-raag-ya-yaare/",
+      "tier": "press",
+      "quote": "Après la réfection du marché central suite à l’incendie qui a tout emporté sur son passage en 2003",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Village Artisanal de Ouagadougou (VAO)",
+   "type": "culture",
+   "what": "At the Village Artisanal, artisans continue the bronze-casting tradition and have contributed public monuments, trophies and made-to-order pieces.",
+   "facts": [
+    {
+     "label": "Bronze tradition",
+     "value": "artisans continue the bronze tradition there",
+     "source": {
+      "title": "Burkina Faso : Deux maîtres, un art sans relâche",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/?p=176613",
+      "tier": "press",
+      "quote": "Au Village Artisanal de Ouagadougou, des hommes poursuivent cette tradition avec une constance qui force l’attention.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Commissions",
+     "value": "public monuments, trophies and made-to-order pieces",
+     "source": {
+      "title": "Burkina Faso : Deux maîtres, un art sans relâche",
+      "publisher": "Africa24 TV",
+      "author": null,
+      "date": null,
+      "url": "https://africa24tv.com/?p=176613",
+      "tier": "press",
+      "quote": "Ces artisans du Village Artisanal ont contribué à créer des monuments publics, des trophées emblématiques et des pièces uniques réalisées sur commande.",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Date and details of the founding of the city (15th century, Wubri): no readable, non-Wikipedia source found; blackpast and Universalis pages were 403 or paywalled.",
+  "Opening date, location and size of the Village Artisanal de Ouagadougou (VAO): only press features were readable; no official page found.",
+  "Rood Woko: date of the post-2003 reopening and the damage extent not verified (Afrik.com page 403).",
+  "UNESCO World Heritage pages for Loropéni (whc.unesco.org/en/list/1225) returned 403; the committee document PDF was used instead, so the exact inscription year is not recorded as a quote.",
+  "No well-sourced myth-or-fact item found for Ouagadougou."
+ ]
 }

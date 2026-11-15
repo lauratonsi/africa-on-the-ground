@@ -5,13 +5,55 @@
   "country": "CAF",
   "name": "Marché KM5 (PK5)",
   "region": "Bangui · Central African Republic",
-  "subtitle": "Bangui's vibrant economic lung and historic multicultural marketplace in the 3rd arrondissement.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "The PK5 or KM5 district is known for its large market and is described as the economic lung of Bangui.",
+  "facts": [
+    {
+      "label": "Also known as",
+      "value": "PK5 (Point kilométrique 5), also KM5",
+      "cite": [
+        "cap-cgvs-be-341af6"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Economic lung of the capital",
+      "cite": [
+        "cap-cgvs-be-341af6"
+      ]
+    },
+    {
+      "label": "Reputation",
+      "value": "Known for its large market",
+      "cite": [
+        "cap-cgvs-be-341af6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The PK5 or KM5 district is known for its large market and is described as the economic lung of Bangui.",
+              "cite": [
+                "cap-cgvs-be-341af6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Precise data on post-reconstruction trading associations and volume of trans-border flows are limited.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

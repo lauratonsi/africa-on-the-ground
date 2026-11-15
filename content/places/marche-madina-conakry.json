@@ -5,13 +5,64 @@
   "country": "GIN",
   "name": "Marché Madina",
   "region": "Conakry · Guinea",
-  "subtitle": "The immense commercial nerve center of Guinea, among the largest open wholesale bazaars in West Africa.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Madina is described as the largest market in Conakry and the country's largest commercial centre.",
+  "facts": [
+    {
+      "label": "Scale",
+      "value": "The largest market in Conakry",
+      "cite": [
+        "cap-wakatsera-com-810203"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Described as the country's largest commercial centre",
+      "cite": [
+        "cap-guineenews-org-09ba25"
+      ]
+    },
+    {
+      "label": "2018 fire",
+      "value": "At least 300 shops, stalls and kiosks destroyed (RFI)",
+      "cite": [
+        "cap-wakatsera-com-810203"
+      ]
+    },
+    {
+      "label": "Prices",
+      "value": "Guinéenews toured Conakry markets including Madina (the largest) to check Ramadan prices",
+      "cite": [
+        "cap-guineenews-org-163c0b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Madina is described as the largest market in Conakry and the country's largest commercial centre. It has suffered several fires, including in 2018 and 2025.",
+              "cite": [
+                "cap-wakatsera-com-810203",
+                "cap-guineenews-org-09ba25",
+                "cap-guineenews-org-163c0b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Precise figures on daily trade volume and registered vendor unions are not centralized.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

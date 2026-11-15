@@ -1,73 +1,606 @@
 {
-  "city": "Brazzaville",
-  "country": "COG",
-  "population": {
-    "value": 2138236,
-    "year": 2023,
-    "definition": "Population of the Commune of Brazzaville (comprising nine arrondissements: Talangaï, Mfilou, Djiri, Madibou, Makélékélé, Ouenzé, Moungali, Bacongo, Poto-Poto) recorded in the 5th General Population and Housing Census (RGPH-5, May 2023) conducted by the National Institute of Statistics (INS) of the Republic of the Congo, tabulated via CityPopulation. The Department of Brazzaville recorded 2,145,783 inhabitants, representing roughly 35 percent of the national population.",
-    "source": {
-      "title": "Congo (Brazzaville): Departments, Major Cities & Urban Communes (RGPH-5 Census 2023)",
-      "publisher": "CityPopulation (credits INS Congo)",
-      "author": null,
-      "date": "2023-05-17",
-      "url": "https://www.citypopulation.de/en/congo/cities/",
-      "tier": "institutional",
-      "quote": "2023-05-17 | Brazzaville Commune: 2,138,236; Brazzaville Department: 2,145,783"
-    }
+ "city": "Brazzaville",
+ "country": "COG",
+ "population": {
+  "value": 2145783,
+  "year": 2023,
+  "definition": "Brazzaville (the department/commune of Brazzaville, 588 km2), preliminary results of the fifth general census (RGPH-5) of 17 May 2023, presented 29 December 2023",
+  "source": {
+   "title": "Recensement 2023 au Congo-Brazzaville",
+   "publisher": "Direction générale du Trésor (France)",
+   "author": null,
+   "date": "2024",
+   "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+   "tier": "institutional",
+   "quote": "Brazzaville compte 2 145 783 habitants (34,9% de la population totale)",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Brazzaville has 2,145,783 inhabitants, or 34.9 percent of the Congolese population, according to the preliminary 2023 census results.",
+   "source": {
+    "title": "Recensement 2023 au Congo-Brazzaville",
+    "publisher": "Direction générale du Trésor (France)",
+    "author": null,
+    "date": "2024",
+    "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+    "tier": "institutional",
+    "quote": "Brazzaville compte 2 145 783 habitants (34,9% de la population totale)",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The department of Brazzaville has a population density of 3,646.81 inhabitants per km2, far denser than most other departments.",
+   "source": {
+    "title": "Recensement 2023 au Congo-Brazzaville",
+    "publisher": "Direction générale du Trésor (France)",
+    "author": null,
+    "date": "2024",
+    "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+    "tier": "institutional",
+    "quote": "Les départements de Brazzaville (3 646,81 habitants/km 2 )",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Brazzaville lies on the right bank of the Congo River, in the south-east of the country.",
+   "source": {
+    "title": "Département Brazzaville",
+    "publisher": "LIZIBA (portail du gouvernement congolais)",
+    "author": null,
+    "date": null,
+    "url": "https://liziba.cg/en/departement-brazzaville",
+    "tier": "institutional",
+    "quote": "On the right bank of the Congo River, in the south-east of the country",
+    "verified": true
+   }
+  },
+  {
+   "claim": "France's presence on the right bank of the Congo goes back to 1880, and Brazzaville was born in 1884, named after Pierre Savorgnan de Brazza.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "L’installation de la France sur la rive droite du Congo remonte à 1880. En 1884 naît Brazzaville, du nom de Pierre Savorgnan de Brazza",
+    "verified": true
+   }
+  },
+  {
+   "claim": "As a colonial capital, Brazzaville was built at a break-of-bulk point of the indigenous trade, 500 km from the Atlantic, combining commercial, administrative, military, religious and residential functions.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "Brazzaville, capitale coloniale, construite au point de rupture de charge du commerce indigène, à 500 km de l’Atlantique, cumule les fonctions commerciale, administrative, militaire, religieuse et résidentielle",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 1940 Brazzaville became the capital of Free France, and in 1944 it hosted the French African Conference.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "En 1940, Brazzaville devient capitale de la France libre et siège de la Conférence Africaine Française en 1944",
+    "verified": true
+   }
+  },
+  {
+   "claim": "After the war Brazzaville developed into a modern capital, with a growing airport and many new buildings, though its urban plan remained unfinished.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "Après la guerre, Brazzaville deviendra une capitale moderne, avec notamment le développement de son aéroport et de nombreuses constructions nouvelles, mais aussi avec un plan d’urbanisme resté cependant inachevé",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Brazzaville is administratively divided into districts including Makélékélé, Bacongo, Poto-Poto, Moungali, Ouenzé, Talangaï, Mfilou, Madibou and Djiri, plus the Île Mbamou district.",
+   "source": {
+    "title": "Département Brazzaville",
+    "publisher": "LIZIBA (portail du gouvernement congolais)",
+    "author": null,
+    "date": null,
+    "url": "https://liziba.cg/en/departement-brazzaville",
+    "tier": "institutional",
+    "quote": "Makélékélé ; Bacongo ; Poto-Poto ; Moungali ; Ouenzé ; Talangaï ; Mfilou ; Madibou ; Djiri et le district de l’Ile Mbamou",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Brazzaville and Pointe-Noire together house 58.1 percent of the Congolese population.",
+   "source": {
+    "title": "Recensement 2023 au Congo-Brazzaville",
+    "publisher": "Direction générale du Trésor (France)",
+    "author": null,
+    "date": "2024",
+    "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+    "tier": "institutional",
+    "quote": "Ces deux villes de Brazzaville et Pointe-Noire hébergent donc ensemble 58,1% de la population totale",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1880",
+   "tag": "origins",
+   "claim": "Brazza obtained, through a treaty with King Makoko Iloo I, France's possession of the Congo.",
+   "source": {
+    "title": "Le Congo sommé de restituer la dépouille de Savorgnan de Brazza",
+    "publisher": "Jeune Afrique",
+    "author": null,
+    "date": null,
+    "url": "https://www.jeuneafrique.com/168539/politique/le-congo-somm-de-restituer-la-d-pouille-de-savorgnan-de-brazza/",
+    "tier": "press",
+    "quote": "avait permis à la France de prendre possession du Congo en 1880 à la faveur d’un traité de paix conclu avec le roi Makoko Iloo Ier",
+    "verified": true
+   }
+  },
+  {
+   "when": "1884",
+   "tag": "origins",
+   "claim": "Brazzaville was born, named after Pierre Savorgnan de Brazza.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "En 1884 naît Brazzaville, du nom de Pierre Savorgnan de Brazza",
+    "verified": true
+   }
+  },
+  {
+   "when": "1940",
+   "tag": "growth",
+   "claim": "Brazzaville became the capital of Free France.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "En 1940, Brazzaville devient capitale de la France libre",
+    "verified": true
+   }
+  },
+  {
+   "when": "1944",
+   "tag": "growth",
+   "claim": "Brazzaville hosted the French African Conference.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "siège de la Conférence Africaine Française en 1944",
+    "verified": true
+   }
+  },
+  {
+   "when": "1949",
+   "tag": "growth",
+   "claim": "The Basilique Sainte-Anne, begun in 1943, was inaugurated although the works were not yet finished.",
+   "source": {
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines",
+    "author": "Bernard Toulier",
+    "date": "2003",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "quote": "Commencés en 1943, les travaux ne sont pas encore terminés en 1949, lors de l’inauguration",
+    "verified": true
+   }
+  },
+  {
+   "when": "1951",
+   "tag": "growth",
+   "claim": "The Poto-Poto 'Atelier d'art africain', begun in 1946, was made official as the 'Centre d'art africain'.",
+   "source": {
+    "title": "Poto-Poto, 1946-1960s. Frictions narratives, assignations esthétiques",
+    "publisher": "Gradhiva (revue d'anthropologie et d'histoire des arts)",
+    "author": null,
+    "date": "2022",
+    "url": "https://journals.openedition.org/gradhiva/6543?lang=en",
+    "tier": "academic",
+    "quote": "L’histoire de l’« Atelier d’art africain » de Poto-Poto débute en 1946, mais son officialisation en 1951 en tant que « Centre d’art africain »",
+    "verified": true
+   }
+  },
+  {
+   "when": "2006",
+   "tag": "today",
+   "claim": "On 3 October the mausoleum holding the remains of Pierre Savorgnan de Brazza and his family was inaugurated.",
+   "source": {
+    "title": "Les « os de la République » ou l'ancestralisation contestée au Congo-Brazzaville",
+    "publisher": "Civilisations (revue d'anthropologie)",
+    "author": "Rémy Bazenguissa-Ganga",
+    "date": null,
+    "url": "https://journals.openedition.org/civilisations/3645",
+    "tier": "academic",
+    "quote": "inaugurent le 3 octobre 2006, le mausolée",
+    "verified": true
+   }
+  },
+  {
+   "when": "2015",
+   "tag": "today",
+   "claim": "President Sassou Nguesso inaugurated on 18 February the first module of the rebuilt Marché Total.",
+   "source": {
+    "title": "Marché Total : l'espace de vente rénové",
+    "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+    "author": null,
+    "date": "2015-02-18",
+    "url": "https://www.adiac-congo.com/content/marche-total-lespace-de-vente-renove-27962",
+    "tier": "press",
+    "quote": "Le président de la République du Congo, Denis Sassou N’Guesso, a inauguré le 18 février, le premier module du marché Total",
+    "verified": true
+   }
+  },
+  {
+   "when": "2023",
+   "tag": "today",
+   "claim": "The preliminary RGPH-5 census counted 2,145,783 people in Brazzaville.",
+   "source": {
+    "title": "Recensement 2023 au Congo-Brazzaville",
+    "publisher": "Direction générale du Trésor (France)",
+    "author": null,
+    "date": "2024",
+    "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+    "tier": "institutional",
+    "quote": "Brazzaville compte 2 145 783 habitants",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Forest Massif of Odzala-Kokoua",
+   "type": "nature",
+   "what": "Odzala-Kokoua is a large protected area of Congolese rainforest in the north-west of the country, far from Brazzaville. It joined the World Heritage List in 2023.",
+   "facts": [
     {
-      "claim": "Brazzaville was founded on 10 September 1880 when Italo-French naval officer Pietro Savorgnan di Brazzà concluded a protectorate treaty with King Illoy I (Makoko of Mbé), paramount ruler of the Bateke Kingdom, establishing an outpost on the Pool Malebo.",
-      "source": {
-        "title": "Le Mémorial Pierre Savorgnan de Brazza au cœur de la capitale congolaise",
-        "publisher": "Agence d'Information d'Afrique Centrale (ADIAC)",
-        "author": null,
-        "date": null,
-        "url": "https://www.adiac-congo.com/",
-        "tier": "press",
-        "quote": "Fondée en 1880 lors du traité entre Savorgnan de Brazza et le roi Makoko des Téké"
-      }
+     "label": "World Heritage",
+     "value": "Inscribed by the UNESCO committee at its session of 16 September 2023 in Riyadh",
+     "source": {
+      "title": "Aires protégées : le parc Odzala-Kokoua inscrit au patrimoine mondial de l'Unesco",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": "Fiacre Kombo",
+      "date": "2023-09-23",
+      "url": "https://www.adiac-congo.com/content/aires-protegees-le-parc-odzala-kokoua-inscrit-au-patrimoine-mondial-de-lunesco-151717",
+      "tier": "press",
+      "quote": "Le comité du patrimoine mondial de l’Unesco a pris la décision au cours de sa session du 16 septembre dernier, à Riyad, en Arabie saoudite",
+      "verified": true
+     }
     },
     {
-      "claim": "During the Second World War, following Félix Éboué's declaration rallying French Equatorial Africa to General Charles de Gaulle, Brazzaville served as the official wartime capital of Free France (France Libre) between 1940 and 1943.",
-      "source": {
-        "title": "Basilique Sainte-Anne-du-Congo de Brazzaville: Histoire et Restauration",
-        "publisher": "Expertise France",
-        "author": null,
-        "date": null,
-        "url": "https://www.expertisefrance.fr/",
-        "tier": "institutional",
-        "quote": "Brazzaville désignée capitale de la France libre sous l'égide de Félix Éboué"
-      }
+     "label": "Park area",
+     "value": "13,546 km2, spanning the Cuvette ouest and Sangha departments",
+     "source": {
+      "title": "Aires protégées : le parc Odzala-Kokoua inscrit au patrimoine mondial de l'Unesco",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": "Fiacre Kombo",
+      "date": "2023-09-23",
+      "url": "https://www.adiac-congo.com/content/aires-protegees-le-parc-odzala-kokoua-inscrit-au-patrimoine-mondial-de-lunesco-151717",
+      "tier": "press",
+      "quote": "avec une superficie de 13 546 km2",
+      "verified": true
+     }
     },
     {
-      "claim": "The Basilica of Sainte-Anne-du-Congo, begun in 1943 by French architect Roger Erell, marries modernist reinforced concrete construction with indigenous African forms, featuring parabolic vaults and an undulating roof of emerald-green ceramic tiles shaped like fish scales.",
-      "source": {
-        "title": "Basilique Sainte-Anne-du-Congo de Brazzaville: Histoire et Restauration",
-        "publisher": "Expertise France",
-        "author": null,
-        "date": null,
-        "url": "https://www.expertisefrance.fr/",
-        "tier": "institutional",
-        "quote": "Conçue par Roger Erell avec sa toiture en tuiles vernissées vertes et ses ogives monumentales"
-      }
+     "label": "Biosphere reserve",
+     "value": "Nominated in 1977; 1,294,900 ha; around 85% forest",
+     "source": {
+      "title": "Kokoua-Odzala",
+      "publisher": "UNESCO Man and the Biosphere Programme",
+      "author": null,
+      "date": null,
+      "url": "https://www.unesco.org/en/mab/kokoua-odzala",
+      "tier": "institutional",
+      "quote": "Year of nomination 1977 Country Congo Total population 45000 Area Surface 1,294,900.00 ha",
+      "verified": true
+     }
     },
     {
-      "claim": "The École de Peinture de Poto-Poto, founded in 1951 in the historic Poto-Poto district by French painter Pierre Lods, pioneered modern Congolese easel painting, developing the famous 'mitchi' (stylized elongated figures) visual language.",
-      "source": {
-        "title": "Le Mémorial Pierre Savorgnan de Brazza au cœur de la capitale congolaise",
-        "publisher": "Agence d'Information d'Afrique Centrale (ADIAC)",
-        "author": null,
-        "date": null,
-        "url": "https://www.adiac-congo.com/",
-        "tier": "press",
-        "quote": "École de peinture de Poto-Poto fondée en 1951"
-      }
+     "label": "Gorillas",
+     "value": "Largest known population of western lowland gorillas",
+     "source": {
+      "title": "Kokoua-Odzala",
+      "publisher": "UNESCO Man and the Biosphere Programme",
+      "author": null,
+      "date": null,
+      "url": "https://www.unesco.org/en/mab/kokoua-odzala",
+      "tier": "institutional",
+      "quote": "the largest known population of western lowland gorillas",
+      "verified": true
+     }
+    },
+    {
+     "label": "Wildlife",
+     "value": "More than 120 mammal species observed, 20 of them threatened",
+     "source": {
+      "title": "Forest Massif of Odzala-Kokoua",
+      "publisher": "IUCN World Heritage Outlook",
+      "author": null,
+      "date": null,
+      "url": "https://worldheritageoutlook.iucn.org/node/2570",
+      "tier": "institutional",
+      "quote": "plus de 120 espèces de mammifères y ont été observées, parmi elles, 20 espèces menacées",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Full analytical disaggregation by age and migration from the May 2023 census is awaiting publication of thematic volumes.",
-    "First-hand local voices from artists in Poto-Poto and vendors in Marché Total have not yet been recorded.",
-    "Municipal landmark imagery remains unlinked in the repository."
-  ]
+   ]
+  },
+  {
+   "name": "Poto-Poto School of Painting",
+   "type": "culture",
+   "what": "The Poto-Poto school grew out of an art workshop begun in 1946 and made official as an art centre in 1951. It was created by Pierre Lods and taught young people free creation.",
+   "facts": [
+    {
+     "label": "Origins",
+     "value": "Atelier d'art africain from 1946, made official in 1951 as Centre d'art africain",
+     "source": {
+      "title": "Poto-Poto, 1946-1960s. Frictions narratives, assignations esthétiques",
+      "publisher": "Gradhiva (revue d'anthropologie et d'histoire des arts)",
+      "author": null,
+      "date": "2022",
+      "url": "https://journals.openedition.org/gradhiva/6543?lang=en",
+      "tier": "academic",
+      "quote": "L’histoire de l’« Atelier d’art africain » de Poto-Poto débute en 1946, mais son officialisation en 1951 en tant que « Centre d’art africain »",
+      "verified": true
+     }
+    },
+    {
+     "label": "Founder",
+     "value": "Created in 1951 by Pierre Lods, a former French resistance fighter",
+     "source": {
+      "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": null,
+      "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+      "tier": "press",
+      "quote": "Créée en 1951 par Pierre Lods, un ancien résistant français de la Deuxième Guerre mondiale",
+      "verified": true
+     }
+    },
+    {
+     "label": "Principle",
+     "value": "Introduced young people to the principle of free creation",
+     "source": {
+      "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": null,
+      "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+      "tier": "press",
+      "quote": "a initié des jeunes gens au respect du principe de la libre création",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Located in Moungali rather than in Poto-Poto, and more a workshop than a school",
+     "source": {
+      "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": null,
+      "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+      "tier": "press",
+      "quote": "n’est pas localisée à Poto-Poto, mais à Moungali et elle ne serait pas davantage une école, plutôt qu’un atelier d’art",
+      "verified": true
+     }
+    },
+    {
+     "label": "Artists",
+     "value": "Ondongo, Owassa, Thango, Iloki, Ndinga and Gotène emerged and became known in Europe and beyond",
+     "source": {
+      "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": null,
+      "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+      "tier": "press",
+      "quote": "Ondongo, Owassa, Thango, Iloki, Ndinga et Gotène",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Basilique Sainte-Anne-du-Congo",
+   "type": "culture",
+   "what": "The basilica was designed by the architect Roger Erell with the engineers William Barnett and then Grandmaître. Works began in 1943 and it was inaugurated in 1949, still unfinished.",
+   "facts": [
+    {
+     "label": "Architect",
+     "value": "Roger Erell, with the engineers William Barnett then Grandmaître",
+     "source": {
+      "title": "Congo-Brazzaville (Brèves)",
+      "publisher": "In Situ, revue des patrimoines",
+      "author": "Bernard Toulier",
+      "date": "2003",
+      "url": "https://journals.openedition.org/insitu/10525",
+      "tier": "academic",
+      "quote": "La basilique Sainte-Anne, par l’architecte Roger Erell associé aux ingénieurs William Barnett puis Grandmaître",
+      "verified": true
+     }
+    },
+    {
+     "label": "Built",
+     "value": "Works began in 1943 and were not finished at the inauguration in 1949",
+     "source": {
+      "title": "Congo-Brazzaville (Brèves)",
+      "publisher": "In Situ, revue des patrimoines",
+      "author": "Bernard Toulier",
+      "date": "2003",
+      "url": "https://journals.openedition.org/insitu/10525",
+      "tier": "academic",
+      "quote": "Commencés en 1943, les travaux ne sont pas encore terminés en 1949, lors de l’inauguration",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mémorial Pierre Savorgnan de Brazza",
+   "type": "site",
+   "what": "The memorial is the mausoleum where the remains of Brazza and his family were reburied in 2006 after being transferred from Algiers. It stands on the banks of the Congo river.",
+   "facts": [
+    {
+     "label": "Inaugurated",
+     "value": "3 October 2006",
+     "source": {
+      "title": "Les « os de la République » ou l'ancestralisation contestée au Congo-Brazzaville",
+      "publisher": "Civilisations (revue d'anthropologie)",
+      "author": "Rémy Bazenguissa-Ganga",
+      "date": null,
+      "url": "https://journals.openedition.org/civilisations/3645",
+      "tier": "academic",
+      "quote": "inaugurent le 3 octobre 2006, le mausolée",
+      "verified": true
+     }
+    },
+    {
+     "label": "Reburial",
+     "value": "Remains brought from Algiers in October 2006 and reburied in an imposing marble and glass mausoleum on the banks of the Congo River",
+     "source": {
+      "title": "Le Congo sommé de restituer la dépouille de Savorgnan de Brazza",
+      "publisher": "Jeune Afrique",
+      "author": null,
+      "date": null,
+      "url": "https://www.jeuneafrique.com/168539/politique/le-congo-somm-de-restituer-la-d-pouille-de-savorgnan-de-brazza/",
+      "tier": "press",
+      "quote": "La dépouille de Savorgnan de Brazza avait été ramenée d’Alger à Brazzaville en octobre 2006 et ré-inhumée dans un imposant mausolée de marbre et de verre sur les bords du fleuve Congo",
+      "verified": true
+     }
+    },
+    {
+     "label": "Who was transferred",
+     "value": "The remains of Pierre Savorgnan de Brazza and all the members of his family",
+     "source": {
+      "title": "Les « os de la République » ou l'ancestralisation contestée au Congo-Brazzaville",
+      "publisher": "Civilisations (revue d'anthropologie)",
+      "author": "Rémy Bazenguissa-Ganga",
+      "date": null,
+      "url": "https://journals.openedition.org/civilisations/3645",
+      "tier": "academic",
+      "quote": "En 2006, les gouvernants inaugurent un mémorial où ils transfèrent les restes de Pierre Savorgnan de Brazza et de tous les membres de sa famille",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Marché Total de Bacongo",
+   "type": "market",
+   "what": "The Marché Total in Bacongo is described as the largest market in Brazzaville. Its first rebuilt module was inaugurated in 2015.",
+   "facts": [
+    {
+     "label": "Size",
+     "value": "The largest market in Brazzaville",
+     "source": {
+      "title": "Marché Total : l'espace de vente rénové",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": "2015-02-18",
+      "url": "https://www.adiac-congo.com/content/marche-total-lespace-de-vente-renove-27962",
+      "tier": "press",
+      "quote": "Le marché Total de Bacongo est le plus grand de Brazzaville",
+      "verified": true
+     }
+    },
+    {
+     "label": "First module",
+     "value": "Inaugurated on 18 February 2015 by President Sassou N'Guesso",
+     "source": {
+      "title": "Marché Total : l'espace de vente rénové",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": "2015-02-18",
+      "url": "https://www.adiac-congo.com/content/marche-total-lespace-de-vente-renove-27962",
+      "tier": "press",
+      "quote": "a inauguré le 18 février, le premier module du marché Total",
+      "verified": true
+     }
+    },
+    {
+     "label": "Capacity",
+     "value": "The first module, Total A, holds 2,285 places, for food sales",
+     "source": {
+      "title": "Marché Total : l'espace de vente rénové",
+      "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+      "author": null,
+      "date": "2015-02-18",
+      "url": "https://www.adiac-congo.com/content/marche-total-lespace-de-vente-renove-27962",
+      "tier": "press",
+      "quote": "Il se présente en un bâtiment R+1 avec une capacité totale de 2 285 places",
+      "verified": true
+     }
+    },
+    {
+     "label": "Modern market",
+     "value": "Described as the very first modern market of Brazzaville",
+     "source": {
+      "title": "Congo : Le plus grand marché moderne inauguré à Brazzaville",
+      "publisher": "Agence Afrique",
+      "author": null,
+      "date": null,
+      "url": "https://www.agenceafrique.com/2947-congo-le-plus-grand-marche-moderne-inaugure-brazzaville.html",
+      "tier": "press",
+      "quote": "« Total » est le tout premier marché moderne de Brazzaville",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "The Poto-Poto School of Painting is a school located in the Poto-Poto district.",
+  "truth": "A Dépêches de Brazzaville feature notes that it is not located in Poto-Poto but in Moungali, and that it is more an art workshop than a school, created in 1951 by Pierre Lods.",
+  "source": {
+   "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+   "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+   "author": null,
+   "date": null,
+   "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+   "tier": "press",
+   "quote": "n’est pas localisée à Poto-Poto, mais à Moungali et elle ne serait pas davantage une école, plutôt qu’un atelier d’art",
+   "verified": true
+  }
+ },
+ "unreadable": [
+  "https://whc.unesco.org/en/list/692/ (403)",
+  "https://www.africanparks.org/the-parks/odzala-kokoua (403)",
+  "https://www.si.edu/object/siris_sil_752655 (403)",
+  "https://ecoledepeinture.cg/index.php/en/our-story/ (502)"
+ ],
+ "notNotFound": [
+  "Population is the preliminary RGPH-5 figure (2023) as reported by the French Treasury; the INS Congo final report was not found on a readable page. The 2007 census figure was not verified.",
+  "Poto-Poto origins: sources differ (1946 workshop, 1951 officialisation, 1951 creation by Lods); recorded as stated in each source.",
+  "Basilique Sainte-Anne: completion date of the spire, roof tiles (green glazed tiles) and 2011 reopening not verified in a readable non-blog source.",
+  "Marché Total: founding year 1957 and number of traders not verified.",
+  "Odzala-Kokoua is in the north-west of the country, not in Brazzaville; UNESCO list page unreadable.",
+  "Economy and culture facts about Brazzaville beyond the above (port, airport specifics) not verified."
+ ]
 }

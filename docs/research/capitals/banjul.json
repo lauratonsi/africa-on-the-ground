@@ -1,61 +1,576 @@
 {
-  "city": "Banjul",
-  "country": "GMB",
-  "population": {
-    "value": 31054,
-    "year": 2013,
-    "definition": "Population of the City / Local Government Area of Banjul situated on St Mary's Island, enumerated in the 2013 Population and Housing Census conducted by the Gambia Bureau of Statistics (GBoS), tabulated via CityPopulation. While Banjul itself has limited land area bounded by the Atlantic Ocean and mangrove swamps, the surrounding Greater Banjul Area (including Kanifing / Serekunda and Brikama) forms an urban conurbation of over 800,000 residents.",
-    "source": {
-      "title": "The Gambia: Local Government Areas, Major Cities & Settlements (Census 2013)",
-      "publisher": "CityPopulation (credits GBoS The Gambia)",
-      "author": null,
-      "date": "2013-04-08",
-      "url": "https://www.citypopulation.de/en/gambia/cities/",
-      "tier": "institutional",
-      "quote": "2013-04-08 | Banjul: 31,054"
-    }
+ "city": "Banjul",
+ "country": "GMB",
+ "population": {
+  "value": 31054,
+  "year": 2013,
+  "definition": "Banjul Local Government Area (Banjul City Council), the island city, 2013 census, both sexes",
+  "source": {
+   "title": "Census 2013 Directory of Settlement",
+   "publisher": "Gambia Bureau of Statistics",
+   "author": null,
+   "date": "2013",
+   "url": "https://gbosdata.org/downloads-file/7-census-2013-directory-of-settlement",
+   "tier": "institutional",
+   "quote": "Banjul 31,054 756 1,312",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "On 23 April 1816 Captain Alexander Grant made a treaty with the king of Kombo, Tomani Bojang, leasing the island to the British for 103 iron bars a year.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "On the 23rd April 1816 Captain Alexander Grant entered into a treaty with Tomani Bojang",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The lease was paid as a yearly sum of 103 iron bars.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "yearly payment of 103 iron bars",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The settlement was named Bathurst after the British Colonial Secretary, and the island before 1816 was known to the Portuguese as Banjulo.",
+   "source": {
+    "title": "The Gambia - Slave Trade",
+    "publisher": "GlobalSecurity.org",
+    "author": null,
+    "date": null,
+    "url": "https://www.globalsecurity.org/military/world/africa/gm-history-04.htm",
+    "tier": "encyclopedia",
+    "quote": "Originally called Banjulo by the Portuguese, Grant named the new settlement, Bathurst after the Colonial Secretary of the time Lord Bathurst.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Bathurst was renamed Banjul in 1973.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "In 1973 Bathurst was re-named Banjul",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 1980s, after a period of stagnation, many residents left Banjul for the Kombos, creating the Greater Banjul area.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "After a period of stagnation and decay in the 1980's the capital saw a rapid exodus of much of the population from Banjul",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 2013 census Banjul had the smallest share of the national population of any local government area, 1.6 percent.",
+   "source": {
+    "title": "Population Distribution: 5 Observations",
+    "publisher": "Gambia Bureau of Statistics",
+    "author": null,
+    "date": null,
+    "url": "https://gbosdata.org/data-stories/population-and-demography/population-distribution-5-observations",
+    "tier": "institutional",
+    "quote": "Banjul accounting for the lowest proportion of the population (1.6 percent)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Banjul had the lowest share of females of any local government area in 2013, at 48.9 percent.",
+   "source": {
+    "title": "Population Distribution: 5 Observations",
+    "publisher": "Gambia Bureau of Statistics",
+    "author": null,
+    "date": null,
+    "url": "https://gbosdata.org/data-stories/population-and-demography/population-distribution-5-observations",
+    "tier": "institutional",
+    "quote": "has the lowest proportion of females across all the LGAs at 48.9 percent",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Banjul municipality is the seat of government of The Gambia.",
+   "source": {
+    "title": "The Gambia Demographic and Health Survey 2013",
+    "publisher": "Gambia Bureau of Statistics / ICF",
+    "author": null,
+    "date": "2014",
+    "url": "https://dhsprogram.com/pubs/pdf/FR289/FR289.pdf",
+    "tier": "institutional",
+    "quote": "Banjul municipality (the seat of the government)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Banjul and Kanifing are entirely urban, with no rural strata, in the 2013 survey design.",
+   "source": {
+    "title": "The Gambia Demographic and Health Survey 2013",
+    "publisher": "Gambia Bureau of Statistics / ICF",
+    "author": null,
+    "date": "2014",
+    "url": "https://dhsprogram.com/pubs/pdf/FR289/FR289.pdf",
+    "tier": "institutional",
+    "quote": "except Banjul and Kanifing, which are entirely urban settlements",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Comparing the 2013 and 2024 censuses, Banjul was the only local government area whose population declined (by 15 percent).",
+   "source": {
+    "title": "Factsheet: Almost half of Gambians live in Brikama Local Government Area",
+    "publisher": "FactCheck Gambia",
+    "author": null,
+    "date": "2024-10-05",
+    "url": "https://factcheckgambia.org/2024/10/05/factsheet-almost-half-of-gambians-live-in-brikama-local-government-area/",
+    "tier": "press",
+    "quote": "Banjul was the only region where the population declined (-15%)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Gambia Ports Authority took over cargo handling in the port of Banjul from 1 January 1973.",
+   "source": {
+    "title": "The Gambia Ports Authority At 50 (1972-2022): Some Milestones",
+    "publisher": "The Standard (Gambia)",
+    "author": null,
+    "date": "2022",
+    "url": "https://standard.gm/the-gambia-ports-authority-at-50-1972-2022-some-milestones-2",
+    "tier": "press",
+    "quote": "took over full control of all cargo handling operation in the port of Banjul with effect from 1st January 1973",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The museum's ground floor is dedicated to an exhibition on Banjul's history called 'Banjul, Bathurst, Banjul'.",
+   "source": {
+    "title": "National Museum of The Gambia",
+    "publisher": "My Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+    "tier": "press",
+    "quote": "became a space for the »Banjul, Bathurst, Banjul« exhibition, telling a story about The Gambia's capital",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1455",
+   "tag": "origins",
+   "claim": "Portuguese navigators entered the mouth of the Gambia River in 1455 and were driven off by hostile locals.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "entered the mouth of the Gambia River in 1455 before being ejected by hostile locals",
+    "verified": true
+   }
+  },
+  {
+   "when": "1816",
+   "tag": "origins",
+   "claim": "Captain Alexander Grant concluded a treaty with Tomani Bojang, king of Kombo, for the island on 23 April 1816.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "On the 23rd April 1816 Captain Alexander Grant entered into a treaty with Tomani Bojang",
+    "verified": true
+   }
+  },
+  {
+   "when": "1965",
+   "tag": "growth",
+   "claim": "The name Bathurst symbolised British colonial rule over the island from 1816 to 1965.",
+   "source": {
+    "title": "National Museum of The Gambia",
+    "publisher": "My Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+    "tier": "press",
+    "quote": "that name became a symbol of the British colonial rule over it from 1816 to 1965",
+    "verified": true
+   }
+  },
+  {
+   "when": "1972",
+   "tag": "growth",
+   "claim": "The Gambia Ports Authority began operating on 1 July 1972.",
+   "source": {
+    "title": "The Gambia Ports Authority At 50 (1972-2022): Some Milestones",
+    "publisher": "The Standard (Gambia)",
+    "author": null,
+    "date": "2022",
+    "url": "https://standard.gm/the-gambia-ports-authority-at-50-1972-2022-some-milestones-2",
+    "tier": "press",
+    "quote": "The Gambia Ports Authority commenced operation on 1st July 1972",
+    "verified": true
+   }
+  },
+  {
+   "when": "1973",
+   "tag": "growth",
+   "claim": "Bathurst was renamed Banjul.",
+   "source": {
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "quote": "In 1973 Bathurst was re-named Banjul",
+    "verified": true
+   }
+  },
+  {
+   "when": "1985",
+   "tag": "growth",
+   "claim": "The National Museum was created in 1985 by the first ministry of culture.",
+   "source": {
+    "title": "National Museum of The Gambia",
+    "publisher": "My Gambia",
+    "author": null,
+    "date": null,
+    "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+    "tier": "press",
+    "quote": "In 1985 the National museum was created by the first ministry of culture",
+    "verified": true
+   }
+  },
+  {
+   "when": "1995-1996",
+   "tag": "growth",
+   "claim": "Arch 22 was built between 1995 and 1996 at a cost of US$1 million.",
+   "source": {
+    "title": "Time for the truth in Gambia",
+    "publisher": "Justice Info",
+    "author": null,
+    "date": "2021-07-06",
+    "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+    "tier": "press",
+    "quote": "was built between 1995 and 1996, costing taxpayers US$1 million",
+    "verified": true
+   }
+  },
+  {
+   "when": "2013",
+   "tag": "today",
+   "claim": "The 2013 census counted 31,054 people in Banjul.",
+   "source": {
+    "title": "Census 2013 Directory of Settlement",
+    "publisher": "Gambia Bureau of Statistics",
+    "author": null,
+    "date": "2013",
+    "url": "https://gbosdata.org/downloads-file/7-census-2013-directory-of-settlement",
+    "tier": "institutional",
+    "quote": "Banjul 31,054 756 1,312",
+    "verified": true
+   }
+  },
+  {
+   "when": "2017",
+   "tag": "today",
+   "claim": "After the fall of Yahya Jammeh in January 2017 the 'unknown soldier' statue from Arch 22 was removed and later relocated to the National Museum.",
+   "source": {
+    "title": "Time for the truth in Gambia",
+    "publisher": "Justice Info",
+    "author": null,
+    "date": "2021-07-06",
+    "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+    "tier": "press",
+    "quote": "The ‘unknown soldier’ was removed by a group of civilian vigilantes after the fall of Jammeh in January 2017",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Kunta Kinteh Island",
+   "type": "site",
+   "what": "Kunta Kinteh Island, formerly James Island, lies in the River Gambia and is a UNESCO World Heritage site with related sites. UNESCO describes it as a testimony to the encounter between Africa and Europe and links it to the beginning and abolition of the slave trade.",
+   "facts": [
     {
-      "claim": "Banjul was founded in April 1816 as Bathurst by British captain Alexander Grant on St Mary's Island as a military post and naval checkpoint to intercept illicit slave ships entering the Gambia River.",
-      "source": {
-        "title": "The Gambia: Local Government Areas, Major Cities & Settlements (Census 2013)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/gambia/cities/",
-        "tier": "institutional",
-        "quote": "Founded in 1816 as Bathurst and renamed Banjul in 1973"
-      }
+     "label": "Significance",
+     "value": "Testimony to the main periods of the Africa-Europe encounter along the River Gambia",
+     "source": {
+      "title": "The Slaves Hunter's Island: Kunta Kinteh Island and Related Sites",
+      "publisher": "UNESCO Multimedia Archives",
+      "author": null,
+      "date": null,
+      "url": "https://www.unesco.org/archives/multimedia/document-926",
+      "tier": "institutional",
+      "quote": "present a testimony to the main periods and facets of the encounter between Africa and Europe along the River Gambia",
+      "verified": true
+     }
     },
     {
-      "claim": "Arch 22, standing 35 metres tall at the entrance to Banjul on the Senegambia Highway, was erected in 1996 and houses a national history museum alongside panoramic observation terraces.",
-      "source": {
-        "title": "National Centre for Arts and Culture: Arch 22 and the National Museum of The Gambia",
-        "publisher": "National Centre for Arts and Culture (NCAC The Gambia)",
-        "author": null,
-        "date": null,
-        "url": "https://ncac.gm/",
-        "tier": "institutional",
-        "quote": "Arch 22 monumental gateway and museum erected in 1996"
-      }
+     "label": "Slave trade",
+     "value": "Particularly significant for the beginning of the slave trade and its abolition",
+     "source": {
+      "title": "The Slaves Hunter's Island: Kunta Kinteh Island and Related Sites",
+      "publisher": "UNESCO Multimedia Archives",
+      "author": null,
+      "date": null,
+      "url": "https://www.unesco.org/archives/multimedia/document-926",
+      "tier": "institutional",
+      "quote": "particularly significant for its relation to the beginning of the slave trade and its abolition",
+      "verified": true
+     }
     },
     {
-      "claim": "The National Museum of The Gambia on Gloucester Street preserves traditional Mandinka, Wolof, and Fula musical instruments (such as the 21-stringed kora), ritual Kankurang masquerade garments, and ethnographic archives.",
-      "source": {
-        "title": "National Centre for Arts and Culture: Arch 22 and the National Museum of The Gambia",
-        "publisher": "National Centre for Arts and Culture (NCAC The Gambia)",
-        "author": null,
-        "date": null,
-        "url": "https://ncac.gm/",
-        "tier": "institutional",
-        "quote": "National Museum preserving traditional Gambian masquerades, koras, and ethnographic regalia"
-      }
+     "label": "Former name",
+     "value": "James Island",
+     "source": {
+      "title": "The Slaves Hunter's Island: Kunta Kinteh Island and Related Sites",
+      "publisher": "UNESCO Multimedia Archives",
+      "author": null,
+      "date": null,
+      "url": "https://www.unesco.org/archives/multimedia/document-926",
+      "tier": "institutional",
+      "quote": "Kunta Kinteh Island (formerly James Island)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Literary fame",
+     "value": "James Island and Juffure became famous through Alex Haley's Roots (1976)",
+     "source": {
+      "title": "The Gambia - Slave Trade",
+      "publisher": "GlobalSecurity.org",
+      "author": null,
+      "date": null,
+      "url": "https://www.globalsecurity.org/military/world/africa/gm-history-04.htm",
+      "tier": "encyclopedia",
+      "quote": "James Island and Juffure became famous when Alex Haley chronicled his ancestor, Kunta Kinteh",
+      "verified": true
+     }
+    },
+    {
+     "label": "Erosion",
+     "value": "The 17th-century fort is in danger of collapsing as the shoreline erodes",
+     "source": {
+      "title": "National Museum of The Gambia",
+      "publisher": "My Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+      "tier": "press",
+      "quote": "is in danger of collapsing since the island's shoreline proceeds to erode",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final published tables of the 2024 digital census round are pending from GBoS.",
-    "First-hand local voices from Barra ferry commuters and market women in Albert Market are still missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Albert Market",
+   "type": "market",
+   "what": "Albert Market is on Liberation Avenue and is the capital's main urban market. It is named after Prince Albert, the husband of Queen Victoria.",
+   "facts": [
+    {
+     "label": "Role",
+     "value": "The capital's main urban market",
+     "source": {
+      "title": "Albert Market - Banjul",
+      "publisher": "Access Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.accessgambia.com/information/albert-market.html",
+      "tier": "press",
+      "quote": "Albert Market is in Banjul on Liberation Avenue and is the capital's main urban market",
+      "verified": true
+     }
+    },
+    {
+     "label": "Named after",
+     "value": "Prince Albert, husband of Queen Victoria",
+     "source": {
+      "title": "Albert Market - Banjul",
+      "publisher": "Access Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.accessgambia.com/information/albert-market.html",
+      "tier": "press",
+      "quote": "It was named after Queen Victoria's husband Prince Albert Saxe-Coburg and Gotha",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Liberation Avenue, a few metres from the river bank",
+     "source": {
+      "title": "Albert Market - Banjul",
+      "publisher": "Access Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.accessgambia.com/information/albert-market.html",
+      "tier": "press",
+      "quote": "The river bank is only a few metres away behind Albert Market",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Arch 22",
+   "type": "site",
+   "what": "Arch 22 is a monument at the entrance to Banjul, made a national monument in 2000. It was built in 1995-1996 and today shows exhibitions in its upper floors.",
+   "facts": [
+    {
+     "label": "Size",
+     "value": "Three floors, 42 m high and 30 m wide",
+     "source": {
+      "title": "Time for the truth in Gambia",
+      "publisher": "Justice Info",
+      "author": null,
+      "date": "2021-07-06",
+      "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+      "tier": "press",
+      "quote": "The imposing three-floor structure — 42 metres high and 30 metres wide — was built between 1995 and 1996",
+      "verified": true
+     }
+    },
+    {
+     "label": "Built",
+     "value": "1995-1996, cost US$1 million",
+     "source": {
+      "title": "Time for the truth in Gambia",
+      "publisher": "Justice Info",
+      "author": null,
+      "date": "2021-07-06",
+      "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+      "tier": "press",
+      "quote": "was built between 1995 and 1996, costing taxpayers US$1 million",
+      "verified": true
+     }
+    },
+    {
+     "label": "National monument",
+     "value": "2000",
+     "source": {
+      "title": "Time for the truth in Gambia",
+      "publisher": "Justice Info",
+      "author": null,
+      "date": "2021-07-06",
+      "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+      "tier": "press",
+      "quote": "In 2000, the Arch – widely called “Arch 22” – was made a national monument",
+      "verified": true
+     }
+    },
+    {
+     "label": "Exhibitions",
+     "value": "Shows pictures both celebrating Jammeh's rule and depicting its human rights violations",
+     "source": {
+      "title": "Time for the truth in Gambia",
+      "publisher": "Justice Info",
+      "author": null,
+      "date": "2021-07-06",
+      "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+      "tier": "press",
+      "quote": "the Arch already exhibits pictures both celebrating Jammeh’s rule and depicting its human rights violations",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "National Museum of The Gambia",
+   "type": "culture",
+   "what": "The National Museum stands on Independence Drive in Banjul and was created in 1985. Its ground floor tells the story of Banjul in the exhibition 'Banjul, Bathurst, Banjul'.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "1985",
+     "source": {
+      "title": "The Gambia National Museum",
+      "publisher": "Mainly Museums",
+      "author": null,
+      "date": null,
+      "url": "https://mainlymuseums.com/post/438/the-gambia-national-museum/",
+      "tier": "press",
+      "quote": "Established in 1985",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Independence Drive, Banjul",
+     "source": {
+      "title": "The Gambia National Museum",
+      "publisher": "Mainly Museums",
+      "author": null,
+      "date": null,
+      "url": "https://mainlymuseums.com/post/438/the-gambia-national-museum/",
+      "tier": "press",
+      "quote": "Location: Independence Drive, PMB 151, Banjul, The Gambia",
+      "verified": true
+     }
+    },
+    {
+     "label": "Exhibition",
+     "value": "'Banjul, Bathurst, Banjul' on the ground floor",
+     "source": {
+      "title": "National Museum of The Gambia",
+      "publisher": "My Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+      "tier": "press",
+      "quote": "became a space for the »Banjul, Bathurst, Banjul« exhibition, telling a story about The Gambia's capital",
+      "verified": true
+     }
+    },
+    {
+     "label": "Updated",
+     "value": "Exhibition revitalised and updated in 2003",
+     "source": {
+      "title": "National Museum of The Gambia",
+      "publisher": "My Gambia",
+      "author": null,
+      "date": null,
+      "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+      "tier": "press",
+      "quote": "revitalised and updated in 2003",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Census 2024 figure for Banjul city (reported elsewhere as 26,461) could not be verified on a readable official page; 2013 census used",
+  "UNESCO whc.unesco.org pages return 403, so the UNESCO Multimedia Archives page was used for Kunta Kinteh Island",
+  "No myth-or-fact item found with a readable source",
+  "Some sources (Access Gambia, GlobalSecurity, My Gambia, Mainly Museums) are tourism/reference sites; a national-institution source for the 1816 treaty was not found"
+ ]
 }

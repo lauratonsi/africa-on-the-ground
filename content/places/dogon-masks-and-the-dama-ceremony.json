@@ -1,0 +1,98 @@
+{
+  "slug": "dogon-masks-and-the-dama-ceremony",
+  "status": "draft",
+  "type": "culture",
+  "country": "MLI",
+  "name": "Dogon masks and the Dama ceremony",
+  "region": "Bandiagara · Mali",
+  "subtitle": "Among the Dogon, masks are carved by initiates of the Awa mask society and danced at funerary rites; the dama is the large ceremony that ends mourning.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "Mask dances are the highlight of post-burial rites, including the elaborate dama ceremonies held for men that mark the end of mourning.",
+      "cite": [
+        "cap-publications-menil-org-fb8fd6"
+      ]
+    },
+    {
+      "label": "Who makes",
+      "value": "The masks are carved away from the village by the initiates of the Awa, the society of masks.",
+      "cite": [
+        "cap-collection-lacharriere-quaibranly-fr-2ba249"
+      ]
+    },
+    {
+      "label": "When",
+      "value": "The Awa societies of different villages meet for the Dama between three and five years after the funeral (as described by Quai Branly).",
+      "cite": [
+        "cap-collection-lacharriere-quaibranly-fr-2ba249"
+      ]
+    },
+    {
+      "label": "Scale",
+      "value": "The Dama is reserved for deceased men and exceptionally women, and brings together between 100 and 400 masks.",
+      "cite": [
+        "cap-collection-lacharriere-quaibranly-fr-2ba249"
+      ]
+    },
+    {
+      "label": "Who dances",
+      "value": "In principle all children and almost all women are prohibited from approaching masks; a select group of female initiates are the exception.",
+      "cite": [
+        "cap-publications-menil-org-fb8fd6"
+      ]
+    },
+    {
+      "label": "Other uses",
+      "value": "Mask dances are also part of official celebrations such as school and clinic openings, and in peak holiday season are performed for tourists for a fee.",
+      "cite": [
+        "cap-publications-menil-org-fb8fd6"
+      ]
+    },
+    {
+      "label": "Risk",
+      "value": "UNESCO, quoted by AFP, said the gradual disappearance of cultural practices such as traditional funerary rituals and masked dances fuelled intercommunal strife in Bandiagara.",
+      "cite": [
+        "cap-artdaily-com-487ecf"
+      ]
+    },
+    {
+      "label": "Heritage status",
+      "value": "The Cliff of Bandiagara (Dogon land) was placed on the UNESCO World Heritage List in 1989.",
+      "cite": [
+        "cap-artdaily-com-487ecf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Among the Dogon, masks are carved by initiates of the Awa mask society and danced at funerary rites; the dama is the large ceremony that ends mourning. Masks also appear at official celebrations and, for a fee, for tourists. UNESCO links the loss of funerary rituals and masked dances to the conflict in the region. No Dogon maker or community member has reviewed this text yet.",
+              "cite": [
+                "cap-publications-menil-org-fb8fd6",
+                "cap-collection-lacharriere-quaibranly-fr-2ba249",
+                "cap-artdaily-com-487ecf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Whether Dama is currently held less often is not directly sourced beyond the UNESCO statement",
+    "Not found in a readable source: Sigui dates not verified",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}

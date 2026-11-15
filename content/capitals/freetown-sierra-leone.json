@@ -6,9 +6,21 @@
   "subtitle": "Freetown, capital of Sierra Leone: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "Western Area Urban (Freetown) recorded 1,055,964 inhabitants in the 2015 census by Statistics Sierra Leone.",
+      "text": "About 1,055,964 people live in the Western Area Urban district (Freetown) (counted 2015).",
       "cite": [
-        "cap-citypopulation-de-sierraleone-2015"
+        "cap-afro-who-int-3b5a02"
+      ]
+    },
+    {
+      "text": "Freetown City Council describes Freetown as Sierra Leone's capital, principal port, commercial hub and largest city.",
+      "cite": [
+        "cap-fcc-gov-sl-7f2a51"
+      ]
+    },
+    {
+      "text": "Freetown City Council says the city is home to over a million people, 40% of Sierra Leone's urban population.",
+      "cite": [
+        "cap-fcc-gov-sl-7f2a51"
       ]
     }
   ],
@@ -24,31 +36,311 @@
       "title": "Freetown in brief",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Freetown City Council describes Freetown as Sierra Leone's capital, principal port, commercial hub and largest city.",
+              "cite": [
+                "cap-fcc-gov-sl-7f2a51"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Freetown City Council says the city is home to over a million people, 40% of Sierra Leone's urban population.",
+              "cite": [
+                "cap-fcc-gov-sl-7f2a51"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Philanthropists founded the 'Province of Freedom' in 1787; it later became Freetown.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "About 1,200 freed Black settlers, later known as the Nova Scotians, travelled from Halifax to Sierra Leone by ship in 1792.",
+              "cite": [
+                "cap-theglobeandmail-com-a9a869"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Britain set up a naval base at Freetown to patrol against illegal slave ships.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "By 1855 more than 50,000 freed slaves had been settled in Freetown.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Krio, a lingua franca, is the default language of communication in Sierra Leone, particularly in the major cities including Freetown.",
+              "cite": [
+                "cap-apics-online-info-ca898a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Sierra Leone Ports Authority says Freetown has probably the finest natural harbour, being sheltered, in West Africa.",
+              "cite": [
+                "cap-slpha-sl-6aea24"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Sierra Leone's main seaport, the Queen Elizabeth II Quay, is in the east end of Freetown at Clinetown and has 7 berths.",
+              "cite": [
+                "cap-slpha-sl-6aea24"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fourah Bay College, founded in Freetown in 1827, was the first Western-style university on the West African coast.",
+              "cite": [
+                "cap-docomomojournal-com-4932ef"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Freetown City Council reports planting and tracking 1.2 million trees against its 1 million trees target (#FreetownTheTreeTown).",
+              "cite": [
+                "cap-fcc-gov-sl-7f2a51"
+              ]
+            }
+          ]
+        },
+        {
           "type": "stat",
           "items": [
             {
               "value": "1,055,964",
-              "label": "residents in Western Area Urban (Freetown), 2015",
+              "label": "people in the Western Area Urban district (Freetown), 2015",
               "cite": [
-                "cap-citypopulation-de-sierraleone-2015"
+                "cap-afro-who-int-3b5a02"
               ]
             }
           ]
         },
         {
           "type": "estimate",
-          "prompt": "About how many people lived in Freetown (Western Area Urban) in the 2015 census?",
-          "min": 400000,
-          "max": 2000000,
-          "step": 25000,
+          "prompt": "About how many people do you think live in the Western Area Urban district (Freetown)?",
+          "min": 0,
+          "max": 4000000,
+          "step": 20000,
           "unit": "",
           "answer": 1055964,
           "decimals": 0,
           "parts": [
             {
-              "text": "1,055,964 inhabitants enumerated across Western Area Urban in the 2015 census by Statistics Sierra Leone.",
+              "text": "1,055,964 in 2015, according to the figures compiled from the national statistics office. Which area is counted matters: Western Area Urban district (the Freetown urban area) in the 2015 census; the provisional 2021 mid-term census figure of 606,701 was publicly disputed and is not used.",
               "cite": [
-                "cap-citypopulation-de-sierraleone-2015"
+                "cap-afro-who-int-3b5a02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1787",
+              "tag": "origins",
+              "text": "British philanthropists founded the 'Province of Freedom', which later became Freetown.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            },
+            {
+              "when": "1792",
+              "tag": "origins",
+              "text": "About 1,200 freed settlers from Nova Scotia travelled by ship from Halifax to Sierra Leone.",
+              "cite": [
+                "cap-theglobeandmail-com-a9a869"
+              ]
+            },
+            {
+              "when": "1808",
+              "tag": "growth",
+              "text": "The colony officially became a British Crown Colony.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            },
+            {
+              "when": "1827",
+              "tag": "growth",
+              "text": "Fourah Bay College was established, the first Western-style university on the West African coast.",
+              "cite": [
+                "cap-docomomojournal-com-4932ef"
+              ]
+            },
+            {
+              "when": "1845",
+              "tag": "growth",
+              "text": "Construction of the original Fourah Bay College building began in Cline Town under its first principal, Edward Jones.",
+              "cite": [
+                "cap-access-thebrightcontinent-org-8c564d"
+              ]
+            },
+            {
+              "when": "1855",
+              "tag": "growth",
+              "text": "By this year more than 50,000 freed slaves had been settled in Freetown.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            },
+            {
+              "when": "1957",
+              "tag": "growth",
+              "text": "The Sierra Leone National Museum was established as the museum of the Sierra Leone Society.",
+              "cite": [
+                "cap-artsandculture-google-com-c6f029"
+              ]
+            },
+            {
+              "when": "1961",
+              "tag": "today",
+              "text": "Sierra Leone became independent.",
+              "cite": [
+                "cap-docomomojournal-com-4932ef"
+              ]
+            },
+            {
+              "when": "1999",
+              "tag": "today",
+              "text": "The effects of the Civil War in 1999 and a fire shortly afterward left the Old Fourah Bay College building in poor condition.",
+              "cite": [
+                "cap-access-thebrightcontinent-org-8c564d"
+              ]
+            },
+            {
+              "when": "2015",
+              "tag": "today",
+              "text": "The national census counted 1,055,964 people in Western Area Urban.",
+              "cite": [
+                "cap-afro-who-int-3b5a02"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "The Cotton Tree, a national symbol, was felled in a storm.",
+              "cite": [
+                "cap-aljazeera-com-10c271"
+              ]
+            },
+            {
+              "when": "2025",
+              "tag": "today",
+              "text": "Gola Rainforest National Park and Tiwai Island, as the Gola-Tiwai Complex, were named a UNESCO World Heritage site, Sierra Leone's first.",
+              "cite": [
+                "cap-rspb-org-uk-a0ee29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Freetown in order.",
+          "items": [
+            {
+              "label": "British philanthropists founded the 'Province of Freedom', which later became…",
+              "when": "1787",
+              "text": "British philanthropists founded the 'Province of Freedom', which later became Freetown.",
+              "cite": [
+                "cap-unipsil-unmissions-org-9ea4cd"
+              ]
+            },
+            {
+              "label": "Construction of the original Fourah Bay College building began in Cline Town…",
+              "when": "1845",
+              "text": "Construction of the original Fourah Bay College building began in Cline Town under its first principal, Edward Jones.",
+              "cite": [
+                "cap-access-thebrightcontinent-org-8c564d"
+              ]
+            },
+            {
+              "label": "The effects of the Civil War in 1999 and a fire shortly afterward left the…",
+              "when": "1999",
+              "text": "The effects of the Civil War in 1999 and a fire shortly afterward left the Old Fourah Bay College building in poor condition.",
+              "cite": [
+                "cap-access-thebrightcontinent-org-8c564d"
+              ]
+            },
+            {
+              "label": "Gola Rainforest National Park and Tiwai Island, as the Gola-Tiwai Complex…",
+              "when": "2025",
+              "text": "Gola Rainforest National Park and Tiwai Island, as the Gola-Tiwai Complex, were named a UNESCO World Heritage site, Sierra Leone's first.",
+              "cite": [
+                "cap-rspb-org-uk-a0ee29"
               ]
             }
           ]
@@ -57,8 +349,12 @@
     }
   ],
   "gaps": [
-    "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: The 2021 mid-term census (Western Area Urban 606,701) is provisional and publicly disputed (readable pages: Sierra Leone Telegraph, not recorded); the 2015 census figure is used instead.",
+    "Not found in a readable source: UNESCO World Heritage Centre pages return 403, so Gola-Tiwai and Old Fourah Bay College (tentative list) were sourced from RSPB, TRT Afrika and other readable pages.",
+    "Not found in a readable source: Cotton Tree age is uncertain (Africanews says both 200 and 400 years; Atlas Obscura only 'existed in 1787'); no well-sourced myth-or-fact item was found.",
+    "Not found in a readable source: Freetown founding date: sources differ between 1787 (Province of Freedom) and 1792 (Nova Scotian settlers); BlackPast and Britannica-type pages not usable.",
+    "Not found in a readable source: Freetown geography (peninsula/hills) and economy beyond the port, and the 1961 independence date of Freetown as capital, were not verified beyond what is recorded.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Sierra Leone has read this profile yet."
   ]
 }

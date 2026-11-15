@@ -3,8 +3,27 @@
   "status": "draft",
   "country": "CAF",
   "name": "Bangui",
-  "subtitle": "Bangui, capital of the Central African Republic: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "subtitle": "Bangui, capital of Central African Republic: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 451,691 people live in Bangui (the 1988 census, the latest one found in a readable source) (counted 1988).",
+      "cite": [
+        "cap-ireda-ceped-org-7dd88d"
+      ]
+    },
+    {
+      "text": "Radio Ndeke Luka reports that Bangui was created in 1889 by Michel Dolisie, a French explorer and administrator.",
+      "cite": [
+        "cap-radiondekeluka-org-bff4cc"
+      ]
+    },
+    {
+      "text": "Bangui became the chief town (chef-lieu) of Oubangui-Chari, a subdivision of French Equatorial Africa, from 1910.",
+      "cite": [
+        "cap-radiondekeluka-org-bff4cc"
+      ]
+    }
+  ],
   "places": [
     "manovo-gounda-st-floris-national-park",
     "cathedrale-notre-dame-de-bangui",
@@ -21,9 +40,138 @@
           "type": "p",
           "parts": [
             {
-              "text": "Upon independence in August 1960 under the legacy of Barthélemy Boganda, Bangui was proclaimed the sovereign capital of the Central African Republic.",
+              "text": "Radio Ndeke Luka reports that Bangui was created in 1889 by Michel Dolisie, a French explorer and administrator.",
               "cite": [
-                "cap-unesco-boganda-museum"
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bangui became the chief town (chef-lieu) of Oubangui-Chari, a subdivision of French Equatorial Africa, from 1910.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Since 2021 Bangui has been a prefecture with 4 sub-prefectures and 10 arrondissements, placed under a governorate.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Municipal authorities say Bangui's area grew from 97 km2 to 347 km2 in recent years.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UN-Habitat describes Bangui as covering 67 square kilometres and made up of eight arrondissements.",
+              "cite": [
+                "cap-unhabitat-org-f7a4f6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the 1988 census Bangui alone had 451,691 inhabitants, 46% of the urban population of the Central African Republic.",
+              "cite": [
+                "cap-ireda-ceped-org-7dd88d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "According to ICASEES data published in 2024, the capital had reached more than 1,400,000 inhabitants (a statistics-institute figure, not a census count).",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UN-Habitat says Bangui is home to about 41% of the total urban population of the Central African Republic.",
+              "cite": [
+                "cap-unhabitat-org-4b9e57"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 1960s the dredger LEOTARD was used to fill in the swamps of Bangui so that industries such as BATA, CENTRACOLOR, CICI and AGIP could be set up.",
+              "cite": [
+                "cap-radiondekeluka-org-106082"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Boats called pirogues ferry people and luggage across the Oubangui from Bangui to the island of Mbongossoa.",
+              "cite": [
+                "cap-radiondekeluka-org-9e8487"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "451,691",
+              "label": "people in Bangui (the 1988 census, the latest one found in a readable source), 1988",
+              "cite": [
+                "cap-ireda-ceped-org-7dd88d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Bangui (the 1988 census, the latest one found in a readable source)?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 451691,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "451,691 in 1988, according to the figures compiled from the national statistics office. Which area is counted matters: Bangui as counted in the 1988 general census (RGP 1988) analysis of results; the 2003 census figure could not be verified on a readable page.",
+              "cite": [
+                "cap-ireda-ceped-org-7dd88d"
               ]
             }
           ]
@@ -52,19 +200,105 @@
           ],
           "items": [
             {
-              "when": "1960",
-              "tag": "growth",
-              "text": "The Central African Republic gains independence; Bangui is declared national capital.",
+              "when": "1889",
+              "tag": "origins",
+              "text": "Bangui was created by the French explorer and administrator Michel Dolisie.",
               "cite": [
-                "cap-unesco-boganda-museum"
+                "cap-radiondekeluka-org-bff4cc"
               ]
             },
             {
-              "when": "1966",
-              "tag": "growth",
-              "text": "The Musée National Barthélemy Boganda opens in the founder's former residence.",
+              "when": "1910",
+              "tag": "origins",
+              "text": "Bangui became chef-lieu of Oubangui-Chari within French Equatorial Africa.",
               "cite": [
-                "cap-unesco-boganda-museum"
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            },
+            {
+              "when": "1 December 1958",
+              "tag": "growth",
+              "text": "Barthélemy Boganda proclaimed the Central African Republic, limited to the borders of the former Oubangui-Chari.",
+              "cite": [
+                "cap-journaldebangui-com-ce6d01"
+              ]
+            },
+            {
+              "when": "13 August 1960",
+              "tag": "growth",
+              "text": "The country officially became independent.",
+              "cite": [
+                "cap-journaldebangui-com-ce6d01"
+              ]
+            },
+            {
+              "when": "4 December 1977",
+              "tag": "growth",
+              "text": "Jean-Bedel Bokassa crowned himself emperor in a ceremony for 5,000 guests at the Palais des sports of Bangui.",
+              "cite": [
+                "cap-rtbf-be-794a8c"
+              ]
+            },
+            {
+              "when": "24 March 2013",
+              "tag": "today",
+              "text": "President Bozizé fled to the DR Congo, according to one of his advisers, as rebels took Bangui.",
+              "cite": [
+                "cap-radiookapi-net-8421b2"
+              ]
+            },
+            {
+              "when": "29 November 2015",
+              "tag": "today",
+              "text": "Pope Francis opened the Holy Door of the cathedral of Bangui.",
+              "cite": [
+                "cap-vatican-va-3429f4"
+              ]
+            },
+            {
+              "when": "2021",
+              "tag": "today",
+              "text": "Bangui became a prefecture with 4 sub-prefectures and 10 arrondissements, under a governorate.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Bangui in order.",
+          "items": [
+            {
+              "label": "Bangui was created by the French explorer and administrator Michel Dolisie.",
+              "when": "1889",
+              "text": "Bangui was created by the French explorer and administrator Michel Dolisie.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
+              ]
+            },
+            {
+              "label": "Barthélemy Boganda proclaimed the Central African Republic, limited to the…",
+              "when": "1 December 1958",
+              "text": "Barthélemy Boganda proclaimed the Central African Republic, limited to the borders of the former Oubangui-Chari.",
+              "cite": [
+                "cap-journaldebangui-com-ce6d01"
+              ]
+            },
+            {
+              "label": "President Bozizé fled to the DR Congo, according to one of his advisers, as…",
+              "when": "24 March 2013",
+              "text": "President Bozizé fled to the DR Congo, according to one of his advisers, as rebels took Bangui.",
+              "cite": [
+                "cap-radiookapi-net-8421b2"
+              ]
+            },
+            {
+              "label": "Bangui became a prefecture with 4 sub-prefectures and 10 arrondissements…",
+              "when": "2021",
+              "text": "Bangui became a prefecture with 4 sub-prefectures and 10 arrondissements, under a governorate.",
+              "cite": [
+                "cap-radiondekeluka-org-bff4cc"
               ]
             }
           ]
@@ -73,9 +307,13 @@
     }
   ],
   "gaps": [
-    "Final nationwide census publications have been delayed by recurring instability since 2013.",
-    "First-hand local voices and oral memories of fishermen and artisans along the Ubangi are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: 2003 census population of Bangui (622,771 appears only on aggregator/secondary pages; no readable ICASEES page found), so the 1988 census figure is given instead",
+    "Not found in a readable source: Rapids of Bangui and the origin of the name Oubangui: no readable non-encyclopedia page found",
+    "Not found in a readable source: Construction date and architecture of the cathedral (only Wikipedia/ArchDaily seen; not usable)",
+    "Not found in a readable source: UNESCO whc.unesco.org pages return 403",
+    "Not found in a readable source: Universalis, IRD Horizon and Kaiciid pages unreadable",
+    "Not found in a readable source: No well-sourced myth-or-fact item found",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Central African Republic has read this profile yet."
   ]
 }

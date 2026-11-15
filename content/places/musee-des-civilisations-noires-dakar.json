@@ -5,12 +5,55 @@
   "country": "SEN",
   "name": "Musée des Civilisations Noires",
   "region": "Dakar · Senegal",
-  "subtitle": "State-of-the-art 14,000 m² circular museum inaugurated in 2018 celebrating Pan-African heritage and art.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A national museum in Dakar covering 14,000 m2 and designed to hold 18,000 pieces, from the first hominids to contemporary art.",
+  "facts": [
+    {
+      "label": "Surface",
+      "value": "14,000 m2",
+      "cite": [
+        "cap-afrique-le360-ma-5770ce"
+      ]
+    },
+    {
+      "label": "Origin of the idea",
+      "value": "Senghor, 1966",
+      "cite": [
+        "cap-afrique-le360-ma-5770ce"
+      ]
+    },
+    {
+      "label": "Inauguration",
+      "value": "2018 (ribbon cut by Macky Sall)",
+      "cite": [
+        "cap-afrique-le360-ma-5770ce"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A national museum in Dakar covering 14,000 m2 and designed to hold 18,000 pieces, from the first hominids to contemporary art. The idea was launched by Senghor in 1966 and the museum was inaugurated in 2018.",
+              "cite": [
+                "cap-afrique-le360-ma-5770ce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

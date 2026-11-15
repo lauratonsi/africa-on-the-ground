@@ -1,74 +1,565 @@
 {
-  "city": "Dakar",
-  "country": "SEN",
-  "population": {
-    "value": 1278469,
-    "year": 2023,
-    "definition": "Population of the core Dakar Department (covering 79.83 km² across 19 communes d'arrondissement on the Cap-Vert peninsula) enumerated in the May-June 2023 General Population and Housing Census (RGPH-5) conducted by the Agence Nationale de la Statistique et de la Démographie (ANSD) of Senegal, tabulated via CityPopulation. The entire metropolitan Dakar Region (535 km²) enumerated 4,004,427 residents.",
-    "source": {
-      "title": "Sénégal: Division administrative et Région de Dakar - Statistiques de population (RGPH-5 2023)",
-      "publisher": "CityPopulation (credits ANSD Sénégal)",
-      "author": null,
-      "date": "2023-06-01",
-      "url": "https://www.citypopulation.de/en/senegal/admin/",
-      "tier": "institutional",
-      "quote": "2023-06-01 | Dakar Department: 1,278,469; Dakar Region total: 4,004,427"
-    }
+ "city": "Dakar",
+ "country": "SEN",
+ "population": {
+  "value": 1278471,
+  "year": 2023,
+  "definition": "Département de Dakar (the core city: its 79 km2 area, without Pikine, Guédiawaye, Keur Massar or Rufisque); the wider Dakar region counted 4,004,426 inhabitants",
+  "source": {
+   "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+   "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+   "author": null,
+   "date": null,
+   "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+   "tier": "institutional",
+   "quote": "le département de Dakar est le plus peuplé, avec un effectif de 1 278 471 habitants",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Before the French arrived, the Cape Verde peninsula, where Dakar stands, had been occupied by the Lebu people since the end of the 14th century.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "the Dakar peninsula was occupied by the Lebu people from the end of the 14th century",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "In 1857 a French ship's captain, Protêt, took possession of Dakar and on 25 May declared the place a French possession.",
+   "source": {
+    "title": "Dakar, a French town in May 1857",
+    "publisher": "Fondation Napoléon",
+    "author": null,
+    "date": null,
+    "url": "https://napoleon.org/en/history-of-the-two-empires/articles/dakar-a-french-town-in-may-1857",
+    "tier": "institutional",
+    "quote": "He transformed this house into a fortress and then on 25 May declared the place a French possession",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Colonists began moving from over-populated Gorée to the fishing village of Dakar, which had a natural deep port.",
+   "source": {
+    "title": "Dakar, a French town in May 1857",
+    "publisher": "Fondation Napoléon",
+    "author": null,
+    "date": null,
+    "url": "https://napoleon.org/en/history-of-the-two-empires/articles/dakar-a-french-town-in-may-1857",
+    "tier": "institutional",
+    "quote": "When Gorea became over populated, colonists began moving to the nearby fishing village of Dakar with its natural deep port",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 1902 the capital of French West Africa moved from Saint-Louis to Dakar.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "In 1902, the capital of French West Africa (Afrique de l’Ouest Française, AOF) moved from Saint‑Louis to Dakar",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Dakar's population rose from 3,000 in 1869 to 18,000 in 1904 and 214,000 in 1945.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "The population increased from 3,000 in 1869 to 18,000 in 1904, 34,000 in 1926, 92,000 in 1936, and 214,000 in 1945",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Dakar region lies at the extreme west of the Cap-Vert peninsula, on the Atlantic coast, and covers about 550 km2.",
+   "source": {
+    "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+    "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+    "author": null,
+    "date": null,
+    "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+    "tier": "institutional",
+    "quote": "La région de Dakar est située à l’extrême ouest de la presqu’île du Cap-Vert, tout au bord de l’océan atlantique et s’étend sur une superficie de 550 km²",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Since June 1958 the Dakar region has been the seat of government and the capital of the country.",
+   "source": {
+    "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+    "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+    "author": null,
+    "date": null,
+    "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+    "tier": "institutional",
+    "quote": "Depuis juin 1958, la région de Dakar est devenue le siège du Gouvernement en étant la capitale du pays",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Pointe des Almadies, at the north-west of the Cap-Vert peninsula, is the westernmost point of the African continent.",
+   "source": {
+    "title": "Pointe des Almadies",
+    "publisher": "Agence sénégalaise de promotion touristique",
+    "author": null,
+    "date": null,
+    "url": "https://www.visitezlesenegal.com/en/destinations/dakar/pointe-des-almadies/",
+    "tier": "institutional",
+    "quote": "It is the westernmost point of the continent africain",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Port of Dakar handled 29.66 million tonnes of traffic in 2025, up from 24.58 million tonnes the year before.",
+   "source": {
+    "title": "Dakar port traffic jumps in 2025",
+    "publisher": "Ecofin Agency",
+    "author": null,
+    "date": null,
+    "url": "https://www.ecofinagency.com/news-industry/2104-54849-dakar-port-traffic-jumps-in-2025-as-imports-and-exports-rise",
+    "tier": "press",
+    "quote": "Total traffic reached 29.66 million tonnes, compared with 24.58 million tonnes a year earlier",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the Dakar region 68.7% of residents aged 3 and over often use Wolof.",
+   "source": {
+    "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+    "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+    "author": null,
+    "date": null,
+    "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+    "tier": "institutional",
+    "quote": "68,7% des habitants âgés de 3 ans et plus utilisent souvent la langue Wolof",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Dakar Biennale of contemporary African art was set up in 1989; its 1992 edition was the first devoted to the visual arts.",
+   "source": {
+    "title": "Histoire de la Biennale de Dakar",
+    "publisher": "Biennale de l'art africain contemporain de Dakar",
+    "author": null,
+    "date": "2022-03-30",
+    "url": "https://biennaledakar.org/2022/03/30/histoire-de-la-biennale-de-dakar/",
+    "tier": "institutional",
+    "quote": "Instituée en 1989 avec une première édition en 1990 consacrée à la littérature. Celle de 1992 est la première consacrée aux arts plastiques",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Dakar Biennale's 1996 edition began a series reserved exclusively for the visual arts of Africa and its diaspora.",
+   "source": {
+    "title": "Histoire de la Biennale de Dakar",
+    "publisher": "Biennale de l'art africain contemporain de Dakar",
+    "author": null,
+    "date": "2022-03-30",
+    "url": "https://biennaledakar.org/2022/03/30/histoire-de-la-biennale-de-dakar/",
+    "tier": "institutional",
+    "quote": "l’édition 1996 va ouvrir des biennales exclusivement réservées aux arts plastiques d’Afrique et de sa diaspora",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "End of the 14th century",
+   "tag": "origins",
+   "claim": "The Lebu people occupied the Cape Verde peninsula, where Dakar now stands.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "the Dakar peninsula was occupied by the Lebu people from the end of the 14th century",
+    "verified": true
+   }
+  },
+  {
+   "when": "1857",
+   "tag": "origins",
+   "claim": "Captain Protêt took possession of Dakar for France and declared it a French possession on 25 May.",
+   "source": {
+    "title": "Dakar, a French town in May 1857",
+    "publisher": "Fondation Napoléon",
+    "author": null,
+    "date": null,
+    "url": "https://napoleon.org/en/history-of-the-two-empires/articles/dakar-a-french-town-in-may-1857",
+    "tier": "institutional",
+    "quote": "He transformed this house into a fortress and then on 25 May declared the place a French possession",
+    "verified": true
+   }
+  },
+  {
+   "when": "1885",
+   "tag": "growth",
+   "claim": "The railway between Dakar and Saint-Louis was built, which secured the success of the town.",
+   "source": {
+    "title": "Dakar, a French town in May 1857",
+    "publisher": "Fondation Napoléon",
+    "author": null,
+    "date": null,
+    "url": "https://napoleon.org/en/history-of-the-two-empires/articles/dakar-a-french-town-in-may-1857",
+    "tier": "institutional",
+    "quote": "The building of the railway between Dakar and Saint-Louis in 1885 assured the success of the town",
+    "verified": true
+   }
+  },
+  {
+   "when": "1902",
+   "tag": "growth",
+   "claim": "The capital of French West Africa moved from Saint-Louis to Dakar.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "In 1902, the capital of French West Africa (Afrique de l’Ouest Française, AOF) moved from Saint‑Louis to Dakar",
+    "verified": true
+   }
+  },
+  {
+   "when": "1945",
+   "tag": "growth",
+   "claim": "Dakar's first master plan was drawn up, creating the modern city with the Allées du Centenaire.",
+   "source": {
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques",
+    "author": null,
+    "date": "2025-09-12",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "quote": "The first master plan, drawn up in 1945, created the modern city with the Allées du Centenaire",
+    "verified": true
+   }
+  },
+  {
+   "when": "1966",
+   "tag": "today",
+   "claim": "The first World Festival of Black Arts took place in Dakar, where Senghor launched the idea of a museum of Black civilisations.",
+   "source": {
+    "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+    "publisher": "Le360 / AFP",
+    "author": null,
+    "date": "2018-12-05",
+    "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+    "tier": "press",
+    "quote": "L'idée d'un musée des civilisations noires avait été lancée par le poète Senghor, premier président sénégalais (1960-1980), lors du premier Festival mondial des arts nègres en 1966 à Dakar",
+    "verified": true
+   }
+  },
+  {
+   "when": "1978",
+   "tag": "today",
+   "claim": "The Island of Gorée, off Dakar, was inscribed on UNESCO's World Heritage List.",
+   "source": {
+    "title": "Gorée island, destination for memorial tourism",
+    "publisher": "UNESCO Courier",
+    "author": null,
+    "date": "2024-07-03",
+    "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+    "tier": "institutional",
+    "quote": "The inscription of the Island of Gorée on UNESCO’s World Heritage List in 1978 marked a turning point",
+    "verified": true
+   }
+  },
+  {
+   "when": "1992",
+   "tag": "today",
+   "claim": "The Dakar Biennale held its first edition devoted to the visual arts.",
+   "source": {
+    "title": "Histoire de la Biennale de Dakar",
+    "publisher": "Biennale de l'art africain contemporain de Dakar",
+    "author": null,
+    "date": "2022-03-30",
+    "url": "https://biennaledakar.org/2022/03/30/histoire-de-la-biennale-de-dakar/",
+    "tier": "institutional",
+    "quote": "Celle de 1992 est la première consacrée aux arts plastiques",
+    "verified": true
+   }
+  },
+  {
+   "when": "2010",
+   "tag": "today",
+   "claim": "The African Renaissance Monument was unveiled on 3 April, the day before Senegal's 50th independence anniversary.",
+   "source": {
+    "title": "The story behind Senegal's African Renaissance Monument",
+    "publisher": "Africanews",
+    "author": null,
+    "date": "2020-02-27",
+    "url": "https://africanews.com/amp/2020/02/27/the-story-behind-senegal-s-african-renaissance-monument-travel",
+    "tier": "press",
+    "quote": "On the 3rd of April 2010 a day before Senegal commemorated its 50th independence anniversary",
+    "verified": true
+   }
+  },
+  {
+   "when": "2018",
+   "tag": "today",
+   "claim": "The Museum of Black Civilisations was inaugurated by President Macky Sall, seven years after works began under Abdoulaye Wade.",
+   "source": {
+    "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+    "publisher": "Le360 / AFP",
+    "author": null,
+    "date": "2018-12-05",
+    "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+    "tier": "press",
+    "quote": "Sept ans après le début des travaux sous le président Abdoulaye Wade (2000-2012), le ruban sera coupé vers 10H00 (GMT et locales) par son successeur Macky Sall",
+    "verified": true
+   }
+  },
+  {
+   "when": "2020",
+   "tag": "today",
+   "claim": "Excavators began to demolish the Sandaga market building so that the authorities could rebuild and modernise it.",
+   "source": {
+    "title": "Excavation begins at historic Dakar market in renovation project (AFP)",
+    "publisher": "Arab News / AFP",
+    "author": null,
+    "date": "2020-08-04",
+    "url": "https://www.arabnews.pk/node/1714311",
+    "tier": "press",
+    "quote": "Heavy-duty excavators have begun to raze the famed Sandaga market",
+    "verified": true
+   }
+  },
+  {
+   "when": "2023",
+   "tag": "today",
+   "claim": "The fifth national census counted 4,004,426 inhabitants in the Dakar region.",
+   "source": {
+    "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+    "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+    "author": null,
+    "date": null,
+    "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+    "tier": "institutional",
+    "quote": "3 137 196 habitants en 2013, avant de s’établir à 4 004 426 habitants en 2023",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Island of Gorée",
+   "type": "site",
+   "what": "Gorée is a small island less than four kilometres off the coast of Dakar. It was inscribed on UNESCO's World Heritage List in 1978 and has become the emblem of the transatlantic slave trade, although the island's central role in that trade is now debated.",
+   "facts": [
     {
-      "claim": "Founded in 1857 on an ancestral Lebou coastal settlement at the westernmost tip of continental Africa, Dakar succeeded Saint-Louis in 1902 as the administrative capital of French West Africa (AOF).",
-      "source": {
-        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
-        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
-        "author": null,
-        "date": null,
-        "url": "https://mcn.sn/",
-        "tier": "institutional",
-        "quote": "Dakar devient la capitale de l'Afrique Occidentale Française en 1902 après Saint-Louis"
-      }
+     "label": "World Heritage listing",
+     "value": "1978",
+     "source": {
+      "title": "Gorée island, destination for memorial tourism",
+      "publisher": "UNESCO Courier",
+      "author": null,
+      "date": "2024-07-03",
+      "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+      "tier": "institutional",
+      "quote": "The inscription of the Island of Gorée on UNESCO’s World Heritage List in 1978 marked a turning point",
+      "verified": true
+     }
     },
     {
-      "claim": "The Musée des Civilisations Noires (MCN), conceived in 1966 during Léopold Sédar Senghor's World Festival of Black Arts and inaugurated in December 2018, houses 14,000 m² of pan-African art, ancient technology, and restitution collections in a circular building inspired by Casamance impluvium dwellings.",
-      "source": {
-        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
-        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
-        "author": null,
-        "date": null,
-        "url": "https://mcn.sn/",
-        "tier": "institutional",
-        "quote": "Inauguration du Musée des Civilisations Noires en décembre 2018, concrétisant la vision de 1966"
-      }
+     "label": "Distance from Dakar",
+     "value": "Less than 4 km",
+     "source": {
+      "title": "Gorée island, destination for memorial tourism",
+      "publisher": "UNESCO Courier",
+      "author": null,
+      "date": "2024-07-03",
+      "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+      "tier": "institutional",
+      "quote": "Less than four kilometres off the coast of Dakar, Gorée Island has become the emblem of the transatlantic slave trade",
+      "verified": true
+     }
     },
     {
-      "claim": "Standing 52 metres tall on the Collines des Mamelles in Ouakam, the bronze Monument de la Renaissance africaine was inaugurated in April 2010 to mark the fiftieth anniversary of Senegalese independence.",
-      "source": {
-        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
-        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
-        "author": null,
-        "date": null,
-        "url": "https://mcn.sn/",
-        "tier": "institutional",
-        "quote": "Inauguration du Monument de la Renaissance africaine en avril 2010"
-      }
+     "label": "House of Slaves",
+     "value": "Most visited site in Senegal",
+     "source": {
+      "title": "Gorée island, destination for memorial tourism",
+      "publisher": "UNESCO Courier",
+      "author": null,
+      "date": "2024-07-03",
+      "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+      "tier": "institutional",
+      "quote": "The House of Slaves is the most visited site in Senegal, receiving several hundred visitors every day",
+      "verified": true
+     }
     }
-  ],
-  "timeline": [
+   ]
+  },
+  {
+   "name": "Monument de la Renaissance africaine",
+   "type": "site",
+   "what": "A 49-metre bronze statue in Dakar, unveiled on 3 April 2010 and meant to symbolise the triumph of African liberation. Some sources give a different height of 52 metres.",
+   "facts": [
     {
-      "year": 1857,
-      "event": "French colonial governor Louis Faidherbe officially establishes the modern town and military port of Dakar on the Lebou peninsula."
+     "label": "Height",
+     "value": "49 m (other sources: 52 m)",
+     "source": {
+      "title": "The story behind Senegal's African Renaissance Monument",
+      "publisher": "Africanews",
+      "author": null,
+      "date": "2020-02-27",
+      "url": "https://africanews.com/amp/2020/02/27/the-story-behind-senegal-s-african-renaissance-monument-travel",
+      "tier": "press",
+      "quote": "This monumental 49-metre-high bronze statue in the capital Dakar was meant to symbolize the triumph of African liberation",
+      "verified": true
+     }
     },
     {
-      "year": 1902,
-      "event": "Dakar is declared the federal capital of French West Africa (AOF), inaugurating rapid rail, port, and monumental administrative construction."
-    },
-    {
-      "year": 1960,
-      "event": "Following the dissolution of the Mali Federation, Senegal proclaims independence with Dakar as sovereign capital under President Léopold Sédar Senghor."
-    },
-    {
-      "year": 2018,
-      "event": "Official opening of the Musée des Civilisations Noires, establishing Dakar as a premier global hub for African cultural heritage and museum dialogue."
+     "label": "Unveiled",
+     "value": "3 April 2010",
+     "source": {
+      "title": "The story behind Senegal's African Renaissance Monument",
+      "publisher": "Africanews",
+      "author": null,
+      "date": "2020-02-27",
+      "url": "https://africanews.com/amp/2020/02/27/the-story-behind-senegal-s-african-renaissance-monument-travel",
+      "tier": "press",
+      "quote": "On the 3rd of April 2010 a day before Senegal commemorated its 50th independence anniversary, the then President Abdoulaye Wade unveiled",
+      "verified": true
+     }
     }
-  ]
+   ]
+  },
+  {
+   "name": "Musée des Civilisations Noires",
+   "type": "culture",
+   "what": "A national museum in Dakar covering 14,000 m2 and designed to hold 18,000 pieces, from the first hominids to contemporary art. The idea was launched by Senghor in 1966 and the museum was inaugurated in 2018.",
+   "facts": [
+    {
+     "label": "Surface",
+     "value": "14,000 m2",
+     "source": {
+      "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+      "publisher": "Le360 / AFP",
+      "author": null,
+      "date": "2018-12-05",
+      "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+      "tier": "press",
+      "quote": "D'une surface de 14.000 m2, il pourra accueillir 18.000 pièces",
+      "verified": true
+     }
+    },
+    {
+     "label": "Origin of the idea",
+     "value": "Senghor, 1966",
+     "source": {
+      "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+      "publisher": "Le360 / AFP",
+      "author": null,
+      "date": "2018-12-05",
+      "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+      "tier": "press",
+      "quote": "L'idée d'un musée des civilisations noires avait été lancée par le poète Senghor, premier président sénégalais (1960-1980), lors du premier Festival mondial des arts nègres en 1966 à Dakar",
+      "verified": true
+     }
+    },
+    {
+     "label": "Inauguration",
+     "value": "2018 (ribbon cut by Macky Sall)",
+     "source": {
+      "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+      "publisher": "Le360 / AFP",
+      "author": null,
+      "date": "2018-12-05",
+      "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+      "tier": "press",
+      "quote": "le ruban sera coupé vers 10H00 (GMT et locales) par son successeur Macky Sall",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Marché Sandaga",
+   "type": "market",
+   "what": "A great hall built in the Sudanese-Sahel tradition in 1933, which for almost a century was one of Dakar's main trading centres. Demolition began in August 2020.",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "1933",
+     "source": {
+      "title": "Excavation begins at historic Dakar market in renovation project (AFP)",
+      "publisher": "Arab News / AFP",
+      "author": null,
+      "date": "2020-08-04",
+      "url": "https://www.arabnews.pk/node/1714311",
+      "tier": "press",
+      "quote": "The great hall, built in the Sudanese-Sahel tradition in 1933, has housed hundreds of stalls selling merchandise of all kinds",
+      "verified": true
+     }
+    },
+    {
+     "label": "Role",
+     "value": "One of Dakar's main trading centres for almost a century",
+     "source": {
+      "title": "Excavation begins at historic Dakar market in renovation project (AFP)",
+      "publisher": "Arab News / AFP",
+      "author": null,
+      "date": "2020-08-04",
+      "url": "https://www.arabnews.pk/node/1714311",
+      "tier": "press",
+      "quote": "Sandaga has been one of Dakar’s main trading centers for almost a century",
+      "verified": true
+     }
+    },
+    {
+     "label": "Demolition begun",
+     "value": "August 2020",
+     "source": {
+      "title": "Excavation begins at historic Dakar market in renovation project (AFP)",
+      "publisher": "Arab News / AFP",
+      "author": null,
+      "date": "2020-08-04",
+      "url": "https://www.arabnews.pk/node/1714311",
+      "tier": "press",
+      "quote": "Heavy-duty excavators have begun to raze the famed Sandaga market",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Gorée is often presented as the centre of the transatlantic slave trade.",
+  "truth": "UNESCO's own Courier notes that the central role of the island in the history of the transatlantic slave trade is now debated, even though its House of Slaves became the emblem of that history.",
+  "source": {
+   "title": "Gorée island, destination for memorial tourism",
+   "publisher": "UNESCO Courier",
+   "author": null,
+   "date": "2024-07-03",
+   "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+   "tier": "institutional",
+   "quote": "even if the central role of the island in the history of the transatlantic slave trade is now debated",
+   "verified": true
+  }
+ },
+ "unreadable": [],
+ "notNotFound": [
+  "UNESCO World Heritage Centre pages (whc.unesco.org) return 403, so Gorée facts rely on the UNESCO Courier and the UN Africa Renewal.",
+  "Monument height: sources give 49 m (Africanews), 50 m and 52 m (Politis); recorded as disputed.",
+  "MCN exact inauguration date (6 December 2018 in other press) not verified in a readable page; only the year is recorded.",
+  "City-proper census figure is for the département de Dakar; the commune d'arrondissement boundaries differ.",
+  "Sandaga year of opening beyond 1933 and Dakar independence 1960 date not verified from a readable non-excluded source."
+ ]
 }

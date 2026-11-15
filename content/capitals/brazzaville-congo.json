@@ -3,12 +3,24 @@
   "status": "draft",
   "country": "COG",
   "name": "Brazzaville",
-  "subtitle": "Brazzaville, capital of the Republic of the Congo: its numbers, a short history and places to see beyond the World Heritage list.",
+  "subtitle": "Brazzaville, capital of Congo: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "About 2,138,236 people lived in the Commune of Brazzaville in the official May 2023 census (RGPH-5).",
+      "text": "About 2,145,783 people live in Brazzaville (preliminary results of the 2023 census) (counted 2023).",
       "cite": [
-        "cap-citypopulation-de-congo-2023"
+        "cap-tresor-economie-gouv-fr-3f8bbd"
+      ]
+    },
+    {
+      "text": "Brazzaville has 2,145,783 inhabitants, or 34.9 percent of the Congolese population, according to the preliminary 2023 census results.",
+      "cite": [
+        "cap-tresor-economie-gouv-fr-3f8bbd"
+      ]
+    },
+    {
+      "text": "The department of Brazzaville has a population density of 3,646.81 inhabitants per km2, far denser than most other departments.",
+      "cite": [
+        "cap-tresor-economie-gouv-fr-3f8bbd"
       ]
     }
   ],
@@ -25,42 +37,293 @@
       "title": "Brazzaville in brief",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brazzaville has 2,145,783 inhabitants, or 34.9 percent of the Congolese population, according to the preliminary 2023 census results.",
+              "cite": [
+                "cap-tresor-economie-gouv-fr-3f8bbd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The department of Brazzaville has a population density of 3,646.81 inhabitants per km2, far denser than most other departments.",
+              "cite": [
+                "cap-tresor-economie-gouv-fr-3f8bbd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brazzaville lies on the right bank of the Congo River, in the south-east of the country.",
+              "cite": [
+                "cap-liziba-cg-f855d6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France's presence on the right bank of the Congo goes back to 1880, and Brazzaville was born in 1884, named after Pierre Savorgnan de Brazza.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "As a colonial capital, Brazzaville was built at a break-of-bulk point of the indigenous trade, 500 km from the Atlantic, combining commercial, administrative, military, religious and residential functions.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1940 Brazzaville became the capital of Free France, and in 1944 it hosted the French African Conference.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After the war Brazzaville developed into a modern capital, with a growing airport and many new buildings, though its urban plan remained unfinished.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brazzaville is administratively divided into districts including Makélékélé, Bacongo, Poto-Poto, Moungali, Ouenzé, Talangaï, Mfilou, Madibou and Djiri, plus the Île Mbamou district.",
+              "cite": [
+                "cap-liziba-cg-f855d6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brazzaville and Pointe-Noire together house 58.1 percent of the Congolese population.",
+              "cite": [
+                "cap-tresor-economie-gouv-fr-3f8bbd"
+              ]
+            }
+          ]
+        },
+        {
           "type": "stat",
           "items": [
             {
-              "value": "2,138,236",
-              "label": "people in the Commune of Brazzaville, 2023",
+              "value": "2,145,783",
+              "label": "people in Brazzaville (preliminary results of the 2023 census), 2023",
               "cite": [
-                "cap-citypopulation-de-congo-2023"
+                "cap-tresor-economie-gouv-fr-3f8bbd"
               ]
             }
           ]
         },
         {
           "type": "estimate",
-          "prompt": "About how many people were counted in the Commune of Brazzaville in the 2023 census?",
-          "min": 500000,
-          "max": 4000000,
-          "step": 50000,
+          "prompt": "About how many people do you think live in Brazzaville (preliminary results of the 2023 census)?",
+          "min": 0,
+          "max": 7000000,
+          "step": 40000,
           "unit": "",
-          "answer": 2138236,
+          "answer": 2145783,
           "decimals": 0,
           "parts": [
             {
-              "text": "2,138,236 residents in the May 2023 RGPH-5 census conducted by the INS Congo, accounting for roughly 35% of the Republic of the Congo's entire population.",
+              "text": "2,145,783 in 2023, according to the figures compiled from the national statistics office. Which area is counted matters: Brazzaville (the department/commune of Brazzaville, 588 km2), preliminary results of the fifth general census (RGPH-5) of 17 May 2023, presented 29 December 2023.",
               "cite": [
-                "cap-citypopulation-de-congo-2023"
+                "cap-tresor-economie-gouv-fr-3f8bbd"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1880",
+              "tag": "origins",
+              "text": "Brazza obtained, through a treaty with King Makoko Iloo I, France's possession of the Congo.",
+              "cite": [
+                "cap-jeuneafrique-com-753ed0"
+              ]
+            },
+            {
+              "when": "1884",
+              "tag": "origins",
+              "text": "Brazzaville was born, named after Pierre Savorgnan de Brazza.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            },
+            {
+              "when": "1940",
+              "tag": "growth",
+              "text": "Brazzaville became the capital of Free France.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            },
+            {
+              "when": "1944",
+              "tag": "growth",
+              "text": "Brazzaville hosted the French African Conference.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            },
+            {
+              "when": "1949",
+              "tag": "growth",
+              "text": "The Basilique Sainte-Anne, begun in 1943, was inaugurated although the works were not yet finished.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            },
+            {
+              "when": "1951",
+              "tag": "growth",
+              "text": "The Poto-Poto 'Atelier d'art africain', begun in 1946, was made official as the 'Centre d'art africain'.",
+              "cite": [
+                "cap-journals-openedition-org-cb32c2"
+              ]
+            },
+            {
+              "when": "2006",
+              "tag": "today",
+              "text": "On 3 October the mausoleum holding the remains of Pierre Savorgnan de Brazza and his family was inaugurated.",
+              "cite": [
+                "cap-journals-openedition-org-3072b3"
+              ]
+            },
+            {
+              "when": "2015",
+              "tag": "today",
+              "text": "President Sassou Nguesso inaugurated on 18 February the first module of the rebuilt Marché Total.",
+              "cite": [
+                "cap-adiac-congo-com-3a5bd4"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "The preliminary RGPH-5 census counted 2,145,783 people in Brazzaville.",
+              "cite": [
+                "cap-tresor-economie-gouv-fr-3f8bbd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Brazzaville in order.",
+          "items": [
+            {
+              "label": "Brazza obtained, through a treaty with King Makoko Iloo I, France's…",
+              "when": "1880",
+              "text": "Brazza obtained, through a treaty with King Makoko Iloo I, France's possession of the Congo.",
+              "cite": [
+                "cap-jeuneafrique-com-753ed0"
+              ]
+            },
+            {
+              "label": "Brazzaville hosted the French African Conference.",
+              "when": "1944",
+              "text": "Brazzaville hosted the French African Conference.",
+              "cite": [
+                "cap-journals-openedition-org-817ddf"
+              ]
+            },
+            {
+              "label": "On 3 October the mausoleum holding the remains of Pierre Savorgnan de Brazza…",
+              "when": "2006",
+              "text": "On 3 October the mausoleum holding the remains of Pierre Savorgnan de Brazza and his family was inaugurated.",
+              "cite": [
+                "cap-journals-openedition-org-3072b3"
+              ]
+            },
+            {
+              "label": "The preliminary RGPH-5 census counted 2,145,783 people in Brazzaville.",
+              "when": "2023",
+              "text": "The preliminary RGPH-5 census counted 2,145,783 people in Brazzaville.",
+              "cite": [
+                "cap-tresor-economie-gouv-fr-3f8bbd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: The Poto-Poto School of Painting is a school located in the Poto-Poto district.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "A Dépêches de Brazzaville feature notes that it is not located in Poto-Poto but in Moungali, and that it is more an art workshop than a school, created in 1951 by Pierre Lods.",
+          "cite": [
+            "cap-adiac-congo-com-a39287"
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "Full microdata analysis from the May 2023 census is still undergoing official publication.",
-    "First-hand local voices from sapeurs and Bacongo market vendors are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Population is the preliminary RGPH-5 figure (2023) as reported by the French Treasury; the INS Congo final report was not found on a readable page. The 2007 census figure was not verified.",
+    "Not found in a readable source: Poto-Poto origins: sources differ (1946 workshop, 1951 officialisation, 1951 creation by Lods); recorded as stated in each source.",
+    "Not found in a readable source: Basilique Sainte-Anne: completion date of the spire, roof tiles (green glazed tiles) and 2011 reopening not verified in a readable non-blog source.",
+    "Not found in a readable source: Marché Total: founding year 1957 and number of traders not verified.",
+    "Not found in a readable source: Odzala-Kokoua is in the north-west of the country, not in Brazzaville; UNESCO list page unreadable.",
+    "Not found in a readable source: Economy and culture facts about Brazzaville beyond the above (port, airport specifics) not verified.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Congo has read this profile yet."
   ]
 }

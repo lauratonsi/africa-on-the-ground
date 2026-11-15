@@ -4,14 +4,63 @@
   "type": "site",
   "country": "GMB",
   "name": "Arch 22",
-  "region": "Banjul · The Gambia",
-  "subtitle": "Monumental 35-metre triumphal gateway and historical museum at the entry to St Mary's Island.",
-  "facts": [],
-  "sections": [],
+  "region": "Banjul · Gambia",
+  "subtitle": "Arch 22 is a monument at the entrance to Banjul, made a national monument in 2000.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Three floors, 42 m high and 30 m wide",
+      "cite": [
+        "cap-justiceinfo-net-02a797"
+      ]
+    },
+    {
+      "label": "Built",
+      "value": "1995-1996, cost US$1 million",
+      "cite": [
+        "cap-justiceinfo-net-02a797"
+      ]
+    },
+    {
+      "label": "National monument",
+      "value": "2000",
+      "cite": [
+        "cap-justiceinfo-net-02a797"
+      ]
+    },
+    {
+      "label": "Exhibitions",
+      "value": "Shows pictures both celebrating Jammeh's rule and depicting its human rights violations",
+      "cite": [
+        "cap-justiceinfo-net-02a797"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Arch 22 is a monument at the entrance to Banjul, made a national monument in 2000. It was built in 1995-1996 and today shows exhibitions in its upper floors.",
+              "cite": [
+                "cap-justiceinfo-net-02a797"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Elevator operation status and internal gallery renovation updates are intermittently reported.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

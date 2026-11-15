@@ -5,13 +5,71 @@
   "country": "BFA",
   "name": "Palais du Mogho Naaba",
   "region": "Ouagadougou · Burkina Faso",
-  "subtitle": "Royal palace of the Mossi emperor and site of the centuries-old weekly 'Faux Départ' peace ceremony.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "The palace of the Mogho Naaba, king of the Mossi of Ouagadougou, hosts each Friday the \"faux départ\" rite, which recalls an old conflict over the succession.",
+  "facts": [
+    {
+      "label": "Friday ritual",
+      "value": "the \"faux départ\" is played out each Friday in the palace",
+      "cite": [
+        "cap-sidwaya-info-0f5512"
+      ]
+    },
+    {
+      "label": "Origin of the ritual",
+      "value": "recalls a conflict over the enthronement of Moogho Naaba Koundoumié over his elder brother Naaba Yadéga",
+      "cite": [
+        "cap-sidwaya-info-0f5512"
+      ]
+    },
+    {
+      "label": "Setting of the rite",
+      "value": "the back courtyard of the palace of Mogho Naaba Baongo II",
+      "cite": [
+        "cap-fratmat-info-2d1fe8"
+      ]
+    },
+    {
+      "label": "Court",
+      "value": "the Mogho Naaba holds a council with his ministers each morning",
+      "cite": [
+        "cap-wakatsera-com-3fcb0c"
+      ]
+    },
+    {
+      "label": "Customs day",
+      "value": "the 15 May Day of Customs and Traditions is celebrated at the royal palace",
+      "cite": [
+        "cap-wakatsera-com-3fcb0c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The palace of the Mogho Naaba, king of the Mossi of Ouagadougou, hosts each Friday the \"faux départ\" rite, which recalls an old conflict over the succession. The Mogho Naaba also holds council with his ministers each morning, and the palace hosts the 15 May Day of Customs and Traditions.",
+              "cite": [
+                "cap-sidwaya-info-0f5512",
+                "cap-fratmat-info-2d1fe8",
+                "cap-wakatsera-com-3fcb0c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Recording and photography are strictly forbidden during the inner Friday palace rituals.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

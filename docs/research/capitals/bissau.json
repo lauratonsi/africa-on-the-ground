@@ -1,61 +1,525 @@
 {
-  "city": "Bissau",
-  "country": "GNB",
-  "population": {
-    "value": 387909,
-    "year": 2009,
-    "definition": "Population of the Autonomous Sector of Bissau (Setor Autónomo de Bissau) enumerated in the 3rd General Population and Housing Census (RGPH 2009, March 2009) conducted by the Instituto Nacional de Estatística (INE) of Guinea-Bissau, tabulated via CityPopulation. Bissau concentrates over 25 percent of the national population.",
-    "source": {
-      "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
-      "publisher": "CityPopulation (credits INE Guiné-Bissau)",
-      "author": null,
-      "date": "2009-03-01",
-      "url": "https://www.citypopulation.de/en/guineabissau/cities/",
-      "tier": "institutional",
-      "quote": "2009-03-01 | Setor Autónomo de Bissau: 387,909"
-    }
+ "city": "Bissau",
+ "country": "GNB",
+ "population": {
+  "value": 387909,
+  "year": 2009,
+  "definition": "Sector Autónomo de Bissau (SAB), 3rd General Population and Housing Census 2009 (RGPH-2009), population corrected for post-census survey omission, including collective residents",
+  "source": {
+   "title": "RGPH-2009: Características socioculturais",
+   "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy)",
+   "author": null,
+   "date": "2009",
+   "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+   "tier": "institutional",
+   "quote": "387.909 1.520.830",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Work on building the Fortaleza de São José de Bissau began in 1765, a first step in creating a differentiated space on the island of Bissau.",
+   "source": {
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper)",
+    "author": "Carlos Franco Liberato",
+    "date": null,
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "quote": "el inicio de los trabajos de construcción de la Fortaleza de São José de Bissau en 1765",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Only after the Bissau War of 1844 did the Portuguese obtain exclusive control of a small plot of land on the island, a real Portuguese enclave in the territory of the Papel people.",
+   "source": {
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper)",
+    "author": "Carlos Franco Liberato",
+    "date": null,
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "quote": "sólo con la Guerra de Bissau de 1844 es que los portugueses logran, finalmente, después de casi tres siglos y medio, obtener el control exclusivo sobre una parcela ínfima de tierra",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Bissau was founded as a fort in 1765 and, after the slave trade declined in the early 19th century, became the chief commercial centre of Portuguese Guinea.",
+   "source": {
+    "title": "Portuguese Guinea - Early Developments",
+    "publisher": "GlobalSecurity.org (Library of Congress country study)",
+    "author": null,
+    "date": null,
+    "url": "https://www.globalsecurity.org/military/world/africa/gnb-history-pt.htm",
+    "tier": "encyclopedia",
+    "quote": "Bissau, which had been founded as a fort in 1765, became the chief commercial center",
+    "verified": true
+   }
+  },
+  {
+   "claim": "On 19 December 1941 the capital of Portuguese Guinea was moved from Bolama to Bissau, where new infrastructure including a port had begun to be built.",
+   "source": {
+    "title": "Governo da Guiné-Bissau quer ver Bolama reconhecida como Património Mundial",
+    "publisher": "RTP / Lusa",
+    "author": null,
+    "date": null,
+    "url": "https://www.rtp.pt/noticias/mundo/governo-da-guine-bissau-quer-ver-bolama-reconhecida-como-patrimonio-mundial_n105622",
+    "tier": "press",
+    "quote": "A 19 de Dezembro de 1941, a capital da Guiné Portuguesa foi transferida de Bolama para Bissau",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Sector Autónomo de Bissau is the Guinea-Bissau administrative unit alongside the eight regions.",
+   "source": {
+    "title": "RGPH-2009: Características socioculturais",
+    "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy)",
+    "author": null,
+    "date": "2009",
+    "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+    "tier": "institutional",
+    "quote": "está dividida em oito regiões - Bafatá, Biombo, Bolama, Cacheu, Gabú, Oio, Quinara e Tombali e mais o Sector Autónomo de Bissau (SAB)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 2009 census the largest share of the national population, 25.1 percent, lived in the Sector Autónomo de Bissau.",
+   "source": {
+    "title": "RGPH-2009: Características socioculturais",
+    "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy)",
+    "author": null,
+    "date": "2009",
+    "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+    "tier": "institutional",
+    "quote": "a maioria reside no SAB (25,1%)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the Sector Autónomo de Bissau the Balanta (20.5%), Fula (18.0%), Papel (15.7%) and Mandinga peoples were the most numerous ethnic groups in 2009.",
+   "source": {
+    "title": "RGPH-2009: Características socioculturais",
+    "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy)",
+    "author": null,
+    "date": "2009",
+    "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+    "tier": "institutional",
+    "quote": "No Sector Autónomo de Bissau (SAB), os Balantas (20,5%), Fulas (18.0%), papeis (15,7%) e Mandingas representam as etnias com maior expressão",
+    "verified": true
+   }
+  },
+  {
+   "claim": "For a decade after independence, residents and business owners in Bissau Velho were required by law to repaint their building facades each December.",
+   "source": {
+    "title": "Crumbling architecture of former narco-state in Bissau",
+    "publisher": "Al Jazeera",
+    "author": "Ricci Shryock",
+    "date": "2017-12-28",
+    "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+    "tier": "press",
+    "quote": "were required by law to repaint the facades of their buildings each December",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Bandim, in Bissau, is considered the largest and best-supplied market in the country.",
+   "source": {
+    "title": "Mulheres bideiras (monografia)",
+    "publisher": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira (Unilab)",
+    "author": null,
+    "date": null,
+    "url": "https://repositorio.unilab.edu.br/jspui/bitstream/123456789/1766/1/2019_mono_mamadubalde.pdf",
+    "tier": "academic",
+    "quote": "é considerado o maior e mais bem fornecido mercado do país",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1460",
+   "tag": "origins",
+   "claim": "From the arrival of the Portuguese in the region in 1460, Portuguese and Papel peoples contended for power over the social spaces of the island of Bissau.",
+   "source": {
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper)",
+    "author": "Carlos Franco Liberato",
+    "date": null,
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "quote": "entre los años de 1460 y 1846, portugueses y papeis se enfrentaron en desigualdad de condiciones por el poder hegemónico sobre los espacios sociales de la isla de Bissau",
+    "verified": true
+   }
+  },
+  {
+   "when": "1765",
+   "tag": "origins",
+   "claim": "Construction of the Fortaleza de São José de Bissau began in 1765.",
+   "source": {
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper)",
+    "author": "Carlos Franco Liberato",
+    "date": null,
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "quote": "el inicio de los trabajos de construcción de la Fortaleza de São José de Bissau en 1765",
+    "verified": true
+   }
+  },
+  {
+   "when": "1844",
+   "tag": "growth",
+   "claim": "The Bissau War of 1844 allowed the Portuguese to build a real enclave on the island.",
+   "source": {
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper)",
+    "author": "Carlos Franco Liberato",
+    "date": null,
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "quote": "La construcción de fuertes portugueses en la factoría no fue capaz de cambiar este estado de cosas hasta la Guerra de Bissau de 1844",
+    "verified": true
+   }
+  },
+  {
+   "when": "1879",
+   "tag": "growth",
+   "claim": "Bolama became capital of the Portuguese colony on 18 March 1879, administered separately from Cape Verde.",
+   "source": {
+    "title": "Governo da Guiné-Bissau quer ver Bolama reconhecida como Património Mundial",
+    "publisher": "RTP / Lusa",
+    "author": null,
+    "date": null,
+    "url": "https://www.rtp.pt/noticias/mundo/governo-da-guine-bissau-quer-ver-bolama-reconhecida-como-patrimonio-mundial_n105622",
+    "tier": "press",
+    "quote": "Bolama ascendeu a capital a 18 de Março de 1879",
+    "verified": true
+   }
+  },
+  {
+   "when": "1941",
+   "tag": "growth",
+   "claim": "The colonial capital was transferred from Bolama to Bissau on 19 December 1941.",
+   "source": {
+    "title": "Governo da Guiné-Bissau quer ver Bolama reconhecida como Património Mundial",
+    "publisher": "RTP / Lusa",
+    "author": null,
+    "date": null,
+    "url": "https://www.rtp.pt/noticias/mundo/governo-da-guine-bissau-quer-ver-bolama-reconhecida-como-patrimonio-mundial_n105622",
+    "tier": "press",
+    "quote": "A 19 de Dezembro de 1941, a capital da Guiné Portuguesa foi transferida de Bolama para Bissau",
+    "verified": true
+   }
+  },
+  {
+   "when": "1974",
+   "tag": "growth",
+   "claim": "Guinea-Bissau became independent in 1974; for a decade afterwards Bissau Velho owners had to repaint facades each December.",
+   "source": {
+    "title": "Crumbling architecture of former narco-state in Bissau",
+    "publisher": "Al Jazeera",
+    "author": "Ricci Shryock",
+    "date": "2017-12-28",
+    "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+    "tier": "press",
+    "quote": "For a decade after its independence in 1974",
+    "verified": true
+   }
+  },
+  {
+   "when": "2009",
+   "tag": "today",
+   "claim": "The 2009 census corrected population of the Sector Autónomo de Bissau was 387,909.",
+   "source": {
+    "title": "RGPH-2009: Características socioculturais",
+    "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy)",
+    "author": null,
+    "date": "2009",
+    "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+    "tier": "institutional",
+    "quote": "387.909 1.520.830",
+    "verified": true
+   }
+  },
+  {
+   "when": "2025",
+   "tag": "today",
+   "claim": "The Bijagós Archipelago – Omatí Minhô became Guinea-Bissau's first World Heritage site.",
+   "source": {
+    "title": "Rainforests and reefs: new World Heritage sites signal conservation breakthroughs",
+    "publisher": "IUCN",
+    "author": null,
+    "date": "2025-07",
+    "url": "https://iucn.org/press-release/202507/rainforests-reefs-new-world-heritage-sites-signal-conservation-breakthroughs",
+    "tier": "institutional",
+    "quote": "represents a major milestone for Guinea Bissau, as the country’s first World Heritage site",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô",
+   "type": "site",
+   "what": "The Bijagós archipelago, off Bissau, was inscribed on the World Heritage List in 2025 as Guinea-Bissau's first site. It has 88 islands and islets and hosts green sea turtle nests and migrating birds.",
+   "facts": [
     {
-      "claim": "Bissau was founded in 1687 by Portuguese traders on the north bank of the Geba River estuary as a fortified slave-trading outpost in the ancestral territory of the Papel people.",
-      "source": {
-        "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/guineabissau/cities/",
-        "tier": "institutional",
-        "quote": "Founded in 1687 by the Portuguese on the Geba River"
-      }
+     "label": "First World Heritage site",
+     "value": "Guinea-Bissau's first, inscribed 2025",
+     "source": {
+      "title": "Rainforests and reefs: new World Heritage sites signal conservation breakthroughs",
+      "publisher": "IUCN",
+      "author": null,
+      "date": "2025-07",
+      "url": "https://iucn.org/press-release/202507/rainforests-reefs-new-world-heritage-sites-signal-conservation-breakthroughs",
+      "tier": "institutional",
+      "quote": "represents a major milestone for Guinea Bissau, as the country’s first World Heritage site",
+      "verified": true
+     }
     },
     {
-      "claim": "The Fortaleza de São José da Amura, rebuilt in stone in 1753, stands in historic Bissau Velho and houses the mausoleum of national liberation leader and anti-colonial theorist Amílcar Cabral.",
-      "source": {
-        "title": "Fortaleza de São José da Amura e Centro Histórico de Bissau",
-        "publisher": "Instituto Nacional de Estudos e Pesquisa (INEP Guiné-Bissau)",
-        "author": null,
-        "date": null,
-        "url": "https://inep-bissau.org/",
-        "tier": "academic",
-        "quote": "Fortaleza da Amura abrigando o mausoléu de Amílcar Cabral"
-      }
+     "label": "Wildlife",
+     "value": "Around 50,000 green sea turtle nests and up to 850,000 migrating birds annually",
+     "source": {
+      "title": "Rainforests and reefs: new World Heritage sites signal conservation breakthroughs",
+      "publisher": "IUCN",
+      "author": null,
+      "date": "2025-07",
+      "url": "https://iucn.org/press-release/202507/rainforests-reefs-new-world-heritage-sites-signal-conservation-breakthroughs",
+      "tier": "institutional",
+      "quote": "Hosting around 50,000 green sea turtle nests and up to 850,000 migrating birds annually",
+      "verified": true
+     }
     },
     {
-      "claim": "Mercado de Bandim along Avenida dos Combatentes da Liberdade da Pátria is Guinea-Bissau's largest and most vibrant commercial bazaar, trading in cashew nuts, smoked river fish, and handwoven panu di pinti textiles.",
-      "source": {
-        "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/guineabissau/cities/",
-        "tier": "institutional",
-        "quote": "Mercado de Bandim centro nevrálgico do comércio de Bissau"
-      }
+     "label": "Size",
+     "value": "88 islands and islets over 12,950 km²",
+     "source": {
+      "title": "Three new African sites inscribed on UNESCO World Heritage List",
+      "publisher": "Anadolu Agency",
+      "author": null,
+      "date": "2025-07",
+      "url": "https://aa.com.tr/en/africa/three-new-african-sites-inscribed-on-unesco-world-heritage-list/3630085",
+      "tier": "press",
+      "quote": "consisting of 88 islands and islets spanning 12,950 square kilometers",
+      "verified": true
+     }
+    },
+    {
+     "label": "People",
+     "value": "Home to the matriarchal Bijago ethnic group",
+     "source": {
+      "title": "Three new African sites inscribed on UNESCO World Heritage List",
+      "publisher": "Anadolu Agency",
+      "author": null,
+      "date": "2025-07",
+      "url": "https://aa.com.tr/en/africa/three-new-african-sites-inscribed-on-unesco-world-heritage-list/3630085",
+      "tier": "press",
+      "quote": "home to the matriarchal Bijago ethnic group known for animist beliefs and female leadership",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Published tables of the subsequent general population census round remain delayed.",
-    "First-hand local voices from traditional Papel elders and cashew traders of Bandim are still missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Fortaleza de São José da Amura",
+   "type": "site",
+   "what": "The fortress in Bissau is one of the oldest in West Africa, originally built in the late 17th century and remodelled many times. It holds the mausoleum of Amílcar Cabral and the headquarters of the armed forces.",
+   "facts": [
+    {
+     "label": "Age",
+     "value": "One of the oldest fortresses in West Africa, built in the late 17th century and remodelled many times",
+     "source": {
+      "title": "Crumbling architecture of former narco-state in Bissau",
+      "publisher": "Al Jazeera",
+      "author": "Ricci Shryock",
+      "date": "2017-12-28",
+      "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+      "tier": "press",
+      "quote": "One of the oldest fortresses in West Africa, Fortaleza de Sao Jose da Amura (or Fortress of Amura), was originally built in the late 17th century but has been remodelled many times",
+      "verified": true
+     }
+    },
+    {
+     "label": "Mausoleum",
+     "value": "Houses the mausoleum of Amílcar Cabral",
+     "source": {
+      "title": "Falta à Guiné-Bissau dar conta do que representou Amílcar Cabral, diz líder do PAIGC",
+      "publisher": "RTP / Lusa",
+      "author": null,
+      "date": null,
+      "url": "https://www.rtp.pt/noticias/mundo/falta-a-guine-bissau-dar-conta-do-que-representou-amilcar-cabral-diz-lider-do-paigc_n1461591",
+      "tier": "press",
+      "quote": "mausoléu de Amílcar Cabral, situado na Fortaleza da Amura, em Bissau",
+      "verified": true
+     }
+    },
+    {
+     "label": "Armed forces",
+     "value": "Seat of the General Staff of the Armed Forces of Guinea-Bissau",
+     "source": {
+      "title": "Falta à Guiné-Bissau dar conta do que representou Amílcar Cabral, diz líder do PAIGC",
+      "publisher": "RTP / Lusa",
+      "author": null,
+      "date": null,
+      "url": "https://www.rtp.pt/noticias/mundo/falta-a-guine-bissau-dar-conta-do-que-representou-amilcar-cabral-diz-lider-do-paigc_n1461591",
+      "tier": "press",
+      "quote": "local onde funciona o Estado-Maior General das Forças Armadas da Guiné-Bissau",
+      "verified": true
+     }
+    },
+    {
+     "label": "Construction of the present fortress",
+     "value": "Works began in 1765",
+     "source": {
+      "title": "Bissau (1765–1846): de factoría a enclave portugués",
+      "publisher": "Universidade Federal de Sergipe (academic paper)",
+      "author": "Carlos Franco Liberato",
+      "date": null,
+      "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+      "tier": "academic",
+      "quote": "el inicio de los trabajos de construcción de la Fortaleza de São José de Bissau en 1765",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Bissau Velho",
+   "type": "culture",
+   "what": "Bissau Velho is the old colonial core of the capital. Many of its colonial buildings still stand but are abandoned and crumbling.",
+   "facts": [
+    {
+     "label": "Name",
+     "value": "'Old Bissau', the colonial-era quarter",
+     "source": {
+      "title": "Crumbling architecture of former narco-state in Bissau",
+      "publisher": "Al Jazeera",
+      "author": "Ricci Shryock",
+      "date": "2017-12-28",
+      "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+      "tier": "press",
+      "quote": "the area known as “Bissau Velho” (Old Bissau)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Facades",
+     "value": "After independence, owners were required by law to repaint facades each December for a decade",
+     "source": {
+      "title": "Crumbling architecture of former narco-state in Bissau",
+      "publisher": "Al Jazeera",
+      "author": "Ricci Shryock",
+      "date": "2017-12-28",
+      "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+      "tier": "press",
+      "quote": "were required by law to repaint the facades of their buildings each December",
+      "verified": true
+     }
+    },
+    {
+     "label": "Colonial buildings",
+     "value": "Most roads are still lined with buildings from the Portuguese colonial period",
+     "source": {
+      "title": "Crumbling architecture of former narco-state in Bissau",
+      "publisher": "Al Jazeera",
+      "author": "Ricci Shryock",
+      "date": "2017-12-28",
+      "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+      "tier": "press",
+      "quote": "most of Bissau Velho’s roads are still lined with buildings that were there when the Portuguese colonial powers imposed their will",
+      "verified": true
+     }
+    },
+    {
+     "label": "Condition",
+     "value": "Many structures are abandoned and crumbling",
+     "source": {
+      "title": "Crumbling architecture of former narco-state in Bissau",
+      "publisher": "Al Jazeera",
+      "author": "Ricci Shryock",
+      "date": "2017-12-28",
+      "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+      "tier": "press",
+      "quote": "many of these structures are abandoned and crumbling",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mercado de Bandim",
+   "type": "market",
+   "what": "Bandim is considered the largest and best-supplied market in the country. It is the main gathering point of the women traders known as bideiras.",
+   "facts": [
+    {
+     "label": "Scale",
+     "value": "Considered the largest and best-supplied market in the country",
+     "source": {
+      "title": "Mulheres bideiras (monografia)",
+      "publisher": "Unilab",
+      "author": null,
+      "date": null,
+      "url": "https://repositorio.unilab.edu.br/jspui/bitstream/123456789/1766/1/2019_mono_mamadubalde.pdf",
+      "tier": "academic",
+      "quote": "é considerado o maior e mais bem fornecido mercado do país",
+      "verified": true
+     }
+    },
+    {
+     "label": "Local name",
+     "value": "Fera di Bandé",
+     "source": {
+      "title": "Mulheres bideiras (monografia)",
+      "publisher": "Unilab",
+      "author": null,
+      "date": null,
+      "url": "https://repositorio.unilab.edu.br/jspui/bitstream/123456789/1766/1/2019_mono_mamadubalde.pdf",
+      "tier": "academic",
+      "quote": "Mercado de Bandim (Fera di Bandé)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Traders",
+     "value": "Women traders (bideiras) are massively concentrated in Bandim market",
+     "source": {
+      "title": "Estrategias económicas de las mujeres (CIEA7)",
+      "publisher": "ISCTE-IUL repository",
+      "author": null,
+      "date": null,
+      "url": "https://repositorio.iscte-iul.pt/bitstream/10071/2199/1/CIEA7_11_LEITE_Estrategias%20Econ%c3%b3micas%20de%20las%20mujeres.pdf",
+      "tier": "academic",
+      "quote": "hoy masivamente las Bideiras se concentran en el mercado de Bandim",
+      "verified": true
+     }
+    },
+    {
+     "label": "Main ethnic groups of the bideiras",
+     "value": "Papel, Mancanha and Mandinga",
+     "source": {
+      "title": "Estrategias económicas de las mujeres (CIEA7)",
+      "publisher": "ISCTE-IUL repository",
+      "author": null,
+      "date": null,
+      "url": "https://repositorio.iscte-iul.pt/bitstream/10071/2199/1/CIEA7_11_LEITE_Estrategias%20Econ%c3%b3micas%20de%20las%20mujeres.pdf",
+      "tier": "academic",
+      "quote": "Los principales grupos étnicos de bideiras presentes en el Mercado de Bandim son: papeis, mancanhas e mandigas",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Official 2009 INE census page with SAB total: only an archived (web.archive.org) copy of INE's published report was readable; stat-guinebissau.com is now a hijacked domain",
+  "Population is the corrected 2009 figure incl. collective residents; households-only uncorrected count is 365,097",
+  "No census newer than 2009 found",
+  "whc.unesco.org pages return 403; IUCN and Anadolu used for Bijagós",
+  "Infopedia (Capitania de Bissau, 1692/1696 fort dates) returned 403, so 1696 fort founding not recorded",
+  "No myth-or-fact found",
+  "Opening/inscription date of Bijagós (July 2025) only from press/IUCN release month"
+ ]
 }

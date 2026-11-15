@@ -1,74 +1,596 @@
 {
-  "city": "Lomé",
-  "country": "TGO",
-  "population": {
-    "value": 2188376,
-    "year": 2022,
-    "definition": "Population of the agglomeration of Greater Lomé (covering the Golfe prefecture with 1,305,681 residents and Agoè-Nyivé prefecture with 882,695 residents) enumerated in the November 2022 General Population and Housing Census (RGPH-5) conducted by the Institut National de la Statistique et des Études Économiques et Démographiques (INSEED) of Togo, tabulated via CityPopulation. In the 2010 census, Greater Lomé numbered 1,477,660 inhabitants.",
-    "source": {
-      "title": "Togo: Division administrative et Grand Lomé - Statistiques de population (RGPH-5 2022)",
-      "publisher": "CityPopulation (credits INSEED Togo)",
-      "author": null,
-      "date": "2022-11-20",
-      "url": "https://www.citypopulation.de/en/togo/cities/",
-      "tier": "institutional",
-      "quote": "2022-11-20 | Grand Lomé total: 2,188,376 (Golfe: 1,305,681, Agoè-Nyivé: 882,695)"
-    }
+ "city": "Lomé",
+ "country": "TGO",
+ "population": {
+  "value": 2188376,
+  "year": 2022,
+  "definition": "Grand Lomé region (Golfe plus Agoè-Nyivé prefectures); the Golfe prefecture alone counted 1,305,681",
+  "source": {
+   "title": "Résultats définitifs du 5e recensement général de la population et de l'habitat (RGPH-5), dépliant",
+   "publisher": "INSEED (Institut national de la statistique et des études économiques et démographiques, Togo)",
+   "author": null,
+   "date": "2023-04",
+   "url": "https://inseed.tg/wp-content/uploads/2023/09/Depliant-Resultats-Definitifs_RGPH5_02Avril2023.pdf",
+   "tier": "institutional",
+   "quote": "Grand Lomé ... 2 188 376",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "In the 2022 census the Golfe prefecture counted 1,305,681 people.",
+   "source": {
+    "title": "Résultats définitifs du 5e recensement général de la population et de l'habitat (RGPH-5), dépliant",
+    "publisher": "INSEED (Institut national de la statistique et des études économiques et démographiques, Togo)",
+    "author": null,
+    "date": "2023-04",
+    "url": "https://inseed.tg/wp-content/uploads/2023/09/Depliant-Resultats-Definitifs_RGPH5_02Avril2023.pdf",
+    "tier": "institutional",
+    "quote": "Population des préfectures par sexe ... 1 305 681",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "German governor August Köhler made Lomé the capital of Togo, and a palace was built for him between 1898 and 1905.",
+   "source": {
+    "title": "La restauration et la transformation de l'ancien Palais des Gouverneurs confirmées",
+    "publisher": "Togocultures",
+    "author": null,
+    "date": null,
+    "url": "https://togocultures.com/la-restauration-et-la-transformation-de-lancien-palais-des-gouverneurs-confirmees/",
+    "tier": "press",
+    "quote": "suite à la décision du Gouverneur August Kohler – celui-là qui érigea Lomé en Capitale du Togo",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The governor's palace was built to be recognisable from a long distance so that it would impress ships at sea.",
+   "source": {
+    "title": "La restauration et la transformation de l'ancien Palais des Gouverneurs confirmées",
+    "publisher": "Togocultures",
+    "author": null,
+    "date": null,
+    "url": "https://togocultures.com/la-restauration-et-la-transformation-de-lancien-palais-des-gouverneurs-confirmees/",
+    "tier": "press",
+    "quote": "de bâtir un palais assez représentatif qui soit reconnaissable à une distance de mille kilomètres afin d’impressionner les bateaux",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Lomé's first wharf was a wooden one built by the Germans in 1890; after a fire it was replaced in 1904 by a second wharf of steel frames on concrete piles.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Elle a commencé avec les Allemands qui construisent en 1890 un wharf en bois sur des pieux métalliques. Suite à un incendie, cet édifice sera remplacé en 1904 par un 2ème wharf en charpentes métalliques sur pieux en béton",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Togo became independent on 27 April 1960, and on 20 July of that year a German-Togolese agreement was signed to build a port.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Le 27 avril 1960 le Togo devient indépendant et le 20 juillet de la même année un accord de coopération économique et technique entre la République Fédérale d’Allemagne et la République Togolaise est signé pour la construction d’un port",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The deep-water Port of Lomé received its first ship alongside, the Birte Hugo Stinnes, on 21 January 1967.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "le 21 janvier 1967 demeure la date marquante dans l’histoire du Port qui voit pour la première fois arriver la « Birte Hugo Stinnes », son premier bateau à quai",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Annual port traffic grew from 252,600 tonnes in 1968 to 402,600 tonnes in 1972.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "passent de 252.600 tonnes de marchandises en 1968 à 402.600 tonnes en 1972",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 2024 the Port of Lomé handled 2.06 million containers (TEU), up 8% on the year before.",
+   "source": {
+    "title": "100 premiers ports à conteneurs du monde : Lomé gagne encore une place (Lloyd's List 2025)",
+    "publisher": "République togolaise (site officiel)",
+    "author": null,
+    "date": "2025-10-20",
+    "url": "https://www.republiquetogolaise.tg/logistique/2210-11216-100-premiers-ports-a-conteneurs-du-monde-lome-gagne-encore-une-place-lloyd-s-list-2025",
+    "tier": "institutional",
+    "quote": "Avec un trafic de 2,06 millions de conteneurs en 2024, en hausse de 8% par rapport à l’année précédente (1,9 million d’EVP)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Port of Lomé ranks 92nd in Lloyd's List's 2025 top 100 container ports and is the only sub-Saharan African port in that list.",
+   "source": {
+    "title": "100 premiers ports à conteneurs du monde : Lomé gagne encore une place (Lloyd's List 2025)",
+    "publisher": "République togolaise (site officiel)",
+    "author": null,
+    "date": "2025-10-20",
+    "url": "https://www.republiquetogolaise.tg/logistique/2210-11216-100-premiers-ports-a-conteneurs-du-monde-lome-gagne-encore-une-place-lloyd-s-list-2025",
+    "tier": "institutional",
+    "quote": "Seul port d’Afrique subsaharienne à figurer dans le Top 100 mondial",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Port of Lomé is described as the only deep-water port of the sub-region.",
+   "source": {
+    "title": "100 premiers ports à conteneurs du monde : Lomé gagne encore une place (Lloyd's List 2025)",
+    "publisher": "République togolaise (site officiel)",
+    "author": null,
+    "date": "2025-10-20",
+    "url": "https://www.republiquetogolaise.tg/logistique/2210-11216-100-premiers-ports-a-conteneurs-du-monde-lome-gagne-encore-une-place-lloyd-s-list-2025",
+    "tier": "institutional",
+    "quote": "Seul port en eau profonde de la sous-région",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Palais de Lomé, a restored colonial palace, is described as the only contemporary art centre in Africa fully financed by the state.",
+   "source": {
+    "title": "Togo opens ground-breaking arts centre in former colonial palace",
+    "publisher": "The Art Newspaper",
+    "author": null,
+    "date": "2019-11-26",
+    "url": "https://www.theartnewspaper.com/2019/11/26/togo-opens-ground-breaking-arts-centre-in-former-colonial-palace",
+    "tier": "press",
+    "quote": "is the only contemporary art centre in Africa to be fully financed by the state",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The Akodessewa fetish market in Lomé covers more than 1,000 m2.",
+   "source": {
+    "title": "Marché des Fétiches de Lomé",
+    "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo)",
+    "author": null,
+    "date": null,
+    "url": "https://tourisme.gouv.tg/marche-des-fetiches-de-lome-plongez-au-coeur-du-mystere-vaudou-du-togo-le-plus-grand-marche-mystique-au-monde/",
+    "tier": "institutional",
+    "quote": "S’étendant sur plus de 1 000 m², il mêle étals ouverts et arrière‑boutiques",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1890",
+   "tag": "origins",
+   "claim": "The Germans built a wooden wharf on metal piles at Lomé.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Elle a commencé avec les Allemands qui construisent en 1890 un wharf en bois sur des pieux métalliques",
+    "verified": true
+   }
+  },
+  {
+   "when": "1898",
+   "tag": "origins",
+   "claim": "Construction of the governor's palace began, ordered by Governor August Köhler.",
+   "source": {
+    "title": "Il était une fois un palais à Lomé",
+    "publisher": "Jeune Afrique",
+    "author": null,
+    "date": null,
+    "url": "https://www.jeuneafrique.com/mag/363538/economie-entreprises/etait-palais-a-lome/",
+    "tier": "press",
+    "quote": "Construit entre 1898 et 1905 à la demande du gouverneur allemand August Köhler",
+    "verified": true
+   }
+  },
+  {
+   "when": "1904",
+   "tag": "growth",
+   "claim": "A second wharf, of steel frames on concrete piles, replaced the first after a fire.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Suite à un incendie, cet édifice sera remplacé en 1904 par un 2ème wharf en charpentes métalliques sur pieux en béton",
+    "verified": true
+   }
+  },
+  {
+   "when": "1905",
+   "tag": "growth",
+   "claim": "The governor's palace was completed.",
+   "source": {
+    "title": "Il était une fois un palais à Lomé",
+    "publisher": "Jeune Afrique",
+    "author": null,
+    "date": null,
+    "url": "https://www.jeuneafrique.com/mag/363538/economie-entreprises/etait-palais-a-lome/",
+    "tier": "press",
+    "quote": "Construit entre 1898 et 1905 à la demande du gouverneur allemand August Köhler",
+    "verified": true
+   }
+  },
+  {
+   "when": "1928",
+   "tag": "growth",
+   "claim": "The French opened their own wharf at Lomé.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "C’est ainsi que les Français construisent un autre wharf dont l’exploitation démarre en 1928",
+    "verified": true
+   }
+  },
+  {
+   "when": "1959",
+   "tag": "growth",
+   "claim": "Togolese authorities decided to build a deep-water port because the French wharf could not cope.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "C’est en 1959, que les Autorités Togolaises d’alors décident de doter le Togo d’un port en eau profonde",
+    "verified": true
+   }
+  },
+  {
+   "when": "27 April 1960",
+   "tag": "growth",
+   "claim": "Togo became independent.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Le 27 avril 1960 le Togo devient indépendant",
+    "verified": true
+   }
+  },
+  {
+   "when": "1962",
+   "tag": "growth",
+   "claim": "The first stone of the deep-water port of Lomé was laid on 23 November.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "Le 23 novembre 1962 a lieu la pose de la première pierre pour la construction du Port de Lomé",
+    "verified": true
+   }
+  },
+  {
+   "when": "1967",
+   "tag": "growth",
+   "claim": "The first ship, the Birte Hugo Stinnes, came alongside at the new port on 21 January.",
+   "source": {
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "author": null,
+    "date": null,
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "institutional",
+    "quote": "le 21 janvier 1967 demeure la date marquante dans l’histoire du Port qui voit pour la première fois arriver la « Birte Hugo Stinnes », son premier bateau à quai",
+    "verified": true
+   }
+  },
+  {
+   "when": "2013",
+   "tag": "today",
+   "claim": "The Grand Marché de Lomé burned in the night of 11 to 12 January.",
+   "source": {
+    "title": "La présidente de l'Assemblée nationale lance les travaux de reconstruction du grand marché de Lomé",
+    "publisher": "Togopresse (République togolaise)",
+    "author": null,
+    "date": null,
+    "url": "https://togopresse.tg/la-presidente-de-lassemblee-nationale-lance-les-travaux-de-reconstruction-du-grand-marche-de-lome/",
+    "tier": "press",
+    "quote": "La tragédie caractérisée par l’incendie du grand marché de Lomé, survenu dans la nuit du 11 au 12 janvier 2013",
+    "verified": true
+   }
+  },
+  {
+   "when": "2019",
+   "tag": "today",
+   "claim": "The Palais de Lomé opened to the public as an art centre on 28 November.",
+   "source": {
+    "title": "Togo opens ground-breaking arts centre in former colonial palace",
+    "publisher": "The Art Newspaper",
+    "author": null,
+    "date": "2019-11-26",
+    "url": "https://www.theartnewspaper.com/2019/11/26/togo-opens-ground-breaking-arts-centre-in-former-colonial-palace",
+    "tier": "press",
+    "quote": "The Palais de Lomé opens to the public on 28 November with five inaugural exhibitions",
+    "verified": true
+   }
+  },
+  {
+   "when": "2022",
+   "tag": "today",
+   "claim": "The fifth census counted 2,188,376 people in Grand Lomé.",
+   "source": {
+    "title": "Résultats définitifs du 5e recensement général de la population et de l'habitat (RGPH-5), dépliant",
+    "publisher": "INSEED (Institut national de la statistique et des études économiques et démographiques, Togo)",
+    "author": null,
+    "date": "2023-04",
+    "url": "https://inseed.tg/wp-content/uploads/2023/09/Depliant-Resultats-Definitifs_RGPH5_02Avril2023.pdf",
+    "tier": "institutional",
+    "quote": "Grand Lomé ... 2 188 376",
+    "verified": true
+   }
+  },
+  {
+   "when": "2025",
+   "tag": "today",
+   "claim": "The Port of Lomé rose to 92nd in Lloyd's List's top 100 container ports.",
+   "source": {
+    "title": "100 premiers ports à conteneurs du monde : Lomé gagne encore une place (Lloyd's List 2025)",
+    "publisher": "République togolaise (site officiel)",
+    "author": null,
+    "date": "2025-10-20",
+    "url": "https://www.republiquetogolaise.tg/logistique/2210-11216-100-premiers-ports-a-conteneurs-du-monde-lome-gagne-encore-une-place-lloyd-s-list-2025",
+    "tier": "institutional",
+    "quote": "se positionne désormais à la 92ème place",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Koutammakou, the Land of the Batammariba",
+   "type": "site",
+   "what": "A cultural landscape on a hilly plateau in the Kara Region of north-eastern Togo, extending into Benin, home to the Batammariba and their two-storey clay tower houses. It was inscribed by UNESCO in 2004.",
+   "facts": [
     {
-      "claim": "Originally an Ewe trade and fishing settlement ('Alomé', among the shrubs), Lomé was chosen as the colonial capital of German Togoland in 1897 when Governor August Köhler transferred the administration from Aného.",
-      "source": {
-        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
-        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
-        "author": null,
-        "date": null,
-        "url": "https://palaisdelome.com/",
-        "tier": "institutional",
-        "quote": "Transfert de la capitale du Togoland d'Aného à Lomé en 1897"
-      }
+     "label": "UNESCO inscription",
+     "value": "2004",
+     "source": {
+      "title": "Koutammakou - The Land of the Batammariba",
+      "publisher": "Cultural Heritage Online",
+      "author": null,
+      "date": "2026-06-19",
+      "url": "https://culturalheritageonline.com/places/koutammakou-togo/",
+      "tier": "press",
+      "quote": "Batammariba settlement from the 17th century · UNESCO inscription 2004",
+      "verified": true
+     }
     },
     {
-      "claim": "The Palais de Lomé, built between 1898 and 1905 as the German governor's palace and later French colonial residence and first presidency, was restored in 2019 as an 11-hectare public arts centre and botanical park.",
-      "source": {
-        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
-        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
-        "author": null,
-        "date": null,
-        "url": "https://palaisdelome.com/",
-        "tier": "institutional",
-        "quote": "Réouverture du Palais de Lomé en novembre 2019 comme centre d'art contemporain et parc botanique"
-      }
+     "label": "Location",
+     "value": "Kara Region, Togo, extending into Atakora, Benin",
+     "source": {
+      "title": "Koutammakou - The Land of the Batammariba",
+      "publisher": "Cultural Heritage Online",
+      "author": null,
+      "date": "2026-06-19",
+      "url": "https://culturalheritageonline.com/places/koutammakou-togo/",
+      "tier": "press",
+      "quote": "lies on a hilly plateau in the Kara Region of northeastern Togo and extends across the border into the Atakora region of Benin",
+      "verified": true
+     }
     },
     {
-      "claim": "The Grand Marché de Lomé (Adawlato) gained historic prominence through the 'Nana Benz', visionary Togolese businesswoman who commanded the international wax-print textile trade across West and Central Africa from the 1960s onward.",
-      "source": {
-        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
-        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
-        "author": null,
-        "date": null,
-        "url": "https://palaisdelome.com/",
-        "tier": "institutional",
-        "quote": "Le rôle économique et patrimonial exceptionnel des Nana Benz au Grand Marché de Lomé"
-      }
+     "label": "Tower houses",
+     "value": "Two-storey clay houses",
+     "source": {
+      "title": "Koutammakou - The Land of the Batammariba",
+      "publisher": "Cultural Heritage Online",
+      "author": null,
+      "date": "2026-06-19",
+      "url": "https://culturalheritageonline.com/places/koutammakou-togo/",
+      "tier": "press",
+      "quote": "the Batammariba people still build and inhabit two-storey clay tower houses",
+      "verified": true
+     }
     }
-  ],
-  "timeline": [
+   ]
+  },
+  {
+   "name": "Palais de Lomé",
+   "type": "culture",
+   "what": "The former Governor's Palace, built between 1898 and 1905 on the seafront, restored and opened as an art and culture centre on 28 November 2019. It stands in a park and holds exhibitions such as Togo of the Kings.",
+   "facts": [
     {
-      "year": 1897,
-      "event": "Lomé becomes the official capital of German Togoland, initiating construction of the deep-sea wharf, railway lines, and colonial administrative quarters."
+     "label": "Built",
+     "value": "1898-1905",
+     "source": {
+      "title": "Il était une fois un palais à Lomé",
+      "publisher": "Jeune Afrique",
+      "author": null,
+      "date": null,
+      "url": "https://www.jeuneafrique.com/mag/363538/economie-entreprises/etait-palais-a-lome/",
+      "tier": "press",
+      "quote": "Construit entre 1898 et 1905 à la demande du gouverneur allemand August Köhler",
+      "verified": true
+     }
     },
     {
-      "year": 1914,
-      "event": "Franco-British forces capture Lomé at the onset of World War I; Togo is subsequently partitioned into British and French mandated spheres under the League of Nations, with Lomé placed under French administration."
+     "label": "Size",
+     "value": "About 2,000 m2 building",
+     "source": {
+      "title": "Il était une fois un palais à Lomé",
+      "publisher": "Jeune Afrique",
+      "author": null,
+      "date": null,
+      "url": "https://www.jeuneafrique.com/mag/363538/economie-entreprises/etait-palais-a-lome/",
+      "tier": "press",
+      "quote": "l’immense bâtisse de 2 000 m2",
+      "verified": true
+     }
     },
     {
-      "year": 1960,
-      "event": "Togo achieves national independence on 27 April 1960, with Lomé established as the sovereign capital under President Sylvanus Olympio."
+     "label": "Opened to the public",
+     "value": "28 November 2019",
+     "source": {
+      "title": "Togo opens ground-breaking arts centre in former colonial palace",
+      "publisher": "The Art Newspaper",
+      "author": null,
+      "date": "2019-11-26",
+      "url": "https://www.theartnewspaper.com/2019/11/26/togo-opens-ground-breaking-arts-centre-in-former-colonial-palace",
+      "tier": "press",
+      "quote": "The Palais de Lomé opens to the public on 28 November with five inaugural exhibitions",
+      "verified": true
+     }
     },
     {
-      "year": 2019,
-      "event": "The renovated Palais de Lomé opens to the public, reclaiming former colonial grounds as an open pan-African cultural hub and botanical reserve."
+     "label": "Renovation cost",
+     "value": "XOF 2.2 billion",
+     "source": {
+      "title": "Togo opens ground-breaking arts centre in former colonial palace",
+      "publisher": "The Art Newspaper",
+      "author": null,
+      "date": "2019-11-26",
+      "url": "https://www.theartnewspaper.com/2019/11/26/togo-opens-ground-breaking-arts-centre-in-former-colonial-palace",
+      "tier": "press",
+      "quote": "the government footed the XOF 2.2bn ($3.7m) bill for the renovation",
+      "verified": true
+     }
     }
-  ]
+   ]
+  },
+  {
+   "name": "Grand Marché de Lomé",
+   "type": "market",
+   "what": "The Assigamé market, the commercial heart of Lomé and the domain of the Nana-Benz traders. Its main building burned in January 2013 and a rebuilding project was launched in 2020.",
+   "facts": [
+    {
+     "label": "Known as",
+     "value": "Assigamé",
+     "source": {
+      "title": "La présidente de l'Assemblée nationale lance les travaux de reconstruction du grand marché de Lomé",
+      "publisher": "Togopresse (République togolaise)",
+      "author": null,
+      "date": null,
+      "url": "https://togopresse.tg/la-presidente-de-lassemblee-nationale-lance-les-travaux-de-reconstruction-du-grand-marche-de-lome/",
+      "tier": "press",
+      "quote": "appelé communément « Assigamé »",
+      "verified": true
+     }
+    },
+    {
+     "label": "Fire",
+     "value": "Night of 11-12 January 2013",
+     "source": {
+      "title": "La présidente de l'Assemblée nationale lance les travaux de reconstruction du grand marché de Lomé",
+      "publisher": "Togopresse (République togolaise)",
+      "author": null,
+      "date": null,
+      "url": "https://togopresse.tg/la-presidente-de-lassemblee-nationale-lance-les-travaux-de-reconstruction-du-grand-marche-de-lome/",
+      "tier": "press",
+      "quote": "survenu dans la nuit du 11 au 12 janvier 2013",
+      "verified": true
+     }
+    },
+    {
+     "label": "Planned new building",
+     "value": "Four floors, 175 shops, 107 wholesalers, 894 kiosks, 105 stalls",
+     "source": {
+      "title": "La présidente de l'Assemblée nationale lance les travaux de reconstruction du grand marché de Lomé",
+      "publisher": "Togopresse (République togolaise)",
+      "author": null,
+      "date": null,
+      "url": "https://togopresse.tg/la-presidente-de-lassemblee-nationale-lance-les-travaux-de-reconstruction-du-grand-marche-de-lome/",
+      "tier": "press",
+      "quote": "Ce bâtiment sera constitué de 175 boutiques, 107 grossistes, 894 kiosques et 105 étals",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Monument de l'Indépendance",
+   "type": "site",
+   "what": "A ten-metre monument in Lomé commemorating independence on 27 April 1960, topped by a female bust that holds up the flame of freedom.",
+   "facts": [
+    {
+     "label": "Height",
+     "value": "About 10 metres",
+     "source": {
+      "title": "Flamme Éternelle de Lomé : Le Monument de l'Indépendance",
+      "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo)",
+      "author": null,
+      "date": "2025-11-15",
+      "url": "https://tourisme.gouv.tg/flamme-eternelle-de-lome-le-monument-de-lindependance-coeur-battant-du-togo/",
+      "tier": "institutional",
+      "quote": "Dix mètres d’une pierre qui semble vivante",
+      "verified": true
+     }
+    },
+    {
+     "label": "Designers",
+     "value": "Georges Coustère, finished by Paul Ahyi",
+     "source": {
+      "title": "Flamme Éternelle de Lomé : Le Monument de l'Indépendance",
+      "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo)",
+      "author": null,
+      "date": "2025-11-15",
+      "url": "https://tourisme.gouv.tg/flamme-eternelle-de-lome-le-monument-de-lindependance-coeur-battant-du-togo/",
+      "tier": "institutional",
+      "quote": "il est signé par Georges Coustère et sublimé par Paul Ahyi",
+      "verified": true
+     }
+    },
+    {
+     "label": "Flame",
+     "value": "Rekindled every 27 April",
+     "source": {
+      "title": "Flamme Éternelle de Lomé : Le Monument de l'Indépendance",
+      "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo)",
+      "author": null,
+      "date": "2025-11-15",
+      "url": "https://tourisme.gouv.tg/flamme-eternelle-de-lome-le-monument-de-lindependance-coeur-battant-du-togo/",
+      "tier": "institutional",
+      "quote": "Chaque année, le 27 avril, cette flamme renaît lors d’un rituel national",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Date and details of Lomé's foundation (c. 1880 vs 1897 capital move) could not be verified: the IRD papers by Marguerat return HTML instead of PDF to curl; blog sources not used.",
+  "UNESCO World Heritage Centre pages return 403; Koutammakou facts come from Cultural Heritage Online, a heritage magazine rather than UNESCO.",
+  "Grand Marché reconstruction status is contradictory across sources (ministry says rebuilt, local press says unfinished); only the 2013 fire and the 2020 project are recorded.",
+  "Independence Monument source is a ministry tourism-promotion page; its anecdotes (e.g. the blessed torch) were not recorded.",
+  "Lomé city-proper population: the Golfe prefecture figure is given only in the definition, since the leaflet table splits columns; Grand Lomé is recorded as the value.",
+  "Port of Lomé and sources for Lomé's geography (Gulf of Guinea coast, border with Ghana) not verified."
+ ]
 }

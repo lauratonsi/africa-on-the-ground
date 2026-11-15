@@ -4,18 +4,342 @@
   "country": "GIN",
   "name": "Conakry",
   "subtitle": "Conakry, capital of Guinea: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "keyPoints": [
+    {
+      "text": "About 3,407,327 people live in the Conakry region (preliminary 2025 census; the region is entirely urban) (counted 2025).",
+      "cite": [
+        "cap-stat-guinee-org-033d40"
+      ]
+    },
+    {
+      "text": "Conakry was founded from nothing in colonial times; the French settled there in 1885, when the Peninsula of Tumbo held two sparsely populated villages, Conakry and Boulbinet.",
+      "cite": [
+        "cap-publication-codesria-org-c23611"
+      ]
+    },
+    {
+      "text": "The initial site of the city was the Tumbo Peninsula, about 5 by 3 km.",
+      "cite": [
+        "cap-publication-codesria-org-c23611"
+      ]
+    }
+  ],
   "places": [
     "mount-nimba-strict-nature-reserve",
     "grande-mosquee-de-conakry",
     "musee-national-de-sandervalia-conakry",
     "marche-madina-conakry"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Conakry in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conakry was founded from nothing in colonial times; the French settled there in 1885, when the Peninsula of Tumbo held two sparsely populated villages, Conakry and Boulbinet.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The initial site of the city was the Tumbo Peninsula, about 5 by 3 km.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Baga and the Susu, allied peoples, made up the city's initial population.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Between the two World Wars the city's expansion was restricted to the peninsula, a municipal area of about 3 km2.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The colonial city was built on a grid of 14 avenues numbered from the western end of the peninsula and 12 boulevards.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At independence the city and its suburbs had about 70,000 inhabitants.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conakry is the country's capital and only sizeable international harbour, an outlet for bauxite exports.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kaloum is the current name of the former city centre, previously called Tumbo.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Conakry region covers 450 km2 and is organised into 6 urban communes and 130 quartiers (2022).",
+              "cite": [
+                "cap-stat-guinee-org-07c4ce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conakry is 100% urban and holds a little over half (50.3%) of Guinea's urban population (RGPH-4, 2025).",
+              "cite": [
+                "cap-stat-guinee-org-033d40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Because the entrance to Kaloum can easily be blockaded, demonstrations are left mainly to the main roads leading from the suburbs towards the old centre.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "3,407,327",
+              "label": "people in the Conakry region (preliminary 2025 census; the region is entirely urban), 2025",
+              "cite": [
+                "cap-stat-guinee-org-033d40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Conakry region (preliminary 2025 census; the region is entirely urban)?",
+          "min": 0,
+          "max": 20000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 3407327,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "3,407,327 in 2025, according to the figures compiled from the national statistics office. Which area is counted matters: Conakry administrative region (entirely urban, about 450 km2, six communes), RGPH-4 2025 preliminary results with counts adjusted by the post-enumeration survey.",
+              "cite": [
+                "cap-stat-guinee-org-033d40"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1885",
+              "tag": "origins",
+              "text": "The French colonial establishment at Conakry dates from 1885.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "when": "1904",
+              "tag": "origins",
+              "text": "A municipality was introduced in 1904 and controlled by the colonial administration until 1956.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "when": "1908",
+              "tag": "growth",
+              "text": "A railway linked Conakry to Mamou in 1908, reached Kouroussa in 1910 and Kankan in 1914.",
+              "cite": [
+                "cap-webguine-site-e919ad"
+              ]
+            },
+            {
+              "when": "1953",
+              "tag": "growth",
+              "text": "Iron ore was extracted near Conakry from 1953 by the Compagnie Minière de la Guinée française.",
+              "cite": [
+                "cap-webguine-site-e919ad"
+              ]
+            },
+            {
+              "when": "1958",
+              "tag": "growth",
+              "text": "Guinea voted 'no' in the September 1958 referendum on its membership of the French Community.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "when": "1977",
+              "tag": "growth",
+              "text": "In 1977 women organised a protest demonstration over the food crisis, breaking the pattern of the period.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "when": "1983",
+              "tag": "growth",
+              "text": "The first stone of the Fayçal Mosque in Donka was laid in 1983.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "when": "2018",
+              "tag": "today",
+              "text": "A fire in the night of 17-18 March 2018 destroyed at least 300 shops, stalls and kiosks in Madina market.",
+              "cite": [
+                "cap-wakatsera-com-810203"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "On 22 March 2023 the Prime Minister reopened the Grande Mosquée Fayçal after several years of renovation.",
+              "cite": [
+                "cap-guineenews-org-a274ec"
+              ]
+            },
+            {
+              "when": "2025",
+              "tag": "today",
+              "text": "The 2025 census (RGPH-4, preliminary) counted 3,407,327 people in the Conakry region.",
+              "cite": [
+                "cap-stat-guinee-org-033d40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Conakry in order.",
+          "items": [
+            {
+              "label": "The French colonial establishment at Conakry dates from 1885.",
+              "when": "1885",
+              "text": "The French colonial establishment at Conakry dates from 1885.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "label": "Iron ore was extracted near Conakry from 1953 by the Compagnie Minière de la…",
+              "when": "1953",
+              "text": "Iron ore was extracted near Conakry from 1953 by the Compagnie Minière de la Guinée française.",
+              "cite": [
+                "cap-webguine-site-e919ad"
+              ]
+            },
+            {
+              "label": "The first stone of the Fayçal Mosque in Donka was laid in 1983.",
+              "when": "1983",
+              "text": "The first stone of the Fayçal Mosque in Donka was laid in 1983.",
+              "cite": [
+                "cap-publication-codesria-org-c23611"
+              ]
+            },
+            {
+              "label": "The 2025 census (RGPH-4, preliminary) counted 3,407,327 people in the Conakry…",
+              "when": "2025",
+              "text": "The 2025 census (RGPH-4, preliminary) counted 3,407,327 people in the Conakry region.",
+              "cite": [
+                "cap-stat-guinee-org-033d40"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Final analytical results of the 4th general population census (RGPH-4) await official dissemination.",
-    "First-hand local voices from boatmen navigating the Îles de Los and traders in Marché Madina are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Census 2014 city figure not recorded: INS regional sheet table (1,675,069 for the region) is a garbled extract and was not used; 2025 preliminary figure is the only census value recorded",
+    "Not found in a readable source: UNESCO whc.unesco.org returns 403; UNEP-WCMC datasheet used for Nimba",
+    "Not found in a readable source: Mosque: sources conflict (Goerg: first stone 1983; secondary sources say opened 1982); only the Goerg date recorded",
+    "Not found in a readable source: 1977 market women's revolt at Madina not recorded: only Wikipedia/face2face (403) sources found; Goerg only mentions the 1977 women's protest without naming Madina",
+    "Not found in a readable source: Museum founding year not verified",
+    "Not found in a readable source: No myth-or-fact found",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Guinea has read this profile yet."
   ]
 }

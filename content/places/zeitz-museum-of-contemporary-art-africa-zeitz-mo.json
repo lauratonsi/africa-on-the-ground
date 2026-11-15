@@ -1,0 +1,89 @@
+{
+  "slug": "zeitz-museum-of-contemporary-art-africa-zeitz-mo",
+  "status": "draft",
+  "type": "site",
+  "country": "ZAF",
+  "name": "Zeitz Museum of Contemporary Art Africa (Zeitz MOCAA)",
+  "region": "V&A Waterfront · Cape Town · South Africa",
+  "subtitle": "Zeitz MOCAA is a public, not-for-profit museum in Cape Town that exhibits, collects and researches contemporary art from Africa and its diaspora.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "A public, not-for-profit museum that exhibits, collects, preserves and researches contemporary art from Africa and its diaspora.",
+      "cite": [
+        "cap-zeitzmocaa-museum-181d90"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "The museum is housed in a 1920s grain silo transformed by Heatherwick Studio.",
+      "cite": [
+        "cap-zeitzmocaa-museum-181d90"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Light enters the atrium through tubes 5.5 metres wide.",
+      "cite": [
+        "cap-zeitzmocaa-museum-181d90"
+      ]
+    },
+    {
+      "label": "Cost and funder",
+      "value": "The conversion cost more than R500 million, borne by the V&A Waterfront corporation.",
+      "cite": [
+        "cap-dailymaverick-co-za-5722b2"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "The core of the holdings is Jochen Zeitz's art collection, built up since 2008 with South African curator Mark Coetzee; it gave Zeitz the naming rights.",
+      "cite": [
+        "cap-dailymaverick-co-za-5722b2"
+      ]
+    },
+    {
+      "label": "Galleries",
+      "value": "More than 80 cube-like gallery spaces are clustered around the atrium.",
+      "cite": [
+        "cap-dailymaverick-co-za-5722b2"
+      ]
+    },
+    {
+      "label": "Criticism",
+      "value": "Art critic Sean O'Toole said the collection has 'crucial blind spots'.",
+      "cite": [
+        "cap-dailymaverick-co-za-5722b2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Zeitz MOCAA is a public, not-for-profit museum in Cape Town that exhibits, collects and researches contemporary art from Africa and its diaspora. It occupies a 1920s grain silo converted by Heatherwick Studio, and its holdings were built on Jochen Zeitz's private collection. Critics have questioned gaps in the collection and the overlap between museum and private acquisitions.",
+              "cite": [
+                "cap-zeitzmocaa-museum-181d90",
+                "cap-dailymaverick-co-za-5722b2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Exact opening date (22 Sept 2017) not confirmed by a quote on a readable page",
+    "Not found in a readable source: Silo height/1921 construction date not verified",
+    "Local voices: none yet."
+  ]
+}

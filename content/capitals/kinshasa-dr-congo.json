@@ -3,13 +3,24 @@
   "status": "draft",
   "country": "COD",
   "name": "Kinshasa",
-  "subtitle": "Kinshasa, capital of the Democratic Republic of the Congo: its numbers, a short history and places to see beyond the World Heritage list.",
+  "subtitle": "Kinshasa, capital of DR Congo: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The 210-metre Tour de l'Échangeur and the new National Museum celebrate the monumental scale and artistic heritage of the Congo basin.",
+      "text": "About 2,664,200 people live in Kinshasa (the 1984 census, the last one held in the country) (counted 1984).",
       "cite": [
-        "cap-petitfute-tour-limete",
-        "cap-kinocongo-mnrdc-2019"
+        "cap-assets-publishing-service-gov-uk-426b66"
+      ]
+    },
+    {
+      "text": "The last census in the DRC was held in 1984, so all population figures for Kinshasa are projection-based.",
+      "cite": [
+        "cap-documents1-worldbank-org-6fdcb4"
+      ]
+    },
+    {
+      "text": "Léopoldville, originally Stanley Pool station, arose from Henry Morton Stanley's third expedition to the Congo (1879-1884).",
+      "cite": [
+        "cap-assets-publishing-service-gov-uk-426b66"
       ]
     }
   ],
@@ -20,11 +31,299 @@
     "tour-de-lechangeur-limete-kinshasa",
     "academie-des-beaux-arts-kinshasa"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Kinshasa in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The last census in the DRC was held in 1984, so all population figures for Kinshasa are projection-based.",
+              "cite": [
+                "cap-documents1-worldbank-org-6fdcb4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Léopoldville, originally Stanley Pool station, arose from Henry Morton Stanley's third expedition to the Congo (1879-1884).",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Léopoldville is named after Leopold II, king of the Belgians, who commissioned the expeditions.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The capital of the Congo was at Boma and was transferred to Léopoldville in 1929.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kinshasa lies on the bank of the Congo River at the exit of Pool Malebo and the start of the cataracts.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Before 1960 Kinshasa was a commercial centre before becoming an administrative capital.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Léopoldville received civil status as a city, with annexed zones and 11 communes, in 1957.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kinshasa comprises 24 communes, of which Maluku, Nsele, Mont-Ngafula and Ngaliema are the largest.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kinshasa's population was 1,635,600 in 1975.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The DRC is preparing its second general population census, the first since 1984.",
+              "cite": [
+                "cap-fratmat-info-f81671"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,664,200",
+              "label": "people in Kinshasa (the 1984 census, the last one held in the country), 1984",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Kinshasa (the 1984 census, the last one held in the country)?",
+          "min": 0,
+          "max": 8000000,
+          "step": 40000,
+          "unit": "",
+          "answer": 2664200,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,664,200 in 1984, according to the figures compiled from the national statistics office. Which area is counted matters: Ville de Kinshasa, 1984 scientific census (the last census held in the DRC); all later figures are projections.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1881",
+              "tag": "origins",
+              "text": "The post of Léopoldville is dated to 1881, regarded as the starting point of the history of the city of Kinshasa.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            },
+            {
+              "when": "1929",
+              "tag": "growth",
+              "text": "The capital of the Congo was transferred from Boma to Léopoldville in 1929.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            },
+            {
+              "when": "1957",
+              "tag": "growth",
+              "text": "Léopoldville received civil status as a city with 11 communes.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            },
+            {
+              "when": "1966",
+              "tag": "growth",
+              "text": "On 30 June 1966 President Mobutu proclaimed Patrice Lumumba a national hero and announced a large monument to him, the origin of the Limete Interchange.",
+              "cite": [
+                "cap-acp-cd-7963d1"
+              ]
+            },
+            {
+              "when": "1974",
+              "tag": "growth",
+              "text": "Work on the Limete Interchange was interrupted between 1974 and 1978.",
+              "cite": [
+                "cap-acp-cd-7963d1"
+              ]
+            },
+            {
+              "when": "1984",
+              "tag": "growth",
+              "text": "The 1984 census counted 2,664,200 people in the city of Kinshasa.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            },
+            {
+              "when": "2011",
+              "tag": "today",
+              "text": "A partial rehabilitation in 2011 installed the Museum of Contemporary and Multimedia Art and a 6.5 m statue of Lumumba at the foot of the Limete tower.",
+              "cite": [
+                "cap-acp-cd-7963d1"
+              ]
+            },
+            {
+              "when": "2018",
+              "tag": "today",
+              "text": "The Académie des Beaux-Arts, founded in 1943, celebrated its 75th anniversary in 2018.",
+              "cite": [
+                "cap-actualite-cd-48b5fe"
+              ]
+            },
+            {
+              "when": "2023",
+              "tag": "today",
+              "text": "The Limete Interchange Tower became the logo of the 9th Jeux de la Francophonie, held in Kinshasa from 26 July to 6 August 2023.",
+              "cite": [
+                "cap-afrique-le360-ma-f465bc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Kinshasa in order.",
+          "items": [
+            {
+              "label": "The post of Léopoldville is dated to 1881, regarded as the starting point of…",
+              "when": "1881",
+              "text": "The post of Léopoldville is dated to 1881, regarded as the starting point of the history of the city of Kinshasa.",
+              "cite": [
+                "cap-assets-publishing-service-gov-uk-426b66"
+              ]
+            },
+            {
+              "label": "On 30 June 1966 President Mobutu proclaimed Patrice Lumumba a national hero…",
+              "when": "1966",
+              "text": "On 30 June 1966 President Mobutu proclaimed Patrice Lumumba a national hero and announced a large monument to him, the origin of the Limete Interchange.",
+              "cite": [
+                "cap-acp-cd-7963d1"
+              ]
+            },
+            {
+              "label": "A partial rehabilitation in 2011 installed the Museum of Contemporary and…",
+              "when": "2011",
+              "text": "A partial rehabilitation in 2011 installed the Museum of Contemporary and Multimedia Art and a 6.5 m statue of Lumumba at the foot of the Limete tower.",
+              "cite": [
+                "cap-acp-cd-7963d1"
+              ]
+            },
+            {
+              "label": "The Limete Interchange Tower became the logo of the 9th Jeux de la…",
+              "when": "2023",
+              "text": "The Limete Interchange Tower became the logo of the 9th Jeux de la Francophonie, held in Kinshasa from 26 July to 6 August 2023.",
+              "cite": [
+                "cap-afrique-le360-ma-f465bc"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "No comprehensive nationwide census has been held in the DRC since 1984; modern demographic projections vary significantly.",
-    "First-hand local voices from artists at the Académie des Beaux-Arts and Kinois musicians are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: No census since 1984; population given is the 1984 census (Kapagama & Waterhouse 2009 quoting it); original INS tables not found",
+    "Not found in a readable source: Founding date 1881 is attributed in the source to Lumenga Neso (the source's own wording), not independently confirmed",
+    "Not found in a readable source: Renaming Léopoldville to Kinshasa (1966) not recorded: no readable non-Wikipedia source found",
+    "Not found in a readable source: Lola ya Bonobo: founding year and founder not verified (search budget exhausted); only the operator's own site was readable",
+    "Not found in a readable source: MNRDC founding date not verified",
+    "Not found in a readable source: whc.unesco.org returns 403, so UNESCO pages not used for Virunga",
+    "Not found in a readable source: Web search budget was exhausted before Kinshasa places could be fully explored",
+    "Not found in a readable source: No myth-or-fact found",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from DR Congo has read this profile yet."
   ]
 }

@@ -1,0 +1,96 @@
+{
+  "slug": "ife-heads-and-the-national-museum-of-ife",
+  "status": "draft",
+  "type": "culture",
+  "country": "NGA",
+  "name": "Ife heads and the National Museum of Ife",
+  "region": "Ile-Ife · Nigeria",
+  "subtitle": "Artisans in Ife made heads in copper alloy (widely called bronze) and terracotta with a highly symmetrical style.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "Ife heads, whether metal or terracotta, share a highly symmetrical style.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Date and place",
+      "value": "The National Geographic caption dates a bronze Ooni head in the National Museum of Ife to the 12th-15th century.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "The most significant find of Ife heads occurred in 1938, when more than a dozen were found.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Where kept",
+      "value": "Many of the 1938 heads can be seen today in Ife's Museum of Antiquities.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Who they depict",
+      "value": "Study has shown that the regal heads depict men, the ooni (rulers of Yoruba kingdoms), not gods.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Meaning",
+      "value": "In Yoruba belief the head is the home of the Ori, the seat of the soul and where a person's fate is determined.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Terracotta",
+      "value": "Numerous terracotta heads were unearthed from ritual resting places and many were taken to museums.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    },
+    {
+      "label": "Change or risk",
+      "value": "Many Nigerians are advocating for the repatriation of the Ife heads.",
+      "cite": [
+        "cap-nationalgeographic-com-a62aeb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Artisans in Ife made heads in copper alloy (widely called bronze) and terracotta with a highly symmetrical style. A find of more than a dozen metal heads in 1938 is the most significant, and many can be seen today in Ife's Museum of Antiquities. Study has shown the heads depict ooni, rulers of Yoruba kingdoms, not gods.",
+              "cite": [
+                "cap-nationalgeographic-com-a62aeb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Met Museum, British Museum and NCMM pages are blocked (JavaScript/security checkpoint) so not used.",
+    "Not found in a readable source: Visitor details and current museum state not sourced.",
+    "Local voices: none yet."
+  ]
+}

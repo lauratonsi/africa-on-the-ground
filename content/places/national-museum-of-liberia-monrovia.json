@@ -5,13 +5,71 @@
   "country": "LBR",
   "name": "National Museum of Liberia",
   "region": "Monrovia · Liberia",
-  "subtitle": "Historic museum on Broad Street housed in the 1862 Old Supreme Court, preserving 1847 independence records and tribal masks.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Established in 1958 and housed in the Old Supreme Court building since 1987, the museum lost around 5,000 artefacts during the wars and is rebuilding its collection.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "1958, by President William V. S. Tubman",
+      "cite": [
+        "cap-mainlymuseums-com-a80036"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Old Supreme Court building, since 1987",
+      "cite": [
+        "cap-mainlymuseums-com-a80036"
+      ]
+    },
+    {
+      "label": "War losses",
+      "value": "around 5,000 artefacts lost during the wars",
+      "cite": [
+        "cap-mainlymuseums-com-a80036"
+      ]
+    },
+    {
+      "label": "Renovation",
+      "value": "renovated in 1992 with international assistance",
+      "cite": [
+        "cap-ebsco-com-021d5a"
+      ]
+    },
+    {
+      "label": "Collections before the wars",
+      "value": "almost 6,000 pieces for display",
+      "cite": [
+        "cap-theworld-org-243287"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Established in 1958 and housed in the Old Supreme Court building since 1987, the museum lost around 5,000 artefacts during the wars and is rebuilding its collection. It was renovated in 1992 with international assistance.",
+              "cite": [
+                "cap-mainlymuseums-com-a80036",
+                "cap-ebsco-com-021d5a",
+                "cap-theworld-org-243287"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Comprehensive digitization of the 19th-century presidential papers in the museum archive is currently underway.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

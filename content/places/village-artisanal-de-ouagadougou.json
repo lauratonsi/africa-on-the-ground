@@ -5,13 +5,48 @@
   "country": "BFA",
   "name": "Village Artisanal de Ouagadougou (VAO)",
   "region": "Ouagadougou · Burkina Faso",
-  "subtitle": "National cooperative complex where master bronzesmiths, stone carvers, and textile dyers demonstrate ancient crafts.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "At the Village Artisanal, artisans continue the bronze-casting tradition and have contributed public monuments, trophies and made-to-order pieces.",
+  "facts": [
+    {
+      "label": "Bronze tradition",
+      "value": "artisans continue the bronze tradition there",
+      "cite": [
+        "cap-africa24tv-com-eda9b6"
+      ]
+    },
+    {
+      "label": "Commissions",
+      "value": "public monuments, trophies and made-to-order pieces",
+      "cite": [
+        "cap-africa24tv-com-eda9b6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the Village Artisanal, artisans continue the bronze-casting tradition and have contributed public monuments, trophies and made-to-order pieces.",
+              "cite": [
+                "cap-africa24tv-com-eda9b6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Apprenticeship transmission curriculum metrics are maintained internally by guild councils.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

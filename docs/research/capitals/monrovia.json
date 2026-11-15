@@ -1,61 +1,476 @@
 {
-  "city": "Monrovia",
-  "country": "LBR",
-  "population": {
-    "value": 970824,
-    "year": 2008,
-    "definition": "Population of the Greater Monrovia District (Montserrado County) enumerated in the 2008 National Population and Housing Census conducted by the Liberia Institute of Statistics and Geo-Information Services (LISGIS), tabulated via CityPopulation. Provisional results of the 2022 census count 1,761,032 residents in the capital city proper, representing approximately one-third of Liberia's total population.",
-    "source": {
-      "title": "Liberia: Counties, Major Cities & Urban Localities (Census 2008)",
-      "publisher": "CityPopulation (credits LISGIS Liberia)",
-      "author": null,
-      "date": "2008-03-21",
-      "url": "https://www.citypopulation.de/en/liberia/cities/",
-      "tier": "institutional",
-      "quote": "2008-03-21 | Greater Monrovia: 970,824 (2022 census: 1,761,032)"
-    }
+ "city": "Monrovia",
+ "country": "LBR",
+ "population": {
+  "value": 1760000,
+  "year": 2022,
+  "definition": "Monrovia (urban Montserrado County), rounded figure of 1.76 million reported by a fact-check citing the 2022 census thematic report on population projections; the exact LISGIS table could not be read (LISGIS pages need JavaScript)",
+  "source": {
+   "title": "Fact Check: Simeon Freeman Is Mostly Correct About Urban Population Growth",
+   "publisher": "Local Voices Liberia",
+   "author": null,
+   "date": "2026",
+   "url": "https://localvoicesliberia.com/?p=13331",
+   "tier": "press",
+   "quote": "Monrovia grew from 1.01 million people in 2008 to 1.76 million in 2022",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Monrovia is named in honour of James Monroe, fifth president of the United States, and was founded by freed enslaved people who wished to establish a new country in Africa.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "Named in honor of the fifth president of the United States (US), James Monroe , Monrovia was originally founded",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "The city is built on a cluster of small islands and peninsulas, with lagoons fed by the Mesurado River.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "Built on a cluster of small islands and peninsulas, the city’s lagoons are fed by the Mesurado River",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Bushrod Island, east of the city centre, holds the capital's deepwater port and most of its industrial infrastructure.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "Bushrod Island, which features the capital’s deepwater port and contains the bulk of the capital’s industrial infrastructure",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Monrovia has a rainy season lasting from May through October.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "The city also has a rainy season lasting from May through October.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 1960s improvements to Monrovia's port and ship repair facilities made it home to one of the world's largest fleets of ocean-going merchant vessels.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "During the 1960s, improvements to Monrovia’s port and to local ship storage and repair facilities made the port home to one of the world’s largest fleets of ocean-going merchant vessels.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Monrovia is still recovering from the 2014-15 Ebola epidemic, which prompted foreign investors and companies to leave Liberia and diverted government funds from public investment.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "It is also recovering from the 2014–15 Ebola epidemic, which prompted foreign investors and companies to leave the country and diverted government funds from public investment.",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Liberia's urban population grew from 1.63 million in 2008 to 2.86 million in 2022, and the census report names Monrovia and Montserrado County as the principal destinations for migrants.",
+   "source": {
+    "title": "Fact Check: Simeon Freeman Is Mostly Correct About Urban Population Growth",
+    "publisher": "Local Voices Liberia",
+    "author": null,
+    "date": "2026",
+    "url": "https://localvoicesliberia.com/?p=13331",
+    "tier": "press",
+    "quote": "grew from 1.63 million in 2008 to 2.86 million in 2022 ... The report identifies Monrovia and Montserrado County as Liberia’s principal destinations for migrants",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Monrovia was nearly destroyed in the civil wars: the first Liberian civil war (1989-96) was followed by a second (1999-2003) that further devastated the city.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "the second Liberian civil war (1999–2003) broke out, further devastating the already crumbling city",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1821",
+   "tag": "origins",
+   "claim": "In December 1821 the American Colonization Society acquired a strip of coast between the Mesurado and Junk rivers for trade goods valued at US$300.",
+   "source": {
+    "title": "Liberia: The Early Colony (Library of Congress Country Study, 1985)",
+    "publisher": "GlobalSecurity.org reproduction of the US Library of Congress Country Study",
+    "author": null,
+    "date": "1985",
+    "url": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_earlycolony.htm",
+    "tier": "primary",
+    "quote": "the ACS acquired a strip of land stretching 60 miles along the coast between the Mesurado and junk rivers in exchange for trade goods valued at US$300",
+    "verified": true
+   }
+  },
+  {
+   "when": "1822",
+   "tag": "origins",
+   "claim": "A small party took possession of Providence Island in the mouth of the Mesurado, and in April 1822 the first permanent settlement was established on the mainland near present-day Monrovia.",
+   "source": {
+    "title": "Liberia: The Early Colony (Library of Congress Country Study, 1985)",
+    "publisher": "GlobalSecurity.org reproduction of the US Library of Congress Country Study",
+    "author": null,
+    "date": "1985",
+    "url": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_earlycolony.htm",
+    "tier": "primary",
+    "quote": "took possession of Providence Island in the mouth of the Mesurado ... in April 1822 the first permanent settlement was established on the mainland",
+    "verified": true
+   }
+  },
+  {
+   "when": "1822",
+   "tag": "origins",
+   "claim": "Former enslaved people arrived at Providence Island, now Monrovia, in 1822 as part of an American Colonization Society mission.",
+   "source": {
+    "title": "Liberia kicks off bicentennial celebrating arrival of Black Americans",
+    "publisher": "Arab News",
+    "author": null,
+    "date": "2022",
+    "url": "https://www.arabnews.com/node/2024771/amp",
+    "tier": "press",
+    "quote": "The former slaves arrived in Providence Island, now the capital Monrovia, in 1822, as part of a mission by the American Colonization Society.",
+    "verified": true
+   }
+  },
+  {
+   "when": "1958",
+   "tag": "growth",
+   "claim": "The National Museum of Liberia was established by President William V. S. Tubman.",
+   "source": {
+    "title": "The National Museum of Liberia",
+    "publisher": "Mainly Museums",
+    "author": null,
+    "date": null,
+    "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+    "tier": "press",
+    "quote": "Established by the 18th president of the Republic of Liberia ... Tubman in 1958",
+    "verified": true
+   }
+  },
+  {
+   "when": "1960s",
+   "tag": "growth",
+   "claim": "Improvements to Monrovia's port made it home to one of the world's largest fleets of merchant vessels.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "During the 1960s, improvements to Monrovia’s port and to local ship storage and repair facilities made the port home to one of the world’s largest fleets of ocean-going merchant vessels.",
+    "verified": true
+   }
+  },
+  {
+   "when": "1989",
+   "tag": "growth",
+   "claim": "A civil war broke out between the forces of Samuel Doe and supporters of Charles Taylor.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "In 1989, tensions again came to a head, resulting in a civil war between Doe’s forces and the supporters of Charles Taylor",
+    "verified": true
+   }
+  },
+  {
+   "when": "1999-2003",
+   "tag": "growth",
+   "claim": "The second Liberian civil war broke out soon after the first ended and further devastated the city.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "the second Liberian civil war (1999–2003) broke out, further devastating the already crumbling city",
+    "verified": true
+   }
+  },
+  {
+   "when": "1987",
+   "tag": "growth",
+   "claim": "The National Museum has been housed in the Old Supreme Court building since 1987.",
+   "source": {
+    "title": "The National Museum of Liberia",
+    "publisher": "Mainly Museums",
+    "author": null,
+    "date": null,
+    "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+    "tier": "press",
+    "quote": "now housed in the Old Supreme Court building since 1987",
+    "verified": true
+   }
+  },
+  {
+   "when": "2014-2015",
+   "tag": "today",
+   "claim": "The Ebola epidemic struck Monrovia and Liberia, prompting foreign investors to leave.",
+   "source": {
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "quote": "the 2014–15 Ebola epidemic, which prompted foreign investors and companies to leave the country",
+    "verified": true
+   }
+  },
+  {
+   "when": "2020",
+   "tag": "today",
+   "claim": "The Monrovia City Council began erecting modern market tables at the Waterside general market.",
+   "source": {
+    "title": "Govt. erects steel tables for marketers",
+    "publisher": "The New Dawn (Liberia)",
+    "author": null,
+    "date": "2020-12-01",
+    "url": "https://thenewdawnliberia.com/govt-erects-steel-tables-for-marketers/",
+    "tier": "press",
+    "quote": "has begun erection of modern market tables for marketers at the Waterside general market",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Providence Island",
+   "type": "site",
+   "what": "Providence Island, in the mouth of the Mesurado, is where the founders of Monrovia first arrived in 1822 as part of an American Colonization Society mission. A cultural center now stands there.",
+   "facts": [
     {
-      "claim": "Monrovia was established in April 1822 on Cape Mesurado by the American Colonization Society (ACS) as Christopolis, renamed Monrovia in 1824 in honour of US President James Monroe.",
-      "source": {
-        "title": "Liberia: Counties, Major Cities & Urban Localities (Census 2008)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/liberia/cities/",
-        "tier": "institutional",
-        "quote": "Founded in 1822 by free African Americans under the American Colonization Society"
-      }
+     "label": "Role",
+     "value": "point of arrival of the founders of Monrovia",
+     "source": {
+      "title": "Monrovia, Liberia (Research Starters)",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+      "tier": "encyclopedia",
+      "quote": "a cultural center on Providence Island, which was the point of arrival for Monrovia’s Americo-Liberian founders",
+      "verified": true
+     }
     },
     {
-      "claim": "Providence Island at the mouth of the Mesurado River marks the historic site where the first group of freed African American settlers disembarked in January 1822 before negotiating access to Cape Mesurado.",
-      "source": {
-        "title": "National Museum of Liberia: Historical Collections and Cultural Artefacts",
-        "publisher": "Ministry of Information, Cultural Affairs and Tourism (MICAT Liberia)",
-        "author": null,
-        "date": null,
-        "url": "https://micat.gov.lr/",
-        "tier": "institutional",
-        "quote": "Providence Island landing site of the pioneer settlers in 1822"
-      }
+     "label": "Arrival",
+     "value": "1822",
+     "source": {
+      "title": "Monrovia, Liberia (Research Starters)",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+      "tier": "encyclopedia",
+      "quote": "When Monrovia’s founders made their historic 1822 journey to the African coast, they first arrived on Providence Island",
+      "verified": true
+     }
     },
     {
-      "claim": "The National Museum of Liberia, housed in the 1862 Old Supreme Court building on Broad Street, preserves historic documents of the 1847 Declaration of Independence alongside indigenous masks and material culture of Liberia's 16 ethnic groups.",
-      "source": {
-        "title": "National Museum of Liberia: Historical Collections and Cultural Artefacts",
-        "publisher": "Ministry of Information, Cultural Affairs and Tourism (MICAT Liberia)",
-        "author": null,
-        "date": null,
-        "url": "https://micat.gov.lr/",
-        "tier": "institutional",
-        "quote": "National Museum housing independence documents and indigenous tribal masks"
-      }
+     "label": "Location",
+     "value": "in the mouth of the Mesurado",
+     "source": {
+      "title": "Liberia: The Early Colony (Library of Congress Country Study, 1985)",
+      "publisher": "GlobalSecurity.org reproduction of the US Library of Congress Country Study",
+      "author": null,
+      "date": "1985",
+      "url": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_earlycolony.htm",
+      "tier": "primary",
+      "quote": "took possession of Providence Island in the mouth of the Mesurado",
+      "verified": true
+     }
+    },
+    {
+     "label": "Settlers",
+     "value": "former slaves sent by the American Colonization Society",
+     "source": {
+      "title": "Liberia kicks off bicentennial celebrating arrival of Black Americans",
+      "publisher": "Arab News",
+      "author": null,
+      "date": "2022",
+      "url": "https://www.arabnews.com/node/2024771/amp",
+      "tier": "press",
+      "quote": "The former slaves arrived in Providence Island, now the capital Monrovia, in 1822, as part of a mission by the American Colonization Society.",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final published neighborhood tables of the 2022 census round await complete official tabulation.",
-    "First-hand local voices from Waterside traders and Kru Town fisherfolk have not yet been recorded.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "National Museum of Liberia",
+   "type": "culture",
+   "what": "Established in 1958 and housed in the Old Supreme Court building since 1987, the museum lost around 5,000 artefacts during the wars and is rebuilding its collection. It was renovated in 1992 with international assistance.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "1958, by President William V. S. Tubman",
+     "source": {
+      "title": "The National Museum of Liberia",
+      "publisher": "Mainly Museums",
+      "author": null,
+      "date": null,
+      "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+      "tier": "press",
+      "quote": "Established by the 18th president of the Republic of Liberia ... Tubman in 1958",
+      "verified": true
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Old Supreme Court building, since 1987",
+     "source": {
+      "title": "The National Museum of Liberia",
+      "publisher": "Mainly Museums",
+      "author": null,
+      "date": null,
+      "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+      "tier": "press",
+      "quote": "now housed in the Old Supreme Court building since 1987",
+      "verified": true
+     }
+    },
+    {
+     "label": "War losses",
+     "value": "around 5,000 artefacts lost during the wars",
+     "source": {
+      "title": "The National Museum of Liberia",
+      "publisher": "Mainly Museums",
+      "author": null,
+      "date": null,
+      "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+      "tier": "press",
+      "quote": "The museum suffered the loss of around 5000 artefacts during the fourteen years of war and is still rebuilding its collection.",
+      "verified": true
+     }
+    },
+    {
+     "label": "Renovation",
+     "value": "renovated in 1992 with international assistance",
+     "source": {
+      "title": "Monrovia, Liberia (Research Starters)",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+      "tier": "encyclopedia",
+      "quote": "Renovated in 1992 with international assistance, the National Museum of Liberia today features historical and ethnographical galleries",
+      "verified": true
+     }
+    },
+    {
+     "label": "Collections before the wars",
+     "value": "almost 6,000 pieces for display",
+     "source": {
+      "title": "Museum tells Liberia's story",
+      "publisher": "The World (PRX), from AFP",
+      "author": null,
+      "date": "2009",
+      "url": "https://theworld.org/stories/2009-05-15/museum-tells-liberias-story",
+      "tier": "press",
+      "quote": "it was once home to almost 6,000 pieces for display and had a UNESCO-devised plan to make it one of the best museums in West Africa",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Waterside Market",
+   "type": "market",
+   "what": "Waterside is a major market of Monrovia where, among many other items, African batik crafts and woodcarvings are sold. In 2020 the city council cleared makeshift stalls and began erecting modern market tables.",
+   "facts": [
+    {
+     "label": "Goods",
+     "value": "African batik crafts and woodcarvings among many other items",
+     "source": {
+      "title": "Monrovia, Liberia (Research Starters)",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+      "tier": "encyclopedia",
+      "quote": "the Waterside Market, where, among many other items, African batik crafts and woodcarvings are sold",
+      "verified": true
+     }
+    },
+    {
+     "label": "2020 clearance",
+     "value": "police demolished makeshift stalls near the street",
+     "source": {
+      "title": "Liberia: Waterside Market Shuts Down Amid Rioting Fears",
+      "publisher": "FrontPageAfrica",
+      "author": "Webster Clayeh",
+      "date": "2020",
+      "url": "https://frontpageafricaonline.com/liberia-waterside-market-shuts-down-amid-rioting-fears/",
+      "tier": "press",
+      "quote": "The Monrovia City Police on Sunday demolished several makeshift stalls in the market, especially the ones very close to the street.",
+      "verified": true
+     }
+    },
+    {
+     "label": "2020 new tables",
+     "value": "City Council erected modern market tables",
+     "source": {
+      "title": "Govt. erects steel tables for marketers",
+      "publisher": "The New Dawn (Liberia)",
+      "author": null,
+      "date": "2020-12-01",
+      "url": "https://thenewdawnliberia.com/govt-erects-steel-tables-for-marketers/",
+      "tier": "press",
+      "quote": "has begun erection of modern market tables for marketers at the Waterside general market",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Exact census count for Monrovia city proper (2022): LISGIS report and thematic reports are JavaScript pages (UNREADABLE); only the rounded 1.76 million figure from a Liberian fact-check citing the census thematic report was verified. Other figures (1,761,032; 2,225,911 metro) appear only on Wikipedia-derived pages.",
+  "Providence Island, National Museum and Waterside have no official city-government or museum page that was readable; sources are press and a reference database (EBSCO Research Starters, tier encyclopedia).",
+  "Many pages (UNESCO, Liberian Observer, Met Museum, History Today) returned 403/429/404 and were not used.",
+  "No well-sourced myth-or-fact item found for Monrovia."
+ ]
 }

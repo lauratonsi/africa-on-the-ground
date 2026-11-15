@@ -4,18 +4,299 @@
   "country": "CPV",
   "name": "Praia",
   "subtitle": "Praia, capital of Cabo Verde: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "keyPoints": [
+    {
+      "text": "About 131,602 people live in Praia (counted 2010).",
+      "cite": [
+        "cap-new-unhabitat-org-f359f1"
+      ]
+    },
+    {
+      "text": "Praia, the capital of the Republic of Cabo Verde, lies on the southern coast of Santiago, the largest island of the archipelago.",
+      "cite": [
+        "cap-new-unhabitat-org-f359f1"
+      ]
+    },
+    {
+      "text": "The city sits on a plateau with a central square, around which stand its main institutions such as churches, courts, town hall, market, banks and hospitals.",
+      "cite": [
+        "cap-revistas-uneb-br-3c59db"
+      ]
+    }
+  ],
   "places": [
     "cidade-velha",
     "plateau-e-praca-alexandre-albuquerque-praia",
     "museu-etnografico-da-praia",
     "mercado-de-sucupira-praia"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Praia in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Praia, the capital of the Republic of Cabo Verde, lies on the southern coast of Santiago, the largest island of the archipelago.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city sits on a plateau with a central square, around which stand its main institutions such as churches, courts, town hall, market, banks and hospitals.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The town of Praia de Santa Maria appeared in 1615, when settlement began on a plateau near a beach that the colonisers called Santa Maria.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After national independence in 1975 Praia experienced a demographic explosion caused by strong migration from the other islands and municipalities.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The municipal territory of Praia covers 258.1 km2.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Praia hosts the country's main industries and most of its services.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Praia airport was the first airport built and certified after independence.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2005 two of the three parishes of the municipality, its rural area, became a new municipality, Ribeira Grande de Santiago.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Sucupira and Plateau markets are the capital's main markets, around which many informal street vendors work.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "131,602",
+              "label": "people in Praia, 2010",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Praia?",
+          "min": 0,
+          "max": 400000,
+          "step": 2000,
+          "unit": "",
+          "answer": 131602,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "131,602 in 2010, according to the figures compiled from the national statistics office. Which area is counted matters: Praia, the capital city and seat of the municipality of the same name, as given by the UN-Habitat urban profile citing the 2010 census; the same document elsewhere gives 131,719 for the municipal area of 258.1 km2.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1515",
+              "tag": "origins",
+              "text": "The port of Praia is the place where enslaved Africans were landed from 1515, according to a study of the city's urban history.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "when": "1615",
+              "tag": "origins",
+              "text": "The town of Praia de Santa Maria arose when settlement of the plateau began.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "when": "1770",
+              "tag": "growth",
+              "text": "The official transfer of the capital from Ribeira Grande to Praia de Santa Maria took place.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "when": "1858",
+              "tag": "growth",
+              "text": "A decree raised Praia from town to city and made it definitively the capital of Cabo Verde.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "when": "1975",
+              "tag": "today",
+              "text": "After independence the city of Praia came to be understood as the Plateau plus all the surrounding neighbourhoods.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "when": "2005",
+              "tag": "today",
+              "text": "Part of Praia's rural area became the new municipality of Ribeira Grande de Santiago.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Praia in order.",
+          "items": [
+            {
+              "label": "The port of Praia is the place where enslaved Africans were landed from 1515…",
+              "when": "1515",
+              "text": "The port of Praia is the place where enslaved Africans were landed from 1515, according to a study of the city's urban history.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "label": "The official transfer of the capital from Ribeira Grande to Praia de Santa…",
+              "when": "1770",
+              "text": "The official transfer of the capital from Ribeira Grande to Praia de Santa Maria took place.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "label": "After independence the city of Praia came to be understood as the Plateau…",
+              "when": "1975",
+              "text": "After independence the city of Praia came to be understood as the Plateau plus all the surrounding neighbourhoods.",
+              "cite": [
+                "cap-revistas-uneb-br-3c59db"
+              ]
+            },
+            {
+              "label": "Part of Praia's rural area became the new municipality of Ribeira Grande de…",
+              "when": "2005",
+              "text": "Part of Praia's rural area became the new municipality of Ribeira Grande de Santiago.",
+              "cite": [
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Praia has always been the capital of Cabo Verde.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The capital was Ribeira Grande (today Cidade Velha) until the official transfer to Praia de Santa Maria in 1770; a decree of 1858 then made Praia a city and definitively the capital.",
+          "cite": [
+            "cap-revistas-uneb-br-3c59db"
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Locality-level microdata for recent suburban expansion across Palmarejo are partially accessible online.",
-    "First-hand local voices from traditional tabanka performers and battêras are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: 2021 census (RGPH-2021) figure for Praia municipality not found on a readable official page; only the share 29.6% of national total appeared in press (RTP/Lusa), so population given is the 2010 census figure from the UN-Habitat profile (which itself quotes 131,602 and 131,719 in different places).",
+    "Not found in a readable source: Praia Plateau/Praça Alexandre Albuquerque: no institutional page on the square itself was readable (CICOP page 404); facts are about the Plateau.",
+    "Not found in a readable source: Founding of Cidade Velha in 1462 and its inscription date: only UNESCO pages carry them and these return 403.",
+    "Not found in a readable source: Museu Etnográfico: reopening date conflicts between sources (17 vs 18 October 2016), not recorded.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Cabo Verde has read this profile yet."
   ]
 }

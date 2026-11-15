@@ -1,61 +1,606 @@
 {
-  "city": "Luanda",
-  "country": "AGO",
-  "population": {
-    "value": 6405870,
-    "year": 2014,
-    "definition": "Population of Luanda Province enumerated in the 2014 General Population and Housing Census (Recenseamento Geral da População e da Habitação 2014) conducted by the Instituto Nacional de Estatística (INE) of Angola, tabulated via CityPopulation. Provisional results of the 2024 census place the provincial population at 8,665,510, representing over a quarter of Angola's national total.",
-    "source": {
-      "title": "Angola: Provinces & Major Cities - Population Statistics (Census 2014)",
-      "publisher": "CityPopulation (credits INE Angola)",
-      "author": null,
-      "date": "2014-05-16",
-      "url": "https://www.citypopulation.de/en/angola/cities/",
-      "tier": "institutional",
-      "quote": "2014-05-16 | Luanda Province: 6,405,870 (2024 census: 8,665,510)"
-    }
+ "city": "Luanda",
+ "country": "AGO",
+ "population": {
+  "value": 2194747,
+  "year": 2014,
+  "definition": "Município de Luanda (municipality and city of Luanda) at the May 2014 census, definitive results; the province of Luanda had 6,945,386 residents",
+  "source": {
+   "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+   "publisher": "Observador (Lusa)",
+   "author": null,
+   "date": "2016-09-22",
+   "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+   "tier": "press",
+   "quote": "o município e cidade de Luanda é o mais habitado da província, com 2.194.747 residentes em maio de 2014",
+   "verified": true
+  }
+ },
+ "facts": [
+  {
+   "claim": "Luanda was founded by Paulo Dias de Novais, whose fleet reached the island of Luanda in February 1575; he created a permanent settlement named S. Paulo de Luanda on the mainland.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "A armada chegou à ilha de Luanda em fevereiro de 1575 e Paulo Dias de Novais, após reconhecimento do terreno, decidiu criar um núcleo permanente, a que deu o nome de S. Paulo de Luanda",
+    "verified": true
+   }
   },
-  "facts": [
+  {
+   "claim": "Novais placed the settlement on the mainland rather than the island because of its good defensive conditions and, above all, its sheltered port.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "não na ilha mas em terra firme devido às boas condições de defesa e, sobretudo, do porto abrigado",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The expedition was well received by the Ngola, who authorised the founding of Luanda.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "teve um bom acolhimento por parte do Ngola, que autorizou a fundação de Luanda",
+    "verified": true
+   }
+  },
+  {
+   "claim": "Luanda became the centre of Portuguese presence and influence in the region for centuries, except for the period 1641-1648 under Dutch control.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "Luanda passou a ser o centro da presença e da influência portuguesa em toda região durante os séculos seguintes, excetuando um breve período, entre 1641 e 1648, durante o qual a cidade esteve sob o poder dos holandeses",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In the 17th century Luanda became the main slave-export port of the Atlantic world, sending from Angola much of the labour demanded by Brazil and the Spanish Indies.",
+   "source": {
+    "title": "Escravos de mar em fora. As condições de transporte no tráfico negreiro",
+    "publisher": "Universidade do Porto (Faculdade de Letras)",
+    "author": null,
+    "date": null,
+    "url": "https://ler.letras.up.pt/uploads/ficheiros/20131.pdf",
+    "tier": "academic",
+    "quote": "Luanda torna-se o principal porto de exportação de escravos do mundo atlântico... grande parte da mão-de-obra que o Brasil e as Índias espanholas reclamam",
+    "verified": true
+   }
+  },
+  {
+   "claim": "At the 2014 census the municipality and city of Luanda had 2,194,747 residents, the most populous in the province, followed by Viana (1,605,291).",
+   "source": {
+    "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+    "publisher": "Observador (Lusa)",
+    "author": null,
+    "date": "2016-09-22",
+    "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+    "tier": "press",
+    "quote": "com 2.194.747 residentes em maio de 2014, seguida de Viana (1.605.291 habitantes)",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The 2014 census counted 6,945,386 residents in the province of Luanda.",
+   "source": {
+    "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+    "publisher": "Observador (Lusa)",
+    "author": null,
+    "date": "2016-09-22",
+    "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+    "tier": "press",
+    "quote": "O censo de 2014 permitiu recensear 6.945.386 pessoas residentes na província de Luanda",
+    "verified": true
+   }
+  },
+  {
+   "claim": "INE projected Luanda as the most populous province in 2022, with 9,079,811 inhabitants (27.4% of the national total).",
+   "source": {
+    "title": "Anuário de Estatísticas Sociais 2017 - 2022",
+    "publisher": "Instituto Nacional de Estatística de Angola (INE)",
+    "author": null,
+    "date": null,
+    "url": "https://www.ine.gov.ao/Arquivos/arquivosCarregados/Carregados/Publicacao_638494600314523505.pdf",
+    "tier": "institutional",
+    "quote": "Luanda, a província mais populosa com 9 079 811 (27,4%) habitantes",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 2021 the Port of Luanda handled nearly 7.8 million tonnes, 73.3% of all cargo moved through Angolan ports.",
+   "source": {
+    "title": "Anuário Estatístico do Sector dos Transportes",
+    "publisher": "Ministério dos Transportes de Angola (GEPE)",
+    "author": null,
+    "date": "2021",
+    "url": "https://ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_638834214670897003.pdf",
+    "tier": "institutional",
+    "quote": "perto das 7,8 milhões de toneladas e foi responsável por 73,3% do total da carga movimentada nos portos de Angola em 2021",
+    "verified": true
+   }
+  },
+  {
+   "claim": "In 2021 the Port of Luanda accounted for 90.7% of container traffic in Angolan ports.",
+   "source": {
+    "title": "Anuário Estatístico do Sector dos Transportes",
+    "publisher": "Ministério dos Transportes de Angola (GEPE)",
+    "author": null,
+    "date": "2021",
+    "url": "https://ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_638834214670897003.pdf",
+    "tier": "institutional",
+    "quote": "representando 90,7% do total em 2021",
+    "verified": true
+   }
+  },
+  {
+   "claim": "The median age of Luanda's population is 21.1 years, according to the 2014 census results reported by Lusa.",
+   "source": {
+    "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+    "publisher": "Observador (Lusa)",
+    "author": null,
+    "date": "2016-09-22",
+    "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+    "tier": "press",
+    "quote": "A idade média da população de Luanda é de 21,1 anos",
+    "verified": true
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "February 1575",
+   "tag": "origins",
+   "claim": "Paulo Dias de Novais's fleet reached the island of Luanda and he founded the settlement S. Paulo de Luanda on the mainland.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "A armada chegou à ilha de Luanda em fevereiro de 1575 e Paulo Dias de Novais",
+    "verified": true
+   }
+  },
+  {
+   "when": "17th century",
+   "tag": "growth",
+   "claim": "Luanda became the main slave-export port of the Atlantic world.",
+   "source": {
+    "title": "Escravos de mar em fora. As condições de transporte no tráfico negreiro",
+    "publisher": "Universidade do Porto (Faculdade de Letras)",
+    "author": null,
+    "date": null,
+    "url": "https://ler.letras.up.pt/uploads/ficheiros/20131.pdf",
+    "tier": "academic",
+    "quote": "Luanda torna-se o principal porto de exportação de escravos do mundo atlântico",
+    "verified": true
+   }
+  },
+  {
+   "when": "1641-1648",
+   "tag": "growth",
+   "claim": "The city was under Dutch control.",
+   "source": {
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina",
+    "author": null,
+    "date": "2017",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "quote": "entre 1641 e 1648, durante o qual a cidade esteve sob o poder dos holandeses",
+    "verified": true
+   }
+  },
+  {
+   "when": "1938",
+   "tag": "growth",
+   "claim": "The Fortaleza de São Miguel was classified as a national monument.",
+   "source": {
+    "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+    "publisher": "Museu EXEA",
+    "author": null,
+    "date": null,
+    "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+    "tier": "institutional",
+    "quote": "Classificada como Monumento Nacional (Portugal, 1938)",
+    "verified": true
+   }
+  },
+  {
+   "when": "4 February 1961",
+   "tag": "growth",
+   "claim": "The war of liberation broke out with attacks on the main prisons of Luanda.",
+   "source": {
+    "title": "Angola 37 anos de Independência",
+    "publisher": "Rádio Ecclesia",
+    "author": null,
+    "date": "2012",
+    "url": "https://www.radioecclesia.org/angola/politica/11249-angola-37-anos-de-independencia-",
+    "tier": "press",
+    "quote": "a 4 de Fevereiro de 1961, eclodiu a guerra de libertação, marcada com assaltos às principais cadeias de Luanda",
+    "verified": true
+   }
+  },
+  {
+   "when": "11 November 1975",
+   "tag": "today",
+   "claim": "Agostinho Neto, president of the MPLA, proclaimed the independence of Angola.",
+   "source": {
+    "title": "Angola comemora 49 anos de Independência",
+    "publisher": "Embaixada de Angola na África do Sul (MIREX)",
+    "author": null,
+    "date": "2024",
+    "url": "https://africadosul.mirex.gov.ao/web/noticias/angola-comemora-49-anos-de-independencia",
+    "tier": "institutional",
+    "quote": "A 11 de Novembro de 1975, no actual Largo da Independência, Agostinho Neto, presidente do MPLA, proclamava perante a África e o Mundo, a Independência de Angola",
+    "verified": true
+   }
+  },
+  {
+   "when": "2013",
+   "tag": "today",
+   "claim": "The Fortaleza de São Miguel was reopened as the Museu Nacional de História Militar.",
+   "source": {
+    "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+    "publisher": "Museu EXEA",
+    "author": null,
+    "date": null,
+    "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+    "tier": "institutional",
+    "quote": "Reinaugurada como Museu Nacional de História Militar em 2013",
+    "verified": true
+   }
+  },
+  {
+   "when": "May 2014",
+   "tag": "today",
+   "claim": "Angola's census counted 2,194,747 residents in the municipality and city of Luanda.",
+   "source": {
+    "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+    "publisher": "Observador (Lusa)",
+    "author": null,
+    "date": "2016-09-22",
+    "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+    "tier": "press",
+    "quote": "com 2.194.747 residentes em maio de 2014",
+    "verified": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+   "type": "site",
+   "what": "The historic centre of Mbanza Congo, in Zaire province in northern Angola, was the capital of the former Kingdom of Kongo. It was declared a World Heritage Site by UNESCO in July 2017, the first Angolan site on the list.",
+   "facts": [
     {
-      "claim": "Luanda was founded on 25 January 1576 as São Paulo da Assunção de Loanda by Portuguese explorer Paulo Dias de Novais on the natural bay protected by the Ilha de Luanda.",
-      "source": {
-        "title": "Angola: Provinces & Major Cities - Population Statistics (Census 2014)",
-        "publisher": "CityPopulation",
-        "author": null,
-        "date": null,
-        "url": "https://www.citypopulation.de/en/angola/cities/",
-        "tier": "institutional",
-        "quote": "Founded in 1576 by Paulo Dias de Novais"
-      }
+     "label": "World Heritage declaration",
+     "value": "8 July 2017",
+     "source": {
+      "title": "Centro histórico de Mbanza Congo entra na lista de património da UNESCO",
+      "publisher": "Observatório da Língua Portuguesa (Lusa)",
+      "author": null,
+      "date": "2017-07-08",
+      "url": "https://observalinguaportuguesa.org/centro-historico-de-mbanza-congo-entra-na-lista-de-patrimonio-da-unesco/",
+      "tier": "press",
+      "quote": "A Comissão de Património Mundial da UNESCO declarou hoje por unanimidade o centro histórico da cidade de Mbanza Congo, norte de Angola, como património mundial",
+      "verified": true
+     }
     },
     {
-      "claim": "The Fortaleza de São Miguel, built in 1576 atop the high promontory of São Paulo, served as the principal defensive redoubt and administrative stronghold of Portuguese colonial rule in Angola.",
-      "source": {
-        "title": "Sites de la mémoire de la traite transatlantique: Morro da Cruz e Fortaleza de São Miguel",
-        "publisher": "UNESCO World Heritage Centre",
-        "author": null,
-        "date": null,
-        "url": "https://whc.unesco.org/en/tentativelists/",
-        "tier": "institutional",
-        "quote": "Fortaleza de São Miguel construite en 1576 dominant la baie de Luanda"
-      }
+     "label": "First in Angola",
+     "value": "First Angolan site validated by UNESCO",
+     "source": {
+      "title": "Centro histórico de Mbanza Congo entra na lista de património da UNESCO",
+      "publisher": "Observatório da Língua Portuguesa (Lusa)",
+      "author": null,
+      "date": "2017-07-08",
+      "url": "https://observalinguaportuguesa.org/centro-historico-de-mbanza-congo-entra-na-lista-de-patrimonio-da-unesco/",
+      "tier": "press",
+      "quote": "sendo a primeira validada no país por aquela Organização da ONU",
+      "verified": true
+     }
     },
     {
-      "claim": "The Museu Nacional da Escravatura at Morro da Cruz, established in 1977 within the 17th-century Capela da Casa Grande, preserves the memorial site where enslaved Africans were forcibly baptized before being loaded onto ships bound for the Americas.",
-      "source": {
-        "title": "Sites de la mémoire de la traite transatlantique: Morro da Cruz e Fortaleza de São Miguel",
-        "publisher": "UNESCO World Heritage Centre",
-        "author": null,
-        "date": null,
-        "url": "https://whc.unesco.org/en/tentativelists/",
-        "tier": "institutional",
-        "quote": "Musée national de l'esclavage à Morro da Cruz, lieu de mémoire du baptême forcé des captifs"
-      }
+     "label": "National heritage status",
+     "value": "Since 10 June 2013",
+     "source": {
+      "title": "Centro histórico de Mbanza Congo entra na lista de património da UNESCO",
+      "publisher": "Observatório da Língua Portuguesa (Lusa)",
+      "author": null,
+      "date": "2017-07-08",
+      "url": "https://observalinguaportuguesa.org/centro-historico-de-mbanza-congo-entra-na-lista-de-patrimonio-da-unesco/",
+      "tier": "press",
+      "quote": "está classificado como património cultural nacional desde 10 de junho de 2013",
+      "verified": true
+     }
+    },
+    {
+     "label": "Kingdom",
+     "value": "Founded in the 13th century",
+     "source": {
+      "title": "Centro histórico de Mbanza Congo entra na lista de património da UNESCO",
+      "publisher": "Observatório da Língua Portuguesa (Lusa)",
+      "author": null,
+      "date": "2017-07-08",
+      "url": "https://observalinguaportuguesa.org/centro-historico-de-mbanza-congo-entra-na-lista-de-patrimonio-da-unesco/",
+      "tier": "press",
+      "quote": "capital do antigo Reino do Congo, fundado no século XIII",
+      "verified": true
+     }
+    },
+    {
+     "label": "Kulumbimbi",
+     "value": "Described as the remains of the first cathedral built by the Portuguese in sub-Saharan Africa",
+     "source": {
+      "title": "Mbanza Kongo, em Angola, recebe título de Patrimônio Mundial da UNESCO",
+      "publisher": "Nações Unidas no Brasil",
+      "author": null,
+      "date": "2017",
+      "url": "https://brasil.un.org/pt-br/77039-mbanza-kongo-em-angola-recebe-t%C3%ADtulo-de-patrim%C3%B4nio-mundial-da-unesco",
+      "tier": "institutional",
+      "quote": "O kulumbimbi é descrita pelas autoridades científicas angolanas como o vestígio material da primeira catedral construída na África Subsaariana pelos portugueses",
+      "verified": true
+     }
     }
-  ],
-  "gaps": [
-    "Final municipal and comunas breakdowns of the 2024 General Census remain to be issued by INE Angola.",
-    "First-hand local voices from fishers of the Ilha do Cabo and market traders in urban musseques are missing.",
-    "Cityscape photograph: not yet linked."
-  ]
+   ]
+  },
+  {
+   "name": "Fortaleza de São Miguel",
+   "type": "site",
+   "what": "A fortress in Luanda whose first earth and adobe fortification dates from 1576. It was classified a national monument in 1938 and reopened in 2013 as the national military history museum.",
+   "facts": [
+    {
+     "label": "First fortification",
+     "value": "1576 (earth and adobe)",
+     "source": {
+      "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+      "publisher": "Museu EXEA",
+      "author": null,
+      "date": null,
+      "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+      "tier": "institutional",
+      "quote": "Primeira fortificação (taipa e adobe) 1576",
+      "verified": true
+     }
+    },
+    {
+     "label": "Classification",
+     "value": "National monument, 1938",
+     "source": {
+      "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+      "publisher": "Museu EXEA",
+      "author": null,
+      "date": null,
+      "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+      "tier": "institutional",
+      "quote": "Classificada como Monumento Nacional (Portugal, 1938)",
+      "verified": true
+     }
+    },
+    {
+     "label": "Museum",
+     "value": "Reopened as the Museu Nacional de História Militar in 2013",
+     "source": {
+      "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+      "publisher": "Museu EXEA",
+      "author": null,
+      "date": null,
+      "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+      "tier": "institutional",
+      "quote": "Reinaugurada como Museu Nacional de História Militar em 2013",
+      "verified": true
+     }
+    },
+    {
+     "label": "Cannon founding",
+     "value": "The only African fortification where cannons were cast locally",
+     "source": {
+      "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+      "publisher": "Museu EXEA",
+      "author": null,
+      "date": null,
+      "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+      "tier": "institutional",
+      "quote": "Única fortificação africana onde se fundiram canhões localmente",
+      "verified": true
+     }
+    },
+    {
+     "label": "Tiles",
+     "value": "Revivalist tiles (20th century) with historical scenes",
+     "source": {
+      "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+      "publisher": "Museu EXEA",
+      "author": null,
+      "date": null,
+      "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+      "tier": "institutional",
+      "quote": "Interior com azulejos revivalistas (séc. XX) com cenas históricas",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Museu Nacional da Escravatura",
+   "type": "culture",
+   "what": "A museum on the Morro da Cruz, south-east of Luanda, on the former property of the slave trader Álvaro de Carvalho Matoso. It was created in 1977 by the National Institute of Cultural Heritage.",
+   "facts": [
+    {
+     "label": "Created",
+     "value": "1977, by the Instituto Nacional do Património Cultural",
+     "source": {
+      "title": "Uma visita ao Museu Nacional da Escravatura em Luanda",
+      "publisher": "Vatican News",
+      "author": null,
+      "date": "2026-05-18",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-05/uma-visita-ao-museu-nacional-da-escravatura-em-luanda.html",
+      "tier": "press",
+      "quote": "Foi criado em 1977 pelo Instituto Nacional do Património Cultural",
+      "verified": true
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Morro da Cruz, south-east of Luanda",
+     "source": {
+      "title": "Uma visita ao Museu Nacional da Escravatura em Luanda",
+      "publisher": "Vatican News",
+      "author": null,
+      "date": "2026-05-18",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-05/uma-visita-ao-museu-nacional-da-escravatura-em-luanda.html",
+      "tier": "press",
+      "quote": "O Museu ergue-se no Morro da Cruz, a sudeste de Luanda",
+      "verified": true
+     }
+    },
+    {
+     "label": "Site",
+     "value": "Former property of the slave trader Álvaro de Carvalho Matoso",
+     "source": {
+      "title": "Visitar o Museu Nacional da Escravatura: Luanda",
+      "publisher": "Welcome To Angola",
+      "author": null,
+      "date": null,
+      "url": "https://welcometoangola.co.ao/en/directorio/museu-nacional-da-escravatura/",
+      "tier": "institutional",
+      "quote": "located on the former property of Álvaro de Carvalho Matoso, one of the largest slave traders on the African coast in the first half of the 18th century",
+      "verified": true
+     }
+    },
+    {
+     "label": "Slave trade at the site",
+     "value": "Continued by his heirs until 1836",
+     "source": {
+      "title": "Uma visita ao Museu Nacional da Escravatura em Luanda",
+      "publisher": "Vatican News",
+      "author": null,
+      "date": "2026-05-18",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-05/uma-visita-ao-museu-nacional-da-escravatura-em-luanda.html",
+      "tier": "press",
+      "quote": "os seus familiares e herdeiros continuaram a exercer o Tráfico Transatlântico no mesmo local até 1836",
+      "verified": true
+     }
+    },
+    {
+     "label": "Purpose",
+     "value": "Preserves the memory of 500 years of slavery",
+     "source": {
+      "title": "Visitar o Museu Nacional da Escravatura: Luanda",
+      "publisher": "Welcome To Angola",
+      "author": null,
+      "date": null,
+      "url": "https://welcometoangola.co.ao/en/directorio/museu-nacional-da-escravatura/",
+      "tier": "institutional",
+      "quote": "dedicated to preserving the collective memory of the 500 years of slavery to which Angolans were subjected",
+      "verified": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "Marginal e Baía de Luanda",
+   "type": "nature",
+   "what": "The waterfront of Luanda Bay, subject of major redevelopment projects. A new Marginal da Corimba project would extend 7.3 km and reclaim 120 metres from the sea.",
+   "facts": [
+    {
+     "label": "Marginal da Corimba",
+     "value": "7.3 km, from the Memorial António Agostinho Neto to the Corimba viaduct",
+     "source": {
+      "title": "Nova Marginal de Luanda conquista 120 metros ao mar e obriga a realojar 2.000 famílias",
+      "publisher": "Correio da Manhã Canadá (Lusa)",
+      "author": null,
+      "date": null,
+      "url": "https://www.correiodamanhacanada.com/nova-marginal-de-luanda-conquista-120-metros-ao-mar-e-obriga-a-realojar-2-000-familias/",
+      "tier": "press",
+      "quote": "O projeto tem 7,3 quilómetros de extensão, ligando o Memorial António Agostinho Neto ao viaduto da Corimba",
+      "verified": true
+     }
+    },
+    {
+     "label": "Land reclaimed",
+     "value": "120 metres from the sea by dredging",
+     "source": {
+      "title": "Nova Marginal de Luanda conquista 120 metros ao mar e obriga a realojar 2.000 famílias",
+      "publisher": "Correio da Manhã Canadá (Lusa)",
+      "author": null,
+      "date": null,
+      "url": "https://www.correiodamanhacanada.com/nova-marginal-de-luanda-conquista-120-metros-ao-mar-e-obriga-a-realojar-2-000-familias/",
+      "tier": "press",
+      "quote": "As dragagens previstas permitirão conquistar 120 metros ao mar",
+      "verified": true
+     }
+    },
+    {
+     "label": "First phase",
+     "value": "36 months, EUR 245 million contract",
+     "source": {
+      "title": "Nova Marginal de Luanda conquista 120 metros ao mar e obriga a realojar 2.000 famílias",
+      "publisher": "Correio da Manhã Canadá (Lusa)",
+      "author": null,
+      "date": null,
+      "url": "https://www.correiodamanhacanada.com/nova-marginal-de-luanda-conquista-120-metros-ao-mar-e-obriga-a-realojar-2-000-familias/",
+      "tier": "press",
+      "quote": "terá a duração de 36 meses e inclui 400 habitações sociais, num contrato de 245 milhões de euros",
+      "verified": true
+     }
+    },
+    {
+     "label": "Bay redevelopment",
+     "value": "Launched in 2003 by the Luanda Waterfront Corporation consortium",
+     "source": {
+      "title": "Estado paga 379 milhões de dólares para salvar requalificação da baía de Luanda",
+      "publisher": "Novo Jornal (Lusa)",
+      "author": null,
+      "date": "2017-02-24",
+      "url": "https://www.novojornal.co.ao/economia/detalhe/estado-paga-379-milhoes-de-dolares-para-salvar-requalificacao-da-baia-de-luanda-12185.html",
+      "tier": "press",
+      "quote": "uma iniciativa lançada em 2003 pelo consórcio Luanda Waterfront Corporation",
+      "verified": true
+     }
+    },
+    {
+     "label": "2017 state buy-out",
+     "value": "USD 379 million",
+     "source": {
+      "title": "Estado paga 379 milhões de dólares para salvar requalificação da baía de Luanda",
+      "publisher": "Novo Jornal (Lusa)",
+      "author": null,
+      "date": "2017-02-24",
+      "url": "https://www.novojornal.co.ao/economia/detalhe/estado-paga-379-milhoes-de-dolares-para-salvar-requalificacao-da-baia-de-luanda-12185.html",
+      "tier": "press",
+      "quote": "O Estado vai pagar 379 milhões de dólares pelo resgate da Sociedade Baía de Luanda",
+      "verified": true
+     }
+    }
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [],
+ "notNotFound": [
+  "Census report from INE for Luanda city proper: the INE definitive-results PDF was not readable; the figure comes from Lusa/Observador reporting on the definitive 2014 results (INE preliminary results PDF only gives the province at 6.5 million)",
+  "Exact founding date 25 January 1576: only seen on pages not usable or not verified; RTP Ensina gives arrival in February 1575",
+  "UNESCO whc.unesco.org pages return 403, so the Mbanza Kongo facts rely on Lusa and UN pages",
+  "Angop pages returned 503; TSF returned 403",
+  "Luanda geography/climate from a non-encyclopedic readable source",
+  "No well-sourced myth-or-fact item found"
+ ]
 }

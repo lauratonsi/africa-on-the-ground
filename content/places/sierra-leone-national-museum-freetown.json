@@ -5,12 +5,55 @@
   "country": "SLE",
   "name": "Sierra Leone National Museum",
   "region": "Freetown · Sierra Leone",
-  "subtitle": "National museum founded in 1957 near the Cotton Tree preserving indigenous masks, carvings, and colonial records.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Established in 1957 as the museum of the Sierra Leone Society, it is housed in the former Cotton Tree Railway Station in the centre of Freetown.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "1957",
+      "cite": [
+        "cap-artsandculture-google-com-c6f029"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Former Cotton Tree Railway Station",
+      "cite": [
+        "cap-artsandculture-google-com-c6f029"
+      ]
+    },
+    {
+      "label": "Founding collections",
+      "value": "Assembled from 1946 by the Monuments and Relics Commission",
+      "cite": [
+        "cap-artsandculture-google-com-c6f029"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Established in 1957 as the museum of the Sierra Leone Society, it is housed in the former Cotton Tree Railway Station in the centre of Freetown. Its founding collections were assembled from 1946 by the Monuments and Relics Commission.",
+              "cite": [
+                "cap-artsandculture-google-com-c6f029"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

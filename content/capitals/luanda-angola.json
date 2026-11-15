@@ -6,15 +6,21 @@
   "subtitle": "Luanda, capital of Angola: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "Founded in 1576 on a natural bay protected by the Ilha de Luanda, it was a pivotal maritime port of the Atlantic slave trade.",
+      "text": "About 2,194,747 people live in the municipality of Luanda (counted 2014).",
       "cite": [
-        "cap-unesco-tentative-luanda-slave"
+        "cap-observador-pt-60a0db"
       ]
     },
     {
-      "text": "The Museu Nacional da Escravatura and Fortaleza de São Miguel stand as vital monuments of transatlantic memory and resistance.",
+      "text": "Luanda was founded by Paulo Dias de Novais, whose fleet reached the island of Luanda in February 1575; he created a permanent settlement named S. Paulo de Luanda on the mainland.",
       "cite": [
-        "cap-unesco-tentative-luanda-slave"
+        "cap-ensina-rtp-pt-6f38b1"
+      ]
+    },
+    {
+      "text": "Novais placed the settlement on the mainland rather than the island because of its good defensive conditions and, above all, its sheltered port.",
+      "cite": [
+        "cap-ensina-rtp-pt-6f38b1"
       ]
     }
   ],
@@ -33,9 +39,149 @@
           "type": "p",
           "parts": [
             {
-              "text": "Between the 16th and 19th centuries, it functioned as the primary African embarkation port for the transatlantic slave trade to Brazil, profoundly shaping the demographic and cultural ties across the South Atlantic.",
+              "text": "Luanda was founded by Paulo Dias de Novais, whose fleet reached the island of Luanda in February 1575; he created a permanent settlement named S. Paulo de Luanda on the mainland.",
               "cite": [
-                "cap-unesco-tentative-luanda-slave"
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Novais placed the settlement on the mainland rather than the island because of its good defensive conditions and, above all, its sheltered port.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The expedition was well received by the Ngola, who authorised the founding of Luanda.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Luanda became the centre of Portuguese presence and influence in the region for centuries, except for the period 1641-1648 under Dutch control.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the 17th century Luanda became the main slave-export port of the Atlantic world, sending from Angola much of the labour demanded by Brazil and the Spanish Indies.",
+              "cite": [
+                "cap-ler-letras-up-pt-873e6b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the 2014 census the municipality and city of Luanda had 2,194,747 residents, the most populous in the province, followed by Viana (1,605,291).",
+              "cite": [
+                "cap-observador-pt-60a0db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The 2014 census counted 6,945,386 residents in the province of Luanda.",
+              "cite": [
+                "cap-observador-pt-60a0db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "INE projected Luanda as the most populous province in 2022, with 9,079,811 inhabitants (27.4% of the national total).",
+              "cite": [
+                "cap-ine-gov-ao-2fb483"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2021 the Port of Luanda handled nearly 7.8 million tonnes, 73.3% of all cargo moved through Angolan ports.",
+              "cite": [
+                "cap-ine-gov-ao-4964c1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2021 the Port of Luanda accounted for 90.7% of container traffic in Angolan ports.",
+              "cite": [
+                "cap-ine-gov-ao-4964c1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The median age of Luanda's population is 21.1 years, according to the 2014 census results reported by Lusa.",
+              "cite": [
+                "cap-observador-pt-60a0db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,194,747",
+              "label": "people in the municipality of Luanda, 2014",
+              "cite": [
+                "cap-observador-pt-60a0db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the municipality of Luanda?",
+          "min": 0,
+          "max": 7000000,
+          "step": 40000,
+          "unit": "",
+          "answer": 2194747,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,194,747 in 2014, according to the figures compiled from the national statistics office. Which area is counted matters: Município de Luanda (municipality and city of Luanda) at the May 2014 census, definitive results; the province of Luanda had 6,945,386 residents.",
+              "cite": [
+                "cap-observador-pt-60a0db"
               ]
             }
           ]
@@ -64,19 +210,105 @@
           ],
           "items": [
             {
-              "when": "1648",
+              "when": "February 1575",
               "tag": "origins",
-              "text": "Portuguese fleet led by Salvador Correia de Sá retakes Luanda from the Dutch West India Company.",
+              "text": "Paulo Dias de Novais's fleet reached the island of Luanda and he founded the settlement S. Paulo de Luanda on the mainland.",
               "cite": [
-                "cap-unesco-tentative-luanda-slave"
+                "cap-ensina-rtp-pt-6f38b1"
               ]
             },
             {
-              "when": "1977",
+              "when": "17th century",
               "tag": "growth",
-              "text": "The Museu Nacional da Escravatura opens at Morro da Cruz.",
+              "text": "Luanda became the main slave-export port of the Atlantic world.",
               "cite": [
-                "cap-unesco-tentative-luanda-slave"
+                "cap-ler-letras-up-pt-873e6b"
+              ]
+            },
+            {
+              "when": "1641-1648",
+              "tag": "growth",
+              "text": "The city was under Dutch control.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            },
+            {
+              "when": "1938",
+              "tag": "growth",
+              "text": "The Fortaleza de São Miguel was classified as a national monument.",
+              "cite": [
+                "cap-museuexea-org-c0b225"
+              ]
+            },
+            {
+              "when": "4 February 1961",
+              "tag": "growth",
+              "text": "The war of liberation broke out with attacks on the main prisons of Luanda.",
+              "cite": [
+                "cap-radioecclesia-org-caf6fb"
+              ]
+            },
+            {
+              "when": "11 November 1975",
+              "tag": "today",
+              "text": "Agostinho Neto, president of the MPLA, proclaimed the independence of Angola.",
+              "cite": [
+                "cap-africadosul-mirex-gov-ao-de526d"
+              ]
+            },
+            {
+              "when": "2013",
+              "tag": "today",
+              "text": "The Fortaleza de São Miguel was reopened as the Museu Nacional de História Militar.",
+              "cite": [
+                "cap-museuexea-org-c0b225"
+              ]
+            },
+            {
+              "when": "May 2014",
+              "tag": "today",
+              "text": "Angola's census counted 2,194,747 residents in the municipality and city of Luanda.",
+              "cite": [
+                "cap-observador-pt-60a0db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Luanda in order.",
+          "items": [
+            {
+              "label": "Paulo Dias de Novais's fleet reached the island of Luanda and he founded the…",
+              "when": "February 1575",
+              "text": "Paulo Dias de Novais's fleet reached the island of Luanda and he founded the settlement S. Paulo de Luanda on the mainland.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            },
+            {
+              "label": "The city was under Dutch control.",
+              "when": "1641-1648",
+              "text": "The city was under Dutch control.",
+              "cite": [
+                "cap-ensina-rtp-pt-6f38b1"
+              ]
+            },
+            {
+              "label": "Agostinho Neto, president of the MPLA, proclaimed the independence of Angola.",
+              "when": "11 November 1975",
+              "text": "Agostinho Neto, president of the MPLA, proclaimed the independence of Angola.",
+              "cite": [
+                "cap-africadosul-mirex-gov-ao-de526d"
+              ]
+            },
+            {
+              "label": "Angola's census counted 2,194,747 residents in the municipality and city of…",
+              "when": "May 2014",
+              "text": "Angola's census counted 2,194,747 residents in the municipality and city of Luanda.",
+              "cite": [
+                "cap-observador-pt-60a0db"
               ]
             }
           ]
@@ -85,9 +317,13 @@
     }
   ],
   "gaps": [
-    "Final commune-level census tables from the 2024 census remain to be issued by INE Angola.",
-    "First-hand local voices from Axiluanda fisher families and musseque community leaders are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Census report from INE for Luanda city proper: the INE definitive-results PDF was not readable; the figure comes from Lusa/Observador reporting on the definitive 2014 results (INE preliminary results PDF only gives the province at 6.5 million)",
+    "Not found in a readable source: Exact founding date 25 January 1576: only seen on pages not usable or not verified; RTP Ensina gives arrival in February 1575",
+    "Not found in a readable source: UNESCO whc.unesco.org pages return 403, so the Mbanza Kongo facts rely on Lusa and UN pages",
+    "Not found in a readable source: Angop pages returned 503; TSF returned 403",
+    "Not found in a readable source: Luanda geography/climate from a non-encyclopedic readable source",
+    "Not found in a readable source: No well-sourced myth-or-fact item found",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Angola has read this profile yet."
   ]
 }

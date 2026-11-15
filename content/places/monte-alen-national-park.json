@@ -1,81 +1,84 @@
 {
   "slug": "monte-alen-national-park",
-  "status": "published",
+  "status": "draft",
   "type": "site",
   "country": "GNQ",
   "name": "Monte Alén National Park",
-  "region": "Equatorial Guinea",
-  "subtitle": "The largest national park of Equatorial Guinea. Card in preparation.",
-  "facts": [],
-  "sections": [
+  "region": "Malabo · Equatorial Guinea",
+  "subtitle": "Monte Alén National Park, established in 1990 on the mainland, covers about 2,000 km2 and shelters central chimpanzees and western lowland gorillas among 15 to 16 primate species.",
+  "facts": [
     {
-      "id": "context",
-      "title": "Background",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Monte Alén National Park is near the centre of Equatorial Guinea. Wikipedia says it was established in 1990, covers 2,000 km² and is the country's largest national park.",
-              "cite": [
-                "wikipedia-monte-alen"
-              ]
-            },
-            {
-              "text": " The article names the goliath frog, the biggest frog in the world, among the amphibians found there, and says hunting it is prohibited.",
-              "cite": [
-                "wikipedia-monte-alen"
-              ]
-            }
-          ]
-        }
+      "label": "Area",
+      "value": "about 2,000 km2",
+      "cite": [
+        "cap-wiki-iucnapesportal-org-fba574"
       ]
     },
     {
-      "id": "apes",
-      "title": "Great apes and hunting, as reported in 2020",
+      "label": "Established",
+      "value": "1990",
+      "cite": [
+        "cap-wiki-iucnapesportal-org-fba574"
+      ]
+    },
+    {
+      "label": "Apes present",
+      "value": "central chimpanzees and western lowland gorillas",
+      "cite": [
+        "cap-wiki-iucnapesportal-org-fba574"
+      ]
+    },
+    {
+      "label": "Highest massifs",
+      "value": "Monte Alén and Monte Mitra, about 1,250 m",
+      "cite": [
+        "cap-keybiodiversityareas-org-43fa77"
+      ]
+    },
+    {
+      "label": "Protected-area category",
+      "value": "national park (category II), 200,000 ha",
+      "cite": [
+        "cap-inege-org-ec367b"
+      ]
+    },
+    {
+      "label": "Primates",
+      "value": "15 to 16 species",
+      "cite": [
+        "cap-cambridge-org-847112"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
       "blocks": [
         {
           "type": "p",
           "parts": [
             {
-              "text": "Researchers from the Bristol Zoological Society wrote in 2020 that the Monte Alén–Monts de Cristal–Abanga landscape between Equatorial Guinea and Gabon was identified as of exceptional conservation importance for great apes, and that Equatorial Guinea has more than 16 primate species.",
+              "text": "Monte Alén National Park, established in 1990 on the mainland, covers about 2,000 km2 and shelters central chimpanzees and western lowland gorillas among 15 to 16 primate species. Monte Alén and Monte Mitra, at about 1,250 m, are thought to be the highest massifs of mainland Equatorial Guinea.",
               "cite": [
-                "berggorilla-monte-alen-2020"
+                "cap-wiki-iucnapesportal-org-fba574",
+                "cap-keybiodiversityareas-org-43fa77",
+                "cap-inege-org-ec367b",
+                "cap-cambridge-org-847112"
               ]
             }
           ]
         },
         {
-          "type": "p",
-          "parts": [
-            {
-              "text": "In a 2019 pilot study with camera traps, hunting activity was detected 184 times, with many snares and shotgun shells along main trails, and hunters with packs of more than five dogs each, a threat not documented before. Gorillas were recorded only twice in four months. The researchers say there is virtually no on-the-ground law enforcement in the protected areas.",
-              "cite": [
-                "berggorilla-monte-alen-2020"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The programme, using camera traps, acoustic recording, transect surveys and invertebrate DNA, grew from 6 cameras over 30 square kilometres to 20 cameras from August 2019, with 30 or more planned for 2020 and 2021.",
-              "cite": [
-                "berggorilla-monte-alen-2020"
-              ]
-            }
-          ]
+          "type": "facts"
         }
       ]
     }
   ],
   "gaps": [
-    "Almost everything beyond size and date: the forest, the other wildlife, the communities and who manages the park.",
-    "This place was chosen by the project as one of Equatorial Guinea's best known; the country has no site on the World Heritage List, and the choice should be checked with Equatoguinean sources.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "That account is written by the research team that runs the monitoring: Equatorial Guinean voices and the authorities' view are not included, and the figures are from a 2019 pilot study."
+    "Photograph: see the licence line if one is shown."
   ],
   "image": {
     "file": "monte-alen-national-park",

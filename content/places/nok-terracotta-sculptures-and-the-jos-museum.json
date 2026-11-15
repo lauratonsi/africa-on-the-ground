@@ -1,0 +1,89 @@
+{
+  "slug": "nok-terracotta-sculptures-and-the-jos-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "NGA",
+  "name": "Nok terracotta sculptures and the Jos museum",
+  "region": "Jos Plateau · Nigeria",
+  "subtitle": "The Nok culture occupied the Bauchi plateau of central Nigeria from about 1000 BC to 500 AD and is best known for terracotta figures of humans and animals.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "The Nok culture occupied the Bauchi plateau of central Nigeria from about 1000 BC to 500 AD.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "What",
+      "value": "The Nok terracotta figures portray both animals and humans in various postures.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "Where kept",
+      "value": "The first known Nok terracottas, found in 1928, were placed in a museum in Jos housed in the Department of Mines headquarters.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "The first known Nok terracottas were found in 1928 in a tin mine near the village of Nok.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "Who runs it",
+      "value": "Nigeria's National Commission for Museums and Monuments (NCMM) was established by decree in 1979 to manage the country's cultural heritage.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "Function",
+      "value": "Most Nok terracottas have been looted from their archaeological contexts, so their function in Nok society is unknown.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    },
+    {
+      "label": "Risk",
+      "value": "In 2000 Nok terracotta from the Bauchi Plateau and the Katsina and Sokoto regions was put on ICOM's Red List of African archaeological objects at risk from looting.",
+      "cite": [
+        "cap-traffickingculture-org-e4009d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Nok culture occupied the Bauchi plateau of central Nigeria from about 1000 BC to 500 AD and is best known for terracotta figures of humans and animals. The first known pieces were found in 1928 in a tin mine near Nok village and were placed in a museum in Jos. Because most were looted from their contexts, their function in Nok society is unknown.",
+              "cite": [
+                "cap-traffickingculture-org-e4009d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Current state of the Jos Museum collection: no readable institutional source found (NCMM, Met and Smithsonian pages are JavaScript-blocked or unreadable).",
+    "Not found in a readable source: Materials beyond 'terracotta' and a maker-level description: not separately sourced.",
+    "Local voices: none yet."
+  ]
+}

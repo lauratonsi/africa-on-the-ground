@@ -4,18 +4,333 @@
   "country": "BFA",
   "name": "Ouagadougou",
   "subtitle": "Ouagadougou, capital of Burkina Faso: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [],
+  "keyPoints": [
+    {
+      "text": "About 2,415,266 people live in the commune of Ouagadougou (counted 2019).",
+      "cite": [
+        "cap-insd-bf-2b9b91"
+      ]
+    },
+    {
+      "text": "The commune of Ouagadougou covers 518 km2, or 0.2 per cent of the national territory.",
+      "cite": [
+        "cap-insd-bf-2b9b91"
+      ]
+    },
+    {
+      "text": "Ouagadougou's 2019 population is 11.78 per cent of Burkina Faso's total and 45.1 per cent of its urban population.",
+      "cite": [
+        "cap-insd-bf-2b9b91"
+      ]
+    }
+  ],
   "places": [
     "ruins-of-loropeni",
     "palais-du-mogho-naaba-ouagadougou",
     "grand-marche-rood-woko-ouagadougou",
     "village-artisanal-de-ouagadougou"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Ouagadougou in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The commune of Ouagadougou covers 518 km2, or 0.2 per cent of the national territory.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ouagadougou's 2019 population is 11.78 per cent of Burkina Faso's total and 45.1 per cent of its urban population.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The commune population rose from 441,514 in 1985 to 1,475,839 in 2006 and 2,415,266 in 2019.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The commune lies on a vast peneplain of the Centre region with altitudes between 300 and 350 m.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The rainy season lasts from June to September and concentrates nearly 80 per cent of the rain.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "As capital of the state and seat of region, province and department, Ouagadougou hosts the headquarters of all ministries.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mooré is the dominant language among the main languages commonly spoken in the commune of Ouagadougou.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Population density in the commune rose from 2,847.9 inhabitants per km2 in 2006 to 4,385.5 in 2019.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The short rainy season feeds four dams inside the city, used for drinking water, market gardening and fishing.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ouagadougou is also the capital of the largest and strongest Mossi kingdom of the same name.",
+              "cite": [
+                "cap-encyclopedia-com-936a54"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ruler of the Ouagadougou kingdom bore the title Mogho (or Moro) Naba, meaning \"ruler of the world\".",
+              "cite": [
+                "cap-encyclopedia-com-936a54"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,415,266",
+              "label": "people in the commune of Ouagadougou, 2019",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the commune of Ouagadougou?",
+          "min": 0,
+          "max": 8000000,
+          "step": 40000,
+          "unit": "",
+          "answer": 2415266,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,415,266 in 2019, according to the figures compiled from the national statistics office. Which area is counted matters: Commune of Ouagadougou (518 km2), 5th General Census of Population and Housing (RGPH 2019); 1,183,557 men and 1,231,709 women.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1897",
+              "tag": "origins",
+              "text": "The Voulet mission entered Ouagadougou, capital of the Mossi empire, and signed a treaty of peace and protectorate with the Mossi naba on 20 January 1897.",
+              "cite": [
+                "cap-mjp-univ-perp-fr-b6bdbc"
+              ]
+            },
+            {
+              "when": "1919",
+              "tag": "growth",
+              "text": "The decree of 1 March 1919 created the colony of Haute-Volta by dividing Haut-Sénégal-Niger.",
+              "cite": [
+                "cap-mjp-univ-perp-fr-b6bdbc"
+              ]
+            },
+            {
+              "when": "1922",
+              "tag": "growth",
+              "text": "The first stone of the palace of the Baloum Naaba, official spokesman of the Mogho Naaba, was laid on 22 November 1922.",
+              "cite": [
+                "cap-wakatsera-com-fc6b15"
+              ]
+            },
+            {
+              "when": "1947",
+              "tag": "growth",
+              "text": "Haute-Volta was re-established by law no. 47-1707 of 4 September 1947.",
+              "cite": [
+                "cap-mjp-univ-perp-fr-b6bdbc"
+              ]
+            },
+            {
+              "when": "1954",
+              "tag": "growth",
+              "text": "The central market left the site of the present Place de la Révolution in 1954 and moved to its current 3.6 ha site, Rood-woko.",
+              "cite": [
+                "cap-beep-ird-fr-f56cec"
+              ]
+            },
+            {
+              "when": "1985",
+              "tag": "growth",
+              "text": "On 26 August 1985 the reconstruction of the central market was decided as part of the planning scheme for the commercial zone.",
+              "cite": [
+                "cap-beep-ird-fr-f56cec"
+              ]
+            },
+            {
+              "when": "1988",
+              "tag": "growth",
+              "text": "The mixed-economy company SOGEMA-B, which manages the new central market Rood-woko, was created on 9 March 1988 for 99 years.",
+              "cite": [
+                "cap-beep-ird-fr-f56cec"
+              ]
+            },
+            {
+              "when": "2003",
+              "tag": "today",
+              "text": "A fire swept through the central market in 2003, after which the city authorities took strict measures.",
+              "cite": [
+                "cap-burkina24-com-9e99d5"
+              ]
+            },
+            {
+              "when": "2019",
+              "tag": "today",
+              "text": "The 2019 census counted 2,415,266 inhabitants in the commune.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Ouagadougou in order.",
+          "items": [
+            {
+              "label": "The Voulet mission entered Ouagadougou, capital of the Mossi empire, and…",
+              "when": "1897",
+              "text": "The Voulet mission entered Ouagadougou, capital of the Mossi empire, and signed a treaty of peace and protectorate with the Mossi naba on 20 January 1897.",
+              "cite": [
+                "cap-mjp-univ-perp-fr-b6bdbc"
+              ]
+            },
+            {
+              "label": "Haute-Volta was re-established by law no. 47-1707 of 4 September 1947.",
+              "when": "1947",
+              "text": "Haute-Volta was re-established by law no. 47-1707 of 4 September 1947.",
+              "cite": [
+                "cap-mjp-univ-perp-fr-b6bdbc"
+              ]
+            },
+            {
+              "label": "The mixed-economy company SOGEMA-B, which manages the new central market…",
+              "when": "1988",
+              "text": "The mixed-economy company SOGEMA-B, which manages the new central market Rood-woko, was created on 9 March 1988 for 99 years.",
+              "cite": [
+                "cap-beep-ird-fr-f56cec"
+              ]
+            },
+            {
+              "label": "The 2019 census counted 2,415,266 inhabitants in the commune.",
+              "when": "2019",
+              "text": "The 2019 census counted 2,415,266 inhabitants in the commune.",
+              "cite": [
+                "cap-insd-bf-2b9b91"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Precise post-2019 internal displacement inflows to peripheral communes are tracked provisionally.",
-    "First-hand local voices from Faso Dan Fani weavers and bronze casters at the Village Artisanal are still missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Date and details of the founding of the city (15th century, Wubri): no readable, non-Wikipedia source found; blackpast and Universalis pages were 403 or paywalled.",
+    "Not found in a readable source: Opening date, location and size of the Village Artisanal de Ouagadougou (VAO): only press features were readable; no official page found.",
+    "Not found in a readable source: Rood Woko: date of the post-2003 reopening and the damage extent not verified (Afrik.com page 403).",
+    "Not found in a readable source: UNESCO World Heritage pages for Loropéni (whc.unesco.org/en/list/1225) returned 403; the committee document PDF was used instead, so the exact inscription year is not recorded as a quote.",
+    "Not found in a readable source: No well-sourced myth-or-fact item found for Ouagadougou.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Burkina Faso has read this profile yet."
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "slug": "bogolanfini-mud-cloth-mali",
+  "status": "draft",
+  "type": "culture",
+  "country": "MLI",
+  "name": "Bogolanfini (mud cloth), Mali",
+  "region": "Mali",
+  "subtitle": "Bogolanfini is a Malian cloth: men weave cotton strips and women dye it with leaves and paint it with fermented river mud.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "Bogolanfini (in Bamana) is described as a uniquely Malian cloth.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    },
+    {
+      "label": "Who makes it",
+      "value": "Men weave cotton into narrow strips sewn together, and women then dye the cloth, first soaking it in a dye of crushed leaves.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    },
+    {
+      "label": "How made",
+      "value": "Designs are painted with mud collected from riverbeds and fermented in jars.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    },
+    {
+      "label": "How made",
+      "value": "The chemical interaction of dye and mud produces the cloth's characteristic black and brown tones.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    },
+    {
+      "label": "Use",
+      "value": "It was originally used in girls' initiation and by male hunters and is now also made for the tourist market.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    },
+    {
+      "label": "Who",
+      "value": "Nakunte Diarra, a master artist, made the cloth for decades.",
+      "cite": [
+        "cap-exhibitions-psu-edu-cdfa4f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bogolanfini is a Malian cloth: men weave cotton strips and women dye it with leaves and paint it with fermented river mud. It was originally used in girls' initiation and by male hunters and is now also made for tourists. No maker or community member has reviewed this text yet.",
+              "cite": [
+                "cap-exhibitions-psu-edu-cdfa4f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Met, Saint Louis, Toledo, Smarthistory and Smithsonian Folklife pages were blocked/unavailable; the MSU page on Groupe Bogolan Kasobane was unreadable.",
+    "Not found in a readable source: Single source for all facts (Penn State exhibition text); a second independent source not obtained.",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}

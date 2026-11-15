@@ -6,9 +6,21 @@
   "subtitle": "Bamako, capital of Mali: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The award-winning Musée National and Grand Marché Dabanani showcase centuries of Dogon statuary, Bozo puppets, and authentic Bogolan mud-cloth.",
+      "text": "About 4,227,569 people live in the District of Bamako (preliminary 2022 census) (counted 2022).",
       "cite": [
-        "cap-musee-national-mali"
+        "cap-instat-mali-org-89a3f1"
+      ]
+    },
+    {
+      "text": "Bamako comes from the Bambara for 'marigot du crocodile' (crocodile backwater), and was founded at the end of the 16th century by the Niaré, formerly called Niakaté, originally Sarakolé.",
+      "cite": [
+        "cap-kibaru-ml-e0bf89"
+      ]
+    },
+    {
+      "text": "The three crocodiles that symbolise Bamako come from the three backwaters (Lido, Diafarana and Bèlèsôkô) that once crossed the city and flowed into the Niger.",
+      "cite": [
+        "cap-kibaru-ml-e0bf89"
       ]
     }
   ],
@@ -27,20 +39,271 @@
           "type": "p",
           "parts": [
             {
-              "text": "Following national independence in September 1960 under Modibo Keïta, Bamako expanded into a world capital of African music, photography, and literary festivals, crowned by the presidency on Koulouba hill.",
+              "text": "Bamako comes from the Bambara for 'marigot du crocodile' (crocodile backwater), and was founded at the end of the 16th century by the Niaré, formerly called Niakaté, originally Sarakolé.",
               "cite": [
-                "cap-musee-national-mali"
+                "cap-kibaru-ml-e0bf89"
               ]
             }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The three crocodiles that symbolise Bamako come from the three backwaters (Lido, Diafarana and Bèlèsôkô) that once crossed the city and flowed into the Niger.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Niaréla, the Niaré quarter, is one of the oldest districts of Bamako.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The district of Bamako holds 18.9 percent of Mali's population and is the most populous region.",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The district of Bamako has an urbanisation rate of 99.7 percent, the highest in Mali.",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "More than half of Mali's urban population lives in the district of Bamako (62 percent).",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Koulouba palace, built between 1903 and 1907 as the governor's palace, became the seat of the presidency of the Republic at independence in 1960.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Point G hospital began to be built in 1905.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "4,227,569",
+              "label": "people in the District of Bamako (preliminary 2022 census), 2022",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the District of Bamako (preliminary 2022 census)?",
+          "min": 0,
+          "max": 20000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 4227569,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "4,227,569 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: District of Bamako, resident population at the fifth general census (RGPH5, 2022), preliminary results report published November 2023.",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "late 16th century",
+              "tag": "origins",
+              "text": "Bamako was founded by the Niaré (Niakaté), who were originally Sarakolé.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1883",
+              "tag": "origins",
+              "text": "On 1 February French forces led by Borgnis-Desbordes entered Bamako, then a fortified village of 600 inhabitants.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1895",
+              "tag": "growth",
+              "text": "Bamako became the administrative seat (chef-lieu) of a cercle.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1899",
+              "tag": "growth",
+              "text": "Bamako became capital of Haut Sénégal-Niger on 17 October, and of French Sudan in 1920.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1904",
+              "tag": "growth",
+              "text": "The Dakar-Niger railway line was inaugurated.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1960",
+              "tag": "today",
+              "text": "Koulouba palace became the seat of the presidency of the Republic at independence.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "when": "1976",
+              "tag": "growth",
+              "text": "The Grande Mosquée, rebuilt from 1966 with Saudi support, was inaugurated on 30 July by President Moussa Traoré.",
+              "cite": [
+                "cap-bamada-net-ab452b"
+              ]
+            },
+            {
+              "when": "2022",
+              "tag": "today",
+              "text": "The fifth general census (RGPH5) found 4,227,569 residents in the district of Bamako.",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Bamako in order.",
+          "items": [
+            {
+              "label": "Bamako was founded by the Niaré (Niakaté), who were originally Sarakolé.",
+              "when": "late 16th century",
+              "text": "Bamako was founded by the Niaré (Niakaté), who were originally Sarakolé.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "label": "Bamako became the administrative seat (chef-lieu) of a cercle.",
+              "when": "1895",
+              "text": "Bamako became the administrative seat (chef-lieu) of a cercle.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "label": "Koulouba palace became the seat of the presidency of the Republic at…",
+              "when": "1960",
+              "text": "Koulouba palace became the seat of the presidency of the Republic at independence.",
+              "cite": [
+                "cap-kibaru-ml-e0bf89"
+              ]
+            },
+            {
+              "label": "The fifth general census (RGPH5) found 4,227,569 residents in the district of…",
+              "when": "2022",
+              "text": "The fifth general census (RGPH5) found 4,227,569 residents in the district of Bamako.",
+              "cite": [
+                "cap-instat-mali-org-89a3f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Bamako was already a large city when the French arrived.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "At the end of the 19th century Bamako was a large fortified village of 600 inhabitants when the French entered it on 1 February 1883; the district now has 4,227,569 residents (2022).",
+          "cite": [
+            "cap-kibaru-ml-e0bf89"
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "Final microdata tables of the 2022 census round await completion by INSTAT.",
-    "First-hand local voices from Bogolan master dyers and Bozo river fishermen are missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Population is from the preliminary RGPH5 report (November 2023); no final report with a city-proper figure was read. The 2009 census figure (1,810,366) was not verified on a readable official page.",
+    "Not found in a readable source: Musée National du Mali: founding date (1953 under IFAN, building 1981) found only in sources that were unreadable or tourist sites, so not recorded.",
+    "Not found in a readable source: Grand Marché Dabanani: origins and date of the 1993-1996 rebuilding not verified from a readable page; the 'marché rose' of the 2017 report is treated as Bamako's central market.",
+    "Not found in a readable source: Djenné: dating of the first mosque and of Djenné-Djenno not verified; UNESCO list page returns 403.",
+    "Not found in a readable source: Bamako city-proper vs district: the census figure is for the District of Bamako (the capital's administrative district).",
+    "Not found in a readable source: Mosque capacity and architecture of the Bamako Grande Mosquée not verified.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Mali has read this profile yet."
   ]
 }

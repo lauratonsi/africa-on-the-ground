@@ -1,0 +1,105 @@
+{
+  "slug": "makonde-carving",
+  "status": "draft",
+  "type": "culture",
+  "country": "TZA",
+  "name": "Makonde carving",
+  "region": "Makonde plateau · Tanzania and Mozambique",
+  "subtitle": "The Makonde live on a plateau divided by the Rovuma River between Tanzania and Mozambique.",
+  "facts": [
+    {
+      "label": "Where",
+      "value": "Makonde people live on a plateau on both sides of the Rovuma River, in Tanzania and Mozambique, and the two groups differ socially, in culture and language.",
+      "cite": [
+        "cap-ditsong-org-za-af09a3"
+      ]
+    },
+    {
+      "label": "Masks",
+      "value": "Makonde mapiko masks are worn during an initiation dance ritual, where each dancer represents a spirit.",
+      "cite": [
+        "cap-ditsong-org-za-af09a3"
+      ]
+    },
+    {
+      "label": "Who carves and wears",
+      "value": "A member of the men's secret society carves the mask and another member wears it and dances during a ceremony for new initiates.",
+      "cite": [
+        "cap-ditsong-org-za-af09a3"
+      ]
+    },
+    {
+      "label": "How a mask is made",
+      "value": "A mask in the Ditsong collection is of light wood, probably nyala, with strips of black beeswax added to the face to accentuate scarification.",
+      "cite": [
+        "cap-ditsong-org-za-af09a3"
+      ]
+    },
+    {
+      "label": "Colonial market",
+      "value": "The colonial market for Makonde carvings developed in the 1930s as Portugal consolidated control over northern Mozambique.",
+      "cite": [
+        "cap-field-journal-com-d69a79"
+      ]
+    },
+    {
+      "label": "What was carved for sale",
+      "value": "Local artists adopted ivory and ebony and carved small ethnographic busts, tropical animals and chess sets for their European patrons.",
+      "cite": [
+        "cap-field-journal-com-d69a79"
+      ]
+    },
+    {
+      "label": "Change in status of carving",
+      "value": "Before blackwood carving became popular, Mozambican Makonde artists mainly produced wooden masks for mapiko masquerade performances.",
+      "cite": [
+        "cap-field-journal-com-d69a79"
+      ]
+    },
+    {
+      "label": "Cooperatives",
+      "value": "Constantino Mpakulo, a Mozambican Makonde carver in Dar es Salaam in the 1950s and 1960s, helped create the Manamba sculptural cooperative.",
+      "cite": [
+        "cap-field-journal-com-d69a79"
+      ]
+    },
+    {
+      "label": "Everyday objects",
+      "value": "Makonde in Mozambique and Tanzania used ebony for utilitarian items such as combs, lip plugs and snuff containers.",
+      "cite": [
+        "cap-field-journal-com-d69a79"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Makonde live on a plateau divided by the Rovuma River between Tanzania and Mozambique. Their carvers made masks for mapiko initiation dances; in the colonial era Mozambican Makonde artists also developed blackwood carving for sale, and carvers working in Dar es Salaam formed cooperatives in the 1950s and 1960s.",
+              "cite": [
+                "cap-ditsong-org-za-af09a3",
+                "cap-field-journal-com-d69a79"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No maker or community member has reviewed this text yet.",
+    "Not found in a readable source: No museum page found stating how blackwood sculptures are carved; period/technique beyond mask details not sourced",
+    "Not found in a readable source: Alternate source africanarchive.org on shetani style: quote did not verify, dropped",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}

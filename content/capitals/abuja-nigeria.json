@@ -6,9 +6,21 @@
   "subtitle": "Abuja, capital of Nigeria: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The Federal Capital Territory registered 1,406,239 people in the 2006 census (projected at over 3 million in 2022).",
+      "text": "About 776,298 people live in the Abuja Municipal Area Council (the council area that holds the city) (counted 2006).",
       "cite": [
-        "cap-citypopulation-de-nigeria-2006"
+        "cap-nigerianstat-gov-ng-763f52"
+      ]
+    },
+    {
+      "text": "The Federal Capital Territory had 1,406,239 inhabitants in the 2006 census, across six council areas.",
+      "cite": [
+        "cap-nigerianstat-gov-ng-763f52"
+      ]
+    },
+    {
+      "text": "Abuja Municipal Area Council grew from 226,949 inhabitants in 1991 to 776,298 in 2006.",
+      "cite": [
+        "cap-nigerianstat-gov-ng-763f52"
       ]
     }
   ],
@@ -24,41 +36,257 @@
       "title": "Abuja in brief",
       "blocks": [
         {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Federal Capital Territory had 1,406,239 inhabitants in the 2006 census, across six council areas.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Abuja Municipal Area Council grew from 226,949 inhabitants in 1991 to 776,298 in 2006.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Abuja site was chosen as a more neutral and more central location for Nigeria's many ethnic and religious groups.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The site was inhabited by several ethnic groups, such as the Gbagyi, Koro, Gade and Gwandara, none of them among the dominant nationalities Hausa, Igbo, Yoruba and Ijaw.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The decision to build the new capital displaced the native residents of old Abuja, and the displacement remains controversial.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Aso Rock is the highest geographical point of the Federal Capital City and was used as the reference point for the first concept plan drawn by International Planning Associates for the Abuja Master Plan.",
+              "cite": [
+                "cap-dailytrust-com-58c6bb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The aesthetics of the surrounding hills (Suleja, Zuma-Bwari-Aso, Karu-Agwai and Zango-Kuku) also guided the choice of the city's site.",
+              "cite": [
+                "cap-dailytrust-com-6c4b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Abuja National Mosque is the largest mosque in Nigeria, according to the Nigerian press.",
+              "cite": [
+                "cap-tribuneonlineng-com-7f3e2f"
+              ]
+            }
+          ]
+        },
+        {
           "type": "stat",
           "items": [
             {
-              "value": "1,406,239",
-              "label": "residents in the Federal Capital Territory, 2006",
+              "value": "776,298",
+              "label": "people in the Abuja Municipal Area Council (the council area that holds the city), 2006",
               "cite": [
-                "cap-citypopulation-de-nigeria-2006"
+                "cap-nigerianstat-gov-ng-763f52"
               ]
             }
           ]
         },
         {
           "type": "estimate",
-          "prompt": "About how many people lived in Nigeria's Federal Capital Territory (Abuja) in the 2006 census?",
-          "min": 500000,
-          "max": 4000000,
-          "step": 50000,
+          "prompt": "About how many people do you think live in the Abuja Municipal Area Council (the council area that holds the city)?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
           "unit": "",
-          "answer": 1406239,
+          "answer": 776298,
           "decimals": 0,
           "parts": [
             {
-              "text": "1,406,239 in the FCT (776,298 in the Abuja Municipal Area Council) during the 2006 census by the National Population Commission of Nigeria.",
+              "text": "776,298 in 2006, according to the figures compiled from the national statistics office. Which area is counted matters: Abuja Municipal Area Council (AMAC), the council area of the Federal Capital Territory that contains the city of Abuja, 2006 census as tabulated by the National Bureau of Statistics.",
               "cite": [
-                "cap-citypopulation-de-nigeria-2006"
+                "cap-nigerianstat-gov-ng-763f52"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1976",
+              "tag": "origins",
+              "text": "General Murtala Mohammed announced that Abuja would be developed as the new capital.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            },
+            {
+              "when": "1981",
+              "tag": "growth",
+              "text": "The Abuja National Mosque Council was inaugurated by the Sultan of Sokoto, Abubakar III, as the mosque project began.",
+              "cite": [
+                "cap-commonwealthunion-com-21f75c"
+              ]
+            },
+            {
+              "when": "1984",
+              "tag": "growth",
+              "text": "The Abuja National Mosque was completed, according to a Nigerian press list of the largest mosques.",
+              "cite": [
+                "cap-tribuneonlineng-com-7f3e2f"
+              ]
+            },
+            {
+              "when": "1991",
+              "tag": "growth",
+              "text": "Abuja became the new capital of Nigeria in December 1991, after construction began in the 1980s.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            },
+            {
+              "when": "1991",
+              "tag": "growth",
+              "text": "The census recorded 226,949 people in Abuja Municipal.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            },
+            {
+              "when": "2006",
+              "tag": "today",
+              "text": "The census recorded 776,298 people in Abuja Municipal Area Council, within an FCT total of 1,406,239.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Abuja in order.",
+          "items": [
+            {
+              "label": "General Murtala Mohammed announced that Abuja would be developed as the new…",
+              "when": "1976",
+              "text": "General Murtala Mohammed announced that Abuja would be developed as the new capital.",
+              "cite": [
+                "cap-dubawa-org-0ef2eb"
+              ]
+            },
+            {
+              "label": "The Abuja National Mosque was completed, according to a Nigerian press list…",
+              "when": "1984",
+              "text": "The Abuja National Mosque was completed, according to a Nigerian press list of the largest mosques.",
+              "cite": [
+                "cap-tribuneonlineng-com-7f3e2f"
+              ]
+            },
+            {
+              "label": "The census recorded 226,949 people in Abuja Municipal.",
+              "when": "1991",
+              "text": "The census recorded 226,949 people in Abuja Municipal.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            },
+            {
+              "label": "The census recorded 776,298 people in Abuja Municipal Area Council, within an…",
+              "when": "2006",
+              "text": "The census recorded 776,298 people in Abuja Municipal Area Council, within an FCT total of 1,406,239.",
+              "cite": [
+                "cap-nigerianstat-gov-ng-763f52"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Abuja was an empty 'no man's land' before it was chosen as the capital.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The site was inhabited by several ethnic groups including the Gbagyi, Koro, Gade and Gwandara; the Gbagyi say they were the original settlers and have continued to fight for the land.",
+          "cite": [
+            "cap-dubawa-org-0ef2eb"
           ]
         }
       ]
     }
   ],
   "gaps": [
-    "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Population is the 2006 census figure for Abuja Municipal Area Council (the council area containing the city), not a delimited 'city proper'; no later census exists.",
+    "Not found in a readable source: National Mosque: sources conflict on dates (Tribune: completed 1984; Daily Trust: designed, built and commissioned in Babangida's era, which began in 1985); only the 1984 and 1981 statements are recorded, the conflict is unresolved.",
+    "Not found in a readable source: National Christian Centre: dedication date, architect and capacity could not be verified in a readable non-travel source; facts rest on one Daily Trust opinion piece.",
+    "Not found in a readable source: Economy and culture facts about Abuja city itself were not recorded for lack of a readable institutional source.",
+    "Not found in a readable source: Osun-Osogbo is in Osogbo, Osun State, not in Abuja; UNESCO page unreadable so facts come from CNN and the grove's trust.",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Nigeria has read this profile yet."
   ]
 }

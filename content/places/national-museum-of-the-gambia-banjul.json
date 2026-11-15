@@ -4,14 +4,64 @@
   "type": "culture",
   "country": "GMB",
   "name": "National Museum of The Gambia",
-  "region": "Banjul · The Gambia",
-  "subtitle": "National cultural museum on Gloucester Street preserving Kankurang masquerades, 21-stringed koras, and colonial archives.",
-  "facts": [],
-  "sections": [],
+  "region": "Banjul · Gambia",
+  "subtitle": "The National Museum stands on Independence Drive in Banjul and was created in 1985.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "1985",
+      "cite": [
+        "cap-mainlymuseums-com-454cd9"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Independence Drive, Banjul",
+      "cite": [
+        "cap-mainlymuseums-com-454cd9"
+      ]
+    },
+    {
+      "label": "Exhibition",
+      "value": "'Banjul, Bathurst, Banjul' on the ground floor",
+      "cite": [
+        "cap-my-gambia-com-48d6da"
+      ]
+    },
+    {
+      "label": "Updated",
+      "value": "Exhibition revitalised and updated in 2003",
+      "cite": [
+        "cap-my-gambia-com-48d6da"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The National Museum stands on Independence Drive in Banjul and was created in 1985. Its ground floor tells the story of Banjul in the exhibition 'Banjul, Bathurst, Banjul'.",
+              "cite": [
+                "cap-mainlymuseums-com-454cd9",
+                "cap-my-gambia-com-48d6da"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Full digital catalogue of oral history audio recordings from griots is in preparation.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

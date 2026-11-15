@@ -5,13 +5,57 @@
   "country": "CPV",
   "name": "Mercado de Sucupira",
   "region": "Praia · Cabo Verde",
-  "subtitle": "Cape Verde's largest and most labyrinthine open-air bazaar, bustling in the Várzea district below the Plateau.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Sucupira is described by the press as the largest open-air market in Cabo Verde.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Described as the largest open-air market in Cabo Verde",
+      "cite": [
+        "cap-dn-pt-0be43d"
+      ]
+    },
+    {
+      "label": "Traders",
+      "value": "Welcomes citizens from Senegal, Guinea-Bissau, Nigeria, Mali and Guinea-Conakry",
+      "cite": [
+        "cap-inforpress-cv-299f82"
+      ]
+    },
+    {
+      "label": "Informal trade",
+      "value": "Informal street vendors cluster around Sucupira and the Plateau market",
+      "cite": [
+        "cap-new-unhabitat-org-f359f1"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Sucupira is described by the press as the largest open-air market in Cabo Verde. Traders and customers from several West African countries make it a place of cultural exchange.",
+              "cite": [
+                "cap-dn-pt-0be43d",
+                "cap-inforpress-cv-299f82",
+                "cap-new-unhabitat-org-f359f1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Formal economic census data distinguishing informal trading stalls are limited.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

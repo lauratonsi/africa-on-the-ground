@@ -7133,5 +7133,2315 @@
     "status": "verified",
     "retrieved": "2026-11-15",
     "note": "Quote confirmed in the page or PDF text by an automatic check on 15 November 2026 (OCR and typesetting artefacts aside)."
+  },
+  {
+    "id": "cap-gbosdata-org-f8e75a",
+    "title": "Census 2013 Directory of Settlement",
+    "publisher": "Gambia Bureau of Statistics (2013)",
+    "url": "https://gbosdata.org/downloads-file/7-census-2013-directory-of-settlement",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-accessgambia-com-b8537c",
+    "title": "Banjul History",
+    "publisher": "Access Gambia",
+    "url": "https://www.accessgambia.com/information/banjul-history.html",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-globalsecurity-org-cbffb3",
+    "title": "The Gambia - Slave Trade",
+    "publisher": "GlobalSecurity.org",
+    "url": "https://www.globalsecurity.org/military/world/africa/gm-history-04.htm",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-gbosdata-org-066711",
+    "title": "Population Distribution: 5 Observations",
+    "publisher": "Gambia Bureau of Statistics",
+    "url": "https://gbosdata.org/data-stories/population-and-demography/population-distribution-5-observations",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dhsprogram-com-cd6e68",
+    "title": "The Gambia Demographic and Health Survey 2013",
+    "publisher": "Gambia Bureau of Statistics / ICF (2014)",
+    "url": "https://dhsprogram.com/pubs/pdf/FR289/FR289.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-factcheckgambia-org-0f55d6",
+    "title": "Factsheet: Almost half of Gambians live in Brikama Local Government Area",
+    "publisher": "FactCheck Gambia (2024-10-05)",
+    "url": "https://factcheckgambia.org/2024/10/05/factsheet-almost-half-of-gambians-live-in-brikama-local-government-area/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-standard-gm-a7fca7",
+    "title": "The Gambia Ports Authority At 50 (1972-2022): Some Milestones",
+    "publisher": "The Standard (Gambia) (2022)",
+    "url": "https://standard.gm/the-gambia-ports-authority-at-50-1972-2022-some-milestones-2",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-my-gambia-com-48d6da",
+    "title": "National Museum of The Gambia",
+    "publisher": "My Gambia",
+    "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-justiceinfo-net-02a797",
+    "title": "Time for the truth in Gambia",
+    "publisher": "Justice Info (2021-07-06)",
+    "url": "https://www.justiceinfo.net/en/79464-gambia-government-truth-commission-clash-jammeh-arch.html",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unesco-org-6a22eb",
+    "title": "The Slaves Hunter's Island: Kunta Kinteh Island and Related Sites",
+    "publisher": "UNESCO Multimedia Archives",
+    "url": "https://www.unesco.org/archives/multimedia/document-926",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-accessgambia-com-52afd5",
+    "title": "Albert Market - Banjul",
+    "publisher": "Access Gambia",
+    "url": "https://www.accessgambia.com/information/albert-market.html",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mainlymuseums-com-454cd9",
+    "title": "The Gambia National Museum",
+    "publisher": "Mainly Museums",
+    "url": "https://mainlymuseums.com/post/438/the-gambia-national-museum/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-web-archive-org-280717",
+    "title": "RGPH-2009: Características socioculturais",
+    "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy) (2009)",
+    "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aladaainternacional-com-476c31",
+    "title": "Bissau (1765–1846): de factoría a enclave portugués",
+    "publisher": "Universidade Federal de Sergipe (academic paper) (Carlos Franco Liberato)",
+    "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-globalsecurity-org-b164d1",
+    "title": "Portuguese Guinea - Early Developments",
+    "publisher": "GlobalSecurity.org (Library of Congress country study)",
+    "url": "https://www.globalsecurity.org/military/world/africa/gnb-history-pt.htm",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rtp-pt-3a6d79",
+    "title": "Governo da Guiné-Bissau quer ver Bolama reconhecida como Património Mundial",
+    "publisher": "RTP / Lusa",
+    "url": "https://www.rtp.pt/noticias/mundo/governo-da-guine-bissau-quer-ver-bolama-reconhecida-como-patrimonio-mundial_n105622",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-f58da6",
+    "title": "Crumbling architecture of former narco-state in Bissau",
+    "publisher": "Al Jazeera (Ricci Shryock · 2017-12-28)",
+    "url": "https://www.aljazeera.com/gallery/2017/12/28/crumbling-architecture-of-former-narco-state-in-bissau",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-repositorio-unilab-edu-br-674738",
+    "title": "Mulheres bideiras (monografia)",
+    "publisher": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira (Unilab)",
+    "url": "https://repositorio.unilab.edu.br/jspui/bitstream/123456789/1766/1/2019_mono_mamadubalde.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-iucn-org-c6b44a",
+    "title": "Rainforests and reefs: new World Heritage sites signal conservation breakthroughs",
+    "publisher": "IUCN (2025-07)",
+    "url": "https://iucn.org/press-release/202507/rainforests-reefs-new-world-heritage-sites-signal-conservation-breakthroughs",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aa-com-tr-1ae941",
+    "title": "Three new African sites inscribed on UNESCO World Heritage List",
+    "publisher": "Anadolu Agency (2025-07)",
+    "url": "https://aa.com.tr/en/africa/three-new-african-sites-inscribed-on-unesco-world-heritage-list/3630085",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rtp-pt-47de14",
+    "title": "Falta à Guiné-Bissau dar conta do que representou Amílcar Cabral, diz líder do PAIGC",
+    "publisher": "RTP / Lusa",
+    "url": "https://www.rtp.pt/noticias/mundo/falta-a-guine-bissau-dar-conta-do-que-representou-amilcar-cabral-diz-lider-do-paigc_n1461591",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-repositorio-iscte-iul-pt-09ff2f",
+    "title": "Estrategias económicas de las mujeres (CIEA7)",
+    "publisher": "ISCTE-IUL repository",
+    "url": "https://repositorio.iscte-iul.pt/bitstream/10071/2199/1/CIEA7_11_LEITE_Estrategias%20Econ%c3%b3micas%20de%20las%20mujeres.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-stat-guinee-org-033d40",
+    "title": "Résultats préliminaires du RGPH-4 de la Guinée",
+    "publisher": "Institut National de la Statistique (Guinée) (2026-02)",
+    "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/rapports_enquetes/RGPH-4/Resultats_preliminaires_rgph_4.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-publication-codesria-org-c23611",
+    "title": "Conakry (chapter in Capital Cities in Africa: Power and Powerlessness)",
+    "publisher": "CODESRIA (Odile Goerg · 2011)",
+    "url": "https://www.publication.codesria.org/index.php/pub/catalog/download/92/673/1847?inline=1",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-stat-guinee-org-07c4ce",
+    "title": "La région de Conakry en chiffres 2022",
+    "publisher": "Institut National de la Statistique (Guinée) (2023-11)",
+    "url": "https://www.stat-guinee.org/images/Documents/Publications/INS/annuelles/annuaire/region/Rgion_de_CONAKRY.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-webguine-site-e919ad",
+    "title": "Guinea: colonial period",
+    "publisher": "Encyclopedia of African History (K. Shillington, ed.), web copy",
+    "url": "https://webguine.site/bibliotheque/shillington_encyclopedia/guinea_colonial_period.html",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-wakatsera-com-810203",
+    "title": "Guinée: le plus grand marché de Conakry ravagé par un incendie",
+    "publisher": "Wakat Séra (2018-03-19)",
+    "url": "https://www.wakatsera.com/guinee-le-plus-grand-marche-de-conakry-ravage-par-un-incendie/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-guineenews-org-a274ec",
+    "title": "Culte : le Premier ministre procède à la réouverture de la grande mosquée Fayçal",
+    "publisher": "Guinéenews (2023-03-22)",
+    "url": "https://guineenews.org/2023/03/22/culte-le-premier-ministre-procede-a-la-reouverture-de-la-grande-mosquee-faycal/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-world-heritage-datasheets-unep-wcmc-org-29bd4b",
+    "title": "Mount Nimba Strict Nature Reserve – World Heritage Datasheet",
+    "publisher": "UNEP-WCMC",
+    "url": "https://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mount-nimba-strict-nature-reserve/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-mongabay-com-c838bc",
+    "title": "Leaked study warns of irreversible damage from iron ore mine in Guinea UNESCO site",
+    "publisher": "Mongabay (2026-06)",
+    "url": "https://news.mongabay.com/2026/06/leaked-study-warns-of-irreversible-damage-from-iron-ore-mine-in-guinea-unesco-site/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-8e5ae3",
+    "title": "Guinée: polémique autour de la grande mosquée Fayçal qui tombe en ruine",
+    "publisher": "Le360 Afrique (2017-07-22)",
+    "url": "https://afrique.le360.ma/guinee/societe/2017/07/22/13614-guinee-polemique-autour-de-la-grande-mosquee-faycal-qui-tombe-en-ruine-13614/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-guineenews-org-63ab80",
+    "title": "Arts et culture : à la découverte du Musée national de Guinée",
+    "publisher": "Guinéenews (2023-04-06)",
+    "url": "https://guineenews.org/2023/04/06/arts-et-culture-a-la-decouverte-du-musee-national-de-guinee/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-guineenews-org-09ba25",
+    "title": "Urgent Conakry : le grand marché en feu",
+    "publisher": "Guinéenews (2025-08-07)",
+    "url": "https://guineenews.org/2025/08/07/urgent-conakry-le-grand-marche-en-feu-maire/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-guineenews-org-163c0b",
+    "title": "Panier de la ménagère à Conakry : le niveau des prix des denrées à l'entame du Ramadan",
+    "publisher": "Guinéenews (2024-03-13)",
+    "url": "https://guineenews.org/2024/03/13/panier-de-la-menagere-a-conakry-le-niveau-des-prix-des-denrees-a-lentame-du-ramadan/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-assets-publishing-service-gov-uk-426b66",
+    "title": "Portrait of Kinshasa: a city on (the) edge (Crisis States Working Paper 53.2)",
+    "publisher": "Crisis States Research Centre, LSE (Pascal Kapagama; Rachel Waterhouse · 2009-07)",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08b46e5274a31e0000a8a/WP53.2.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-documents1-worldbank-org-6fdcb4",
+    "title": "Profiling Living Conditions of the DRC Urban Population: Access to Housing and Services in Kinshasa Province",
+    "publisher": "World Bank (2021)",
+    "url": "https://documents1.worldbank.org/curated/en/638901637330907469/pdf/Profiling-Living-Conditions-of-the-DRC-Urban-Population-Access-to-Housing-and-Services-in-Kinshasa-Province.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fratmat-info-f81671",
+    "title": "La RDC veut effectuer le premier recensement de sa population depuis 1984",
+    "publisher": "RFI / Fraternité Matin (2025-11-20)",
+    "url": "https://www.fratmat.info/article/2638273/etranger/republique-democratique-du-congo/la-rdc-veut-effectuer-le-premier-recensement-de-sa-population-depuis-1984",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-acp-cd-7963d1",
+    "title": "RDC : l'Échangeur de Limete, un rêve monumental de Mobutu demeuré inachevé à Kinshasa",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-actualite-cd-48b5fe",
+    "title": "RDC: l'Académie des Beaux-Arts fête ses 75 ans",
+    "publisher": "Actualite.cd (2018-11-30)",
+    "url": "https://actualite.cd/2018/11/30/rdc-lacademie-des-beaux-arts-fete-ses-75-ans",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-f465bc",
+    "title": "Jeux de la Francophonie: à la découverte de la Tour Échangeur de Limete, monument symbole de Kinshasa",
+    "publisher": "Le360 Afrique (Christian Nyamabu Kabeya · 2023-08-05)",
+    "url": "https://afrique.le360.ma/sports/jeux-de-la-francophonie-a-la-decouverte-de-la-tour-echangeur-de-limete-monument-symbole-de-kinshasa_APQQECJXJVGBFGDL6J3VU5EVBQ/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-visitvirunga-com-08caaa",
+    "title": "History - Visit Virunga",
+    "publisher": "Visit Virunga",
+    "url": "https://www.visitvirunga.com/park-information/history/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-virunga-org-fe1283",
+    "title": "Virunga National Park (official site)",
+    "publisher": "Virunga National Park",
+    "url": "https://virunga.org/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nationalgeographic-com-81e59a",
+    "title": "Rangers Killed in Africa's Oldest Park Push Death Toll to 150",
+    "publisher": "National Geographic (2016-03-14)",
+    "url": "https://www.nationalgeographic.com/adventure/article/160314-two-rangers-killed-virunga-national-park",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-friendsofbonobos-org-332601",
+    "title": "Friends of Bonobos / Lola ya Bonobo",
+    "publisher": "Friends of Bonobos",
+    "url": "https://www.friendsofbonobos.org",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-acp-cd-bbbad0",
+    "title": "La coiffe 'Kutshu' du Kasaï Oriental mise en valeur au MNRDC",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "url": "https://acp.cd/culture/la-coiffe-kusthu-du-kasai-oriental-mise-en-valeur-au-mnrdc/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-acp-cd-15f9be",
+    "title": "La croisette Tetela illustre l'histoire monétaire et commerciale précoloniale congolaise",
+    "publisher": "Agence Congolaise de Presse (ACP)",
+    "url": "https://acp.cd/culture/rdc-la-croisette-tetela-illustre-lhistoire-monetaire-et-commerciale-precoloniale-congolaise/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-inege-org-ec367b",
+    "title": "Annuaire Statistique de la Guinée Équatoriale 2025",
+    "publisher": "INEGE (Instituto Nacional de Estadística de Guinea Ecuatorial) (2025)",
+    "url": "https://inege.org/wp-content/uploads/2025/10/AEGE-2025-FR-PUBLICADO.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tribune-net-ph-67440d",
+    "title": "E.Guinea relocates capital to 'city of peace'",
+    "publisher": "Daily Tribune (AFP) (2026-01-04)",
+    "url": "https://tribune.net.ph/2026/01/04/eguinea-relocates-capital-to-city-of-peace",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-kuwaittimes-com-9f1375",
+    "title": "Equatorial Guinea's new capital still has no residents",
+    "publisher": "Kuwait Times (AFP) (2026)",
+    "url": "https://kuwaittimes.com/article/49584/world/equatorial-guineas-new-capital-still-has-no-residents/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-revistas-uned-es-919cbd",
+    "title": "Aldaba (UNED) article on Spain and Equatorial Guinea",
+    "publisher": "Aldaba, UNED",
+    "url": "https://revistas.uned.es/index.php/ALDABA/article/download/20474/16963/40478",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ccemalabo-aecid-es-f66cd3",
+    "title": "Plan de Centro 2023, Centro Cultural de España en Malabo",
+    "publisher": "AECID, Centro Cultural de España en Malabo (2023)",
+    "url": "https://ccemalabo.aecid.es/documents/d/cc-malabo/plan-de-centro-2023-cce-malabo_guinea-ecuatorial",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-20d51c",
+    "title": "Ciudad de la Paz devient la nouvelle capitale de la Guinée équatoriale",
+    "publisher": "Le360 Afrique (AFP) (2026-01-03)",
+    "url": "https://afrique.le360.ma/politique/ciudad-de-la-paz-devient-la-nouvelle-capitale-de-la-guinee-equatoriale_N2FQNKPILFABJLWG3AR7S2K76A/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-revistas-new-uam-es-a8deab",
+    "title": "Fernando Póo centro de influencia anglosajón en el siglo XIX",
+    "publisher": "Estudios africanos (Universidad Autónoma de Madrid) (Max Liniger-Goumaz · 2001)",
+    "url": "https://revistas-new.uam.es/reauam/article/download/21432/18787/73903",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cambridge-org-242685",
+    "title": "Commerce, Christianity and the Origins of the 'Creoles' of Fernando Po",
+    "publisher": "Journal of African History (Cambridge University Press)",
+    "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/commerce-christianity-and-the-origins-of-the-creoles-of-fernando-po/F15A468AE04D3C394E060AE54A4E6CC5",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-en-fundacionantoniogaudi-org-39b71b",
+    "title": "Another Gaudí’s work in Africa?",
+    "publisher": "Antonio Gaudí Foundation",
+    "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-business-standard-com-29be72",
+    "title": "Blaze engulfs historic E.Guinea cathedral",
+    "publisher": "Business Standard (AFP/PTI) (2020-01-16)",
+    "url": "https://www.business-standard.com/article/pti-stories/blaze-engulfs-historic-e-guinea-cathedral-120011600102_1.html",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-wiki-iucnapesportal-org-fba574",
+    "title": "Monte Alén National Park",
+    "publisher": "IUCN APES Atlas",
+    "url": "https://wiki.iucnapesportal.org/index.php/Monte_Al%C3%A9n_National_Park",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-keybiodiversityareas-org-43fa77",
+    "title": "Monte Alen National Park (6381)",
+    "publisher": "Key Biodiversity Areas Partnership",
+    "url": "https://www.keybiodiversityareas.org/site/factsheet/6381",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cambridge-org-847112",
+    "title": "Distribution, status and conservation of primates in Monte Alen National Park, Equatorial Guinea",
+    "publisher": "Oryx (Cambridge University Press) (2009)",
+    "url": "https://cambridge.org/core/journals/oryx/article/distribution-status-and-conservation-of-primates-in-monte-alen-national-park-equatorial-guinea/2009272CFF85C5C96CA0D99F04F64868",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-localvoicesliberia-com-6584e3",
+    "title": "Fact Check: Simeon Freeman Is Mostly Correct About Urban Population Growth",
+    "publisher": "Local Voices Liberia (2026)",
+    "url": "https://localvoicesliberia.com/?p=13331",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebsco-com-021d5a",
+    "title": "Monrovia, Liberia (Research Starters)",
+    "publisher": "EBSCO Research Starters (Beverly Ballaro · 2022)",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/monrovia-liberia",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-globalsecurity-org-5a4692",
+    "title": "Liberia: The Early Colony (Library of Congress Country Study, 1985)",
+    "publisher": "GlobalSecurity.org reproduction of the US Library of Congress Country Study (1985)",
+    "url": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_earlycolony.htm",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-arabnews-com-bff165",
+    "title": "Liberia kicks off bicentennial celebrating arrival of Black Americans",
+    "publisher": "Arab News (2022)",
+    "url": "https://www.arabnews.com/node/2024771/amp",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mainlymuseums-com-a80036",
+    "title": "The National Museum of Liberia",
+    "publisher": "Mainly Museums",
+    "url": "https://mainlymuseums.com/post/1249/the-national-museum-of-liberia/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thenewdawnliberia-com-3d0c8a",
+    "title": "Govt. erects steel tables for marketers",
+    "publisher": "The New Dawn (Liberia) (2020-12-01)",
+    "url": "https://thenewdawnliberia.com/govt-erects-steel-tables-for-marketers/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theworld-org-243287",
+    "title": "Museum tells Liberia's story",
+    "publisher": "The World (PRX), from AFP (2009)",
+    "url": "https://theworld.org/stories/2009-05-15/museum-tells-liberias-story",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontpageafricaonline-com-178026",
+    "title": "Liberia: Waterside Market Shuts Down Amid Rioting Fears",
+    "publisher": "FrontPageAfrica (Webster Clayeh · 2020)",
+    "url": "https://frontpageafricaonline.com/liberia-waterside-market-shuts-down-amid-rioting-fears/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-insd-bf-2b9b91",
+    "title": "RGPH 2019 - Monographie de la commune de Ouagadougou",
+    "publisher": "INSD (Institut national de la statistique et de la démographie, Burkina Faso) (2022-12)",
+    "url": "https://www.insd.bf/sites/default/files/2023-02/MONOGRAPHIE%20DE%20OUAGADOUGOU_5E%20RGPH.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-encyclopedia-com-936a54",
+    "title": "Mossi (Encyclopedia of World Cultures)",
+    "publisher": "Encyclopedia.com",
+    "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mossi-0",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mjp-univ-perp-fr-b6bdbc",
+    "title": "Haute-Volta, colonie française, 1919, Burkina Faso",
+    "publisher": "Digithèque MJP, Université de Perpignan",
+    "url": "https://mjp.univ-perp.fr/constit/bf1919.htm",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-wakatsera-com-fc6b15",
+    "title": "Burkina: le palais centenaire du Baloum Naaba de Ouagadougou",
+    "publisher": "Wakat Séra (2022-11)",
+    "url": "https://www.wakatsera.com/?p=77776",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-beep-ird-fr-f56cec",
+    "title": "Geography thesis on the urban markets of Ouagadougou (Rood-woko), IRD BEEP collection BAGADR93",
+    "publisher": "IRD (Institut de recherche pour le développement), BEEP (1993)",
+    "url": "https://beep.ird.fr/collect/depgeo/index/assoc/BAGADR93/BAGADR93.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-9e99d5",
+    "title": "Rood Woko, marché central de Ouagadougou : où va nous mener le raag’ ya yaaré ?",
+    "publisher": "Burkina24 (2011-12-08)",
+    "url": "https://burkina24.com/2011/12/08/rood-woko-marche-central-de-ouagadougou-ou-va-nous-mener-le-raag-ya-yaare/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-whc-unesco-org-158ded",
+    "title": "World Heritage Committee 33rd session: nominations, The Ruins of Loropéni (Statement of Outstanding Universal Value)",
+    "publisher": "UNESCO World Heritage Centre (2009)",
+    "url": "https://whc.unesco.org/archive/2009/whc09-33com-8Be.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-revues-acaref-net-98308d",
+    "title": "Les enjeux de la conservation de la grande bâtisse en ruines de Loropéni",
+    "publisher": "Université Joseph Ki-Zerbo (ACAREF revue) (Lassina Simporé and Tô Hien · 2024)",
+    "url": "https://revues.acaref.net/wp-content/uploads/sites/3/2024/05/11-Lassina-SIMPORE_-To-HIEN.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sidwaya-info-0f5512",
+    "title": "FESPACO 2025 : Des festivaliers participent à la cérémonie du Faux Départ du Moogho Naaba",
+    "publisher": "Sidwaya (2025-02-28)",
+    "url": "https://www.sidwaya.info/fespaco-2025-des-festivaliers-participent-a-la-ceremonie-du-faux-depart-du-moogho-naaba/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fratmat-info-2d1fe8",
+    "title": "Reportage/Le \"Faux départ\" du Mogho Naaba : Un rite oscillant entre mémoire et sérénité, en plein centre de Ouagadougou",
+    "publisher": "Fraternité Matin (2025)",
+    "url": "https://www.fratmat.info/article/2633114/culture/reportagele-faux-depart-du-mogho-naaba-un-rite-oscillant-entre-memoire-et-serenite-en-plein-centre-de-ouagadougou",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-wakatsera-com-3fcb0c",
+    "title": "Journée des coutumes et traditions",
+    "publisher": "Wakat Séra (2024-05-15)",
+    "url": "https://www.wakatsera.com/?p=102817",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africa24tv-com-eda9b6",
+    "title": "Burkina Faso : Deux maîtres, un art sans relâche",
+    "publisher": "Africa24 TV",
+    "url": "https://africa24tv.com/?p=176613",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-memoireonline-com-e39219",
+    "title": "Sauvegarde et valorisation du patrimoine immatériel béninois (master thesis, section on population of Porto-Novo, citing RGPH 1979-2013)",
+    "publisher": "Mémoire Online",
+    "url": "https://www.memoireonline.com/12/21/12505/m_Sauvegarde-et-valorisation-du-patrimoine-immateriel-beninois-un-centre-de-promotion-des-rythmes-e7.html",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-gouv-bj-44b2f2",
+    "title": "Destination Bénin : PORTO-NOVO, condensé d'histoire et de culture où la fête adoucit les moeurs",
+    "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+    "url": "https://www.gouv.bj/article/1048/destination-benin---porto-novo--condense-histoire-culture-fete-adoucit-moeurs/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-saudigazette-com-sa-a31a4e",
+    "title": "Benin's Afro-Brazilian heritage faces risks",
+    "publisher": "Saudi Gazette (AFP) (Sophie Bouillon · 2016-08-06)",
+    "url": "https://saudigazette.com.sa/article/160644",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-academieoutremer-fr-ed1973",
+    "title": "Les musées au Bénin (communication by Richard Sogan, ANPT)",
+    "publisher": "Académie des Sciences d'Outre-Mer (Richard Sogan · 2020-10-16)",
+    "url": "https://www.academieoutremer.fr/wp-content/uploads/2020/11/4-16102020-Richard-Sogan.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-worldatlas-com-1b26d0",
+    "title": "Dahomey Royal Palaces Of Abomey, Benin",
+    "publisher": "WorldAtlas",
+    "url": "https://www.worldatlas.com/articles/dahomey-royal-palaces-of-abomey-benin.html",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-csmonitor-com-b630ca",
+    "title": "In a capital's Afro-Brazilian architecture, traces of a complex story",
+    "publisher": "The Christian Science Monitor (Karim Okanla · 2020-11-23)",
+    "url": "https://proof.csmonitor.com/World/Africa/2020/1123/In-a-capital-s-Afro-Brazilian-architecture-traces-of-a-complex-story",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africa-com-c6dbb9",
+    "title": "Museums of Benin",
+    "publisher": "africa.com",
+    "url": "https://africa.com/museums-of-benin",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-new-unhabitat-org-f359f1",
+    "title": "Perfil Urbano da Cidade da Praia",
+    "publisher": "UN-Habitat / Câmara Municipal da Praia (2010)",
+    "url": "https://new.unhabitat.org/sites/default/files/download-manager-files/Perfil%20Urbano%20Praia.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-revistas-uneb-br-3c59db",
+    "title": "Ocupação urbana e resistência em Cabo Verde: abordagem histórica a partir da perspectiva do lugar",
+    "publisher": "Revista Africas (UNEB) (Rutte Cardoso Andrade · 2019)",
+    "url": "https://revistas.uneb.br/index.php/africas/article/view/7928/5177",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-un-org-aae030",
+    "title": "UNESCO : La ville cap-verdienne de Cidade Velha au patrimoine mondial",
+    "publisher": "ONU Info (UN News) (2009-06)",
+    "url": "https://news.un.org/fr/story/2009/06/160572",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-caboverde-info-com-8b4cf7",
+    "title": "Museu Etnográfico da Praia quer atrair público e triplicar o número de visitantes",
+    "publisher": "Caboverde-info (2017)",
+    "url": "https://www.caboverde-info.com/eng/News/Museu-Etnografico-da-Praia-quer-atrair-publico-e-triplicar-o-numero-de-visitantes-para-este-ano",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dn-pt-0be43d",
+    "title": "Vhils fez retratos de Amílcar Cabral e Cesária Évora em Cabo Verde",
+    "publisher": "Diário de Notícias (Lusa) (2019-10-26)",
+    "url": "https://www.dn.pt/cultura/vhils-fez-retratos-de-amilcar-cabral-e-cesaria-evora-em-cabo-verde-11448493.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-inforpress-cv-299f82",
+    "title": "Cultural Diversity: Merchants of Sucupira call for respect and dialogue among cultures",
+    "publisher": "Inforpress (2026-05-21)",
+    "url": "https://www.inforpress.cv/en/cultural-diversity-merchants-of-sucupira-call-for-respect-and-dialogue-among-cultures",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nigerianstat-gov-ng-763f52",
+    "title": "Annual Abstract of Statistics, 2010 (Table 52: Population of FCT, Abuja by Council Area, 1991 and 2006)",
+    "publisher": "National Bureau of Statistics, Nigeria (2010)",
+    "url": "https://nigerianstat.gov.ng/download/71",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dubawa-org-0ef2eb",
+    "title": "Nigeria@60: Why Nigeria's capital was moved from Lagos to Abuja",
+    "publisher": "Dubawa (Lois Ugbede · 2020)",
+    "url": "https://dubawa.org/nigeria60-why-nigerias-capital-was-moved-from-lagos-to-abuja/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailytrust-com-58c6bb",
+    "title": "The contemporary and historical Aso Rock",
+    "publisher": "Daily Trust (Umar Shuaibu · 2023-12-08)",
+    "url": "https://dailytrust.com/the-contemporary-and-historical-aso-rock/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailytrust-com-6c4b91",
+    "title": "The Natural Landmarks Of Abuja And National Monuments",
+    "publisher": "Daily Trust",
+    "url": "https://dailytrust.com/the-natural-landmarks-of-abuja-and-national-monuments/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tribuneonlineng-com-7f3e2f",
+    "title": "6 largest mosques in Nigeria",
+    "publisher": "Tribune Online",
+    "url": "https://tribuneonlineng.com/6-largest-mosques-in-nigeria/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-commonwealthunion-com-21f75c",
+    "title": "Nigeria's Abuja National Mosque: A Symbol of Faith, Culture, and Unity",
+    "publisher": "Commonwealth Union (Ruwanthi Abeyakoon · 2025-07-31)",
+    "url": "https://www.commonwealthunion.com/nigerias-abuja-national-mosque-a-symbol-of-faith-culture-and-unity/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cnn-com-f2f7ca",
+    "title": "On the brink: Inside the project to save Osun Oshogbo",
+    "publisher": "CNN (2016-01-08)",
+    "url": "https://www.cnn.com/2016/01/08/africa/osun-oshogbo-sacred-grove/index.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aot-aof-org-668c40",
+    "title": "Sacred Groves",
+    "publisher": "Adunni Olorisha Trust-Adunni Osun Foundation",
+    "url": "https://aot-aof.org/sacred-groves/",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailytrust-com-454f42",
+    "title": "The National Mosque Still Stands",
+    "publisher": "Daily Trust",
+    "url": "https://dailytrust.com/the-national-mosque-still-stands/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-instat-mali-org-89a3f1",
+    "title": "Résultats globaux du RGPH5 (rapport préliminaire)",
+    "publisher": "INSTAT Mali (Institut national de la statistique) (2023-11)",
+    "url": "https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-resultats-globaux-rgph5_rgph.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-kibaru-ml-e0bf89",
+    "title": "Bamako : Tout savoir sur la ville des trois caïmans",
+    "publisher": "Kibaru (2017-02-03)",
+    "url": "https://kibaru.ml/fr/art/bamako-tout-savoir-sur-la-ville-des-trois-ca%C3%AFmans",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-bamada-net-ab452b",
+    "title": "La grande mosquée de Bamako baptisée « Mosquée Roi Fayçal bin Abdulaziz »",
+    "publisher": "Bamada.net (2017)",
+    "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-whc-unesco-org-f7e985",
+    "title": "Mali, Les Villes Anciennes de Djenné, Site du patrimoine mondial C 116 rev, mission de suivi réactif 13-17 mars 2006",
+    "publisher": "UNESCO World Heritage Centre / ICOMOS / ICCROM (2006-03)",
+    "url": "https://whc.unesco.org/archive/2006/mis116rev-mar06.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-france24-com-42c6ea",
+    "title": "Des milliers de Maliens recrépissent l'iconique mosquée de Djenné",
+    "publisher": "France 24 (AFP) (2025-06-13)",
+    "url": "https://www.france24.com/fr/info-en-continu/20250613-des-milliers-de-maliens-recr%C3%A9pissent-l-iconique-mosqu%C3%A9e-de-djenn%C3%A9",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aa-com-tr-4e6382",
+    "title": "Au Musée National du Mali, les textiles exposés parlent civilisation antique",
+    "publisher": "Anadolu Agency",
+    "url": "https://www.aa.com.tr/fr/culture-et-arts/au-mus%C3%A9e-national-du-mali-les-textiles-expos%C3%A9s-parlent-civilisation-antique/8623",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-actuelmedia-net-fc7d20",
+    "title": "Incendie au grand marché de Bamako : des dizaines de magasins sont partis en fumée",
+    "publisher": "Actuel Média (2024-02-28)",
+    "url": "https://actuelmedia.net/2024/02/28/incendie-au-grand-marche-de-bamako-des-dizaines-de-magasins-sont-partis-en-fumee/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afriksoir-net-87c4b5",
+    "title": "Mali : Une partie du grand marché de Bamako ravagée par un incendie",
+    "publisher": "Afrik Soir (Karina Fofana · 2025-03-30)",
+    "url": "https://afriksoir.net/mali-une-partie-du-grand-marche-de-bamako-ravagee-par-un-incendie/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-voaafrique-com-108158",
+    "title": "Reconstruction après l'incendie qui a frappé le marché de Bamako",
+    "publisher": "VOA Afrique (2017-12)",
+    "url": "https://www.voaafrique.com/a/un-nouvel-incendie-sur-le-marche-de-bamako/4161873.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-bamada-net-8f0e01",
+    "title": "Bamako : le marché rose en feu",
+    "publisher": "Bamada.net (Mohamed Keita · 2017-12-12)",
+    "url": "https://bamada.net/bamako-le-marche-rose-en-feu",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tresor-economie-gouv-fr-3f8bbd",
+    "title": "Recensement 2023 au Congo-Brazzaville",
+    "publisher": "Direction générale du Trésor (France) (2024)",
+    "url": "https://www.tresor.economie.gouv.fr/Pays/CG/recensement-2023-au-congo-brazzaville",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-liziba-cg-f855d6",
+    "title": "Département Brazzaville",
+    "publisher": "LIZIBA (portail du gouvernement congolais)",
+    "url": "https://liziba.cg/en/departement-brazzaville",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-journals-openedition-org-817ddf",
+    "title": "Congo-Brazzaville (Brèves)",
+    "publisher": "In Situ, revue des patrimoines (Bernard Toulier · 2003)",
+    "url": "https://journals.openedition.org/insitu/10525",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-753ed0",
+    "title": "Le Congo sommé de restituer la dépouille de Savorgnan de Brazza",
+    "publisher": "Jeune Afrique",
+    "url": "https://www.jeuneafrique.com/168539/politique/le-congo-somm-de-restituer-la-d-pouille-de-savorgnan-de-brazza/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-journals-openedition-org-cb32c2",
+    "title": "Poto-Poto, 1946-1960s. Frictions narratives, assignations esthétiques",
+    "publisher": "Gradhiva (revue d'anthropologie et d'histoire des arts) (2022)",
+    "url": "https://journals.openedition.org/gradhiva/6543?lang=en",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-journals-openedition-org-3072b3",
+    "title": "Les « os de la République » ou l'ancestralisation contestée au Congo-Brazzaville",
+    "publisher": "Civilisations (revue d'anthropologie) (Rémy Bazenguissa-Ganga)",
+    "url": "https://journals.openedition.org/civilisations/3645",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-adiac-congo-com-3a5bd4",
+    "title": "Marché Total : l'espace de vente rénové",
+    "publisher": "Les Dépêches de Brazzaville (ADIAC) (2015-02-18)",
+    "url": "https://www.adiac-congo.com/content/marche-total-lespace-de-vente-renove-27962",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-adiac-congo-com-2777f1",
+    "title": "Aires protégées : le parc Odzala-Kokoua inscrit au patrimoine mondial de l'Unesco",
+    "publisher": "Les Dépêches de Brazzaville (ADIAC) (Fiacre Kombo · 2023-09-23)",
+    "url": "https://www.adiac-congo.com/content/aires-protegees-le-parc-odzala-kokoua-inscrit-au-patrimoine-mondial-de-lunesco-151717",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unesco-org-f56ef3",
+    "title": "Kokoua-Odzala",
+    "publisher": "UNESCO Man and the Biosphere Programme",
+    "url": "https://www.unesco.org/en/mab/kokoua-odzala",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-worldheritageoutlook-iucn-org-8dadbe",
+    "title": "Forest Massif of Odzala-Kokoua",
+    "publisher": "IUCN World Heritage Outlook",
+    "url": "https://worldheritageoutlook.iucn.org/node/2570",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-adiac-congo-com-a39287",
+    "title": "L'Ecole de peinture de Poto-Poto : 70 ans de création",
+    "publisher": "Les Dépêches de Brazzaville (ADIAC)",
+    "url": "https://www.adiac-congo.com/content/lecole-de-peinture-de-poto-poto-70-ans-de-creation-128211",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-agenceafrique-com-fc2dbc",
+    "title": "Congo : Le plus grand marché moderne inauguré à Brazzaville",
+    "publisher": "Agence Afrique",
+    "url": "https://www.agenceafrique.com/2947-congo-le-plus-grand-marche-moderne-inaugure-brazzaville.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ansd-sn-c534f8",
+    "title": "RGPH-5 Région de Dakar : rapport de présentation des résultats",
+    "publisher": "ANSD (Agence nationale de la Statistique et de la Démographie)",
+    "url": "https://www.ansd.sn/sites/default/files/recensements/rapport/RGPH-5_DAKAR_Avril%202026.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-metropolitiques-eu-25f62a",
+    "title": "Dakar, Portrait of a Capital City (review)",
+    "publisher": "Métropolitiques (2025-09-12)",
+    "url": "https://metropolitiques.eu/Dakar-Portrait-of-a-Capital-City.html",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-napoleon-org-2a9511",
+    "title": "Dakar, a French town in May 1857",
+    "publisher": "Fondation Napoléon",
+    "url": "https://napoleon.org/en/history-of-the-two-empires/articles/dakar-a-french-town-in-may-1857",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-visitezlesenegal-com-492ca2",
+    "title": "Pointe des Almadies",
+    "publisher": "Agence sénégalaise de promotion touristique",
+    "url": "https://www.visitezlesenegal.com/en/destinations/dakar/pointe-des-almadies/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ecofinagency-com-67af85",
+    "title": "Dakar port traffic jumps in 2025",
+    "publisher": "Ecofin Agency",
+    "url": "https://www.ecofinagency.com/news-industry/2104-54849-dakar-port-traffic-jumps-in-2025-as-imports-and-exports-rise",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-biennaledakar-org-72f9ec",
+    "title": "Histoire de la Biennale de Dakar",
+    "publisher": "Biennale de l'art africain contemporain de Dakar (2022-03-30)",
+    "url": "https://biennaledakar.org/2022/03/30/histoire-de-la-biennale-de-dakar/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-5770ce",
+    "title": "Sénégal: inauguration du Musée des civilisations noires à Dakar (AFP)",
+    "publisher": "Le360 / AFP (2018-12-05)",
+    "url": "https://afrique.le360.ma/senegal/culture/2018/12/05/24154-senegal-inauguration-du-musee-des-civilisations-noires-dakar-24154/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-courier-unesco-org-8645e4",
+    "title": "Gorée island, destination for memorial tourism",
+    "publisher": "UNESCO Courier (2024-07-03)",
+    "url": "https://courier.unesco.org/en/articles/goree-island-memory",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africanews-com-1391ea",
+    "title": "The story behind Senegal's African Renaissance Monument",
+    "publisher": "Africanews (2020-02-27)",
+    "url": "https://africanews.com/amp/2020/02/27/the-story-behind-senegal-s-african-renaissance-monument-travel",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-arabnews-pk-ef4564",
+    "title": "Excavation begins at historic Dakar market in renovation project (AFP)",
+    "publisher": "Arab News / AFP (2020-08-04)",
+    "url": "https://www.arabnews.pk/node/1714311",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afro-who-int-3b5a02",
+    "title": "Sierra Leone 2015 Population and Housing Census: Summary of Final Results",
+    "publisher": "Statistics Sierra Leone (hosted by WHO AFRO) (2016)",
+    "url": "https://www.afro.who.int/sites/default/files/2017-06/census2015.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fcc-gov-sl-7f2a51",
+    "title": "Welcome to Freetown",
+    "publisher": "Freetown City Council",
+    "url": "https://fcc.gov.sl/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unipsil-unmissions-org-9ea4cd",
+    "title": "About Sierra Leone: History",
+    "publisher": "UNIPSIL (United Nations)",
+    "url": "https://unipsil.unmissions.org/en/about-sierra-leone-history",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theglobeandmail-com-a9a869",
+    "title": "Sierra Leone's 400-year-old Cotton Tree was treasured national symbol with a Canadian connection",
+    "publisher": "The Globe and Mail (2023-05-28)",
+    "url": "https://www.theglobeandmail.com/world/article-sierra-leones-400-year-old-cotton-tree-was-treasured-national-symbol/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-apics-online-info-ca898a",
+    "title": "Survey chapter: Krio",
+    "publisher": "Atlas of Pidgin and Creole Language Structures Online (APiCS)",
+    "url": "https://apics-online.info/surveys/15",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-slpha-sl-6aea24",
+    "title": "Introduction to Queen Elizabeth II Quay proposed Development Projects",
+    "publisher": "Sierra Leone Ports Authority",
+    "url": "https://slpha.sl/wp-content/uploads/2023/09/slpa1.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-docomomojournal-com-4932ef",
+    "title": "African Agency and Colonial Committees at Fourah Bay College",
+    "publisher": "Docomomo Journal (2023-12-15)",
+    "url": "https://docomomojournal.com/index.php/journal/article/view/573",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-access-thebrightcontinent-org-8c564d",
+    "title": "Old Fourah Bay College Building: Mirroring the evolution of Freetown",
+    "publisher": "Bright Continent (Cleveland State University)",
+    "url": "https://access.thebrightcontinent.org/items/show/30",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-artsandculture-google-com-c6f029",
+    "title": "Sierra Leone's National Treasure",
+    "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
+    "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-10c271",
+    "title": "Storm fells symbolic 400-year-old cotton tree in Sierra Leone",
+    "publisher": "Al Jazeera (2023-05-25)",
+    "url": "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rspb-org-uk-a0ee29",
+    "title": "Celebrating on the world stage - Gola Rainforest joins World Heritage Site list",
+    "publisher": "RSPB (2025-07-14)",
+    "url": "https://www.rspb.org.uk/whats-happening/news/gola-world-heritage",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-trtafrika-com-b60735",
+    "title": "Sierra Leone's Tiwai Island added to UNESCO's World Heritage list",
+    "publisher": "TRT Afrika (2025)",
+    "url": "https://www.trtafrika.com/english/article/2729f8afcc6f",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africanews-com-df2489",
+    "title": "Sierra Leone's symbolic Cotton Tree destroyed in rain storm",
+    "publisher": "Africanews (2023-05-25)",
+    "url": "https://www.africanews.com/2023/05/25/sierra-leones-symbolic-cotton-tree-destroyed-in-rain-storm/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-premiermedia-sl-com-52ef81",
+    "title": "Sierra Leone: Old Fourah Bay College Building in state of disrepair",
+    "publisher": "Premier Media",
+    "url": "https://www.premiermedia-sl.com/sierra-leone-old-fourah-bay-college-building-in-state-of-disrepair/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-inseed-tg-0092c3",
+    "title": "Résultats définitifs du 5e recensement général de la population et de l'habitat (RGPH-5), dépliant",
+    "publisher": "INSEED (Institut national de la statistique et des études économiques et démographiques, Togo) (2023-04)",
+    "url": "https://inseed.tg/wp-content/uploads/2023/09/Depliant-Resultats-Definitifs_RGPH5_02Avril2023.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-togocultures-com-715473",
+    "title": "La restauration et la transformation de l'ancien Palais des Gouverneurs confirmées",
+    "publisher": "Togocultures",
+    "url": "https://togocultures.com/la-restauration-et-la-transformation-de-lancien-palais-des-gouverneurs-confirmees/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-togo-port-net-2898a1",
+    "title": "Historique du Port Autonome de Lomé",
+    "publisher": "Port Autonome de Lomé",
+    "url": "https://www.togo-port.net/presentation-pal/historique-port-autonome-togo/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-republiquetogolaise-tg-0a99d5",
+    "title": "100 premiers ports à conteneurs du monde : Lomé gagne encore une place (Lloyd's List 2025)",
+    "publisher": "République togolaise (site officiel) (2025-10-20)",
+    "url": "https://www.republiquetogolaise.tg/logistique/2210-11216-100-premiers-ports-a-conteneurs-du-monde-lome-gagne-encore-une-place-lloyd-s-list-2025",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theartnewspaper-com-bc8963",
+    "title": "Togo opens ground-breaking arts centre in former colonial palace",
+    "publisher": "The Art Newspaper (2019-11-26)",
+    "url": "https://www.theartnewspaper.com/2019/11/26/togo-opens-ground-breaking-arts-centre-in-former-colonial-palace",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tourisme-gouv-tg-a0f0de",
+    "title": "Marché des Fétiches de Lomé",
+    "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo)",
+    "url": "https://tourisme.gouv.tg/marche-des-fetiches-de-lome-plongez-au-coeur-du-mystere-vaudou-du-togo-le-plus-grand-marche-mystique-au-monde/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-9ea0c8",
+    "title": "Il était une fois un palais à Lomé",
+    "publisher": "Jeune Afrique",
+    "url": "https://www.jeuneafrique.com/mag/363538/economie-entreprises/etait-palais-a-lome/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-togopresse-tg-7afeba",
+    "title": "La présidente de l'Assemblée nationale lance les travaux de reconstruction du grand marché de Lomé",
+    "publisher": "Togopresse (République togolaise)",
+    "url": "https://togopresse.tg/la-presidente-de-lassemblee-nationale-lance-les-travaux-de-reconstruction-du-grand-marche-de-lome/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-culturalheritageonline-com-1bbf35",
+    "title": "Koutammakou - The Land of the Batammariba",
+    "publisher": "Cultural Heritage Online (2026-06-19)",
+    "url": "https://culturalheritageonline.com/places/koutammakou-togo/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tourisme-gouv-tg-8ff923",
+    "title": "Flamme Éternelle de Lomé : Le Monument de l'Indépendance",
+    "publisher": "Ministère du Tourisme, de la Culture et des Arts (Togo) (2025-11-15)",
+    "url": "https://tourisme.gouv.tg/flamme-eternelle-de-lome-le-monument-de-lindependance-coeur-battant-du-togo/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e",
+    "title": "Synthèse des études thématiques (Tchad), juin 2012",
+    "publisher": "Facilitation canadienne / Commission des forêts d'Afrique centrale (CCR-RAC), citing INSEED RGPH2 (2012-06)",
+    "url": "https://archive-ccr-rac.pfbc-cbfp.org/docs/research_docs/Facilitation%20canadienne%202011/TCHAD_DT7_Synthese_Juin2012_PourImpression.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebsco-com-d5026d",
+    "title": "N'Djamena, Chad",
+    "publisher": "EBSCO Research Starters",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/ndjamena-chad/",
+    "tier": "encyclopedia",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tecormedias-com-b587cb",
+    "title": "Mosquée Roi Fayçal, un patrimoine au cœur de l'histoire et de l'environnement urbain de N'Djaména",
+    "publisher": "Técor Média (2026-09-02)",
+    "url": "https://www.tecormedias.com/mosquee-roi-faycal-un-patrimoine-au-coeur-de-lhistoire-et-de-lenvironnement-urbain-de-ndjamena/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-alwihdainfo-com-746a51",
+    "title": "Tchad-France : 25 ans de coopération scientifique autour de Toumaï",
+    "publisher": "Alwihda Info (2026)",
+    "url": "https://www.alwihdainfo.com/tchad-france-25-ans-de-cooperation-scientifique-autour-de-toumai/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-flashtchad-com-90fd0a",
+    "title": "Bientôt 2 semaines, le marché central est plongé dans le noir",
+    "publisher": "Flashtchad (2024-04-24)",
+    "url": "https://flashtchad.com/bientot-2-semaines-le-marche-central-est-plonge-dans-le-noir/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-beglobality-com-a5729a",
+    "title": "Musée National du Tchad (National Museum of Chad)",
+    "publisher": "Beglobality",
+    "url": "https://beglobality.com/locations/musee-national-du-tchad-national-museum-of-chad/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-explore-chad-org-45eefa",
+    "title": "The Lakes of Ounianga - UNESCO World Heritage Site",
+    "publisher": "Explore Chad",
+    "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ncbi-nlm-nih-gov-1bcd7b",
+    "title": "High prevalence of urinary schistosomiasis in a desert population: results from an exploratory study around the Ounianga lakes in Chad",
+    "publisher": "PLOS / PubMed Central (peer-reviewed) (2022)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8740043/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-getaway-co-za-1c45c2",
+    "title": "Zakouma: The Chadian national park that became a conservation comeback story",
+    "publisher": "Getaway",
+    "url": "https://www.getaway.co.za/destinations/national-parks/zakouma-the-chadian-national-park-that-became-a-conservation-comeback-story/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-actionforelephantsuk-org-a57492",
+    "title": "Elephants make a comeback in Chad's national park",
+    "publisher": "Action for Elephants UK",
+    "url": "https://www.actionforelephantsuk.org/african-elephants-comeback-zakouma-chad/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-flashtchad-com-a9b1e5",
+    "title": "Tchad : la fête de l'indépendance célébrée à N'Djamena",
+    "publisher": "Flashtchad (2024-08-12)",
+    "url": "https://flashtchad.com/tchad-la-fete-de-lindependance-celebree-a-ndjamena/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-seneweb-com-e34ffe",
+    "title": "Tchad : 65 ans d'indépendance célébrés à N'Djamena",
+    "publisher": "Seneweb (2025-08-11)",
+    "url": "https://www.seneweb.com/fr/news/Afrique/tchad-65-ans-dindependance-celebres-a-ndjamena_n_464715.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ireda-ceped-org-7dd88d",
+    "title": "Recensement général de la population 1988 : principaux résultats, analyse",
+    "publisher": "Ministère du Plan, République centrafricaine (via IREDA/CEPED)",
+    "url": "https://ireda.ceped.org/inventaire/ressources/caf-1988-rec-o2_principaux_resultats_analyse.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-radiondekeluka-org-bff4cc",
+    "title": "Bangui a 135 ans : la capitale centrafricaine a gagné en superficie et population",
+    "publisher": "Radio Ndeke Luka (2024-06-26)",
+    "url": "https://www.radiondekeluka.org/70217-bangui-a-135-ans-et-sa-population-est-de-plus-en-plus-nombreuse",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unhabitat-org-f7a4f6",
+    "title": "Bangui (fiche ville)",
+    "publisher": "UN-Habitat (2019)",
+    "url": "https://unhabitat.org/sites/default/files/2022/07/bangui_fr.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unhabitat-org-4b9e57",
+    "title": "Central African Republic country brief",
+    "publisher": "UN-Habitat (2023)",
+    "url": "https://unhabitat.org/sites/default/files/2023/07/car_country_brief_fr.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-radiondekeluka-org-106082",
+    "title": "Vers une navigation en toute saison entre Bangui et Brazzaville",
+    "publisher": "Radio Ndeke Luka (2012-07-22)",
+    "url": "https://www.radiondekeluka.org/10105-vers-une-navigation-en-toute-saison-entre-bangui-et-brazzaville",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-radiondekeluka-org-9e8487",
+    "title": "Bangui : à la découverte « des taximen de la rivière » sur l’Oubangui",
+    "publisher": "Radio Ndeke Luka (2021-07-18)",
+    "url": "https://www.radiondekeluka.org/37203-bangui-a-la-decouverte-des-taximen-de-la-riviere-sur-l-oubangui",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-journaldebangui-com-ce6d01",
+    "title": "RCA : une date d’indépendance qui en cache une autre",
+    "publisher": "Journal de Bangui (source RFI) (2021-08-13)",
+    "url": "https://www.journaldebangui.com/rca-une-date-dindependance-qui-en-cache-une-autre/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rtbf-be-794a8c",
+    "title": "Le sacre impérial de Bokassa en Centrafrique en 1977",
+    "publisher": "RTBF (2023)",
+    "url": "https://www.rtbf.be/article/le-sacre-imperial-de-bokassa-en-centrafrique-en-1977-signe-avant-coureur-de-l-echec-francais-en-afrique-11295891",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-radiookapi-net-8421b2",
+    "title": "Centrafrique: les rebelles prennent Bangui, Bozizé fuit en RDC",
+    "publisher": "Radio Okapi (AFP via Romandie) (AFP · 2013-03-24)",
+    "url": "https://www.radiookapi.net/lu-sur-le-web/2013/03/24/centrafrique-les-rebelles-prennent-bangui-bozize-fuit-en-rdc-afp-romandie",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-vatican-va-3429f4",
+    "title": "Ouverture de la Porte Sainte de la cathédrale de Bangui et messe (29 novembre 2015)",
+    "publisher": "Le Saint-Siège (Pape François · 2015-11-29)",
+    "url": "https://www.vatican.va/content/francesco/fr/homilies/2015/documents/papa-francesco_20151129_repcentrafricana-omelia-cattedrale-bangui.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-mongabay-com-730ac6",
+    "title": "Conservation comeback in Central African Republic’s Manovo-Gounda St Floris National Park (commentary)",
+    "publisher": "Mongabay (2024-03)",
+    "url": "https://news.mongabay.com/2024/03/conservation-comeback-in-central-african-republic-manovo-gounda-st-floris-national-park-commentary/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ecofinagency-com-caf841",
+    "title": "Manovo-Gounda-St Floris, the forgotten giant of Central Africa’s savannas",
+    "publisher": "Ecofin Agency",
+    "url": "https://www.ecofinagency.com/news-tourism/0202-52473-manovo-gounda-st-floris-the-forgotten-giant-of-central-africa-s-savannas",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-gcatholic-org-515fbc",
+    "title": "Cathédrale Notre-Dame de l’Immaculée Conception, Bangui",
+    "publisher": "GCatholic",
+    "url": "https://gcatholic.org/churches/africa/1947.htm",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africa24tv-com-8cf5dd",
+    "title": "Centrafrique - Présidentielle 2025 : à la découverte du musée national Barthélemy Boganda",
+    "publisher": "Africa24 TV",
+    "url": "https://africa24tv.com/centrafrique-presidentielle-2025-a-la-decouverte-du-musee-national-barthelemy-boganda",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cgvs-be-341af6",
+    "title": "COI Focus République centrafricaine : situation sécuritaire à Bangui",
+    "publisher": "CGVS / Commissariat général aux réfugiés et aux apatrides (Belgique) (2026-01-21)",
+    "url": "https://www.cgvs.be/sites/default/files/rapporten/coi_focus_republique_centrafricaine_rca._situation_securitaire_a_bangui_20260121.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-observador-pt-60a0db",
+    "title": "Luanda é o município mais populoso de Angola, mas tem apenas 67 homens por cada 100 mulheres",
+    "publisher": "Observador (Lusa) (2016-09-22)",
+    "url": "https://observador.pt/2016/09/22/luanda-e-mais-populosa-de-angola-mas-tem-apenas-67-homens-por-cada-100-mulheres/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ensina-rtp-pt-6f38b1",
+    "title": "A fundação da cidade de Luanda",
+    "publisher": "RTP Ensina (2017)",
+    "url": "https://ensina.rtp.pt/artigo/a-fundacao-da-cidade-de-luanda/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ler-letras-up-pt-873e6b",
+    "title": "Escravos de mar em fora. As condições de transporte no tráfico negreiro",
+    "publisher": "Universidade do Porto (Faculdade de Letras)",
+    "url": "https://ler.letras.up.pt/uploads/ficheiros/20131.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ine-gov-ao-2fb483",
+    "title": "Anuário de Estatísticas Sociais 2017 - 2022",
+    "publisher": "Instituto Nacional de Estatística de Angola (INE)",
+    "url": "https://www.ine.gov.ao/Arquivos/arquivosCarregados/Carregados/Publicacao_638494600314523505.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ine-gov-ao-4964c1",
+    "title": "Anuário Estatístico do Sector dos Transportes",
+    "publisher": "Ministério dos Transportes de Angola (GEPE) (2021)",
+    "url": "https://ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_638834214670897003.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-museuexea-org-c0b225",
+    "title": "Fortaleza de São Miguel (Saint Michael Fortress / Fort Aardenburgh)",
+    "publisher": "Museu EXEA",
+    "url": "https://www.museuexea.org/fortificacoes/fortaleza-de-sao-miguel",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-radioecclesia-org-caf6fb",
+    "title": "Angola 37 anos de Independência",
+    "publisher": "Rádio Ecclesia (2012)",
+    "url": "https://www.radioecclesia.org/angola/politica/11249-angola-37-anos-de-independencia-",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africadosul-mirex-gov-ao-de526d",
+    "title": "Angola comemora 49 anos de Independência",
+    "publisher": "Embaixada de Angola na África do Sul (MIREX) (2024)",
+    "url": "https://africadosul.mirex.gov.ao/web/noticias/angola-comemora-49-anos-de-independencia",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-observalinguaportuguesa-org-78f81b",
+    "title": "Centro histórico de Mbanza Congo entra na lista de património da UNESCO",
+    "publisher": "Observatório da Língua Portuguesa (Lusa) (2017-07-08)",
+    "url": "https://observalinguaportuguesa.org/centro-historico-de-mbanza-congo-entra-na-lista-de-patrimonio-da-unesco/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-brasil-un-org-394cc5",
+    "title": "Mbanza Kongo, em Angola, recebe título de Patrimônio Mundial da UNESCO",
+    "publisher": "Nações Unidas no Brasil (2017)",
+    "url": "https://brasil.un.org/pt-br/77039-mbanza-kongo-em-angola-recebe-t%C3%ADtulo-de-patrim%C3%B4nio-mundial-da-unesco",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-vaticannews-va-7c95d2",
+    "title": "Uma visita ao Museu Nacional da Escravatura em Luanda",
+    "publisher": "Vatican News (2026-05-18)",
+    "url": "https://www.vaticannews.va/pt/africa/news/2026-05/uma-visita-ao-museu-nacional-da-escravatura-em-luanda.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-welcometoangola-co-ao-b9f195",
+    "title": "Visitar o Museu Nacional da Escravatura: Luanda",
+    "publisher": "Welcome To Angola",
+    "url": "https://welcometoangola.co.ao/en/directorio/museu-nacional-da-escravatura/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-correiodamanhacanada-com-5a206d",
+    "title": "Nova Marginal de Luanda conquista 120 metros ao mar e obriga a realojar 2.000 famílias",
+    "publisher": "Correio da Manhã Canadá (Lusa)",
+    "url": "https://www.correiodamanhacanada.com/nova-marginal-de-luanda-conquista-120-metros-ao-mar-e-obriga-a-realojar-2-000-familias/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-novojornal-co-ao-418cef",
+    "title": "Estado paga 379 milhões de dólares para salvar requalificação da baía de Luanda",
+    "publisher": "Novo Jornal (Lusa) (2017-02-24)",
+    "url": "https://www.novojornal.co.ao/economia/detalhe/estado-paga-379-milhoes-de-dolares-para-salvar-requalificacao-da-baia-de-luanda-12185.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-economie-ivoirienne-ci-fd46a8",
+    "title": "District Autonome de Yamoussoukro",
+    "publisher": "Ministère de l'Économie, des Finances et du Budget (DGE), Côte d'Ivoire - source des données : INS (ANStat), RGPH 2021 (2025)",
+    "url": "https://economie-ivoirienne.ci/pole-competitif/district-autonome-de-yamoussoukro.html",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rezoivoire-net-16bdfc",
+    "title": "Kami, N'Gokro et les Boigny : deux villages, un nom et une histoire intimement liée",
+    "publisher": "Rezo-Ivoire",
+    "url": "https://rezoivoire.net/ivoire/patrimoine/1641/kami-ngokro-et-les-boigny-deux-villages-un-nom-et-une-histoire-intimement-liee-2.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-csmonitor-com-d35bd9",
+    "title": "Grateful Ivory Coast turns President's home town into majestic capital",
+    "publisher": "The Christian Science Monitor (1983-04-08)",
+    "url": "https://www.csmonitor.com/1983/0408/040864.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-uirtus-net-635653",
+    "title": "Problématique du transfert effectif de la capitale politique et administrative à Yamoussoukro (Côte d'Ivoire) : 1983-2017",
+    "publisher": "UIRTUS (revue académique) (Kouakou Didié · 2021)",
+    "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
+    "tier": "academic",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lebanco-net-2c227c",
+    "title": "Lacs Yamoussoukro : des rôles touristiques et mystiques",
+    "publisher": "Lebanco.net (Robert-Patrice Zouhou · 2020-11-12)",
+    "url": "https://www.lebanco.net/news/41431-cote-divoire-lacs-yamoussoukro-1-des-roles-touristiques-et-mystiques.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-2bdc37",
+    "title": "Côte d'Ivoire : les « caïmans du président », impressionnants et incontournables",
+    "publisher": "Le360 Afrique (AFP) (AFP · 2024-02-01)",
+    "url": "https://afrique.le360.ma/culture/cote-divoire-les-caimans-du-president-impressionnants-et-incontournables_HD22ORQDWZE2DFMLYVHNZSNWRM/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-abidjan-net-7901b4",
+    "title": "Basilique de Yamoussoukro : 25 ans après, ce que devient la basilique Notre Dame de la Paix",
+    "publisher": "Abidjan.net News (AIP)",
+    "url": "https://news.abidjan.net/articles/551338/basilique-de-yamoussoukro-25-ans-apres-ce-que-devient-la-basilique-notre-dame-de-la-paix",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-irenees-net-65b5fd",
+    "title": "Fondation Félix Houphouët-Boigny pour la Recherche de la paix (FHB)",
+    "publisher": "Irénées.net",
+    "url": "https://www.irenees.net/bdf_fiche-acteurs-747_fr.html",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-pulse-ci-227294",
+    "title": "Grand-Bassam : découvrez l'histoire fascinante de la première capitale ivoirienne",
+    "publisher": "Pulse Côte d'Ivoire (2025-09-24)",
+    "url": "https://www.pulse.ci/article/grand-bassam-decouvrez-lhistoire-fascinante-de-la-premiere-capitale-ivoirienne-2025092402352802134",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-exhibitions-psu-edu-cdfa4f",
+    "title": "Mudcloth from Mali",
+    "publisher": "Pennsylvania State University, Sad Purple and Mauve exhibition (William J. Dewey)",
+    "url": "https://exhibitions.psu.edu/s/sad-purple-and-mauve/page/mudcloth-from-mali",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-biennialfoundation-org-4e840a",
+    "title": "Dak’Art: African Contemporary Art Biennale (Senegal)",
+    "publisher": "Biennial Foundation (text sourced from biennaledakar.org)",
+    "url": "https://biennialfoundation.org/biennials/dak%E2%80%99art-the-biennial-of-the-contemporary-african-art/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-publications-menil-org-fb8fd6",
+    "title": "The Dynamism of Dogon Masks and Mask Performances",
+    "publisher": "The Menil Collection (Polly Richards)",
+    "url": "https://publications.menil.org/recollecting-dogon/dogon-now/dynamism-of-dogon-masks-polly-richards/index.html",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-collection-lacharriere-quaibranly-fr-2ba249",
+    "title": "Zoomorphic mask 'black monkey', Dogon",
+    "publisher": "Musée du quai Branly - Jacques Chirac",
+    "url": "https://collection-lacharriere.quaibranly.fr/en/black-monkey-zoomorphic-mask",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-artdaily-com-487ecf",
+    "title": "UNESCO to restore Mali's conflict-hit Bandiagara site",
+    "publisher": "AFP via ArtDaily",
+    "url": "https://artdaily.com/news/127104/UNESCO-to-restore-Mali-s-conflict-hit-Bandiagara-site",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theafricanmirror-africa-d4e30f",
+    "title": "Museum of the Bamoun Kings: ancient treasures from Cameroon find a spectacular new home",
+    "publisher": "The African Mirror (2024-12-20)",
+    "url": "https://theafricanmirror.africa/news/museum-of-the-bamoun-kings-ancient-treasures-from-cameroon-find-a-spectacular-new-home/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-voanews-com-ee03fc",
+    "title": "Cameroon opens museum honoring oldest sub-Saharan kingdom",
+    "publisher": "Voice of America (AFP) (2024-04-14)",
+    "url": "https://www.voanews.com/a/cameroon-opens-museum-honoring-oldest-sub-saharan-kingdom/7569526.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mg-co-za-8336c4",
+    "title": "Nearly 800 years later, the fires of the Benin bronze casters still blaze",
+    "publisher": "Mail & Guardian (2022-06-28)",
+    "url": "https://mg.co.za/news/africa/2022-06-28-nearly-800-years-later-the-fires-of-the-benin-bronze-casters-still-blaze/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cambridge-org-694d4d",
+    "title": "Kente Weaving Among Akan and Ewe Peoples of Ghana: A Gender-Based Insight into Embedded Intangible Cultural Heritage and Implications for th",
+    "publisher": "International Journal of Cultural Property 31(2), Cambridge University Press (Chidi Oguamanam and Angela Yeboah-Appiah · 2024)",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/657EC231EDB91E137E01C9886D5A857E/S0940739124000213a.pdf/kente-weaving-among-akan-and-ewe-peoples-of-ghana-a-gender-based-insight-into-embedded-intangible-cultural-heritage-and-implications-for-the-implementation-of-the-unesco-intangible-cultural-heritage-c.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-eusa-org-10b79b",
+    "title": "The Legend of Kente",
+    "publisher": "Exhibits USA (Mid-America Arts Alliance)",
+    "url": "https://eusa.org/exhibition/the-legend-of-kente/",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-gbcghanaonline-com-77ac15",
+    "title": "Samira Bawumia inaugurates Bonwire Kente Museum",
+    "publisher": "Ghana Broadcasting Corporation (GBC Ghana Online) (Nicholas Osei-Wusu · 2024-01-11)",
+    "url": "https://www.gbcghanaonline.com/general/samira-bawumia-inaugurates-bonwire-kente-museum/2024/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-webexhibits-org-a4bca5",
+    "title": "Kente Cloth",
+    "publisher": "WebExhibits (Institute for Dynamic Educational Advancement)",
+    "url": "https://www.webexhibits.org/colorart/african-kente.html",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-collections-vam-ac-uk-dbb360",
+    "title": "Kuba cloth",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O89315/kuba-cloth-kuba-cloth-unknown/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-collectionstories-museum-gwu-edu-7c0323",
+    "title": "Skirt from the Kuba Kingdom",
+    "publisher": "The George Washington University Museum and The Textile Museum (2020-10-09)",
+    "url": "https://collectionstories.museum.gwu.edu/?p=425",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mcclungmuseum-utk-edu-ba92d8",
+    "title": "#OnDisplay: Raffia Cloth",
+    "publisher": "McClung Museum of Natural History & Culture, University of Tennessee (2020-07-22)",
+    "url": "https://mcclungmuseum.utk.edu/2020/07/22/ondisplay-raffia-cloth",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-collections-lacma-org-f26e64",
+    "title": "Ceremonial Textile Panels and Skirts",
+    "publisher": "Los Angeles County Museum of Art",
+    "url": "https://collections.lacma.org/object/150159",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ditsong-org-za-af09a3",
+    "title": "The Mapiko Masks",
+    "publisher": "Ditsong National Museum of Cultural History, Pretoria (Motsane Getrude Seabela · 2020-09-21)",
+    "url": "https://ditsong.org.za/en/the-mapiko-masks/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-field-journal-com-d69a79",
+    "title": "Artesãos da Nossa Pátria: Makonde Blackwood Sculptors, Cooperatives, and the Art of Socialist Revolution in Post-Colonial Mozambique",
+    "publisher": "FIELD: A Journal of Socially-Engaged Art Criticism, issue 6 (first published in Kasfir and Förster, African Art and Agency in the Workshop, Indiana University Press, 2013) (Alexander Bortolot · 2017)",
+    "url": "https://field-journal.com/issue-6/artesaos-da-nossa-patria-makonde-blackwood-sculptors-cooperatives-and-the-art-of-socialist-revolution-in-post-colonial-mozambique/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sahistory-org-za-8386a2",
+    "title": "Ndebele",
+    "publisher": "South African History Online",
+    "url": "https://sahistory.org.za/article/ndebele",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-culturalsurvival-org-45f0e5",
+    "title": "The Commodification Of Art: Ndebele Women in the Stream of Change",
+    "publisher": "Cultural Survival Quarterly 24.4 (Adrienne Hoard · 2010-04-09 (web page date))",
+    "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/commodification-art-ndebele-women-stream-change",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sahistory-org-za-151f4a",
+    "title": "Esther Mahlangu",
+    "publisher": "South African History Online",
+    "url": "https://sahistory.org.za/people/esther-mahlangu",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-traffickingculture-org-e4009d",
+    "title": "Nok Terracottas",
+    "publisher": "Trafficking Culture (University of Glasgow) (Neil Brodie; Donna Yates · 2012-08-21)",
+    "url": "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-zeitzmocaa-museum-181d90",
+    "title": "Our Story",
+    "publisher": "Zeitz MOCAA",
+    "url": "https://zeitzmocaa.museum/about/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailymaverick-co-za-5722b2",
+    "title": "Zeitz MOCAA, Cape Town's new art museum, stuns and provokes",
+    "publisher": "Daily Maverick (Rebecca Davis · 2017-09-26)",
+    "url": "https://www.dailymaverick.co.za/article/2017-09-26-zeitz-mocaa-cape-towns-new-art-museum-stuns-and-provokes/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
   }
 ]

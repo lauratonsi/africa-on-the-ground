@@ -5,12 +5,55 @@
   "country": "TGO",
   "name": "Monument de l'Indépendance",
   "region": "Lomé · Togo",
-  "subtitle": "Sculpted memorial plaza designed by Georges Coustère commemorating Togolese freedom on 27 April 1960.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A ten-metre monument in Lomé commemorating independence on 27 April 1960, topped by a female bust that holds up the flame of freedom.",
+  "facts": [
+    {
+      "label": "Height",
+      "value": "About 10 metres",
+      "cite": [
+        "cap-tourisme-gouv-tg-8ff923"
+      ]
+    },
+    {
+      "label": "Designers",
+      "value": "Georges Coustère, finished by Paul Ahyi",
+      "cite": [
+        "cap-tourisme-gouv-tg-8ff923"
+      ]
+    },
+    {
+      "label": "Flame",
+      "value": "Rekindled every 27 April",
+      "cite": [
+        "cap-tourisme-gouv-tg-8ff923"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A ten-metre monument in Lomé commemorating independence on 27 April 1960, topped by a female bust that holds up the flame of freedom.",
+              "cite": [
+                "cap-tourisme-gouv-tg-8ff923"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

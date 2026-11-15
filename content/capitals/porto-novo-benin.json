@@ -6,9 +6,21 @@
   "subtitle": "Porto-Novo, capital of Benin: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The Musée Honmè and Alexandre Adandé Museum safeguard centuries of royal Gun regalia and sacred Yoruba Gèlèdé masks.",
+      "text": "About 264,320 people live in the town of Porto-Novo (counted 2013).",
       "cite": [
-        "cap-unesco-honme-museum"
+        "cap-memoireonline-com-e39219"
+      ]
+    },
+    {
+      "text": "Porto-Novo is the city of three names: Adjatchè for the Yoruba, Hogbonou for the Fon, Goun and Ayizo, and Porto-Novo, the name given by Europeans.",
+      "cite": [
+        "cap-gouv-bj-44b2f2"
+      ]
+    },
+    {
+      "text": "The name Porto-Novo was given in 1730 because of a resemblance to the city of Porto.",
+      "cite": [
+        "cap-gouv-bj-44b2f2"
       ]
     }
   ],
@@ -18,11 +30,305 @@
     "musee-honme-porto-novo",
     "musee-ethnographique-adande-porto-novo"
   ],
-  "sections": [],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Porto-Novo in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Porto-Novo is the city of three names: Adjatchè for the Yoruba, Hogbonou for the Fon, Goun and Ayizo, and Porto-Novo, the name given by Europeans.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The name Porto-Novo was given in 1730 because of a resemblance to the city of Porto.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Hogbonu was founded in the 16th century by Aja princes who left Allada after Allada was taken by the kingdom of Abomey.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Porto-Novo lies in south-east Benin, 30 km from Cotonou and 12 km from the Nigerian border.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Goun and Yoruba people make up more than 80 per cent of the population, alongside Aja, Toffin, Mina and other groups.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Porto-Novo is one of the three communes with a special status in Benin.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Its status as capital was confirmed after independence in 1960, and the National Assembly sits in the Governors' Palace where independence was proclaimed.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2009 the city counted 450 Afro-Brazilian buildings; by 2016 fewer than 400 were left.",
+              "cite": [
+                "cap-saudigazette-com-sa-a31a4e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Porto-Novo was once a great kingdom alongside Abomey.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city's rhythms such as AkoNhoun, Adjogan and Kaka continue to be performed by groups such as the Ballet de la capitale and Ashakata.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "264,320",
+              "label": "people in the town of Porto-Novo, 2013",
+              "cite": [
+                "cap-memoireonline-com-e39219"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the town of Porto-Novo?",
+          "min": 0,
+          "max": 800000,
+          "step": 4000,
+          "unit": "",
+          "answer": 264320,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "264,320 in 2013, according to the figures compiled from the national statistics office. Which area is counted matters: Town (ville) of Porto-Novo, RGPH4 2013 total population, as reproduced in a master thesis table of the successive censuses (1961: 64,000; 1979: 133,168; 1992: 179,138; 2002: 223,552); the INSAE/INStaD primary pages returned HTTP 503 and could not be read.",
+              "cite": [
+                "cap-memoireonline-com-e39219"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "16th century",
+              "tag": "origins",
+              "text": "Hogbonu was founded by Aja princes from Allada.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "1730",
+              "tag": "origins",
+              "text": "The city was baptised Porto-Novo because of its resemblance to Porto.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "1863",
+              "tag": "growth",
+              "text": "King Soji signed a first protectorate treaty with the French.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "1882",
+              "tag": "growth",
+              "text": "A second treaty with King Toffa I marked the installation of the French colonial administration.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "colonial period",
+              "tag": "growth",
+              "text": "The French created the colony of Dahomey, of which Porto-Novo became the capital.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "1943",
+              "tag": "growth",
+              "text": "Benin's first museum was created by IFAN in 1943 to popularise the history of the kings of Danhomè (the Abomey museum).",
+              "cite": [
+                "cap-academieoutremer-fr-ed1973"
+              ]
+            },
+            {
+              "when": "1960",
+              "tag": "growth",
+              "text": "Porto-Novo kept its capital status after the independence of Benin in 1960.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "when": "1966",
+              "tag": "growth",
+              "text": "The Alexandre Sènou Adandé Ethnographic Museum was created by the IRAD in 1966, according to this account.",
+              "cite": [
+                "cap-academieoutremer-fr-ed1973"
+              ]
+            },
+            {
+              "when": "1988",
+              "tag": "today",
+              "text": "The Musée Honmè was created in 1988 in the palace of the former kings of Hogbonou.",
+              "cite": [
+                "cap-academieoutremer-fr-ed1973"
+              ]
+            },
+            {
+              "when": "2013",
+              "tag": "today",
+              "text": "The 2013 census (RGPH4) counted 264,320 inhabitants in the town of Porto-Novo.",
+              "cite": [
+                "cap-memoireonline-com-e39219"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Porto-Novo in order.",
+          "items": [
+            {
+              "label": "Hogbonu was founded by Aja princes from Allada.",
+              "when": "16th century",
+              "text": "Hogbonu was founded by Aja princes from Allada.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "label": "A second treaty with King Toffa I marked the installation of the French…",
+              "when": "1882",
+              "text": "A second treaty with King Toffa I marked the installation of the French colonial administration.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "label": "Porto-Novo kept its capital status after the independence of Benin in 1960.",
+              "when": "1960",
+              "text": "Porto-Novo kept its capital status after the independence of Benin in 1960.",
+              "cite": [
+                "cap-gouv-bj-44b2f2"
+              ]
+            },
+            {
+              "label": "The 2013 census (RGPH4) counted 264,320 inhabitants in the town of Porto-Novo.",
+              "when": "2013",
+              "text": "The 2013 census (RGPH4) counted 264,320 inhabitants in the town of Porto-Novo.",
+              "cite": [
+                "cap-memoireonline-com-e39219"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Final analytical data from the 5th general census (RGPH-5) are pending completion by INSAE.",
-    "First-hand local voices from master artisans of the Aguda district and Gèlèdé mask carvers are missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Population: INSAE/INStaD (instad.bj) census pages were all HTTP 503 during the session, so the 264,320 figure (RGPH4, 2013) is verified only on a master thesis that reproduces the census series; the INSAE primary page was not readable. Not using citypopulation.de.",
+    "Not found in a readable source: Royal Palaces of Abomey and Musée Honmè: UNESCO pages (whc.unesco.org) returned 403; Getty and other pages found only by search could not be fetched; the Abomey quote on guided visits in.",
+    "Not found in a readable source: Date conflict: one source (academieoutremer) says the MEASA was created in 1966 by the IRAD, but also footnotes that it was the second national museum created in 1957; other pages give 1957. Not resolved.",
+    "Not found in a readable source: Date of construction of the Grande Mosquée: sources disagree (1906-1912, 1911-1935, 1912-1925); not recorded.",
+    "Not found in a readable source: No well-sourced myth-or-fact item found for Porto-Novo. Further web searches were not possible (search budget used up).",
+    "Left out because only weak or unofficial sources supported them (2 items, for example: Musée Honmè (Palais Royal de Hogbonou) - Former residence: King Toffa I, popularly known a).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Benin has read this profile yet."
   ]
 }

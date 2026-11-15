@@ -5,12 +5,48 @@
   "country": "SEN",
   "name": "Monument de la Renaissance africaine",
   "region": "Dakar · Senegal",
-  "subtitle": "Colossal 52-metre bronze statue rising above the Mamelles hills in Ouakam, inaugurated in 2010.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A 49-metre bronze statue in Dakar, unveiled on 3 April 2010 and meant to symbolise the triumph of African liberation.",
+  "facts": [
+    {
+      "label": "Height",
+      "value": "49 m (other sources: 52 m)",
+      "cite": [
+        "cap-africanews-com-1391ea"
+      ]
+    },
+    {
+      "label": "Unveiled",
+      "value": "3 April 2010",
+      "cite": [
+        "cap-africanews-com-1391ea"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A 49-metre bronze statue in Dakar, unveiled on 3 April 2010 and meant to symbolise the triumph of African liberation. Some sources give a different height of 52 metres.",
+              "cite": [
+                "cap-africanews-com-1391ea"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

@@ -6,9 +6,21 @@
   "subtitle": "N'Djamena, capital of Chad: its numbers, a short history and places to see beyond the World Heritage list.",
   "keyPoints": [
     {
-      "text": "The Musée National houses the cast of Toumaï (~7 million years old), one of the earliest hominids known to science.",
+      "text": "About 993,492 people live in N'Djamena (the 2009 census) (counted 2009).",
       "cite": [
-        "cap-unesco-chad-heritage"
+        "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+      ]
+    },
+    {
+      "text": "N'Djamena was founded by the French in 1900 and was originally called Fort Lamy.",
+      "cite": [
+        "cap-ebsco-com-d5026d"
+      ]
+    },
+    {
+      "text": "In 1973 President François Tombalbaye renamed the city N'Djamena as part of his 'Africanization' project.",
+      "cite": [
+        "cap-ebsco-com-d5026d"
       ]
     }
   ],
@@ -21,6 +33,152 @@
     "place-de-la-nation-ndjamena"
   ],
   "sections": [
+    {
+      "id": "city",
+      "title": "N'Djamena in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "N'Djamena was founded by the French in 1900 and was originally called Fort Lamy.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1973 President François Tombalbaye renamed the city N'Djamena as part of his 'Africanization' project.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "N'Djamena lies on the banks of the Chari River, directly across from Kousséri in Cameroon, and is Chad's chief export centre.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Chari and Logone rivers meet near N'Djamena; both feed Lake Chad.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "N'Djamena has ten arrondissements comprising 64 quartiers.",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "N'Djamena's population was 530,965 in 1993, or 8.5 per cent of Chad's population, according to the 2012 thematic synthesis.",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fort-Lamy already had a first mosque in 1910, in front of the governor's office, built with the colony's financial support.",
+              "cite": [
+                "cap-tecormedias-com-b587cb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A mosque was built from the local budget in 1939-1940 at the junction of the Ambassatna, Gardolé and Mardjandafack districts.",
+              "cite": [
+                "cap-tecormedias-com-b587cb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Toumaï skull (Sahelanthropus tchadensis) was found on 19 July 2001 in the Djourab desert by a Franco-Chadian team led by Michel Brunet.",
+              "cite": [
+                "cap-alwihdainfo-com-746a51"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The central market of N'Djamena is commonly called 'souk kabir'.",
+              "cite": [
+                "cap-flashtchad-com-90fd0a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "993,492",
+              "label": "people in N'Djamena (the 2009 census), 2009",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in N'Djamena (the 2009 census)?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 993492,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "993,492 in 2009, according to the figures compiled from the national statistics office. Which area is counted matters: Ville de N'Djamena (ten arrondissements, 64 quartiers) at the 2009 second national census (RGPH2); other publications give 951,418 or 963,657 for the same census.",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "history",
       "title": "A short history",
@@ -43,27 +201,121 @@
           ],
           "items": [
             {
-              "when": "1962",
-              "tag": "growth",
-              "text": "The Musée National du Tchad is founded, preserving ancient Sao culture.",
+              "when": "1900",
+              "tag": "origins",
+              "text": "The French founded the city as Fort Lamy.",
               "cite": [
-                "cap-unesco-chad-heritage"
+                "cap-ebsco-com-d5026d"
               ]
             },
             {
-              "when": "1978",
-              "tag": "growth",
-              "text": "The Grande Mosquée Fayçal opens opposite the Grand Marché.",
+              "when": "1910",
+              "tag": "origins",
+              "text": "Fort-Lamy had its first mosque, in front of the governor's office.",
               "cite": [
-                "cap-unesco-chad-heritage"
+                "cap-tecormedias-com-b587cb"
+              ]
+            },
+            {
+              "when": "1939-1940",
+              "tag": "growth",
+              "text": "A mosque was built from the local budget in the centre of Fort-Lamy.",
+              "cite": [
+                "cap-tecormedias-com-b587cb"
+              ]
+            },
+            {
+              "when": "1972",
+              "tag": "growth",
+              "text": "King Faisal of Saudi Arabia visited Chad at President Tombalbaye's invitation.",
+              "cite": [
+                "cap-tecormedias-com-b587cb"
+              ]
+            },
+            {
+              "when": "1973",
+              "tag": "growth",
+              "text": "Tombalbaye renamed Fort Lamy as N'Djamena.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
               ]
             },
             {
               "when": "2001",
               "tag": "today",
-              "text": "Fossil skull of Toumaï is discovered, later displayed in cast at the Musée National.",
+              "text": "The Toumaï skull was found in the Djourab desert by a Franco-Chadian team.",
               "cite": [
-                "cap-unesco-chad-heritage"
+                "cap-alwihdainfo-com-746a51"
+              ]
+            },
+            {
+              "when": "2009",
+              "tag": "today",
+              "text": "The second census counted 993,492 inhabitants in the city.",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            },
+            {
+              "when": "2010",
+              "tag": "today",
+              "text": "The National Museum moved into a modern purpose-built complex near the National Assembly and the National Library.",
+              "cite": [
+                "cap-beglobality-com-a5729a"
+              ]
+            },
+            {
+              "when": "2012",
+              "tag": "today",
+              "text": "UNESCO declared the Lakes of Ounianga the first World Heritage Site of Chad.",
+              "cite": [
+                "cap-explore-chad-org-45eefa"
+              ]
+            },
+            {
+              "when": "2024",
+              "tag": "today",
+              "text": "The central market was left without electricity for almost two weeks.",
+              "cite": [
+                "cap-flashtchad-com-90fd0a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of N'Djamena in order.",
+          "items": [
+            {
+              "label": "The French founded the city as Fort Lamy.",
+              "when": "1900",
+              "text": "The French founded the city as Fort Lamy.",
+              "cite": [
+                "cap-ebsco-com-d5026d"
+              ]
+            },
+            {
+              "label": "King Faisal of Saudi Arabia visited Chad at President Tombalbaye's invitation.",
+              "when": "1972",
+              "text": "King Faisal of Saudi Arabia visited Chad at President Tombalbaye's invitation.",
+              "cite": [
+                "cap-tecormedias-com-b587cb"
+              ]
+            },
+            {
+              "label": "The second census counted 993,492 inhabitants in the city.",
+              "when": "2009",
+              "text": "The second census counted 993,492 inhabitants in the city.",
+              "cite": [
+                "cap-archive-ccr-rac-pfbc-cbfp-org-0f264e"
+              ]
+            },
+            {
+              "label": "The central market was left without electricity for almost two weeks.",
+              "when": "2024",
+              "text": "The central market was left without electricity for almost two weeks.",
+              "cite": [
+                "cap-flashtchad-com-90fd0a"
               ]
             }
           ]
@@ -72,9 +324,15 @@
     }
   ],
   "gaps": [
-    "Final analytical tables from the 2026 digital census (RGPH-3) are pending official release.",
-    "First-hand local voices from artisans of the Grand Marché and Chari river fishermen are missing.",
-    "Cityscape photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Not found in a readable source: Chad's INSEED site (inseed.td) is JavaScript-only and its PDFs return an HTML page, so the RGPH2 report could not be read; the population figure comes from a 2012 thematic synthesis citing INSEED. Other publications give 951,418 or 963,657 for the same 2009 census, which could not be reconciled.",
+    "Not found in a readable source: The INSEED catalogue (anad.inseed.td) lists 963,657 for 'Ville de N'Djamena' but only as a variable category, so it was not recorded as the main value.",
+    "Not found in a readable source: UNESCO World Heritage Centre pages return 403: Lakes of Ounianga facts come from Explore Chad (institutional tourism site) and a peer-reviewed article.",
+    "Not found in a readable source: Zakouma area/elephant figures differ between sources; the current elephant count (c. 550-800) was not recorded.",
+    "Not found in a readable source: Place de la Nation: no source found for its construction date or design; a 2026 article on a new monument on a 'place de l'Indépendance' near the presidential palace was not recorded because it is unclear whether it is the same site.",
+    "Not found in a readable source: No readable independent source found for the Grand Mosque's exact opening year (1970s) or size, and none for the Grand Marché's history beyond its local name.",
+    "Not found in a readable source: Wikipedia-derived pages and Persée paper on the Grand Marché (1978, abstract only) not usable for facts.",
+    "Left out because only weak or unofficial sources supported them (3 items, for example: 1962: The Chad National Museum was established (on 6 October) in temporary quarters in For).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Chad has read this profile yet."
   ]
 }

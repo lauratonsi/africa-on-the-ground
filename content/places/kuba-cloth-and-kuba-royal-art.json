@@ -1,0 +1,104 @@
+{
+  "slug": "kuba-cloth-and-kuba-royal-art",
+  "status": "draft",
+  "type": "culture",
+  "country": "COD",
+  "name": "Kuba cloth and Kuba royal art",
+  "region": "Kasai · DR Congo",
+  "subtitle": "Kuba cloth is handwoven from raffia palm fibre and embroidered or cut-pile decorated.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "Kuba cloth is handwoven from raffia palm fibres, often embroidered, dyed or appliqued with geometric patterns after weaving.",
+      "cite": [
+        "cap-collections-vam-ac-uk-dbb360"
+      ]
+    },
+    {
+      "label": "Who makes",
+      "value": "Men weave the ground cloth on a single-heddle loom; women do the decorative needlework.",
+      "cite": [
+        "cap-collections-vam-ac-uk-dbb360"
+      ]
+    },
+    {
+      "label": "Who makes",
+      "value": "In Kuba culture, men cultivate the palms and weave the cloth, and women embroider the patterns.",
+      "cite": [
+        "cap-collectionstories-museum-gwu-edu-7c0323"
+      ]
+    },
+    {
+      "label": "How",
+      "value": "Cut-pile: designs are stitched, then raffia fibre is drawn through with a needle and closely cut to make a dense pile.",
+      "cite": [
+        "cap-collections-vam-ac-uk-dbb360"
+      ]
+    },
+    {
+      "label": "Uses",
+      "value": "Prestige cloths are joined into embroidered skirts worn by men and women at important ritual ceremonies including funerals.",
+      "cite": [
+        "cap-mcclungmuseum-utk-edu-ba92d8"
+      ]
+    },
+    {
+      "label": "Uses",
+      "value": "Smaller panels are sold as yardage for clothing, currency and household furnishings.",
+      "cite": [
+        "cap-mcclungmuseum-utk-edu-ba92d8"
+      ]
+    },
+    {
+      "label": "Currency",
+      "value": "Kuba cloth was historically used as a form of currency within Kuba society.",
+      "cite": [
+        "cap-collections-vam-ac-uk-dbb360"
+      ]
+    },
+    {
+      "label": "Kingdom",
+      "value": "The Kuba kingdom was a federation of 18 ethnic groups ruled by the Bushong, whose royal court employed weavers, sculptors, metalsmiths and basket makers.",
+      "cite": [
+        "cap-collectionstories-museum-gwu-edu-7c0323"
+      ]
+    },
+    {
+      "label": "Museum collections",
+      "value": "LACMA holds Kuba (Shoowa) ceremonial textile panels and skirts made in the late 19th-early 20th century.",
+      "cite": [
+        "cap-collections-lacma-org-f26e64"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kuba cloth is handwoven from raffia palm fibre and embroidered or cut-pile decorated. Men weave the ground cloth and women embroider it. Cloths served as dress at ceremonies and funerals, as signs of status and as currency, and are held by museums such as the V&A, LACMA and the Textile Museum.",
+              "cite": [
+                "cap-collections-vam-ac-uk-dbb360",
+                "cap-collectionstories-museum-gwu-edu-7c0323",
+                "cap-mcclungmuseum-utk-edu-ba92d8",
+                "cap-collections-lacma-org-f26e64"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Change or risk to the practice not sourced",
+    "Local voices: none yet."
+  ]
+}

@@ -5,12 +5,63 @@
   "country": "NGA",
   "name": "Aso Rock",
   "region": "Abuja · Nigeria",
-  "subtitle": "Massive 400-metre monolithic granite inselberg towering over Nigeria's Three Arms Zone.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Aso Rock is a granite inselberg that dominates the skyline of Abuja.",
+  "facts": [
+    {
+      "label": "Planning role",
+      "value": "Reference point for the first concept plan of the city by International Planning Associates",
+      "cite": [
+        "cap-dailytrust-com-58c6bb"
+      ]
+    },
+    {
+      "label": "Geology",
+      "value": "Described as the most prominent granite inselberg and the most dramatic and easily recognised feature within the Federal Capital City",
+      "cite": [
+        "cap-dailytrust-com-6c4b91"
+      ]
+    },
+    {
+      "label": "Visibility",
+      "value": "Dominates the view for as much as twenty miles",
+      "cite": [
+        "cap-dailytrust-com-6c4b91"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Derived from the name of the original community around it, the Gwandara of Aso",
+      "cite": [
+        "cap-dailytrust-com-58c6bb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Aso Rock is a granite inselberg that dominates the skyline of Abuja. It was the reference point of the city's first concept plan and takes its name from the community that lived around it.",
+              "cite": [
+                "cap-dailytrust-com-58c6bb",
+                "cap-dailytrust-com-6c4b91"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

@@ -5,13 +5,63 @@
   "country": "BFA",
   "name": "Grand Marché Rood Woko",
   "region": "Ouagadougou · Burkina Faso",
-  "subtitle": "The immense commercial heart of the Burkinabé capital, famed for hand-spun cotton textiles, spices, and leathercraft.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Rood Woko, the central market of Ouagadougou, moved to its present 3.6 ha site in 1954.",
+  "facts": [
+    {
+      "label": "Current site",
+      "value": "3.6 ha, since 1954",
+      "cite": [
+        "cap-beep-ird-fr-f56cec"
+      ]
+    },
+    {
+      "label": "Reconstruction decision",
+      "value": "26 August 1985",
+      "cite": [
+        "cap-beep-ird-fr-f56cec"
+      ]
+    },
+    {
+      "label": "Management company",
+      "value": "SOGEMA-B, created 9 March 1988 for 99 years",
+      "cite": [
+        "cap-beep-ird-fr-f56cec"
+      ]
+    },
+    {
+      "label": "Fire",
+      "value": "2003",
+      "cite": [
+        "cap-burkina24-com-9e99d5"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rood Woko, the central market of Ouagadougou, moved to its present 3.6 ha site in 1954. Its reconstruction was decided on 26 August 1985, a company was created in 1988 to manage it, and a fire swept through the market in 2003.",
+              "cite": [
+                "cap-beep-ird-fr-f56cec",
+                "cap-burkina24-com-9e99d5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Comprehensive register of cooperative artisan guilds operating within the central hall is partially digitized.",
+    "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
-    "Photograph: not yet linked.",
-    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+    "Photograph: see the licence line if one is shown."
   ]
 }

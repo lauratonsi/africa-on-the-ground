@@ -1,0 +1,90 @@
+{
+  "slug": "igun-street-bronze-casters-igun-eronmwon-benin-c",
+  "status": "draft",
+  "type": "culture",
+  "country": "NGA",
+  "name": "Igun Street bronze casters (Igun Eronmwon), Benin City",
+  "region": "Benin City · Nigeria",
+  "subtitle": "Igun Street in Benin City, Edo state, is a street of bronze casters who belong to a casters' guild said to have been sanctioned by Oba Oguola.",
+  "facts": [
+    {
+      "label": "Where",
+      "value": "Igun Street is a few kilometres off Ringroad Square in Benin City, Edo state, Nigeria.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "The craft's story, as told in this report, begins with a skilled artisan arriving in Benin City in about 1280 CE.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "Who runs it",
+      "value": "Casting is managed by the casters' guild, the same guild sanctioned by Oba Oguola centuries ago, according to caster Agbonmwenre.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "Who",
+      "value": "One caster says there are more than 20 casters on the street, each with a shed, all belonging to the Igun Bronze Casters Guild.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "How made",
+      "value": "In lost-wax casting, clay is applied over the wax model, heated so the wax melts out, and molten metal is poured into the mould.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Casters say they first worked for the Oba's palace but now also sell to other buyers.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    },
+    {
+      "label": "Secrecy",
+      "value": "The guild has kept bronze casting limited to a few families.",
+      "cite": [
+        "cap-mg-co-za-8336c4"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Igun Street in Benin City, Edo state, is a street of bronze casters who belong to a casters' guild said to have been sanctioned by Oba Oguola. They cast by the lost-wax method and first worked for the Oba's palace before selling to others. No maker or community member has reviewed this text yet.",
+              "cite": [
+                "cap-mg-co-za-8336c4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Met Museum essay and Artnet article are blocked; guild size figures conflict across sources (about 120 per Artnet via search, 'more than 20' per a caster), so only the sourced caster statement is recorded.",
+    "Not found in a readable source: The article's claim that the street is UNESCO-listed was deliberately not recorded (doubtful).",
+    "No maker or member of the community has reviewed this text yet.",
+    "Local voices: none yet."
+  ]
+}
