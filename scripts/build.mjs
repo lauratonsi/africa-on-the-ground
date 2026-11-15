@@ -441,6 +441,7 @@ ${credit}
 <div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}
 ${sections}
 ${deeperHtml(p.deeper)}
+${pageChecks("place", p.slug, cite)}
 ${gaps}
 ${sourcesHtml}
   </article>
@@ -545,11 +546,17 @@ const cName = Object.fromEntries((data.countries ? data.countries.countries : []
 
 function storyCard(st, p = "") {
   const k = kindOf[st.kind];
-  return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${esc(k.label)} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span></a></li>`;
+  return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${esc(k.label)} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span>${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length ? `<span class="scard-q">${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length} quiz questions inside</span>` : ""}</a></li>`;
 }
 
 // Rendering condiviso dei blocchi ricchi (storie, schede dei luoghi, pagine come Method).
 // `cite` riceve una lista di id di fonte e restituisce il richiamo numerato (vuoto se non ci sono fonti).
+// Domande del quiz legate a una scheda (campo place, capital o people nel quiz): compaiono in fondo alla scheda.
+function pageChecks(field, slug, cite) {
+  const qs = ((data.quiz && data.quiz.questions) || []).filter((q) => q[field] === slug);
+  if (!qs.length) return "";
+  return `<section id="sec-check" class="checks"><span class="layer-tag rec">Try it</span><h2>Check what you took in</h2>${qs.map((q) => checkHtmlWith(q, cite)).join("")}<p class="check-score" role="status" aria-live="polite" hidden></p><p class="note-small">Nothing is saved. These questions are also in the <a href="../../quiz/index.html">quiz</a>.</p></section>`;
+}
 function checkHtmlWith(q, cite) {
   return `<div class="check" data-answer="${esc(q.answer)}"><p class="check-q">${esc(q.q)}</p><ul class="check-opts">${q.options.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><details class="check-nojs"><summary>Show the answer</summary><p class="check-fb"><strong>${esc(q.answer)}.</strong> ${esc(q.explain)}${cite(q.cite)}</p></details></div>`;
 }
@@ -631,13 +638,24 @@ ${moreHtml}</article></div>`;
 }
 
 function renderStories() {
+  // Giro di riscaldamento: una domanda per storia (storie diverse), con punteggio solo sulla pagina. Non salva nulla.
+  const { cite: wcite } = makeCiter();
+  const seen = new Set();
+  const warmQs = [];
+  for (const q of (data.quiz && data.quiz.questions) || []) {
+    if (!q.story || seen.has(q.story) || !stories.some((x) => x.slug === q.story)) continue;
+    seen.add(q.story); warmQs.push(q);
+    if (warmQs.length === 5) break;
+  }
+  const warm = warmQs.length ? `<section id="sec-warmup" class="checks warmup"><span class="layer-tag rec">Warm-up round</span><h2>Five questions before you read</h2><p class="note-small">Guess first. Each answer points to the story that explains it.</p>${warmQs.map((q) => checkHtmlWith({ ...q, explain: q.explain + " Read more: " + stories.find((x) => x.slug === q.story).title + "." }, () => "")).join("")}<p class="check-score" role="status" aria-live="polite" hidden></p><p class="note-small">Nothing is saved: the score disappears when you leave the page. <a href="../quiz/index.html">Full quiz</a></p></section>` : "";
   const groups = storyKinds.map((k) => ({ k, items: stories.filter((x) => x.kind === k.id) })).filter((g) => g.items.length);
   const body = `${compactHero({ kicker: "Learn", title: "Stories", sub: "Real history, myths checked against the record, and the food behind the places." })}
 <div class="wrap">
 <section class="hero-lede"><p class="lede">The place cards say where. These pages say what happened, what people get wrong, and what is on the table. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p></section>
+${warm}
 ${groups.map((g) => `<section id="k-${esc(g.k.id)}" class="story-group"><h2>${esc(g.k.label)}</h2><p class="blurb">${esc(g.k.blurb)}</p><ul class="scards">${g.items.map((x) => storyCard(x, "../")).join("")}</ul></section>`).join("\n")}
 </div>`;
-  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, jump: groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label })) });
+  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, extraScripts: ["story.js"], jump: groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label })) });
 }
 
 const storiesBand = stories.length
@@ -1253,14 +1271,14 @@ function renderQuiz(list) {
     { id: "blocs", label: "Regional blocs", blurb: "Who belongs to which organisation." }
   ];
   const counts = Object.fromEntries(topics.map((t) => [t.id, t.id === "mixed" ? all.length : all.filter((x) => x.topic === t.id).length]));
-  const payload = { questions: all.map((x) => ({ id: x.id, t: x.topic, q: x.q, o: x.options, a: x.answer, e: x.explain, c: x.cite, s: x.story ? `../stories/${x.story}/index.html` : "" })), sources: srcOut, rounds: 8 };
+  const payload = { questions: all.map((x) => ({ id: x.id, t: x.topic, q: x.q, o: x.options, a: x.answer, e: x.explain, c: x.cite, s: x.story ? `../stories/${x.story}/index.html` : x.place ? `../places/${x.place}/index.html` : x.people ? `../peoples/${x.people}/index.html` : x.capital ? `../capitals/${x.capital}/index.html` : "" })), sources: srcOut, rounds: 8 };
   const leadTopic = topics[0];
   const subTopics = topics.slice(1);
   const body = `${compactHero({ kicker: "Learn", title: "Quiz", sub: "Questions drawn from the stories and figures on this site. Each answer comes with its source." })}
 <div class="wrap section">
 <section class="panel quiz" id="quiz" aria-labelledby="quiz-h">
   <h2 id="quiz-h">Test what you know</h2>
-  <p class="quiz-intro">Every answer is a fact from this site, with its source beside it. Nothing you answer is saved or sent anywhere: the site sets no cookies and keeps no score once you leave the page.</p>
+  <p class="quiz-intro">A free round that mixes the whole site: questions from the stories, plus others built from the country, language and regional-bloc data. Each story also ends with its own questions, which you can try after reading. Every answer comes with its source, and the "Read the story" link after a question takes you to the full account. Nothing you answer is saved or sent anywhere: the site sets no cookies and keeps no score once you leave the page.</p>
   <noscript><p class="fine">The quiz needs JavaScript. The facts it uses are in the <a href="../stories/index.html">stories</a> and on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
   <div id="quiz-start" hidden>
     <div class="quiz-featured">
@@ -1750,6 +1768,7 @@ ${shareSection({ type: "capital", id: c.slug, name: c.name, kinds: config.noteKi
   const body = `${compactHero({ kicker: `Capital · ${country}`, title: c.name, sub: c.subtitle })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
 ${seeHtml}
+${pageChecks("capital", c.slug, cite)}
 ${gaps}
 ${voices}
 ${deeperHtml(c.deeper)}
@@ -1853,6 +1872,7 @@ ${shareSection({ type: "people", id: c.slug, name: c.name, kinds: config.noteKin
   const sts = stories.filter((x) => (x.countries || []).some((i) => (c.countries || []).includes(i))).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const body = `${compactHero({ kicker: `People · ${(c.countries || []).map((i) => cName[i] || i).join(", ")}`, title: c.name, sub: c.subtitle })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+${pageChecks("people", c.slug, cite)}
 ${gaps}
 ${voices}
 ${deeperHtml(c.deeper)}

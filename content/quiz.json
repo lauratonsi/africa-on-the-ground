@@ -546,7 +546,8 @@
       "explain": "A French amateur painter. Nicolas Ondongo and Guy Léon Fylla led the cooperative formed after 1960, and Félix Ossali is the painter whose blue birds, in Lods's account, started it.",
       "cite": [
         "rhodes-potopoto"
-      ]
+      ],
+      "place": "poto-poto-school-brazzaville"
     },
     {
       "id": "conhill-court",
@@ -562,7 +563,8 @@
       "explain": "The old prison there had closed on 31 January 1983. Constitution Hill opened to the public the next day.",
       "cite": [
         "constitutionhill-history"
-      ]
+      ],
+      "place": "constitution-hill-johannesburg"
     },
     {
       "id": "bibalex-capacity",
@@ -578,7 +580,8 @@
       "explain": "Up to 4 million volumes, and 8 million with compact storage, say the architects.",
       "cite": [
         "snohetta-bibalex"
-      ]
+      ],
+      "place": "bibliotheca-alexandrina"
     },
     {
       "id": "zakouma-fall",
@@ -594,7 +597,8 @@
       "explain": "From more than 4,000 elephants in 2002 to about 400 in 2010, a drop of 90 per cent. It has since recovered.",
       "cite": [
         "natgeo-zakouma-2017"
-      ]
+      ],
+      "place": "zakouma-national-park"
     },
     {
       "id": "thieb-unesco",
@@ -610,7 +614,8 @@
       "explain": "In Wolof, ceebu jën means \"rice with fish\". UNESCO said the recipe and techniques are traditionally passed down from mother to daughter.",
       "cite": [
         "afp-thieboudienne-2021"
-      ]
+      ],
+      "place": "thieboudienne-senegal"
     },
     {
       "id": "seswaa-who",
@@ -627,7 +632,8 @@
       "cite": [
         "ciee-seswaa",
         "chaloafrica-seswaa"
-      ]
+      ],
+      "place": "seswaa-botswana"
     },
     {
       "id": "cachupa-base",
@@ -644,7 +650,8 @@
       "cite": [
         "revista-cachupa",
         "brown-memorydishes-cachupa"
-      ]
+      ],
+      "place": "cachupa-cabo-verde"
     },
     {
       "id": "afrikaner-non-european",
@@ -713,6 +720,333 @@
         "camera-pdl-5634-meticci"
       ],
       "story": "the-children-italy-did-not-recognise"
+    },
+    {
+      "id": "witch-pew-tanzania",
+      "topic": "myths",
+      "q": "In Pew's 2008-09 survey, which of these countries had the largest share of adults saying they believe in witchcraft?",
+      "options": [
+        "Ethiopia",
+        "Kenya",
+        "Nigeria",
+        "Tanzania"
+      ],
+      "answer": "Tanzania",
+      "explain": "93% in Tanzania said yes, against 37% in Nigeria, 27% in Kenya and 17% in Ethiopia. Belief varies a great deal from country to country.",
+      "cite": [
+        "pew-sub-saharan-topline-2010"
+      ],
+      "story": "is-black-magic-an-african-thing"
+    },
+    {
+      "id": "witch-un-line",
+      "topic": "myths",
+      "q": "What does the UN human-rights office say states should criminalise?",
+      "options": [
+        "Witchcraft itself",
+        "Accusations of witchcraft and ritual attacks",
+        "Traditional healing",
+        "Belief in charms"
+      ],
+      "answer": "Accusations of witchcraft and ritual attacks",
+      "explain": "The High Commissioner's report says witchcraft itself should not be criminalised, but ritual attacks and harmful acts related to accusations should be.",
+      "cite": [
+        "ohchr-a-hrc-52-47-2023"
+      ],
+      "story": "is-black-magic-an-african-thing"
+    },
+    {
+      "id": "coffee-origin",
+      "topic": "food",
+      "q": "Where is Coffea arabica indigenous?",
+      "options": [
+        "Colombian Andes",
+        "Highland cloud forests of Kaffa, Ethiopia",
+        "Yemen's coast",
+        "Brazilian plateau"
+      ],
+      "answer": "Highland cloud forests of Kaffa, Ethiopia",
+      "explain": "Coffea arabica is indigenous to the highland cloud forests of Kaffa in south-western Ethiopia.",
+      "cite": [
+        "weinberg-world-of-caffeine-2001"
+      ],
+      "story": "coffee-the-ethiopian-bean-that-woke-the-world"
+    },
+    {
+      "id": "couscous-unesco",
+      "topic": "food",
+      "q": "In 2020, which group of countries jointly inscribed couscous on UNESCO's Intangible Cultural Heritage List?",
+      "options": [
+        "Algeria, Mauritania, Morocco and Tunisia",
+        "Egypt, Libya and Sudan",
+        "Senegal and Mali",
+        "Morocco alone"
+      ],
+      "answer": "Algeria, Mauritania, Morocco and Tunisia",
+      "explain": "Four countries submitted couscous together in 2020: Algeria, Mauritania, Morocco and Tunisia.",
+      "cite": [
+        "unesco-ich-couscous-01602"
+      ],
+      "story": "couscous-the-dish-that-united-the-maghreb"
+    },
+    {
+      "id": "tribes-colonial",
+      "topic": "myths",
+      "q": "According to the sources in this story, what did colonial indirect rule do to African social groups?",
+      "options": [
+        "Dissolved them",
+        "Hardened fluid groups into administrative 'tribes'",
+        "Left them unchanged",
+        "Gave them their names for the first time in history"
+      ],
+      "answer": "Hardened fluid groups into administrative 'tribes'",
+      "explain": "Colonial indirect rule codified and hardened fluid identities into bureaucratic 'tribes' to simplify taxation, policing and labour.",
+      "cite": [
+        "mafeje-ideology-tribalism-1971",
+        "unesco-general-history-africa-vol8"
+      ],
+      "story": "does-africa-have-tribes"
+    },
+    {
+      "id": "ugali-maize",
+      "topic": "food",
+      "q": "What did maize, brought from the Americas, largely replace in the making of ugali-type porridges?",
+      "options": [
+        "Wheat and barley",
+        "Indigenous millets and sorghums",
+        "Rice",
+        "Potatoes"
+      ],
+      "answer": "Indigenous millets and sorghums",
+      "explain": "Ugali (also sadza, nshima, pap) became dominant after American maize replaced ancient indigenous millets and sorghums.",
+      "cite": [
+        "mccann-stirring-pot-2009"
+      ],
+      "story": "fufu-and-ugali-the-staple-that-feeds-a-continent"
+    },
+    {
+      "id": "honeyguide",
+      "topic": "history",
+      "q": "What do wild honeyguide birds do for human honey hunters?",
+      "options": [
+        "Warn them of predators",
+        "Lead them to hidden wild beehives",
+        "Carry tools",
+        "Guard the hives"
+      ],
+      "answer": "Lead them to hidden wild beehives",
+      "explain": "Wild honeyguides recruit and lead human foragers to wild beehives, and recognise the signals that the hunters use.",
+      "cite": [
+        "science-spottiswoode-honeyguide-2016"
+      ],
+      "story": "talking-to-wild-birds"
+    },
+    {
+      "id": "gadaa-term",
+      "topic": "history",
+      "q": "How long was one term of the Oromo Abbaa Gadaa?",
+      "options": [
+        "Four years",
+        "Eight years",
+        "Twenty years",
+        "For life"
+      ],
+      "answer": "Eight years",
+      "explain": "The Gadaa system ran on eight-year cycles, and the Abbaa Gadaa and his cabinet had to step down at the end of their single term.",
+      "cite": [
+        "unesco-ich-gada-01108",
+        "legesse-gada-1973"
+      ],
+      "story": "the-gadaa-democracy"
+    },
+    {
+      "id": "golden-stool",
+      "topic": "history",
+      "q": "What does the Asante Golden Stool represent, and who may sit on it?",
+      "options": [
+        "The king's throne; only the king",
+        "The collective soul of the Asante nation; nobody",
+        "A trophy of war; the governor",
+        "A market seat; any elder"
+      ],
+      "answer": "The collective soul of the Asante nation; nobody",
+      "explain": "By Asante religious law nobody may sit on the Golden Stool. In 1900 a British demand to sit on it sparked war.",
+      "cite": [
+        "wilks-asante-nineteenth-century-1975",
+        "boahen-yaa-asantewaa-2003"
+      ],
+      "story": "the-golden-stool"
+    },
+    {
+      "id": "twins-igbo-ora",
+      "topic": "history",
+      "q": "Which Nigerian town is recorded as having one of the highest rates of fraternal twin births in the world?",
+      "options": [
+        "Igbo-Ora",
+        "Kano",
+        "Calabar",
+        "Ibadan"
+      ],
+      "answer": "Igbo-Ora",
+      "explain": "Igbo-Ora in Nigeria records up to 50 twin sets per 1,000 live births, according to the BBC and Reuters reports cited in the story.",
+      "cite": [
+        "bbc-igbo-ora-twins-2018",
+        "reuters-igbo-ora-twins-2022"
+      ],
+      "story": "the-land-of-twins"
+    },
+    {
+      "id": "togu-na",
+      "topic": "history",
+      "q": "Why is the Dogon Togu Na built with a very low ceiling, about 1.2 to 1.5 metres?",
+      "options": [
+        "To save wood",
+        "So disputants must stay seated and talk instead of brawling",
+        "To keep out rain",
+        "For defence"
+      ],
+      "answer": "So disputants must stay seated and talk instead of brawling",
+      "explain": "The low ceiling prevents angry people from standing up, so everyone has to remain seated and look for a verbal compromise.",
+      "cite": [
+        "jolly-togu-na-dogon-2004"
+      ],
+      "story": "the-low-ceiling-parliament"
+    },
+    {
+      "id": "tuareg-veil",
+      "topic": "myths",
+      "q": "In traditional Tuareg culture, who wears the tagelmust veil?",
+      "options": [
+        "Women",
+        "Men",
+        "Both equally",
+        "Only chiefs' children"
+      ],
+      "answer": "Men",
+      "explain": "Men wear the tagelmust from adulthood, while women do not cover their faces.",
+      "cite": [
+        "keenan-tuareg-veil-1977"
+      ],
+      "story": "the-men-who-veil"
+    },
+    {
+      "id": "nyau-satire",
+      "topic": "history",
+      "q": "What licence did the Chewa Nyau masked dancers enjoy?",
+      "options": [
+        "To collect taxes",
+        "To mock and discipline corrupt chiefs and colonial rulers in public",
+        "To choose the chief",
+        "To judge crimes"
+      ],
+      "answer": "To mock and discipline corrupt chiefs and colonial rulers in public",
+      "explain": "The dancers enjoy spiritual immunity to publicly criticise leaders, including colonial rulers.",
+      "cite": [
+        "probst-nyau-masks-2002"
+      ],
+      "story": "the-satirical-masks"
+    },
+    {
+      "id": "amazigh-name",
+      "topic": "myths",
+      "q": "What does the self-name Amazigh (plural Imazighen) mean, according to the reference entry cited?",
+      "options": [
+        "Free people",
+        "People of the mountain",
+        "Desert travellers",
+        "Those who speak"
+      ],
+      "answer": "Free people",
+      "explain": "The entry glosses Amazigh as 'free people'. 'Berber' is the outsiders' word.",
+      "cite": [
+        "cap-ebsco-com-b82a63"
+      ],
+      "people": "amazigh"
+    },
+    {
+      "id": "fula-names",
+      "topic": "myths",
+      "q": "Which of these are names for the same community?",
+      "options": [
+        "Fula, Fulani, Fulbe and Peul",
+        "Fula and Yoruba",
+        "Fulani and Maasai",
+        "Peul and San"
+      ],
+      "answer": "Fula, Fulani, Fulbe and Peul",
+      "explain": "'Fulbe' is used in their own languages and 'Peul' in French; Fula and Fulani are the English names.",
+      "cite": [
+        "cap-megatrends-afrika-de-7d1ee0"
+      ],
+      "people": "fula"
+    },
+    {
+      "id": "yoruba-where",
+      "topic": "myths",
+      "q": "Besides Nigeria, in which two West African countries do major Yoruba populations live?",
+      "options": [
+        "Benin and Togo",
+        "Mali and Niger",
+        "Senegal and Guinea",
+        "Ghana and Liberia"
+      ],
+      "answer": "Benin and Togo",
+      "explain": "The source describes major Yoruba populations in Nigeria, Benin and Togo.",
+      "cite": [
+        "cap-cambridge-org-be4a80"
+      ],
+      "people": "yoruba"
+    },
+    {
+      "id": "maasai-census",
+      "topic": "myths",
+      "q": "How did the number of people counted as Maasai in Kenya's census change between 1969 and 2019?",
+      "options": [
+        "It fell by half",
+        "It stayed about the same",
+        "It rose roughly seven-fold",
+        "It doubled"
+      ],
+      "answer": "It rose roughly seven-fold",
+      "explain": "Kenya counted 154,906 Maasai in 1969 and 1,189,522 in 2019. Part of the change is the growth of the whole population; the share rose from 1.43% to about 2.5%.",
+      "cite": [
+        "cap-the-star-co-ke-9cde9b"
+      ],
+      "people": "maasai"
+    },
+    {
+      "id": "san-term",
+      "topic": "myths",
+      "q": "Which generic term for these peoples was adopted by San organisations in 2003?",
+      "options": [
+        "San",
+        "Hottentot",
+        "Pygmy",
+        "Remote Area Dweller"
+      ],
+      "answer": "San",
+      "explain": "San organisations (WIMSA, 2003) adopted 'San'; in Botswana the official term is Basarwa. The author notes the context and the wishes of the people named matter.",
+      "cite": [
+        "cap-iwgia-org-b47ba6"
+      ],
+      "people": "san"
+    },
+    {
+      "id": "oromo-script",
+      "topic": "myths",
+      "q": "Which script is Afaan Oromo written in?",
+      "options": [
+        "Latin",
+        "Ge'ez",
+        "Arabic",
+        "Tifinagh"
+      ],
+      "answer": "Latin",
+      "explain": "Afaan Oromo uses the Latin alphabet, while Amharic and Tigrigna use the Ge'ez script.",
+      "cite": [
+        "cap-ejol-aau-edu-et-099bc5"
+      ],
+      "people": "oromo"
     }
   ]
 }

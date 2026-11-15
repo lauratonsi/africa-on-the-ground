@@ -501,6 +501,9 @@ const checkRecipeBlock = (b, bw, checkCite) => {
       if (!x.explain) err(`${w}: manca la spiegazione.`);
       checkCite(x.cite, w);
       if (x.story && !storySlugs.has(x.story)) err(`${w}: la storia "${x.story}" non esiste.`);
+      if (x.place && !places.some((pl) => pl.data.slug === x.place)) err(`${w}: la scheda "${x.place}" non esiste.`);
+      if (x.people && !peoples.some((pp) => pp.data.slug === x.people)) err(`${w}: il popolo "${x.people}" non esiste.`);
+      if (x.capital && !capitals.some((cc) => cc.data.slug === x.capital)) err(`${w}: la capitale "${x.capital}" non esiste.`);
     }
   }
   if (quiz && quiz.phrases) {

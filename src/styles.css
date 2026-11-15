@@ -2060,3 +2060,5 @@ tr.sel .cardlink { background: #fff; color: #7a2410; }
 
 
 
+.scard-q { display: inline-block; margin-top: 8px; font-size: 0.8rem; font-weight: 700; }
+.warmup { margin: 0 0 40px; padding: 20px; border: 1px solid var(--line, currentColor); border-radius: 12px; }
