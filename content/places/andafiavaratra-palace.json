@@ -1,0 +1,66 @@
+{
+  "slug": "andafiavaratra-palace",
+  "status": "draft",
+  "type": "culture",
+  "country": "MDG",
+  "name": "Andafiavaratra Palace (Prime Minister's palace museum)",
+  "region": "Antananarivo · Madagascar",
+  "subtitle": "A stone palace built for Prime Minister Rainilaiarivony, now partly a museum.",
+  "facts": [
+    {
+      "label": "Builder",
+      "value": "Built for Prime Minister Rainilaiarivony.",
+      "cite": [
+        "cap-madamagazine-com-9e1db3"
+      ]
+    },
+    {
+      "label": "Stone building",
+      "value": "Replaced a wooden first palace in 1872; supervised by British architect William Pool.",
+      "cite": [
+        "cap-madamagazine-com-9e1db3"
+      ]
+    },
+    {
+      "label": "Museum",
+      "value": "Ground-floor rooms house the Andafiavaratra Museum.",
+      "cite": [
+        "cap-madamagazine-com-9e1db3"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "Main exhibits are objects rescued from the 1995 Rova fire.",
+      "cite": [
+        "cap-madamagazine-com-9e1db3"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A stone palace built for Prime Minister Rainilaiarivony, now partly a museum. Its main exhibits are objects rescued from the 1995 Rova fire.",
+              "cite": [
+                "cap-madamagazine-com-9e1db3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

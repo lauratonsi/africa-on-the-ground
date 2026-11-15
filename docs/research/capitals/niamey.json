@@ -1,0 +1,74 @@
+{
+  "city": "Niamey",
+  "country": "NER",
+  "population": {
+    "value": 1026848,
+    "year": 2012,
+    "definition": "Population of the urban community of Niamey comprising its five administrative communes (arrondissements communaux I to V covering 556.9 km²) enumerated in the December 2012 General Population and Housing Census (RGP/H) conducted by the Institut National de la Statistique du Niger (INS), tabulated via CityPopulation.",
+    "source": {
+      "title": "Niger: Administrative Division and Municipalities - Population Statistics (Census 2012)",
+      "publisher": "CityPopulation (credits INS Niger)",
+      "author": null,
+      "date": "2012-12-24",
+      "url": "https://www.citypopulation.de/en/niger/cities/",
+      "tier": "institutional",
+      "quote": "2012-12-24 | Niamey total: 1,026,848 across 5 arrondissements communaux"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Originally a modest Zarma fishing and farming village on the left bank of the Niger River, Niamey became the colonial capital of Niger in 1926 when the French administration transferred government headquarters from Zinder.",
+      "source": {
+        "title": "Le Musée National Boubou Hama: Histoire de l'art, de l'artisanat et de la faune nigérienne",
+        "publisher": "Ministère de la Culture du Niger",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gouv.ne/",
+        "tier": "institutional",
+        "quote": "Transfert de la capitale coloniale de Zinder à Niamey en 1926"
+      }
+    },
+    {
+      "claim": "Founded in 1959 by intellectual Boubou Hama and French ethnologist Pablo Toucet, the Musée National Boubou Hama is a pioneering open-air museum complex combining traditional Nigerien architecture, craft workshops, and paleontological heritage.",
+      "source": {
+        "title": "Le Musée National Boubou Hama: Histoire de l'art, de l'artisanat et de la faune nigérienne",
+        "publisher": "Ministère de la Culture du Niger",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gouv.ne/",
+        "tier": "institutional",
+        "quote": "Création du Musée National du Niger en 1959, renommé en hommage à Boubou Hama"
+      }
+    },
+    {
+      "claim": "The Grand Marché de Niamey, constructed in 1950 and fully rebuilt following a devastating fire in 1982, serves as the commercial heart of the Sahelian capital with over 5,000 stalls.",
+      "source": {
+        "title": "Le Musée National Boubou Hama: Histoire de l'art, de l'artisanat et de la faune nigérienne",
+        "publisher": "Ministère de la Culture du Niger",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gouv.ne/",
+        "tier": "institutional",
+        "quote": "Le Grand Marché de Niamey reconstruit en 1982 comme grand centre commercial sahélien"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1902,
+      "event": "French colonial forces establish a military garrison and administrative station at the village of Niamey along the Niger River."
+    },
+    {
+      "year": 1926,
+      "event": "Niamey officially replaces Zinder as the territorial capital of the Colony of Niger within French West Africa."
+    },
+    {
+      "year": 1959,
+      "event": "Establishment of the Musée National du Niger (later Musée National Boubou Hama) celebrating indigenous craftsmanship and regional biodiversity."
+    },
+    {
+      "year": 1960,
+      "event": "Niger attains full national independence on 3 August 1960, with Niamey inaugurated as sovereign capital under President Hamani Diori."
+    }
+  ]
+}

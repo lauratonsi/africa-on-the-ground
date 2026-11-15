@@ -1,0 +1,61 @@
+{
+  "city": "Monrovia",
+  "country": "LBR",
+  "population": {
+    "value": 970824,
+    "year": 2008,
+    "definition": "Population of the Greater Monrovia District (Montserrado County) enumerated in the 2008 National Population and Housing Census conducted by the Liberia Institute of Statistics and Geo-Information Services (LISGIS), tabulated via CityPopulation. Provisional results of the 2022 census count 1,761,032 residents in the capital city proper, representing approximately one-third of Liberia's total population.",
+    "source": {
+      "title": "Liberia: Counties, Major Cities & Urban Localities (Census 2008)",
+      "publisher": "CityPopulation (credits LISGIS Liberia)",
+      "author": null,
+      "date": "2008-03-21",
+      "url": "https://www.citypopulation.de/en/liberia/cities/",
+      "tier": "institutional",
+      "quote": "2008-03-21 | Greater Monrovia: 970,824 (2022 census: 1,761,032)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Monrovia was established in April 1822 on Cape Mesurado by the American Colonization Society (ACS) as Christopolis, renamed Monrovia in 1824 in honour of US President James Monroe.",
+      "source": {
+        "title": "Liberia: Counties, Major Cities & Urban Localities (Census 2008)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/liberia/cities/",
+        "tier": "institutional",
+        "quote": "Founded in 1822 by free African Americans under the American Colonization Society"
+      }
+    },
+    {
+      "claim": "Providence Island at the mouth of the Mesurado River marks the historic site where the first group of freed African American settlers disembarked in January 1822 before negotiating access to Cape Mesurado.",
+      "source": {
+        "title": "National Museum of Liberia: Historical Collections and Cultural Artefacts",
+        "publisher": "Ministry of Information, Cultural Affairs and Tourism (MICAT Liberia)",
+        "author": null,
+        "date": null,
+        "url": "https://micat.gov.lr/",
+        "tier": "institutional",
+        "quote": "Providence Island landing site of the pioneer settlers in 1822"
+      }
+    },
+    {
+      "claim": "The National Museum of Liberia, housed in the 1862 Old Supreme Court building on Broad Street, preserves historic documents of the 1847 Declaration of Independence alongside indigenous masks and material culture of Liberia's 16 ethnic groups.",
+      "source": {
+        "title": "National Museum of Liberia: Historical Collections and Cultural Artefacts",
+        "publisher": "Ministry of Information, Cultural Affairs and Tourism (MICAT Liberia)",
+        "author": null,
+        "date": null,
+        "url": "https://micat.gov.lr/",
+        "tier": "institutional",
+        "quote": "National Museum housing independence documents and indigenous tribal masks"
+      }
+    }
+  ],
+  "gaps": [
+    "Final published neighborhood tables of the 2022 census round await complete official tabulation.",
+    "First-hand local voices from Waterside traders and Kru Town fisherfolk have not yet been recorded.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

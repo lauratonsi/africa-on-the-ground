@@ -1,0 +1,59 @@
+{
+  "slug": "forte-de-sao-sebastiao-museu-nacional-sao-tome",
+  "status": "draft",
+  "type": "culture",
+  "country": "STP",
+  "name": "Forte de São Sebastião e Museu Nacional",
+  "region": "São Tomé · São Tomé and Príncipe",
+  "subtitle": "1575 coastal fortress at Ponta Sebastião housing the national museum and the memorial legacy of Rei Amador.",
+  "facts": [
+    {
+      "label": "Constructed",
+      "value": "1575 (completed under Portuguese colonial governor)",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    },
+    {
+      "label": "National Museum",
+      "value": "Established 11 July 1976 within the fortress walls",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    },
+    {
+      "label": "Key memorial",
+      "value": "Honors Rei Amador, leader of the historic 1595 slave insurrection",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The oldest defensive stone fortification in São Tomé and Príncipe, guarding the eastern tip of Ana Chaves Bay in the capital. Erected in 1575 by the Portuguese Crown to protect the sugar-exporting port against corsair raids, the fort incorporates bastions, cannons, and a lighthouse built in 1866. Converted in 1976 into the Museu Nacional, it chronicles the history of the transatlantic slave trade, colonial roça plantations, and the heroic 1595 slave uprising led by Rei Amador, acclaimed today as the country's national liberator.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital catalogue of sacred wood sculptures and archival documents from the roças is pending.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

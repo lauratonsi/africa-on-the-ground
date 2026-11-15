@@ -1,0 +1,76 @@
+{
+  "slug": "medeber-market",
+  "status": "draft",
+  "type": "market",
+  "country": "ERI",
+  "name": "Medeber Market (Medebar)",
+  "region": "Asmara · Eritrea",
+  "subtitle": "An open-air workshop market where metalworkers and other artisans turn scrap and discarded materials into household items.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Self-described 'creative workshop of Eritrea'",
+      "cite": [
+        "cap-shabait-com-0fd947"
+      ]
+    },
+    {
+      "label": "Past",
+      "value": "Former caravan trade post",
+      "cite": [
+        "cap-shabait-com-0fd947"
+      ]
+    },
+    {
+      "label": "Organisation",
+      "value": "Divided into sections by material or item",
+      "cite": [
+        "cap-shabait-com-4827e9"
+      ]
+    },
+    {
+      "label": "Age (state-media claim, single source)",
+      "value": "Recycling area said to date from 1900",
+      "cite": [
+        "cap-shabait-com-4827e9"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An open-air workshop market where metalworkers and other artisans turn scrap and discarded materials into household items. Eritrean Ministry of Information articles describe it as a former caravan trade post; whether it lies inside the UNESCO-inscribed perimeter is not confirmed by a readable source.",
+              "cite": [
+                "cap-shabait-com-0fd947",
+                "cap-shabait-com-4827e9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "medeber-market",
+    "alt": "Photograph of Medeber Market (Medebar).",
+    "caption": "Medeber Market (Medebar).",
+    "credit": "Mheidegger",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Medebar_Market%2C_Asmara.jpg"
+  }
+}

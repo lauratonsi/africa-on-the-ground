@@ -3,6 +3,14 @@
   "status": "published",
   "type": "site",
   "country": "BDI",
+  "coords": {
+    "lat": -3.4278,
+    "lon": 29.9239,
+    "approx": true,
+    "cite": [
+      "wikipedia-gishora"
+    ]
+  },
   "name": "Gishora Drum Sanctuary",
   "region": "Burundi",
   "subtitle": "A royal field near Gitega, Burundi. Card in preparation.",

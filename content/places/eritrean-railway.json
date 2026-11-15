@@ -1,0 +1,74 @@
+{
+  "slug": "eritrean-railway",
+  "status": "draft",
+  "type": "culture",
+  "country": "ERI",
+  "name": "Eritrean Railway (Asmara to Massawa line)",
+  "region": "Asmara · Eritrea",
+  "subtitle": "A narrow-gauge line built under Italian rule that climbs from the Red Sea coast to the highland capital.",
+  "facts": [
+    {
+      "label": "Reached Asmara",
+      "value": "1911",
+      "cite": [
+        "cap-discovery-ucl-ac-uk-c9dd29"
+      ]
+    },
+    {
+      "label": "Construction start",
+      "value": "1888",
+      "cite": [
+        "cap-ipsnews-net-89489b"
+      ]
+    },
+    {
+      "label": "Abandonment",
+      "value": "After 1974",
+      "cite": [
+        "cap-ipsnews-net-89489b"
+      ]
+    },
+    {
+      "label": "Revival",
+      "value": "Veteran workers led rehabilitation",
+      "cite": [
+        "cap-ipsnews-net-89489b"
+      ]
+    },
+    {
+      "label": "Rebuilding",
+      "value": "Track re-laid since mid-1990s",
+      "cite": [
+        "cap-discovery-ucl-ac-uk-c9dd29"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A narrow-gauge line built under Italian rule that climbs from the Red Sea coast to the highland capital. It was damaged and abandoned in the 1970s war years and rehabilitated after independence by veteran railway workers; the line as a whole runs outside the inscribed perimeter, station location not verified.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29",
+                "cap-ipsnews-net-89489b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

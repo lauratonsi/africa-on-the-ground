@@ -1,0 +1,312 @@
+{
+  "slug": "yoruba",
+  "status": "draft",
+  "name": "Yoruba",
+  "countries": [
+    "NGA",
+    "BEN",
+    "TGO"
+  ],
+  "subtitle": "Yoruba: who the sources name, where they live, and what the old labels got wrong.",
+  "keyPoints": [
+    {
+      "text": "About 40,000,000 people: Estimate of 'the total number of Yoruba people in West Africa' (people, not strictly speakers); no year given in the extract; same page cautions Nigerian census figures are often inaccurate.",
+      "cite": [
+        "cap-cambridge-org-4dd895"
+      ]
+    },
+    {
+      "text": "Yoruba-speaking communities live mostly in six south-west Nigerian states (Lagos among them), with groups in Benin (formerly Dahomey) and Togo, and a presence in Cuba, Brazil, Haiti and Peru.",
+      "cite": [
+        "cap-cambridge-org-4dd895"
+      ]
+    },
+    {
+      "text": "The book describes the Yoruba as one of the largest ethnic groups in West Africa with major populations in Nigeria, Benin and Togo.",
+      "cite": [
+        "cap-cambridge-org-be4a80"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "who",
+      "title": "Who the sources are talking about",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "40,000,000",
+              "label": "Estimate of 'the total number of Yoruba people in West Africa' (people, not strictly speakers); no year given in the extract; same page cautions Nigerian census figures are often inaccurate",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yoruba-speaking communities live mostly in six south-west Nigerian states (Lagos among them), with groups in Benin (formerly Dahomey) and Togo, and a presence in Cuba, Brazil, Haiti and Peru.",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "people-yoruba",
+            "alt": "Large red-brown sculptures arching over a dirt path in a forest.",
+            "caption": "Sculptures along a path in the Osun-Osogbo Sacred Grove, a forest with shrines in Osun State, Nigeria.",
+            "credit": "Tunde Akangbe",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/File:Osun_Osogbo_Sacred_Groove_-_The_Sculpture_of_a_Flying_Tortoise.jpg",
+            "width": 800,
+            "height": 533
+          }
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The book describes the Yoruba as one of the largest ethnic groups in West Africa with major populations in Nigeria, Benin and Togo.",
+              "cite": [
+                "cap-cambridge-org-be4a80"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Before the 19th century there was no general name for the Yoruba as a whole; the name was first applied to the Oyo (by Fulani or Hausa speakers, per the chapter) and the collective identity dates to the 19th century, shaped by missionaries and the early Yoruba elite.",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Origin legend of Oduduwa establishes Ile-Ife as the cradle of the Yoruba; the chapter dates the start of Yoruba history studies to Oduduwa's arrival story and to Crowther and Johnson onwards.",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ife was established around the 11th century and known for its artisans; its heads depict the ooni, rulers of Yoruba kingdoms.",
+              "cite": [
+                "cap-nationalgeographic-com-a62aeb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Urbanisation: the chapter describes the Yoruba as highly urbanised, with town unions organised by educated migrants in Lagos and other large towns. (Extract via page summary tool; verify wording before publishing. Ibadan appears only as a dialect area; no readable source on Ibadan/Lagos size.)",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "title": "Names, borders and colonial categories",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Late colonial Yoruba politics cannot be separated from national-level developments and rising ethnic awareness among Nigerians more broadly.",
+              "cite": [
+                "cap-cambridge-org-61ea8c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Older city/subgroup identities persisted in dialect and institutions, e.g. Egba (Agbeyin, Gbagura, Oke-Ona) and Ijebu (four provinces) with Osugbo and Ogboni societies in judicial roles.",
+              "cite": [
+                "cap-cambridge-org-4dd895"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: That the Ife heads could not have been made by Africans (Frobenius's 1910 theory attributing the Olokun Head to survivors of Atlantis).",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The article calls Frobenius's theories racist and says Ife was known for its artisans and the heads depict ooni, rulers of Yoruba kingdoms.",
+          "cite": [
+            "cap-nationalgeographic-com-a62aeb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "colonial",
+              "label": "Colonial period"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "c. 11th century onward",
+              "tag": "origins",
+              "text": "Ife established as a kingdom known for its artisans.",
+              "cite": [
+                "cap-nationalgeographic-com-a62aeb"
+              ]
+            },
+            {
+              "when": "12th-15th century",
+              "tag": "origins",
+              "text": "Dating given for the Ife bronze (copper-alloy) Ooni head and a terracotta male head; the lost Olokun Head is dated to around 1350 by scholars. (Museum pages from the Met and British Museum were unreadable; this is a magazine caption.)",
+              "cite": [
+                "cap-nationalgeographic-com-a62aeb"
+              ]
+            },
+            {
+              "when": "1400-1600",
+              "tag": "origins",
+              "text": "Major Yoruba polities of the period included Owu, Ijesa, Egba and Ijebu, alongside many smaller polities.",
+              "cite": [
+                "cap-cambridge-org-083dd0"
+              ]
+            },
+            {
+              "when": "16th-17th century",
+              "tag": "origins",
+              "text": "Oyo became a dominant, expansionist polity and, in the 17th century, the main political actor in Yorubaland.",
+              "cite": [
+                "cap-cambridge-org-6c60e4"
+              ]
+            },
+            {
+              "when": "early 19th century to c. 1890s",
+              "tag": "colonial",
+              "text": "Oyo's collapse was followed by internecine Yoruba wars lasting until British intervention near the century's end.",
+              "cite": [
+                "cap-cambridge-org-cdb0d2"
+              ]
+            },
+            {
+              "when": "1889",
+              "tag": "colonial",
+              "text": "An inter-colonial boundary divided Western Yoruba into two jurisdictions (today's Nigeria/Benin line, per chapter context).",
+              "cite": [
+                "cap-cambridge-org-8010fd"
+              ]
+            },
+            {
+              "when": "1914",
+              "tag": "colonial",
+              "text": "Lugard consolidated the protectorates into the Colony and Protectorate of Nigeria (ceremony in Lagos, 1 Jan 1914).",
+              "cite": [
+                "cap-cfr-org-876a2d"
+              ]
+            },
+            {
+              "when": "1 October 1960",
+              "tag": "today",
+              "text": "Nigeria became independent.",
+              "cite": [
+                "cap-horniman-ac-uk-0c331f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these moments in the history of the Yoruba in order.",
+          "items": [
+            {
+              "label": "Ife established as a kingdom known for its artisans.",
+              "when": "c. 11th century onward",
+              "text": "Ife established as a kingdom known for its artisans.",
+              "cite": [
+                "cap-nationalgeographic-com-a62aeb"
+              ]
+            },
+            {
+              "label": "Major Yoruba polities of the period included Owu, Ijesa, Egba and Ijebu…",
+              "when": "1400-1600",
+              "text": "Major Yoruba polities of the period included Owu, Ijesa, Egba and Ijebu, alongside many smaller polities.",
+              "cite": [
+                "cap-cambridge-org-083dd0"
+              ]
+            },
+            {
+              "label": "An inter-colonial boundary divided Western Yoruba into two jurisdictions…",
+              "when": "1889",
+              "text": "An inter-colonial boundary divided Western Yoruba into two jurisdictions (today's Nigeria/Benin line, per chapter context).",
+              "cite": [
+                "cap-cambridge-org-8010fd"
+              ]
+            },
+            {
+              "label": "Nigeria became independent.",
+              "when": "1 October 1960",
+              "text": "Nigeria became independent.",
+              "cite": [
+                "cap-horniman-ac-uk-0c331f"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Not found in a readable source: exact speaker count with year/definition (Ethnologue blocked); Glottolog page read lists only Benin and Nigeria (no Togo), no speaker numbers",
+    "Not found in a readable source: Crowther's own role in standardising the name: only a search-snippet (non-citable); no readable page",
+    "Not found in a readable source: Ife head museum dating (British Museum/Met unreadable; only National Geographic captions)",
+    "Not found in a readable source: Ibadan and Lagos urbanisation figures, Ibadan founding date",
+    "Not found in a readable source: Ile-Ife/Oyo as kingdoms: only the Oduduwa legend and Oyo summaries; no Ife chapter text readable (paywall)",
+    "Not found in a readable source: Relation of 'Yoruba' to Sierra Leone 'Aku' and Brazil 'Nago' ethnogenesis (Peel/Ojo) unreadable",
+    "Not found in a readable source: Second photo (Ife head in museum) not verified",
+    "Left out because only weak or unofficial sources supported them (1 items).",
+    "The sources are mostly outside voices, in English or French; the people themselves are the first source on who they are.",
+    "Quotes were checked by a text search of each cited page where the page could be read; the others are not verified.",
+    "No one from the group has read this page yet."
+  ]
+}

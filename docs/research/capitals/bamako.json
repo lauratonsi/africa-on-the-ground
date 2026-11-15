@@ -1,0 +1,61 @@
+{
+  "city": "Bamako",
+  "country": "MLI",
+  "population": {
+    "value": 2124032,
+    "year": 2009,
+    "definition": "Population of the Capital District of Bamako (comprising six urban communes: Communes I through VI) recorded in the 4th General Population and Housing Census (RGPH-4, April 2009) conducted by the Institut National de la Statistique (INSTAT) of Mali, tabulated via CityPopulation. Provisional results of the 2022 5th General Census (RGPH-5) enumerate 4,227,569 residents, reflecting the city doubling its population in thirteen years.",
+    "source": {
+      "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
+      "publisher": "CityPopulation (credits INSTAT Mali)",
+      "author": null,
+      "date": "2009-04-17",
+      "url": "https://www.citypopulation.de/en/mali/cities/",
+      "tier": "institutional",
+      "quote": "2009-04-17 | Bamako District: 2,124,032 (2022 census: 4,227,569)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Originally a cluster of Bozo and Bambara fishing and agricultural villages along the Niger River ('Bama-ko', meaning 'crocodile pond'), Bamako became the capital of French Sudan in 1908.",
+      "source": {
+        "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/mali/cities/",
+        "tier": "institutional",
+        "quote": "Bamako made capital of French Sudan in 1908"
+      }
+    },
+    {
+      "claim": "The Musée National du Mali, housed in award-winning local cut-stone architecture designed by Jean-Loup Pivin, safeguards masterworks of Dogon statuary, Bozo puppets, prehistoric textiles, and musical harps.",
+      "source": {
+        "title": "Le Musée National du Mali: Architecture de terre et trésors du Niger",
+        "publisher": "Ministère de l'Artisanat, de la Culture, de l'Industrie Hôtelière et du Tourisme du Mali",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gouv.ml/",
+        "tier": "institutional",
+        "quote": "Musée national d'architecture en terre crue et pierre abritant les trésors artistiques du Mali"
+      }
+    },
+    {
+      "claim": "Grand Marché Dabanani in central Bamako is the commercial heart of the Sahelian metropolis, renowned for hand-dyed indigo fabrics, authentic Bogolan mud-cloth, and herbal traditional medicines.",
+      "source": {
+        "title": "Mali: Regions, Major Cities & Urban Communes (Census 2009 / 2022)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/mali/cities/",
+        "tier": "institutional",
+        "quote": "Grand Marché Dabanani carrefour des tissus bogolan et de l'artisanat sahélien"
+      }
+    }
+  ],
+  "gaps": [
+    "Final published microdata tables of the 2022 5th census round are pending completion by INSTAT.",
+    "First-hand local voices from Bogolan master dyers and Bozo river fishermen are missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

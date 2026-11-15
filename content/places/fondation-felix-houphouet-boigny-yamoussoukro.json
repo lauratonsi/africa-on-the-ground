@@ -1,0 +1,59 @@
+{
+  "slug": "fondation-felix-houphouet-boigny-yamoussoukro",
+  "status": "draft",
+  "type": "culture",
+  "country": "CIV",
+  "name": "Fondation Félix Houphouët-Boigny pour la Recherche de la Paix",
+  "region": "Yamoussoukro · Côte d'Ivoire",
+  "subtitle": "Monumental international institute and congress center dedicated to conflict resolution under the patronage of UNESCO.",
+  "facts": [
+    {
+      "label": "Created",
+      "value": "1973 (modern complex completed in 1987)",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Mandate",
+      "value": "Promoting peace research, international dialogue, and awarding the UNESCO-Houphouët-Boigny Peace Prize",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Scale",
+      "value": "Four monumental conference amphitheatres and an extensive pan-African diplomatic library",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An imposing architectural complex and peace research institute established in Yamoussoukro under the auspices of UNESCO. Completed in 1987, the modernist glass-and-concrete building features monumental auditoriums, state banqueting halls, and extensive archives of African decolonization and international mediation. It serves as the intellectual venue for global peace summits and the home of the prestigious UNESCO-Félix Houphouët-Boigny Peace Prize.",
+              "cite": [
+                "cap-unesco-notre-dame-de-la-paix"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital cataloguing of the diplomatic library's private papers is ongoing.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -3,10 +3,210 @@
   "status": "draft",
   "country": "GHA",
   "name": "Accra",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Accra, capital of Ghana: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,782,150 people lived in the historic Accra urban agglomeration in the 2021 census (over 5.4 million in Greater Accra Region).",
+      "cite": [
+        "cap-citypopulation-de-ghana-2021"
+      ]
+    },
+    {
+      "text": "Capital of Ghana since 1877 when it succeeded Cape Coast, it developed from historic Ga coastal fishing and trading settlements.",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "text": "Black Star Square and Kwame Nkrumah Memorial Park stand as global monuments to Pan-African emancipation and modern democracy.",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    }
+  ],
+  "places": [
+    "forts-and-castles-of-ghana",
+    "black-star-gate-and-independence-square-accra",
+    "kwame-nkrumah-memorial-park-accra",
+    "jamestown-and-old-accra"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Accra in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Accra originated as an ancestral homeland of the Ga people, who developed coastal fishing and trading communities in Jamestown and Usshertown surrounding 17th-century European fortified posts.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1877, British colonial authorities transferred the capital of the Gold Coast from Cape Coast to Accra, spurring its rapid growth as an administrative and railway terminus.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Following national independence in March 1957 under Osagyefo Dr. Kwame Nkrumah, Accra became a vibrant continental capital of Pan-African solidarity, intellectual renaissance, and creative arts.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,782,150",
+              "label": "people in the historic Accra urban agglomeration, 2021",
+              "cite": [
+                "cap-citypopulation-de-ghana-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in the historic Accra urban agglomeration in the 2021 census?",
+          "min": 500000,
+          "max": 6000000,
+          "step": 50000,
+          "unit": "",
+          "answer": 1782150,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,782,150 across the historic urban core in the 2021 PHC census by Ghana Statistical Service, while Greater Accra Region as a whole recorded 5,455,692 residents.",
+              "cite": [
+                "cap-citypopulation-de-ghana-2021"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1673",
+              "tag": "origins",
+              "text": "British Fort James is established along the Ga coast.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "when": "1877",
+              "tag": "origins",
+              "text": "Accra becomes the colonial capital of the British Gold Coast, succeeding Cape Coast.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "when": "1957",
+              "tag": "growth",
+              "text": "Ghana achieves independence under Kwame Nkrumah; Accra becomes capital of sovereign Ghana.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "when": "1961",
+              "tag": "growth",
+              "text": "Black Star Gate and Independence Square are dedicated.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "when": "2021",
+              "tag": "today",
+              "text": "The national census counts over 5.4 million inhabitants in Greater Accra Region.",
+              "cite": [
+                "cap-citypopulation-de-ghana-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Accra in order.",
+          "items": [
+            {
+              "label": "British Fort James is founded on the Ga coast.",
+              "when": "1673",
+              "text": "British Fort James is founded on the Ga coast.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "label": "Accra replaces Cape Coast as capital of the Gold Coast.",
+              "when": "1877",
+              "text": "Accra replaces Cape Coast as capital of the Gold Coast.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "label": "Ghana proclaims independence under Kwame Nkrumah.",
+              "when": "1957",
+              "text": "Ghana proclaims independence under Kwame Nkrumah.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            },
+            {
+              "label": "Black Star Gate and Square are completed in Accra.",
+              "when": "1961",
+              "text": "Black Star Gate and Square are completed in Accra.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Socioeconomic data for recent suburban expansions in East Legon and Tema are partially updated.",
+    "First-hand local voices from Ga Mantse traditional palace elders and Jamestown artisanal fishers are missing.",
+    "Cityscape photograph: not yet linked."
   ]
 }

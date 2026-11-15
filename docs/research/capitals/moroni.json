@@ -1,0 +1,483 @@
+{
+  "city": "Moroni",
+  "country": "COM",
+  "population": {
+    "value": 121236,
+    "year": 2017,
+    "definition": "Census 2017 (RGPH-2017) count for the administrative subdivision 'Moroni Bambao' on Ngazidja (61,867 male, 59,369 female). This is a subdivision, not a strict city or agglomeration count; the table does not say which localities it includes. The census manual lists Moroni among 'urban' localities. EBSCO gives a different, non-census figure (about 90,400, World Population Review estimate) without a definition.",
+    "source": {
+      "title": "Principaux indicateurs du Recensement general de la population et de l'habitat de 2017 en Union des Comores (RGPH-2017)",
+      "publisher": "INSEED (Institut national de la statistique et des etudes economiques et demographiques), Comoros",
+      "author": null,
+      "date": "Fevrier 2022",
+      "url": "https://www.nada.inseed-comores.org/index.php/catalog/8/download/72",
+      "tier": "institutional",
+      "quote": "Moroni Bambao 121 236 (total), 61 867 masculin, 59 369 feminin"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Moroni became the administrative capital of the Comoros; sources differ on the year the colonial capital moved there (1958 per EBSCO's full article, 1962 per Library of Congress) and EBSCO also ties it to independence in 1975.",
+      "source": {
+        "title": "Comoros - The Issue of Mahore",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/7.htm",
+        "tier": "institutional",
+        "quote": "the colonial capital was moved from the Mahore town of Dzaoudzi to Moroni on Njazidja in 1962"
+      }
+    },
+    {
+      "claim": "Protectorate treaties were signed with the rulers of Njazidja, Nzwani and Mwali in 1886; the islands joined France's Madagascar colony in 1908 and the last sultan abdicated in 1912.",
+      "source": {
+        "title": "Comoros - French Colonization",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/3.htm",
+        "tier": "institutional",
+        "quote": "with the rulers of Njazidja, Nzwani, and Mwali in 1886"
+      }
+    },
+    {
+      "claim": "Independence was declared on 6 July 1975 by the Comorian government for all the islands including Mayotte (Mahore); the Mayotte status remains disputed, with the Comorian position stated in UN debates.",
+      "source": {
+        "title": "Comoros - The Issue of Mahore",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/7.htm",
+        "tier": "institutional",
+        "quote": "declaring independence unilaterally on July 6, 1975, for all Comoro Islands, including Mahore"
+      }
+    },
+    {
+      "claim": "In a 1976 UN General Assembly debate on 'Question of the Comorian island of Mayotte', Mauritius's delegate stated the Comorian-sovereignty position (attributed statement, one delegate; page is a third-party OCR transcript of the UN record A/31/PV.38, 20 October 1976).",
+      "source": {
+        "title": "A/31/PV.38 General Assembly, Session 31, Meeting 38",
+        "publisher": "UN Project (transcription of UN General Assembly record)",
+        "author": "Mr. Ramphul (Mauritius), speaker",
+        "date": "1976-10-20",
+        "url": "https://un-project.org/meeting/A-31-PV-38/",
+        "tier": "primary",
+        "quote": "Mayotte is an integral part of the State of Comoros."
+      }
+    },
+    {
+      "claim": "Moroni was a capital of a pre-colonial sultanate: the 1892 French protectorate treaty names Moroni as capital of the Bambao sultanate and was signed in Moroni roadstead on 6 January 1892.",
+      "source": {
+        "title": "La resistance a la conquete et a la domination coloniale en Grande Comore: 1880-1940 (DEA thesis, treaty text)",
+        "publisher": "Universite Paris VII (hosted on memoireonline.com)",
+        "author": "Said Mohamed Said Hassani",
+        "date": "2004",
+        "url": "https://www.memoireonline.com/06/09/2115/m_La-resistance--la-conqute-et--la-domination-coloniale-en-Grande-Comore-1880-194017.html",
+        "tier": "academic",
+        "quote": "dont la capitale est MORONI"
+      }
+    },
+    {
+      "claim": "Moroni is described as a centre of Islamic culture and ocean trade, and one of the main ports of the islands.",
+      "source": {
+        "title": "Moroni, Comoros",
+        "publisher": "EBSCO Research Starters",
+        "author": "Micah Issitt",
+        "date": "2022",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+        "tier": "academic",
+        "quote": "Moroni serves as a vital center for Islamic culture and ocean trade"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "1427 (830 AH)",
+      "claim": "The Old Friday Mosque in Moroni is built, according to Mayotte Hebdo's report on the medina inscription.",
+      "tag": "origins",
+      "source": {
+        "title": "Comores : inscription historique de six medinas au patrimoine mondial de l'Unesco",
+        "publisher": "Mayotte Hebdo",
+        "author": "Abdou Moustoifia",
+        "date": "2026-07-28",
+        "url": "https://www.mayottehebdo.com/?p=92591",
+        "tier": "press",
+        "quote": "la vieille mosquee du Vendredi, construite en 830 de l'Hegire (1427 de l'ere chretienne)"
+      }
+    },
+    {
+      "when": "14th century (medina)",
+      "claim": "AFP describes Moroni's medina as 14th-century, including the Friday Mosque with its green minaret.",
+      "tag": "origins",
+      "source": {
+        "title": "Six ancient Comoros medinas join Unesco's heritage list",
+        "publisher": "Gulf Times (AFP)",
+        "author": "AFP",
+        "date": "2026-07-25",
+        "url": "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+        "tier": "press",
+        "quote": "The 14th-century medina in the capital Moroni includes the emblematic Friday Mosque with its green minaret"
+      }
+    },
+    {
+      "when": "1886",
+      "claim": "French protectorate treaties are signed with the rulers of the three islands including Njazidja (Grande Comore).",
+      "tag": "growth",
+      "source": {
+        "title": "Comoros - French Colonization",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/3.htm",
+        "tier": "institutional",
+        "quote": "with the rulers of Njazidja, Nzwani, and Mwali in 1886"
+      }
+    },
+    {
+      "when": "6 January 1892",
+      "claim": "A protectorate treaty for Grande Comore, naming Moroni as capital of Bambao, is signed in Moroni roadstead aboard the Eure.",
+      "tag": "growth",
+      "source": {
+        "title": "La resistance a la conquete et a la domination coloniale en Grande Comore: 1880-1940",
+        "publisher": "Universite Paris VII (hosted on memoireonline.com)",
+        "author": "Said Mohamed Said Hassani",
+        "date": "2004",
+        "url": "https://www.memoireonline.com/06/09/2115/m_La-resistance--la-conqute-et--la-domination-coloniale-en-Grande-Comore-1880-194017.html",
+        "tier": "academic",
+        "quote": "dont la capitale est MORONI"
+      }
+    },
+    {
+      "when": "1912",
+      "claim": "The last sultan abdicates and a colonial administration takes over the islands.",
+      "tag": "growth",
+      "source": {
+        "title": "Comoros - French Colonization",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/3.htm",
+        "tier": "institutional",
+        "quote": "and not until 1912 did the last sultan abdicate"
+      }
+    },
+    {
+      "when": "1962 (EBSCO gives 1958)",
+      "claim": "The colonial capital moves from Dzaoudzi (Mayotte) to Moroni. Sources conflict on the year: Library of Congress 1962, EBSCO 1958.",
+      "tag": "growth",
+      "source": {
+        "title": "Comoros - The Issue of Mahore",
+        "publisher": "U.S. Library of Congress (Comoros: A Country Study), hosted at countrystudies.us",
+        "author": null,
+        "date": null,
+        "url": "https://countrystudies.us/comoros/7.htm",
+        "tier": "institutional",
+        "quote": "the colonial capital was moved from the Mahore town of Dzaoudzi to Moroni on Njazidja in 1962"
+      }
+    },
+    {
+      "when": "6 July 1975",
+      "claim": "The Comoros declares independence; Moroni becomes the capital of the new state.",
+      "tag": "growth",
+      "source": {
+        "title": "Moroni, Comoros",
+        "publisher": "EBSCO Research Starters",
+        "author": "Micah Issitt",
+        "date": "2022",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+        "tier": "academic",
+        "quote": "became the nation's administrative capital at the time of independence in 1975"
+      }
+    },
+    {
+      "when": "25 July 2026",
+      "claim": "Six medinas of the Comoros, including Moroni's, are inscribed on the UNESCO World Heritage list (reported by AFP and RFI).",
+      "tag": "today",
+      "source": {
+        "title": "Six ancient Comoros medinas join Unesco's heritage list",
+        "publisher": "Gulf Times (AFP)",
+        "author": "AFP",
+        "date": "2026-07-25",
+        "url": "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+        "tier": "press",
+        "quote": "some dating back to the 12th century, are still occupied today"
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Old Friday Mosque (Badjanani Mosque) and the medina",
+      "type": "site",
+      "what": "The Old Friday Mosque stands in the medina of Moroni, opposite the old dhow harbour. It is described as the most famous building in the city and dated by Mayotte Hebdo to 1427.",
+      "facts": [
+        {
+          "label": "Date",
+          "value": "Built in 830 AH (1427 CE) per Mayotte Hebdo",
+          "source": {
+            "title": "Comores : inscription historique de six medinas au patrimoine mondial de l'Unesco",
+            "publisher": "Mayotte Hebdo",
+            "author": "Abdou Moustoifia",
+            "date": "2026-07-28",
+            "url": "https://www.mayottehebdo.com/?p=92591",
+            "tier": "press",
+            "quote": "la vieille mosquee du Vendredi, construite en 830 de l'Hegire (1427 de l'ere chretienne)"
+          }
+        },
+        {
+          "label": "Setting",
+          "value": "Part of Moroni's medina, with a green minaret",
+          "source": {
+            "title": "Six ancient Comoros medinas join Unesco's heritage list",
+            "publisher": "Gulf Times (AFP)",
+            "author": "AFP",
+            "date": "2026-07-25",
+            "url": "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+            "tier": "press",
+            "quote": "includes the emblematic Friday Mosque with its green minaret"
+          }
+        },
+        {
+          "label": "Standing",
+          "value": "Called the city's most famous building",
+          "source": {
+            "title": "Moroni, Comoros",
+            "publisher": "EBSCO Research Starters",
+            "author": "Micah Issitt",
+            "date": "2022",
+            "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+            "tier": "academic",
+            "quote": "The most famous building in Moroni is the Badjanani Mosque"
+          }
+        },
+        {
+          "label": "Medina",
+          "value": "Medinas of the islands are lived-in historic quarters",
+          "source": {
+            "title": "Comores: Six medinas classees au patrimoine mondial de l'Unesco, des cites toujours habitees",
+            "publisher": "RFI via AllAfrica",
+            "author": "Abdallah Mzembaba",
+            "date": "2026-08-30",
+            "url": "https://fr.allafrica.com/stories/202608310165.html",
+            "tier": "press",
+            "quote": "anciennes batisses, habitations et lieux de vie se cotoient"
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Ancienne Mosquee du Vendredi (10886895544).jpg",
+        "licence": "CC BY 2.0",
+        "author": "David Stanley (Flickr D-Stanley), via Wikimedia Commons"
+      },
+      "readSources": [
+        "https://www.mayottehebdo.com/?p=92591",
+        "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+        "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+        "https://fr.allafrica.com/stories/202608310165.html",
+        "https://commons.wikimedia.org/wiki/File:Ancienne_Mosquee_du_Vendredi_(10886895544).jpg"
+      ]
+    },
+    {
+      "name": "Volo Volo market",
+      "type": "market",
+      "what": "Volo Volo is a market in the northern part of Moroni. EBSCO describes it as one of the city's chief commercial areas and a major community centre.",
+      "facts": [
+        {
+          "label": "Role",
+          "value": "Chief commercial area and community centre",
+          "source": {
+            "title": "Moroni, Comoros",
+            "publisher": "EBSCO Research Starters",
+            "author": "Micah Issitt",
+            "date": "2022",
+            "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+            "tier": "academic",
+            "quote": "is one of the city's chief commercial areas and a major community center"
+          }
+        },
+        {
+          "label": "Older market",
+          "value": "A separate 'old market' was the central market area in the 19th century",
+          "source": {
+            "title": "Moroni, Comoros",
+            "publisher": "EBSCO Research Starters",
+            "author": "Micah Issitt",
+            "date": "2022",
+            "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+            "tier": "academic",
+            "quote": "which was the city's central market area in the nineteenth century"
+          }
+        },
+        {
+          "label": "Goods (general, an official market in Moroni, not named)",
+          "value": "Madagascar woodcrafts, embroidered cloths and perfume oils",
+          "source": {
+            "title": "The Islands of the Moon",
+            "publisher": "Saudi Aramco World, vol. 47 no. 4",
+            "author": "Lark Ellen Gould",
+            "date": "1996-07/08",
+            "url": "https://archive.aramcoworld.com/issue/199604/the.islands.of.the.moon.htm",
+            "tier": "press",
+            "quote": "colorful stalls selling anything from Madagascar woodcrafts, embroidered cloths and perfume oils cover one official market"
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Volo Volo Market (10912886835).jpg",
+        "licence": "CC BY 2.0",
+        "author": "David Stanley (Flickr D-Stanley), via Wikimedia Commons"
+      },
+      "readSources": [
+        "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+        "https://archive.aramcoworld.com/issue/199604/the.islands.of.the.moon.htm",
+        "https://commons.wikimedia.org/wiki/File:Volo_Volo_Market_(10912886835).jpg"
+      ]
+    },
+    {
+      "name": "Old harbour (dhow port of Kalaweni)",
+      "type": "site",
+      "what": "The old harbour lies opposite the Friday Mosque and is the former dhow port of Kalaweni. Moroni was for centuries a stop on Indian Ocean sea trade.",
+      "facts": [
+        {
+          "label": "Name",
+          "value": "Former dhow port of Kalaweni, opposite the Grand Mosque (AFP photo caption)",
+          "source": {
+            "title": "Six ancient Comoros medinas join Unesco's heritage list",
+            "publisher": "Gulf Times (AFP)",
+            "author": "AFP",
+            "date": "2026-07-25",
+            "url": "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+            "tier": "press",
+            "quote": "former dhow port of Kalaweni, opposite the Grand Mosque"
+          }
+        },
+        {
+          "label": "Trade",
+          "value": "The Comoros were a crossroads of maritime trade",
+          "source": {
+            "title": "Six ancient Comoros medinas join Unesco's heritage list",
+            "publisher": "Gulf Times (AFP)",
+            "author": "AFP",
+            "date": "2026-07-25",
+            "url": "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+            "tier": "press",
+            "quote": "a crossroads of maritime trade between east Africa, the Middle East and Madagascar"
+          }
+        },
+        {
+          "label": "Modern role",
+          "value": "Moroni is one of the main ports of the islands",
+          "source": {
+            "title": "Moroni, Comoros",
+            "publisher": "EBSCO Research Starters",
+            "author": "Micah Issitt",
+            "date": "2022",
+            "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+            "tier": "academic",
+            "quote": "Moroni is one of the chief ports in the islands"
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Moroni-Harbour.jpg",
+        "licence": "CC BY-SA 2.0",
+        "author": "Woodlouse (Flickr), via Wikimedia Commons"
+      },
+      "readSources": [
+        "https://www.gulf-times.com/article/729913/international/six-ancient-comoros-medinas-join-unescos-heritage-list",
+        "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+        "https://commons.wikimedia.org/wiki/File:Moroni-Harbour.jpg"
+      ]
+    },
+    {
+      "name": "Mount Karthala",
+      "type": "nature",
+      "what": "Karthala is an active shield volcano east of Moroni that makes up most of Grande Comore. Its eruptions have at times sent lava close to the capital.",
+      "facts": [
+        {
+          "label": "Size of the volcano",
+          "value": "About two-thirds of the island; summit caldera of 4 x 3 km",
+          "source": {
+            "title": "30 years of scientific research at Karthala volcano (Grande Comore - Indian Ocean)",
+            "publisher": "EGU General Assembly 2012, Geophysical Research Abstracts vol. 14",
+            "author": "P. Bachelery and H. Soule Saadi",
+            "date": "2012",
+            "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-13544.pdf",
+            "tier": "academic",
+            "quote": "a large basaltic shield volcano forming about two-thirds of the Grande Comore Island"
+          }
+        },
+        {
+          "label": "1858 lava flow",
+          "value": "A flow of 13 km reached the west coast near Moroni",
+          "source": {
+            "title": "30 years of scientific research at Karthala volcano (Grande Comore - Indian Ocean)",
+            "publisher": "EGU General Assembly 2012, Geophysical Research Abstracts vol. 14",
+            "author": "P. Bachelery and H. Soule Saadi",
+            "date": "2012",
+            "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-13544.pdf",
+            "tier": "academic",
+            "quote": "a lava flow travelled 13 km from the uphill north rift zone to the western coast, going close to the capital Moroni"
+          }
+        },
+        {
+          "label": "Height",
+          "value": "2,361 m (7,746 ft)",
+          "source": {
+            "title": "Moroni, Comoros",
+            "publisher": "EBSCO Research Starters",
+            "author": "Micah Issitt",
+            "date": "2022",
+            "url": "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros",
+            "tier": "academic",
+            "quote": "an active volcano that stretches to 2,361 meters (7,746 feet)"
+          }
+        },
+        {
+          "label": "Recent activity",
+          "value": "Four major eruptions between 2005 and 2007",
+          "source": {
+            "title": "30 years of scientific research at Karthala volcano (Grande Comore - Indian Ocean)",
+            "publisher": "EGU General Assembly 2012, Geophysical Research Abstracts vol. 14",
+            "author": "P. Bachelery and H. Soule Saadi",
+            "date": "2012",
+            "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-13544.pdf",
+            "tier": "academic",
+            "quote": "until the paroxysms of 2005 to 2007, with four major eruptions"
+          }
+        }
+      ],
+      "photo": null,
+      "readSources": [
+        "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-13544.pdf",
+        "https://www.ebsco.com/research-starters/geography-and-cartography/moroni-comoros"
+      ]
+    }
+  ],
+  "myth": null,
+  "unreadable": [
+    "https://www.britannica.com/place/Moroni-Comoros - 403",
+    "https://whc.unesco.org/document/219529 - 403",
+    "https://whc.unesco.org/document/227370 - 403",
+    "https://archnet.org/sites/15056 - 429 (twice)",
+    "https://www.worldheritagesite.org/tentative/id/5109 - 403",
+    "https://volcano.si.edu/volcano.cfm?vn=233010 - 403",
+    "https://www.refworld.org/legal/resolution/unga/1976/en/6766 - 403",
+    "https://www.gfdrr.org/en/building_resilient_future_for_Comoros - 403",
+    "https://new.blackpast.org/gah/moroni-comoros-1975 - host not found",
+    "https://inseed-comores.org/wp-content/uploads/2024/02/ (press note, provisional results, global results, migrations reports) - 404",
+    "https://commons.wikimedia.org/wiki/Category:Badjanani_Mosque - 404"
+  ],
+  "notNotFound": [
+    "Meaning of the name 'Moroni' ('at the heart of the fire'): no readable acceptable source; the only etymology seen was on a Wikipedia mirror (not used)",
+    "Shirazi/Swahili origin of Moroni with dates: Aramco World mentions Shirazi migration only in general terms; the 15th-16th century Shirazi date was only a search snippet, not read on the page",
+    "French protectorate 1912 as annexation of Grande Comore: Library of Congress gives 1912 as year the last sultan abdicated; no source read says 'annexed 1912'",
+    "Capital year conflict not resolved: EBSCO 1958 (and 1975), Library of Congress 1962",
+    "Agglomeration/commune population of Moroni: only the 'Moroni Bambao' subdivision figure was readable; EBSCO's 90,400 is a World Population Review estimate",
+    "Musee national des Comores: no readable acceptable source (only Wikipedia mirrors seen)",
+    "Moroni Corniche, Ikoni, Itsandra/Mitsamiouli beaches: not sourced (EBSCO and Mayotte Hebdo only name Iconi as a medina among the four on Grande Comore)",
+    "Minaret date of the Old Friday Mosque (1921 per Archnet snippet): Archnet unreadable; a Commons description says 19th century, so left out",
+    "Photo for Karthala: none checked",
+    "Photos from Radoslaw Botev (CC BY 3.0 Poland) were seen but the licence is not on the permitted list, so not proposed",
+    "Common misconception: none explicitly corrected by a read source",
+    "Note: EBSCO page mixes a 2022 byline with 2026 data (population 2026, UNESCO 2026)"
+  ]
+}

@@ -3,10 +3,91 @@
   "status": "draft",
   "country": "AGO",
   "name": "Luanda",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Luanda, capital of Angola: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Founded in 1576 on a natural bay protected by the Ilha de Luanda, it was a pivotal maritime port of the Atlantic slave trade.",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    },
+    {
+      "text": "The Museu Nacional da Escravatura and Fortaleza de São Miguel stand as vital monuments of transatlantic memory and resistance.",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    }
+  ],
+  "places": [
+    "mbanza-kongo",
+    "fortaleza-de-sao-miguel-luanda",
+    "museu-nacional-da-escravatura-luanda",
+    "marginal-e-baia-de-luanda"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Luanda in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Between the 16th and 19th centuries, it functioned as the primary African embarkation port for the transatlantic slave trade to Brazil, profoundly shaping the demographic and cultural ties across the South Atlantic.",
+              "cite": [
+                "cap-unesco-tentative-luanda-slave"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1648",
+              "tag": "origins",
+              "text": "Portuguese fleet led by Salvador Correia de Sá retakes Luanda from the Dutch West India Company.",
+              "cite": [
+                "cap-unesco-tentative-luanda-slave"
+              ]
+            },
+            {
+              "when": "1977",
+              "tag": "growth",
+              "text": "The Museu Nacional da Escravatura opens at Morro da Cruz.",
+              "cite": [
+                "cap-unesco-tentative-luanda-slave"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Final commune-level census tables from the 2024 census remain to be issued by INE Angola.",
+    "First-hand local voices from Axiluanda fisher families and musseque community leaders are still missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

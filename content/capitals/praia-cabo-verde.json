@@ -3,10 +3,19 @@
   "status": "draft",
   "country": "CPV",
   "name": "Praia",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
+  "subtitle": "Praia, capital of Cabo Verde: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [],
+  "places": [
+    "cidade-velha",
+    "plateau-e-praca-alexandre-albuquerque-praia",
+    "museu-etnografico-da-praia",
+    "mercado-de-sucupira-praia"
+  ],
   "sections": [],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Locality-level microdata for recent suburban expansion across Palmarejo are partially accessible online.",
+    "First-hand local voices from traditional tabanka performers and battêras are still missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

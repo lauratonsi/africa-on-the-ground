@@ -1,0 +1,69 @@
+{
+  "slug": "karura-forest",
+  "status": "draft",
+  "type": "nature",
+  "country": "KEN",
+  "name": "Karura Forest",
+  "region": "Nairobi · Kenya",
+  "subtitle": "A large urban forest in northern Nairobi.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "1,041 hectares, in Nairobi",
+      "cite": [
+        "cap-africanarguments-org-827a3d"
+      ]
+    },
+    {
+      "label": "History",
+      "value": "Used by Mau Mau fighters during the liberation struggle",
+      "cite": [
+        "cap-africanarguments-org-827a3d"
+      ]
+    },
+    {
+      "label": "Land allocation",
+      "value": "In 1998 almost a third was secretly allocated to developers",
+      "cite": [
+        "cap-friendsofkarura-org-a3fa52"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large urban forest in northern Nairobi. It sheltered Mau Mau fighters and later became a symbol of resistance to land grabbing.",
+              "cite": [
+                "cap-africanarguments-org-827a3d",
+                "cap-friendsofkarura-org-a3fa52"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "karura-forest",
+    "alt": "Photograph of Karura Forest.",
+    "caption": "Karura Forest.",
+    "credit": "Mekami",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Karura_forest_path.jpg"
+  }
+}

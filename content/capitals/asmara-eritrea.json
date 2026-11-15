@@ -3,10 +3,277 @@
   "status": "draft",
   "country": "ERI",
   "name": "Asmara",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Asmara, capital of Eritrea: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 896,000 people live in Asmara (counted 2018).",
+      "cite": [
+        "cap-citypopulation-de-1c972e"
+      ]
+    },
+    {
+      "text": "Asmara was founded on the site of four ancient villages, collectively called Arbate Asmara.",
+      "cite": [
+        "cap-discovery-ucl-ac-uk-c9dd29"
+      ]
+    },
+    {
+      "text": "Asmara's name derives from a legend of women from four villages uniting; the dossier glosses it as 'They (the women) united them (the villages)'. Dates for the legend are traditional, not documented (EBSCO places four Tigrinya tribes at Asmara by the 12th century in traditional legend).",
+      "cite": [
+        "cap-discovery-ucl-ac-uk-c9dd29"
+      ]
+    }
+  ],
+  "places": [
+    "medeber-market",
+    "enda-mariam-cathedral",
+    "eritrean-railway",
+    "national-museum-of-eritrea"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Asmara in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Asmara was founded on the site of four ancient villages, collectively called Arbate Asmara.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Asmara's name derives from a legend of women from four villages uniting; the dossier glosses it as 'They (the women) united them (the villages)'. Dates for the legend are traditional, not documented (EBSCO places four Tigrinya tribes at Asmara by the 12th century in traditional legend).",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Italian forces occupied Asmara in 1889, and Italy moved its colonial capital there from Massawa in 1900. (EBSCO instead says Asmara became the colonial empire's cultural capital in 1897: sources differ.)",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Italian-era planning: an urban plan by public works head Odoardo Cavagnari was drafted in 1913 and refined in 1916; the city was then transformed from 1935 to 1941.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Eritrea became independent in 1991 after three decades of conflict; Asmara was formally designated capital of the nation in 1993 under the new constitution, per EBSCO.",
+              "cite": [
+                "cap-ebsco-com-3bd194"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Italian-period historic centre, not the whole city, was the area nominated to UNESCO (submitted by Eritrea in January 2016; listed 2017 per other sources, not independently read).",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "896,000",
+              "label": "people in Asmara, 2018",
+              "cite": [
+                "cap-citypopulation-de-1c972e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Asmara?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 896000,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "896,000 in 2018, according to the figures compiled from the national statistics office. Which area is counted matters: Estimate for the city (not metropolitan area) for 1 July 2018, attributed on citypopulation.de to the UN World Urbanization Prospects 2018 Revision.",
+              "cite": [
+                "cap-citypopulation-de-1c972e"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1889",
+              "tag": "origins",
+              "text": "Italians arrive in the highlands and occupy Asmara, having been based in Massawa since 1885.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "1900",
+              "tag": "origins",
+              "text": "Italy moves its colonial capital from Massawa to Asmara; Arbate Asmara is relocated northeast to make room for the new urban centre.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "1911",
+              "tag": "growth",
+              "text": "The Massawa to Asmara railway reaches Asmara.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "1913",
+              "tag": "growth",
+              "text": "Odoardo Cavagnari's urban plan is drafted (refined 1916).",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "1935-1941",
+              "tag": "growth",
+              "text": "Italy's invasion of Ethiopia triggers rapid development of Asmara until the Italians are defeated by Allied forces in 1941.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "1991",
+              "tag": "today",
+              "text": "Eritrean independence follows federation with Ethiopia (1952) and annexation (1962).",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "when": "Mid-1990s onwards",
+              "tag": "today",
+              "text": "The railway track from Massawa to Asmara is re-laid after independence.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Asmara in order.",
+          "items": [
+            {
+              "label": "Italians arrive in the highlands and occupy Asmara, having been based in…",
+              "when": "1889",
+              "text": "Italians arrive in the highlands and occupy Asmara, having been based in Massawa since 1885.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "label": "The Massawa to Asmara railway reaches Asmara.",
+              "when": "1911",
+              "text": "The Massawa to Asmara railway reaches Asmara.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "label": "Italy's invasion of Ethiopia triggers rapid development of Asmara until the…",
+              "when": "1935-1941",
+              "text": "Italy's invasion of Ethiopia triggers rapid development of Asmara until the Italians are defeated by Allied forces in 1941.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            },
+            {
+              "label": "The railway track from Massawa to Asmara is re-laid after independence.",
+              "when": "Mid-1990s onwards",
+              "text": "The railway track from Massawa to Asmara is re-laid after independence.",
+              "cite": [
+                "cap-discovery-ucl-ac-uk-c9dd29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: Asmara's celebrated modernist city is often told as purely an Italian creation.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The nomination paper notes that less is said about the construction, which was carried out by Eritrean labourers.",
+          "cite": [
+            "cap-discovery-ucl-ac-uk-c9dd29"
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Great Mosque, Cinema Impero, Opera House, Fiat Tagliero: no readable acceptable source with detail (mosque only passingly in Denison and EBSCO)",
+    "Not found in a readable source: 2017 UNESCO inscription date from a non-UNESCO readable source",
+    "Not found in a readable source: Whether Medeber, the museum and the railway station lie inside the UNESCO perimeter",
+    "Not found in a readable source: Official recent population figure (no census since 1984)",
+    "Not found in a readable source: Commons photos not visually inspected for people in foreground",
+    "Not found in a readable source: Founding date of the museum's Comboni-school move (only Wikipedia-derived; not used)",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Eritrea has read this profile yet."
   ]
 }

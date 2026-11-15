@@ -1,0 +1,59 @@
+{
+  "slug": "chapungu-sculpture-park",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZWE",
+  "name": "Chapungu Sculpture Park",
+  "region": "Harare · Zimbabwe",
+  "subtitle": "Chapungu is a 20-acre sculpture park on the outskirts of Harare showing Zimbabwean stone sculpture, also called Shona sculpture.",
+  "facts": [
+    {
+      "label": "Founder",
+      "value": "Roy Guthrie",
+      "cite": [
+        "cap-chapungusculpturepark-com-c04b12"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Began as a small gallery in Harare",
+      "cite": [
+        "cap-chapungusculpturepark-com-c04b12"
+      ]
+    },
+    {
+      "label": "Collection claim (self-described)",
+      "value": "Park says it holds the most important permanent collection of this work",
+      "cite": [
+        "cap-chapungusculpturepark-com-c04b12"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Chapungu is a 20-acre sculpture park on the outskirts of Harare showing Zimbabwean stone sculpture, also called Shona sculpture. It began as a small gallery in the city and its founder is named as Roy Guthrie.",
+              "cite": [
+                "cap-chapungusculpturepark-com-c04b12"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

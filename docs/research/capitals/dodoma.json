@@ -1,0 +1,477 @@
+{
+ "city": "Dodoma",
+ "country": "TZA",
+ "population": {
+  "value": 765179,
+  "year": 2022,
+  "definition": "Dodoma City, 2022 Population and Housing Census (held 23 Aug to 4 Sep 2022, NBS). The citypopulation.de page does not define the unit further (lists it under 'Urban'); I could not read the NBS tables directly. Census dates from The Citizen.",
+  "source": {
+   "title": "Dodoma City (population by census)",
+   "publisher": "citypopulation.de (states source: National Bureau of Statistics Tanzania)",
+   "author": "",
+   "date": "2022 census",
+   "url": "https://citypopulation.de/en/tanzania/admin/dodoma/0105__dodoma_city/",
+   "tier": "institutional",
+   "quote": "765,179 (2022 census figure for Dodoma City; page names the National Bureau of Statistics Tanzania as source)"
+  }
+ },
+ "facts": [
+  {
+   "claim": "Before the 20th century the site held a small settlement of some Gogo clans; by 1907 the Germans had built a central railroad there.",
+   "source": {
+    "title": "Dodoma, Tanzania (Research Starters)",
+    "publisher": "EBSCO",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+    "tier": "institutional",
+    "quote": "a small settlement of some clans of the Gogo"
+   }
+  },
+  {
+   "claim": "Dodoma became the capital after a 1973 decision to move the seat from Dar es Salaam; its central location and more comfortable climate drew officials.",
+   "source": {
+    "title": "Dodoma, Tanzania (Research Starters)",
+    "publisher": "EBSCO",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+    "tier": "institutional",
+    "quote": "its central location and more comfortable climate"
+   }
+  },
+  {
+   "claim": "The 1973 plan, approved by the party conference, expected a ten-year move but it took roughly fifty years; real progress came under President Magufuli.",
+   "source": {
+    "title": "Dodoma: The making of the nation's capital (Part 1)",
+    "publisher": "The Citizen (Mwananchi Communications)",
+    "author": "Paul Owere",
+    "date": "2023-05-20",
+    "url": "https://thecitizen.co.tz/tanzania/news/national/dodoma-the-making-of-the-nation-s-capital-part-1--3617594",
+    "tier": "press",
+    "quote": "In October 1973, the decision was approved by the 16th biennial Party conference and with that the die was cast."
+   }
+  },
+  {
+   "claim": "Dodoma is the political and administrative capital; Dar es Salaam remains the economic and cultural hub.",
+   "source": {
+    "title": "Dodoma, Tanzania (Research Starters)",
+    "publisher": "EBSCO",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+    "tier": "institutional",
+    "quote": "Dar es Salaam remains the country's economic and cultural hub"
+   }
+  },
+  {
+   "claim": "Moving the capital was argued to be more economically viable than restructuring Dar es Salaam.",
+   "source": {
+    "title": "Dodoma: The making of the nation's capital (Part 1)",
+    "publisher": "The Citizen (Mwananchi Communications)",
+    "author": "Paul Owere",
+    "date": "2023-05-20",
+    "url": "https://thecitizen.co.tz/tanzania/news/national/dodoma-the-making-of-the-nation-s-capital-part-1--3617594",
+    "tier": "press",
+    "quote": "a more economically viable alternative than attempting to reorganise and restructure Dar es Salaam"
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "By 1907",
+   "claim": "Germans had built a central railroad through Dodoma.",
+   "tag": "origins",
+   "source": {
+    "title": "Dodoma, Tanzania (Research Starters)",
+    "publisher": "EBSCO",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+    "tier": "institutional",
+    "quote": "By 1907, the Germans had built a central railroad"
+   }
+  },
+  {
+   "when": "1959",
+   "claim": "A Legislative Council debate judged Dodoma ideal for the capital, but the idea was shelved over cost.",
+   "tag": "origins",
+   "source": {
+    "title": "Dodoma: The making of the nation's capital (Part 1)",
+    "publisher": "The Citizen (Mwananchi Communications)",
+    "author": "Paul Owere",
+    "date": "2023-05-20",
+    "url": "https://thecitizen.co.tz/tanzania/news/national/dodoma-the-making-of-the-nation-s-capital-part-1--3617594",
+    "tier": "press",
+    "quote": "The idea was, however, shelved due to the high costs of transferring all the government departments"
+   }
+  },
+  {
+   "when": "1973",
+   "claim": "TANU decided on full relocation to Dodoma within 10 years (declared August 1973; conference approval October 1973).",
+   "tag": "growth",
+   "source": {
+    "title": "How relocation to Dodoma began",
+    "publisher": "Daily News (Tanzania)",
+    "author": "Hilda Mhagama",
+    "date": "2023-05-21",
+    "url": "https://dailynews.co.tz/how-relocation-to-dodoma-began/",
+    "tier": "press",
+    "quote": "TANU declared in August 1973 that a full relocation to Dodoma should take place within 10 years."
+   }
+  },
+  {
+   "when": "1996",
+   "claim": "Parliament moved to Dodoma, but the transfer stalled for lack of offices.",
+   "tag": "growth",
+   "source": {
+    "title": "Dodoma, Tanzania (Research Starters)",
+    "publisher": "EBSCO",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+    "tier": "institutional",
+    "quote": "Parliament moved in 1996"
+   }
+  },
+  {
+   "when": "2017",
+   "claim": "President Magufuli ordered a full, immediate move to Dodoma.",
+   "tag": "growth",
+   "source": {
+    "title": "Samia completes 50-year journey of establishing Dodoma as capital",
+    "publisher": "The Citizen",
+    "author": "Jacob Mosenda",
+    "date": "2023-05-21",
+    "url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-completes-50-year-journey-of-establishing-dodoma-as-capital-4242012",
+    "tier": "press",
+    "quote": "until 2017, when former President John Magufuli ordered a full, immediate move to Dodoma"
+   }
+  },
+  {
+   "when": "2020",
+   "claim": "Early 2020: Job Ndugai Market officially began operations.",
+   "tag": "today",
+   "source": {
+    "title": "Six years on, Dodoma's Job Ndugai Market struggles to attract traders",
+    "publisher": "The Citizen",
+    "author": "The Citizen Reporter",
+    "date": "2026-02-10",
+    "url": "https://thecitizen.co.tz/tanzania/news/national/six-years-on-dodoma-s-job-ndugai-market-struggles-to-attract-traders-5354716",
+    "tier": "press",
+    "quote": "officially began operations in early 2020"
+   }
+  },
+  {
+   "when": "20 May 2023",
+   "claim": "New State House at Chamwino, Dodoma inaugurated.",
+   "tag": "today",
+   "source": {
+    "title": "Two men behind newly launched Tanzania's State House structures",
+    "publisher": "Daily News (Tanzania)",
+    "author": "Sauli Giliard and Esther Takwa",
+    "date": "2023-05-20",
+    "url": "https://dailynews.co.tz/?p=27600",
+    "tier": "press",
+    "quote": "inauguration ceremony of the new Ikulu structures on Saturday, May 20, 2023"
+   }
+  },
+  {
+   "when": "2022",
+   "claim": "Census recorded Dodoma City at 765,179.",
+   "tag": "today",
+   "source": {
+    "title": "Dodoma City (population by census)",
+    "publisher": "citypopulation.de (states source: National Bureau of Statistics Tanzania)",
+    "author": "",
+    "date": "2022 census",
+    "url": "https://citypopulation.de/en/tanzania/admin/dodoma/0105__dodoma_city/",
+    "tier": "institutional",
+    "quote": "765,179 (2022 census figure for Dodoma City; page names the National Bureau of Statistics Tanzania as source)"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Job Ndugai Central Market",
+   "type": "market",
+   "what": "A large purpose-built market in Nzuguni Ward on the outskirts of Dodoma. It began operating in early 2020 to relieve older, overcrowded markets such as Majengo.",
+   "facts": [
+    {
+     "label": "Cost",
+     "value": "More than Sh14 billion",
+     "source": {
+      "title": "Six years on, Dodoma's Job Ndugai Market struggles to attract traders",
+      "publisher": "The Citizen",
+      "author": "The Citizen Reporter",
+      "date": "2026-02-10",
+      "url": "https://thecitizen.co.tz/tanzania/news/national/six-years-on-dodoma-s-job-ndugai-market-struggles-to-attract-traders-5354716",
+      "tier": "press",
+      "quote": "built in Nzuguni Ward at a cost of more than Sh14 billion"
+     }
+    },
+    {
+     "label": "Opening",
+     "value": "Early 2020",
+     "source": {
+      "title": "Six years on, Dodoma's Job Ndugai Market struggles to attract traders",
+      "publisher": "The Citizen",
+      "author": "The Citizen Reporter",
+      "date": "2026-02-10",
+      "url": "https://thecitizen.co.tz/tanzania/news/national/six-years-on-dodoma-s-job-ndugai-market-struggles-to-attract-traders-5354716",
+      "tier": "press",
+      "quote": "officially began operations in early 2020"
+     }
+    },
+    {
+     "label": "Older markets",
+     "value": "Majengo, Machinga and Sabasaba markets had become overcrowded",
+     "source": {
+      "title": "Six years on, Dodoma's Job Ndugai Market struggles to attract traders",
+      "publisher": "The Citizen",
+      "author": "The Citizen Reporter",
+      "date": "2026-02-10",
+      "url": "https://thecitizen.co.tz/tanzania/news/national/six-years-on-dodoma-s-job-ndugai-market-struggles-to-attract-traders-5354716",
+      "tier": "press",
+      "quote": "the Majengo, Machinga and Sabasaba markets became overcrowded"
+     }
+    },
+    {
+     "label": "Majengo Market",
+     "value": "Described as renowned; a modernisation project was ordered in 2025",
+     "source": {
+      "title": "DC orders Majengo Market contractor to work 24/7",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Daily News reporter",
+      "date": "2025-04-24",
+      "url": "https://dailynews.co.tz/dc-orders-majengo-market-contractor-to-work-24-7/",
+      "tier": "press",
+      "quote": "aims to modernise infrastructure at the renowned Majengo Market in Dodoma"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Dodoma - Job Ndugai Central Market.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Mamatimo"
+   },
+   "readSources": [
+    "https://thecitizen.co.tz/tanzania/news/national/six-years-on-dodoma-s-job-ndugai-market-struggles-to-attract-traders-5354716",
+    "https://dailynews.co.tz/dc-orders-majengo-market-contractor-to-work-24-7/",
+    "https://commons.wikimedia.org/wiki/File:Dodoma_-_Job_Ndugai_Central_Market.jpg"
+   ]
+  },
+  {
+   "name": "Bunge (Parliament) complex",
+   "type": "site",
+   "what": "The seat of Tanzania's National Assembly in Dodoma. The government is enlarging the parliament grounds.",
+   "facts": [
+    {
+     "label": "Land area",
+     "value": "Expanding from 42,312 to 162,236 square metres",
+     "source": {
+      "title": "Bunge area set for expansion",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Rodgers Luhwago",
+      "date": "2024-04-12",
+      "url": "https://dailynews.co.tz/?p=56160",
+      "tier": "press",
+      "quote": "will now expand from the current 42,312 to 162, 236 square metres"
+     }
+    },
+    {
+     "label": "Compensation",
+     "value": "12.216 bn/- paid to owners of annexed land",
+     "source": {
+      "title": "Bunge area set for expansion",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Rodgers Luhwago",
+      "date": "2024-04-12",
+      "url": "https://dailynews.co.tz/?p=56160",
+      "tier": "press",
+      "quote": "to compensate the area owners"
+     }
+    },
+    {
+     "label": "Move to Dodoma",
+     "value": "Parliament moved in 1996",
+     "source": {
+      "title": "Dodoma, Tanzania (Research Starters)",
+      "publisher": "EBSCO",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania",
+      "tier": "institutional",
+      "quote": "Parliament moved in 1996"
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://dailynews.co.tz/?p=56160",
+    "https://www.ebsco.com/research-starters/geography-and-cartography/dodoma-tanzania"
+   ]
+  },
+  {
+   "name": "Chamwino State House (Ikulu)",
+   "type": "site",
+   "what": "The presidential office and administration complex in Chamwino, Dodoma. It was inaugurated in May 2023.",
+   "facts": [
+    {
+     "label": "Inauguration",
+     "value": "20 May 2023",
+     "source": {
+      "title": "Two men behind newly launched Tanzania's State House structures",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Sauli Giliard and Esther Takwa",
+      "date": "2023-05-20",
+      "url": "https://dailynews.co.tz/?p=27600",
+      "tier": "press",
+      "quote": "inauguration ceremony of the new Ikulu structures on Saturday, May 20, 2023"
+     }
+    },
+    {
+     "label": "Builder",
+     "value": "Tanzania People's Defence Forces National Service wing, locally funded (article paraphrase)",
+     "source": {
+      "title": "Two men behind newly launched Tanzania's State House structures",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Sauli Giliard and Esther Takwa",
+      "date": "2023-05-20",
+      "url": "https://dailynews.co.tz/?p=27600",
+      "tier": "press",
+      "quote": "office and administration blocks of the State House at Chamwino"
+     }
+    },
+    {
+     "label": "Role",
+     "value": "Houses presidential offices and official residence",
+     "source": {
+      "title": "Samia completes 50-year journey of establishing Dodoma as capital",
+      "publisher": "The Citizen",
+      "author": "Jacob Mosenda",
+      "date": "2023-05-21",
+      "url": "https://www.thecitizen.co.tz/tanzania/news/national/samia-completes-50-year-journey-of-establishing-dodoma-as-capital-4242012",
+      "tier": "press",
+      "quote": "the inauguration of the new State House building in Chamwino, Dodoma"
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://dailynews.co.tz/?p=27600",
+    "https://www.thecitizen.co.tz/tanzania/news/national/samia-completes-50-year-journey-of-establishing-dodoma-as-capital-4242012"
+   ]
+  },
+  {
+   "name": "University of Dodoma",
+   "type": "culture",
+   "what": "A public university on a large campus east of the city. It was established in 2007.",
+   "facts": [
+    {
+     "label": "Established",
+     "value": "2007",
+     "source": {
+      "title": "The University Establishment",
+      "publisher": "University of Dodoma",
+      "author": "",
+      "date": "undated",
+      "url": "https://portal.udom.ac.tz/site/establishment",
+      "tier": "primary",
+      "quote": "was established in the year 2007"
+     }
+    },
+    {
+     "label": "Location",
+     "value": "About 7 km east of the city",
+     "source": {
+      "title": "The University Establishment",
+      "publisher": "University of Dodoma",
+      "author": "",
+      "date": "undated",
+      "url": "https://portal.udom.ac.tz/site/establishment",
+      "tier": "primary",
+      "quote": "approximately 7 kilometers east of Dodoma city"
+     }
+    },
+    {
+     "label": "Campus size",
+     "value": "6,000 hectares",
+     "source": {
+      "title": "The University Establishment",
+      "publisher": "University of Dodoma",
+      "author": "",
+      "date": "undated",
+      "url": "https://portal.udom.ac.tz/site/establishment",
+      "tier": "primary",
+      "quote": "6,000 hectares"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:University of Dodoma.jpg",
+    "licence": "CC BY 2.0",
+    "author": "Job de Graaf (Kiliweb)"
+   },
+   "readSources": [
+    "https://portal.udom.ac.tz/site/establishment",
+    "https://commons.wikimedia.org/wiki/File:University_of_Dodoma.jpg"
+   ]
+  },
+  {
+   "name": "Dodoma vineyards and wine",
+   "type": "nature",
+   "what": "Dodoma Region is Tanzania's main grape-growing area. Growers rely heavily on the Makutupora grape.",
+   "facts": [
+    {
+     "label": "Share of grapes",
+     "value": "More than 70 per cent of national production",
+     "source": {
+      "title": "From five acres to thriving vineyard",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Esther Kasanga",
+      "date": "2026-07-23",
+      "url": "https://dailynews.co.tz/from-five-acres-to-thriving-vineyard/",
+      "tier": "press",
+      "quote": "accounting for more than 70 per cent of Tanzania's grape production"
+     }
+    },
+    {
+     "label": "Main grape",
+     "value": "Makutupora",
+     "source": {
+      "title": "From five acres to thriving vineyard",
+      "publisher": "Daily News (Tanzania)",
+      "author": "Esther Kasanga",
+      "date": "2026-07-23",
+      "url": "https://dailynews.co.tz/from-five-acres-to-thriving-vineyard/",
+      "tier": "press",
+      "quote": "Most of us rely heavily on Makutupora grapes."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://dailynews.co.tz/from-five-acres-to-thriving-vineyard/"
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://journals.udsm.ac.tz/index.php/tz/article/view/3523 - certificate error",
+  "https://www.britannica.com/print/article/167608 - 403",
+  "https://www.gfdrr.org/en/feature-story/dodomas-integrated-and-sustainable-urban-mobility-transformation - 403",
+  "https://www.nbs.go.tz/ ... Dodoma Region Basic Demographic and Socio-Economic Profile.pdf - binary, unreadable by tool",
+  "https://udom.ac.tz/establishment - certificate error (portal.udom.ac.tz readable)"
+ ],
+ "notNotFound": [
+  "Readable source for Jamia Mosque, St Peter's Cathedral (no such cathedral found), Nyerere Square, Gogo cultural centre, Chamwino Memorial Museum",
+  "Official NBS table defining the Dodoma City population unit",
+  "Explicit source naming Dar es Salaam as commercial capital in the same article as 'Dodoma is capital' beyond EBSCO 'economic and cultural hub'",
+  "Photos for Bunge, State House, wine (not checked/found)",
+  "Explicit myth correction",
+  "Note: EBSCO gives 262,000 for 2018 (conflicts with 2022 city figure; different unit/definition likely)",
+  "One press article attributes Dodoma's designation to a 'public referendum' (not verified; not used)",
+  "Sources differ: TANU decision Aug 1973 (Daily News) vs Oct 1973 conference (Citizen)"
+ ]
+}

@@ -1,0 +1,306 @@
+{
+  "slug": "fula",
+  "status": "draft",
+  "name": "Fula (Fulani, Peul)",
+  "countries": [
+    "SEN",
+    "GMB",
+    "GIN",
+    "GNB",
+    "MLI",
+    "MRT",
+    "NER",
+    "NGA",
+    "BFA",
+    "CMR",
+    "TCD",
+    "CAF",
+    "SLE",
+    "LBR",
+    "CIV",
+    "GHA",
+    "TGO",
+    "BEN",
+    "SDN"
+  ],
+  "subtitle": "Fula (Fulani, Peul): who the sources name, where they live, and what the old labels got wrong.",
+  "keyPoints": [
+    {
+      "text": "About 30,000,000 people (2025): Courtright's estimate for the Fulani community as a whole (not a count of speakers), 'spread across at least 19 African countries'.",
+      "cite": [
+        "cap-megatrends-afrika-de-7d1ee0"
+      ]
+    },
+    {
+      "text": "Fula, Fulani, Fulbe and Peul are names for the same community: 'Fulbe' is used in their own languages and 'Peul' in French.",
+      "cite": [
+        "cap-megatrends-afrika-de-7d1ee0"
+      ]
+    },
+    {
+      "text": "The language is called Pulaar or Fulfulde (Peul in French); INALCO gives the double name.",
+      "cite": [
+        "cap-inalco-fr-604b7d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "who",
+      "title": "Who the sources are talking about",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "30,000,000",
+              "label": "Courtright's estimate for the Fulani community as a whole (not a count of speakers), 'spread across at least 19 African countries', 2025",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fula, Fulani, Fulbe and Peul are names for the same community: 'Fulbe' is used in their own languages and 'Peul' in French.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "people-fula",
+            "alt": "A conical woven hat with leather trim and white diamond-shaped inlays, on a dark background.",
+            "caption": "A Fula herder's hat from the Fouta Djallon, Guinea (plant fibre and leather), in the ethnographic collection of the University of Strasbourg.",
+            "credit": "Photo Claude TRUONG-NGOC",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "source": "https://commons.wikimedia.org/wiki/File:Chapeau_berger_Peul-Institut_d'ethnologie_de_Strasbourg-2.jpg",
+            "width": 800,
+            "height": 533
+          }
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The language is called Pulaar or Fulfulde (Peul in French); INALCO gives the double name.",
+              "cite": [
+                "cap-inalco-fr-604b7d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Speakers: INALCO estimates over 20 million (undated, no method given); the language is spoken in about twenty West and Central African states. Estimates differ between sources and no single census counts speakers.",
+              "cite": [
+                "cap-inalco-fr-604b7d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A language survey lists 17 African countries with Fulfulde speakers (Burkina Faso, Benin, CAR, Cote d'Ivoire, Cameroon, Ghana, Gambia, Guinea, Guinea-Bissau, Mali, Mauritania, Niger, Nigeria, Sudan, Senegal, Chad, Togo).",
+              "cite": [
+                "cap-silcam-org-5c06a7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The community is internally varied: many languages and cultural systems, and a settled majority.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Many Fulani settled long ago: in the Guinea highlands they settled permanently in large urban centres centuries ago and developed complex agricultural systems.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "title": "Names, borders and colonial categories",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fulani live as a minority in every country where they are found, across at least 19 states.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Colonial administrative logic did not fit local realities; independent states inherited borders that left Fulani dispersed as minorities in several countries (press article; tier uncertain).",
+              "cite": [
+                "cap-nofi-media-0aae99"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Niger 1890-1920, borders led colonial administrators to monitor livestock movements more closely, though state control over mobile herders was limited.",
+              "cite": [
+                "cap-cambridge-org-0f0a5a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "check",
+          "q": "Myth or fact: All Fulani are nomadic herders who migrate with cattle.",
+          "options": [
+            "Myth",
+            "Fact"
+          ],
+          "answer": "Myth",
+          "explain": "The source says transhumance is often imagined for all Fulani but in reality the vast majority are settled.",
+          "cite": [
+            "cap-megatrends-afrika-de-7d1ee0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "colonial",
+              "label": "Colonial period"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1804-1810",
+              "tag": "origins",
+              "text": "The jihad led by Uthman dan Fodio against the Hausa dynasty of Gobir (declared February 1804) led to the Sokoto Caliphate, run largely as a federation of emirates.",
+              "cite": [
+                "cap-pdfs-semanticscholar-org-c78a7e"
+              ]
+            },
+            {
+              "when": "18th-19th centuries (Macina included)",
+              "tag": "origins",
+              "text": "A series of Fulani-led religious revolutions produced Islamic states across West Africa. The Macina state (1818-1853) is only named as the title of a cited book (Ba & Daget); no readable page on Macina was found.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            },
+            {
+              "when": "colonial era",
+              "tag": "colonial",
+              "text": "Under colonial rule power shifted to new capitals and a Western-educated elite; settled Fulani leaders were incorporated into colonial and post-colonial governments, but rural, semi-nomadic communities were not.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            },
+            {
+              "when": "1970s-1980s and 2010s",
+              "tag": "today",
+              "text": "After independence, droughts in the 1970s-80s hit Sahelian herds, and in the early 2010s a pastoralism crisis reached a critical point in the central Sahel and Nigeria; the author attributes violence to several unconnected groups and says the whole community has been blamed (author's analysis).",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these moments in the history of the Fula (Fulani, Peul) in order.",
+          "items": [
+            {
+              "label": "The jihad led by Uthman dan Fodio against the Hausa dynasty of Gobir…",
+              "when": "1804-1810",
+              "text": "The jihad led by Uthman dan Fodio against the Hausa dynasty of Gobir (declared February 1804) led to the Sokoto Caliphate, run largely as a federation of emirates.",
+              "cite": [
+                "cap-pdfs-semanticscholar-org-c78a7e"
+              ]
+            },
+            {
+              "label": "A series of Fulani-led religious revolutions produced Islamic states across…",
+              "when": "18th-19th centuries (Macina included)",
+              "text": "A series of Fulani-led religious revolutions produced Islamic states across West Africa. The Macina state (1818-1853) is only named as the title of a cited book (Ba & Daget); no readable page on Macina was found.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            },
+            {
+              "label": "Under colonial rule power shifted to new capitals and a Western-educated…",
+              "when": "colonial era",
+              "text": "Under colonial rule power shifted to new capitals and a Western-educated elite; settled Fulani leaders were incorporated into colonial and post-colonial governments, but rural, semi-nomadic communities were not.",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            },
+            {
+              "label": "After independence, droughts in the 1970s-80s hit Sahelian herds, and in the…",
+              "when": "1970s-1980s and 2010s",
+              "text": "After independence, droughts in the 1970s-80s hit Sahelian herds, and in the early 2010s a pastoralism crisis reached a critical point in the central Sahel and Nigeria; the author attributes violence to several unconnected groups and says the whole community has been blamed (author's analysis).",
+              "cite": [
+                "cap-megatrends-afrika-de-7d1ee0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Not found in a readable source: Macina state (1818, Seku Amadu): no readable non-Wikipedia page found (only a book title in Courtright's footnote)",
+    "Not found in a readable source: British conquest of Sokoto 1903: source blocked (CORE 403), only search snippets",
+    "Not found in a readable source: Single authoritative speaker count with year/definition (Ethnologue blocked; Glottolog page showed no counts)",
+    "Not found in a readable source: Explicit source on the 'one country, one tribe' idea (only Courtright minority-in-every-country statement and Nofi/Turner on borders)",
+    "Not found in a readable source: Mosque/manuscript photos on Commons (Fouta Djallon category has none by title); photos not visually inspected, licences read from Commons file pages",
+    "Not found in a readable source: Sources not read in full: Nofi is a news site, tier uncertain; Glottolog only confirmed the 'Fula' family entry (fula1264, ISO ful)",
+    "Left out because only weak or unofficial sources supported them (3 items).",
+    "The sources are mostly outside voices, in English or French; the people themselves are the first source on who they are.",
+    "Quotes were checked by a text search of each cited page where the page could be read; the others are not verified.",
+    "No one from the group has read this page yet."
+  ]
+}

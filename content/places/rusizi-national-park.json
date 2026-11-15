@@ -1,0 +1,52 @@
+{
+  "slug": "rusizi-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "BDI",
+  "name": "Rusizi National Park",
+  "region": "Bujumbura · Burundi",
+  "subtitle": "A protected wetland park on the Rusizi River north of Bujumbura, home to hippopotamuses and Nile crocodiles.",
+  "facts": [
+    {
+      "label": "Hippo poaching (2014 report)",
+      "value": "Eight hippos killed in under three months; senior warden says locals trap them for meat.",
+      "cite": [
+        "cap-iwacu-burundi-org-955421"
+      ]
+    },
+    {
+      "label": "Crocodiles (2014)",
+      "value": "Warden reported a single Nile crocodile left in the park.",
+      "cite": [
+        "cap-iwacu-burundi-org-955421"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A protected wetland park on the Rusizi River north of Bujumbura, home to hippopotamuses and Nile crocodiles. Its wildlife has been under pressure from poaching.",
+              "cite": [
+                "cap-iwacu-burundi-org-955421"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

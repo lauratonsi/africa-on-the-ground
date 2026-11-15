@@ -1,0 +1,59 @@
+{
+  "slug": "black-star-gate-and-independence-square-accra",
+  "status": "draft",
+  "type": "site",
+  "country": "GHA",
+  "name": "Black Star Gate and Independence Square",
+  "region": "Accra · Ghana",
+  "subtitle": "Monumental ceremonial esplanade and triumphal Black Star arch commissioned by Kwame Nkrumah in 1961.",
+  "facts": [
+    {
+      "label": "Commissioned",
+      "value": "1961 by President Kwame Nkrumah",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Triumphal arch",
+      "value": "Black Star Gate topped by the black star of African emancipation and independence",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Ceremonial role",
+      "value": "Venue for Independence Day military parades, presidential inaugurations, and civic assemblies",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The great civic esplanade and national monument of Ghana, situated between High Street and the Atlantic coast in Accra. Commissioned by founding President Kwame Nkrumah to commemorate national independence, Independence Square (Black Star Square) was completed in 1961 to host mass civic gatherings. At its center rises the Black Star Gate, a monumental triumphal arch crowned by a giant black five-pointed star—the emblem of pan-African freedom, unity, and self-determination.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Public access schedules to the upper observation platform are intermittently regulated.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

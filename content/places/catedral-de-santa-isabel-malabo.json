@@ -1,0 +1,59 @@
+{
+  "slug": "catedral-de-santa-isabel-malabo",
+  "status": "draft",
+  "type": "culture",
+  "country": "GNQ",
+  "name": "Catedral de Santa Isabel de Malabo",
+  "region": "Malabo · Equatorial Guinea",
+  "subtitle": "Monumental Spanish Neo-Gothic cathedral consecrated in 1916 with twin 40-metre spires overlooking Plaza de la Independencia.",
+  "facts": [
+    {
+      "label": "Consecrated",
+      "value": "1916 (commenced 1897)",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    },
+    {
+      "label": "Architect",
+      "value": "Luis Segarra Llairadó",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    },
+    {
+      "label": "Height",
+      "value": "Twin spires rising 40 metres above the colonial plaza",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The primary Catholic cathedral and most prominent historical architectural landmark of Equatorial Guinea, commanding the western side of Plaza de la Independencia in Malabo. Designed by Spanish architect Luis Segarra Llairadó with donations from parishioners and the colonial administration, the imposing Neo-Gothic apricot-hued facade features soaring 40-metre twin bell towers, pointed lancet archways, and vibrant stained-glass windows, standing as an enduring symbol of the city's maritime history on Bioko Island.",
+              "cite": [
+                "cap-archnet-catedral-malabo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Post-restoration reports following the 2020 roof fire are partially accessible online.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

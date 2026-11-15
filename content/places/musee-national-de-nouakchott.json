@@ -1,0 +1,58 @@
+{
+  "slug": "musee-national-de-nouakchott",
+  "status": "draft",
+  "type": "culture",
+  "country": "MRT",
+  "name": "Musée National de Nouakchott",
+  "region": "Nouakchott · Mauritania",
+  "subtitle": "National museum preserving prehistoric Neolithic artifacts and Saharan nomadic traditions.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1972 in the Maison de la Culture",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Collections",
+      "value": "Neolithic tools, archaeological finds from medieval trading ksour, and nomadic ethnographic objects",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Central Nouakchott near Avenue Gamal Abdel Nasser",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The National Museum of Mauritania (Musée National de Nouakchott) offers an essential overview of Mauritania's ancient and nomadic heritage. Across two exhibition floors, the museum presents Stone Age tools from the Sahara, pottery from medieval caravan towns such as Koumbi Saleh, Chinguetti, and Ouadane, and ethnographic collections showcasing traditional nomadic tents, leatherwork, and musical instruments.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

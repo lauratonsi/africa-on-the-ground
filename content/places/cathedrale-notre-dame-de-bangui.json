@@ -6,54 +6,12 @@
   "name": "Cathédrale Notre-Dame de Bangui",
   "region": "Bangui · Central African Republic",
   "subtitle": "Historic red-brick cathedral where Pope Francis inaugurated the Holy Door of the 2015 Jubilee of Mercy.",
-  "facts": [
-    {
-      "label": "Construction",
-      "value": "Built in the 1930s with local red brick",
-      "cite": [
-        "cap-zenit-bangui-porte-sainte-2015"
-      ]
-    },
-    {
-      "label": "Ecumenical milestone",
-      "value": "Pope Francis opened the Jubilee Holy Door on 29 November 2015",
-      "cite": [
-        "cap-zenit-bangui-porte-sainte-2015"
-      ]
-    },
-    {
-      "label": "Role",
-      "value": "Spiritual anchor and sanctuary during periods of civil conflict",
-      "cite": [
-        "cap-zenit-bangui-porte-sainte-2015"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what",
-      "title": "What it is",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The primary Catholic cathedral of the Central African Republic, situated in central Bangui near the banks of the Ubangi River. Constructed in the 1930s out of striking kiln-fired red bricks in a neo-Romanesque design, it gained worldwide renown on 29 November 2015 when Pope Francis made an unprecedented apostolic journey amidst civil strife, personally opening its Holy Door to inaugurate the Extraordinary Jubilee of Mercy—the first time in modern papal history that a Holy Year was opened outside of Rome—proclaiming Bangui as the spiritual capital of peace for the world.",
-              "cite": [
-                "cap-zenit-bangui-porte-sainte-2015"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "facts"
-        }
-      ]
-    }
-  ],
+  "facts": [],
+  "sections": [],
   "gaps": [
     "Diocesan architectural blueprints and stained-glass restoration records remain uncatalogued online.",
     "Local voices: none yet.",
-    "Photograph: not yet linked."
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

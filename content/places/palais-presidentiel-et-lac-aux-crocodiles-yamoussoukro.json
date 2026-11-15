@@ -1,0 +1,59 @@
+{
+  "slug": "palais-presidentiel-et-lac-aux-crocodiles-yamoussoukro",
+  "status": "draft",
+  "type": "site",
+  "country": "CIV",
+  "name": "Palais Présidentiel et Lac aux Crocodiles",
+  "region": "Yamoussoukro · Côte d'Ivoire",
+  "subtitle": "Historic presidential compound encircled by artificial moats teeming with legendary sacred West African crocodiles.",
+  "facts": [
+    {
+      "label": "Built",
+      "value": "1970s as the official inland palace of Félix Houphouët-Boigny",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Famous feature",
+      "value": "Interconnected artificial lakes home to hundreds of sacred West African crocodiles",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Tradition",
+      "value": "Daily feeding ritual at dusk by traditional Baoulé guardians attracting civic observers",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The presidential palace complex of Yamoussoukro, surrounded by extensive perimeter walls and a series of artificial moats and lakes. The compound was created in the 1970s around the ancestral homestead of Côte d'Ivoire's founding president, Félix Houphouët-Boigny. The palace lakes are internationally known for harboring hundreds of West African crocodiles, introduced by Houphouët-Boigny as symbols of protective power and traditional Baoulé kingship, fed meat each evening at sunset by hereditary custodians.",
+              "cite": [
+                "cap-unesco-notre-dame-de-la-paix"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Security access to the interior palace residence is restricted to official delegations.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

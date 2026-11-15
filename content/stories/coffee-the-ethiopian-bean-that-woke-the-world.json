@@ -1,0 +1,178 @@
+{
+  "slug": "coffee-the-ethiopian-bean-that-woke-the-world",
+  "status": "published",
+  "kind": "food",
+  "title": "Coffee: the Ethiopian bean that woke the world",
+  "subtitle": "Long before espresso bars, Oromo warriors chewed wild coffee berries with butter for long journeys, and Ethiopian families gathered for the three rounds of the bunna ceremony.",
+  "countries": [
+    "ETH"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "kaffa-highlands",
+      "title": "The wild forest of Kaffa",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Every botanical species of Coffea arabica consumed across the globe traces its genetic origin back to the cloud forests of the southwestern Ethiopian highlands, particularly the ancient kingdom of Kaffa.",
+              "cite": [
+                "weinberg-world-of-caffeine-2001",
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Popular legend attributes the discovery of coffee to Kaldi, a 9th-century goat herder who noticed that his herd grew energetic and danced after nibbling the bright red berries of an evergreen shrub.",
+              "cite": [
+                "weinberg-world-of-caffeine-2001"
+              ]
+            },
+            {
+              "text": " While the Kaldi story was first written down in Europe in the 17th century, Ethiopian historical documentation confirms that local populations had utilized coffee for centuries before it was ever brewed as a hot beverage.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "Kaffa",
+              "label": "southwestern Ethiopian region that gave the botanical bean its name",
+              "cite": [
+                "weinberg-world-of-caffeine-2001"
+              ]
+            },
+            {
+              "value": "3 rounds",
+              "label": "brewed in every traditional ceremony (Abol, Tona, Baraka)",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            },
+            {
+              "value": "15th century",
+              "label": "spread across the Red Sea to Yemeni Sufi monasteries",
+              "cite": [
+                "weinberg-world-of-caffeine-2001"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy-and-sufism",
+      "title": "Chewing berries and midnight prayers",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In ancient Oromo culture, coffee was consumed primarily as solid sustenance.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            },
+            {
+              "text": " Pastoralists crushed ripe coffee cherries with a stone mortar, mixed the pulp with clarified butter (niter kibbeh), and rolled them into spherical cakes (buna qalaa). These calorie-dense, caffeinated energy balls allowed warriors and traders to sustain long migrations across arid terrain without lighting cooking fires.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "By the 15th century, the bean crossed the Red Sea into Yemen, where Sufi mystics began roasting and boiling the crushed beans into a hot black beverage, called qahwah, to maintain alert focus during nocturnal chanting ceremonies and Quranic recitation.",
+              "cite": [
+                "weinberg-world-of-caffeine-2001"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-bunna-ceremony",
+      "title": "The living ritual of the Bunna",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In contemporary Ethiopia and Eritrea, drinking coffee is never an on-the-go commercial transaction; it is a sacred, multi-sensory domestic ritual known as the Bunna ceremony.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Conducted by the woman of the house over fresh aromatic grasses strewn on the floor, green raw coffee beans are washed and gently roasted over a charcoal brazier on a flat pan. The cook carries the smoking pan to each guest so they may cup their hands and inhale the fragrant aroma.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            },
+            {
+              "text": " The freshly ground beans are brewed inside a round-bottomed black clay pot with a narrow neck, called a jebena, and served into handle-less ceramic cups (cini) accompanied by frankincense and popped sorghum.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The three cups of hospitality",
+          "parts": [
+            {
+              "text": "Hospitality demands drinking three complete cups: Abol (the first, strongest infusion, meant to awaken the senses), Tona (the second, softer brew, for deepening conversation), and Baraka (the third, meaning 'blessing', which seals communal peace and harmony among neighbors). Leaving before the third cup is considered a breach of social goodwill.",
+              "cite": [
+                "pankhurst-coffee-ethiopia-1997"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Archaeological evidence for the exact century when roasting beans over hot coals replaced boiling the unroasted green berry or chewing the pulp remains fragmentary.",
+    "Regional variations between Orthodox Christian Bunna ceremonies in the northern highlands and Muslim Oromo Buna Qalaa blessings in the east show distinct liturgical and prayer formulas."
+  ],
+  "keyPoints": [
+    {
+      "text": "Coffea arabica is indigenous to the ancient highland cloud forests of Kaffa in southwestern Ethiopia.",
+      "cite": [
+        "weinberg-world-of-caffeine-2001"
+      ]
+    },
+    {
+      "text": "Before being brewed as a beverage, coffee was consumed by Oromo pastoralists as energy balls made from crushed berries and clarified butter.",
+      "cite": [
+        "pankhurst-coffee-ethiopia-1997"
+      ]
+    },
+    {
+      "text": "The traditional Ethiopian coffee ceremony (Bunna) requires three successive brewings (Abol, Tona, Baraka) as a peacemaking community sacrament.",
+      "cite": [
+        "pankhurst-coffee-ethiopia-1997"
+      ]
+    }
+  ]
+}

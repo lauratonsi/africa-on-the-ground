@@ -1,0 +1,75 @@
+{
+  "slug": "nairobi-national-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "KEN",
+  "name": "Nairobi National Museum",
+  "region": "Nairobi · Kenya",
+  "subtitle": "A museum run by National Museums of Kenya on Museum Hill, begun in 1910 by naturalists.",
+  "facts": [
+    {
+      "label": "Origin",
+      "value": "Initiated in 1910 by a group of naturalists",
+      "cite": [
+        "cap-museums-or-ke-8d77ec"
+      ]
+    },
+    {
+      "label": "Opened",
+      "value": "Opened 22 September 1930 as the Coryndon Museum",
+      "cite": [
+        "cap-museums-or-ke-8d77ec"
+      ]
+    },
+    {
+      "label": "Reopened",
+      "value": "Reopened June 2008 under its current name",
+      "cite": [
+        "cap-museums-or-ke-8d77ec"
+      ]
+    },
+    {
+      "label": "Galleries",
+      "value": "Permanent galleries include The Cradle of Human Kind and The History of Kenya",
+      "cite": [
+        "cap-museums-or-ke-8d77ec"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A museum run by National Museums of Kenya on Museum Hill, begun in 1910 by naturalists. Its permanent galleries cover human origins, mammals, Kenyan history and more.",
+              "cite": [
+                "cap-museums-or-ke-8d77ec"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "nairobi-national-museum",
+    "alt": "A hanging sculpture made of gourds in a hall of the Nairobi National Museum.",
+    "caption": "An installation in a hall of the museum.",
+    "credit": "Mike W.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Nairobi_National_Museum_2.jpg"
+  }
+}

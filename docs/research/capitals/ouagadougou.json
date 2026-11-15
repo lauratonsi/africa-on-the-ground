@@ -1,0 +1,61 @@
+{
+  "city": "Ouagadougou",
+  "country": "BFA",
+  "population": {
+    "value": 2415266,
+    "year": 2019,
+    "definition": "Population of the Commune of Ouagadougou enumerated in the 5th General Population and Housing Census (5e RGPH, November 2019) conducted by the Institut National de la Statistique et de la Démographie (INSD) of Burkina Faso, tabulated via CityPopulation. Ouagadougou is the capital and largest metropolis of Burkina Faso.",
+    "source": {
+      "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
+      "publisher": "CityPopulation (credits INSD Burkina Faso)",
+      "author": null,
+      "date": "2019-11-16",
+      "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
+      "tier": "institutional",
+      "quote": "2019-11-16 | Ouagadougou: 2,415,266"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Ouagadougou was founded in the 15th century as Wogodogo by the legendary Mossi leader Oubri, grandson of Princess Yennenga, becoming the permanent imperial capital of the Mogho Naaba.",
+      "source": {
+        "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
+        "tier": "institutional",
+        "quote": "Founded in the 15th century as the seat of the Mossi Kingdom"
+      }
+    },
+    {
+      "claim": "Every Friday morning at the royal palace, the Mogho Naaba performs the ancient ritual of the 'Faux Départ' (Nabayious Gou), symbolically dramatizing a royal call to war and subsequent commitment to peace following pleas from his court.",
+      "source": {
+        "title": "Cour royale du Mogho Naaba et tradition du Nabayious Gou à Ouagadougou",
+        "publisher": "Ministère de la Communication, de la Culture, des Arts et du Tourisme du Burkina Faso",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gov.bf/",
+        "tier": "institutional",
+        "quote": "Cérémonie séculaire du faux départ du Mogho Naaba tenue chaque vendredi matin"
+      }
+    },
+    {
+      "claim": "Grand Marché Rood Woko is the central commercial lung of Ouagadougou, celebrated across West Africa for its bustling trade in Faso Dan Fani handwoven cotton, leathercraft, and Sahelian commodities.",
+      "source": {
+        "title": "Burkina Faso: Regions, Major Cities & Communes (Census 2019)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/burkinafaso/cities/",
+        "tier": "institutional",
+        "quote": "Grand Marché Rood Woko au cœur de l'économie de la capitale burkinabè"
+      }
+    }
+  ],
+  "gaps": [
+    "Precise post-2019 internal displacement inflows to the peripheral communes of Ouagadougou are tracked provisionally by humanitarian agencies.",
+    "First-hand local voices from Faso Dan Fani weavers and bronze casters at the Village Artisanal are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

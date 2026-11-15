@@ -1,0 +1,76 @@
+{
+  "slug": "owino-market",
+  "status": "draft",
+  "type": "market",
+  "country": "UGA",
+  "name": "Owino Market (St Balikuddembe Market)",
+  "region": "Kampala · Uganda",
+  "subtitle": "A large public market in Kampala, one of 16 run by KCCA.",
+  "facts": [
+    {
+      "label": "Built",
+      "value": "1971, about 8.5 acres",
+      "cite": [
+        "cap-monitor-co-ug-1e8f3c"
+      ]
+    },
+    {
+      "label": "Management",
+      "value": "City council until 31 May 1995, then vendors",
+      "cite": [
+        "cap-monitor-co-ug-1e8f3c"
+      ]
+    },
+    {
+      "label": "KCCA markets",
+      "value": "one of 16 public markets",
+      "cite": [
+        "cap-kcca-go-ug-0e83cd"
+      ]
+    },
+    {
+      "label": "Goods",
+      "value": "noted for secondhand clothing",
+      "cite": [
+        "cap-ebsco-com-16b2dd"
+      ]
+    },
+    {
+      "label": "2026",
+      "value": "Part demolished without KCCA authorisation",
+      "cite": [
+        "cap-allafrica-com-dbd6bc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large public market in Kampala, one of 16 run by KCCA. It was built at Nakivubo in 1971.",
+              "cite": [
+                "cap-monitor-co-ug-1e8f3c",
+                "cap-kcca-go-ug-0e83cd",
+                "cap-ebsco-com-16b2dd",
+                "cap-allafrica-com-dbd6bc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

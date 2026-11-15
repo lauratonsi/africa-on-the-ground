@@ -1,0 +1,76 @@
+{
+  "slug": "fort-adelaide",
+  "status": "draft",
+  "type": "site",
+  "country": "MUS",
+  "name": "The Citadel (Fort Adelaide)",
+  "region": "Port Louis · Mauritius",
+  "subtitle": "A basalt fort on a hill above Port Louis, built by the British in the 1830s.",
+  "facts": [
+    {
+      "label": "Construction",
+      "value": "Built 1834-1840 at about 40,000 pounds sterling, then the most expensive construction on the island; named after Queen Adelaide.",
+      "cite": [
+        "cap-defimedia-info-1656b4"
+      ]
+    },
+    {
+      "label": "Workforce",
+      "value": "Convicts from India, indentured Indian workers, Mauritian prisoners, craftsmen from Bombay and local masons.",
+      "cite": [
+        "cap-defimedia-info-1656b4"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "Built to house British troops and watch for unrest before the abolition of slavery; never used much in practice.",
+      "cite": [
+        "cap-lagazette-mag-io-05be75"
+      ]
+    },
+    {
+      "label": "Heritage status",
+      "value": "Declared a national monument in 1958 (Government Notice No. 614).",
+      "cite": [
+        "cap-defimedia-info-1656b4"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A basalt fort on a hill above Port Louis, built by the British in the 1830s. It is a national monument and a viewpoint over the city.",
+              "cite": [
+                "cap-defimedia-info-1656b4",
+                "cap-lagazette-mag-io-05be75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "fort-adelaide",
+    "alt": "The arched iron gate of the Citadel (Fort Adelaide), with a crown and the letters VR above it.",
+    "caption": "The gate of the Citadel.",
+    "credit": "Z thomas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Fort_Adelaide_Port_Louis_2019-09-27.jpg"
+  }
+}

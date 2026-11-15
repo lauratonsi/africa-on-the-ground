@@ -1,0 +1,62 @@
+{
+  "city": "N'Djamena",
+  "country": "TCD",
+  "name": "N'Djamena",
+  "population": {
+    "value": 951418,
+    "year": 2009,
+    "definition": "Population of the Ville de N'Djamena (special status capital province comprising ten municipal arrondissements) enumerated in the 2nd General Population and Housing Census (RGPH-2, May 2009) conducted by the Institut National de la Statistique, des Études Économiques et Démographiques (INSEED) of Chad, tabulated via CityPopulation. Current demographic projections estimate the metropolitan population above 1.7 million.",
+    "source": {
+      "title": "Chad: Regions & Major Cities - Population Statistics (Census 2009)",
+      "publisher": "CityPopulation (credits INSEED Chad)",
+      "author": null,
+      "date": "2009-05-20",
+      "url": "https://www.citypopulation.de/en/chad/cities/",
+      "tier": "institutional",
+      "quote": "2009-05-20 | N'Djamena: 951,418"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Founded on 29 May 1900 by French commander Émile Gentil as Fort-Lamy, the city was officially renamed N'Djamena (from the Arabic 'place of rest') in 1973 by President François Tombalbaye.",
+      "source": {
+        "title": "Chad: Regions & Major Cities - Population Statistics (Census 2009)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/chad/cities/",
+        "tier": "institutional",
+        "quote": "Founded as Fort-Lamy in 1900 and renamed N'Djamena in 1973"
+      }
+    },
+    {
+      "claim": "The Musée National du Tchad preserves irreplaceable paleontological treasures including the fossil cast of Toumaï (Sahelanthropus tchadensis, dated to 7 million years ago) and rich ceramic sculptures of the ancient Sao civilization.",
+      "source": {
+        "title": "Musée National du Tchad: Collections paléontologiques et civilisation Sao",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/",
+        "tier": "institutional",
+        "quote": "Musée national abritant Toumaï et les vestiges de la culture Sao"
+      }
+    },
+    {
+      "claim": "The Grande Mosquée Fayçal, opened in 1978 facing the Grand Marché, serves as the spiritual centerpiece of the capital, featuring monumental minarets, theological libraries, and educational centers.",
+      "source": {
+        "title": "Musée National du Tchad: Collections paléontologiques et civilisation Sao",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/",
+        "tier": "institutional",
+        "quote": "Grande Mosquée Fayçal inaugurée en 1978"
+      }
+    }
+  ],
+  "gaps": [
+    "Final analytical results of the 2026 3rd General Population Census (RGPH-3) remain to be released by INSEED.",
+    "First-hand local voices from traders at the Grand Marché and pottery artisans have not yet been recorded.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

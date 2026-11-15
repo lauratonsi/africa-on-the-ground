@@ -3,10 +3,26 @@
   "status": "draft",
   "country": "BEN",
   "name": "Porto-Novo",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
+  "subtitle": "Porto-Novo, capital of Benin: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "The Musée Honmè and Alexandre Adandé Museum safeguard centuries of royal Gun regalia and sacred Yoruba Gèlèdé masks.",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    }
+  ],
+  "places": [
+    "royal-palaces-of-abomey",
+    "grande-mosquee-de-porto-novo",
+    "musee-honme-porto-novo",
+    "musee-ethnographique-adande-porto-novo"
+  ],
   "sections": [],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Final analytical data from the 5th general census (RGPH-5) are pending completion by INSAE.",
+    "First-hand local voices from master artisans of the Aguda district and Gèlèdé mask carvers are missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

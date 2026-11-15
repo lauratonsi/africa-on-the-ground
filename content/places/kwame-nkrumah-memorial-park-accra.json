@@ -1,0 +1,59 @@
+{
+  "slug": "kwame-nkrumah-memorial-park-accra",
+  "status": "draft",
+  "type": "site",
+  "country": "GHA",
+  "name": "Kwame Nkrumah Memorial Park",
+  "region": "Accra · Ghana",
+  "subtitle": "National mausoleum and museum park dedicated to Dr Kwame Nkrumah on the historic Polo Ground site.",
+  "facts": [
+    {
+      "label": "Dedicated",
+      "value": "1992 (redeveloped and modernized in 2023)",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Historic ground",
+      "value": "Former British colonial polo ground where Nkrumah proclaimed independence on 6 March 1957",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Mausoleum",
+      "value": "Houses the tombs of Dr Kwame Nkrumah and his wife Fathia Nkrumah amidst marble reflecting pools",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The national memorial and resting place of Osagyefo Dr. Kwame Nkrumah, leader of the struggle for Ghanaian independence and pioneer of Pan-Africanism. Located in central Accra on the exact site of the former colonial polo ground where Nkrumah famously proclaimed 'Ghana, our beloved country, is free forever!' at midnight on 6 March 1957, the five-acre park features an upturned sword-shaped marble mausoleum, bronze statues, and an updated biographical museum preserving his personal desk, books, and state gifts.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital archive of Nkrumah's pan-African audio speeches within the museum is in preparation.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

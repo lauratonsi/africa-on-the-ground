@@ -8,7 +8,8 @@ Aggiornato l'8 ottobre 2026. Si lavora per fasi, in quest'ordine, e ogni fase pr
 |---|---|---|
 | Pagine dei Paesi | 54 (generate dai dati) | fatto; si arricchiscono con le fasi successive |
 | Storie | 15 (5 storia, 7 miti, 3 cibo; vedi `content/stories`) | circa 30 |
-| Luoghi | 57 schede, quasi tutte siti UNESCO | altri 2 per Paese, di tipo diverso (città vive, mercati, musei, parchi) |
+| Luoghi | 240 schede create (siti UNESCO, musei, mercati, paesaggi e architetture urbane) | almeno 2-4 per Paese, di tipo diverso (città vive, mercati, musei, parchi) |
+| Capitali | 36 schede complete su 54 (Africa australe 5/5, Africa settentrionale 6/6, Africa centrale 9/9, Africa occidentale 16/16) | 54 profili interattivi con stime demografiche da censimento, timeline e quiz d'ordinamento |
 | Piatti | 4 schede pubblicate (koshari, cachupa, seswaa, thieboudienne), 50 bozze tracciate (inclusa domoda), più 3 storie di cibo | una scheda per Paese (54), da `proposed-dishes.json` |
 | Percorsi | 0 | 5 o 6 percorsi che collegano luoghi, storie e dati |
 
@@ -55,6 +56,52 @@ Un piatto per Paese (54), come scheda di tipo `dish`. L'elenco di partenza è in
 ## Fase 4: percorsi
 
 Pagine che collegano luoghi, storie, piatti e dati attorno a un tema: scrittura e archivi, rotte commerciali, confini coloniali, lingue, cucina e scambi, città. Ogni percorso è una sequenza di 5 o 8 tappe con una domanda di apertura e una di chiusura.
+
+## Ricognizione cibo e ricette (14 novembre 2026)
+
+La ricerca conferma che la cucina è una pista ampia e adatta al progetto, purché non venga trattata come un catalogo di
+piatti "tipici". Il materiale più solido si divide in cinque strati:
+
+- **Piatti e pratiche riconosciute**: UNESCO ICH offre documentazione utile su ceebu jën (Senegal), dove la ricetta
+  cambia secondo luogo e occasione, ma comprende anche trasmissione familiare, consumo collettivo e regole sociali;
+  la stessa prospettiva è utile per il couscous maghrebino.
+- **Ingredienti e sistemi alimentari**: manioca, miglio, sorgo, fonio, teff, legumi, foglie, pesci e prodotti fermentati
+  permettono di raccontare agricoltura, biodiversità, lavoro, conservazione e adattamento climatico, non solo il piatto
+  finito. I materiali IITA/Tanzania Food and Nutrition Centre sul cassava sono un buon punto di partenza, da usare con
+  una fonte locale o accademica parallela.
+- **Tecniche**: fermentazione, essiccazione, affumicatura, macinazione, cottura in foglie o in recipienti e lavorazioni
+  alcaline sono temi trasversali che collegano cucine lontane senza appiattirle.
+- **Luoghi e persone**: mercati, cucine domestiche, venditori, pescatori, agricoltori, feste e pasti condivisi. Qui
+  servono voci locali e attenzione a non trasformare una pratica viva in folklore.
+- **Ricette pubblicabili**: ricette brevi e verificabili, con ingredienti, utensili, passaggi, varianti dichiarate,
+  porzioni e fonte; mai presentare una versione come "quella autentica" quando esistono varianti regionali o familiari.
+
+### Perimetro suggerito
+
+1. **Lotto tecniche**: cinque storie brevi su fermentazione, cereali, manioca, pesce conservato e foglie/verdure.
+2. **Lotto piatti già in bozza**: scegliere cinque schede ad alta fiducia da `proposed-dishes.json`, non cinque Paesi
+   a caso; per ogni scheda verificare nome locale, contesto, varianti e almeno una fonte non enciclopedica.
+3. **Percorso "dal campo alla tavola"**: 5-6 tappe che colleghino ingrediente, tecnica, mercato, piatto e voce locale.
+4. **Strato pratico**: aggiungere una ricetta strutturata solo alle schede dove la fonte descrive davvero la preparazione;
+   negli altri casi usare una spiegazione culturale senza inventare dosi o tempi.
+
+### Fonti di partenza e limiti
+
+- [UNESCO: Ceebu Jën](https://ich.unesco.org/en/RL/ceebu-jen-a-culinary-art-of-senegal-01748): fonte primaria
+  istituzionale per piatto, trasmissione e pratiche sociali; non è una ricetta operativa completa.
+- [UNESCO Intangible Cultural Heritage](https://ich.unesco.org/en/lists): repertorio per cercare altre pratiche
+  riconosciute; le iscrizioni sono un punto di partenza, non una graduatoria di "autenticità".
+- [African Foodways Data](https://github.com/ChicAfricanCulture/african-foodways-data): archivio digitale utile
+  per confrontare nomi, ingredienti e pratiche; va controllata la provenienza di ogni voce prima di citarla come fatto.
+- [African Indigenous Foodways](https://africanclimatefoundation.org/wp-content/uploads/2025/09/801023_H-African-indigenous-foodways-WEB_r.pdf):
+  quadro recente su biodiversità, sistemi alimentari e conoscenze indigene; va affiancato a fonti locali.
+- Materiali IITA e Tanzania Food and Nutrition Centre sulla manioca: utili per ingredienti e trasformazioni, ma alcuni
+  siti sono difficili da consultare o bloccano l'accesso automatico; le copie PDF o le pubblicazioni ufficiali vanno
+  lette e archiviate prima dell'uso.
+
+Non usare come fonte unica blog di ricette, pagine turistiche, video senza trascrizione verificabile o formule come
+"piatto nazionale" ripetute senza una fonte seria. Le foto devono seguire la regola già applicata alle altre schede:
+file locale, licenza, credito e fonte verificabili.
 
 ## Da non dimenticare
 
@@ -115,4 +162,34 @@ Si procede zona per zona (le cinque sottoregioni del sito). Il metodo: una ricer
   - Il Cairo (EGY): profilo compilato con dati censuari CAPMAS 2017 (9,54M Governatorato, >20,1M Grande Cairo), 4 nuove schede luoghi (Al-Azhar Mosque, Citadel of Saladin, Khan el-Khalili, Egyptian Museum in Tahrir) collegate al profilo assieme a Memphis/Necropoli (UNESCO). Ricerca documentata in `docs/research/capitals/cairo.json`.
   - Tripoli (LBY): profilo compilato con dati censuari 2006 (1,06M distretto di Tripoli, stima urbana 1,2-1,3M), 4 nuove schede luoghi (Red Castle Museum / Assaraya Al-Hamra, Arch of Marcus Aurelius, Gurgi Mosque, Martyrs' Square). Ricerca documentata in `docs/research/capitals/tripoli.json`.
   - Khartum (SDN): profilo compilato con dati censuari CBS 2008 (4,27M conurbazione tripartita Khartum-Omdurman-Bahri, 5,27M stato di Khartum; nota esplicita sull'impatto e lo sfollamento del conflitto 2023-2024), 4 nuove schede luoghi (National Museum of Sudan, Nile Confluence Al-Mugran, Mahdi Tomb and Khalifa House, Souq Omdurman) collegate al profilo assieme all'Isola di Meroe (UNESCO). Ricerca documentata in `docs/research/capitals/khartoum.json`.
-- Prossime zone, nell'ordine: Africa centrale (9), occidentale (16), orientale (18).
+- **Africa centrale (9 capitali): completato in bozza (9/9)**:
+  - Yaoundé (CMR): profilo con dati censuari BUCREP/INS 2005 (1,88M dipartimento di Mfoundi; stime oltre 3,7M), 4 nuove schede luoghi (Musée National du Cameroun, Monument de la Réunification, Basilique Marie-Reine-des-Apôtres de Mvolyé, Marché Mokolo). Ricerca in `docs/research/capitals/yaounde.json`.
+  - Bangui (CAF): profilo con dati censuari ICASEES 2003 (622k comune autonomo; 1,42M prefettura di Bangui), 4 nuove schede luoghi (Cathédrale Notre-Dame de Bangui, Musée National Barthélemy Boganda, Marché KM5/PK5, Oubangui Riverfront and Rapids). Ricerca in `docs/research/capitals/bangui.json`.
+  - Brazzaville (COG): profilo con dati censuari RGPH-5 maggio 2023 (2,138M comune di Brazzaville), 3 nuove schede luoghi (Basilique Sainte-Anne-du-Congo, Mémorial Pierre Savorgnan de Brazza, Marché Total de Bacongo) collegate al profilo assieme all'École de Peinture de Poto-Poto. Ricerca in `docs/research/capitals/brazzaville.json`.
+  - Kinshasa (COD): profilo con dati ufficiali INS 2004 (7,27M città-provincia; metropoli oggi stimata a 15-18M, la più grande città francofona del mondo), 3 nuove schede luoghi (Musée National de la RDC, Tour de l'Échangeur de Limete, Académie des Beaux-Arts) collegate assieme a Lola ya Bonobo. Ricerca in `docs/research/capitals/kinshasa.json`.
+  - Libreville (GAB): profilo con dati censuari DGS 2013 (703k città di Libreville), 4 nuove schede luoghi (Musée National des Arts, Rites et Traditions, Église Saint-Michel de Nkembo con le colonne di Zéphirin Lendogno, Marché Mont-Bouët, Mémorial Léon Mba). Ricerca in `docs/research/capitals/libreville.json`.
+  - Malabo (GNQ): profilo con dati censuari INEGE 2015 (257k città, 300k Bioko Norte), 4 nuove schede luoghi (Catedral de Santa Isabel, Parque Nacional de Malabo, Mercado Central, Centro Cultural de España en Malabo). Ricerca in `docs/research/capitals/malabo.json`.
+  - N'Djamena (TCD): profilo con dati censuari INSEED 2009 (951k città, stime oltre 1,7M), 4 nuove schede luoghi (Musée National du Tchad con Toumaï e cultura Sao, Grande Mosquée Fayçal, Grand Marché, Place de la Nation). Ricerca in `docs/research/capitals/ndjamena.json`.
+  - São Tomé (STP): profilo con dati censuari INE STP 2012 (66k città, 69k distretto Água Grande), 3 nuove schede luoghi (Forte de São Sebastião e Museu Nacional con la memoria di Rei Amador, Sé Catedral de Nossa Senhora da Graça, Mercado Municipal) collegate assieme a Roça Sundy e The Roças. Ricerca in `docs/research/capitals/sao-tome.json`.
+  - Luanda (AGO): profilo con dati censuari INE Angola 2014 (6,4M provincia di Luanda; 8,66M nel censimento 2024), 3 nuove schede luoghi (Fortaleza de São Miguel, Museu Nacional da Escravatura a Morro da Cruz, Marginal e Baía de Luanda) collegate assieme a Mbanza Kongo. Ricerca in `docs/research/capitals/luanda.json`.
+- **Africa occidentale (16 capitali): completato in bozza** (dalla sessione parallela), con ricerche in `docs/research/capitals/`.
+- **Africa orientale (18 capitali): completato in bozza (18/18, 15 novembre 2026)**: Addis Abeba, Asmara, Gibuti, Mogadiscio, Nairobi, Kampala, Kigali, Bujumbura, Dodoma, Lusaka, Lilongwe, Harare, Maputo, Antananarivo, Moroni, Port Louis, Victoria, Juba. Punti deboli dichiarati nei `gaps` di ogni profilo: popolazione spesso di provincia o distretto e non di città (Harare, Juba, Lusaka, Port Louis, Moroni), date che le fonti non confermano (fondazione di Kigali, anno di capitale di Addis Abeba, trasferimento da Obock a Gibuti), fonti uniche (Palazzo di Andafiavaratra, mercato Soweto), luoghi senza foto adatta (scartate quelle con persone riconoscibili o che non mostravano il luogo). Moroni: la medina è stata iscritta nella lista UNESCO il 25 luglio 2026 secondo AFP e Mayotte Hebdo, da ricontrollare con una pagina UNESCO leggibile.
+- Tutte le 54 capitali hanno ora un profilo in bozza. Prossimi passi: rilettura umana, verifica delle citazioni riassunte dallo strumento di lettura, voci locali, poi la sezione sui popoli.
+
+## Da fare: sezione sui popoli e i gruppi etnici ("tribù") (idea del 15 novembre 2026)
+
+Una sezione dedicata ai popoli dell'Africa, da avviare dopo i profili delle capitali. Punti da decidere prima di scrivere:
+- **Parole**: "tribù" è un termine ereditato dal periodo coloniale e oggi spesso contestato; il sito può usare "popoli" o "gruppi etnici" e spiegare nella pagina perché, con fonti (per esempio il lavoro di Glottolog già usato per le lingue, atlanti etnografici, studi sulle identità create o rigidificate dall'amministrazione coloniale).
+- **Formato interattivo**, come le altre sezioni: mappa con filtri per lingua e regione, cronologia, gioco "mito o fatto", schede brevi con voci di persone del gruppo separate dal quadro documentato.
+- **Fonti e cautele**: numeri di popolazione con anno e definizione, nessun elenco di "caratteristiche" generalizzate, ogni scheda con una persona del gruppo che la rilegge; collegamenti a storie esistenti (colonialismo, frammentazione, lingue) e ai luoghi.
+
+### Stato della sezione sui popoli (15 novembre 2026)
+
+- **Pagina indice** `peoples/` costruita dai dati: gruppi etnici di ogni paese dal Factbook (campo aggiunto in `content/data/africa-profiles.json` con `scripts/prepare-factbook.mjs`), grafico del gruppo più numeroso per paese, tabella ordinabile, tabella dei gruppi nominati in più paesi (confini coloniali), stima e domanda "mito o fatto". Mostra anche che il Factbook stesso usa ancora la parola "tribes" (Tanzania).
+- **Schede dei popoli** in `content/peoples/` (stesso formato dei profili delle capitali, più il campo `reviewedBy` obbligatorio per pubblicare): Amazigh, Fula, Yoruba, Maasai, San, Oromo, tutte in bozza. Ricerche grezze con citazioni in `docs/research/peoples/`.
+- **Regole**: niente "tribe" nei titoli (controllato da `validate`), niente tratti generalizzati, voci di chi appartiene al popolo separate dal quadro documentato (note `people-<slug>`, `add-note` con la riga `people:`), una scheda non si pubblica senza rilettura da parte di una persona del popolo o di chi lo studia.
+- **Da fare**: foto (paesaggi, oggetti, scritture, mai ritratti), rilettura umana, altre schede (Zulu, Igbo, Akan, Somali, Tuareg, Hausa, Wolof, Kikuyu, Tutsi/Hutu con grande cautela), collegamento nel grafo Connections.
+
+### Verifica delle citazioni (15 novembre 2026)
+
+Tutte le coppie (indirizzo, citazione) di `docs/research/capitals/` sono state controllate con una ricerca del testo nella pagina (risultati in `docs/research/quote-check-2026-11-15.json`): 459 su 807 trovate, 174 non verificabili (pagine bloccate, PDF), 58 segnate come parafrasi dall'agente, 107 non trovate. 35 indirizzi non contenevano nessuna delle citazioni attribuite (soprattutto pagine iniziali di siti e pagine di statistica usate per fatti storici): le affermazioni che poggiavano solo su quelle sono state tolte da 67 file. Restano vuoti o quasi 19 profili di capitale e 45 schede di luoghi (Africa occidentale e centrale): vanno ricercati di nuovo con fonti che si possano leggere.

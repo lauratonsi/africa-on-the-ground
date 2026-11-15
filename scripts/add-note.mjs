@@ -70,6 +70,10 @@ if (fields.place) {
   const cp = (data.capitals || []).find((x) => x.data.slug === fields.capital);
   if (!cp) fail(`il profilo di capitale "${fields.capital}" non esiste in content/capitals.`);
   key = `capital-${cp.data.slug}`; kinds = data.config.noteKinds; label = cp.data.name; sensitive = !!cp.data.sensitive;
+} else if (fields.people) {
+  const pp = (data.peoples || []).find((x) => x.data.slug === fields.people);
+  if (!pp) fail(`la scheda del popolo "${fields.people}" non esiste in content/peoples.`);
+  key = `people-${pp.data.slug}`; kinds = data.config.noteKinds; label = pp.data.name; sensitive = true;
 } else if (fields.country) {
   const c = ((data.countries || {}).countries || []).find((x) => x.iso3 === fields.country);
   if (!c) fail(`il paese "${fields.country}" non è tra i 54 stati.`);
@@ -78,7 +82,7 @@ if (fields.place) {
   const ph = ((data.quiz || {}).phrases || []).find((x) => x.id === fields.phrase);
   if (!ph) fail(`la frase "${fields.phrase}" non esiste in content/quiz-phrases.json.`);
   key = `phrase-${ph.id}`; kinds = data.config.phraseNoteKinds || []; label = `${ph.label}: ${ph.phrase}`;
-} else fail('il messaggio non dice a cosa si riferisce: serve una riga "place:", "story:", "capital:", "country:" o "phrase:".');
+} else fail('il messaggio non dice a cosa si riferisce: serve una riga "place:", "story:", "capital:", "people:", "country:" o "phrase:".');
 const slug = key;
 if (fields.consent !== "yes") fail('il messaggio non dice "consent: yes". Senza consenso la nota non si pubblica.');
 const kindDef = kinds.find((k) => k.id === fields.kind);

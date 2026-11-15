@@ -1,0 +1,61 @@
+{
+  "city": "Praia",
+  "country": "CPV",
+  "population": {
+    "value": 141219,
+    "year": 2021,
+    "definition": "Population of the Municipality of Praia (Concelho da Praia) on Santiago Island recorded in the 5th General Population and Housing Census (RGPH-2021, June 2021) conducted by the Instituto Nacional de Estatística (INE) of Cabo Verde, tabulated via CityPopulation. Praia accounts for nearly 29 percent of Cabo Verde's total national population.",
+    "source": {
+      "title": "Cabo Verde: Municipalities & Major Localities (Census 2021)",
+      "publisher": "CityPopulation (credits INE Cabo Verde)",
+      "author": null,
+      "date": "2021-06-16",
+      "url": "https://www.citypopulation.de/en/caboverde/cities/",
+      "tier": "institutional",
+      "quote": "2021-06-16 | Praia Municipality: 141,219"
+    }
+  },
+  "facts": [
+    {
+      "claim": "In 1770 the colonial capital of Cape Verde was transferred from Cidade Velha (Ribeira Grande) to Praia da Santa Maria due to the natural defensive advantages of the elevated volcanic Plateau and a deeper, well-sheltered harbor.",
+      "source": {
+        "title": "O Centro Histórico da Praia (Plateau) e o património crioulo",
+        "publisher": "Instituto do Património Cultural (IPC Cabo Verde)",
+        "author": null,
+        "date": null,
+        "url": "https://ipc.cv/",
+        "tier": "institutional",
+        "quote": "Transferência da capital de Cabo Verde para a Praia em 1770"
+      }
+    },
+    {
+      "claim": "O Plateau, Praia's historic downtown, features Portuguese colonial neoclassical civic architecture centered around Praça Alexandre Albuquerque, flanked by the Presidential Palace, the Pro-Cathedral, and the Municipal Chamber.",
+      "source": {
+        "title": "O Centro Histórico da Praia (Plateau) e o património crioulo",
+        "publisher": "Instituto do Património Cultural (IPC Cabo Verde)",
+        "author": null,
+        "date": null,
+        "url": "https://ipc.cv/",
+        "tier": "institutional",
+        "quote": "Centro histórico do Plateau com traçado colonial e praça central"
+      }
+    },
+    {
+      "claim": "Mercado de Sucupira in Várzea is the archipelago's largest open-air bazaar, renowned as a dynamic crossroads for pan-African textiles, fresh island fruits, and Cape Verdean traditional handicrafts.",
+      "source": {
+        "title": "Cabo Verde: Municipalities & Major Localities (Census 2021)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/caboverde/cities/",
+        "tier": "institutional",
+        "quote": "Mercado de Sucupira maior centro comercial ao ar livre de Cabo Verde"
+      }
+    }
+  ],
+  "gaps": [
+    "Locality-level microdata for recent suburban expansion across Palmarejo and Cidadela are partially accessible online.",
+    "First-hand local voices from traditional tabanka performers and battêras are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

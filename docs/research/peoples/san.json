@@ -1,0 +1,370 @@
+{
+ "name": "San peoples",
+ "slug": "san",
+ "countries": [
+  "BWA",
+  "NAM",
+  "ZAF",
+  "AGO",
+  "ZWE"
+ ],
+ "population": {
+  "value": 113000,
+  "year": 2016,
+  "definition": "Approximate total of San in six southern African countries (Angola, Botswana, Namibia, South Africa, Zambia, Zimbabwe), compiled by the report authors from San organisations (WIMSA, national councils, etc.) and governments. Report Table 1 gives national estimates: Angola 3,500; Botswana 60,000; Namibia 38,000; South Africa 7,500; Zambia 2,500; Zimbabwe 2,500. Caveat: these are estimates, not census counts; who counts as San is a matter of self-identification and definition; figures differ by source (the 2004 IWGIA volume gave about 50,000 for Botswana and about 35,000 for Namibia).",
+  "source": {
+   "title": "The San in Zimbabwe: Livelihoods, Land and Human Rights (IWGIA Report 22), Table 1",
+   "publisher": "IWGIA and OSISA, with University of Zimbabwe",
+   "author": "Robert K. Hitchcock, Ben Begbie-Clench, Ashton Murwira",
+   "date": "2016",
+   "url": "https://www.iwgia.org/images/publications/0728_REPORT_22_final_for_eb.pdf",
+   "tier": "institutional",
+   "quote": "The approximately 113,000 San in the region are not one people, but rather are comprised of a wide array of different groups"
+  }
+ },
+ "facts": [
+  {
+   "claim": "Terminology: 'San' is the generic term adopted by San organisations (WIMSA 2003) and widely used by anthropologists; in Botswana the official term is Basarwa; 'Bushmen' is also widely used. The author argues the context of use and the wishes of the people named should guide the choice, rather than etymology. Use of group names is increasing.",
+   "source": {
+    "title": "The Indigenous Peoples of Southern Africa: An Overview (in Indigenous Peoples' Rights in Southern Africa, IWGIA Document 110), p. 22",
+    "publisher": "IWGIA",
+    "author": "Sidsel Saugestad (volume eds. Robert Hitchcock and Diana Vinding)",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "The most commonly used term is San, which has been adopted by San organisations as the best generic term (WIMSA 2003)"
+   }
+  },
+  {
+   "claim": "The same overview says the term 'Khoesan' was rejected by WIMSA as a collective label (the volume's wording on this is in the same chapter; the quote below is on the Botswana official term and the neutral-term 'Remote Area Dweller' being resented).",
+   "source": {
+    "title": "The Indigenous Peoples of Southern Africa: An Overview, p. 22",
+    "publisher": "IWGIA",
+    "author": "Sidsel Saugestad",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "the supposedly neutral term Remote Area Dweller (RAD) was used, although deeply resented by those to whom the term was applied"
+   }
+  },
+  {
+   "claim": "Group names: no single self-designation is shared by all; in Zimbabwe, San generally identify as Tshwa, and the Ndebele terms Amasili or Abatwa are used by others.",
+   "source": {
+    "title": "The San in Zimbabwe: Livelihoods, Land and Human Rights (IWGIA Report 22)",
+    "publisher": "IWGIA and OSISA",
+    "author": "Hitchcock, Begbie-Clench, Murwira",
+    "date": "2016",
+    "url": "https://www.iwgia.org/images/publications/0728_REPORT_22_final_for_eb.pdf",
+    "tier": "institutional",
+    "quote": "In general, the San prefer to use their own name for self-identification"
+   }
+  },
+  {
+   "claim": "An academic historian avoids 'Bushmen' because of its derogatory tone (except in quotations) and uses 'San' for the Cape's hunter-gatherers.",
+   "source": {
+    "title": "Debating San provenance and disappearance: Frontier violence and the assimilationist impulse of humanitarian imperialism",
+    "publisher": "Historia, vol. 67, no. 1 (via SciELO South Africa)",
+    "author": "Jared McDonald",
+    "date": "2022",
+    "url": "https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0018-229X2022000100002",
+    "tier": "academic",
+    "quote": "Given the derogatory tones of these terms, they are avoided for the most part, except when appearing in quotes."
+   }
+  },
+  {
+   "claim": "Languages: the click languages of southern Africa are grouped into three families, Kx'a, Tuu and Khoe-Kwadi (older literature, such as the 2004 IWGIA volume, calls them Ju, Taa-!Ui and Khoe and groups them as 'Khoe-San'). Languages of all three families are in contact in the Central Kalahari.",
+   "source": {
+    "title": "Tracing contact and migration in pre-Bantu Southern Africa through lexical borrowing",
+    "publisher": "Evolutionary Human Sciences, vol. 7, e25 (Cambridge University Press)",
+    "author": "Anne-Maria Fehn, Bonny E. Sands, Admire Phiri, Maitseo Bolaane and others",
+    "date": "2025-07-23",
+    "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/tracing-contact-and-migration-in-prebantu-southern-africa-through-lexical-borrowing/0E21FE2D0B2AF609FBCC1F4A6F0FE8B5",
+    "tier": "academic",
+    "quote": "three families (Kx'a, Tuu, Khoe-Kwadi) comprising the linguistic unit commonly referred to as Southern African Khoisan"
+   }
+  },
+  {
+   "claim": "Click consonants: the languages share clicks that are cross-linguistically rare and also attested in Hadza and Sandawe of Tanzania (a linguistic source).",
+   "source": {
+    "title": "Tracing contact and migration in pre-Bantu Southern Africa through lexical borrowing",
+    "publisher": "Evolutionary Human Sciences (Cambridge University Press)",
+    "author": "Fehn et al.",
+    "date": "2025-07-23",
+    "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/tracing-contact-and-migration-in-prebantu-southern-africa-through-lexical-borrowing/0E21FE2D0B2AF609FBCC1F4A6F0FE8B5",
+    "tier": "academic",
+    "quote": "share cross-linguistically rare click sounds which are also attested in the Tanzanian languages Hadza and Sandawe"
+   }
+  },
+  {
+   "claim": "Language families differ from each other as much as Indo-European from Finno-Ugric; individual languages named include Ju|'hoan, Naro, !Xoo, Khwe and N|u (several with only a few thousand speakers, per 2004 estimates).",
+   "source": {
+    "title": "Khoe-San Languages: an Overview (appendix, Indigenous Peoples' Rights in Southern Africa), p. 250",
+    "publisher": "IWGIA",
+    "author": "Sidsel Saugestad",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "they belong to three main families of languages, as different from each other as e.g. Indo-European from Finno-Ugrian"
+   }
+  },
+  {
+   "claim": "The EBSCO entry on San languages describes clicks as the most distinguishing feature and lists countries where they are spoken.",
+   "source": {
+    "title": "Bushman Languages (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Janine Ungarsky",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/language-and-linguistics/bushman-languages/",
+    "tier": "institutional",
+    "quote": "The most distinguishing characteristic of a San language is the series of clicks"
+   }
+  }
+ ],
+ "status": [],
+ "timeline": [
+  {
+   "when": "c. 27,000 years ago (debris dates; disputed for the art itself)",
+   "claim": "Painted stone fragments at Apollo 11 rock shelter, Huns Mountains, Namibia, excavated 1969, are among the earliest known art in Africa. EBSCO notes the date refers to debris around the fragments, not necessarily the paintings.",
+   "tag": "origins",
+   "source": {
+    "title": "San Peoples Create Earliest African Art (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Patricia Coronel and Michael Coronel",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/arts-and-entertainment/san-peoples-create-earliest-african-art",
+    "tier": "institutional",
+    "quote": "The debris associated with these fragments has been dated between approximately 27,000 and about 2,000 B.P."
+   }
+  },
+  {
+   "when": "c. 5,700 to 4,400 years ago (cal BP)",
+   "claim": "Direct radiocarbon dating placed painting on rockshelter walls in south-eastern Botswana at 5723-4420 cal BP, reported as the earliest directly dated rock paintings in southern Africa (Bonneau et al., 2017).",
+   "tag": "origins",
+   "source": {
+    "title": "The earliest directly dated rock paintings from southern Africa: new AMS radiocarbon dates",
+    "publisher": "Antiquity 91(356), 322-333 (Cambridge University Press)",
+    "author": "Adelphine Bonneau, David Pearce, Peter Mitchell, Richard Staff, Charles Arthur, Lara Mallen, Fiona Brock, Tom Higham",
+    "date": "2017-04-04",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/earliest-directly-dated-rock-paintings-from-southern-africa-new-ams-radiocarbon-dates/B071E61BE2B9640E5B9A430E1464F980",
+    "tier": "academic",
+    "quote": "creating paintings on rockshelter walls as long ago as 5723-4420 cal BP"
+   }
+  },
+  {
+   "when": "1700-1795",
+   "claim": "Historian Mohamed Adhikari argues that San society in the Cape Colony was almost completely destroyed in the 18th and 19th centuries by land confiscation, massacre, forced labour and cultural suppression, and analyses the 1700-1795 Dutch East India Company period as genocide. This is the author's thesis; the debate is scholarly.",
+   "tag": "colonial",
+   "source": {
+    "title": "A total extinction confidently hoped for: the destruction of Cape San society under Dutch colonial rule, 1700-1795",
+    "publisher": "Journal of Genocide Research 12(1-2), 19-44 (Routledge)",
+    "author": "Mohamed Adhikari",
+    "date": "2010",
+    "url": "https://sahistory.org.za/sites/default/files/archive-files/genocide_mohammed_adhikari.pdf",
+    "tier": "academic",
+    "quote": "San (Bushman) society in the Cape Colony was almost completely annihilated during the eighteenth and nineteenth centuries"
+   }
+  },
+  {
+   "when": "Late 18th century",
+   "claim": "Historian Jared McDonald writes that commandos, both official and unofficial, killed thousands of San in the late eighteenth century.",
+   "tag": "colonial",
+   "source": {
+    "title": "Debating San provenance and disappearance",
+    "publisher": "Historia 67(1), via SciELO South Africa",
+    "author": "Jared McDonald",
+    "date": "2022",
+    "url": "https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0018-229X2022000100002",
+    "tier": "academic",
+    "quote": "Thousands of San were killed by commandos, both official and unofficial, during the late eighteenth century."
+   }
+  },
+  {
+   "when": "German colonial period to 1920 (Namibia)",
+   "claim": "Saugestad writes that German colonial administration ranked people in a racial hierarchy, and that settler press headlines in 1911 used the phrases 'Bushman Plague' and 'Bushman Danger' (citing Gordon 1992). South African Administration vagrancy laws from 1920 particularly affected San, per SAHO.",
+   "tag": "colonial",
+   "source": {
+    "title": "The Indigenous Peoples of Southern Africa: An Overview, pp. 27-28",
+    "publisher": "IWGIA",
+    "author": "Sidsel Saugestad",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "German occupation matched the Boers in attention to racial details, creating an elaborate hierarchy of tribes"
+   }
+  },
+  {
+   "when": "1963 to 2002 (Central Kalahari Game Reserve)",
+   "claim": "The Reserve was created in 1963 under British colonial rule, partly to protect residents who wanted to keep hunting and gathering. The Botswana government began asking residents to move in 1986, brought trucks to remove residents in 1997, and cut all services in 2002. The government said it was not 'forcing' residents to leave (Michael Taylor's account).",
+   "tag": "colonial",
+   "source": {
+    "title": "The Past and Future of San Land Rights in Botswana (in Indigenous Peoples' Rights in Southern Africa), p. 151",
+    "publisher": "IWGIA",
+    "author": "Michael Taylor",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "Few people actually moved, however, until 1997 when the government began bringing in trucks to remove residents."
+   }
+  },
+  {
+   "when": "2006-12-13",
+   "claim": "Botswana High Court (Sesana and Others v Attorney General, Misca. No. 52 of 2002), three judges with separate judgments: unanimously found the applicants were in possession of the land before 31 January 2002 and that refusing special game licences was unlawful; held the 2002 termination of services was not unlawful or unconstitutional (Dow J dissenting). Case record summary; the full judgment was not read.",
+   "tag": "today",
+   "source": {
+    "title": "Sesana v. Attorney General (case summary)",
+    "publisher": "Global Health and Human Rights Database",
+    "author": "",
+    "date": "2006",
+    "url": "https://www.globalhealthrights.org/sesana-v-attorney-general/",
+    "tier": "primary",
+    "quote": "Prior to 31 Jan 2002, the Applicants were in possession of the land."
+   }
+  },
+  {
+   "when": "2011-01-27",
+   "claim": "Botswana Court of Appeal (Mosetlhanyane and others v Attorney General) built on the 2006 decision and held that, as lawful occupiers, the applicants had a right of access to water on the reserve; ESCR-Net summary.",
+   "tag": "today",
+   "source": {
+    "title": "Mosetlhanyane and others v. Attorney General of Botswana, Civil Appeal No. CACLB-074-10",
+    "publisher": "ESCR-Net",
+    "author": "",
+    "date": "2011-09-23",
+    "url": "https://www.escr-net.org/caselaw/2011/mosetlhanyane-and-others-v-attorney-general-botswana-civil-appeal-no-caclb-074-10/",
+    "tier": "institutional",
+    "quote": "Without this ability, the right to occupy the land would essentially be meaningless."
+   }
+  }
+ ],
+ "colonial": [
+  {
+   "claim": "Adhikari describes the main agents of destruction of Cape San society as Dutch-speaking pastoralists and says the weak colonial state sanctioned violence (his argument, 2010).",
+   "source": {
+    "title": "A total extinction confidently hoped for",
+    "publisher": "Journal of Genocide Research (Routledge)",
+    "author": "Mohamed Adhikari",
+    "date": "2010",
+    "url": "https://sahistory.org.za/sites/default/files/archive-files/genocide_mohammed_adhikari.pdf",
+    "tier": "academic",
+    "quote": "The main agents of destruction were Dutch-speaking pastoralists whose murderous land-grabbing"
+   }
+  },
+  {
+   "claim": "McDonald notes that in the early 1800s Cape settlers widely expected San extinction, while stating that settler colonialism is not always genocidal (nuance in the scholarly debate).",
+   "source": {
+    "title": "Debating San provenance and disappearance",
+    "publisher": "Historia 67(1)",
+    "author": "Jared McDonald",
+    "date": "2022",
+    "url": "https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0018-229X2022000100002",
+    "tier": "academic",
+    "quote": "In the Cape Colony of the early nineteenth century, the extinction of San was widely anticipated."
+   }
+  },
+  {
+   "claim": "Namibia: under South African administration from 1920, vagrancy laws particularly affected San (SAHO timeline).",
+   "source": {
+    "title": "Namibian Timeline",
+    "publisher": "South African History Online",
+    "author": "",
+    "date": "2015-02-04 (updated 2026-07-20)",
+    "url": "https://sahistory.org.za/article/namibian-timeline",
+    "tier": "institutional",
+    "quote": "San communities are particularly affected by vagrancy laws"
+   }
+  },
+  {
+   "claim": "EBSCO: San were denied land rights by successive precolonial African, colonial and postcolonial powers.",
+   "source": {
+    "title": "San People (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Walton Brown-Foster",
+    "date": "2013",
+    "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/san-people/",
+    "tier": "institutional",
+    "quote": "denied land rights by successive precolonial African and colonial and postcolonial European powers"
+   }
+  },
+  {
+   "claim": "Some San groups, such as the Ju|'hoansi of north-western Botswana and north-eastern Namibia, overlap national borders; the IWGIA volume says this puts them in a special position vis-a-vis states.",
+   "source": {
+    "title": "Indigenous Peoples' Rights in Southern Africa, introduction",
+    "publisher": "IWGIA",
+    "author": "Robert Hitchcock and Diana Vinding (eds.)",
+    "date": "2004",
+    "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+    "tier": "institutional",
+    "quote": "the Ju|'hoansi of north-western Botswana and north-eastern Namibia, who overlap national borders"
+   }
+  },
+  {
+   "claim": "Zimbabwe-Botswana: Tshwa have relatives on both sides of the border; some who crossed were arrested and deported (as reported by Tshwa to the researchers, 2016).",
+   "source": {
+    "title": "The San in Zimbabwe: Livelihoods, Land and Human Rights (IWGIA Report 22)",
+    "publisher": "IWGIA and OSISA",
+    "author": "Hitchcock, Begbie-Clench, Murwira",
+    "date": "2016",
+    "url": "https://www.iwgia.org/images/publications/0728_REPORT_22_final_for_eb.pdf",
+    "tier": "institutional",
+    "quote": "Tshwa have relatives on both sides of the Zimbabwe-Botswana border"
+   }
+  }
+ ],
+ "myth": {
+  "claim": "San are 'living representatives' of how all humanity lived at the dawn of history.",
+  "truth": "Saugestad calls this a myth and notes it coexists with opposite stereotypes (brutal savages, harmless people); she observes that such debates do little to benefit the average San person. The IWGIA 2016 report adds that the San are not one people but many groups, each with its own name, history and language.",
+  "source": {
+   "title": "The Indigenous Peoples of Southern Africa: An Overview, p. 22",
+   "publisher": "IWGIA",
+   "author": "Sidsel Saugestad",
+   "date": "2004",
+   "url": "https://www.iwgia.org/images/publications/EN110_INDIGENOUS_PEOPLES_RIGHTS_IN_SOUTHERN_AFRICA.pdf",
+   "tier": "institutional",
+   "quote": "hailing hunter-gatherer San as the representatives of the way all mankind lived at the dawn of history"
+  }
+ },
+ "photos": [
+  {
+   "file": "File:Tsodilo_Hills_rock_paintings2.jpg",
+   "licence": "CC BY-SA 2.0",
+   "author": "Joachim Huber",
+   "what": "Rock paintings in Tsodilo Hills, Botswana (24 April 2007)"
+  },
+  {
+   "file": "File:Tsodilo_Hills_rock_paintings4.jpg",
+   "licence": "CC BY-SA 2.0",
+   "author": "Joachim Huber",
+   "what": "Rock paintings in Tsodilo Hills, Botswana (24 April 2007); check no people appear"
+  },
+  {
+   "file": "File:Tsodilo_Hills,_Botswana.jpg",
+   "licence": "CC BY-SA 2.0",
+   "author": "Joachim Huber",
+   "what": "Landscape, Tsodilo Hills, Botswana (24 April 2007)"
+  }
+ ],
+ "unreadable": [
+  "https://minorityrights.org/communities/basarwa/ - 403",
+  "https://www.sanparks.org/parks/kgalagadi/explore/natural-cultural-history/a-question-of-terminology - 403",
+  "https://www.thenewhumanitarian.org/news/2006/12/13/san-can-return-home-now - 403",
+  "https://www.thenewhumanitarian.org/news/2007/01/04/san-barred-ancestral-land-despite-court-victory - 403",
+  "https://www.thenewhumanitarian.org/node/218974 - 403",
+  "https://www.smithsonianmag.com/smart-news/new-technique-shows-san-rock-art-5000-years-old-180962948/ - 403",
+  "https://www.theguardian.com/world/2006/dec/13/conservation.botswana - fetch not permitted",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12516594/ - browser verification page only",
+  "https://glottolog.org/resource/languoid/id/kxaa1234 - 410 Gone",
+  "https://mg.co.za/?p=410166 - returned homepage, not the article",
+  "https://www.sasi.org.za/about-us - 404; https://www.iwgia.org/en/articles/update-2011-namibia - no article text; san.org.za and sanculture.org.za - DNS failure",
+  "Reuters, AP, BBC - not accessible to search tool"
+ ],
+ "notNotFound": [
+  "A current WIMSA or SASI statement on preferred names (only the 2004 IWGIA account of WIMSA 2003 positions was read; WIMSA and SASI sites not readable)",
+  "Census-based population counts for Botswana, Namibia or South Africa (only the IWGIA 2016 compiled estimates found; no national census page read)",
+  "Ethnologue or Glottolog pages on Kx'a/Tuu/Khoe-Kwadi (Glottolog 410; Ethnologue not read)",
+  "A readable press report of the 2006 ruling (Guardian blocked, IRIN/New Humanitarian 403, Al Jazeera not found); the ruling is sourced only from a case summary",
+  "Iziko Museums page on rock art age (none found)",
+  "Angola San population or history from a dedicated source (only the IWGIA table figure of 3,500)",
+  "Source on San in South Africa colonial violence beyond the Cape (Adhikari 1700-1795 and McDonald only); no source on the Namibia German-era killings of San beyond Saugestad's note",
+  "SAHO 'The San' page read but 'derogatory' quote does not say which term; not used",
+  "Photos: licences read from Commons file pages for the three Tsodilo files; image content not viewed, so confirm no identifiable people"
+ ]
+}

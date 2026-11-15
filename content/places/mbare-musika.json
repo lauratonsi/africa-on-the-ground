@@ -1,0 +1,67 @@
+{
+  "slug": "mbare-musika",
+  "status": "draft",
+  "type": "market",
+  "country": "ZWE",
+  "name": "Mbare Musika",
+  "region": "Harare · Zimbabwe",
+  "subtitle": "Mbare Musika is a fresh produce market in the Mbare area of Harare.",
+  "facts": [
+    {
+      "label": "Origins",
+      "value": "Built by African farmers and traders, especially women",
+      "cite": [
+        "cap-repository-up-ac-za-ac2b98"
+      ]
+    },
+    {
+      "label": "Municipal recognition",
+      "value": "Salisbury Municipality recognised African markets in the 1940s",
+      "cite": [
+        "cap-repository-up-ac-za-ac2b98"
+      ]
+    },
+    {
+      "label": "Expansion",
+      "value": "Expanded after independence in 1980",
+      "cite": [
+        "cap-repository-up-ac-za-15b706"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Food source for the city",
+      "cite": [
+        "cap-repository-up-ac-za-15b706"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mbare Musika is a fresh produce market in the Mbare area of Harare. A 2023 University of Pretoria thesis traces it from 1930 and credits African farmers and traders, especially women, with building it.",
+              "cite": [
+                "cap-repository-up-ac-za-ac2b98",
+                "cap-repository-up-ac-za-15b706"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

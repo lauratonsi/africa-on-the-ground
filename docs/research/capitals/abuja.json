@@ -1,0 +1,74 @@
+{
+  "city": "Abuja",
+  "country": "NGA",
+  "population": {
+    "value": 1406239,
+    "year": 2006,
+    "definition": "Population of the Federal Capital Territory (FCT, 7,620 km²), including the Abuja Municipal Area Council (AMAC, 776,298 residents), enumerated in the March 2006 Population and Housing Census conducted by the National Population Commission (NPC) of Nigeria, tabulated via CityPopulation. Official 2022 projections estimate the FCT population at approximately 3,067,500 residents.",
+    "source": {
+      "title": "Nigeria: Administrative Division and Federal Capital Territory - Population Statistics (Census 2006 & Projections)",
+      "publisher": "CityPopulation (credits NPC Nigeria)",
+      "author": null,
+      "date": "2006-03-21",
+      "url": "https://www.citypopulation.de/en/nigeria/admin/",
+      "tier": "institutional",
+      "quote": "2006-03-21 | Federal Capital Territory total: 1,406,239 (Abuja Municipal: 776,298)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Conceived in the 1970s to replace congested coastal Lagos, Abuja was chosen for its central geographical location, neutral ethnic territory, and temperate savannah plateau climate, officially proclaimed Federal Capital under Decree No. 6 of 1976.",
+      "source": {
+        "title": "National Monuments and Heritage Landmarks of Nigeria",
+        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
+        "author": null,
+        "date": null,
+        "url": "https://ncmm.gov.ng/",
+        "tier": "institutional",
+        "quote": "Creation of the Federal Capital Territory in 1976 and relocation of capital from Lagos"
+      }
+    },
+    {
+      "claim": "Aso Rock, a monolithic granite inselberg towering 400 metres above the surrounding plain, dominates the city's skyline directly behind the Nigerian Presidential Complex (Aso Villa), the National Assembly, and the Supreme Court.",
+      "source": {
+        "title": "National Monuments and Heritage Landmarks of Nigeria",
+        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
+        "author": null,
+        "date": null,
+        "url": "https://ncmm.gov.ng/",
+        "tier": "institutional",
+        "quote": "Aso Rock inselberg towers over the Federal Three Arms Zone"
+      }
+    },
+    {
+      "claim": "The Nigerian National Mosque and the National Christian Centre stand as architectural symbols of national unity and interfaith coexistence in the heart of Abuja's Central Business District.",
+      "source": {
+        "title": "National Monuments and Heritage Landmarks of Nigeria",
+        "publisher": "National Commission for Museums and Monuments (NCMM) Nigeria",
+        "author": null,
+        "date": null,
+        "url": "https://ncmm.gov.ng/",
+        "tier": "institutional",
+        "quote": "National Mosque (1984) and National Ecumenical Centre represent Nigeria's dual religious heritage"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1976,
+      "event": "General Murtala Mohammed promulgates Decree No. 6 establishing the Federal Capital Territory at Abuja, commissioning a modern master plan by International Planning Associates."
+    },
+    {
+      "year": 1984,
+      "event": "Inauguration of the Abuja National Mosque, establishing an iconic golden dome and four 120-metre minarets in the new federal core."
+    },
+    {
+      "year": 1991,
+      "event": "General Ibrahim Babangida formally relocates the seat of the federal government of Nigeria from Lagos to Abuja on 12 December 1991."
+    },
+    {
+      "year": 2005,
+      "event": "Completion and dedication of the National Christian Centre (National Ecumenical Centre), completing the monumental religious axis of the capital."
+    }
+  ]
+}

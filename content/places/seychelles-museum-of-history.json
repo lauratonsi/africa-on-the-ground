@@ -1,0 +1,67 @@
+{
+  "slug": "seychelles-museum-of-history",
+  "status": "draft",
+  "type": "culture",
+  "country": "SYC",
+  "name": "Seychelles National Museum of History",
+  "region": "Victoria · Seychelles",
+  "subtitle": "The national history museum, housed in the former Supreme Court building in Victoria.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "1965",
+      "cite": [
+        "cap-seychellesnationalmuseums-org-9f927d"
+      ]
+    },
+    {
+      "label": "Move",
+      "value": "Transferred to the ex-Supreme Court building, December 2017",
+      "cite": [
+        "cap-seychellesnationalmuseums-org-9f927d"
+      ]
+    },
+    {
+      "label": "Reopening",
+      "value": "Officially re-opened by President Faure, 2018",
+      "cite": [
+        "cap-statehouse-gov-sc-49f413"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Began as outgrowth of the national archives in the Carnegie building",
+      "cite": [
+        "cap-statehouse-gov-sc-49f413"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The national history museum, housed in the former Supreme Court building in Victoria. It was established in 1965 and reopened in the Supreme Court building in 2018.",
+              "cite": [
+                "cap-seychellesnationalmuseums-org-9f927d",
+                "cap-statehouse-gov-sc-49f413"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

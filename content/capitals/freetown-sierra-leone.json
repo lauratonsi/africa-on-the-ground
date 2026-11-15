@@ -3,10 +3,62 @@
   "status": "draft",
   "country": "SLE",
   "name": "Freetown",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Freetown, capital of Sierra Leone: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Western Area Urban (Freetown) recorded 1,055,964 inhabitants in the 2015 census by Statistics Sierra Leone.",
+      "cite": [
+        "cap-citypopulation-de-sierraleone-2015"
+      ]
+    }
+  ],
+  "places": [
+    "gola-tiwai-complex",
+    "the-cotton-tree-freetown",
+    "sierra-leone-national-museum-freetown",
+    "old-fourah-bay-college-freetown"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Freetown in brief",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,055,964",
+              "label": "residents in Western Area Urban (Freetown), 2015",
+              "cite": [
+                "cap-citypopulation-de-sierraleone-2015"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in Freetown (Western Area Urban) in the 2015 census?",
+          "min": 400000,
+          "max": 2000000,
+          "step": 25000,
+          "unit": "",
+          "answer": 1055964,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,055,964 inhabitants enumerated across Western Area Urban in the 2015 census by Statistics Sierra Leone.",
+              "cite": [
+                "cap-citypopulation-de-sierraleone-2015"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

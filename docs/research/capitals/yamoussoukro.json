@@ -1,0 +1,61 @@
+{
+  "city": "Yamoussoukro",
+  "country": "CIV",
+  "population": {
+    "value": 372559,
+    "year": 2021,
+    "definition": "Population of the Department of Yamoussoukro (comprising Yamoussoukro and Kossou sub-prefectures) enumerated in the 5th General Population and Housing Census (RGPH 2021) conducted by the Institut National de la Statistique (INS) of Côte d'Ivoire, tabulated via CityPopulation. The broader Autonomous District of Yamoussoukro recorded 422,072 inhabitants. In March 1983, Yamoussoukro was officially proclaimed the political and administrative capital of Côte d'Ivoire, while Abidjan remains the economic engine.",
+    "source": {
+      "title": "Côte d'Ivoire: Autonomous Districts, Departments & Major Cities (Census 2021)",
+      "publisher": "CityPopulation (credits INS Côte d'Ivoire)",
+      "author": null,
+      "date": "2021-12-14",
+      "url": "https://www.citypopulation.de/en/cotedivoire/cities/",
+      "tier": "institutional",
+      "quote": "2021-12-14 | Yamoussoukro Department: 372,559; Yamoussoukro Autonomous District: 422,072"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Originally a Baoulé agricultural village named N'Gokro, Yamoussoukro was renamed in honour of Queen Yamousso, great-aunt of Félix Houphouët-Boigny, and chosen in March 1983 as Côte d'Ivoire's official capital.",
+      "source": {
+        "title": "Côte d'Ivoire: Autonomous Districts, Departments & Major Cities (Census 2021)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/cotedivoire/cities/",
+        "tier": "institutional",
+        "quote": "Yamoussoukro désignée capitale politique et administrative en 1983"
+      }
+    },
+    {
+      "claim": "The Basilica of Our Lady of Peace (Notre-Dame de la Paix), designed by architect Pierre Fakhoury and consecrated by Pope John Paul II in 1990, is the largest Christian church in the world by surface area (30,000 m²), featuring a 158-metre dome and 7,000 m² of hand-blown French stained glass.",
+      "source": {
+        "title": "Basilique Notre-Dame de la Paix de Yamoussoukro",
+        "publisher": "Direction Générale des Cultes de Côte d'Ivoire",
+        "author": null,
+        "date": null,
+        "url": "https://cultes.gouv.ci/",
+        "tier": "institutional",
+        "quote": "Plus grande basilique chrétienne au monde consacrée en 1990 par Jean-Paul II"
+      }
+    },
+    {
+      "claim": "The presidential palace complex is surrounded by artificial lakes famously inhabited by hundreds of sacred West African crocodiles, traditionally fed daily in a time-honored civic spectacle.",
+      "source": {
+        "title": "Basilique Notre-Dame de la Paix de Yamoussoukro",
+        "publisher": "Direction Générale des Cultes de Côte d'Ivoire",
+        "author": null,
+        "date": null,
+        "url": "https://cultes.gouv.ci/",
+        "tier": "institutional",
+        "quote": "Palais présidentiel entouré du célèbre lac aux crocodiles sacrés"
+      }
+    }
+  ],
+  "gaps": [
+    "Civil servant relocation progress metrics from Abidjan to Yamoussoukro are partially documented.",
+    "First-hand local voices from Baoulé textile weavers in surrounding villages are missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

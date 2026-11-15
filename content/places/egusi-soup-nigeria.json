@@ -1,14 +1,217 @@
 {
   "slug": "egusi-soup-nigeria",
-  "status": "draft",
+  "status": "published",
   "type": "dish",
   "country": "NGA",
   "name": "Egusi soup",
   "region": "Nigeria",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A rich, textured soup thickened with ground white melon seeds, leafy greens, crayfish and assorted meats, eaten across Nigeria with pounded yam.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Thickened seed soup and stew",
+      "cite": [
+        "bbc-goodfood-egusi"
+      ]
+    },
+    {
+      "label": "Key ingredient",
+      "value": "Ground egusi (seeds of wild white-seed melon, Citrullus mucosospermus)",
+      "cite": [
+        "allnigerianrecipes-egusi"
+      ]
+    },
+    {
+      "label": "Cooking oil",
+      "value": "Red palm oil (unrefined)",
+      "cite": [
+        "allnigerianrecipes-egusi"
+      ]
+    },
+    {
+      "label": "Traditional swallow",
+      "value": "Pounded yam, eba (cassava garri), or amala",
+      "cite": [
+        "bbc-goodfood-egusi"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Egusi soup is arguably the most universal celebratory dish in Nigeria, prepared across Yoruba, Igbo, Hausa, and Edo households.",
+              "cite": [
+                "bbc-goodfood-egusi"
+              ]
+            },
+            {
+              "text": " It is made from shelled, finely ground melon seeds that form tender, curd-like lumps resembling scrambled eggs when simmered in a seasoned broth with red palm oil, ground dried crayfish, and leafy greens such as bitterleaf, ugwu (fluted pumpkin leaves), or spinach.",
+              "cite": [
+                "allnigerianrecipes-egusi"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The seeds provide natural thickness, a nutty aroma, and an abundance of protein and essential fatty acids, making it a complete nutritional powerhouse.",
+              "cite": [
+                "bbc-goodfood-egusi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Egusi soup is rarely eaten on its own; it is served piping hot alongside a large mound of 'swallow' — most prestigiously freshly pounded yam (iyan), but also eba (fried cassava flour stirred with boiling water), fufu, or amala.",
+              "cite": [
+                "allnigerianrecipes-egusi"
+              ]
+            },
+            {
+              "text": " Diners use the fingers of their right hand to pinch a small portion of swallow, depress it with the thumb to create a scoop, capture a generous mouthful of egusi soup and leafy greens, and swallow it smoothly.",
+              "cite": [
+                "allnigerianrecipes-egusi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "An ancient indigenous crop",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Unlike cassava, maize, or tomatoes — which were introduced from the Americas during the Atlantic trade — the egusi melon is entirely native to West and Central Africa.",
+              "cite": [
+                "allnigerianrecipes-egusi"
+              ]
+            },
+            {
+              "text": " Indigenous communities cultivated the bitter gourd for thousands of years not for its bitter, inedible flesh, but specifically to harvest and dry the oil-rich seeds inside.",
+              "cite": [
+                "allnigerianrecipes-egusi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Nigerian Egusi Soup (Fried Method)",
+          "servings": 6,
+          "sub": "Classic fried method recorded by Flo Madubike of All Nigerian Recipes and BBC Good Food.",
+          "cite": [
+            "allnigerianrecipes-egusi",
+            "bbc-goodfood-egusi"
+          ],
+          "note": "Spinach or collard greens can substitute for fluted pumpkin leaves (ugwu); unrefined red palm oil provides the authentic color and earthy flavor.",
+          "ingredients": [
+            {
+              "name": "ground egusi (melon seeds)",
+              "amount": 300,
+              "unit": "g"
+            },
+            {
+              "name": "beef chuck or goat meat, cubed and boiled with stock",
+              "amount": 750,
+              "unit": "g"
+            },
+            {
+              "name": "dry smoked catfish or stockfish, deboned and flaked",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "name": "unrefined red palm oil",
+              "amount": 150,
+              "unit": "ml"
+            },
+            {
+              "name": "ground dried crayfish",
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            {
+              "name": "red bell peppers and Scotch bonnet chillies, blended smooth",
+              "amount": 3,
+              "unit": ""
+            },
+            {
+              "name": "fresh spinach or chopped ugwu leaves, washed and sliced",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "name": "rich meat stock (from boiling the beef)",
+              "amount": 600,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Mix the ground egusi in a bowl with a little warm water to form a thick, paste-like dough.",
+              "minutes": 3
+            },
+            {
+              "text": "Heat red palm oil in a large pot over medium heat until translucent; add diced onions and sauté until fragrant.",
+              "minutes": 4
+            },
+            {
+              "text": "Add the blended pepper and chilli mixture, frying for 8 minutes until the oil separates from the puree.",
+              "minutes": 8
+            },
+            {
+              "text": "Scoop small balls of the egusi paste into the hot oil with a spoon; allow them to set without stirring for 5 minutes so they form distinct curds.",
+              "minutes": 5
+            },
+            {
+              "text": "Gently stir the curds, pour in the rich meat stock, add the cooked beef, smoked fish, and ground crayfish, and simmer gently.",
+              "minutes": 15
+            },
+            {
+              "text": "Fold in the fresh chopped spinach or ugwu leaves, simmering for 3 minutes just until wilted but vibrant green.",
+              "minutes": 3
+            },
+            {
+              "text": "Turn off the heat and allow the soup to settle for 5 minutes before serving with hot pounded yam or eba.",
+              "minutes": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "Regional disputes between the Yoruba 'frying' method (oil-fried melon balls) and the eastern Igbo 'caking' or boiling method (ofe egusi) in terms of digestive lightness and taste.",
+    "Lack of industrial standardization in local markets where pumpkin seeds or watermelon seeds are occasionally blended into egusi flour."
   ]
 }

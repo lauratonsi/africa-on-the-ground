@@ -1,0 +1,52 @@
+{
+  "slug": "kabwata-cultural-village",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZMB",
+  "name": "Kabwata Cultural Village",
+  "region": "Lusaka · Zambia",
+  "subtitle": "A craft and arts village in Lusaka where artisans from Zambia's provinces display and sell work.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1974",
+      "cite": [
+        "cap-globalpressjournal-com-dc5337"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "Showcases cultures of all 10 provinces",
+      "cite": [
+        "cap-globalpressjournal-com-dc5337"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A craft and arts village in Lusaka where artisans from Zambia's provinces display and sell work. It began in 1974 as a government idea to bring the country's cultures together.",
+              "cite": [
+                "cap-globalpressjournal-com-dc5337"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

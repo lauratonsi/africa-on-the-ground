@@ -1,0 +1,74 @@
+{
+  "city": "Dakar",
+  "country": "SEN",
+  "population": {
+    "value": 1278469,
+    "year": 2023,
+    "definition": "Population of the core Dakar Department (covering 79.83 km² across 19 communes d'arrondissement on the Cap-Vert peninsula) enumerated in the May-June 2023 General Population and Housing Census (RGPH-5) conducted by the Agence Nationale de la Statistique et de la Démographie (ANSD) of Senegal, tabulated via CityPopulation. The entire metropolitan Dakar Region (535 km²) enumerated 4,004,427 residents.",
+    "source": {
+      "title": "Sénégal: Division administrative et Région de Dakar - Statistiques de population (RGPH-5 2023)",
+      "publisher": "CityPopulation (credits ANSD Sénégal)",
+      "author": null,
+      "date": "2023-06-01",
+      "url": "https://www.citypopulation.de/en/senegal/admin/",
+      "tier": "institutional",
+      "quote": "2023-06-01 | Dakar Department: 1,278,469; Dakar Region total: 4,004,427"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Founded in 1857 on an ancestral Lebou coastal settlement at the westernmost tip of continental Africa, Dakar succeeded Saint-Louis in 1902 as the administrative capital of French West Africa (AOF).",
+      "source": {
+        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
+        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
+        "author": null,
+        "date": null,
+        "url": "https://mcn.sn/",
+        "tier": "institutional",
+        "quote": "Dakar devient la capitale de l'Afrique Occidentale Française en 1902 après Saint-Louis"
+      }
+    },
+    {
+      "claim": "The Musée des Civilisations Noires (MCN), conceived in 1966 during Léopold Sédar Senghor's World Festival of Black Arts and inaugurated in December 2018, houses 14,000 m² of pan-African art, ancient technology, and restitution collections in a circular building inspired by Casamance impluvium dwellings.",
+      "source": {
+        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
+        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
+        "author": null,
+        "date": null,
+        "url": "https://mcn.sn/",
+        "tier": "institutional",
+        "quote": "Inauguration du Musée des Civilisations Noires en décembre 2018, concrétisant la vision de 1966"
+      }
+    },
+    {
+      "claim": "Standing 52 metres tall on the Collines des Mamelles in Ouakam, the bronze Monument de la Renaissance africaine was inaugurated in April 2010 to mark the fiftieth anniversary of Senegalese independence.",
+      "source": {
+        "title": "Musée des Civilisations Noires de Dakar: Histoire, architecture et mémoire panafricaine",
+        "publisher": "Ministère de la Culture du Sénégal / MCN Dakar",
+        "author": null,
+        "date": null,
+        "url": "https://mcn.sn/",
+        "tier": "institutional",
+        "quote": "Inauguration du Monument de la Renaissance africaine en avril 2010"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1857,
+      "event": "French colonial governor Louis Faidherbe officially establishes the modern town and military port of Dakar on the Lebou peninsula."
+    },
+    {
+      "year": 1902,
+      "event": "Dakar is declared the federal capital of French West Africa (AOF), inaugurating rapid rail, port, and monumental administrative construction."
+    },
+    {
+      "year": 1960,
+      "event": "Following the dissolution of the Mali Federation, Senegal proclaims independence with Dakar as sovereign capital under President Léopold Sédar Senghor."
+    },
+    {
+      "year": 2018,
+      "event": "Official opening of the Musée des Civilisations Noires, establishing Dakar as a premier global hub for African cultural heritage and museum dialogue."
+    }
+  ]
+}

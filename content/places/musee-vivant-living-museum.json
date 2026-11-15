@@ -1,0 +1,60 @@
+{
+  "slug": "musee-vivant-living-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "BDI",
+  "name": "Musée Vivant (Living Museum)",
+  "region": "Bujumbura · Burundi",
+  "subtitle": "A site near the lake, almost in the heart of the capital, showing traditional Burundian life and animals.",
+  "facts": [
+    {
+      "label": "Location and theme",
+      "value": "Near Lake Tanganyika; dedicated to traditional life in Burundi.",
+      "cite": [
+        "cap-ebsco-com-6d43eb"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "Display of artistic, cultural and animal heritage.",
+      "cite": [
+        "cap-iwacu-burundi-org-a58547"
+      ]
+    },
+    {
+      "label": "Animals (2018)",
+      "value": "Guide listed six crocodiles, a leopard, two chimpanzees, an antelope and snakes.",
+      "cite": [
+        "cap-iwacu-burundi-org-a58547"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A site near the lake, almost in the heart of the capital, showing traditional Burundian life and animals. It was created to display the artistic, cultural and animal beauty of Burundi.",
+              "cite": [
+                "cap-ebsco-com-6d43eb",
+                "cap-iwacu-burundi-org-a58547"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

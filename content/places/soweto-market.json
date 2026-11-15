@@ -1,0 +1,61 @@
+{
+  "slug": "soweto-market",
+  "status": "draft",
+  "type": "market",
+  "country": "ZMB",
+  "name": "Soweto Market",
+  "region": "Lusaka · Zambia",
+  "subtitle": "A large trading market in western Lusaka, used by retail traders and as a wholesale point for vegetables.",
+  "facts": [
+    {
+      "label": "Daily activity",
+      "value": "Traders under tin roofs start before sunrise",
+      "cite": [
+        "cap-theiatp-org-88ea7b"
+      ]
+    },
+    {
+      "label": "Wholesale role",
+      "value": "Has a wholesale market for fresh produce in Lusaka",
+      "cite": [
+        "cap-ideas-repec-org-3f8194"
+      ]
+    },
+    {
+      "label": "Street vending nearby",
+      "value": "Vendors sell outside Soweto Market despite a ban",
+      "cite": [
+        "cap-globalpressjournal-com-a173b9"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large trading market in western Lusaka, used by retail traders and as a wholesale point for vegetables. The claim that it is the country's largest was not confirmed in a page I could read.",
+              "cite": [
+                "cap-theiatp-org-88ea7b",
+                "cap-ideas-repec-org-3f8194",
+                "cap-globalpressjournal-com-a173b9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

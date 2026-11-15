@@ -3,10 +3,239 @@
   "status": "draft",
   "country": "ETH",
   "name": "Addis Ababa",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Addis Ababa, capital of Ethiopia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 3,859,999 people live in Addis Ababa (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-bf52be"
+      ]
+    },
+    {
+      "text": "Addis Ababa, meaning 'New Flower' in Amharic, was founded in 1886.",
+      "cite": [
+        "cap-sah-org-a0f224"
+      ]
+    },
+    {
+      "text": "Empress Taytu Betul, wife of Menelik II, is credited with selecting the site and with naming (renaming) the place.",
+      "cite": [
+        "cap-thereporterethiopia-com-d6e3de"
+      ]
+    }
+  ],
+  "places": [
+    "national-museum-of-ethiopia",
+    "merkato",
+    "red-terror-martyrs-memorial-museum",
+    "adwa-victory-memorial",
+    "holy-trinity-cathedral"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Addis Ababa in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Addis Ababa, meaning 'New Flower' in Amharic, was founded in 1886.",
+              "cite": [
+                "cap-sah-org-a0f224"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Empress Taytu Betul, wife of Menelik II, is credited with selecting the site and with naming (renaming) the place.",
+              "cite": [
+                "cap-thereporterethiopia-com-d6e3de"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The OAU was created at a meeting in Addis Ababa in May 1963; its successor, the African Union, was launched in Durban in 2002.",
+              "cite": [
+                "cap-au-int-42ab32"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The OAU's founding date was 25 May 1963 and it was formed in Addis Ababa.",
+              "cite": [
+                "cap-ebsco-com-3d7a93"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "3,859,999",
+              "label": "people in Addis Ababa, 2022",
+              "cite": [
+                "cap-citypopulation-de-bf52be"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Addis Ababa?",
+          "min": 0,
+          "max": 20000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 3859999,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "3,859,999 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Projected population of the Chartered City of Adis Abeba as of 1 July 2022 (Ethiopian Statistics Service projection; 2007 census count was 2,739,551).",
+              "cite": [
+                "cap-citypopulation-de-bf52be"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1886",
+              "tag": "origins",
+              "text": "Addis Ababa ('New Flower') is founded.",
+              "cite": [
+                "cap-sah-org-a0f224"
+              ]
+            },
+            {
+              "when": "1942",
+              "tag": "growth",
+              "text": "The new Holy Trinity Cathedral is completed after Haile Selassie's return from exile.",
+              "cite": [
+                "cap-capitalethiopia-com-f8832f"
+              ]
+            },
+            {
+              "when": "May 1963",
+              "tag": "growth",
+              "text": "Leaders of 32 independent African states meet in Addis Ababa to create the Organization of African Unity.",
+              "cite": [
+                "cap-au-int-42ab32"
+              ]
+            },
+            {
+              "when": "1974",
+              "tag": "growth",
+              "text": "Lucy is found by U.S. paleoanthropologists Donald Johanson and Tom Gray (now kept at the National Museum in Addis Ababa).",
+              "cite": [
+                "cap-aa-com-tr-cb43c9"
+              ]
+            },
+            {
+              "when": "2010",
+              "tag": "today",
+              "text": "The Red Terror Martyrs' Memorial Museum is established at Meskel Square.",
+              "cite": [
+                "cap-thereporterethiopia-com-9cdc29"
+              ]
+            },
+            {
+              "when": "11 February 2024",
+              "tag": "today",
+              "text": "The Adwa Victory Memorial is inaugurated in Addis Ababa.",
+              "cite": [
+                "cap-ena-et-933778"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Addis Ababa in order.",
+          "items": [
+            {
+              "label": "Addis Ababa ('New Flower') is founded.",
+              "when": "1886",
+              "text": "Addis Ababa ('New Flower') is founded.",
+              "cite": [
+                "cap-sah-org-a0f224"
+              ]
+            },
+            {
+              "label": "Leaders of 32 independent African states meet in Addis Ababa to create the…",
+              "when": "May 1963",
+              "text": "Leaders of 32 independent African states meet in Addis Ababa to create the Organization of African Unity.",
+              "cite": [
+                "cap-au-int-42ab32"
+              ]
+            },
+            {
+              "label": "The Red Terror Martyrs' Memorial Museum is established at Meskel Square.",
+              "when": "2010",
+              "text": "The Red Terror Martyrs' Memorial Museum is established at Meskel Square.",
+              "cite": [
+                "cap-thereporterethiopia-com-9cdc29"
+              ]
+            },
+            {
+              "label": "The Adwa Victory Memorial is inaugurated in Addis Ababa.",
+              "when": "11 February 2024",
+              "text": "The Adwa Victory Memorial is inaugurated in Addis Ababa.",
+              "cite": [
+                "cap-ena-et-933778"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Year Addis Ababa became capital (1889-1892 in search snippets only; no readable source quoted it)",
+    "Not found in a readable source: Origin-of-name statement beyond 'New Flower' (SAH) and Finfinne/hot springs (Ethiopians Today)",
+    "Not found in a readable source: Ethnological Museum (IES): no readable institutional or academic page; the only readable page was ethiomuseums.com (Ethiopian Museums Support Association, unofficial), so not included",
+    "Not found in a readable source: Entoto: only tour/travel pages found, none acceptable",
+    "Not found in a readable source: Addis Ababa Museum: not searched in depth",
+    "Not found in a readable source: Merkato statistics (traders, area): no readable acceptable source",
+    "Not found in a readable source: Photo for Adwa Victory Memorial on Commons: none found",
+    "Not found in a readable source: Common misconception: none found in a readable source",
+    "Not found in a readable source: Battle of Adwa date (1896): not quoted from a readable source",
+    "Left out because only weak or unofficial sources supported them (6 items, for example: The founding year varies between 1886 and 1888 depending on records; one account describes).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Ethiopia has read this profile yet."
   ]
 }

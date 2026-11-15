@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-des-arts-rites-et-traditions-libreville",
+  "status": "draft",
+  "type": "culture",
+  "country": "GAB",
+  "name": "Musée National des Arts, Rites et Traditions du Gabon",
+  "region": "Libreville · Gabon",
+  "subtitle": "National repository safeguarding sacred Bwiti ritual regalia, Kota reliquaries, and ancestral Fang wood carvings.",
+  "facts": [
+    {
+      "label": "Key holdings",
+      "value": "Ancestral reliquary guardian figures (mbulu-ngulu), Fang masks, and sacred ngombi harps",
+      "cite": [
+        "cap-unesco-gabon-bwiti"
+      ]
+    },
+    {
+      "label": "Spiritual focus",
+      "value": "Material culture of the Bwiti initiatory traditions and ancestral cosmology",
+      "cite": [
+        "cap-unesco-gabon-bwiti"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Central institution for the documentation and preservation of Gabon's living ritual arts",
+      "cite": [
+        "cap-unesco-gabon-bwiti"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The primary national cultural museum of Gabon, located in downtown Libreville. The museum safeguards an exceptional collection of traditional Gabonese ritual arts, renowned worldwide for its ancestral reliquary figures (such as copper-plated Kota mbulu-ngulu and wooden Fang bieri sculptures), white-faced Punu masks representing spirits, and sacred eight-stringed ngombi harps used in the initiatory rites of the Bwiti religion, documenting the profound spiritual philosophies of Gabon's forest peoples.",
+              "cite": [
+                "cap-unesco-gabon-bwiti"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital inventory of ritual instruments and musical recordings is currently in progress.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

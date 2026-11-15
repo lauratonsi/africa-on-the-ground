@@ -3,10 +3,265 @@
   "status": "draft",
   "country": "DJI",
   "name": "Djibouti",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Djibouti, capital of Djibouti: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 767,250 people live in Djibouti (counted 2024).",
+      "cite": [
+        "cap-citypopulation-de-39d8db"
+      ]
+    },
+    {
+      "text": "France established a base at Obock on the north shore of the Gulf of Tadjoura in 1862, bought from the sultan of Tadjoura; the administrative centre was later moved to Djibouti.",
+      "cite": [
+        "cap-universalis-fr-0ab791"
+      ]
+    },
+    {
+      "text": "The year 1888 marked the decline of Obock and the birth of Djibouti as a bridgehead between north-east Africa and Arabia.",
+      "cite": [
+        "cap-persee-fr-657a9e"
+      ]
+    }
+  ],
+  "places": [
+    "marche-central",
+    "hamoudi-mosque",
+    "port-of-djibouti"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Djibouti in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France established a base at Obock on the north shore of the Gulf of Tadjoura in 1862, bought from the sultan of Tadjoura; the administrative centre was later moved to Djibouti.",
+              "cite": [
+                "cap-universalis-fr-0ab791"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The year 1888 marked the decline of Obock and the birth of Djibouti as a bridgehead between north-east Africa and Arabia.",
+              "cite": [
+                "cap-persee-fr-657a9e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Site choice: Governor Lagarde judged the Obock roadstead too narrow and unsafe and chose Ras Djibouti for its large sheltered roadstead and access to the Ethiopian plateaus; the government moved there in 1892.",
+              "cite": [
+                "cap-persee-fr-46aa55"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Djibouti became capital of the Côte française des Somalis in 1896 (Lagarde moved the seat there in 1894, per Universalis); the town grew with the railway to Addis Ababa built 1897-1917. Note: Douteau gives 1892 for the move, Universalis 1894; sources differ.",
+              "cite": [
+                "cap-universalis-fr-283912"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The territory was renamed Territoire français des Afars et des Issas in July 1967; independence was set for 27 June 1977 after a May 1977 referendum.",
+              "cite": [
+                "cap-universalis-fr-40aa97"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The port developed first as a coaling station and then as a railhead for trains from Ethiopia; the city handles most of East Africa's trade through its seaport (EBSCO).",
+              "cite": [
+                "cap-oxfordbusinessgroup-com-e44826"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "767,250",
+              "label": "people in Djibouti, 2024",
+              "cite": [
+                "cap-citypopulation-de-39d8db"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Djibouti?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 767250,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "767,250 in 2024, according to the figures compiled from the national statistics office. Which area is counted matters: Census population (census date 2024-05-20) of the city 'Djibouti (Djibouti-Ville)' as a sum of three communes (Balbala, Boulaos, Ras Dika); no formal boundary definition given on the page.",
+              "cite": [
+                "cap-citypopulation-de-39d8db"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1862",
+              "tag": "origins",
+              "text": "France holds the territory of Obock, bought from the sultan of Tadjoura.",
+              "cite": [
+                "cap-universalis-fr-0ab791"
+              ]
+            },
+            {
+              "when": "1888",
+              "tag": "origins",
+              "text": "Obock declines and Djibouti is born as a bridgehead between north-east Africa and Arabia.",
+              "cite": [
+                "cap-persee-fr-657a9e"
+              ]
+            },
+            {
+              "when": "1892",
+              "tag": "origins",
+              "text": "The colonial government moves to Ras Djibouti (date per Douteau; Universalis gives 1894 for the transfer).",
+              "cite": [
+                "cap-persee-fr-46aa55"
+              ]
+            },
+            {
+              "when": "1896",
+              "tag": "origins",
+              "text": "Djibouti becomes capital of the Côte française des Somalis.",
+              "cite": [
+                "cap-universalis-fr-283912"
+              ]
+            },
+            {
+              "when": "1897",
+              "tag": "growth",
+              "text": "Construction of the railway to Addis Ababa begins (growth of the city tied to it, 1897-1917).",
+              "cite": [
+                "cap-universalis-fr-283912"
+              ]
+            },
+            {
+              "when": "July 1967",
+              "tag": "growth",
+              "text": "The territory is renamed Territoire français des Afars et des Issas.",
+              "cite": [
+                "cap-universalis-fr-40aa97"
+              ]
+            },
+            {
+              "when": "27 June 1977",
+              "tag": "today",
+              "text": "Independence of the Republic of Djibouti.",
+              "cite": [
+                "cap-ebsco-com-b330b6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Djibouti in order.",
+          "items": [
+            {
+              "label": "France holds the territory of Obock, bought from the sultan of Tadjoura.",
+              "when": "1862",
+              "text": "France holds the territory of Obock, bought from the sultan of Tadjoura.",
+              "cite": [
+                "cap-universalis-fr-0ab791"
+              ]
+            },
+            {
+              "label": "The colonial government moves to Ras Djibouti (date per Douteau; Universalis…",
+              "when": "1892",
+              "text": "The colonial government moves to Ras Djibouti (date per Douteau; Universalis gives 1894 for the transfer).",
+              "cite": [
+                "cap-persee-fr-46aa55"
+              ]
+            },
+            {
+              "label": "Construction of the railway to Addis Ababa begins (growth of the city tied to…",
+              "when": "1897",
+              "text": "Construction of the railway to Addis Ababa begins (growth of the city tied to it, 1897-1917).",
+              "cite": [
+                "cap-universalis-fr-283912"
+              ]
+            },
+            {
+              "label": "Independence of the Republic of Djibouti.",
+              "when": "27 June 1977",
+              "text": "Independence of the Republic of Djibouti.",
+              "cite": [
+                "cap-ebsco-com-b330b6"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Place Menelik / old European quarter: no readable source (UNESCO page blocked); photos exist on Commons: File:Place Menelik in Djibouti city (25058480721).jpg (CC BY 2.0, Francisco Anzola)",
+    "Not found in a readable source: Cathédrale Notre-Dame du Bon-Pasteur: no readable source; photo File:Cathédrale de Djibouti.jpg (CC BY-SA 4.0, Cjulien21)",
+    "Not found in a readable source: Palais du Peuple, Musée national: no source found",
+    "Not found in a readable source: Lake Abbe / Assal / Salines: not searched as city places",
+    "Not found in a readable source: An explicit source for 'founded 1888 by the French' as a city founding statement: only Picquart (1888 = birth of Djibouti) read; EBSCO does not give founding date; Universalis ville does not mention 1888",
+    "Not found in a readable source: Population definition: only commune breakdown, no official boundary text; EBSCO gives ~600,000 (2023 estimate) which conflicts with census 767,250",
+    "Not found in a readable source: Common misconception: none found",
+    "Left out because only weak or unofficial sources supported them (1 items, for example: Hamoudi Mosque - Built: 1906 by Haji Hamoudi (single source, specialist site, tier uncerta).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Djibouti has read this profile yet."
   ]
 }

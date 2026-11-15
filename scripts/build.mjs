@@ -26,7 +26,7 @@ for (const { file, data: pl } of data.places) {
   }
 }
 
-const { config, sourcesList, places, notes, methodHtml, methodPage = null, artCatalog = null, capitals = [] } = data;
+const { config, sourcesList, places, notes, methodHtml, methodPage = null, artCatalog = null, capitals = [], peoples = [] } = data;
 const blocsList = data.blocs ? data.blocs.blocs : [];
 const sources = new Map(sourcesList.map((s) => [s.id, s]));
 const includeDrafts = process.argv.includes("--drafts");
@@ -168,7 +168,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}peoples/index.html"${current === "peoples" ? ' aria-current="page"' : ""}>Peoples</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -1254,6 +1254,8 @@ function renderQuiz(list) {
   ];
   const counts = Object.fromEntries(topics.map((t) => [t.id, t.id === "mixed" ? all.length : all.filter((x) => x.topic === t.id).length]));
   const payload = { questions: all.map((x) => ({ id: x.id, t: x.topic, q: x.q, o: x.options, a: x.answer, e: x.explain, c: x.cite, s: x.story ? `../stories/${x.story}/index.html` : "" })), sources: srcOut, rounds: 8 };
+  const leadTopic = topics[0];
+  const subTopics = topics.slice(1);
   const body = `${compactHero({ kicker: "Learn", title: "Quiz", sub: "Questions drawn from the stories and figures on this site. Each answer comes with its source." })}
 <div class="wrap section">
 <section class="panel quiz" id="quiz" aria-labelledby="quiz-h">
@@ -1261,7 +1263,18 @@ function renderQuiz(list) {
   <p class="quiz-intro">Every answer is a fact from this site, with its source beside it. Nothing you answer is saved or sent anywhere: the site sets no cookies and keeps no score once you leave the page.</p>
   <noscript><p class="fine">The quiz needs JavaScript. The facts it uses are in the <a href="../stories/index.html">stories</a> and on the <a href="../countries/index.html">Countries</a> page.</p></noscript>
   <div id="quiz-start" hidden>
-    <ul class="quiz-topics">${topics.map((t) => `<li><button type="button" class="quiz-topic" data-topic="${t.id}"><span class="qt-name">${esc(t.label)}</span><span class="qt-blurb">${esc(t.blurb)}</span><span class="qt-n">${counts[t.id]} questions</span></button></li>`).join("")}</ul>
+    <div class="quiz-featured">
+      <button type="button" class="quiz-topic quiz-topic-lead" data-topic="${leadTopic.id}">
+        <div class="qt-lead-info">
+          <span class="rag-badge">Featured · All Topics</span>
+          <span class="qt-name">${esc(leadTopic.label)}</span>
+          <span class="qt-blurb">${esc(leadTopic.blurb)}</span>
+        </div>
+        <span class="qt-n qt-lead-n">${counts[leadTopic.id]} questions</span>
+      </button>
+    </div>
+    <h3 class="qt-subhead">Or select a specific topic</h3>
+    <ul class="quiz-topics">${subTopics.map((t) => `<li><button type="button" class="quiz-topic" data-topic="${t.id}"><span class="qt-name">${esc(t.label)}</span><span class="qt-blurb">${esc(t.blurb)}</span><span class="qt-n">${counts[t.id]} questions</span></button></li>`).join("")}</ul>
   </div>
   <div id="quiz-play" hidden aria-live="polite"></div>
 </section>
@@ -1418,12 +1431,23 @@ ${sourcesList()}
 if (data.countries) for (const c of data.countries.countries) write(`countries/${cSlug[c.iso3]}/index.html`, renderCountryPage(c, data.countries.countries));
 
 const contactLine = config.contact ? ` Write to ${esc(config.contact)}.` : "";
+const methodJump = [
+  { id: "method-rag", label: "Ask Method" },
+  { id: "sec-purpose", label: "Purpose & Fit" },
+  { id: "sec-the-record", label: "The Record" },
+  { id: "sec-local-voices", label: "Local Voices" },
+  { id: "sec-when-a-note-disagrees-with-the-record", label: "Disputes" },
+  { id: "sec-what-this-site-collects", label: "Privacy" },
+  { id: "sec-sustainability-and-social-mission", label: "Fair Knowledge" },
+  { id: "sec-who-makes-this", label: "Governance" }
+];
 write("method/index.html", layout({
   title: `Method · ${config.name}`,
   description: "What the site is for, how to use it, how the record is sourced and how local notes are collected.",
   depth: 1,
   current: "method",
   extraScripts: ["story.js", "method-qa.js"],
+  jump: methodJump,
   body: (() => {
     if (!methodPage) {
       const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
@@ -1450,7 +1474,29 @@ write("method/index.html", layout({
     const pg = fill(methodPage);
     const nocite = () => "";
     const secs = pg.sections.map((sec, i) => `<section id="sec-${esc(sec.id)}"><h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, nocite, { up: "../", contactLine })).join("")}</section>`).join("\n");
-    const kp = pg.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short: Key Epistemic Principles</h2><ul>${pg.keyPoints.map((x) => `<li>${esc(x.text)}</li>`).join("")}</ul></aside>` : "";
+    
+    const principlesList = (pg.keyPoints || []).map((x, i) => {
+      const parts = x.text.split(":");
+      const title = parts[0].trim();
+      const desc = parts.slice(1).join(":").trim();
+      const num = String(i + 1).padStart(2, "0");
+      return `<li class="exec-item">
+        <span class="exec-num" aria-hidden="true">${num}</span>
+        <div class="exec-content">
+          <h3 class="exec-title">${esc(title)}</h3>
+          <p class="exec-desc">${esc(desc)}</p>
+        </div>
+      </li>`;
+    }).join("");
+    const kp = pg.keyPoints ? `<section class="method-exec-panel" aria-labelledby="kp-h">
+      <div class="exec-header">
+        <span class="rag-badge">Executive Summary</span>
+        <h2 id="kp-h">Five Foundational Epistemic Commitments</h2>
+        <p class="fine">Core architecture governing data integrity, source criticism, and community consent across the platform.</p>
+      </div>
+      <ol class="exec-list">${principlesList}</ol>
+    </section>` : "";
+
     const ragWidget = `<section class="method-rag" id="method-rag" aria-labelledby="rag-title">
   <div class="method-rag-card">
     <div class="rag-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Interactive Epistemic Navigator · Local RAG</span></div>
@@ -1458,6 +1504,7 @@ write("method/index.html", layout({
     <p class="rag-sub">Query our research protocol, privacy framework, educational pilot, or verification rules. Runs 100% locally in your browser with zero network calls and zero tracking.</p>
     <div class="rag-form" role="search">
       <div class="rag-input-wrap">
+        <svg class="rag-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         <input type="search" id="rag-input" class="rag-input" placeholder="Type a question (e.g. 'Can I use this for my university syllabus?', 'How are local notes paid?')..." aria-label="Ask a question about the methodology">
         <button type="button" id="rag-clear" class="rag-clear" aria-label="Clear question" hidden>&times;</button>
       </div>
@@ -1476,6 +1523,7 @@ write("method/index.html", layout({
   </div>
 </section>`;
     return `${compactHero({ kicker: "How it works", title: pg.title, sub: pg.lede })}
+<div class="wrap"><nav class="pi-jump lang-jump" aria-label="On this page"><a href="#method-rag">Ask Method</a><a href="#sec-purpose">Purpose &amp; Fit</a><a href="#sec-the-record">The Record</a><a href="#sec-local-voices">Voices</a><a href="#sec-what-this-site-collects">Privacy</a><a href="#sec-sustainability-and-social-mission">Fair Knowledge</a><a href="#sec-who-makes-this">Governance</a></nav></div>
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${kp}${ragWidget}<article class="story method">${secs}</article></div>`;
   })()
 }));
@@ -1500,20 +1548,29 @@ function renderEducation() {
 <section class="panel" id="universities" aria-labelledby="uni-h">
   <h2 id="uni-h">De-centering African studies in the classroom</h2>
   <p class="ts-intro">Traditional textbooks often present the African continent through single narratives, generalized abstractions, or outdated colonial frameworks. Africa on the Ground provides higher education educators with an interactive digital companion that connects documented historiography with authentic lived perspectives.</p>
-  <ul class="duo-list" style="margin-top:20px;">
-    <li>
-      <strong>The Dual-Layer Rigor:</strong>
-      <p>Every claim on the platform is tied to verified academic, primary, or institutional sources with explicit historiographical gaps. Subjective lived experiences of local communities are preserved and presented separately as personal testimony, never confused with fact.</p>
+  <ol class="exec-list" style="margin-top:24px;">
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">01</span>
+      <div class="exec-content">
+        <h3 class="exec-title">The Dual-Layer Rigor</h3>
+        <p class="exec-desc">Every claim on the platform is tied to verified academic, primary, or institutional sources with explicit historiographical gaps. Subjective lived experiences of local communities are preserved and presented separately as personal testimony, never confused with fact.</p>
+      </div>
     </li>
-    <li>
-      <strong>Active, Hands-on Learning:</strong>
-      <p>Students engage through sorting data, testing their assumptions in quizzes, exploring spatial and trade connections, and investigating rock art and living material heritage across all 54 African nations.</p>
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">02</span>
+      <div class="exec-content">
+        <h3 class="exec-title">Active, Hands-on Learning</h3>
+        <p class="exec-desc">Students engage through sorting data, testing their assumptions in quizzes, exploring spatial and trade connections, and investigating rock art and living material heritage across all 54 African nations.</p>
+      </div>
     </li>
-    <li>
-      <strong>Absolute Student Privacy:</strong>
-      <p>Zero tracking, zero cookies, and no student personal data collected or stored. Fully compliant with GDPR and international educational privacy standards.</p>
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">03</span>
+      <div class="exec-content">
+        <h3 class="exec-title">Absolute Student Privacy</h3>
+        <p class="exec-desc">Zero tracking, zero cookies, and no student personal data collected or stored. Fully compliant with GDPR and international educational privacy standards.</p>
+      </div>
     </li>
-  </ul>
+  </ol>
 </section>
 
 <section class="panel" id="pilot" aria-labelledby="pilot-h" style="margin-top:28px">
@@ -1553,20 +1610,29 @@ function renderEducation() {
 <section class="panel" id="fair-knowledge" aria-labelledby="fk-h" style="margin-top:28px">
   <h2 id="fk-h">Our Benefit Model: The Fair Knowledge Principle</h2>
   <p class="ts-intro">Africa on the Ground operates as a Benefit Social Enterprise. We reject advertising, data monetization, and the historical pattern of extracting uncompensated knowledge from African communities.</p>
-  <ul class="duo-list" style="margin-top:20px;">
-    <li>
-      <strong>Fair Local Compensation:</strong>
-      <p>A dedicated portion of all institutional subscription revenue is directed into a compensation fund that remunerates local African researchers, writers, and community fact-checkers who contribute or verify place notes.</p>
+  <ol class="exec-list" style="margin-top:24px;">
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">01</span>
+      <div class="exec-content">
+        <h3 class="exec-title">Fair Local Compensation</h3>
+        <p class="exec-desc">A dedicated portion of all institutional subscription revenue is directed into a compensation fund that remunerates local African researchers, writers, and community fact-checkers who contribute or verify place notes.</p>
+      </div>
     </li>
-    <li>
-      <strong>The 1-for-1 Educational Pledge:</strong>
-      <p>Every commercial university partnership in the Global North directly funds free access, offline learning packages, and low-bandwidth kits for educational institutions, libraries, and schools across African countries.</p>
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">02</span>
+      <div class="exec-content">
+        <h3 class="exec-title">The 1-for-1 Educational Pledge</h3>
+        <p class="exec-desc">Every commercial university partnership in the Global North directly funds free access, offline learning packages, and low-bandwidth kits for educational institutions, libraries, and schools across African countries.</p>
+      </div>
     </li>
-    <li>
-      <strong>Independent &amp; Ethical Governance:</strong>
-      <p>Content integrity and source verification are overseen under strict public methodology, preventing commercial or political capture of educational content.</p>
+    <li class="exec-item">
+      <span class="exec-num" aria-hidden="true">03</span>
+      <div class="exec-content">
+        <h3 class="exec-title">Independent &amp; Ethical Governance</h3>
+        <p class="exec-desc">Content integrity and source verification are overseen under strict public methodology, preventing commercial or political capture of educational content.</p>
+      </div>
     </li>
-  </ul>
+  </ol>
 </section>
 
 <section class="panel" id="inquiries" aria-labelledby="inq-h" style="margin-top:28px">
@@ -1605,7 +1671,7 @@ function renderPlaces() {
   const hasDraft = published.some((p) => p.status === "draft");
   const chip = (attr, val, label, on) => `<button type="button" class="fbtn" data-${attr}="${esc(val)}" aria-pressed="${on ? "true" : "false"}">${label}</button>`;
   const tools = `<div class="pi-tools" id="pi-tools" hidden>
-    <label class="pi-search"><span class="sr">Search places and countries</span><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
+    <label class="pi-search"><span class="sr">Search places and countries</span><svg class="pi-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
     ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
     ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
   </div>`;
@@ -1626,45 +1692,36 @@ function renderArt() {
   const artMeta = (artCatalog && artCatalog.meta) || {};
   const bySlug = new Map(published.map((p) => [p.slug, p]));
   const groups = categories.map((g) => ({ ...g, items: g.places.map((slug) => bySlug.get(slug)).filter(Boolean) })).filter((g) => g.items.length);
-  const thumb = (p) => `<span class="prow-thumb" aria-hidden="true">${p.image ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="56" height="72" loading="lazy">` : esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
   const outline = (p) => { const ids = [...citedIds(p)].map((id) => sources.get(id)).filter(Boolean); return ids.length && !ids.some((x) => !/UNESCO/i.test(x.publisher || "") && x.tier !== "encyclopedia"); };
   const row = (p) => {
     const n = (notes[p.slug] || []).length;
     const m = artMeta[p.slug] || {};
     const image = p.image
-      ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="" width="800" height="533" loading="lazy">`
-      : `<span class="art-card-initial">${esc(p.name.replace(/^(The|Ancient|Old|Royal)\s+/i, "").charAt(0))}</span>`;
+      ? `<img src="../../img/places/${esc(p.image.file)}-800.jpg" alt="${esc(p.image.alt || p.name)}" width="800" height="533" loading="lazy">`
+      : art(p.slug, 3, 2).replace('class="art"', 'class="art art-card-art"');
     const state = p.status === "draft" ? '<span class="draft">In preparation</span>' : outline(p) ? '<span class="tag-outline">Outline</span>' : "";
-    return `<li class="art-card-item" data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-category="${esc(m.category || "unknown")}" data-country="${esc(p.country || "unknown")}" data-period="${esc(m.period || "unknown")}" data-q="${esc((p.name + " " + p.region + " " + (m.materials || "") + " " + (m.function || "")).toLowerCase())}"><a class="art-card" href="../${esc(p.slug)}/index.html"><span class="art-card-image">${image}${state}</span><span class="art-card-body"><span class="art-card-kicker">${esc(m.period || "Art place")} · ${esc(p.region)}</span><span class="art-card-name">${esc(p.name)}</span><span class="art-card-description">${esc(m.materials || m.function || types[p.type].label)}</span><span class="art-card-meta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} ${citedIds(p).size === 1 ? "source" : "sources"}${n ? ` · ${n} local ${n === 1 ? "note" : "notes"}` : ""}</span></span></a></li>`;
+    return `<li class="art-card-item" data-type="${esc(p.type)}" data-status="${p.status === "draft" ? "draft" : "documented"}" data-category="${esc(m.category || "unknown")}" data-country="${esc(p.country || "unknown")}" data-period="${esc(m.period || "unknown")}" data-q="${esc((p.name + " " + p.region + " " + (cName[p.country] || "") + " " + (m.period || "") + " " + (m.materials || "") + " " + (m.function || "")).toLowerCase())}"><a class="art-card" href="../${esc(p.slug)}/index.html"><span class="art-card-image">${image}${state}</span><span class="art-card-body"><span class="art-card-kicker">${esc(m.period || "Art place")} · ${esc(p.region)}</span><span class="art-card-name">${esc(p.name)}</span><span class="art-card-description">${esc(m.materials || m.function || types[p.type].label)}</span><span class="art-card-meta">${typeIcon(p.type)}${esc(types[p.type].label)} · ${citedIds(p).size} ${citedIds(p).size === 1 ? "source" : "sources"}${n ? ` · ${n} local ${n === 1 ? "note" : "notes"}` : ""}</span></span></a></li>`;
   };
   const jumpBar = groups.map((g) => `<a href="#r-${esc(g.id)}" data-region="${esc(g.id)}">${esc(g.label)} <span class="n">${g.items.length}</span></a>`).join("");
   const allArtItems = groups.flatMap((g) => g.items);
   const totalCards = allArtItems.length;
-  const usedT = config.placeTypes.filter((t) => allArtItems.some((p) => p.type === t.id));
-  const hasDraft = allArtItems.some((p) => p.status === "draft");
-  const chip = (attr, val, label, on) => `<button type="button" class="fbtn" data-${attr}="${esc(val)}" aria-pressed="${on ? "true" : "false"}">${label}</button>`;
   const tools = `<div class="pi-tools" id="pi-tools" hidden>
-    <label class="pi-search"><span class="sr">Search art and places</span><input type="search" id="pi-q" placeholder="Search a place or a country" autocomplete="off"></label>
-    ${usedT.length > 1 ? `<div class="filters" role="group" aria-label="Filter by type" data-group="type">${chip("type", "all", "All types", true)}${usedT.map((t) => chip("type", t.id, `${typeIcon(t.id)}${esc(t.label)}`, false)).join("")}</div>` : ""}
-    ${hasDraft ? `<div class="filters" role="group" aria-label="Filter by state" data-group="status">${chip("status", "all", "All cards", true)}${chip("status", "documented", "Documented", false)}${chip("status", "draft", "In preparation", false)}</div>` : ""}
-    <div class="filters" role="group" aria-label="Filter by art category" data-group="category">${chip("category", "all", "All art categories", true)}${categories.map((g) => chip("category", g.id, esc(g.label), false)).join("")}</div>
-    <div class="filters" role="group" aria-label="Filter by country" data-group="country">${chip("country", "all", "All countries", true)}${[...new Set(allArtItems.map((p) => p.country).filter(Boolean))].sort().map((iso) => chip("country", iso, esc(cName[iso] || iso), false)).join("")}</div>
-    <div class="filters" role="group" aria-label="Filter by period" data-group="period">${chip("period", "all", "All periods", true)}${[...new Set(allArtItems.map((p) => (artMeta[p.slug] || {}).period).filter(Boolean))].sort().map((period) => chip("period", period, esc(period), false)).join("")}</div>
+    <label class="pi-search"><span class="sr">Search art and places</span><svg class="pi-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" id="pi-q" placeholder="Search by name, country (e.g. Namibia) or period..." autocomplete="off"></label>
   </div>`;
   const countText = `${totalCards} ${totalCards === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "category" : "categories"}${includeDrafts ? " (drafts included)" : ""}.`;
   const path = artCatalog.path;
   const pathSection = path ? `<section class="band-saffron art-path" aria-labelledby="art-path-h"><div class="wrap"><p class="kicker">A guided thread</p><h2 id="art-path-h">${esc(path.title)}</h2><p class="lede">${esc(path.intro)}</p>${renderRich({ type: "order", prompt: path.prompt, items: path.items.map((it) => ({ ...it, label: bySlug.get(it.slug)?.name || it.slug, href: `../${it.slug}/index.html` })) }, () => "", { up: "../../" })}</div></section>` : "";
   const body = `${compactHero({ kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
- ${pathSection}
 <div class="wrap places-index art-index">
   <p class="places-subnav"><a class="btn btn-alt" href="../index.html">← All places</a></p>
   <p class="art-note">This is a growing index, not a gallery. Open a place card to see its sources, image credit and the local voice the project is still waiting for.</p>
   <p class="pi-count" id="pi-count" aria-live="polite">${countText}</p>
   ${tools}
   <nav class="pi-jump" id="pi-jump" aria-label="Art categories">${jumpBar}</nav>
-  <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches these filters. <button type="button" class="linkbtn" id="pi-reset">Clear the filters</button></p>
+  <p class="pi-empty" id="pi-empty" role="status" hidden>No art place matches these filters. <button type="button" class="linkbtn" id="pi-reset">Clear the search</button></p>
   ${groups.map((g) => `<section class="pgroup art-group" id="r-${esc(g.id)}"><div class="art-group-head"><h2>${esc(g.label)}</h2><p class="art-intro">${esc(g.intro)}</p></div><ul class="prows">${g.items.map(row).join("")}</ul></section>`).join("")}
-</div>`;
+</div>
+${pathSection}`;
   return layout({ title: `Art · Places · ${config.name}`, description: artCatalog.lede, depth: 2, current: "art", bodyClass: "art-page", body, extraScripts: ["places.js", "story.js"], jump: groups.map((g) => ({ id: "r-" + g.id, label: g.label })) });
 }
 
@@ -1699,6 +1756,109 @@ ${deeperHtml(c.deeper)}
 <aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${cSlugC}${capStories ? `<li>Stories: ${capStories}</li>` : ""}<li><a href="../index.html">All capitals</a></li></ul></aside>
 ${sourcesList()}</article></div>`;
   return layout({ title: `${c.name} · ${country} · ${config.name}`, description: c.subtitle, depth: 2, current: "capitals", body, extraScripts: ["story.js", "recipe.js", "share.js"], jump: [...(c.sections || []).map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 4), ...(seeing.length ? [{ id: "sec-places", label: "To see" }] : []), { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
+}
+
+
+// ---------- Peoples: un indice guidato dai dati del Factbook e le schede dei popoli ----------
+// Parole: il sito non usa "tribù" come categoria (vedi la storia "Does Africa really have tribes?"). I numeri vengono dal Factbook, per paese e con il suo anno; non sono un censimento dei popoli.
+const ETHNIC_ALIASES = [
+  ["Fula", /^(fulani|fula|peul|peuhl|fulbe|pulaar|fulfulde|fulani? \(.*\))$/i],
+  ["Mandinka / Maninka", /^(mandinka|mandinke|malinke|maninka|mandingo|manding|mandinka?\/.*|malinke\/.*)$/i],
+  ["Amazigh (Berber)", /^(amazigh|berber|arab-amazigh|berber\/.*|amazigh \(.*\))$/i],
+  ["Somali", /^somali$/i], ["Hausa", /^hausa$/i], ["Yoruba", /^yoruba$/i], ["Oromo", /^oromo$/i], ["Tuareg", /^(tuareg|tamasheq|touareg)$/i],
+  ["Kanuri", /^(kanuri|kanuri\/beriberi|beriberi)$/i], ["Ewe", /^(ewe|éwé)$/i], ["Akan", /^akan$/i], ["Arab", /^arab$/i],
+  ["Tutsi", /^tutsi$/i], ["Hutu", /^hutu$/i], ["Bantu groups", /^bantu$/i], ["Wolof", /^wolof$/i], ["Sereer", /^(sereer|serer)$/i], ["Soninke", /^(soninke|sarakole)$/i],
+];
+function parseEthnic(txt) {
+  const s = String(txt || "").replace(/\([^()]*\best\.?\)/gi, " ").replace(/\s+/g, " ");
+  const out = [];
+  const re = /(?:^|,|;)\s*([A-Za-zÀ-ÿ'’\-\/\. ]+?(?:\s\([^()%]*\))?)\s+(\d+(?:\.\d+)?)%/g;
+  let m;
+  while ((m = re.exec(s))) {
+    const name = m[1].trim().replace(/^(and|of which)\s+/i, "");
+    if (!name || /of which|includes|mainland|zanzibar|\d/i.test(name)) continue;
+    out.push({ name, pct: parseFloat(m[2]) });
+  }
+  return out;
+}
+const aliasOf = (name) => { for (const [g, re] of ETHNIC_ALIASES) if (re.test(name.trim())) return g; return null; };
+
+function renderPeoples() {
+  const { cite, list: sourcesList } = makeCiter();
+  const prof = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "africa-profiles.json"), "utf8")).countries;
+  const rows = (data.countries ? data.countries.countries : []).map((c) => {
+    const txt = (prof[c.iso3] || {}).ethnicGroups || "";
+    const groups = parseEthnic(txt);
+    const named = groups.filter((g) => !/^(other|others|unspecified|african|non-african|mixed.*)$/i.test(g.name));
+    named.sort((a, b) => b.pct - a.pct);
+    return { c, txt, groups, top: named[0] && named[0].pct >= 5 ? named[0] : null, named };
+  });
+  const parsed = rows.filter((r) => r.top);
+  const unparsed = rows.filter((r) => !r.top);
+  const topRows = parsed.slice().sort((a, b) => b.top.pct - a.top.pct);
+  const majority = parsed.filter((r) => r.top.pct >= 50).length;
+  const under25 = parsed.filter((r) => r.top.pct < 25).length;
+  const shared = new Map();
+  for (const r of rows) for (const g of r.groups) { const a = aliasOf(g.name); if (a) { if (!shared.has(a)) shared.set(a, []); shared.get(a).push({ c: r.c, pct: g.pct }); } }
+  const sharedList = [...shared.entries()].filter(([, v]) => v.length >= 3).sort((a, b) => b[1].length - a[1].length);
+  const eth = rows.find((r) => r.c.iso3 === "ETH");
+  const ethTop = eth && eth.top;
+  const tzaTxt = (rows.find((r) => r.c.iso3 === "TZA") || {}).txt || "";
+  const blocks1 = [
+    { type: "p", parts: [{ text: "Africa is described in news and in travel brochures through the word 'tribes'. The word came with colonial administrators, and historians now prefer 'peoples' or 'ethnic groups'. The story \"Does Africa really have tribes?\" explains why, with sources, and the page below shows what the numbers say.", editorial: true }] },
+    { type: "callout", title: "Even the reference books use the word", parts: [{ text: tzaTxt ? `The World Factbook, an official reference used across this site, still describes Tanzania like this: "${tzaTxt}"` : "", cite: ["cia-factbook"] }, { text: " The wording is the Factbook's own, kept as it is. It shows how much of the old vocabulary survives, and why every figure below is a label from one source, not a count of 'peoples'.", editorial: true }].filter((x) => x.text) },
+  ];
+  const sections = [];
+  const bigBars = topRows.map((r) => ({ label: r.c.name, value: r.top.pct, text: `${r.top.name} ${r.top.pct}%` }));
+  sections.push({ id: "numbers", title: "What the largest group looks like, country by country", blocks: [
+    ...(ethTop ? [{ type: "estimate", prompt: `In Ethiopia, what share of the population does the largest named group, the ${ethTop.name}, make up?`, min: 0, max: 100, step: 1, unit: "%", answer: ethTop.pct, decimals: 1, parts: [{ text: `The Factbook gives ${ethTop.name} ${ethTop.pct}% (its estimate year is in the table below). Ethiopia's next groups are smaller still, so no group is a majority.`, cite: ["cia-factbook"] }] }] : []),
+    { type: "chart", kind: "bars", title: "Largest named group in each country", sub: `Share of the population, ${parsed.length} countries where the Factbook gives percentages`, rows: bigBars, cite: ["cia-factbook"], note: `Read from the Factbook entry for each country, which uses different survey years and its own spellings; the largest named group is taken here, leaving out "other" and broad labels such as "African". ${unparsed.length} countries give no usable percentages (none, or only tiny shares) and are left out of the chart: ${unparsed.map((r) => r.c.name).join(", ")}. This is a label count, not a measure of diversity.` },
+    { type: "check", q: "Myth or fact: in most African countries, one group makes up more than half of the population.", options: ["Myth", "Fact"], answer: majority > parsed.length / 2 ? "Fact" : "Myth", explain: `Among the ${parsed.length} countries where the Factbook gives shares, the largest named group is above 50% in ${majority} and below 25% in ${under25}. The counts are made here from the Factbook's text and depend on how each country's entry is written.`, cite: ["cia-factbook"] },
+  ] });
+  sections.push({ id: "table", title: "All the countries, side by side", blocks: [{ type: "table", filter: true, title: "Ethnic groups as the Factbook lists them", sub: "Largest named group first; the full entry in the last column", columns: [{ key: "c", label: "Country" }, { key: "g", label: "Largest named group" }, { key: "p", label: "Share" }, { key: "t", label: "The Factbook's text" }], rows: rows.map((r) => ({ c: r.c.name, g: r.top ? r.top.name : "No percentages", p: r.top ? `${r.top.pct}%` : "", t: r.txt || "Not given" })), cite: ["cia-factbook"], note: "Texts are the Factbook's own, unedited; each carries its own estimate year when the Factbook gives one." }] });
+  if (sharedList.length) {
+    sections.push({ id: "borders", title: "One name, many countries", blocks: [
+      { type: "p", parts: [{ text: `Borders drawn in the colonial period did not follow where peoples lived, and the Factbook names the same group in several states. In its entries, ${sharedList.slice(0, 3).map(([g, v]) => `${g} appears in ${v.length}`).join(", ")} countries.`, cite: ["cia-factbook"] }, { text: " (For how the borders were made, see the story on the Berlin Conference.)", editorial: true }] },
+      { type: "table", filter: false, title: "Groups named in three or more countries", sub: "Name variants merged by hand: Fula includes Fulani, Peul and Pulaar; Mandinka includes Maninka and Malinke; Amazigh includes Berber", columns: [{ key: "g", label: "Group" }, { key: "n", label: "Countries" }, { key: "l", label: "Where the Factbook names it" }], rows: sharedList.map(([g, v]) => ({ g, n: String(v.length), l: v.map((x) => `${x.c.name} ${x.pct}%`).join(" · ") })), cite: ["cia-factbook"], note: "Only groups whose name matches a list written for this page are counted, so the table misses others that the Factbook spells differently. The list says where a group is named, not how many people live where." },
+    ] });
+  }
+  const profList = peoples.filter(({ data: x }) => (x.sections || []).length && (x.status === "published" || includeDrafts));
+  const profHtml = profList.length ? `<section id="sec-profiles" class="cap-places"><h2>Peoples, one by one</h2><p>Each page keeps the documented record apart from what readers add. Drafts are shown only in the preview.</p><ul class="cap-list">${profList.map(({ data: x }) => `<li><a href="${esc(x.slug)}/index.html"><span class="cap-ph" aria-hidden="true">${esc(x.name.charAt(0))}</span><span><strong>${esc(x.name)}</strong><small>${esc((x.countries || []).map((i) => cName[i] || i).join(", "))}</small><em>${esc(x.subtitle)}</em></span></a></li>`).join("")}</ul></section>` : "";
+  const secsHtml = sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}</section>`).join("\n");
+  const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul><li>These shares come from one reference work, with different years and spellings per country, and a country that counts by language or by region is not comparable to one that counts by group.</li><li>Many people belong to more than one group, or to none that a form can name; a table of labels cannot show that.</li><li>No person from the groups named here has read this page yet.</li></ul></section>`;
+  const body = `${compactHero({ kicker: "Peoples", title: "Peoples, not 'tribes'", sub: "Who the sources name, country by country, and how little the old labels explain." })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
+<aside class="keypoints"><h2>In short</h2><ul><li>The word 'tribe' belongs to the colonial period; this site writes about peoples, languages and the labels a source uses. <a href="../stories/does-africa-have-tribes/index.html">Read why</a>.</li><li>In ${parsed.length} countries with percentages, the largest named group is above 50% in ${majority} and below 25% in ${under25}${cite(["cia-factbook"])}.</li></ul></aside>
+${blocks1.map((b) => renderRich(b, cite, { up: "../" })).join("")}
+${secsHtml}
+${profHtml}
+${gaps}
+<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li><a href="../stories/does-africa-have-tribes/index.html">Does Africa really have 'tribes'?</a></li><li><a href="../stories/did-one-conference-carve-up-africa/index.html">Did one conference carve up Africa?</a></li><li><a href="../languages/index.html">Languages</a></li><li><a href="../society/index.html">Society</a></li></ul></aside>
+${sourcesList()}</article></div>`;
+  return layout({ title: `Peoples · ${config.name}`, description: "Ethnic groups by country as the sources name them, why the word 'tribe' is avoided, and profiles of peoples with their sources.", depth: 1, current: "peoples", body, extraScripts: ["story.js", "share.js"], jump: [{ id: "sec-numbers", label: "Numbers" }, { id: "sec-table", label: "Table" }, ...(sharedList.length ? [{ id: "sec-borders", label: "Borders" }] : []), ...(profList.length ? [{ id: "sec-profiles", label: "Profiles" }] : []), { id: "sec-sources", label: "Sources" }] });
+}
+
+// Scheda di un popolo: stessi blocchi delle storie, più i paesi collegati; le voci di chi appartiene al popolo restano separate dal quadro documentato.
+function renderPeople(c) {
+  const { cite, list: sourcesList } = makeCiter();
+  const keyHtml = c.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${c.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
+  const secs = (c.sections || []).map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../../" })).join("")}</section>`).join("\n");
+  const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${(c.gaps || []).map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
+  const nList = (notes[`people-${c.slug}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
+  const voices = `<section class="story-voices" id="voices" aria-labelledby="voices-h"><span class="layer-tag voi">From people who belong to this group</span><h2 id="voices-h">What readers add</h2>
+${nList.length ? `<div class="notes">${nList.map((n) => noteCard(n, config.noteKinds || [])).join("")}</div>` : `<div class="empty"><strong>No voice from the group yet.</strong><span>This page was written from published sources by outsiders. It should be read by people from the group before it is published, and what they add stays apart from the record.</span></div>`}
+${shareSection({ type: "people", id: c.slug, name: c.name, kinds: config.noteKinds || [], heading: `Do you belong to this group, or know it well?`, intro: "Tell us what is wrong, missing or said badly here.", depth: 2 })}
+</section>`;
+  const cl = (c.countries || []).map((iso) => cSlug[iso] ? `<a href="../../countries/${esc(cSlug[iso])}/index.html">${esc(cName[iso] || iso)}</a>` : esc(cName[iso] || iso)).join(" · ");
+  const sts = stories.filter((x) => (x.countries || []).some((i) => (c.countries || []).includes(i))).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
+  const body = `${compactHero({ kicker: `People · ${(c.countries || []).map((i) => cName[i] || i).join(", ")}`, title: c.name, sub: c.subtitle })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+${gaps}
+${voices}
+${deeperHtml(c.deeper)}
+<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li>Countries: ${cl}</li>${sts ? `<li>Stories: ${sts}</li>` : ""}<li><a href="../../stories/does-africa-have-tribes/index.html">Does Africa really have 'tribes'?</a></li><li><a href="../index.html">All peoples</a></li></ul></aside>
+${sourcesList()}</article></div>`;
+  return layout({ title: `${c.name} · ${config.name}`, description: c.subtitle, depth: 2, current: "peoples", body, extraScripts: ["story.js", "share.js"], jump: [...(c.sections || []).map((x) => ({ id: "sec-" + x.id, label: x.title })).slice(0, 4), { id: "voices", label: "Add yours" }, { id: "sec-sources", label: "Sources" }] });
 }
 
 // Pagina "Connections": il grafo dei collegamenti tra Paesi, capitali, luoghi, storie e blocchi regionali, da esplorare e da giocare.
@@ -1838,6 +1998,13 @@ function renderCapitals() {
 
 write("capitals/index.html", renderCapitals());
 write("explore/index.html", renderExplore());
+write("peoples/index.html", renderPeoples());
+for (const { data: c } of peoples) {
+  if (c.status !== "published" && !includeDrafts) continue;
+  if (!(c.sections || []).length) continue;
+  write(`peoples/${c.slug}/index.html`, renderPeople(c));
+}
+
 for (const { data: c } of capitals) {
   if (c.status !== "published" && !includeDrafts) continue;
   if (!(c.sections || []).length) continue; // bozza vuota: nessuna pagina

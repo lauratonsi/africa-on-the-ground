@@ -1,0 +1,59 @@
+{
+  "slug": "marche-mont-bouet-libreville",
+  "status": "draft",
+  "type": "market",
+  "country": "GAB",
+  "name": "Marché Mont-Bouët",
+  "region": "Libreville · Gabon",
+  "subtitle": "Gabon's largest and most vibrant open bazaar, bustling with Atlantic seafood, forest game, and colourful textiles.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Central Libreville (Mont-Bouët district)",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    },
+    {
+      "label": "Market scale",
+      "value": "Largest marketplace in the Gabonese Republic with thousands of daily vendors",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    },
+    {
+      "label": "Specialties",
+      "value": "Smoked fish, bush butter (safou), manioc batons, wax fabrics, and traditional cosmetics",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The vast, thriving commercial epicentre of Libreville, sprawling over several city blocks in the Mont-Bouët quarter. Operating as the nation's premier distribution hub, it brings together traders from across Gabon, Cameroon, and Nigeria. Shoppers navigate dense alleys offering fresh Atlantic fish, forest fruits like purple safou, fermented cassava batons (chikwangue), aromatic herbs for traditional medicine, and vibrant West and Central African wax fabrics.",
+              "cite": [
+                "cap-citypopulation-de-gabon-2013"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Precise municipal statistics on stall ownership and trade volume are limited.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "red-terror-martyrs-memorial-museum",
+  "status": "draft",
+  "type": "site",
+  "country": "ETH",
+  "name": "Red Terror Martyrs' Memorial Museum",
+  "region": "Addis Ababa · Ethiopia",
+  "subtitle": "A museum beside Meskel Square remembering victims of the Red Terror under the Derg regime.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "2010",
+      "cite": [
+        "cap-thereporterethiopia-com-9cdc29"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "At a corner of Meskel Square",
+      "cite": [
+        "cap-thereporterethiopia-com-9cdc29"
+      ]
+    },
+    {
+      "label": "Built with victims' families",
+      "value": "Victims and their families took part in construction",
+      "cite": [
+        "cap-thereporterethiopia-com-9cdc29"
+      ]
+    },
+    {
+      "label": "Displays",
+      "value": "Torture instruments, photographs, clothing, skeletal remains",
+      "cite": [
+        "cap-thereporterethiopia-com-9cdc29"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A museum beside Meskel Square remembering victims of the Red Terror under the Derg regime. Its displays include photographs, clothing and remains of victims.",
+              "cite": [
+                "cap-thereporterethiopia-com-9cdc29"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "red-terror-martyrs-memorial-museum",
+    "alt": "A helmet marked 'Ethiopia First' on display in the Red Terror Martyrs' Memorial Museum.",
+    "caption": "An exhibit inside the museum: a helmet marked 'Ethiopia First'.",
+    "credit": "Ninaras",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Red_Terror_Martyrs'_Memorial_Museum_in_Addis_Ababa_01.jpg"
+  }
+}

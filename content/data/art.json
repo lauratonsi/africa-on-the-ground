@@ -1,40 +1,225 @@
 {
-  "title": "Art",
-  "lede": "A first map of art, objects and living practices already present in the place cards.",
+  "title": "Art & Archaeology",
+  "lede": "An atlas of rock art, sacred monumental architecture, museum collections and living creative traditions across Africa.",
   "path": {
-    "title": "Path: signs in the landscape",
-    "intro": "Follow five places from ancient marks in stone to institutions that keep cultural memory visible. Put them in the order you would travel through the story.",
-    "prompt": "Put these stops in a meaningful sequence: from the oldest traces to the most recent institution.",
+    "title": "Path: signs in the landscape across millennia",
+    "intro": "Follow seven places from prehistoric marks in stone to Kushite pyramids, medieval stone citadels, royal bas-reliefs, and modern painting workshops. Put them in chronological order.",
+    "prompt": "Put these stops in historical sequence: from the oldest rock art to modern institutions.",
     "items": [
-      { "slug": "laas-geel", "when": "2nd millennium BCE", "text": "Painted rock shelters preserve images of people and animals in Somaliland." },
-      { "slug": "tsodilo", "when": "Long human history", "text": "The hills of Botswana hold rock paintings and a landscape with deep cultural meaning." },
-      { "slug": "twyfelfontein", "when": "Late Stone Age", "text": "Engravings and paintings in Namibia record animals, tracks and human presence." },
-      { "slug": "poto-poto-school-brazzaville", "when": "20th century", "text": "A painting school in Brazzaville made a modern art scene visible and teachable." },
-      { "slug": "national-art-gallery-of-namibia", "when": "1990", "text": "A national gallery preserves and exhibits Namibian, African and European art." }
+      { "slug": "laas-geel", "when": "2nd millennium BCE", "text": "Painted rock shelters preserve pastoral figures of cattle and people in Somaliland." },
+      { "slug": "island-of-meroe", "when": "3rd century BCE", "text": "Kushite pyramids and temples develop distinct Nubian architectural and relief traditions." },
+      { "slug": "great-zimbabwe-national-monument", "when": "11th–15th century", "text": "Granite dry-stone enclosures rise alongside royal soapstone bird sculptures." },
+      { "slug": "old-towns-of-djenne", "when": "13th century", "text": "Sudano-Sahelian monumental earthen architecture flourishes with mason guild traditions." },
+      { "slug": "royal-palaces-of-abomey", "when": "17th–19th century", "text": "Fon rulers commission polychrome clay bas-reliefs and royal appliqué tapestries." },
+      { "slug": "poto-poto-school-brazzaville", "when": "1951", "text": "A painting workshop in Brazzaville pioneers modern African easel painting." },
+      { "slug": "national-art-gallery-of-namibia", "when": "1990", "text": "Post-independence national gallery preserves and displays Namibian and African visual arts." }
     ]
   },
   "categories": [
-    { "id": "rock-art", "label": "Rock art and archaeology", "intro": "Marks in stone, ancient landscapes and the evidence they leave behind.", "places": ["chongoni-rock-art-area", "laas-geel", "tsodilo", "twyfelfontein"] },
-    { "id": "collections", "label": "Objects and collections", "intro": "Museums and galleries where objects are kept, interpreted and made public.", "places": ["botswana-national-museum-and-art-gallery", "national-art-gallery-of-namibia", "pretoria-art-museum", "independence-memorial-museum"] },
-    { "id": "living", "label": "Living practices", "intro": "Craft, performance and cultural places that are still used, taught and changed.", "places": ["gishora-drum-sanctuary", "osun-osogbo-sacred-grove", "poto-poto-school-brazzaville", "swazi-candles-centre-malkerns-valley"] },
-    { "id": "contemporary", "label": "Contemporary scenes", "intro": "Studios, schools and institutions that connect inherited forms with present-day work.", "places": ["thapong-visual-arts-centre", "namibia-craft-centre-old-breweries-building", "freedom-park", "heroes-acre"] }
+    {
+      "id": "rock-art",
+      "label": "Rock art and archaeology",
+      "intro": "Marks in stone, petroglyphs, megaliths and ancient landscapes that preserve thousands of years of human imagery, pastoral life and ritual presence.",
+      "places": [
+        "chongoni-rock-art-area",
+        "laas-geel",
+        "tsodilo",
+        "twyfelfontein",
+        "wassu-stone-circles",
+        "lope-okanda",
+        "island-of-meroe"
+      ]
+    },
+    {
+      "id": "monumental",
+      "label": "Monumental & sacred architecture",
+      "intro": "Monolithic stone churches, Sudano-Sahelian earthen masterworks, dry-stone citadels and royal palaces where architecture acts as sculpture and cultural record.",
+      "places": [
+        "rock-hewn-churches-of-lalibela",
+        "old-towns-of-djenne",
+        "great-zimbabwe-national-monument",
+        "royal-palaces-of-abomey",
+        "koutammakou",
+        "tombs-of-buganda-kings-at-kasubi",
+        "historic-centre-of-agadez",
+        "medina-of-fez"
+      ]
+    },
+    {
+      "id": "collections",
+      "label": "Museums, galleries & archives",
+      "intro": "Public institutions where historical collections, modern fine arts, photography and world-class archives are cared for, interpreted and made accessible.",
+      "places": [
+        "botswana-national-museum-and-art-gallery",
+        "national-art-gallery-of-namibia",
+        "pretoria-art-museum",
+        "bibliotheca-alexandrina",
+        "asmara"
+      ]
+    },
+    {
+      "id": "living",
+      "label": "Living practices, studios & workshops",
+      "intro": "Living performance traditions, historic artist workshops, sacred groves and artist communities where culture continues to be made, taught and reinvented.",
+      "places": [
+        "gishora-drum-sanctuary",
+        "osun-osogbo-sacred-grove",
+        "poto-poto-school-brazzaville",
+        "thapong-visual-arts-centre",
+        "freedom-park"
+      ]
+    }
   ],
   "meta": {
-    "chongoni-rock-art-area": { "category": "rock-art", "period": "Ancient", "materials": "Pigment on rock", "function": "Marking and ritual landscape" },
-    "laas-geel": { "category": "rock-art", "period": "2nd millennium BCE", "materials": "Mineral and earth pigments", "function": "Rock shelter imagery" },
-    "tsodilo": { "category": "rock-art", "period": "Long human history", "materials": "Pigment and stone", "function": "Cultural landscape and imagery" },
-    "twyfelfontein": { "category": "rock-art", "period": "Late Stone Age", "materials": "Engraved and painted rock", "function": "Animal and track imagery" },
-    "botswana-national-museum-and-art-gallery": { "category": "collections", "period": "1967–present", "materials": "Crafts, paintings and mixed media", "function": "Collection, interpretation and exhibition" },
-    "national-art-gallery-of-namibia": { "category": "collections", "period": "1990–present", "materials": "Paintings, sculpture and mixed media", "function": "National collection and exhibitions" },
-    "pretoria-art-museum": { "category": "collections", "period": "1964–present", "materials": "Paintings, photographs, graphics, ceramics and sculpture", "function": "Public museum collection" },
-    "independence-memorial-museum": { "category": "collections", "period": "20th–21st century", "materials": "Historical objects and visual culture", "function": "Public memory and exhibition" },
-    "gishora-drum-sanctuary": { "category": "living", "period": "Living tradition", "materials": "Drums, wood and performance", "function": "Ceremony, teaching and performance" },
-    "osun-osogbo-sacred-grove": { "category": "living", "period": "Living tradition", "materials": "Sculpture, forest and ritual objects", "function": "Sacred grove and festival" },
-    "poto-poto-school-brazzaville": { "category": "living", "period": "20th century–present", "materials": "Paint, canvas and drawing media", "function": "Art school and living scene" },
-    "swazi-candles-centre-malkerns-valley": { "category": "living", "period": "Contemporary craft", "materials": "Wax and pigment", "function": "Craft production and teaching" },
-    "thapong-visual-arts-centre": { "category": "contemporary", "period": "Contemporary", "materials": "Painting, photography and mixed media", "function": "Artist community and exhibitions" },
-    "namibia-craft-centre-old-breweries-building": { "category": "contemporary", "period": "Contemporary", "materials": "Textiles, wood, glass and craft materials", "function": "Making, selling and teaching" },
-    "freedom-park": { "category": "contemporary", "period": "21st century", "materials": "Architecture, sculpture and landscape", "function": "Memorial, interpretation and public space" },
-    "heroes-acre": { "category": "contemporary", "period": "21st century", "materials": "Architecture, sculpture and landscape", "function": "Memorial and national narrative" }
+    "chongoni-rock-art-area": {
+      "category": "rock-art",
+      "period": "Later Stone Age to Iron Age",
+      "materials": "Red and white pigments on granite",
+      "function": "Farmer and hunter-gatherer rock shelter paintings"
+    },
+    "laas-geel": {
+      "category": "rock-art",
+      "period": "2nd millennium BCE",
+      "materials": "Mineral and earth pigments",
+      "function": "Rock shelter imagery and painted pastoral cattle"
+    },
+    "tsodilo": {
+      "category": "rock-art",
+      "period": "Long human history (>100,000 years)",
+      "materials": "Red ochre and white pigment on quartzite",
+      "function": "Sacred rock paintings and spiritual landscape"
+    },
+    "twyfelfontein": {
+      "category": "rock-art",
+      "period": "Late Stone Age",
+      "materials": "Engraved sandstone petroglyphs",
+      "function": "Animal and spoor engravings, shamanic transformation"
+    },
+    "wassu-stone-circles": {
+      "category": "rock-art",
+      "period": "c. 3rd century BCE – 16th century CE",
+      "materials": "Quarried laterite megaliths",
+      "function": "Megalithic funerary architecture and ceremonial rings"
+    },
+    "lope-okanda": {
+      "category": "rock-art",
+      "period": "Neolithic to Iron Age",
+      "materials": "Engraved petroglyphs on sandstone",
+      "function": "Prehistoric rock art and cultural transition corridor"
+    },
+    "island-of-meroe": {
+      "category": "rock-art",
+      "period": "8th century BCE – 4th century CE",
+      "materials": "Sandstone pyramids, temples and carved reliefs",
+      "function": "Kushite royal tombs, iron metallurgy and temple sculpture"
+    },
+    "rock-hewn-churches-of-lalibela": {
+      "category": "monumental",
+      "period": "12th–13th century",
+      "materials": "Monolithic volcanic tuff, frescoes and carved bas-relief",
+      "function": "Subterranean rock-hewn monolithic churches and liturgical art"
+    },
+    "old-towns-of-djenne": {
+      "category": "monumental",
+      "period": "13th century–present",
+      "materials": "Monumental sun-dried earth (banco), palm timber and terracotta",
+      "function": "Sudano-Sahelian earthen architecture and ancient terracotta figures"
+    },
+    "great-zimbabwe-national-monument": {
+      "category": "monumental",
+      "period": "11th–15th century",
+      "materials": "Dry-stone granite masonry and carved soapstone",
+      "function": "Monumental royal citadel, chevron walls and soapstone bird emblems"
+    },
+    "royal-palaces-of-abomey": {
+      "category": "monumental",
+      "period": "17th–19th century",
+      "materials": "Polychrome clay bas-reliefs, appliqué textiles and cast bronze",
+      "function": "Fon dynastic court architecture and commemorative heraldic sculpture"
+    },
+    "koutammakou": {
+      "category": "monumental",
+      "period": "Living tradition",
+      "materials": "Two-storey earthen tower houses (takienta), wood and thatch",
+      "function": "Batammariba architectural cosmogram and sculpted earthen family shrines"
+    },
+    "tombs-of-buganda-kings-at-kasubi": {
+      "category": "monumental",
+      "period": "1882–present",
+      "materials": "Organic materials (reeds, thatch, barkcloth and wood)",
+      "function": "Monumental circular royal dome and Ganda barkcloth weaving"
+    },
+    "historic-centre-of-agadez": {
+      "category": "monumental",
+      "period": "16th century–present",
+      "materials": "Mud brick, timber scaffolding and earthen plaster",
+      "function": "27-metre earthen minaret, Tuareg vernacular masonry and silverwork"
+    },
+    "medina-of-fez": {
+      "category": "monumental",
+      "period": "9th–14th century",
+      "materials": "Zellij ceramic mosaic, carved cedarwood and stucco",
+      "function": "Madrasa decorative arts, calligraphic carving and artisan guilds"
+    },
+    "botswana-national-museum-and-art-gallery": {
+      "category": "collections",
+      "period": "1967–present",
+      "materials": "Basketry, wood carving, paintings and mixed media",
+      "function": "National collection of traditional crafts and Southern African fine art"
+    },
+    "national-art-gallery-of-namibia": {
+      "category": "collections",
+      "period": "1990–present",
+      "materials": "Paintings, sculpture, photography and textiles",
+      "function": "National art repository and historical/contemporary exhibitions"
+    },
+    "pretoria-art-museum": {
+      "category": "collections",
+      "period": "1964–present",
+      "materials": "Paintings, graphics, ceramics and sculpture",
+      "function": "Public art museum documenting South African fine art and printmaking"
+    },
+    "bibliotheca-alexandrina": {
+      "category": "collections",
+      "period": "2002–present",
+      "materials": "Aswan grey granite, glass, manuscript archives and galleries",
+      "function": "Tilted granite monument carved with 120 scripts, art museum and archives"
+    },
+    "asmara": {
+      "category": "collections",
+      "period": "1935–1941",
+      "materials": "Reinforced concrete, glass and geometric facades",
+      "function": "Modernist, Futurist and Art Deco civic architecture ensemble"
+    },
+    "gishora-drum-sanctuary": {
+      "category": "living",
+      "period": "Living tradition",
+      "materials": "Carved cordia wood, cowhide drums (ingoma) and ritual regalia",
+      "function": "Sacred royal drumming sanctuary and ceremonial performance"
+    },
+    "osun-osogbo-sacred-grove": {
+      "category": "living",
+      "period": "Living tradition & 20th century",
+      "materials": "Mud sculpture, carved wood, iron shrines and sacred forest",
+      "function": "Yoruba spiritual grove revitalised by New Sacred Art movement sculptures"
+    },
+    "poto-poto-school-brazzaville": {
+      "category": "living",
+      "period": "1951–present",
+      "materials": "Gouache, oil, canvas and drawing media",
+      "function": "Historic painting workshop that founded modern Congolese pictorial styles"
+    },
+    "thapong-visual-arts-centre": {
+      "category": "living",
+      "period": "Contemporary",
+      "materials": "Painting, sculpture, photography and printmaking",
+      "function": "Grassroots artist collective and studio incubator in Gaborone Village"
+    },
+    "freedom-park": {
+      "category": "living",
+      "period": "21st century",
+      "materials": "Quartzite, wood, bronze, landscape architecture and garden design",
+      "function": "Monumental commemorative landscape honoring struggles for freedom"
+    }
   }
 }

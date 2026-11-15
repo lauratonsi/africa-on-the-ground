@@ -1,0 +1,67 @@
+{
+  "slug": "namugongo-martyrs-shrine",
+  "status": "draft",
+  "type": "site",
+  "country": "UGA",
+  "name": "Namugongo Martyrs Shrine",
+  "region": "Kampala · Uganda",
+  "subtitle": "Catholic shrine in Namugongo, just outside Kampala, honouring Christians killed on the orders of King Mwanga.",
+  "facts": [
+    {
+      "label": "Martyrs",
+      "value": "22 Catholic martyrs killed in 1887",
+      "cite": [
+        "cap-vaticannews-va-2d85a2"
+      ]
+    },
+    {
+      "label": "Period",
+      "value": "executions 1885 to 1887 under Mwanga",
+      "cite": [
+        "cap-ebsco-com-16b2dd"
+      ]
+    },
+    {
+      "label": "Martyrs Day",
+      "value": "3 June, public holiday",
+      "cite": [
+        "cap-vaticannews-va-2d85a2"
+      ]
+    },
+    {
+      "label": "Pilgrimage 2025",
+      "value": "pilgrims from Lira walk about 380 km",
+      "cite": [
+        "cap-vaticannews-va-2d85a2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Catholic shrine in Namugongo, just outside Kampala, honouring Christians killed on the orders of King Mwanga. Pilgrims gather each 3 June.",
+              "cite": [
+                "cap-vaticannews-va-2d85a2",
+                "cap-ebsco-com-16b2dd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

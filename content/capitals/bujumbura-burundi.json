@@ -3,10 +3,248 @@
   "status": "draft",
   "country": "BDI",
   "name": "Bujumbura",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bujumbura, capital of Burundi: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,207,000 people live in Bujumbura (counted 2023).",
+      "cite": [
+        "cap-ebsco-com-6d43eb"
+      ]
+    },
+    {
+      "text": "Bujumbura was founded as a German colonial garrison town in 1897.",
+      "cite": [
+        "cap-cambridge-org-7a09a5"
+      ]
+    },
+    {
+      "text": "EBSCO dates the German colonial outpost more loosely, between 1889 and 1899 (sources differ on the exact year).",
+      "cite": [
+        "cap-ebsco-com-6d43eb"
+      ]
+    }
+  ],
+  "places": [
+    "bujumbura-central-market",
+    "musee-vivant-living-museum",
+    "rusizi-national-park",
+    "lake-tanganyika-shore"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Bujumbura in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bujumbura was founded as a German colonial garrison town in 1897.",
+              "cite": [
+                "cap-cambridge-org-7a09a5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "EBSCO dates the German colonial outpost more loosely, between 1889 and 1899 (sources differ on the exact year).",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Belgium took control in 1916, during the First World War, and made Bujumbura a military post.",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Burundi became independent in 1962 (EBSCO says the Tutsi minority then gained control of the government).",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In December 2018 the Burundian authorities adopted a bill fixing the political capital in Gitega and the economic capital in Bujumbura (AFP report).",
+              "cite": [
+                "cap-africanews-com-a0ec48"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,207,000",
+              "label": "people in Bujumbura, 2023",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Bujumbura?",
+          "min": 0,
+          "max": 4000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 1207000,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,207,000 in 2023, according to the figures compiled from the national statistics office. Which area is counted matters: EBSCO gives 'roughly 1.207 million (2023 estimate)' and does not define the boundary (city proper vs wider area).",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1897",
+              "tag": "origins",
+              "text": "Bujumbura (then Usumbura) is founded as a German colonial garrison town.",
+              "cite": [
+                "cap-cambridge-org-7a09a5"
+              ]
+            },
+            {
+              "when": "1916",
+              "tag": "origins",
+              "text": "Belgium takes control and makes Bujumbura a military post.",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            },
+            {
+              "when": "End of First World War (c. 1918)",
+              "tag": "origins",
+              "text": "The town has between 2,500 and 3,000 inhabitants and is predominantly Muslim, per Castryck.",
+              "cite": [
+                "cap-cambridge-org-7a09a5"
+              ]
+            },
+            {
+              "when": "1962",
+              "tag": "growth",
+              "text": "Burundi gains independence.",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            },
+            {
+              "when": "27 January 2013",
+              "tag": "today",
+              "text": "A fire destroys much of the Central Market, noticed at 6:30 a.m. on a Sunday; only 10% of 5,000 merchants had insured goods.",
+              "cite": [
+                "cap-csmonitor-com-c06883"
+              ]
+            },
+            {
+              "when": "December 2018",
+              "tag": "today",
+              "text": "Authorities adopt a bill making Gitega the political capital and Bujumbura the economic capital.",
+              "cite": [
+                "cap-africanews-com-a0ec48"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Bujumbura in order.",
+          "items": [
+            {
+              "label": "Bujumbura (then Usumbura) is founded as a German colonial garrison town.",
+              "when": "1897",
+              "text": "Bujumbura (then Usumbura) is founded as a German colonial garrison town.",
+              "cite": [
+                "cap-cambridge-org-7a09a5"
+              ]
+            },
+            {
+              "label": "The town has between 2,500 and 3,000 inhabitants and is predominantly Muslim…",
+              "when": "End of First World War (c. 1918)",
+              "text": "The town has between 2,500 and 3,000 inhabitants and is predominantly Muslim, per Castryck.",
+              "cite": [
+                "cap-cambridge-org-7a09a5"
+              ]
+            },
+            {
+              "label": "A fire destroys much of the Central Market, noticed at 6:30 a.m. on a Sunday…",
+              "when": "27 January 2013",
+              "text": "A fire destroys much of the Central Market, noticed at 6:30 a.m. on a Sunday; only 10% of 5,000 merchants had insured goods.",
+              "cite": [
+                "cap-csmonitor-com-c06883"
+              ]
+            },
+            {
+              "label": "Authorities adopt a bill making Gitega the political capital and Bujumbura…",
+              "when": "December 2018",
+              "text": "Authorities adopt a bill making Gitega the political capital and Bujumbura the economic capital.",
+              "cite": [
+                "cap-africanews-com-a0ec48"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Exact definition of the EBSCO population figure (boundary not stated)",
+    "Not found in a readable source: ISTEEBU/INSBU population figure (only search snippet, PDF not read)",
+    "Not found in a readable source: Saga Beach (no source found)",
+    "Not found in a readable source: Cathedrale Regina Mundi, Monument de l'Unite, University of Burundi (no readable non-travel source)",
+    "Not found in a readable source: Livingstone-Stanley monument at Mugere (only wiki mirrors/travel sites surfaced; skipped)",
+    "Not found in a readable source: Ramsar designation details for Rusizi (page 502)",
+    "Not found in a readable source: Independent source for 2019 parliamentary vote (only Dec 2018 AFP bill report)",
+    "Not found in a readable source: A source on rebuilt Central Market",
+    "Not found in a readable source: Myth/misconception: none explicitly stated by a readable source",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Burundi has read this profile yet."
   ]
 }

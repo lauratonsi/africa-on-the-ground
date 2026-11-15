@@ -1,0 +1,59 @@
+{
+  "slug": "musee-ethnographique-adande-porto-novo",
+  "status": "draft",
+  "type": "culture",
+  "country": "BEN",
+  "name": "Musée Ethnographique Alexandre Sènou Adandé",
+  "region": "Porto-Novo · Benin",
+  "subtitle": "Colonial-era ethnographic museum founded in 1957, renowned for its master collections of Yoruba Gèlèdé ritual masks.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1957 by the Institut Français d'Afrique Noire (IFAN)",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    },
+    {
+      "label": "Honoree",
+      "value": "Alexandre Sènou Adandé, Beninese ethnologist and archivist",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    },
+    {
+      "label": "Star exhibits",
+      "value": "UNESCO-recognized Gèlèdé wooden headdress masks, Yoruba divinatory trays (opon Ifá), and weaponry",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An essential center of West African ethnography, situated in a late 19th-century colonial building in Porto-Novo. Named after Beninese scholar Alexandre Sènou Adandé, the museum holds an extraordinary collection of polychrome wooden Gèlèdé masks—used by the Yoruba and Nagô communities in annual masquerades honoring female spiritual potency and maternal ancestors. The galleries also preserve antique iron weaponry, musical instruments, weaving looms, and divination artifacts of the Ifá spiritual tradition.",
+              "cite": [
+                "cap-unesco-honme-museum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital photographic records of sacred Ifá divinatory boards are pending indexing.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

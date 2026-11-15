@@ -54,7 +54,7 @@ function pin(place, p, types, { cur, dim, labelSide }) {
   const cls = ["pin", place.status === "draft" ? "draft" : "", cur ? "cur" : "", dim ? "dim" : ""].filter(Boolean).join(" ");
   const label = place.name + (place.coords.approx ? " (approximate position)" : "");
   const left = labelSide === "left";
-  return `<a class="${cls}" href="${esc(place._href)}" data-slug="${esc(place.slug)}" data-type="${esc(place.type)}" aria-label="${esc(label)}"${cur ? ' aria-current="page"' : ""} transform="translate(${x} ${y})"><circle class="hit" r="24"/>${cur ? '<circle class="ring" r="17"/>' : ""}${shape}<text class="plabel" x="${left ? -16 : 16}" y="5" text-anchor="${left ? "end" : "start"}">${esc(place.name)}</text></a>`;
+  return `<a class="${cls}" href="${esc(place._href)}" data-slug="${esc(place.slug)}" data-type="${esc(place.type)}"${place.isArt ? ' data-art="true"' : ""} aria-label="${esc(label)}"${cur ? ' aria-current="page"' : ""} transform="translate(${x} ${y})"><circle class="hit" r="24"/>${cur ? '<circle class="ring" r="17"/>' : ""}${shape}<text class="plabel" x="${left ? -16 : 16}" y="5" text-anchor="${left ? "end" : "start"}">${esc(place.name)}</text></a>`;
 }
 
 // Panoramica dell'Africa: i paesi con almeno una scheda sono evidenziati.
@@ -77,14 +77,14 @@ export function africaMap(places, types, { hrefFor } = {}) {
 const SHAPE_ISO = { SDS: "SSD", SOL: "SOM", SAH: null };
 
 // Mappa grande dell'Africa con un pin per scheda che ha coordinate. Restituisce anche i riquadri per ingrandire una regione.
-export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions = [], countries = [], countryHref = null } = {}) {
+export function africaPlacesMap(places, types, { hrefFor, subOf = {}, subregions = [], countries = [], countryHref = null, imgPrefix = "" } = {}) {
   const p = projection({ lon0: -19.5, lon1: 52, lat0: -36, lat1: 38 }, 1000);
   const land = africa.countries.map((c) => `<path class="land" d="${shapePath(c.rings, p)}"><title>${esc(c.name)}</title></path>`).join("");
   const located = places.filter((x) => x.coords);
   const pins = located.map((x, i) => {
     x._href = hrefFor(x);
     const t = types[x.type] ? types[x.type].label : x.type;
-    const img = x.image ? `img/places/${x.image.file}-800.jpg` : "";
+    const img = x.image ? `${imgPrefix}img/places/${x.image.file}-800.jpg` : "";
     return pin(x, p, types, { labelSide: "right" })
       .replace("<a class=", `<a style="--i:${i}" data-name="${esc(x.name)}" data-meta="${esc(x.region + " · " + t)}" data-img="${esc(img)}" class=`)
       .replace('<circle class="hit" r="24"/>', '<circle class="hit" r="24"/><circle class="pulse" r="9"/>');

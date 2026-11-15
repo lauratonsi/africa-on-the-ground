@@ -1,0 +1,60 @@
+{
+  "slug": "kimironko-market",
+  "status": "draft",
+  "type": "market",
+  "country": "RWA",
+  "name": "Kimironko Market",
+  "region": "Kigali · Rwanda",
+  "subtitle": "Kimironko is one of Kigali's largest open-air markets, in Gasabo district.",
+  "facts": [
+    {
+      "label": "Scale",
+      "value": "Among Kigali's largest open-air markets",
+      "cite": [
+        "cap-cnbcafrica-com-3a243d"
+      ]
+    },
+    {
+      "label": "Vendors (2013)",
+      "value": "2,200 vendors reported in 2013",
+      "cite": [
+        "cap-newtimes-co-rw-c6b47f"
+      ]
+    },
+    {
+      "label": "Upgrade plan (2013)",
+      "value": "Upgrade into a modern facility announced in 2013 (cost Rwf24 billion per headline)",
+      "cite": [
+        "cap-newtimes-co-rw-c6b47f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kimironko is one of Kigali's largest open-air markets, in Gasabo district. The City planned to rebuild it as a modern facility, and a redevelopment is under discussion as of 2026.",
+              "cite": [
+                "cap-cnbcafrica-com-3a243d",
+                "cap-newtimes-co-rw-c6b47f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

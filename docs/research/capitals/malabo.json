@@ -1,0 +1,61 @@
+{
+  "city": "Malabo",
+  "country": "GNQ",
+  "population": {
+    "value": 257000,
+    "year": 2015,
+    "definition": "Population of the City of Malabo enumerated in the 4th General Population and Housing Census (IV Censo de Población y Vivienda 2015) conducted by the Instituto Nacional de Estadística de Guinea Ecuatorial (INEGE), tabulated via CityPopulation. Bioko Norte Province as a whole recorded 300,374 residents.",
+    "source": {
+      "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
+      "publisher": "CityPopulation (credits INEGE)",
+      "author": null,
+      "date": "2015-07-01",
+      "url": "https://www.citypopulation.de/en/eqguinea/cities/",
+      "tier": "institutional",
+      "quote": "2015-07-01 | Malabo: 257,000; Bioko Norte Province: 300,374"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Malabo was founded in 1827 as Port Clarence by British naval captain William Fitzwilliam Owen as a naval base to suppress the Atlantic slave trade and resettle liberated captives.",
+      "source": {
+        "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/eqguinea/cities/",
+        "tier": "institutional",
+        "quote": "Founded in 1827 as Port Clarence before becoming Santa Isabel and later Malabo"
+      }
+    },
+    {
+      "claim": "The Catedral de Santa Isabel de Malabo, designed by architect Luis Segarra Llairadó and consecrated in 1916, is a prominent Spanish colonial Neo-Gothic cathedral featuring twin 40-metre spires.",
+      "source": {
+        "title": "Catedral de Santa Isabel de Malabo: Arquitectura neogótica colonial",
+        "publisher": "Archnet (MIT / AKTC)",
+        "author": null,
+        "date": null,
+        "url": "https://archnet.org/sites/5512",
+        "tier": "academic",
+        "quote": "Catedral neogótica consagrada en 1916 con torres de 40 metros"
+      }
+    },
+    {
+      "claim": "In 1973, the city of Santa Isabel was officially rechristened Malabo in honour of King Malabo Löpèlo Mëlaka, the last traditional Bubi monarch of Bioko Island.",
+      "source": {
+        "title": "Equatorial Guinea: Provinces & Major Cities (Census 2015)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/eqguinea/cities/",
+        "tier": "institutional",
+        "quote": "Renamed Malabo in 1973 after the Bubi king Malabo"
+      }
+    }
+  ],
+  "gaps": [
+    "Precise neighborhood breakdowns for recent metropolitan extensions in Malabo II are partially published.",
+    "First-hand local voices from Bubi elders and island fishermen have not yet been recorded.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

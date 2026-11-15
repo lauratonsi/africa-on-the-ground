@@ -1,0 +1,455 @@
+{
+ "city": "Juba",
+ "country": "SSD",
+ "population": {
+  "value": 368436,
+  "year": 2008,
+  "definition": "Juba County (not the city alone), census of 22 April 2008, as relayed by citypopulation.de from the South Sudan National Bureau of Statistics. No census since 2008; 2017 projection for the county is 525,953 and does not account for migration or displacement.",
+  "source": {
+   "title": "Juba (Central Equatoria, South Sudan) - population statistics",
+   "publisher": "citypopulation.de (citing South Sudan National Bureau of Statistics)",
+   "author": null,
+   "date": "not shown",
+   "url": "https://www.citypopulation.de/en/southsudan/admin/central_equatoria/9202__juba",
+   "tier": "institutional (secondary relay of NBS)",
+   "quote": "2008 census (April 22, 2008): 368,436 residents; 2017 projection: 525,953"
+  }
+ },
+ "facts": [
+  {
+   "claim": "Juba grew from a mission station near a small Bari village on the White Nile; the site was chosen in 1927 as a new administrative headquarters (Mongalla Province) by Arthur Wallace Skrine.",
+   "source": {
+    "title": "To the Juba Wharf (Juba in the Making)",
+    "publisher": "Juba in the Making (jubainthemaking.com)",
+    "author": "Brendan Tuttle",
+    "date": "not shown (c. 2021, inferred)",
+    "url": "https://jubainthemaking.com/to-the-juba-wharf/",
+    "tier": "academic",
+    "quote": "The site was chosen as a new administrative headquarters in 1927 by Arthur Wallace Skrine"
+   }
+  },
+  {
+   "claim": "Juba is the capital of Central Equatoria State and was the seat of the Government of Southern Sudan.",
+   "source": {
+    "title": "City limits: urbanisation and vulnerability in Sudan - Juba case study",
+    "publisher": "Humanitarian Policy Group, Overseas Development Institute (ODI)",
+    "author": "Ellen Martin and Irina Mosel",
+    "date": "January 2011",
+    "url": "https://cdn.odi.org/media/documents/6511.pdf",
+    "tier": "academic",
+    "quote": "Juba is the seat of the Government of Southern Sudan (GoSS) as well as the capital of Central Equatoria State (CES)."
+   }
+  },
+  {
+   "claim": "Juba was chosen as capital of Southern Sudan partly as a gesture of inclusiveness, since it lies in Bari heartland; it already had an airport, water and was closer to neighbouring countries. Ram Chiel had been the favoured option.",
+   "source": {
+    "title": "City limits: urbanisation and vulnerability in Sudan - Juba case study",
+    "publisher": "Humanitarian Policy Group, Overseas Development Institute (ODI)",
+    "author": "Ellen Martin and Irina Mosel",
+    "date": "January 2011",
+    "url": "https://cdn.odi.org/media/documents/6511.pdf",
+    "tier": "academic",
+    "quote": "Juba is located in the heartland of the Bari people, so selecting it as the new capital was seen as a gesture of inclusiveness"
+   }
+  },
+  {
+   "claim": "South Sudan declared independence on 9 July 2011, with celebrations in Juba.",
+   "source": {
+    "title": "South Sudan becomes world's newest nation",
+    "publisher": "Al Jazeera",
+    "author": "News Agencies",
+    "date": "2011-07-09",
+    "url": "https://www.aljazeera.com/news/africa/2011/07/20117820539243358.html",
+    "tier": "press",
+    "quote": "A mood of joy and celebration swept through its capital Juba at midnight on Friday"
+   }
+  },
+  {
+   "claim": "Plans exist to move the capital to Ramciel; in 2017 South Sudan signed an agreement with Morocco for construction there, with no clear start date.",
+   "source": {
+    "title": "Morocco funds Ramciel construction",
+    "publisher": "Eye Radio",
+    "author": "Obaj Shago",
+    "date": "2017-02-02",
+    "url": "https://www.eyeradio.org/?p=24761",
+    "tier": "press",
+    "quote": "South Sudan has signed an agreement with Morocco for the construction of the new capital in Ramciel."
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1927",
+   "claim": "Arthur Wallace Skrine chooses the Juba site as new administrative headquarters.",
+   "tag": "origins",
+   "source": {
+    "title": "To the Juba Wharf (Juba in the Making)",
+    "publisher": "Juba in the Making (jubainthemaking.com)",
+    "author": "Brendan Tuttle",
+    "date": "not shown (c. 2021, inferred)",
+    "url": "https://jubainthemaking.com/to-the-juba-wharf/",
+    "tier": "academic",
+    "quote": "The site was chosen as a new administrative headquarters in 1927 by Arthur Wallace Skrine"
+   }
+  },
+  {
+   "when": "1956",
+   "claim": "Juba becomes capital of the Southern Sudan regional government, with about 10,600 people (ODI's wording).",
+   "tag": "origins",
+   "source": {
+    "title": "City limits: urbanisation and vulnerability in Sudan - Juba case study",
+    "publisher": "Humanitarian Policy Group, Overseas Development Institute (ODI)",
+    "author": "Ellen Martin and Irina Mosel",
+    "date": "January 2011",
+    "url": "https://cdn.odi.org/media/documents/6511.pdf",
+    "tier": "academic",
+    "quote": "When Juba became the capital of the Southern Sudan regional government in 1956, it had a population of about 10,600"
+   }
+  },
+  {
+   "when": "1983-2005",
+   "claim": "During the second civil war Juba is a garrison town under the Government of Sudan.",
+   "tag": "growth",
+   "source": {
+    "title": "City limits: urbanisation and vulnerability in Sudan - Juba case study",
+    "publisher": "Humanitarian Policy Group, Overseas Development Institute (ODI)",
+    "author": "Ellen Martin and Irina Mosel",
+    "date": "January 2011",
+    "url": "https://cdn.odi.org/media/documents/6511.pdf",
+    "tier": "academic",
+    "quote": "Juba... was a garrison town under the Government of Sudan (GoS)"
+   }
+  },
+  {
+   "when": "2005",
+   "claim": "When the Comprehensive Peace Agreement is signed, Juba is home to about 250,000 people including 87,000 IDPs (ODI estimate).",
+   "tag": "growth",
+   "source": {
+    "title": "City limits: urbanisation and vulnerability in Sudan - Juba case study",
+    "publisher": "Humanitarian Policy Group, Overseas Development Institute (ODI)",
+    "author": "Ellen Martin and Irina Mosel",
+    "date": "January 2011",
+    "url": "https://cdn.odi.org/media/documents/6511.pdf",
+    "tier": "academic",
+    "quote": "home to approximately 250,000 people, including 163,000 residents and 87,000 IDPs"
+   }
+  },
+  {
+   "when": "9 July 2011",
+   "claim": "Independence celebrated in Juba; a statue honouring Garang and the war dead is unveiled at the mausoleum.",
+   "tag": "today",
+   "source": {
+    "title": "SOUTH SUDAN / JOHN GARANG MEMORIAL",
+    "publisher": "UNifeed (UN media service), credited to UNMISS",
+    "author": null,
+    "date": "2011-07-09",
+    "url": "https://media.un.org/unifeed/en/asset/u110/u110709b",
+    "tier": "institutional",
+    "quote": "Thousands of South Sudanese gathered at the John Garang Mausoleum in Juba"
+   }
+  },
+  {
+   "when": "2017",
+   "claim": "Agreement with Morocco for building the planned new capital at Ramciel.",
+   "tag": "today",
+   "source": {
+    "title": "Morocco funds Ramciel construction",
+    "publisher": "Eye Radio",
+    "author": "Obaj Shago",
+    "date": "2017-02-02",
+    "url": "https://www.eyeradio.org/?p=24761",
+    "tier": "press",
+    "quote": "Ramciel is a location in former Lakes state that will serve as the future site of the national capital."
+   }
+  },
+  {
+   "when": "19 May 2022",
+   "claim": "Opening ceremony of the Freedom Bridge over the Nile in Juba.",
+   "tag": "today",
+   "source": {
+    "title": "Completion of the Freedom Bridge: South Sudan's Long-awaited Symbol of Peace and Freedom",
+    "publisher": "Japan International Cooperation Agency (JICA)",
+    "author": null,
+    "date": "2022-06-03",
+    "url": "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html",
+    "tier": "institutional",
+    "quote": "The opening ceremony was held on May 19, 2022"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Dr John Garang Mausoleum",
+   "type": "site",
+   "what": "The mausoleum and memorial park in Juba honours John Garang, the liberation leader, and has hosted national ceremonies. Independence celebrations on 9 July 2011 were held there and a statue was unveiled.",
+   "facts": [
+    {
+     "label": "Independence Day 2011",
+     "value": "Crowds gathered at the site to celebrate independence",
+     "source": {
+      "title": "SOUTH SUDAN / JOHN GARANG MEMORIAL",
+      "publisher": "UNifeed (UN media service), credited to UNMISS",
+      "author": null,
+      "date": "2011-07-09",
+      "url": "https://media.un.org/unifeed/en/asset/u110/u110709b",
+      "tier": "institutional",
+      "quote": "Thousands of South Sudanese gathered at the John Garang Mausoleum in Juba"
+     }
+    },
+    {
+     "label": "Statue",
+     "value": "A statue honouring Garang and others who died in the war was unveiled on 9 July 2011 (UN video summary, not a direct quote)",
+     "source": {
+      "title": "SOUTH SUDAN / JOHN GARANG MEMORIAL",
+      "publisher": "UNifeed (UN media service), credited to UNMISS",
+      "author": null,
+      "date": "2011-07-09",
+      "url": "https://media.un.org/unifeed/en/asset/u110/u110709b",
+      "tier": "institutional",
+      "quote": "Thousands of South Sudanese gathered at the John Garang Mausoleum in Juba"
+     }
+    },
+    {
+     "label": "Public access 2019",
+     "value": "The army reopened the site to the public in July 2019 after a May closure",
+     "source": {
+      "title": "Army re-opens Dr. John Mausoleum to motorists, pedestrians",
+      "publisher": "Eye Radio",
+      "author": "Alhadi Hawari",
+      "date": "2019-07-20",
+      "url": "https://www.eyeradio.org/army-re-opens-dr-john-mausoleum-to-motorists-pedestrians/",
+      "tier": "press",
+      "quote": "The army has today re-opened Dr. John Garang Mausoleum"
+     }
+    },
+    {
+     "label": "Public space debate 2021",
+     "value": "An activist called it a symbol of unity and a public space",
+     "source": {
+      "title": "Activist asks gov't to reopen Dr John Garang memorial park",
+      "publisher": "Eye Radio",
+      "author": "Emmanuel Akile",
+      "date": "2021-07-01",
+      "url": "https://www.eyeradio.org/activist-asks-govt-to-reopen-dr-john-garang-memorial-park/",
+      "tier": "press",
+      "quote": "a symbol of unity"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:John Garang Mausoleum Square in Juba.JPG",
+    "licence": "CC BY-SA 3.0",
+    "author": "Jens Klinzing (Forodin)"
+   },
+   "readSources": [
+    "https://media.un.org/unifeed/en/asset/u110/u110709b",
+    "https://www.eyeradio.org/army-re-opens-dr-john-mausoleum-to-motorists-pedestrians/",
+    "https://www.eyeradio.org/activist-asks-govt-to-reopen-dr-john-garang-memorial-park/"
+   ]
+  },
+  {
+   "name": "Konyo Konyo Market",
+   "type": "market",
+   "what": "Konyo-Konyo is one of Juba's major markets and a distribution point for goods across South Sudan. It has faced congestion, fires and redevelopment proposals.",
+   "facts": [
+    {
+     "label": "Role",
+     "value": "Major market and distribution point",
+     "source": {
+      "title": "Developer proposes to modernize Juba's Konyo-Konyo Market",
+      "publisher": "Radio Tamazuj",
+      "author": null,
+      "date": "2026-08-24 (as shown by page)",
+      "url": "https://www.radiotamazuj.org/en/news/article/developer-proposes-to-modernize-jubas-konyo-konyo-market",
+      "tier": "press",
+      "quote": "Konyo-Konyo is one of Juba's major markets and an important distribution point for goods across South Sudan."
+     }
+    },
+    {
+     "label": "Problems",
+     "value": "Congestion, waste, drainage and hygiene concerns",
+     "source": {
+      "title": "Developer proposes to modernize Juba's Konyo-Konyo Market",
+      "publisher": "Radio Tamazuj",
+      "author": null,
+      "date": "2026-08-24 (as shown by page)",
+      "url": "https://www.radiotamazuj.org/en/news/article/developer-proposes-to-modernize-jubas-konyo-konyo-market",
+      "tier": "press",
+      "quote": "congestion, poor waste management, inadequate drainage and hygiene concerns"
+     }
+    },
+    {
+     "label": "Fire",
+     "value": "A fire in December 2024 destroyed about 56 shops (per Radio Tamazuj)",
+     "source": {
+      "title": "Developer proposes to modernize Juba's Konyo-Konyo Market",
+      "publisher": "Radio Tamazuj",
+      "author": null,
+      "date": "2026-08-24 (as shown by page)",
+      "url": "https://www.radiotamazuj.org/en/news/article/developer-proposes-to-modernize-jubas-konyo-konyo-market",
+      "tier": "press",
+      "quote": "including one in December 2024 that destroyed about 56 shops (summary; exact wording not captured)"
+     }
+    },
+    {
+     "label": "Redevelopment proposal",
+     "value": "A developer proposes about 800 shopping spaces",
+     "source": {
+      "title": "Developer proposes to modernize Juba's Konyo-Konyo Market",
+      "publisher": "Radio Tamazuj",
+      "author": null,
+      "date": "2026-08-24 (as shown by page)",
+      "url": "https://www.radiotamazuj.org/en/news/article/developer-proposes-to-modernize-jubas-konyo-konyo-market",
+      "tier": "press",
+      "quote": "about 800 shopping spaces (summary; exact wording not captured)"
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.radiotamazuj.org/en/news/article/developer-proposes-to-modernize-jubas-konyo-konyo-market"
+   ]
+  },
+  {
+   "name": "Freedom Bridge and the White Nile crossing",
+   "type": "site",
+   "what": "The Freedom Bridge is a steel arch bridge over the Nile in Juba, opened in 2022. It supplements the older Juba Bridge, a prefabricated crossing.",
+   "facts": [
+    {
+     "label": "Type",
+     "value": "560 m long, first arched steel bridge in the country to span the Nile",
+     "source": {
+      "title": "Completion of the Freedom Bridge: South Sudan's Long-awaited Symbol of Peace and Freedom",
+      "publisher": "Japan International Cooperation Agency (JICA)",
+      "author": null,
+      "date": "2022-06-03",
+      "url": "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html",
+      "tier": "institutional",
+      "quote": "the first arched steel bridge in the country to span the Nile River"
+     }
+    },
+    {
+     "label": "Opening",
+     "value": "19 May 2022",
+     "source": {
+      "title": "Completion of the Freedom Bridge: South Sudan's Long-awaited Symbol of Peace and Freedom",
+      "publisher": "Japan International Cooperation Agency (JICA)",
+      "author": null,
+      "date": "2022-06-03",
+      "url": "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html",
+      "tier": "institutional",
+      "quote": "The opening ceremony was held on May 19, 2022"
+     }
+    },
+    {
+     "label": "Old bridge",
+     "value": "Juba Bridge was the only existing Nile bridge in Juba, prefabricated about 50 years earlier (summary)",
+     "source": {
+      "title": "Completion of the Freedom Bridge: South Sudan's Long-awaited Symbol of Peace and Freedom",
+      "publisher": "Japan International Cooperation Agency (JICA)",
+      "author": null,
+      "date": "2022-06-03",
+      "url": "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html",
+      "tier": "institutional",
+      "quote": "only existing bridge over the Nile in Juba (summary; exact wording not captured)"
+     }
+    },
+    {
+     "label": "Purpose",
+     "value": "Meant to ease traffic",
+     "source": {
+      "title": "Completion of the Freedom Bridge: South Sudan's Long-awaited Symbol of Peace and Freedom",
+      "publisher": "Japan International Cooperation Agency (JICA)",
+      "author": null,
+      "date": "2022-06-03",
+      "url": "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html",
+      "tier": "institutional",
+      "quote": "contribute to the economic recovery and growth of South Sudan"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Juba Nile Bridge.jpg",
+    "licence": "CC BY-SA 2.0",
+    "author": "Rod Waddington"
+   },
+   "photoNote": "Shows the OLD Juba Bridge, not the Freedom Bridge. Other option: File:Sudan Juba bridge.jpg (CC BY 2.0, DEMOSH). Photos not visually checked for people.",
+   "readSources": [
+    "https://www.jica.go.jp/english/information/topics/2022/20220603_11.html"
+   ]
+  },
+  {
+   "name": "Jebel Kujur",
+   "type": "nature",
+   "what": "Jebel Kujur is a hill and wooded grassland area immediately south-west of Juba, recognised as a Key Biodiversity Area. It lies under severe pressure from the nearby town.",
+   "facts": [
+    {
+     "label": "Location",
+     "value": "South-west of Juba",
+     "source": {
+      "title": "Juba (6818)",
+      "publisher": "Key Biodiversity Areas partnership (keybiodiversityareas.org)",
+      "author": null,
+      "date": "not shown",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/6818",
+      "tier": "institutional",
+      "quote": "lies immediately south-west of the town of Juba in southern Sudan"
+     }
+    },
+    {
+     "label": "Vegetation",
+     "value": "Wooded grassland",
+     "source": {
+      "title": "Juba (6818)",
+      "publisher": "Key Biodiversity Areas partnership (keybiodiversityareas.org)",
+      "author": null,
+      "date": "not shown",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/6818",
+      "tier": "institutional",
+      "quote": "The vegetation is wooded grassland in which common tree species include Balanites aegyptiaca"
+     }
+    },
+    {
+     "label": "Threats",
+     "value": "Severe",
+     "source": {
+      "title": "Juba (6818)",
+      "publisher": "Key Biodiversity Areas partnership (keybiodiversityareas.org)",
+      "author": null,
+      "date": "not shown",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/6818",
+      "tier": "institutional",
+      "quote": "Threats to the site are severe, due to its proximity to Juba town."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:The Aerial view of Jebel Kujur Mountain in Juba south Sudan.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Mandenya Samuel Francis"
+   },
+   "readSources": [
+    "https://www.keybiodiversityareas.org/site/factsheet/6818"
+   ],
+   "note": "KBA page does not name Jebel Kujur in extracted text; it is the Juba KBA (ID 6818). Treat the Jebel Kujur link with caution; the Juba in the Making essay mentions Jebel Korok as Juba's ridge, unverified as identical."
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://www.thenewhumanitarian.org/node/223268 - 403",
+  "https://www.theprint.in/world/south-sudans-late-liberation-hero-garang-in-focus-during-popes-visit/1353682/ - Cloudflare check",
+  "https://peacekeeping.un.org/en/jubas-konyo-konyo-turns-one-day-market-place-of-ideas-about-peace - 404",
+  "https://www.worldbank.org/en/news/feature/2011/07/09/south-sudans-president-dedicates-independence-to-fallen-heroes - 404",
+  "https://datazone.birdlife.org/site/factsheet/juba-iba-south-sudan/text - empty template",
+  "https://unhabitat.org/sites/default/files/2023/01/juba_strategic_plan_digital_2023.pdf - too large"
+ ],
+ "notNotFound": [
+  "Juba Cathedral: only Wikipedia-derived results, skipped",
+  "University of Juba, National Museum: no readable source found",
+  "Explicit misconception corrected by a source: none",
+  "Dated 2005 capital of Southern Sudan statement is only partly covered by ODI wording (it says regional government 1956; ODI also says chosen after Garang death in 2006, which conflicts with 2005 elsewhere)",
+  "Official city (not county) population: none; ODI estimates 2005 250,000; 2009 JICA 406,000; 2009 census 230,195 (widely disputed per ODI)",
+  "Exact quote wording for Konyo Konyo fire/800 spaces/old bridge was from a summarised fetch, verify before publishing",
+  "Photos not visually inspected"
+ ]
+}

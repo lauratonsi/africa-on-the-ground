@@ -1,0 +1,59 @@
+{
+  "slug": "fortaleza-de-sao-miguel-luanda",
+  "status": "draft",
+  "type": "site",
+  "country": "AGO",
+  "name": "Fortaleza de São Miguel",
+  "region": "Luanda · Angola",
+  "subtitle": "Historic 1576 fortress atop Morro de São Paulo commanding panoramic views over the Bay of Luanda.",
+  "facts": [
+    {
+      "label": "Constructed",
+      "value": "1576 by Paulo Dias de Novais",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Morro da Fortaleza (former Morro de São Paulo) overlooking Luanda Bay",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    },
+    {
+      "label": "Museum use",
+      "value": "Houses the Museu Nacional de História Militar and decorative colonial azulejo panels",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The oldest surviving colonial structure in Luanda and the historic symbol of the city's maritime defenses. Founded in 1576 by Portuguese explorer Paulo Dias de Novais on the high promontory of São Paulo, this thick-walled stone citadel was the administrative and military linchpin of Portuguese colonial power for four centuries. Today it houses the Museum of the Armed Forces (Museu Nacional de História Militar), featuring historical cannons, statues, and interior walls lined with intricate 18th-century azulejos illustrating Angola's flora, fauna, and early contact history.",
+              "cite": [
+                "cap-unesco-tentative-luanda-slave"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Conservation condition reports on the exterior ramparts and early artillery pieces are partially accessible.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "slug": "is-black-magic-an-african-thing",
+  "status": "draft",
+  "kind": "myth",
+  "title": "Is 'black magic' an African thing?",
+  "subtitle": "The phrase hides three different things: a religion, a belief about misfortune, and a set of accusations that kill. Only the last is a human-rights emergency, and Europe has been there too.",
+  "countries": [
+    "TZA",
+    "GHA",
+    "BEN",
+    "ZAF",
+    "COD",
+    "MWI"
+  ],
+  "places": [],
+  "keyPoints": [
+    {
+      "text": "In a 2008-09 Pew survey, the share saying they believe in witchcraft ranged from 93% in Tanzania to 17% in Ethiopia.",
+      "cite": [
+        "pew-sub-saharan-topline-2010"
+      ]
+    },
+    {
+      "text": "The UN does not ask states to criminalise witchcraft itself, but accusations and ritual attacks.",
+      "cite": [
+        "ohchr-a-hrc-52-47-2023"
+      ]
+    },
+    {
+      "text": "Historians' consensus is that 100,000-110,000 Europeans were tried for witchcraft between about 1400 and 1750, about half of them executed.",
+      "cite": [
+        "leeson-russ-witch-trials-2018"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "three-things",
+      "title": "One phrase, three different things",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "'Black magic', 'juju' and 'voodoo' are outsiders' words that lump together things that have little in common.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Vodun, called 'Voodoo' in English, is a religion. In Benin, the AP reports, it was rehabilitated as part of national heritage after the 1991 election, and 10 January has been a festive holiday since 1996.",
+              "cite": [
+                "ap-benin-vodun-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Its supreme leader, Daagbo Hounon Houna II, told the AP: 'The return to democracy recognized the existence of traditional religion.'",
+              "cite": [
+                "ap-benin-vodun-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A second thing is belief in witchcraft: an explanation for misfortune. Pew found that many Africans who are active Christians or Muslims also hold traditional beliefs, and that sizeable shares, a quarter or more in many countries, believe in the protective power of juju, meaning charms or amulets.",
+              "cite": [
+                "pew-exec-summary-2010"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The third thing is the accusation: naming a person as a witch. That is where people get hurt, and it is what the rest of this story is about.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-many",
+      "title": "How many people believe?",
+      "blocks": [
+        {
+          "type": "chart",
+          "kind": "bars",
+          "title": "'Do you believe in witchcraft?': share answering yes",
+          "sub": "Pew survey, fieldwork December 2008 to April 2009, adults in each country; 13 of the 19 countries",
+          "rows": [
+            {
+              "label": "Tanzania",
+              "value": 93,
+              "text": "93%"
+            },
+            {
+              "label": "Cameroon",
+              "value": 78,
+              "text": "78%"
+            },
+            {
+              "label": "DR Congo",
+              "value": 64,
+              "text": "64%"
+            },
+            {
+              "label": "Mali",
+              "value": 62,
+              "text": "62%"
+            },
+            {
+              "label": "South Africa",
+              "value": 55,
+              "text": "55%"
+            },
+            {
+              "label": "Ghana",
+              "value": 52,
+              "text": "52%"
+            },
+            {
+              "label": "Rwanda",
+              "value": 50,
+              "text": "50%"
+            },
+            {
+              "label": "Senegal",
+              "value": 43,
+              "text": "43%"
+            },
+            {
+              "label": "Nigeria",
+              "value": 37,
+              "text": "37%"
+            },
+            {
+              "label": "Botswana",
+              "value": 36,
+              "text": "36%"
+            },
+            {
+              "label": "Kenya",
+              "value": 27,
+              "text": "27%"
+            },
+            {
+              "label": "Liberia",
+              "value": 19,
+              "text": "19%"
+            },
+            {
+              "label": "Ethiopia",
+              "value": 17,
+              "text": "17%"
+            }
+          ],
+          "cite": [
+            "pew-sub-saharan-topline-2010"
+          ],
+          "note": "Figures are copied from Pew's topline table (question Q51g, 'in witchcraft?'). They are from 2008-09; nothing here is calculated. Six of the 19 countries are left out only to keep the chart short."
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gallup, citing Pew, put the median across the 19 countries at 37%.",
+              "cite": [
+                "gallup-witchcraft-2010"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The spread is the point: belief is not one African trait. It is near-universal in one country and a minority view in many others.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Before you read on: in which of these countries do more than half of adults say they believe in witchcraft: Ghana, Nigeria, South Africa?",
+          "parts": [
+            {
+              "text": "Ghana (52%) and South Africa (55%), but not Nigeria (37%).",
+              "cite": [
+                "pew-sub-saharan-topline-2010"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-this-happened",
+      "title": "What the belief explains",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The anthropologist Edward Evans-Pritchard studied the Azande. His example: a granary collapses and kills people sitting in its shade. The Azande know termites ate the supports, 'but he knows besides why these two events occurred at a similar moment in time and space. It was due to the action of witchcraft.'",
+              "cite": [
+                "rai-evans-pritchard-witchcraft"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "So witchcraft answers a question that science does not ask: why these people, at this moment?",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The UN's human-rights office makes the same point from the other side: 'Accusations of witchcraft are often made to serve self-interest, explaining misfortunes and adverse events by identifying a scapegoat.'",
+              "cite": [
+                "ohchr-a-hrc-52-47-2023"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harm",
+      "title": "Where it turns deadly",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The harm comes from accusations and ritual attacks, not from belief alone. The UN High Commissioner's report says that in most of the countries concerned, women, particularly older women, are disproportionately affected.",
+              "cite": [
+                "ohchr-a-hrc-52-47-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Ghana, Akua Denteh, 90, was lynched on 23 July 2020. Two women were sentenced to 12 years for manslaughter in 2023. Amnesty says hundreds of other accused women have fled their communities.",
+              "cite": [
+                "amnesty-ghana-akua-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Children are accused too. Human Rights Watch reported in 2006 that in Kinshasa, in many 'revival' churches, dozens of children can be held for days with food and water denied.",
+              "cite": [
+                "hrw-kinshasa-children-2006"
+              ]
+            },
+            {
+              "text": " The UN report calls child abuse linked to witchcraft accusations a 'hidden crime' that is not confined to one religion, nationality or ethnic group.",
+              "cite": [
+                "ohchr-a-hrc-52-47-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "People with albinism are hunted for body parts. In 2016 the UN's Independent Expert said that prices reported ranged from $2,000 for a limb to $75,000 for a 'complete set'.",
+              "cite": [
+                "un-news-albinism-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Under the Same Sun's tally of 23 January 2026 records 841 attacks, including 260 killings, in 31 countries. These are NGO figures and are likely to undercount.",
+              "cite": [
+                "undersamesun-attacks-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "In their own words",
+          "parts": [
+            {
+              "text": "Aishetu Magi, a resident of Ghana's Gambaga camp, told Amnesty: 'If we had had a bill in place when this happened to me, I would be at home right now.'",
+              "cite": [
+                "amnesty-ghana-akua-2026"
+              ]
+            },
+            {
+              "text": " Songtaba, a northern Ghanaian organisation that works to reintegrate accused women, calls the camps 'open-air prisons'.",
+              "cite": [
+                "citi-songtaba-camps-2025"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "What the law says",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "South Africa's Witchcraft Suppression Act of 1957, as amended, does not define witchcraft. It punishes imputing harm by supernatural means to another person, employing a witch-finder to name someone, and professing knowledge of witchcraft. Where an offence leads to a death the penalty can reach 20 years.",
+              "cite": [
+                "sa-witchcraft-suppression-act-1957"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tanzania's Witchcraft Act goes further: section 3 penalises a person who 'represents himself to have the power of witchcraft', and section 4 penalises naming someone as a witch or wizard.",
+              "cite": [
+                "tz-witchcraft-act"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The UN line is different. In the High Commissioner's words, 'witchcraft itself should not be criminalized but ritual attacks and harmful acts related to accusations of witchcraft should be.'",
+              "cite": [
+                "ohchr-a-hrc-52-47-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ghana passed an anti-accusation bill in July 2023, but it was not signed into law. Amnesty said in July 2026 that no bill had been reintroduced.",
+              "cite": [
+                "amnesty-ghana-akua-2026"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "europe",
+      "title": "Not only an African story",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Historians' consensus is that 100,000-110,000 Europeans were tried for witchcraft between about 1400 and 1750, about half of them executed.",
+              "cite": [
+                "leeson-russ-witch-trials-2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Belief in malign powers is not a marker of a place. What differs is whether the state, the churches and the courts feed the accusation or stop it.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Check yourself",
+          "parts": [
+            {
+              "text": "If witch trials killed people in Europe, why do we call it history there and 'African' here? That is a question about who gets to write the label.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Benin's recognition of Vodun is dated 1996 by the AP, but a Benin tour operator cites a law of 20 August 1997. We have not checked the official gazette.",
+    "The text of Human Rights Council resolution 47/8 (2021) was not opened; it is known here only through the OHCHR report.",
+    "The Pew data are from 2008-09. We found no newer country-by-country figure.",
+    "The sources for the voices are an NGO and a survivor quoted by Amnesty. No African scholar's text has been read yet.",
+    "The Kinshasa claim rests on a 2006 Human Rights Watch release, not a recent study. We did not verify a percentage of accused street children.",
+    "A human reader from one of the affected communities should review this story before it is published."
+  ]
+}

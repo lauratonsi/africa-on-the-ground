@@ -3,6 +3,14 @@
   "status": "published",
   "type": "culture",
   "country": "ZAF",
+  "coords": {
+    "lat": -25.7483,
+    "lon": 28.2166,
+    "approx": true,
+    "cite": [
+      "cap-sahistory-org-za-f3b3c8"
+    ]
+  },
   "name": "Pretoria Art Museum",
   "region": "Pretoria · South Africa",
   "subtitle": "A city art museum in Arcadia Park, devoted to South African art.",

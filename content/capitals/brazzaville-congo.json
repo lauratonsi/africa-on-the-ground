@@ -10,18 +10,6 @@
       "cite": [
         "cap-citypopulation-de-congo-2023"
       ]
-    },
-    {
-      "text": "Situated on the Pool Malebo, Brazzaville directly faces Kinshasa across the Congo River, forming the closest pair of sovereign capitals in the world.",
-      "cite": [
-        "cap-adiac-congo-memorial-brazza"
-      ]
-    },
-    {
-      "text": "During World War II, Brazzaville served as the official wartime capital of Free France under Félix Éboué and Charles de Gaulle.",
-      "cite": [
-        "cap-expertisefrance-sainte-anne"
-      ]
     }
   ],
   "places": [
@@ -36,39 +24,6 @@
       "id": "city",
       "title": "Brazzaville in brief",
       "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Brazzaville was founded in September 1880 when naval officer Pietro Savorgnan di Brazzà concluded a protectorate treaty with King Illoy I (Makoko of Mbé), paramount ruler of the Bateke kingdom, on the northern bank of the Pool Malebo.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Between 1910 and 1958, Brazzaville served as the federal capital of French Equatorial Africa (AEF) and notably became the capital of Free France (France Libre) from 1940 to 1943 during the Second World War.",
-              "cite": [
-                "cap-expertisefrance-sainte-anne"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "Following national independence in August 1960, the city emerged as a vibrant center of African arts, fashion, and intellectual life, home to the celebrated painters of Poto-Poto and the iconic elegance movement of the Sapeurs.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            }
-          ]
-        },
         {
           "type": "stat",
           "items": [
@@ -100,114 +55,12 @@
           ]
         }
       ]
-    },
-    {
-      "id": "history",
-      "title": "A short history",
-      "blocks": [
-        {
-          "type": "timeline",
-          "tags": [
-            {
-              "id": "growth",
-              "label": "Growth"
-            },
-            {
-              "id": "origins",
-              "label": "Origins"
-            },
-            {
-              "id": "today",
-              "label": "Today"
-            }
-          ],
-          "items": [
-            {
-              "when": "1880",
-              "tag": "origins",
-              "text": "Pietro Savorgnan di Brazzà signs a treaty with King Makoko, establishing the post.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            },
-            {
-              "when": "1940",
-              "tag": "growth",
-              "text": "Félix Éboué rallies the colony; Brazzaville becomes the capital of Free France.",
-              "cite": [
-                "cap-expertisefrance-sainte-anne"
-              ]
-            },
-            {
-              "when": "1951",
-              "tag": "growth",
-              "text": "The École de Peinture de Poto-Poto is founded by Pierre Lods.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            },
-            {
-              "when": "1960",
-              "tag": "growth",
-              "text": "The Republic of the Congo achieves independence with Brazzaville as capital.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            },
-            {
-              "when": "2006",
-              "tag": "today",
-              "text": "The Mémorial Pierre Savorgnan de Brazza is inaugurated along the riverfront.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "order",
-          "prompt": "Put four moments in the history of Brazzaville in order.",
-          "items": [
-            {
-              "label": "Treaty signed with King Makoko, establishing Brazzaville on the Pool Malebo.",
-              "when": "1880",
-              "text": "Treaty signed with King Makoko, establishing Brazzaville on the Pool Malebo.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            },
-            {
-              "label": "Brazzaville is proclaimed the wartime capital of Free France.",
-              "when": "1940",
-              "text": "Brazzaville is proclaimed the wartime capital of Free France.",
-              "cite": [
-                "cap-expertisefrance-sainte-anne"
-              ]
-            },
-            {
-              "label": "The École de Peinture de Poto-Poto is established.",
-              "when": "1951",
-              "text": "The École de Peinture de Poto-Poto is established.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            },
-            {
-              "label": "The Republic of the Congo gains sovereign independence.",
-              "when": "1960",
-              "text": "The Republic of the Congo gains sovereign independence.",
-              "cite": [
-                "cap-adiac-congo-memorial-brazza"
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "gaps": [
     "Full microdata analysis from the May 2023 census is still undergoing official publication.",
     "First-hand local voices from sapeurs and Bacongo market vendors are still missing.",
-    "Cityscape photograph: not yet linked."
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

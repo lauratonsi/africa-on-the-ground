@@ -1,0 +1,59 @@
+{
+  "slug": "memorial-leon-mba-libreville",
+  "status": "draft",
+  "type": "site",
+  "country": "GAB",
+  "name": "Mémorial Léon Mba",
+  "region": "Libreville · Gabon",
+  "subtitle": "National mausoleum and gardens dedicated to the first president of independent Gabon.",
+  "facts": [
+    {
+      "label": "Honoree",
+      "value": "Léon Mba (1902–1967), first President of Gabon",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Downtown Libreville near the seafront boulevard",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "Classical commemorative mausoleum surrounded by civic gardens",
+      "cite": [
+        "cap-citypopulation-de-gabon-2013"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A solemn civic monument and landscaped garden complex situated in central Libreville, honoring the memory of Léon Mba, who led Gabon to independence in August 1960 and served as its first head of state. The site comprises a memorial chapel holding his tomb, an exhibition space documenting Gabon's transition to sovereignty, and a ceremonial plaza utilized during national commemorative ceremonies.",
+              "cite": [
+                "cap-citypopulation-de-gabon-2013"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Archival documents available to researchers within the memorial are partially catalogued.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

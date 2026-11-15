@@ -1,0 +1,58 @@
+{
+  "slug": "musee-national-boubou-hama-niamey",
+  "status": "draft",
+  "type": "culture",
+  "country": "NER",
+  "name": "Musée National Boubou Hama",
+  "region": "Niamey · Niger",
+  "subtitle": "Sprawling 24-hectare open-air museum founded in 1959 featuring traditional pavilions, artisan workshops, and paleontology.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1959 by Boubou Hama and Pablo Toucet",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "24 hectares overlooking the Niger River valley",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Highlights",
+      "value": "Sarcosuchus imperator dinosaur skeletons, traditional vernacular architecture, working artisan quarters, and botanical gardens",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Musée National Boubou Hama is widely recognized as one of the most innovative and comprehensive museums in West Africa. Conceived as a living open-air cultural park where all strata of society could discover Nigerien heritage, it displays life-size replicas of Tuareg, Hausa, Zarma, and Songhai dwellings alongside dinosaur fossils discovered in the Tenere desert and active workshops of master weavers, leatherworkers, and silversmiths.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

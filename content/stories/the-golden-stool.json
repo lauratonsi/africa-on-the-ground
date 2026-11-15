@@ -1,0 +1,198 @@
+{
+  "slug": "the-golden-stool",
+  "status": "published",
+  "kind": "history",
+  "title": "The stool nobody sits on",
+  "subtitle": "When a British colonial governor demanded to sit on the sacred soul of the Ashanti nation, Queen Mother Yaa Asantewaa mobilized an army to defend an empty throne.",
+  "countries": [
+    "GHA"
+  ],
+  "places": [
+    "forts-and-castles-of-ghana"
+  ],
+  "sections": [
+    {
+      "id": "soul-of-asante",
+      "title": "The vessel of the nation",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the kingdom of Asante (part of present-day Ghana), the supreme symbol of unity and sovereignty is the Sika Dwa Kofi, commonly known as the Golden Stool.",
+              "cite": [
+                "wilks-asante-nineteenth-century-1975"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "According to oral tradition, the stool descended from the skies in the late 17th century at the invocation of the chief priest Okomfo Anokye, landing gently onto the lap of the first Asantehene (King), Osei Tutu I.",
+              "cite": [
+                "wilks-asante-nineteenth-century-1975"
+              ]
+            },
+            {
+              "text": " The stool is made of solid wood completely encased in sheets of pure gold, hung with bells to summon ancestral spirits.",
+              "cite": [
+                "wilks-asante-nineteenth-century-1975"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "A chair with its own chair",
+          "parts": [
+            {
+              "text": "The Golden Stool is not a piece of functional furniture. In Asante belief, it houses the Sunsum — the collective soul, vitality, and destiny — of all Asante people living, dead, and unborn. It is so sacred that it never touches the bare earth, and no mortal human being, not even the King himself, is permitted to sit upon it. During ceremonies, it rests upon its own velvet pillow or stool next to the monarch.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003",
+                "wilks-asante-nineteenth-century-1975"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-governor-demand",
+      "title": "The governor's insult",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "By 1896, British forces had captured Kumasi and exiled the reigning Asantehene, Prempeh I, to the Seychelles.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "text": " On March 28, 1900, the British Governor of the Gold Coast, Sir Frederick Hodgson, arrived in Kumasi and convened a durbar of the remaining chiefs.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Completely misunderstanding Asante cosmology, Hodgson treated the Golden Stool as an ordinary royal chair.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "text": " He demanded to know why the British Queen, Victoria, had not received the stool, and insisted that he, as Her Majesty's representative, was entitled to sit upon it immediately.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "28 Mar 1900",
+              "label": "date Governor Hodgson demanded the Golden Stool",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "value": "0",
+              "label": "British soldiers who ever set eyes on the real stool",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "value": "5,000",
+              "label": "Asante warriors mobilized under Yaa Asantewaa's command",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yaa-asantewaa-war",
+      "title": "The Queen Mother's war",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The demand was received by the Asante chiefs as an unforgivable desecration.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "text": " That night, the Queen Mother of Ejisu, Nana Yaa Asantewaa, addressed the hesitant male chiefs, famously declaring: 'If you, the men of Asante, will not go forward, then we will. We, the women, will. I shall call upon my fellow women. We will fight the white men until the last of us falls.'",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yaa Asantewaa took command of the military campaign, besieging the British garrison in Kumasi fort for months.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "text": " While the British eventually dispatched reinforcements and exiled Yaa Asantewaa, their primary objective failed: the Golden Stool was spirit-hidden deep in the rainforest and never surrendered.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            },
+            {
+              "text": " When the British formally annexed Asante in 1901, they were forced to concede that the stool would remain unmolested in Asante possession.",
+              "cite": [
+                "boahen-yaa-asantewaa-2003"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Accounts of Yaa Asantewaa's famous speech exist in multiple oral variants recorded in Twi; while the core sentiment and call to arms are identical, exact phrasing differs across regional court archives.",
+    "The identity of the specific custodians who secretly buried and protected the Golden Stool during the 1900–1921 period was kept secret for decades to prevent British intelligence from locating it."
+  ],
+  "keyPoints": [
+    {
+      "text": "The Golden Stool (Sika Dwa Kofi) represents the collective soul of the Asante nation; by religious law, nobody may sit on it.",
+      "cite": [
+        "wilks-asante-nineteenth-century-1975"
+      ]
+    },
+    {
+      "text": "In 1900, British Governor Hodgson sparked war by demanding to sit on the stool as an imperial trophy.",
+      "cite": [
+        "boahen-yaa-asantewaa-2003"
+      ]
+    },
+    {
+      "text": "Queen Mother Yaa Asantewaa led a national armed resistance that protected the stool, which the British never captured.",
+      "cite": [
+        "boahen-yaa-asantewaa-2003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "karen-blixen-museum",
+  "status": "draft",
+  "type": "site",
+  "country": "KEN",
+  "name": "Karen Blixen Museum",
+  "region": "Nairobi · Kenya",
+  "subtitle": "A house museum at the foot of the Ngong Hills, run by National Museums of Kenya.",
+  "facts": [
+    {
+      "label": "Built",
+      "value": "Built in 1912 by Swedish engineer Ake Sjogren",
+      "cite": [
+        "cap-museums-or-ke-f735a0"
+      ]
+    },
+    {
+      "label": "Opened",
+      "value": "Museum opened in 1986",
+      "cite": [
+        "cap-museums-or-ke-f735a0"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Once centre of a farm at the foot of the Ngong Hills",
+      "cite": [
+        "cap-museums-or-ke-f735a0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A house museum at the foot of the Ngong Hills, run by National Museums of Kenya. It was once the centrepiece of a farm.",
+              "cite": [
+                "cap-museums-or-ke-f735a0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "karen-blixen-museum",
+    "alt": "Photograph of Karen Blixen Museum.",
+    "caption": "Karen Blixen Museum.",
+    "credit": "さえぼー",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Karen_Blixen_Museum_House.jpg"
+  }
+}

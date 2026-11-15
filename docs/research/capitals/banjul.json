@@ -1,0 +1,61 @@
+{
+  "city": "Banjul",
+  "country": "GMB",
+  "population": {
+    "value": 31054,
+    "year": 2013,
+    "definition": "Population of the City / Local Government Area of Banjul situated on St Mary's Island, enumerated in the 2013 Population and Housing Census conducted by the Gambia Bureau of Statistics (GBoS), tabulated via CityPopulation. While Banjul itself has limited land area bounded by the Atlantic Ocean and mangrove swamps, the surrounding Greater Banjul Area (including Kanifing / Serekunda and Brikama) forms an urban conurbation of over 800,000 residents.",
+    "source": {
+      "title": "The Gambia: Local Government Areas, Major Cities & Settlements (Census 2013)",
+      "publisher": "CityPopulation (credits GBoS The Gambia)",
+      "author": null,
+      "date": "2013-04-08",
+      "url": "https://www.citypopulation.de/en/gambia/cities/",
+      "tier": "institutional",
+      "quote": "2013-04-08 | Banjul: 31,054"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Banjul was founded in April 1816 as Bathurst by British captain Alexander Grant on St Mary's Island as a military post and naval checkpoint to intercept illicit slave ships entering the Gambia River.",
+      "source": {
+        "title": "The Gambia: Local Government Areas, Major Cities & Settlements (Census 2013)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/gambia/cities/",
+        "tier": "institutional",
+        "quote": "Founded in 1816 as Bathurst and renamed Banjul in 1973"
+      }
+    },
+    {
+      "claim": "Arch 22, standing 35 metres tall at the entrance to Banjul on the Senegambia Highway, was erected in 1996 and houses a national history museum alongside panoramic observation terraces.",
+      "source": {
+        "title": "National Centre for Arts and Culture: Arch 22 and the National Museum of The Gambia",
+        "publisher": "National Centre for Arts and Culture (NCAC The Gambia)",
+        "author": null,
+        "date": null,
+        "url": "https://ncac.gm/",
+        "tier": "institutional",
+        "quote": "Arch 22 monumental gateway and museum erected in 1996"
+      }
+    },
+    {
+      "claim": "The National Museum of The Gambia on Gloucester Street preserves traditional Mandinka, Wolof, and Fula musical instruments (such as the 21-stringed kora), ritual Kankurang masquerade garments, and ethnographic archives.",
+      "source": {
+        "title": "National Centre for Arts and Culture: Arch 22 and the National Museum of The Gambia",
+        "publisher": "National Centre for Arts and Culture (NCAC The Gambia)",
+        "author": null,
+        "date": null,
+        "url": "https://ncac.gm/",
+        "tier": "institutional",
+        "quote": "National Museum preserving traditional Gambian masquerades, koras, and ethnographic regalia"
+      }
+    }
+  ],
+  "gaps": [
+    "Final published tables of the 2024 digital census round are pending from GBoS.",
+    "First-hand local voices from Barra ferry commuters and market women in Albert Market are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

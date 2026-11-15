@@ -3,6 +3,14 @@
   "status": "published",
   "type": "site",
   "country": "SOM",
+  "coords": {
+    "lat": 9.7833,
+    "lon": 44.45,
+    "approx": true,
+    "cite": [
+      "wikipedia-laas-geel"
+    ]
+  },
   "name": "Laas Geel",
   "region": "Somalia",
   "subtitle": "Cave paintings near Hargeisa, 4,500 to 5,500 years old. Card in preparation.",

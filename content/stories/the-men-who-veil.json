@@ -1,0 +1,163 @@
+{
+  "slug": "the-men-who-veil",
+  "status": "published",
+  "kind": "myth",
+  "title": "The men who veil and the women who write",
+  "subtitle": "In Tuareg society, men cover their faces from puberty, women hold family property and lineage, and an ancient desert script was kept alive through love poetry.",
+  "countries": [
+    "NER",
+    "MLI",
+    "DZA"
+  ],
+  "places": [
+    "historic-centre-of-agadez"
+  ],
+  "sections": [
+    {
+      "id": "the-tagelmust",
+      "title": "The veil worn by men",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Among the Kel Tamasheq (commonly known as the Tuareg), a pastoralist Berber society of the Sahara desert, traditional face covering is an obligation reserved exclusively for men.",
+              "cite": [
+                "keenan-tuareg-veil-1977"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Upon reaching adulthood, a man receives the tagelmust (also called alasho or cheche), an indigo or black cotton scarf several meters long that wraps around the head and covers the mouth and nose.",
+              "cite": [
+                "keenan-tuareg-veil-1977"
+              ]
+            },
+            {
+              "text": " Beyond protecting against desert winds and blowing sand, the veil is a sacred social boundary of dignity, modesty, and respect (takarakit). Men rarely remove it even in the presence of close relatives or when eating.",
+              "cite": [
+                "keenan-tuareg-veil-1977",
+                "claudot-hawad-tuaregs-1993"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Uncovered faces",
+          "parts": [
+            {
+              "text": "In contrast to prevailing European stereotypes about Saharan or Islamic gender roles, Tuareg women traditionally move freely in public with their faces uncovered, participating directly in community gatherings and camp governance.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matrilineal-power",
+      "title": "Matrilineal heritage and property",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tuareg society is historically organized around matrilineal descent: social status, clan nobility, and inherited titles pass primarily through the mother's line.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The family tent and domestic herds belong to the woman.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            },
+            {
+              "text": " If a couple decides to separate, divorce carries no social stigma. The woman retains full ownership of the tent, her animals, and household goods, while the husband departs with his personal camel, weapons, and saddle to return to his maternal kin.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tifinagh-and-imzad",
+      "title": "The custodians of Tifinagh and the Imzad",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ancient Libyan-Berber alphabet, known as Tifinagh, was preserved across generations largely through the literacy of Tuareg women.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            },
+            {
+              "text": " While men often learned Arabic for trans-Saharan commerce or legal contracts, women carved Tifinagh geometric characters onto leather pouches, pottery, and desert rocks to record short messages, genealogies, and lyrical love poetry.",
+              "cite": [
+                "claudot-hawad-tuaregs-1993"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Musical and literary heritage is epitomized by the Imzad, a single-string bowed lute made from a calabash and horsehair.",
+              "cite": [
+                "unesco-ich-imzad-00891"
+              ]
+            },
+            {
+              "text": " Under ancestral custom, the Imzad may only be crafted and played by women, who perform epic ballads while men listen and recite accompanying poems.",
+              "cite": [
+                "unesco-ich-imzad-00891"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Modern sedentarization, urbanization in regional centers like Agadez, and state schooling have transformed customary matrilineal inheritance rules toward statutory national legal frameworks.",
+    "Variations in social stratification across different Tuareg confederations (such as the Kel Ahaggar, Kel Ayr, and Kel Adagh) mean that historical norms were negotiated differently across pastoral and oasis settlements."
+  ],
+  "keyPoints": [
+    {
+      "text": "In traditional Tuareg culture, men wear the tagelmust veil from adulthood as a code of honor and social reserve, while women do not cover their faces.",
+      "cite": [
+        "keenan-tuareg-veil-1977"
+      ]
+    },
+    {
+      "text": "Clan membership, noble status, and ownership of family tents and herds historically descended along matrilineal lines.",
+      "cite": [
+        "claudot-hawad-tuaregs-1993"
+      ]
+    },
+    {
+      "text": "The indigenous geometric script Tifinagh and the sacred single-string Imzad lute were preserved and mastered primarily by Tuareg women.",
+      "cite": [
+        "unesco-ich-imzad-00891",
+        "claudot-hawad-tuaregs-1993"
+      ]
+    }
+  ]
+}

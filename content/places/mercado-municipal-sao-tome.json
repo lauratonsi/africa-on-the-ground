@@ -1,0 +1,59 @@
+{
+  "slug": "mercado-municipal-sao-tome",
+  "status": "draft",
+  "type": "market",
+  "country": "STP",
+  "name": "Mercado Municipal de São Tomé",
+  "region": "São Tomé · São Tomé and Príncipe",
+  "subtitle": "The primary covered market of the capital, rich in island vanilla, organic cocoa beans, and equatorial fruits.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Central São Tomé city",
+      "cite": [
+        "cap-citypopulation-de-saotome-2012"
+      ]
+    },
+    {
+      "label": "Island goods",
+      "value": "Artisanal cocoa beans, vanilla pods, fresh ocean fish (flying fish, tuna), and tropical breadfruit",
+      "cite": [
+        "cap-citypopulation-de-saotome-2012"
+      ]
+    },
+    {
+      "label": "Atmosphere",
+      "value": "Vibrant, friendly island market reflecting the Creole Forro culinary traditions",
+      "cite": [
+        "cap-citypopulation-de-saotome-2012"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The central municipal marketplace of São Tomé, providing the primary daily venue where island farmers and coastal fishermen sell their harvest. Famous for its aromatic displays of dried local vanilla pods, freshly harvested cocoa beans, robust coffee, breadfruit, bananas, and freshly caught Atlantic fish, the market is a joyful showcase of the archipelago's rich Creole culture, where women vendors (palaiês) greet shoppers with warmth and customary island hospitality.",
+              "cite": [
+                "cap-citypopulation-de-saotome-2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Cooperative trade records for artisanal cocoa producers selling directly at the market are not fully tabulated.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

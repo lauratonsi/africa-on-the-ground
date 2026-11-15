@@ -3,10 +3,256 @@
   "status": "draft",
   "country": "MDG",
   "name": "Antananarivo",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Antananarivo, capital of Madagascar: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,274,225 people live in Antananarivo Renivohitra district (counted 2018).",
+      "cite": [
+        "cap-citypopulation-de-3f082f"
+      ]
+    },
+    {
+      "text": "Andrianjaka became king of Merina in 1610 and ruled until 1630; he made Antananarivo the new capital.",
+      "cite": [
+        "cap-ebsco-com-e756cf"
+      ]
+    },
+    {
+      "text": "Andrianjaka renamed the settlement Antananarivo to reflect the one thousand warriors stationed there.",
+      "cite": [
+        "cap-ebsco-com-e756cf"
+      ]
+    }
+  ],
+  "places": [
+    "rova-of-antananarivo",
+    "analakely-market",
+    "tsimbazaza-park",
+    "andafiavaratra-palace"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Antananarivo in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Andrianjaka became king of Merina in 1610 and ruled until 1630; he made Antananarivo the new capital.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Andrianjaka renamed the settlement Antananarivo to reflect the one thousand warriors stationed there.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city was the capital established and named by Andrianjaka and became the capital of the Merina kingdom; it remains Madagascar's capital.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "France annexed the kingdom of Imerina in 1896 (EBSCO also notes Madagascar officially became a French colony on 28 February 1897).",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Madagascar became independent on 26 June 1960.",
+              "cite": [
+                "cap-independance-africamuseum-be-a223fe"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,274,225",
+              "label": "people in Antananarivo Renivohitra district, 2018",
+              "cite": [
+                "cap-citypopulation-de-3f082f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Antananarivo Renivohitra district?",
+          "min": 0,
+          "max": 4000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 1274225,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,274,225 in 2018, according to the figures compiled from the national statistics office. Which area is counted matters: Census count (RGPH-3, 2018, final figures) for the district Antananarivo Renivohitra, which comprises Antananarivo city; listed as 'Urban'.",
+              "cite": [
+                "cap-citypopulation-de-3f082f"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1610",
+              "tag": "origins",
+              "text": "Andrianjaka becomes king of Merina and makes Antananarivo the new capital.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            },
+            {
+              "when": "late 18th century",
+              "tag": "origins",
+              "text": "The Zoma, a large weekly open-air market in the heart of the city, is created by a powerful king.",
+              "cite": [
+                "cap-persee-fr-e1b56f"
+              ]
+            },
+            {
+              "when": "1872",
+              "tag": "growth",
+              "text": "The stone Andafiavaratra Palace, home of Prime Minister Rainilaiarivony, replaces the earlier wooden palace.",
+              "cite": [
+                "cap-madamagazine-com-9e1db3"
+              ]
+            },
+            {
+              "when": "1896",
+              "tag": "growth",
+              "text": "France annexes the kingdom of Imerina.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            },
+            {
+              "when": "1925",
+              "tag": "growth",
+              "text": "The Tsimbazaza botanical garden is created on 29 August 1925 by Governor General Marcel Olivier, initially 12 hectares.",
+              "cite": [
+                "cap-lexpress-mg-ae0354"
+              ]
+            },
+            {
+              "when": "26 June 1960",
+              "tag": "growth",
+              "text": "Madagascar becomes independent.",
+              "cite": [
+                "cap-independance-africamuseum-be-a223fe"
+              ]
+            },
+            {
+              "when": "6 November 1995",
+              "tag": "today",
+              "text": "A fire in the evening devastates the Rova of Antananarivo, destroying several historic buildings; no legal or administrative decision has identified who was responsible.",
+              "cite": [
+                "cap-lexpress-mg-af8117"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Antananarivo in order.",
+          "items": [
+            {
+              "label": "Andrianjaka becomes king of Merina and makes Antananarivo the new capital.",
+              "when": "1610",
+              "text": "Andrianjaka becomes king of Merina and makes Antananarivo the new capital.",
+              "cite": [
+                "cap-ebsco-com-e756cf"
+              ]
+            },
+            {
+              "label": "The stone Andafiavaratra Palace, home of Prime Minister Rainilaiarivony…",
+              "when": "1872",
+              "text": "The stone Andafiavaratra Palace, home of Prime Minister Rainilaiarivony, replaces the earlier wooden palace.",
+              "cite": [
+                "cap-madamagazine-com-9e1db3"
+              ]
+            },
+            {
+              "label": "The Tsimbazaza botanical garden is created on 29 August 1925 by Governor…",
+              "when": "1925",
+              "text": "The Tsimbazaza botanical garden is created on 29 August 1925 by Governor General Marcel Olivier, initially 12 hectares.",
+              "cite": [
+                "cap-lexpress-mg-ae0354"
+              ]
+            },
+            {
+              "label": "A fire in the evening devastates the Rova of Antananarivo, destroying several…",
+              "when": "6 November 1995",
+              "text": "A fire in the evening devastates the Rova of Antananarivo, destroying several historic buildings; no legal or administrative decision has identified who was responsible.",
+              "cite": [
+                "cap-lexpress-mg-af8117"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Rova UNESCO listing status: not verified in any readable non-UNESCO source (do not assume)",
+    "Not found in a readable source: Exact INSTAT RGPH-3 table for the commune (INSTAT page not read; citypopulation.de used as fallback naming INSTAT)",
+    "Not found in a readable source: Independence 1960 plus Antananarivo link in EBSCO (EBSCO does not mention 1960; africamuseum used)",
+    "Not found in a readable source: Readable second source for Andafiavaratra (only MADAMAGAZINE, a weak magazine source)",
+    "Not found in a readable source: Readable academic/institutional source for Rova fire 1995 and restoration timeline (only L'Express; date inferred from URL)",
+    "Not found in a readable source: Musée d'Art et d'Archéologie, Lemurs' Park, Isoraka, Soarano, Place de l'Independance: not researched/sourced",
+    "Not found in a readable source: Any source explicitly correcting a misconception (myth = null)",
+    "Not found in a readable source: Conflict noted: EBSCO says Andrianjaka renamed the city; other (unread) sources attribute the renaming to Andriamasinavalona. Wikipedia-only lead, unresolved",
+    "Not found in a readable source: Zoma end year 1997 only seen in Lonely Planet (travel guide, skipped); Persée says 'end of the 1990s'",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Madagascar has read this profile yet."
   ]
 }

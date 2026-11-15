@@ -1,0 +1,67 @@
+{
+  "slug": "adwa-victory-memorial",
+  "status": "draft",
+  "type": "site",
+  "country": "ETH",
+  "name": "Adwa Victory Memorial",
+  "region": "Addis Ababa · Ethiopia",
+  "subtitle": "A memorial and museum complex in central Addis Ababa marking the Battle of Adwa, inaugurated in February 2024.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "11 February 2024 by PM Abiy Ahmed and President Sahlework Zewde",
+      "cite": [
+        "cap-ena-et-933778"
+      ]
+    },
+    {
+      "label": "Gates",
+      "value": "Eight gates dedicated to Ethiopian forefathers",
+      "cite": [
+        "cap-ena-et-933778"
+      ]
+    },
+    {
+      "label": "Design",
+      "value": "A complex of 11 interconnected blocks",
+      "cite": [
+        "cap-allafrica-com-a371be"
+      ]
+    },
+    {
+      "label": "Museum highlight",
+      "value": "A detailed sandcast of the Battle of Adwa; the first aircraft built in Ethiopia",
+      "cite": [
+        "cap-allafrica-com-a371be"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A memorial and museum complex in central Addis Ababa marking the Battle of Adwa, inaugurated in February 2024. It combines gates, statues and a museum.",
+              "cite": [
+                "cap-ena-et-933778",
+                "cap-allafrica-com-a371be"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

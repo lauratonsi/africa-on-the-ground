@@ -3,10 +3,62 @@
   "status": "draft",
   "country": "TGO",
   "name": "Lomé",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Lomé, capital of Togo: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Greater Lomé numbered 2,188,376 residents across Golfe and Agoè-Nyivé prefectures in the 2022 census.",
+      "cite": [
+        "cap-citypopulation-de-togo-2022"
+      ]
+    }
+  ],
+  "places": [
+    "koutammakou",
+    "palais-de-lome",
+    "grand-marche-de-lome",
+    "monument-de-l-independance-lome"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Lomé in brief",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,188,376",
+              "label": "residents in Greater Lomé (Golfe and Agoè-Nyivé), 2022",
+              "cite": [
+                "cap-citypopulation-de-togo-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in Greater Lomé in the 2022 census?",
+          "min": 800000,
+          "max": 3500000,
+          "step": 50000,
+          "unit": "",
+          "answer": 2188376,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,188,376 residents across Greater Lomé (Golfe: 1,305,681; Agoè-Nyivé: 882,695) in the November 2022 census by INSEED Togo.",
+              "cite": [
+                "cap-citypopulation-de-togo-2022"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

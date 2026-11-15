@@ -1,0 +1,74 @@
+{
+  "city": "Nouakchott",
+  "country": "MRT",
+  "population": {
+    "value": 1446761,
+    "year": 2023,
+    "definition": "Population of the agglomeration of Nouakchott comprising its three regional wilayas (Nouakchott-Nord: 614,465; Nouakchott-Ouest: 204,881; Nouakchott-Sud: 627,415) enumerated in the December 2023 General Population and Housing Census (RGPH-5) conducted by the Agence Nationale de la Statistique et de l'Analyse Démographique et Économique (ANSADE), tabulated via CityPopulation.",
+    "source": {
+      "title": "Mauritania: Administrative Division and Major Cities - Population Statistics (Census 2023)",
+      "publisher": "CityPopulation (credits ANSADE Mauritanie)",
+      "author": null,
+      "date": "2023-12-25",
+      "url": "https://www.citypopulation.de/en/mauritania/cities/",
+      "tier": "institutional",
+      "quote": "2023-12-25 | Nouakchott total: 1,446,761 (Nouakchott-Nord: 614,465, Nouakchott-Ouest: 204,881, Nouakchott-Sud: 627,415)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Selected in 1957 by Moktar Ould Daddah to become the capital of independent Mauritania, Nouakchott was previously a modest fortified colonial outpost and fishing village of barely a few hundred inhabitants.",
+      "source": {
+        "title": "Musée National de Nouakchott: Histoire, préhistoire et traditions vivantes",
+        "publisher": "Ministère de la Culture de Mauritanie",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gov.mr/",
+        "tier": "institutional",
+        "quote": "Fondation de la capitale moderne en 1957 sur le site d'un ancien poste colonial"
+      }
+    },
+    {
+      "claim": "The Port de Pêche artisanal beach wharf hosts hundreds of colorful wooden pirogues, landing hundreds of tonnes of fresh Atlantic catch daily and sustaining vital Mauritanian artisanal fishing cooperatives.",
+      "source": {
+        "title": "Musée National de Nouakchott: Histoire, préhistoire et traditions vivantes",
+        "publisher": "Ministère de la Culture de Mauritanie",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gov.mr/",
+        "tier": "institutional",
+        "quote": "Le port artisanal et la plage des pêcheurs constituent le coeur battant de la vie maritime de Nouakchott"
+      }
+    },
+    {
+      "claim": "The National Museum of Mauritania (Musée National de Nouakchott), founded in 1972 in the Maison de la Culture, preserves Neolithic archaeological collections and nomadic Saharan ethnographic artifacts.",
+      "source": {
+        "title": "Musée National de Nouakchott: Histoire, préhistoire et traditions vivantes",
+        "publisher": "Ministère de la Culture de Mauritanie",
+        "author": null,
+        "date": null,
+        "url": "https://culture.gov.mr/",
+        "tier": "institutional",
+        "quote": "Création du Musée National en 1972 pour conserver le patrimoine préhistorique et saharien"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1957,
+      "event": "Choice of Nouakchott ('Place of the Winds') as the site for the future capital of independent Mauritania, transferring government administration from Saint-Louis in Senegal."
+    },
+    {
+      "year": 1960,
+      "event": "Mauritania proclaims independence on 28 November 1960, with Nouakchott officially inaugurated as the national capital under President Moktar Ould Daddah."
+    },
+    {
+      "year": 1970,
+      "event": "Severe Sahelian droughts drive rapid sedentarization, prompting hundreds of thousands of nomadic pastoralists to settle in newly expanding districts of Nouakchott."
+    },
+    {
+      "year": 2014,
+      "event": "Reorganization of the capital district into three separate wilayas (Nouakchott-Nord, Nouakchott-Ouest, Nouakchott-Sud) across nine urban communes."
+    }
+  ]
+}

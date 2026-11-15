@@ -1,0 +1,58 @@
+{
+  "slug": "mosquee-saoudienne-de-nouakchott",
+  "status": "draft",
+  "type": "site",
+  "country": "MRT",
+  "name": "Mosquée Saoudienne de Nouakchott",
+  "region": "Nouakchott · Mauritania",
+  "subtitle": "Iconic central mosque gifted by Saudi Arabia with towering minarets in the heart of downtown.",
+  "facts": [
+    {
+      "label": "Constructed",
+      "value": "1970s with funding from the Kingdom of Saudi Arabia",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "Classical Islamic arches with twin minarets and tiled prayer hall",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Significance",
+      "value": "Principal Friday congregational prayer center in downtown Nouakchott",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Mosquée Saoudienne (Saudi Mosque or Grande Mosquée de Nouakchott) is one of the most prominent landmarks in the Mauritanian capital. Constructed in the 1970s through a donation from King Faisal of Saudi Arabia, the mosque features twin square minarets rising over central Nouakchott and serves as the primary spiritual gathering place for Friday prayers and major Islamic holidays.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

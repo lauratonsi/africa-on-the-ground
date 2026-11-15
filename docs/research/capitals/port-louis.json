@@ -1,0 +1,551 @@
+{
+ "city": "Port Louis",
+ "country": "MUS",
+ "population": {
+  "value": 106332,
+  "year": 2022,
+  "definition": "Total resident population (de jure) of Port Louis District, 2022 Population Census (reference week ended 3 July 2022). The census tables show resident population unless stated. The Town of Port Louis has different boundaries: it includes areas in Moka and Black River districts; citypopulation.de lists the town at 140,403 (2022), but that figure was not checked in the official source.",
+  "source": {
+   "title": "2022 Housing and Population Census, Volume III: Geographical and Migration Characteristics, Table G1",
+   "publisher": "Statistics Mauritius (Ministry of Finance, Economic Planning and Development)",
+   "author": null,
+   "date": "June 2024",
+   "url": "https://statsmauritius.govmu.org/Documents/Census_and_Surveys/Census2022/HPC_Vol3_Geo_Migration_Yr22_%20120126.pdf",
+   "tier": "institutional",
+   "quote": "PORT LOUIS DISTRICT-Wholly Urban 106,332"
+  }
+ },
+ "facts": [
+  {
+   "claim": "Construction of Port Louis began in 1735 under Mahé de La Bourdonnais, first governor of Mauritius; the site had been chosen as the island's port from 1732.",
+   "source": {
+    "title": "History - City Council Of Port Louis (History of the City)",
+    "publisher": "City Council of Port Louis",
+    "author": null,
+    "date": "Copyright 2024 (page undated)",
+    "url": "https://mccpl.mu/?p=125",
+    "tier": "institutional",
+    "quote": "Bertrand François Mahé de Labourdonnais, the first governor of Mauritius, started the construction in 1735 (summary of page text; verify wording)"
+   }
+  },
+  {
+   "claim": "The city is named for King Louis XV of France; the French named the port and administrative centre Port Louis.",
+   "source": {
+    "title": "Port Louis, Mauritius (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Micah Issitt",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/port-louis-mauritius/",
+    "tier": "academic",
+    "quote": "specifically named its primary port and administrative center Port Louis in honor of King"
+   }
+  },
+  {
+   "claim": "Dutch: the Dutch named the island for Prince Maurice of Nassau and founded the first permanent settlement in 1638, a timber community near the present city.",
+   "source": {
+    "title": "Port Louis, Mauritius (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Micah Issitt",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/port-louis-mauritius/",
+    "tier": "academic",
+    "quote": "The Dutch named the island in honor of Dutch prince Maurice of Nassau."
+   }
+  },
+  {
+   "claim": "French/British: the city carried other names under French rule (Port de La Montagne 1794, Port Nord-Ouest 1795-1803, Port Napoléon 1803); the British took the island in 1810 and Governor Robert Farquhar restored the name Port Louis.",
+   "source": {
+    "title": "History - City Council Of Port Louis (History of the City)",
+    "publisher": "City Council of Port Louis",
+    "author": null,
+    "date": "Copyright 2024 (page undated)",
+    "url": "https://mccpl.mu/?p=125",
+    "tier": "institutional",
+    "quote": "In 1810, Governor Robert Farquhar restored the name Port Louis. (summary of page text)"
+   }
+  },
+  {
+   "claim": "Mauritius became independent from Britain in 1968 (constitution adopted 12 March 1968), and a republic in 1992.",
+   "source": {
+    "title": "Mauritius (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Christopher Stetter",
+    "date": "2023",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/mauritius",
+    "tier": "academic",
+    "quote": "Mauritius gained its independence from Great Britain in 1968"
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1638",
+   "claim": "The Dutch found the first permanent settlement on the island, a timber community near the present city.",
+   "tag": "origins",
+   "source": {
+    "title": "Port Louis, Mauritius (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Micah Issitt",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/port-louis-mauritius/",
+    "tier": "academic",
+    "quote": "founded the first permanent settlement in 1638 (summary; verify wording)"
+   }
+  },
+  {
+   "when": "1735",
+   "claim": "Construction of Port Louis begins under governor Mahé de La Bourdonnais.",
+   "tag": "origins",
+   "source": {
+    "title": "History - City Council Of Port Louis (History of the City)",
+    "publisher": "City Council of Port Louis",
+    "author": null,
+    "date": "Copyright 2024 (page undated)",
+    "url": "https://mccpl.mu/?p=125",
+    "tier": "institutional",
+    "quote": "started the construction in 1735 (summary of page text)"
+   }
+  },
+  {
+   "when": "1773",
+   "claim": "First fruit and vegetable sales held in front of St Louis Cathedral, the origin of the later central market.",
+   "tag": "growth",
+   "source": {
+    "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+    "publisher": "Le Mauricien",
+    "author": null,
+    "date": "2012-10-18",
+    "url": "https://www.lemauricien.com/?p=113009",
+    "tier": "press",
+    "quote": "1773 first fruit and vegetable sales in front of St Louis Cathedral (summarised from page)"
+   }
+  },
+  {
+   "when": "1810",
+   "claim": "The island becomes a British colony; Governor Farquhar restores the name Port Louis.",
+   "tag": "growth",
+   "source": {
+    "title": "History - City Council Of Port Louis (History of the City)",
+    "publisher": "City Council of Port Louis",
+    "author": null,
+    "date": "Copyright 2024 (page undated)",
+    "url": "https://mccpl.mu/?p=125",
+    "tier": "institutional",
+    "quote": "In 1810, Governor Robert Farquhar restored the name Port Louis. (summary)"
+   }
+  },
+  {
+   "when": "25 June 1812",
+   "claim": "First races at the Champ de Mars, former military training ground.",
+   "tag": "growth",
+   "source": {
+    "title": "PUBLICATION ET EXPOSITION: Au rythme de 200 ans de courses hippiques",
+    "publisher": "Le Mauricien",
+    "author": null,
+    "date": "2012-07-01",
+    "url": "https://www.lemauricien.com/actualites/magazine/publication-et-expositionau-rythme-200-ans-courses-hippiques/119615/",
+    "tier": "press",
+    "quote": "first racing day 25 June 1812 (summarised from page)"
+   }
+  },
+  {
+   "when": "1845",
+   "claim": "The Bazaar central is built with four wings.",
+   "tag": "growth",
+   "source": {
+    "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+    "publisher": "Le Mauricien",
+    "author": null,
+    "date": "2012-10-18",
+    "url": "https://www.lemauricien.com/?p=113009",
+    "tier": "press",
+    "quote": "built in 1845 with four wings (summarised)"
+   }
+  },
+  {
+   "when": "1850",
+   "claim": "First municipal elections held; Louis Léchelle becomes first mayor.",
+   "tag": "growth",
+   "source": {
+    "title": "History - City Council Of Port Louis (History of the City)",
+    "publisher": "City Council of Port Louis",
+    "author": null,
+    "date": "Copyright 2024 (page undated)",
+    "url": "https://mccpl.mu/?p=125",
+    "tier": "institutional",
+    "quote": "1850 first municipal elections, Louis Léchelle first mayor (summary)"
+   }
+  },
+  {
+   "when": "1968",
+   "claim": "Mauritius becomes independent within the Commonwealth; Port Louis is the capital.",
+   "tag": "today",
+   "source": {
+    "title": "Port Louis, Mauritius (Research Starter)",
+    "publisher": "EBSCO",
+    "author": "Micah Issitt",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/port-louis-mauritius/",
+    "tier": "academic",
+    "quote": "allowed Mauritius to become an independent nation within the British Commonwealth in 1968"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Central Market (Bazaar central)",
+   "type": "market",
+   "what": "The main market of Port Louis, with fish, meat, grocery and fresh produce sections. Its present layout dates from the 1845 building, with later reconstruction after fires.",
+   "facts": [
+    {
+     "label": "Origin of market sales",
+     "value": "First fruit and vegetable sales were held in front of St Louis Cathedral in 1773.",
+     "source": {
+      "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-10-18",
+      "url": "https://www.lemauricien.com/?p=113009",
+      "tier": "press",
+      "quote": "1773 ... St Louis Cathedral (summarised)"
+     }
+    },
+    {
+     "label": "Fire of 1816",
+     "value": "A fire destroyed the market on 25 September 1816.",
+     "source": {
+      "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-10-18",
+      "url": "https://www.lemauricien.com/?p=113009",
+      "tier": "press",
+      "quote": "25 September 1816 fire (summarised)"
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Bazaar central built in 1845 with four wings; fish and meat wings survived to 2012 without major repairs.",
+     "source": {
+      "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-10-18",
+      "url": "https://www.lemauricien.com/?p=113009",
+      "tier": "press",
+      "quote": "167 years without major repairs"
+     }
+    },
+    {
+     "label": "Later fires and reconstruction",
+     "value": "Fires destroyed the grocery section (19 May 1981) and vegetable section (4 November 1999); reconstruction completed 11 March 2004.",
+     "source": {
+      "title": "STREET VENDORS – PART II: Our findings in the Central Market of Port-Louis…",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-10-18",
+      "url": "https://www.lemauricien.com/?p=113009",
+      "tier": "press",
+      "quote": "(summarised from page)"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Port Louis Central Market.JPG",
+    "licence": "Public domain (released by author)",
+    "author": "Shoestring (WT-shared, from Wikivoyage), Sept 2006; presence of people in the image not verified"
+   },
+   "readSources": [
+    "https://www.lemauricien.com/?p=113009",
+    "https://tourism.govmu.org/Pages/Services/Tourist-Sites.aspx"
+   ]
+  },
+  {
+   "name": "Champ de Mars Racecourse",
+   "type": "site",
+   "what": "A racecourse in the centre of Port Louis, where horse racing began in 1812 on a former military training ground. It is home to the Mauritius Turf Club.",
+   "facts": [
+    {
+     "label": "First races",
+     "value": "First racing day 25 June 1812.",
+     "source": {
+      "title": "PUBLICATION ET EXPOSITION: Au rythme de 200 ans de courses hippiques",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-07-01",
+      "url": "https://www.lemauricien.com/actualites/magazine/publication-et-expositionau-rythme-200-ans-courses-hippiques/119615/",
+      "tier": "press",
+      "quote": "first racing day 25 June 1812 (summarised)"
+     }
+    },
+    {
+     "label": "Oldest in southern hemisphere",
+     "value": "Le Mauricien calls it the first racecourse of the southern hemisphere.",
+     "source": {
+      "title": "PUBLICATION ET EXPOSITION: Au rythme de 200 ans de courses hippiques",
+      "publisher": "Le Mauricien",
+      "author": null,
+      "date": "2012-07-01",
+      "url": "https://www.lemauricien.com/actualites/magazine/publication-et-expositionau-rythme-200-ans-courses-hippiques/119615/",
+      "tier": "press",
+      "quote": "le premier hippodrome de l'hémisphère sud"
+     }
+    },
+    {
+     "label": "Purpose",
+     "value": "Governor Farquhar organised races to bring English and French communities together; the site was a former French military training ground.",
+     "source": {
+      "title": "Two centuries on, racing fervour still unites Mauritians",
+      "publisher": "Gulf Times (AFP)",
+      "author": "AFP (no individual author)",
+      "date": "2016-10-24",
+      "url": "https://www.gulf-times.com/story/518660/two-centuries-on-racing-fervour-still-unites-mauritians",
+      "tier": "press",
+      "quote": "200-year-old track in the centre of Port Louis (summarised)"
+     }
+    },
+    {
+     "label": "Club ranking (disputed)",
+     "value": "AFP: the club is 'believed to be the third oldest racing club in the world'; other web sources say second. Do not state a world rank.",
+     "source": {
+      "title": "Two centuries on, racing fervour still unites Mauritians",
+      "publisher": "Gulf Times (AFP)",
+      "author": "AFP (no individual author)",
+      "date": "2016-10-24",
+      "url": "https://www.gulf-times.com/story/518660/two-centuries-on-racing-fervour-still-unites-mauritians",
+      "tier": "press",
+      "quote": "believed to be the third oldest racing club in the world"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:The Champ de Mars Racecourse.JPG",
+    "licence": "CC BY-SA 4.0",
+    "author": "Martin Falbisoner"
+   },
+   "readSources": [
+    "https://www.lemauricien.com/actualites/magazine/publication-et-expositionau-rythme-200-ans-courses-hippiques/119615/",
+    "https://www.gulf-times.com/story/518660/two-centuries-on-racing-fervour-still-unites-mauritians"
+   ]
+  },
+  {
+   "name": "The Citadel (Fort Adelaide)",
+   "type": "site",
+   "what": "A basalt fort on a hill above Port Louis, built by the British in the 1830s. It is a national monument and a viewpoint over the city.",
+   "facts": [
+    {
+     "label": "Construction",
+     "value": "Built 1834-1840 at about 40,000 pounds sterling, then the most expensive construction on the island; named after Queen Adelaide.",
+     "source": {
+      "title": "Economic Development Board : appel à candidatures international pour «régénérer» La Citadelle",
+      "publisher": "Defimedia",
+      "author": "Patrick Hilbert",
+      "date": "2024-05-28",
+      "url": "https://defimedia.info/economic-development-board-appel-candidatures-international-pour-regenerer-la-citadelle",
+      "tier": "press",
+      "quote": "Construction began in 1834 and finished in 1840 (summarised)"
+     }
+    },
+    {
+     "label": "Workforce",
+     "value": "Convicts from India, indentured Indian workers, Mauritian prisoners, craftsmen from Bombay and local masons.",
+     "source": {
+      "title": "Economic Development Board : appel à candidatures international pour «régénérer» La Citadelle",
+      "publisher": "Defimedia",
+      "author": "Patrick Hilbert",
+      "date": "2024-05-28",
+      "url": "https://defimedia.info/economic-development-board-appel-candidatures-international-pour-regenerer-la-citadelle",
+      "tier": "press",
+      "quote": "(summarised from page)"
+     }
+    },
+    {
+     "label": "Purpose",
+     "value": "Built to house British troops and watch for unrest before the abolition of slavery; never used much in practice.",
+     "source": {
+      "title": "La Citadelle, a museum in the making",
+      "publisher": "La Gazette",
+      "author": "Dominique Bellier",
+      "date": "2025-11-04",
+      "url": "https://www.lagazette-mag.io/en/?p=37318",
+      "tier": "press",
+      "quote": "used only for rare temporary mobilizations (summarised)"
+     }
+    },
+    {
+     "label": "Heritage status",
+     "value": "Declared a national monument in 1958 (Government Notice No. 614).",
+     "source": {
+      "title": "Economic Development Board : appel à candidatures international pour «régénérer» La Citadelle",
+      "publisher": "Defimedia",
+      "author": "Patrick Hilbert",
+      "date": "2024-05-28",
+      "url": "https://defimedia.info/economic-development-board-appel-candidatures-international-pour-regenerer-la-citadelle",
+      "tier": "press",
+      "quote": "(summarised from page)"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Fort Adelaide Port Louis 2019-09-27.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Z thomas"
+   },
+   "readSources": [
+    "https://www.lagazette-mag.io/en/?p=37318",
+    "https://defimedia.info/economic-development-board-appel-candidatures-international-pour-regenerer-la-citadelle"
+   ]
+  },
+  {
+   "name": "Jummah Mosque",
+   "type": "culture",
+   "what": "A large mosque in the middle of Chinatown in central Port Louis. It grew from a small mosque on land bought in 1852 into the present building.",
+   "facts": [
+    {
+     "label": "Founding",
+     "value": "Founded 1852 when a small Muslim community acquired land in the city centre.",
+     "source": {
+      "title": "Jummah Mosque : un havre de quiétude au cœur de la capitale",
+      "publisher": "Defimedia",
+      "author": null,
+      "date": "2016-09-13",
+      "url": "https://defimedia.info/jummah-mosque-un-havre-de-quietude-au-coeur-de-la-capitale",
+      "tier": "press",
+      "quote": "fondée en 1852 (summarised)"
+     }
+    },
+    {
+     "label": "Government listing",
+     "value": "Ministry of Tourism: 'built in the 1850's, in the middle of Chinatown'.",
+     "source": {
+      "title": "Tourist Sites",
+      "publisher": "Ministry of Tourism, Government of Mauritius",
+      "author": null,
+      "date": null,
+      "url": "https://tourism.govmu.org/Pages/Services/Tourist-Sites.aspx",
+      "tier": "institutional",
+      "quote": "visit Port Louis' Jummah Mosque, built in the 1850's, in the middle of Chinatown"
+     }
+    },
+    {
+     "label": "Wooden staircase",
+     "value": "Entirely wooden spiral staircase, once used by the muezzin to call to prayer.",
+     "source": {
+      "title": "Jummah Mosque : un havre de quiétude au cœur de la capitale",
+      "publisher": "Defimedia",
+      "author": null,
+      "date": "2016-09-13",
+      "url": "https://defimedia.info/jummah-mosque-un-havre-de-quietude-au-coeur-de-la-capitale",
+      "tier": "press",
+      "quote": "(summarised from page)"
+     }
+    },
+    {
+     "label": "Size",
+     "value": "Around 3,000 people pass through for Friday prayers and big occasions.",
+     "source": {
+      "title": "Jummah Mosque : un havre de quiétude au cœur de la capitale",
+      "publisher": "Defimedia",
+      "author": null,
+      "date": "2016-09-13",
+      "url": "https://defimedia.info/jummah-mosque-un-havre-de-quietude-au-coeur-de-la-capitale",
+      "tier": "press",
+      "quote": "(summarised)"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Port Louis, Jummah Masjeed.jpg",
+    "licence": "CC0 1.0",
+    "author": "Karsten Ratzke (Karsten11)"
+   },
+   "readSources": [
+    "https://defimedia.info/jummah-mosque-un-havre-de-quietude-au-coeur-de-la-capitale",
+    "https://tourism.govmu.org/Pages/Services/Tourist-Sites.aspx"
+   ]
+  },
+  {
+   "name": "Natural History Museum (Mauritius Institute)",
+   "type": "culture",
+   "what": "The oldest museum in Mauritius, housed in the Mauritius Institute building. It shows 500 years of the island's natural history, with a dodo model as centrepiece. Status of reopening after the 2017 closure was not confirmed.",
+   "facts": [
+    {
+     "label": "Opening",
+     "value": "Desjardins Museum opened to the public on 14 October 1842.",
+     "source": {
+      "title": "Historical Background (Natural History Museum)",
+      "publisher": "Mauritius Museums Council",
+      "author": null,
+      "date": null,
+      "url": "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1855",
+      "tier": "institutional",
+      "quote": "On 14 October 1842, the Desjardins Museum was opened to the public."
+     }
+    },
+    {
+     "label": "Move",
+     "value": "In 1885 the collection moved to the new Mauritius Institute building.",
+     "source": {
+      "title": "Historical Background (Natural History Museum)",
+      "publisher": "Mauritius Museums Council",
+      "author": null,
+      "date": null,
+      "url": "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1855",
+      "tier": "institutional",
+      "quote": "In 1885, the collection of Desjardins Museum was transferred to the newly erected Mauritius Institute Building."
+     }
+    },
+    {
+     "label": "National museum",
+     "value": "Proclaimed a National museum in 2000.",
+     "source": {
+      "title": "Historical Background (Natural History Museum)",
+      "publisher": "Mauritius Museums Council",
+      "author": null,
+      "date": null,
+      "url": "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1855",
+      "tier": "institutional",
+      "quote": "In 2000, the Natural History Museum of the Mauritius Institute was proclaimed a National museum."
+     }
+    },
+    {
+     "label": "Dodo",
+     "value": "Dodo model is the centrepiece; the skeleton on display was collected in 1900, all bones from one bird.",
+     "source": {
+      "title": "About The Museum (Natural History Museum)",
+      "publisher": "Mauritius Museums Council",
+      "author": null,
+      "date": null,
+      "url": "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1847",
+      "tier": "institutional",
+      "quote": "A model of the Dodo, the centrepiece of the museum, is displayed in this gallery."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1855",
+    "https://mauritiusmuseums.govmu.org/mauritiusmuseums/?page_id=1847"
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://caudan.com/culture/blue-penny-museum/ - 403",
+  "https://maurinet.com/things-to-do/natural-history-museum-port-louis - 403",
+  "https://lexpress.mu/article/il-y-175-ans-trac%C3%A9-de-la-future-citadelle - 403",
+  "https://lexpress.mu/article/408251/hippisme-champ-mars-sous-feux-projecteurs - 403",
+  "https://lexpress.mu/article/port-louis-home-half-our-national-heritage-0 - 403",
+  "https://mymauritius.travel/en-uk/places-to-go/port-louis-capital-mauritius - 404",
+  "http://www.mauritiusturfclub.com/... and secure.mauritiusturfclub.com - DNS failure"
+ ],
+ "notNotFound": [
+  "Blue Penny Museum: only home page read (location, stamps shown briefly); no founding or building history from a readable source except EBSCO 'founded in 2001'; dropped as a place",
+  "Port Louis founding date: EBSCO (Issitt) says French arrived 1715, permanent settlement 1722; City Council says construction 1735 - sources differ, 1735 is from city council",
+  "Statement 'oldest racecourse in southern hemisphere' only in Le Mauricien (press) and Turf Club (unread); AFP does not state it",
+  "Jummah Mosque: sources differ (1852 Defimedia; 1850s tourism ministry; 1853 on travel sites, not used)",
+  "Port Louis Theatre not researched",
+  "Common misconception: none explicitly corrected by a source",
+  "Quotes marked '(summarised)' came via a page summariser, not verbatim; verify before publishing"
+ ]
+}

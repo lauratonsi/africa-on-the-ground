@@ -3,10 +3,268 @@
   "status": "draft",
   "country": "COM",
   "name": "Moroni",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Moroni, capital of Comoros: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 121,236 people live in Moroni Bambao (the commune of Moroni) (counted 2017).",
+      "cite": [
+        "cap-nada-inseed-comores-org-f96538"
+      ]
+    },
+    {
+      "text": "Moroni became the administrative capital of the Comoros; sources differ on the year the colonial capital moved there (1958 per EBSCO's full article, 1962 per Library of Congress) and EBSCO also ties it to independence in 1975.",
+      "cite": [
+        "cap-countrystudies-us-425c44"
+      ]
+    },
+    {
+      "text": "Protectorate treaties were signed with the rulers of Njazidja, Nzwani and Mwali in 1886; the islands joined France's Madagascar colony in 1908 and the last sultan abdicated in 1912.",
+      "cite": [
+        "cap-countrystudies-us-4a9284"
+      ]
+    }
+  ],
+  "places": [
+    "old-friday-mosque-moroni",
+    "volo-volo-market",
+    "moroni-old-harbour",
+    "mount-karthala"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Moroni in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Moroni became the administrative capital of the Comoros; sources differ on the year the colonial capital moved there (1958 per EBSCO's full article, 1962 per Library of Congress) and EBSCO also ties it to independence in 1975.",
+              "cite": [
+                "cap-countrystudies-us-425c44"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Protectorate treaties were signed with the rulers of Njazidja, Nzwani and Mwali in 1886; the islands joined France's Madagascar colony in 1908 and the last sultan abdicated in 1912.",
+              "cite": [
+                "cap-countrystudies-us-4a9284"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Independence was declared on 6 July 1975 by the Comorian government for all the islands including Mayotte (Mahore); the Mayotte status remains disputed, with the Comorian position stated in UN debates.",
+              "cite": [
+                "cap-countrystudies-us-425c44"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Moroni was a capital of a pre-colonial sultanate: the 1892 French protectorate treaty names Moroni as capital of the Bambao sultanate and was signed in Moroni roadstead on 6 January 1892.",
+              "cite": [
+                "cap-memoireonline-com-cad20b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Moroni is described as a centre of Islamic culture and ocean trade, and one of the main ports of the islands.",
+              "cite": [
+                "cap-ebsco-com-bd6a75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "121,236",
+              "label": "people in Moroni Bambao (the commune of Moroni), 2017",
+              "cite": [
+                "cap-nada-inseed-comores-org-f96538"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Moroni Bambao (the commune of Moroni)?",
+          "min": 0,
+          "max": 400000,
+          "step": 2000,
+          "unit": "",
+          "answer": 121236,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "121,236 in 2017, according to the figures compiled from the national statistics office. Which area is counted matters: Census 2017 (RGPH-2017) count for the administrative subdivision 'Moroni Bambao' on Ngazidja (61,867 male, 59,369 female).",
+              "cite": [
+                "cap-nada-inseed-comores-org-f96538"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1427 (830 AH)",
+              "tag": "origins",
+              "text": "The Old Friday Mosque in Moroni is built, according to Mayotte Hebdo's report on the medina inscription.",
+              "cite": [
+                "cap-mayottehebdo-com-ee1429"
+              ]
+            },
+            {
+              "when": "14th century (medina)",
+              "tag": "origins",
+              "text": "AFP describes Moroni's medina as 14th-century, including the Friday Mosque with its green minaret.",
+              "cite": [
+                "cap-gulf-times-com-eeace8"
+              ]
+            },
+            {
+              "when": "1886",
+              "tag": "growth",
+              "text": "French protectorate treaties are signed with the rulers of the three islands including Njazidja (Grande Comore).",
+              "cite": [
+                "cap-countrystudies-us-4a9284"
+              ]
+            },
+            {
+              "when": "6 January 1892",
+              "tag": "growth",
+              "text": "A protectorate treaty for Grande Comore, naming Moroni as capital of Bambao, is signed in Moroni roadstead aboard the Eure.",
+              "cite": [
+                "cap-memoireonline-com-cad20b"
+              ]
+            },
+            {
+              "when": "1912",
+              "tag": "growth",
+              "text": "The last sultan abdicates and a colonial administration takes over the islands.",
+              "cite": [
+                "cap-countrystudies-us-4a9284"
+              ]
+            },
+            {
+              "when": "1962 (EBSCO gives 1958)",
+              "tag": "growth",
+              "text": "The colonial capital moves from Dzaoudzi (Mayotte) to Moroni. Sources conflict on the year: Library of Congress 1962, EBSCO 1958.",
+              "cite": [
+                "cap-countrystudies-us-425c44"
+              ]
+            },
+            {
+              "when": "6 July 1975",
+              "tag": "growth",
+              "text": "The Comoros declares independence; Moroni becomes the capital of the new state.",
+              "cite": [
+                "cap-ebsco-com-bd6a75"
+              ]
+            },
+            {
+              "when": "25 July 2026",
+              "tag": "today",
+              "text": "Six medinas of the Comoros, including Moroni's, are inscribed on the UNESCO World Heritage list (reported by AFP and RFI).",
+              "cite": [
+                "cap-gulf-times-com-eeace8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Moroni in order.",
+          "items": [
+            {
+              "label": "The Old Friday Mosque in Moroni is built, according to Mayotte Hebdo's report…",
+              "when": "1427 (830 AH)",
+              "text": "The Old Friday Mosque in Moroni is built, according to Mayotte Hebdo's report on the medina inscription.",
+              "cite": [
+                "cap-mayottehebdo-com-ee1429"
+              ]
+            },
+            {
+              "label": "French protectorate treaties are signed with the rulers of the three islands…",
+              "when": "1886",
+              "text": "French protectorate treaties are signed with the rulers of the three islands including Njazidja (Grande Comore).",
+              "cite": [
+                "cap-countrystudies-us-4a9284"
+              ]
+            },
+            {
+              "label": "The colonial capital moves from Dzaoudzi (Mayotte) to Moroni. Sources…",
+              "when": "1962 (EBSCO gives 1958)",
+              "text": "The colonial capital moves from Dzaoudzi (Mayotte) to Moroni. Sources conflict on the year: Library of Congress 1962, EBSCO 1958.",
+              "cite": [
+                "cap-countrystudies-us-425c44"
+              ]
+            },
+            {
+              "label": "Six medinas of the Comoros, including Moroni's, are inscribed on the UNESCO…",
+              "when": "25 July 2026",
+              "text": "Six medinas of the Comoros, including Moroni's, are inscribed on the UNESCO World Heritage list (reported by AFP and RFI).",
+              "cite": [
+                "cap-gulf-times-com-eeace8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Meaning of the name 'Moroni' ('at the heart of the fire'): no readable acceptable source; the only etymology seen was on a Wikipedia mirror (not used)",
+    "Not found in a readable source: Shirazi/Swahili origin of Moroni with dates: Aramco World mentions Shirazi migration only in general terms; the 15th-16th century Shirazi date was only a search snippet, not read on the page",
+    "Not found in a readable source: French protectorate 1912 as annexation of Grande Comore: Library of Congress gives 1912 as year the last sultan abdicated; no source read says 'annexed 1912'",
+    "Not found in a readable source: Capital year conflict not resolved: EBSCO 1958 (and 1975), Library of Congress 1962",
+    "Not found in a readable source: Agglomeration/commune population of Moroni: only the 'Moroni Bambao' subdivision figure was readable; EBSCO's 90,400 is a World Population Review estimate",
+    "Not found in a readable source: Musee national des Comores: no readable acceptable source (only Wikipedia mirrors seen)",
+    "Not found in a readable source: Moroni Corniche, Ikoni, Itsandra/Mitsamiouli beaches: not sourced (EBSCO and Mayotte Hebdo only name Iconi as a medina among the four on Grande Comore)",
+    "Not found in a readable source: Minaret date of the Old Friday Mosque (1921 per Archnet snippet): Archnet unreadable; a Commons description says 19th century, so left out",
+    "Not found in a readable source: Photo for Karthala: none checked",
+    "Not found in a readable source: Photos from Radoslaw Botev (CC BY 3.0 Poland) were seen but the licence is not on the permitted list, so not proposed",
+    "Not found in a readable source: Common misconception: none explicitly corrected by a read source",
+    "Note: EBSCO page mixes a 2022 byline with 2026 data (population 2026, UNESCO 2026)",
+    "Left out because only weak or unofficial sources supported them (1 items, for example: In a 1976 UN General Assembly debate on 'Question of the Comorian island of Mayotte', Maur).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Comoros has read this profile yet."
   ]
 }

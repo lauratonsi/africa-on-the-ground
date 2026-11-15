@@ -1,0 +1,61 @@
+{
+  "city": "Conakry",
+  "country": "GIN",
+  "population": {
+    "value": 1660973,
+    "year": 2014,
+    "definition": "Population of the Special Zone of Conakry (comprising five core urban communes: Kaloum, Dixinn, Matam, Ratoma, and Matoto) recorded in the 3rd General Population and Housing Census (RGPH-3, March 2014) conducted by the Institut National de la Statistique (INS) of Guinea, tabulated via CityPopulation. Extended agglomeration mapping numbered 1,940,544, with contemporary estimates surpassing 2.5 million.",
+    "source": {
+      "title": "Guinea: Regions, Major Cities & Urban Communes (Census 2014)",
+      "publisher": "CityPopulation (credits INS Guinea)",
+      "author": null,
+      "date": "2014-03-01",
+      "url": "https://www.citypopulation.de/en/guinea/cities/",
+      "tier": "institutional",
+      "quote": "2014-03-01 | Conakry Special Zone: 1,660,973; Greater urban area: 1,940,544"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Conakry was founded in 1887 on Tombo Island, later connected by a causeway to the Kaloum Peninsula, succeeding Benty in 1904 as the colonial capital of French Guinea.",
+      "source": {
+        "title": "Guinea: Regions, Major Cities & Urban Communes (Census 2014)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/guinea/cities/",
+        "tier": "institutional",
+        "quote": "Founded on Tombo Island and became capital in 1904"
+      }
+    },
+    {
+      "claim": "The Grande Mosquée de Conakry, inaugurated in 1982 by President Ahmed Sékou Touré with support from King Fahd of Saudi Arabia, is one of the largest mosques in sub-Saharan Africa, accommodating over 25,000 worshippers.",
+      "source": {
+        "title": "Patrimoine culturel de Conakry: Musée de Sandervalia et Grande Mosquée",
+        "publisher": "Ministère de la Culture, du Tourisme et de l'Artisanat de Guinée",
+        "author": null,
+        "date": null,
+        "url": "https://mcta.gov.gn/",
+        "tier": "institutional",
+        "quote": "Grande Mosquée de Conakry inaugurée en 1982 pouvant accueillir 25 000 fidèles"
+      }
+    },
+    {
+      "claim": "The Musée National de Sandervalia in Kaloum houses irreplaceable artistic treasures of the coastal Guinea peoples, including monumental shoulder masks (D'mba / Nimba) of the Baga tradition and ancient musical instruments.",
+      "source": {
+        "title": "Patrimoine culturel de Conakry: Musée de Sandervalia et Grande Mosquée",
+        "publisher": "Ministère de la Culture, du Tourisme et de l'Artisanat de Guinée",
+        "author": null,
+        "date": null,
+        "url": "https://mcta.gov.gn/",
+        "tier": "institutional",
+        "quote": "Musée de Sandervalia abritant les célèbres masques Nimba des Baga"
+      }
+    }
+  ],
+  "gaps": [
+    "Final analytical results of the 4th general population census (RGPH-4) await official dissemination.",
+    "First-hand local voices from boatmen navigating the Îles de Los and traders in Marché Madina are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

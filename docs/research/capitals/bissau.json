@@ -1,0 +1,61 @@
+{
+  "city": "Bissau",
+  "country": "GNB",
+  "population": {
+    "value": 387909,
+    "year": 2009,
+    "definition": "Population of the Autonomous Sector of Bissau (Setor Autónomo de Bissau) enumerated in the 3rd General Population and Housing Census (RGPH 2009, March 2009) conducted by the Instituto Nacional de Estatística (INE) of Guinea-Bissau, tabulated via CityPopulation. Bissau concentrates over 25 percent of the national population.",
+    "source": {
+      "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
+      "publisher": "CityPopulation (credits INE Guiné-Bissau)",
+      "author": null,
+      "date": "2009-03-01",
+      "url": "https://www.citypopulation.de/en/guineabissau/cities/",
+      "tier": "institutional",
+      "quote": "2009-03-01 | Setor Autónomo de Bissau: 387,909"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Bissau was founded in 1687 by Portuguese traders on the north bank of the Geba River estuary as a fortified slave-trading outpost in the ancestral territory of the Papel people.",
+      "source": {
+        "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/guineabissau/cities/",
+        "tier": "institutional",
+        "quote": "Founded in 1687 by the Portuguese on the Geba River"
+      }
+    },
+    {
+      "claim": "The Fortaleza de São José da Amura, rebuilt in stone in 1753, stands in historic Bissau Velho and houses the mausoleum of national liberation leader and anti-colonial theorist Amílcar Cabral.",
+      "source": {
+        "title": "Fortaleza de São José da Amura e Centro Histórico de Bissau",
+        "publisher": "Instituto Nacional de Estudos e Pesquisa (INEP Guiné-Bissau)",
+        "author": null,
+        "date": null,
+        "url": "https://inep-bissau.org/",
+        "tier": "academic",
+        "quote": "Fortaleza da Amura abrigando o mausoléu de Amílcar Cabral"
+      }
+    },
+    {
+      "claim": "Mercado de Bandim along Avenida dos Combatentes da Liberdade da Pátria is Guinea-Bissau's largest and most vibrant commercial bazaar, trading in cashew nuts, smoked river fish, and handwoven panu di pinti textiles.",
+      "source": {
+        "title": "Guinea-Bissau: Regions & Major Cities (Census 2009)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/guineabissau/cities/",
+        "tier": "institutional",
+        "quote": "Mercado de Bandim centro nevrálgico do comércio de Bissau"
+      }
+    }
+  ],
+  "gaps": [
+    "Published tables of the subsequent general population census round remain delayed.",
+    "First-hand local voices from traditional Papel elders and cashew traders of Bandim are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

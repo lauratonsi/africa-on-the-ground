@@ -3,10 +3,248 @@
   "status": "draft",
   "country": "ZWE",
   "name": "Harare",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Harare, capital of Zimbabwe: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 2,427,209 people live in Harare Province (counted 2022).",
+      "cite": [
+        "cap-zimbabwe-unfpa-org-311477"
+      ]
+    },
+    {
+      "text": "The first British settlement on the site was named Fort Salisbury after the 3rd Marquess of Salisbury; the BSAC pioneer column reached the area in September 1890.",
+      "cite": [
+        "cap-ebsco-com-2a9ba3"
+      ]
+    },
+    {
+      "text": "On the anniversary of independence in 1982 (18 April) Salisbury was renamed Harare, after the Shona chief Neharawa (SAHO spelling).",
+      "cite": [
+        "cap-sahistory-org-za-28c55b"
+      ]
+    }
+  ],
+  "places": [
+    "mbare-musika",
+    "national-gallery-of-zimbabwe",
+    "chapungu-sculpture-park",
+    "national-heroes-acre"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Harare in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The first British settlement on the site was named Fort Salisbury after the 3rd Marquess of Salisbury; the BSAC pioneer column reached the area in September 1890.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On the anniversary of independence in 1982 (18 April) Salisbury was renamed Harare, after the Shona chief Neharawa (SAHO spelling).",
+              "cite": [
+                "cap-sahistory-org-za-28c55b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "EBSCO gives the chief's name as Haarare and the renaming year as 1982; sources spell the chief's name differently.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Zimbabwe became independent in 1980; Salisbury remained the capital.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Harare Province holds the largest share of Zimbabwe's population, 16 percent in 2022.",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,427,209",
+              "label": "people in Harare Province, 2022",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Harare Province?",
+          "min": 0,
+          "max": 8000000,
+          "step": 40000,
+          "unit": "",
+          "answer": 2427209,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,427,209 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Harare Province (not the city alone), de facto count of people who spent census night 20 April 2022 in the province; preliminary results.",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "September 1890",
+              "tag": "origins",
+              "text": "The British South Africa Company's pioneer column reaches the site; the settlement is named Fort Salisbury.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            },
+            {
+              "when": "1953",
+              "tag": "growth",
+              "text": "Salisbury becomes the capital of the Federation of Rhodesia and Nyasaland.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            },
+            {
+              "when": "16 July 1957",
+              "tag": "growth",
+              "text": "The Rhodes National Gallery opens in Salisbury (now the National Gallery of Zimbabwe).",
+              "cite": [
+                "cap-rem-routledge-com-194278"
+              ]
+            },
+            {
+              "when": "1980",
+              "tag": "growth",
+              "text": "Zimbabwe becomes independent; 2022 census was the fifth since independence.",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            },
+            {
+              "when": "18 April 1982",
+              "tag": "growth",
+              "text": "Salisbury is renamed Harare on the anniversary of independence.",
+              "cite": [
+                "cap-sahistory-org-za-28c55b"
+              ]
+            },
+            {
+              "when": "20-30 April 2022",
+              "tag": "today",
+              "text": "Zimbabwe holds its first digital census; census night is 20 April 2022.",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Harare in order.",
+          "items": [
+            {
+              "label": "The British South Africa Company's pioneer column reaches the site; the…",
+              "when": "September 1890",
+              "text": "The British South Africa Company's pioneer column reaches the site; the settlement is named Fort Salisbury.",
+              "cite": [
+                "cap-ebsco-com-2a9ba3"
+              ]
+            },
+            {
+              "label": "The Rhodes National Gallery opens in Salisbury (now the National Gallery of…",
+              "when": "16 July 1957",
+              "text": "The Rhodes National Gallery opens in Salisbury (now the National Gallery of Zimbabwe).",
+              "cite": [
+                "cap-rem-routledge-com-194278"
+              ]
+            },
+            {
+              "label": "Salisbury is renamed Harare on the anniversary of independence.",
+              "when": "18 April 1982",
+              "text": "Salisbury is renamed Harare on the anniversary of independence.",
+              "cite": [
+                "cap-sahistory-org-za-28c55b"
+              ]
+            },
+            {
+              "label": "Zimbabwe holds its first digital census; census night is 20 April 2022.",
+              "when": "20-30 April 2022",
+              "text": "Zimbabwe holds its first digital census; census night is 20 April 2022.",
+              "cite": [
+                "cap-zimbabwe-unfpa-org-311477"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: City-only population figure (only Harare Province 2,427,209 found)",
+    "Not found in a readable source: Which year Harare/Salisbury became municipality (1897) and city (1935) - only in search snippets, not read",
+    "Not found in a readable source: Epworth Balancing Rocks, Harare Gardens, Kopje, Archives, Mukuvisi, Larvon: no readable source",
+    "Not found in a readable source: North Korean role / construction date of Heroes' Acre in a readable source",
+    "Not found in a readable source: Mbare Musika as largest produce market: not in a readable source",
+    "Not found in a readable source: Photos for Chapungu and Epworth; Mbare photo unconfirmed as Musika",
+    "Not found in a readable source: Founding date 12 September 1890 exact day (EBSCO says only September 1890); name origin conflicts: Neharawa (SAHO) vs Haarare (EBSCO)",
+    "Not found in a readable source: Misconception: none stated explicitly by a read source",
+    "Left out because only weak or unofficial sources supported them (1 items, for example: 25 May 2005: Operation Murambatsvina begins; Human Rights Watch (2008) reports it affected).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Zimbabwe has read this profile yet."
   ]
 }

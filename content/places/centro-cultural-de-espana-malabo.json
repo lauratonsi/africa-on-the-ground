@@ -1,0 +1,59 @@
+{
+  "slug": "centro-cultural-de-espana-malabo",
+  "status": "draft",
+  "type": "culture",
+  "country": "GNQ",
+  "name": "Centro Cultural de España en Malabo (CCEM)",
+  "region": "Malabo · Equatorial Guinea",
+  "subtitle": "Influential cultural center and library catalyzing contemporary art, theatre, and literature in Spanish-speaking Africa.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "2003 (successor to Centro Cultural Hispano-Guineano founded 1982)",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    },
+    {
+      "label": "Facilities",
+      "value": "Auditorium, contemporary gallery spaces, film projection rooms, and public library",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    },
+    {
+      "label": "Focus",
+      "value": "Promoting Equatoguinean playwrights, visual artists, and Afro-Hispanic intercultural dialogue",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A leading cultural institution in Equatorial Guinea, situated in central Malabo. Serving as a crucial incubator for local writers, contemporary painters, sculptors, and musicians in sub-Saharan Africa's only Spanish-speaking sovereign nation, the CCEM hosts regular art exhibitions, film festivals, performing arts residencies, and literary conferences, fostering dynamic artistic exchange between Africa, Spain, and the wider Atlantic.",
+              "cite": [
+                "cap-archnet-catedral-malabo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Digital repository of past exhibition catalogues and Equatoguinean play scripts is under development.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

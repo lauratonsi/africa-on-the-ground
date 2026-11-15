@@ -1,0 +1,68 @@
+{
+  "slug": "garang-mausoleum",
+  "status": "draft",
+  "type": "site",
+  "country": "SSD",
+  "name": "Dr John Garang Mausoleum",
+  "region": "Juba · South Sudan",
+  "subtitle": "The mausoleum and memorial park in Juba honours John Garang, the liberation leader, and has hosted national ceremonies.",
+  "facts": [
+    {
+      "label": "Independence Day 2011",
+      "value": "Crowds gathered at the site to celebrate independence",
+      "cite": [
+        "cap-media-un-org-bb103e"
+      ]
+    },
+    {
+      "label": "Statue",
+      "value": "A statue honouring Garang and others who died in the war was unveiled on 9 July 2011 (UN video summary, not a direct quote)",
+      "cite": [
+        "cap-media-un-org-bb103e"
+      ]
+    },
+    {
+      "label": "Public access 2019",
+      "value": "The army reopened the site to the public in July 2019 after a May closure",
+      "cite": [
+        "cap-eyeradio-org-039b9e"
+      ]
+    },
+    {
+      "label": "Public space debate 2021",
+      "value": "An activist called it a symbol of unity and a public space",
+      "cite": [
+        "cap-eyeradio-org-d9db32"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The mausoleum and memorial park in Juba honours John Garang, the liberation leader, and has hosted national ceremonies. Independence celebrations on 9 July 2011 were held there and a statue was unveiled.",
+              "cite": [
+                "cap-media-un-org-bb103e",
+                "cap-eyeradio-org-039b9e",
+                "cap-eyeradio-org-d9db32"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

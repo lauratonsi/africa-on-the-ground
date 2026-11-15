@@ -3,10 +3,27 @@
   "status": "draft",
   "country": "GNQ",
   "name": "Malabo",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
+  "subtitle": "Malabo, capital of Equatorial Guinea: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "The Catedral de Santa Isabel, completed in 1916, features 40-metre Neo-Gothic spires dominating Plaza de la Independencia.",
+      "cite": [
+        "cap-archnet-catedral-malabo"
+      ]
+    }
+  ],
+  "places": [
+    "monte-alen-national-park",
+    "catedral-de-santa-isabel-malabo",
+    "parque-nacional-de-malabo",
+    "mercado-central-de-malabo",
+    "centro-cultural-de-espana-malabo"
+  ],
   "sections": [],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Sub-municipal demographic growth data for Malabo II are pending updated release.",
+    "First-hand local voices from traditional Bubi elders and island fishermen are still missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

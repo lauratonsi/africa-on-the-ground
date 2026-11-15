@@ -1,0 +1,190 @@
+{
+  "slug": "talking-to-wild-birds",
+  "status": "published",
+  "kind": "history",
+  "title": "The humans who speak with wild birds",
+  "subtitle": "In the woodlands of eastern and southern Africa, hunter-gatherers and a free-living wild bird hold a two-way acoustic dialogue to harvest honey from high trees.",
+  "countries": [
+    "TZA",
+    "MOZ"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "the-partnership",
+      "title": "A living interspecies alliance",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Among the Hadza of northern Tanzania and the Yao honey-hunters of northern Mozambique, humans maintain a wild mutualistic partnership with a small, free-living bird: the greater honeyguide (Indicator indicator).",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016",
+                "wood-hadza-honeyguide-2014"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Unlike domesticated dogs, falcons, or cormorants, the honeyguide is completely wild: it is not bred, fed in captivity, or trained by humans.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            },
+            {
+              "text": " Yet it voluntarily cooperates with human hunters, guiding them directly to bee nests hidden inside the hollow trunks of giant baobabs and acacia trees.",
+              "cite": [
+                "wood-hadza-honeyguide-2014"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-way-dialogue",
+      "title": "The specific acoustic call",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Research published in Science confirmed that this interaction is not passive scavenging, but a genuine two-way acoustic communication.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yao honey-hunters summon the bird using a specialized trill followed by a grunt ('brrr-hm'), inherited across generations.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            },
+            {
+              "text": " Controlled experiments proved that wild honeyguides respond specifically to this cultural call: hearing the 'brrr-hm' more than tripled the probability of finding an active honeyguide and locating an occupied hive.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "75%",
+              "label": "of bees nests found with honeyguides by Hadza hunters",
+              "cite": [
+                "wood-hadza-honeyguide-2014"
+              ]
+            },
+            {
+              "value": "3x",
+              "label": "increase in successful foraging when using specialized calls",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            },
+            {
+              "value": "0",
+              "label": "human training or captivity involved",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mutual-benefit",
+      "title": "Smoke, wax, and mutual survival",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ecological symbiosis solves a physical problem for both species.",
+              "editorial": true
+            },
+            {
+              "text": " The bird knows the precise coordinates of bee colonies but cannot subdue aggressive African honeybees (Apis mellifera scutellata) or break through tough tree trunks.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            },
+            {
+              "text": " The human hunter brings axes to chop open the hollow trunk and smoke to calm the bees.",
+              "cite": [
+                "wood-hadza-honeyguide-2014"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "While humans claim the energy-rich liquid honey, hunters always leave behind portions of beeswax comb and protein-packed bee larvae on the ground or on branches.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            },
+            {
+              "text": " The honeyguide is one of the very few birds capable of digesting wax, completing an extraordinary ecological exchange.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "An ancient legacy under threat",
+          "parts": [
+            {
+              "text": "Anthropologists estimate this partnership may be hundreds of thousands of years old, potentially predating modern Homo sapiens. Today, the practice is disappearing as rural communities gain access to commercially refined sugar, severing an ancient cultural connection with the natural world.",
+              "cite": [
+                "science-spottiswoode-honeyguide-2016",
+                "wood-hadza-honeyguide-2014"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Because honeyguides are brood parasites (laying their eggs in the nests of other bird species that do not eat honey), scientists do not yet fully understand how juvenile birds learn to guide humans without parental instruction.",
+    "The degree to which different linguistic groups across the continent (such as the Borana in Kenya or the San in southern Africa) utilize distinct, locally evolved call dialects is still being cataloged by field biologists."
+  ],
+  "keyPoints": [
+    {
+      "text": "Wild, untamed honeyguide birds actively recruit and lead human foragers directly to hidden wild beehives.",
+      "cite": [
+        "science-spottiswoode-honeyguide-2016"
+      ]
+    },
+    {
+      "text": "Human hunters use specialized, culturally transmitted vocal signals that wild birds recognize and respond to with directional flight calls.",
+      "cite": [
+        "science-spottiswoode-honeyguide-2016"
+      ]
+    },
+    {
+      "text": "Humans harvest the honey using smoke and tools, while rewarding the bird with wax combs and bee larvae.",
+      "cite": [
+        "wood-hadza-honeyguide-2014"
+      ]
+    }
+  ]
+}

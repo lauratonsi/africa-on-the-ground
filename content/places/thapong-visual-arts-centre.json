@@ -3,6 +3,14 @@
   "status": "published",
   "type": "culture",
   "country": "BWA",
+  "coords": {
+    "lat": -24.6732,
+    "lon": 25.9328,
+    "approx": true,
+    "cite": [
+      "cap-mmegi-bw-289a1e"
+    ]
+  },
   "name": "Thapong Visual Arts Centre",
   "region": "Gaborone · Botswana",
   "subtitle": "An artists' centre in an old building in Gaborone Village, with studios for local artists.",

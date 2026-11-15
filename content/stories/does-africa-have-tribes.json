@@ -1,0 +1,154 @@
+{
+  "slug": "does-africa-have-tribes",
+  "status": "published",
+  "kind": "myth",
+  "title": "Does Africa really have 'tribes'?",
+  "subtitle": "The word is everywhere in news reports and travel brochures. In history, it was a colonial administrative tool that flattened dynamic nations into static boxes.",
+  "countries": [
+    "NGA",
+    "KEN",
+    "ZAF",
+    "COD"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "colonial-category",
+      "title": "A colonial shortcut",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Whenever conflict or politics in an African country is reported in international media, the word 'tribe' is almost reflexively invoked as the root explanation.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In historical and sociological scholarship, the concept of 'tribalism' as an ancient, primordial force has been thoroughly dismantled.",
+              "cite": [
+                "mafeje-ideology-tribalism-1971"
+              ]
+            },
+            {
+              "text": " Anthropologist Archie Mafeje demonstrated that 'tribe' is an ideology born out of European colonial rule rather than an objective description of African social reality.",
+              "cite": [
+                "mafeje-ideology-tribalism-1971"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The double standard of language",
+          "parts": [
+            {
+              "text": "In European history, distinct linguistic and cultural groups with millions of members — such as the Welsh, Catalans, or Bretons — are described as nations, ethnic groups, or peoples. In Africa, groups of comparable or far greater size — such as the 45 million Yoruba or 35 million Oromo — are routinely labelled 'tribes', a word carrying connotations of primitive, pre-modern isolation.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fluid-realities",
+      "title": "Fluidity before the border",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Before European colonization, identities across Africa were dynamic, porous, and multi-layered.",
+              "cite": [
+                "ranger-invention-tradition-1983"
+              ]
+            },
+            {
+              "text": " People defined themselves through lineage, occupational guilds, religious ties, or allegiance to confederations, and individuals frequently crossed linguistic boundaries through intermarriage, trade, and migration.",
+              "cite": [
+                "ranger-invention-tradition-1983"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Colonial authorities required fixed, identifiable units to impose tax collection, forced labor, and indirect rule.",
+              "cite": [
+                "unesco-general-history-africa-vol8"
+              ]
+            },
+            {
+              "text": " Where decentralized communities had no supreme monarch, administrators often created 'warrant chiefs' or designated official 'tribal boundaries' on maps, transforming flexible cultural zones into rigid legal cages.",
+              "cite": [
+                "ranger-invention-tradition-1983",
+                "unesco-general-history-africa-vol8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "living-complexity",
+      "title": "Peoples, nations, and modern citizenship",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dismantling the myth of the 'tribe' does not mean denying cultural heritage, linguistic pride, or community ties.",
+              "editorial": true
+            },
+            {
+              "text": " African historians emphasize that contemporary ethnic identification is modern: it is shaped by urbanization, democratic party competition, constitutional federalism, and the distribution of state resources.",
+              "cite": [
+                "unesco-general-history-africa-vol8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Describing contemporary political tensions as 'ancient tribal warfare' obscures real economic competition over land, mining rights, and governance, replacing political analysis with exoticism.",
+              "cite": [
+                "mafeje-ideology-tribalism-1971"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Scholars continue to debate the degree to which African communities participated in co-creating ethnic classifications under colonial rule versus having them unilaterally imposed.",
+    "The terminology differs between language traditions: francophone African scholarship often distinguishes 'ethnicité' from the pejorative 'tribalisme', while post-colonial Lusophone and Anglophone texts emphasize national integration vs regionalism."
+  ],
+  "keyPoints": [
+    {
+      "text": "Pre-colonial African social identities were fluid, open, and tied to kinship, trade, and multilingual confederations rather than fixed boundaries.",
+      "cite": [
+        "ranger-invention-tradition-1983"
+      ]
+    },
+    {
+      "text": "Colonial indirect rule codified and hardened these groups into bureaucratic 'tribes' to simplify taxation, policing, and labor mobilization.",
+      "cite": [
+        "mafeje-ideology-tribalism-1971",
+        "unesco-general-history-africa-vol8"
+      ]
+    },
+    {
+      "text": "Historians use 'ethnic groups', 'peoples', or 'nations' to analyze societies with millions of citizens without resorting to colonial tropes.",
+      "editorial": true
+    }
+  ]
+}

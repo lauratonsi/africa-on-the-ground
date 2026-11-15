@@ -1,0 +1,183 @@
+{
+  "slug": "the-land-of-twins",
+  "status": "published",
+  "kind": "history",
+  "title": "Igbo-Ora: the twin capital of the world",
+  "subtitle": "Among the Yoruba of southwestern Nigeria, twins are honored as sacred spirits. In the town of Igbo-Ora, they are born at nearly four times the global average.",
+  "countries": [
+    "NGA"
+  ],
+  "places": [
+    "osun-osogbo-sacred-grove"
+  ],
+  "sections": [
+    {
+      "id": "twin-frequency",
+      "title": "A statistical phenomenon",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Yoruba people of southwestern Nigeria have the highest documented rate of twin births (dizygotic twinning) in the world.",
+              "cite": [
+                "lawal-ere-ibeji-2008",
+                "bbc-igbo-ora-twins-2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "45–50",
+              "label": "twin sets per 1,000 live births in Igbo-Ora",
+              "cite": [
+                "bbc-igbo-ora-twins-2018",
+                "reuters-igbo-ora-twins-2022"
+              ]
+            },
+            {
+              "value": "12–16",
+              "label": "global average twin sets per 1,000 live births",
+              "cite": [
+                "bbc-igbo-ora-twins-2018"
+              ]
+            },
+            {
+              "value": "Taiwo & Kehinde",
+              "label": "customary names given to the first- and second-born twin",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the town of Igbo-Ora in Oyo State, almost every family boasts multiple sets of fraternal twins.",
+              "cite": [
+                "reuters-igbo-ora-twins-2022"
+              ]
+            },
+            {
+              "text": " While local tradition attributes this abundance to a diet rich in yams and cassava flour (specifically the phytoestrogens present in local varieties of white yam), geneticists consider it a deeply established hereditary trait maintained through generations.",
+              "cite": [
+                "bbc-igbo-ora-twins-2018",
+                "reuters-igbo-ora-twins-2022"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ibeji-cosmology",
+      "title": "The soul of the Ibeji",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Yoruba cosmology, twins are known as Ìbejì (from 'ìbí', born, and 'èjì', two) and are revered as exceptional beings associated with the orisha of thunder and justice, Shango.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            },
+            {
+              "text": " The first twin to emerge is named Taiwo ('the one who tastes the world'), while the second is Kehinde ('the one who arrives behind'). In spiritual understanding, Kehinde is considered the elder, sending Taiwo ahead as a scout to see whether the world is safe to enter.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Twins are believed to bring extraordinary wealth and protection to parents who treat them with honor, but misfortune if they are neglected.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ere-ibeji-art",
+      "title": "The carved wooden spirits",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Because infant mortality was historically high across the world, Yoruba culture developed one of the most remarkable sculpture traditions on the African continent: the Ère Ìbejì.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "If a twin dies in childhood, the parents consult a diviner (Babalawo) and commission a master carver to create a small wooden statuette representing the deceased child.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            },
+            {
+              "text": " The mother treats the figure not as a lifeless souvenir, but as an active vessel for the child's wandering soul: she washes it, dresses it in miniature beaded fabrics, rubs it with camwood powder, and offers it portions of the child's favorite food.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Preserving the balance",
+          "parts": [
+            {
+              "text": "By nurturing the Ère Ìbejì, the mother ensures that the surviving twin remains anchored to the earthly world, preventing the deceased sibling from calling their pair away into the spirit realm.",
+              "cite": [
+                "lawal-ere-ibeji-2008"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Medical research on whether dietary consumption of specific wild yam tubers (Dioscorea) significantly increases natural gonadotropin release remains disputed between ethnobotanists and geneticists.",
+    "The historical shift from ancient fear of twin births in certain isolated pre-18th-century West African societies to the widespread veneration of Ibeji is an active topic of art historical analysis."
+  ],
+  "keyPoints": [
+    {
+      "text": "Igbo-Ora in Nigeria records the highest rate of fraternal twin births globally, reaching up to 50 twin sets per 1,000 live births.",
+      "cite": [
+        "bbc-igbo-ora-twins-2018",
+        "reuters-igbo-ora-twins-2022"
+      ]
+    },
+    {
+      "text": "In Yoruba belief, the second-born twin (Kehinde) is regarded as the elder who sent the first-born (Taiwo) ahead to test the world.",
+      "cite": [
+        "lawal-ere-ibeji-2008"
+      ]
+    },
+    {
+      "text": "Ère Ìbejì carved wooden figures act as spiritual vessels to care for deceased twins and maintain psychological and domestic balance.",
+      "cite": [
+        "lawal-ere-ibeji-2008"
+      ]
+    }
+  ]
+}

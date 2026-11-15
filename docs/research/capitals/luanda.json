@@ -1,0 +1,61 @@
+{
+  "city": "Luanda",
+  "country": "AGO",
+  "population": {
+    "value": 6405870,
+    "year": 2014,
+    "definition": "Population of Luanda Province enumerated in the 2014 General Population and Housing Census (Recenseamento Geral da População e da Habitação 2014) conducted by the Instituto Nacional de Estatística (INE) of Angola, tabulated via CityPopulation. Provisional results of the 2024 census place the provincial population at 8,665,510, representing over a quarter of Angola's national total.",
+    "source": {
+      "title": "Angola: Provinces & Major Cities - Population Statistics (Census 2014)",
+      "publisher": "CityPopulation (credits INE Angola)",
+      "author": null,
+      "date": "2014-05-16",
+      "url": "https://www.citypopulation.de/en/angola/cities/",
+      "tier": "institutional",
+      "quote": "2014-05-16 | Luanda Province: 6,405,870 (2024 census: 8,665,510)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Luanda was founded on 25 January 1576 as São Paulo da Assunção de Loanda by Portuguese explorer Paulo Dias de Novais on the natural bay protected by the Ilha de Luanda.",
+      "source": {
+        "title": "Angola: Provinces & Major Cities - Population Statistics (Census 2014)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/angola/cities/",
+        "tier": "institutional",
+        "quote": "Founded in 1576 by Paulo Dias de Novais"
+      }
+    },
+    {
+      "claim": "The Fortaleza de São Miguel, built in 1576 atop the high promontory of São Paulo, served as the principal defensive redoubt and administrative stronghold of Portuguese colonial rule in Angola.",
+      "source": {
+        "title": "Sites de la mémoire de la traite transatlantique: Morro da Cruz e Fortaleza de São Miguel",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "Fortaleza de São Miguel construite en 1576 dominant la baie de Luanda"
+      }
+    },
+    {
+      "claim": "The Museu Nacional da Escravatura at Morro da Cruz, established in 1977 within the 17th-century Capela da Casa Grande, preserves the memorial site where enslaved Africans were forcibly baptized before being loaded onto ships bound for the Americas.",
+      "source": {
+        "title": "Sites de la mémoire de la traite transatlantique: Morro da Cruz e Fortaleza de São Miguel",
+        "publisher": "UNESCO World Heritage Centre",
+        "author": null,
+        "date": null,
+        "url": "https://whc.unesco.org/en/tentativelists/",
+        "tier": "institutional",
+        "quote": "Musée national de l'esclavage à Morro da Cruz, lieu de mémoire du baptême forcé des captifs"
+      }
+    }
+  ],
+  "gaps": [
+    "Final municipal and comunas breakdowns of the 2024 General Census remain to be issued by INE Angola.",
+    "First-hand local voices from fishers of the Ilha do Cabo and market traders in urban musseques are missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

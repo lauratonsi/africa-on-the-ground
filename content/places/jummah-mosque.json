@@ -1,0 +1,76 @@
+{
+  "slug": "jummah-mosque",
+  "status": "draft",
+  "type": "culture",
+  "country": "MUS",
+  "name": "Jummah Mosque",
+  "region": "Port Louis · Mauritius",
+  "subtitle": "A large mosque in the middle of Chinatown in central Port Louis.",
+  "facts": [
+    {
+      "label": "Founding",
+      "value": "Founded 1852 when a small Muslim community acquired land in the city centre.",
+      "cite": [
+        "cap-defimedia-info-ac7291"
+      ]
+    },
+    {
+      "label": "Government listing",
+      "value": "Ministry of Tourism: 'built in the 1850's, in the middle of Chinatown'.",
+      "cite": [
+        "cap-tourism-govmu-org-c6e607"
+      ]
+    },
+    {
+      "label": "Wooden staircase",
+      "value": "Entirely wooden spiral staircase, once used by the muezzin to call to prayer.",
+      "cite": [
+        "cap-defimedia-info-ac7291"
+      ]
+    },
+    {
+      "label": "Size",
+      "value": "Around 3,000 people pass through for Friday prayers and big occasions.",
+      "cite": [
+        "cap-defimedia-info-ac7291"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large mosque in the middle of Chinatown in central Port Louis. It grew from a small mosque on land bought in 1852 into the present building.",
+              "cite": [
+                "cap-defimedia-info-ac7291",
+                "cap-tourism-govmu-org-c6e607"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "jummah-mosque",
+    "alt": "Photograph of Jummah Mosque.",
+    "caption": "Jummah Mosque.",
+    "credit": "Karsten Ratzke",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Port_Louis%2C_Jummah_Masjeed.jpg"
+  }
+}

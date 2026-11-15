@@ -1,0 +1,237 @@
+{
+  "slug": "maasai",
+  "status": "draft",
+  "name": "Maasai",
+  "countries": [
+    "KEN",
+    "TZA"
+  ],
+  "subtitle": "Maasai: who the sources name, where they live, and what the old labels got wrong.",
+  "keyPoints": [
+    {
+      "text": "About 1,189,522 people (2019): Kenya only: people counted as Maasai by ethnic community in the 2019 Kenya Population and Housing Census, as reported by the press from KNBS results (KNBS table itself not read).",
+      "cite": [
+        "cap-kenyans-co-ke-b881ce"
+      ]
+    },
+    {
+      "text": "Kenya's census counted 154,906 Maasai in 1969 (1.43% of the population) and 1,189,522 in 2019 (about 2.5%), roughly seven-fold.",
+      "cite": [
+        "cap-the-star-co-ke-9cde9b"
+      ]
+    },
+    {
+      "text": "Glottolog lists Maasai as a language of Kenya and Tanzania, classified within Eastern Nilotic (Nuclear Maa) and not endangered.",
+      "cite": [
+        "cap-glottolog-org-1d5993"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "who",
+      "title": "Who the sources are talking about",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,189,522",
+              "label": "Kenya only: people counted as Maasai by ethnic community in the 2019 Kenya Population and Housing Census, as reported by the press from KNBS results (KNBS table itself not read), 2019",
+              "cite": [
+                "cap-kenyans-co-ke-b881ce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kenya's census counted 154,906 Maasai in 1969 (1.43% of the population) and 1,189,522 in 2019 (about 2.5%), roughly seven-fold.",
+              "cite": [
+                "cap-the-star-co-ke-9cde9b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "people-maasai",
+            "alt": "A round house of mud walls and a thatched roof, with a fence on the right and a bare hill behind.",
+            "caption": "A house in a Maasai homestead (boma) in the Ngorongoro Conservation Area, Tanzania.",
+            "credit": "Erasmus Kamugisha",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/File:A_typical_Maasai_boma.jpg",
+            "width": 800,
+            "height": 523
+          }
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Glottolog lists Maasai as a language of Kenya and Tanzania, classified within Eastern Nilotic (Nuclear Maa) and not endangered.",
+              "cite": [
+                "cap-glottolog-org-1d5993"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A Mara study (2012) says leasing land to tourism investors through conservancies can keep rangeland areas together, but subdivision of Kenya's rangelands has tended to benefit elites.",
+              "cite": [
+                "cap-uwcscholar-uwc-ac-za-528828"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "title": "Names, borders and colonial categories",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Southern Reserve created after 1904 lay on the border with German East Africa (now Tanzania).",
+              "cite": [
+                "cap-theelephant-info-5cb8ca"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "colonial",
+              "label": "Colonial period"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1904",
+              "tag": "colonial",
+              "text": "Maasai elders signed the 1904 agreement with the British, which was pledged to last 'so long as the Maasai as a race shall exist'; several sections were moved into Laikipia and a Southern Reserve.",
+              "cite": [
+                "cap-theelephant-info-5cb8ca"
+              ]
+            },
+            {
+              "when": "1913",
+              "tag": "colonial",
+              "text": "Maasai plaintiffs challenged the agreements in court; the High Court dismissed the case in May 1913 and the appeal failed in December 1913, the judges treating the agreements as treaties (Acts of State).",
+              "cite": [
+                "cap-theelephant-info-5cb8ca"
+              ]
+            },
+            {
+              "when": "1959",
+              "tag": "colonial",
+              "text": "Amnesty International says Maasai were moved from Serengeti National Park to Loliondo in 1959 and were later repeatedly evicted. (Paraphrase from a reading of the page; exact wording not captured, verify before use.)",
+              "cite": [
+                "cap-amnesty-org-74f25a"
+              ]
+            },
+            {
+              "when": "June 2022",
+              "tag": "today",
+              "text": "Nine UN experts said a plan to turn 1,500 of 4,000 sq km of Loliondo village land into a game reserve could displace up to 70,000 Maasai, and that about 80,000 more faced eviction from the Ngorongoro Conservation Area; they cited reports of live ammunition and tear gas on 10 June.",
+              "cite": [
+                "cap-news-un-org-a88951"
+              ]
+            },
+            {
+              "when": "2022-2023",
+              "tag": "today",
+              "text": "Amnesty International reported that 27 Maasai were charged over a police officer's killing and 132 arrested for alleged illegal presence; all were later discharged for lack of evidence (Amnesty's account).",
+              "cite": [
+                "cap-amnesty-org-74f25a"
+              ]
+            },
+            {
+              "when": "July 2024",
+              "tag": "today",
+              "text": "Human Rights Watch reported that Tanzania aims to relocate over 82,000 people from Ngorongoro to Msomera, about 600 km away; the government says the scheme complies with national rights laws.",
+              "cite": [
+                "cap-aljazeera-com-e31924"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put these moments in the history of the Maasai in order.",
+          "items": [
+            {
+              "label": "Maasai elders signed the 1904 agreement with the British, which was pledged…",
+              "when": "1904",
+              "text": "Maasai elders signed the 1904 agreement with the British, which was pledged to last 'so long as the Maasai as a race shall exist'; several sections were moved into Laikipia and a Southern Reserve.",
+              "cite": [
+                "cap-theelephant-info-5cb8ca"
+              ]
+            },
+            {
+              "label": "Amnesty International says Maasai were moved from Serengeti National Park to…",
+              "when": "1959",
+              "text": "Amnesty International says Maasai were moved from Serengeti National Park to Loliondo in 1959 and were later repeatedly evicted. (Paraphrase from a reading of the page; exact wording not captured, verify before use.)",
+              "cite": [
+                "cap-amnesty-org-74f25a"
+              ]
+            },
+            {
+              "label": "Amnesty International reported that 27 Maasai were charged over a police…",
+              "when": "2022-2023",
+              "text": "Amnesty International reported that 27 Maasai were charged over a police officer's killing and 132 arrested for alleged illegal presence; all were later discharged for lack of evidence (Amnesty's account).",
+              "cite": [
+                "cap-amnesty-org-74f25a"
+              ]
+            },
+            {
+              "label": "Human Rights Watch reported that Tanzania aims to relocate over 82,000 people…",
+              "when": "July 2024",
+              "text": "Human Rights Watch reported that Tanzania aims to relocate over 82,000 people from Ngorongoro to Msomera, about 600 km away; the government says the scheme complies with national rights laws.",
+              "cite": [
+                "cap-aljazeera-com-e31924"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Not found in a readable source: Tanzania Maasai population figure",
+    "Not found in a readable source: Samburu/Camus tie to Maa in a readable non-Wikipedia source",
+    "Not found in a readable source: Pastoral economy statement from a readable source",
+    "Not found in a readable source: KNBS census table read directly (only press reports)",
+    "Not found in a readable source: Reuters/AP/Guardian Loliondo reports (only UN, Amnesty, Cultural Survival read)",
+    "Not found in a readable source: Verbatim 1959 Ngorongoro quote (Amnesty paraphrase only)",
+    "Not found in a readable source: Source stating the border cuts through Maasai land (only the Southern Reserve border statement)",
+    "Not found in a readable source: Misconception corrected by a source",
+    "Not found in a readable source: Independence-era land changes (group ranches/subdivision: only Bedelian abstract)",
+    "Not found in a readable source: Government of Tanzania's account of Loliondo/Ngorongoro beyond HRW/Al Jazeera mention",
+    "Left out because only weak or unofficial sources supported them (1 items).",
+    "The sources are mostly outside voices, in English or French; the people themselves are the first source on who they are.",
+    "Quotes were checked by a text search of each cited page where the page could be read; the others are not verified.",
+    "No one from the group has read this page yet."
+  ]
+}

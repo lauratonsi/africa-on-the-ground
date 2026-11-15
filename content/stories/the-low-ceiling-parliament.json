@@ -1,0 +1,185 @@
+{
+  "slug": "the-low-ceiling-parliament",
+  "status": "published",
+  "kind": "history",
+  "title": "The house with the low ceiling",
+  "subtitle": "Along the Bandiagara escarpment in central Mali, the traditional Dogon deliberative shelter is engineered so low that nobody can stand up in anger.",
+  "countries": [
+    "MLI"
+  ],
+  "places": [
+    "musee-national-du-mali-bamako"
+  ],
+  "sections": [
+    {
+      "id": "togu-na-architecture",
+      "title": "Architecture as peacemaker",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "At the geographic and spiritual heart of every Dogon village nestled along the sandstone cliffs of Bandiagara stands an open-sided shelter known as the Togu Na (literally, 'the great shelter' or 'house of the word').",
+              "cite": [
+                "unesco-whc-119",
+                "jolly-togu-na-dogon-2004"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The structure features a massive roof composed of eight thick layers of millet stalks, supported by carved wooden or stone pillars representing ancestral figures.",
+              "cite": [
+                "griaule-conversations-ogotemmeli-1965",
+                "jolly-togu-na-dogon-2004"
+              ]
+            },
+            {
+              "text": " Yet despite the imposing weight of the thatch, the ceiling sits barely one to one-and-a-half meters off the ground: adults cannot enter without crouching, and inside everyone must sit or recline on stone benches or animal skins.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1.2 m",
+              "label": "typical height from floor to the millet stalk ceiling",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            },
+            {
+              "value": "8 layers",
+              "label": "millet thatch representing the eight original ancestral families",
+              "cite": [
+                "griaule-conversations-ogotemmeli-1965"
+              ]
+            },
+            {
+              "value": "1989",
+              "label": "year the Cliff of Bandiagara was inscribed by UNESCO",
+              "cite": [
+                "unesco-whc-119"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preventing-rage",
+      "title": "Preventing the duel",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The low ceiling is a deliberate architectural mechanism for conflict resolution.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            },
+            {
+              "text": " The Togu Na serves as the municipal court and parliamentary assembly where elders debate boundary disputes, inheritance, marital conflicts, and collective agricultural schedules.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When debates become heated, human instinct often impels an angry speaker to leap to their feet, shout, or draw a weapon.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            },
+            {
+              "text": " In the Togu Na, anyone attempting to jump up strikes their head against the heavy crossbeams and dense thatch. The physical constraint forces speakers to remain seated, look their opponents in the eyes, regulate their breath, and continue talking until consensus is reached.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The dignity of the spoken word",
+          "parts": [
+            {
+              "text": "In Dogon philosophy recorded by French anthropologist Marcel Griaule, speech is viewed as a physical substance imbued with moisture and heat. Cold, reasoned words bring life, while hot, uncontrolled shouting burns social harmony. The low ceiling physically cools the room and the conversation.",
+              "cite": [
+                "griaule-conversations-ogotemmeli-1965"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shading-the-village",
+      "title": "Thermal comfort and open democracy",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The structure is also a masterpiece of climate-adapted vernacular architecture.",
+              "editorial": true
+            },
+            {
+              "text": " Because the sides are completely open, desert breezes circulate freely beneath the thick thatch, dropping interior temperatures by up to ten degrees Celsius compared to the scorching Sahelian sun outside.",
+              "cite": [
+                "unesco-whc-119"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "By keeping the council in an open public pavilion rather than behind locked palace doors, all villagers — including young people and passersby — can hear the deliberations, ensuring public transparency in customary governance.",
+              "cite": [
+                "jolly-togu-na-dogon-2004"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Marcel Griaule's early cosmological interpretations of Dogon astronomy (notably regarding the star Sirius) were challenged by later anthropologists like Walter van Beek, though the structural and social function of the Togu Na remains undisputed.",
+    "Armed instability in central Mali since 2012 has disrupted customary council assemblies and seasonal repairs of thatch roofing across many Bandiagara communities."
+  ],
+  "keyPoints": [
+    {
+      "text": "The Togu Na is the central deliberative pavilion of Dogon villages, constructed with a low ceiling barely 1.2 to 1.5 meters high.",
+      "cite": [
+        "jolly-togu-na-dogon-2004"
+      ]
+    },
+    {
+      "text": "The physical dimension prevents angry disputants from standing up or brawling, requiring all participants to remain seated and seek verbal compromise.",
+      "cite": [
+        "jolly-togu-na-dogon-2004"
+      ]
+    },
+    {
+      "text": "The open design combines passive Sahelian cooling with participatory judicial transparency.",
+      "cite": [
+        "unesco-whc-119"
+      ]
+    }
+  ]
+}

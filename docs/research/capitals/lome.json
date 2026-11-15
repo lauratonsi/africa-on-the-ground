@@ -1,0 +1,74 @@
+{
+  "city": "Lomé",
+  "country": "TGO",
+  "population": {
+    "value": 2188376,
+    "year": 2022,
+    "definition": "Population of the agglomeration of Greater Lomé (covering the Golfe prefecture with 1,305,681 residents and Agoè-Nyivé prefecture with 882,695 residents) enumerated in the November 2022 General Population and Housing Census (RGPH-5) conducted by the Institut National de la Statistique et des Études Économiques et Démographiques (INSEED) of Togo, tabulated via CityPopulation. In the 2010 census, Greater Lomé numbered 1,477,660 inhabitants.",
+    "source": {
+      "title": "Togo: Division administrative et Grand Lomé - Statistiques de population (RGPH-5 2022)",
+      "publisher": "CityPopulation (credits INSEED Togo)",
+      "author": null,
+      "date": "2022-11-20",
+      "url": "https://www.citypopulation.de/en/togo/cities/",
+      "tier": "institutional",
+      "quote": "2022-11-20 | Grand Lomé total: 2,188,376 (Golfe: 1,305,681, Agoè-Nyivé: 882,695)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Originally an Ewe trade and fishing settlement ('Alomé', among the shrubs), Lomé was chosen as the colonial capital of German Togoland in 1897 when Governor August Köhler transferred the administration from Aného.",
+      "source": {
+        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
+        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
+        "author": null,
+        "date": null,
+        "url": "https://palaisdelome.com/",
+        "tier": "institutional",
+        "quote": "Transfert de la capitale du Togoland d'Aného à Lomé en 1897"
+      }
+    },
+    {
+      "claim": "The Palais de Lomé, built between 1898 and 1905 as the German governor's palace and later French colonial residence and first presidency, was restored in 2019 as an 11-hectare public arts centre and botanical park.",
+      "source": {
+        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
+        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
+        "author": null,
+        "date": null,
+        "url": "https://palaisdelome.com/",
+        "tier": "institutional",
+        "quote": "Réouverture du Palais de Lomé en novembre 2019 comme centre d'art contemporain et parc botanique"
+      }
+    },
+    {
+      "claim": "The Grand Marché de Lomé (Adawlato) gained historic prominence through the 'Nana Benz', visionary Togolese businesswoman who commanded the international wax-print textile trade across West and Central Africa from the 1960s onward.",
+      "source": {
+        "title": "Le Palais de Lomé: Histoire, architecture coloniale et métamorphose en centre d'art et parc botanique",
+        "publisher": "Palais de Lomé / Ministère de la Culture du Togo",
+        "author": null,
+        "date": null,
+        "url": "https://palaisdelome.com/",
+        "tier": "institutional",
+        "quote": "Le rôle économique et patrimonial exceptionnel des Nana Benz au Grand Marché de Lomé"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1897,
+      "event": "Lomé becomes the official capital of German Togoland, initiating construction of the deep-sea wharf, railway lines, and colonial administrative quarters."
+    },
+    {
+      "year": 1914,
+      "event": "Franco-British forces capture Lomé at the onset of World War I; Togo is subsequently partitioned into British and French mandated spheres under the League of Nations, with Lomé placed under French administration."
+    },
+    {
+      "year": 1960,
+      "event": "Togo achieves national independence on 27 April 1960, with Lomé established as the sovereign capital under President Sylvanus Olympio."
+    },
+    {
+      "year": 2019,
+      "event": "The renovated Palais de Lomé opens to the public, reclaiming former colonial grounds as an open pan-African cultural hub and botanical reserve."
+    }
+  ]
+}

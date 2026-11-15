@@ -3,10 +3,62 @@
   "status": "draft",
   "country": "SEN",
   "name": "Dakar",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Dakar, capital of Senegal: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Dakar Department numbered 1,278,469 residents in the 2023 census (over 4 million in the wider Dakar Region).",
+      "cite": [
+        "cap-citypopulation-de-senegal-2023"
+      ]
+    }
+  ],
+  "places": [
+    "island-of-goree",
+    "monument-de-la-renaissance-africaine-dakar",
+    "musee-des-civilisations-noires-dakar",
+    "marche-sandaga-dakar"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Dakar in brief",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,278,469",
+              "label": "residents in Dakar Department, 2023 (4.00M in Dakar Region)",
+              "cite": [
+                "cap-citypopulation-de-senegal-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in the Dakar Department in the 2023 census?",
+          "min": 500000,
+          "max": 5000000,
+          "step": 50000,
+          "unit": "",
+          "answer": 1278469,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,278,469 in the central Dakar Department (and 4,004,427 across the five departments of Dakar Region) in the 2023 census by ANSD Sénégal.",
+              "cite": [
+                "cap-citypopulation-de-senegal-2023"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

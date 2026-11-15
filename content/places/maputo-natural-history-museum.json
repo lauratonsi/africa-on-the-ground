@@ -1,0 +1,75 @@
+{
+  "slug": "maputo-natural-history-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "MOZ",
+  "name": "Museu de História Natural (Natural History Museum)",
+  "region": "Maputo · Mozambique",
+  "subtitle": "A natural history museum run by Eduardo Mondlane University, in a Manueline-style building.",
+  "facts": [
+    {
+      "label": "Building",
+      "value": "Housed in a Manueline-style building since 1933.",
+      "cite": [
+        "cap-uem-mz-aeba36"
+      ]
+    },
+    {
+      "label": "Founding",
+      "value": "UEM page says established in 1911 (another UEM page, not readable, reportedly says 1913; unresolved).",
+      "cite": [
+        "cap-uem-mz-aeba36"
+      ]
+    },
+    {
+      "label": "Collection",
+      "value": "Elephant foetuses from one to 22 months of development.",
+      "cite": [
+        "cap-uem-mz-aeba36"
+      ]
+    },
+    {
+      "label": "Garden",
+      "value": "Garden with murals by Malangatana.",
+      "cite": [
+        "cap-uem-mz-aeba36"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A natural history museum run by Eduardo Mondlane University, in a Manueline-style building. Its best-known exhibit is a collection of elephant foetuses.",
+              "cite": [
+                "cap-uem-mz-aeba36"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "maputo-natural-history-museum",
+    "alt": "Photograph of Museu de História Natural (Natural History Museum).",
+    "caption": "Museu de História Natural (Natural History Museum).",
+    "credit": "Claus Wonnemann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Frontal_view_of_Museu_de_Hist%C3%B3ria_Natural_in_Maputo.jpg"
+  }
+}

@@ -3,10 +3,44 @@
   "status": "draft",
   "country": "MLI",
   "name": "Bamako",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bamako, capital of Mali: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "The award-winning Musée National and Grand Marché Dabanani showcase centuries of Dogon statuary, Bozo puppets, and authentic Bogolan mud-cloth.",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    }
+  ],
+  "places": [
+    "old-towns-of-djenne",
+    "musee-national-du-mali-bamako",
+    "grande-mosquee-de-bamako",
+    "grand-marche-dabanani-bamako"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Bamako in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Following national independence in September 1960 under Modibo Keïta, Bamako expanded into a world capital of African music, photography, and literary festivals, crowned by the presidency on Koulouba hill.",
+              "cite": [
+                "cap-musee-national-mali"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Final microdata tables of the 2022 census round await completion by INSTAT.",
+    "First-hand local voices from Bogolan master dyers and Bozo river fishermen are missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

@@ -3,10 +3,266 @@
   "status": "draft",
   "country": "SOM",
   "name": "Mogadishu",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Mogadishu, capital of Somalia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,650,227 people live in Mogadishu (counted 2014).",
+      "cite": [
+        "cap-citypopulation-de-adc176"
+      ]
+    },
+    {
+      "text": "Mogadishu was a major medieval commercial centre on the East African coast, and the Arab traveller Ibn Battuta described it around 1331 as a large town.",
+      "cite": [
+        "cap-africanhistoryextra-com-4b07c1"
+      ]
+    },
+    {
+      "text": "The city became a regional gold-trade centre and seaport handling goods from Africa, India and Arab lands.",
+      "cite": [
+        "cap-ebsco-com-8dcefb"
+      ]
+    }
+  ],
+  "places": [
+    "hamar-weyne",
+    "bakaara-market",
+    "somali-national-museum",
+    "somali-national-theatre",
+    "mogadishu-cathedral-ruins"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Mogadishu in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mogadishu was a major medieval commercial centre on the East African coast, and the Arab traveller Ibn Battuta described it around 1331 as a large town.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city became a regional gold-trade centre and seaport handling goods from Africa, India and Arab lands.",
+              "cite": [
+                "cap-ebsco-com-8dcefb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After Italian occupation in the late 19th century, Mogadishu became the capital of Italian Somaliland; the former colony became independent in 1960.",
+              "cite": [
+                "cap-ebsco-com-8dcefb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A civil war that began in 1991 devastated the city, which has since been in a long process of revitalisation.",
+              "cite": [
+                "cap-ebsco-com-8dcefb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Al Jazeera reported on 25 Nov 2025 that the city is bustling but still on guard against al-Shabab.",
+              "cite": [
+                "cap-aljazeera-com-aa3ec9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,650,227",
+              "label": "people in Mogadishu, 2014",
+              "cite": [
+                "cap-citypopulation-de-adc176"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Mogadishu?",
+          "min": 0,
+          "max": 5000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 1650227,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,650,227 in 2014, according to the figures compiled from the national statistics office. Which area is counted matters: Population Estimation Survey 2014 result for Banaadir region (which covers the Mogadishu urban area), tabulated by citypopulation.de for Mogadishu.",
+              "cite": [
+                "cap-citypopulation-de-adc176"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1238",
+              "tag": "origins",
+              "text": "Construction of the Friday mosque at Hamar Weyne began, according to its inscription.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "when": "1269",
+              "tag": "origins",
+              "text": "The Arba'a Rukun mosque was built (dated by inscription to ca. 1268-9).",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "when": "c. 1331",
+              "tag": "origins",
+              "text": "Ibn Battuta visited and called Mogadishu a large town.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "when": "1892",
+              "tag": "growth",
+              "text": "Zanzibar's sultan 'ceded' the coastal towns to Italy, a cession described as not really his to make.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "when": "1928",
+              "tag": "growth",
+              "text": "The cathedral, modelled on Cefalu in Sicily, was built under Italian colonial rule.",
+              "cite": [
+                "cap-africasacountry-com-475412"
+              ]
+            },
+            {
+              "when": "1960",
+              "tag": "growth",
+              "text": "The former colony became independent as the United Republic of Somalia.",
+              "cite": [
+                "cap-ebsco-com-8dcefb"
+              ]
+            },
+            {
+              "when": "1991",
+              "tag": "today",
+              "text": "Civil war began; the National Museum closed at its start.",
+              "cite": [
+                "cap-somalia-un-org-6e2299"
+              ]
+            },
+            {
+              "when": "2020-07-01",
+              "tag": "today",
+              "text": "The National Museum was reopened after nearly 30 years closed.",
+              "cite": [
+                "cap-somalia-un-org-6e2299"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Mogadishu in order.",
+          "items": [
+            {
+              "label": "Construction of the Friday mosque at Hamar Weyne began, according to its…",
+              "when": "1238",
+              "text": "Construction of the Friday mosque at Hamar Weyne began, according to its inscription.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "label": "Ibn Battuta visited and called Mogadishu a large town.",
+              "when": "c. 1331",
+              "text": "Ibn Battuta visited and called Mogadishu a large town.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            },
+            {
+              "label": "The former colony became independent as the United Republic of Somalia.",
+              "when": "1960",
+              "text": "The former colony became independent as the United Republic of Somalia.",
+              "cite": [
+                "cap-ebsco-com-8dcefb"
+              ]
+            },
+            {
+              "label": "The National Museum was reopened after nearly 30 years closed.",
+              "when": "2020-07-01",
+              "text": "The National Museum was reopened after nearly 30 years closed.",
+              "cite": [
+                "cap-somalia-un-org-6e2299"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Liido Beach: no readable reputable page (only search snippets)",
+    "Not found in a readable source: Shangani as its own place: no readable source beyond the old-city quote",
+    "Not found in a readable source: Ibn Battuta primary text: only secondary quote read",
+    "Not found in a readable source: Theatre opening year 1967: not confirmed in a read page",
+    "Not found in a readable source: Garesa building history: no read page mentions it",
+    "Not found in a readable source: Mogadishu Lighthouse: not searched",
+    "Not found in a readable source: Common misconception: none found",
+    "Not found in a readable source: Photos for museum and theatre: not searched",
+    "Note: EBSCO's 2023 CIA estimate of 2.61 million urban area also exists; chose 2014 survey. Africanews 2020 theatre date is 27 June 2020 per URL",
+    "Left out because only weak or unofficial sources supported them (4 items, for example: In November 2025, AFP reported a building boom in the capital, with the government saying ).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Somalia has read this profile yet."
   ]
 }

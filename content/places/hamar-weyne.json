@@ -1,0 +1,54 @@
+{
+  "slug": "hamar-weyne",
+  "status": "draft",
+  "type": "site",
+  "country": "SOM",
+  "name": "Hamar Weyne (Xamar Weyne) old district, with Fakhr ad-Din and Arba'a Rukun mosques",
+  "region": "Mogadishu · Somalia",
+  "subtitle": "Hamar Weyne is one of the two old quarters of Mogadishu, the other being Shangani.",
+  "facts": [
+    {
+      "label": "Old city",
+      "value": "Two sections, Shangani and Hamar-Weyne; Shangani thought older",
+      "cite": [
+        "cap-africanhistoryextra-com-4b07c1"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Hamar Weyne is one of the two old quarters of Mogadishu, the other being Shangani. It holds medieval mosques including Fakhr ad-Din.",
+              "cite": [
+                "cap-africanhistoryextra-com-4b07c1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "hamar-weyne",
+    "alt": "An 1882 engraving of the Fakhr ad-Din mosque and its pyramid-shaped roof in Mogadishu.",
+    "caption": "An 1882 engraving of the Fakhr ad-Din mosque in Hamar Weyne.",
+    "credit": "Unknown author (public domain)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Fakr_Ud_Din_Mosque.jpg"
+  }
+}

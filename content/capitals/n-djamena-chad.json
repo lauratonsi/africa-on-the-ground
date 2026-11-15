@@ -3,10 +3,78 @@
   "status": "draft",
   "country": "TCD",
   "name": "N'Djamena",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "N'Djamena, capital of Chad: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "The Musée National houses the cast of Toumaï (~7 million years old), one of the earliest hominids known to science.",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    }
+  ],
+  "places": [
+    "lakes-of-ounianga",
+    "zakouma-national-park",
+    "musee-national-du-tchad-ndjamena",
+    "grande-mosquee-faycal-ndjamena",
+    "grand-marche-de-ndjamena",
+    "place-de-la-nation-ndjamena"
+  ],
+  "sections": [
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1962",
+              "tag": "growth",
+              "text": "The Musée National du Tchad is founded, preserving ancient Sao culture.",
+              "cite": [
+                "cap-unesco-chad-heritage"
+              ]
+            },
+            {
+              "when": "1978",
+              "tag": "growth",
+              "text": "The Grande Mosquée Fayçal opens opposite the Grand Marché.",
+              "cite": [
+                "cap-unesco-chad-heritage"
+              ]
+            },
+            {
+              "when": "2001",
+              "tag": "today",
+              "text": "Fossil skull of Toumaï is discovered, later displayed in cast at the Musée National.",
+              "cite": [
+                "cap-unesco-chad-heritage"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Final analytical tables from the 2026 digital census (RGPH-3) are pending official release.",
+    "First-hand local voices from artisans of the Grand Marché and Chari river fishermen are missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

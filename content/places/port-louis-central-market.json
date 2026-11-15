@@ -1,0 +1,75 @@
+{
+  "slug": "port-louis-central-market",
+  "status": "draft",
+  "type": "market",
+  "country": "MUS",
+  "name": "Central Market (Bazaar central)",
+  "region": "Port Louis · Mauritius",
+  "subtitle": "The main market of Port Louis, with fish, meat, grocery and fresh produce sections.",
+  "facts": [
+    {
+      "label": "Origin of market sales",
+      "value": "First fruit and vegetable sales were held in front of St Louis Cathedral in 1773.",
+      "cite": [
+        "cap-lemauricien-com-d9ed36"
+      ]
+    },
+    {
+      "label": "Fire of 1816",
+      "value": "A fire destroyed the market on 25 September 1816.",
+      "cite": [
+        "cap-lemauricien-com-d9ed36"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Bazaar central built in 1845 with four wings; fish and meat wings survived to 2012 without major repairs.",
+      "cite": [
+        "cap-lemauricien-com-d9ed36"
+      ]
+    },
+    {
+      "label": "Later fires and reconstruction",
+      "value": "Fires destroyed the grocery section (19 May 1981) and vegetable section (4 November 1999); reconstruction completed 11 March 2004.",
+      "cite": [
+        "cap-lemauricien-com-d9ed36"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The main market of Port Louis, with fish, meat, grocery and fresh produce sections. Its present layout dates from the 1845 building, with later reconstruction after fires.",
+              "cite": [
+                "cap-lemauricien-com-d9ed36"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "port-louis-central-market",
+    "alt": "Sacks of maize and flour and dried fish at a stall in a Port Louis market.",
+    "caption": "Stalls in the market.",
+    "credit": "User: (WT-shared) Shoestring at wts wikivoyage",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Port_Louis_Central_Market.JPG"
+  }
+}

@@ -3,10 +3,19 @@
   "status": "draft",
   "country": "BFA",
   "name": "Ouagadougou",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
+  "subtitle": "Ouagadougou, capital of Burkina Faso: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [],
+  "places": [
+    "ruins-of-loropeni",
+    "palais-du-mogho-naaba-ouagadougou",
+    "grand-marche-rood-woko-ouagadougou",
+    "village-artisanal-de-ouagadougou"
+  ],
   "sections": [],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Precise post-2019 internal displacement inflows to peripheral communes are tracked provisionally.",
+    "First-hand local voices from Faso Dan Fani weavers and bronze casters at the Village Artisanal are still missing.",
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

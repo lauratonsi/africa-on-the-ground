@@ -1,0 +1,525 @@
+{
+ "city": "Nairobi",
+ "country": "KEN",
+ "population": {
+  "value": 4397073,
+  "year": 2019,
+  "definition": "Nairobi City County (county-level, not an urban-agglomeration figure), 2019 Kenya Population and Housing Census, census night 24 August 2019",
+  "source": {
+   "title": "Kenya: Division (Provinces and Counties) - Population Statistics, Charts and Map",
+   "publisher": "citypopulation.de (data source named: Kenya National Bureau of Statistics)",
+   "author": null,
+   "date": null,
+   "url": "https://www.citypopulation.de/en/kenya/admin/",
+   "tier": "institutional",
+   "quote": "Nairobi County 2019 census: 4,397,073 (page names source: Kenya National Bureau of Statistics). Quote is the extracted figure, not verbatim sentence."
+  }
+ },
+ "facts": [
+  {
+   "claim": "Nairobi began in 1899 as a British camp and supply depot for railway construction workers on Maasai land.",
+   "source": {
+    "title": "5 Unique facts about Nairobi",
+    "publisher": "The Standard (Kenya)",
+    "author": "Edwin Kis'sanya",
+    "date": "2019-10-31",
+    "url": "https://www.standardmedia.co.ke/amp/travelog/article/2001347597/5-unique-facts-about-nairobi",
+    "tier": "press",
+    "quote": "In 1899, the British \"build a camp and supply depot for construction workers\""
+   }
+  },
+  {
+   "claim": "Nairobi began as a railway camp for the Uganda Railway.",
+   "source": {
+    "title": "Nairobi, Kenya (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Lynn-nore Chittom",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+    "tier": "academic",
+    "quote": "began as a railway camp for the Imperial British East Africa Company's Uganda Railway"
+   }
+  },
+  {
+   "claim": "The name comes from a Maasai phrase meaning cool waters (spelled Enkare Nairobi in one source, Ewaso Nyirobi in another).",
+   "source": {
+    "title": "5 Unique facts about Nairobi",
+    "publisher": "The Standard (Kenya)",
+    "author": "Edwin Kis'sanya",
+    "date": "2019-10-31",
+    "url": "https://www.standardmedia.co.ke/amp/travelog/article/2001347597/5-unique-facts-about-nairobi",
+    "tier": "press",
+    "quote": "The Maasai had called the land Enkare Nairobi because of its cool waters."
+   }
+  },
+  {
+   "claim": "Nairobi's Maasai-phrase name is rendered as 'the place of cool water' (EBSCO spells it Ewaso Nyirobi; it also notes an earlier name, Mile 327).",
+   "source": {
+    "title": "Nairobi, Kenya (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Lynn-nore Chittom",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+    "tier": "academic",
+    "quote": "the place of cool water"
+   }
+  },
+  {
+   "claim": "Nairobi became capital of the British East Africa Protectorate in 1905.",
+   "source": {
+    "title": "Nairobi, Kenya (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Lynn-nore Chittom",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+    "tier": "academic",
+    "quote": "In 1905, Nairobi became the capital of the British East Africa Protectorate."
+   }
+  },
+  {
+   "claim": "Kenya's independence in 1963 made Nairobi the capital of the independent country.",
+   "source": {
+    "title": "5 Unique facts about Nairobi",
+    "publisher": "The Standard (Kenya)",
+    "author": "Edwin Kis'sanya",
+    "date": "2019-10-31",
+    "url": "https://www.standardmedia.co.ke/amp/travelog/article/2001347597/5-unique-facts-about-nairobi",
+    "tier": "press",
+    "quote": "After independence, Kenya made it its capital in 1963."
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1899",
+   "claim": "British build a camp and supply depot for railway construction workers on the site of Nairobi.",
+   "tag": "origins",
+   "source": {
+    "title": "5 Unique facts about Nairobi",
+    "publisher": "The Standard (Kenya)",
+    "author": "Edwin Kis'sanya",
+    "date": "2019-10-31",
+    "url": "https://www.standardmedia.co.ke/amp/travelog/article/2001347597/5-unique-facts-about-nairobi",
+    "tier": "press",
+    "quote": "In 1899, the British \"build a camp and supply depot for construction workers\""
+   }
+  },
+  {
+   "when": "1905",
+   "claim": "Nairobi becomes capital of the British East Africa Protectorate.",
+   "tag": "origins",
+   "source": {
+    "title": "Nairobi, Kenya (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Lynn-nore Chittom",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+    "tier": "academic",
+    "quote": "In 1905, Nairobi became the capital of the British East Africa Protectorate."
+   }
+  },
+  {
+   "when": "1930",
+   "claim": "The museum that is now the Nairobi National Museum is officially opened as the Coryndon Museum (22 September).",
+   "tag": "growth",
+   "source": {
+    "title": "Nairobi National Museum",
+    "publisher": "National Museums of Kenya",
+    "author": null,
+    "date": null,
+    "url": "https://museums.or.ke/nairobi-national-museum/",
+    "tier": "institutional",
+    "quote": "officially opened in 22nd September, 1930 and named Coryndon Museum in honour of Sir Robert Coryndon"
+   }
+  },
+  {
+   "when": "1954",
+   "claim": "During the Mau Mau uprising, Operation Anvil sweeps Nairobi and detains about 16,500 people, mostly Kikuyu.",
+   "tag": "growth",
+   "source": {
+    "title": "Mau Mau Uprising (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "T. K. Welliver",
+    "date": "2021",
+    "url": "https://www.ebsco.com/research-starters/history/mau-mau-uprising/",
+    "tier": "academic",
+    "quote": "swept Nairobi sector by sector, rounding up some 16,500 people, mostly Kikuyu."
+   }
+  },
+  {
+   "when": "1963",
+   "claim": "Kenya becomes independent; Nairobi is its capital. The colonial-era museum is renamed National Museums of Kenya.",
+   "tag": "growth",
+   "source": {
+    "title": "Museum Story",
+    "publisher": "National Museums of Kenya",
+    "author": null,
+    "date": null,
+    "url": "https://museums.or.ke/museum-story/",
+    "tier": "institutional",
+    "quote": "On the attainment of independence in 1963, it was re-named NMK."
+   }
+  },
+  {
+   "when": "1998",
+   "claim": "The bombing of the US Embassy in Nairobi severely affects the economy.",
+   "tag": "today",
+   "source": {
+    "title": "Nairobi, Kenya (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Lynn-nore Chittom",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+    "tier": "academic",
+    "quote": "In 1998, the economy was severely impacted by the terrorist bombing of the US Embassy in Nairobi."
+   }
+  },
+  {
+   "when": "2008",
+   "claim": "The Nairobi National Museum reopens in June after modernization that began in 2005.",
+   "tag": "today",
+   "source": {
+    "title": "Nairobi National Museum",
+    "publisher": "National Museums of Kenya",
+    "author": null,
+    "date": null,
+    "url": "https://museums.or.ke/nairobi-national-museum/",
+    "tier": "institutional",
+    "quote": "The Museum later re-opened in June 2008 as the Nairobi National Museum"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Nairobi National Museum",
+   "type": "culture",
+   "what": "A museum run by National Museums of Kenya on Museum Hill, begun in 1910 by naturalists. Its permanent galleries cover human origins, mammals, Kenyan history and more.",
+   "facts": [
+    {
+     "label": "Origin",
+     "value": "Initiated in 1910 by a group of naturalists",
+     "source": {
+      "title": "Nairobi National Museum",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/nairobi-national-museum/",
+      "tier": "institutional",
+      "quote": "The Museum was initiated in 1910 by a group of enthusiastic naturalists."
+     }
+    },
+    {
+     "label": "Opened",
+     "value": "Opened 22 September 1930 as the Coryndon Museum",
+     "source": {
+      "title": "Nairobi National Museum",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/nairobi-national-museum/",
+      "tier": "institutional",
+      "quote": "officially opened in 22nd September, 1930 and named Coryndon Museum in honour of Sir Robert Coryndon"
+     }
+    },
+    {
+     "label": "Reopened",
+     "value": "Reopened June 2008 under its current name",
+     "source": {
+      "title": "Nairobi National Museum",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/nairobi-national-museum/",
+      "tier": "institutional",
+      "quote": "The Museum later re-opened in June 2008 as the Nairobi National Museum"
+     }
+    },
+    {
+     "label": "Galleries",
+     "value": "Permanent galleries include The Cradle of Human Kind and The History of Kenya",
+     "source": {
+      "title": "Nairobi National Museum",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/nairobi-national-museum/",
+      "tier": "institutional",
+      "quote": "We have the following permanent galleries:"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Nairobi National Museum 2.jpg",
+    "licence": "CC BY-SA 2.0",
+    "author": "Mike W. (Flickr: SqueakyMarmot)",
+    "note": "Commons page does not describe contents; verify visually for people."
+   },
+   "readSources": [
+    "https://museums.or.ke/nairobi-national-museum/",
+    "https://museums.or.ke/museum-story/"
+   ]
+  },
+  {
+   "name": "Nairobi National Park",
+   "type": "nature",
+   "what": "A wildlife park just outside central Nairobi, managed within the city's edge. EBSCO calls it the only wild game reserve within the city limits of a major metropolitan city.",
+   "facts": [
+    {
+     "label": "Setting",
+     "value": "Close to the city centre",
+     "source": {
+      "title": "EXPLAINER: Wild heart in the city: Why Nairobi National Park is one of a kind",
+      "publisher": "The Star (Kenya)",
+      "author": "Sharon Mwende",
+      "date": "2025-08-19",
+      "url": "https://www.the-star.co.ke/news/2025-08-19-explainer-wild-heart-in-the-city-why-nairobi-national-park-is-one-of-a-kind",
+      "tier": "press",
+      "quote": "Just a short drive from the central business district."
+     }
+    },
+    {
+     "label": "Anniversary",
+     "value": "Marked its 75th anniversary in December 2021 (implies 1946 founding; the page does not state 1946 directly)",
+     "source": {
+      "title": "EXPLAINER: Wild heart in the city: Why Nairobi National Park is one of a kind",
+      "publisher": "The Star (Kenya)",
+      "author": "Sharon Mwende",
+      "date": "2025-08-19",
+      "url": "https://www.the-star.co.ke/news/2025-08-19-explainer-wild-heart-in-the-city-why-nairobi-national-park-is-one-of-a-kind",
+      "tier": "press",
+      "quote": "75th anniversary in December 2021"
+     }
+    },
+    {
+     "label": "Wildlife",
+     "value": "Includes giraffes, leopards, cheetahs, hyenas",
+     "source": {
+      "title": "EXPLAINER: Wild heart in the city: Why Nairobi National Park is one of a kind",
+      "publisher": "The Star (Kenya)",
+      "author": "Sharon Mwende",
+      "date": "2025-08-19",
+      "url": "https://www.the-star.co.ke/news/2025-08-19-explainer-wild-heart-in-the-city-why-nairobi-national-park-is-one-of-a-kind",
+      "tier": "press",
+      "quote": "diverse wildlife including giraffes, leopards, cheetahs, hyenas"
+     }
+    },
+    {
+     "label": "Wildlife (rhino)",
+     "value": "Hosts the endangered black rhino and over 400 bird species",
+     "source": {
+      "title": "Nairobi National Park | Kenya",
+      "publisher": "CBD Clearing House Mechanism, Kenya",
+      "author": "None",
+      "date": null,
+      "url": "https://ke.chm-cbd.net/protected-areas/nairobi-national-park",
+      "tier": "institutional",
+      "quote": "including the endangered black rhino, lions, leopards, cheetahs, hyenas, buffaloes, giraffes"
+     }
+    },
+    {
+     "label": "Uniqueness",
+     "value": "Described as only game reserve within the limits of a major city",
+     "source": {
+      "title": "Nairobi, Kenya (Research Starter)",
+      "publisher": "EBSCO Information Services",
+      "author": "Lynn-nore Chittom",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/",
+      "tier": "academic",
+      "quote": "the only wild game reserve within the city limits of a major metropolitan city"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:A lone giraffe in Nairobi National Park.jpg",
+    "licence": "GFDL 1.2+ and CC BY-SA 3.0",
+    "author": "Mkimemia (original uploader, en.wikipedia)"
+   },
+   "readSources": [
+    "https://www.the-star.co.ke/news/2025-08-19-explainer-wild-heart-in-the-city-why-nairobi-national-park-is-one-of-a-kind",
+    "https://ke.chm-cbd.net/protected-areas/nairobi-national-park",
+    "https://www.ebsco.com/research-starters/geography-and-cartography/nairobi-kenya/"
+   ]
+  },
+  {
+   "name": "Gikomba Market",
+   "type": "market",
+   "what": "A large open-air secondhand clothing market in Nairobi. Al Jazeera calls it the largest secondhand market in East Africa.",
+   "facts": [
+    {
+     "label": "Scale",
+     "value": "Described as the largest secondhand market in East Africa",
+     "source": {
+      "title": "Kenyan designers make fashion statement against textile waste",
+      "publisher": "Al Jazeera",
+      "author": "Alyona Synenko",
+      "date": "2023-08-16",
+      "url": "https://www.aljazeera.com/gallery/2023/8/16/photos-kenyan-designers-make-a-fashion-statement-against-textile-waste",
+      "tier": "press",
+      "quote": "the largest secondhand market in East Africa"
+     }
+    },
+    {
+     "label": "Employment",
+     "value": "About 65,000 people work there (Al Jazeera 2023)",
+     "source": {
+      "title": "Kenyan designers make fashion statement against textile waste",
+      "publisher": "Al Jazeera",
+      "author": "Alyona Synenko",
+      "date": "2023-08-16",
+      "url": "https://www.aljazeera.com/gallery/2023/8/16/photos-kenyan-designers-make-a-fashion-statement-against-textile-waste",
+      "tier": "press",
+      "quote": "The Gikomba market alone provides employment to about 65,000 people."
+     }
+    },
+    {
+     "label": "Trade",
+     "value": "Shoppers can find branded clothing at low prices (Reuters 2014)",
+     "source": {
+      "title": "Global business of secondhand clothes thrives in Kenya",
+      "publisher": "The Daily Star (Reuters report, Nairobi)",
+      "author": "Reuters",
+      "date": "2014-10-15",
+      "url": "https://www.thedailystar.net/global-business-of-secondhand-clothes-thrives-in-kenya-45854",
+      "tier": "press",
+      "quote": "shoppers in Nairobi's Gikomba market can turn up Tommy Hilfiger jeans"
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.aljazeera.com/gallery/2023/8/16/photos-kenyan-designers-make-a-fashion-statement-against-textile-waste",
+    "https://www.thedailystar.net/global-business-of-secondhand-clothes-thrives-in-kenya-45854"
+   ]
+  },
+  {
+   "name": "Karura Forest",
+   "type": "nature",
+   "what": "A large urban forest in northern Nairobi. It sheltered Mau Mau fighters and later became a symbol of resistance to land grabbing.",
+   "facts": [
+    {
+     "label": "Size",
+     "value": "1,041 hectares, in Nairobi",
+     "source": {
+      "title": "Karura Forest and the Politics of Community-Based Conservation in Kenya",
+      "publisher": "African Arguments",
+      "author": "Adwera Loice and Ian Chebii",
+      "date": "2025-09-15",
+      "url": "https://africanarguments.org/2025/09/karura-forest-and-the-politics-of-community-based-conservation-in-kenya/",
+      "tier": "press",
+      "quote": "Karura Forest is a 1,041 hectare urban sanctuary located in Kenya's capital, Nairobi."
+     }
+    },
+    {
+     "label": "History",
+     "value": "Used by Mau Mau fighters during the liberation struggle",
+     "source": {
+      "title": "Karura Forest and the Politics of Community-Based Conservation in Kenya",
+      "publisher": "African Arguments",
+      "author": "Adwera Loice and Ian Chebii",
+      "date": "2025-09-15",
+      "url": "https://africanarguments.org/2025/09/karura-forest-and-the-politics-of-community-based-conservation-in-kenya/",
+      "tier": "press",
+      "quote": "sanctuaries for Mau Mau freedom fighters"
+     }
+    },
+    {
+     "label": "Land allocation",
+     "value": "In 1998 almost a third was secretly allocated to developers",
+     "source": {
+      "title": "Forest History",
+      "publisher": "Friends of Karura Forest",
+      "author": null,
+      "date": null,
+      "url": "https://friendsofkarura.org/forest-history/",
+      "tier": "primary",
+      "quote": "In 1998 almost a third of the forest was allocated secretly to developers."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Karura forest path.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Mekami",
+    "note": "Page does not mention people; verify visually."
+   },
+   "readSources": [
+    "https://africanarguments.org/2025/09/karura-forest-and-the-politics-of-community-based-conservation-in-kenya/",
+    "https://friendsofkarura.org/forest-history/"
+   ]
+  },
+  {
+   "name": "Karen Blixen Museum",
+   "type": "site",
+   "what": "A house museum at the foot of the Ngong Hills, run by National Museums of Kenya. It was once the centrepiece of a farm.",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "Built in 1912 by Swedish engineer Ake Sjogren",
+     "source": {
+      "title": "Karen Blixen",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/karen-blixen/",
+      "tier": "institutional",
+      "quote": "Built in 1912 by Swedish Engineer Ake Sjogren."
+     }
+    },
+    {
+     "label": "Opened",
+     "value": "Museum opened in 1986",
+     "source": {
+      "title": "Karen Blixen",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/karen-blixen/",
+      "tier": "institutional",
+      "quote": "The Museum was opened in 1986."
+     }
+    },
+    {
+     "label": "Setting",
+     "value": "Once centre of a farm at the foot of the Ngong Hills",
+     "source": {
+      "title": "Karen Blixen",
+      "publisher": "National Museums of Kenya",
+      "author": null,
+      "date": null,
+      "url": "https://museums.or.ke/karen-blixen/",
+      "tier": "institutional",
+      "quote": "once the centre piece of a farm at the foot of the Ngong Hills"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Karen Blixen Museum House.jpg",
+    "licence": "CC0 1.0",
+    "author": "さえぼー",
+    "note": "Page does not mention people; verify visually."
+   },
+   "readSources": [
+    "https://museums.or.ke/karen-blixen/"
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://kws.go.ke/node/628 - TLS certificate error",
+  "https://kws.go.ke/park/nairobi-national-park/ - TLS certificate error",
+  "https://sandbox.kws.go.ke/?p=4575 - TLS certificate error",
+  "https://nation.africa/kenya/news/museum-that-tells-it-all-with-trains-173564 - 403",
+  "https://nairobinews.nation.africa/embakasi-most-populous-nairobi-sub-county-with-1m-people-census/ - 403"
+ ],
+ "notNotFound": [
+  "Official KNBS page for 2019 census (only citypopulation.de naming KNBS)",
+  "Nairobi National Park 1946 founding stated directly (KWS unreadable; The Star only gives 75th anniversary Dec 2021)",
+  "Nairobi National Park area figure from a readable source",
+  "Railway Museum: partial only (Business Daily: opened 1971; China Daily exhibits), not included as place",
+  "Maasai Market: Capital FM 2008 (early 1970s concept, over 1,000 registered traders) and Cultural Survival 2004 read but not used (dated); no photo found",
+  "Explicit 'Uganda Railway' + 1899 depot in one source; EBSCO lacks 1899, Standard lacks Uganda Railway",
+  "Myth/misconception corrected by a source",
+  "Nairobi became capital of Kenya at independence: Standard only, press"
+ ]
+}

@@ -3,6 +3,14 @@
   "status": "published",
   "type": "culture",
   "country": "ZAF",
+  "coords": {
+    "lat": -25.7656,
+    "lon": 28.1906,
+    "approx": true,
+    "cite": [
+      "cap-gov-za-b7128c"
+    ]
+  },
   "name": "Freedom Park",
   "region": "Pretoria · South Africa",
   "subtitle": "A heritage precinct of memorial sites on Salvokop Hill, Pretoria, commemorating those who died in conflicts that shaped South Africa.",

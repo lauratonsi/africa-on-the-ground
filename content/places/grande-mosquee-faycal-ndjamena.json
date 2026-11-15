@@ -1,0 +1,59 @@
+{
+  "slug": "grande-mosquee-faycal-ndjamena",
+  "status": "draft",
+  "type": "culture",
+  "country": "TCD",
+  "name": "Grande Mosquée Fayçal de N'Djamena",
+  "region": "N'Djamena · Chad",
+  "subtitle": "Imposing central mosque complex completed in 1978 with soaring minarets facing the Grand Marché.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "1978",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "Monumental twin minarets, central domes, and Islamic cultural library",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Spiritual center for Chad's Muslim community, hosting major national religious assemblies",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The largest and most prominent Islamic place of worship in Chad, located in the central district of N'Djamena across from the Grand Marché. Opened in 1978 and named in honor of King Faisal of Saudi Arabia, who supported its construction, the mosque features towering minarets that dominate the capital's flat Sahelian skyline. In addition to its grand prayer hall accommodating thousands of worshippers, the complex houses an Islamic secondary school and an extensive theological library.",
+              "cite": [
+                "cap-unesco-chad-heritage"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Architectural blueprints and historical restoration records are partially digitized.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "grande-mosquee-de-niamey",
+  "status": "draft",
+  "type": "site",
+  "country": "NER",
+  "name": "Grande Mosquée de Niamey",
+  "region": "Niamey · Niger",
+  "subtitle": "Monumental emerald-domed mosque along Avenue de l'Islam, built in the late 1970s.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "Late 1970s built with Libyan funding",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Minaret",
+      "value": "Prominent tower offering expansive views across Niamey",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Capacity",
+      "value": "Accommodates thousands of worshippers in spacious colonnaded prayer galleries",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Grande Mosquée de Niamey is the largest Muslim place of worship in Niger's capital city. Financed in the late 1970s through assistance from the Libyan Islamic Call Society, the complex features a distinctive green dome, extensive mosaic tilework, and a soaring minaret that serves as a visual compass point across the city.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

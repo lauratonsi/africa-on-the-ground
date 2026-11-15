@@ -1,0 +1,58 @@
+{
+  "slug": "port-de-peche-nouakchott",
+  "status": "draft",
+  "type": "site",
+  "country": "MRT",
+  "name": "Port de Pêche de Nouakchott",
+  "region": "Nouakchott · Mauritania",
+  "subtitle": "Artisanal fishing beach and wharf where hundreds of colorful wooden pirogues land Atlantic catch daily.",
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Artisanal ocean fishing harbor and fish market beach",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Fleet",
+      "value": "Hundreds of wooden motorized pirogues operated by Mauritanian and Senegalese fishermen",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "label": "Economic role",
+      "value": "Key supplier of fresh fish and seafood to Nouakchott and regional export markets",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Located along the Atlantic coast west of central Nouakchott, the Port de Pêche is the bustling artisanal epicenter of Mauritania's fishing economy. Every afternoon, hundreds of brightly painted wooden pirogues brave the Atlantic surf to beach their catches of sea bream, mullet, and octopus directly onto the sand, feeding an energetic open-air fish auction and drying sheds.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

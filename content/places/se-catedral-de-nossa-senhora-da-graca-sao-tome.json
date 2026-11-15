@@ -1,0 +1,59 @@
+{
+  "slug": "se-catedral-de-nossa-senhora-da-graca-sao-tome",
+  "status": "draft",
+  "type": "site",
+  "country": "STP",
+  "name": "Sé Catedral de Nossa Senhora da Graça",
+  "region": "São Tomé · São Tomé and Príncipe",
+  "subtitle": "Historic cathedral and seat of one of the earliest Catholic dioceses established in sub-Saharan Africa (1534).",
+  "facts": [
+    {
+      "label": "Diocese established",
+      "value": "1534 by Pope Clement VII",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "value": "Reconstructed in late 19th-century Portuguese revival style with twin bell towers",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Praça do Povo in downtown São Tomé",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The main cathedral and bishop's seat of the Diocese of São Tomé and Príncipe, situated on Praça do Povo in the historic heart of the capital. Originally founded in the early 16th century, its episcopal see was elevated in 1534, making it one of the most venerable Catholic diocesan seats across sub-Saharan Africa. Rebuilt and renovated across the centuries, its current facade combines Portuguese colonial baroque and neoclassical elements, featuring dual bell towers and blue-and-white azulejo tile decorations.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Parish archive records prior to the late 19th-century renovation are partially preserved.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

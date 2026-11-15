@@ -1,0 +1,520 @@
+{
+  "city": "Addis Ababa",
+  "country": "ETH",
+  "population": {
+    "value": 3859999,
+    "year": 2022,
+    "definition": "Projected population of the Chartered City of Adis Abeba as of 1 July 2022 (Ethiopian Statistics Service projection; 2007 census count was 2,739,551). Official projection for the city administration, not the wider metro area; other estimates are higher.",
+    "source": {
+      "title": "Adis Abeba (Chartered City, Ethiopia) - Population Statistics, Charts, Map and Location",
+      "publisher": "citypopulation.de (names Ethiopian Statistics Service as its source)",
+      "author": null,
+      "date": "page lists projection of 2022-07-01",
+      "url": "https://citypopulation.de/en/ethiopia/admin/ET14__adis_abeba/",
+      "tier": "institutional (fallback aggregator, official source named)",
+      "quote": "Source: Ethiopian Statistics Service (web) - projection 2022-07-01: 3,859,999"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Addis Ababa, meaning 'New Flower' in Amharic, was founded in 1886.",
+      "source": {
+        "title": "The New Flower: Addis Ababa and the Project of African Modernity",
+        "publisher": "Society of Architectural Historians (SAH Blog)",
+        "author": "Amber N. Wiley",
+        "date": "2014-12-04 (updated 2025-10-03)",
+        "url": "https://www.sah.org/publications/sah-blog/sah-blog/2014/12/04/the-new-flower-addis-ababa-and-the-project-of-african-modernity",
+        "tier": "institutional",
+        "quote": "Addis Ababa, or \"New Flower\" in Amharic, was founded in 1886."
+      }
+    },
+    {
+      "claim": "Empress Taytu Betul, wife of Menelik II, is credited with selecting the site and with naming (renaming) the place.",
+      "source": {
+        "title": "Addis Ababa: Achilles' heel of Ethiopian Federation",
+        "publisher": "The Reporter Ethiopia",
+        "author": "Asrat Seyoum",
+        "date": "2019-03-30",
+        "url": "https://www.thereporterethiopia.com/7724/",
+        "tier": "press",
+        "quote": "TaytuBetul, wife of Emperor Menelik II, is widely accredited for doing the initial sight selection."
+      }
+    },
+    {
+      "claim": "The founding year varies between 1886 and 1888 depending on records; one account describes 1887 as the founding of a military garrison under Menilek II. The area was historically known as Finfinne, a name tied to its hot springs.",
+      "source": {
+        "title": "Establishment History of Addis Ababa and the Displacement of Oromo Communities from Finfinne",
+        "publisher": "Ethiopians Today (republished from Ethio Affairs)",
+        "author": "Chala Dandessa",
+        "date": "2026-08-11",
+        "url": "https://ethiopianstoday.com/2026/08/11/establishment-history-of-addis-ababa-and-the-displacement-of-oromo-communities-from-finfinne/",
+        "tier": "press (opinion/analysis; relays Oxford Research Encyclopedia of African History, not read directly)",
+        "quote": "Addis Ababa is historically known as Finfinne, a name associated with the area's hot springs."
+      }
+    },
+    {
+      "claim": "The OAU was created at a meeting in Addis Ababa in May 1963; its successor, the African Union, was launched in Durban in 2002.",
+      "source": {
+        "title": "About the African Union",
+        "publisher": "African Union Commission (au.int)",
+        "author": null,
+        "date": null,
+        "url": "https://au.int/en/overview",
+        "tier": "institutional",
+        "quote": "In May 1963, 32 Heads of independent African States met in Addis Ababa Ethiopia"
+      }
+    },
+    {
+      "claim": "The OAU's founding date was 25 May 1963 and it was formed in Addis Ababa.",
+      "source": {
+        "title": "Organization of African Unity Is Founded (Research Starter)",
+        "publisher": "EBSCO Information Services",
+        "author": "Erving E. Beauregard",
+        "date": "2021",
+        "url": "https://www.ebsco.com/research-starters/politics-and-government/organization-african-unity-founded",
+        "tier": "academic",
+        "quote": "On May 25, 1963, the OAU debuted."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "1886",
+      "claim": "Addis Ababa ('New Flower') is founded.",
+      "tag": "origins",
+      "source": {
+        "title": "The New Flower: Addis Ababa and the Project of African Modernity",
+        "publisher": "Society of Architectural Historians (SAH Blog)",
+        "author": "Amber N. Wiley",
+        "date": "2014-12-04",
+        "url": "https://www.sah.org/publications/sah-blog/sah-blog/2014/12/04/the-new-flower-addis-ababa-and-the-project-of-african-modernity",
+        "tier": "institutional",
+        "quote": "Addis Ababa, or \"New Flower\" in Amharic, was founded in 1886."
+      }
+    },
+    {
+      "when": "1936",
+      "claim": "Merkato begins as a small village market, later renamed by Italian occupiers 'Mercato indigenous'.",
+      "tag": "origins",
+      "source": {
+        "title": "The Impact of Multi-Story Commercial Buildings on the Heritage Values of Market Open Market in Addis Ababa",
+        "publisher": "OMICS Publishing Group, Journal of Architectural Engineering Technology 10(9)",
+        "author": "Kibur Kassie and Daniel Lirebo",
+        "date": "2021-09-17",
+        "url": "https://www.omicsonline.org/open-access/the-impact-of-multistory-commercial-buildings-on-the-heritage-values-of-market-open-market-in-addis-ababa-117208.html",
+        "tier": "academic",
+        "quote": "In 1936 started as a kind of small village market and assumed its present proportion"
+      }
+    },
+    {
+      "when": "1942",
+      "claim": "The new Holy Trinity Cathedral is completed after Haile Selassie's return from exile.",
+      "tag": "growth",
+      "source": {
+        "title": "Cutting trees puts Holy Trinity Cathedral Church in grave trouble",
+        "publisher": "Capital Ethiopia",
+        "author": null,
+        "date": "2019-04-01",
+        "url": "https://capitalethiopia.com/2019/04/01/cutting-trees-puts-holy-trinity-cathedral-church-in-grave-trouble/",
+        "tier": "press",
+        "quote": "The new Cathedral was completed in 1942, after the return from exile of Emperor Haile Selassie."
+      }
+    },
+    {
+      "when": "May 1963",
+      "claim": "Leaders of 32 independent African states meet in Addis Ababa to create the Organization of African Unity.",
+      "tag": "growth",
+      "source": {
+        "title": "About the African Union",
+        "publisher": "African Union Commission (au.int)",
+        "author": null,
+        "date": null,
+        "url": "https://au.int/en/overview",
+        "tier": "institutional",
+        "quote": "In May 1963, 32 Heads of independent African States met in Addis Ababa Ethiopia"
+      }
+    },
+    {
+      "when": "1974",
+      "claim": "Lucy is found by U.S. paleoanthropologists Donald Johanson and Tom Gray (now kept at the National Museum in Addis Ababa).",
+      "tag": "growth",
+      "source": {
+        "title": "EXCLUSIVE: World's most famous hominid: Ethiopia's mute ambassador",
+        "publisher": "Anadolu Agency",
+        "author": "Abebech Tamene",
+        "date": "2014-04-15",
+        "url": "https://www.aa.com.tr/en/science-technology/exclusive-worlds-most-famous-hominid-ethiopias-mute-ambassador/166867",
+        "tier": "press",
+        "quote": "found in 1974 by U.S. paleoanthropologists Donald Johanson and Tom Gray"
+      }
+    },
+    {
+      "when": "2010",
+      "claim": "The Red Terror Martyrs' Memorial Museum is established at Meskel Square.",
+      "tag": "today",
+      "source": {
+        "title": "From shadows to light: The Martyrs' Memorial Museum tells a haunting tale",
+        "publisher": "The Reporter Ethiopia",
+        "author": "Abraham Tekle",
+        "date": "2024-04-06",
+        "url": "https://www.thereporterethiopia.com/39517/",
+        "tier": "press",
+        "quote": "Established in 2010, this hallowed sanctuary serves as a poignant homage to the countless victims"
+      }
+    },
+    {
+      "when": "11 February 2024",
+      "claim": "The Adwa Victory Memorial is inaugurated in Addis Ababa.",
+      "tag": "today",
+      "source": {
+        "title": "PM Abiy, President Sahlework Inaugurate Adwa Victory Memorial",
+        "publisher": "Ethiopian News Agency (ENA)",
+        "author": null,
+        "date": "2024-02-11",
+        "url": "https://www.ena.et/web/eng/w/eng_4001475",
+        "tier": "press",
+        "quote": "Prime Minister Abiy Ahmed and President Sahlework Zewde inaugurated today the Adwa Victory Memorial in Addis Ababa."
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "National Museum of Ethiopia",
+      "type": "culture",
+      "what": "The national museum in Addis Ababa. It keeps the fossil skeleton known internationally as Lucy and in Ethiopia as Dinknesh.",
+      "facts": [
+        {
+          "label": "Lucy's location",
+          "value": "Lucy is kept at the National Museum of Ethiopia.",
+          "source": {
+            "title": "50 years on, Lucy offers lessons for achieving fossil fame",
+            "publisher": "Science News Explores (Society for Science & the Public)",
+            "author": "Bruce Bower",
+            "date": "2024-12-05",
+            "url": "https://www.snexplores.org/article/lucy-fossil-50-years-human-evolution",
+            "tier": "press",
+            "quote": "One of the biggest superstars in human history lies in the National Museum of Ethiopia."
+          }
+        },
+        {
+          "label": "Age",
+          "value": "Nearly 3.2 million years",
+          "source": {
+            "title": "50 years on, Lucy offers lessons for achieving fossil fame",
+            "publisher": "Science News Explores (Society for Science & the Public)",
+            "author": "Bruce Bower",
+            "date": "2024-12-05",
+            "url": "https://www.snexplores.org/article/lucy-fossil-50-years-human-evolution",
+            "tier": "press",
+            "quote": "Nearly 3.2 million years ago, this ancient female roamed East Africa's landscape."
+          }
+        },
+        {
+          "label": "Ethiopian name",
+          "value": "Dinknesh, Amharic for 'You are wondrous'",
+          "source": {
+            "title": "EXCLUSIVE: World's most famous hominid: Ethiopia's mute ambassador",
+            "publisher": "Anadolu Agency",
+            "author": "Abebech Tamene",
+            "date": "2014-04-15",
+            "url": "https://www.aa.com.tr/en/science-technology/exclusive-worlds-most-famous-hominid-ethiopias-mute-ambassador/166867",
+            "tier": "press",
+            "quote": "Amharic for 'You are wondrous'"
+          }
+        },
+        {
+          "label": "Other fossils housed",
+          "value": "Also houses the fossils Ardi and Selam",
+          "source": {
+            "title": "EXCLUSIVE: World's most famous hominid: Ethiopia's mute ambassador",
+            "publisher": "Anadolu Agency",
+            "author": "Abebech Tamene",
+            "date": "2014-04-15",
+            "url": "https://www.aa.com.tr/en/science-technology/exclusive-worlds-most-famous-hominid-ethiopias-mute-ambassador/166867",
+            "tier": "press",
+            "quote": "Lucy is housed along with the world-famous Ardi and Selam"
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Ethiopian National Museum in Addis Ababa.jpg",
+        "licence": "CC BY 4.0",
+        "author": "Ninaras"
+      },
+      "readSources": [
+        "https://www.snexplores.org/article/lucy-fossil-50-years-human-evolution",
+        "https://www.aa.com.tr/en/science-technology/exclusive-worlds-most-famous-hominid-ethiopias-mute-ambassador/166867",
+        "https://commons.wikimedia.org/wiki/File:Ethiopian_National_Museum_in_Addis_Ababa.jpg"
+      ]
+    },
+    {
+      "name": "Merkato",
+      "type": "market",
+      "what": "Merkato is an open-air market in western Addis Ababa, described in academic sources as the largest open market in Africa. Its present form dates to the Italian occupation, when it was named for the 'indigenous' population.",
+      "facts": [
+        {
+          "label": "Size claim",
+          "value": "Described as the largest open market in Africa",
+          "source": {
+            "title": "The Impact of Multi-Story Commercial Buildings on the Heritage Values of Market Open Market in Addis Ababa",
+            "publisher": "OMICS Publishing Group, Journal of Architectural Engineering Technology 10(9)",
+            "author": "Kibur Kassie and Daniel Lirebo",
+            "date": "2021-09-17",
+            "url": "https://www.omicsonline.org/open-access/the-impact-of-multistory-commercial-buildings-on-the-heritage-values-of-market-open-market-in-addis-ababa-117208.html",
+            "tier": "academic",
+            "quote": "It is still the largest open market in Africa."
+          }
+        },
+        {
+          "label": "Italian name",
+          "value": "Italian occupiers called it 'Mercato indigenous', the market for natives",
+          "source": {
+            "title": "The Impact of Multi-Story Commercial Buildings on the Heritage Values of Market Open Market in Addis Ababa",
+            "publisher": "OMICS Publishing Group, Journal of Architectural Engineering Technology 10(9)",
+            "author": "Kibur Kassie and Daniel Lirebo",
+            "date": "2021-09-17",
+            "url": "https://www.omicsonline.org/open-access/the-impact-of-multistory-commercial-buildings-on-the-heritage-values-of-market-open-market-in-addis-ababa-117208.html",
+            "tier": "academic",
+            "quote": "The Italian occupiers called it Mercato indigenous which means in Italian the market for natives or indigenous market"
+          }
+        },
+        {
+          "label": "Italian-era relocation",
+          "value": "The existing market was moved to the north-western part of town",
+          "source": {
+            "title": "Menged Merkato",
+            "publisher": "A/R/P/A Journal, Issue 03 (Performance)",
+            "author": "Emanuel Admassu",
+            "date": "2015-07-01",
+            "url": "https://arpajournal.net/menged-merkato/",
+            "tier": "academic",
+            "quote": "Merkato indigeno—as named by the Italians—established its current location."
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Addis Mercato, Adís Abeba, Etiopía, 2024-01-19, DD 27.jpg",
+        "licence": "CC BY-SA 4.0",
+        "author": "Diego Delso (market scene; could not view image, check for identifiable people before use)"
+      },
+      "readSources": [
+        "https://www.omicsonline.org/open-access/the-impact-of-multistory-commercial-buildings-on-the-heritage-values-of-market-open-market-in-addis-ababa-117208.html",
+        "https://arpajournal.net/menged-merkato/",
+        "https://commons.wikimedia.org/wiki/File:Addis_Mercato,_Adís_Abeba,_Etiopía,_2024-01-19,_DD_27.jpg"
+      ]
+    },
+    {
+      "name": "Red Terror Martyrs' Memorial Museum",
+      "type": "site",
+      "what": "A museum beside Meskel Square remembering victims of the Red Terror under the Derg regime. Its displays include photographs, clothing and remains of victims.",
+      "facts": [
+        {
+          "label": "Established",
+          "value": "2010",
+          "source": {
+            "title": "From shadows to light: The Martyrs' Memorial Museum tells a haunting tale",
+            "publisher": "The Reporter Ethiopia",
+            "author": "Abraham Tekle",
+            "date": "2024-04-06",
+            "url": "https://www.thereporterethiopia.com/39517/",
+            "tier": "press",
+            "quote": "Established in 2010, this hallowed sanctuary serves as a poignant homage to the countless victims"
+          }
+        },
+        {
+          "label": "Location",
+          "value": "At a corner of Meskel Square",
+          "source": {
+            "title": "From shadows to light: The Martyrs' Memorial Museum tells a haunting tale",
+            "publisher": "The Reporter Ethiopia",
+            "author": "Abraham Tekle",
+            "date": "2024-04-06",
+            "url": "https://www.thereporterethiopia.com/39517/",
+            "tier": "press",
+            "quote": "Nestled at the corner of the storied Meskel Square"
+          }
+        },
+        {
+          "label": "Built with victims' families",
+          "value": "Victims and their families took part in construction",
+          "source": {
+            "title": "From shadows to light: The Martyrs' Memorial Museum tells a haunting tale",
+            "publisher": "The Reporter Ethiopia",
+            "author": "Abraham Tekle",
+            "date": "2024-04-06",
+            "url": "https://www.thereporterethiopia.com/39517/",
+            "tier": "press",
+            "quote": "the construction of the museum involved the direct participation of victims and their families"
+          }
+        },
+        {
+          "label": "Displays",
+          "value": "Torture instruments, photographs, clothing, skeletal remains",
+          "source": {
+            "title": "From shadows to light: The Martyrs' Memorial Museum tells a haunting tale",
+            "publisher": "The Reporter Ethiopia",
+            "author": "Abraham Tekle",
+            "date": "2024-04-06",
+            "url": "https://www.thereporterethiopia.com/39517/",
+            "tier": "press",
+            "quote": "Instruments of torture, haunting photographs of the victims, blood-stained garments, and skeletal remains"
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Red Terror Martyrs' Memorial Museum in Addis Ababa 01.jpg",
+        "licence": "CC BY 4.0",
+        "author": "Ninaras"
+      },
+      "readSources": [
+        "https://www.thereporterethiopia.com/39517/",
+        "https://commons.wikimedia.org/wiki/File:Red_Terror_Martyrs'_Memorial_Museum_in_Addis_Ababa_01.jpg"
+      ]
+    },
+    {
+      "name": "Adwa Victory Memorial",
+      "type": "site",
+      "what": "A memorial and museum complex in central Addis Ababa marking the Battle of Adwa, inaugurated in February 2024. It combines gates, statues and a museum.",
+      "facts": [
+        {
+          "label": "Inaugurated",
+          "value": "11 February 2024 by PM Abiy Ahmed and President Sahlework Zewde",
+          "source": {
+            "title": "PM Abiy, President Sahlework Inaugurate Adwa Victory Memorial",
+            "publisher": "Ethiopian News Agency (ENA)",
+            "author": null,
+            "date": "2024-02-11",
+            "url": "https://www.ena.et/web/eng/w/eng_4001475",
+            "tier": "press",
+            "quote": "Prime Minister Abiy Ahmed and President Sahlework Zewde inaugurated today the Adwa Victory Memorial in Addis Ababa."
+          }
+        },
+        {
+          "label": "Gates",
+          "value": "Eight gates dedicated to Ethiopian forefathers",
+          "source": {
+            "title": "PM Abiy, President Sahlework Inaugurate Adwa Victory Memorial",
+            "publisher": "Ethiopian News Agency (ENA)",
+            "author": null,
+            "date": "2024-02-11",
+            "url": "https://www.ena.et/web/eng/w/eng_4001475",
+            "tier": "press",
+            "quote": "It has 8 gates designated for the unparalleled heroic deeds of the Ethiopian forefathers."
+          }
+        },
+        {
+          "label": "Design",
+          "value": "A complex of 11 interconnected blocks",
+          "source": {
+            "title": "Bridging Past and Present: Inside Addis Ababa's Adwa Victory Memorial",
+            "publisher": "AllAfrica.com (content from the Strategic Programs Management Office, Addis Ababa)",
+            "author": null,
+            "date": "2024-03-05",
+            "url": "https://allafrica.com/stories/202403050480.html",
+            "tier": "press (government-supplied)",
+            "quote": "This architecturally grand complex, comprising 11 interconnected blocks"
+          }
+        },
+        {
+          "label": "Museum highlight",
+          "value": "A detailed sandcast of the Battle of Adwa; the first aircraft built in Ethiopia",
+          "source": {
+            "title": "Bridging Past and Present: Inside Addis Ababa's Adwa Victory Memorial",
+            "publisher": "AllAfrica.com (content from the Strategic Programs Management Office, Addis Ababa)",
+            "author": null,
+            "date": "2024-03-05",
+            "url": "https://allafrica.com/stories/202403050480.html",
+            "tier": "press (government-supplied)",
+            "quote": "A detailed sandcast of the Battle of Adwa is a highlight"
+          }
+        }
+      ],
+      "photo": null,
+      "readSources": [
+        "https://www.ena.et/web/eng/w/eng_4001475",
+        "https://allafrica.com/stories/202403050480.html"
+      ]
+    },
+    {
+      "name": "Holy Trinity Cathedral",
+      "type": "site",
+      "what": "An Orthodox cathedral in Addis Ababa founded under Menelik II and completed in 1942. Its compound is a burial place for those who fought the Italian occupation.",
+      "facts": [
+        {
+          "label": "Founder",
+          "value": "Founded by Menelik II",
+          "source": {
+            "title": "Cutting trees puts Holy Trinity Cathedral Church in grave trouble",
+            "publisher": "Capital Ethiopia",
+            "author": null,
+            "date": "2019-04-01",
+            "url": "https://capitalethiopia.com/2019/04/01/cutting-trees-puts-holy-trinity-cathedral-church-in-grave-trouble/",
+            "tier": "press",
+            "quote": "The Church of the Holy Trinity was founded by Emperor Menelik II."
+          }
+        },
+        {
+          "label": "Completion",
+          "value": "1942",
+          "source": {
+            "title": "Cutting trees puts Holy Trinity Cathedral Church in grave trouble",
+            "publisher": "Capital Ethiopia",
+            "author": null,
+            "date": "2019-04-01",
+            "url": "https://capitalethiopia.com/2019/04/01/cutting-trees-puts-holy-trinity-cathedral-church-in-grave-trouble/",
+            "tier": "press",
+            "quote": "The new Cathedral was completed in 1942, after the return from exile of Emperor Haile Selassie."
+          }
+        },
+        {
+          "label": "Burials",
+          "value": "Burial place of those who fought the Italian occupation",
+          "source": {
+            "title": "Cutting trees puts Holy Trinity Cathedral Church in grave trouble",
+            "publisher": "Capital Ethiopia",
+            "author": null,
+            "date": "2019-04-01",
+            "url": "https://capitalethiopia.com/2019/04/01/cutting-trees-puts-holy-trinity-cathedral-church-in-grave-trouble/",
+            "tier": "press",
+            "quote": "The church compound is the burial place for those who fought against the Italian Occupation."
+          }
+        }
+      ],
+      "photo": {
+        "file": "File:Holy Trinity Cathedral Addis Abeba.jpg",
+        "licence": "CC BY 2.0 (page also lists cc-by-sa-2.0 in the permission field; discrepancy unresolved)",
+        "author": "VBzi"
+      },
+      "readSources": [
+        "https://capitalethiopia.com/2019/04/01/cutting-trees-puts-holy-trinity-cathedral-church-in-grave-trouble/",
+        "https://commons.wikimedia.org/wiki/File:Holy_Trinity_Cathedral_Addis_Abeba.jpg"
+      ]
+    }
+  ],
+  "myth": null,
+  "unreadable": [
+    "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Addis-Ababa_City-Scoping-Study.pdf - PDF returned only metadata, no extractable text",
+    "https://allafrica.com/stories/199909230082.html - 403",
+    "https://allafrica.com/stories/201701090484.html - 403",
+    "https://blackpast.org/global-african-history/addis-ababa-1886/ - 403",
+    "https://www.blackpast.org/global-african-history/dinknesh-archeologys-eve/ - 403",
+    "https://www.tandfonline.com/doi/pdf/10.1080/23311983.2022.2158623 - 403",
+    "https://qz.com/africa/1652142/british-suffragette-sylvia-pankhurst-was-an-honorary-ethiopian - 403",
+    "https://aau.edu.et/history and aau.edu.et news page - blank (title only)",
+    "https://www.cipdh.gob.ar/memorias-situadas/en/lugar-de-memoria/museo-memorial-de-los-martires-del-terror-rojo/ - certificate error",
+    "https://rtmmm.org - not a museum page (unrelated blog content)",
+    "Oxford Research Encyclopedia / academic.oup.com chapter - page text truncated, not the Addis Ababa article",
+    "Cambridge Core Institute of Ethiopian Studies article (DOI 10.1017/S0266673100000039) - PDF text unreadable"
+  ],
+  "notNotFound": [
+    "Year Addis Ababa became capital (1889-1892 in search snippets only; no readable source quoted it)",
+    "Origin-of-name statement beyond 'New Flower' (SAH) and Finfinne/hot springs (Ethiopians Today)",
+    "Ethnological Museum (IES): no readable institutional or academic page; the only readable page was ethiomuseums.com (Ethiopian Museums Support Association, unofficial), so not included",
+    "Entoto: only tour/travel pages found, none acceptable",
+    "Addis Ababa Museum: not searched in depth",
+    "Merkato statistics (traders, area): no readable acceptable source",
+    "Photo for Adwa Victory Memorial on Commons: none found",
+    "Common misconception: none found in a readable source",
+    "Battle of Adwa date (1896): not quoted from a readable source"
+  ]
+}

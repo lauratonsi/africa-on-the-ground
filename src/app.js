@@ -34,8 +34,8 @@
     var pins = all(".map .pin");
     var show = function (type) {
       var shown = 0;
-      items.forEach(function (li) { var on = type === "all" || li.getAttribute("data-type") === type; li.hidden = !on; if (on) shown++; });
-      pins.forEach(function (a) { a.classList.toggle("off", !(type === "all" || a.getAttribute("data-type") === type)); });
+      items.forEach(function (li) { var on = type === "all" || (type === "art" ? li.getAttribute("data-art") === "true" : li.getAttribute("data-type") === type); li.hidden = !on; if (on) shown++; });
+      pins.forEach(function (a) { a.classList.toggle("off", !(type === "all" || (type === "art" ? a.getAttribute("data-art") === "true" : a.getAttribute("data-type") === type))); });
       if (count) count.textContent = type === "all" ? "" : shown + " of " + items.length;
     };
     if (filters) {

@@ -3,10 +3,240 @@
   "status": "draft",
   "country": "ZMB",
   "name": "Lusaka",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Lusaka, capital of Zambia: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 2,212,301 people live in Lusaka District (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-47021a"
+      ]
+    },
+    {
+      "text": "Lusaka began as a small village named after a local clan chief.",
+      "cite": [
+        "cap-ebsco-com-95727e"
+      ]
+    },
+    {
+      "text": "A railway built through Lusaka in 1905 made the settlement a significant thoroughfare.",
+      "cite": [
+        "cap-ebsco-com-95727e"
+      ]
+    }
+  ],
+  "places": [
+    "munda-wanga-environmental-park",
+    "kabwata-cultural-village",
+    "lusaka-national-museum",
+    "soweto-market"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Lusaka in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lusaka began as a small village named after a local clan chief.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A railway built through Lusaka in 1905 made the settlement a significant thoroughfare.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lusaka replaced Livingstone as the capital of Northern Rhodesia in 1935.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Northern Rhodesia was granted independence on 24 October 1964 and became Zambia.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Lusaka district population grew from 1,084,703 (2000) to 2,212,301 (2022), roughly doubling in 22 years.",
+              "cite": [
+                "cap-citypopulation-de-47021a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "2,212,301",
+              "label": "people in Lusaka District, 2022",
+              "cite": [
+                "cap-citypopulation-de-47021a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Lusaka District?",
+          "min": 0,
+          "max": 7000000,
+          "step": 40000,
+          "unit": "",
+          "answer": 2212301,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "2,212,301 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Lusaka District census count, 2022 census (Zambia).",
+              "cite": [
+                "cap-citypopulation-de-47021a"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1935",
+              "tag": "origins",
+              "text": "Lusaka replaced Livingstone as capital of Northern Rhodesia.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            },
+            {
+              "when": "1950",
+              "tag": "growth",
+              "text": "Colonial official Ralph Sander established the Munda Wanga botanical garden near Lusaka.",
+              "cite": [
+                "cap-researchportal-bath-ac-uk-be8770"
+              ]
+            },
+            {
+              "when": "24 October 1964",
+              "tag": "growth",
+              "text": "Northern Rhodesia became independent Zambia.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            },
+            {
+              "when": "1974",
+              "tag": "growth",
+              "text": "The government set up Kabwata Cultural Village to gather the country's cultures in one place.",
+              "cite": [
+                "cap-globalpressjournal-com-dc5337"
+              ]
+            },
+            {
+              "when": "2000-2022",
+              "tag": "today",
+              "text": "Lusaka district population rose from 1,084,703 (2000) to 2,212,301 (2022).",
+              "cite": [
+                "cap-citypopulation-de-47021a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Lusaka in order.",
+          "items": [
+            {
+              "label": "Lusaka replaced Livingstone as capital of Northern Rhodesia.",
+              "when": "1935",
+              "text": "Lusaka replaced Livingstone as capital of Northern Rhodesia.",
+              "cite": [
+                "cap-ebsco-com-95727e"
+              ]
+            },
+            {
+              "label": "Colonial official Ralph Sander established the Munda Wanga botanical garden…",
+              "when": "1950",
+              "text": "Colonial official Ralph Sander established the Munda Wanga botanical garden near Lusaka.",
+              "cite": [
+                "cap-researchportal-bath-ac-uk-be8770"
+              ]
+            },
+            {
+              "label": "The government set up Kabwata Cultural Village to gather the country's…",
+              "when": "1974",
+              "text": "The government set up Kabwata Cultural Village to gather the country's cultures in one place.",
+              "cite": [
+                "cap-globalpressjournal-com-dc5337"
+              ]
+            },
+            {
+              "label": "Lusaka district population rose from 1,084,703 (2000) to 2,212,301 (2022).",
+              "when": "2000-2022",
+              "text": "Lusaka district population rose from 1,084,703 (2000) to 2,212,301 (2022).",
+              "cite": [
+                "cap-citypopulation-de-47021a"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Origin as Lusaakas' village by name: EBSCO says only 'named after a local clan chief'; Lusaaka name not confirmed in a readable source",
+    "Not found in a readable source: Population of the city/urban area with a stated definition (only district figure via citypopulation.de; ZamStats PDF not read; EBSCO cites World Population Review, 2,393,400 in 2026, not used)",
+    "Not found in a readable source: Freedom Statue: no acceptable readable source (only blog/travel/spam pages). Commons file exists: File:The zambian freedom statute.jpg, CC BY-SA 4.0, Mweenzi, but no text source",
+    "Not found in a readable source: Soweto Market 'largest' claim and any stall count in a readable source",
+    "Not found in a readable source: Lusaka City Market, Zintu Community Museum, Independence Stadium, Lilayi Elephant Nursery: not researched to an acceptable source",
+    "Not found in a readable source: Reason Lusaka was chosen as capital (rail junction, roads): only in unread/unacceptable sources",
+    "Not found in a readable source: Wikimedia photo for Munda Wanga (files exist, e.g. File:Munda Wanga Bird.jpg, but licences not checked) and Soweto Market (none found)",
+    "Not found in a readable source: Common misconception: none stated explicitly in a source",
+    "Left out because only weak or unofficial sources supported them (1 items, for example: 1905: Lusaka was founded by Europeans in 1905 (Oxford encyclopedia entry); a railway was b).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Zambia has read this profile yet."
   ]
 }

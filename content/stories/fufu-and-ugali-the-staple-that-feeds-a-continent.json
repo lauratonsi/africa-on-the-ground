@@ -1,0 +1,180 @@
+{
+  "slug": "fufu-and-ugali-the-staple-that-feeds-a-continent",
+  "status": "published",
+  "kind": "food",
+  "title": "Fufu and ugali: the starch that shapes daily life",
+  "subtitle": "From West Africa's pounded tubers to East and Southern Africa's cornmeal porridge, the meal across sub-Saharan Africa is defined by the dense dough in your right hand.",
+  "countries": [
+    "GHA",
+    "NGA",
+    "KEN",
+    "TZA",
+    "ZMB"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "the-grammar-of-the-meal",
+      "title": "The grammar of the swallow",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In European culinary conventions, dinner is named after the protein: a steak, a roast chicken, or a baked fish, with carbohydrates relegated to side dishes.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Across sub-Saharan Africa, food historian James C. McCann notes that the linguistic and conceptual center of the meal is inverted: the starch is the meal.",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            },
+            {
+              "text": " In Swahili, Shona, or Akan, if a family eats meat and vegetables without a mound of starch, they will say they have not yet eaten.",
+              "cite": [
+                "mccann-stirring-pot-2009",
+                "osseo-asare-food-culture-2005"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "20+ names",
+              "label": "for stiff starch porridge across African languages (ugali, sadza, nshima, pap, posho)",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            },
+            {
+              "value": "Right hand",
+              "label": "the only hand used to pinch, roll, and dip the dough",
+              "cite": [
+                "osseo-asare-food-culture-2005"
+              ]
+            },
+            {
+              "value": "16th century",
+              "label": "introduction of American maize and cassava into African agriculture",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-african-fufu",
+      "title": "Pounding in the wooden mortar",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In West Africa, the archetypal starch is fufu (or foofoo), traditionally made by boiling starchy root vegetables — cassava, white yam, or cocoyam — alongside green plantains, and pounding them in a deep wooden mortar (waduro in Twi).",
+              "cite": [
+                "osseo-asare-food-culture-2005"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The preparation requires synchronized teamwork: one person stands wielding a heavy wooden pestle with powerful vertical strokes, while another sits beside the mortar, turning the hot, elastic dough with wet hands between impacts.",
+              "cite": [
+                "osseo-asare-food-culture-2005"
+              ]
+            },
+            {
+              "text": " The resulting paste is silky, stretchy, and dense. It is termed a 'swallow': diners pinch off a small lump, make a slight depression with the thumb, scoop up a portion of hot light soup, egusi, or groundnut stew, and swallow the morsel whole without chewing.",
+              "cite": [
+                "osseo-asare-food-culture-2005"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eastern-southern-ugali",
+      "title": "The cornmeal pot of the Rift Valley",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Moving to East, Central, and Southern Africa, the daily staple shifts from pounded roots to a stiff porridge made by vigorously stirring coarse white maize flour into boiling water with a flat wooden paddle (mwiko in Swahili).",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Known as ugali in Kenya and Tanzania, nshima in Zambia, nsima in Malawi, and sadza in Zimbabwe, it is cooked until it pulls cleanly away from the pot sides into a steaming, firm dome.",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            },
+            {
+              "text": " Before Portuguese traders introduced white maize from the Americas in the 1500s, these porridges were prepared from indigenous African grains: finger millet (Eleusine coracana) and pearl sorghum.",
+              "cite": [
+                "mccann-stirring-pot-2009"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The communal etiquette",
+          "parts": [
+            {
+              "text": "Eating ugali or fufu is governed by strict communal rules: washing hands before approaching the table, never using the left hand, taking small portions from the perimeter rather than gouging the center, and sharing from a single central platter as a sign of familial solidarity.",
+              "cite": [
+                "osseo-asare-food-culture-2005"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Nutritional debates continue over the historical displacement of micronutrient-rich indigenous millets and sorghums by energy-dense but nutrient-poor white maize flour in industrializing urban centers.",
+    "Regional variations in water-to-flour ratios and the addition of fermented cassava flour (as in Congolese fufu or Kenyan ugali wa mtama) vary across ethnic communities."
+  ],
+  "keyPoints": [
+    {
+      "text": "In sub-Saharan food culture, dense carbohydrates (swallows and stiff porridges) constitute the foundational core of the meal rather than a side dish.",
+      "cite": [
+        "mccann-stirring-pot-2009"
+      ]
+    },
+    {
+      "text": "Fufu is prepared by labor-intensive pestle-pounding of boiled yams, cassava, and plantains, swallowed without chewing.",
+      "cite": [
+        "osseo-asare-food-culture-2005"
+      ]
+    },
+    {
+      "text": "Ugali (known regionally as sadza, nshima, or pap) became dominant after American maize replaced ancient indigenous millets and sorghums.",
+      "cite": [
+        "mccann-stirring-pot-2009"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "bakaara-market",
+  "status": "draft",
+  "type": "market",
+  "country": "SOM",
+  "name": "Bakaara Market",
+  "region": "Mogadishu · Somalia",
+  "subtitle": "Bakaara (also spelled Bakara or Bakhara) is Mogadishu's major marketplace, in the Hawlwadag district.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Two square kilometres in Hawlwadag",
+      "cite": [
+        "cap-odihpn-org-010728"
+      ]
+    },
+    {
+      "label": "Origins",
+      "value": "Formerly residential, later a business hub",
+      "cite": [
+        "cap-odihpn-org-010728"
+      ]
+    },
+    {
+      "label": "Trade",
+      "value": "Finance, telecoms, import/export firms, manufacturers",
+      "cite": [
+        "cap-odihpn-org-010728"
+      ]
+    },
+    {
+      "label": "2007 fire",
+      "value": "A fire in October 2007 burned a large part of the market",
+      "cite": [
+        "cap-ebsco-com-8dcefb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bakaara (also spelled Bakara or Bakhara) is Mogadishu's major marketplace, in the Hawlwadag district. It grew from a residential area into a commercial hub.",
+              "cite": [
+                "cap-odihpn-org-010728",
+                "cap-ebsco-com-8dcefb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

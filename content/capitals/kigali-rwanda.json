@@ -3,10 +3,255 @@
   "status": "draft",
   "country": "RWA",
   "name": "Kigali",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Kigali, capital of Rwanda: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,745,555 people live in the City of Kigali (counted 2022).",
+      "cite": [
+        "cap-statistics-gov-rw-7c22c2"
+      ]
+    },
+    {
+      "text": "Kigali was reported as celebrating 100 years of existence in 2007, consistent with a 1907 founding. Another New Times history says Germany appointed Dr Richard Kandt as first imperial resident governor for Rwanda in 1906 (dates differ between sources).",
+      "cite": [
+        "cap-newtimes-co-rw-733ab2"
+      ]
+    },
+    {
+      "text": "Kandt was the German colonial resident in Rwanda (1906 appointment per this source).",
+      "cite": [
+        "cap-newtimes-co-rw-08d4e7"
+      ]
+    }
+  ],
+  "places": [
+    "kimironko-market",
+    "kandt-house-museum",
+    "rwanda-art-museum",
+    "inema-arts-center",
+    "kigali-convention-centre"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Kigali in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kigali was reported as celebrating 100 years of existence in 2007, consistent with a 1907 founding. Another New Times history says Germany appointed Dr Richard Kandt as first imperial resident governor for Rwanda in 1906 (dates differ between sources).",
+              "cite": [
+                "cap-newtimes-co-rw-733ab2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kandt was the German colonial resident in Rwanda (1906 appointment per this source).",
+              "cite": [
+                "cap-newtimes-co-rw-08d4e7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After independence (1962) the new republic made Kigali the capital.",
+              "cite": [
+                "cap-newtimes-co-rw-08d4e7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rapid growth: from about 6,000 people in 1962 to roughly 1 million by 2011 (press figure); the 2022 census counted 1,745,555 residents.",
+              "cite": [
+                "cap-newtimes-co-rw-08d4e7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kigali has a master plan: the 2013 plan was updated (Kigali Master Plan 2050) by Surbana Jurong/SMEC; the project page lists a projected 2050 population of 3.8 million versus 1.3 million existing.",
+              "cite": [
+                "cap-sjgroup-com-de6289"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,745,555",
+              "label": "people in the City of Kigali, 2022",
+              "cite": [
+                "cap-statistics-gov-rw-7c22c2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the City of Kigali?",
+          "min": 0,
+          "max": 6000000,
+          "step": 30000,
+          "unit": "",
+          "answer": 1745555,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,745,555 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Resident population of the City of Kigali (province-level unit with districts Nyarugenge, Gasabo, Kicukiro) enumerated in the Fifth Population and Housing Census as of 15 August 2022 (fieldwork 16-30 August 2022); density 2,401 per km2; 86.9% urban.",
+              "cite": [
+                "cap-statistics-gov-rw-7c22c2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1907",
+              "tag": "origins",
+              "text": "Kigali marked as founded in 1907 (centenary celebrated in 2007); Kandt, German colonial resident, associated with the founding. Sources differ on Kandt's appointment (1906 per New Times).",
+              "cite": [
+                "cap-newtimes-co-rw-733ab2"
+              ]
+            },
+            {
+              "when": "1962",
+              "tag": "origins",
+              "text": "After independence Kigali becomes capital of the Rwandan republic; population then about 6,000.",
+              "cite": [
+                "cap-newtimes-co-rw-08d4e7"
+              ]
+            },
+            {
+              "when": "8 November 1994",
+              "tag": "growth",
+              "text": "UN Security Council Resolution 955 creates the International Criminal Tribunal for Rwanda to prosecute persons responsible for genocide in 1994 (genocide against the Tutsi; the page read gives the tribunal's purpose, not the phrase 'against the Tutsi').",
+              "cite": [
+                "cap-legal-un-org-08d0d8"
+              ]
+            },
+            {
+              "when": "2013",
+              "tag": "growth",
+              "text": "Earlier Kigali master plan adopted (later updated as the 2050 plan).",
+              "cite": [
+                "cap-sjgroup-com-de6289"
+              ]
+            },
+            {
+              "when": "2016",
+              "tag": "growth",
+              "text": "Kigali Convention Centre opens and days later hosts the African Union Summit.",
+              "cite": [
+                "cap-allafrica-com-ef62cb"
+              ]
+            },
+            {
+              "when": "18 May 2018",
+              "tag": "today",
+              "text": "The former Presidential Palace Museum in Kanombe becomes the Rwanda Art Museum.",
+              "cite": [
+                "cap-rwandaheritage-gov-rw-e74cb5"
+              ]
+            },
+            {
+              "when": "August 2022",
+              "tag": "today",
+              "text": "Fifth national census counts 1,745,555 residents in the City of Kigali (13.2% of Rwanda).",
+              "cite": [
+                "cap-statistics-gov-rw-7c22c2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Kigali in order.",
+          "items": [
+            {
+              "label": "Kigali marked as founded in 1907 (centenary celebrated in 2007); Kandt…",
+              "when": "1907",
+              "text": "Kigali marked as founded in 1907 (centenary celebrated in 2007); Kandt, German colonial resident, associated with the founding. Sources differ on Kandt's appointment (1906 per New Times).",
+              "cite": [
+                "cap-newtimes-co-rw-733ab2"
+              ]
+            },
+            {
+              "label": "UN Security Council Resolution 955 creates the International Criminal…",
+              "when": "8 November 1994",
+              "text": "UN Security Council Resolution 955 creates the International Criminal Tribunal for Rwanda to prosecute persons responsible for genocide in 1994 (genocide against the Tutsi; the page read gives the tribunal's purpose, not the phrase 'against the Tutsi').",
+              "cite": [
+                "cap-legal-un-org-08d0d8"
+              ]
+            },
+            {
+              "label": "Kigali Convention Centre opens and days later hosts the African Union Summit.",
+              "when": "2016",
+              "text": "Kigali Convention Centre opens and days later hosts the African Union Summit.",
+              "cite": [
+                "cap-allafrica-com-ef62cb"
+              ]
+            },
+            {
+              "label": "Fifth national census counts 1,745,555 residents in the City of Kigali (13.2%…",
+              "when": "August 2022",
+              "text": "Fifth national census counts 1,745,555 residents in the City of Kigali (13.2% of Rwanda).",
+              "cite": [
+                "cap-statistics-gov-rw-7c22c2"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Exact 1907 founding by Kandt from an institutional/academic page: only the 2007 New Times centenary note and the 2011 New Times 1906 appointment (sources conflict; the 2011 article's '1907' line was garbled)",
+    "Not found in a readable source: Master plan adoption year 2013 only via SJ Group page ('the 2013 plan'); 2050 update details from search snippet, population 3.8m from SJ page",
+    "Not found in a readable source: Nyamirambo, Kigali Public Library, Campaign Against Genocide Museum: not researched",
+    "Not found in a readable source: Kandt house construction date: not stated in readable sources",
+    "Not found in a readable source: Kigali Convention Centre photo, Inema photo (unverified content), people-in-photo checks for all Commons files (pages do not say; verify visually)",
+    "Not found in a readable source: UN source with phrase 'genocide against the Tutsi' not read (UN press page failed)",
+    "Not found in a readable source: Myth: none stated explicitly by a source",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Rwanda has read this profile yet."
   ]
 }

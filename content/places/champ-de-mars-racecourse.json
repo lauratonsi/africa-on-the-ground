@@ -1,0 +1,76 @@
+{
+  "slug": "champ-de-mars-racecourse",
+  "status": "draft",
+  "type": "site",
+  "country": "MUS",
+  "name": "Champ de Mars Racecourse",
+  "region": "Port Louis · Mauritius",
+  "subtitle": "A racecourse in the centre of Port Louis, where horse racing began in 1812 on a former military training ground.",
+  "facts": [
+    {
+      "label": "First races",
+      "value": "First racing day 25 June 1812.",
+      "cite": [
+        "cap-lemauricien-com-efcfb3"
+      ]
+    },
+    {
+      "label": "Oldest in southern hemisphere",
+      "value": "Le Mauricien calls it the first racecourse of the southern hemisphere.",
+      "cite": [
+        "cap-lemauricien-com-efcfb3"
+      ]
+    },
+    {
+      "label": "Purpose",
+      "value": "Governor Farquhar organised races to bring English and French communities together; the site was a former French military training ground.",
+      "cite": [
+        "cap-gulf-times-com-838761"
+      ]
+    },
+    {
+      "label": "Club ranking (disputed)",
+      "value": "AFP: the club is 'believed to be the third oldest racing club in the world'; other web sources say second. Do not state a world rank.",
+      "cite": [
+        "cap-gulf-times-com-838761"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A racecourse in the centre of Port Louis, where horse racing began in 1812 on a former military training ground. It is home to the Mauritius Turf Club.",
+              "cite": [
+                "cap-lemauricien-com-efcfb3",
+                "cap-gulf-times-com-838761"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "champ-de-mars-racecourse",
+    "alt": "Photograph of Champ de Mars Racecourse.",
+    "caption": "Champ de Mars Racecourse.",
+    "credit": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/The_Champ_de_Mars_Racecourse.JPG"
+  }
+}

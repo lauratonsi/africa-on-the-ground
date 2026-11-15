@@ -3,10 +3,183 @@
   "status": "draft",
   "country": "NER",
   "name": "Niamey",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Niamey, capital of Niger: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Niamey numbered 1,026,848 residents across five municipal arrondissements in the 2012 census.",
+      "cite": [
+        "cap-citypopulation-de-niger-2012"
+      ]
+    },
+    {
+      "text": "Capital of Niger since 1926 when the French colonial administration relocated headquarters from Zinder to the banks of the Niger River.",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "text": "The 24-hectare Musée National Boubou Hama and Grand Marché form celebrated epicenters of Sahelian cultural heritage and trade.",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    }
+  ],
+  "places": [
+    "historic-centre-of-agadez",
+    "musee-national-boubou-hama-niamey",
+    "grande-mosquee-de-niamey",
+    "grand-marche-de-niamey"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Niamey in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Originating as a peaceful Zarma fishing and farming village on the eastern banks of the majestic Niger River, Niamey developed into a vital administrative and trade crossroads connecting the Sahel and West African coasts.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1926, the French colonial administration transferred the territorial capital of the Colony of Niger from Zinder to Niamey, spurring the construction of civic infrastructure along the riverbanks.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Following full national independence in August 1960 under President Hamani Diori, Niamey expanded into a vibrant metropolis celebrated for its open-air museum, universities, and bustling riverfront commerce.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,026,848",
+              "label": "residents in Niamey across 5 arrondissements communaux, 2012",
+              "cite": [
+                "cap-citypopulation-de-niger-2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in Niamey in the 2012 census?",
+          "min": 400000,
+          "max": 2000000,
+          "step": 25000,
+          "unit": "",
+          "answer": 1026848,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,026,848 inhabitants recorded in the December 2012 census by the Institut National de la Statistique du Niger across five arrondissements.",
+              "cite": [
+                "cap-citypopulation-de-niger-2012"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Moments in history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1902",
+              "text": "French forces establish a colonial military garrison at Niamey along the Niger River.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "when": "1926",
+              "text": "Niamey officially replaces Zinder as the territorial capital of the Colony of Niger.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "when": "1959",
+              "text": "Establishment of the Musée National du Niger (later Musée National Boubou Hama).",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "when": "1960",
+              "text": "Niger proclaims full independence on 3 August 1960 with Niamey as sovereign capital.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Niamey in order.",
+          "items": [
+            {
+              "label": "French colonial forces establish a military garrison at Niamey.",
+              "when": "1902",
+              "text": "French colonial forces establish a military garrison at Niamey.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "label": "Niamey succeeds Zinder as the territorial capital of Niger.",
+              "when": "1926",
+              "text": "Niamey succeeds Zinder as the territorial capital of Niger.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "label": "The Musée National du Niger opens to celebrate traditional crafts and paleontology.",
+              "when": "1959",
+              "text": "The Musée National du Niger opens to celebrate traditional crafts and paleontology.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            },
+            {
+              "label": "Niger proclaims independence with Niamey as sovereign capital.",
+              "when": "1960",
+              "text": "Niger proclaims independence with Niamey as sovereign capital.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "slug": "national-heroes-acre",
+  "status": "draft",
+  "type": "site",
+  "country": "ZWE",
+  "name": "National Heroes' Acre",
+  "region": "Harare · Zimbabwe",
+  "subtitle": "National Heroes' Acre is a state shrine and burial ground near Harare.",
+  "facts": [],
+  "sections": [],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
+  ],
+  "image": {
+    "file": "national-heroes-acre",
+    "alt": "Photograph of National Heroes' Acre.",
+    "caption": "National Heroes' Acre.",
+    "credit": "Gary Bembridge",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Heroes_Acre%2C_Harare%2C_Zimbabwe.jpg"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "victoria-clock-tower",
+  "status": "draft",
+  "type": "site",
+  "country": "SYC",
+  "name": "Victoria Clock Tower (Lorloz)",
+  "region": "Victoria · Seychelles",
+  "subtitle": "A clock tower at the centre of Victoria, inaugurated in 1903.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "1 April 1903 by Governor Sweet-Escott",
+      "cite": [
+        "cap-sbc-sc-bc8d62"
+      ]
+    },
+    {
+      "label": "Nickname",
+      "value": "Little Big Ben",
+      "cite": [
+        "cap-mayorsofficeseychelles-com-151acc"
+      ]
+    },
+    {
+      "label": "Silver paint",
+      "value": "Painted silver during the 1935 Jubilee",
+      "cite": [
+        "cap-mayorsofficeseychelles-com-151acc"
+      ]
+    },
+    {
+      "label": "Age",
+      "value": "More than 123 years at the heart of Victoria (2026)",
+      "cite": [
+        "cap-nation-sc-b67f4a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A clock tower at the centre of Victoria, inaugurated in 1903. It is called 'Little Big Ben' for its resemblance to the London clock tower.",
+              "cite": [
+                "cap-sbc-sc-bc8d62",
+                "cap-mayorsofficeseychelles-com-151acc",
+                "cap-nation-sc-b67f4a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "victoria-clock-tower",
+    "alt": "Photograph of Victoria Clock Tower (Lorloz).",
+    "caption": "Victoria Clock Tower (Lorloz).",
+    "credit": "NorbertNagel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Big_Ben_Clock_Tower_-_Victoria_-_Mahe_-_Seychelles_-_01.jpg"
+  }
+}

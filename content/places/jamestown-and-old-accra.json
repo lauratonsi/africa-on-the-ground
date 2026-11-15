@@ -1,0 +1,59 @@
+{
+  "slug": "jamestown-and-old-accra",
+  "status": "draft",
+  "type": "culture",
+  "country": "GHA",
+  "name": "Jamestown and Old Accra",
+  "region": "Accra · Ghana",
+  "subtitle": "Historic Ga coastal fishing district anchored by the 1930s Jamestown Lighthouse and creative arts movements.",
+  "facts": [
+    {
+      "label": "Settlement roots",
+      "value": "Ancestral homeland of the Ga Mashie people around British Fort James (1673)",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Maritime landmark",
+      "value": "Jamestown Lighthouse (red-and-white striped tower built in the 1930s, 28 metres tall)",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    },
+    {
+      "label": "Living culture",
+      "value": "Artisanal Ga sea-canoe fisheries, boxing gymnasiums, and the annual Chale Wote Street Art Festival",
+      "cite": [
+        "cap-ghana-museums-monuments"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The oldest and most culturally evocative neighborhood of Accra, directly fronting the Gulf of Guinea. Originating around British Fort James in the 17th century, Jamestown (Ga Mashie) is the spiritual and historic center of the Ga community. Dominated by its red-and-white striped lighthouse overlooking bustling wooden fishing pirogues landing Atlantic catches on the beach, Jamestown is celebrated worldwide for its world-class boxing gyms, traditional Ga Homowo festival celebrations, and open-air street mural movements.",
+              "cite": [
+                "cap-ghana-museums-monuments"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Community-led heritage preservation documentation for historic clapboard houses is in development.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

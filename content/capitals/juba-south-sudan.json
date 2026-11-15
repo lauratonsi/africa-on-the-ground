@@ -3,10 +3,254 @@
   "status": "draft",
   "country": "SSD",
   "name": "Juba",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Juba, capital of South Sudan: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 368,436 people live in Juba County (counted 2008).",
+      "cite": [
+        "cap-citypopulation-de-0b15aa"
+      ]
+    },
+    {
+      "text": "Juba grew from a mission station near a small Bari village on the White Nile; the site was chosen in 1927 as a new administrative headquarters (Mongalla Province) by Arthur Wallace Skrine.",
+      "cite": [
+        "cap-jubainthemaking-com-bc2923"
+      ]
+    },
+    {
+      "text": "Juba is the capital of Central Equatoria State and was the seat of the Government of Southern Sudan.",
+      "cite": [
+        "cap-cdn-odi-org-74c72e"
+      ]
+    }
+  ],
+  "places": [
+    "garang-mausoleum",
+    "konyo-konyo-market",
+    "juba-nile-crossing",
+    "jebel-kujur"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Juba in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Juba grew from a mission station near a small Bari village on the White Nile; the site was chosen in 1927 as a new administrative headquarters (Mongalla Province) by Arthur Wallace Skrine.",
+              "cite": [
+                "cap-jubainthemaking-com-bc2923"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Juba is the capital of Central Equatoria State and was the seat of the Government of Southern Sudan.",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Juba was chosen as capital of Southern Sudan partly as a gesture of inclusiveness, since it lies in Bari heartland; it already had an airport, water and was closer to neighbouring countries. Ram Chiel had been the favoured option.",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "South Sudan declared independence on 9 July 2011, with celebrations in Juba.",
+              "cite": [
+                "cap-aljazeera-com-c6455a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Plans exist to move the capital to Ramciel; in 2017 South Sudan signed an agreement with Morocco for construction there, with no clear start date.",
+              "cite": [
+                "cap-eyeradio-org-05f477"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "368,436",
+              "label": "people in Juba County, 2008",
+              "cite": [
+                "cap-citypopulation-de-0b15aa"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Juba County?",
+          "min": 0,
+          "max": 2000000,
+          "step": 10000,
+          "unit": "",
+          "answer": 368436,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "368,436 in 2008, according to the figures compiled from the national statistics office. Which area is counted matters: Juba County (not the city alone), census of 22 April 2008, as relayed by citypopulation.de from the South Sudan National Bureau of Statistics.",
+              "cite": [
+                "cap-citypopulation-de-0b15aa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1927",
+              "tag": "origins",
+              "text": "Arthur Wallace Skrine chooses the Juba site as new administrative headquarters.",
+              "cite": [
+                "cap-jubainthemaking-com-bc2923"
+              ]
+            },
+            {
+              "when": "1956",
+              "tag": "origins",
+              "text": "Juba becomes capital of the Southern Sudan regional government, with about 10,600 people (ODI's wording).",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            },
+            {
+              "when": "1983-2005",
+              "tag": "growth",
+              "text": "During the second civil war Juba is a garrison town under the Government of Sudan.",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            },
+            {
+              "when": "2005",
+              "tag": "growth",
+              "text": "When the Comprehensive Peace Agreement is signed, Juba is home to about 250,000 people including 87,000 IDPs (ODI estimate).",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            },
+            {
+              "when": "9 July 2011",
+              "tag": "today",
+              "text": "Independence celebrated in Juba; a statue honouring Garang and the war dead is unveiled at the mausoleum.",
+              "cite": [
+                "cap-media-un-org-bb103e"
+              ]
+            },
+            {
+              "when": "2017",
+              "tag": "today",
+              "text": "Agreement with Morocco for building the planned new capital at Ramciel.",
+              "cite": [
+                "cap-eyeradio-org-05f477"
+              ]
+            },
+            {
+              "when": "19 May 2022",
+              "tag": "today",
+              "text": "Opening ceremony of the Freedom Bridge over the Nile in Juba.",
+              "cite": [
+                "cap-jica-go-jp-71f231"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Juba in order.",
+          "items": [
+            {
+              "label": "Arthur Wallace Skrine chooses the Juba site as new administrative…",
+              "when": "1927",
+              "text": "Arthur Wallace Skrine chooses the Juba site as new administrative headquarters.",
+              "cite": [
+                "cap-jubainthemaking-com-bc2923"
+              ]
+            },
+            {
+              "label": "During the second civil war Juba is a garrison town under the Government of…",
+              "when": "1983-2005",
+              "text": "During the second civil war Juba is a garrison town under the Government of Sudan.",
+              "cite": [
+                "cap-cdn-odi-org-74c72e"
+              ]
+            },
+            {
+              "label": "Independence celebrated in Juba; a statue honouring Garang and the war dead…",
+              "when": "9 July 2011",
+              "text": "Independence celebrated in Juba; a statue honouring Garang and the war dead is unveiled at the mausoleum.",
+              "cite": [
+                "cap-media-un-org-bb103e"
+              ]
+            },
+            {
+              "label": "Opening ceremony of the Freedom Bridge over the Nile in Juba.",
+              "when": "19 May 2022",
+              "text": "Opening ceremony of the Freedom Bridge over the Nile in Juba.",
+              "cite": [
+                "cap-jica-go-jp-71f231"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Juba Cathedral: only Wikipedia-derived results, skipped",
+    "Not found in a readable source: University of Juba, National Museum: no readable source found",
+    "Not found in a readable source: Explicit misconception corrected by a source: none",
+    "Not found in a readable source: Dated 2005 capital of Southern Sudan statement is only partly covered by ODI wording (it says regional government 1956; ODI also says chosen after Garang death in 2006, which conflicts with 2005 elsewhere)",
+    "Not found in a readable source: Official city (not county) population: none; ODI estimates 2005 250,000; 2009 JICA 406,000; 2009 census 230,195 (widely disputed per ODI)",
+    "Not found in a readable source: Exact quote wording for Konyo Konyo fire/800 spaces/old bridge was from a summarised fetch, verify before publishing",
+    "Not found in a readable source: Photos not visually inspected",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from South Sudan has read this profile yet."
   ]
 }

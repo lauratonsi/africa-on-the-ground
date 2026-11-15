@@ -1,0 +1,75 @@
+{
+  "slug": "nakasero-market",
+  "status": "draft",
+  "type": "market",
+  "country": "UGA",
+  "name": "Nakasero Market",
+  "region": "Kampala · Uganda",
+  "subtitle": "A produce market in central Kampala, opened in 1927 during the colonial period.",
+  "facts": [
+    {
+      "label": "Opened",
+      "value": "1927",
+      "cite": [
+        "cap-ueaeprints-uea-ac-uk-4b281e"
+      ]
+    },
+    {
+      "label": "Size",
+      "value": "about 10,000 people work there",
+      "cite": [
+        "cap-ueaeprints-uea-ac-uk-4b281e"
+      ]
+    },
+    {
+      "label": "2007 sale",
+      "value": "Council tried to sell it; vendors protested",
+      "cite": [
+        "cap-ueaeprints-uea-ac-uk-4b281e"
+      ]
+    },
+    {
+      "label": "Outcome",
+      "value": "President overturned sale; 49-year sublease signed 2010",
+      "cite": [
+        "cap-ueaeprints-uea-ac-uk-4b281e"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A produce market in central Kampala, opened in 1927 during the colonial period. It now has about 10,000 vendors, traders and service providers.",
+              "cite": [
+                "cap-ueaeprints-uea-ac-uk-4b281e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "nakasero-market",
+    "alt": "Photograph of Nakasero Market.",
+    "caption": "Nakasero Market.",
+    "credit": "Jim Joel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Nakasero_market_built_in_1927_in_Kampala%2C_Uganda.jpg"
+  }
+}

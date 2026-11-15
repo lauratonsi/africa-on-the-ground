@@ -1,0 +1,76 @@
+{
+  "slug": "lusaka-national-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "ZMB",
+  "name": "Lusaka National Museum",
+  "region": "Lusaka · Zambia",
+  "subtitle": "A cultural history museum in Lusaka telling the story of Zambia in four sections.",
+  "facts": [
+    {
+      "label": "Sections",
+      "value": "Four main sections",
+      "cite": [
+        "cap-zm-chm-cbd-net-292dfb"
+      ]
+    },
+    {
+      "label": "Upper floor",
+      "value": "Historical and cultural artefacts",
+      "cite": [
+        "cap-zm-chm-cbd-net-292dfb"
+      ]
+    },
+    {
+      "label": "Ground floor",
+      "value": "Art from independence (1964) to date",
+      "cite": [
+        "cap-zm-chm-cbd-net-292dfb"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Along Independence Way",
+      "cite": [
+        "cap-ebsco-com-95727e"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A cultural history museum in Lusaka telling the story of Zambia in four sections. Its upper floor holds historical and cultural artefacts and its ground floor shows art from independence onward.",
+              "cite": [
+                "cap-zm-chm-cbd-net-292dfb",
+                "cap-ebsco-com-95727e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "lusaka-national-museum",
+    "alt": "Photograph of Lusaka National Museum.",
+    "caption": "Lusaka National Museum.",
+    "credit": "Ninara from Helsinki, Finland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/National_Museum_in_Lusaka%2C_Zambia_-_2014.jpg"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "couscous-the-dish-that-united-the-maghreb",
+  "status": "published",
+  "kind": "food",
+  "title": "Couscous: the dish that united the Maghreb",
+  "subtitle": "In 2020, Algeria, Mauritania, Morocco and Tunisia set aside closed borders and diplomatic rifts to submit a shared recipe to UNESCO.",
+  "countries": [
+    "DZA",
+    "MAR",
+    "TUN",
+    "MRT"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "diplomatic-dish",
+      "title": "A treaty written in semolina",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "For decades, political relations across North Africa's Maghreb have been marked by closed land borders, diplomatic standoffs, and sharp disagreements over regional sovereignty.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In December 2020, four neighboring states — Algeria, Mauritania, Morocco, and Tunisia — achieved an unprecedented diplomatic consensus by jointly inscribing the knowledge, know-how, and practices of couscous on the UNESCO Intangible Cultural Heritage List.",
+              "cite": [
+                "unesco-ich-couscous-01602"
+              ]
+            },
+            {
+              "text": " Rather than claiming exclusive national ownership over the dish, the joint file celebrated couscous as a living cultural bond that transcends national borders.",
+              "cite": [
+                "unesco-ich-couscous-01602"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "4",
+              "label": "North African nations on the joint UNESCO inscription",
+              "cite": [
+                "unesco-ich-couscous-01602"
+              ]
+            },
+            {
+              "value": "2,000+ years",
+              "label": "estimated antiquity of archaeological couscous steamers in the Maghreb",
+              "cite": [
+                "wright-couscous-history-2001"
+              ]
+            },
+            {
+              "value": "16 Dec 2020",
+              "label": "date of unanimous UNESCO inscription",
+              "cite": [
+                "unesco-ich-couscous-01602"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "berber-steaming",
+      "title": "The invention of the steam pot",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Culinary historians trace the origins of couscous directly to the indigenous Berber (Imazighen) populations of North Africa.",
+              "cite": [
+                "wright-couscous-history-2001",
+                "franconie-couscous-symbol-2010"
+              ]
+            },
+            {
+              "text": " Archaeological excavations in Numidian burial sites dating back to the reign of King Massinissa (3rd to 2nd century BCE) uncovered pierced ceramic vessels functionally identical to modern couscoussier steamers.",
+              "cite": [
+                "wright-couscous-history-2001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The fundamental culinary breakthrough of couscous was technological: rolling coarse hard durum wheat semolina with salt water into uniform granules, drying them in the sun, and cooking them suspended above boiling broth in a perforated pot (keskas), rather than boiling the grain directly in water as a gruel.",
+              "cite": [
+                "franconie-couscous-symbol-2010"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The communal Friday platter",
+          "parts": [
+            {
+              "text": "In every country of the Maghreb, couscous remains the defining meal of Friday prayers and family reconciliations. Traditionally served in a wide earthenware bowl (gsaa or tebsi), it is eaten together from the center using spoons or rolled into small morsels with three fingers of the right hand.",
+              "cite": [
+                "unesco-ich-couscous-01602"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regional-kaleidoscope",
+      "title": "One dish, a thousand regional identities",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "While the steaming method is shared, each region developed distinct signatures.",
+              "cite": [
+                "franconie-couscous-symbol-2010"
+              ]
+            },
+            {
+              "text": " On the Tunisian coast and the island of Djerba, couscous is perfumed with red mullet, grouper, and fiery harissa; in the Moroccan imperial cities of Fes and Marrakech, festive versions feature 'Tfaya', a sweet garnish of caramelized onions, raisins, and cinnamon over lamb; while in Algerian highlands, stews favor turnips, chickpeas, zucchini, and peppery saffron broth.",
+              "cite": [
+                "franconie-couscous-symbol-2010",
+                "wright-couscous-history-2001"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Scholars dispute whether millet or durum wheat was the original cereal used for early pre-Islamic couscous rolling in the western Sahara.",
+    "The degree to which the trans-Saharan caravan routes carried couscous techniques southward into West Africa (where fonio and sorghum are steamed similarly) is documented in few surviving medieval Arabic travelogues."
+  ],
+  "keyPoints": [
+    {
+      "text": "In 2020, Algeria, Mauritania, Morocco, and Tunisia jointly inscribed couscous on the UNESCO Intangible Cultural Heritage List.",
+      "cite": [
+        "unesco-ich-couscous-01602"
+      ]
+    },
+    {
+      "text": "Archaeological evidence confirms that pierced ceramic couscous steamers originated with indigenous Berber civilizations over 2,000 years ago.",
+      "cite": [
+        "wright-couscous-history-2001"
+      ]
+    },
+    {
+      "text": "The dish is defined by the technique of gentle steam-cooking above a simmering broth, serving as a social peacemaker across North Africa.",
+      "cite": [
+        "unesco-ich-couscous-01602"
+      ]
+    }
+  ]
+}

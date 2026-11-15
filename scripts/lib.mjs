@@ -56,7 +56,11 @@ export function loadAll() {
   const capitals = fs.existsSync(capitalsDir)
     ? fs.readdirSync(capitalsDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(capitalsDir, f)) }))
     : [];
-  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, artCatalog, capitals };
+  const peoplesDir = path.join(root, "content", "peoples");
+  const peoples = fs.existsSync(peoplesDir)
+    ? fs.readdirSync(peoplesDir).filter((f) => f.endsWith(".json")).sort().map((f) => ({ file: f, data: readJson(path.join(peoplesDir, f)) }))
+    : [];
+  return { config, sourcesList, places, notes, methodHtml, methodPage, countries, stories, trueSize, blocs, quiz, duolingo, proposedDishes, artCatalog, capitals, peoples };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -66,7 +70,7 @@ const PHONE = /(?:\+?\d[\d\s().-]{7,}\d)/;
 const HOW = ["in-person", "message", "other"];
 const RICH = new Set(["chart", "stat", "callout", "reveal", "figure", "estimate", "check", "order", "table", "recipe"]);
 
-export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [], countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
+export function validate({ config, sourcesList, places, notes, methodHtml, methodPage = null, capitals = [], peoples = [], countries, stories = [], trueSize = null, blocs = null, quiz = null, duolingo = null, proposedDishes = null }) {
   const errors = [];
   const warnings = [];
   const err = (m) => errors.push(m);
@@ -384,6 +388,41 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     (c.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collectC(x.cite)); (b.items || []).forEach((x) => collectC(x.cite)); collectC(b.cite); }));
     if (weakC.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weakC].join(", ")}.`);
   }
+  // --- schede dei popoli: stessa famiglia di blocchi; mai chiamate "tribù"; le bozze sono ammesse, le schede pubblicate richiedono fonti verificate e una rilettura
+  const peopleSlugs = new Set();
+  for (const { file, data: c } of peoples) {
+    const w = `peoples/${file}`;
+    if (!c.slug || !SLUG.test(c.slug)) err(`${w}: slug mancante o non valido.`);
+    else if (`${c.slug}.json` !== file) err(`${w}: lo slug "${c.slug}" deve coincidere con il nome del file.`);
+    if (peopleSlugs.has(c.slug)) err(`${w}: slug duplicato.`);
+    peopleSlugs.add(c.slug);
+    if (!["draft", "published"].includes(c.status)) err(`${w}: status deve essere "draft" o "published".`);
+    if (!Array.isArray(c.countries) || !c.countries.length) err(`${w}: countries deve elencare almeno un paese.`);
+    (c.countries || []).forEach((iso) => { if (!/^[A-Z]{3}$/.test(iso) || (countries && !(countries.countries || []).some((x) => x.iso3 === iso))) err(`${w}: country "${iso}" non valido.`); });
+    for (const k of ["name", "subtitle"]) if (!c[k]) err(`${w}: manca "${k}".`);
+    if (/\btribe/i.test(`${c.name} ${c.subtitle}`)) err(`${w}: il titolo non usa la parola "tribe": vedi la storia "Does Africa really have tribes?".`);
+    checkDeeper(c.deeper, w);
+    (c.keyPoints || []).forEach((x, ki) => { if (!x.text) err(`${w}: keyPoints[${ki}] senza testo.`); if (x.cite) checkCite(x.cite, `${w}: keyPoints[${ki}]`); else if (x.editorial !== true) err(`${w}: keyPoints[${ki}] senza fonte né "editorial".`); });
+    const seenP = new Set();
+    (c.sections || []).forEach((sec, si) => {
+      const sw = `${w}: sections[${si}]`;
+      if (!sec.id || !sec.title) err(`${sw}: manca id o title.`);
+      if (seenP.has(sec.id)) err(`${sw}: id "${sec.id}" duplicato.`);
+      seenP.add(sec.id);
+      (sec.blocks || []).forEach((b, bi) => checkRichBlock(b, `${sw}.blocks[${bi}]`, checkCite));
+    });
+    if (!Array.isArray(c.gaps) || !c.gaps.length) err(`${w}: "gaps" (ciò che non si sa) deve avere almeno una voce.`);
+    if (c.status === "published") {
+      if (!(c.keyPoints || []).length) err(`${w}: una scheda pubblicata richiede keyPoints.`);
+      if ((c.sections || []).length < 2) err(`${w}: una scheda pubblicata richiede almeno 2 sezioni.`);
+      if (!c.reviewedBy) err(`${w}: una scheda pubblicata richiede "reviewedBy" (chi del popolo, o chi lo studia, l'ha riletta).`);
+    }
+    const weakP = new Set();
+    const collectP = (cite) => (cite || []).forEach((id) => { const s2 = sources.get(id); if (s2 && s2.status !== "verified") weakP.add(id); });
+    (c.keyPoints || []).forEach((x) => collectP(x.cite));
+    (c.sections || []).forEach((sec) => (sec.blocks || []).forEach((b) => { (b.parts || []).forEach((x) => collectP(x.cite)); (b.items || []).forEach((x) => collectP(x.cite)); collectP(b.cite); }));
+    if (weakP.size) warn(`${w}: poggia su fonti non ancora verificate: ${[...weakP].join(", ")}.`);
+  }
   // --- registro dei piatti: collega le proposte alle schede senza imporre che siano già tutte scritte
   if (proposedDishes && proposedDishes.dishes) {
     const dishPlaces = places.filter(({ data: p }) => p.type === "dish");
@@ -489,7 +528,8 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     else if (/^country-[A-Z]{3}$/.test(slug) && countries && (countries.countries || []).some((c) => `country-${c.iso3}` === slug)) kindList = config.countryNoteKinds || [];
     else if (slug.startsWith("phrase-") && ((quiz || {}).phrases || []).some((x) => `phrase-${x.id}` === slug)) kindList = config.phraseNoteKinds || [];
     else if (slug.startsWith("capital-") && capitals.some((x) => `capital-${x.data.slug}` === slug)) kindList = config.noteKinds || [];
-    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>), a un paese (country-<ISO3>), a una capitale (capital-<slug>) o a una frase (phrase-<id>).`);
+    else if (slug.startsWith("people-") && peoples.some((x) => `people-${x.data.slug}` === slug)) kindList = config.noteKinds || [];
+    else err(`${w}: non corrisponde a un luogo, a una storia (story-<slug>), a un paese (country-<ISO3>), a una capitale (capital-<slug>), a un popolo (people-<slug>) o a una frase (phrase-<id>).`);
     const kindsHere = new Map((kindList || []).map((k) => [k.id, k]));
     if (!Array.isArray(list)) { err(`${w}: deve contenere una lista.`); continue; }
     const ids = new Set();

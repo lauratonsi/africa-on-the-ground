@@ -1,0 +1,59 @@
+{
+  "slug": "basilique-notre-dame-de-la-paix-yamoussoukro",
+  "status": "draft",
+  "type": "culture",
+  "country": "CIV",
+  "name": "Basilique Notre-Dame de la Paix",
+  "region": "Yamoussoukro · Côte d'Ivoire",
+  "subtitle": "The world's largest Christian church by area, designed by Pierre Fakhoury with a 158-metre dome and 7,000 m² of stained glass.",
+  "facts": [
+    {
+      "label": "Consecrated",
+      "value": "10 September 1990 by Pope John Paul II",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Dimensions",
+      "value": "30,000 m² external surface area and a dome rising 158 metres high",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    },
+    {
+      "label": "Stained glass",
+      "value": "7,000 m² of hand-crafted French glass depicting biblical scenes and presidential portraits",
+      "cite": [
+        "cap-unesco-notre-dame-de-la-paix"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A monumental Catholic basilica and Guinness World Record holder as the largest Christian church on Earth, set amidst manicured French gardens in Yamoussoukro. Built between 1985 and 1989 and consecrated in 1990 by Pope John Paul II, the colossal structure was designed by Ivorian-Lebanese architect Pierre Fakhoury in imported Italian marble. Its central dome ascends 158 meters, flanked by grand colonnades and illuminated by seven thousand square meters of hand-blown stained glass made by master craftsmen from France, portraying scenes from the New Testament alongside likenesses of President Félix Houphouët-Boigny and the builders.",
+              "cite": [
+                "cap-unesco-notre-dame-de-la-paix"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full engineering maintenance reports of the massive internal air-conditioning system are not public.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

@@ -1,15 +1,225 @@
 {
   "slug": "domoda",
-  "status": "draft",
+  "status": "published",
   "type": "dish",
   "country": "GMB",
   "name": "Domoda",
   "region": "The Gambia",
-  "subtitle": "Card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "A rich groundnut stew simmered with roasted peanut paste, vegetables and meat, considered the defining comfort food of The Gambia.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Groundnut (peanut) stew",
+      "cite": [
+        "accessgambia-domoda"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Domoda, from the Mandinka language",
+      "cite": [
+        "accessgambia-domoda"
+      ]
+    },
+    {
+      "label": "Staple base",
+      "value": "Roasted peanut paste (groundnut paste) and tomato puree",
+      "cite": [
+        "accessgambia-domoda",
+        "saveur-domoda-2015"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Steamed white broken rice",
+      "cite": [
+        "accessgambia-domoda"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Domoda is a savory, thick stew made from roasted peanut paste simmered with tomatoes, onions, garlic, and fresh vegetables such as pumpkin, sweet potato, cassava, or bitter tomato (jato).",
+              "cite": [
+                "accessgambia-domoda",
+                "saveur-domoda-2015"
+              ]
+            },
+            {
+              "text": " It is prepared with beef, chicken, or river fish, or made entirely vegetarian.",
+              "cite": [
+                "saveur-domoda-2015"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The signature flavor comes from a delicate balance between the rich, oily sweetness of dark-roasted peanuts and the sharp acidity of fresh lime juice stirred in at the end of cooking.",
+              "cite": [
+                "saveur-domoda-2015"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Domoda is traditionally served over a large communal platter of steamed broken white rice.",
+              "cite": [
+                "accessgambia-domoda"
+              ]
+            },
+            {
+              "text": " Families sit around the dish, spooning the thick sauce over their section of rice and sharing chunks of tender meat and root vegetables.",
+              "cite": [
+                "accessgambia-domoda"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "Peanuts and the river",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The dish originates with the Mandinka people of Senegambia.",
+              "cite": [
+                "accessgambia-domoda"
+              ]
+            },
+            {
+              "text": " During the 19th and 20th centuries, groundnuts (peanuts) became the principal agricultural cash crop along the Gambia River, cementing domoda as the national everyday staple across ethnic boundaries.",
+              "cite": [
+                "accessgambia-domoda"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Gambian Domoda at home",
+          "servings": 6,
+          "sub": "Adapted from Gambian home cooking methods reported by Saveur and Access Gambia.",
+          "cite": [
+            "saveur-domoda-2015",
+            "accessgambia-domoda"
+          ],
+          "note": "Beef chuck can be replaced with chicken or firm pumpkin for a vegetarian version; peanut paste must be unsweetened 100% roasted peanuts.",
+          "ingredients": [
+            {
+              "name": "beef chuck or stewing beef, cut into 3cm cubes",
+              "amount": 800,
+              "unit": "g"
+            },
+            {
+              "name": "smooth unsweetened roasted peanut butter (groundnut paste)",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "name": "concentrated tomato paste",
+              "amount": 70,
+              "unit": "g"
+            },
+            {
+              "name": "yellow onions, finely chopped",
+              "amount": 2,
+              "unit": "large"
+            },
+            {
+              "name": "cloves garlic, minced",
+              "amount": 4,
+              "unit": ""
+            },
+            {
+              "name": "butternut squash or pumpkin, peeled and cubed",
+              "amount": 300,
+              "unit": "g"
+            },
+            {
+              "name": "habanero or Scotch bonnet chilli, left whole for aroma",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "fresh lime juice",
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            {
+              "name": "water or beef stock",
+              "amount": 1.2,
+              "unit": "l"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Brown the beef in a heavy-bottomed Dutch oven with oil over medium-high heat until well seared on all sides.",
+              "minutes": 8
+            },
+            {
+              "text": "Add chopped onions and minced garlic, sautéing until translucent and fragrant.",
+              "minutes": 5
+            },
+            {
+              "text": "Stir in the tomato paste, cooking for two minutes until it darkens slightly.",
+              "minutes": 2
+            },
+            {
+              "text": "Whisk the peanut butter into warm water until completely smooth, then pour into the pot with the beef.",
+              "minutes": 3
+            },
+            {
+              "text": "Drop in the whole chilli, cover partially, and simmer on gentle low heat, stirring frequently to prevent sticking.",
+              "minutes": 45
+            },
+            {
+              "text": "Add the cubed pumpkin and simmer until the vegetables and meat are meltingly tender and peanut oil rises to the surface.",
+              "minutes": 25
+            },
+            {
+              "text": "Stir in fresh lime juice, season with salt and black pepper, and rest for 10 minutes before serving over hot white rice.",
+              "minutes": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "Everything. This card has not been researched yet."
+    "Regional variations between rural upper-river Mandinka domoda and coastal urban Wolof versions that incorporate smoked bonga fish (kobo) for deeper umami.",
+    "Exact historical records documenting when American groundnuts directly replaced indigenous bambara groundnuts in Mandinka cooking during the transatlantic trade era."
   ],
   "image": {
     "file": "domoda",

@@ -1,0 +1,66 @@
+{
+  "slug": "konyo-konyo-market",
+  "status": "draft",
+  "type": "market",
+  "country": "SSD",
+  "name": "Konyo Konyo Market",
+  "region": "Juba · South Sudan",
+  "subtitle": "Konyo-Konyo is one of Juba's major markets and a distribution point for goods across South Sudan.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Major market and distribution point",
+      "cite": [
+        "cap-radiotamazuj-org-7a5fe5"
+      ]
+    },
+    {
+      "label": "Problems",
+      "value": "Congestion, waste, drainage and hygiene concerns",
+      "cite": [
+        "cap-radiotamazuj-org-7a5fe5"
+      ]
+    },
+    {
+      "label": "Fire",
+      "value": "A fire in December 2024 destroyed about 56 shops (per Radio Tamazuj)",
+      "cite": [
+        "cap-radiotamazuj-org-7a5fe5"
+      ]
+    },
+    {
+      "label": "Redevelopment proposal",
+      "value": "A developer proposes about 800 shopping spaces",
+      "cite": [
+        "cap-radiotamazuj-org-7a5fe5"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Konyo-Konyo is one of Juba's major markets and a distribution point for goods across South Sudan. It has faced congestion, fires and redevelopment proposals.",
+              "cite": [
+                "cap-radiotamazuj-org-7a5fe5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

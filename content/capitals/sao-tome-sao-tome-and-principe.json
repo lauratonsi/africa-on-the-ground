@@ -3,10 +3,219 @@
   "status": "draft",
   "country": "STP",
   "name": "São Tomé",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "São Tomé, capital of São Tomé and Príncipe: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 66,888 people lived in the City of São Tomé in the 2012 census (Água Grande District concentrates over 38% of the national population).",
+      "cite": [
+        "cap-citypopulation-de-saotome-2012"
+      ]
+    },
+    {
+      "text": "Founded in 1493 on Ana Chaves Bay, it was one of the earliest Atlantic plantation settlements powered by enslaved labor.",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    },
+    {
+      "text": "The 1575 Forte de São Sebastião houses the National Museum and commemorates the 1595 slave revolt led by Rei Amador.",
+      "cite": [
+        "cap-hpip-forte-sao-sebastiao"
+      ]
+    }
+  ],
+  "places": [
+    "the-rocas-of-sao-tome-and-principe",
+    "roca-sundy",
+    "forte-de-sao-sebastiao-museu-nacional-sao-tome",
+    "se-catedral-de-nossa-senhora-da-graca-sao-tome",
+    "mercado-municipal-sao-tome"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "São Tomé in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "São Tomé was founded in 1493 by Portuguese captain Álvaro Caminha along the sheltered crescent of Ana Chaves Bay, growing into a pioneer sugar-plantation economy in the Gulf of Guinea.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 1534, Pope Clement VII elevated its parish church to a cathedral, creating one of the earliest Catholic diocesan seats across sub-Saharan Africa.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Upon national independence in July 1975, the city became the sovereign capital of the Democratic Republic of São Tomé and Príncipe, embracing its rich Creole Forro language and culture.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "66,888",
+              "label": "people in the City of São Tomé, 2012",
+              "cite": [
+                "cap-citypopulation-de-saotome-2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people were enumerated in the City of São Tomé in the 2012 census?",
+          "min": 25000,
+          "max": 250000,
+          "step": 5000,
+          "unit": "",
+          "answer": 66888,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "66,888 in the 2012 census by INE STP. The surrounding Água Grande District recorded 69,772 residents, representing nearly 40% of the archipelago's population.",
+              "cite": [
+                "cap-citypopulation-de-saotome-2012"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1493",
+              "tag": "origins",
+              "text": "Álvaro Caminha establishes the first permanent settlement on Ana Chaves Bay.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "when": "1534",
+              "tag": "origins",
+              "text": "The Diocese of São Tomé is created by Pope Clement VII.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "when": "1575",
+              "tag": "origins",
+              "text": "The stone fortress Forte de São Sebastião is completed at Ponta Sebastião.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "when": "1595",
+              "tag": "origins",
+              "text": "Rei Amador leads a historic slave revolt, proclaiming himself king of the island.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "when": "1975",
+              "tag": "growth",
+              "text": "São Tomé and Príncipe gains independence; São Tomé is declared capital.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "when": "1976",
+              "tag": "today",
+              "text": "The Museu Nacional opens inside the Forte de São Sebastião.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of São Tomé in order.",
+          "items": [
+            {
+              "label": "Portuguese settlement is founded on Ana Chaves Bay.",
+              "when": "1493",
+              "text": "Portuguese settlement is founded on Ana Chaves Bay.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "label": "Forte de São Sebastião is constructed on the coast.",
+              "when": "1575",
+              "text": "Forte de São Sebastião is constructed on the coast.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "label": "Rei Amador leads the major slave uprising on the island.",
+              "when": "1595",
+              "text": "Rei Amador leads the major slave uprising on the island.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            },
+            {
+              "label": "São Tomé and Príncipe attains national sovereignty.",
+              "when": "1975",
+              "text": "São Tomé and Príncipe attains national sovereignty.",
+              "cite": [
+                "cap-hpip-forte-sao-sebastiao"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Detailed census microdata from the 2024 census remain in provisional release.",
+    "First-hand local voices from traditional herbalists and cocoa artisans are still missing.",
+    "Cityscape photograph: not yet linked."
   ]
 }

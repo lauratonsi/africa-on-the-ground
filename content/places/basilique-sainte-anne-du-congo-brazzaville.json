@@ -6,54 +6,12 @@
   "name": "Basilique Sainte-Anne-du-Congo",
   "region": "Brazzaville · Republic of the Congo",
   "subtitle": "Modernist cathedral sanctuary conceived during Free France rule with parabolic arches and emerald-green tiled roof.",
-  "facts": [
-    {
-      "label": "Architect",
-      "value": "Roger Erell (begun 1943)",
-      "cite": [
-        "cap-expertisefrance-sainte-anne"
-      ]
-    },
-    {
-      "label": "Roofing",
-      "value": "Emerald-green glazed ceramic tiles shaped like fish scales",
-      "cite": [
-        "cap-expertisefrance-sainte-anne"
-      ]
-    },
-    {
-      "label": "Symbolism",
-      "value": "Monument to Free France and fusion of modernist reinforced concrete with African tribal architecture",
-      "cite": [
-        "cap-expertisefrance-sainte-anne"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what",
-      "title": "What it is",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "An architectural masterpiece in the Poto-Poto district of Brazzaville, commissioned in 1943 by Governor General Félix Éboué as a sanctuary honoring Free France. Designed by visionary architect Roger Erell, the basilica fuses European modernist concrete engineering with Central African organic aesthetics: its monumental parabolic arches recall traditional African wicker huts, crowned by a sweeping roof clad in glistening emerald-green glazed tiles patterned like the scales of river fish, illuminated by stained glass capturing Congolese everyday life and spiritual motifs.",
-              "cite": [
-                "cap-expertisefrance-sainte-anne"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "facts"
-        }
-      ]
-    }
-  ],
+  "facts": [],
+  "sections": [],
   "gaps": [
     "Full engineering documentation of the spire restoration completed in 2011 is not fully public.",
     "Local voices: none yet.",
-    "Photograph: not yet linked."
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

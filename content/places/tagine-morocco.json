@@ -1,14 +1,228 @@
 {
   "slug": "tagine-morocco",
-  "status": "draft",
+  "status": "published",
   "type": "dish",
   "country": "MAR",
   "name": "Tagine",
   "region": "Morocco",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "The iconic slow-simmered stew of Morocco, braised in a conical earthenware vessel whose shape condenses and returns aromatic steam to the food.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Slow-braised earthenware clay pot stew",
+      "cite": [
+        "wolfert-food-of-morocco-2011"
+      ]
+    },
+    {
+      "label": "Cooking vessel",
+      "value": "Glazed or unglazed conical clay tagine",
+      "cite": [
+        "moroccan-tourism-tagine"
+      ]
+    },
+    {
+      "label": "Hallmark pairings",
+      "value": "Savory-sweet: preserved lemons with green olives, or lamb with prunes and toasted almonds",
+      "cite": [
+        "wolfert-food-of-morocco-2011"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Khobz, round Moroccan crusty flatbread",
+      "cite": [
+        "moroccan-tourism-tagine"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Moroccan culinary language, 'tagine' refers both to the conical earthenware cooking dish and the savory slow-cooked stew prepared inside it.",
+              "cite": [
+                "moroccan-tourism-tagine"
+              ]
+            },
+            {
+              "text": " The vessel consists of two parts: a wide, shallow circular base and a tall, conical lid that acts as a self-basting chimney. As moisture evaporates from the simmering meat and vegetables, it rises up the sloped clay cone, condenses against the cooler upper surface, and trickles continuously back down into the food.",
+              "cite": [
+                "wolfert-food-of-morocco-2011"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This aerodynamic design allows meats to become meltingly tender over gentle charcoal embers with only a tiny splash of added water, an essential innovation developed by desert communities in an arid climate.",
+              "cite": [
+                "wolfert-food-of-morocco-2011"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The tagine is brought directly from the stove or charcoal brazier to the dining table, placed upon a woven straw or cork mat.",
+              "cite": [
+                "moroccan-tourism-tagine"
+              ]
+            },
+            {
+              "text": " The conical lid is lifted with a flourish to reveal the bubbling, aromatic stew. Diners sit around the vessel, using wedges of fresh round bread (khobz) held in the right hand to pinch up morsels of tender meat, vegetables, and the rich, concentrated sauce. Custom dictates that each person eats strictly from the triangular section of the plate directly before them.",
+              "cite": [
+                "moroccan-tourism-tagine",
+                "wolfert-food-of-morocco-2011"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "Berber clay and royal spices",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ceramic cooking vessel was engineered by indigenous Amazigh (Berber) potters centuries before the arrival of Arab dynasties.",
+              "cite": [
+                "wolfert-food-of-morocco-2011"
+              ]
+            },
+            {
+              "text": " Over the medieval era, imperial court cooks in Fes and Marrakech enriched the rustic clay pot with Andalusian and Middle Eastern influences, introducing saffron, cinnamon, ginger, smen (aged fermented butter), and the sophisticated interplay of savory braised meats with honeyed prunes, dried figs, or salted preserved lemons.",
+              "cite": [
+                "wolfert-food-of-morocco-2011"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Classic Moroccan Chicken Tagine",
+          "servings": 4,
+          "sub": "Traditional chicken, preserved lemon, and olive method documented by Paula Wolfert.",
+          "cite": [
+            "wolfert-food-of-morocco-2011",
+            "moroccan-tourism-tagine"
+          ],
+          "note": "A heavy Dutch oven or cast iron skillet with a tight-fitting lid can replace the ceramic tagine; preserved lemons must be rinsed if overly salty.",
+          "ingredients": [
+            {
+              "name": "bone-in chicken thighs and drumsticks",
+              "amount": 800,
+              "unit": "g"
+            },
+            {
+              "name": "yellow onions, finely grated or minced",
+              "amount": 2,
+              "unit": "large"
+            },
+            {
+              "name": "cloves garlic, finely crushed",
+              "amount": 4,
+              "unit": ""
+            },
+            {
+              "name": "preserved lemon (skin finely sliced, pulp minced)",
+              "amount": 1,
+              "unit": "whole"
+            },
+            {
+              "name": "cracked green Moroccan or Picholine olives",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "name": "extra virgin olive oil",
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            {
+              "name": "ground ginger and sweet paprika",
+              "amount": 1,
+              "unit": "tsp each"
+            },
+            {
+              "name": "ground turmeric and pinch of saffron threads",
+              "amount": 1,
+              "unit": "tsp"
+            },
+            {
+              "name": "fresh coriander (cilantro) and flat-leaf parsley, finely chopped",
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            {
+              "name": "water",
+              "amount": 150,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Mix the olive oil, minced preserved lemon pulp, crushed garlic, ginger, turmeric, saffron, and half the fresh herbs in a bowl to create a marinade; rub thoroughly into the chicken pieces.",
+              "minutes": 10
+            },
+            {
+              "text": "Scatter the grated onions evenly across the base of the tagine or heavy skillet, and place the chicken pieces on top.",
+              "minutes": 3
+            },
+            {
+              "text": "Add a small splash of water (150ml), cover with the conical lid, and place over low heat with a heat diffuser, bringing to a gentle simmer.",
+              "minutes": 10
+            },
+            {
+              "text": "Cook undisturbed on low heat for 45 minutes until the chicken is tender and the onions melt into a golden, saucy bed.",
+              "minutes": 45
+            },
+            {
+              "text": "Add the sliced preserved lemon peel, green olives, and the remaining fresh coriander and parsley, spooning the pan juices over the top.",
+              "minutes": 3
+            },
+            {
+              "text": "Simmer uncovered for 10 minutes until the sauce reduces to a thick, glossy, concentrated emulsion.",
+              "minutes": 10
+            },
+            {
+              "text": "Serve directly in the tagine base accompanied by warm crusty khobz bread.",
+              "minutes": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "Divergence in domestic practice between unglazed clay tagines (which absorb and build seasoning like a cast-iron skillet) and modern glazed decorative tourist pieces.",
+    "Variations in heat source adaptation: traditional charcoal brazier (majmar) vs modern electric induction cooktops requiring adapter plates."
   ]
 }

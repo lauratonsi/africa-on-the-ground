@@ -1,0 +1,76 @@
+{
+  "slug": "analakely-market",
+  "status": "draft",
+  "type": "market",
+  "country": "MDG",
+  "name": "Analakely market and the Zoma",
+  "region": "Antananarivo · Madagascar",
+  "subtitle": "Analakely is a central district whose market took over from the Zoma, a large open-air weekly market in the heart of the city.",
+  "facts": [
+    {
+      "label": "Origin of the Zoma",
+      "value": "Created by a powerful king at the end of the 18th century.",
+      "cite": [
+        "cap-persee-fr-e1b56f"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "A big open-air market at the heart of the city.",
+      "cite": [
+        "cap-persee-fr-e1b56f"
+      ]
+    },
+    {
+      "label": "Removal",
+      "value": "The city authorities removed it at the end of the 1990s with no protest.",
+      "cite": [
+        "cap-persee-fr-e1b56f"
+      ]
+    },
+    {
+      "label": "Return",
+      "value": "The Zoma, once weekly, now returns as daily or seasonal events at Analakely.",
+      "cite": [
+        "cap-lexpress-mg-c22979"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Analakely is a central district whose market took over from the Zoma, a large open-air weekly market in the heart of the city. The Zoma was removed at the end of the 1990s and has returned in event form.",
+              "cite": [
+                "cap-persee-fr-e1b56f",
+                "cap-lexpress-mg-c22979"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "analakely-market",
+    "alt": "Photograph of Analakely market and the Zoma.",
+    "caption": "Analakely market and the Zoma.",
+    "credit": "Cactus0625",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Analakely_vu_d'en_haut%2C_Madagascar.jpg"
+  }
+}

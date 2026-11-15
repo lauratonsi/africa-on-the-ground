@@ -1,0 +1,256 @@
+{
+  "city": "Maputo",
+  "country": "MOZ",
+  "population": {
+    "value": 1080277,
+    "year": 2017,
+    "definition": "Maputo Cidade (the city, which is also a province-level unit), census count of 1 August 2017, not adjusted for underenumeration. Maputo Provincia (the separate surrounding province) was 1,908,078 in the same census per the same source. Note: Urban Resilience Hub quotes 1,273,076 for the city citing INE 2017, which conflicts and is not used.",
+    "source": {
+      "title": "Maputo Cidade",
+      "publisher": "citypopulation.de (compiles Instituto Nacional de Estatistica Mocambique)",
+      "author": null,
+      "date": "census 2017-08-01",
+      "url": "https://citypopulation.de/en/mozambique/admin/11__maputo_cidade/",
+      "tier": "institutional (fallback; names INE as source)",
+      "quote": "The tabulated population figures are not adjusted for underenumeration."
+    }
+  },
+  "facts": [
+    {
+      "claim": "The city was originally named Lourenço Marques after a Portuguese trader who explored the region in 1544.",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022 (page footer 2026)",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "Maputo was originally named Lourenço Marques, after the Portuguese trader"
+      }
+    },
+    {
+      "claim": "Lourenço Marques became capital of Portuguese-controlled Mozambique in 1898.",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022 (page footer 2026)",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "In 1898, Lourenço Marques was named the capital of Portuguese-controlled Mozambique."
+      }
+    },
+    {
+      "claim": "After Mozambique's independence in 1975 the new national leaders changed the capital's name to Maputo (EBSCO gives no year for the renaming; the 1976 date comes from Cultural Heritage Online).",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022 (page footer 2026)",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "the new national leaders changed the name of the capital to Maputo"
+      }
+    },
+    {
+      "claim": "The city was called Lourenço Marques until 1976, the year after independence; it had become a city in 1887.",
+      "source": {
+        "title": "Maputo — Lourenço Marques and African Art Déco",
+        "publisher": "Cultural Heritage Online",
+        "author": "Luigi De Marchi",
+        "date": "2026-06-08",
+        "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/",
+        "tier": "press (specialist heritage publication; weaker than academic)",
+        "quote": "Maputo was called Lourenço Marques until 1976, the year after Mozambican independence."
+      }
+    },
+    {
+      "claim": "The Portuguese fort, the nucleus of the later city, dates to the 1780s (EBSCO: 1787; Cultural Heritage Online: 1781).",
+      "source": {
+        "title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress",
+        "publisher": "BUALA",
+        "author": "Roberto Conduru",
+        "date": "2020-06-11",
+        "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress",
+        "tier": "academic",
+        "quote": "was built by Portuguese in 1780s on the ruins of previous fortifications built by Dutch and Austrians."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "1544",
+      "claim": "A Portuguese trader, Lourenço Marques, first explores the region; the later city takes his name.",
+      "tag": "origins",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "Maputo was originally named Lourenço Marques, after the Portuguese trader"
+      }
+    },
+    {
+      "when": "1780s",
+      "claim": "Portuguese build a fortress on the ruins of earlier Dutch and Austrian fortifications. EBSCO dates it to 1787 and calls it the nucleus around which the capital developed.",
+      "tag": "origins",
+      "source": {
+        "title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress",
+        "publisher": "BUALA",
+        "author": "Roberto Conduru",
+        "date": "2020-06-11",
+        "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress",
+        "tier": "academic",
+        "quote": "was built by Portuguese in 1780s on the ruins of previous fortifications built by Dutch and Austrians."
+      }
+    },
+    {
+      "when": "1887",
+      "claim": "The settlement becomes a city.",
+      "tag": "growth",
+      "source": {
+        "title": "Maputo — Lourenço Marques and African Art Déco",
+        "publisher": "Cultural Heritage Online",
+        "author": "Luigi De Marchi",
+        "date": "2026-06-08",
+        "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/",
+        "tier": "press (specialist)",
+        "quote": "The settlement became a city in 1887 and the capital of Portuguese Mozambique in 1898. (page text, paraphrase of fetched summary; verify wording)"
+      }
+    },
+    {
+      "when": "1898",
+      "claim": "Lourenço Marques is named capital of Portuguese-controlled Mozambique.",
+      "tag": "growth",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "In 1898, Lourenço Marques was named the capital of Portuguese-controlled Mozambique."
+      }
+    },
+    {
+      "when": "1910 (station opened; works 1908-1916)",
+      "claim": "The central railway station opens; construction ran 1908 to 1916.",
+      "tag": "growth",
+      "source": {
+        "title": "Maputo — Lourenço Marques and African Art Déco",
+        "publisher": "Cultural Heritage Online",
+        "author": "Luigi De Marchi",
+        "date": "2026-06-08",
+        "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/",
+        "tier": "press (specialist)",
+        "quote": "a Beaux-Arts statement of the colony's ambitions"
+      }
+    },
+    {
+      "when": "1975",
+      "claim": "Mozambique declares independence.",
+      "tag": "today",
+      "source": {
+        "title": "Maputo, Mozambique",
+        "publisher": "EBSCO Research Starters",
+        "author": "Beverly Ballaro",
+        "date": "2022",
+        "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique",
+        "tier": "academic",
+        "quote": "following Mozambique's declaration of independence in 1975"
+      }
+    },
+    {
+      "when": "1976",
+      "claim": "Lourenço Marques is renamed Maputo.",
+      "tag": "today",
+      "source": {
+        "title": "Maputo — Lourenço Marques and African Art Déco",
+        "publisher": "Cultural Heritage Online",
+        "author": "Luigi De Marchi",
+        "date": "2026-06-08",
+        "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/",
+        "tier": "press (specialist)",
+        "quote": "Maputo was called Lourenço Marques until 1976, the year after Mozambican independence."
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Maputo Central Railway Station",
+      "type": "site",
+      "what": "A railway terminus in the city centre, built in the colonial period with a copper-clad dome. Its design is credited to Alfredo Augusto Lisboa de Lima and Mario Veiga, with the dome by José Ferreira da Costa.",
+      "facts": [
+        {"label": "Construction and opening", "value": "Construction ran 1908-1916; opened 1910.", "source": {"title": "Maputo — Lourenço Marques and African Art Déco", "publisher": "Cultural Heritage Online", "author": "Luigi De Marchi", "date": "2026-06-08", "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/", "tier": "press (specialist)", "quote": "The railway station anchors any first impression."}},
+        {"label": "Style", "value": "Described as Beaux-Arts.", "source": {"title": "Maputo — Lourenço Marques and African Art Déco", "publisher": "Cultural Heritage Online", "author": "Luigi De Marchi", "date": "2026-06-08", "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/", "tier": "press (specialist)", "quote": "a Beaux-Arts statement of the colony's ambitions"}},
+        {"label": "Eiffel attribution (conflict)", "value": "EBSCO attributes the station to Eiffel and dates it to 1910, which conflicts with the architect names above. Treat the Eiffel link as disputed; do not state it as fact.", "source": {"title": "Maputo, Mozambique", "publisher": "EBSCO Research Starters", "author": "Beverly Ballaro", "date": "2022", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique", "tier": "academic", "quote": "Eiffel also designed Maputo's railway station, which dates to 1910."}}
+      ],
+      "photo": {"file": "File:Maputo Railway Station and Praca dos Trabalhadores.jpg", "licence": "CC BY-SA 4.0", "author": "Claus Wonnemann"},
+      "readSources": ["https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/", "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique"]
+    },
+    {
+      "name": "Fortaleza de Maputo (Maputo Fortress)",
+      "type": "site",
+      "what": "A Portuguese fortress from the 1780s that now houses the Museum of Military History. The current building dates to the 1940s and the site was classified as a Mozambican Cultural Heritage Monument in 2002.",
+      "facts": [
+        {"label": "Origin", "value": "Built by the Portuguese in the 1780s on earlier Dutch and Austrian fortifications.", "source": {"title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress", "publisher": "BUALA", "author": "Roberto Conduru", "date": "2020-06-11", "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress", "tier": "academic", "quote": "was built by Portuguese in 1780s on the ruins of previous fortifications built by Dutch and Austrians."}},
+        {"label": "Attack and rebuilding", "value": "Burned by French corsairs at the end of the 18th century and rebuilt by the Portuguese several times.", "source": {"title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress", "publisher": "BUALA", "author": "Roberto Conduru", "date": "2020-06-11", "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress", "tier": "academic", "quote": "French corsairs conquered and burned it down at the end of 18th century."}},
+        {"label": "Current use", "value": "Museum of Military History.", "source": {"title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress", "publisher": "BUALA", "author": "Roberto Conduru", "date": "2020-06-11", "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress", "tier": "academic", "quote": "Deprived of its original functions, the old fortress is now the Museum of Military History."}},
+        {"label": "Heritage status", "value": "Classified in 2002 as a Mozambican Cultural Heritage Monument; current building dates to the 1940s.", "source": {"title": "Writing with bodies: installing a new history of Mozambique from Maputo Fortress", "publisher": "BUALA", "author": "Roberto Conduru", "date": "2020-06-11", "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress", "tier": "academic", "quote": "the classification it received in 2002 as a Mozambican Cultural Heritage Monument."}}
+      ],
+      "photo": {"file": "File:Maputo Fortaleza-2.jpg", "licence": "CC BY 2.0", "author": "Bill Williams (original); JotaCartas (derivative)"},
+      "photoNote": "Shows the equestrian statue of Mouzinho de Albuquerque inside the fortress, not the whole building. Search also showed a 1946 series 'File:Fortaleza de Nossa Senhora da Conceição (1946) (...)' whose licences were not checked.",
+      "readSources": ["https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress", "https://www.ebsco.com/research-starters/geography-and-cartography/maputo-mozambique", "https://clubofmozambique.com/news/informal-vendors-protest-ban-at-praca-25-de-junho-maputo-were-being-expelled-like-dogs-watch/"]
+    },
+    {
+      "name": "Mercado Central (Central Market)",
+      "type": "market",
+      "what": "The historic municipal market hall in the Baixa, the city centre. A 2011 university dissertation describes it as the only infrastructure provided to support the city's small traders.",
+      "facts": [
+        {"label": "Role in the city", "value": "A 2011 architecture dissertation (University of Pretoria) says it was the only infrastructure provided for the city's micro-traders, and that informal street markets had spread north of it.", "source": {"title": "Finding the Maputo Central Market: Seeing the Informal Economy in Formal Architecture", "publisher": "University of Pretoria (Master of Architecture dissertation)", "author": "Byron Snow", "date": "2011", "url": "https://repository.up.ac.za/bitstreams/4702845b-ee06-4845-8a22-d5e549d6a616/download", "tier": "academic", "quote": "is the only infrastructure provided in support of the micro-enterprisers and traders of the city."}},
+        {"label": "Location", "value": "Baixa district; corner of Avenida 25 de Setembro and Rua do Mesquita (as given in dissertation).", "source": {"title": "Finding the Maputo Central Market: Seeing the Informal Economy in Formal Architecture", "publisher": "University of Pretoria", "author": "Byron Snow", "date": "2011", "url": "https://repository.up.ac.za/bitstreams/4702845b-ee06-4845-8a22-d5e549d6a616/download", "tier": "academic", "quote": "The low-lying Baixa area of Maputo, is the historic and current city centre of Maputo."}},
+        {"label": "Vendors in 2026", "value": "Fish vendors barred from Praça 25 de Junho say the market has no space or fish storage for them.", "source": {"title": "Informal vendors protest ban at Praça 25 de Junho, Maputo", "publisher": "Club of Mozambique", "author": null, "date": "2026-06-16", "url": "https://clubofmozambique.com/news/informal-vendors-protest-ban-at-praca-25-de-junho-maputo-were-being-expelled-like-dogs-watch/", "tier": "press", "quote": "At the market, there is no space for us."}}
+      ],
+      "photo": {"file": "File:Mercado Central de Maputo.jpg", "licence": "CC BY-SA 4.0", "author": "Wisneyykarin"},
+      "photoNote": "Alternative: File:Mercado central de maputo, entrada.jpg (CC BY-SA 4.0, Max Dgedge). Neither image content was viewed, so check for people in the foreground.",
+      "readSources": ["https://repository.up.ac.za/bitstreams/4702845b-ee06-4845-8a22-d5e549d6a616/download (only the abstract and front matter were readable)", "https://clubofmozambique.com/news/informal-vendors-protest-ban-at-praca-25-de-junho-maputo-were-being-expelled-like-dogs-watch/"]
+    },
+    {
+      "name": "Museu de História Natural (Natural History Museum)",
+      "type": "culture",
+      "what": "A natural history museum run by Eduardo Mondlane University, in a Manueline-style building. Its best-known exhibit is a collection of elephant foetuses.",
+      "facts": [
+        {"label": "Building", "value": "Housed in a Manueline-style building since 1933.", "source": {"title": "Natural History Museum", "publisher": "Universidade Eduardo Mondlane", "author": null, "date": null, "url": "https://uem.mz/en/natural-history-museum/", "tier": "institutional", "quote": "enshrined in a magnificent Manueline architecture style building since 1933"}},
+        {"label": "Founding", "value": "UEM page says established in 1911 (another UEM page, not readable, reportedly says 1913; unresolved).", "source": {"title": "Natural History Museum", "publisher": "Universidade Eduardo Mondlane", "author": null, "date": null, "url": "https://uem.mz/en/natural-history-museum/", "tier": "institutional", "quote": "The Natural History Museum was established in 1911"}},
+        {"label": "Collection", "value": "Elephant foetuses from one to 22 months of development.", "source": {"title": "Natural History Museum", "publisher": "Universidade Eduardo Mondlane", "author": null, "date": null, "url": "https://uem.mz/en/natural-history-museum/", "tier": "institutional", "quote": "a collection, probably unique in the world, of elephant fetuses ranging from one month to 22 months old."}},
+        {"label": "Garden", "value": "Garden with murals by Malangatana.", "source": {"title": "Natural History Museum", "publisher": "Universidade Eduardo Mondlane", "author": null, "date": null, "url": "https://uem.mz/en/natural-history-museum/", "tier": "institutional", "quote": "features a garden with murals painted by Malangatana"}}
+      ],
+      "photo": {"file": "File:Frontal view of Museu de História Natural in Maputo.jpg", "licence": "CC BY-SA 4.0", "author": "Claus Wonnemann"},
+      "readSources": ["https://uem.mz/en/natural-history-museum/"]
+    }
+  ],
+  "myth": null,
+  "unreadable": [
+    "https://hpip.org/en/heritage/details/96 and /pt/heritage/details/96 and /details/2140 - TLS certificate error (market 1901-1903 and fort history not read)",
+    "http://www.ine.gov.mz/iv-rgph-2017/... brochure - TLS certificate error (official INE census not read)",
+    "https://maputo.aics.gov.it/... - 404",
+    "https://mhnm.uem.mz/?page_id=58 - 404",
+    "https://blackpast.org/global-african-history/maputo-mozambique-1721/ - 403",
+    "http://ptum.cmmaputo.gov.mz/... diagnostic PDF - SSL error",
+    "https://proa.ua.pt/... tourism article - too many redirects",
+    "https://repositorio.ulisboa.pt/... Routledge chapter - PDF text not extractable",
+    "https://www.ebsco.com/... and others OK; Wikipedia not used as a source"
+  ],
+  "notNotFound": [
+    "Delagoa Bay: not mentioned on the EBSCO page; no readable source obtained",
+    "Name origin of Maputo (river vs other): no readable source; do not state. One travel page claimed Chief Maputsu, unverified and uncited",
+    "1976 renaming date from an institutional source: only Cultural Heritage Online (specialist press); EBSCO gives no year",
+    "Mercado Central construction dates and design (1901-1903, Hamburg Alster pavilion): seen only in unreadable HPIP and search snippets",
+    "Mercado do Peixe, Casa de Ferro (only EBSCO line: 'it proved uninhabitable because Eiffel had the walls and roof built of steel'; Eiffel attribution disputed in snippets), Núcleo de Arte (only an unofficial Africaserver page read; founding dates 1921/1937/1948 conflict), Praça da Independência, Feira Popular, Museu da Moeda, Jardim Tunduru: no acceptable readable source",
+    "Photos not checked for Casa de Ferro or Núcleo de Arte",
+    "Myth: EBSCO itself repeats the Eiffel-station attribution, which other sources contest; no readable source verified as explicitly correcting it, so null",
+    "Quotes were captured through WebFetch summaries; re-verify wording against the live pages before publishing, especially the Cultural Heritage Online 1887 quote"
+  ]
+}

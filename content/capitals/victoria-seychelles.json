@@ -3,10 +3,258 @@
   "status": "draft",
   "country": "SYC",
   "name": "Victoria",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Victoria, capital of Seychelles: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 29,664 people live in the Victoria agglomeration (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-513716"
+      ]
+    },
+    {
+      "text": "The town on Mahe that became Victoria was founded by the French in 1778; the island had been claimed by France in 1756.",
+      "cite": [
+        "cap-kreolmagazine-com-482a27"
+      ]
+    },
+    {
+      "text": "Seychelles' first settlement dates to 1770 (the French-led party). Note: Kreol dates Victoria itself to 1778; the 1770 settlement is of the islands, not verified as Victoria's site.",
+      "cite": [
+        "cap-sahistory-org-za-2b6266"
+      ]
+    }
+  ],
+  "places": [
+    "victoria-clock-tower",
+    "selwyn-clarke-market",
+    "seychelles-botanical-gardens",
+    "seychelles-museum-of-history"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Victoria in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The town on Mahe that became Victoria was founded by the French in 1778; the island had been claimed by France in 1756.",
+              "cite": [
+                "cap-kreolmagazine-com-482a27"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Seychelles' first settlement dates to 1770 (the French-led party). Note: Kreol dates Victoria itself to 1778; the 1770 settlement is of the islands, not verified as Victoria's site.",
+              "cite": [
+                "cap-sahistory-org-za-2b6266"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The capital was named Victoria in 1841, during the administration of Mylius.",
+              "cite": [
+                "cap-nation-sc-60cbd5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The settlement was long known locally as L'Etablissement.",
+              "cite": [
+                "cap-nation-sc-c27bc3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Seychelles was under British rule 1811-1976 and became independent as a republic on 29 June 1976.",
+              "cite": [
+                "cap-nation-sc-60cbd5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "29,664",
+              "label": "people in the Victoria agglomeration, 2022",
+              "cite": [
+                "cap-citypopulation-de-513716"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in the Victoria agglomeration?",
+          "min": 0,
+          "max": 90000,
+          "step": 400,
+          "unit": "",
+          "answer": 29664,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "29,664 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Victoria, listed as an agglomeration (status 'Aggl') in Mahe, at the census of 1 July 2022; citypopulation.de attributes the 2022 figure to the National Statistics Bureau, Seychelles.",
+              "cite": [
+                "cap-citypopulation-de-513716"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1770",
+              "tag": "origins",
+              "text": "First settlement of Seychelles (French-led).",
+              "cite": [
+                "cap-sahistory-org-za-2b6266"
+              ]
+            },
+            {
+              "when": "1778",
+              "tag": "origins",
+              "text": "French found the settlement on Mahe that became Victoria.",
+              "cite": [
+                "cap-kreolmagazine-com-482a27"
+              ]
+            },
+            {
+              "when": "1814",
+              "tag": "growth",
+              "text": "Seychelles ceded to Britain under the Treaty of Paris.",
+              "cite": [
+                "cap-sahistory-org-za-2b6266"
+              ]
+            },
+            {
+              "when": "1841",
+              "tag": "growth",
+              "text": "The capital is named Victoria.",
+              "cite": [
+                "cap-nation-sc-60cbd5"
+              ]
+            },
+            {
+              "when": "1 April 1903",
+              "tag": "growth",
+              "text": "Victoria Clock Tower inaugurated by Governor Sweet-Escott.",
+              "cite": [
+                "cap-sbc-sc-bc8d62"
+              ]
+            },
+            {
+              "when": "1965",
+              "tag": "growth",
+              "text": "National museum established, starting in the Carnegie building.",
+              "cite": [
+                "cap-statehouse-gov-sc-49f413"
+              ]
+            },
+            {
+              "when": "29 June 1976",
+              "tag": "today",
+              "text": "Independence from Britain; Seychelles becomes a republic.",
+              "cite": [
+                "cap-nation-sc-60cbd5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Victoria in order.",
+          "items": [
+            {
+              "label": "First settlement of Seychelles (French-led).",
+              "when": "1770",
+              "text": "First settlement of Seychelles (French-led).",
+              "cite": [
+                "cap-sahistory-org-za-2b6266"
+              ]
+            },
+            {
+              "label": "Seychelles ceded to Britain under the Treaty of Paris.",
+              "when": "1814",
+              "text": "Seychelles ceded to Britain under the Treaty of Paris.",
+              "cite": [
+                "cap-sahistory-org-za-2b6266"
+              ]
+            },
+            {
+              "label": "Victoria Clock Tower inaugurated by Governor Sweet-Escott.",
+              "when": "1 April 1903",
+              "text": "Victoria Clock Tower inaugurated by Governor Sweet-Escott.",
+              "cite": [
+                "cap-sbc-sc-bc8d62"
+              ]
+            },
+            {
+              "label": "Independence from Britain; Seychelles becomes a republic.",
+              "when": "29 June 1976",
+              "text": "Independence from Britain; Seychelles becomes a republic.",
+              "cite": [
+                "cap-nation-sc-60cbd5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Port Royal name and 'Etablissement du Roi' in a readable source (only L'Etablissement found)",
+    "Not found in a readable source: Victoria district vs Greater Victoria population definition from NBS directly (NBS not reached; citypopulation.de used)",
+    "Not found in a readable source: EBSCO / Heritage Foundation / Tourism Board pages for Victoria",
+    "Not found in a readable source: Cathedral of the Immaculate Conception, Kaz Zanana, Hindu Kovil: not researched/sourced",
+    "Not found in a readable source: Natural History Museum: only Nation 'Our museum is 50' (Tony Mathiot, 2015-05-15) quote 'It began on the ground floor of the Carnegie building (1910) in 1965.'; building no longer a museum per search snippet, unverified; skipped",
+    "Not found in a readable source: Clock tower as replica of Little Ben in Victoria Station: only 'Little Big Ben' nickname sourced",
+    "Not found in a readable source: Market photo with CC BY 2.0 or better is available; the CC BY 1.0 Mercat files were rejected",
+    "Not found in a readable source: Museum photo not searched",
+    "Not found in a readable source: Market 1840 date only from Inside Seychelles (weak); Kreol/Nation don't give it",
+    "Not found in a readable source: Photo licence/people-in-foreground not visually checked for any file",
+    "Left out because only weak or unofficial sources supported them (2 items, for example: Seychelles National Botanical Gardens - Purpose: Test useful plants for Seychelles' climat).",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Seychelles has read this profile yet."
   ]
 }

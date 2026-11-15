@@ -3,6 +3,14 @@
   "status": "published",
   "type": "culture",
   "country": "BWA",
+  "coords": {
+    "lat": -24.6565,
+    "lon": 25.9234,
+    "approx": true,
+    "cite": [
+      "cap-botswanatourism-co-bw-7c0e7d"
+    ]
+  },
   "name": "Botswana National Museum and Art Gallery",
   "region": "Gaborone · Botswana",
   "subtitle": "The national museum in central Gaborone, with collections of traditional crafts and southern African fine art.",

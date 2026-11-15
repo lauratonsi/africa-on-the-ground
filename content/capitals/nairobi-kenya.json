@@ -3,10 +3,267 @@
   "status": "draft",
   "country": "KEN",
   "name": "Nairobi",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Nairobi, capital of Kenya: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 4,397,073 people live in Nairobi (counted 2019).",
+      "cite": [
+        "cap-citypopulation-de-7a507c"
+      ]
+    },
+    {
+      "text": "Nairobi began in 1899 as a British camp and supply depot for railway construction workers on Maasai land.",
+      "cite": [
+        "cap-standardmedia-co-ke-86c1dc"
+      ]
+    },
+    {
+      "text": "Nairobi began as a railway camp for the Uganda Railway.",
+      "cite": [
+        "cap-ebsco-com-8a2de3"
+      ]
+    }
+  ],
+  "places": [
+    "nairobi-national-museum",
+    "nairobi-national-park",
+    "gikomba-market",
+    "karura-forest",
+    "karen-blixen-museum"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Nairobi in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nairobi began in 1899 as a British camp and supply depot for railway construction workers on Maasai land.",
+              "cite": [
+                "cap-standardmedia-co-ke-86c1dc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nairobi began as a railway camp for the Uganda Railway.",
+              "cite": [
+                "cap-ebsco-com-8a2de3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The name comes from a Maasai phrase meaning cool waters (spelled Enkare Nairobi in one source, Ewaso Nyirobi in another).",
+              "cite": [
+                "cap-standardmedia-co-ke-86c1dc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nairobi's Maasai-phrase name is rendered as 'the place of cool water' (EBSCO spells it Ewaso Nyirobi; it also notes an earlier name, Mile 327).",
+              "cite": [
+                "cap-ebsco-com-8a2de3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nairobi became capital of the British East Africa Protectorate in 1905.",
+              "cite": [
+                "cap-ebsco-com-8a2de3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kenya's independence in 1963 made Nairobi the capital of the independent country.",
+              "cite": [
+                "cap-standardmedia-co-ke-86c1dc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "4,397,073",
+              "label": "people in Nairobi, 2019",
+              "cite": [
+                "cap-citypopulation-de-7a507c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Nairobi?",
+          "min": 0,
+          "max": 20000000,
+          "step": 100000,
+          "unit": "",
+          "answer": 4397073,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "4,397,073 in 2019, according to the figures compiled from the national statistics office. Which area is counted matters: Nairobi City County (county-level, not an urban-agglomeration figure), 2019 Kenya Population and Housing Census, census night 24 August 2019.",
+              "cite": [
+                "cap-citypopulation-de-7a507c"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1899",
+              "tag": "origins",
+              "text": "British build a camp and supply depot for railway construction workers on the site of Nairobi.",
+              "cite": [
+                "cap-standardmedia-co-ke-86c1dc"
+              ]
+            },
+            {
+              "when": "1905",
+              "tag": "origins",
+              "text": "Nairobi becomes capital of the British East Africa Protectorate.",
+              "cite": [
+                "cap-ebsco-com-8a2de3"
+              ]
+            },
+            {
+              "when": "1930",
+              "tag": "growth",
+              "text": "The museum that is now the Nairobi National Museum is officially opened as the Coryndon Museum (22 September).",
+              "cite": [
+                "cap-museums-or-ke-8d77ec"
+              ]
+            },
+            {
+              "when": "1954",
+              "tag": "growth",
+              "text": "During the Mau Mau uprising, Operation Anvil sweeps Nairobi and detains about 16,500 people, mostly Kikuyu.",
+              "cite": [
+                "cap-ebsco-com-6eb955"
+              ]
+            },
+            {
+              "when": "1963",
+              "tag": "growth",
+              "text": "Kenya becomes independent; Nairobi is its capital. The colonial-era museum is renamed National Museums of Kenya.",
+              "cite": [
+                "cap-museums-or-ke-1f9dbd"
+              ]
+            },
+            {
+              "when": "1998",
+              "tag": "today",
+              "text": "The bombing of the US Embassy in Nairobi severely affects the economy.",
+              "cite": [
+                "cap-ebsco-com-8a2de3"
+              ]
+            },
+            {
+              "when": "2008",
+              "tag": "today",
+              "text": "The Nairobi National Museum reopens in June after modernization that began in 2005.",
+              "cite": [
+                "cap-museums-or-ke-8d77ec"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Nairobi in order.",
+          "items": [
+            {
+              "label": "British build a camp and supply depot for railway construction workers on the…",
+              "when": "1899",
+              "text": "British build a camp and supply depot for railway construction workers on the site of Nairobi.",
+              "cite": [
+                "cap-standardmedia-co-ke-86c1dc"
+              ]
+            },
+            {
+              "label": "The museum that is now the Nairobi National Museum is officially opened as…",
+              "when": "1930",
+              "text": "The museum that is now the Nairobi National Museum is officially opened as the Coryndon Museum (22 September).",
+              "cite": [
+                "cap-museums-or-ke-8d77ec"
+              ]
+            },
+            {
+              "label": "Kenya becomes independent; Nairobi is its capital. The colonial-era museum is…",
+              "when": "1963",
+              "text": "Kenya becomes independent; Nairobi is its capital. The colonial-era museum is renamed National Museums of Kenya.",
+              "cite": [
+                "cap-museums-or-ke-1f9dbd"
+              ]
+            },
+            {
+              "label": "The Nairobi National Museum reopens in June after modernization that began in…",
+              "when": "2008",
+              "text": "The Nairobi National Museum reopens in June after modernization that began in 2005.",
+              "cite": [
+                "cap-museums-or-ke-8d77ec"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Official KNBS page for 2019 census (only citypopulation.de naming KNBS)",
+    "Not found in a readable source: Nairobi National Park 1946 founding stated directly (KWS unreadable; The Star only gives 75th anniversary Dec 2021)",
+    "Not found in a readable source: Nairobi National Park area figure from a readable source",
+    "Not found in a readable source: Railway Museum: partial only (Business Daily: opened 1971; China Daily exhibits), not included as place",
+    "Not found in a readable source: Maasai Market: Capital FM 2008 (early 1970s concept, over 1,000 registered traders) and Cultural Survival 2004 read but not used (dated); no photo found",
+    "Not found in a readable source: Explicit 'Uganda Railway' + 1899 depot in one source; EBSCO lacks 1899, Standard lacks Uganda Railway",
+    "Not found in a readable source: Myth/misconception corrected by a source",
+    "Not found in a readable source: Nairobi became capital of Kenya at independence: Standard only, press",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Kenya has read this profile yet."
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "slug": "maputo-central-railway-station",
+  "status": "draft",
+  "type": "site",
+  "country": "MOZ",
+  "name": "Maputo Central Railway Station",
+  "region": "Maputo · Mozambique",
+  "subtitle": "A railway terminus in the city centre, built in the colonial period with a copper-clad dome.",
+  "facts": [
+    {
+      "label": "Construction and opening",
+      "value": "Construction ran 1908-1916; opened 1910.",
+      "cite": [
+        "cap-culturalheritageonline-com-1d10f5"
+      ]
+    },
+    {
+      "label": "Style",
+      "value": "Described as Beaux-Arts.",
+      "cite": [
+        "cap-culturalheritageonline-com-1d10f5"
+      ]
+    },
+    {
+      "label": "Eiffel attribution (conflict)",
+      "value": "EBSCO attributes the station to Eiffel and dates it to 1910, which conflicts with the architect names above. Treat the Eiffel link as disputed; do not state it as fact.",
+      "cite": [
+        "cap-ebsco-com-a5d31c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A railway terminus in the city centre, built in the colonial period with a copper-clad dome. Its design is credited to Alfredo Augusto Lisboa de Lima and Mario Veiga, with the dome by José Ferreira da Costa.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5",
+                "cap-ebsco-com-a5d31c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "maputo-central-railway-station",
+    "alt": "Photograph of Maputo Central Railway Station.",
+    "caption": "Maputo Central Railway Station.",
+    "credit": "Claus Wonnemann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Maputo_Railway_Station_and_Praca_dos_Trabalhadores.jpg"
+  }
+}

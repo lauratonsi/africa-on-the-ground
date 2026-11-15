@@ -1,0 +1,68 @@
+{
+  "slug": "jebel-kujur",
+  "status": "draft",
+  "type": "nature",
+  "country": "SSD",
+  "name": "Jebel Kujur",
+  "region": "Juba · South Sudan",
+  "subtitle": "Jebel Kujur is a hill and wooded grassland area immediately south-west of Juba, recognised as a Key Biodiversity Area.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "South-west of Juba",
+      "cite": [
+        "cap-keybiodiversityareas-org-16f16a"
+      ]
+    },
+    {
+      "label": "Vegetation",
+      "value": "Wooded grassland",
+      "cite": [
+        "cap-keybiodiversityareas-org-16f16a"
+      ]
+    },
+    {
+      "label": "Threats",
+      "value": "Severe",
+      "cite": [
+        "cap-keybiodiversityareas-org-16f16a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Jebel Kujur is a hill and wooded grassland area immediately south-west of Juba, recognised as a Key Biodiversity Area. It lies under severe pressure from the nearby town.",
+              "cite": [
+                "cap-keybiodiversityareas-org-16f16a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "jebel-kujur",
+    "alt": "Photograph of Jebel Kujur.",
+    "caption": "Jebel Kujur.",
+    "credit": "Mandenya Samuel Francis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/The_Aerial_view_of_Jebel_Kujur_Mountain_in_Juba_south_Sudan.jpg"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "somali-national-theatre",
+  "status": "draft",
+  "type": "culture",
+  "country": "SOM",
+  "name": "Somali National Theatre",
+  "region": "Mogadishu · Somalia",
+  "subtitle": "An open-air theatre described by press as Chinese-built.",
+  "facts": [
+    {
+      "label": "Builder",
+      "value": "Described as Chinese-built (opening year 1967 not confirmed in a read source)",
+      "cite": [
+        "cap-theworld-org-07c950"
+      ]
+    },
+    {
+      "label": "Closure",
+      "value": "Closed in early 1990s with civil war",
+      "cite": [
+        "cap-theworld-org-07c950"
+      ]
+    },
+    {
+      "label": "2012 concert",
+      "value": "First concert since closure, March 2012",
+      "cite": [
+        "cap-voanews-com-9cfcc2"
+      ]
+    },
+    {
+      "label": "2020 refurbishment",
+      "value": "Reopened June 2020, funded by businesses, chamber of commerce and civilian workers",
+      "cite": [
+        "cap-africanews-com-7d0080"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An open-air theatre described by press as Chinese-built. It closed in the early 1990s and has reopened for concerts since 2012.",
+              "cite": [
+                "cap-theworld-org-07c950",
+                "cap-voanews-com-9cfcc2",
+                "cap-africanews-com-7d0080"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

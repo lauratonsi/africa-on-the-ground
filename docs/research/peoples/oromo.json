@@ -1,0 +1,355 @@
+{
+  "name": "Oromo",
+  "slug": "oromo",
+  "countries": ["ETH", "KEN"],
+  "population": {
+    "value": 25560625,
+    "year": 2007,
+    "definition": "Self-identified ethnic group 'Oromo' in the 2007 Ethiopian census, as tabulated by an academic (Berhanu Abegaz, 2015) from CSA data. Caveats: his national total (74,385,784) differs from the CSA published total I could not open; the same note argues the census undercounted some groups; mother-tongue count in the same table is 25,123,300. The official CSA table itself was NOT readable, so treat this as an academic tabulation, not the CSA figure. For the share, Milkessa Midega (2015) gives Afaan Oromo as 33.8% of mother tongues in the 2007 census.",
+    "source": {
+      "title": "Three Million Amara are Missing: An Analysis based on the 1994 and the 2007 Ethiopian Population Censuses (Table 3)",
+      "publisher": "Research note, author's institution (College of William & Mary per author email domain); hosted on ethiopanorama.com",
+      "author": "Berhanu Abegaz",
+      "date": "March 2015",
+      "url": "https://ethiopanorama.com/wp-content/uploads/2015/03/census_analysis_amara-1.pdf",
+      "tier": "academic",
+      "quote": "Oromo 17,086,454 25,560,625 (self-identification, 1994 and 2007 columns)"
+    }
+  },
+  "facts": [
+    {
+      "claim": "In the 2007 census Afaan Oromo was the largest mother tongue in Ethiopia (33.8%), ahead of Amharic (29.3%); in 1994 Amharic had been largest.",
+      "source": {
+        "title": "Ethiopian Federalism: The Politics of Linguistic Pluralism and Language Policy Discourses",
+        "publisher": "Ethiopian Journal of Federal Studies, Vol 2 No 2 (Addis Ababa University)",
+        "author": "Milkessa Midega",
+        "date": "August 2015",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11265/8664/22176",
+        "tier": "academic",
+        "quote": "made Afaan Oromo the largest mother tongue in Ethiopia (33.8%) followed by Amharic (29.3%)"
+      }
+    },
+    {
+      "claim": "Afaan Oromo is written in the Latin alphabet, while Amharic and Tigrigna use Ge'ez script (regional states chose scripts freely).",
+      "source": {
+        "title": "Ethiopian Federalism: The Politics of Linguistic Pluralism and Language Policy Discourses",
+        "publisher": "Ethiopian Journal of Federal Studies, Vol 2 No 2",
+        "author": "Milkessa Midega",
+        "date": "August 2015",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11265/8664/22176",
+        "tier": "academic",
+        "quote": "for the languages such as Afaan Oromo, Somali, Sidama, Afar, Gamo, and many others, the Latin alphabet has been preferred."
+      }
+    },
+    {
+      "claim": "Four regional languages including Afaan Oromo were elevated to federal working-language status alongside Amharic (announced late February 2020).",
+      "source": {
+        "title": "One to five: Ethiopia gets four new federal working languages",
+        "publisher": "Africanews",
+        "author": "Abdur Rahman Alfa Shaban",
+        "date": "2020-03-04",
+        "url": "http://www.africanews.com/2020/03/04/one-to-five-ethiopia-gets-four-new-federal-working-languages/",
+        "tier": "press",
+        "quote": "elevated four regional languages to the status of working federal government languages"
+      }
+    },
+    {
+      "claim": "Before 2020 the federal working language was Amharic only; the 2015 article describes 'federal monolingualism' with regional language autonomy. Oromia's working language is Afan Oromo.",
+      "source": {
+        "title": "The Oromia State Constitution: Hiding Its Light under a Bushel?",
+        "publisher": "Ethiopian Journal of Federal Studies, Vol 3",
+        "author": "Getachew Disasa",
+        "date": "n.d. (read from PDF; volume 3, c. 2016-17; date not confirmed)",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11295/8688",
+        "tier": "academic",
+        "quote": "\"wetland\" in Afan Oromo, the state's working language."
+      }
+    },
+    {
+      "claim": "Oromia is the largest regional state in Ethiopia by population and territory; a 2017 estimate gave more than 40 million inhabitants, including non-Oromo residents (Amhara about 7.2%).",
+      "source": {
+        "title": "The Oromia State Constitution: Hiding Its Light under a Bushel?",
+        "publisher": "Ethiopian Journal of Federal Studies",
+        "author": "Getachew Disasa",
+        "date": "n.d.",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11295/8688",
+        "tier": "academic",
+        "quote": "Oromia National Regional State (ONRS) is the largest state in the Ethiopian federation in terms of population and territorial size."
+      }
+    },
+    {
+      "claim": "The Oromo are described as living in the highlands alongside Amhara and Tigray; the LoC study (1991 edition) gave them about 40 percent of the population (an older, higher estimate than the 2007 census).",
+      "source": {
+        "title": "Ethiopia - Other Movements and Fronts",
+        "publisher": "U.S. Library of Congress, Country Studies (hosted on countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown (1991 country study)",
+        "url": "http://countrystudies.us/ethiopia/128.htm",
+        "tier": "institutional",
+        "quote": "representing about 40 percent of the population."
+      }
+    },
+    {
+      "claim": "Gadaa is a generational class system typical of the Oromo in Ethiopia and Kenya, with promotions at fixed eight-year intervals (brief mention only).",
+      "source": {
+        "title": "Gadaa Across Domains, ch. 1: Gadaa as an Integrative Factor of Political Organisation",
+        "publisher": "Edizioni Ca' Foscari (open access; adapted from Bassi 1994)",
+        "author": "Marco Bassi",
+        "date": "book date not shown in text read (original paper 1994)",
+        "url": "https://edizionicafoscari.it/media/pdf/books/978-88-6969-885-9/978-88-6969-885-9-ch-02.pdf",
+        "tier": "academic",
+        "quote": "Gadaa is the generational class system typical of the Oromo people in Ethiopia and Kenya."
+      }
+    },
+    {
+      "claim": "Gadaa described as a system of generation classes succeeding each other every eight years (second source).",
+      "source": {
+        "title": "The Oromo Gadaa System and its Accountability Values",
+        "publisher": "Accountability Research Center, American University",
+        "author": "Gutu Olana Wayessa",
+        "date": "2021-08-11",
+        "url": "https://accountabilityresearch.org/the-oromo-gadaa-system-and-its-accountability-values/",
+        "tier": "academic",
+        "quote": "a system of generation classes that succeed each other every eight years"
+      }
+    },
+    {
+      "claim": "The name 'Galla' was the Amhara name for the Oromo in the LoC study's wording; an academic article (Kumsa 2019) discusses it in the context of dehumanising Abyssinian texts and quotes Bale resistance material objecting to 'filthy Galla'. No readable source states outright that 'many Oromo reject it' in neutral wording.",
+      "source": {
+        "title": "Ethiopia - Oromo Migrations and Their Impact",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "https://countrystudies.us/ethiopia/11.htm",
+        "tier": "institutional",
+        "quote": "movements of the Oromo (called Galla by the Amhara)"
+      }
+    }
+  ],
+  "status": [],
+  "timeline": [
+    {
+      "when": "Second half of the 16th century",
+      "claim": "Oromo groups moved in a series of large, uncoordinated movements across the Horn after about 1550, following the weakening of the highland state by the Muslim assault.",
+      "tag": "origins",
+      "source": {
+        "title": "Ethiopia - Oromo Migrations and Their Impact",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "https://countrystudies.us/ethiopia/11.htm",
+        "tier": "institutional",
+        "quote": "In a series of massive but uncoordinated movements during the second half of the sixteenth century"
+      }
+    },
+    {
+      "when": "1870s-1880s onward",
+      "claim": "Shewa under Menelik extended its rule over the Oromo to the south and west (LoC); a 2019 Ethiopian university paper describes this as conquest with European arms, attributing the colonial framing to its authors.",
+      "tag": "colonial",
+      "source": {
+        "title": "Ethiopia - From Tewodros II to Menelik II, 1855-89",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "http://countrystudies.us/ethiopia/14.htm",
+        "tier": "institutional",
+        "quote": "extended his rule over the Oromo to the south and west"
+      }
+    },
+    {
+      "when": "1870s-1913 (Sadan Sooddoo Oromo case)",
+      "claim": "A regional case study states the Shawan conquest of one Oromo group met stiff resistance although the group was defeated in the end.",
+      "tag": "colonial",
+      "source": {
+        "title": "The Shawan Conquest of Sadan Sooddoo Oromo and its Impact from 1870's-1913",
+        "publisher": "Journal of Indigenous Knowledge and Development Studies, Vol 1 Issue 2 (Bule Hora University)",
+        "author": "Surafel Adissu and Gemechu Kenea",
+        "date": "December 2019",
+        "url": "https://ejol.aau.edu.et/index.php/JIKDS/article/download/3767/7889",
+        "tier": "academic",
+        "quote": "Shawan conquest of the Sadan Sooddoo Oromo meets stiff resistance even though they were defeated at the end."
+      }
+    },
+    {
+      "when": "1973",
+      "claim": "The Oromo Liberation Front was formed in 1973 (per LoC), dedicated to the liberation of the Oromo nation from what it called Ethiopian colonialism.",
+      "tag": "colonial",
+      "source": {
+        "title": "Ethiopia - Other Movements and Fronts",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "http://countrystudies.us/ethiopia/128.htm",
+        "tier": "institutional",
+        "quote": "total liberation of the entire Oromo nation from Ethiopian colonialism"
+      }
+    },
+    {
+      "when": "12 September 1974",
+      "claim": "The Derg deposed Emperor Haile Selassie (1974 revolution).",
+      "tag": "today",
+      "source": {
+        "title": "Ethiopia - The Establishment of the Derg",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "http://countrystudies.us/ethiopia/28.htm",
+        "tier": "institutional",
+        "quote": "the Derg formally deposed Haile Selassie on September 12 and imprisoned him."
+      }
+    },
+    {
+      "when": "27-28 May 1991",
+      "claim": "EPRDF forces took Addis Ababa; the transitional government was constructed from early July 1991 (OLF took part in the London talks).",
+      "tag": "today",
+      "source": {
+        "title": "Ethiopia - The Demise of the Military Government",
+        "publisher": "U.S. Library of Congress, Country Studies (countrystudies.us)",
+        "author": "not listed",
+        "date": "not shown",
+        "url": "http://countrystudies.us/ethiopia/141.htm",
+        "tier": "institutional",
+        "quote": "On the night of May 27-28, EPRDF forces marched into Addis Ababa and assumed control of the city and national government."
+      }
+    },
+    {
+      "when": "1995",
+      "claim": "The 1995 FDRE Constitution established a federal system and recognised the right of nations to self-determination, including secession.",
+      "tag": "today",
+      "source": {
+        "title": "Nation-Building Predicament, Transition Fatigue, and Fear of State Collapse: An Emerging Phenomenon in Post-2015 Ethiopia",
+        "publisher": "Hungarian Journal of African Studies, Vol. 13 No. 5 (Publikon, Pecs)",
+        "author": "Meressa Tsehaye Gebrewahd",
+        "date": "Winter 2019",
+        "url": "https://journals.lib.pte.hu/index.php/afrikatanulmanyok/article/view/3915/3636",
+        "tier": "academic",
+        "quote": "The 1995 FDRE Constitution established a federal system and subsequently recognized the right of nations to self-determination including secession"
+      }
+    },
+    {
+      "when": "2 April 2018",
+      "claim": "Abiy Ahmed was sworn in as prime minister; Al Jazeera described him as the first prime minister from the Oromo ethnic group.",
+      "tag": "today",
+      "source": {
+        "title": "Ethiopia's new Prime Minister Abiy Ahmed names cabinet",
+        "publisher": "Al Jazeera (English)",
+        "author": "By News Agencies",
+        "date": "2018-04-19",
+        "url": "https://www.aljazeera.com/news/2018/04/ethiopia-prime-minister-abiy-ahmed-names-cabinet-180419093354713.html",
+        "tier": "press",
+        "quote": "Abiy Ahmed is the first prime minister from the Oromo ethnic group in the east African country's history."
+      }
+    },
+    {
+      "when": "Late February 2020",
+      "claim": "Afaan Oromo and three other regional languages became federal working languages alongside Amharic.",
+      "tag": "today",
+      "source": {
+        "title": "One to five: Ethiopia gets four new federal working languages",
+        "publisher": "Africanews",
+        "author": "Abdur Rahman Alfa Shaban",
+        "date": "2020-03-04",
+        "url": "http://www.africanews.com/2020/03/04/one-to-five-ethiopia-gets-four-new-federal-working-languages/",
+        "tier": "press",
+        "quote": "elevated four regional languages to the status of working federal government languages"
+      }
+    }
+  ],
+  "colonial": [
+    {
+      "claim": "Asafa Jalata's view (quoted by Meressa 2019, attributed not asserted): the Oromo were conquered by and absorbed into Ethiopia in the nineteenth century.",
+      "source": {
+        "title": "Nation-Building Predicament, Transition Fatigue, and Fear of State Collapse",
+        "publisher": "Hungarian Journal of African Studies, Vol. 13 No. 5",
+        "author": "Meressa Tsehaye Gebrewahd (quoting Asafa Jalata 2002)",
+        "date": "Winter 2019",
+        "url": "https://journals.lib.pte.hu/index.php/afrikatanulmanyok/article/view/3915/3636",
+        "tier": "academic",
+        "quote": "Conquered by and absorbed into Ethiopia in the nineteenth century, the Oromos were removed from the global community"
+      }
+    },
+    {
+      "claim": "Meressa 2019 notes the Oromo Liberation Front has struggled for independence since the early 1970s without achieving its stated objective (his wording; contested politics).",
+      "source": {
+        "title": "Nation-Building Predicament, Transition Fatigue, and Fear of State Collapse",
+        "publisher": "Hungarian Journal of African Studies, Vol. 13 No. 5",
+        "author": "Meressa Tsehaye Gebrewahd",
+        "date": "Winter 2019",
+        "url": "https://journals.lib.pte.hu/index.php/afrikatanulmanyok/article/view/3915/3636",
+        "tier": "academic",
+        "quote": "though they are not successful in achieving their stated objective till now"
+      }
+    },
+    {
+      "claim": "Identity and 1995 federalism: the Oromia regional constitution is described as an instrument of self-rule for the Oromo people (Disasa), and Meressa notes the 1995 constitution recognised nations' self-determination.",
+      "source": {
+        "title": "The Oromia State Constitution: Hiding Its Light under a Bushel?",
+        "publisher": "Ethiopian Journal of Federal Studies, Vol 3",
+        "author": "Getachew Disasa",
+        "date": "n.d.",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11295/8688",
+        "tier": "academic",
+        "quote": "an instrument of self-rule for the Oromo people"
+      }
+    },
+    {
+      "claim": "Critics of ethnic federalism (Midega's summary of one perspective): accuse the EPRDF of dividing the country along ethnic and linguistic lines and favour geographical federalism.",
+      "source": {
+        "title": "Ethiopian Federalism: The Politics of Linguistic Pluralism and Language Policy Discourses",
+        "publisher": "Ethiopian Journal of Federal Studies, Vol 2 No 2",
+        "author": "Milkessa Midega",
+        "date": "August 2015",
+        "url": "https://ejol.aau.edu.et/index.php/ejfs/article/download/11265/8664/22176",
+        "tier": "academic",
+        "quote": "They recommend geographical federalism rather than the current ethno-linguistic-based federalism"
+      }
+    }
+  ],
+  "myth": null,
+  "photos": [
+    {
+      "file": "File:A wonderful Landscape.jpg",
+      "licence": "CC BY-SA 4.0",
+      "author": "Teddy setegn",
+      "what": "Farmland landscape, Ejersa Were kebele, Debre Zeit (Bishoftu), East Shoa, categorised Oromia Region (Wiki Loves Africa 2016). Content not viewed; verify no people visible."
+    },
+    {
+      "file": "File:Bale mountains.jpg",
+      "licence": "CC BY-SA 2.0",
+      "author": "AGoetzke",
+      "what": "Bale Mountains landscape (surfaced by Commons search for Oromia). Not viewed; location/Oromia membership and absence of people to be verified."
+    },
+    {
+      "file": "File:Lake Hora, Debre Zeit.jpg",
+      "licence": "CC BY-SA 3.0",
+      "author": "mjr74",
+      "what": "Lake Hora, Bishoftu (Oromia). Not viewed; I did not read a source linking this lake to Irreecha, so do not caption it that way without a check."
+    }
+  ],
+  "unreadable": [
+    "https://minorityrights.org/communities/oromo/ - 403 Forbidden",
+    "https://www.statsethiopia.gov.et/... census PDF - host not resolved",
+    "https://core.ac.uk/download/234668675.pdf - 403",
+    "https://journals.ju.edu.et/index.php/gadaa/article/view/1172 (Qubee review, Gadaa Journal) - 403; ejhs.ju.edu.et - certificate error",
+    "https://open.africa/dataset/ethiopia-summary-and-statistical-report-of-the-2007-population-and-housing-census - 403",
+    "https://dataspace.princeton.edu/handle/88435/dsp019s161941x - 401",
+    "https://muse.jhu.edu/article/221420/pdf - verification challenge",
+    "https://scispace.com/pdf/summary-and-statistical-report-of-the-2007-population-and-1m94rs44fc.pdf - empty",
+    "World Bank microdata Oromiya/SNNP regional PDFs (catalog/2747/download/39225, 39226, 39232) - opened as text but ethnic/mother-tongue tables were not extractable",
+    "https://core-cms.cambridgecore.org/... (Ethnogenesis of the Oromo Nation) - host not resolved",
+    "https://assets.publishing.service.gov.uk/media/6981e0cae8900d4c455f3759/Ethiopia_Toponymic_Factfile.pdf - read as binary; only about Amharic romanization (not used)"
+  ],
+  "notNotFound": [
+    "Official CSA 2007 Oromo ethnic count/percentage (secondary figures 25,488,344 / ~34.5% seen only in search snippets, not in a readable page; not used)",
+    "Kenya: no readable KNBS table; 2019 census lists Borana, Orma, Gabra separately (no 'Oromo' line); only secondary snippets (Pulselive, StatsKenya) seen, not used",
+    "Qubee adopted 1991 - only seen in search snippets (Gadaa Journal review by Wondimu Tegegne, 2019); page unreadable. Midega only confirms Latin alphabet use",
+    "Gibe kingdoms (Jimma, Gomma, Guma, Gera, Limmu-Ennarya, early 19th c.) - no readable reputable source read; only Wikipedia-derived snippets and a Substack (not acceptable)",
+    "Menelik conquest dates beyond 1889 (1900/1908 borders) - not found on the LoC pages read",
+    "Source stating explicitly that 'Galla' is rejected by many Oromo in neutral terms - partial only (LoC 'called Galla by the Amhara'; Kumsa 2019 RUDN article on pejorative use, PDF at https://journals.rudn.ru/sociology/article/download/21684/17178, read locally, e.g. quoting 'calling us filthy Galla')",
+    "Meaning of the name 'Oromo' - no readable source",
+    "Source explicitly linking Oromo identity to the 1995 ethnic federalism beyond Disasa/Meressa statements above",
+    "Common misconception explicitly corrected by a source - none found (myth is null)",
+    "Irreecha site photo with confirmed licence and no crowds - Irreecha Festival.jpg (CC BY-SA 4.0, Mohammed Kassahun) exists but likely shows crowds; not recommended",
+    "2018 events: only the Abiy Ahmed appointment sourced; protests 2015-18 not sourced beyond Meressa passing mention"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "nairobi-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "KEN",
+  "name": "Nairobi National Park",
+  "region": "Nairobi · Kenya",
+  "subtitle": "A wildlife park just outside central Nairobi, managed within the city's edge.",
+  "facts": [
+    {
+      "label": "Setting",
+      "value": "Close to the city centre",
+      "cite": [
+        "cap-the-star-co-ke-880f43"
+      ]
+    },
+    {
+      "label": "Anniversary",
+      "value": "Marked its 75th anniversary in December 2021 (implies 1946 founding; the page does not state 1946 directly)",
+      "cite": [
+        "cap-the-star-co-ke-880f43"
+      ]
+    },
+    {
+      "label": "Wildlife",
+      "value": "Includes giraffes, leopards, cheetahs, hyenas",
+      "cite": [
+        "cap-the-star-co-ke-880f43"
+      ]
+    },
+    {
+      "label": "Wildlife (rhino)",
+      "value": "Hosts the endangered black rhino and over 400 bird species",
+      "cite": [
+        "cap-ke-chm-cbd-net-ca3c8b"
+      ]
+    },
+    {
+      "label": "Uniqueness",
+      "value": "Described as only game reserve within the limits of a major city",
+      "cite": [
+        "cap-ebsco-com-8a2de3"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A wildlife park just outside central Nairobi, managed within the city's edge. EBSCO calls it the only wild game reserve within the city limits of a major metropolitan city.",
+              "cite": [
+                "cap-the-star-co-ke-880f43",
+                "cap-ke-chm-cbd-net-ca3c8b",
+                "cap-ebsco-com-8a2de3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "nairobi-national-park",
+    "alt": "Photograph of Nairobi National Park.",
+    "caption": "Nairobi National Park.",
+    "credit": "The original uploader was Mkimemia at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/A_lone_giraffe_in_Nairobi_National_Park.jpg"
+  }
+}

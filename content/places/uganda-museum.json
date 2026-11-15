@@ -1,0 +1,76 @@
+{
+  "slug": "uganda-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "UGA",
+  "name": "Uganda Museum",
+  "region": "Kampala · Uganda",
+  "subtitle": "Uganda's museum, founded in 1908 with exhibits on culture, archaeology, history, science and natural history.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1908, first at Fort Lugard",
+      "cite": [
+        "cap-timeline-mak-ac-ug-4b35ad"
+      ]
+    },
+    {
+      "label": "Makerere",
+      "value": "Opened at Makerere by Governor Dundas, July 1942",
+      "cite": [
+        "cap-timeline-mak-ac-ug-4b35ad"
+      ]
+    },
+    {
+      "label": "Kitante",
+      "value": "Launched by Governor Cohen, 30 June 1954",
+      "cite": [
+        "cap-timeline-mak-ac-ug-4b35ad"
+      ]
+    },
+    {
+      "label": "Collections",
+      "value": "traditional culture, archaeology, history, science, natural history",
+      "cite": [
+        "cap-ebsco-com-16b2dd"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Uganda's museum, founded in 1908 with exhibits on culture, archaeology, history, science and natural history. It moved several times before reaching Kitante.",
+              "cite": [
+                "cap-timeline-mak-ac-ug-4b35ad",
+                "cap-ebsco-com-16b2dd"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "uganda-museum",
+    "alt": "Photograph of Uganda Museum.",
+    "caption": "Uganda Museum.",
+    "credit": "Danielzyt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Uganda_National_Museum_Front_view.jpg"
+  }
+}

@@ -6,7 +6,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { root } from "./lib.mjs";
 
-const UA = "AfricaOnTheGround/0.1 (educational research; ltonsi13@gmail.com)";
+const UA = "AfricaOnTheGround/0.1 (educational site; open data)";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const pick = JSON.parse(fs.readFileSync(path.join(root, "content", "data", "photo-picks.json"), "utf8"));
 const LICENSE_URL = { "CC BY-SA 4.0": "https://creativecommons.org/licenses/by-sa/4.0/", "Public domain": "https://creativecommons.org/publicdomain/mark/1.0/", "CC BY-SA 3.0": "https://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 3.0 igo": "https://creativecommons.org/licenses/by-sa/3.0/igo/", "CC BY-SA 2.0": "https://creativecommons.org/licenses/by-sa/2.0/", "CC BY 2.0": "https://creativecommons.org/licenses/by/2.0/", "CC BY 3.0": "https://creativecommons.org/licenses/by/3.0/", "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/", "CC0": "https://creativecommons.org/publicdomain/zero/1.0/" };

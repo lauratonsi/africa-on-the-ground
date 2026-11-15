@@ -1,0 +1,74 @@
+{
+  "city": "Freetown",
+  "country": "SLE",
+  "population": {
+    "value": 1055964,
+    "year": 2015,
+    "definition": "Population of the Western Area Urban district comprising the historic municipality of Freetown (covering 82.35 km² across Central, East, and West wards) enumerated in the December 2015 Population and Housing Census conducted by Statistics Sierra Leone (Stats SL), tabulated via CityPopulation. The 2021 mid-term census registered 609,174 inhabitants under heavily contested methodological circumstances noted by national statistical authorities and international development partners.",
+    "source": {
+      "title": "Sierra Leone: Administrative Division and Western Area Urban - Population Statistics (Census 2015)",
+      "publisher": "CityPopulation (credits Statistics Sierra Leone)",
+      "author": null,
+      "date": "2015-12-04",
+      "url": "https://www.citypopulation.de/en/sierraleone/admin/",
+      "tier": "institutional",
+      "quote": "2015-12-04 | Western Area Urban (Freetown): 1,055,964; 2021 Mid-term: 609,174"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Founded in March 1792 by Black Loyalists (Nova Scotian Settlers)—formerly enslaved Africans who gained freedom by fighting for Britain in the American War of Independence—Freetown was designed as a haven for liberated Africans.",
+      "source": {
+        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
+        "publisher": "Monuments and Relics Commission of Sierra Leone",
+        "author": null,
+        "date": null,
+        "url": "https://mrcsl.org/",
+        "tier": "institutional",
+        "quote": "Freetown founded in 1792 by Nova Scotian settlers beneath the historic Cotton Tree"
+      }
+    },
+    {
+      "claim": "The historic Cotton Tree (Ceiba pentandra), estimated at over 400 years old, served as the founding civic meeting place and spiritual symbol of national liberty until it was toppled by a severe rainstorm on 24 May 2023.",
+      "source": {
+        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
+        "publisher": "Monuments and Relics Commission of Sierra Leone",
+        "author": null,
+        "date": null,
+        "url": "https://mrcsl.org/",
+        "tier": "institutional",
+        "quote": "The Cotton Tree in central Freetown fell on 24 May 2023 after four centuries of symbolic life"
+      }
+    },
+    {
+      "claim": "Old Fourah Bay College, founded in 1827 by the Church Missionary Society and affiliated with Durham University in 1876, established Freetown as the premier educational center of modern West Africa ('Athens of West Africa').",
+      "source": {
+        "title": "National Heritage Monuments and Historic Landmarks of Freetown",
+        "publisher": "Monuments and Relics Commission of Sierra Leone",
+        "author": null,
+        "date": null,
+        "url": "https://mrcsl.org/",
+        "tier": "institutional",
+        "quote": "Fourah Bay College established in 1827 as the first western-style university in sub-Saharan Africa"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1792,
+      "event": "Arrival of 1,192 Black Loyalists from Halifax, Nova Scotia, who clear forest beneath the Cotton Tree and officially found Freetown."
+    },
+    {
+      "year": 1808,
+      "event": "Britain declares Freetown and the Sierra Leone peninsula a Crown Colony, establishing the Vice-Admiralty Court for the suppression of the transatlantic slave trade."
+    },
+    {
+      "year": 1827,
+      "event": "Foundation of Fourah Bay College at Mount Aureol and Cline Town, training generations of African educators, church leaders, and civil servants."
+    },
+    {
+      "year": 1961,
+      "event": "Sierra Leone achieves independence within the Commonwealth on 27 April 1961, with Freetown confirmed as the national capital under Prime Minister Sir Milton Margai."
+    }
+  ]
+}

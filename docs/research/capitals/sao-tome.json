@@ -1,0 +1,61 @@
+{
+  "city": "São Tomé",
+  "country": "STP",
+  "population": {
+    "value": 66888,
+    "year": 2012,
+    "definition": "Population of the City of São Tomé enumerated in the 2012 General Population and Housing Census (IV RGPH) conducted by the Instituto Nacional de Estatística (INE) of São Tomé and Príncipe, tabulated via CityPopulation. The surrounding Água Grande District recorded 69,772 residents in 2012 and accounts for over 38 percent of the national total in the 2024 census (approx. 80,700).",
+    "source": {
+      "title": "São Tomé and Príncipe: Districts & Major Cities (Census 2012)",
+      "publisher": "CityPopulation (credits INE STP)",
+      "author": null,
+      "date": "2012-05-13",
+      "url": "https://www.citypopulation.de/en/saotome/cities/",
+      "tier": "institutional",
+      "quote": "2012-05-13 | São Tomé: 66,888; Água Grande District: 69,772"
+    }
+  },
+  "facts": [
+    {
+      "claim": "São Tomé was founded in 1493 by Portuguese captain Álvaro Caminha along the sheltered Ana Chaves Bay, developing into an early Atlantic sugar-plantation hub powered by enslaved African labor.",
+      "source": {
+        "title": "Forte de São Sebastião e Museu Nacional de São Tomé",
+        "publisher": "Património de Influência Portuguesa (HPIP)",
+        "author": null,
+        "date": null,
+        "url": "https://hpip.org/pt/Heritage/Details/1271",
+        "tier": "academic",
+        "quote": "Fundação da cidade de São Tomé no final do século XV na baía de Ana Chaves"
+      }
+    },
+    {
+      "claim": "The Forte de São Sebastião, completed in 1575 on Ponta Sebastião, houses the Museu Nacional, chronicling colonial plantation regimes, African spiritual culture, and the celebrated 1595 slave revolt led by Rei Amador.",
+      "source": {
+        "title": "Forte de São Sebastião e Museu Nacional de São Tomé",
+        "publisher": "Património de Influência Portuguesa (HPIP)",
+        "author": null,
+        "date": null,
+        "url": "https://hpip.org/pt/Heritage/Details/1271",
+        "tier": "academic",
+        "quote": "Forte de 1575 transformado em museu nacional albergando a memória de Rei Amador e da escravatura"
+      }
+    },
+    {
+      "claim": "The Cathedral of Our Lady of Grace (Sé Catedral de Nossa Senhora da Graça) was established in the 16th century, representing one of the earliest Christian diocesan seats created in sub-Saharan Africa (elevated in 1534).",
+      "source": {
+        "title": "Forte de São Sebastião e Museu Nacional de São Tomé",
+        "publisher": "Património de Influência Portuguesa (HPIP)",
+        "author": null,
+        "date": null,
+        "url": "https://hpip.org/pt/Heritage/Details/1271",
+        "tier": "academic",
+        "quote": "Catedral quinhentista sede da diocese de São Tomé erigida em 1534"
+      }
+    }
+  ],
+  "gaps": [
+    "Final locality-level municipal data from the 2024 census remain in provisional release.",
+    "First-hand local voices from traditional herbalists and cocoa artisans are still missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

@@ -3,6 +3,14 @@
   "status": "published",
   "type": "culture",
   "country": "NAM",
+  "coords": {
+    "lat": -22.5647,
+    "lon": 17.0877,
+    "approx": true,
+    "cite": [
+      "cap-windhoekcc-org-na-144c2e"
+    ]
+  },
   "name": "National Art Gallery of Namibia",
   "region": "Windhoek · Namibia",
   "subtitle": "The national art gallery, with a permanent collection and changing exhibitions.",

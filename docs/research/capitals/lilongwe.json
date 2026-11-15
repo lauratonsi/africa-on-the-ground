@@ -1,0 +1,523 @@
+{
+ "city": "Lilongwe",
+ "country": "MWI",
+ "population": {
+  "value": 989318,
+  "year": 2018,
+  "definition": "Persons enumerated in Lilongwe City in the 2018 Population and Housing Census (conducted September 2018); area given as 403.3 km2 in the NSO density table; 17,563,749 enumerated nationally",
+  "source": {
+   "title": "Lilongwe City Report (2018 Population and Housing Census)",
+   "publisher": "National Statistical Office of Malawi",
+   "author": null,
+   "date": "February 2021",
+   "url": "https://cms.nsomalawi.mw/api/download/297/2018-Census-District-Report-Lilongwe-City.pdf",
+   "tier": "institutional",
+   "quote": "Lilongwe city contributed 5.6 percent of the population of Malawi (989,318 persons)."
+  }
+ },
+ "facts": [
+  {
+   "claim": "Lilongwe is named after the river that runs through the city and has been an administrative centre since 1904.",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "Lilongwe, named after the river that runs through the city"
+   }
+  },
+  {
+   "claim": "Its importance as an agricultural market centre grew in the 1920s, linked to a tobacco industry in its hinterland and its position at a road junction.",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "its importance as an agricultural market centre increased in the 1920s."
+   }
+  },
+  {
+   "claim": "Malawi became independent in 1964 with Hastings Banda as first prime minister.",
+   "source": {
+    "title": "Hastings Kamuzu Banda (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "David Barratt",
+    "date": "2024",
+    "url": "https://ebsco.com/research-starters/biography/hastings-kamuzu-banda",
+    "tier": "institutional",
+    "quote": "Self-government followed in 1962 and full independence in 1964."
+   }
+  },
+  {
+   "claim": "The government decided in 1965 to move the capital from Zomba to Lilongwe, one year after independence, but the move was not completed until 1975.",
+   "source": {
+    "title": "Lilongwe: City report (Working Paper 13)",
+    "publisher": "African Cities Research Consortium",
+    "author": "Donald Brown, Mtafu Manda, Tuntu Mwalyambwile",
+    "date": "May 2024",
+    "url": "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf",
+    "tier": "academic",
+    "quote": "While the decision to relocate the capital was made in 1965, it was not relocated until 1975."
+   }
+  },
+  {
+   "claim": "Construction of Capital Hill, the site of central government, began in 1969; the first master plan (1968) was prepared with South African planners and envisaged a garden city.",
+   "source": {
+    "title": "Lilongwe: City report (Working Paper 13)",
+    "publisher": "African Cities Research Consortium",
+    "author": "Donald Brown, Mtafu Manda, Tuntu Mwalyambwile",
+    "date": "May 2024",
+    "url": "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf",
+    "tier": "academic",
+    "quote": "beginning in 1969 with the construction of Capital Hill, the site of central government"
+   }
+  },
+  {
+   "claim": "The zoning scheme divides the city into four sectors: Old Town, Capital Hill, Kanengo and Lumbadzi.",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "four sectors: Old Town, Capital Hill, Kanengo, and Lumbadzi."
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1904",
+   "claim": "Lilongwe becomes an administrative centre under colonial rule.",
+   "tag": "origins",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "has been an administrative centre since 1904"
+   }
+  },
+  {
+   "when": "1920s",
+   "claim": "Lilongwe grows as an agricultural market centre as tobacco farming emerges around it.",
+   "tag": "origins",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "its importance as an agricultural market centre increased in the 1920s."
+   }
+  },
+  {
+   "when": "1964",
+   "claim": "Malawi becomes independent.",
+   "tag": "origins",
+   "source": {
+    "title": "Hastings Kamuzu Banda (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "David Barratt",
+    "date": "2024",
+    "url": "https://ebsco.com/research-starters/biography/hastings-kamuzu-banda",
+    "tier": "institutional",
+    "quote": "Self-government followed in 1962 and full independence in 1964."
+   }
+  },
+  {
+   "when": "1965",
+   "claim": "Government decides to relocate the capital from Zomba to Lilongwe.",
+   "tag": "growth",
+   "source": {
+    "title": "Lilongwe: City report (Working Paper 13)",
+    "publisher": "African Cities Research Consortium",
+    "author": "Donald Brown, Mtafu Manda, Tuntu Mwalyambwile",
+    "date": "May 2024",
+    "url": "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf",
+    "tier": "academic",
+    "quote": "relocate the capital city from Zomba to Lilongwe in 1965, one year after independence"
+   }
+  },
+  {
+   "when": "1969",
+   "claim": "Construction of Capital Hill begins, after the first master plan of 1968.",
+   "tag": "growth",
+   "source": {
+    "title": "Lilongwe: City report (Working Paper 13)",
+    "publisher": "African Cities Research Consortium",
+    "author": "Donald Brown, Mtafu Manda, Tuntu Mwalyambwile",
+    "date": "May 2024",
+    "url": "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf",
+    "tier": "academic",
+    "quote": "beginning in 1969 with the construction of Capital Hill, the site of central government"
+   }
+  },
+  {
+   "when": "1975",
+   "claim": "Lilongwe supersedes Zomba as capital, followed by high population growth in the 1970s and 1980s.",
+   "tag": "growth",
+   "source": {
+    "title": "Lilongwe: City Scoping Study",
+    "publisher": "African Cities Research Consortium (ICLEI Africa, ODI)",
+    "author": "Kate Strachan, Jessica Kavonic, Tim Kelsall, Tom Hart",
+    "date": "June 2021",
+    "url": "https://www.african-cities.org/wp-content/uploads/2021/12/ACRC_Lilongwe_City-Scoping-Study.pdf",
+    "tier": "academic",
+    "quote": "It superseded Zomba to become Malawi’s capital in 1975, leading to high rates of population growth"
+   }
+  },
+  {
+   "when": "2010",
+   "claim": "The Parliament Building on Capital Hill is opened, funded by a Chinese grant.",
+   "tag": "today",
+   "source": {
+    "title": "China rehabilitates Parliament Building",
+    "publisher": "African News Agency (Times Group Malawi)",
+    "author": "The Daily Times",
+    "date": "9 March 2023",
+    "url": "https://www.africannewsagency.com/times-group-malawi/china-rehabilitates-parliament-building-6cba110e-dee2-5047-aa3b-8e93572b8b22/",
+    "tier": "press",
+    "quote": "The Parliament Building was opened in 2010 using a grant from the People's Republic of China."
+   }
+  },
+  {
+   "when": "2018",
+   "claim": "Census enumerates 989,318 people in Lilongwe City.",
+   "tag": "today",
+   "source": {
+    "title": "Lilongwe City Report (2018 Population and Housing Census)",
+    "publisher": "National Statistical Office of Malawi",
+    "author": null,
+    "date": "February 2021",
+    "url": "https://cms.nsomalawi.mw/api/download/297/2018-Census-District-Report-Lilongwe-City.pdf",
+    "tier": "institutional",
+    "quote": "Lilongwe city contributed 5.6 percent of the population of Malawi (989,318 persons)."
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Lilongwe Wildlife Centre",
+   "type": "nature",
+   "what": "A wildlife rescue and rehabilitation sanctuary run by the Lilongwe Wildlife Trust inside a nature reserve in the middle of the capital. It cares for injured and orphaned animals.",
+   "facts": [
+    {
+     "label": "Location",
+     "value": "In the centre of the capital",
+     "source": {
+      "title": "Lilongwe Wildlife Centre recognised again with prestigious accreditation",
+      "publisher": "Lilongwe Wildlife Trust",
+      "author": null,
+      "date": "9 July 2019",
+      "url": "https://lilongwewildlife.org/news/lilongwe-wildlife-centre-recognised-again-with-prestigious-accreditation/",
+      "tier": "primary",
+      "quote": "Located in the centre of Malawi’s capital city."
+     }
+    },
+    {
+     "label": "Opened",
+     "value": "2007",
+     "source": {
+      "title": "Lilongwe Wildlife Centre recognised again with prestigious accreditation",
+      "publisher": "Lilongwe Wildlife Trust",
+      "author": null,
+      "date": "9 July 2019",
+      "url": "https://lilongwewildlife.org/news/lilongwe-wildlife-centre-recognised-again-with-prestigious-accreditation/",
+      "tier": "primary",
+      "quote": "which was set up in 2007."
+     }
+    },
+    {
+     "label": "Reserve size",
+     "value": "About 200 hectares",
+     "source": {
+      "title": "Protecting the wild heart of the city and beyond",
+      "publisher": "IUCN Urban Alliance (guest blog)",
+      "author": "Kate Moore, Lilongwe Wildlife Trust",
+      "date": "11 March 2019",
+      "url": "https://iucnurbanalliance.org/?p=970",
+      "tier": "primary",
+      "quote": "the 200-ha nature reserve right in the heart of the city remains intact."
+     }
+    },
+    {
+     "label": "Role",
+     "value": "Only wildlife rehabilitation sanctuary in Malawi and largest environmental education centre",
+     "source": {
+      "title": "Protecting the wild heart of the city and beyond",
+      "publisher": "IUCN Urban Alliance (guest blog)",
+      "author": "Kate Moore, Lilongwe Wildlife Trust",
+      "date": "11 March 2019",
+      "url": "https://iucnurbanalliance.org/?p=970",
+      "tier": "primary",
+      "quote": "Malawi’s only wildlife rehabilitation sanctuary and the country’s largest environmental education centre."
+     }
+    },
+    {
+     "label": "Habitat",
+     "value": "Last Acacia combretum forest example in the Central Region",
+     "source": {
+      "title": "Protecting the wild heart of the city and beyond",
+      "publisher": "IUCN Urban Alliance (guest blog)",
+      "author": "Kate Moore, Lilongwe Wildlife Trust",
+      "date": "11 March 2019",
+      "url": "https://iucnurbanalliance.org/?p=970",
+      "tier": "primary",
+      "quote": "the last example of Acacia combretum forest in the Central Region."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Lilongwe Wildlife Centre - entrance - Jan 2018.jpg",
+    "licence": "CC BY 3.0",
+    "author": "nesnad"
+   },
+   "readSources": [
+    "https://lilongwewildlife.org/news/lilongwe-wildlife-centre-recognised-again-with-prestigious-accreditation/",
+    "https://iucnurbanalliance.org/?p=970"
+   ]
+  },
+  {
+   "name": "Malawi Parliament Building (Capital Hill)",
+   "type": "site",
+   "what": "The seat of Malawi's National Assembly, on the government district planned from 1969. Its dome is the largest in Malawi.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "2010",
+     "source": {
+      "title": "New Parliament Building, Lilongwe",
+      "publisher": "African State Architecture (SOAS University of London)",
+      "author": null,
+      "date": "1 January 2019",
+      "url": "https://africanstatearchitecture.co.uk/post/new-parliament-building-lilongwe",
+      "tier": "academic",
+      "quote": "The building was opened in 2010 and serves as the physical symbol of Malawi's representative political institution."
+     }
+    },
+    {
+     "label": "Funding",
+     "value": "Chinese government grant",
+     "source": {
+      "title": "China rehabilitates Parliament Building",
+      "publisher": "African News Agency (Times Group Malawi)",
+      "author": "The Daily Times",
+      "date": "9 March 2023",
+      "url": "https://www.africannewsagency.com/times-group-malawi/china-rehabilitates-parliament-building-6cba110e-dee2-5047-aa3b-8e93572b8b22/",
+      "tier": "press",
+      "quote": "The Parliament Building was opened in 2010 using a grant from the People's Republic of China."
+     }
+    },
+    {
+     "label": "Dome",
+     "value": "Largest in Malawi",
+     "source": {
+      "title": "New Parliament Building, Lilongwe",
+      "publisher": "African State Architecture (SOAS University of London)",
+      "author": null,
+      "date": "1 January 2019",
+      "url": "https://africanstatearchitecture.co.uk/post/new-parliament-building-lilongwe",
+      "tier": "academic",
+      "quote": "The most significant feature of the main building is the dome, the biggest in Malawi."
+     }
+    },
+    {
+     "label": "Location",
+     "value": "Junction of Procession Drive and Presidential Way",
+     "source": {
+      "title": "New Parliament Building, Lilongwe",
+      "publisher": "African State Architecture (SOAS University of London)",
+      "author": null,
+      "date": "1 January 2019",
+      "url": "https://africanstatearchitecture.co.uk/post/new-parliament-building-lilongwe",
+      "tier": "academic",
+      "quote": "The new parliament building in Lilongwe lies at the intersection of Procession drive and Presidential way"
+     }
+    },
+    {
+     "label": "Capital Hill",
+     "value": "Site of central government, construction begun 1969",
+     "source": {
+      "title": "Lilongwe: City report (Working Paper 13)",
+      "publisher": "African Cities Research Consortium",
+      "author": "Donald Brown, Mtafu Manda, Tuntu Mwalyambwile",
+      "date": "May 2024",
+      "url": "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf",
+      "tier": "academic",
+      "quote": "beginning in 1969 with the construction of Capital Hill, the site of central government"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Malawi Parliament Building.jpg",
+    "licence": "CC BY-SA 3.0",
+    "author": "MsTingaK"
+   },
+   "readSources": [
+    "https://africanstatearchitecture.co.uk/post/new-parliament-building-lilongwe",
+    "https://www.africannewsagency.com/times-group-malawi/china-rehabilitates-parliament-building-6cba110e-dee2-5047-aa3b-8e93572b8b22/",
+    "https://www.african-cities.org/wp-content/uploads/2024/05/ACRC_Working-Paper-13_May-2024.pdf"
+   ]
+  },
+  {
+   "name": "Kamuzu Mausoleum",
+   "type": "culture",
+   "what": "The tomb of Malawi's first president, Hastings Kamuzu Banda, in Lilongwe. It was built in the 2000s as a two-storey marble-and-granite structure.",
+   "facts": [
+    {
+     "label": "Design",
+     "value": "Two-storey marble-and-granite structure",
+     "source": {
+      "title": "Mausoleum to Banda stirs mixed feelings",
+      "publisher": "Mail & Guardian",
+      "author": "Felix Mponda (Sapa-AFP)",
+      "date": "11 May 2006",
+      "url": "https://mg.co.za/article/2006-05-11-mausoleum-to-banda-stirs-mixed-feelings",
+      "tier": "press",
+      "quote": "President Bingu wa Mutharika will open the two-storey $600 000 marble-and-granite mausoleum"
+     }
+    },
+    {
+     "label": "Cost reported at inauguration",
+     "value": "US$600,000",
+     "source": {
+      "title": "Mausoleum to Banda stirs mixed feelings",
+      "publisher": "Mail & Guardian",
+      "author": "Felix Mponda (Sapa-AFP)",
+      "date": "11 May 2006",
+      "url": "https://mg.co.za/article/2006-05-11-mausoleum-to-banda-stirs-mixed-feelings",
+      "tier": "press",
+      "quote": "President Bingu wa Mutharika will open the two-storey $600 000 marble-and-granite mausoleum"
+     }
+    },
+    {
+     "label": "Planned features",
+     "value": "Lecture room and library of Banda's books (2001 plan)",
+     "source": {
+      "title": "Malawi to build high tech tomb for Banda",
+      "publisher": "Mail & Guardian",
+      "author": "Staff Reporter (AFP)",
+      "date": "18 June 2001",
+      "url": "https://mg.co.za/article/2001-06-18-malawi-to-build-high-tech-tomb-for-banda",
+      "tier": "press",
+      "quote": "include a lecture room and a library housing Banda's books and other memorabilia"
+     }
+    },
+    {
+     "label": "Inauguration",
+     "value": "Reported as planned for May 2006",
+     "source": {
+      "title": "Mausoleum to Banda stirs mixed feelings",
+      "publisher": "Mail & Guardian",
+      "author": "Felix Mponda (Sapa-AFP)",
+      "date": "11 May 2006",
+      "url": "https://mg.co.za/article/2006-05-11-mausoleum-to-banda-stirs-mixed-feelings",
+      "tier": "press",
+      "quote": "will be inaugurated on Sunday"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Kamuzu Mausoleum.JPG",
+    "licence": "Public domain",
+    "author": "Malawiana"
+   },
+   "readSources": [
+    "https://mg.co.za/article/2006-05-11-mausoleum-to-banda-stirs-mixed-feelings",
+    "https://mg.co.za/article/2001-06-18-malawi-to-build-high-tech-tomb-for-banda"
+   ]
+  },
+  {
+   "name": "Lilongwe open markets (the Lilongwe market)",
+   "type": "market",
+   "what": "Lilongwe's open markets are the main food source for most residents. The council reports 41 designated markets, the largest being 'the Lilongwe market'.",
+   "facts": [
+    {
+     "label": "Number",
+     "value": "41 open markets with 14,468 traders (2017)",
+     "source": {
+      "title": "Informal Economy Budget Analysis for Lilongwe City in Malawi (WIEGO Resource Document 13)",
+      "publisher": "WIEGO",
+      "author": "Sera Rose Gondwe, Debbie Budlender",
+      "date": "September 2019",
+      "url": "https://www.wiego.org/wp-content/uploads/2019/10/Gondwe-Budlender-WIEGO-Resource-Document-13-IEBA-Lilongwe-Malawi.pdf",
+      "tier": "academic",
+      "quote": "Lilongwe City Council reported a total of 41 open markets that accommodated 14,468 traders."
+     }
+    },
+    {
+     "label": "Reliance",
+     "value": "Over 80 percent of residents use open markets for food",
+     "source": {
+      "title": "Informal Economy Budget Analysis for Lilongwe City in Malawi (WIEGO Resource Document 13)",
+      "publisher": "WIEGO",
+      "author": "Sera Rose Gondwe, Debbie Budlender",
+      "date": "September 2019",
+      "url": "https://www.wiego.org/wp-content/uploads/2019/10/Gondwe-Budlender-WIEGO-Resource-Document-13-IEBA-Lilongwe-Malawi.pdf",
+      "tier": "academic",
+      "quote": "over 80 per cent of residents rely on open markets as a food source"
+     }
+    },
+    {
+     "label": "Largest",
+     "value": "The Lilongwe market is the largest in the city; traders work in day and evening shifts",
+     "source": {
+      "title": "Informal Economy Budget Analysis for Lilongwe City in Malawi (WIEGO Resource Document 13)",
+      "publisher": "WIEGO",
+      "author": "Sera Rose Gondwe, Debbie Budlender",
+      "date": "September 2019",
+      "url": "https://www.wiego.org/wp-content/uploads/2019/10/Gondwe-Budlender-WIEGO-Resource-Document-13-IEBA-Lilongwe-Malawi.pdf",
+      "tier": "academic",
+      "quote": "at the Lilongwe market (the largest in the city), traders work in shifts (day and evening)"
+     }
+    },
+    {
+     "label": "Newer markets",
+     "value": "Wakawaka and Tsoka grew up informally",
+     "source": {
+      "title": "Informal Economy Budget Analysis for Lilongwe City in Malawi (WIEGO Resource Document 13)",
+      "publisher": "WIEGO",
+      "author": "Sera Rose Gondwe, Debbie Budlender",
+      "date": "September 2019",
+      "url": "https://www.wiego.org/wp-content/uploads/2019/10/Gondwe-Budlender-WIEGO-Resource-Document-13-IEBA-Lilongwe-Malawi.pdf",
+      "tier": "academic",
+      "quote": "a flourishing market, popularly known as Wakawaka market, on private land along a busy road."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Lilongwe market.JPG",
+    "licence": "Public domain",
+    "author": "Brian Dell (Bdell555)"
+   },
+   "readSources": [
+    "https://www.wiego.org/wp-content/uploads/2019/10/Gondwe-Budlender-WIEGO-Resource-Document-13-IEBA-Lilongwe-Malawi.pdf"
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://www.heraldonline.co.zw/bandas-new-capital-still-only-bare-veld/ - 403",
+  "https://allafrica.com/stories/202305150464.html - 403",
+  "https://new.blackpast.org/gah/lilongwe-malawi-1975 - host not resolvable",
+  "https://journals.mak.ac.ug/mawazo/article/download/231/145/323 - 404"
+ ],
+ "notNotFound": [
+  "Small trading village on the Lilongwe river: not stated in a readable acceptable source (a 1902 Njewa trading post appeared only in non-acceptable sites)",
+  "Lilongwe Nature Sanctuary as separate place: sources treat the Wildlife Centre as the nature reserve",
+  "Old Town / Area 2 / Central Market named in a readable source: only 'the Lilongwe market' (WIEGO) found",
+  "Lilongwe Museum, Nkhoma Mission, Bunda College: not researched/no source",
+  "Lilongwe City Council and Department of Museums and Monuments pages: not found via search",
+  "Myth: none explicitly stated by a source",
+  "Mausoleum location conflict: M&G 2006 says 'Heroes Acre'; not otherwise confirmed; exact inauguration date only from Commons description (14 May 2006), not a cited source",
+  "Quotes marked from WebFetch summaries (not raw text) for MG, Nation, EBSCO, LWT, IUCN, African State Architecture, ANA: verify verbatim before publishing; NSO, ACRC and WIEGO quotes were checked against extracted PDF text"
+ ]
+}

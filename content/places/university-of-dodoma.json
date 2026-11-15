@@ -1,0 +1,68 @@
+{
+  "slug": "university-of-dodoma",
+  "status": "draft",
+  "type": "culture",
+  "country": "TZA",
+  "name": "University of Dodoma",
+  "region": "Dodoma · Tanzania",
+  "subtitle": "A public university on a large campus east of the city.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "2007",
+      "cite": [
+        "cap-portal-udom-ac-tz-1f7307"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "About 7 km east of the city",
+      "cite": [
+        "cap-portal-udom-ac-tz-1f7307"
+      ]
+    },
+    {
+      "label": "Campus size",
+      "value": "6,000 hectares",
+      "cite": [
+        "cap-portal-udom-ac-tz-1f7307"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A public university on a large campus east of the city. It was established in 2007.",
+              "cite": [
+                "cap-portal-udom-ac-tz-1f7307"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "university-of-dodoma",
+    "alt": "Photograph of University of Dodoma.",
+    "caption": "University of Dodoma.",
+    "credit": "Job de Graaf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/University_of_Dodoma.jpg"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "fortaleza-de-maputo",
+  "status": "draft",
+  "type": "site",
+  "country": "MOZ",
+  "name": "Fortaleza de Maputo (Maputo Fortress)",
+  "region": "Maputo · Mozambique",
+  "subtitle": "A Portuguese fortress from the 1780s that now houses the Museum of Military History.",
+  "facts": [
+    {
+      "label": "Origin",
+      "value": "Built by the Portuguese in the 1780s on earlier Dutch and Austrian fortifications.",
+      "cite": [
+        "cap-buala-org-81c34d"
+      ]
+    },
+    {
+      "label": "Attack and rebuilding",
+      "value": "Burned by French corsairs at the end of the 18th century and rebuilt by the Portuguese several times.",
+      "cite": [
+        "cap-buala-org-81c34d"
+      ]
+    },
+    {
+      "label": "Current use",
+      "value": "Museum of Military History.",
+      "cite": [
+        "cap-buala-org-81c34d"
+      ]
+    },
+    {
+      "label": "Heritage status",
+      "value": "Classified in 2002 as a Mozambican Cultural Heritage Monument; current building dates to the 1940s.",
+      "cite": [
+        "cap-buala-org-81c34d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A Portuguese fortress from the 1780s that now houses the Museum of Military History. The current building dates to the 1940s and the site was classified as a Mozambican Cultural Heritage Monument in 2002.",
+              "cite": [
+                "cap-buala-org-81c34d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "fortaleza-de-maputo",
+    "alt": "A gateway in the stone wall of the Maputo fortress, framing an equestrian statue.",
+    "caption": "A gateway in the fortress wall with a statue seen through it.",
+    "credit": "Maputo_Fortaleza.jpg: Bill Williams derivative work: JotaCartas (talk)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Maputo_Fortaleza-2.jpg"
+  }
+}

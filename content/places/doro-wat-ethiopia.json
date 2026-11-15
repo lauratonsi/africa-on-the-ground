@@ -1,14 +1,213 @@
 {
   "slug": "doro-wat-ethiopia",
-  "status": "draft",
+  "status": "published",
   "type": "dish",
   "country": "ETH",
   "name": "Doro wat",
   "region": "Ethiopia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "The ceremonial heart of Ethiopian cuisine: tender chicken pieces and hard-boiled eggs slow-braised for hours in caramelized red onions, spiced butter and berbere.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Slow-braised spicy chicken stew",
+      "cite": [
+        "marcus-samuelsson-doro-wat"
+      ]
+    },
+    {
+      "label": "Key spice",
+      "value": "Berbere (chilli, korarima Ethiopian cardamom, fenugreek, rue, garlic)",
+      "cite": [
+        "pankhurst-ethiopian-food"
+      ]
+    },
+    {
+      "label": "Signature cooking fat",
+      "value": "Niter kibbeh (clarified spiced butter infused with sacred herbs)",
+      "cite": [
+        "marcus-samuelsson-doro-wat"
+      ]
+    },
+    {
+      "label": "Served on",
+      "value": "Injera (fermented teff flatbread)",
+      "cite": [
+        "pankhurst-ethiopian-food"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Doro wat is the crown jewel of Ethiopian and Eritrean festive cuisine, reserved for major religious celebrations such as Fasika (Easter), Genna (Christmas), and wedding banquets.",
+              "cite": [
+                "pankhurst-ethiopian-food"
+              ]
+            },
+            {
+              "text": " The preparation begins by dry-sweating mounds of finely minced red onions in a heavy clay pot for hours without oil until they break down into a luscious, mahogany-colored paste; only then are generous scoops of niter kibbeh (clarified spiced butter) and deep red berbere spice blend stirred in.",
+              "cite": [
+                "marcus-samuelsson-doro-wat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tender pieces of chicken and whole hard-boiled eggs scored with a knife are slow-simmered in the velvety, deeply aromatic sauce until the spices infuse every bite.",
+              "cite": [
+                "marcus-samuelsson-doro-wat"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Doro wat is ladled directly into the center of a wide woven basket table (messob) lined with sheets of tangy, spongy injera bread.",
+              "cite": [
+                "pankhurst-ethiopian-food"
+              ]
+            },
+            {
+              "text": " Guests tear off pieces of injera with the right hand to pinch up the chicken and sauce. A traditional host demonstrates affection and honor through 'gursha': tearing off a choice morsel of meat wrapped in injera and placing it directly into the mouth of a beloved guest or family elder.",
+              "cite": [
+                "pankhurst-ethiopian-food"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "The rhythm of fast and feast",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In the Ethiopian Orthodox Tewahedo calendar, faithful Christians observe over 180 fasting days per year (such as the 55-day Great Lent), eating an exclusively vegan diet free from all meat, poultry, dairy, and eggs.",
+              "cite": [
+                "pankhurst-ethiopian-food"
+              ]
+            },
+            {
+              "text": " When the midnight Easter liturgy concludes, the fast is broken at dawn with Doro Wat: the chicken, traditionally carved into precisely twelve ritual pieces representing the twelve apostles, celebrates the return of richness and communal life.",
+              "cite": [
+                "pankhurst-ethiopian-food"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Authentic Ethiopian Doro Wat",
+          "servings": 6,
+          "sub": "Classic slow-caramelized method adapted from chef Marcus Samuelsson and Ethiopian culinary historians.",
+          "cite": [
+            "marcus-samuelsson-doro-wat",
+            "pankhurst-ethiopian-food"
+          ],
+          "note": "Patience is essential: red onions must be cooked slowly without burning to build natural sweetness; ghee infused with cardamom and fenugreek can substitute for niter kibbeh.",
+          "ingredients": [
+            {
+              "name": "red onions, pureed or minced extremely fine",
+              "amount": 1.2,
+              "unit": "kg"
+            },
+            {
+              "name": "chicken drumsticks and thighs, skinless and slashed with a knife",
+              "amount": 1,
+              "unit": "kg"
+            },
+            {
+              "name": "hard-boiled eggs, peeled and scored with shallow cuts",
+              "amount": 6,
+              "unit": ""
+            },
+            {
+              "name": "niter kibbeh (clarified spiced butter)",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "name": "authentic berbere spice blend",
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            {
+              "name": "garlic cloves, minced to a smooth paste with fresh ginger",
+              "amount": 6,
+              "unit": "cloves"
+            },
+            {
+              "name": "chicken broth or water",
+              "amount": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "fresh lemon juice for marinating the chicken",
+              "amount": 2,
+              "unit": "tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Toss chicken pieces in lemon juice and salt, setting aside for 20 minutes to tenderize.",
+              "minutes": 20
+            },
+            {
+              "text": "Place the pureed red onions into a dry, heavy Dutch oven over medium-low heat; cook for 35 minutes, stirring frequently until the moisture evaporates and the onions turn deep reddish-brown.",
+              "minutes": 35
+            },
+            {
+              "text": "Add the niter kibbeh, garlic-ginger paste, and berbere spice, sautéing over low heat for 10 minutes until an intoxicating, glossy aroma develops.",
+              "minutes": 10
+            },
+            {
+              "text": "Pour in warm chicken broth, add the marinated chicken pieces, cover, and simmer on gentle heat for 35 minutes until the chicken is tender to the bone.",
+              "minutes": 35
+            },
+            {
+              "text": "Add the hard-boiled eggs, spooning the thick sauce over them; simmer gently for 10 minutes so the eggs absorb the deep red hue and spices.",
+              "minutes": 10
+            },
+            {
+              "text": "Let rest for 15 minutes off heat so the butter rises to the surface, then serve in a platter atop fresh injera.",
+              "minutes": 15
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "Regional disputes between the hot, intensely spiced Addis Ababa court-style doro wat and milder northern versions in Gojjam and Gondar.",
+    "The traditional heirloom varieties of korarima (false cardamom) and kosseret herbs required for authentic niter kibbeh, which are difficult to source outside the Ethiopian highlands."
   ]
 }

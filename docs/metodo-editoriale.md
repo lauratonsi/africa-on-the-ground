@@ -1,6 +1,6 @@
 # Metodo editoriale
 
-Regole del progetto. La versione pubblica, in inglese, è `content/pages/method.html`: le due devono dire le stesse cose.
+Regole del progetto. La versione pubblica, in inglese, è `content/pages/method.json` (pagina costruita con gli stessi blocchi interattivi delle storie): le due devono dire le stesse cose.
 
 ## Chi lo cura
 

@@ -1,0 +1,45 @@
+{
+  "slug": "marche-central",
+  "status": "draft",
+  "type": "market",
+  "country": "DJI",
+  "name": "Marché Central (Central Market)",
+  "region": "Djibouti · Djibouti",
+  "subtitle": "Djibouti City's central market, listed with the Hamoudi Mosque and the seaport as the city's main features.",
+  "facts": [
+    {
+      "label": "Listed feature of the city",
+      "value": "The city has a central market, called marché central.",
+      "cite": [
+        "cap-ebsco-com-b330b6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Djibouti City's central market, listed with the Hamoudi Mosque and the seaport as the city's main features. EBSCO notes that most visitors to Djibouti see the central market and Hamoudi Mosque.",
+              "cite": [
+                "cap-ebsco-com-b330b6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "tsimbazaza-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "MDG",
+  "name": "Tsimbazaza Botanical and Zoological Park",
+  "region": "Antananarivo · Madagascar",
+  "subtitle": "A park in the city that began as a botanical garden and also keeps animals, notably ring-tailed lemurs.",
+  "facts": [
+    {
+      "label": "Creation",
+      "value": "Created 29 August 1925 by Governor General Marcel Olivier; 12 hectares at first.",
+      "cite": [
+        "cap-lexpress-mg-ae0354"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "16 hectares in 1932; 27 hectares after a 1934 annexation.",
+      "cite": [
+        "cap-lexpress-mg-ae0354"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "It started as a botanical garden.",
+      "cite": [
+        "cap-lexpress-mg-ae0354"
+      ]
+    },
+    {
+      "label": "Lemurs",
+      "value": "The ring-tailed lemur is described as emblematic.",
+      "cite": [
+        "cap-lexpress-mg-ae0354"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A park in the city that began as a botanical garden and also keeps animals, notably ring-tailed lemurs. It holds a herbarium and a library bequeathed by the Grandidiers.",
+              "cite": [
+                "cap-lexpress-mg-ae0354"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "tsimbazaza-park",
+    "alt": "Trees and a path in Tsimbazaza Park, Antananarivo.",
+    "caption": "Trees in Tsimbazaza Park.",
+    "credit": "Mammysou17",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Vegetation_landscape_in_Tsimbazaza_Park_Antananarivo.jpg"
+  }
+}

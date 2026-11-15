@@ -1,0 +1,378 @@
+{
+ "name": "Amazigh (Berber) peoples",
+ "slug": "amazigh",
+ "countries": [
+  "MAR",
+  "DZA",
+  "TUN",
+  "LBY",
+  "EGY",
+  "MLI",
+  "NER"
+ ],
+ "population": {
+  "value": 36000000,
+  "year": 2022,
+  "definition": "Global Berber/Amazigh population as estimated in a general reference entry; the same entry gives a 30 to 40 million range and 14 to 18 million for Morocco. Estimates differ widely and are not census counts; Equal Times (2020) notes official statistics are contested.",
+  "source": {
+   "title": "Berbers (Research Starter)",
+   "publisher": "EBSCO Research Starters",
+   "author": "Michael Ruth",
+   "date": "2022",
+   "url": "https://ebsco.com/research-starters/social-sciences-and-humanities/berbers",
+   "tier": "academic",
+   "quote": "the Berber population is estimated at 30 to 40 million."
+  }
+ },
+ "facts": [
+  {
+   "claim": "Amazigh (plural Imazighen) is the self-name, glossed as 'free people'.",
+   "source": {
+    "title": "Berbers (Research Starter)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Michael Ruth",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/social-sciences-and-humanities/berbers",
+    "tier": "academic",
+    "quote": "have referred to themselves as Imazighen, or \"free people,\" since ancient times."
+   }
+  },
+  {
+   "claim": "The word 'Berber' has a Greek root (barbaros) adopted by Arab conquerors; the modern identity movement regards it as offensive and 'Amazigh' is gradually replacing it. (EBSCO gives a different gloss: al-barbar simply meant foreign-language speakers.)",
+   "source": {
+    "title": "Berbers (Amazigh), in The Wiley Blackwell Encyclopedia of Race, Ethnicity, and Nationalism",
+    "publisher": "Wiley Blackwell (hosted by Moshe Dayan Center, Tel Aviv University)",
+    "author": "Bruce Maddy-Weitzman",
+    "date": "2016-02-14",
+    "url": "https://dayan.org/content/berbers-amazigh-wiley-blackwell-encyclopedia-race-ethnicity-and-nationalism",
+    "tier": "academic",
+    "quote": "generally accepted term for the Maghrib's indigenous peoples"
+   }
+  },
+  {
+   "claim": "Berber speakers use many dialects of a shared language, Tamazight, of the Afro-Asiatic family; until recent decades it was almost entirely oral, and standardisation as a written language is under way.",
+   "source": {
+    "title": "Berbers (Amazigh), in The Wiley Blackwell Encyclopedia of Race, Ethnicity, and Nationalism",
+    "publisher": "Wiley Blackwell (hosted by Moshe Dayan Center, Tel Aviv University)",
+    "author": "Bruce Maddy-Weitzman",
+    "date": "2016-02-14",
+    "url": "https://dayan.org/content/berbers-amazigh-wiley-blackwell-encyclopedia-race-ethnicity-and-nationalism",
+    "tier": "academic",
+    "quote": "many dialects of a shared language, Tamazight"
+   }
+  },
+  {
+   "claim": "The Tifinagh alphabet, known as Libyco-Berber, has been used for over 2,500 years; Tamazight languages are described as developing from the Numidian language.",
+   "source": {
+    "title": "Berbers (Research Starter)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Michael Ruth",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/social-sciences-and-humanities/berbers",
+    "tier": "academic",
+    "quote": "the Tifinagh alphabet, known as Libyco-Berber, for more than 2,500 years."
+   }
+  },
+  {
+   "claim": "Libyco-Berber (Libyc) inscriptions are found from the Canary Islands to Libya and from the Mediterranean to Niger; over 1,300 are known, mostly funerary; the Tuareg still use a form of the script. Source is a lower-tier journal (WASET).",
+   "source": {
+    "title": "The Libyc Writing",
+    "publisher": "International Journal of Humanities and Social Sciences (WASET)",
+    "author": "S. Ait Ali Yahia",
+    "date": "2014",
+    "url": "https://zenodo.org/records/1337261/files/9998576.pdf",
+    "tier": "academic",
+    "quote": "Those which are currently known exceed the number of 1300 inscriptions, whose majority is funeral."
+   }
+  },
+  {
+   "claim": "Speaker numbers by country vary and are contested: estimates of Libya about 600,000 speakers; Tunisia 200,000 to close to 500,000; Morocco as many as half of 35 million 'speak or understand'; Algeria almost a third of 42 million (journalist's figures, 2020).",
+   "source": {
+    "title": "Across the Maghreb, the Imazighen are pressing for rights and cultural recognition",
+    "publisher": "Equal Times",
+    "author": "Ricard Gonzalez",
+    "date": "2020-02-05",
+    "url": "https://www.equaltimes.org/across-the-maghreb-the-imazighen",
+    "tier": "press",
+    "quote": "some estimates put the Imazighen at around 30 million"
+   }
+  }
+ ],
+ "status": [
+  {
+   "claim": "Morocco's 2011 constitution recognises Amazigh as an official language; commentary at the time said the status would be implemented slowly. Referendum scheduled 1 July 2011.",
+   "when": "2011-06/07",
+   "source": {
+    "title": "The New Moroccan Constitution: Real Change or More of the Same?",
+    "publisher": "Carnegie Endowment for International Peace",
+    "author": "Marina Ottaway",
+    "date": "2011-06-20",
+    "url": "https://carnegieendowment.org/research/2011/06/the-new-moroccan-constitution-real-change-or-more-of-the-same",
+    "tier": "institutional",
+    "quote": "recognizes Amazigh as an official language"
+   }
+  },
+  {
+   "claim": "Algeria granted Tamazight 'national' language status in 2002, following large-scale rioting in Kabylia. (A 2017 Washington Institute article instead dates the decree to March 2003; sources differ.)",
+   "when": "2002",
+   "source": {
+    "title": "Algeria's Berbers cautiously optimistic about reforms",
+    "publisher": "Al Jazeera",
+    "author": "Hisham Aidi",
+    "date": "2016-02-16",
+    "url": "https://www.aljazeera.com/opinions/2016/2/16/algerias-berbers-cautiously-optimistic-about-reforms",
+    "tier": "press",
+    "quote": "In 2002, the government granted Tamazight status as a \"national\" language."
+   }
+  },
+  {
+   "claim": "Algerian parliament passed a constitutional amendment on 7 February 2016 recognising Berber as an official language; Article 4 says Tamazight is national and official, Arabic remaining the official language of the State (Art. 3), with an academy and an organic law to set implementation.",
+   "when": "2016-02-07",
+   "source": {
+    "title": "What Have the Amazigh Achieved in Algeria?",
+    "publisher": "The Washington Institute (Fikra Forum)",
+    "author": "Yacine Boudhane",
+    "date": "2017-10-27",
+    "url": "https://www.washingtoninstitute.org/policy-analysis/what-have-amazigh-achieved-algeria",
+    "tier": "institutional",
+    "quote": "a constitutional amendment recognizing the Berber language as an official language"
+   }
+  },
+  {
+   "claim": "Constitutional text of Algeria's 2016 revision, Article 4.",
+   "when": "2016",
+   "source": {
+    "title": "Algeria 1989 (reinst. 1996, rev. 2016) Constitution",
+    "publisher": "Constitute Project (translation of constitutional text)",
+    "author": "",
+    "date": "2016 revision",
+    "url": "https://constituteproject.org/constitution/Algeria_2016",
+    "tier": "primary",
+    "quote": "Tamazight shall also be a national and an official language."
+   }
+  },
+  {
+   "claim": "Equal Times (2020): in Algeria official status is 'only guaranteed in Kabylie' per one account; Libya's Amazigh cities have de facto autonomy without constitutional recognition; Tunisia has seen 'fewer changes'.",
+   "when": "2020",
+   "source": {
+    "title": "Across the Maghreb, the Imazighen are pressing for rights and cultural recognition",
+    "publisher": "Equal Times",
+    "author": "Ricard Gonzalez",
+    "date": "2020-02-05",
+    "url": "https://www.equaltimes.org/across-the-maghreb-the-imazighen",
+    "tier": "press",
+    "quote": "fewer changes"
+   }
+  },
+  {
+   "claim": "The Berber Spring began on 10 March 1980 with clashes between Algerian security forces and Berber students and activists (known in Tamazight as Tafsut Imaziyen/Imazighen).",
+   "when": "1980-03-10",
+   "source": {
+    "title": "What Have the Amazigh Achieved in Algeria?",
+    "publisher": "The Washington Institute (Fikra Forum)",
+    "author": "Yacine Boudhane",
+    "date": "2017-10-27",
+    "url": "https://www.washingtoninstitute.org/policy-analysis/what-have-amazigh-achieved-algeria",
+    "tier": "institutional",
+    "quote": "a period of clashes that erupted between Algerian security forces and Berber students and activists on March 10, 1980."
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "c. 3rd century BC to 3rd century AD (antiquity)",
+   "claim": "Libyc/Numidian inscriptions: the Libyco-Berber script, ancestor of Tifinagh, appears across the Maghreb, most from the Numidian kingdom. Exact dating of script origin is still unsettled per the author. Only the 1,300 count and Numidian origin of most are sourced from a readable page; the 3rd-century-BC start date came from a search summary of a Wikipedia mirror, not cited.",
+   "tag": "origins",
+   "source": {
+    "title": "The Libyc Writing",
+    "publisher": "International Journal of Humanities and Social Sciences (WASET)",
+    "author": "S. Ait Ali Yahia",
+    "date": "2014",
+    "url": "https://zenodo.org/records/1337261/files/9998576.pdf",
+    "tier": "academic",
+    "quote": "The majority comes from the numidic kingdom"
+   }
+  },
+  {
+   "when": "600s CE",
+   "claim": "Arab Muslims invaded North Africa.",
+   "tag": "origins",
+   "source": {
+    "title": "Berbers (Research Starter)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Michael Ruth",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/social-sciences-and-humanities/berbers",
+    "tier": "academic",
+    "quote": "invaded and overtook North Africa in the 600s CE."
+   }
+  },
+  {
+   "when": "c. 647 to mid-8th century",
+   "claim": "The conquest lasted about a century and a half; by the 740s Berber opposition stretched 'from Tripolitania to Tangier'.",
+   "tag": "origins",
+   "source": {
+    "title": "A Gateway to Hell, A Gateway to Paradise: Introduction",
+    "publisher": "Gerlach Press (Cambridge Core)",
+    "author": "Elizabeth Savage",
+    "date": "2021 (online 2025)",
+    "url": "https://www.cambridge.org/core/books/gateway-to-hell-a-gateway-to-paradise/introduction/C413C8316F134C0AE3677BDAEE5EC152",
+    "tier": "academic",
+    "quote": "from Tripolitania to Tangier"
+   }
+  },
+  {
+   "when": "1930-05-16",
+   "claim": "The 'Berber Dahir' was issued by the Moroccan sultan, designed by Protectorate officials.",
+   "tag": "colonial",
+   "source": {
+    "title": "Berber Law by French Means: Customary Courts in the Moroccan Hinterlands, 1930-1956",
+    "publisher": "Comparative Studies in Society and History (Cambridge University Press)",
+    "author": "Katherine E. Hoffman",
+    "date": "2010-10",
+    "url": "https://www.cambridge.org/core/product/B10C1347D17D997E74AB657853E0E39C/core-reader",
+    "tier": "academic",
+    "quote": "On 16 May 1930, a dahir (decree) designed by Protectorate officials was issued by the Moroccan sultan."
+   }
+  },
+  {
+   "when": "1980",
+   "claim": "Berber Spring in Kabylie, Algeria.",
+   "tag": "today",
+   "source": {
+    "title": "What Have the Amazigh Achieved in Algeria?",
+    "publisher": "The Washington Institute (Fikra Forum)",
+    "author": "Yacine Boudhane",
+    "date": "2017-10-27",
+    "url": "https://www.washingtoninstitute.org/policy-analysis/what-have-amazigh-achieved-algeria",
+    "tier": "institutional",
+    "quote": "a period of clashes that erupted between Algerian security forces and Berber students and activists on March 10, 1980."
+   }
+  },
+  {
+   "when": "2011",
+   "claim": "Morocco recognises Tamazight as official; Algeria follows in 2016.",
+   "tag": "today",
+   "source": {
+    "title": "Berbers (Research Starter)",
+    "publisher": "EBSCO Research Starters",
+    "author": "Michael Ruth",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/social-sciences-and-humanities/berbers",
+    "tier": "academic",
+    "quote": "Tamazight became an official language in Morocco in 2011 and in Algeria in 2016."
+   }
+  },
+  {
+   "when": "2016-02",
+   "claim": "Algeria's constitution revised: Tamazight official.",
+   "tag": "today",
+   "source": {
+    "title": "Algeria's Berbers cautiously optimistic about reforms",
+    "publisher": "Al Jazeera",
+    "author": "Hisham Aidi",
+    "date": "2016-02-16",
+    "url": "https://www.aljazeera.com/opinions/2016/2/16/algerias-berbers-cautiously-optimistic-about-reforms",
+    "tier": "press",
+    "quote": "Tamazight is also a national and official language."
+   }
+  }
+ ],
+ "colonial": [
+  {
+   "claim": "Article 6 of the 1930 dahir sent criminal cases in Berber lands to French law; it was rescinded in 1934. Urban outcry did not lead to repeal of the courts.",
+   "source": {
+    "title": "Berber Law by French Means: Customary Courts in the Moroccan Hinterlands, 1930-1956",
+    "publisher": "Comparative Studies in Society and History (Cambridge University Press)",
+    "author": "Katherine E. Hoffman",
+    "date": "2010-10",
+    "url": "https://www.cambridge.org/core/product/B10C1347D17D997E74AB657853E0E39C/core-reader",
+    "tier": "academic",
+    "quote": "stipulated that criminal cases in Berber lands be tried under French law."
+   }
+  },
+  {
+   "claim": "French officials and scholars treated law as a window into 'Berber psychology' and assumed Berber customary law was distinct from, even hostile to, Islamic law; Hoffman questions the 'divide and rule' account.",
+   "source": {
+    "title": "Berber Law by French Means: Customary Courts in the Moroccan Hinterlands, 1930-1956",
+    "publisher": "Comparative Studies in Society and History (Cambridge University Press)",
+    "author": "Katherine E. Hoffman",
+    "date": "2010-10",
+    "url": "https://www.cambridge.org/core/product/B10C1347D17D997E74AB657853E0E39C/core-reader",
+    "tier": "academic",
+    "quote": "were attentive to law as a window into 'Berber psychology.'"
+   }
+  },
+  {
+   "claim": "The Arab/Berber divide is analysed as tied to the transformation of the Imazighen into a cultural minority by the nation-state and to French colonial constructs such as the Kabyle Myth (abstract only).",
+   "source": {
+    "title": "Reflections on Race and Ethnicity in North Africa: Towards a Conceptual Critique of the Arab-Berber Divide",
+    "publisher": "Review of Middle East Studies (Cambridge University Press)",
+    "author": "Mohamad Amer Meziane",
+    "date": "2020-12 (online 2021-07-07)",
+    "url": "https://www.cambridge.org/core/journals/review-of-middle-east-studies/article/reflections-on-race-and-ethnicity-in-north-africa-towards-a-conceptual-critique-of-the-arabberber-divide/50669B731589399D4D1B5E552CC28681",
+    "tier": "academic",
+    "quote": "French colonial representations of race such as the Kabyle Myth"
+   }
+  },
+  {
+   "claim": "The term 'Berber' was revived by French colonialism in the nineteenth century; postcolonial states often treated Berber identity as folklore.",
+   "source": {
+    "title": "Berbers (Amazigh), in The Wiley Blackwell Encyclopedia of Race, Ethnicity, and Nationalism",
+    "publisher": "Wiley Blackwell (hosted by Moshe Dayan Center, Tel Aviv University)",
+    "author": "Bruce Maddy-Weitzman",
+    "date": "2016-02-14",
+    "url": "https://dayan.org/content/berbers-amazigh-wiley-blackwell-encyclopedia-race-ethnicity-and-nationalism",
+    "tier": "academic",
+    "quote": "revived by French colonialism"
+   }
+  }
+ ],
+ "myth": {
+  "claim": "Common claim: French Berber policy was simply 'divide and rule' that removed Berber areas from Islamic law.",
+  "truth": "A peer-reviewed study calls the removal-from-Islamic-law claim 'empirically untenable in several respects' and notes missionaries did little work there.",
+  "source": {
+   "title": "Berber Law by French Means: Customary Courts in the Moroccan Hinterlands, 1930-1956",
+   "publisher": "Comparative Studies in Society and History (Cambridge University Press)",
+   "author": "Katherine E. Hoffman",
+   "date": "2010-10",
+   "url": "https://www.cambridge.org/core/product/B10C1347D17D997E74AB657853E0E39C/core-reader",
+   "tier": "academic",
+   "quote": "It is often written that French Berber policy was grounded in the concept of 'divide and rule.'"
+  }
+ },
+ "photos": [
+  {
+   "file": "File:Tifinagh Algeria.jpg",
+   "licence": "CC BY-SA 2.0",
+   "author": "Gruban / Patrick Gruban",
+   "what": "Rock art with Tifinagh writing, Tamanghasset Province, Algeria"
+  },
+  {
+   "file": "File:Tifinagh Inscription on Stone — Bardo National Museum, Algiers.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Rachid Hamatou",
+   "what": "Tifinagh inscription on stone, Bardo Museum, Algiers"
+  }
+ ],
+ "unreadable": [
+  "https://minorityrights.org/communities/amazigh/ - 403",
+  "https://minorityrights.org/minorities/berbers/ - 403",
+  "https://www.ethnologue.com/language/tzm/ - 403",
+  "https://www.worldhistory.org/article/252/... - 403 (and WHE may not stand alone anyway)",
+  "https://www.tandfonline.com/eprint/gXPJ3pYz7E2g4BdcH8MB/full - 403",
+  "https://africarxiv.ubuntunet.net/handle/1/8607 - DNS failure",
+  "https://static1.squarespace.com/...011-ElYounssiA-Fall2023.pdf - raw compressed PDF, not extractable via fetch",
+  "https://glottolog.org/resource/languoid/id/berb1259 - wrong languoid (Berbice Creole), not Berber; Glottolog Berber not read",
+  "https://www.cambridge.org/core/product/B10C1347D17D997E74AB657853E0E39C/core-reader - only first 100,000 of 188,350 characters read"
+ ],
+ "notNotFound": [
+  "Morocco HCP census (2014: about 27% reported speaking Amazigh) - only seen in search summaries (Morocco World News), HCP page not read; no sourced census figure used",
+  "Ethnologue/Glottolog speaker counts and family classification",
+  "Minority Rights Group page (blocked)",
+  "Egypt (Siwa), Mali, Niger and Tuareg: no readable source tying Tuareg to Amazigh peoples other than the WASET article saying Tifinagh is still used by the Tuareg; EGY/MLI/NER country codes unsourced",
+  "Numidia/Mauretania kingdoms and Massinissa as dated events: no readable independent source (EBSCO lacks them); World History Encyclopedia blocked and could not stand alone",
+  "Direct 'Kabyle myth' explanation beyond Meziane abstract; Berber Spring beyond one-line description; Morocco 2011 referendum result; Tunisia legal status; Morocco 2003 IRCAM/Tifinagh adoption (Chtatou 2019 mentions IRCAM 2001 and Tifinagh but not read in detail for quotes)",
+  "Hoffman article last 88,350 characters unread"
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "seychelles-botanical-gardens",
+  "status": "draft",
+  "type": "nature",
+  "country": "SYC",
+  "name": "Seychelles National Botanical Gardens",
+  "region": "Victoria · Seychelles",
+  "subtitle": "A botanical garden in Victoria that began as a plant-testing 'station' in 1901.",
+  "facts": [
+    {
+      "label": "Origin",
+      "value": "Began in 1901 as a botanic station under Paul Evenor Rivaltz Dupont",
+      "cite": [
+        "cap-nation-sc-b1c31f"
+      ]
+    },
+    {
+      "label": "Transformation",
+      "value": "Became the Botanical Garden mid-20th century",
+      "cite": [
+        "cap-nation-sc-b1c31f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A botanical garden in Victoria that began as a plant-testing 'station' in 1901. It became a public botanical garden in the mid-20th century.",
+              "cite": [
+                "cap-nation-sc-b1c31f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "seychelles-botanical-gardens",
+    "alt": "The entrance path of the Seychelles National Botanical Gardens, with palms and thatched huts.",
+    "caption": "The entrance of the gardens.",
+    "credit": "Seychelles Nation",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Seychelles_National_Botanical_Gardens_Mahe_Victoria.jpg"
+  }
+}

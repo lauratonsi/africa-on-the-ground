@@ -1,0 +1,67 @@
+{
+  "slug": "mauritius-natural-history-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "MUS",
+  "name": "Natural History Museum (Mauritius Institute)",
+  "region": "Port Louis · Mauritius",
+  "subtitle": "The oldest museum in Mauritius, housed in the Mauritius Institute building.",
+  "facts": [
+    {
+      "label": "Opening",
+      "value": "Desjardins Museum opened to the public on 14 October 1842.",
+      "cite": [
+        "cap-mauritiusmuseums-govmu-org-b3b151"
+      ]
+    },
+    {
+      "label": "Move",
+      "value": "In 1885 the collection moved to the new Mauritius Institute building.",
+      "cite": [
+        "cap-mauritiusmuseums-govmu-org-b3b151"
+      ]
+    },
+    {
+      "label": "National museum",
+      "value": "Proclaimed a National museum in 2000.",
+      "cite": [
+        "cap-mauritiusmuseums-govmu-org-b3b151"
+      ]
+    },
+    {
+      "label": "Dodo",
+      "value": "Dodo model is the centrepiece; the skeleton on display was collected in 1900, all bones from one bird.",
+      "cite": [
+        "cap-mauritiusmuseums-govmu-org-1bc5b9"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The oldest museum in Mauritius, housed in the Mauritius Institute building. It shows 500 years of the island's natural history, with a dodo model as centrepiece. Status of reopening after the 2017 closure was not confirmed.",
+              "cite": [
+                "cap-mauritiusmuseums-govmu-org-b3b151",
+                "cap-mauritiusmuseums-govmu-org-1bc5b9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

@@ -3,10 +3,263 @@
   "status": "draft",
   "country": "MUS",
   "name": "Port Louis",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Port Louis, capital of Mauritius: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 106,332 people live in Port Louis District (counted 2022).",
+      "cite": [
+        "cap-statsmauritius-govmu-org-2ba8a8"
+      ]
+    },
+    {
+      "text": "Construction of Port Louis began in 1735 under Mahé de La Bourdonnais, first governor of Mauritius; the site had been chosen as the island's port from 1732.",
+      "cite": [
+        "cap-mccpl-mu-95d58a"
+      ]
+    },
+    {
+      "text": "The city is named for King Louis XV of France; the French named the port and administrative centre Port Louis.",
+      "cite": [
+        "cap-ebsco-com-449c43"
+      ]
+    }
+  ],
+  "places": [
+    "port-louis-central-market",
+    "champ-de-mars-racecourse",
+    "fort-adelaide",
+    "jummah-mosque",
+    "mauritius-natural-history-museum"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Port Louis in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Construction of Port Louis began in 1735 under Mahé de La Bourdonnais, first governor of Mauritius; the site had been chosen as the island's port from 1732.",
+              "cite": [
+                "cap-mccpl-mu-95d58a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city is named for King Louis XV of France; the French named the port and administrative centre Port Louis.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dutch: the Dutch named the island for Prince Maurice of Nassau and founded the first permanent settlement in 1638, a timber community near the present city.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "French/British: the city carried other names under French rule (Port de La Montagne 1794, Port Nord-Ouest 1795-1803, Port Napoléon 1803); the British took the island in 1810 and Governor Robert Farquhar restored the name Port Louis.",
+              "cite": [
+                "cap-mccpl-mu-95d58a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mauritius became independent from Britain in 1968 (constitution adopted 12 March 1968), and a republic in 1992.",
+              "cite": [
+                "cap-ebsco-com-7a39bb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "106,332",
+              "label": "people in Port Louis District, 2022",
+              "cite": [
+                "cap-statsmauritius-govmu-org-2ba8a8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Port Louis District?",
+          "min": 0,
+          "max": 400000,
+          "step": 2000,
+          "unit": "",
+          "answer": 106332,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "106,332 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Total resident population (de jure) of Port Louis District, 2022 Population Census (reference week ended 3 July 2022).",
+              "cite": [
+                "cap-statsmauritius-govmu-org-2ba8a8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1638",
+              "tag": "origins",
+              "text": "The Dutch found the first permanent settlement on the island, a timber community near the present city.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            },
+            {
+              "when": "1735",
+              "tag": "origins",
+              "text": "Construction of Port Louis begins under governor Mahé de La Bourdonnais.",
+              "cite": [
+                "cap-mccpl-mu-95d58a"
+              ]
+            },
+            {
+              "when": "1773",
+              "tag": "growth",
+              "text": "First fruit and vegetable sales held in front of St Louis Cathedral, the origin of the later central market.",
+              "cite": [
+                "cap-lemauricien-com-d9ed36"
+              ]
+            },
+            {
+              "when": "1810",
+              "tag": "growth",
+              "text": "The island becomes a British colony; Governor Farquhar restores the name Port Louis.",
+              "cite": [
+                "cap-mccpl-mu-95d58a"
+              ]
+            },
+            {
+              "when": "25 June 1812",
+              "tag": "growth",
+              "text": "First races at the Champ de Mars, former military training ground.",
+              "cite": [
+                "cap-lemauricien-com-efcfb3"
+              ]
+            },
+            {
+              "when": "1845",
+              "tag": "growth",
+              "text": "The Bazaar central is built with four wings.",
+              "cite": [
+                "cap-lemauricien-com-d9ed36"
+              ]
+            },
+            {
+              "when": "1850",
+              "tag": "growth",
+              "text": "First municipal elections held; Louis Léchelle becomes first mayor.",
+              "cite": [
+                "cap-mccpl-mu-95d58a"
+              ]
+            },
+            {
+              "when": "1968",
+              "tag": "today",
+              "text": "Mauritius becomes independent within the Commonwealth; Port Louis is the capital.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Port Louis in order.",
+          "items": [
+            {
+              "label": "The Dutch found the first permanent settlement on the island, a timber…",
+              "when": "1638",
+              "text": "The Dutch found the first permanent settlement on the island, a timber community near the present city.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            },
+            {
+              "label": "First fruit and vegetable sales held in front of St Louis Cathedral, the…",
+              "when": "1773",
+              "text": "First fruit and vegetable sales held in front of St Louis Cathedral, the origin of the later central market.",
+              "cite": [
+                "cap-lemauricien-com-d9ed36"
+              ]
+            },
+            {
+              "label": "The Bazaar central is built with four wings.",
+              "when": "1845",
+              "text": "The Bazaar central is built with four wings.",
+              "cite": [
+                "cap-lemauricien-com-d9ed36"
+              ]
+            },
+            {
+              "label": "Mauritius becomes independent within the Commonwealth; Port Louis is the…",
+              "when": "1968",
+              "text": "Mauritius becomes independent within the Commonwealth; Port Louis is the capital.",
+              "cite": [
+                "cap-ebsco-com-449c43"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Blue Penny Museum: only home page read (location, stamps shown briefly); no founding or building history from a readable source except EBSCO 'founded in 2001'; dropped as a place",
+    "Not found in a readable source: Port Louis founding date: EBSCO (Issitt) says French arrived 1715, permanent settlement 1722; City Council says construction 1735 - sources differ, 1735 is from city council",
+    "Not found in a readable source: Statement 'oldest racecourse in southern hemisphere' only in Le Mauricien (press) and Turf Club (unread); AFP does not state it",
+    "Not found in a readable source: Jummah Mosque: sources differ (1852 Defimedia; 1850s tourism ministry; 1853 on travel sites, not used)",
+    "Not found in a readable source: Port Louis Theatre not researched",
+    "Not found in a readable source: Common misconception: none explicitly corrected by a source",
+    "Not found in a readable source: Quotes marked '(summarised)' came via a page summariser, not verbatim; verify before publishing",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Mauritius has read this profile yet."
   ]
 }

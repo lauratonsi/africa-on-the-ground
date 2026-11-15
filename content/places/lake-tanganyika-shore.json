@@ -1,0 +1,45 @@
+{
+  "slug": "lake-tanganyika-shore",
+  "status": "draft",
+  "type": "nature",
+  "country": "BDI",
+  "name": "Lake Tanganyika shore",
+  "region": "Bujumbura · Burundi",
+  "subtitle": "Bujumbura lies on the lake's northeastern shore.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Northeastern shore of Lake Tanganyika.",
+      "cite": [
+        "cap-ebsco-com-6d43eb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bujumbura lies on the lake's northeastern shore. Only the EBSCO description was read, so treat this as a thin entry.",
+              "cite": [
+                "cap-ebsco-com-6d43eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

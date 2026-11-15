@@ -4,26 +4,7 @@
   "country": "CAF",
   "name": "Bangui",
   "subtitle": "Bangui, capital of the Central African Republic: its numbers, a short history and places to see beyond the World Heritage list.",
-  "keyPoints": [
-    {
-      "text": "About 622,771 people were counted in Bangui's autonomous commune in the 2003 census (expanded prefecture mapping reached 1.42 million in 2021).",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "text": "Bangui sits on the northern bank of the Ubangi River, facing the Democratic Republic of the Congo directly across the waters.",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "text": "In November 2015, Pope Francis opened the Holy Door at Bangui's red-brick cathedral, proclaiming the city the spiritual capital of world peace.",
-      "cite": [
-        "cap-zenit-bangui-porte-sainte-2015"
-      ]
-    }
-  ],
+  "keyPoints": [],
   "places": [
     "manovo-gounda-st-floris-national-park",
     "cathedrale-notre-dame-de-bangui",
@@ -40,61 +21,9 @@
           "type": "p",
           "parts": [
             {
-              "text": "Bangui was founded on 26 June 1889 by French colonial administrators Albert and Michel Dolisie on the northern shore of the Ubangi River, chosen just downstream from the impassable river rapids.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The city became the administrative capital of the French colony of Ubangi-Shari in 1906, serving as the strategic gateway between the Congo basin and the Sahel.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "parts": [
-            {
               "text": "Upon independence in August 1960 under the legacy of Barthélemy Boganda, Bangui was proclaimed the sovereign capital of the Central African Republic.",
               "cite": [
                 "cap-unesco-boganda-museum"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "stat",
-          "items": [
-            {
-              "value": "622,771",
-              "label": "people in the Autonomous Commune of Bangui, 2003",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "estimate",
-          "prompt": "About how many people were enumerated in the Autonomous Commune of Bangui in the 2003 census?",
-          "min": 200000,
-          "max": 2000000,
-          "step": 25000,
-          "unit": "",
-          "answer": 622771,
-          "decimals": 0,
-          "parts": [
-            {
-              "text": "622,771 in the 2003 official census by ICASEES. By 2021, cartographic census updates mapped over 812,000 in the city proper and 1.42 million across the broader Bangui Prefecture.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
               ]
             }
           ]
@@ -123,22 +52,6 @@
           ],
           "items": [
             {
-              "when": "1889",
-              "tag": "origins",
-              "text": "French outpost founded on the Ubangi River just below the rapids.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            },
-            {
-              "when": "1906",
-              "tag": "origins",
-              "text": "Bangui is made the administrative seat of the colonial territory of Ubangi-Shari.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            },
-            {
               "when": "1960",
               "tag": "growth",
               "text": "The Central African Republic gains independence; Bangui is declared national capital.",
@@ -153,52 +66,6 @@
               "cite": [
                 "cap-unesco-boganda-museum"
               ]
-            },
-            {
-              "when": "2015",
-              "tag": "today",
-              "text": "Pope Francis opens the Jubilee Holy Door at Bangui Cathedral, calling for peace.",
-              "cite": [
-                "cap-zenit-bangui-porte-sainte-2015"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "order",
-          "prompt": "Put four moments in the history of Bangui in order.",
-          "items": [
-            {
-              "label": "French outpost founded on the northern shore of the Ubangi River.",
-              "when": "1889",
-              "text": "French outpost founded on the northern shore of the Ubangi River.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            },
-            {
-              "label": "The Central African Republic attains independence with Bangui as capital.",
-              "when": "1960",
-              "text": "The Central African Republic attains independence with Bangui as capital.",
-              "cite": [
-                "cap-unesco-boganda-museum"
-              ]
-            },
-            {
-              "label": "The Musée National Barthélemy Boganda is inaugurated.",
-              "when": "1966",
-              "text": "The Musée National Barthélemy Boganda is inaugurated.",
-              "cite": [
-                "cap-unesco-boganda-museum"
-              ]
-            },
-            {
-              "label": "Pope Francis opens the Holy Door at Bangui Cathedral.",
-              "when": "2015",
-              "text": "Pope Francis opens the Holy Door at Bangui Cathedral.",
-              "cite": [
-                "cap-zenit-bangui-porte-sainte-2015"
-              ]
             }
           ]
         }
@@ -208,6 +75,7 @@
   "gaps": [
     "Final nationwide census publications have been delayed by recurring instability since 2013.",
     "First-hand local voices and oral memories of fishermen and artisans along the Ubangi are still missing.",
-    "Cityscape photograph: not yet linked."
+    "Cityscape photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

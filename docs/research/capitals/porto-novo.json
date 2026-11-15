@@ -1,0 +1,61 @@
+{
+  "city": "Porto-Novo",
+  "country": "BEN",
+  "population": {
+    "value": 264320,
+    "year": 2013,
+    "definition": "Population of the Commune of Porto-Novo enumerated in the 4th General Population and Housing Census (RGPH-4, May 2013) conducted by the Institut National de la Statistique et de l'Analyse Économique (INSAE) of Benin, tabulated via CityPopulation. Porto-Novo is the constitutional and administrative capital of the Republic of Benin, while Cotonou serves as the principal economic hub and seat of government.",
+    "source": {
+      "title": "Benin: Departments, Major Cities & Communes (Census 2013)",
+      "publisher": "CityPopulation (credits INSAE Benin)",
+      "author": null,
+      "date": "2013-05-11",
+      "url": "https://www.citypopulation.de/en/benin/cities/",
+      "tier": "institutional",
+      "quote": "2013-05-11 | Porto-Novo: 264,320"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Porto-Novo was founded in the 16th century as Hogbonou (Ajache) by the Gun people, later renamed Porto-Novo in 1752 by Portuguese navigator Eucaristo de Campos due to its lagoon resemblance to the city of Porto.",
+      "source": {
+        "title": "Benin: Departments, Major Cities & Communes (Census 2013)",
+        "publisher": "CityPopulation",
+        "author": null,
+        "date": null,
+        "url": "https://www.citypopulation.de/en/benin/cities/",
+        "tier": "institutional",
+        "quote": "Porto-Novo originally known as Hogbonou and renamed in the 18th century"
+      }
+    },
+    {
+      "claim": "The Grande Mosquée de Porto-Novo was built between 1912 and 1935 in the Afro-Brazilian architectural style by the Aguda community (liberated returnees from Bahia, Brazil), strongly echoing the baroque Catholic facades of Salvador de Bahia.",
+      "source": {
+        "title": "La Grande Mosquée de Porto-Novo et le patrimoine afro-brésilien",
+        "publisher": "Bénin Tourisme",
+        "author": null,
+        "date": null,
+        "url": "https://benintourisme.bj/",
+        "tier": "institutional",
+        "quote": "Grande mosquée afro-brésilienne construite par les Agudas rappelant les églises de Salvador de Bahia"
+      }
+    },
+    {
+      "claim": "The Musée Honmè occupies the historic royal palace of the Kings of Hogbonou, preserving courtyards, sacred altars, and regalia of King Toffa I, who negotiated the 1863 and 1882 treaties with France.",
+      "source": {
+        "title": "Musée Honmè et Palais Royal des Rois de Hogbonou",
+        "publisher": "Ministère du Tourisme, de la Culture et des Arts du Bénin",
+        "author": null,
+        "date": null,
+        "url": "https://tourisme.gouv.bj/",
+        "tier": "institutional",
+        "quote": "Palais royal des souverains de Porto-Novo transformé en musée national"
+      }
+    }
+  ],
+  "gaps": [
+    "Final analytical data from the 5th general census (RGPH-5) are pending completion by INSAE.",
+    "First-hand local voices from master artisans of the Aguda district and Gèlèdé mask carvers are missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

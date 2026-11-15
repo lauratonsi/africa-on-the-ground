@@ -1,0 +1,59 @@
+{
+  "slug": "grande-mosquee-de-bamako",
+  "status": "draft",
+  "type": "culture",
+  "country": "MLI",
+  "name": "Grande Mosquée de Bamako",
+  "region": "Bamako · Mali",
+  "subtitle": "Monumental central mosque in Bozola redeveloped in Saudi-Sudanese modernist architecture in the 1970s.",
+  "facts": [
+    {
+      "label": "Original site",
+      "value": "Pre-colonial mudbrick mosque built by Bozo community",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    },
+    {
+      "label": "Current edifice",
+      "value": "Rebuilt in the late 1970s with Saudi funding, featuring soaring minarets and expansive prayer halls",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Bozola quarter, north of the Niger River in central Bamako",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The primary Islamic place of worship in the Malian capital, situated north of the Niger River in the central Bozola district. Built on the site of an earlier pre-colonial mudbrick mosque and reconstructed in the late 1970s with assistance from the Saudi government, this imposing white-and-sandstone mosque features soaring minarets visible across central Bamako, serving as the spiritual anchor for national Islamic holidays and Friday communal prayers.",
+              "cite": [
+                "cap-musee-national-mali"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Diocese and Islamic council historical records on the pre-colonial structure are partially digitized.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

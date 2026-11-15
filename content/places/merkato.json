@@ -1,0 +1,54 @@
+{
+  "slug": "merkato",
+  "status": "draft",
+  "type": "market",
+  "country": "ETH",
+  "name": "Merkato",
+  "region": "Addis Ababa · Ethiopia",
+  "subtitle": "Merkato is an open-air market in western Addis Ababa, described in academic sources as the largest open market in Africa.",
+  "facts": [
+    {
+      "label": "Italian-era relocation",
+      "value": "The existing market was moved to the north-western part of town",
+      "cite": [
+        "cap-arpajournal-net-8a0271"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Merkato is an open-air market in western Addis Ababa, described in academic sources as the largest open market in Africa. Its present form dates to the Italian occupation, when it was named for the 'indigenous' population.",
+              "cite": [
+                "cap-arpajournal-net-8a0271"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "merkato",
+    "alt": "Photograph of Merkato.",
+    "caption": "Merkato.",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Addis_Mercato%2C_Ad%C3%ADs_Abeba%2C_Etiop%C3%ADa%2C_2024-01-19%2C_DD_27.jpg"
+  }
+}

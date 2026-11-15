@@ -3,10 +3,62 @@
   "status": "draft",
   "country": "NGA",
   "name": "Abuja",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Abuja, capital of Nigeria: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "The Federal Capital Territory registered 1,406,239 people in the 2006 census (projected at over 3 million in 2022).",
+      "cite": [
+        "cap-citypopulation-de-nigeria-2006"
+      ]
+    }
+  ],
+  "places": [
+    "osun-osogbo-sacred-grove",
+    "national-mosque-abuja",
+    "national-christian-centre-abuja",
+    "aso-rock-abuja"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Abuja in brief",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,406,239",
+              "label": "residents in the Federal Capital Territory, 2006",
+              "cite": [
+                "cap-citypopulation-de-nigeria-2006"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in Nigeria's Federal Capital Territory (Abuja) in the 2006 census?",
+          "min": 500000,
+          "max": 4000000,
+          "step": 50000,
+          "unit": "",
+          "answer": 1406239,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,406,239 in the FCT (776,298 in the Abuja Municipal Area Council) during the 2006 census by the National Population Commission of Nigeria.",
+              "cite": [
+                "cap-citypopulation-de-nigeria-2006"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

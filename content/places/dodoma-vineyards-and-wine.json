@@ -1,0 +1,52 @@
+{
+  "slug": "dodoma-vineyards-and-wine",
+  "status": "draft",
+  "type": "nature",
+  "country": "TZA",
+  "name": "Dodoma vineyards and wine",
+  "region": "Dodoma · Tanzania",
+  "subtitle": "Dodoma Region is Tanzania's main grape-growing area.",
+  "facts": [
+    {
+      "label": "Share of grapes",
+      "value": "More than 70 per cent of national production",
+      "cite": [
+        "cap-dailynews-co-tz-6ecc8c"
+      ]
+    },
+    {
+      "label": "Main grape",
+      "value": "Makutupora",
+      "cite": [
+        "cap-dailynews-co-tz-6ecc8c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dodoma Region is Tanzania's main grape-growing area. Growers rely heavily on the Makutupora grape.",
+              "cite": [
+                "cap-dailynews-co-tz-6ecc8c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

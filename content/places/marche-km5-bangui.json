@@ -6,54 +6,12 @@
   "name": "Marché KM5 (PK5)",
   "region": "Bangui · Central African Republic",
   "subtitle": "Bangui's vibrant economic lung and historic multicultural marketplace in the 3rd arrondissement.",
-  "facts": [
-    {
-      "label": "Location",
-      "value": "3rd Arrondissement (Kilomètre 5 / PK5)",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "label": "Role",
-      "value": "Primary wholesale and retail trading hub of the Central African capital",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "label": "Goods",
-      "value": "Hardware, textiles, regional cassava, smoked fish, and cattle from regional trade routes",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what",
-      "title": "What it is",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The primary commercial and financial heartbeat of Bangui, located in the 3rd arrondissement approximately five kilometers west of the administrative center. Known as KM5 or PK5, it is a bustling network of open avenues, stalls, and storehouses where long-distance wholesale traders from Chad, Cameroon, and the provinces connect with local retailers, supplying the city with fabrics, grain, imported electronics, meat, and artisanal hardware.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "facts"
-        }
-      ]
-    }
-  ],
+  "facts": [],
+  "sections": [],
   "gaps": [
     "Precise data on post-reconstruction trading associations and volume of trans-border flows are limited.",
     "Local voices: none yet.",
-    "Photograph: not yet linked."
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

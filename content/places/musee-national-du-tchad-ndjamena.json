@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-du-tchad-ndjamena",
+  "status": "draft",
+  "type": "culture",
+  "country": "TCD",
+  "name": "Musée National du Tchad",
+  "region": "N'Djamena · Chad",
+  "subtitle": "National repository safeguarding the 7-million-year-old Toumaï hominid skull cast and ancient Sao terra-cotta treasures.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1962 (modern premises in Amriguebé)",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    },
+    {
+      "label": "Paleontological icon",
+      "value": "Fossil cast of Toumaï (Sahelanthropus tchadensis, ~7 million years old)",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    },
+    {
+      "label": "Archaeology",
+      "value": "Monumental funerary urns, bronze jewelry, and anthropomorphic terra-cotta figures of the Lake Chad Sao culture",
+      "cite": [
+        "cap-unesco-chad-heritage"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The premier institution for paleontology, archaeology, and ethnography in Chad, located in the Amriguebé neighborhood of N'Djamena. Its world-renowned paleontological wing exhibits a certified cast of the cranial fossil of Toumaï (Sahelanthropus tchadensis), discovered in the Djurab Desert in 2001 and regarded as one of the oldest known hominids. The museum's halls also showcase archaeological relics of the ancient Sao civilization that flourished along the Chari River between the 6th century BC and the 16th century AD, including expressive terra-cotta masks, funerary urns, and bronze metallurgy.",
+              "cite": [
+                "cap-unesco-chad-heritage"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital cataloguing of archaeological collections from northern Tibesti is in preparation.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

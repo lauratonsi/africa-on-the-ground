@@ -1,0 +1,45 @@
+{
+  "slug": "hamoudi-mosque",
+  "status": "draft",
+  "type": "site",
+  "country": "DJI",
+  "name": "Hamoudi Mosque",
+  "region": "Djibouti · Djibouti",
+  "subtitle": "A mosque in central Djibouti City that EBSCO calls the nation's largest.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Largest mosque in the country (per EBSCO).",
+      "cite": [
+        "cap-ebsco-com-b330b6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A mosque in central Djibouti City that EBSCO calls the nation's largest. A heritage listing gives its construction as 1906 by Haji Hamoudi.",
+              "cite": [
+                "cap-ebsco-com-b330b6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

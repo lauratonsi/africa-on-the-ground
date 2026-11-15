@@ -1,0 +1,68 @@
+{
+  "slug": "holy-trinity-cathedral",
+  "status": "draft",
+  "type": "site",
+  "country": "ETH",
+  "name": "Holy Trinity Cathedral",
+  "region": "Addis Ababa · Ethiopia",
+  "subtitle": "An Orthodox cathedral in Addis Ababa founded under Menelik II and completed in 1942.",
+  "facts": [
+    {
+      "label": "Founder",
+      "value": "Founded by Menelik II",
+      "cite": [
+        "cap-capitalethiopia-com-f8832f"
+      ]
+    },
+    {
+      "label": "Completion",
+      "value": "1942",
+      "cite": [
+        "cap-capitalethiopia-com-f8832f"
+      ]
+    },
+    {
+      "label": "Burials",
+      "value": "Burial place of those who fought the Italian occupation",
+      "cite": [
+        "cap-capitalethiopia-com-f8832f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An Orthodox cathedral in Addis Ababa founded under Menelik II and completed in 1942. Its compound is a burial place for those who fought the Italian occupation.",
+              "cite": [
+                "cap-capitalethiopia-com-f8832f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "holy-trinity-cathedral",
+    "alt": "A street in Addis Ababa leading to the dome of Holy Trinity Cathedral in the distance.",
+    "caption": "Holy Trinity Cathedral seen from a street nearby.",
+    "credit": "VBzi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Holy_Trinity_Cathedral_Addis_Abeba.jpg"
+  }
+}

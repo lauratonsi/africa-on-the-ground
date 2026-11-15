@@ -1,0 +1,76 @@
+{
+  "slug": "kandt-house-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "RWA",
+  "name": "Kandt House Museum",
+  "region": "Kigali · Rwanda",
+  "subtitle": "A national museum on Nyarugenge area, about one kilometre from downtown, in the house associated with Richard Kandt, the first German colonial resident.",
+  "facts": [
+    {
+      "label": "Network",
+      "value": "One of eight museums of the Institute of National Museums of Rwanda",
+      "cite": [
+        "cap-visitrwanda-com-098c8c"
+      ]
+    },
+    {
+      "label": "Exhibition parts",
+      "value": "Three parts: pre-colonial life, colonial period, history of Kigali",
+      "cite": [
+        "cap-visitrwanda-com-098c8c"
+      ]
+    },
+    {
+      "label": "Former use and location",
+      "value": "Former Natural History Museum, around 1 km from downtown, KN 90 St",
+      "cite": [
+        "cap-rwandaheritage-gov-rw-e74cb5"
+      ]
+    },
+    {
+      "label": "Kandt",
+      "value": "First colonial governor of Rwanda for Germany",
+      "cite": [
+        "cap-visitrwanda-com-098c8c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A national museum on Nyarugenge area, about one kilometre from downtown, in the house associated with Richard Kandt, the first German colonial resident. It is the former Natural History Museum and covers Rwandan life before colonialism, the colonial period and the history of Kigali.",
+              "cite": [
+                "cap-visitrwanda-com-098c8c",
+                "cap-rwandaheritage-gov-rw-e74cb5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "kandt-house-museum",
+    "alt": "Photograph of Kandt House Museum.",
+    "caption": "Kandt House Museum.",
+    "credit": "(JA ALT)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Kandt_House_Kigali_(front_view).jpg"
+  }
+}

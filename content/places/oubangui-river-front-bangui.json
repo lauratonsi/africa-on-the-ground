@@ -6,54 +6,12 @@
   "name": "Oubangui Riverfront and Rapids",
   "region": "Bangui · Central African Republic",
   "subtitle": "The vital river artery facing Zongo (DRC), defining Bangui's geography, trade, and canoe transport.",
-  "facts": [
-    {
-      "label": "Boundary",
-      "value": "Natural frontier dividing Central African Republic and Democratic Republic of the Congo",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "label": "Geographic feature",
-      "value": "Upstream rapids that historically halted European river steamboats",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    },
-    {
-      "label": "Daily life",
-      "value": "Traditional wooden pirogues, sand extractors, and cross-border ferry traffic to Zongo",
-      "cite": [
-        "cap-citypopulation-de-car-2003"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what",
-      "title": "What it is",
-      "blocks": [
-        {
-          "type": "p",
-          "parts": [
-            {
-              "text": "The defining landscape and economic lifeline of Bangui, lining the northern shore of the great Ubangi (Oubangui) River, the principal right-bank tributary of the Congo River. Directly across the waters lies the town of Zongo in the Democratic Republic of the Congo. Established where navigation was interrupted by swirling rocky rapids, the riverfront teems with fleets of hand-carved wooden pirogues, sand miners dredging building materials, and fishermen, forming an essential artery of commerce and transit connecting landlocked CAR to the wider Congo basin.",
-              "cite": [
-                "cap-citypopulation-de-car-2003"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "facts"
-        }
-      ]
-    }
-  ],
+  "facts": [],
+  "sections": [],
   "gaps": [
     "Hydrological depth variations and seasonal low-water river navigation reports are incomplete.",
     "Local voices: none yet.",
-    "Photograph: not yet linked."
+    "Photograph: not yet linked.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

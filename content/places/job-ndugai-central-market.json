@@ -1,0 +1,76 @@
+{
+  "slug": "job-ndugai-central-market",
+  "status": "draft",
+  "type": "market",
+  "country": "TZA",
+  "name": "Job Ndugai Central Market",
+  "region": "Dodoma · Tanzania",
+  "subtitle": "A large purpose-built market in Nzuguni Ward on the outskirts of Dodoma.",
+  "facts": [
+    {
+      "label": "Cost",
+      "value": "More than Sh14 billion",
+      "cite": [
+        "cap-thecitizen-co-tz-f599ab"
+      ]
+    },
+    {
+      "label": "Opening",
+      "value": "Early 2020",
+      "cite": [
+        "cap-thecitizen-co-tz-f599ab"
+      ]
+    },
+    {
+      "label": "Older markets",
+      "value": "Majengo, Machinga and Sabasaba markets had become overcrowded",
+      "cite": [
+        "cap-thecitizen-co-tz-f599ab"
+      ]
+    },
+    {
+      "label": "Majengo Market",
+      "value": "Described as renowned; a modernisation project was ordered in 2025",
+      "cite": [
+        "cap-dailynews-co-tz-ebb1eb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large purpose-built market in Nzuguni Ward on the outskirts of Dodoma. It began operating in early 2020 to relieve older, overcrowded markets such as Majengo.",
+              "cite": [
+                "cap-thecitizen-co-tz-f599ab",
+                "cap-dailynews-co-tz-ebb1eb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "job-ndugai-central-market",
+    "alt": "Photograph of Job Ndugai Central Market.",
+    "caption": "Job Ndugai Central Market.",
+    "credit": "Mamatimo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Dodoma_-_Job_Ndugai_Central_Market.jpg"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "musee-national-du-mali-bamako",
+  "status": "draft",
+  "type": "culture",
+  "country": "MLI",
+  "name": "Musée National du Mali",
+  "region": "Bamako · Mali",
+  "subtitle": "Award-winning museum built in local cut stone safeguarding masterworks of Dogon statuary, Bozo puppets, and Niger delta textiles.",
+  "facts": [
+    {
+      "label": "Architecture",
+      "value": "Modern natural cut-stone structure designed by Jean-Loup Pivin (Aga Khan Award for Architecture recipient)",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Parc National du Mali, at the base of Koulouba hill",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    },
+    {
+      "label": "Masterworks",
+      "value": "1,000-year-old Tellem funerary textiles, Dogon wooden ancestor carvings, and ancient terracotta from Djenné-Djeno",
+      "cite": [
+        "cap-musee-national-mali"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "One of the most acclaimed museums in Africa, situated within the botanical greenery of the National Park of Mali in Bamako. Housed in modern buildings constructed with local golden cut stone that reinterpret traditional Sahelian earthen architecture, the museum preserves the extraordinary cultural legacy of the Niger basin civilizations. Its climate-controlled permanent halls showcase thousand-year-old textiles recovered from Tellem burial caves in the Bandiagara escarpment, monumental Dogon wooden masks, antique kora harps, and archaeological terra-cotta statuary from Djenné-Djeno.",
+              "cite": [
+                "cap-musee-national-mali"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Full digital catalogue with 3D photogrammetric scans of archaeological textiles is in development.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

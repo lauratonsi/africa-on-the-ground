@@ -1,0 +1,59 @@
+{
+  "slug": "museu-nacional-da-escravatura-luanda",
+  "status": "draft",
+  "type": "culture",
+  "country": "AGO",
+  "name": "Museu Nacional da Escravatura",
+  "region": "Luanda · Angola",
+  "subtitle": "Historic coastal memorial at Morro da Cruz dedicated to the memory and resistance of enslaved Africans in the transatlantic trade.",
+  "facts": [
+    {
+      "label": "Inaugurated",
+      "value": "1977 by the National Institute of Cultural Heritage",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "17th-century Capela da Casa Grande at Morro da Cruz",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    },
+    {
+      "label": "Historical role",
+      "value": "Site where captive Africans were forcibly baptized prior to deportation across the Atlantic to Brazil and the Caribbean",
+      "cite": [
+        "cap-unesco-tentative-luanda-slave"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A solemn and vital memorial museum situated at Morro da Cruz, south of central Luanda along the Atlantic coastline. Established in 1977, it occupies the historic 17th-century Capela da Casa Grande, formerly owned by notorious slave trader Álvaro de Carvalho Matoso. In this seaside chapel, hundreds of thousands of captured Africans were subjected to forced Christian baptisms before being packed onto slave caravels destined for Brazil and the Americas. The museum preserves iron shackles, neck collars, slave trade registers, and documents celebrating African resistance against enslavement.",
+              "cite": [
+                "cap-unesco-tentative-luanda-slave"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Digital parish baptismal registers of enslaved persons are held in external archives and not fully linked.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

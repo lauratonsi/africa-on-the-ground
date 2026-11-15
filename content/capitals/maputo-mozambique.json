@@ -3,10 +3,255 @@
   "status": "draft",
   "country": "MOZ",
   "name": "Maputo",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Maputo, capital of Mozambique: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 1,080,277 people live in Maputo city (counted 2017).",
+      "cite": [
+        "cap-citypopulation-de-8cb893"
+      ]
+    },
+    {
+      "text": "The city was originally named Lourenço Marques after a Portuguese trader who explored the region in 1544.",
+      "cite": [
+        "cap-ebsco-com-a5d31c"
+      ]
+    },
+    {
+      "text": "Lourenço Marques became capital of Portuguese-controlled Mozambique in 1898.",
+      "cite": [
+        "cap-ebsco-com-a5d31c"
+      ]
+    }
+  ],
+  "places": [
+    "maputo-central-railway-station",
+    "fortaleza-de-maputo",
+    "maputo-mercado-central",
+    "maputo-natural-history-museum"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Maputo in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city was originally named Lourenço Marques after a Portuguese trader who explored the region in 1544.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lourenço Marques became capital of Portuguese-controlled Mozambique in 1898.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "After Mozambique's independence in 1975 the new national leaders changed the capital's name to Maputo (EBSCO gives no year for the renaming; the 1976 date comes from Cultural Heritage Online).",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The city was called Lourenço Marques until 1976, the year after independence; it had become a city in 1887.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Portuguese fort, the nucleus of the later city, dates to the 1780s (EBSCO: 1787; Cultural Heritage Online: 1781).",
+              "cite": [
+                "cap-buala-org-81c34d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,080,277",
+              "label": "people in Maputo city, 2017",
+              "cite": [
+                "cap-citypopulation-de-8cb893"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Maputo city?",
+          "min": 0,
+          "max": 4000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 1080277,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,080,277 in 2017, according to the figures compiled from the national statistics office. Which area is counted matters: Maputo Cidade (the city, which is also a province-level unit), census count of 1 August 2017, not adjusted for underenumeration.",
+              "cite": [
+                "cap-citypopulation-de-8cb893"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1544",
+              "tag": "origins",
+              "text": "A Portuguese trader, Lourenço Marques, first explores the region; the later city takes his name.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            },
+            {
+              "when": "1780s",
+              "tag": "origins",
+              "text": "Portuguese build a fortress on the ruins of earlier Dutch and Austrian fortifications. EBSCO dates it to 1787 and calls it the nucleus around which the capital developed.",
+              "cite": [
+                "cap-buala-org-81c34d"
+              ]
+            },
+            {
+              "when": "1887",
+              "tag": "growth",
+              "text": "The settlement becomes a city.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            },
+            {
+              "when": "1898",
+              "tag": "growth",
+              "text": "Lourenço Marques is named capital of Portuguese-controlled Mozambique.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            },
+            {
+              "when": "1910 (station opened; works 1908-1916)",
+              "tag": "growth",
+              "text": "The central railway station opens; construction ran 1908 to 1916.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            },
+            {
+              "when": "1975",
+              "tag": "today",
+              "text": "Mozambique declares independence.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            },
+            {
+              "when": "1976",
+              "tag": "today",
+              "text": "Lourenço Marques is renamed Maputo.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Maputo in order.",
+          "items": [
+            {
+              "label": "A Portuguese trader, Lourenço Marques, first explores the region; the later…",
+              "when": "1544",
+              "text": "A Portuguese trader, Lourenço Marques, first explores the region; the later city takes his name.",
+              "cite": [
+                "cap-ebsco-com-a5d31c"
+              ]
+            },
+            {
+              "label": "The settlement becomes a city.",
+              "when": "1887",
+              "text": "The settlement becomes a city.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            },
+            {
+              "label": "The central railway station opens; construction ran 1908 to 1916.",
+              "when": "1910 (station opened; works 1908-1916)",
+              "text": "The central railway station opens; construction ran 1908 to 1916.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            },
+            {
+              "label": "Lourenço Marques is renamed Maputo.",
+              "when": "1976",
+              "text": "Lourenço Marques is renamed Maputo.",
+              "cite": [
+                "cap-culturalheritageonline-com-1d10f5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Delagoa Bay: not mentioned on the EBSCO page; no readable source obtained",
+    "Not found in a readable source: Name origin of Maputo (river vs other): no readable source; do not state. One travel page claimed Chief Maputsu, unverified and uncited",
+    "Not found in a readable source: 1976 renaming date from an institutional source: only Cultural Heritage Online (specialist press); EBSCO gives no year",
+    "Not found in a readable source: Mercado Central construction dates and design (1901-1903, Hamburg Alster pavilion): seen only in unreadable HPIP and search snippets",
+    "Not found in a readable source: Mercado do Peixe, Casa de Ferro (only EBSCO line: 'it proved uninhabitable because Eiffel had the walls and roof built of steel'; Eiffel attribution disputed in snippets), Núcleo de Arte (only an unofficial Africaserver page read; founding dates 1921/1937/1948 conflict), Praça da Independência, Feira Popular, Museu da Moeda, Jardim Tunduru: no acceptable readable source",
+    "Not found in a readable source: Photos not checked for Casa de Ferro or Núcleo de Arte",
+    "Not found in a readable source: Myth: EBSCO itself repeats the Eiffel-station attribution, which other sources contest; no readable source verified as explicitly correcting it, so null",
+    "Not found in a readable source: Quotes were captured through WebFetch summaries; re-verify wording against the live pages before publishing, especially the Cultural Heritage Online 1887 quote",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Mozambique has read this profile yet."
   ]
 }

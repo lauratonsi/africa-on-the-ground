@@ -1,0 +1,83 @@
+{
+  "slug": "lilongwe-wildlife-centre",
+  "status": "draft",
+  "type": "nature",
+  "country": "MWI",
+  "name": "Lilongwe Wildlife Centre",
+  "region": "Lilongwe · Malawi",
+  "subtitle": "A wildlife rescue and rehabilitation sanctuary run by the Lilongwe Wildlife Trust inside a nature reserve in the middle of the capital.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "In the centre of the capital",
+      "cite": [
+        "cap-lilongwewildlife-org-855596"
+      ]
+    },
+    {
+      "label": "Opened",
+      "value": "2007",
+      "cite": [
+        "cap-lilongwewildlife-org-855596"
+      ]
+    },
+    {
+      "label": "Reserve size",
+      "value": "About 200 hectares",
+      "cite": [
+        "cap-iucnurbanalliance-org-ec6780"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Only wildlife rehabilitation sanctuary in Malawi and largest environmental education centre",
+      "cite": [
+        "cap-iucnurbanalliance-org-ec6780"
+      ]
+    },
+    {
+      "label": "Habitat",
+      "value": "Last Acacia combretum forest example in the Central Region",
+      "cite": [
+        "cap-iucnurbanalliance-org-ec6780"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A wildlife rescue and rehabilitation sanctuary run by the Lilongwe Wildlife Trust inside a nature reserve in the middle of the capital. It cares for injured and orphaned animals.",
+              "cite": [
+                "cap-lilongwewildlife-org-855596",
+                "cap-iucnurbanalliance-org-ec6780"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "lilongwe-wildlife-centre",
+    "alt": "Photograph of Lilongwe Wildlife Centre.",
+    "caption": "Lilongwe Wildlife Centre.",
+    "credit": "nesnad",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg"
+  }
+}

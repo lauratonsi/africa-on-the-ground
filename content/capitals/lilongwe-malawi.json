@@ -3,10 +3,274 @@
   "status": "draft",
   "country": "MWI",
   "name": "Lilongwe",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Lilongwe, capital of Malawi: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 989,318 people live in Lilongwe city (counted 2018).",
+      "cite": [
+        "cap-cms-nsomalawi-mw-ec798f"
+      ]
+    },
+    {
+      "text": "Lilongwe is named after the river that runs through the city and has been an administrative centre since 1904.",
+      "cite": [
+        "cap-african-cities-org-a6804c"
+      ]
+    },
+    {
+      "text": "Its importance as an agricultural market centre grew in the 1920s, linked to a tobacco industry in its hinterland and its position at a road junction.",
+      "cite": [
+        "cap-african-cities-org-a6804c"
+      ]
+    }
+  ],
+  "places": [
+    "lilongwe-wildlife-centre",
+    "malawi-parliament",
+    "kamuzu-mausoleum",
+    "lilongwe-open-markets"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Lilongwe in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lilongwe is named after the river that runs through the city and has been an administrative centre since 1904.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Its importance as an agricultural market centre grew in the 1920s, linked to a tobacco industry in its hinterland and its position at a road junction.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Malawi became independent in 1964 with Hastings Banda as first prime minister.",
+              "cite": [
+                "cap-ebsco-com-7897b8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The government decided in 1965 to move the capital from Zomba to Lilongwe, one year after independence, but the move was not completed until 1975.",
+              "cite": [
+                "cap-african-cities-org-3f1628"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Construction of Capital Hill, the site of central government, began in 1969; the first master plan (1968) was prepared with South African planners and envisaged a garden city.",
+              "cite": [
+                "cap-african-cities-org-3f1628"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The zoning scheme divides the city into four sectors: Old Town, Capital Hill, Kanengo and Lumbadzi.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "989,318",
+              "label": "people in Lilongwe city, 2018",
+              "cite": [
+                "cap-cms-nsomalawi-mw-ec798f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Lilongwe city?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 989318,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "989,318 in 2018, according to the figures compiled from the national statistics office. Which area is counted matters: Persons enumerated in Lilongwe City in the 2018 Population and Housing Census (conducted September 2018); area given as 403.3 km2 in the NSO density table; 17,563,749 enumerated nationally.",
+              "cite": [
+                "cap-cms-nsomalawi-mw-ec798f"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "1904",
+              "tag": "origins",
+              "text": "Lilongwe becomes an administrative centre under colonial rule.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            },
+            {
+              "when": "1920s",
+              "tag": "origins",
+              "text": "Lilongwe grows as an agricultural market centre as tobacco farming emerges around it.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            },
+            {
+              "when": "1964",
+              "tag": "origins",
+              "text": "Malawi becomes independent.",
+              "cite": [
+                "cap-ebsco-com-7897b8"
+              ]
+            },
+            {
+              "when": "1965",
+              "tag": "growth",
+              "text": "Government decides to relocate the capital from Zomba to Lilongwe.",
+              "cite": [
+                "cap-african-cities-org-3f1628"
+              ]
+            },
+            {
+              "when": "1969",
+              "tag": "growth",
+              "text": "Construction of Capital Hill begins, after the first master plan of 1968.",
+              "cite": [
+                "cap-african-cities-org-3f1628"
+              ]
+            },
+            {
+              "when": "1975",
+              "tag": "growth",
+              "text": "Lilongwe supersedes Zomba as capital, followed by high population growth in the 1970s and 1980s.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            },
+            {
+              "when": "2010",
+              "tag": "today",
+              "text": "The Parliament Building on Capital Hill is opened, funded by a Chinese grant.",
+              "cite": [
+                "cap-africannewsagency-com-bd7c81"
+              ]
+            },
+            {
+              "when": "2018",
+              "tag": "today",
+              "text": "Census enumerates 989,318 people in Lilongwe City.",
+              "cite": [
+                "cap-cms-nsomalawi-mw-ec798f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Lilongwe in order.",
+          "items": [
+            {
+              "label": "Lilongwe becomes an administrative centre under colonial rule.",
+              "when": "1904",
+              "text": "Lilongwe becomes an administrative centre under colonial rule.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            },
+            {
+              "label": "Malawi becomes independent.",
+              "when": "1964",
+              "text": "Malawi becomes independent.",
+              "cite": [
+                "cap-ebsco-com-7897b8"
+              ]
+            },
+            {
+              "label": "Lilongwe supersedes Zomba as capital, followed by high population growth in…",
+              "when": "1975",
+              "text": "Lilongwe supersedes Zomba as capital, followed by high population growth in the 1970s and 1980s.",
+              "cite": [
+                "cap-african-cities-org-a6804c"
+              ]
+            },
+            {
+              "label": "Census enumerates 989,318 people in Lilongwe City.",
+              "when": "2018",
+              "text": "Census enumerates 989,318 people in Lilongwe City.",
+              "cite": [
+                "cap-cms-nsomalawi-mw-ec798f"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Small trading village on the Lilongwe river: not stated in a readable acceptable source (a 1902 Njewa trading post appeared only in non-acceptable sites)",
+    "Not found in a readable source: Lilongwe Nature Sanctuary as separate place: sources treat the Wildlife Centre as the nature reserve",
+    "Not found in a readable source: Old Town / Area 2 / Central Market named in a readable source: only 'the Lilongwe market' (WIEGO) found",
+    "Not found in a readable source: Lilongwe Museum, Nkhoma Mission, Bunda College: not researched/no source",
+    "Not found in a readable source: Lilongwe City Council and Department of Museums and Monuments pages: not found via search",
+    "Not found in a readable source: Myth: none explicitly stated by a source",
+    "Not found in a readable source: Mausoleum location conflict: M&G 2006 says 'Heroes Acre'; not otherwise confirmed; exact inauguration date only from Commons description (14 May 2006), not a cited source",
+    "Not found in a readable source: Quotes marked from WebFetch summaries (not raw text) for MG, Nation, EBSCO, LWT, IUCN, African State Architecture, ANA: verify verbatim before publishing; NSO, ACRC and WIEGO quotes were checked against extracted PDF text",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Malawi has read this profile yet."
   ]
 }

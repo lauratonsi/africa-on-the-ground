@@ -1,0 +1,522 @@
+{
+ "city": "Asmara",
+ "country": "ERI",
+ "population": {
+  "value": 896000,
+  "year": 2018,
+  "definition": "Estimate for the city (not metropolitan area) for 1 July 2018, attributed on citypopulation.de to the UN World Urbanization Prospects 2018 Revision. Eritrea has had no recent census: the last (1984) is cited as 275,385 for the city on the same page. Other sources differ widely; EBSCO cites a CIA World Factbook estimate of 1.073 million for 2023.",
+  "source": {
+   "title": "Eritrea: major cities (Asmara)",
+   "publisher": "citypopulation.de (figure attributed to UN World Urbanization Prospects: The 2018 Revision)",
+   "author": null,
+   "date": "n.d.",
+   "url": "https://www.citypopulation.de/en/eritrea/cities/",
+   "tier": "institutional",
+   "quote": "The reliability of all population figures for Eritrea is low."
+  }
+ },
+ "facts": [
+  {
+   "claim": "Asmara was founded on the site of four ancient villages, collectively called Arbate Asmara.",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "Asmara was founded on the site where an agglomeration of four ancient villages, ‘Arbate Asmara’, had existed for centuries."
+   }
+  },
+  {
+   "claim": "Asmara's name derives from a legend of women from four villages uniting; the dossier glosses it as 'They (the women) united them (the villages)'. Dates for the legend are traditional, not documented (EBSCO places four Tigrinya tribes at Asmara by the 12th century in traditional legend).",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "Asmara literally means “They (the women) united them (the villages)”."
+   }
+  },
+  {
+   "claim": "Italian forces occupied Asmara in 1889, and Italy moved its colonial capital there from Massawa in 1900. (EBSCO instead says Asmara became the colonial empire's cultural capital in 1897: sources differ.)",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "In 1900, Italy moved their colonial capital from Massawa to Asmara"
+   }
+  },
+  {
+   "claim": "Italian-era planning: an urban plan by public works head Odoardo Cavagnari was drafted in 1913 and refined in 1916; the city was then transformed from 1935 to 1941.",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "an urban plan drafted by the city’s head of public works, Odoardo Cavagnari, in 1913 and refined in 1916"
+   }
+  },
+  {
+   "claim": "Eritrea became independent in 1991 after three decades of conflict; Asmara was formally designated capital of the nation in 1993 under the new constitution, per EBSCO.",
+   "source": {
+    "title": "Asmara, Eritrea (Research Starter)",
+    "publisher": "EBSCO Information Services",
+    "author": "Micah Issitt",
+    "date": "2022",
+    "url": "https://www.ebsco.com/research-starters/geography-and-cartography/asmara-eritrea",
+    "tier": "institutional",
+    "quote": "In 1993, the Eritrean government formed a new constitution and Asmara was formally designated as the capital of the nation."
+   }
+  },
+  {
+   "claim": "The Italian-period historic centre, not the whole city, was the area nominated to UNESCO (submitted by Eritrea in January 2016; listed 2017 per other sources, not independently read).",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "In January 2016, the State of Eritrea submitted its first ever application to UNESCO for inscription on the World Heritage List"
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1889",
+   "claim": "Italians arrive in the highlands and occupy Asmara, having been based in Massawa since 1885.",
+   "tag": "origins",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "long before the Italians arrived in the highlands in 1889, having been based in the Red Sea port of Massawa"
+   }
+  },
+  {
+   "when": "1900",
+   "claim": "Italy moves its colonial capital from Massawa to Asmara; Arbate Asmara is relocated northeast to make room for the new urban centre.",
+   "tag": "origins",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "In 1900, Italy moved their colonial capital from Massawa to Asmara"
+   }
+  },
+  {
+   "when": "1911",
+   "claim": "The Massawa to Asmara railway reaches Asmara.",
+   "tag": "growth",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "This extraordinary engineering feat arrived in Asmara, 2,300 metres above sea level, in 1911."
+   }
+  },
+  {
+   "when": "1913",
+   "claim": "Odoardo Cavagnari's urban plan is drafted (refined 1916).",
+   "tag": "growth",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "Odoardo Cavagnari, in 1913 and refined in 1916"
+   }
+  },
+  {
+   "when": "1935-1941",
+   "claim": "Italy's invasion of Ethiopia triggers rapid development of Asmara until the Italians are defeated by Allied forces in 1941.",
+   "tag": "growth",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "Italy’s invasion of Ethiopia in 1935 was the catalyst for Asmara’s rapid and comprehensive development"
+   }
+  },
+  {
+   "when": "1991",
+   "claim": "Eritrean independence follows federation with Ethiopia (1952) and annexation (1962).",
+   "tag": "today",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "led to three decades of conflict that ended in Eritrean independence in 1991."
+   }
+  },
+  {
+   "when": "Mid-1990s onwards",
+   "claim": "The railway track from Massawa to Asmara is re-laid after independence.",
+   "tag": "today",
+   "source": {
+    "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+    "publisher": "University College London (UCL Discovery repository)",
+    "author": "Edward Denison",
+    "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "tier": "academic",
+    "quote": "Since the mid-1990s the entire track from Massawa to Asmara has been re-laid"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Medeber Market (Medebar)",
+   "type": "market",
+   "what": "An open-air workshop market where metalworkers and other artisans turn scrap and discarded materials into household items. Eritrean Ministry of Information articles describe it as a former caravan trade post; whether it lies inside the UNESCO-inscribed perimeter is not confirmed by a readable source.",
+   "facts": [
+    {
+     "label": "Role",
+     "value": "Self-described 'creative workshop of Eritrea'",
+     "source": {
+      "title": "Asmara's Marketplaces: Vibrant Hubs Reflecting Eritrea's Rich Heritage",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": "Luwam Kahsay H.",
+      "date": "2025-05-10 (page shows last updated 2026-06-12)",
+      "url": "https://shabait.com/2025/05/10/asmaras-marketplaces-vibrant-hubs-reflecting-eritreas-rich-heritage/",
+      "tier": "primary",
+      "quote": "Medeber, the self-proclaimed \"creative workshop of Eritrea,\" stands as a powerful testament to ingenuity and sustainability."
+     }
+    },
+    {
+     "label": "Past",
+     "value": "Former caravan trade post",
+     "source": {
+      "title": "Asmara's Marketplaces: Vibrant Hubs Reflecting Eritrea's Rich Heritage",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": "Luwam Kahsay H.",
+      "date": "2025-05-10 (page shows last updated 2026-06-12)",
+      "url": "https://shabait.com/2025/05/10/asmaras-marketplaces-vibrant-hubs-reflecting-eritreas-rich-heritage/",
+      "tier": "primary",
+      "quote": "once a vital caravan trade post, has been transformed into a remarkable space where discarded materials are reborn"
+     }
+    },
+    {
+     "label": "Organisation",
+     "value": "Divided into sections by material or item",
+     "source": {
+      "title": "The Culture of Recycling and Second Hands: The Unknown 'Vintage' Treasure in Asmara",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2015-08-07",
+      "url": "https://shabait.com/2015/08/07/the-culture-of-recycling-and-second-hands-the-unknown-vintage-treasure-in-asmara/",
+      "tier": "primary",
+      "quote": "Medeber is a well-organized place divided in sections according to the type of materials or items created."
+     }
+    },
+    {
+     "label": "Age (state-media claim, single source)",
+     "value": "Recycling area said to date from 1900",
+     "source": {
+      "title": "The Culture of Recycling and Second Hands: The Unknown 'Vintage' Treasure in Asmara",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2015-08-07",
+      "url": "https://shabait.com/2015/08/07/the-culture-of-recycling-and-second-hands-the-unknown-vintage-treasure-in-asmara/",
+      "tier": "primary",
+      "quote": "This recycling area exists since 1900 and its legacy continues today."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Medebar Market, Asmara.jpg",
+    "licence": "CC BY 4.0",
+    "author": "Mheidegger (2024-02-17). Content not visually checked; confirm no people in foreground."
+   },
+   "readSources": [
+    "https://shabait.com/2015/08/07/the-culture-of-recycling-and-second-hands-the-unknown-vintage-treasure-in-asmara/",
+    "https://shabait.com/2025/05/10/asmaras-marketplaces-vibrant-hubs-reflecting-eritreas-rich-heritage/"
+   ]
+  },
+  {
+   "name": "Enda Mariam Orthodox Cathedral (St Mary's)",
+   "type": "site",
+   "what": "The main Eritrean Orthodox cathedral in Asmara, built in 1938 in a modernist idiom that draws on highland building traditions. It stands in the former mixed zone of the Italian-era city, which falls inside the UNESCO-inscribed historic centre (inference from the nomination paper: the paper places the nominated property as the Italian-era centre and describes St Mary's in the mixed zone).",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "1938",
+     "source": {
+      "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+      "publisher": "University College London (UCL Discovery repository)",
+      "author": "Edward Denison",
+      "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+      "tier": "academic",
+      "quote": "the architecture of St Mary’s Orthodox Cathedral, built in 1938."
+     }
+    },
+    {
+     "label": "Design",
+     "value": "Rationalist/modernist design acknowledging highland vernacular",
+     "source": {
+      "title": "Modernist architecture in Asmara, Eritrea (event page)",
+      "publisher": "Africa Research Institute",
+      "author": null,
+      "date": "2015-09-30 (event date; presenter Dr Edward Denison)",
+      "url": "https://africaresearchinstitute.org/events/9-september-event-modernist-architecture-in-asmara-eritrea",
+      "tier": "institutional",
+      "quote": "is a unique example of rationalist/ modernist design acknowledging highland vernacular architecture"
+     }
+    },
+    {
+     "label": "Technique",
+     "value": "Wooden dowels binding the walls, a long-standing highland method",
+     "source": {
+      "title": "Modernist architecture in Asmara, Eritrea (event page)",
+      "publisher": "Africa Research Institute",
+      "author": null,
+      "date": "2015-09-30 (event date; presenter Dr Edward Denison)",
+      "url": "https://africaresearchinstitute.org/events/9-september-event-modernist-architecture-in-asmara-eritrea",
+      "tier": "institutional",
+      "quote": "using wooden dowels to bind the walls, had been used for centuries in the highlands of Eritrea"
+     }
+    },
+    {
+     "label": "Setting",
+     "value": "Native church of Arbate Asmara in the mixed zone around the market",
+     "source": {
+      "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+      "publisher": "University College London (UCL Discovery repository)",
+      "author": "Edward Denison",
+      "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+      "tier": "academic",
+      "quote": "home to the native Orthodox Christian and Muslim communities concentrated respectively around Arbate Asmara’s native church of St Mary’s"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Nda Mariam Asmara 1.JPG",
+    "licence": "CC0 1.0",
+    "author": "Reinhard Dietrich (2011-10-01). Content not visually checked."
+   },
+   "readSources": [
+    "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+    "https://africaresearchinstitute.org/events/9-september-event-modernist-architecture-in-asmara-eritrea"
+   ]
+  },
+  {
+   "name": "Eritrean Railway (Asmara to Massawa line)",
+   "type": "culture",
+   "what": "A narrow-gauge line built under Italian rule that climbs from the Red Sea coast to the highland capital. It was damaged and abandoned in the 1970s war years and rehabilitated after independence by veteran railway workers; the line as a whole runs outside the inscribed perimeter, station location not verified.",
+   "facts": [
+    {
+     "label": "Reached Asmara",
+     "value": "1911",
+     "source": {
+      "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+      "publisher": "University College London (UCL Discovery repository)",
+      "author": "Edward Denison",
+      "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+      "tier": "academic",
+      "quote": "This extraordinary engineering feat arrived in Asmara, 2,300 metres above sea level, in 1911."
+     }
+    },
+    {
+     "label": "Construction start",
+     "value": "1888",
+     "source": {
+      "title": "TRANSPORT: Eritrea's Railway Rising from the Dead",
+      "publisher": "Inter Press Service (IPS)",
+      "author": "Jennie Street",
+      "date": "2001-09-25",
+      "url": "https://www.ipsnews.net/?p=77392",
+      "tier": "press",
+      "quote": "The Italian colonisers began to build the Eritrean railway in 1888."
+     }
+    },
+    {
+     "label": "Abandonment",
+     "value": "After 1974",
+     "source": {
+      "title": "TRANSPORT: Eritrea's Railway Rising from the Dead",
+      "publisher": "Inter Press Service (IPS)",
+      "author": "Jennie Street",
+      "date": "2001-09-25",
+      "url": "https://www.ipsnews.net/?p=77392",
+      "tier": "press",
+      "quote": "was abandoned when Ethiopia's military government came to power in 1974."
+     }
+    },
+    {
+     "label": "Revival",
+     "value": "Veteran workers led rehabilitation",
+     "source": {
+      "title": "TRANSPORT: Eritrea's Railway Rising from the Dead",
+      "publisher": "Inter Press Service (IPS)",
+      "author": "Jennie Street",
+      "date": "2001-09-25",
+      "url": "https://www.ipsnews.net/?p=77392",
+      "tier": "press",
+      "quote": "These veterans are spearheading the rehabilitation of the railway."
+     }
+    },
+    {
+     "label": "Rebuilding",
+     "value": "Track re-laid since mid-1990s",
+     "source": {
+      "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+      "publisher": "University College London (UCL Discovery repository)",
+      "author": "Edward Denison",
+      "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+      "tier": "academic",
+      "quote": "Since the mid-1990s the entire track from Massawa to Asmara has been re-laid"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Asmara Train Station.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Martin Schibbye (2017-11-14). Station building; content not visually checked."
+   },
+   "readSources": [
+    "https://www.ipsnews.net/?p=77392",
+    "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf"
+   ]
+  },
+  {
+   "name": "National Museum of Eritrea",
+   "type": "culture",
+   "what": "Eritrea's national museum, inaugurated in 1992 in Asmara's old government palace. It has paleontological, archaeological, art, natural history, medieval history and ethnography sections. Perimeter status not verified.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "1 February 1992",
+     "source": {
+      "title": "The National Museum of Eritrea",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2011-06-24",
+      "url": "https://shabait.com/2011/06/24/the-national-museum-of-eritrea/",
+      "tier": "primary",
+      "quote": "It was officially inaugurated by Ato Woldeab Welemariam, father if the Eritrean struggle, on February 1, 1992."
+     }
+    },
+    {
+     "label": "Building",
+     "value": "Former government palace",
+     "source": {
+      "title": "The National Museum of Eritrea",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2011-06-24",
+      "url": "https://shabait.com/2011/06/24/the-national-museum-of-eritrea/",
+      "tier": "primary",
+      "quote": "the old government palace in Asmara, was turned into the National Museum of Eritrea."
+     }
+    },
+    {
+     "label": "Sections",
+     "value": "Paleontology, archaeology, art, etc.",
+     "source": {
+      "title": "The National Museum of Eritrea",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2011-06-24",
+      "url": "https://shabait.com/2011/06/24/the-national-museum-of-eritrea/",
+      "tier": "primary",
+      "quote": "The National Museum has different sections, including the paleontological, archaeological, art gallery"
+     }
+    },
+    {
+     "label": "Notable find",
+     "value": "'Buya Woman' skull, about one million years old",
+     "source": {
+      "title": "The National Museum of Eritrea",
+      "publisher": "Eritrea Ministry of Information (shabait.com)",
+      "author": null,
+      "date": "2011-06-24",
+      "url": "https://shabait.com/2011/06/24/the-national-museum-of-eritrea/",
+      "tier": "primary",
+      "quote": "a well- preserved human skull, the \"Buya- Woman\", dating about one million years"
+     }
+    },
+    {
+     "label": "Building (EBSCO)",
+     "value": "Former residence of colonial governors",
+     "source": {
+      "title": "Asmara, Eritrea (Research Starter)",
+      "publisher": "EBSCO Information Services",
+      "author": "Micah Issitt",
+      "date": "2022",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/asmara-eritrea",
+      "tier": "institutional",
+      "quote": "The former residence of the colonial governors has been converted into the National Museum of Eritrea."
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Asmara, museo nazionale, ingresso.JPG",
+    "licence": "CC BY-SA 3.0 / GFDL (dual)",
+    "author": "Sailko (2015-11-24). Entrance; content not visually checked."
+   },
+   "readSources": [
+    "https://shabait.com/2011/06/24/the-national-museum-of-eritrea/",
+    "https://www.ebsco.com/research-starters/geography-and-cartography/asmara-eritrea"
+   ]
+  }
+ ],
+ "myth": {
+  "claim": "Asmara's celebrated modernist city is often told as purely an Italian creation.",
+  "truth": "The nomination paper notes that less is said about the construction, which was carried out by Eritrean labourers.",
+  "source": {
+   "title": "UNESCO World Heritage Nomination: Asmara – Africa's Modernist City",
+   "publisher": "University College London (UCL Discovery repository)",
+   "author": "Edward Denison",
+   "date": "2018 (PDF metadata; summarises the Jan 2016 nomination dossier)",
+   "url": "https://discovery.ucl.ac.uk/id/eprint/10047398/3/Denison_Asmara%20-%20nomination%20dossier%20for%20RIBA%20president%27s%20award.pdf",
+   "tier": "academic",
+   "quote": "construction, which was carried out by Eritrean labourers who dug trenches for water and sewage pipes"
+  }
+ },
+ "unreadable": [
+  "https://blackpast.org/global-african-history/asmara-eritrea-ca-d-1000 - 403",
+  "https://www.atlasobscura.com/places/medeber-market - 403",
+  "https://archnet.org/authorities/3517 - 429",
+  "https://www.researchgate.net/publication/290893614_Da_campo_militare_a_capitale_Asmara_colonia_italiana_e_oltre - 403",
+  "https://whc.unesco.org/en/urban-heritage-atlas/asmara/ - 403",
+  "https://www.ucl.ac.uk/impact/case-studies/2022/apr/helping-secure-asmaras-unesco-world-heritage-status - 403",
+  "http://www.shabait.com/categoryblog/939-the-asmara-cathedral-an-architectural-wander - 404"
+ ],
+ "notNotFound": [
+  "Great Mosque, Cinema Impero, Opera House, Fiat Tagliero: no readable acceptable source with detail (mosque only passingly in Denison and EBSCO)",
+  "2017 UNESCO inscription date from a non-UNESCO readable source",
+  "Whether Medeber, the museum and the railway station lie inside the UNESCO perimeter",
+  "Official recent population figure (no census since 1984)",
+  "Commons photos not visually inspected for people in foreground",
+  "Founding date of the museum's Comboni-school move (only Wikipedia-derived; not used)"
+ ]
+}

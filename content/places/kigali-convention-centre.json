@@ -1,0 +1,52 @@
+{
+  "slug": "kigali-convention-centre",
+  "status": "draft",
+  "type": "site",
+  "country": "RWA",
+  "name": "Kigali Convention Centre",
+  "region": "Kigali · Rwanda",
+  "subtitle": "Rwanda's flagship venue for meetings, conferences and exhibitions, opened in 2016.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Flagship venue for conferences and exhibitions",
+      "cite": [
+        "cap-allafrica-com-ef62cb"
+      ]
+    },
+    {
+      "label": "First event",
+      "value": "2016 African Union Summit, days after opening",
+      "cite": [
+        "cap-allafrica-com-ef62cb"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Rwanda's flagship venue for meetings, conferences and exhibitions, opened in 2016. It hosted the African Union Summit days after opening.",
+              "cite": [
+                "cap-allafrica-com-ef62cb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

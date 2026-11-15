@@ -3,10 +3,183 @@
   "status": "draft",
   "country": "MRT",
   "name": "Nouakchott",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Nouakchott, capital of Mauritania: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "Nouakchott counted 1,446,761 residents in the 2023 census across its three wilayas (Nord, Ouest, Sud).",
+      "cite": [
+        "cap-citypopulation-de-mauritania-2023"
+      ]
+    },
+    {
+      "text": "Selected in 1957 by Moktar Ould Daddah to become the capital of independent Mauritania, transforming from a windswept fishing post of barely a few hundred people.",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    },
+    {
+      "text": "The Port de Pêche beach wharf and the Musée National showcase Mauritania's maritime Atlantic energy and deep Saharan nomadic memory.",
+      "cite": [
+        "cap-musee-national-mauritania"
+      ]
+    }
+  ],
+  "places": [
+    "ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata",
+    "port-de-peche-nouakchott",
+    "musee-national-de-nouakchott",
+    "mosquee-saoudienne-de-nouakchott"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Nouakchott in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nouakchott (from the Berber Inukchud, meaning 'place of the winds') was selected in 1957 by founding father Moktar Ould Daddah as the future capital of sovereign Mauritania, transferring government administration from Saint-Louis in Senegal.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "During the severe Sahelian droughts of the 1970s and 1980s, massive nomadic sedentarization triggered explosive urban growth, transforming the former desert outpost into a thriving metropolitan center on the Atlantic coast.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Today, Nouakchott is organized into three regional wilayas (Nouakchott-Nord, Nouakchott-Ouest, Nouakchott-Sud) comprising nine communes, blending modern governance with ancestral Saharan and coastal traditions.",
+              "cite": [
+                "cap-citypopulation-de-mauritania-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1,446,761",
+              "label": "residents in Nouakchott across 3 wilayas, 2023",
+              "cite": [
+                "cap-citypopulation-de-mauritania-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people lived in Nouakchott in the 2023 census?",
+          "min": 500000,
+          "max": 2500000,
+          "step": 25000,
+          "unit": "",
+          "answer": 1446761,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "1,446,761 residents across the three wilayas in the December 2023 census by ANSADE Mauritanie.",
+              "cite": [
+                "cap-citypopulation-de-mauritania-2023"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Moments in history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1957",
+              "text": "Choice of Nouakchott as the site for the capital of independent Mauritania.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "when": "1960",
+              "text": "Mauritania proclaims independence on 28 November 1960 under President Moktar Ould Daddah.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "when": "1972",
+              "text": "Establishment of the Musée National de Nouakchott to conserve Saharan prehistoric and nomadic heritage.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "when": "2014",
+              "text": "Nouakchott is reorganized administratively into three distinct wilayas across nine urban communes.",
+              "cite": [
+                "cap-citypopulation-de-mauritania-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Nouakchott in order.",
+          "items": [
+            {
+              "label": "Nouakchott is chosen as the future capital of independent Mauritania.",
+              "when": "1957",
+              "text": "Nouakchott is chosen as the future capital of independent Mauritania.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "label": "Mauritania proclaims national independence under Moktar Ould Daddah.",
+              "when": "1960",
+              "text": "Mauritania proclaims national independence under Moktar Ould Daddah.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "label": "The Musée National de Nouakchott is founded in the Maison de la Culture.",
+              "when": "1972",
+              "text": "The Musée National de Nouakchott is founded in the Maison de la Culture.",
+              "cite": [
+                "cap-musee-national-mauritania"
+              ]
+            },
+            {
+              "label": "Nouakchott is reorganized into three regional wilayas across nine communes.",
+              "when": "2014",
+              "text": "Nouakchott is reorganized into three regional wilayas across nine communes.",
+              "cite": [
+                "cap-citypopulation-de-mauritania-2023"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
   ]
 }

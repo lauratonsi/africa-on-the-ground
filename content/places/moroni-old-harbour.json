@@ -1,0 +1,69 @@
+{
+  "slug": "moroni-old-harbour",
+  "status": "draft",
+  "type": "site",
+  "country": "COM",
+  "name": "Old harbour (dhow port of Kalaweni)",
+  "region": "Moroni · Comoros",
+  "subtitle": "The old harbour lies opposite the Friday Mosque and is the former dhow port of Kalaweni.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "Former dhow port of Kalaweni, opposite the Grand Mosque (AFP photo caption)",
+      "cite": [
+        "cap-gulf-times-com-eeace8"
+      ]
+    },
+    {
+      "label": "Trade",
+      "value": "The Comoros were a crossroads of maritime trade",
+      "cite": [
+        "cap-gulf-times-com-eeace8"
+      ]
+    },
+    {
+      "label": "Modern role",
+      "value": "Moroni is one of the main ports of the islands",
+      "cite": [
+        "cap-ebsco-com-bd6a75"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The old harbour lies opposite the Friday Mosque and is the former dhow port of Kalaweni. Moroni was for centuries a stop on Indian Ocean sea trade.",
+              "cite": [
+                "cap-gulf-times-com-eeace8",
+                "cap-ebsco-com-bd6a75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "moroni-old-harbour",
+    "alt": "Boats in the old harbour of Moroni, with the town below the slopes of Mount Karthala.",
+    "caption": "The old harbour of Moroni.",
+    "credit": "Woodlouse",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Moroni-Harbour.jpg"
+  }
+}

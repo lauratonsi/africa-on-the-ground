@@ -1,0 +1,59 @@
+{
+  "slug": "munda-wanga-environmental-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "ZMB",
+  "name": "Munda Wanga Environmental Park",
+  "region": "Lusaka · Zambia",
+  "subtitle": "A botanical garden south of Lusaka, begun in 1950 by a colonial official who named it 'My Garden' in Nyanja.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1950, by Ralph Sander",
+      "cite": [
+        "cap-researchportal-bath-ac-uk-be8770"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Translates as 'My Garden' in Nyanja",
+      "cite": [
+        "cap-researchportal-bath-ac-uk-be8770"
+      ]
+    },
+    {
+      "label": "Sale to the state",
+      "value": "Sander died in 1978 after selling the estate to the Government",
+      "cite": [
+        "cap-researchportal-bath-ac-uk-be8770"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A botanical garden south of Lusaka, begun in 1950 by a colonial official who named it 'My Garden' in Nyanja. It was later sold to the government.",
+              "cite": [
+                "cap-researchportal-bath-ac-uk-be8770"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

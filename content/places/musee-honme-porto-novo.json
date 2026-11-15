@@ -1,0 +1,59 @@
+{
+  "slug": "musee-honme-porto-novo",
+  "status": "draft",
+  "type": "culture",
+  "country": "BEN",
+  "name": "Musée Honmè (Palais Royal de Hogbonou)",
+  "region": "Porto-Novo · Benin",
+  "subtitle": "Historic palace of the kings of Porto-Novo preserving royal courtyards, altars, and the diplomatic legacy of King Toffa I.",
+  "facts": [
+    {
+      "label": "Original name",
+      "value": "Honmè ('inside the palace' in the Gun language)",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    },
+    {
+      "label": "Key monarch",
+      "value": "King Toffa I (reigned late 19th century)",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    },
+    {
+      "label": "Layout",
+      "value": "Traditional earthen compound with multiple shaded courtyards, ceremonial halls, and ancestral tombs",
+      "cite": [
+        "cap-unesco-honme-museum"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The ancestral royal palace of the kingdom of Hogbonou, transformed into a national museum in downtown Porto-Novo. Known locally as Honmè ('inside the home'), this sprawling mudbrick palace compound illustrates the living court traditions of the Gun royalty. Visitors walk through labyrinthine interior courtyards, reception halls where King Toffa I received European envoys, ceremonial royal carriages, ancestral shrines, and rooms documenting the complex court etiquette of queens and high dignitaries.",
+              "cite": [
+                "cap-unesco-honme-museum"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Digital archives of royal diplomatic correspondence between King Toffa and French authorities are held in overseas archives.",
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

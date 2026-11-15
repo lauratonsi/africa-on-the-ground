@@ -1,0 +1,61 @@
+{
+  "slug": "mogadishu-cathedral-ruins",
+  "status": "draft",
+  "type": "site",
+  "country": "SOM",
+  "name": "Mogadishu Cathedral (ruins)",
+  "region": "Mogadishu · Somalia",
+  "subtitle": "An Italian colonial-era cathedral completed in 1928, now a roofless ruin.",
+  "facts": [
+    {
+      "label": "Ruin",
+      "value": "Broken walls and roofless nave symbolise civil-war devastation",
+      "cite": [
+        "cap-africasacountry-com-475412"
+      ]
+    },
+    {
+      "label": "Future",
+      "value": "Debate on reuse; local perspectives needed",
+      "cite": [
+        "cap-africasacountry-com-475412"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "An Italian colonial-era cathedral completed in 1928, now a roofless ruin. Its future is debated by Somalis; handle with care as a colonial-era and war-damaged site.",
+              "cite": [
+                "cap-africasacountry-com-475412"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "mogadishu-cathedral-ruins",
+    "alt": "Photograph of Mogadishu Cathedral (ruins).",
+    "caption": "Mogadishu Cathedral (ruins).",
+    "credit": "Dan Sloan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Cattedrale_di_Mogadiscio_2023.jpg"
+  }
+}

@@ -1,14 +1,213 @@
 {
   "slug": "ugali-with-sukuma-wiki-kenya",
-  "status": "draft",
+  "status": "published",
   "type": "dish",
   "country": "KEN",
   "name": "Ugali with sukuma wiki",
   "region": "Kenya",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "The daily foundation of Kenyan life: a steaming mound of stiff white cornmeal paired with finely shredded collard greens sautéed with onions.",
+  "facts": [
+    {
+      "label": "Kind",
+      "value": "Stiff cornmeal porridge with braised greens",
+      "cite": [
+        "kenyatourism-ugali"
+      ]
+    },
+    {
+      "label": "Name meaning",
+      "value": "Sukuma wiki means 'push the week' or 'stretch the week' in Swahili",
+      "cite": [
+        "kenyatourism-ugali"
+      ]
+    },
+    {
+      "label": "Cooking utensil",
+      "value": "Mwiko, a flat wooden cooking spoon",
+      "cite": [
+        "kenyatourism-ugali"
+      ]
+    },
+    {
+      "label": "Greens variety",
+      "value": "Collard greens or kale (Brassica oleracea)",
+      "cite": [
+        "fao-kenya-food-systems"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ugali is the undisputed staple of Kenya, eaten across ethnic communities from the shores of Lake Victoria to the Indian Ocean coast.",
+              "cite": [
+                "kenyatourism-ugali"
+              ]
+            },
+            {
+              "text": " It is made by gradually whisking coarse white cornmeal (unga wa mahindi) into boiling water, vigorously mashing and pressing the dough against the sides of the pot with a wooden paddle (mwiko) until it forms a dense, smooth, cohesive mound that pulls away from the metal.",
+              "cite": [
+                "kenyatourism-ugali"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is virtually always accompanied by sukuma wiki: hearty collard greens finely shredded into thin ribbons and rapidly sautéed with sweet red onions, ripe tomatoes, vegetable oil, and salt.",
+              "cite": [
+                "fao-kenya-food-systems"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The hot ugali is turned out onto a plate as a smooth dome.",
+              "cite": [
+                "kenyatourism-ugali"
+              ]
+            },
+            {
+              "text": " Diners use the fingers of their right hand to pinch off a golf-ball-sized portion, knead it briefly in the palm to form a ball, press an indentation into it with the thumb, and use that edible spoon to scoop up the savory sukuma wiki, stew gravy, or grilled goat meat (nyama choma).",
+              "cite": [
+                "kenyatourism-ugali"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "Stretching the week",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The phrase 'sukuma wiki' carries deep social significance: in Swahili, 'sukuma' means to push and 'wiki' means week.",
+              "cite": [
+                "kenyatourism-ugali"
+              ]
+            },
+            {
+              "text": " Because collard greens grow rapidly year-round in kitchen gardens and are inexpensive in urban open-air markets, the vegetable was celebrated by working families as the food that 'pushes the week' forward until payday arrives.",
+              "cite": [
+                "kenyatourism-ugali",
+                "fao-kenya-food-systems"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Kenyan Ugali & Sukuma Wiki",
+          "servings": 4,
+          "sub": "Everyday preparation as detailed by Kenya Tourism culinary archives and FAO food systems study.",
+          "cite": [
+            "kenyatourism-ugali",
+            "fao-kenya-food-systems"
+          ],
+          "note": "Use white maize meal for traditional flavor and firm texture; keep collards slightly crisp rather than boiling into mush.",
+          "ingredients": [
+            {
+              "name": "coarse white cornmeal (unga wa mahindi)",
+              "amount": 350,
+              "unit": "g"
+            },
+            {
+              "name": "water, brought to an active rolling boil",
+              "amount": 750,
+              "unit": "ml"
+            },
+            {
+              "name": "fresh collard greens (kale or sukuma wiki), washed and sliced very thin",
+              "amount": 500,
+              "unit": "g"
+            },
+            {
+              "name": "red onion, finely diced",
+              "amount": 1,
+              "unit": "large"
+            },
+            {
+              "name": "ripe plum tomatoes, finely chopped",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "vegetable oil",
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            {
+              "name": "fine sea salt",
+              "amount": 1,
+              "unit": "tsp"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Bring water to a vigorous boil in a heavy cooking pot over high heat.",
+              "minutes": 6
+            },
+            {
+              "text": "Slowly pour in half the cornmeal, stirring continuously with a wooden spoon (mwiko) as a thin porridge forms.",
+              "minutes": 2
+            },
+            {
+              "text": "Gradually add the remaining flour while pressing and paddling the mixture against the sides of the pot to eliminate lumps.",
+              "minutes": 5
+            },
+            {
+              "text": "Reduce heat to low, gather the dough into a center mound, cover the pot with a lid, and let it steam through until a toasted aroma appears.",
+              "minutes": 6
+            },
+            {
+              "text": "In a separate pan, heat vegetable oil, sauté the diced red onions until golden, then add chopped tomatoes until soft.",
+              "minutes": 5
+            },
+            {
+              "text": "Add the finely sliced collard greens and salt, tossing rapidly over high heat until wilted and bright green, retaining a gentle crunch.",
+              "minutes": 4
+            },
+            {
+              "text": "Invert the ugali onto a plate, slice into wedges, and serve alongside the steaming sukuma wiki.",
+              "minutes": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "Nutritional debates comparing traditional stone-ground whole maize flour (unga wa kisiagi, high in fiber and germ) with industrialized sifted white flour (unga wa duka) in urban clinics.",
+    "The historical regional shift from indigenous sorghum and finger millet ugali to white cornmeal following British colonial agricultural marketing boards in the 1920s."
   ]
 }

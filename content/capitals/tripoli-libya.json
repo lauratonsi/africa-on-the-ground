@@ -139,14 +139,6 @@
               ]
             },
             {
-              "when": "1551",
-              "tag": "origins",
-              "text": "Ottoman naval commanders Turgut Reis and Sinan Pasha capture Tripoli.",
-              "cite": [
-                "cap-mwnf-assaraya-al-hamra"
-              ]
-            },
-            {
               "when": "1711",
               "tag": "origins",
               "text": "Ahmad Karamanli founds the autonomous Karamanli dynasty ruling Tripoli.",
@@ -163,27 +155,11 @@
               ]
             },
             {
-              "when": "1919",
-              "tag": "growth",
-              "text": "Assaraya Al-Hamra (Red Castle) is converted into Libya's first national archaeological museum.",
-              "cite": [
-                "cap-mwnf-assaraya-al-hamra"
-              ]
-            },
-            {
               "when": "1951-12-24",
               "tag": "growth",
               "text": "Libyan independence is proclaimed under King Idris I; Tripoli becomes co-capital.",
               "cite": [
                 "cap-unesco-libya-tentative"
-              ]
-            },
-            {
-              "when": "2011-08",
-              "tag": "today",
-              "text": "Martyrs' Square becomes the symbolic center of the Libyan revolution in the capital.",
-              "cite": [
-                "cap-mwnf-assaraya-al-hamra"
               ]
             }
           ]
@@ -209,14 +185,6 @@
               ]
             },
             {
-              "label": "Ottoman forces under Turgut Reis capture Tripoli.",
-              "when": "1551",
-              "text": "Ottoman forces under Turgut Reis capture Tripoli.",
-              "cite": [
-                "cap-mwnf-assaraya-al-hamra"
-              ]
-            },
-            {
               "label": "Libyan independence is proclaimed; Tripoli becomes co-capital.",
               "when": "1951",
               "text": "Libyan independence is proclaimed; Tripoli becomes co-capital.",
@@ -232,6 +200,7 @@
   "gaps": [
     "Absence of official census data after 2006: political fragmentation since 2011 prevented the conduct of a new nationwide census, leaving figures reliant on the 2006 census of 1.06M in the district.",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
-    "No one from Libya has read this profile yet."
+    "No one from Libya has read this profile yet.",
+    "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
   ]
 }

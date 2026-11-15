@@ -3,10 +3,264 @@
   "status": "draft",
   "country": "TZA",
   "name": "Dodoma",
-  "subtitle": "Capital profile in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Dodoma, capital of Tanzania: its numbers, a short history and places to see beyond the World Heritage list.",
+  "keyPoints": [
+    {
+      "text": "About 765,179 people live in Dodoma City (counted 2022).",
+      "cite": [
+        "cap-citypopulation-de-6a3b73"
+      ]
+    },
+    {
+      "text": "Before the 20th century the site held a small settlement of some Gogo clans; by 1907 the Germans had built a central railroad there.",
+      "cite": [
+        "cap-ebsco-com-99c45a"
+      ]
+    },
+    {
+      "text": "Dodoma became the capital after a 1973 decision to move the seat from Dar es Salaam; its central location and more comfortable climate drew officials.",
+      "cite": [
+        "cap-ebsco-com-99c45a"
+      ]
+    }
+  ],
+  "places": [
+    "job-ndugai-central-market",
+    "bunge-parliament-complex",
+    "chamwino-state-house-ikulu",
+    "university-of-dodoma",
+    "dodoma-vineyards-and-wine"
+  ],
+  "sections": [
+    {
+      "id": "city",
+      "title": "Dodoma in brief",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Before the 20th century the site held a small settlement of some Gogo clans; by 1907 the Germans had built a central railroad there.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dodoma became the capital after a 1973 decision to move the seat from Dar es Salaam; its central location and more comfortable climate drew officials.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The 1973 plan, approved by the party conference, expected a ten-year move but it took roughly fifty years; real progress came under President Magufuli.",
+              "cite": [
+                "cap-thecitizen-co-tz-d26f3e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dodoma is the political and administrative capital; Dar es Salaam remains the economic and cultural hub.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Moving the capital was argued to be more economically viable than restructuring Dar es Salaam.",
+              "cite": [
+                "cap-thecitizen-co-tz-d26f3e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "765,179",
+              "label": "people in Dodoma City, 2022",
+              "cite": [
+                "cap-citypopulation-de-6a3b73"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "About how many people do you think live in Dodoma City?",
+          "min": 0,
+          "max": 3000000,
+          "step": 20000,
+          "unit": "",
+          "answer": 765179,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "765,179 in 2022, according to the figures compiled from the national statistics office. Which area is counted matters: Dodoma City, 2022 Population and Housing Census (held 23 Aug to 4 Sep 2022, NBS).",
+              "cite": [
+                "cap-citypopulation-de-6a3b73"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "A short history",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tags": [
+            {
+              "id": "growth",
+              "label": "Growth"
+            },
+            {
+              "id": "origins",
+              "label": "Origins"
+            },
+            {
+              "id": "today",
+              "label": "Today"
+            }
+          ],
+          "items": [
+            {
+              "when": "By 1907",
+              "tag": "origins",
+              "text": "Germans had built a central railroad through Dodoma.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            },
+            {
+              "when": "1959",
+              "tag": "origins",
+              "text": "A Legislative Council debate judged Dodoma ideal for the capital, but the idea was shelved over cost.",
+              "cite": [
+                "cap-thecitizen-co-tz-d26f3e"
+              ]
+            },
+            {
+              "when": "1973",
+              "tag": "growth",
+              "text": "TANU decided on full relocation to Dodoma within 10 years (declared August 1973; conference approval October 1973).",
+              "cite": [
+                "cap-dailynews-co-tz-64dbc1"
+              ]
+            },
+            {
+              "when": "1996",
+              "tag": "growth",
+              "text": "Parliament moved to Dodoma, but the transfer stalled for lack of offices.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            },
+            {
+              "when": "2017",
+              "tag": "growth",
+              "text": "President Magufuli ordered a full, immediate move to Dodoma.",
+              "cite": [
+                "cap-thecitizen-co-tz-63864a"
+              ]
+            },
+            {
+              "when": "2020",
+              "tag": "today",
+              "text": "Early 2020: Job Ndugai Market officially began operations.",
+              "cite": [
+                "cap-thecitizen-co-tz-f599ab"
+              ]
+            },
+            {
+              "when": "20 May 2023",
+              "tag": "today",
+              "text": "New State House at Chamwino, Dodoma inaugurated.",
+              "cite": [
+                "cap-dailynews-co-tz-95d086"
+              ]
+            },
+            {
+              "when": "2022",
+              "tag": "today",
+              "text": "Census recorded Dodoma City at 765,179.",
+              "cite": [
+                "cap-citypopulation-de-6a3b73"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Put four moments in the history of Dodoma in order.",
+          "items": [
+            {
+              "label": "Germans had built a central railroad through Dodoma.",
+              "when": "By 1907",
+              "text": "Germans had built a central railroad through Dodoma.",
+              "cite": [
+                "cap-ebsco-com-99c45a"
+              ]
+            },
+            {
+              "label": "TANU decided on full relocation to Dodoma within 10 years (declared August…",
+              "when": "1973",
+              "text": "TANU decided on full relocation to Dodoma within 10 years (declared August 1973; conference approval October 1973).",
+              "cite": [
+                "cap-dailynews-co-tz-64dbc1"
+              ]
+            },
+            {
+              "label": "Early 2020: Job Ndugai Market officially began operations.",
+              "when": "2020",
+              "text": "Early 2020: Job Ndugai Market officially began operations.",
+              "cite": [
+                "cap-thecitizen-co-tz-f599ab"
+              ]
+            },
+            {
+              "label": "Census recorded Dodoma City at 765,179.",
+              "when": "2022",
+              "text": "Census recorded Dodoma City at 765,179.",
+              "cite": [
+                "cap-citypopulation-de-6a3b73"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "This city profile has not been researched yet: history, urban life, sources and local voices are still missing."
+    "Not found in a readable source: Readable source for Jamia Mosque, St Peter's Cathedral (no such cathedral found), Nyerere Square, Gogo cultural centre, Chamwino Memorial Museum",
+    "Not found in a readable source: Official NBS table defining the Dodoma City population unit",
+    "Not found in a readable source: Explicit source naming Dar es Salaam as commercial capital in the same article as 'Dodoma is capital' beyond EBSCO 'economic and cultural hub'",
+    "Not found in a readable source: Photos for Bunge, State House, wine (not checked/found)",
+    "Not found in a readable source: Explicit myth correction",
+    "Note: EBSCO gives 262,000 for 2018 (conflicts with 2022 city figure; different unit/definition likely)",
+    "Not found in a readable source: One press article attributes Dodoma's designation to a 'public referendum' (not verified; not used)",
+    "Not found in a readable source: Sources differ: TANU decision Aug 1973 (Daily News) vs Oct 1973 conference (Citizen)",
+    "The places are a first selection, not a complete list; the sources behind each one are on its card.",
+    "No one from Tanzania has read this profile yet."
   ]
 }

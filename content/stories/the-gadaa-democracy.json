@@ -1,0 +1,181 @@
+{
+  "slug": "the-gadaa-democracy",
+  "status": "published",
+  "kind": "history",
+  "title": "The eight-year democracy of the Oromo",
+  "subtitle": "Centuries before modern constitutions, the Gadaa system governed millions of people across the Horn of Africa with strict term limits, generational checks, and female counterweights.",
+  "countries": [
+    "ETH",
+    "KEN"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "generational-order",
+      "title": "Government by generation",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Gadaa system is an indigenous socio-political and democratic system developed by the Oromo people of Ethiopia and northern Kenya.",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            },
+            {
+              "text": " It organizes society into generational classes (luba) that advance together through five successive stages of responsibility over an eight-year cycle.",
+              "cite": [
+                "unesco-ich-gada-01108",
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "8 years",
+              "label": "exact duration of the executive governing term",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            },
+            {
+              "value": "0",
+              "label": "possibility of re-election or term extension",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            },
+            {
+              "value": "2016",
+              "label": "year inscribed on the UNESCO Intangible Cultural Heritage List",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The highest administrative and executive authority is led by an elected president, known as the Abbaa Gadaa.",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            },
+            {
+              "text": " When the eight-year period ends, the entire administration must stand down unconditionally, handing power over to the incoming cohort in a ceremony of public accountability.",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "female-counterweight",
+      "title": "The Siinqee: female legal authority",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "While the executive Gadaa council was staffed primarily by men, Oromo customary constitutional law instituted an autonomous counter-institution exclusively controlled by married women: the Siinqee.",
+              "cite": [
+                "unesco-ich-gada-01108",
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Upon marriage, an Oromo woman receives the Siinqee, a ritual wooden staff that symbolizes her inviolable legal rights and connection to spiritual justice.",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            },
+            {
+              "text": " If a husband abused his wife or if an armed dispute threatened communal peace, women would gather, raising their Siinqee staves in unison and blocking all economic life.",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            },
+            {
+              "text": " Under Gadaa law, no male leader or warrior had the legal power to cross a circle formed by women holding the Siinqee, forcing the men to submit immediately to mediation.",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chaffe-assembly",
+      "title": "The open parliament under the sycamore",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Laws were debated, amended, and ratified at the Chaffe, an open-air public assembly held beneath the shade of sacred sycamore trees (Odaa).",
+              "cite": [
+                "unesco-ich-gada-01108"
+              ]
+            },
+            {
+              "text": " Decisions required broad consensus through prolonged oratorical debate rather than autocratic decree.",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Constitutional longevity",
+          "parts": [
+            {
+              "text": "Anthropologist Asmarom Legesse noted that the Gadaa system represented one of the most complex non-monarchical political architectures in human history, having functioned continuously across diverse ecological zones for over five centuries before the 19th-century expansion of the centralized Ethiopian Empire.",
+              "cite": [
+                "legesse-gada-1973"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Scholars continue to study how local Gadaa councils functioned in southern Borana pastoralist communities compared to agricultural Oromo regions in western and central Ethiopia.",
+    "The historical impact of 19th-century conquest under Emperor Menelik II on the suppression and revival of the Gadaa system is documented differently by imperial chronicles and oral histories."
+  ],
+  "keyPoints": [
+    {
+      "text": "The Oromo Gadaa system governed social, political, and judicial life through rolling eight-year cycles without monarchs or lifetime rulers.",
+      "cite": [
+        "unesco-ich-gada-01108"
+      ]
+    },
+    {
+      "text": "Term limits were absolute: the Abbaa Gadaa and his cabinet had to step down unconditionally at the end of their single eight-year term.",
+      "cite": [
+        "legesse-gada-1973"
+      ]
+    },
+    {
+      "text": "The women's institution of the Siinqee wielded legal veto power and moral intervention against domestic violence and communal war.",
+      "cite": [
+        "unesco-ich-gada-01108"
+      ]
+    }
+  ]
+}

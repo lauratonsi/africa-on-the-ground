@@ -1,0 +1,76 @@
+{
+  "slug": "rwanda-art-museum",
+  "status": "draft",
+  "type": "culture",
+  "country": "RWA",
+  "name": "Rwanda Art Museum",
+  "region": "Kigali · Rwanda",
+  "subtitle": "A museum of contemporary art in Kanombe, about four kilometres from Kigali International Airport, housed in a building once home to two former Rwandan presidents.",
+  "facts": [
+    {
+      "label": "Renaming",
+      "value": "Presidential Palace Museum became Rwanda Art Museum on 18 May 2018",
+      "cite": [
+        "cap-rwandaheritage-gov-rw-e74cb5"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "Described in 2018 as the country's only contemporary art museum",
+      "cite": [
+        "cap-newtimes-co-rw-c97ac0"
+      ]
+    },
+    {
+      "label": "Building",
+      "value": "Historic building, home to two former presidents",
+      "cite": [
+        "cap-newtimes-co-rw-c97ac0"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "Kanombe, about 4 km from the airport",
+      "cite": [
+        "cap-newtimes-co-rw-c97ac0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A museum of contemporary art in Kanombe, about four kilometres from Kigali International Airport, housed in a building once home to two former Rwandan presidents. It was the Presidential Palace Museum until renamed in May 2018.",
+              "cite": [
+                "cap-rwandaheritage-gov-rw-e74cb5",
+                "cap-newtimes-co-rw-c97ac0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "rwanda-art-museum",
+    "alt": "Photograph of Rwanda Art Museum.",
+    "caption": "Rwanda Art Museum.",
+    "credit": "Cnyirahabihirwe12345",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Outside_Presidential_Palace_Museum_Kigali_Rwanda_29.jpg"
+  }
+}

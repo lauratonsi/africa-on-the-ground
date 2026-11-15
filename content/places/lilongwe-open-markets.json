@@ -1,0 +1,66 @@
+{
+  "slug": "lilongwe-open-markets",
+  "status": "draft",
+  "type": "market",
+  "country": "MWI",
+  "name": "Lilongwe open markets (the Lilongwe market)",
+  "region": "Lilongwe · Malawi",
+  "subtitle": "Lilongwe's open markets are the main food source for most residents.",
+  "facts": [
+    {
+      "label": "Number",
+      "value": "41 open markets with 14,468 traders (2017)",
+      "cite": [
+        "cap-wiego-org-7eea9c"
+      ]
+    },
+    {
+      "label": "Reliance",
+      "value": "Over 80 percent of residents use open markets for food",
+      "cite": [
+        "cap-wiego-org-7eea9c"
+      ]
+    },
+    {
+      "label": "Largest",
+      "value": "The Lilongwe market is the largest in the city; traders work in day and evening shifts",
+      "cite": [
+        "cap-wiego-org-7eea9c"
+      ]
+    },
+    {
+      "label": "Newer markets",
+      "value": "Wakawaka and Tsoka grew up informally",
+      "cite": [
+        "cap-wiego-org-7eea9c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lilongwe's open markets are the main food source for most residents. The council reports 41 designated markets, the largest being 'the Lilongwe market'.",
+              "cite": [
+                "cap-wiego-org-7eea9c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

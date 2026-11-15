@@ -1,0 +1,60 @@
+{
+  "slug": "gikomba-market",
+  "status": "draft",
+  "type": "market",
+  "country": "KEN",
+  "name": "Gikomba Market",
+  "region": "Nairobi · Kenya",
+  "subtitle": "A large open-air secondhand clothing market in Nairobi.",
+  "facts": [
+    {
+      "label": "Scale",
+      "value": "Described as the largest secondhand market in East Africa",
+      "cite": [
+        "cap-aljazeera-com-205b12"
+      ]
+    },
+    {
+      "label": "Employment",
+      "value": "About 65,000 people work there (Al Jazeera 2023)",
+      "cite": [
+        "cap-aljazeera-com-205b12"
+      ]
+    },
+    {
+      "label": "Trade",
+      "value": "Shoppers can find branded clothing at low prices (Reuters 2014)",
+      "cite": [
+        "cap-thedailystar-net-d4c11f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "A large open-air secondhand clothing market in Nairobi. Al Jazeera calls it the largest secondhand market in East Africa.",
+              "cite": [
+                "cap-aljazeera-com-205b12",
+                "cap-thedailystar-net-d4c11f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

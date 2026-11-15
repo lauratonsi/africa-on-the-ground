@@ -1,0 +1,61 @@
+{
+  "city": "Accra",
+  "country": "GHA",
+  "population": {
+    "value": 1782150,
+    "year": 2021,
+    "definition": "Population of the historic Accra urban agglomeration (comprising the core Accra Metropolitan District and immediate successor municipal subdivisions covering 199.4 km²) enumerated in the 2021 Population and Housing Census (PHC) conducted by the Ghana Statistical Service (GSS), tabulated via CityPopulation. The restricted Accra Metropolitan District numbered 284,124 residents, while Greater Accra Region as a whole recorded 5,455,692 inhabitants.",
+    "source": {
+      "title": "Ghana: Administrative Division, Regions & Districts (Census 2021)",
+      "publisher": "CityPopulation (credits GSS Ghana)",
+      "author": null,
+      "date": "2021-06-27",
+      "url": "https://www.citypopulation.de/en/ghana/admin/",
+      "tier": "institutional",
+      "quote": "2021-06-27 | Greater Accra Region: 5,455,692; Accra Metropolitan: 284,124; Urban agglomeration: 1,782,150"
+    }
+  },
+  "facts": [
+    {
+      "claim": "Originally a cluster of Ga fishing settlements around coastal European forts (James, Ussher, and Christiansborg), Accra replaced Cape Coast as the capital of the British Gold Coast in 1877.",
+      "source": {
+        "title": "Ghana Museums and Monuments Board: Accra Heritage Sites and Memorials",
+        "publisher": "Ghana Museums and Monuments Board (GMMB)",
+        "author": null,
+        "date": null,
+        "url": "https://www.monumentsandmuseums.gov.gh/",
+        "tier": "institutional",
+        "quote": "Accra made capital of the Gold Coast in 1877"
+      }
+    },
+    {
+      "claim": "Black Star Square (Independence Square) and the Black Star Gate, commissioned by Kwame Nkrumah following Ghana's 1957 independence, form the second largest civic ceremonial square in the world after Tiananmen.",
+      "source": {
+        "title": "Ghana Museums and Monuments Board: Accra Heritage Sites and Memorials",
+        "publisher": "Ghana Museums and Monuments Board (GMMB)",
+        "author": null,
+        "date": null,
+        "url": "https://www.monumentsandmuseums.gov.gh/",
+        "tier": "institutional",
+        "quote": "Black Star Square and Gate commissioned by Nkrumah to celebrate African emancipation"
+      }
+    },
+    {
+      "claim": "Historic Jamestown preserves the 19th-century British Accra heritage, anchored by the iconic 1930s Jamestown Lighthouse and the vibrant Ga coastal fishing harbor.",
+      "source": {
+        "title": "Ghana Museums and Monuments Board: Accra Heritage Sites and Memorials",
+        "publisher": "Ghana Museums and Monuments Board (GMMB)",
+        "author": null,
+        "date": null,
+        "url": "https://www.monumentsandmuseums.gov.gh/",
+        "tier": "institutional",
+        "quote": "Jamestown lighthouse and traditional Ga fishing community"
+      }
+    }
+  ],
+  "gaps": [
+    "Disaggregated socioeconomic data for recent suburban expansions in East Legon and Tema are partially updated.",
+    "First-hand local voices from Ga Mantse traditional palace elders and Jamestown artisanal fishers are missing.",
+    "Cityscape photograph: not yet linked."
+  ]
+}

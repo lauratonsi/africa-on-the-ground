@@ -1,0 +1,58 @@
+{
+  "slug": "grand-marche-de-niamey",
+  "status": "draft",
+  "type": "market",
+  "country": "NER",
+  "name": "Grand Marché de Niamey",
+  "region": "Niamey · Niger",
+  "subtitle": "The primary commercial center of Niger, home to thousands of stalls trading Sahelian textiles, spices, and leathercraft.",
+  "facts": [
+    {
+      "label": "Established",
+      "value": "1950; modernized and rebuilt following a major fire in 1982",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Stalls",
+      "value": "Over 5,000 vendor booths and boutiques",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    },
+    {
+      "label": "Goods",
+      "value": "Sahelian fabrics, Tuareg leatherwork and silver jewelry, local produce, and spices",
+      "cite": [
+        "cap-musee-boubou-hama-niger"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Grand Marché de Niamey is the commercial pulse of Niger. Rebuilt in 1982 with modern covered halls and fire-prevention corridors, the market hosts thousands of traders selling colorful wax fabrics, traditional Tuareg leather cushions, hand-forged silver Agadez crosses, pottery, and spices arriving via caravan routes and Niger River transport.",
+              "cite": [
+                "cap-musee-boubou-hama-niger"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Local voices: none yet.",
+    "Photograph: not yet linked."
+  ]
+}

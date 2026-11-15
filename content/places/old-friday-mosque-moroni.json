@@ -1,0 +1,78 @@
+{
+  "slug": "old-friday-mosque-moroni",
+  "status": "draft",
+  "type": "site",
+  "country": "COM",
+  "name": "Old Friday Mosque (Badjanani Mosque) and the medina",
+  "region": "Moroni · Comoros",
+  "subtitle": "The Old Friday Mosque stands in the medina of Moroni, opposite the old dhow harbour.",
+  "facts": [
+    {
+      "label": "Date",
+      "value": "Built in 830 AH (1427 CE) per Mayotte Hebdo",
+      "cite": [
+        "cap-mayottehebdo-com-ee1429"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Part of Moroni's medina, with a green minaret",
+      "cite": [
+        "cap-gulf-times-com-eeace8"
+      ]
+    },
+    {
+      "label": "Standing",
+      "value": "Called the city's most famous building",
+      "cite": [
+        "cap-ebsco-com-bd6a75"
+      ]
+    },
+    {
+      "label": "Medina",
+      "value": "Medinas of the islands are lived-in historic quarters",
+      "cite": [
+        "cap-allafrica-com-0ff267"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Old Friday Mosque stands in the medina of Moroni, opposite the old dhow harbour. It is described as the most famous building in the city and dated by Mayotte Hebdo to 1427.",
+              "cite": [
+                "cap-mayottehebdo-com-ee1429",
+                "cap-gulf-times-com-eeace8",
+                "cap-ebsco-com-bd6a75",
+                "cap-allafrica-com-0ff267"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ],
+  "image": {
+    "file": "old-friday-mosque-moroni",
+    "alt": "The white Old Friday Mosque beside the harbour wall in Moroni.",
+    "caption": "The Old Friday Mosque seen from the harbour.",
+    "credit": "David Stanley from Nanaimo, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Ancienne_Mosquee_du_Vendredi_(10886895544).jpg"
+  }
+}

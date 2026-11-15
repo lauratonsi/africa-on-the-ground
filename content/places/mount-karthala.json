@@ -1,0 +1,67 @@
+{
+  "slug": "mount-karthala",
+  "status": "draft",
+  "type": "nature",
+  "country": "COM",
+  "name": "Mount Karthala",
+  "region": "Moroni · Comoros",
+  "subtitle": "Karthala is an active shield volcano east of Moroni that makes up most of Grande Comore.",
+  "facts": [
+    {
+      "label": "Size of the volcano",
+      "value": "About two-thirds of the island; summit caldera of 4 x 3 km",
+      "cite": [
+        "cap-meetingorganizer-copernicus-org-cefb32"
+      ]
+    },
+    {
+      "label": "1858 lava flow",
+      "value": "A flow of 13 km reached the west coast near Moroni",
+      "cite": [
+        "cap-meetingorganizer-copernicus-org-cefb32"
+      ]
+    },
+    {
+      "label": "Height",
+      "value": "2,361 m (7,746 ft)",
+      "cite": [
+        "cap-ebsco-com-bd6a75"
+      ]
+    },
+    {
+      "label": "Recent activity",
+      "value": "Four major eruptions between 2005 and 2007",
+      "cite": [
+        "cap-meetingorganizer-copernicus-org-cefb32"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Karthala is an active shield volcano east of Moroni that makes up most of Grande Comore. Its eruptions have at times sent lava close to the capital.",
+              "cite": [
+                "cap-meetingorganizer-copernicus-org-cefb32",
+                "cap-ebsco-com-bd6a75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}

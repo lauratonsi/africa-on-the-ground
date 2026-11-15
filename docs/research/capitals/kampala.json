@@ -1,0 +1,549 @@
+{
+ "city": "Kampala",
+ "country": "UGA",
+ "population": {
+  "value": 1797722,
+  "year": 2024,
+  "definition": "Resident population of Kampala Capital City per the UBOS 2024 National Population and Housing Census, as reported by EBSCO. The UBOS report itself could not be opened, so the exact census definition (de facto vs usual residents) is unverified.",
+  "source": {
+   "title": "Kampala, Uganda",
+   "publisher": "EBSCO Research Starters",
+   "author": "Beverly Ballaro",
+   "date": "2022",
+   "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+   "tier": "academic",
+   "quote": "Kampala Capital City had a resident population of 1,797,722."
+  }
+ },
+ "facts": [
+  {
+   "claim": "The Kampala site was where the Buganda king held his royal court; Lugard's company made it its headquarters in 1890.",
+   "source": {
+    "title": "Kampala, Uganda",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+    "tier": "academic",
+    "quote": "had traditionally served as the place where the king of the Buganda Kingdom held his royal court."
+   }
+  },
+  {
+   "claim": "Captain Lugard set up a fortified camp at Old Kampala in 1890, without the Kabaka's permission.",
+   "source": {
+    "title": "Kampala city's troubles",
+    "publisher": "The Independent (Uganda)",
+    "author": "Joseph Bossa",
+    "date": "2012-11-24",
+    "url": "https://independent.co.ug/kampala-citys-troubles",
+    "tier": "press",
+    "quote": "established a camp at Old Kampala in 1890 and proceeded to fortify it."
+   }
+  },
+  {
+   "claim": "Mengo, not Kampala, was the official capital of Buganda; the kibuga is the settlement around the Kabaka's palace.",
+   "source": {
+    "title": "Kampala city's troubles",
+    "publisher": "The Independent (Uganda)",
+    "author": "Joseph Bossa",
+    "date": "2012-11-24",
+    "url": "https://independent.co.ug/kampala-citys-troubles",
+    "tier": "press",
+    "quote": "Kibuga can mean 'town', the 'capital', or the settlement surrounding the palace (lubiri) of the Kabaka."
+   }
+  },
+  {
+   "claim": "The British moved their administration to Entebbe in 1894; Kampala became national capital again at independence in 1962.",
+   "source": {
+    "title": "Kampala, Uganda",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+    "tier": "academic",
+    "quote": "In 1894, the British colonial authorities transferred their administrative structure to the city of Entebbe."
+   }
+  },
+  {
+   "claim": "Kampala is credited with over 60 percent of Uganda's GDP and 80 percent of industrial output.",
+   "source": {
+    "title": "Kampala, Uganda",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+    "tier": "academic",
+    "quote": "reportedly contributing over 60 percent of gross domestic product (GDP) and producing 80 percent of industrial output"
+   }
+  }
+ ],
+ "timeline": [
+  {
+   "when": "1890",
+   "claim": "Lugard fortifies a camp at Old Kampala.",
+   "tag": "origins",
+   "source": {
+    "title": "Kampala city's troubles",
+    "publisher": "The Independent (Uganda)",
+    "author": "Joseph Bossa",
+    "date": "2012-11-24",
+    "url": "https://independent.co.ug/kampala-citys-troubles",
+    "tier": "press",
+    "quote": "established a camp at Old Kampala in 1890 and proceeded to fortify it."
+   }
+  },
+  {
+   "when": "1894",
+   "claim": "Colonial administration transferred to Entebbe.",
+   "tag": "origins",
+   "source": {
+    "title": "Kampala, Uganda",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+    "tier": "academic",
+    "quote": "In 1894, the British colonial authorities transferred their administrative structure to the city of Entebbe."
+   }
+  },
+  {
+   "when": "1908",
+   "claim": "Uganda Museum founded, first housed at Fort Lugard in Old Kampala.",
+   "tag": "growth",
+   "source": {
+    "title": "Governor Dundas officially opens Uganda Museum at Makerere | Makerere University History Timeline",
+    "publisher": "Makerere University",
+    "author": null,
+    "date": "event date 1942-07-06; page (c) 2022",
+    "url": "https://timeline.mak.ac.ug/events/event-15",
+    "tier": "institutional",
+    "quote": "the Uganda Museum was founded in 1908 and first housed at Fort Lugard"
+   }
+  },
+  {
+   "when": "1927",
+   "claim": "Nakasero market opens for the settler population.",
+   "tag": "growth",
+   "source": {
+    "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+    "publisher": "Critical African Studies (Taylor & Francis)",
+    "author": "William Monteith and Laura Camfield",
+    "date": "2021",
+    "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+    "tier": "academic",
+    "quote": "Nakasero market was opened in 1927 to meet a demand generated by the presence of a prosperous, non-land- owning population"
+   }
+  },
+  {
+   "when": "1962",
+   "claim": "Independence; Kampala re-established as national capital.",
+   "tag": "growth",
+   "source": {
+    "title": "Kampala, Uganda",
+    "publisher": "EBSCO Research Starters",
+    "author": "Beverly Ballaro",
+    "date": "2022",
+    "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+    "tier": "academic",
+    "quote": "Uganda reestablished Kampala as its national capital."
+   }
+  },
+  {
+   "when": "1971",
+   "claim": "St Balikuddembe (Owino) market built at Nakivubo, about 8.5 acres.",
+   "tag": "growth",
+   "source": {
+    "title": "Court settles battle for soul of Owino market",
+    "publisher": "Daily Monitor",
+    "author": "Busein Samilu",
+    "date": "2023-07-19",
+    "url": "https://www.monitor.co.ug/uganda/news/national/court-settles-battle-for-soul-of-owino-market-4308306",
+    "tier": "press",
+    "quote": "St Balikuddembe market was constructed at Nakivubo in 1971 covering about 8.5 acres of land."
+   }
+  },
+  {
+   "when": "2007",
+   "claim": "City council tries to sell Nakasero market; vendors protest and the sale is overturned.",
+   "tag": "today",
+   "source": {
+    "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+    "publisher": "Critical African Studies (Taylor & Francis)",
+    "author": "William Monteith and Laura Camfield",
+    "date": "2021",
+    "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+    "tier": "academic",
+    "quote": "In 2007, the Kampala City Council attempted to sell Nakasero market, one of the oldest and largest produce markets in Uganda"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Nakasero Market",
+   "type": "market",
+   "what": "A produce market in central Kampala, opened in 1927 during the colonial period. It now has about 10,000 vendors, traders and service providers.",
+   "facts": [
+    {
+     "label": "Opened",
+     "value": "1927",
+     "source": {
+      "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+      "publisher": "Critical African Studies (Taylor & Francis)",
+      "author": "William Monteith and Laura Camfield",
+      "date": "2021",
+      "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+      "tier": "academic",
+      "quote": "Nakasero market was opened in 1927 to meet a demand generated by the presence of a prosperous, non-land- owning population"
+     }
+    },
+    {
+     "label": "Size",
+     "value": "about 10,000 people work there",
+     "source": {
+      "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+      "publisher": "Critical African Studies (Taylor & Francis)",
+      "author": "William Monteith and Laura Camfield",
+      "date": "2021",
+      "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+      "tier": "academic",
+      "quote": "Nakasero is a market comprised of approximately 10,000 vendors, traders and service pro-"
+     }
+    },
+    {
+     "label": "2007 sale",
+     "value": "Council tried to sell it; vendors protested",
+     "source": {
+      "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+      "publisher": "Critical African Studies (Taylor & Francis)",
+      "author": "William Monteith and Laura Camfield",
+      "date": "2021",
+      "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+      "tier": "academic",
+      "quote": "thousands of market vendors organized an overnight protest during which they blockaded roads in Kampala city centre"
+     }
+    },
+    {
+     "label": "Outcome",
+     "value": "President overturned sale; 49-year sublease signed 2010",
+     "source": {
+      "title": "'Don't you want us to eat?': the moral economy of a Ugandan marketplace",
+      "publisher": "Critical African Studies (Taylor & Francis)",
+      "author": "William Monteith and Laura Camfield",
+      "date": "2021",
+      "url": "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf",
+      "tier": "academic",
+      "quote": "President Museveni subsequently overturned the sale, declaring: 'Markets should be for the vendors'"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Nakasero market built in 1927 in Kampala, Uganda.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Jim Joel (own work); foreground people not verified"
+   },
+   "readSources": [
+    "https://ueaeprints.uea.ac.uk/81250/1/Published_Version.pdf"
+   ]
+  },
+  {
+   "name": "Owino Market (St Balikuddembe Market)",
+   "type": "market",
+   "what": "A large public market in Kampala, one of 16 run by KCCA. It was built at Nakivubo in 1971.",
+   "facts": [
+    {
+     "label": "Built",
+     "value": "1971, about 8.5 acres",
+     "source": {
+      "title": "Court settles battle for soul of Owino market",
+      "publisher": "Daily Monitor",
+      "author": "Busein Samilu",
+      "date": "2023-07-19",
+      "url": "https://www.monitor.co.ug/uganda/news/national/court-settles-battle-for-soul-of-owino-market-4308306",
+      "tier": "press",
+      "quote": "St Balikuddembe market was constructed at Nakivubo in 1971 covering about 8.5 acres of land."
+     }
+    },
+    {
+     "label": "Management",
+     "value": "City council until 31 May 1995, then vendors",
+     "source": {
+      "title": "Court settles battle for soul of Owino market",
+      "publisher": "Daily Monitor",
+      "author": "Busein Samilu",
+      "date": "2023-07-19",
+      "url": "https://www.monitor.co.ug/uganda/news/national/court-settles-battle-for-soul-of-owino-market-4308306",
+      "tier": "press",
+      "quote": "overseen by the Kampala City Council until May 31, 1995, when vendors took over management"
+     }
+    },
+    {
+     "label": "KCCA markets",
+     "value": "one of 16 public markets",
+     "source": {
+      "title": "KCCA ED makes impromptu visit to Owino Market as leaders prepare handover",
+      "publisher": "Kampala Capital City Authority",
+      "author": null,
+      "date": "2022-11-22",
+      "url": "https://kcca.go.ug/news/642",
+      "tier": "institutional",
+      "quote": "KCCA has 16 public markets."
+     }
+    },
+    {
+     "label": "Goods",
+     "value": "noted for secondhand clothing",
+     "source": {
+      "title": "Kampala, Uganda",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+      "tier": "academic",
+      "quote": "the Owino market, noted for its trade in secondhand clothing, are also worth visiting."
+     }
+    },
+    {
+     "label": "2026",
+     "value": "Part demolished without KCCA authorisation",
+     "source": {
+      "title": "Uganda: KCCA Dismisses Claims of Planned Demolition of Owino Market",
+      "publisher": "Nile Post via AllAfrica",
+      "author": "Carolinah Nakibuule",
+      "date": "2026-03-15",
+      "url": "https://allafrica.com/stories/202603160642.html",
+      "tier": "press",
+      "quote": "Those who demolished that section did not obtain any authorization from KCCA."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.monitor.co.ug/uganda/news/national/court-settles-battle-for-soul-of-owino-market-4308306",
+    "https://kcca.go.ug/news/642",
+    "https://allafrica.com/stories/202603160642.html"
+   ]
+  },
+  {
+   "name": "Uganda Museum",
+   "type": "culture",
+   "what": "Uganda's museum, founded in 1908 with exhibits on culture, archaeology, history, science and natural history. It moved several times before reaching Kitante.",
+   "facts": [
+    {
+     "label": "Founded",
+     "value": "1908, first at Fort Lugard",
+     "source": {
+      "title": "Governor Dundas officially opens Uganda Museum at Makerere | Makerere University History Timeline",
+      "publisher": "Makerere University",
+      "author": null,
+      "date": "event date 1942-07-06; page (c) 2022",
+      "url": "https://timeline.mak.ac.ug/events/event-15",
+      "tier": "institutional",
+      "quote": "the Uganda Museum was founded in 1908 and first housed at Fort Lugard"
+     }
+    },
+    {
+     "label": "Makerere",
+     "value": "Opened at Makerere by Governor Dundas, July 1942",
+     "source": {
+      "title": "Governor Dundas officially opens Uganda Museum at Makerere | Makerere University History Timeline",
+      "publisher": "Makerere University",
+      "author": null,
+      "date": "event date 1942-07-06; page (c) 2022",
+      "url": "https://timeline.mak.ac.ug/events/event-15",
+      "tier": "institutional",
+      "quote": "officially opened by Sir Charles Cecil Farquharson Dundas"
+     }
+    },
+    {
+     "label": "Kitante",
+     "value": "Launched by Governor Cohen, 30 June 1954",
+     "source": {
+      "title": "Governor Dundas officially opens Uganda Museum at Makerere | Makerere University History Timeline",
+      "publisher": "Makerere University",
+      "author": null,
+      "date": "event date 1942-07-06; page (c) 2022",
+      "url": "https://timeline.mak.ac.ug/events/event-15",
+      "tier": "institutional",
+      "quote": "launched by Governor Sir Andrew Cohen on 30 June 1954"
+     }
+    },
+    {
+     "label": "Collections",
+     "value": "traditional culture, archaeology, history, science, natural history",
+     "source": {
+      "title": "Kampala, Uganda",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+      "tier": "academic",
+      "quote": "founded in 1908"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:Uganda National Museum Front view.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Danielzyt (own work, Wiki Loves Monuments 2017); foreground people not verified"
+   },
+   "readSources": [
+    "https://timeline.mak.ac.ug/events/event-15",
+    "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda"
+   ]
+  },
+  {
+   "name": "Namirembe Cathedral",
+   "type": "site",
+   "what": "The Anglican (Protestant) cathedral on Namirembe Hill, also called St Paul's. The present building was consecrated in 1919.",
+   "facts": [
+    {
+     "label": "First church",
+     "value": "1890 at Kitesa",
+     "source": {
+      "title": "The making of Namirembe Cathedral",
+      "publisher": "Daily Monitor",
+      "author": null,
+      "date": "2019-09-12 (updated 2020-09-14)",
+      "url": "https://www.monitor.co.ug/uganda/news/national/the-making-of-namirembe-cathedral-1847456",
+      "tier": "press",
+      "quote": "The first church was built in 1890 at Kitesa, west of Namirembe hill"
+     }
+    },
+    {
+     "label": "Current building",
+     "value": "consecrated 13 Sept 1919",
+     "source": {
+      "title": "The making of Namirembe Cathedral",
+      "publisher": "Daily Monitor",
+      "author": null,
+      "date": "2019-09-12 (updated 2020-09-14)",
+      "url": "https://www.monitor.co.ug/uganda/news/national/the-making-of-namirembe-cathedral-1847456",
+      "tier": "press",
+      "quote": "The fourth cathedral was consecrated on September 13, 1919"
+     }
+    },
+    {
+     "label": "Foundation",
+     "value": "first brick cathedral stone 18 June 1901",
+     "source": {
+      "title": "The making of Namirembe Cathedral",
+      "publisher": "Daily Monitor",
+      "author": null,
+      "date": "2019-09-12 (updated 2020-09-14)",
+      "url": "https://www.monitor.co.ug/uganda/news/national/the-making-of-namirembe-cathedral-1847456",
+      "tier": "press",
+      "quote": "The foundation stone for the first brick cathedral was laid on June 18, 1901"
+     }
+    },
+    {
+     "label": "Names",
+     "value": "also known as St. Paul's Protestant Cathedral",
+     "source": {
+      "title": "Kampala, Uganda",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+      "tier": "academic",
+      "quote": "also known as St. Paul's Protestant Cathedral"
+     }
+    }
+   ],
+   "photo": {
+    "file": "File:NAMIREMBE CATHEDRAL. side view.jpg",
+    "licence": "CC BY-SA 4.0",
+    "author": "Alvinategyeka (own work, Wiki Loves Monuments 2020); foreground people not verified"
+   },
+   "readSources": [
+    "https://www.monitor.co.ug/uganda/news/national/the-making-of-namirembe-cathedral-1847456",
+    "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda"
+   ]
+  },
+  {
+   "name": "Namugongo Martyrs Shrine",
+   "type": "site",
+   "what": "Catholic shrine in Namugongo, just outside Kampala, honouring Christians killed on the orders of King Mwanga. Pilgrims gather each 3 June.",
+   "facts": [
+    {
+     "label": "Martyrs",
+     "value": "22 Catholic martyrs killed in 1887",
+     "source": {
+      "title": "Pilgrims already arriving at the Uganda Martyrs Shrine in Namugongo",
+      "publisher": "Vatican News",
+      "author": "Fr. Isaac Ojok (byline as shown)",
+      "date": "2025-05-23",
+      "url": "https://www.vaticannews.va/en/africa/news/2025-05/pilgrims-already-arriving-at-the-uganda-martyrs-shrine-in-namugo.print.html",
+      "tier": "press",
+      "quote": "the 22 Catholic Martyrs who were killed for their faith in 1887."
+     }
+    },
+    {
+     "label": "Period",
+     "value": "executions 1885 to 1887 under Mwanga",
+     "source": {
+      "title": "Kampala, Uganda",
+      "publisher": "EBSCO Research Starters",
+      "author": "Beverly Ballaro",
+      "date": "2022",
+      "url": "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda",
+      "tier": "academic",
+      "quote": "commemorates some of the Christian martyrs executed between 1885 and 1887 by King Mwanga."
+     }
+    },
+    {
+     "label": "Martyrs Day",
+     "value": "3 June, public holiday",
+     "source": {
+      "title": "Pilgrims already arriving at the Uganda Martyrs Shrine in Namugongo",
+      "publisher": "Vatican News",
+      "author": "Fr. Isaac Ojok (byline as shown)",
+      "date": "2025-05-23",
+      "url": "https://www.vaticannews.va/en/africa/news/2025-05/pilgrims-already-arriving-at-the-uganda-martyrs-shrine-in-namugo.print.html",
+      "tier": "press",
+      "quote": "In Uganda 3 June is a public holiday."
+     }
+    },
+    {
+     "label": "Pilgrimage 2025",
+     "value": "pilgrims from Lira walk about 380 km",
+     "source": {
+      "title": "Pilgrims already arriving at the Uganda Martyrs Shrine in Namugongo",
+      "publisher": "Vatican News",
+      "author": "Fr. Isaac Ojok (byline as shown)",
+      "date": "2025-05-23",
+      "url": "https://www.vaticannews.va/en/africa/news/2025-05/pilgrims-already-arriving-at-the-uganda-martyrs-shrine-in-namugo.print.html",
+      "tier": "press",
+      "quote": "The pilgrims from Lira are expected to cover about 380 kilometers to reach Namugongo."
+     }
+    }
+   ],
+   "photo": null,
+   "readSources": [
+    "https://www.vaticannews.va/en/africa/news/2025-05/pilgrims-already-arriving-at-the-uganda-martyrs-shrine-in-namugo.print.html",
+    "https://ebsco.com/research-starters/geography-and-cartography/kampala-uganda"
+   ]
+  }
+ ],
+ "myth": null,
+ "unreadable": [
+  "https://statistics.ubos.org/nphc/reports/Kampala-Capital-City-Census-2024-Profile-Report.pdf - connection refused",
+  "https://statistics.ubos.org/nphc/reports/National-Population-and-Housing-Census-2024-Final-Report-Volume-1-Main.pdf - connection refused",
+  "https://www.ubos.org/wp-content/uploads/2024/06/National-Population-and-Housing-Census-2024-Dissemination-of-Preliminary-Results.pdf - connection refused",
+  "https://www.monitor.co.ug/uganda/magazines/people-power/the-making-of-kampala-1605570 - 403",
+  "https://monitor.co.ug/uganda/magazines/people-power/the-kibuga-buganda-s-lost-capital-1604778 - 403",
+  "https://monitor.co.ug/uganda/magazines/people-power/49-years-after-lubiri-attack-the-lessons-and-memories-1612036 - 403",
+  "https://monitor.co.ug/uganda/lifestyle/reviews-profiles/namugongo-how-a-haunted-village-became-world-famous-1518256 - 403",
+  "https://www.monitor.co.ug/uganda/magazines/life/the-nakasero-market-i-knew-3307254 - 403",
+  "https://visitkampala.kcca.go.ug/business_details/137 and /316 - 404",
+  "https://www.newvision.co.ug/news/1455021/uganda-national-mosque-makes-10-years and /1010644 - truncated, content not readable"
+ ],
+ "notNotFound": [
+  "Impala hill name: only in Wikipedia mirrors, tourism sites and user-edited New World Encyclopedia; no acceptable readable source (EBSCO does not mention it)",
+  "UBOS census definition (de facto vs usual residents) and census date",
+  "Uganda National (Gaddafi) Mosque: no acceptable readable source",
+  "Lubiri Palace / Mengo, Rubaga Cathedral, Makerere University, Nommo Gallery, National Theatre: not researched in depth or no readable source",
+  "Namugongo photo on Commons (category URL 404)",
+  "Foreground-people check for photos could not be made (images not viewed)",
+  "Myth is an inference from EBSCO, not an explicit correction of a stated misconception"
+ ]
+}

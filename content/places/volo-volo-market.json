@@ -1,0 +1,60 @@
+{
+  "slug": "volo-volo-market",
+  "status": "draft",
+  "type": "market",
+  "country": "COM",
+  "name": "Volo Volo market",
+  "region": "Moroni · Comoros",
+  "subtitle": "Volo Volo is a market in the northern part of Moroni.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Chief commercial area and community centre",
+      "cite": [
+        "cap-ebsco-com-bd6a75"
+      ]
+    },
+    {
+      "label": "Older market",
+      "value": "A separate 'old market' was the central market area in the 19th century",
+      "cite": [
+        "cap-ebsco-com-bd6a75"
+      ]
+    },
+    {
+      "label": "Goods (general, an official market in Moroni, not named)",
+      "value": "Madagascar woodcrafts, embroidered cloths and perfume oils",
+      "cite": [
+        "cap-archive-aramcoworld-com-2e8345"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Volo Volo is a market in the northern part of Moroni. EBSCO describes it as one of the city's chief commercial areas and a major community centre.",
+              "cite": [
+                "cap-ebsco-com-bd6a75",
+                "cap-archive-aramcoworld-com-2e8345"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: see the licence line if one is shown."
+  ]
+}
