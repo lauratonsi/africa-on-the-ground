@@ -1,0 +1,97 @@
+{
+  "slug": "tadjoura",
+  "status": "draft",
+  "type": "culture",
+  "country": "DJI",
+  "name": "Tadjoura",
+  "region": "Gulf of Tadjoura · Djibouti",
+  "subtitle": "Tadjoura is a town on the northern shore of the Gulf of Tadjoura in Djibouti, capital of the Afar of Djibouti and seat of the sultan of Tadjoura.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "On the north shore of the bay of Djibouti, reached from Djibouti by sailing boat in about four hours in the 1930s",
+      "cite": [
+        "cap-persee-fr-1b5cc1"
+      ]
+    },
+    {
+      "label": "Early mention",
+      "value": "Mentioned in the accounts of the 14th-century Arab traveller Ibn Battuta",
+      "cite": [
+        "cap-jeuneafrique-com-cf9db6"
+      ]
+    },
+    {
+      "label": "1896 transfer",
+      "value": "In 1896 the capital of the French colony moved from Obock to Djibouti, whose new port drew most commercial activity 130 km to the south",
+      "cite": [
+        "cap-jeuneafrique-com-cf9db6"
+      ]
+    },
+    {
+      "label": "Region population and unemployment",
+      "value": "The region has 87,000 inhabitants and the highest unemployment: 59% of 17-34 year olds jobless (article from about 2013)",
+      "cite": [
+        "cap-jeuneafrique-com-cf9db6"
+      ]
+    },
+    {
+      "label": "Sultanate",
+      "value": "Seat of the oldest of the five Afar sultanates between Djibouti, Ethiopia and Eritrea",
+      "cite": [
+        "cap-jeuneafrique-com-8955e7"
+      ]
+    },
+    {
+      "label": "Enthronement ritual",
+      "value": "The kukta, a fixed speech announcing a new sultan to the Afar of Tadjoura, has been used for almost eleven centuries",
+      "cite": [
+        "cap-jeuneafrique-com-8955e7"
+      ]
+    },
+    {
+      "label": "Sultan's role",
+      "value": "The sultan of Tadjoura is the traditional and spiritual leader of the Afars of Djibouti, with precedence over the sultanates of Awsa (Ethiopia) and Rahayta",
+      "cite": [
+        "cap-jeuneafrique-com-5cd613"
+      ]
+    },
+    {
+      "label": "Lineage",
+      "value": "The 33rd sultan, buried in May 2019, belonged to a line begun in the 15th century; Tadjoura was described as the second city of the country and capital of Djibouti's Afars",
+      "cite": [
+        "cap-jeuneafrique-com-5cd613"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tadjoura is a town on the northern shore of the Gulf of Tadjoura in Djibouti, capital of the Afar of Djibouti and seat of the sultan of Tadjoura. It is mentioned in the accounts of Ibn Battuta. Its commercial role was reduced when the French colonial capital moved from Obock to Djibouti in 1896.",
+              "cite": [
+                "cap-persee-fr-1b5cc1",
+                "cap-jeuneafrique-com-cf9db6",
+                "cap-jeuneafrique-com-8955e7",
+                "cap-jeuneafrique-com-5cd613"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

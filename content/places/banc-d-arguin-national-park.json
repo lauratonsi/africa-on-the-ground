@@ -1,0 +1,88 @@
+{
+  "slug": "banc-d-arguin-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "MRT",
+  "name": "Banc d'Arguin National Park",
+  "region": "Atlantic coast · Mauritania",
+  "subtitle": "Banc d'Arguin National Park covers about 1.2 million hectares of the Mauritanian coast, half of it marine.",
+  "facts": [
+    {
+      "label": "Area",
+      "value": "1,200,000 hectares, half marine and half continental",
+      "cite": [
+        "cap-rsis-ramsar-org-693f88"
+      ]
+    },
+    {
+      "label": "Created",
+      "value": "1976, by the Mauritanian government",
+      "cite": [
+        "cap-archive-aramcoworld-com-37807a"
+      ]
+    },
+    {
+      "label": "Residents",
+      "value": "Eight coastal villages with about 1,400 Imraguen, who live exclusively from fishing",
+      "cite": [
+        "cap-rsis-ramsar-org-693f88"
+      ]
+    },
+    {
+      "label": "Fishing rules",
+      "value": "The management plan prohibits fishing within the park except by resident Imraguen, and bans engines for their fishing except for research and transport of persons",
+      "cite": [
+        "cap-rsis-ramsar-org-693f88"
+      ]
+    },
+    {
+      "label": "Management plan",
+      "value": "Approved by the government in 1995",
+      "cite": [
+        "cap-rsis-ramsar-org-693f88"
+      ]
+    },
+    {
+      "label": "Wintering birds",
+      "value": "Some three million birds of about 300 species in winter",
+      "cite": [
+        "cap-archive-aramcoworld-com-37807a"
+      ]
+    },
+    {
+      "label": "Constraint",
+      "value": "The total absence of fresh water is the main limiting factor (Ramsar sheet)",
+      "cite": [
+        "cap-rsis-ramsar-org-693f88"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Banc d'Arguin National Park covers about 1.2 million hectares of the Mauritanian coast, half of it marine. It was created by the Mauritanian government in 1976. Eight villages of Imraguen fishermen live inside it, and fishing there is reserved to them under the park's management plan.",
+              "cite": [
+                "cap-rsis-ramsar-org-693f88",
+                "cap-archive-aramcoworld-com-37807a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

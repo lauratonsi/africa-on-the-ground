@@ -1,0 +1,116 @@
+{
+  "slug": "sapo-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "LBR",
+  "name": "Sapo National Park",
+  "region": "South-east Liberia · Liberia",
+  "subtitle": "Sapo National Park is a protected rainforest in south-east Liberia, declared a national park in 1983 and managed by the Forestry Development Authority.",
+  "facts": [
+    {
+      "label": "Status and founding",
+      "value": "Liberia's oldest and largest protected area, established 1983",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "180,363 hectares",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Managing agency",
+      "value": "Forestry Development Authority (FDA), with Fauna & Flora and the Wild Chimpanzee Foundation as key partners",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Corridor",
+      "value": "Part of the transboundary Tai-Grebo-Krahn-Sapo conservation corridor between Liberia and Cote d'Ivoire",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Threats (FDA)",
+      "value": "Hunting, illegal artisanal gold mining and other human intrusions",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Staffing",
+      "value": "The FDA notes inadequate staff to manage the park effectively",
+      "cite": [
+        "cap-fda-gov-lr-99b245"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "South-east Liberia, about 70 km inland from the coastal town of Greenville",
+      "cite": [
+        "cap-keybiodiversityareas-org-d7fa73"
+      ]
+    },
+    {
+      "label": "Habitat",
+      "value": "Forest composition: 63% primary and mature secondary forest, 13% swamp-forest, 13% seasonally inundated forest",
+      "cite": [
+        "cap-keybiodiversityareas-org-d7fa73"
+      ]
+    },
+    {
+      "label": "Settlement and hunting",
+      "value": "No permanent human settlements inside; hunting pressure thought to be high",
+      "cite": [
+        "cap-keybiodiversityareas-org-d7fa73"
+      ]
+    },
+    {
+      "label": "Encroachment before the war",
+      "value": "Two major encroachments: a logging company in 1985 and farmers in 1986",
+      "cite": [
+        "cap-keybiodiversityareas-org-d7fa73"
+      ]
+    },
+    {
+      "label": "Since the war",
+      "value": "Illegal logging and alluvial gold mining have occurred",
+      "cite": [
+        "cap-keybiodiversityareas-org-d7fa73"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Sapo National Park is a protected rainforest in south-east Liberia, declared a national park in 1983 and managed by the Forestry Development Authority. It covers 180,363 hectares and is part of a transboundary conservation corridor with Cote d'Ivoire. Hunting and illegal gold mining are named as threats.",
+              "cite": [
+                "cap-fda-gov-lr-99b245",
+                "cap-keybiodiversityareas-org-d7fa73"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

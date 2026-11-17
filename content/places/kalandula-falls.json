@@ -1,0 +1,102 @@
+{
+  "slug": "kalandula-falls",
+  "status": "draft",
+  "type": "nature",
+  "country": "AGO",
+  "name": "Kalandula Falls",
+  "region": "Calandula, Malanje Province · Angola",
+  "subtitle": "Kalandula Falls is a waterfall on the Lucala River in Malanje Province, northern Angola, roughly 100 metres high and 400 metres wide.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "About 100 metres drop across 400 metres width, on the Rio Lucala",
+      "cite": [
+        "cap-handelsblatt-com-5a2a65"
+      ]
+    },
+    {
+      "label": "Province",
+      "value": "In Malanje province",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Distance",
+      "value": "Almost 500 km from Luanda",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Names",
+      "value": "Quedas de Kalandula is the post-independence name for the falls known in the colonial period as Duque de Bragança",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Recognition",
+      "value": "Chosen in May 2014 as one of the seven wonders of Angola",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Inn",
+      "value": "Guesthouse built in the 1950s, now extended to 37 rooms",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Civil war closure",
+      "value": "The inn was closed for several decades because of the Angolan civil war",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Land recovery",
+      "value": "The project included recovering 500 hectares around the falls for farming",
+      "cite": [
+        "cap-dn-pt-c8b5e1"
+      ]
+    },
+    {
+      "label": "Visiting (2026)",
+      "value": "No official entry prices (dpa, 2026)",
+      "cite": [
+        "cap-handelsblatt-com-5a2a65"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kalandula Falls is a waterfall on the Lucala River in Malanje Province, northern Angola, roughly 100 metres high and 400 metres wide. Under colonial rule it was known as the Duque de Bragança Falls. An inn built in the 1950s had been closed for decades because of the civil war and was reported working again in 2017.",
+              "cite": [
+                "cap-handelsblatt-com-5a2a65",
+                "cap-dn-pt-c8b5e1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

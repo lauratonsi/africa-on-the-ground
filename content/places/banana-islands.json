@@ -1,0 +1,88 @@
+{
+  "slug": "banana-islands",
+  "status": "draft",
+  "type": "nature",
+  "country": "SLE",
+  "name": "Banana Islands",
+  "region": "south of Freetown · Sierra Leone",
+  "subtitle": "The Banana Islands, south of Freetown, comprise Dublin, Ricketts and a small uninhabited island.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Dublin, the capital, stands 33 km south of Freetown",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Islands",
+      "value": "Dublin, Ricketts (joined to Dublin by a causeway) and a small uninhabited island",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Population (2006)",
+      "value": "About 500 people, many obliged to find work in Freetown",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Livelihoods",
+      "value": "Most inhabitants subsist on farming and fishing",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Civil war",
+      "value": "Sheltered some 5,000 refugees during the civil war",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Early history",
+      "value": "First invaded by 16th-century Portuguese navigators, followed by British slave traders",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    },
+    {
+      "label": "Slave trade",
+      "value": "A local historian says John Newton built the fortress where captives were held (local account)",
+      "cite": [
+        "cap-irishtimes-com-46a0fc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Banana Islands, south of Freetown, comprise Dublin, Ricketts and a small uninhabited island. A 2006 report put the population at about 500, living mainly by farming and fishing. The islands were used in the slave trade and sheltered some 5,000 refugees during the civil war.",
+              "cite": [
+                "cap-irishtimes-com-46a0fc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

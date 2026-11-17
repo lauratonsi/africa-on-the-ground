@@ -28,9 +28,9 @@
 
   // ---------- home ----------
   var list = $("placelist");
-  if (list) {
+  if (list || $("filters")) {
     var filters = $("filters"), count = $("pcount");
-    var items = Array.prototype.slice.call(list.children);
+    var items = list ? Array.prototype.slice.call(list.children) : [];
     var pins = all(".map .pin");
     var show = function (type) {
       var shown = 0;

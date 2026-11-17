@@ -509,7 +509,8 @@ const regionChips = bigMap
 const mapSection = bigMap
   ? `<section id="map" class="band-indigo section" aria-labelledby="map-h">
   <div class="wrap">
-  <div class="maphead"><h2 class="listh" id="map-h">${bigMap.count} places on the map</h2>${filterChips}</div>
+  <div class="maphead"><h2 class="listh" id="map-h">Start from the map</h2>${filterChips}</div>
+  <p class="lede map-lede">${bigMap.count} places are pinned, from every region. Choose a pin to open its card, or filter by kind and region.</p>
   ${regionChips}
   <figure class="mapbox">${bigMap.svg}<div class="mapcard" id="mapcard" hidden><img alt="" width="800" height="533"><div class="mapcard-t"><b></b><span></span><a class="mapcard-go" href="#">Open the card</a></div></div><figcaption>Select a pin to open its card, or a region to zoom in. Positions come from the UNESCO record where the card cites it, and are otherwise approximate. Country outlines: Natural Earth, public domain.</figcaption></figure>
   <ul class="legend legend-types">${typeLegend}</ul>
@@ -523,7 +524,6 @@ const countriesBand = cList.length
   ? `<section id="countries" class="band-saffron section">
   <div class="wrap teaser">
     <div class="teaser-text">
-      <p class="kicker">Reference</p>
       <h2 class="listh">${cList.length} countries, ${fmtPop(cPop)} people</h2>
       <p class="lede">The map, capital, area and population of every African country, with charts and a table you can sort. The figures are the World Bank's and are cited.</p>
     </div>
@@ -687,45 +687,116 @@ if (stories.length) {
 
 write("places/index.html", renderPlaces());
 if (artCatalog) write("places/art/index.html", renderArt());
+// ---------- landing: anteprime dal contenuto vero (mai un elenco di tutto) ----------
+const homeStoryList = (() => {
+  const out = [], seen = new Set();
+  for (const x of stories) if (!seen.has(x.kind) && out.length < 3) { seen.add(x.kind); out.push(x); }
+  for (const x of stories) if (out.length < 3 && !out.includes(x)) out.push(x);
+  return out;
+})();
+const homeStoryBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
+const homeTrails = ((data.trails && data.trails.trails) || []).map((t) => ({ ...t, steps: t.steps.filter((x) => homeStoryBySlug[x.story]) })).filter((t) => t.steps.length >= 4);
+const homePlaceCards = (() => {
+  const pool = published.filter((x) => x.image && x.status === "published");
+  const pick = [], seenType = new Set();
+  for (const x of pool) if (!seenType.has(x.type) && pick.length < 4) { seenType.add(x.type); pick.push(x); }
+  return pick;
+})();
+const homeArtCards = (() => {
+  const cats = (artCatalog && artCatalog.categories) || [];
+  const bySlug = new Map(published.map((x) => [x.slug, x]));
+  const out = [];
+  for (const c of cats) { const x = c.places.map((sl) => bySlug.get(sl)).find((y) => y && y.image && y.status === "published"); if (x && out.length < 4) out.push({ place: x, label: c.label }); }
+  return out;
+})();
+const miniCard = (x, label) => `<li><a class="mini" href="places/${esc(x.slug)}/index.html"><img src="img/places/${esc(x.image.file)}-800.jpg" alt="${esc(x.image.alt || x.name)}" width="800" height="533" loading="lazy"><span class="mini-t">${esc(x.name)}</span><span class="mini-s">${esc(label)}</span></a></li>`;
+const capsAvail = capitals.filter(({ data: cp }) => cp.status === "published" || includeDrafts).length;
+const peoplesAvail = peoples.filter(({ data: pp }) => pp.status === "published" || includeDrafts).length;
+const draftPlaces = published.filter((x) => x.status === "draft").length;
+const livePlaces = published.filter((x) => x.status === "published").length;
+const homeQ = ((data.quiz && data.quiz.questions) || []).find((q) => q.id === "map-greenland") || ((data.quiz && data.quiz.questions) || [])[0];
+const homeQuestion = homeQ ? `<div class="checks live-q"><p class="live-q-t">Try one now</p>${checkHtmlWith({ ...homeQ, explain: homeQ.explain + (homeQ.story ? " Read more: " + ((stories.find((x) => x.slug === homeQ.story) || {}).title || "") + "." : "") }, () => "")}<p class="check-score" role="status" aria-live="polite" hidden></p></div>` : "";
+const homeTypeLabel = Object.fromEntries((config.placeTypes || []).map((t) => [t.id, t.label]));
+const quizCount = ((data.quiz && data.quiz.questions) || []).length;
+
 write("index.html", layout({
   title: config.name,
   description: config.tagline,
   depth: 0,
   script: true,
+  extraScripts: ["story.js"],
   bodyClass: "home",
-  jump: [{ id: "about", label: "What it is" }, { id: "places", label: "Places" }, { id: "layers", label: "Two layers" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), ...(storiesBand ? [{ id: "stories", label: "Stories" }] : []), ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
+  jump: [{ id: "about", label: "What it is" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), { id: "read", label: "Read" }, { id: "look", label: "Look" }, { id: "play", label: "Play" }, { id: "layers", label: "Contribute" }, ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
   body: `
-<section class="scape-hero">
+<section class="scape-hero compact">
   ${landscape()}
   <div class="scape-text">
-    <p class="scape-kicker">Learn by exploring</p>
     <h1>${esc(config.name)}</h1>
     <p class="scape-sub">${esc(config.tagline)}</p>
-    <p class="actions"><a class="btn btn-cream" href="stories/index.html">Start with a story</a> <a class="btn btn-cream" href="#places">See the places</a></p>
+    <p class="actions"><a class="btn btn-cream" href="#map">Start from the map</a> <a class="btn btn-cream" href="#read">Follow a trail</a></p>
   </div>
 </section>
-<section id="about" class="wrap suns-sec" aria-labelledby="about-h">
-  <h2 class="suns-title" id="about-h">More than a travel guide</h2>
-  <p class="lede about-lede">This site exists to teach, in an interactive way, and to bring many sides of African cultures into one place. It is written for adults, in plain language, and nothing you do on it is saved or sent anywhere.</p>
-  <div class="suns about">
-    <article class="sun"><h3>Learn by doing</h3><p>Guess before you read the answer, put events in order, sort the data, compare groups in a chart and test yourself with a quiz.</p><p><a href="stories/index.html">Stories</a> · <a href="quiz/index.html">Quiz</a></p></article>
-    <article class="sun"><h3>Many sides of one culture</h3><p>History, food, languages, places and numbers sit side by side, and each links to the others.</p><p><a href="places/index.html">Places</a> · <a href="countries/index.html">Countries</a> · <a href="society/index.html">Society</a></p></article>
-    <article class="sun"><h3>Sourced and honest</h3><p>Every statement carries its source, and each page says what is still not known. <a href="method/index.html">How it works</a></p></article>
+<section id="about" class="wrap home-intro" aria-labelledby="about-h">
+  <h2 id="about-h">Learn about Africa by guessing first, then checking</h2>
+  <div class="home-intro-cols">
+    <p class="lede">Stories, places, capitals, peoples, art and data about the 54 African countries, written for adults. Each page asks you something before it tells you, and every claim carries a numbered source. This is not a travel guide.</p>
+    <ul class="home-facts">
+      <li><strong>Sourced.</strong> Each page also says what is still not known. <a href="method/index.html">How it works</a></li>
+      <li><strong>Two voices.</strong> The documented record and what people who live there say are never mixed.</li>
+      <li><strong>Private.</strong> Nothing you do here is saved or sent anywhere.</li>
+    </ul>
   </div>
+  <p class="home-status">Ready now: ${stories.length} stories, ${livePlaces} place cards and the quiz. In preparation, and not yet read by a person who knows the subject: ${draftPlaces ? draftPlaces + " more place cards, " : ""}${capitals.length ? capitals.length + " capital profiles, " : ""}the peoples pages and most of the art catalogue. Anything in preparation is marked as such.</p>
 </section>
-<section id="places" class="night">
-  <div class="wrap">
-    <div class="night-head">
-      <h2 class="listh">The place cards <span class="count" id="pcount" aria-live="polite"></span></h2>
-      <p class="night-note">Every card keeps two kinds of knowledge apart: what the record says and what people who know the place say.</p>
+${mapSection}
+<section id="read" class="band-sand section way" aria-labelledby="read-h">
+  <div class="wrap way-grid">
+    <div class="way-text">
+      <h2 id="read-h">Read</h2>
+      <p class="lede">Short stories that start from a question: myths checked against the record, history you were rarely taught, and the food behind the places.</p>
+      <p class="actions"><a class="btn" href="stories/index.html">All ${stories.length} stories</a></p>
     </div>
-    ${published.length ? `<ul class="places arches" id="placelist">${placeItems}</ul>
-    <p class="actions night-more"><a class="btn btn-cream" href="places/index.html">Browse all ${published.length} ${published.length === 1 ? "place" : "places"}</a></p>` : "<p>No place card is published yet.</p>"}
+    <div class="way-body">
+      <ul class="scards">${homeStoryList.map((x) => storyCard(x, "")).join("")}</ul>
+      ${homeTrails.length ? `<h3 class="way-sub">Or follow a trail</h3><ol class="home-trails">${homeTrails.map((t) => `<li><a href="${esc(storyHref(homeStoryBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1"><strong>${esc(t.title)}</strong><span>${esc(t.intro)} ${t.steps.length} stops.</span></a></li>`).join("")}</ol>` : ""}
+    </div>
   </div>
 </section>
-<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false"><path d="M0 120 L0 70 C240 10 480 110 720 60 S1200 0 1440 60 L1440 120 Z"/></svg></div>
+<section id="look" class="night section way" aria-labelledby="look-h">
+  <div class="wrap way-grid">
+    <div class="way-text">
+      <h2 id="look-h">Look</h2>
+      <p class="lede">Places you can open, art seen through what it is for, and the people and cities behind the names on the map.</p>
+      <p class="actions"><a class="btn btn-cream" href="places/index.html">Browse the places</a> <a class="btn btn-cream" href="places/art/index.html">Art</a>${capsAvail ? ' <a class="btn btn-cream" href="capitals/index.html">Capitals</a>' : ""}${peoplesAvail ? ' <a class="btn btn-cream" href="peoples/index.html">Peoples</a>' : ""} <a class="btn btn-cream" href="countries/index.html">Countries</a></p>
+    </div>
+    <div class="way-body">
+      ${homePlaceCards.length ? `<h3 class="way-sub">From the place cards</h3><ul class="minis">${homePlaceCards.map((x) => miniCard(x, homeTypeLabel[x.type] || x.type)).join("")}</ul>` : ""}
+      ${homeArtCards.length ? `<h3 class="way-sub">From the art index</h3><ul class="minis">${homeArtCards.map((a) => miniCard(a.place, a.label)).join("")}</ul>` : ""}
+    </div>
+  </div>
+</section>
+<section id="play" class="band-saffron section way" aria-labelledby="play-h">
+  <div class="wrap way-grid">
+    <div class="way-text">
+      <h2 id="play-h">Play</h2>
+      <p class="lede">You learn faster when you commit to an answer first. Everything here runs in your browser and forgets you when you leave.</p>
+      ${homeQuestion}
+    </div>
+    <div class="way-body">
+      <ul class="play-list">
+        <li><a href="quiz/index.html"><strong>Quiz</strong><span>${quizCount} curated questions plus others built from the country, language and bloc data, each with its source.</span></a></li>
+        <li><a href="stories/index.html#sec-game"><strong>Which story is this from?</strong><span>A fact, four stories, a streak to keep.</span></a></li>
+        <li><a href="explore/index.html"><strong>Connections</strong><span>Follow the links between countries, places, peoples and stories, or race to the shortest route.</span></a></li>
+        <li><a href="society/index.html"><strong>Society games</strong><span>Faith, government and language: guess, then see the data.</span></a></li>
+        <li><a href="true-size/index.html"><strong>True size</strong><span>Drag countries over Africa on an equal-area map.</span></a></li>
+        <li><a href="languages/index.html"><strong>Which language is this?</strong><span>A phrase, four languages, and where it is spoken.</span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
 <section id="layers" class="wrap suns-sec" aria-label="The two layers of every card">
-  <h2 class="suns-title">Two kinds of knowledge. Never mixed.</h2>
+  <h2 class="suns-title">Contribute</h2>
+  <p class="lede about-lede">The record cannot know everything. Every page keeps two kinds of knowledge apart, and if you know a place, a dish or a people from the inside, you can correct the record or add your own account.</p>
   <div class="suns">
     <article class="sun sun-rec">
       <span class="layer-tag">In the record</span>
@@ -740,8 +811,6 @@ write("index.html", layout({
     </article>
   </div>
 </section>
-${mapSection}
-${storiesBand}
 ${countriesBand}`
 }));
 

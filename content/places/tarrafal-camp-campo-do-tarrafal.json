@@ -1,0 +1,110 @@
+{
+  "slug": "tarrafal-camp-campo-do-tarrafal",
+  "status": "draft",
+  "type": "site",
+  "country": "CPV",
+  "name": "Tarrafal camp (Campo do Tarrafal)",
+  "region": "Chão Bom, Tarrafal · Cape Verde",
+  "subtitle": "The Tarrafal camp was built in 1936 at Chão Bom, on Santiago island, as a penal colony for opponents of Portugal's Estado Novo regime.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "On Santiago island, in the village of Chão Bom, municipality of Tarrafal",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "Years of operation",
+      "value": "Concentration camp in operation between 1936 and 1974 according to this study",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "First phase",
+      "value": "1936-38: the first 150 anti-fascist prisoners arrived and lived in canvas tents without minimum hygiene",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "Deaths",
+      "value": "34 anti-fascist prisoners died between 1936 and 1954, out of 360 inmates",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "First closure",
+      "value": "The camp closed on 26 January 1954, but was legally closed only two years later",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "Reopening",
+      "value": "Reopened in 1961 with the colonial war as a labour camp for African prisoners held for political and ordinary offences",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "After 1974",
+      "value": "After the Carnation Revolution the PAIGC reopened Tarrafal in December 1974 to imprison its opponents; it closed permanently in July 1975",
+      "cite": [
+        "cap-buala-org-f40f42"
+      ]
+    },
+    {
+      "label": "Heritage status",
+      "value": "National heritage by resolution 33/2006; 29 October designated Anti-fascist Resistance Day",
+      "cite": [
+        "cap-ler-letras-up-pt-0d8063"
+      ]
+    },
+    {
+      "label": "UNESCO",
+      "value": "Museum and national heritage site; on UNESCO's Tentative List since 2004",
+      "cite": [
+        "cap-buala-org-f40f42"
+      ]
+    },
+    {
+      "label": "2021 protocol",
+      "value": "Portugal and Cape Verde signed a protocol in July 2021 to cooperate on heritage protection, aiming at a World Heritage bid for the former camp",
+      "cite": [
+        "cap-observador-pt-40b404"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Tarrafal camp was built in 1936 at Chão Bom, on Santiago island, as a penal colony for opponents of Portugal's Estado Novo regime. It operated in phases until 1954, reopened in 1961 for African prisoners during the colonial war, and was briefly used again in 1974-1975. It is now a museum and national heritage site.",
+              "cite": [
+                "cap-ler-letras-up-pt-0d8063",
+                "cap-buala-org-f40f42",
+                "cap-observador-pt-40b404"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

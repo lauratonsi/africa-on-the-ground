@@ -1,0 +1,105 @@
+{
+  "slug": "mindelo",
+  "status": "draft",
+  "type": "culture",
+  "country": "CPV",
+  "name": "Mindelo",
+  "region": "São Vicente island · Cape Verde",
+  "subtitle": "Mindelo is the port city of São Vicente island.",
+  "facts": [
+    {
+      "label": "Town status",
+      "value": "Raised to the rank of vila in 1859",
+      "cite": [
+        "cap-inforpress-cv-95c778"
+      ]
+    },
+    {
+      "label": "Coal port",
+      "value": "English coal companies set up there and by 1875 Mindelo was considered the largest coaling port in the mid-Atlantic",
+      "cite": [
+        "cap-inforpress-cv-95c778"
+      ]
+    },
+    {
+      "label": "City status",
+      "value": "Became a city in 1879, with 3,300 inhabitants, 27 streets and 120 oil lamps",
+      "cite": [
+        "cap-inforpress-cv-95c778"
+      ]
+    },
+    {
+      "label": "Position",
+      "value": "Because of its location and the Porto Grande, Mindelo became a key point in links between Europe and America, with a strong English presence",
+      "cite": [
+        "cap-inforpress-cv-95c778"
+      ]
+    },
+    {
+      "label": "Decline",
+      "value": "After the golden years of English shipping and the coal trade, the island entered a slow decline from the end of the 19th century",
+      "cite": [
+        "cap-expressodasilhas-cv-7b0c6f"
+      ]
+    },
+    {
+      "label": "Population 2011",
+      "value": "A port city of 47,000 people (figure given by AP-based report, 2011)",
+      "cite": [
+        "cap-france24-com-218f86"
+      ]
+    },
+    {
+      "label": "Cesária Évora",
+      "value": "Singer Cesária Évora was born in Mindelo, a port city on São Vicente; she performed for sailors from ships docking there",
+      "cite": [
+        "cap-npr-org-088f39"
+      ]
+    },
+    {
+      "label": "Carnival decline",
+      "value": "In the 1960s Mindelo carnival declined when the big groups Oriundo and Estrela da Marinha disappeared",
+      "cite": [
+        "cap-expressodasilhas-cv-456d7e"
+      ]
+    },
+    {
+      "label": "Carnival revival",
+      "value": "1978, the year of Djibla's 'wedding', marks the turning point of post-independence carnival; between 1975 and 1978 the official parade contest was interrupted",
+      "cite": [
+        "cap-expressodasilhas-cv-456d7e"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mindelo is the port city of São Vicente island. It grew in the 19th century around the Porto Grande harbour and English coal companies, was raised to city status in 1879, and later became known for its bar and carnival culture and as the home of the singer Cesária Évora.",
+              "cite": [
+                "cap-inforpress-cv-95c778",
+                "cap-expressodasilhas-cv-7b0c6f",
+                "cap-france24-com-218f86",
+                "cap-npr-org-088f39",
+                "cap-expressodasilhas-cv-456d7e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "zinder-and-the-sultan-s-palace",
+  "status": "draft",
+  "type": "culture",
+  "country": "NER",
+  "name": "Zinder and the Sultan's Palace",
+  "region": "Zinder · Niger",
+  "subtitle": "Zinder, in southern Niger, was the capital of the Damagaram sultanate from 1736.",
+  "facts": [
+    {
+      "label": "Capital moved to Zinder",
+      "value": "The sultan of Damagaram moved the capital to Zinder in 1736",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "Role",
+      "value": "Zinder began as a small Hausa village and became a hub of trans-Saharan trade",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "Palace construction",
+      "value": "Said to have been built under Sultan Tanimoune between 1850 and 1852",
+      "cite": [
+        "cap-edition-efua-acaref-net-68f9cf"
+      ]
+    },
+    {
+      "label": "Seat at Birni",
+      "value": "Sultan Souleymane Dan Tanimoune installed the sultanate's seat in Birni, Zinder",
+      "cite": [
+        "cap-edition-efua-acaref-net-68f9cf"
+      ]
+    },
+    {
+      "label": "Walls",
+      "value": "10 metres high and 10 metres thick",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "Sultans",
+      "value": "26 sultans ruled for 200 years until the early 20th century",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "French conquest",
+      "value": "A French column attacked Zinder on 13 September 1899, killing Sultan Amadou Kouran Daga",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "Today",
+      "value": "The sultanate continues as a largely ceremonial position and the sultan lives in the palace",
+      "cite": [
+        "cap-adf-magazine-com-653266"
+      ]
+    },
+    {
+      "label": "Ownership",
+      "value": "The palace belongs to the sultanate",
+      "cite": [
+        "cap-edition-efua-acaref-net-68f9cf"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Zinder, in southern Niger, was the capital of the Damagaram sultanate from 1736. The sultan's palace in the Birni quarter is said to date from 1850-1852. The sultanate was ended by a French attack in 1899, but the line of sultans continues as a largely ceremonial office.",
+              "cite": [
+                "cap-adf-magazine-com-653266",
+                "cap-edition-efua-acaref-net-68f9cf"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

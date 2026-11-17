@@ -1,0 +1,88 @@
+{
+  "slug": "iles-de-los",
+  "status": "draft",
+  "type": "nature",
+  "country": "GIN",
+  "name": "Îles de Los",
+  "region": "Off Conakry · Guinea",
+  "subtitle": "The Îles de Los lie a few kilometres off Conakry.",
+  "facts": [
+    {
+      "label": "Where",
+      "value": "A few kilometres off Conakry",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "Islands",
+      "value": "Three main islands (Kassa, Roume, Tamara) and uninhabited islets (Cabri, Blanche, Corail, Fousset)",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "Rule",
+      "value": "Portuguese, then British (1818-1904), then French (1904-1958)",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "Slave trade",
+      "value": "Used as a slave depot until the 1840s",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "British fort",
+      "value": "Ruins of a fort built by the British in the early 19th century, from which operations against slave ships were launched",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "Roume renamed",
+      "value": "Crawford Island was renamed after Ernest Roume when handed to France in 1904",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    },
+    {
+      "label": "Kassa",
+      "value": "The British called it Factory Island",
+      "cite": [
+        "cap-jeuneafrique-com-d300b4"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Îles de Los lie a few kilometres off Conakry. The archipelago has three main islands, Kassa, Roume and Tamara, and several uninhabited islets. Jeune Afrique says it passed under British (1818-1904) then French (1904-1958) rule and served as a slave depot until the 1840s.",
+              "cite": [
+                "cap-jeuneafrique-com-d300b4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

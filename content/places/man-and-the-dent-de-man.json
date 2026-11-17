@@ -1,0 +1,103 @@
+{
+  "slug": "man-and-the-dent-de-man",
+  "status": "draft",
+  "type": "nature",
+  "country": "CIV",
+  "name": "Man and the Dent de Man",
+  "region": "Man · Côte d'Ivoire",
+  "subtitle": "Man is a city in western Côte d'Ivoire, capital of the Montagnes district and known as the city of 18 mountains because of the ranges around it.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Man is the regional capital of the Montagnes district, which includes the regions of Tonkpi, Guémon and Cavally",
+      "cite": [
+        "cap-news-abidjan-net-774894"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Called the city of 18 mountains for the many ranges around it, which give it a mild, cool climate",
+      "cite": [
+        "cap-news-abidjan-net-774894"
+      ]
+    },
+    {
+      "label": "Dent de Man",
+      "value": "Twin rocks about 900 m high, symbol of the city, accessible to the top (press figure, not a surveyed altitude)",
+      "cite": [
+        "cap-news-abidjan-net-774894"
+      ]
+    },
+    {
+      "label": "People",
+      "value": "The indigenous population are the Yacouba (Dan), joined by Mahouka, Senufo and Baoulé from other regions",
+      "cite": [
+        "cap-news-abidjan-net-774894"
+      ]
+    },
+    {
+      "label": "Population",
+      "value": "About 500,000 inhabitants (press estimate, 2010s)",
+      "cite": [
+        "cap-news-abidjan-net-774894"
+      ]
+    },
+    {
+      "label": "Mont Tonkpi",
+      "value": "Mont Tonkpi rises to 1,223 m",
+      "cite": [
+        "cap-fratmat-info-ec5efd"
+      ]
+    },
+    {
+      "label": "Tourism office",
+      "value": "The regional tourism directorate of Man, created in 1973, worked until the crisis of 2002, when activities stopped",
+      "cite": [
+        "cap-news-abidjan-net-8d8ebc"
+      ]
+    },
+    {
+      "label": "Hotels",
+      "value": "At the time of the article (undated), of 47 hotels in Man only 32 were operating, with 262 rooms instead of 860",
+      "cite": [
+        "cap-news-abidjan-net-8d8ebc"
+      ]
+    },
+    {
+      "label": "Liana bridges",
+      "value": "A circuit of liana bridges runs from Man to Danané",
+      "cite": [
+        "cap-news-abidjan-net-8d8ebc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Man is a city in western Côte d'Ivoire, capital of the Montagnes district and known as the city of 18 mountains because of the ranges around it. Its symbol is the Dent de Man, a group of twin rocks. Local tourism sites declined after the 2002 crisis.",
+              "cite": [
+                "cap-news-abidjan-net-774894",
+                "cap-fratmat-info-ec5efd",
+                "cap-news-abidjan-net-8d8ebc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

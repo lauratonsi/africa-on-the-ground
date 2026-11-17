@@ -1,0 +1,67 @@
+{
+  "slug": "morija-museum-and-archives",
+  "status": "draft",
+  "type": "culture",
+  "country": "LSO",
+  "name": "Morija Museum and Archives",
+  "region": "Morija · Lesotho",
+  "subtitle": "Morija Museum and Archives stands at the base of Makhoarane Mountain in Morija, about 45 km south of Maseru.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "A small town 45 km south of Maseru",
+      "cite": [
+        "cap-humanities-uct-ac-za-16be02"
+      ]
+    },
+    {
+      "label": "Established",
+      "value": "Formally in 1956",
+      "cite": [
+        "cap-humanities-uct-ac-za-16be02"
+      ]
+    },
+    {
+      "label": "Origins",
+      "value": "First Christian missionaries were placed at Morija by Moshoeshoe the Great",
+      "cite": [
+        "cap-humanities-uct-ac-za-16be02"
+      ]
+    },
+    {
+      "label": "Union of archives and museum",
+      "value": "1989, with support from three private partners and the Lesotho government",
+      "cite": [
+        "cap-humanities-uct-ac-za-16be02"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Morija Museum and Archives stands at the base of Makhoarane Mountain in Morija, about 45 km south of Maseru. It was formally established in 1956, with roots in the work of French Protestant missionaries placed there by Moshoeshoe. The archives and museum were united in 1989.",
+              "cite": [
+                "cap-humanities-uct-ac-za-16be02"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "korhogo-and-senufo-painted-cloth",
+  "status": "draft",
+  "type": "culture",
+  "country": "CIV",
+  "name": "Korhogo and Senufo painted cloth",
+  "region": "Korhogo · Côte d'Ivoire",
+  "subtitle": "Korhogo is the main town of the Senufo area in northern Côte d'Ivoire, said to have been founded between the 14th and 18th centuries.",
+  "facts": [
+    {
+      "label": "Foundation",
+      "value": "Korhogo is said to have been founded between the 14th and 18th centuries by Nanguin Soro, a captive of the Kong kingdom",
+      "cite": [
+        "cap-news-abidjan-net-f44571"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Korhogo (Korgo) means 'fortune or inheritance' in Senufo",
+      "cite": [
+        "cap-news-abidjan-net-f44571"
+      ]
+    },
+    {
+      "label": "Trade route",
+      "value": "Founded in the 14th century according to a museum record; on an important pre-colonial trade route to the Atlantic coast",
+      "cite": [
+        "cap-publicforms-whitworth-edu-c3bc7f"
+      ]
+    },
+    {
+      "label": "Department area",
+      "value": "Korhogo department covers 12,500 km2, 3.9% of the national territory, with 453,006 inhabitants in the 1998 census",
+      "cite": [
+        "cap-news-abidjan-net-f44571"
+      ]
+    },
+    {
+      "label": "Senufo",
+      "value": "The Senufo are made up of about fifty sub-groups; Senufo are the native population of the department",
+      "cite": [
+        "cap-news-abidjan-net-f44571"
+      ]
+    },
+    {
+      "label": "Poro",
+      "value": "Senufo life was regulated by the Poro secret society, which adjudicated legal matters and oversaw rites of passage",
+      "cite": [
+        "cap-publicforms-whitworth-edu-c3bc7f"
+      ]
+    },
+    {
+      "label": "Cloth makers",
+      "value": "Senufo artisans near Korhogo paint cotton cloths woven by men in narrow strips and sewn into one piece",
+      "cite": [
+        "cap-artsandculture-google-com-f2c004"
+      ]
+    },
+    {
+      "label": "Division of labour",
+      "value": "Women spin cotton into yarn, men weave narrow strips about 4 inches wide; men decorate the cloth using dyes made by women",
+      "cite": [
+        "cap-engagingtheamericas-digitalscholarship-brown-edu-5f5b9c"
+      ]
+    },
+    {
+      "label": "Market shift",
+      "value": "Most of these cloths are now produced for the export market, though some stylized animal forms are used in ceremonial cloths",
+      "cite": [
+        "cap-artsandculture-google-com-f2c004"
+      ]
+    },
+    {
+      "label": "Peace Corps",
+      "value": "Popularity on the art market followed US Peace Corps volunteers encouraging the cloths' introduction to the tourist market in the 1960s and early 70s (as stated by the Whitworth catalogue, via Brown)",
+      "cite": [
+        "cap-engagingtheamericas-digitalscholarship-brown-edu-5f5b9c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Korhogo is the main town of the Senufo area in northern Côte d'Ivoire, said to have been founded between the 14th and 18th centuries. Senufo artisans there paint cotton cloths woven in narrow strips by men; the cloths once had ceremonial uses, but most are now made for export after tourist-market promotion in the 1960s and 70s.",
+              "cite": [
+                "cap-news-abidjan-net-f44571",
+                "cap-publicforms-whitworth-edu-c3bc7f",
+                "cap-artsandculture-google-com-f2c004",
+                "cap-engagingtheamericas-digitalscholarship-brown-edu-5f5b9c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

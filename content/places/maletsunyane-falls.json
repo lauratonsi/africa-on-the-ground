@@ -1,0 +1,74 @@
+{
+  "slug": "maletsunyane-falls",
+  "status": "draft",
+  "type": "nature",
+  "country": "LSO",
+  "name": "Maletsunyane Falls",
+  "region": "Semonkong · Lesotho",
+  "subtitle": "Maletsunyane Falls, 192 metres high, lie at Semonkong, whose name means the place of smoke after the mist the falls throw up.",
+  "facts": [
+    {
+      "label": "Height",
+      "value": "192 metres",
+      "cite": [
+        "cap-lestimes-com-e1cdf8"
+      ]
+    },
+    {
+      "label": "Name of Semonkong",
+      "value": "The place of smoke, from the permanent smoke-like mist",
+      "cite": [
+        "cap-lestimes-com-e1cdf8"
+      ]
+    },
+    {
+      "label": "Geology",
+      "value": "Water plummets over a ledge of Triassic-Jurassic basalt",
+      "cite": [
+        "cap-lestimes-com-e1cdf8"
+      ]
+    },
+    {
+      "label": "Drought",
+      "value": "Reported by the Lesotho Times in January 2016 to have almost gone dry",
+      "cite": [
+        "cap-lestimes-com-e1cdf8"
+      ]
+    },
+    {
+      "label": "Abseil",
+      "value": "Semonkong Lodge runs an abseil described as the longest commercially operated single-drop abseil in the world",
+      "cite": [
+        "cap-lestimes-com-e1cdf8"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Maletsunyane Falls, 192 metres high, lie at Semonkong, whose name means the place of smoke after the mist the falls throw up. The water drops over a ledge of Triassic-Jurassic basalt. In the 2015-16 drought the Lesotho Times reported that the falls had almost gone dry.",
+              "cite": [
+                "cap-lestimes-com-e1cdf8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

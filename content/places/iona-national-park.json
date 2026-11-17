@@ -1,0 +1,102 @@
+{
+  "slug": "iona-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "AGO",
+  "name": "Iona National Park",
+  "region": "Tômbwa, Namibe Province · Angola",
+  "subtitle": "Iona National Park covers 15,150 square kilometres in the south-west corner of Angola, in Namibe Province on the Namibian border.",
+  "facts": [
+    {
+      "label": "Area",
+      "value": "15,150 km2",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "South-western corner of Angola, in Namibe Province, sharing the border with Namibia",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "First designation",
+      "value": "Designated a Hunting Park by Government decree 2421 on 2 October 1937",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "National park status",
+      "value": "Renamed Iona National Park by Diploma Legislativo 3524 on 26 December 1964",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "Management",
+      "value": "Co-management with the NGO African Parks agreed after a 2019 MOU with the Angolan Government",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "People",
+      "value": "Estimated 3,000 Himba, nomadic cattle herders; Mucubal herders have also moved into the park",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "value": "Unsustainable cattle increase, overgrazing and competition for food and water threaten recovery of native large mammals",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "Water holes",
+      "value": "Government-built water holes drew non-indigenous people and concentrated herders and cattle",
+      "cite": [
+        "cap-africaandmideast-internationalprograms-us-9ccfd8"
+      ]
+    },
+    {
+      "label": "Transfrontier area",
+      "value": "Part of the Iona-Skeleton Coast Transfrontier Conservation Area; MOU between Angola and Namibia signed August 2003",
+      "cite": [
+        "cap-the-eis-com-fb4077"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Iona National Park covers 15,150 square kilometres in the south-west corner of Angola, in Namibe Province on the Namibian border. It began as a hunting park in 1937 and was renamed a national park in 1964. Since a 2019 agreement the NGO African Parks has co-managed it. The Himba live inside the park, and cattle numbers are named as a threat to wildlife recovery.",
+              "cite": [
+                "cap-africaandmideast-internationalprograms-us-9ccfd8",
+                "cap-the-eis-com-fb4077"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

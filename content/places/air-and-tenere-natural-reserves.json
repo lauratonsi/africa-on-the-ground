@@ -1,0 +1,102 @@
+{
+  "slug": "air-and-tenere-natural-reserves",
+  "status": "draft",
+  "type": "nature",
+  "country": "NER",
+  "name": "Aïr and Ténéré Natural Reserves",
+  "region": "Agadez region · Niger",
+  "subtitle": "The Aïr and Ténéré Natural Reserves lie in north-central Niger, about 160 km north-east of Agadez, and cover the Aïr Mountains and part of the Ténéré desert.",
+  "facts": [
+    {
+      "label": "Area",
+      "value": "7,735,370 ha in total: 6,456,392 ha reserve plus 1,278,978 ha Addax Sanctuary",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "South-central Sahara, north-central Niger, about 160 km north-east of Agadez",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Terrain",
+      "value": "Two fifths in the north-eastern Aïr Mountains, the rest in the Ténéré desert",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "World Heritage inscription",
+      "value": "1991, under natural criteria vii, ix and x",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "World Heritage in Danger",
+      "value": "Listed from 1992 owing to destruction caused by civil conflict",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Biosphere Reserve",
+      "value": "Designated a UNESCO Biosphere Reserve in 1997",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Administration",
+      "value": "Run by Niger's wildlife directorate (DFPP) and the water and environment ministry",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Addax Sanctuary",
+      "value": "About a sixth of the reserve is a sanctuary for the addax",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    },
+    {
+      "label": "Wildlife loss",
+      "value": "IUCN reported in 2008 that addax, ostrich and several vultures and eagles were locally extinct through poaching",
+      "cite": [
+        "cap-thesalmons-org-4ff37d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Aïr and Ténéré Natural Reserves lie in north-central Niger, about 160 km north-east of Agadez, and cover the Aïr Mountains and part of the Ténéré desert. The reserve was inscribed on the World Heritage List in 1991 and placed on the danger list in 1992 after civil conflict. About a sixth of it is an Addax Sanctuary.",
+              "cite": [
+                "cap-thesalmons-org-4ff37d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

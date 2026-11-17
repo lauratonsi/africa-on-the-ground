@@ -1,0 +1,103 @@
+{
+  "slug": "tundavala-gap",
+  "status": "draft",
+  "type": "nature",
+  "country": "AGO",
+  "name": "Tundavala Gap",
+  "region": "Lubango, Huíla Province · Angola",
+  "subtitle": "Tundavala Gap (Fenda da Tundavala) is a deep gorge cut into the western edge of the Humpata plateau, in the Serra da Chela near Lubango in south-west Angola.",
+  "facts": [
+    {
+      "label": "Setting",
+      "value": "Serra da Chela near Lubango (Huíla Province), whose summit is the Humpata plateau",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Distance and coordinates",
+      "value": "Viewpoint and gap about 20 km from Lubango, at 13º22’S 14º49’E",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Height of the escarpment",
+      "value": "Described as an enormous escarpment of more than 1,000 m height, cut in igneous rocks",
+      "cite": [
+        "cap-dspace-uevora-pt-686525"
+      ]
+    },
+    {
+      "label": "Plateau elevation",
+      "value": "Highest points of the plateau edge near the gap: 2,326 to 2,330 m",
+      "cite": [
+        "cap-dl-uc-pt-b72050"
+      ]
+    },
+    {
+      "label": "Geological setting",
+      "value": "One of several similar escarpments on the Humpata plateau edges, marking the limits of an intracratonic sedimentary basin of Paleo-Mesoproterozoic age on the Congo Craton",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Type locality",
+      "value": "Type locality of the Tundavala Formation, one of five formations of the Chela Group",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Chela Group",
+      "value": "The Chela Group comprises five formations",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Protection proposal",
+      "value": "The 2012 assessment was needed to support scientifically a proposal to classify the territory and preserve its physical integrity",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    },
+    {
+      "label": "Cultural meaning",
+      "value": "Each of the peoples living around Tundavala interprets the landscape culturally in a different way",
+      "cite": [
+        "cap-dl-uc-pt-a07e69"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tundavala Gap (Fenda da Tundavala) is a deep gorge cut into the western edge of the Humpata plateau, in the Serra da Chela near Lubango in south-west Angola. Geologists describe an escarpment more than 1,000 metres high and the type locality of the Tundavala Formation of the Chela Group. A 2012 Portuguese-Angolan study assessed its geological heritage as a basis for a proposal to classify and protect it.",
+              "cite": [
+                "cap-dl-uc-pt-a07e69",
+                "cap-dspace-uevora-pt-686525",
+                "cap-dl-uc-pt-b72050"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

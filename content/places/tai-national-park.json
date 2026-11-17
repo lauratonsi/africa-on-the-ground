@@ -1,0 +1,132 @@
+{
+  "slug": "tai-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "CIV",
+  "name": "Taï National Park",
+  "region": "Cavally, San Pedro and Nawa regions, south-west · Côte d'Ivoire",
+  "subtitle": "Taï National Park is a forest reserve in south-west Côte d'Ivoire between the Cavally and Sassandra rivers, declared a national park in 1972 and inscribed on the World Heritage List in 1982.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "The largest remaining forest in West Africa and the last large island of original Upper Guinean forest",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "South-west Côte d'Ivoire, between the Cavally River (border with Liberia) and the Sassandra River",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "National park status",
+      "value": "Declared a National Park in 1972 (350,000 ha at that time)",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Earlier protection",
+      "value": "Declared a Forest Reserve and Wildlife Refuge in 1926 (560,300 ha)",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "World Heritage",
+      "value": "Inscribed as a Natural World Heritage Site in 1982 under criteria vii and x",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Area (datasheet)",
+      "value": "Core zone 330,000 ha and buffer zone 20,000 ha; with the N'zo Reserve added, a total of 536,000 ha",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Area (2025)",
+      "value": "About 5,360 km², across the San Pedro, Nawa and Cavally regions, with an estimated 98.4% forest cover",
+      "cite": [
+        "cap-aip-ci-133ef1"
+      ]
+    },
+    {
+      "label": "Management",
+      "value": "Managed by the OIPR; achieved 74% performance in implementing 2025 activities",
+      "cite": [
+        "cap-aip-ci-8da80c"
+      ]
+    },
+    {
+      "label": "Green List",
+      "value": "Inscribed on the IUCN Green List",
+      "cite": [
+        "cap-aip-ci-133ef1"
+      ]
+    },
+    {
+      "label": "Species",
+      "value": "140 mammal species, including 47 of the 54 large mammals known in the Guinean rain forest",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Peoples of the forest region",
+      "value": "Original tribes were the Guéré and Oubi, who did not eat chimpanzees for totemic reasons",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Threats (datasheet)",
+      "value": "Civil unrest and encroachment by refugees aggravated poaching, tree clearance for farms, gold-mining and logging",
+      "cite": [
+        "cap-thesalmons-org-0c91a6"
+      ]
+    },
+    {
+      "label": "Enforcement 2021-2023",
+      "value": "301 people arrested and handed to the courts; 235 firm sentences and 30 suspended",
+      "cite": [
+        "cap-fratmat-info-f56a79"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Taï National Park is a forest reserve in south-west Côte d'Ivoire between the Cavally and Sassandra rivers, declared a national park in 1972 and inscribed on the World Heritage List in 1982. It is described as the largest remaining forest in West Africa. Managed by the Office ivoirien des parcs et réserves (OIPR), it is currently reported at about 5,360 km² with 98.4% forest cover, while gold-mining and poaching remain pressures.",
+              "cite": [
+                "cap-thesalmons-org-0c91a6",
+                "cap-aip-ci-133ef1",
+                "cap-aip-ci-8da80c",
+                "cap-fratmat-info-f56a79"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

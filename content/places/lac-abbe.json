@@ -1,0 +1,118 @@
+{
+  "slug": "lac-abbe",
+  "status": "draft",
+  "type": "nature",
+  "country": "DJI",
+  "name": "Lac Abbé",
+  "region": "Djibouti-Ethiopia border · Djibouti",
+  "subtitle": "Lake Abbe is a salt lake on the border between Djibouti and Ethiopia, the last of a chain of six lakes fed by the Awash River.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Straddles the border between Ethiopia and Djibouti; largest and last of a chain of six lakes fed by the Awash River",
+      "cite": [
+        "cap-science-nasa-gov-ca6ca4"
+      ]
+    },
+    {
+      "label": "Geology",
+      "value": "Salty and dotted with hot springs; lies at the junction of the Arabian, Nubian and Somalian plates",
+      "cite": [
+        "cap-science-nasa-gov-ca6ca4"
+      ]
+    },
+    {
+      "label": "Volcanoes",
+      "value": "Surrounded by rift volcanoes, the largest being the shield volcano Dama Ali to the northwest",
+      "cite": [
+        "cap-science-nasa-gov-ca6ca4"
+      ]
+    },
+    {
+      "label": "Size",
+      "value": "34,000 ha of open water and 11,000 ha of surrounding salt flats that can extend 10 km from the water's edge (Ethiopian side factsheet)",
+      "cite": [
+        "cap-keybiodiversityareas-org-7478eb"
+      ]
+    },
+    {
+      "label": "Depth",
+      "value": "Records give a maximum depth of 37 m (mean 8.6 m)",
+      "cite": [
+        "cap-keybiodiversityareas-org-7478eb"
+      ]
+    },
+    {
+      "label": "Water source",
+      "value": "The Awash is the only source of fresh water for Lakes Abe and Afambo",
+      "cite": [
+        "cap-keybiodiversityareas-org-7478eb"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "value": "Irrigated farms further up the Awash valley reduce the inflow of water to the lake",
+      "cite": [
+        "cap-keybiodiversityareas-org-7478eb"
+      ]
+    },
+    {
+      "label": "Shrinkage",
+      "value": "Its surface area has fallen by 65% in sixty years (journalistic figure, undated article)",
+      "cite": [
+        "cap-jeuneafrique-com-6436b3"
+      ]
+    },
+    {
+      "label": "Chimneys",
+      "value": "The limestone chimneys are in fact fumaroles that still emit hot vapours",
+      "cite": [
+        "cap-jeuneafrique-com-6436b3"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Abbé (or Abhé) means 'rotten' or 'stinking' in Afar, from sulphur emissions",
+      "cite": [
+        "cap-jeuneafrique-com-6436b3"
+      ]
+    },
+    {
+      "label": "Tourism",
+      "value": "The first of the community-run tourist camps in Djibouti, inherited from the nomadic way of life, appeared in the 1990s",
+      "cite": [
+        "cap-journals-openedition-org-05f2ce"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Lake Abbe is a salt lake on the border between Djibouti and Ethiopia, the last of a chain of six lakes fed by the Awash River. It lies at a junction of three tectonic plates, with hot springs and limestone chimneys that emit steam. Irrigation upstream on the Awash reduces its inflow and the lake has shrunk.",
+              "cite": [
+                "cap-science-nasa-gov-ca6ca4",
+                "cap-keybiodiversityareas-org-7478eb",
+                "cap-jeuneafrique-com-6436b3",
+                "cap-journals-openedition-org-05f2ce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cacheu-fort-and-trading-post",
+  "status": "draft",
+  "type": "site",
+  "country": "GNB",
+  "name": "Cacheu fort and trading post",
+  "region": "Cacheu · Guinea-Bissau",
+  "subtitle": "Cacheu, on the coast of Guinea-Bissau, was a Portuguese trading post where, in AFP's words, millions of enslaved people saw West Africa for the last time.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "A Portuguese trading post on the coast",
+      "cite": [
+        "cap-taipeitimes-com-f8731a"
+      ]
+    },
+    {
+      "label": "Population and past status",
+      "value": "Fewer than 10,000 people today; capital of the Portuguese colony from the 16th century, trading in people until the late 19th century",
+      "cite": [
+        "cap-taipeitimes-com-f8731a"
+      ]
+    },
+    {
+      "label": "Town founded",
+      "value": "1588",
+      "cite": [
+        "cap-repositorio-unilab-edu-br-a1679b"
+      ]
+    },
+    {
+      "label": "Present fort",
+      "value": "Built from 1641 by captain-major Gonçalo Gambôa de Ayalla against Spanish ships; still unfinished in 1647 (citing Teixeira 2010)",
+      "cite": [
+        "cap-repositorio-unilab-edu-br-a1679b"
+      ]
+    },
+    {
+      "label": "Memorial",
+      "value": "Alfredo Caldeira of the Mario Soares foundation, which helped create the memorial, said Cacheu was the first place where Europeans practised transatlantic slavery on an industrial scale (his claim)",
+      "cite": [
+        "cap-taipeitimes-com-f8731a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cacheu, on the coast of Guinea-Bissau, was a Portuguese trading post where, in AFP's words, millions of enslaved people saw West Africa for the last time. A thesis dates the town to 1588 and the present fort to 1641 to 1647. A memorial to slavery opened there in 2016.",
+              "cite": [
+                "cap-taipeitimes-com-f8731a",
+                "cap-repositorio-unilab-edu-br-a1679b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

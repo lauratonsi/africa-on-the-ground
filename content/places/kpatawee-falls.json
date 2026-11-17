@@ -1,0 +1,102 @@
+{
+  "slug": "kpatawee-falls",
+  "status": "draft",
+  "type": "nature",
+  "country": "LBR",
+  "name": "Kpatawee Falls",
+  "region": "Suakoko, Bong County · Liberia",
+  "subtitle": "Kpatawee Falls is a waterfall on a branch of the St.",
+  "facts": [
+    {
+      "label": "Ramsar listing",
+      "value": "Kpatawee Wetlands: Ramsar site no. 1629, 835 ha, designated 24 August 2006, Bong",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "River",
+      "value": "The waterfall is on a branch of the St. John River, one of Liberia's six major rivers",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "Wildlife",
+      "value": "Endangered Three-cusped Pangolin and Water Chevrotain occur at the site",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "Local use",
+      "value": "Villagers use the area for picnics and meetings, palm wine, hunting, fishing, basket making and bathing",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "Rice project",
+      "value": "Liberia and China ran a rice project inside the site to discourage shifting cultivation",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "value": "A potential hydropower scheme is listed as a threat; the site was not officially recognised as a tourist attraction (as of 2006)",
+      "cite": [
+        "cap-rsis-ramsar-org-1a586d"
+      ]
+    },
+    {
+      "label": "2024 closure",
+      "value": "Police ordered the temporary closure of the falls in Suakoko after residents protested the operator Jalk Enterprise",
+      "cite": [
+        "cap-frontpageafricaonline-com-2897f5"
+      ]
+    },
+    {
+      "label": "Dispute",
+      "value": "Residents accused the operator of bad labour practice and encroaching on their farmland",
+      "cite": [
+        "cap-frontpageafricaonline-com-2897f5"
+      ]
+    },
+    {
+      "label": "Operator land",
+      "value": "The MoU allows Jalk Enterprise to operate on ten acres within the range and surroundings",
+      "cite": [
+        "cap-frontpageafricaonline-com-2897f5"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kpatawee Falls is a waterfall on a branch of the St. John River in Bong County, central Liberia, inside the 835-hectare Kpatawee Wetlands Ramsar site, listed in 2006. Villagers use the area for fishing, farming and gatherings. In 2024 a dispute between residents and the site operator led police to close it temporarily.",
+              "cite": [
+                "cap-rsis-ramsar-org-1a586d",
+                "cap-frontpageafricaonline-com-2897f5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

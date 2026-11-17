@@ -1,0 +1,104 @@
+{
+  "slug": "sindou-peaks",
+  "status": "draft",
+  "type": "nature",
+  "country": "BFA",
+  "name": "Sindou Peaks",
+  "region": "Sindou, Léraba Province, Cascades Region · Burkina Faso",
+  "subtitle": "The Sindou Peaks are weathered sandstone formations beside the town of Sindou, capital of Léraba Province, about 450 km west of Ouagadougou.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Beside Sindou, capital of Léraba Province, about 450 km west of Ouagadougou",
+      "cite": [
+        "cap-burkina24-com-99f5e3"
+      ]
+    },
+    {
+      "label": "Geology",
+      "value": "Sandstone cliffs interbedded with dolerite sills, eroded into ruin-like landscapes ('aiguilles de Sindou')",
+      "cite": [
+        "cap-edepot-wur-nl-2d69cf"
+      ]
+    },
+    {
+      "label": "Banfora cliff",
+      "value": "The plateau edge between Banfora and Bobo-Dioulasso is marked by a cliff rising 150 to 200 m above the crystalline plain",
+      "cite": [
+        "cap-edepot-wur-nl-2d69cf"
+      ]
+    },
+    {
+      "label": "Plateau",
+      "value": "Precambrian sandstone plateau at an average altitude of 450-500 m in the west",
+      "cite": [
+        "cap-edepot-wur-nl-2d69cf"
+      ]
+    },
+    {
+      "label": "Original name",
+      "value": "Village originally called Sudugo, 'protection of the spirits', per a local guide",
+      "cite": [
+        "cap-burkina24-com-704cca"
+      ]
+    },
+    {
+      "label": "Settlement by the Senufo",
+      "value": "Per oral tradition (as told by a guide), Senufo moved from southern Mali to the peaks in the 14th century",
+      "cite": [
+        "cap-burkina24-com-704cca"
+      ]
+    },
+    {
+      "label": "Reason for settling",
+      "value": "Senufo came fleeing oppression, raids and domination",
+      "cite": [
+        "cap-burkina24-com-704cca"
+      ]
+    },
+    {
+      "label": "Visitors (guide's figure)",
+      "value": "About 30,000 tourists a year, with lean periods since two crises, according to a guide",
+      "cite": [
+        "cap-sidwaya-info-cc3c60"
+      ]
+    },
+    {
+      "label": "Administrative location",
+      "value": "Sindou is chef-lieu of Léraba Province, in the Cascades region",
+      "cite": [
+        "cap-sidwaya-info-cc3c60"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Sindou Peaks are weathered sandstone formations beside the town of Sindou, capital of Léraba Province, about 450 km west of Ouagadougou. A 1975 geological survey describes sandstone cliffs interbedded with dolerite sills that have eroded into ruin-like landscapes. According to oral tradition, Senufo people from southern Mali settled among the peaks in the 14th century, and a local guide says the site draws about 30,000 tourists a year.",
+              "cite": [
+                "cap-burkina24-com-99f5e3",
+                "cap-edepot-wur-nl-2d69cf",
+                "cap-burkina24-com-704cca",
+                "cap-sidwaya-info-cc3c60"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

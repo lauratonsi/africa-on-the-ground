@@ -1,0 +1,103 @@
+{
+  "slug": "pendjari-national-park",
+  "status": "draft",
+  "type": "nature",
+  "country": "BEN",
+  "name": "Pendjari National Park",
+  "region": "North-west Benin · Benin",
+  "subtitle": "Pendjari National Park is a savanna reserve in north-west Benin that forms part of the W-Arly-Pendjari complex shared with Burkina Faso and Niger.",
+  "facts": [
+    {
+      "label": "Area (African Parks figure)",
+      "value": "4,800 km²",
+      "cite": [
+        "cap-africanparks-org-dfdf94"
+      ]
+    },
+    {
+      "label": "Area (Mongabay 2018 figure)",
+      "value": "2,755 km² (1,063 sq mi); this differs from African Parks' 4,800 km²",
+      "cite": [
+        "cap-news-mongabay-com-df2967"
+      ]
+    },
+    {
+      "label": "Management",
+      "value": "African Parks and the Benin Government assumed management in 2017",
+      "cite": [
+        "cap-africanparks-org-dfdf94"
+      ]
+    },
+    {
+      "label": "Transboundary complex",
+      "value": "Part of the W-Arly-Pendjari complex, straddling Benin, Burkina Faso and Niger",
+      "cite": [
+        "cap-news-mongabay-com-df2967"
+      ]
+    },
+    {
+      "label": "Lions",
+      "value": "The WAP complex holds 90% of the largest population of West African lions",
+      "cite": [
+        "cap-africanparks-org-dfdf94"
+      ]
+    },
+    {
+      "label": "Other wildlife",
+      "value": "Critically Endangered Northwest African cheetah, elephants, leopards, buffalo and more than 400 bird species",
+      "cite": [
+        "cap-africanparks-org-dfdf94"
+      ]
+    },
+    {
+      "label": "Funding",
+      "value": "More than $23 million committed by National Geographic Society, Wyss Foundation, African Parks and the Government of Benin",
+      "cite": [
+        "cap-news-mongabay-com-df2967"
+      ]
+    },
+    {
+      "label": "Threats",
+      "value": "Poaching, agricultural expansion at the periphery, rising livestock numbers, illegal logging and illegal fishing",
+      "cite": [
+        "cap-news-mongabay-com-df2967"
+      ]
+    },
+    {
+      "label": "Population pressure",
+      "value": "Local human population growing around the park; poaching a problem",
+      "cite": [
+        "cap-news-mongabay-com-920a76"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pendjari National Park is a savanna reserve in north-west Benin that forms part of the W-Arly-Pendjari complex shared with Burkina Faso and Niger. African Parks, with the Government of Benin, has managed it since 2017. Sources give its area as 4,800 km² (African Parks) or 2,755 km² (a 2018 Mongabay report), and name poaching, agricultural expansion and illegal logging as pressures.",
+              "cite": [
+                "cap-africanparks-org-dfdf94",
+                "cap-news-mongabay-com-df2967",
+                "cap-news-mongabay-com-920a76"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

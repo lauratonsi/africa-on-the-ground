@@ -9443,5 +9443,885 @@
     "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-science-nasa-gov-ca6ca4",
+    "title": "Lake Abbe and Dama Ali",
+    "publisher": "NASA Earth Observatory",
+    "url": "https://science.nasa.gov/earth/earth-observatory/lake-abbe-and-dama-ali-35573/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-keybiodiversityareas-org-7478eb",
+    "title": "Lake Abe wetland system (6242), Key Biodiversity Areas factsheet",
+    "publisher": "Key Biodiversity Areas Partnership (BirdLife / IUCN)",
+    "url": "https://www.keybiodiversityareas.org/site/factsheet/6242",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-6436b3",
+    "title": "Chef-d'oeuvre en péril",
+    "publisher": "Jeune Afrique",
+    "url": "https://www.jeuneafrique.com/69912/archives-thematique/chef-d-uvre-en-p-ril/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-journals-openedition-org-05f2ce",
+    "title": "Le tourisme en milieu agropastoral en République de Djibouti",
+    "publisher": "Insaniyat (OpenEdition Journals)",
+    "url": "https://journals.openedition.org/insaniyat/12786?lang=fr",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thesalmons-org-4ff37d",
+    "title": "Air and Ténéré Natural Reserves (World Heritage datasheet)",
+    "publisher": "UNEP-WCMC / UNESCO World Heritage datasheet",
+    "url": "https://www.thesalmons.org/lynn/wh-wcmc/Niger%20-%20Air%20and%20Tenere.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rsis-ramsar-org-693f88",
+    "title": "Ramsar Information Sheet: Parc National du Banc d'Arguin",
+    "publisher": "Ramsar Convention Secretariat",
+    "url": "https://rsis.ramsar.org/RISapp/files/RISrep/MR250RISformer.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-archive-aramcoworld-com-37807a",
+    "title": "Mauritania's Conservation Coast",
+    "publisher": "Aramco World (2012-07)",
+    "url": "https://archive.aramcoworld.com/issue/201204/mauritania.s.conservation.coast.htm",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-irishtimes-com-46a0fc",
+    "title": "An Irishwoman's Diary",
+    "publisher": "The Irish Times (Deirdre McQuillan · 2006-04-19)",
+    "url": "https://www.irishtimes.com/opinion/an-irishwoman-s-diary-1.1040379",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-railwaygazette-com-c620fb",
+    "title": "Three presidents inaugurate rebuilt Benguela Railway",
+    "publisher": "Railway Gazette International (2015-02-16)",
+    "url": "https://www.railwaygazette.com/infrastructure/three-presidents-inaugurate-rebuilt-benguela-railway/40531.article",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-archlabour-iscte-iul-pt-e36015",
+    "title": "Benguela railway, Angola",
+    "publisher": "ArchLabour, Iscte (ERC-funded project) (2026-02-12)",
+    "url": "https://archlabour.iscte-iul.pt/?p=469",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-macaudailytimes-com-mo-325475",
+    "title": "Benguela railroad reconnects coast and interior of Angola",
+    "publisher": "Macau Daily Times / Macauhub",
+    "url": "https://macaudailytimes.com.mo/benguela-railroad-reconnects-coast-interior-angola.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-research-wright-edu-7848e4",
+    "title": "Musings on the Grand Mosques of Djenné and Bobo-Dioulasso, the Cathedral of Notre Dame, and Western Bias",
+    "publisher": "Wright State University Research (S. A. Struthers, peer-reviewed article) (Sally A. Struthers · 2022)",
+    "url": "https://research.wright.edu/en/publications/musings-on-the-grand-mosques-of-djenn%C3%A9-and-bobo-dioulasso-the-cat/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-4a1eea",
+    "title": "Bobo-Dioulasso: Vers la réhabilitation de la mosquée de Dioulassoba",
+    "publisher": "Burkina24",
+    "url": "https://burkina24.com/?p=120680",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-0c0c09",
+    "title": "Bobo-Dioulasso : L'étude sur la réhabilitation de la Mosquée de Dioulassoba restituée",
+    "publisher": "Burkina24",
+    "url": "https://burkina24.com/?p=271169",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sidwaya-info-551e48",
+    "title": "Mosquée de Dioulassoba : désormais dans ses nouveaux habits",
+    "publisher": "Sidwaya (2019-09-10)",
+    "url": "https://www.sidwaya.info/?p=13719",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-wakatsera-com-e20955",
+    "title": "Bobo-Dioulasso: le reste du minaret de la mosquée de Dioulassoba a cédé",
+    "publisher": "Wakat Séra (Daouda Zongo · 2021-08-13)",
+    "url": "https://www.wakatsera.com/bobo-dioulasso-le-reste-du-minaret-de-la-mosquee-de-dioulassoba-a-cede/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-macmillan-yale-edu-82b409",
+    "title": "Bunce Island History",
+    "publisher": "Gilder Lehrman Center, Yale University",
+    "url": "https://macmillan.yale.edu/glc/bunce-island-history",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theferret-scot-746361",
+    "title": "Scots laird asked to help save ancestor's 'evil' slave castle",
+    "publisher": "The Ferret",
+    "url": "https://www.theferret.scot/laird-ancestors-slave-castle/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-taipeitimes-com-f8731a",
+    "title": "Guinea-Bissau opens slave memorial",
+    "publisher": "Taipei Times (AFP) (2016-09-24)",
+    "url": "https://www.taipeitimes.com/News/world/archives/2016/09/24/2003655843",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-repositorio-unilab-edu-br-a1679b",
+    "title": "Undergraduate thesis (TCC), Elisabette Djenaba Cudango",
+    "publisher": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB) (Elisabette Djenaba Cudango)",
+    "url": "https://repositorio.unilab.edu.br/jspui/bitstream/123456789/3128/1/ELISABETTE%20DJENABA%20CUDANGO%20TCC.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jefferson-edu-436c50",
+    "title": "Symbolism and Resilience in the Aftermath of a Destructive Volcanic Eruption",
+    "publisher": "Article PDF hosted by Jefferson University (Weeks and Popinsky, vol. 8 no. 2, September 2016) (Samuel Weeks and Vitor Popinsky · 2016-09)",
+    "url": "https://www.jefferson.edu/content/dam/academic/humanities/documents/Symbolism_and_Resilience_in_the_Aftermat.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-link-springer-com-6bca5e",
+    "title": "Damage from lava flows: insights from the 2014–2015 eruption of Fogo, Cape Verde",
+    "publisher": "Journal of Applied Volcanology (Springer) (2017-03-20)",
+    "url": "https://link.springer.com/doi/10.1186/s13617-017-0057-6",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afd-fr-3b6b9d",
+    "title": "Reinventing the Venice of Africa",
+    "publisher": "Agence Française de Développement (AFD)",
+    "url": "https://www.afd.fr/en/actualites/reinventing-venice-africa",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-archdaily-com-628856",
+    "title": "The Floating Village of Ganvie: A Model for Socio-Ecological Urbanism",
+    "publisher": "ArchDaily (Paul Yakubu · 2023-05-12)",
+    "url": "https://www.archdaily.com/1000658/the-floating-village-of-ganvie-a-model-for-socio-ecological-urbanism",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-beninwebtv-bj-6521df",
+    "title": "Bénin : la Cité lacustre de Ganvié classée au patrimoine culturel national",
+    "publisher": "Bénin Web TV (2026-03-05)",
+    "url": "https://beninwebtv.bj/benin-la-cite-lacustre-de-ganvie-classee-au-patrimoine-culturel-national/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africaandmideast-internationalprograms-us-9ccfd8",
+    "title": "Angola Protected Area Network Assessment",
+    "publisher": "US Department of Agriculture Forest Service International Programs (2022-08-12)",
+    "url": "https://africaandmideast.internationalprograms.us/wp-content/uploads/2023/01/Angola-PA-Network-V2.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-the-eis-com-fb4077",
+    "title": "Iona-Skeleton Coast Transfrontier Conservation Area",
+    "publisher": "Peace Parks Foundation / Environmental Information Service (the-eis.com)",
+    "url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/Iona_Skeleton%20Coast%20Transfrontier%20Conservation%20Area.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-handelsblatt-com-5a2a65",
+    "title": "Reise-Newcomer Angola: Wassermassen und Wunderfelsen: Zu den Geheimtipps in Malanje",
+    "publisher": "Handelsblatt (dpa) (2026-10-28)",
+    "url": "https://www.handelsblatt.com/unternehmen/dienstleister/reise-newcomer-angola-wassermassen-und-wunderfelsen-zu-den-geheimtipps-in-malanje/100265451.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dn-pt-c8b5e1",
+    "title": "Quedas de Kalandula voltam a ter pousada após décadas de abandono",
+    "publisher": "Diário de Notícias (Lusa) (2017-11-18)",
+    "url": "https://www.dn.pt/lusa/quedas-de-kalandula-voltam-a-ter-pousada-apos-decadas-de-abandono-8926386.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-worldwaterfalldatabase-com-2c3c01",
+    "title": "Waterfalls in Guinea",
+    "publisher": "World Waterfall Database",
+    "url": "https://www.worldwaterfalldatabase.com/country/Guinea/list",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-china-aiddata-org-0e86fd",
+    "title": "Chinese Government provides $4 million loan for 3.4MW Kinkon Hydropower Plant Rehabilitation Project",
+    "publisher": "AidData, William & Mary",
+    "url": "https://china.aiddata.org/projects/15060",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thebridgetank-org-06a45a",
+    "title": "Safeguarding West Africa’s Fouta Djallon Highlands (issue brief)",
+    "publisher": "The Bridge Tank (Joël Ruet and Hamed Semega · 2023-01)",
+    "url": "https://thebridgetank.org/wp-content/uploads/2023/05/Policy_brief_Fouta-Djallon-V.2-1.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-abidjan-net-f44571",
+    "title": "Monographie du département de Korhogo",
+    "publisher": "Abidjan.net News",
+    "url": "https://news.abidjan.net/articles/464271/index",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-publicforms-whitworth-edu-c3bc7f",
+    "title": "Korhogo Mud Cloth (catalogue record)",
+    "publisher": "Whitworth Art Collection, Whitworth University",
+    "url": "https://publicforms.whitworth.edu/art/collection/collection/artwork/1627",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-artsandculture-google-com-f2c004",
+    "title": "Korhogo Cloth",
+    "publisher": "Kenya National Archives via Google Arts & Culture",
+    "url": "https://artsandculture.google.com/asset/korhogo-cloth/5wGrF7464O59Ew",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-engagingtheamericas-digitalscholarship-brown-edu-5f5b9c",
+    "title": "Korhogo Textile (Senufo), Off the Roll",
+    "publisher": "Brown University, Haffenreffer Museum project (Jessica Nelson)",
+    "url": "https://engagingtheamericas.digitalscholarship.brown.edu/off-the-roll-highlights-of-a-global-textiles-project/korhogo-textile-senufo",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rsis-ramsar-org-1a586d",
+    "title": "Kpatawee Wetlands, Ramsar Sites Information Service, site 1629",
+    "publisher": "Ramsar Convention Secretariat",
+    "url": "https://rsis.ramsar.org/ris/1629",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontpageafricaonline-com-2897f5",
+    "title": "Liberia: Locals Want Management of Kpatawee Waterfalls Out, Say They’ve Breached the MoU",
+    "publisher": "FrontPageAfrica (Selma Lomax · 2024-04-29)",
+    "url": "https://frontpageafricaonline.com/liberia-locals-want-management-of-kpatawee-waterfalls-out-say-theyve-breached-the-mou/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-edition-efua-acaref-net-d6637e",
+    "title": "De la sauvegarde et de la mise en valeur du site de sculpture de Laongo dans une perspective de développement local",
+    "publisher": "ACAREF, collection Pluraxes/Monde (Edwige Zagré/Kaboré) (Edwige Zagré Kaboré · 2025)",
+    "url": "https://edition-efua.acaref.net/wp-content/uploads/sites/6/2025/12/3-Edwige-ZAGRE-KABORE.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africanews-com-903405",
+    "title": "Burkina Faso's Loango open-air museum attracts tourists",
+    "publisher": "Africanews (2018-01-13)",
+    "url": "https://www.africanews.com/2018/01/13/burkina-faso-s-loango-open-air-museum-attracts-tourists",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sidwaya-info-a7ea58",
+    "title": "Soutenance de thèse : Moctar Sanfo se penche sur le Site de sculptures sur granite de Laongo",
+    "publisher": "Sidwaya (2025-04-28)",
+    "url": "https://www.sidwaya.info/soutenance-de-these-moctar-sanfo-se-penche-sur-le-site-de-sculptures-sur-granite-de-laongo/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-cd4030",
+    "title": "Burkina: Le nouveau visage de Laongo",
+    "publisher": "Burkina24",
+    "url": "https://burkina24.com/?p=126576",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-d300b4",
+    "title": "Tourisme en Guinée : chasse aux trésors dans l’archipel des îles de Loos",
+    "publisher": "Jeune Afrique (François-Xavier Freland · 2017-03-08)",
+    "url": "https://www.jeuneafrique.com/mag/407114/societe/tourisme-guinee-chasse-aux-tresors-larchipel-iles-de-loos/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lestimes-com-e1cdf8",
+    "title": "’Maletsunyane falls dry up",
+    "publisher": "Lesotho Times (’Marafaele Mohloboli · 2016-01-15)",
+    "url": "https://lestimes.com/?p=23394",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-entc-org-sz-34c2d8",
+    "title": "Malolotja Nature Reserve",
+    "publisher": "Eswatini National Trust Commission",
+    "url": "https://entc.org.sz/malolotja-game-reserve/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailymaverick-co-za-7c4aba",
+    "title": "Mining is destroying crucial Eswatini nature reserve",
+    "publisher": "Daily Maverick (GroundUp) (Cebelihle Mbuyisa and Dane Armstrong · 2024-06-11)",
+    "url": "https://www.dailymaverick.co.za/article/2024-06-11-mining-with-royal-approval-causes-devastating-damage-to-fragile-eswatini-nature-reserve/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-groundup-news-9b86c2",
+    "title": "Mining is destroying crucial Eswatini nature reserve",
+    "publisher": "GroundUp (Cebelihle Mbuyisa and Dane Armstrong · 2024-06-11)",
+    "url": "https://groundup.news/article/mining-causing-irreversible-damage-to-crucial-eswatini-nature-reserve/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-abidjan-net-774894",
+    "title": "Reportage/ Man: Richesses et singularités d'une ville !",
+    "publisher": "Abidjan.net News",
+    "url": "https://news.abidjan.net/articles/473455/reportage-man-richesses-et-singularites-dune-ville",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fratmat-info-ec5efd",
+    "title": "Tourisme : Des attraits à l'abandon, des sites à problèmes",
+    "publisher": "Fraternité Matin (2014-01-15)",
+    "url": "https://www.fratmat.info/article/63042/%C3%89conomie/tourisme-des-attraits-a-labandon-des-sites-a-problemes",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-abidjan-net-8d8ebc",
+    "title": "Région des montagnes : le tourisme se meurt",
+    "publisher": "Abidjan.net News",
+    "url": "https://news.abidjan.net/articles/337778/region-des-montagnes-le-tourisme-se-meurt",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-inforpress-cv-95c778",
+    "title": "São Vicente: Dia da Cidade do Mindelo já é feriado municipal",
+    "publisher": "Inforpress (Cape Verde news agency) (2024-03-27)",
+    "url": "https://inforpress.cv/en/sovicentediadacidadedomindelojferiadomunicipal",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-expressodasilhas-cv-7b0c6f",
+    "title": "Os anos oitocentos",
+    "publisher": "Expresso das Ilhas (2017-02-07)",
+    "url": "https://expressodasilhas.cv/opiniao/2017/02/07/os-anos-oitocentos/51936",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-france24-com-218f86",
+    "title": "Legendary singer Cesaria Evora dies aged 70",
+    "publisher": "France 24 (2011-12-17)",
+    "url": "https://www.france24.com/en/20111217-legendary-cape-verdean-diva-cesaria-evora-dies-aged-70",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-npr-org-088f39",
+    "title": "Cesária Évora: The Barefoot Diva Who Paved Her Own Path",
+    "publisher": "NPR (2017-11-08)",
+    "url": "https://www.npr.org/2017/11/08/562575877/shocking-omissions-ces-ria-voras-ces-ria",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-expressodasilhas-cv-456d7e",
+    "title": "Carnaval do Mindelo, Carnaval d'intentaçon",
+    "publisher": "Expresso das Ilhas (Brito-Semedo · 2023-02-25)",
+    "url": "https://expressodasilhas.cv/cultura/2023/02/25/carnaval-do-mindelo-carnaval-dintentacon/84571",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-biggameparks-org-f9e50a",
+    "title": "Mlilwane Wildlife Sanctuary",
+    "publisher": "Big Game Parks (Eswatini)",
+    "url": "https://biggameparks.org/properties/mlilwane-wildlife-sanctuary",
+    "tier": "primary",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-biggameparks-org-9d754a",
+    "title": "Conservation",
+    "publisher": "Big Game Parks (Eswatini)",
+    "url": "https://biggameparks.org/conservation",
+    "tier": "primary",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-humanities-uct-ac-za-16be02",
+    "title": "Lesotho’s remembering of itself",
+    "publisher": "University of Cape Town, African Policy Collections Gazette (Stephen Gill (director) · 2020-12-24)",
+    "url": "https://humanities.uct.ac.za/apc/articles/2020-12-24-lesothos-remembering-itself",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lepetitjournal-com-5d9012",
+    "title": "Ouidah: l'histoire de la traite des esclaves, une ville du souvenir",
+    "publisher": "Lepetitjournal Cotonou (2018-10-18)",
+    "url": "https://lepetitjournal.com/cotonou/actualites/ouidah-lhistoire-de-la-traite-des-esclaves-une-ville-du-souvenir-75059",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-archaeology-org-94cd8b",
+    "title": "Off the Grid: Ouidah, Benin",
+    "publisher": "Archaeology Magazine (Archaeological Institute of America) (Marley Brown · 2018-09)",
+    "url": "https://archaeology.org/issues/september-october-2018/off-the-grid/trenches-benin-ouidah/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-slaverymonuments-org-e7219a",
+    "title": "La Porte du Non Retour (Ouidah, Republic of Benin)",
+    "publisher": "Contemporary Monuments to the Slave Past (Renée Ater)",
+    "url": "https://www.slaverymonuments.org/items/show/1147",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africanparks-org-dfdf94",
+    "title": "Pendjari National Park factsheet",
+    "publisher": "African Parks (2018-10)",
+    "url": "https://www.africanparks.org/sites/default/files/uploads/resources/2018-10/Pendjari%20Factsheet.pdf",
+    "tier": "primary",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-mongabay-com-df2967",
+    "title": "$23.5 million funding pledge aims to protect critical West African national park",
+    "publisher": "Mongabay (2018-02)",
+    "url": "https://news.mongabay.com/2018/02/23-5-million-funding-pledge-aims-to-protect-critical-west-african-national-park",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-news-mongabay-com-920a76",
+    "title": "Conservation group African Parks to look after West African wildlife",
+    "publisher": "Mongabay (2017-06)",
+    "url": "https://news.mongabay.com/2017/06/conservation-group-african-parks-to-look-after-west-african-wildlife/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cnn-com-56055d",
+    "title": "A post-war surfing renaissance is underway in Africa’s oldest republic",
+    "publisher": "CNN (Mark Tutton · 2022-05-20)",
+    "url": "https://www.cnn.com/travel/article/robertsport-liberia-surf-spc-intl/index.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rsis-ramsar-org-1284f0",
+    "title": "Lake Piso, Ramsar Sites Information Service, site 1306",
+    "publisher": "Ramsar Convention Secretariat",
+    "url": "https://rsis.ramsar.org/ris/1306",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fda-gov-lr-99b245",
+    "title": "Sapo National Park Integrated Management and Evaluation Tool (IMET) report",
+    "publisher": "Forestry Development Authority, Liberia",
+    "url": "https://fda.gov.lr/sites/default/files/documents/sapoimet.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-keybiodiversityareas-org-d7fa73",
+    "title": "Sapo, Key Biodiversity Areas factsheet",
+    "publisher": "Key Biodiversity Areas Partnership",
+    "url": "https://www.keybiodiversityareas.org/site/factsheet/6462",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-99f5e3",
+    "title": "Les pics de Sindou : Un musée naturel à ciel ouvert",
+    "publisher": "Burkina24 (2012-07-26)",
+    "url": "https://burkina24.com/?p=24060",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-edepot-wur-nl-2d69cf",
+    "title": "Notice explicative de la carte géologique de la République de Haute-Volta (1:1,000,000)",
+    "publisher": "Ministère du Commerce, du Développement industriel et des Mines, Direction de la Géologie et des Mines, Haute-Volta (G. Hottin and O.-F. Ouedraogo · 1975)",
+    "url": "https://edepot.wur.nl/493013",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-burkina24-com-704cca",
+    "title": "Les Sénoufo et les pics de Sindou : Une histoire de protection",
+    "publisher": "Burkina24 (2012)",
+    "url": "https://burkina24.com/?p=24127",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sidwaya-info-cc3c60",
+    "title": "Tourisme interne : la résilience des Burkinabè pour sortir le secteur du bourbier sécuritaire",
+    "publisher": "Sidwaya",
+    "url": "https://www.sidwaya.info/tourisme-interne-la-resilience-des-burkinabe-pour-sortir-le-secteur-du-bourbier-securitaire/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-persee-fr-1b5cc1",
+    "title": "Renseignements ethnographiques et linguistiques sur les Danakils de Tadjourah",
+    "publisher": "Journal des Africanistes (Persée) (Maurice Lucas · 1935)",
+    "url": "https://www.persee.fr/doc/jafr_0037-9166_1935_num_5_2_1592",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-cf9db6",
+    "title": "Djibouti : en attendant le réveil de Tadjoura",
+    "publisher": "Jeune Afrique",
+    "url": "https://www.jeuneafrique.com/8934/economie-entreprises/djibouti-en-attendant-le-r-veil-de-tadjoura/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-8955e7",
+    "title": "À Djibouti, Tadjourah célèbre son nouveau sultan",
+    "publisher": "Jeune Afrique",
+    "url": "https://www.jeuneafrique.com/1391687/politique/a-djibouti-tadjourah-celebre-son-nouveau-sultan/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-jeuneafrique-com-5cd613",
+    "title": "Djibouti : des milliers d'Afars rassemblés pour l'enterrement du sultan Abdoulkader Houmed",
+    "publisher": "Jeune Afrique (2019-05)",
+    "url": "https://www.jeuneafrique.com/778865/politique/djibouti-des-milliers-dafars-rassemblees-pour-lenterrement-du-sultan-abdoulkader-houmed/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thesalmons-org-0c91a6",
+    "title": "Taï National Park, Côte d'Ivoire (World Heritage datasheet)",
+    "publisher": "UNEP-WCMC (copy hosted at thesalmons.org)",
+    "url": "https://thesalmons.org/lynn/wh-wcmc/Ivory-tai.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aip-ci-133ef1",
+    "title": "Les autorités appellent à la consolidation des acquis du parc national de Taï",
+    "publisher": "Agence Ivoirienne de Presse (AIP) (2025-08)",
+    "url": "https://www.aip.ci/cote-divoire-aip-les-autorites-appellent-a-la-consolidation-des-acquis-du-parc-national-de-tai/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aip-ci-8da80c",
+    "title": "L'OIPR s'engage à relever les défis de conservation du parc national de Taï et de la réserve naturelle du Cavally",
+    "publisher": "Agence Ivoirienne de Presse (AIP) (2025-11)",
+    "url": "https://www.aip.ci/cote-divoire-aip-loipr-sengage-a-relever-les-defis-de-conservation-du-parc-national-de-tai-et-de-la-reserve-naturelle-du-cavally/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fratmat-info-f56a79",
+    "title": "Agression du parc national de Taï : 301 personnes interpellées et remises à la justice de 2021 à 2023",
+    "publisher": "Fraternité Matin (AIP) (2024-06-09)",
+    "url": "https://www.fratmat.info/article/240273/societe/agression-du-parc-national-de-tai-301-personnes-interpellees-et-remises-a-la-justice-de-2021-a-2023",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ler-letras-up-pt-0d8063",
+    "title": "Museus, Património, Turismo, Espaço, Comunicação (Tarrafal)",
+    "publisher": "Universidade do Porto, Faculdade de Letras (ler.letras.up.pt)",
+    "url": "https://ler.letras.up.pt/uploads/ficheiros/8628.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-buala-org-f40f42",
+    "title": "“Perpetual Cycle”: (Re)appearing memories and decolonial practices in Tarrafal, Cape Verde",
+    "publisher": "BUALA",
+    "url": "https://www.buala.org/en/mukanda/perpetual-cycle-reappearing-memories-and-decolonial-practices-in-tarrafal-cape-verde",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-observador-pt-40b404",
+    "title": "Portugal e Cabo Verde promovem candidatura do Tarrafal a património mundial",
+    "publisher": "Observador (Lusa) (2021-07-06)",
+    "url": "https://observador.pt/2021/07/06/portugal-e-cabo-verde-promovem-candidatura-do-tarrafal-a-patrimonio-mundial/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dl-uc-pt-a07e69",
+    "title": "Património geológico da Tundavala (Huíla, Angola) – uma avaliação qualitativa integrada",
+    "publisher": "Imprensa da Universidade de Coimbra (Para aprender com a Terra, 2012) (M. H. Henriques, A. O. Tavares, A. L. M. Bala · 2012)",
+    "url": "https://dl.uc.pt/rest/bitstreams/11294922/retrieve",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dspace-uevora-pt-686525",
+    "title": "Do planalto da Humpata ao deserto do Namibe, SW de Angola (guidebook, 35th International Geological Congress)",
+    "publisher": "Universidade de Évora (A. B. Pinho et al. · 2016)",
+    "url": "https://dspace.uevora.pt/rdpc/bitstream/10174/20355/1/Abstr._dspace_Guidebook_SW%20Angola_35IGC.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dl-uc-pt-b72050",
+    "title": "Caracterização morfoestrutural do bordo ocidental do planalto da Humpata (SW de Angola)",
+    "publisher": "Imprensa da Universidade de Coimbra (Para aprender com a Terra, 2012) (F. C. Lopes, V. Mantas, A. Pereira, H. Mpengo · 2012)",
+    "url": "https://dl.uc.pt/rest/bitstreams/11292940/retrieve",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-adf-magazine-com-653266",
+    "title": "The Sultan of Damagaram",
+    "publisher": "Africa Defense Forum (2020-12)",
+    "url": "https://adf-magazine.com/2020/12/the-sultan-of-damagaram/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-edition-efua-acaref-net-68f9cf",
+    "title": "Protection et valorisation du patrimoine culturel au Zinder à l'aune de la renaissance culturelle au Niger",
+    "publisher": "Université Abdou Moumouni (Niamey) (Nouhou Alilou)",
+    "url": "https://edition-efua.acaref.net/wp-content/uploads/sites/6/2023/07/Nouhou-ALILOU.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
   }
 ]

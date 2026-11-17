@@ -1,0 +1,90 @@
+{
+  "slug": "kinkon-falls-and-the-fouta-djallon",
+  "status": "draft",
+  "type": "nature",
+  "country": "GIN",
+  "name": "Kinkon Falls and the Fouta Djallon",
+  "region": "Pita · Guinea",
+  "subtitle": "Kinkon Falls are on the Kokoulo River near Pita in the Fouta Djallon highlands and are listed at 80 metres.",
+  "facts": [
+    {
+      "label": "Height",
+      "value": "80 metres (262 feet)",
+      "cite": [
+        "cap-worldwaterfalldatabase-com-2c3c01"
+      ]
+    },
+    {
+      "label": "Hydropower plant",
+      "value": "3.4 MW plant in Pita District upstream of the falls on the Kokoulo River",
+      "cite": [
+        "cap-china-aiddata-org-0e86fd"
+      ]
+    },
+    {
+      "label": "Towns served",
+      "value": "Pita, Labe, Dalaba, Timbi-Matina, Mamou and Boulizel",
+      "cite": [
+        "cap-china-aiddata-org-0e86fd"
+      ]
+    },
+    {
+      "label": "Rehabilitation",
+      "value": "Rehabilitation project completed 19 July 2006",
+      "cite": [
+        "cap-china-aiddata-org-0e86fd"
+      ]
+    },
+    {
+      "label": "Fouta Djallon highlands",
+      "value": "Central area of 60,000 km2, with foothills over more than 300,000 km2 reaching Guinea-Bissau, Mali, Senegal and Sierra Leone",
+      "cite": [
+        "cap-thebridgetank-org-06a45a"
+      ]
+    },
+    {
+      "label": "Water tower",
+      "value": "Called the Water Tower of West Africa; birthplace of 7 of the region's largest rivers",
+      "cite": [
+        "cap-thebridgetank-org-06a45a"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "value": "Brief describes degradation of the highlands' resources and ecosystems from climate change and local practices",
+      "cite": [
+        "cap-thebridgetank-org-06a45a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kinkon Falls are on the Kokoulo River near Pita in the Fouta Djallon highlands and are listed at 80 metres. A 3.4 MW hydropower plant stands upstream of the falls and serves six towns. The Fouta Djallon is known as the water tower of West Africa and is reported to be degrading.",
+              "cite": [
+                "cap-worldwaterfalldatabase-com-2c3c01",
+                "cap-china-aiddata-org-0e86fd",
+                "cap-thebridgetank-org-06a45a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Falls height from a second independent non-tourism source",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

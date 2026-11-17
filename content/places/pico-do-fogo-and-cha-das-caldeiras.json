@@ -1,0 +1,109 @@
+{
+  "slug": "pico-do-fogo-and-cha-das-caldeiras",
+  "status": "draft",
+  "type": "nature",
+  "country": "CPV",
+  "name": "Pico do Fogo and Chã das Caldeiras",
+  "region": "Island of Fogo · Cape Verde",
+  "subtitle": "Pico do Fogo is a 2,829-metre volcano on the island of Fogo.",
+  "facts": [
+    {
+      "label": "What",
+      "value": "Chã das Caldeiras ('Chã') is a community inside the crater of Pico do Fogo, a 2,829 m volcano on the island of Fogo",
+      "cite": [
+        "cap-jefferson-edu-436c50"
+      ]
+    },
+    {
+      "label": "Setting",
+      "value": "Chã is a flat area between the Pico and the Bordeira cliffs, formed by lavas ponding there",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "Settlement",
+      "value": "Settled for about 150 years; eruptions from vents near the base of Pico occurred in 1951, 1995 and 2014-2015",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "Population 1995",
+      "value": "About 1,300 people lived in Chã at the time of the 1995 eruption, in three villages",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "1995 relocation",
+      "value": "After 1995, services such as health and education were permanently moved out of Chã to planned villages on the arid south side of Fogo",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "Agriculture",
+      "value": "Chã is one of the most productive agricultural areas in semi-arid Cape Verde",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "Livelihoods",
+      "value": "Residents relied on tourism, remittances, vegetable and fruit exports and the agricultural co-operative, whose wine was the most important product by value",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "National park HQ",
+      "value": "New Fogo National Park headquarters inaugurated in March 2014; lava submerged it a week into the eruption",
+      "cite": [
+        "cap-jefferson-edu-436c50"
+      ]
+    },
+    {
+      "label": "2014-2015 damage",
+      "value": "Lava engulfed 75% (260) of buildings in three villages, 25% of cultivable land, water storage and the only road into the area",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    },
+    {
+      "label": "Return",
+      "value": "Residents were reluctant to be resettled on the arid south side of Fogo after recent eruptions",
+      "cite": [
+        "cap-link-springer-com-6bca5e"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pico do Fogo is a 2,829-metre volcano on the island of Fogo. Inside its crater lies Chã das Caldeiras, a farming community known as Chã, built on a plain between the peak and the Bordeira cliffs. Lava from the 2014-2015 eruption engulfed 75% of the buildings in three villages there.",
+              "cite": [
+                "cap-jefferson-edu-436c50",
+                "cap-link-springer-com-6bca5e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

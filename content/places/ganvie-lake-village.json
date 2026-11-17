@@ -1,0 +1,96 @@
+{
+  "slug": "ganvie-lake-village",
+  "status": "draft",
+  "type": "culture",
+  "country": "BEN",
+  "name": "Ganvié lake village",
+  "region": "Lake Nokoué, near Cotonou · Benin",
+  "subtitle": "Ganvié is a village of stilt houses on Lake Nokoué, about 30 km from Cotonou, where residents move by boat.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "About 30 km from Cotonou, on Lake Nokoué",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Movement",
+      "value": "Buildings sit on stilts; residents travel by boat",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Name and origin",
+      "value": "Name means 'we survived'; refuge in the 18th century for people escaping slave raids",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Slave raiders",
+      "value": "Armed men from the Fon and Dahomey kingdoms captured people and sold them to Portuguese traders",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Founders",
+      "value": "Founded by the Tofinu, a fishing people living on the Benin coast before the 17th century",
+      "cite": [
+        "cap-archdaily-com-628856"
+      ]
+    },
+    {
+      "label": "Pressure on the lake",
+      "value": "Water hyacinth competes with fish, which are also threatened by backfill, pollution and overfishing",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Water hyacinth project",
+      "value": "75 tons harvested and over 1,000 young people trained, in an AFD-supported programme",
+      "cite": [
+        "cap-afd-fr-3b6b9d"
+      ]
+    },
+    {
+      "label": "Heritage status",
+      "value": "Council of Ministers decree of 4 March 2026 classifies the Cité lacustre de Ganvié as national cultural heritage",
+      "cite": [
+        "cap-beninwebtv-bj-6521df"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ganvié is a village of stilt houses on Lake Nokoué, about 30 km from Cotonou, where residents move by boat. Its name is said to mean 'we survived', and it served as a refuge from slave raids by the Fon and Dahomey kingdoms. Fishing is still the main livelihood, but water hyacinth, backfill, pollution and overfishing now pressure the lake; in March 2026 the government classified the site as national cultural heritage.",
+              "cite": [
+                "cap-afd-fr-3b6b9d",
+                "cap-archdaily-com-628856",
+                "cap-beninwebtv-bj-6521df"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

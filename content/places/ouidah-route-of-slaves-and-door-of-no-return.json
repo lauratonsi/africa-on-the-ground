@@ -1,0 +1,103 @@
+{
+  "slug": "ouidah-route-of-slaves-and-door-of-no-return",
+  "status": "draft",
+  "type": "site",
+  "country": "BEN",
+  "name": "Ouidah: Route of Slaves and Door of No Return",
+  "region": "Ouidah · Benin",
+  "subtitle": "Ouidah is a town on the Beninese coast, about forty kilometres from Cotonou, that was the port of the Hueda Kingdom and a major embarkation point of the Atlantic slave trade.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Coastal town about 40 km from Cotonou",
+      "cite": [
+        "cap-lepetitjournal-com-5d9012"
+      ]
+    },
+    {
+      "label": "Earlier name and kingdom",
+      "value": "Called Gléwé, port of the Hueda Kingdom, when Europeans arrived in the late 15th century",
+      "cite": [
+        "cap-archaeology-org-94cd8b"
+      ]
+    },
+    {
+      "label": "Departures",
+      "value": "About 10,000 enslaved people left Ouidah each year by the end of the 17th century",
+      "cite": [
+        "cap-archaeology-org-94cd8b"
+      ]
+    },
+    {
+      "label": "Door of No Return",
+      "value": "Monument at the end of a two-mile dirt road, described as commemorating some one million enslaved people",
+      "cite": [
+        "cap-archaeology-org-94cd8b"
+      ]
+    },
+    {
+      "label": "Inaugurated",
+      "value": "30 November 1995, by the Government of Benin and UNESCO",
+      "cite": [
+        "cap-slaverymonuments-org-e7219a"
+      ]
+    },
+    {
+      "label": "Credited contributors (monument record)",
+      "value": "Government of Benin and UNESCO",
+      "cite": [
+        "cap-slaverymonuments-org-e7219a"
+      ]
+    },
+    {
+      "label": "Start of the route",
+      "value": "Place des enchères (place Chacha), town centre",
+      "cite": [
+        "cap-lepetitjournal-com-5d9012"
+      ]
+    },
+    {
+      "label": "Mortality at sea",
+      "value": "On average 20% of those embarked died during the crossing",
+      "cite": [
+        "cap-lepetitjournal-com-5d9012"
+      ]
+    },
+    {
+      "label": "Museum of History",
+      "value": "Housed in a Portuguese fort built in 1721",
+      "cite": [
+        "cap-archaeology-org-94cd8b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ouidah is a town on the Beninese coast, about forty kilometres from Cotonou, that was the port of the Hueda Kingdom and a major embarkation point of the Atlantic slave trade. The Door of No Return, a monument inaugurated in 1995 on the beach, marks the end of the route that captives walked from the town's auction square. Archaeology Magazine describes it as a monument to some one million enslaved people.",
+              "cite": [
+                "cap-lepetitjournal-com-5d9012",
+                "cap-archaeology-org-94cd8b",
+                "cap-slaverymonuments-org-e7219a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "laongo-granite-sculpture-site",
+  "status": "draft",
+  "type": "culture",
+  "country": "BFA",
+  "name": "Laongo granite sculpture site",
+  "region": "Laongo, Oubritenga Province · Burkina Faso",
+  "subtitle": "Laongo is an open-air granite sculpture site about 35 km north-east of Ouagadougou, in Oubritenga Province.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "About 35 km north-east of Ouagadougou",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Province",
+      "value": "In Oubritenga Province, whose capital is Ziniaré",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Initiative of the Comité National des Arts Plastiques du Burkina; first symposium held 13 January to 2 March 1989",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Precedents",
+      "value": "At its creation in 1989 only two other such sites existed, in Spain and the United States",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "More than 75 hectares",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Works (academic study)",
+      "value": "More than 200 works",
+      "cite": [
+        "cap-edition-efua-acaref-net-d6637e"
+      ]
+    },
+    {
+      "label": "Works (initiator, 2018)",
+      "value": "More than 300 sculptures; the initiator says a second site also exists",
+      "cite": [
+        "cap-africanews-com-903405"
+      ]
+    },
+    {
+      "label": "Former land use",
+      "value": "Site formerly reserved for farming and herding",
+      "cite": [
+        "cap-sidwaya-info-a7ea58"
+      ]
+    },
+    {
+      "label": "Funding limits",
+      "value": "Initiator says a biennial exhibition has not been possible since 1989 for lack of funds and external funding",
+      "cite": [
+        "cap-africanews-com-903405"
+      ]
+    },
+    {
+      "label": "First symposium name",
+      "value": "First held in 1989 as the symposium 'Sympo granit 89'",
+      "cite": [
+        "cap-burkina24-com-cd4030"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Laongo is an open-air granite sculpture site about 35 km north-east of Ouagadougou, in Oubritenga Province. It began with an international symposium held from 13 January to 2 March 1989, organised by the Comité National des Arts Plastiques du Burkina. The site covers more than 75 hectares and holds more than 200 works according to a 2025 academic study, or more than 300 according to its initiator in 2018.",
+              "cite": [
+                "cap-edition-efua-acaref-net-d6637e",
+                "cap-africanews-com-903405",
+                "cap-sidwaya-info-a7ea58",
+                "cap-burkina24-com-cd4030"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

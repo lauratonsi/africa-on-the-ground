@@ -1,0 +1,126 @@
+{
+  "slug": "grande-mosquee-de-bobo-dioulasso",
+  "status": "draft",
+  "type": "culture",
+  "country": "BFA",
+  "name": "Grande Mosquée de Bobo-Dioulasso",
+  "region": "Dioulassoba, Bobo-Dioulasso · Burkina Faso",
+  "subtitle": "The Grande Mosquée of Bobo-Dioulasso, also called the mosque of Dioulassoba, is an adobe mosque in the Sudano-Sahelian style, built of local materials.",
+  "facts": [
+    {
+      "label": "Architectural style",
+      "value": "Sudano-Sahelian adobe mosque, second in size only to the Great Mosque of Djenné (per a peer-reviewed article)",
+      "cite": [
+        "cap-research-wright-edu-7848e4"
+      ]
+    },
+    {
+      "label": "Description",
+      "value": "Described as a masterpiece of the Sudano-Sahelian adobe style",
+      "cite": [
+        "cap-research-wright-edu-7848e4"
+      ]
+    },
+    {
+      "label": "Materials",
+      "value": "Built of local materials, notably earth (terre cuite, as reported)",
+      "cite": [
+        "cap-burkina24-com-4a1eea"
+      ]
+    },
+    {
+      "label": "Form",
+      "value": "Its design sets it apart from mosques of Arab-Muslim inspiration",
+      "cite": [
+        "cap-burkina24-com-4a1eea"
+      ]
+    },
+    {
+      "label": "Date (Burkina24)",
+      "value": "Built from 1880",
+      "cite": [
+        "cap-burkina24-com-0c0c09"
+      ]
+    },
+    {
+      "label": "Date (Minister of Culture)",
+      "value": "Built in 1893, according to Culture Minister Abdoul Karim Sango",
+      "cite": [
+        "cap-sidwaya-info-551e48"
+      ]
+    },
+    {
+      "label": "Rehabilitation cost",
+      "value": "Rehabilitation project launched 18 November 2016, estimated at 527,831,073 CFA francs",
+      "cite": [
+        "cap-sidwaya-info-551e48"
+      ]
+    },
+    {
+      "label": "Handover",
+      "value": "Handed back to the Muslim community on 5 September 2019",
+      "cite": [
+        "cap-sidwaya-info-551e48"
+      ]
+    },
+    {
+      "label": "Ownership",
+      "value": "Described by the minister as a good belonging to the community",
+      "cite": [
+        "cap-sidwaya-info-551e48"
+      ]
+    },
+    {
+      "label": "Condition before works",
+      "value": "Described as heavily degraded and needing rehabilitation",
+      "cite": [
+        "cap-burkina24-com-4a1eea"
+      ]
+    },
+    {
+      "label": "Minaret collapse",
+      "value": "Part of the minaret fell on 8 August 2021 and the rest on 13 August 2021",
+      "cite": [
+        "cap-wakatsera-com-e20955"
+      ]
+    },
+    {
+      "label": "Earlier collapses",
+      "value": "Local sources say parts of the mosque began collapsing in October 2018, during rehabilitation",
+      "cite": [
+        "cap-wakatsera-com-e20955"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Grande Mosquée of Bobo-Dioulasso, also called the mosque of Dioulassoba, is an adobe mosque in the Sudano-Sahelian style, built of local materials. Sources date it to 1880 or 1893. It was rehabilitated between 2016 and 2019 and handed back to the Muslim community on 5 September 2019, but part of its minaret collapsed in August 2021.",
+              "cite": [
+                "cap-research-wright-edu-7848e4",
+                "cap-burkina24-com-4a1eea",
+                "cap-burkina24-com-0c0c09",
+                "cap-sidwaya-info-551e48",
+                "cap-wakatsera-com-e20955"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

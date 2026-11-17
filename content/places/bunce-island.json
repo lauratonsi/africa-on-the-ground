@@ -1,0 +1,95 @@
+{
+  "slug": "bunce-island",
+  "status": "draft",
+  "type": "site",
+  "country": "SLE",
+  "name": "Bunce Island",
+  "region": "Sierra Leone River · Sierra Leone",
+  "subtitle": "Bunce Island is the site of the largest British slave castle on the Rice Coast of West Africa.",
+  "facts": [
+    {
+      "label": "What it was",
+      "value": "The largest British slave castle on the Rice Coast of West Africa",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Dates",
+      "value": "Founded around 1670; closed down by the British Parliament in 1808",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Operators",
+      "value": "Run by four London-based companies, including the Royal African Company",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Main owner",
+      "value": "Richard Oswald, principal owner in the 1750s, worked with South Carolina rice planter Henry Laurens",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "National historic site under Sierra Leone's Ministry of Tourism and Monuments and Relics Commission",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Ruins",
+      "value": "Factory house, fortification, slave prison, watchtowers survive",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Preservation",
+      "value": "A US Park Service team issued a preservation management plan in 1989",
+      "cite": [
+        "cap-macmillan-yale-edu-82b409"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "value": "The government is trying to protect the island from coastal erosion and rising sea levels",
+      "cite": [
+        "cap-theferret-scot-746361"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bunce Island is the site of the largest British slave castle on the Rice Coast of West Africa. Founded around 1670, it was run by London companies until Parliament closed it in 1808. Substantial ruins remain, protected as a national historic site, and the government is trying to protect them from erosion and rising seas.",
+              "cite": [
+                "cap-macmillan-yale-edu-82b409",
+                "cap-theferret-scot-746361"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

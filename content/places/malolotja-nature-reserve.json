@@ -1,0 +1,96 @@
+{
+  "slug": "malolotja-nature-reserve",
+  "status": "draft",
+  "type": "nature",
+  "country": "SWZ",
+  "name": "Malolotja Nature Reserve",
+  "region": "north-west Eswatini · Eswatini",
+  "subtitle": "Malolotja is an 18,000 ha reserve in north-west Eswatini, managed by the National Trust Commission since 1979.",
+  "facts": [
+    {
+      "label": "Area",
+      "value": "Over 18,000 ha, the largest proclaimed protected area in Eswatini",
+      "cite": [
+        "cap-entc-org-sz-34c2d8"
+      ]
+    },
+    {
+      "label": "Management",
+      "value": "Managed by the Eswatini National Trust Commission since 1979",
+      "cite": [
+        "cap-dailymaverick-co-za-7c4aba"
+      ]
+    },
+    {
+      "label": "Habitats",
+      "value": "Wetland, woodland, highveld grassland and mistbelt forest",
+      "cite": [
+        "cap-entc-org-sz-34c2d8"
+      ]
+    },
+    {
+      "label": "Birds",
+      "value": "More than 280 bird species recorded, over half Eswatini's total",
+      "cite": [
+        "cap-entc-org-sz-34c2d8"
+      ]
+    },
+    {
+      "label": "Ngwenya Mine",
+      "value": "Modern open-cast mining ran from 1958 until 1979; people mined the iron ore over 43,000 years ago",
+      "cite": [
+        "cap-entc-org-sz-34c2d8"
+      ]
+    },
+    {
+      "label": "Mining licence",
+      "value": "In February 2024 Michael Lee Enterprises was granted a 25-year mining licence",
+      "cite": [
+        "cap-dailymaverick-co-za-7c4aba"
+      ]
+    },
+    {
+      "label": "Mining pressure",
+      "value": "The company plans to mine an additional 400 ha, with irreversible damage to Mgwayiza Valley, according to GroundUp",
+      "cite": [
+        "cap-groundup-news-9b86c2"
+      ]
+    },
+    {
+      "label": "Authorisation",
+      "value": "No environmental authorisation had been given as of June 2024",
+      "cite": [
+        "cap-groundup-news-9b86c2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Malolotja is an 18,000 ha reserve in north-west Eswatini, managed by the National Trust Commission since 1979. It protects grassland, wetland and forest habitats and more than 280 bird species. In 2024 reporters documented green chert mining inside it, which the company was licensed to expand.",
+              "cite": [
+                "cap-entc-org-sz-34c2d8",
+                "cap-dailymaverick-co-za-7c4aba",
+                "cap-groundup-news-9b86c2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

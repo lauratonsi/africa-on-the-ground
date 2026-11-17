@@ -1,0 +1,117 @@
+{
+  "slug": "benguela-railway",
+  "status": "draft",
+  "type": "site",
+  "country": "AGO",
+  "name": "Benguela Railway",
+  "region": "Lobito to Luau · Angola",
+  "subtitle": "The Benguela Railway links the Atlantic port of Lobito with Luau on the Congo border, 1,344 km on the rebuilt line.",
+  "facts": [
+    {
+      "label": "Route and length",
+      "value": "Rebuilt line of 1,344 km between the port of Lobito and the DR Congo border",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "Concession and opening",
+      "value": "Built under a 1902 concession agreement and opened in stages between 1908 and 1931; 1,067 mm gauge, 67 stations",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "Civil war",
+      "value": "Operations disrupted from 1975; through traffic to DR Congo ceased in 1981",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "State by 2001",
+      "value": "By the end of the concession in 2001 the line was wrecked; only the 34 km Benguela-Lobito section worked",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "Rebuild",
+      "value": "China Railway Construction Corp rebuilt the line in stages; project completed August 2014",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "Labour in rebuild",
+      "value": "Around 100,000 Angolans employed in reconstruction, 10,000 given specialist railway training",
+      "cite": [
+        "cap-railwaygazette-com-c620fb"
+      ]
+    },
+    {
+      "label": "Colonial construction start",
+      "value": "Construction began on 1 March 1903",
+      "cite": [
+        "cap-archlabour-iscte-iul-pt-e36015"
+      ]
+    },
+    {
+      "label": "Completion to Luau",
+      "value": "Completed to Luau in 1929, with a hiatus between 1913 and 1920",
+      "cite": [
+        "cap-archlabour-iscte-iul-pt-e36015"
+      ]
+    },
+    {
+      "label": "Construction labour",
+      "value": "7,000 men worked on the first decade, most of them from abroad, including Ghana and Liberia",
+      "cite": [
+        "cap-archlabour-iscte-iul-pt-e36015"
+      ]
+    },
+    {
+      "label": "Extension to Katanga",
+      "value": "Described as 1,866 km long, connecting Lobito with Luau and then extending to the Katanga mining region in the Belgian Congo",
+      "cite": [
+        "cap-archlabour-iscte-iul-pt-e36015"
+      ]
+    },
+    {
+      "label": "Destruction",
+      "value": "Civil war destroyed the line in 1983; Lobito-Luena link restored 2012",
+      "cite": [
+        "cap-macaudailytimes-com-mo-325475"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Benguela Railway links the Atlantic port of Lobito with Luau on the Congo border, 1,344 km on the rebuilt line. Construction began in 1903 and reached Luau in 1929. Civil war ended through traffic in 1981, and a Chinese-backed rebuild was completed in 2014.",
+              "cite": [
+                "cap-railwaygazette-com-c620fb",
+                "cap-archlabour-iscte-iul-pt-e36015",
+                "cap-macaudailytimes-com-mo-325475"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

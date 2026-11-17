@@ -1,0 +1,103 @@
+{
+  "slug": "mlilwane-wildlife-sanctuary",
+  "status": "draft",
+  "type": "nature",
+  "country": "SWZ",
+  "name": "Mlilwane Wildlife Sanctuary",
+  "region": "Ezulwini Valley · Eswatini",
+  "subtitle": "Mlilwane is a 4,560 ha sanctuary in the Ezulwini Valley, proclaimed in 1961 on the Reilly family farm.",
+  "facts": [
+    {
+      "label": "Area",
+      "value": "4,560 ha",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Proclaimed",
+      "value": "1961",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "Eswatini's pioneer conservation area",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": "In the Ezulwini Valley, between Mbabane and Manzini",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Site history",
+      "value": "Founded on the Reilly family farm, whose environment tin mining and farming had drastically modified",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "'Mlilwane' means 'Little Fire' in siSwati",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Shape",
+      "value": "A thin sliver of land, at most 4 km wide, too narrow for large herds",
+      "cite": [
+        "cap-biggameparks-org-f9e50a"
+      ]
+    },
+    {
+      "label": "Origins of conservation",
+      "value": "Formal conservation in Eswatini began in the late 1950s when Ted Reilly recognised the decline of wildlife",
+      "cite": [
+        "cap-biggameparks-org-9d754a"
+      ]
+    },
+    {
+      "label": "Big Game Parks",
+      "value": "The head of state delegated administration of the Game Act to Big Game Parks",
+      "cite": [
+        "cap-biggameparks-org-9d754a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Mlilwane is a 4,560 ha sanctuary in the Ezulwini Valley, proclaimed in 1961 on the Reilly family farm. It is described by its managers as Eswatini's pioneer conservation area. Big Game Parks, which runs it, also administers the national Game Act.",
+              "cite": [
+                "cap-biggameparks-org-f9e50a",
+                "cap-biggameparks-org-9d754a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}

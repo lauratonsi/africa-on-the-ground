@@ -1,0 +1,95 @@
+{
+  "slug": "robertsport",
+  "status": "draft",
+  "type": "culture",
+  "country": "LBR",
+  "name": "Robertsport",
+  "region": "Grand Cape Mount County · Liberia",
+  "subtitle": "Robertsport is a fishing town in Grand Cape Mount on the Liberian coast near the Sierra Leone border, beside Lake Piso, a Ramsar-listed coastal lagoon.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A fishing village on the border of Sierra Leone",
+      "cite": [
+        "cap-cnn-com-56055d"
+      ]
+    },
+    {
+      "label": "Surfing arrives",
+      "value": "Surfing was first introduced in 2003 by a group of American tourists, according to local surfer Philip Banini",
+      "cite": [
+        "cap-cnn-com-56055d"
+      ]
+    },
+    {
+      "label": "First Liberian surfer",
+      "value": "Alfred Lomax, taught by the visitors, shared the sport with locals",
+      "cite": [
+        "cap-cnn-com-56055d"
+      ]
+    },
+    {
+      "label": "Size of community",
+      "value": "About 4,000 people, including over 60 local surfers (2022)",
+      "cite": [
+        "cap-cnn-com-56055d"
+      ]
+    },
+    {
+      "label": "National standing",
+      "value": "One of Liberia's three main surfing destinations, with Monrovia and Harper",
+      "cite": [
+        "cap-cnn-com-56055d"
+      ]
+    },
+    {
+      "label": "Lake Piso",
+      "value": "Ramsar site designated 2 July 2003; 76,091 ha; Singe, Robertsport, Grand Cape Mount",
+      "cite": [
+        "cap-rsis-ramsar-org-1284f0"
+      ]
+    },
+    {
+      "label": "Lagoon",
+      "value": "An open coastal lagoon near Robertsport, the largest such inlet on the Liberian coast",
+      "cite": [
+        "cap-rsis-ramsar-org-1284f0"
+      ]
+    },
+    {
+      "label": "People depending on the lake",
+      "value": "About 38 communities, around 7,000 people, rely on it for transport and fishing",
+      "cite": [
+        "cap-rsis-ramsar-org-1284f0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Robertsport is a fishing town in Grand Cape Mount on the Liberian coast near the Sierra Leone border, beside Lake Piso, a Ramsar-listed coastal lagoon. After 2003, American visitors introduced surfing, and it is now a small local surf community.",
+              "cite": [
+                "cap-cnn-com-56055d",
+                "cap-rsis-ramsar-org-1284f0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Local voices: none yet.",
+    "Photograph: none yet."
+  ]
+}
