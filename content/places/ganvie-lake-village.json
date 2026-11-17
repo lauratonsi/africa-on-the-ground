@@ -92,5 +92,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "ganvie-lake-village",
+    "alt": "Stilt houses and boats in Ganvie, a lake village on Lake Nokoué, Benin.",
+    "caption": "Stilt houses and boats in Ganvie, a lake village on Lake Nokoué, Benin.",
+    "credit": "Asabiyya",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Ganvie%2C_Lake_Village%2C_Lake_Nokou%C3%A9%2C_Benin_04.jpg"
+  }
 }

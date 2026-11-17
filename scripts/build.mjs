@@ -168,7 +168,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}peoples/index.html"${current === "peoples" ? ' aria-current="page"' : ""}>Peoples</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>Stories</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}peoples/index.html"${current === "peoples" ? ' aria-current="page"' : ""}>Peoples</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>History &amp; Myths</a><a href="${p}food/index.html"${current === "food" ? ' aria-current="page"' : ""}>Food</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
     ${themeButton}
     </div>
   </div>
@@ -546,7 +546,8 @@ const cName = Object.fromEntries((data.countries ? data.countries.countries : []
 
 function storyCard(st, p = "") {
   const k = kindOf[st.kind];
-  return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${esc(k.label)} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span>${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length ? `<span class="scard-q">${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length} quiz questions inside</span>` : ""}</a></li>`;
+  const kickerLabel = st.kind === "myth" ? "Myth vs Record" : st.kind === "food" ? "Food & Culture" : esc(k.label);
+  return `<li><a class="scard" href="${esc(storyHref(st, p))}" data-kind="${esc(st.kind)}"><span class="kicker">${kickerLabel} · ${readMin(st)} min read</span><span class="scard-t">${esc(st.title)}</span><span class="scard-s">${esc(st.subtitle)}</span><span class="scard-c">${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span>${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length ? `<span class="scard-q">${((data.quiz && data.quiz.questions) || []).filter((q) => q.story === st.slug).length} quiz questions inside</span>` : ""}</a></li>`;
 }
 
 // Rendering condiviso dei blocchi ricchi (storie, schede dei luoghi, pagine come Method).
@@ -641,47 +642,160 @@ ${moreHtml}</article></div>`;
 }
 
 function renderStories() {
-  // Giro di riscaldamento: una domanda per storia (storie diverse), con punteggio solo sulla pagina. Non salva nulla.
-  const { cite: wcite } = makeCiter();
+  const storyBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
+  const mythStories = stories.filter((x) => x.kind === "myth");
+  const historyStories = stories.filter((x) => x.kind === "history");
+  const histMythStories = stories.filter((x) => x.kind === "myth" || x.kind === "history");
+
+  // Giro di riscaldamento: domande solo su miti e storia
   const seen = new Set();
   const warmQs = [];
   for (const q of (data.quiz && data.quiz.questions) || []) {
-    if (!q.story || seen.has(q.story) || !stories.some((x) => x.slug === q.story)) continue;
-    seen.add(q.story); warmQs.push(q);
+    if (!q.story || seen.has(q.story) || !histMythStories.some((x) => x.slug === q.story)) continue;
+    seen.add(q.story);
+    warmQs.push(q);
     if (warmQs.length === 5) break;
   }
   const warm = warmQs.length ? `<section id="sec-warmup" class="checks warmup"><span class="layer-tag rec">Warm-up round</span><h2>Five questions before you read</h2><p class="note-small">Guess first. Each answer points to the story that explains it.</p>${warmQs.map((q) => checkHtmlWith({ ...q, explain: q.explain + " Read more: " + stories.find((x) => x.slug === q.story).title + "." }, () => "")).join("")}<p class="check-score" role="status" aria-live="polite" hidden></p><p class="note-small">Nothing is saved: the score disappears when you leave the page. <a href="../quiz/index.html">Full quiz</a></p></section>` : "";
-  // Percorsi di lettura: ogni tappa è un link con ?trail=<id>&step=<n>; la pagina della storia legge l'indirizzo e mostra dove si è. Nessun dato viene salvato.
-  const storyBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
-  // Le storie in bozza non compaiono nelle versioni pubbliche: le tappe che le citano vengono saltate (un percorso resta solo con almeno 4 tappe).
-  const trailList = ((data.trails && data.trails.trails) || []).map((t) => ({ ...t, steps: t.steps.filter((x) => storyBySlug[x.story]) })).filter((t) => t.steps.length >= 4);
-  const trailsHtml = trailList.length ? `<section id="sec-trails" class="trails"><span class="layer-tag rec">Reading trails</span><h2>Pick a trail</h2><p class="note-small">Each trail is six stories in an order that builds. Open the first stop: the next one is waiting at the end of each story. Nothing is saved; where you are is carried in the page address.</p><ol class="trail-list">${trailList.map((t) => `<li class="trail"><h3>${esc(t.title)}</h3><p>${esc(t.intro)}</p><ol class="trail-steps">${t.steps.map((stp, i) => `<li><a href="${esc(storyHref(storyBySlug[stp.story], ""))}?trail=${esc(t.id)}&amp;step=${i + 1}"><span class="trail-n" aria-hidden="true">${i + 1}</span><span>${esc(storyBySlug[stp.story].title)}</span></a></li>`).join("")}</ol><p><a class="btn" href="${esc(storyHref(storyBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1">Start this trail</a></p></li>`).join("")}</ol></section>` : "";
-  // Gioco "Di quale storia è?": frasi prese dai punti chiave delle storie (già con fonte). Nessuna frase inventata; i distrattori sono altre storie.
-  const gameItems = stories.flatMap((x) => (x.keyPoints || []).filter((k) => k.text.length >= 50 && k.text.length <= 230).map((k) => ({ t: k.text, s: x.slug, n: x.title, k: x.kind })));
+
+  // Percorsi di lettura: escludiamo on-the-plate (che va nella pagina Food)
+  const trailList = ((data.trails && data.trails.trails) || [])
+    .filter((t) => t.id !== "on-the-plate")
+    .map((t) => ({ ...t, steps: t.steps.filter((x) => storyBySlug[x.story]) }))
+    .filter((t) => t.steps.length >= 4);
+
+  const trailsHtml = trailList.length ? `<section id="sec-trails" class="trails"><span class="layer-tag rec">Reading trails</span><h2>Pick a trail</h2><p class="note-small">Each trail is a curated sequence of stories that builds context step by step. Open the first stop: the next one is waiting at the end of each story. Nothing is saved; where you are is carried in the page address.</p><ol class="trail-list">${trailList.map((t) => `<li class="trail"><h3>${esc(t.title)}</h3><p>${esc(t.intro)}</p><ol class="trail-steps">${t.steps.map((stp, i) => `<li><a href="${esc(storyHref(storyBySlug[stp.story], "../"))}?trail=${esc(t.id)}&amp;step=${i + 1}"><span class="trail-n" aria-hidden="true">${i + 1}</span><span>${esc(storyBySlug[stp.story].title)}</span></a></li>`).join("")}</ol><p><a class="btn" href="${esc(storyHref(storyBySlug[t.steps[0].story], "../"))}?trail=${esc(t.id)}&amp;step=1">Start this trail</a></p></li>`).join("")}</ol></section>` : "";
+
+  // Gioco "Di quale storia è?": frasi prese dai punti chiave di miti e storia
+  const gameItems = histMythStories.flatMap((x) => (x.keyPoints || []).filter((k) => k.text.length >= 50 && k.text.length <= 230).map((k) => ({ t: k.text, s: x.slug, n: x.title, k: x.kind })));
   const gameHtml = gameItems.length >= 20 ? `<section id="sec-game" class="sgame" aria-labelledby="sg-h"><span class="layer-tag rec">Game</span><h2 id="sg-h">Which story is this from?</h2><p class="note-small">A fact from the stories, four possible stories. Six rounds; streaks count. Nothing is saved.</p><noscript><p class="note-small">This game needs JavaScript.</p></noscript><div id="sgame" hidden></div><script type="application/json" id="sgame-data">${JSON.stringify({ items: gameItems, base: "" }).replace(/</g, "\\u003c")}</script></section>` : "";
-  const groups = storyKinds.map((k) => ({ k, items: stories.filter((x) => x.kind === k.id) })).filter((g) => g.items.length);
-  const body = `${compactHero({ kicker: "Learn", title: "Stories", sub: "Real history, myths checked against the record, and the food behind the places." })}
+
+  const body = `${compactHero({ kicker: "Learn", title: "History & Myths", sub: "Real history told with its sources, and common ideas about Africa checked against the record." })}
 <div class="wrap">
-<section class="hero-lede"><p class="lede">The place cards say where. These pages say what happened, what people get wrong, and what is on the table. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p></section>
-${warm}
+<section class="hero-lede">
+  <p class="lede">The place cards say where. These pages say what happened and what people get wrong. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p>
+  <nav class="story-nav-jump" aria-label="Jump to section">
+    <a href="#sec-myths">Myths (${mythStories.length})</a>
+    <a href="#sec-history">History &amp; Kingdoms (${historyStories.length})</a>
+    <a href="#sec-trails">Reading trails (${trailList.length})</a>
+    <a href="#sec-test">Test yourself</a>
+  </nav>
+</section>
+
+<section id="sec-myths" class="story-group">
+  <span class="layer-tag rec">Debunking</span>
+  <h2>Myths checked against the record</h2>
+  <p class="blurb">Ideas about Africa that seem familiar — from borders and languages to religion, scale and everyday life — tested against census data, cartography, linguistics and the historical record.</p>
+  <ul class="scards">${mythStories.map((x) => storyCard(x, "../")).join("")}</ul>
+</section>
+
+<section id="sec-history" class="story-group">
+  <span class="layer-tag rec">Documented Record</span>
+  <h2>History, kingdoms and power</h2>
+  <p class="blurb">Polities, trade networks, indigenous constitutions and colonial encounters, told through what primary texts and excavations document — and where historians disagree.</p>
+  <ul class="scards">${historyStories.map((x) => storyCard(x, "../")).join("")}</ul>
+</section>
+
 ${trailsHtml}
-${gameHtml}
-${groups.map((g) => `<section id="k-${esc(g.k.id)}" class="story-group"><h2>${esc(g.k.label)}</h2><p class="blurb">${esc(g.k.blurb)}</p><ul class="scards">${g.items.map((x) => storyCard(x, "../")).join("")}</ul></section>`).join("\n")}
+
+<section id="sec-test" class="story-test-hub">
+  <div class="story-test-head">
+    <span class="layer-tag rec">Interactive</span>
+    <h2>Put yourself to the test</h2>
+    <p class="blurb">Test what you took in, or make an educated guess before you read.</p>
+  </div>
+  ${warm}
+  ${gameHtml}
+</section>
+
+<aside class="story-food-link">
+  <h3>Looking for culinary history and recipes?</h3>
+  <p>Crops like cassava and teff, fermentation methods, culinary histories and recipes from 54 countries now have their own dedicated space.</p>
+  <a class="btn" href="../food/index.html">Explore Food &amp; Foodways</a>
+</aside>
 </div>`;
-  return layout({ title: `Stories · ${config.name}`, description: "History, myths and food: short stories about Africa, each with sources.", depth: 1, current: "stories", body, extraScripts: ["story.js", "storygame.js"], jump: [{ id: "sec-warmup", label: "Warm-up" }, { id: "sec-trails", label: "Trails" }, { id: "sec-game", label: "Game" }, ...groups.map((g) => ({ id: "k-" + g.k.id, label: g.k.label }))] });
+
+  return layout({
+    title: `History & Myths · ${config.name}`,
+    description: "Real history and common myths checked against the record: short stories about Africa, each with sources.",
+    depth: 1,
+    current: "stories",
+    body,
+    extraScripts: ["story.js", "storygame.js"],
+    jump: [
+      { id: "sec-myths", label: "Myths" },
+      { id: "sec-history", label: "History" },
+      { id: "sec-trails", label: "Trails" },
+      { id: "sec-warmup", label: "Warm-up" },
+      { id: "sec-game", label: "Game" }
+    ]
+  });
+}
+
+function renderFood() {
+  const foodStories = stories.filter((x) => x.kind === "food");
+  const storyBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
+  const foodTrails = ((data.trails && data.trails.trails) || [])
+    .filter((t) => t.id === "on-the-plate")
+    .map((t) => ({ ...t, steps: t.steps.filter((x) => storyBySlug[x.story]) }))
+    .filter((t) => t.steps.length >= 4);
+
+  const dishes = published.filter((p) => p.type === "dish").sort((a, b) => a.name.localeCompare(b.name));
+
+  const foodTrailsHtml = foodTrails.length ? `<section id="sec-trail" class="trails"><span class="layer-tag rec">Reading trail</span><h2>Follow the food trail</h2><p class="note-small">${esc(foodTrails[0].intro)}</p><ol class="trail-list"><li class="trail"><h3>${esc(foodTrails[0].title)}</h3><p>${esc(foodTrails[0].intro)}</p><ol class="trail-steps">${foodTrails[0].steps.map((stp, i) => `<li><a href="${esc(storyHref(storyBySlug[stp.story], "../"))}?trail=${esc(foodTrails[0].id)}&amp;step=${i + 1}"><span class="trail-n" aria-hidden="true">${i + 1}</span><span>${esc(storyBySlug[stp.story].title)}</span></a></li>`).join("")}</ol><p><a class="btn" href="${esc(storyHref(storyBySlug[foodTrails[0].steps[0].story], "../"))}?trail=${esc(foodTrails[0].id)}&amp;step=1">Start this trail</a></p></li></ol></section>` : "";
+
+  const dishesHtml = dishes.length ? `<section id="sec-dishes" class="story-group"><span class="layer-tag rec">Dishes &amp; Recipes</span><h2>Documented dishes</h2><p class="blurb">Dishes from across the continent with their ingredients, preparation methods, culinary origins, and interactive recipes where recorded.</p><ul class="scards">${dishes.map((d) => `<li><a class="scard" href="../places/${esc(d.slug)}/index.html" data-kind="food"><span class="kicker">Dish · ${esc(cName[d.country] || d.region)}</span><span class="scard-t">${esc(d.name)}</span><span class="scard-s">${esc(d.subtitle || "")}</span><span class="scard-c">${esc(d.region || "")}</span>${(d.sections || []).some((sec) => (sec.blocks || []).some((b) => b.type === "recipe")) ? '<span class="scard-q">Interactive recipe inside</span>' : ""}</a></li>`).join("")}</ul></section>` : "";
+
+  const body = `${compactHero({ kicker: "Heritage & Living Culture", title: "Food & Foodways", sub: "Dishes, staple crops, culinary techniques and the arguments behind them." })}
+<div class="wrap">
+<section class="hero-lede">
+  <p class="lede">Food in Africa is not a static tourist menu of "national dishes". It is living agricultural heritage: indigenous grains like teff and fonio, American crops like cassava, ancient fermentation methods, and shared community rituals. Every dish and story keeps documented facts and living personal accounts apart.</p>
+  <nav class="story-nav-jump" aria-label="Jump to section">
+    <a href="#sec-crops">Crops &amp; Foodways (${foodStories.length})</a>
+    ${foodTrails.length ? '<a href="#sec-trail">Reading trail</a>' : ""}
+    ${dishes.length ? `<a href="#sec-dishes">Documented dishes (${dishes.length})</a>` : ""}
+  </nav>
+</section>
+
+<section id="sec-crops" class="story-group">
+  <span class="layer-tag rec">Staples &amp; Origins</span>
+  <h2>Crops, staples and trade</h2>
+  <p class="blurb">In-depth essays on how coffee, cassava, couscous, injera, jollof rice and fufu shaped daily life, regional diplomacy and global trade.</p>
+  <ul class="scards">${foodStories.map((x) => storyCard(x, "../")).join("")}</ul>
+</section>
+
+${foodTrailsHtml}
+
+${dishesHtml}
+</div>`;
+
+  return layout({
+    title: `Food & Foodways · ${config.name}`,
+    description: "Dishes, staple crops, culinary techniques and the food history of Africa, each with sources.",
+    depth: 1,
+    current: "food",
+    body,
+    extraScripts: ["story.js", "recipe.js"],
+    jump: [
+      { id: "sec-crops", label: "Crops & Food" },
+      ...(foodTrails.length ? [{ id: "sec-trail", label: "Trail" }] : []),
+      ...(dishes.length ? [{ id: "sec-dishes", label: "Dishes" }] : [])
+    ]
+  });
 }
 
 const storiesBand = stories.length
   ? `<section id="stories" class="band-sand section">
   <div class="wrap">
-    <div class="night-head"><h2 class="listh">Stories</h2><p class="lede">History told with its sources, myths checked against the record, and the food behind the places.</p></div>
-    <ul class="scards">${stories.slice(0, 6).map((x) => storyCard(x)).join("")}</ul>
-    <p class="actions"><a class="btn" href="stories/index.html">All stories</a></p>
+    <div class="night-head"><h2 class="listh">History &amp; Myths</h2><p class="lede">History told with its sources, and common myths checked against the record.</p></div>
+    <ul class="scards">${stories.filter((x) => x.kind !== "food").slice(0, 6).map((x) => storyCard(x)).join("")}</ul>
+    <p class="actions"><a class="btn" href="stories/index.html">All history &amp; myths</a> <a class="btn btn-alt" href="food/index.html">Explore food</a></p>
   </div>
 </section>`
   : "";
 if (stories.length) {
   write("stories/index.html", renderStories());
+  write("food/index.html", renderFood());
   for (const st of stories) write(`stories/${st.slug}/index.html`, renderStory(st));
 }
 
@@ -754,7 +868,7 @@ ${mapSection}
     <div class="way-text">
       <h2 id="read-h">Read</h2>
       <p class="lede">Short stories that start from a question: myths checked against the record, history you were rarely taught, and the food behind the places.</p>
-      <p class="actions"><a class="btn" href="stories/index.html">All ${stories.length} stories</a></p>
+      <p class="actions"><a class="btn" href="stories/index.html">History &amp; Myths</a> <a class="btn btn-alt" href="food/index.html">Food &amp; Foodways</a></p>
     </div>
     <div class="way-body">
       <ul class="scards">${homeStoryList.map((x) => storyCard(x, "")).join("")}</ul>
@@ -1924,19 +2038,23 @@ function renderPeoples() {
     ] });
   }
   const profList = peoples.filter(({ data: x }) => (x.sections || []).length && (x.status === "published" || includeDrafts));
-  const profHtml = profList.length ? `<section id="sec-profiles" class="cap-places"><h2>Peoples, one by one</h2><p>Each page keeps the documented record apart from what readers add. Drafts are shown only in the preview.</p><ul class="cap-list">${profList.map(({ data: x }) => `<li><a href="${esc(x.slug)}/index.html"><span class="cap-ph" aria-hidden="true">${esc(x.name.charAt(0))}</span><span><strong>${esc(x.name)}</strong><small>${esc((x.countries || []).map((i) => cName[i] || i).join(", "))}</small><em>${esc(x.subtitle)}</em></span></a></li>`).join("")}</ul></section>` : "";
-  const secsHtml = sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}</section>`).join("\n");
+  const peopleImg = (x) => { for (const sec of x.sections || []) for (const b of sec.blocks) if (b.type === "figure" && b.image) return b.image; return null; };
+  const profHtml = profList.length ? `<section id="sec-profiles" class="peoples-grid-sec"><h2>Meet the peoples</h2><p class="note-small">Each page keeps the documented record apart from what readers add. Drafts are shown only in the preview.</p><ul class="pgrid">${profList.map(({ data: x }) => { const im = peopleImg(x); return `<li><a href="${esc(x.slug)}/index.html">${im ? `<img src="../img/stories/${esc(im.file)}-800.jpg" width="${esc(im.width || 800)}" height="${esc(im.height || 533)}" alt="" loading="lazy">` : `<span class="pg-ph" aria-hidden="true">${esc(x.name.charAt(0))}</span>`}<span class="pg-t"><strong>${esc(x.name)}</strong><small>${esc((x.countries || []).slice(0, 4).map((i) => cName[i] || i).join(", ") + ((x.countries || []).length > 4 ? ` and ${(x.countries || []).length - 4} more` : ""))}</small><em>${esc(((x.keyPoints || [])[1] || (x.keyPoints || [])[0] || { text: x.subtitle }).text.replace(/\s*\(.*?\)/g, "").split(/(?<=\.)\s/)[0].replace(/^(.{1,130})(\s.*)?$/s, (m, h, r) => (r && m.length > 130 ? h.replace(/[,;:\s]+\S*$/, "") + "…" : m)))}</em></span></a></li>`; }).join("")}</ul></section>` : "";
+  const pgItems = profList.flatMap(({ data: x }) => (x.keyPoints || []).filter((k) => k.text.length >= 40 && k.text.length <= 260).map((k) => ({ t: k.text, s: x.slug, n: x.name })));
+  const pgameHtml = new Set(pgItems.map((i) => i.s)).size >= 4 ? `<section id="sec-game" class="sgame" aria-labelledby="sg-h"><span class="layer-tag rec">Game</span><h2 id="sg-h">Which people is this about?</h2><p class="note-small">A fact from the sources, four peoples to choose from. Each answer links to the page that explains it. Nothing is saved.</p><noscript><p class="note-small">This game needs JavaScript.</p></noscript><div id="sgame" hidden></div><script type="application/json" id="sgame-data">${JSON.stringify({ items: pgItems, base: "", dir: "", rounds: 5, noun: "page" }).replace(/</g, "\\u003c")}</script></section>` : "";
+  const secsHtml = sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}${["table", "borders"].includes(sec.id) ? `<details class="fold"><summary><span>${esc(sec.title)}</span></summary>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}</details>` : `<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}`}</section>`).join("\n");
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul><li>These shares come from one reference work, with different years and spellings per country, and a country that counts by language or by region is not comparable to one that counts by group.</li><li>Many people belong to more than one group, or to none that a form can name; a table of labels cannot show that.</li><li>No person from the groups named here has read this page yet.</li></ul></section>`;
   const body = `${compactHero({ kicker: "Peoples", title: "Peoples, not 'tribes'", sub: "Who the sources name, country by country, and how little the old labels explain." })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
 <aside class="keypoints"><h2>In short</h2><ul><li>The word 'tribe' belongs to the colonial period; this site writes about peoples, languages and the labels a source uses. <a href="../stories/does-africa-have-tribes/index.html">Read why</a>.</li><li>In ${parsed.length} countries with percentages, the largest named group is above 50% in ${majority} and below 25% in ${under25}${cite(["cia-factbook"])}.</li></ul></aside>
 ${blocks1.map((b) => renderRich(b, cite, { up: "../" })).join("")}
-${secsHtml}
 ${profHtml}
+${pgameHtml}
+${secsHtml}
 ${gaps}
 <aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li><a href="../stories/does-africa-have-tribes/index.html">Does Africa really have 'tribes'?</a></li><li><a href="../stories/did-one-conference-carve-up-africa/index.html">Did one conference carve up Africa?</a></li><li><a href="../languages/index.html">Languages</a></li><li><a href="../society/index.html">Society</a></li></ul></aside>
 ${sourcesList()}</article></div>`;
-  return layout({ title: `Peoples · ${config.name}`, description: "Ethnic groups by country as the sources name them, why the word 'tribe' is avoided, and profiles of peoples with their sources.", depth: 1, current: "peoples", body, extraScripts: ["story.js", "share.js"], jump: [{ id: "sec-numbers", label: "Numbers" }, { id: "sec-table", label: "Table" }, ...(sharedList.length ? [{ id: "sec-borders", label: "Borders" }] : []), ...(profList.length ? [{ id: "sec-profiles", label: "Profiles" }] : []), { id: "sec-sources", label: "Sources" }] });
+  return layout({ title: `Peoples · ${config.name}`, description: "Ethnic groups by country as the sources name them, why the word 'tribe' is avoided, and profiles of peoples with their sources.", depth: 1, current: "peoples", body, extraScripts: ["story.js", "storygame.js", "share.js"], jump: [{ id: "sec-profiles", label: "Peoples" }, { id: "sec-game", label: "Game" }, { id: "sec-numbers", label: "Numbers" }, { id: "sec-table", label: "Table" }, ...(sharedList.length ? [{ id: "sec-borders", label: "Borders" }] : []), ...(profList.length ? [{ id: "sec-profiles", label: "Profiles" }] : []), { id: "sec-sources", label: "Sources" }] });
 }
 
 // Scheda di un popolo: stessi blocchi delle storie, più i paesi collegati; le voci di chi appartiene al popolo restano separate dal quadro documentato.
@@ -2189,6 +2307,16 @@ for (const pl of published) {
     const name = `${pl.image.file}-${size}.jpg`;
     fs.mkdirSync(path.join(dist, "img", "places"), { recursive: true });
     fs.copyFileSync(path.join(root, "src", "img", "places", name), path.join(dist, "img", "places", name));
+  }
+}
+// Immagini dei popoli (figure nelle schede): stessa cartella delle immagini delle storie.
+for (const { data: pe } of peoples) {
+  if (!(pe.status === "published" || includeDrafts)) continue;
+  for (const sec of pe.sections || []) for (const b of sec.blocks) {
+    if (b.type !== "figure") continue;
+    const name = `${b.image.file}-800.jpg`;
+    fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
+    fs.copyFileSync(path.join(root, "src", "img", "stories", name), path.join(dist, "img", "stories", name));
   }
 }
 // Immagini delle storie: si copiano solo quelle usate da storie pubblicate (o da bozze, se si costruisce con --drafts).

@@ -94,5 +94,14 @@
     "Not found in a readable source: Sigui dates not verified",
     "No maker or member of the community has reviewed this text yet.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "dogon-masks-and-the-dama-ceremony",
+    "alt": "A Dogon antelope mask on display in a museum.",
+    "caption": "A Dogon antelope mask on display in a museum.",
+    "credit": "Ji-Elle",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Masque_antilope_Dogon-Mus%C3%A9e_barrois.jpg"
+  }
 }

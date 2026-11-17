@@ -100,5 +100,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "sindou-peaks",
+    "alt": "Rock pinnacles of the Sindou Peaks rising from the savanna, Burkina Faso.",
+    "caption": "Rock pinnacles of the Sindou Peaks, Burkina Faso.",
+    "credit": "Wegmann",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Pic_de_sindou.JPG"
+  }
 }

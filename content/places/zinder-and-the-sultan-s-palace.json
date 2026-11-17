@@ -98,5 +98,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "zinder-and-the-sultan-s-palace",
+    "alt": "The Sultan's Palace in Zinder, Niger, a mud-brick building with a decorated gate.",
+    "caption": "The Sultan's Palace in Zinder, Niger, a mud-brick building with a decorated gate.",
+    "credit": "Roland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Zinder_(6328132791).jpg"
+  }
 }

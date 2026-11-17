@@ -93,5 +93,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "tadjoura",
+    "alt": "The shore of Tadjoura, Djibouti, in a photograph from 1887.",
+    "caption": "The shore of Tadjoura, Djibouti, in a photograph from 1887.",
+    "credit": "Skilla1st",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Tadjoura_in_1887.jpg"
+  }
 }

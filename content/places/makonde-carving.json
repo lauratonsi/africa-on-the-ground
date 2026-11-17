@@ -101,5 +101,14 @@
     "Not found in a readable source: Alternate source africanarchive.org on shetani style: quote did not verify, dropped",
     "No maker or member of the community has reviewed this text yet.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "makonde-carving",
+    "alt": "A Makonde carving of three figures.",
+    "caption": "A Makonde carving of three figures.",
+    "credit": "Photo by MatthiasKabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Makonde_carving_1.jpg"
+  }
 }

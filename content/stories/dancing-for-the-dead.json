@@ -1,0 +1,245 @@
+{
+  "slug": "dancing-for-the-dead",
+  "status": "published",
+  "kind": "myth",
+  "title": "Dancing for the dead: party or sacred passage?",
+  "subtitle": "The viral Ghanaian coffin dance became a global internet meme. But in West Africa, funeral dancing is neither an empty party nor a lack of sorrow: it is the solemn, hard-earned privilege of the 'good death'.",
+  "countries": [
+    "GHA",
+    "NGA"
+  ],
+  "places": [
+    "jamestown-and-old-accra",
+    "kente-weaving-at-bonwire-and-among-the-ewe"
+  ],
+  "sections": [
+    {
+      "id": "the-viral-illusion",
+      "title": "The meme and the misunderstanding",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In 2020, short videos of sharp-suited Ghanaian pallbearers lifting a casket onto their shoulders and performing choreographed dance routines went viral across the globe, soundtracked by energetic electronic music.",
+              "cite": [
+                "bbc-ghana-pallbearers-2017"
+              ]
+            },
+            {
+              "text": " Outside the African continent, millions watched the spectacle with amusement, often assuming that funerals in West Africa were simply lightweight parties where mourners felt no grief or heartbreak.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "ashanti-funeral-dance",
+            "alt": "Gruppo di suonatori e danzatori tradizionali ashanti durante una celebrazione funebre in Ghana.",
+            "caption": "Traditional drummers and dancers celebrating the life of an elder during an Ashanti funeral in Ghana.",
+            "credit": "Culeshope",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "https://commons.wikimedia.org/wiki/An_Ashanti_funeral.jpg",
+            "width": 480,
+            "height": 390
+          }
+        },
+        {
+          "type": "check",
+          "q": "Does dancing at a West African funeral mean that grief and tears are absent?",
+          "options": [
+            "Yes, communities believe sadness should be outlawed whenever someone passes away.",
+            "No, dancing is strictly reserved for elders who completed a long, respected life, while untimely deaths are mourned in deep sorrow.",
+            "Yes, dancing is an ancient legal requirement imposed by colonial administrations to keep order."
+          ],
+          "answer": "No, dancing is strictly reserved for elders who completed a long, respected life, while untimely deaths are mourned in deep sorrow.",
+          "explain": "Grief in West Africa is nuanced: premature or tragic deaths are met with silent, devastating sorrow. Dancing and celebration are reserved exclusively for the 'good death' of an elder who fulfilled their destiny on earth.",
+          "cite": [
+            "van-der-geest-funerals-2000",
+            "de-witte-long-live-the-dead-2001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "owu-pa-the-good-death",
+      "title": "Owu Pa: celebrating the completed life",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Among Akan peoples of Ghana (including Asante and Kwahu) and Yoruba communities of Nigeria, not all deaths are treated equally.",
+              "cite": [
+                "van-der-geest-funerals-2000"
+              ]
+            },
+            {
+              "text": " When an elderly patriarch or matriarch dies after surviving hardship, raising children, and earning respect in the community, their passing is termed Owu Pa ('a good death' in Akan) or Òkú Àgbà in Yoruba.",
+              "cite": [
+                "van-der-geest-funerals-2000",
+                "de-witte-long-live-the-dead-2001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In indigenous cosmology, death is not annihilation, but a rite of passage: the deceased is journeying to Asamando, the realm of the ancestors, from where they will watch over and protect their descendants.",
+              "cite": [
+                "de-witte-long-live-the-dead-2001"
+              ]
+            },
+            {
+              "text": " To send an elder off with gloom or neglect would dishonour both their spirit and the clan. Dancing gives the departing soul light feet and a triumphant entry into ancestry.",
+              "cite": [
+                "van-der-geest-funerals-2000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The silence of untimely death",
+          "parts": [
+            {
+              "text": "If a child, a young person, or a mother during childbirth passes away, the atmosphere is utterly transformed. There are no brass bands, no dancing pallbearers, and no feast. Mourners dress in deep red and charcoal cloth (kuntunkuni and kobene) to express raw grief, mourning a life cut short before its purpose could be fulfilled.",
+              "cite": [
+                "de-witte-long-live-the-dead-2001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "order",
+          "prompt": "Reconstruct the traditional three-day sequence of an Akan elder's funeral (Owu Pa):",
+          "items": [
+            {
+              "label": "Private wake and mourning",
+              "when": "Phase 1: Friday night",
+              "text": "The family keeps vigil at home with the body, weeping, reciting elegies, and receiving initial condolence visits from kin.",
+              "cite": [
+                "de-witte-long-live-the-dead-2001"
+              ]
+            },
+            {
+              "label": "Public funeral celebration and dance",
+              "when": "Phase 2: Saturday afternoon",
+              "text": "Hundreds of relatives, neighbours, and dignitaries gather in open-air compounds. Drumming ensembles, dancers, and pallbearers escort the casket in a grand celebration of life.",
+              "cite": [
+                "van-der-geest-funerals-2000"
+              ]
+            },
+            {
+              "label": "Thanksgiving and family reckoning",
+              "when": "Phase 3: Sunday morning",
+              "text": "The community dresses in white or bright celebratory cloth, attends a church or community thanksgiving, and gathers to settle funeral contributions and acknowledge supporters.",
+              "cite": [
+                "de-witte-long-live-the-dead-2001"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fantasy-coffins-and-the-modern-stage",
+      "title": "Fantasy coffins and choreography",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In coastal Greater Accra, the Ga people carried this celebration of individuality even further through abebuu adekai ('proverb boxes'), famously known as fantasy coffins.",
+              "cite": [
+                "bonetti-fantasy-coffins-2009"
+              ]
+            },
+            {
+              "text": " Pioneered by 20th-century carpenters like Seth Kane Kwei and master sculptor Paa Joe, coffins are hand-carved in the shapes of cars, cocoa pods, fish, aeroplanes, or sewing machines, symbolising the deceased person's trade, worldly achievement, and dreams.",
+              "cite": [
+                "bonetti-fantasy-coffins-2009"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "image": {
+            "file": "fantasy-coffin-cocoa",
+            "alt": "Bara figurativa ghanese (abebuu adekai) a forma di frutto del cacao arancione, opera del maestro Paa Joe.",
+            "caption": "A hand-carved cocoa pod fantasy coffin (abebuu adekai) created by Ghanaian master artist Paa Joe, designed for a prosperous cocoa farmer.",
+            "credit": "akhenatenator",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/Day_8_-_Cocoa_Pod_Coffin_(7956834974).jpg",
+            "width": 710,
+            "height": 710
+          }
+        },
+        {
+          "type": "estimate",
+          "prompt": "In surveys conducted in Kwahu and Asante communities, what percentage of families reported spending significantly more on an elder's post-mortem funeral celebration than on all medical expenses in their final year of life?",
+          "min": 10,
+          "max": 90,
+          "answer": 65,
+          "parts": [
+            {
+              "text": "Anthropologist Sjaak van der Geest observed that around 65% of families allocate substantially greater funds to post-mortem rituals than to elder healthcare.",
+              "cite": [
+                "van-der-geest-funerals-2000"
+              ]
+            },
+            {
+              "text": " While elder Ghanaians often critiqued this imbalance, they simultaneously insisted on a magnificent funeral for themselves: in West Africa, a grand funeral is the supreme validation of a lifetime's worth and secures family prestige across generations.",
+              "cite": [
+                "van-der-geest-funerals-2000",
+                "de-witte-long-live-the-dead-2001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When entrepreneur Benjamin Aidoo founded his troupe of dancing pallbearers in Ghana, he was not mocking the dead: he was modernising this exact tradition. By turning pallbearing into an artistic, rhythmic choreography, families ensure their loved one's final journey is memorable, honourable, and radiant.",
+              "cite": [
+                "bbc-ghana-pallbearers-2017"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Escalating funeral expenses have sparked widespread public debate in Ghana and Nigeria, where government officials and Christian churches have repeatedly campaigned for limits on lavish weekend expenditures.",
+    "While coastal and central regions share celebrated traditions of public funeral performance, ritual practices vary substantially among northern savannah ethnic groups and Muslim communities, who bury the deceased within twenty-four hours in solemn simplicity."
+  ],
+  "keyPoints": [
+    {
+      "text": "Funeral dancing in West Africa is not a careless party, but a sacred honour strictly reserved for the 'good death' (Owu Pa) of elders who lived a complete life.",
+      "cite": [
+        "van-der-geest-funerals-2000"
+      ]
+    },
+    {
+      "text": "Premature, sudden, or violent deaths are marked by strict absence of celebration, observed with tearful vigil and dark mourning cloth.",
+      "cite": [
+        "de-witte-long-live-the-dead-2001"
+      ]
+    },
+    {
+      "text": "Ga figurative coffins (abebuu adekai) and rhythmic dancing pallbearers celebrate individual identity and provide a triumphant escort into the ancestral realm.",
+      "cite": [
+        "bonetti-fantasy-coffins-2009",
+        "bbc-ghana-pallbearers-2017"
+      ]
+    }
+  ]
+}

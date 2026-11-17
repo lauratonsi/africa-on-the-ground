@@ -107,5 +107,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "korhogo-and-senufo-painted-cloth",
+    "alt": "A Korhogo painted cloth made by Senufo artists, Côte d'Ivoire, with rows of figures.",
+    "caption": "A Korhogo painted cloth made by Senufo artists, Côte d'Ivoire, with rows of figures.",
+    "credit": "Mickey Mystique",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Korhogo_cloth%2C_Senufo_people%2C_Ivory_Coast_01.jpg"
+  }
 }

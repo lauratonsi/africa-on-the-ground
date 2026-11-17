@@ -98,5 +98,14 @@
     "Every fact on this card comes from one source; a second, independent source would make it stronger.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "air-and-tenere-natural-reserves",
+    "alt": "Granite blocks and dunes in the Aïr Mountains, Niger.",
+    "caption": "Granite blocks and dunes in the Aïr Mountains, Niger.",
+    "credit": "Jacques Taberlet",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Montagnes_Bleus1.jpg"
+  }
 }

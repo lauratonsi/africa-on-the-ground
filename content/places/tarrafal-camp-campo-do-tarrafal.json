@@ -106,5 +106,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "tarrafal-camp-campo-do-tarrafal",
+    "alt": "The grounds of the former Tarrafal camp on Santiago island, Cabo Verde.",
+    "caption": "The grounds of the former Tarrafal camp on Santiago island, Cabo Verde.",
+    "credit": "GualdimG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Interior_do_Campo_de_Concentra%C3%A7%C3%A3o_do_Tarrafal%2C_Tarrafal%2C_Ilha_de_Santiago%2C_Cabo_Verde_10.jpg"
+  }
 }

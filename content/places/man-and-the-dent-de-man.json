@@ -99,5 +99,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "man-and-the-dent-de-man",
+    "alt": "The Dent de Man, a rock peak above the forest near Man, Côte d'Ivoire.",
+    "caption": "The Dent de Man, a rock peak above the forest near Man, Côte d'Ivoire.",
+    "credit": "Milequem Diarassouba",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/The_Dent_de_Man_mountain.jpg"
+  }
 }

@@ -107,5 +107,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "laongo-granite-sculpture-site",
+    "alt": "A granite boulder at the Laongo sculpture site, Burkina Faso.",
+    "caption": "A granite boulder at the Laongo sculpture site, Burkina Faso.",
+    "credit": "Phovicom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/TR_Sculture_sur_granite_de_Laongo_06.jpg"
+  }
 }

@@ -4,7 +4,7 @@
   var box = document.getElementById("sgame"), raw = document.getElementById("sgame-data");
   if (!box || !raw) return;
   var D; try { D = JSON.parse(raw.textContent); } catch (e) { return; }
-  var ROUNDS = 6;
+  var ROUNDS = D.rounds || 6;
   var $ = function (tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
   function shuffle(a) { var b = a.slice(); for (var i = b.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = b[i]; b[i] = b[j]; b[j] = t; } return b; }
   var titles = {}; D.items.forEach(function (it) { titles[it.s] = it.n; });
@@ -32,7 +32,7 @@
         if (right) { score++; streak++; if (streak > best) best = streak; } else streak = 0;
         Array.prototype.forEach.call(list.children, function (x) { x.disabled = true; if (x.textContent === titles[q.s]) x.classList.add("right"); else if (x === b) x.classList.add("wrong"); });
         fb.appendChild($("p", "quiz-verdict " + (right ? "ok" : "no"), right ? (streak > 1 ? "Yes. Streak of " + streak + "." : "Yes.") : "Not this one."));
-        var a = $("a", null, "Read “" + titles[q.s] + "”"); a.href = D.base + "stories/" + q.s + "/index.html";
+        var a = $("a", null, D.noun === "page" ? "Open the page: " + titles[q.s] : "Read “" + titles[q.s] + "”"); a.href = D.base + (D.dir == null ? "stories/" : D.dir) + q.s + "/index.html";
         var p = $("p", "quiz-story"); p.appendChild(a); fb.appendChild(p);
         var next = $("button", "btn", round + 1 < ROUNDS ? "Next round" : "See the result"); next.type = "button";
         next.addEventListener("click", function () { round++; if (round < ROUNDS) ask(); else finish(); });

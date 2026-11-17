@@ -113,5 +113,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "benguela-railway",
+    "alt": "People riding on a freight train of the Benguela Railway, Angola.",
+    "caption": "People riding on a freight train of the Benguela Railway, Angola.",
+    "credit": "Claus Bunks aka Afrobrasil on flickr",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Benguela_zug.jpg"
+  }
 }

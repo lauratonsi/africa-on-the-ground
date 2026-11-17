@@ -91,5 +91,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "bunce-island",
+    "alt": "A cannon in the ruins of the Bunce Island fortress, Sierra Leone.",
+    "caption": "A cannon in the ruins of the Bunce Island fortress, Sierra Leone.",
+    "credit": "Pierre Chrzanowski",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Bunce_Island_Fortress_Cannon.jpg"
+  }
 }

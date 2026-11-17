@@ -84,5 +84,14 @@
     "Every fact on this card comes from one source; a second, independent source would make it stronger.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "iles-de-los",
+    "alt": "A beach on the Îles de Los off Conakry, Guinea, in an early postcard photograph.",
+    "caption": "A beach on the Îles de Los off Conakry, Guinea, in an early postcard photograph.",
+    "credit": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Conakry-Iles_de_Los.jpg"
+  }
 }

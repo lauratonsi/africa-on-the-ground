@@ -114,5 +114,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "lac-abbe",
+    "alt": "Limestone chimneys at Lake Abbe at sunset, on the border of Djibouti and Ethiopia.",
+    "caption": "Limestone chimneys at Lake Abbe at sunset, on the border of Djibouti and Ethiopia.",
+    "credit": "Rolf Cosar",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Lac_Abbe-02.JPG"
+  }
 }

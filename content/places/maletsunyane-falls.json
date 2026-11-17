@@ -70,5 +70,14 @@
     "Every fact on this card comes from one source; a second, independent source would make it stronger.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "maletsunyane-falls",
+    "alt": "Maletsunyane Falls, a single tall waterfall in a gorge in Lesotho.",
+    "caption": "Maletsunyane Falls, a single tall waterfall in a gorge in Lesotho.",
+    "credit": "BagelBelt",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Maletsunyanefalls.JPG"
+  }
 }

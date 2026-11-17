@@ -99,5 +99,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "tundavala-gap",
+    "alt": "The Tundavala Gap, a cliff edge of the Great Escarpment near Lubango, Angola.",
+    "caption": "The Tundavala Gap, a cliff edge of the Great Escarpment near Lubango, Angola.",
+    "credit": "tim kubacki",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Tundavala_Gap.jpg"
+  }
 }

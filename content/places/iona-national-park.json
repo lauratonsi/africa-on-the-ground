@@ -98,5 +98,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "iona-national-park",
+    "alt": "A baobab tree in Iona National Park, Angola.",
+    "caption": "A baobab tree in Iona National Park, Angola.",
+    "credit": "Alfred Weidinger from Vienna, Austria",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Imbondeiro_Tree.jpg"
+  }
 }

@@ -10323,5 +10323,42 @@
     "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
+  },
+  {
+    "id": "van-der-geest-funerals-2000",
+    "title": "Funerals for the Living: Conversations with Elderly People in Kwahu, Ghana",
+    "publisher": "African Studies Review",
+    "url": "https://www.jstor.org/stable/525387",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "de-witte-long-live-the-dead-2001",
+    "title": "Long Live the Dead! Changing Funeral Celebrations in Asante, Ghana",
+    "publisher": "Aksant Academic Publishers",
+    "url": "https://pure.uva.nl/en/publications/long-live-the-dead-changing-funeral-celebrations-in-asante-ghana",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "bbc-ghana-pallbearers-2017",
+    "title": "Ghana's dancing pallbearers celebrate the dead",
+    "publisher": "BBC News",
+    "published": "2017-07-26",
+    "url": "https://www.bbc.com/news/world-africa-40742918",
+    "tier": "press",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "bonetti-fantasy-coffins-2009",
+    "title": "Abebuu Adekai: The Ga figurative coffins of southern Ghana",
+    "publisher": "African Arts (MIT Press)",
+    "url": "https://direct.mit.edu/afar/article/43/2/14/54753/Abebuu-Adekai-African-Arts",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-17"
   }
 ]

@@ -91,5 +91,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "robertsport",
+    "alt": "Robertsport beach on the coast of Grand Cape Mount County, Liberia, seen from above.",
+    "caption": "Robertsport beach on the coast of Grand Cape Mount County, Liberia, seen from above.",
+    "credit": "Bethel. Anthony Chisom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Robertsport_Beach%2C_Cape_Mount_County.jpg"
+  }
 }

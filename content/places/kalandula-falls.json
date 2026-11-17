@@ -98,5 +98,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "kalandula-falls",
+    "alt": "Kalandula Falls on the Lucala River, Angola, with spray rising from the base.",
+    "caption": "Kalandula Falls on the Lucala River, Angola, with spray rising from the base.",
+    "credit": "Paulo César Santos",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Kalandula_waterfalls_of_the_Lucala-River_in_Malange%2C_Angola.JPG"
+  }
 }

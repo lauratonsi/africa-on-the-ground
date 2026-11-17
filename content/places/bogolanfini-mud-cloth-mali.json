@@ -79,5 +79,14 @@
     "Not found in a readable source: Single source for all facts (Penn State exhibition text); a second independent source not obtained.",
     "No maker or member of the community has reviewed this text yet.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "bogolanfini-mud-cloth-mali",
+    "alt": "A bògòlanfini mud cloth with a yellow and black geometric pattern, Mali.",
+    "caption": "A bògòlanfini mud cloth with a yellow and black geometric pattern, Mali.",
+    "credit": "Rhodapenmarck",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/B%C3%B2g%C3%B2lanfini.jpg"
+  }
 }

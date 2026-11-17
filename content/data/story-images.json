@@ -203,5 +203,27 @@
     "source": "https://commons.wikimedia.org/wiki/Tissot_mercator.png",
     "width": 777,
     "height": 720
+  },
+  "ashanti-funeral-dance": {
+    "file": "ashanti-funeral-dance",
+    "alt": "Gruppo di suonatori e danzatori tradizionali ashanti durante una celebrazione funebre in Ghana.",
+    "caption": "Suonatori e danzatori durante un rito funebre ashanti in Ghana.",
+    "credit": "Culeshope",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/An_Ashanti_funeral.jpg",
+    "width": 480,
+    "height": 390
+  },
+  "fantasy-coffin-cocoa": {
+    "file": "fantasy-coffin-cocoa",
+    "alt": "Bara figurativa ghanese (abebuu adekai) a forma di frutto del cacao arancione, opera del maestro Paa Joe.",
+    "caption": "Bara figurativa (abebuu adekai) a forma di frutto del cacao, creata dal maestro Paa Joe in Ghana.",
+    "credit": "akhenatenator",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/Day_8_-_Cocoa_Pod_Coffin_(7956834974).jpg",
+    "width": 710,
+    "height": 710
   }
 }

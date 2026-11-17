@@ -105,5 +105,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "pico-do-fogo-and-cha-das-caldeiras",
+    "alt": "Pico do Fogo and the lava fields of the caldera floor, Fogo island, Cabo Verde.",
+    "caption": "Pico do Fogo and the lava fields of the caldera floor, Fogo island, Cabo Verde.",
+    "credit": "Cayambe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/Cape_Verde_Pico_do_Fogo_b.jpg"
+  }
 }

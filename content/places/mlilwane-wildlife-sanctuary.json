@@ -99,5 +99,14 @@
     "Every fact on this card comes from one source; a second, independent source would make it stronger.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "mlilwane-wildlife-sanctuary",
+    "alt": "An acacia tree and an antelope on the grass of Mlilwane Wildlife Sanctuary, Eswatini.",
+    "caption": "An acacia tree and an antelope on the grass of Mlilwane Wildlife Sanctuary, Eswatini.",
+    "credit": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/Mlilwane_Wildlife_Sanctuary_02.jpg"
+  }
 }

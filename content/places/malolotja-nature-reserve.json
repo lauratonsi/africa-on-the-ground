@@ -92,5 +92,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "malolotja-nature-reserve",
+    "alt": "Grassland hills and rocks in Malolotja Nature Reserve, Eswatini.",
+    "caption": "Grassland hills and rocks in Malolotja Nature Reserve, Eswatini.",
+    "credit": "René C. Nielsen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/Malolotja.jpg"
+  }
 }

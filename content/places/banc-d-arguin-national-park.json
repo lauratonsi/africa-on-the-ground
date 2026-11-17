@@ -84,5 +84,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: none yet."
-  ]
+  ],
+  "image": {
+    "file": "banc-d-arguin-national-park",
+    "alt": "Satellite view of the Banc d'Arguin coast and shallow bay in Mauritania, seen from the International Space Station.",
+    "caption": "Satellite view of the Banc d'Arguin coast and shallow bay in Mauritania, seen from the International Space Station.",
+    "credit": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/ISS062-E-82362_-_View_of_Mauritania_-_Tidra_Island_-_Banc_d'Arguin_(cropped).jpg"
+  }
 }
