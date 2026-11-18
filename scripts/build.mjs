@@ -754,7 +754,8 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
   const relStories = (() => { const near = stories.filter((x) => x.slug !== st.slug && ((x.countries || []).some((c) => (st.countries || []).includes(c)) || (x.places || []).some((pl) => (st.places || []).includes(pl)) || storyPeoples(x).some((pp) => storyPeoples(st).includes(pp)))); const same = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind && !near.includes(x)); return [...near.slice(0, 4), ...same].slice(0, Math.max(4, Math.min(near.length, 4))); })().map((x) => `<a href="../${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const relCaps = (st.countries || []).map((iso) => capitals.find(({ data: cp }) => cp.country === iso && (cp.sections || []).length && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a>`).join(", ");
-  const related = relCountries || relPlaces || toolLi || relStories || relCaps || relPeoples ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relPeoples ? `<li>People: ${relPeoples}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
+  const relCountriesLi = relCountries ? `<li>Country figures: ${relCountries}</li>` : `<li>Countries: <a href="../../countries/index.html">All 54 African states</a></li>`;
+  const related = relCountries || relPlaces || toolLi || relStories || relCaps || relPeoples ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountriesLi}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relPeoples ? `<li>People: ${relPeoples}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../../explore/index.html#s:${esc(st.slug)}">Connections graph →</a></li><li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const trailsHere = (((data.trails && data.trails.trails) || [])).map((t) => ({ ...t, steps: t.steps.filter((x) => stories.some((y) => y.slug === x.story)) })).filter((t) => t.steps.length >= 4 && t.steps.some((x) => x.story === st.slug)).map((t) => ({ id: t.id, title: t.title, steps: t.steps.map((x) => ({ slug: x.story, title: (stories.find((y) => y.slug === x.story) || {}).title, why: x.why })) }));
@@ -2568,7 +2569,15 @@ function renderExplore() {
   for (const { data: cp } of capsHere) { add(`k:${cp.slug}`, "capital", cp.name, `../capitals/${cp.slug}/index.html`, cp.subtitle || ""); edges.push([`k:${cp.slug}`, `c:${cp.country}`]); }
   for (const pl of published) { if (!pl.country || pl.type === "dish" && !pl.country) continue; add(`p:${pl.slug}`, "place", pl.name, `../places/${pl.slug}/index.html`, pl.subtitle || ""); if (ids.has(`c:${pl.country}`)) edges.push([`p:${pl.slug}`, `c:${pl.country}`]); }
   for (const { data: cp } of capsHere) for (const slug of cp.places || []) if (ids.has(`p:${slug}`)) edges.push([`k:${cp.slug}`, `p:${slug}`]);
-  for (const st of stories) { add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`, st.subtitle || ""); for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]); for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]); }
+  for (const st of stories) {
+    add(`s:${st.slug}`, "story", st.title, `../stories/${st.slug}/index.html`, st.subtitle || "");
+    for (const iso of st.countries || []) if (ids.has(`c:${iso}`)) edges.push([`s:${st.slug}`, `c:${iso}`]);
+    for (const slug of st.places || []) if (ids.has(`p:${slug}`)) edges.push([`s:${st.slug}`, `p:${slug}`]);
+    // Storie continentali / pan-africane: collegate all'Unione Africana come snodo comune dei 54 paesi
+    if ((!st.countries || st.countries.length === 0) && (!st.places || st.places.length === 0)) {
+      if (ids.has("b:au")) edges.push([`s:${st.slug}`, "b:au"]);
+    }
+  }
   // Popoli: legati ai loro paesi, ai luoghi e alle capitali che le schede nominano e alle storie che li citano (collegamenti scelti a mano, mai dedotti).
   for (const { data: pp } of peoples.filter(({ data: x }) => x.status === "published" || includeDrafts)) {
     add(`e:${pp.slug}`, "people", pp.name, `../peoples/${pp.slug}/index.html`, pp.subtitle || "");
