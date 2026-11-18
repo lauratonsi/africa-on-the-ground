@@ -55,5 +55,14 @@
     "Full digital catalogue of modern acquisitions is administered by the Fondation Nationale des Musées and was only partially consulted.",
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "musee-mohammed-vi-rabat",
+    "alt": "Facciata moderna arabeggiante del Musée Mohammed VI d'Art Moderne et Contemporain a Rabat.",
+    "caption": "Il Musée Mohammed VI d'Art Moderne et Contemporain a Rabat, aperto nel 2014.",
+    "credit": "J. N'Demenye",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:MMVI.JPG"
+  }
 }

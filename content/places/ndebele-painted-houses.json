@@ -122,5 +122,14 @@
     "Not found in a readable source: Date of origin of house painting not given consistently in readable sources; not recorded",
     "No maker or member of the community has reviewed this text yet.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "ndebele-painted-houses",
+    "alt": "Casa tradizionale ndebele con vivaci decorazioni murali geometriche dipinte a mano in Sudafrica.",
+    "caption": "Architettura e pittura murale geometrica ndebele, espressione dell'identità visiva femminile nel Gauteng e Mpumalanga.",
+    "credit": "Angela Abel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Ndebele_Architecture.jpg"
+  }
 }

@@ -5,10 +5,89 @@
   "country": "NER",
   "name": "Dambou",
   "region": "Niger",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Dambou is a couscous with moringa leaves, here made from fine durum wheat semolina mixed with moringa leaves or spinach.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A couscous with moringa leaves",
+      "cite": [
+        "cap-afrik-com-590c41"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Fine durum wheat semolina with spinach or moringa leaves",
+      "cite": [
+        "cap-afrik-com-590c41"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The semolina is steamed in a cloth in the couscous steamer for 20 minutes, loosened, then steamed again for 20 minutes",
+      "cite": [
+        "cap-afrik-com-590c41"
+      ]
+    },
+    {
+      "label": "Assembly",
+      "value": "The cooked semolina is mixed with the greens in a large dish",
+      "cite": [
+        "cap-afrik-com-590c41"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Served as a side to meat, or on its own",
+      "cite": [
+        "cap-afrik-com-590c41"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dambou is a couscous with moringa leaves, here made from fine durum wheat semolina mixed with moringa leaves or spinach. The semolina is steamed twice in a cloth in the couscous steamer, then mixed with the greens in a large dish.",
+              "cite": [
+                "cap-afrik-com-590c41"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is served as a side to meat or eaten on its own.",
+              "cite": [
+                "cap-afrik-com-590c41"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: WEAK: all facts rest on one press source (afrik.com); no second independent source, academic paper or Nigerien institutional page on dambou could be read. Wikipedia's claims (Zarma and Songhai origin, eaten at baptisms and weddings, cereals such as millet, rice or maize) could not be re-sourced.",
+    "Not found in a readable source: Recipe: the afrik.com recipe gives no servings, so none is recorded.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

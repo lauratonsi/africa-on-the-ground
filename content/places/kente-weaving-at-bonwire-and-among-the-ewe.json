@@ -122,5 +122,14 @@
     "Not found in a readable source: No maker or community member has reviewed this text yet.",
     "No maker or member of the community has reviewed this text yet.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "kente-weaving-at-bonwire-and-among-the-ewe",
+    "alt": "Strisce di tessuto kente con brillanti motivi geometrici intrecciati su telaio tradizionale in Ghana.",
+    "caption": "Panni kente con intricati disegni geometrici simbolici, tessuti a mano in Ghana.",
+    "credit": "Warmglow",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Different_Kente_cloth%2C_Tafi%2C_Volta_region.jpg"
+  }
 }

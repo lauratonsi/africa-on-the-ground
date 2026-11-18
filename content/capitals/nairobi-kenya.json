@@ -1,6 +1,6 @@
 {
   "slug": "nairobi-kenya",
-  "status": "draft",
+  "status": "published",
   "country": "KEN",
   "name": "Nairobi",
   "subtitle": "Nairobi, capital of Kenya: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -265,5 +265,16 @@
     "Not found in a readable source: Nairobi became capital of Kenya at independence: Standard only, press",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Kenya has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-nairobi-kenya",
+    "alt": "Photograph of Nairobi, capital of Kenya.",
+    "caption": "Nairobi, capital of Kenya.",
+    "credit": "DesiBoy101",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_Nairobi_city_as_seen_from_Uhuru_Park.jpg",
+    "width": 800,
+    "height": 600
+  }
 }

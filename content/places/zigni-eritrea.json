@@ -5,10 +5,193 @@
   "country": "ERI",
   "name": "Zigni",
   "region": "Eritrea",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Zigni is a traditional Eritrean stew of beef or chicken and vegetables in a spicy, tomato-based sauce seasoned with berbere.",
+  "facts": [
+    {
+      "label": "Main ingredients",
+      "value": "Beef or chicken with vegetables and a hot spice blend called berbere, simmered for a long time.",
+      "cite": [
+        "cap-arabnews-pk-2787e6"
+      ]
+    },
+    {
+      "label": "When it is eaten",
+      "value": "A traditional Eritrean dish served at parties and family gatherings.",
+      "cite": [
+        "cap-thecaterer-com-859a32"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A spicy tomato-based sauce served with any protein.",
+      "cite": [
+        "cap-thecaterer-com-859a32"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Traditionally eaten with injera, a spongy flatbread made from fermented batter.",
+      "cite": [
+        "cap-greatbritishchefs-com-691907"
+      ]
+    },
+    {
+      "label": "Spices",
+      "value": "Berbere contains aromatic spices such as cinnamon, cumin, cardamom and fenugreek.",
+      "cite": [
+        "cap-greatbritishchefs-com-691907"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Zigni is a traditional Eritrean stew of beef or chicken and vegetables in a spicy, tomato-based sauce seasoned with berbere. The berbere blend includes spices such as cinnamon, cumin, cardamom and fenugreek, and the stew is simmered for a long time.",
+              "cite": [
+                "cap-arabnews-pk-2787e6",
+                "cap-thecaterer-com-859a32",
+                "cap-greatbritishchefs-com-691907"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is traditionally eaten with injera, a spongy flatbread from fermented batter, and is served at parties and family gatherings.",
+              "cite": [
+                "cap-arabnews-pk-2787e6",
+                "cap-thecaterer-com-859a32",
+                "cap-greatbritishchefs-com-691907"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Zigni berbere (beef)",
+          "servings": 6,
+          "sub": "One version of the dish, as given by Great British Chefs; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-greatbritishchefs-com-691907"
+          ],
+          "note": "Quantities are the source's own; the page lists 6 servings and 1 hour 50 minutes in total. Sauté time is given as 5-8 minutes.",
+          "ingredients": [
+            {
+              "name": "beef shin, diced",
+              "amount": 600,
+              "unit": "g"
+            },
+            {
+              "name": "olive oil",
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            {
+              "name": "onion, diced",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "red pepper, quartered then sliced",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "garlic cloves, sliced",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "ginger, grated",
+              "amount": 1,
+              "unit": "knob"
+            },
+            {
+              "name": "berbere",
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            {
+              "name": "tomato purée",
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            {
+              "name": "plum tomatoes, chopped",
+              "amount": 3,
+              "unit": ""
+            },
+            {
+              "name": "beef stock",
+              "amount": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "salt",
+              "amount": null,
+              "unit": "to taste"
+            },
+            {
+              "name": "freshly ground black pepper",
+              "amount": null,
+              "unit": ""
+            }
+          ],
+          "steps": [
+            {
+              "text": "Season the beef with salt and pepper and brown it all over in 2 tbsp of the oil on high heat; lift it out."
+            },
+            {
+              "text": "Lower the heat, add the rest of the oil and soften the onion, pepper, ginger and garlic together with the berbere.",
+              "minutes": 8
+            },
+            {
+              "text": "Stir in the tomato purée and cook it briefly.",
+              "minutes": 1
+            },
+            {
+              "text": "Put the beef back with the chopped tomatoes and stock, cover and simmer very gently.",
+              "minutes": 60
+            },
+            {
+              "text": "Uncover and simmer until the sauce has thickened and the beef is tender.",
+              "minutes": 30
+            },
+            {
+              "text": "Adjust the seasoning and serve hot, with injera, flatbread or rice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Sources disagree on the grain of Eritrean injera (sorghum per Arab News, teff per The Caterer), so injera grain was not recorded.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

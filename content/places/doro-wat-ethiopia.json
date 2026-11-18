@@ -209,5 +209,14 @@
   "gaps": [
     "Regional disputes between the hot, intensely spiced Addis Ababa court-style doro wat and milder northern versions in Gojjam and Gondar.",
     "The traditional heirloom varieties of korarima (false cardamom) and kosseret herbs required for authentic niter kibbeh, which are difficult to source outside the Ethiopian highlands."
-  ]
+  ],
+  "image": {
+    "file": "doro-wat-ethiopia",
+    "alt": "A bowl of doro wat, chicken stewed in a dark red pepper sauce, with a boiled egg.",
+    "caption": "A bowl of doro wat, chicken stewed in a dark red pepper sauce, with a boiled egg.",
+    "credit": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Ethiopian_wat.jpg"
+  }
 }

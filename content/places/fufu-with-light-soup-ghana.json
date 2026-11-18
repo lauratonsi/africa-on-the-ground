@@ -5,10 +5,118 @@
   "country": "GHA",
   "name": "Fufu with light soup",
   "region": "Ghana",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Fufu is a dough of boiled cassava pounded together with plantain, cocoyam or yam; it is a traditional food of the Akan peoples of Ghana, eaten throughout the country.",
+  "facts": [
+    {
+      "label": "Origin",
+      "value": "A traditional food of the Akan peoples of Ghana, eaten by millions of other Ghanaians.",
+      "cite": [
+        "cap-gna-org-gh-e2df97"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "A pounded dough of cooked cassava with plantain, cocoyam or yam.",
+      "cite": [
+        "cap-gna-org-gh-e2df97"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "Traditionally prepared by hand by two or more people using a wooden mortar and pestle.",
+      "cite": [
+        "cap-gna-org-gh-e2df97"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Many young fufu eaters prefer light soup, made with pepper, onion and tomatoes.",
+      "cite": [
+        "cap-gna-org-gh-e2df97"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "The first fufu pounding machine was developed in 2004 by a Ghanaian electrical-equipment dealer, Fadegnom Charles.",
+      "cite": [
+        "cap-gna-org-gh-e2df97"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A combination of boiled cassava and boiled plantain pounded together into soft balls.",
+      "cite": [
+        "cap-langmedia-fivecolleges-edu-37d890"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "One person pounds with a heavy stick while another turns the paste.",
+      "cite": [
+        "cap-langmedia-fivecolleges-edu-37d890"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Fufu is not chewed but tasted and then swallowed.",
+      "cite": [
+        "cap-langmedia-fivecolleges-edu-37d890"
+      ]
+    },
+    {
+      "label": "Light soup",
+      "value": "Light soup may be made with goat or chicken and is served with fufu, banku or rice.",
+      "cite": [
+        "cap-timeout-com-ae0ba0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fufu is a dough of boiled cassava pounded together with plantain, cocoyam or yam; it is a traditional food of the Akan peoples of Ghana, eaten throughout the country. Light soup is a soup made with pepper, onion and tomatoes, often with goat or chicken. Fufu was long pounded by hand in a wooden mortar by two or more people; mechanical fufu pounders, the first built in 2004, are now widely used.",
+              "cite": [
+                "cap-gna-org-gh-e2df97",
+                "cap-langmedia-fivecolleges-edu-37d890",
+                "cap-timeout-com-ae0ba0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fufu is served in soft balls with soup and is swallowed rather than chewed; many younger Ghanaians prefer it with light soup, while Asante tradition favours palm nut, kontomire or groundnut soup.",
+              "cite": [
+                "cap-gna-org-gh-e2df97",
+                "cap-langmedia-fivecolleges-edu-37d890",
+                "cap-timeout-com-ae0ba0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

@@ -5,10 +5,206 @@
   "country": "SYC",
   "name": "Seychellois fish curry",
   "region": "Seychelles",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Fish curry belongs to the coconut curries counted among Seychellois specialities, in a cuisine shaped by Indian, Chinese, African, French and English influences and marked by careful blending of spice",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "Coconut curries are among the Seychellois specialities",
+      "cite": [
+        "cap-untourism-int-a2d697"
+      ]
+    },
+    {
+      "label": "Fish in the cuisine",
+      "value": "Fresh fish is a main element of most Seychellois dishes and may be grilled, roasted, fried, curried or made into salads",
+      "cite": [
+        "cap-untourism-int-a2d697"
+      ]
+    },
+    {
+      "label": "Influences",
+      "value": "Seychellois cuisine draws on Indian, Chinese, African, French and English origins",
+      "cite": [
+        "cap-untourism-int-a2d697"
+      ]
+    },
+    {
+      "label": "Spices and coconut",
+      "value": "Careful blending of spices is the cuisine's main feature; coconut milk is used very often",
+      "cite": [
+        "cap-untourism-int-a2d697"
+      ]
+    },
+    {
+      "label": "Choice of fish",
+      "value": "Red snapper or grouper, because the flesh does not fall apart easily when cooked",
+      "cite": [
+        "cap-kreolmagazine-com-4f3d6d"
+      ]
+    },
+    {
+      "label": "Aromatics",
+      "value": "Curry leaves and a cinnamon leaf",
+      "cite": [
+        "cap-kreolmagazine-com-4f3d6d"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Firm white fish such as snapper, cooked in coconut milk",
+      "cite": [
+        "cap-timeslive-co-za-0c2f1a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Fish curry belongs to the coconut curries counted among Seychellois specialities, in a cuisine shaped by Indian, Chinese, African, French and English influences and marked by careful blending of spices. Firm fish such as red snapper or grouper is cooked with curry powder, turmeric, curry leaves and coconut milk.",
+              "cite": [
+                "cap-untourism-int-a2d697",
+                "cap-kreolmagazine-com-4f3d6d",
+                "cap-timeslive-co-za-0c2f1a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Published Seychellois recipes serve it with rice: coconut rice in one, Creole rice in another.",
+              "cite": [
+                "cap-untourism-int-a2d697",
+                "cap-kreolmagazine-com-4f3d6d",
+                "cap-timeslive-co-za-0c2f1a"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Seychelles fish curry (Rakesh Pultee, Raffles Seychelles)",
+          "servings": 2,
+          "sub": "One version of the dish, as given by Sunday Times (TimesLIVE), South Africa; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-timeslive-co-za-0c2f1a"
+          ],
+          "note": "Recipe by a sous chef at Raffles Seychelles, published by the South African Sunday Times; the source also gives a coconut rice recipe.",
+          "ingredients": [
+            {
+              "name": "sunflower oil",
+              "amount": 50,
+              "unit": "ml"
+            },
+            {
+              "name": "ginger and garlic paste",
+              "amount": 10,
+              "unit": "ml (2 tsp)"
+            },
+            {
+              "name": "large onion, sliced",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "curry leaves",
+              "unit": "a couple"
+            },
+            {
+              "name": "cinnamon stick",
+              "amount": 1,
+              "unit": "stick"
+            },
+            {
+              "name": "cumin seeds",
+              "amount": 15,
+              "unit": "ml (1 tbsp)"
+            },
+            {
+              "name": "curry powder",
+              "amount": 20,
+              "unit": "g"
+            },
+            {
+              "name": "turmeric",
+              "amount": 15,
+              "unit": "g"
+            },
+            {
+              "name": "fresh firm white fish (e.g. snapper), cubed",
+              "amount": 450,
+              "unit": "g"
+            },
+            {
+              "name": "salt and pepper",
+              "amount": null,
+              "unit": ""
+            },
+            {
+              "name": "chillies, deseeded and chopped",
+              "amount": 4,
+              "unit": ""
+            },
+            {
+              "name": "cloves",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "coconut milk",
+              "amount": 350,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Warm the oil in a large pan and fry the ginger-garlic paste, onion, curry leaves and cinnamon."
+            },
+            {
+              "text": "Stir in the cumin, curry powder and turmeric and let them cook briefly.",
+              "minutes": 1
+            },
+            {
+              "text": "Add the fish and toss it in the pan until coated with the spice mixture."
+            },
+            {
+              "text": "Season, add the chillies, cloves and coconut milk and cook.",
+              "minutes": 10
+            },
+            {
+              "text": "Check the seasoning and cook a little longer, then serve with coconut rice.",
+              "minutes": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

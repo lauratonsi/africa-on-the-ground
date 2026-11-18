@@ -5,10 +5,125 @@
   "country": "SDN",
   "name": "Ful medames",
   "region": "Sudan",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Ful medames (fuul) is a dish of stewed fava (faba) beans.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Stewed faba beans, known in Sudan as Ful musalah, one of several faba bean dishes alongside taamia (falafel) and fata.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-316f87"
+      ]
+    },
+    {
+      "label": "How often it is eaten",
+      "value": "Faba bean is Sudan's most important legume and the main dish at breakfast and dinner for a large part of the population, eaten by all income groups.",
+      "cite": [
+        "cap-tropentag-de-690f00"
+      ]
+    },
+    {
+      "label": "Role in diet",
+      "value": "It supplies protein for the daily breakfast and dinner of millions of people who cannot afford meat.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-316f87"
+      ]
+    },
+    {
+      "label": "Where the beans grow",
+      "value": "Faba bean production is concentrated in northern Sudan, mostly under pump irrigation from the River Nile.",
+      "cite": [
+        "cap-tropentag-de-690f00"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "Traditionally the beans are soaked overnight and slow-cooked until tender, rather than taken from a tin.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    },
+    {
+      "label": "Seasoning",
+      "value": "In the author's home it is seasoned with salt, black pepper, a little shatta (chilli powder), a lot of ground cumin and lime.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    },
+    {
+      "label": "Sesame oil",
+      "value": "Sudanese households serve it with sesame oil, where others might use olive or vegetable oil.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    },
+    {
+      "label": "Toppings",
+      "value": "Raw diced red onion and tomato are mixed in on the plate, and it is topped with crumbled white cheese (Sudanese feta) and chopped parsley.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    },
+    {
+      "label": "During Ramadan",
+      "value": "Elsewhere in the Arabic-speaking world it is usually eaten at suhoor, the pre-dawn meal, but many Sudanese families serve it at the meal that breaks the fast.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "It is eaten in company, with family, friends, colleagues or strangers sharing a plate.",
+      "cite": [
+        "cap-aljazeera-com-a6d7ea"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ful medames (fuul) is a dish of stewed fava (faba) beans. The faba bean is Sudan's most important legume, grown mainly in the north under pump irrigation from the Nile, and its stew is the main dish at breakfast and dinner for a large part of the population across all income groups. A Sudanese home version is seasoned with salt, pepper, chilli, plenty of cumin and lime, and finished with sesame oil, raw onion and tomato, and crumbled white cheese.",
+              "cite": [
+                "cap-pmc-ncbi-nlm-nih-gov-316f87",
+                "cap-tropentag-de-690f00",
+                "cap-aljazeera-com-a6d7ea"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is eaten at breakfast and dinner, usually shared with family, friends or colleagues; during Ramadan many Sudanese families serve it at the meal that breaks the fast rather than before dawn.",
+              "cite": [
+                "cap-pmc-ncbi-nlm-nih-gov-316f87",
+                "cap-tropentag-de-690f00",
+                "cap-aljazeera-com-a6d7ea"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

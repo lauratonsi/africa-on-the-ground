@@ -1,6 +1,6 @@
 {
   "slug": "khartoum-sudan",
-  "status": "draft",
+  "status": "published",
   "country": "SDN",
   "name": "Khartoum",
   "subtitle": "Khartoum, capital of Sudan: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -217,5 +217,16 @@
     "No official nationwide census has occurred since 2008; demographic estimates during the 2023-2024 war remain subject to ongoing humanitarian tracking.",
     "First-hand local voices and diaspora testimonies on civilian life and heritage conservation during the current conflict are still missing.",
     "Photograph of Khartoum urban cityscape: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-khartoum-sudan",
+    "alt": "Photograph of Khartoum, capital of Sudan.",
+    "caption": "Khartoum, capital of Sudan.",
+    "credit": "Asim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Masjed_Alnileen.JPG",
+    "width": 800,
+    "height": 425
+  }
 }

@@ -92,5 +92,14 @@
     "Not found in a readable source: Met Museum, British Museum and NCMM pages are blocked (JavaScript/security checkpoint) so not used.",
     "Not found in a readable source: Visitor details and current museum state not sourced.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "ife-heads-and-the-national-museum-of-ife",
+    "alt": "Testa in lega di rame (bronzo) di Ife, arte yoruba del XII-XV secolo.",
+    "caption": "Testa in lega di rame di Ife (XII-XV secolo), espressione dell'arte metallurgica yoruba.",
+    "credit": "sailko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Arte_yoruba%2C_nigeria%2C_testa_da_ife%2C_12-15mo_secolo.JPG"
+  }
 }

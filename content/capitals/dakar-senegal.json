@@ -1,6 +1,6 @@
 {
   "slug": "dakar-senegal",
-  "status": "draft",
+  "status": "published",
   "country": "SEN",
   "name": "Dakar",
   "subtitle": "Dakar, capital of Senegal: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -380,5 +380,16 @@
     "Not found in a readable source: Sandaga year of opening beyond 1933 and Dakar independence 1960 date not verified from a readable non-excluded source.",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Senegal has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-dakar-senegal",
+    "alt": "Photograph of Dakar, capital of Senegal.",
+    "caption": "Dakar, capital of Senegal.",
+    "credit": "Jeff Attaway",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:African_Renaissance_Monument_(5502494604).jpg",
+    "width": 800,
+    "height": 600
+  }
 }

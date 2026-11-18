@@ -1,6 +1,6 @@
 {
   "slug": "mbabane-eswatini",
-  "status": "draft",
+  "status": "published",
   "country": "SWZ",
   "name": "Mbabane",
   "subtitle": "Mbabane, capital of Eswatini: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -255,5 +255,16 @@
     "Not found in a readable source: Commons photo for Swazi Candles is captioned Matsapha; location label may be inexact. No Commons file found for Mbabane market beyond a 1979 'Portable market hut' photo, or for the National Museum",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Eswatini has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-mbabane-eswatini",
+    "alt": "Photograph of Mbabane, capital of Eswatini.",
+    "caption": "Mbabane, capital of Eswatini.",
+    "credit": "Axelspace Corporation",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mbabane%2C_Eswatini.jpg",
+    "width": 800,
+    "height": 500
+  }
 }

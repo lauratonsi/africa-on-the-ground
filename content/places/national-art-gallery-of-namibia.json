@@ -71,5 +71,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "national-art-gallery-of-namibia",
+    "alt": "L'edificio storico e le collezioni d'arte e storia a Windhoek, Namibia.",
+    "caption": "Sede museale e culturale a Windhoek, custode del patrimonio storico e artistico namibiano.",
+    "credit": "IUM 240052021",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Namibia.jpg"
+  }
 }

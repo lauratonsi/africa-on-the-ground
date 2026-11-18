@@ -55,5 +55,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "sierra-leone-national-museum-freetown",
+    "alt": "L'edificio storico della vecchia stazione ferroviaria che ospita il National Museum of Sierra Leone a Freetown.",
+    "caption": "Il National Museum of Sierra Leone, allestito nella storica ex stazione ferroviaria accanto al Cotton Tree a Freetown.",
+    "credit": "danbjoseph @ Mapillary.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Sierra_Leone_at_Cotton_tree_in_Freetown_-_Mapillary_(Yp2BPDsT7TyNtrN6lZ4z9Q).jpg"
+  }
 }

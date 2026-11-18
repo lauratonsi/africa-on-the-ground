@@ -1,6 +1,6 @@
 {
   "slug": "kampala-uganda",
-  "status": "draft",
+  "status": "published",
   "country": "UGA",
   "name": "Kampala",
   "subtitle": "Kampala, capital of Uganda: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -253,5 +253,16 @@
     "Not found in a readable source: Myth is an inference from EBSCO, not an explicit correction of a stated misconception",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Uganda has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-kampala-uganda",
+    "alt": "Photograph of Kampala, capital of Uganda.",
+    "caption": "Kampala, capital of Uganda.",
+    "credit": "Rebeccananonof",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kampala_national_mosque_of_uganda.jpg",
+    "width": 800,
+    "height": 600
+  }
 }

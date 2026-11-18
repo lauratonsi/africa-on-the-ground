@@ -5,10 +5,81 @@
   "country": "TCD",
   "name": "Daraba",
   "region": "Chad",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Daraba is an okra sauce; in the version presented by the province of N'Djamena at the Festival Dary 5 in January 2024, called “moula Daraba Akhadar”, it was prepared with beef.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "An okra sauce (sauce de gombo), presented as “moula Daraba Akhadar”.",
+      "cite": [
+        "cap-alwihdainfo-com-ec3950"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Okra, prepared with beef.",
+      "cite": [
+        "cap-alwihdainfo-com-ec3950"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "Served with a maize boule.",
+      "cite": [
+        "cap-alwihdainfo-com-ec3950"
+      ]
+    },
+    {
+      "label": "Where it was shown",
+      "value": "Among the most emblematic dishes presented by the province of N'Djamena at the Festival Dary 5.",
+      "cite": [
+        "cap-alwihdainfo-com-ec3950"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Daraba is an okra sauce; in the version presented by the province of N'Djamena at the Festival Dary 5 in January 2024, called “moula Daraba Akhadar”, it was prepared with beef.",
+              "cite": [
+                "cap-alwihdainfo-com-ec3950"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It was served with a maize boule (a stiff maize-flour paste).",
+              "cite": [
+                "cap-alwihdainfo-com-ec3950"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Only one acceptable source names the dish (Alwihda Info); other pages found were travel or recipe blogs, TasteAtlas copies or Wikipedia mirrors. Academic papers on Chadian okra sauce do not use the name daraba, so they were not used. No recipe from an acceptable source.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

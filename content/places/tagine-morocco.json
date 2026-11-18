@@ -224,5 +224,14 @@
   "gaps": [
     "Divergence in domestic practice between unglazed clay tagines (which absorb and build seasoning like a cast-iron skillet) and modern glazed decorative tourist pieces.",
     "Variations in heat source adaptation: traditional charcoal brazier (majmar) vs modern electric induction cooktops requiring adapter plates."
-  ]
+  ],
+  "image": {
+    "file": "tagine-morocco",
+    "alt": "A vegetable tagine in its clay dish, with carrots, courgettes and olives.",
+    "caption": "A vegetable tagine in its clay dish, with carrots, courgettes and olives.",
+    "credit": "Khammal92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Moroccan_tagine.jpg"
+  }
 }

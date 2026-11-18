@@ -1,0 +1,206 @@
+{
+  "slug": "why-people-flee-war-conscription-and-crisis",
+  "status": "published",
+  "kind": "history",
+  "title": "Why people flee: war, conscription and crisis",
+  "subtitle": "Behind departure statistics lie acute emergencies: the world's largest displacement crisis in Sudan, lifelong national service in Eritrea, and violent insurgency in the Sahel.",
+  "countries": [
+    "SDN",
+    "ERI",
+    "MLI",
+    "BFA",
+    "COD"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "asylum-reality",
+      "title": "Beyond the economic label",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In political debate, arrivals across borders are routinely categorized with the broad label of 'economic migrants', implying voluntary movement driven solely by ambition for higher wages.",
+              "editorial": true
+            },
+            {
+              "text": " But the nationalities that appear year after year among those embarking on the most dangerous crossings are fleeing documented armed conflicts, state-enforced servitude, and acute persecution.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "85%+",
+              "label": "EU first-instance asylum recognition rate for Eritreans (EUAA)",
+              "cite": [
+                "euaa-asylum-report-2024"
+              ]
+            },
+            {
+              "value": "80%+",
+              "label": "EU recognition rate for Sudanese applicants following the 2023 war",
+              "cite": [
+                "euaa-asylum-report-2024"
+              ]
+            },
+            {
+              "value": "10M+",
+              "label": "people displaced by the Sudan conflict since April 2023",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Official statistics from the European Union Agency for Asylum (EUAA) demonstrate this reality: when European asylum examiners review claims from citizens of countries like Eritrea or Sudan, the first-instance recognition rate regularly exceeds 80 to 85 percent.",
+              "cite": [
+                "euaa-asylum-report-2024"
+              ]
+            },
+            {
+              "text": " By Europe's own legal standards, the overwhelming majority of these individuals are judged to have a legitimate, well-founded fear of persecution or serious harm.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sudan-catastrophe",
+      "title": "Sudan: the world's largest displacement crisis",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In April 2023, open armed conflict erupted across Sudan between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF), shattering urban centres and devastating civilian infrastructure.",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            },
+            {
+              "text": " According to UNHCR and the International Organization for Migration, the conflict created the largest displacement crisis in the world, forcing over 10 million people from their homes.",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Over 2 million people crossed international borders into Chad, South Sudan, Egypt, Ethiopia, and the Central African Republic to escape ethnically targeted massacres in West Darfur, aerial bombardments in Khartoum, and widespread weaponized sexual violence.",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            },
+            {
+              "text": " In August 2024, international monitoring mechanisms confirmed famine conditions in the Zamzam camp near el-Fasher, where hundreds of thousands of displaced civilians were trapped without food or medical care.",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eritrea-conscription",
+      "title": "Eritrea: indefinite national service",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "For over two decades, Eritrea has been one of the top countries of origin for people seeking asylum in Europe and neighbouring African states.",
+              "cite": [
+                "euaa-asylum-report-2024"
+              ]
+            },
+            {
+              "text": " The core driver was investigated and documented in extensive detail by the United Nations Commission of Inquiry on Human Rights in Eritrea (UN COI).",
+              "cite": [
+                "un-coi-eritrea-2015"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The UN Commission of Inquiry found that the Eritrean government subjects its citizens to compulsory, open-ended national service that frequently lasts for decades under military discipline.",
+              "cite": [
+                "un-coi-eritrea-2015"
+              ]
+            },
+            {
+              "text": " Conscripts are paid nominal allowances insufficient to survive, are assigned to forced labour on state and party-owned enterprises, and are denied the right to marry, change professions, or travel without military permission.",
+              "cite": [
+                "un-coi-eritrea-2015"
+              ]
+            },
+            {
+              "text": " Attempting to leave the country without an exit visa is treated as desertion and treason, punishable by arbitrary incommunicado detention in desert containers or underground cells.",
+              "cite": [
+                "un-coi-eritrea-2015"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sahel-congo-climate",
+      "title": "Insurgency, instability and environmental shocks",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Across the central Sahel (Mali, Burkina Faso, and Niger), violent extremism, military coups, and intercommunal clashes have displaced more than 3 million people internally.",
+              "cite": [
+                "idmc-grid-2024"
+              ]
+            },
+            {
+              "text": " In the eastern Democratic Republic of the Congo, fighting involving the M23 rebel movement and dozens of armed groups has triggered catastrophic humanitarian conditions in North and South Kivu, leaving over 6 million internally displaced persons.",
+              "cite": [
+                "idmc-grid-2024",
+                "unhcr-global-trends-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "These acute security failures interact with environmental volatility. The Internal Displacement Monitoring Centre (IDMC GRID 2024) records that recurrent multi-year droughts followed by devastating riverine floods across Somalia, Ethiopia, and Kenya have destroyed millions of livestock and displaced agrarian communities whose generational safety nets have disintegrated.",
+              "cite": [
+                "idmc-grid-2024"
+              ]
+            },
+            {
+              "text": " Describing these multifaceted pressures as mere lifestyle choices misses the compounding crises that push people onto the road.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Because active conflict in Sudan and the Sahel impedes formal census operations, displacement figures from UNHCR and IOM are operational estimates updated via key informants and satellite tracking.",
+    "Asylum recognition rates reflect first-instance administrative decisions in EU states and do not capture final appeal outcomes or variations in criteria between individual European governments."
+  ]
+}

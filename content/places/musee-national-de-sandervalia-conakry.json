@@ -70,5 +70,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "musee-national-de-sandervalia-conakry",
+    "alt": "Padiglione e cortile alberato del Musée National de Sandervalia a Conakry.",
+    "caption": "Il Musée National de Sandervalia a Conakry, sede del patrimonio etnografico della Guinea.",
+    "credit": "Yamen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_National_de_Guin%C3%A9e_27042022_005.jpg"
+  }
 }

@@ -5,10 +5,64 @@
   "country": "SWZ",
   "name": "Sishwala",
   "region": "Eswatini",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Sishwala is a traditional Swazi dish of maize and beans.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A traditional Swazi porridge, listed among the country's most popular dishes.",
+      "cite": [
+        "cap-cyprus-mail-com-8a9f49"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Dried sugar beans, maize flour, water and salt.",
+      "cite": [
+        "cap-cyprus-mail-com-8a9f49"
+      ]
+    },
+    {
+      "label": "Variation",
+      "value": "A Swazi food-security study describes sishwala as boiled maize with jugo beans, a maize-and-legume snack food.",
+      "cite": [
+        "cap-scholar-ufs-ac-za-3f2f30"
+      ]
+    },
+    {
+      "label": "Context",
+      "value": "Much of the population lives on a diet of sorghum and maize.",
+      "cite": [
+        "cap-cyprus-mail-com-8a9f49"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Sishwala is a traditional Swazi dish of maize and beans. A press account describes it as a porridge of dried sugar beans, maize flour, water and salt; a University of the Free State dissertation describes it as boiled maize and jugo beans. It belongs to a diet built largely on maize and sorghum.",
+              "cite": [
+                "cap-cyprus-mail-com-8a9f49",
+                "cap-scholar-ufs-ac-za-3f2f30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Only two acceptable sources were found, and they disagree on the form (porridge vs. boiled maize and jugo beans as a snack). No source stating how or when it is eaten passed verification, and no complete recipe was found.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

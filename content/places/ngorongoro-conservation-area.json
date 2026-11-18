@@ -1,0 +1,135 @@
+{
+  "slug": "ngorongoro-conservation-area",
+  "status": "draft",
+  "type": "nature",
+  "country": "TZA",
+  "name": "Ngorongoro Conservation Area",
+  "region": "Arusha Region · Tanzania",
+  "subtitle": "A mixed property on the UNESCO World Heritage List since 1979, where wildlife and Maasai herders share the same land.",
+  "facts": [
+    {
+      "label": "Inscribed",
+      "value": "1979",
+      "cite": [
+        "unesco-whc-39"
+      ]
+    },
+    {
+      "label": "Category",
+      "value": "Mixed (cultural and natural)",
+      "cite": [
+        "unesco-whc-39"
+      ]
+    },
+    {
+      "label": "Area",
+      "value": "809,440 hectares",
+      "cite": [
+        "unesco-whc-39"
+      ]
+    },
+    {
+      "label": "Established",
+      "value": "1959, as a multiple land use area",
+      "cite": [
+        "unesco-whc-39"
+      ]
+    },
+    {
+      "label": "Maasai at inscription",
+      "value": "An estimated 20,000 people, with some 275,000 head of livestock",
+      "cite": [
+        "unesco-whc-39"
+      ]
+    }
+  ],
+  "coords": {
+    "lat": -3.18722,
+    "lon": 35.54083,
+    "cite": [
+      "unesco-whc-39"
+    ]
+  },
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO describes the property in these words: “The Ngorongoro Conservation Area spans vast expanses of highland plains, savanna, savanna woodlands and forests. Established in 1959 as a multiple land use area, with wildlife coexisting with semi-nomadic Maasai pastoralists practicing traditional livestock grazing, it includes the spectacular Ngorongoro Crater, the world’s largest caldera.”",
+              "cite": [
+                "unesco-whc-39"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "maasai",
+      "title": "Herders and wildlife on the same land",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "UNESCO's record says the property “provides grazing land for semi-nomadic Maasai pastoralists”, and that at the time of inscription “an estimated 20,000 Maasai were living in the property, with some 275,000 head of livestock”.",
+              "cite": [
+                "unesco-whc-39"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The same record names the tension: it lists “increasing sedentarisation, local overgrazing and agricultural encroachment” as threats, and says one of the management goals is to “protect the interests of the Maasai pastoralists”.",
+              "cite": [
+                "unesco-whc-39"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep-time",
+      "title": "Footprints 3.6 million years old",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The area also holds a long record of human evolution. UNESCO cites “fossilized footprints at Laetoli, associated with the development of human bipedalism” and the sequence of hominin species found in Olduvai Gorge.",
+              "cite": [
+                "unesco-whc-39"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Independent sources. Every fact here comes from UNESCO's own record, so it is one voice, written by the institution that manages the listing.",
+    "How the area is governed today, including any moves of residents out of it, is not covered here: the UNESCO record reflects the inscription and its periodic reviews. Reporting and research on this should be cited before the card is published.",
+    "Maasai voices: none yet. The record describes the Maasai from outside.",
+    "A photograph under an open licence."
+  ],
+  "image": {
+    "file": "ngorongoro-conservation-area",
+    "alt": "A round house of mud walls and a thatched roof in a Maasai homestead, with a bare hill behind.",
+    "caption": "A house in a Maasai homestead (boma) in the Ngorongoro Conservation Area.",
+    "credit": "Erasmus Kamugisha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:A_typical_Maasai_boma.jpg"
+  }
+}

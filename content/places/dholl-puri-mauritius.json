@@ -5,10 +5,196 @@
   "country": "MUS",
   "name": "Dholl puri",
   "region": "Mauritius",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Dholl puri is a Mauritian pancake made from ground yellow split peas seasoned with cumin and turmeric, cooked on a tawa (flat pan).",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "A pancake of ground yellow split peas seasoned with cumin and turmeric, griddled on a tawa (flat pan)",
+      "cite": [
+        "cap-defimedia-info-2a648c"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "Wrapped around butter bean curry (cari gros pois), rougaille (spicy Creole tomato sauce), pickled vegetables, coriander chutney and chilli",
+      "cite": [
+        "cap-defimedia-info-2a648c"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Introduced by Bhojpuri-speaking Indian indentured labourers from Bihar more than a century ago",
+      "cite": [
+        "cap-defimedia-info-2a648c"
+      ]
+    },
+    {
+      "label": "Festive form",
+      "value": "A giant dholl puri filled with fish, deer or goat meat is traditionally served at Hindu wedding feasts on a banana leaf; a vendor made a mini version in the 1960s and sold it door to door",
+      "cite": [
+        "cap-defimedia-info-2a648c"
+      ]
+    },
+    {
+      "label": "Origin (family account)",
+      "value": "A vendor family says its founder created it about a century ago by combining roti and tekwa (fried split-pea cakes), both brought by Indian immigrants",
+      "cite": [
+        "cap-defimedia-info-3791f5"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Kidney beans as an accompaniment were introduced by vendor Ramesh Ramsahye Maraz as a substitute for mashed potato, and spread to other vendors",
+      "cite": [
+        "cap-defimedia-info-3791f5"
+      ]
+    },
+    {
+      "label": "Price in the past",
+      "value": "Once sold at 15 cents (rupee) a pair",
+      "cite": [
+        "cap-defimedia-info-3791f5"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "Now found all over Mauritius",
+      "cite": [
+        "cap-defimedia-info-2a648c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Dholl puri is a Mauritian pancake made from ground yellow split peas seasoned with cumin and turmeric, cooked on a tawa (flat pan). It is described as originating from Indian stuffed flatbreads brought to Mauritius by Bhojpuri-speaking indentured labourers from Bihar more than a century ago, and is now found all over the island.",
+              "cite": [
+                "cap-defimedia-info-2a648c",
+                "cap-defimedia-info-3791f5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is wrapped around butter bean curry (cari gros pois), rougaille, pickled vegetables, coriander chutney and chilli; one vendor family says it added kidney beans as a filling, which other vendors adopted.",
+              "cite": [
+                "cap-defimedia-info-2a648c",
+                "cap-defimedia-info-3791f5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Dholl puri",
+          "servings": 20,
+          "sub": "One version of the dish, as given by SBS Food; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-sbs-com-au-5412cb"
+          ],
+          "note": "Resting time is given as 20–30 minutes. SBS notes that Australian tablespoons are 20 ml. Served warm wrapped around curries, achards and chutneys.",
+          "ingredients": [
+            {
+              "name": "cumin seeds",
+              "amount": 0.5,
+              "unit": "tbsp"
+            },
+            {
+              "name": "yellow split peas, soaked overnight",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "name": "salt",
+              "amount": null,
+              "unit": ""
+            },
+            {
+              "name": "plain flour",
+              "amount": 1,
+              "unit": "kg"
+            },
+            {
+              "name": "turmeric",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "warm water",
+              "amount": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "vegetable oil",
+              "amount": null,
+              "unit": ""
+            }
+          ],
+          "steps": [
+            {
+              "text": "Soak the split peas overnight (start a day ahead)."
+            },
+            {
+              "text": "Dry-toast the cumin seeds in a pan and grind them in a mortar."
+            },
+            {
+              "text": "Drain and rinse the peas, then boil in fresh water until just tender."
+            },
+            {
+              "text": "Drain thoroughly and process the peas with the cumin to a powdery mixture; season with salt."
+            },
+            {
+              "text": "Mix the flour with the turmeric and two pinches of salt, add the water, bring together into a smooth dough and knead.",
+              "minutes": 5
+            },
+            {
+              "text": "Cover with a damp cloth and let the dough rest.",
+              "minutes": 30
+            },
+            {
+              "text": "Divide into balls of about 60 g, press a hollow into each, fill with the pea mixture and close the dough over it."
+            },
+            {
+              "text": "Roll each ball very thin on a floured surface."
+            },
+            {
+              "text": "Cook in an oiled pan over high heat, brushing the top with oil before turning; about 2 minutes per side.",
+              "minutes": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: Original Guardian article URL not found (404 on guessed URL); its content is cited through Defimedia's report.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

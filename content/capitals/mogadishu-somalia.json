@@ -1,6 +1,6 @@
 {
   "slug": "mogadishu-somalia",
-  "status": "draft",
+  "status": "published",
   "country": "SOM",
   "name": "Mogadishu",
   "subtitle": "Mogadishu, capital of Somalia: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -264,5 +264,16 @@
     "Left out because only weak or unofficial sources supported them (4 items, for example: In November 2025, AFP reported a building boom in the capital, with the government saying ).",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Somalia has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-mogadishu-somalia",
+    "alt": "Photograph of Mogadishu, capital of Somalia.",
+    "caption": "Mogadishu, capital of Somalia.",
+    "credit": "AMISOM Public Information",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_12_21_Hamar_Weyne_football-3_(16078050805).jpg",
+    "width": 800,
+    "height": 532
+  }
 }

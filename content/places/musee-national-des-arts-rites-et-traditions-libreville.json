@@ -55,5 +55,14 @@
     "Full digital inventory of ritual instruments and musical recordings is currently in progress.",
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "musee-national-des-arts-rites-et-traditions-libreville",
+    "alt": "Ingresso del Musée National des Arts, Rites et Traditions du Gabon a Libreville.",
+    "caption": "Ingresso del museo nazionale a Libreville, custode di reliquiari Kota e sculture rituali Bwiti.",
+    "credit": "MNATGABON",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_sur_l'entr%C3%A9e_du_mus%C3%A9e_national_des_arts_et_traditions_du_Gabon.jpg"
+  }
 }

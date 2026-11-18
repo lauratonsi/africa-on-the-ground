@@ -1,6 +1,6 @@
 {
   "slug": "asmara-eritrea",
-  "status": "draft",
+  "status": "published",
   "country": "ERI",
   "name": "Asmara",
   "subtitle": "Asmara, capital of Eritrea: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -275,5 +275,16 @@
     "Not found in a readable source: Founding date of the museum's Comboni-school move (only Wikipedia-derived; not used)",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Eritrea has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-asmara-eritrea",
+    "alt": "Photograph of Asmara, capital of Eritrea.",
+    "caption": "Asmara, capital of Eritrea.",
+    "credit": "sailko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Asmara%2C_cinema_impero%2C_07.JPG",
+    "width": 800,
+    "height": 581
+  }
 }

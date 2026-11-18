@@ -5,10 +5,203 @@
   "country": "TZA",
   "name": "Zanzibar pilau",
   "region": "Tanzania",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Pilau is a spiced rice dish of the Swahili coast; its name, like 'pilaf', comes from the Persian polow.",
+  "facts": [
+    {
+      "label": "Name and origin",
+      "value": "The name pilau, like pilaf, derives from the Persian polow, rice mixed with spices, nuts and meat",
+      "cite": [
+        "cap-content-ctpublic-org-3d184b"
+      ]
+    },
+    {
+      "label": "History",
+      "value": "The dish is linked to the Indian Ocean spice trade and Arab settlers in East Africa",
+      "cite": [
+        "cap-content-ctpublic-org-3d184b"
+      ]
+    },
+    {
+      "label": "Zanzibar style",
+      "value": "The Zanzibar version is made with coconut milk and without tomato or raisins",
+      "cite": [
+        "cap-content-ctpublic-org-3d184b"
+      ]
+    },
+    {
+      "label": "Spices",
+      "value": "Pilau masala: cardamom, black pepper, cinnamon and cloves",
+      "cite": [
+        "cap-explorepartsunknown-com-a802b0"
+      ]
+    },
+    {
+      "label": "When eaten",
+      "value": "Very hard to miss at any Tanzanian celebration; more heavily spiced than the Indian version",
+      "cite": [
+        "cap-explorepartsunknown-com-a802b0"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Kachumbari (Tanzanian salad)",
+      "cite": [
+        "cap-explorepartsunknown-com-a802b0"
+      ]
+    },
+    {
+      "label": "Variations",
+      "value": "People in the coastal region add cashew nuts",
+      "cite": [
+        "cap-explorepartsunknown-com-a802b0"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "Spiced pilau is among the traditional Swahili dishes served at a Stone Town restaurant",
+      "cite": [
+        "cap-nationalgeographic-com-7816c2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pilau is a spiced rice dish of the Swahili coast; its name, like 'pilaf', comes from the Persian polow. Rice, preferably basmati, is cooked with onion and a spice mix of cardamom, black pepper, cinnamon and cloves, and a Zanzibar version is made with coconut milk.",
+              "cite": [
+                "cap-content-ctpublic-org-3d184b",
+                "cap-explorepartsunknown-com-a802b0",
+                "cap-nationalgeographic-com-7816c2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is a fixture of Tanzanian celebrations, served with kachumbari salad, and appears among the traditional Swahili dishes in Stone Town eateries; cooks may add meat, seafood, vegetables or, on the coast, cashew nuts.",
+              "cite": [
+                "cap-content-ctpublic-org-3d184b",
+                "cap-explorepartsunknown-com-a802b0",
+                "cap-nationalgeographic-com-7816c2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Zanzibar Pilau (Rice Pilaf)",
+          "servings": 4,
+          "sub": "One version of the dish, as given by Connecticut Public (excerpt from In Bibi's Kitchen, Ten Speed Press 2020); the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-content-ctpublic-org-3d184b"
+          ],
+          "note": "From Hawa Hassan's In Bibi's Kitchen, reprinted by Connecticut Public. Soaking time is 10 to 30 minutes; resting time at least 10 minutes.",
+          "ingredients": [
+            {
+              "name": "long-grained white rice (preferably basmati)",
+              "amount": 1,
+              "unit": "cup"
+            },
+            {
+              "name": "unsalted butter (or ghee)",
+              "amount": 2,
+              "unit": "tablespoons"
+            },
+            {
+              "name": "small yellow onion, finely diced",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "green cardamom pods",
+              "amount": 5,
+              "unit": ""
+            },
+            {
+              "name": "cinnamon stick",
+              "amount": 1,
+              "unit": "2-inch piece"
+            },
+            {
+              "name": "ground cloves",
+              "amount": 0.5,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "full-fat unsweetened coconut milk",
+              "amount": 0.5,
+              "unit": "cup"
+            },
+            {
+              "name": "boiling water",
+              "amount": 1,
+              "unit": "cup"
+            },
+            {
+              "name": "kosher salt",
+              "amount": 1,
+              "unit": "teaspoon"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Rinse the rice in a sieve under cold water, stirring gently, until the water is clear.",
+              "minutes": 1
+            },
+            {
+              "text": "Leave the rice to soak in a bowl of cold water (10 to 30 minutes).",
+              "minutes": 10
+            },
+            {
+              "text": "Meanwhile melt the butter in a medium pan over medium-high heat and soften the onion.",
+              "minutes": 5
+            },
+            {
+              "text": "Add the cardamom, cinnamon and cloves and stir until fragrant.",
+              "minutes": 1
+            },
+            {
+              "text": "Pour in the coconut milk, boiling water and salt, then add the drained rice."
+            },
+            {
+              "text": "Cover, turn the heat to low and cook until the liquid is absorbed and the rice tender.",
+              "minutes": 15
+            },
+            {
+              "text": "Leave covered off the heat, then fluff, pick out the whole spices and serve hot.",
+              "minutes": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

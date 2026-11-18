@@ -5,10 +5,220 @@
   "country": "SOM",
   "name": "Bariis iskukaris",
   "region": "Somalia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bariis iskukaris is a traditional one-pot rice dish from Somalia.",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "A traditional one-pot dish from Somalia",
+      "cite": [
+        "cap-nhs-uk-497e8f"
+      ]
+    },
+    {
+      "label": "Spice blend",
+      "value": "Seasoned with xawaash, a Somali spice blend",
+      "cite": [
+        "cap-mndaily-com-dad4b2"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Basmati rice with cumin, coriander, cinnamon, cardamom and clove",
+      "cite": [
+        "cap-mndaily-com-dad4b2"
+      ]
+    },
+    {
+      "label": "Garnish",
+      "value": "Rehydrated raisins, sweet and plump, are part of the dish",
+      "cite": [
+        "cap-mndaily-com-dad4b2"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Banana and meats such as goat, steak or chicken",
+      "cite": [
+        "cap-mndaily-com-dad4b2"
+      ]
+    },
+    {
+      "label": "Banana custom",
+      "value": "In Somali homes and restaurants rice comes with a banana, which is sliced into the rice, not eaten separately",
+      "cite": [
+        "cap-cssalaska-org-ad8c3e"
+      ]
+    },
+    {
+      "label": "In the diaspora",
+      "value": "Rice (bariis) is found in Somali restaurants wherever Somalis live, however it is cooked",
+      "cite": [
+        "cap-mndaily-com-dad4b2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bariis iskukaris is a traditional one-pot rice dish from Somalia. It is made with basmati rice and seasoned with xawaash, a Somali spice blend, with warm spices such as cumin, coriander, cinnamon, cardamom and clove; raisins are often added.",
+              "cite": [
+                "cap-nhs-uk-497e8f",
+                "cap-mndaily-com-dad4b2",
+                "cap-cssalaska-org-ad8c3e"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Somali homes and restaurants rice is served with a banana, which is sliced into the rice rather than eaten separately, and it is eaten with meats such as goat or chicken.",
+              "cite": [
+                "cap-nhs-uk-497e8f",
+                "cap-mndaily-com-dad4b2",
+                "cap-cssalaska-org-ad8c3e"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Bariis iskukaris (1-pot Somali rice & chicken)",
+          "servings": 4,
+          "sub": "One version of the dish, as given by NHS (Healthier Families); the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-nhs-uk-497e8f"
+          ],
+          "note": "A lower-calorie version published by the NHS; the steaming time is given as 10 to 15 minutes.",
+          "ingredients": [
+            {
+              "name": "vegetable oil",
+              "amount": 2,
+              "unit": "teaspoons"
+            },
+            {
+              "name": "onion, chopped",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "name": "garlic cloves, finely chopped",
+              "unit": "4 or 5 cloves"
+            },
+            {
+              "name": "cinnamon stick (or 1 teaspoon ground cinnamon)",
+              "amount": 1,
+              "unit": "stick"
+            },
+            {
+              "name": "cumin seeds",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "fresh tomatoes, chopped",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "name": "skinless chicken thighs with bone",
+              "amount": 600,
+              "unit": "g"
+            },
+            {
+              "name": "ground turmeric",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "cumin powder",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "ground coriander",
+              "amount": 2,
+              "unit": "teaspoons"
+            },
+            {
+              "name": "reduced-salt seasoning cube, crumbled",
+              "amount": 1,
+              "unit": "cube"
+            },
+            {
+              "name": "carrots, grated",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "name": "basmati rice, washed and drained",
+              "amount": 200,
+              "unit": "g"
+            },
+            {
+              "name": "water",
+              "amount": 600,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Warm the oil in a large pan and soften the onion and garlic over medium heat.",
+              "minutes": 2
+            },
+            {
+              "text": "Stir in the cinnamon, cumin seeds and tomatoes and cook over medium heat, stirring often.",
+              "minutes": 3
+            },
+            {
+              "text": "Add the chicken, the ground spices, the crumbled stock cube and the carrot; mix and cook over medium-high heat, stirring now and then.",
+              "minutes": 5
+            },
+            {
+              "text": "Pour in 400 ml of the water, cover and simmer over medium heat until the chicken is almost cooked.",
+              "minutes": 15
+            },
+            {
+              "text": "Stir in the rice so it is coated, add the remaining 200 ml cold water, cover and bring to a bubble over medium-high heat.",
+              "minutes": 5
+            },
+            {
+              "text": "Lower the heat and let the rice steam, covered, until tender and fluffy.",
+              "minutes": 15
+            },
+            {
+              "text": "Serve, with fresh coriander on top if wanted and a green salad alongside."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

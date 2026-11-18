@@ -5,10 +5,105 @@
   "country": "MDG",
   "name": "Romazava",
   "region": "Madagascar",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Romazava is a traditional Malagasy stew based on brèdes, leafy greens such as brèdes mafane (anamalaho) and brèdes morelles (anamamy), cooked with meat and spices.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A traditional Malagasy stew from Madagascar",
+      "cite": [
+        "cap-kreolmagazine-com-93e17a"
+      ]
+    },
+    {
+      "label": "Base",
+      "value": "A traditional dish of Malagasy cuisine based on brèdes (leafy greens)",
+      "cite": [
+        "cap-afrik-com-2991c5"
+      ]
+    },
+    {
+      "label": "Greens",
+      "value": "Uses brèdes mafane (anamalaho) and brèdes morelles (anamamy)",
+      "cite": [
+        "cap-afrik-com-2991c5"
+      ]
+    },
+    {
+      "label": "Meat",
+      "value": "Made with beef, or also with zebu meat",
+      "cite": [
+        "cap-afrik-com-2991c5"
+      ]
+    },
+    {
+      "label": "Meat and greens",
+      "value": "Typically made with meat (often beef, chicken or pork), greens and spices",
+      "cite": [
+        "cap-kreolmagazine-com-93e17a"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "Brèdes mafane is a main ingredient of romazava, described as Madagascar's national dish",
+      "cite": [
+        "cap-ebi-ac-uk-8c04d7"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Often eaten with rice",
+      "cite": [
+        "cap-kreolmagazine-com-93e17a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Romazava is a traditional Malagasy stew based on brèdes, leafy greens such as brèdes mafane (anamalaho) and brèdes morelles (anamamy), cooked with meat and spices. The meat is often beef, also zebu, chicken or pork. Brèdes mafane is a main ingredient of the dish, which researchers describe as Madagascar's national dish.",
+              "cite": [
+                "cap-kreolmagazine-com-93e17a",
+                "cap-afrik-com-2991c5",
+                "cap-ebi-ac-uk-8c04d7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is often eaten with rice.",
+              "cite": [
+                "cap-kreolmagazine-com-93e17a",
+                "cap-afrik-com-2991c5",
+                "cap-ebi-ac-uk-8c04d7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Recipe: no good source gave a complete recipe with servings; the afrik.com recipe merges two methods and gives no servings, and the Kreol Magazine recipe gives no servings and omits brèdes mafane.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "niamey-niger",
-  "status": "draft",
+  "status": "published",
   "country": "NER",
   "name": "Niamey",
   "subtitle": "Niamey, capital of Niger: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -181,5 +181,16 @@
   "gaps": [
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-niamey-niger",
+    "alt": "Photograph of Niamey, capital of Niger.",
+    "caption": "Niamey, capital of Niger.",
+    "credit": "Eric Haglund from Washington, DC",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Niamey_(7531764808).jpg",
+    "width": 800,
+    "height": 467
+  }
 }

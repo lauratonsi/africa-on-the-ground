@@ -5,10 +5,106 @@
   "country": "GIN",
   "name": "Riz sauce feuilles",
   "region": "Guinea",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Riz sauce feuilles is white rice served with a sauce of leaves, made in two main types: sweet potato leaves (mbouroukhè in Susu) and cassava leaves, which are finely pounded.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "The favourite dish of many Guineans, eaten with white rice.",
+      "cite": [
+        "cap-afrique-le360-ma-ca08af"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "There are two types of the sauce: sweet potato leaves and cassava leaves. In Susu the sweet potato leaf sauce is called mbouroukhè.",
+      "cite": [
+        "cap-afrique-le360-ma-ca08af"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "A Conakry restaurant cook puts the leaves in the pot, then pounded meat and onion, then okra last; palm oil goes in only once the leaves are well cooked. It is nearly ready after about three hours.",
+      "cite": [
+        "cap-afrique-le360-ma-ca08af"
+      ]
+    },
+    {
+      "label": "When it is eaten",
+      "value": "Its smell is everywhere at the midday meal, and there is no particular day for cooking it.",
+      "cite": [
+        "cap-afrique-le360-ma-ca08af"
+      ]
+    },
+    {
+      "label": "Spread",
+      "value": "The recipe has found followers in neighbouring countries such as Senegal, Mali and Côte d'Ivoire.",
+      "cite": [
+        "cap-afrique-le360-ma-ca08af"
+      ]
+    },
+    {
+      "label": "Cassava leaf version",
+      "value": "Borokhé, the cassava leaf sauce, is popular in West Africa, notably in Guinea and Côte d'Ivoire, and is made from finely pounded cassava leaves.",
+      "cite": [
+        "cap-afrik-com-252a0a"
+      ]
+    },
+    {
+      "label": "A change",
+      "value": "In Guinea cassava is increasingly grown for its leaves, used to make the sauce, rather than for its tuber; some growers sell only the leaves.",
+      "cite": [
+        "cap-afrique-le360-ma-d2443c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Riz sauce feuilles is white rice served with a sauce of leaves, made in two main types: sweet potato leaves (mbouroukhè in Susu) and cassava leaves, which are finely pounded. A Conakry cook prepares it by cooking the leaves with pounded meat and onion and okra, adding palm oil only once the leaves are well cooked, over about three hours. Cassava in Guinea is increasingly grown for its leaves, sold for this sauce.",
+              "cite": [
+                "cap-afrique-le360-ma-ca08af",
+                "cap-afrik-com-252a0a",
+                "cap-afrique-le360-ma-d2443c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is a favourite lunchtime dish for many Guineans, eaten with white rice on any day of the week, and it has followers in Senegal, Mali and Côte d'Ivoire.",
+              "cite": [
+                "cap-afrique-le360-ma-ca08af",
+                "cap-afrik-com-252a0a",
+                "cap-afrique-le360-ma-d2443c"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No complete Guinean recipe from a rule-3 source. Afrik.com's borokhé page has quantities but calls the dish Malian in its recipe section, so it was not used as the recipe.",
+    "Not found in a readable source: No academic or institutional source found; both main articles are by the same Le360 correspondent.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

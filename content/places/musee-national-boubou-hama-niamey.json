@@ -54,5 +54,14 @@
   "gaps": [
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "musee-national-boubou-hama-niamey",
+    "alt": "Padiglioni e parco del Musée National Boubou Hama a Niamey.",
+    "caption": "Il complesso museale all'aperto Boubou Hama a Niamey, tra artigianato, habitat tradizionali e fauna saheliana.",
+    "credit": "Jean Rebiffé (Flickr userpage)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Zoo_du_Mus%C3%A9e_national_de_Niamey.jpg"
+  }
 }

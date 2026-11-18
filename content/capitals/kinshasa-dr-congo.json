@@ -1,6 +1,6 @@
 {
   "slug": "kinshasa-dr-congo",
-  "status": "draft",
+  "status": "published",
   "country": "COD",
   "name": "Kinshasa",
   "subtitle": "Kinshasa, capital of DR Congo: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -325,5 +325,16 @@
     "Not found in a readable source: No myth-or-fact found",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from DR Congo has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-kinshasa-dr-congo",
+    "alt": "Photograph of Kinshasa, capital of DR Congo.",
+    "caption": "Kinshasa, capital of DR Congo.",
+    "credit": "Fiston bamela",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Tour_de_l%E2%80%99%C3%89changeur_de_Limete_%C3%A0_Kinshasa%2C_R%C3%A9publique_d%C3%A9mocratique_du_Congo.jpg",
+    "width": 800,
+    "height": 1200
+  }
 }

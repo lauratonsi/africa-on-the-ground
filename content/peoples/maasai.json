@@ -59,14 +59,14 @@
           "type": "figure",
           "image": {
             "file": "people-maasai",
-            "alt": "A round house of mud walls and a thatched roof, with a fence on the right and a bare hill behind.",
-            "caption": "A house in a Maasai homestead (boma) in the Ngorongoro Conservation Area, Tanzania.",
-            "credit": "Erasmus Kamugisha",
+            "alt": "Maasai community members in red and patterned shuka cloth performing the traditional jumping dance outdoors.",
+            "caption": "Maasai community members performing the traditional jumping dance (Adumu), an expression of shared cultural ritual and community.",
+            "credit": "Ninaras",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "source": "https://commons.wikimedia.org/wiki/File:A_typical_Maasai_boma.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Maasai_dance.jpg",
             "width": 800,
-            "height": 523
+            "height": 495
           }
         },
         {
@@ -236,5 +236,8 @@
   ],
   "capitals": [
     "nairobi-kenya"
+  ],
+  "places": [
+    "ngorongoro-conservation-area"
   ]
 }

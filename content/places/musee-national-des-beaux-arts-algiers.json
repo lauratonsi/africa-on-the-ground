@@ -55,5 +55,14 @@
     "Full digital catalogue of post-independence acquisitions is incomplete.",
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "musee-national-des-beaux-arts-algiers",
+    "alt": "L'edificio monumentale del Musée National des Beaux-Arts d'Alger nel quartiere di Hamma.",
+    "caption": "Il Musée National des Beaux-Arts d'Alger, inaugurato nel 1930 di fronte al Giardino d'Essai di Hamma.",
+    "credit": "Muhammed amine benloulou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_Fine_Arts_in_Algiers.jpg"
+  }
 }

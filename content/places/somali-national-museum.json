@@ -56,5 +56,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "somali-national-museum",
+    "alt": "L'antico forte ottomano e storico palazzo museale a Mogadiscio.",
+    "caption": "Il forte storico di Mogadiscio, sede originaria delle collezioni museali e numismatiche somale.",
+    "credit": "Courtesy R.W.S. Hudson",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_fort_Mogadishu.jpg"
+  }
 }

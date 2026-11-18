@@ -1,0 +1,213 @@
+{
+  "slug": "the-sahara-and-the-sea-routes-and-detention",
+  "status": "published",
+  "kind": "history",
+  "title": "The Sahara and the sea: routes, perils and detention",
+  "subtitle": "Beyond the Central Mediterranean crossing, undocumented journeys cross the Sahara and the Atlantic; in Libyan detention centres, the UN found crimes against humanity.",
+  "countries": [
+    "LBY",
+    "NER",
+    "TUN"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "definitions",
+      "title": "Smuggling versus trafficking",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In public debate, the words 'smuggler' and 'trafficker' are frequently used as interchangeable synonyms. Under international law, they denote distinct acts defined by the United Nations Palermo Protocols.",
+              "cite": [
+                "unodc-smuggling-trafficking-protocols"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Migrant smuggling is defined as procuring unauthorized entry into a state for financial or material gain. It begins as a commercial transaction entered into by the migrant, even if the conditions of transport are perilous or lethal.",
+              "cite": [
+                "unodc-smuggling-trafficking-protocols"
+              ]
+            },
+            {
+              "text": " Human trafficking, by contrast, involves recruitment, harbouring, or transportation by means of threat, force, coercion, abduction, or fraud, specifically for the purpose of exploitation—such as forced labour, sexual servitude, or extortion.",
+              "cite": [
+                "unodc-smuggling-trafficking-protocols"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Along African transit corridors, this boundary frequently collapses: a person who pays a smuggler to guide them across the Sahara may be sold, kidnapped, or locked into debt-bondage in Libya, transforming consensual smuggling into severe human trafficking.",
+              "cite": [
+                "un-ffm-libya-2023",
+                "unodc-smuggling-trafficking-protocols"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routes-and-mortality",
+      "title": "The Mediterranean, the Atlantic and the desert",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "30,000+",
+              "label": "deaths and disappearances recorded in the Mediterranean since 2014 (IOM)",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            },
+            {
+              "value": "23,000+",
+              "label": "fatalities on the Central Mediterranean route alone",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            },
+            {
+              "value": "Unknown thousands",
+              "label": "estimated lives lost crossing the Sahara desert before reaching the sea",
+              "cite": [
+                "iom-missing-migrants-2024",
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Central Mediterranean corridor, connecting coastal Libya and Tunisia to Italy and Malta, remains the deadliest maritime migration crossing on Earth.",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            },
+            {
+              "text": " According to the IOM Missing Migrants Project, more than 30,000 individuals have died or disappeared in the Mediterranean Sea since 2014, with over 23,000 lost along the central route in unseaworthy rubber dinghies and overloaded wooden trawlers.",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "On the Atlantic route from Senegal, Mauritania, and Morocco toward the Spanish Canary Islands, open-ocean voyages in wooden pirogues require crossing hundreds of kilometres of fierce currents.",
+              "cite": [
+                "iom-missing-migrants-2024",
+                "frontex-risk-analysis-2024"
+              ]
+            },
+            {
+              "text": " When engines fail or navigators lose heading, vessels drift into the mid-Atlantic; entire boats have washed ashore in the Caribbean months later with no survivors.",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Yet the sea is only the final barrier. The overland trek across the Sahara—from northern Niger, Chad, or Sudan into southern Libya and Algeria—is equally perilous.",
+              "cite": [
+                "iom-missing-migrants-2024"
+              ]
+            },
+            {
+              "text": " IOM researchers estimate that desert deaths due to dehydration, vehicle breakdown, abandonment by smugglers, and violence may match or exceed maritime fatalities, though they occur far from cameras and international rescue ships.",
+              "cite": [
+                "iom-missing-migrants-2024",
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "libya-investigation",
+      "title": "Libyan detention and UN findings",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Crimes against humanity documented by the UN",
+          "parts": [
+            {
+              "text": "In March 2023, the Independent Fact-Finding Mission on Libya submitted its final comprehensive investigation (A/HRC/52/83) to the UN Human Rights Council.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            },
+            {
+              "text": " The Mission concluded there are 'reasonable grounds to believe that crimes against humanity have been committed against migrants in Libya' across official and unofficial detention centres.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The UN Fact-Finding Mission detailed systematic acts of murder, torture, rape, sexual slavery, enforced disappearance, and extortion.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            },
+            {
+              "text": " Migrants intercepted at sea by the Libyan Coast Guard are forcibly returned ('pulled back') to Libyan territory, where they are handed over to the Directorate for Combating Illegal Migration (DCIM) or militias.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            },
+            {
+              "text": " Inside these centres, detainees are tortured while forced to telephone their families back home or in the diaspora to demand thousands of dollars in ransom.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The report also pointed out that technical and material support provided by the European Union and member states to Libyan maritime and border authorities facilitates interceptions and returns into conditions of documented crimes against humanity.",
+              "cite": [
+                "un-ffm-libya-2023"
+              ]
+            },
+            {
+              "text": " Confronting this reality requires examining not just the numbers of arrivals, but the human cost of externalized border enforcement.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Desert fatalities in the Sahara are severely undercounted because victims perish across vast unmonitored expanses with no local rescue operations.",
+    "Conditions inside clandestine detention facilities operated by armed militias in Libya remain largely inaccessible to international human rights monitors."
+  ]
+}

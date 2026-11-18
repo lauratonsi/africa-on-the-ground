@@ -5,10 +5,173 @@
   "country": "ZMB",
   "name": "Nshima with ifisashi",
   "region": "Zambia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Nshima is a traditional Zambian dish of ground white maize meal boiled with water into a stiff, smooth paste, and maize is considered the country's national staple food.",
+  "facts": [
+    {
+      "label": "What nshima is",
+      "value": "A traditional dish of ground white maize meal boiled with water into a stiff, smooth paste",
+      "cite": [
+        "cap-ebi-ac-uk-46495c"
+      ]
+    },
+    {
+      "label": "How often",
+      "value": "Many Zambians eat nshima at two to three of their daily meals; maize is considered the national staple food",
+      "cite": [
+        "cap-ebi-ac-uk-46495c"
+      ]
+    },
+    {
+      "label": "For children",
+      "value": "Thinned with water into a porridge, nshima is commonly used as a complementary food for infants and young children",
+      "cite": [
+        "cap-ebi-ac-uk-46495c"
+      ]
+    },
+    {
+      "label": "The meal",
+      "value": "The typical Zambian meal consists of nshima with protein and/or relish",
+      "cite": [
+        "cap-ebi-ac-uk-c076e5"
+      ]
+    },
+    {
+      "label": "What ifisashi is",
+      "value": "A mixed dish with groundnut flour as a main ingredient, plus dark green leafy vegetables, sweet potatoes, pumpkins, samp, okra or small fish such as kapenta",
+      "cite": [
+        "cap-ebi-ac-uk-a5f3b3"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Fisashi is served alongside nshima, a staple maize porridge, and a protein",
+      "cite": [
+        "cap-taste-co-za-dba810"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nshima is a traditional Zambian dish of ground white maize meal boiled with water into a stiff, smooth paste, and maize is considered the country's national staple food. Ifisashi is a mixed dish built on groundnut flour with dark green leafy vegetables and sometimes sweet potatoes, pumpkins, okra or small fish such as kapenta.",
+              "cite": [
+                "cap-ebi-ac-uk-46495c",
+                "cap-ebi-ac-uk-c076e5",
+                "cap-ebi-ac-uk-a5f3b3",
+                "cap-taste-co-za-dba810"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Many Zambians eat nshima at two to three daily meals, typically with protein and/or a relish such as ifisashi; thinned into a porridge, it is also given to infants and young children.",
+              "cite": [
+                "cap-ebi-ac-uk-46495c",
+                "cap-ebi-ac-uk-c076e5",
+                "cap-ebi-ac-uk-a5f3b3",
+                "cap-taste-co-za-dba810"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Fisashi (vegetables in groundnut sauce)",
+          "servings": 6,
+          "sub": "One version of the dish, as given by TASTE (Woolworths); the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-taste-co-za-dba810"
+          ],
+          "note": "Covers the ifisashi relish only, not the nshima. This contemporary version by a Zambian cook uses Romaine lettuce as the greens; prep 10 minutes, cooking 30 minutes. T = tablespoon, t = teaspoon.",
+          "ingredients": [
+            {
+              "name": "water",
+              "amount": 1.25,
+              "unit": "cups"
+            },
+            {
+              "name": "salt",
+              "amount": 1,
+              "unit": "T"
+            },
+            {
+              "name": "bicarbonate of soda",
+              "amount": 0.25,
+              "unit": "t"
+            },
+            {
+              "name": "pounded groundnuts",
+              "amount": 200,
+              "unit": "g"
+            },
+            {
+              "name": "large tomatoes, diced",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "Romaine lettuce, sliced",
+              "amount": 600,
+              "unit": "g"
+            },
+            {
+              "name": "large onion, diced",
+              "amount": 1,
+              "unit": ""
+            }
+          ],
+          "steps": [
+            {
+              "text": "Bring the water, salt and bicarbonate of soda to the boil in a large pan."
+            },
+            {
+              "text": "Stir in the pounded groundnuts and the tomato and let them cook.",
+              "minutes": 10
+            },
+            {
+              "text": "Lower the heat by half, add the sliced lettuce and keep cooking.",
+              "minutes": 15
+            },
+            {
+              "text": "Add the onion and cook a little longer, stirring so the groundnuts blend in and the mixture does not catch on the bottom.",
+              "minutes": 5
+            },
+            {
+              "text": "Serve with nshima and a protein."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No UNESCO or Zambian government source on nshima or ifisashi was found.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

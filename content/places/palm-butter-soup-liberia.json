@@ -5,10 +5,111 @@
   "country": "LBR",
   "name": "Palm butter soup",
   "region": "Liberia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Palm butter soup is one of the most common Liberian soups, made from the red outer flesh of the palm nut.",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "One of the most common Liberian soups, made from palm fruit",
+      "cite": [
+        "cap-enjoyliberia-travel-c4dd34"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "The red outer part (skin) of the palm nut",
+      "cite": [
+        "cap-spotlight-online-de-9bc94f"
+      ]
+    },
+    {
+      "label": "Regional tradition",
+      "value": "For a Liberian from Maryland County, palm butter is her family's traditional soup",
+      "cite": [
+        "cap-spotlight-online-de-9bc94f"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Rice or a starchy side dish",
+      "cite": [
+        "cap-enjoyliberia-travel-c4dd34"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "GB (geebee), a cassava-based food, is eaten with soups including palm butter",
+      "cite": [
+        "cap-enjoyliberia-travel-c4dd34"
+      ]
+    },
+    {
+      "label": "Where eaten",
+      "value": "Served in Monrovia restaurants that offer traditional Liberian cuisine",
+      "cite": [
+        "cap-enjoyliberia-travel-c4dd34"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "The palm nuts are boiled for 20 minutes, crushed and washed, and the liquid strained",
+      "cite": [
+        "cap-untourism-int-7fd58f"
+      ]
+    },
+    {
+      "label": "Other ingredients",
+      "value": "Smoked chicken and dried fish",
+      "cite": [
+        "cap-untourism-int-7fd58f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Palm butter soup is one of the most common Liberian soups, made from the red outer flesh of the palm nut. A version published by UN Tourism cooks the boiled, crushed palm nut with smoked chicken, dried fish and pepper until the sauce thickens.",
+              "cite": [
+                "cap-enjoyliberia-travel-c4dd34",
+                "cap-spotlight-online-de-9bc94f",
+                "cap-untourism-int-7fd58f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is usually served with rice or a starchy side dish such as GB (geebee), a cassava food, and it is one of the traditional dishes found in Monrovia restaurants.",
+              "cite": [
+                "cap-enjoyliberia-travel-c4dd34",
+                "cap-spotlight-online-de-9bc94f",
+                "cap-untourism-int-7fd58f"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

@@ -39,7 +39,7 @@ for (const [id, p] of Object.entries(picks)) {
   if (w > 800) execFileSync("sips", ["--resampleWidth", "800", small], { stdio: "ignore" });
   const dims = execFileSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", small]).toString();
   const pw = +/pixelWidth: (\d+)/.exec(dims)[1], ph = +/pixelHeight: (\d+)/.exec(dims)[1];
-  done[id] = { file: id, alt: p.alt, caption: p.caption, credit: artistFinal, license: lic, licenseUrl: LICENSE_URL[lic], source: `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.file.replace(/ /g, "_"))}`, width: pw, height: ph, ...(p.narrow ? { narrow: true } : {}) };
+  done[id] = { file: id, alt: p.alt, caption: p.caption, credit: artistFinal, license: lic, licenseUrl: LICENSE_URL[lic], source: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(p.file.replace(/ /g, "_"))}`, width: pw, height: ph, ...(p.narrow ? { narrow: true } : {}) };
   fs.writeFileSync(outFile, JSON.stringify(done, null, 2) + "\n");
   console.log(`ok ${id}: ${lic}, ${artist.slice(0, 40)}, ${ii.width}x${ii.height} -> ${pw}x${ph}`);
   await sleep(6000);

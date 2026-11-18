@@ -5,10 +5,187 @@
   "country": "AGO",
   "name": "Muamba de galinha",
   "region": "Angola",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Muamba de galinha is an Angolan chicken stew cooked in palm oil with onion, garlic and okra; variants are found across much of south-western Africa.",
+  "facts": [
+    {
+      "label": "Main ingredients",
+      "value": "Chicken cooked in palm oil with onion, garlic and okra; variants are common to much of south-western Africa.",
+      "cite": [
+        "cap-ojs-lib-umassd-edu-35ebb3"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "It might be claimed as the national dish of Angola.",
+      "cite": [
+        "cap-ojs-lib-umassd-edu-35ebb3"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Funge, a porridge of maize or cassava, is eaten with meat and vegetable stews.",
+      "cite": [
+        "cap-ojs-lib-umassd-edu-35ebb3"
+      ]
+    },
+    {
+      "label": "History",
+      "value": "Returning colonial settlers sneered at dishes such as Angolan muamba, according to Alfredo Margarido as cited by Cusack.",
+      "cite": [
+        "cap-ojs-lib-umassd-edu-35ebb3"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The okra is added at the end of cooking so it keeps its texture.",
+      "cite": [
+        "cap-afrik-com-e05a0f"
+      ]
+    },
+    {
+      "label": "When it is eaten",
+      "value": "Served at celebrations such as weddings and family parties.",
+      "cite": [
+        "cap-afrik-com-e05a0f"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A stew based on palm oil and chicken.",
+      "cite": [
+        "cap-correiobraziliense-com-br-1669dc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Muamba de galinha is an Angolan chicken stew cooked in palm oil with onion, garlic and okra; variants are found across much of south-western Africa. Some recipes add the okra near the end so it keeps its texture. It may be claimed as Angola's national dish, and the historian Igor Cusack notes that returning colonial settlers once looked down on it.",
+              "cite": [
+                "cap-ojs-lib-umassd-edu-35ebb3",
+                "cap-afrik-com-e05a0f",
+                "cap-correiobraziliense-com-br-1669dc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is served with funge, a porridge of maize or cassava flour, and appears at weddings and family celebrations.",
+              "cite": [
+                "cap-ojs-lib-umassd-edu-35ebb3",
+                "cap-afrik-com-e05a0f",
+                "cap-correiobraziliense-com-br-1669dc"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Muamba de galinha",
+          "servings": 4,
+          "sub": "One version of the dish, as given by Teleculinária; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-teleculinaria-pt-dd6601"
+          ],
+          "note": "Quantities are the source's own. The source gives about 1 hour 10 minutes of cooking in total and uses a ready-made palm sauce base with olive oil.",
+          "ingredients": [
+            {
+              "name": "chicken, in pieces",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "tomatoes",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "onion",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "olive oil (azeite)",
+              "amount": 1,
+              "unit": "dl"
+            },
+            {
+              "name": "muamba (palm) sauce base",
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            {
+              "name": "chilli (malagueta)",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "salt",
+              "amount": null,
+              "unit": "to taste"
+            },
+            {
+              "name": "okra",
+              "amount": 200,
+              "unit": "g"
+            },
+            {
+              "name": "water",
+              "amount": 1,
+              "unit": "litre"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Chop the onion and heat it in a pot with the olive oil."
+            },
+            {
+              "text": "Brown the chicken pieces, stirring from time to time."
+            },
+            {
+              "text": "Add the tomatoes in pieces and the finely diced chilli and let them soften."
+            },
+            {
+              "text": "Stir in the muamba sauce base and 1 litre of water, bring to the boil, then lower the heat."
+            },
+            {
+              "text": "Check the salt and cook until the chicken is tender but not falling apart."
+            },
+            {
+              "text": "Trim the okra and cook it separately in salted water, then add it to the chicken and serve, with white rice if you like."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

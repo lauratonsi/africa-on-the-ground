@@ -1,6 +1,6 @@
 {
   "slug": "algiers-algeria",
-  "status": "draft",
+  "status": "published",
   "country": "DZA",
   "name": "Algiers",
   "subtitle": "Algiers, capital of Algeria: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -234,5 +234,16 @@
     "Exact metropolitan boundary definition: differs between the agglomeration (2.36M) and the entire wilaya (2.98M).",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Algeria has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-algiers-algeria",
+    "alt": "Photograph of Algiers, capital of Algeria.",
+    "caption": "Algiers, capital of Algeria.",
+    "credit": "Poudou99",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Alger_Grande-Poste_IMG_0875.JPG",
+    "width": 800,
+    "height": 423
+  }
 }

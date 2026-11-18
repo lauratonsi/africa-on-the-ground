@@ -5,10 +5,119 @@
   "country": "UGA",
   "name": "Matoke",
   "region": "Uganda",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Matoke (matooke) is a staple food made from East African Highland cooking bananas in the Great Lakes region.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A staple food made from Highland cooking bananas in the Great Lakes region of East Africa.",
+      "cite": [
+        "cap-mel-cgiar-org-2a901a"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "East African Highland Bananas (EAHB), locally known as matooke.",
+      "cite": [
+        "cap-fao-org-75dca8"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The peeled, washed fingers are tied in a bundle of banana leaves and steamed in a pot.",
+      "cite": [
+        "cap-mel-cgiar-org-2a901a"
+      ]
+    },
+    {
+      "label": "Main form",
+      "value": "All focus groups named mashed matooke as one of the main food products, regardless of location or sex.",
+      "cite": [
+        "cap-mel-cgiar-org-2a901a"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "Sauces made from beans, groundnuts, meat and other foods.",
+      "cite": [
+        "cap-mel-cgiar-org-2a901a"
+      ]
+    },
+    {
+      "label": "Quantity eaten",
+      "value": "Ugandans eat at least 191 kg of banana and plantain a year, more than 0.5 kg a day.",
+      "cite": [
+        "cap-fao-org-75dca8"
+      ]
+    },
+    {
+      "label": "Social role",
+      "value": "In Buganda, matooke is central to marriage ceremonies, community gatherings and daily life.",
+      "cite": [
+        "cap-monitor-co-ug-84a2fe"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Younger people moving to towns now eat rice, spaghetti and bread more often.",
+      "cite": [
+        "cap-monitor-co-ug-84a2fe"
+      ]
+    },
+    {
+      "label": "Growing time",
+      "value": "A bunch of matooke takes nine months to mature.",
+      "cite": [
+        "cap-monitor-co-ug-84a2fe"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Matoke (matooke) is a staple food made from East African Highland cooking bananas in the Great Lakes region. For the usual steamed and mashed form, the peeled fingers are tied in a bundle of banana leaves and steamed in a pot.",
+              "cite": [
+                "cap-mel-cgiar-org-2a901a",
+                "cap-fao-org-75dca8",
+                "cap-monitor-co-ug-84a2fe"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Steamed mashed matooke is eaten with sauces of beans, groundnuts, meat and other foods; in Buganda it is central to weddings, community gatherings and daily life.",
+              "cite": [
+                "cap-mel-cgiar-org-2a901a",
+                "cap-fao-org-75dca8",
+                "cap-monitor-co-ug-84a2fe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No complete recipe with quantities from an acceptable source (results were blogs, Taste of Home and Kenyan-style matoke stews).",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

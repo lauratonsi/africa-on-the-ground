@@ -1,6 +1,6 @@
 {
   "slug": "nouakchott-mauritania",
-  "status": "draft",
+  "status": "published",
   "country": "MRT",
   "name": "Nouakchott",
   "subtitle": "Nouakchott, capital of Mauritania: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -181,5 +181,16 @@
   "gaps": [
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-nouakchott-mauritania",
+    "alt": "Photograph of Nouakchott, capital of Mauritania.",
+    "caption": "Nouakchott, capital of Mauritania.",
+    "credit": "Initsogan",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Saudi_mosque_in_Nouakchott_(cropped).jpg",
+    "width": 800,
+    "height": 599
+  }
 }

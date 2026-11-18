@@ -5,10 +5,105 @@
   "country": "NAM",
   "name": "Kapana",
   "region": "Namibia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Kapana is street-vended, ready-to-eat beef sold in Windhoek's markets.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Street-vended, ready-to-eat beef.",
+      "cite": [
+        "cap-repository-unam-edu-na-d990d5"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "Vendors grill marinated beef offcuts on wire-mesh grills set on bricks.",
+      "cite": [
+        "cap-namibian-com-na-728e6c"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The meat is cubed and put on the charcoal, ready within a few minutes.",
+      "cite": [
+        "cap-neweralive-na-e6a5af"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Customers add salt, chilli and other spices to taste.",
+      "cite": [
+        "cap-neweralive-na-e6a5af"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "As a full meal, the roasted meat comes with pap, oshikundu or a soft drink.",
+      "cite": [
+        "cap-neweralive-na-e6a5af"
+      ]
+    },
+    {
+      "label": "Who sells it",
+      "value": "Sellers are men and women of all ages, mostly Oshiwambo and Damara/Nama speakers; a small free piece is offered to draw customers.",
+      "cite": [
+        "cap-neweralive-na-e6a5af"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "Single Quarters in Katutura, Windhoek, near Soweto Market, has been a landmark since the 1980s.",
+      "cite": [
+        "cap-namibian-com-na-728e6c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Kapana is street-vended, ready-to-eat beef sold in Windhoek's markets. Vendors cube marinated beef offcuts and grill them over charcoal on wire-mesh grills, and the meat is ready within a few minutes. Single Quarters in Katutura, a landmark since the 1980s, is among the best-known places to eat it.",
+              "cite": [
+                "cap-repository-unam-edu-na-d990d5",
+                "cap-namibian-com-na-728e6c",
+                "cap-neweralive-na-e6a5af"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Customers season it with salt, chilli and spices; it can be eaten as a snack or as a full meal with pap, oshikundu or a soft drink.",
+              "cite": [
+                "cap-repository-unam-edu-na-d990d5",
+                "cap-namibian-com-na-728e6c",
+                "cap-neweralive-na-e6a5af"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No recipe with quantities from an acceptable source; kapana is a street-grilled food.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

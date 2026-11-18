@@ -100,5 +100,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Not found in a readable source: Change or risk to the practice not sourced",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "kuba-cloth-and-kuba-royal-art",
+    "alt": "Tessuto reale kuba (Shoowa) in fibra di palma rafia ricamata con motivi geometrici.",
+    "caption": "Tessuto cerimoniale kuba in fibra di rafia con decorazioni a rilievo, inizio XX secolo.",
+    "credit": "Hiart",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Man's_status_cloth%2C_Shoowa_people%2C_early_20th_century%2C_raffia_palm_fiber%2C_plain_weave%2C_cut-pile_embroidery%2C_HMA.jpg"
+  }
 }

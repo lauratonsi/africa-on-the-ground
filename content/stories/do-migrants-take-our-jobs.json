@@ -1,0 +1,185 @@
+{
+  "slug": "do-migrants-take-our-jobs",
+  "status": "published",
+  "kind": "myth",
+  "title": "Do migrants take our jobs? What the economic record shows",
+  "subtitle": "Empirical labour economics and central bank data find no mass displacement of native workers: immigrant labour complements aging workforces and bolsters social security.",
+  "countries": [
+    "MAR",
+    "TUN",
+    "SEN",
+    "EGY",
+    "NGA"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Few slogans have proved as politically durable as the assertion that arriving immigrants steal jobs from native workers and drive down wages across the host economy.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This assertion rests on what economists call the 'lump of labour fallacy'—the flawed assumption that there is a fixed number of jobs in an economy, so that each job filled by a new arrival is one less job available for someone else.",
+              "editorial": true
+            },
+            {
+              "text": " In reality, migrants are not only workers; they are also consumers who buy groceries, pay rent, purchase transport, and pay taxes, creating new demand and expanding the overall economy.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empirical-evidence",
+      "title": "What the empirical data show",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Decades of peer-reviewed empirical research across North America and Europe show that immigration has little to no negative effect on native employment rates or average wages.",
+              "cite": [
+                "card-1990-mariel-boatlift",
+                "foged-peri-2016-immigrants-effect"
+              ]
+            },
+            {
+              "text": " In a seminal 1990 study, economist David Card analysed the 1980 Mariel Boatlift, when 125,000 Cubans arrived suddenly in Miami, increasing the local labour force by 7 percent overnight.",
+              "cite": [
+                "card-1990-mariel-boatlift"
+              ]
+            },
+            {
+              "text": " Card found that wages and unemployment among native non-Cuban workers in Miami remained essentially unchanged compared with similar control cities across the United States.",
+              "cite": [
+                "card-1990-mariel-boatlift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In a comprehensive longitudinal study of the Danish labour market, economists Mette Foged and Giovanni Peri demonstrated that influxes of non-European immigrants actually pushed native workers into higher-paying, communication-intensive jobs.",
+              "cite": [
+                "foged-peri-2016-immigrants-effect"
+              ]
+            },
+            {
+              "text": " Rather than suffering displacement, native workers specialized in roles that leveraged their language skills and local networks, experiencing wage gains and occupational upgrading over time.",
+              "cite": [
+                "foged-peri-2016-immigrants-effect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "italy-and-europe",
+      "title": "Complementarity, aging and the fiscal balance",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "8.8%+",
+              "label": "share of Italian GDP produced by foreign-born workers (Fondazione Leone Moressa)",
+              "cite": [
+                "fondazione-leone-moressa-2024"
+              ]
+            },
+            {
+              "value": "€18B+",
+              "label": "annual tax and social security contributions paid by immigrants in Italy",
+              "cite": [
+                "fondazione-leone-moressa-2024"
+              ]
+            },
+            {
+              "value": "Positive net balance",
+              "label": "fiscal contribution exceeds public health and welfare expenditures received",
+              "cite": [
+                "fondazione-leone-moressa-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Southern Europe and particularly in Italy, the economic role of immigrants is fundamentally complementary rather than substitutive.",
+              "cite": [
+                "banca-d-italia-paper-886"
+              ]
+            },
+            {
+              "text": " Studies published by the Bank of Italy show that foreign workers concentrate heavily in sectors with chronic domestic shortages: elderly personal care (badanti), agricultural harvesting, logistics, and building trades.",
+              "cite": [
+                "banca-d-italia-paper-886"
+              ]
+            },
+            {
+              "text": " Without foreign care workers in private households, hundreds of thousands of native Italians—disproportionately working women—would be forced to withdraw from the formal labour market to care for aging relatives.",
+              "cite": [
+                "banca-d-italia-paper-886"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "According to the annual reports of the Fondazione Leone Moressa, foreign workers in Italy contribute more in taxes and mandatory pension contributions than they absorb in pensions and welfare services.",
+              "cite": [
+                "fondazione-leone-moressa-2024"
+              ]
+            },
+            {
+              "text": " Because the migrant population is significantly younger on average than the native demographic, their contributions are vital to sustaining the solvency of state pension funds in societies experiencing rapid population decline.",
+              "cite": [
+                "fondazione-leone-moressa-2024",
+                "ela-shortage-surplus-occupations-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Europe's structural labour deficit",
+          "parts": [
+            {
+              "text": "The European Labour Authority (ELA 2024) reports widespread shortages across dozens of key occupations across the EU.",
+              "cite": [
+                "ela-shortage-surplus-occupations-2024"
+              ]
+            },
+            {
+              "text": " With Europe's working-age population projected to decline by tens of millions in coming decades, the real economic challenge is not how to keep workers out, but how European economies can function without them.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Official tax and social security data capture only registered workers; undocumented workers in agricultural harvesting and domestic care endure severe exploitation (caporalato) and remain outside formal fiscal balance sheets.",
+    "Labour market effects vary by sector and geography; while macroeconomic aggregate impacts on native employment are neutral to positive, localized cohorts in declining industries can experience transitional frictions."
+  ]
+}

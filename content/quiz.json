@@ -1082,6 +1082,91 @@
         "geschiere-leidschrift-1994"
       ],
       "story": "is-black-magic-an-african-thing"
+    },
+    {
+      "id": "mig-who-moves-proportion",
+      "topic": "myths",
+      "q": "According to UN DESA and IOM data, where do the majority of African international migrants live?",
+      "options": [
+        "Inside the African continent",
+        "In the European Union",
+        "In North America",
+        "In the Gulf States"
+      ],
+      "answer": "Inside the African continent",
+      "explain": "Roughly 20.8 million African migrants live in another African country, compared to about 19.5 million residing outside Africa worldwide.",
+      "cite": [
+        "undesa-migration-stock-2020"
+      ],
+      "story": "do-most-african-migrants-go-to-europe"
+    },
+    {
+      "id": "mig-why-eritrea",
+      "topic": "history",
+      "q": "What did the UN Commission of Inquiry find to be the primary cause driving Eritreans to flee their country?",
+      "options": [
+        "Indefinite, open-ended compulsory national service",
+        "A desire for higher urban wages",
+        "Voluntary tourism overstay",
+        "Seasonal farm employment abroad"
+      ],
+      "answer": "Indefinite, open-ended compulsory national service",
+      "explain": "The UN Commission of Inquiry on Human Rights in Eritrea documented that national service can last for decades under military discipline and forced labour, leading European authorities to grant Eritreans asylum recognition rates above 80%.",
+      "cite": [
+        "un-coi-eritrea-2015"
+      ],
+      "story": "why-people-flee-war-conscription-and-crisis"
+    },
+    {
+      "id": "mig-routes-deaths",
+      "topic": "history",
+      "q": "How many deaths and disappearances has the IOM Missing Migrants Project recorded in the Mediterranean Sea since 2014?",
+      "options": [
+        "More than 30,000",
+        "About 5,000",
+        "Fewer than 1,000",
+        "Over 200,000"
+      ],
+      "answer": "More than 30,000",
+      "explain": "Over 30,000 lives have been lost or reported missing in the Mediterranean since 2014, with over 23,000 deaths on the Central Mediterranean route alone.",
+      "cite": [
+        "iom-missing-migrants-2024"
+      ],
+      "story": "the-sahara-and-the-sea-routes-and-detention"
+    },
+    {
+      "id": "mig-jobs-complementarity",
+      "topic": "myths",
+      "q": "What did empirical labor economic studies (such as Card on the Mariel Boatlift or Foged & Peri) find regarding native employment?",
+      "options": [
+        "Little to no negative effect on native employment and wages",
+        "A permanent 50% collapse in native wages",
+        "Widespread mass layoffs of native professionals",
+        "Complete elimination of minimum wage protections"
+      ],
+      "answer": "Little to no negative effect on native employment and wages",
+      "explain": "Empirical studies show that immigration induces task specialization and occupational upgrading among natives without causing aggregate job losses.",
+      "cite": [
+        "card-1990-mariel-boatlift"
+      ],
+      "story": "do-migrants-take-our-jobs"
+    },
+    {
+      "id": "mig-europe-remittances",
+      "topic": "history",
+      "q": "How do annual remittances sent home by the African diaspora compare to foreign aid (ODA) and direct investment (FDI)?",
+      "options": [
+        "Remittances consistently exceed both foreign aid and foreign direct investment",
+        "Remittances are negligible compared to foreign aid",
+        "Remittances equal less than 1% of foreign direct investment",
+        "Remittances have ceased entirely"
+      ],
+      "answer": "Remittances consistently exceed both foreign aid and foreign direct investment",
+      "explain": "According to the World Bank and KNOMAD, remittance flows to Sub-Saharan Africa exceed  billion annually, surpassing Official Development Assistance and Foreign Direct Investment combined.",
+      "cite": [
+        "knomad-world-bank-brief-40"
+      ],
+      "story": "europes-migration-ledger-agreements-permits-and-remittances"
     }
   ]
 }

@@ -99,10 +99,61 @@ function art(seed, cols, rows) {
 const themeButton = `<button class="theme-btn" id="theme" type="button" hidden aria-label="Colour theme"><svg class="i-auto" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 2.5a7.5 7.5 0 0 1 0 15z" fill="currentColor"/></svg><svg class="i-light" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="4" fill="currentColor"/><path d="M10 1.5v2.5M10 16v2.5M1.5 10H4M16 10h2.5M4 4l1.8 1.8M14.2 14.2L16 16M16 4l-1.8 1.8M5.8 14.2L4 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="i-dark" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 12.2A7 7 0 0 1 7.8 3.5a7 7 0 1 0 8.7 8.7z" fill="currentColor"/></svg></button>`;
 
 
+// Primi piani diversi per sezione: stesso cielo, sole e colline; cambiano le sagome davanti.
+// Sono forme generiche (alberi, case, rocce, città), non motivi presi da una tradizione precisa.
+const G = (id, x, y, sc, extra = "") => `<use href="#${id}" transform="translate(${x} ${y}) scale(${sc})"${extra}/>`;
+const SCENES = {
+  baobab: { defs: "", mid: G("baobab", 470, 668, .5, ' opacity=".75"') + G("baobab", 700, 676, .36, ' opacity=".7"'), fg: (l, r) => G("baobab", 150, 880, l) + G("baobab", 560, 892, .95) + `<g class="bR">${G("baobab", 1290, 892, r)}</g>` },
+  acacia: {
+    defs: '<g id="acacia" class="bao" stroke-linecap="round"><path d="M-9 0 C-7 -60 -5 -110 -2 -150 L4 -150 C7 -110 9 -60 12 0 Z" stroke="none"/><path d="M0 -140 L-62 -192 M2 -140 L72 -196 M1 -150 L-6 -204" fill="none" stroke-width="7"/><path d="M-160 -200 C-130 -238 -40 -252 20 -247 C92 -252 166 -234 176 -206 C120 -190 -104 -188 -160 -200 Z" stroke="none"/></g>',
+    mid: G("acacia", 460, 670, .42, ' opacity=".75"') + G("acacia", 720, 678, .3, ' opacity=".7"'),
+    fg: (l, r) => G("acacia", 170, 880, l * .9) + G("acacia", 600, 892, .7) + `<g class="bR">${G("acacia", 1280, 892, r * .85)}</g>`,
+  },
+  giraffes: {
+    defs: '<g id="acacia" class="bao" stroke-linecap="round"><path d="M-9 0 C-7 -60 -5 -110 -2 -150 L4 -150 C7 -110 9 -60 12 0 Z" stroke="none"/><path d="M0 -140 L-62 -192 M2 -140 L72 -196 M1 -150 L-6 -204" fill="none" stroke-width="7"/><path d="M-160 -200 C-130 -238 -40 -252 20 -247 C92 -252 166 -234 176 -206 C120 -190 -104 -188 -160 -200 Z" stroke="none"/></g><g id="giraffe" class="bao" stroke-linecap="round" stroke-linejoin="round"><path d="M-62 -150 C-60 -176 40 -182 56 -160 C63 -150 61 -136 50 -130 L-50 -128 C-63 -132 -64 -142 -62 -150 Z" stroke="none"/><path d="M40 -158 L92 -296" fill="none" stroke-width="22"/><path d="M84 -306 L128 -290 L124 -279 L88 -288 Z" stroke="none"/><path d="M90 -304 L86 -322 M100 -302 L98 -320" fill="none" stroke-width="4"/><path d="M-46 -132 L-52 0 M-26 -130 L-22 0 M30 -132 L34 0 M48 -134 L56 0" fill="none" stroke-width="9"/><path d="M-60 -146 L-74 -96" fill="none" stroke-width="3"/></g>',
+    mid: G("acacia", 470, 670, .4, ' opacity=".75"') + G("giraffe", 700, 678, .24, ' opacity=".7"'),
+    fg: (l, r) => G("acacia", 160, 880, l * .9) + G("giraffe", 560, 892, .9) + `<g class="bR">${G("giraffe", 1250, 892, r * .7)}${G("acacia", 1380, 896, r * .6)}</g>`,
+  },
+  huts: {
+    defs: '<g id="hut" class="bao"><path d="M-72 0 C-74 -30 -73 -55 -70 -72 L70 -72 C73 -55 74 -30 72 0 Z" stroke="none"/><path d="M-98 -62 C-60 -110 -20 -140 0 -152 C20 -140 60 -110 98 -62 C60 -70 -60 -70 -98 -62 Z" stroke="none"/><path d="M0 -152 L2 -170" stroke-width="6" stroke-linecap="round"/></g><g id="acacia" class="bao" stroke-linecap="round"><path d="M-9 0 C-7 -60 -5 -110 -2 -150 L4 -150 C7 -110 9 -60 12 0 Z" stroke="none"/><path d="M0 -140 L-62 -192 M2 -140 L72 -196" fill="none" stroke-width="7"/><path d="M-160 -200 C-130 -238 -40 -252 20 -247 C92 -252 166 -234 176 -206 C120 -190 -104 -188 -160 -200 Z" stroke="none"/></g>',
+    mid: G("hut", 450, 672, .32, ' opacity=".75"') + G("hut", 520, 676, .26, ' opacity=".75"') + G("acacia", 730, 678, .3, ' opacity=".7"'),
+    fg: (l, r) => G("hut", 110, 884, l * .95) + G("hut", 330, 890, l * .6) + G("acacia", 600, 892, .65) + `<g class="bR">${G("hut", 1200, 892, r * .7)}${G("hut", 1370, 896, r * .95)}</g>`,
+  },
+  city: {
+    defs: '<g id="sky1" class="bao"><path d="M-260 0 V-120 H-220 V-180 H-170 V-90 H-140 V-240 H-90 V-150 H-60 V-200 H-20 V-110 H10 V-300 H60 V-160 H100 V-220 H150 V-120 H190 V-170 H240 V0 Z" stroke="none"/><path d="M28 -300 V-330 M42 -300 V-318" stroke-width="4"/></g><g id="sky2" class="bao"><path d="M-230 0 V-110 H-190 V-150 H-150 V-100 H-120 V-180 C-120 -240 -40 -240 -40 -180 V-100 H-20 V-140 H20 V-90 H60 V-250 H90 V-90 H120 V-200 H180 V-130 H220 V0 Z" stroke="none"/><path d="M67 -250 L75 -290 L83 -250 Z" stroke="none"/><path d="M-80 -232 V-252" stroke-width="5" stroke-linecap="round"/></g><g id="crane" class="bao" fill="none" stroke-width="6" stroke-linecap="round"><path d="M0 0 V-260 M-40 -250 H170 M0 -260 L30 -250 M150 -250 V-200"/></g>',
+    mid: G("sky2", 520, 676, .35, ' opacity=".7"'),
+    fg: (l, r) => G("sky1", 200, 892, l * .6) + G("crane", 470, 892, .5) + `<g class="bR">${G("sky2", 1280, 896, r * .5)}</g>`,
+  },
+  ruins: {
+    defs: '<g id="pyr" class="bao"><path d="M-70 0 L-8 -200 L8 -200 L70 0 Z" stroke="none"/><path d="M-26 -84 H26 V-120 H-15 Z" class="pyr-door" stroke="none" opacity="0"/></g><g id="stela" class="bao"><path d="M-16 0 V-250 C-16 -268 16 -268 16 -250 V0 Z" stroke="none"/><path d="M-22 0 V-20 H22 V0 Z" stroke="none"/></g>',
+    mid: G("pyr", 470, 674, .3, ' opacity=".75"') + G("pyr", 510, 676, .22, ' opacity=".75"') + G("stela", 740, 678, .3, ' opacity=".7"'),
+    fg: (l, r) => G("pyr", 120, 884, l * .95) + G("pyr", 300, 890, l * .65) + G("stela", 560, 892, .9) + `<g class="bR">${G("stela", 1180, 894, r * .8)}${G("stela", 1250, 896, r * .55)}${G("pyr", 1370, 896, r * .8)}</g>`,
+  },
+  fields: {
+    defs: '<g id="stalk" class="bao" stroke-linecap="round"><path d="M0 0 C2 -60 -2 -120 4 -170" fill="none" stroke-width="4"/><path d="M4 -168 C-7 -184 -5 -206 4 -218 C13 -206 15 -184 4 -168 Z" stroke="none"/><path d="M2 -80 C-20 -96 -40 -92 -56 -84 M3 -120 C25 -136 45 -132 58 -122" fill="none" stroke-width="3"/></g><g id="gran" class="bao"><path d="M-46 0 C-50 -40 -50 -90 -44 -120 L44 -120 C50 -90 50 -40 46 0 Z" stroke="none"/><path d="M-64 -112 L0 -200 L64 -112 Z" stroke="none"/></g><g id="pot" class="bao" stroke-linecap="round"><path d="M-60 -10 C-70 -60 -40 -96 0 -96 C40 -96 70 -60 60 -10 Z" stroke="none"/><path d="M-80 0 H80" stroke-width="10"/><path d="M-20 -110 C-34 -130 -6 -146 -20 -170 M14 -112 C0 -134 28 -150 14 -176" fill="none" stroke-width="5" opacity=".7"/></g>',
+    mid: G("gran", 470, 672, .34, ' opacity=".75"') + G("gran", 530, 676, .26, ' opacity=".75"'),
+    fg: (l, r) => [40, 90, 140, 190, 240].map((x, i) => G("stalk", x, 888 + (i % 2) * 6, l * (0.9 + (i % 3) * .12))).join("") + G("pot", 560, 892, .85) + `<g class="bR">${G("gran", 1230, 894, r * .8)}${[1340, 1390, 1430].map((x, i) => G("stalk", x, 896, r * (0.75 + i * .08))).join("")}</g>`,
+  },
+  kopje: {
+    defs: '<g id="rocks" class="bao"><path d="M-170 0 C-168 -40 -150 -70 -110 -78 C-80 -84 -50 -76 -36 -60 C-30 -96 -6 -126 34 -130 C70 -134 96 -112 104 -82 C130 -88 160 -70 168 -40 C172 -22 172 -10 170 0 Z" stroke="none"/><path d="M-30 -126 C-34 -150 -18 -172 8 -176 C34 -180 56 -164 58 -140 C40 -132 0 -128 -30 -126 Z" stroke="none"/></g><g id="acacia" class="bao" stroke-linecap="round"><path d="M-9 0 C-7 -60 -5 -110 -2 -150 L4 -150 C7 -110 9 -60 12 0 Z" stroke="none"/><path d="M0 -140 L-62 -192 M2 -140 L72 -196" fill="none" stroke-width="7"/><path d="M-160 -200 C-130 -238 -40 -252 20 -247 C92 -252 166 -234 176 -206 C120 -190 -104 -188 -160 -200 Z" stroke="none"/></g>',
+    mid: G("rocks", 480, 674, .4, ' opacity=".75"') + G("rocks", 720, 678, .28, ' opacity=".7"'),
+    fg: (l, r) => G("rocks", 170, 890, l * 1.05) + G("acacia", 590, 892, .6) + `<g class="bR">${G("rocks", 1290, 896, r * .95)}</g>`,
+  },
+  sea: {
+    defs: '<g id="lighthouse" class="bao"><path d="M-22 0 L-14 -190 L14 -190 L22 0 Z" stroke="none"/><path d="M-26 -190 H26 V-204 H-26 Z M-16 -204 H16 V-236 H-16 Z M-20 -236 L0 -256 L20 -236 Z" stroke="none"/><path d="M-120 0 C-110 -40 -70 -60 -30 -50 C10 -70 60 -60 90 -30 C110 -20 120 -8 124 0 Z" stroke="none"/></g><g id="boat" class="bao"><path d="M-90 -18 L90 -18 L70 0 L-70 0 Z" stroke="none"/><path d="M-6 -18 V-110 M-6 -104 L48 -26 H-6" stroke-width="5" fill="none"/></g><g id="waves" class="bao" fill="none" stroke-width="5" stroke-linecap="round"><path d="M-200 0 q25 -14 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0"/></g>',
+    mid: G("boat", 640, 690, .28, ' opacity=".7"'),
+    fg: (l, r) => G("lighthouse", 150, 884, l * .95) + G("waves", 520, 880, .9, ' opacity=".55"') + G("boat", 760, 878, .55) + `<g class="bR">${G("waves", 1240, 886, r * .7, ' opacity=".55"')}</g>`,
+  },
+  palms: {
+    defs: '<g id="palm" class="bao" fill="none" stroke-linecap="round"><path d="M-6 0 C-2 -80 10 -160 30 -232" stroke-width="15"/><path d="M30 -232 C0 -250 -40 -246 -70 -222 M30 -232 C60 -256 100 -256 130 -230 M30 -232 C20 -270 -10 -290 -40 -296 M30 -232 C50 -272 82 -290 110 -292 M30 -232 C-10 -230 -36 -206 -50 -180 M30 -232 C70 -226 96 -206 108 -180" stroke-width="9"/></g>',
+    mid: G("palm", 470, 670, .4, ' opacity=".75"') + G("palm", 720, 678, .3, ' opacity=".7"'),
+    fg: (l, r) => G("palm", 150, 884, l * .95) + G("palm", 560, 892, .8) + `<g class="bR">${G("palm", 1290, 894, r * .85)}</g>`,
+  },
+};
 // Il paesaggio della home: cielo, sole, colline, fiume e baobab, disegnato a strati.
 // I colori sono variabili CSS (--sky-*, --far, --mid...), quindi cambiano da soli nel tema scuro.
 // compact: versione per le pagine interne (sole più basso, baobab più piccoli, niente uccelli sotto la barra)
-function landscape(compact = false) {
+function landscape(compact = false, scene = "baobab") {
   const sunY = compact ? 706 : 665, sunR = compact ? 120 : 132, bigL = compact ? 1.3 : 1.55, bigR = compact ? 1.5 : 1.95;
   const bao = '<g id="baobab" class="bao" stroke-linecap="round" stroke-linejoin="round"><path d="M-34 0 C-40 -50 -30 -110 -18 -160 C-16 -168 16 -168 18 -160 C30 -110 40 -50 34 0 Z" stroke="none"/><path d="M0 -160 L-62 -214 M0 -160 L-24 -230 M0 -160 L30 -232 M0 -160 L68 -210 M0 -160 L96 -176" fill="none" stroke-width="9"/><path d="M-62 -214 L-96 -222 M-62 -214 L-78 -250 M-24 -230 L-44 -266 M-24 -230 L-8 -268 M30 -232 L22 -270 M30 -232 L58 -262 M68 -210 L100 -232 M68 -210 L84 -250 M96 -176 L128 -190" fill="none" stroke-width="5"/><path d="M-96 -222 L-118 -228 M-78 -250 L-86 -280 M-44 -266 L-56 -292 M-8 -268 L2 -298 M22 -270 L18 -300 M58 -262 L78 -286 M100 -232 L126 -248 M84 -250 L96 -278" fill="none" stroke-width="3"/></g>';
   const stars = [[140, 90, 2], [300, 150, 1.6], [470, 60, 2.2], [640, 130, 1.5], [820, 70, 2], [1010, 140, 1.6], [1180, 80, 2.2], [1330, 170, 1.6], [240, 230, 1.4], [1090, 250, 1.4]]
@@ -113,6 +164,7 @@ function landscape(compact = false) {
 <radialGradient id="scGlow" cx="50%" cy="50%" r="50%"><stop offset="0" class="glow" stop-opacity=".85"/><stop offset="1" class="glow" stop-opacity="0"/></radialGradient>
 <linearGradient id="scRiver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="riv1"/><stop offset="1" class="riv2"/></linearGradient>
 ${bao}
+${(SCENES[scene] || SCENES.baobab).defs}
 </defs>
 <rect width="1440" height="900" fill="url(#scSky)"/>
 <g class="px" data-px="26"><g class="star">${stars}</g></g>
@@ -122,13 +174,10 @@ ${bao}
 <g class="px" data-px="34"><path class="mid" d="M0 690 C200 655 380 690 560 668 S900 650 1090 685 S1330 668 1440 690 L1440 900 L0 900 Z"/>
 <path d="M0 720 C260 700 520 730 800 712 S1240 700 1440 722 L1440 790 C1180 778 900 800 640 786 S180 790 0 782 Z" fill="url(#scRiver)" opacity=".92"/>
 ${compact ? "" : '<g class="refl sun-m" fill="none" stroke-width="3" stroke-linecap="round" opacity=".8"><path d="M970 726 h120 M990 740 h84 M1005 754 h58 M1018 768 h34"/></g>'}
-<use href="#baobab" transform="translate(470 668) scale(.5)" opacity=".75"/>
-<use href="#baobab" transform="translate(700 676) scale(.36)" opacity=".7"/></g>
+${(SCENES[scene] || SCENES.baobab).mid}</g>
 <path class="near" d="M0 792 C240 770 520 800 820 786 S1260 776 1440 790 L1440 900 L0 900 Z"/>
 <path class="ground" d="M0 850 C300 830 620 864 920 846 S1300 838 1440 850 L1440 900 L0 900 Z"/>
-<use href="#baobab" transform="translate(150 880) scale(${bigL})"/>
-<use href="#baobab" transform="translate(560 892) scale(.95)"/>
-<g class="bR"><use href="#baobab" transform="translate(1290 892) scale(${bigR})"/></g>
+${(SCENES[scene] || SCENES.baobab).fg(bigL, bigR)}
 ${compact ? "" : `<g class="px" data-px="18"><g class="bird" fill="none" stroke-width="2.2" stroke-linecap="round" opacity=".85"><path d="M1180 300 q9 -9 18 0 q9 -9 18 0"/><path d="M1232 276 q7 -7 14 0 q7 -7 14 0"/><path d="M1148 262 q6 -6 12 0 q6 -6 12 0"/></g></g>`}
 </svg>`;
 }
@@ -137,9 +186,9 @@ ${compact ? "" : `<g class="px" data-px="18"><g class="bird" fill="none" stroke-
 const heroWave = '<svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 80 L0 44 C240 4 480 70 720 36 S1200 4 1440 40 L1440 80 Z"/></svg>';
 
 // Apertura ridotta con il paesaggio, per le pagine che non sono la home.
-function compactHero({ kicker, title, sub }) {
-  return `<section class="scape-hero compact">
-  ${landscape(true)}
+function compactHero({ kicker, title, sub, scene = "baobab" }) {
+  return `<section class="scape-hero compact scene-${scene}">
+  ${landscape(true, scene)}
   <div class="scape-text">
     <p class="scape-kicker">${esc(kicker)}</p>
     <h1>${esc(title)}</h1>
@@ -168,7 +217,7 @@ function layout({ title, description, depth, body, current, script = false, extr
   <div class="wrap top-in">
     <a class="brand" href="${p}index.html">${brandSvg}${esc(config.name)}</a>
     <div class="top-r">
-    <nav aria-label="Main"><a href="${p}places/index.html"${current === "places" ? ' aria-current="page"' : ""}>Places</a><a href="${p}places/art/index.html"${current === "art" ? ' aria-current="page"' : ""}>Art</a><a href="${p}capitals/index.html"${current === "capitals" ? ' aria-current="page"' : ""}>Capitals</a><a href="${p}peoples/index.html"${current === "peoples" ? ' aria-current="page"' : ""}>Peoples</a><a href="${p}index.html#map">Map</a><a href="${p}countries/index.html"${current === "countries" ? ' aria-current="page"' : ""}>Countries</a><a href="${p}stories/index.html"${current === "stories" ? ' aria-current="page"' : ""}>History &amp; Myths</a><a href="${p}food/index.html"${current === "food" ? ' aria-current="page"' : ""}>Food</a><a href="${p}society/index.html"${current === "society" ? ' aria-current="page"' : ""}>Society</a><a href="${p}true-size/index.html"${current === "true-size" ? ' aria-current="page"' : ""}>True size</a><a href="${p}quiz/index.html"${current === "quiz" ? ' aria-current="page"' : ""}>Quiz</a><a href="${p}explore/index.html"${current === "explore" ? ' aria-current="page"' : ""}>Connections</a><a href="${p}education/index.html"${current === "education" ? ' aria-current="page"' : ""}>Education</a><a href="${p}method/index.html"${current === "method" ? ' aria-current="page"' : ""}>Method</a></nav>
+    ${navHtml(p, current)}
     ${themeButton}
     </div>
   </div>
@@ -180,6 +229,7 @@ ${body}
   <div class="wrap foot-in">
     <p class="foot-brand">${esc(config.name)}</p>
     <p>${esc(config.tagline)}</p>
+    <nav class="foot-nav" aria-label="All sections">${NAV.flatMap((g) => g.items || [g]).map((it) => `<a href="${p}${it.href}">${esc(it.label)}</a>`).join("")}</nav>
     <p>This site sets no cookies, runs no analytics and loads nothing from other sites. Photographs are openly licensed and credited on each card. <a href="${p}method/index.html">How it works</a> · <a href="${p}education/index.html">Education &amp; Mission</a></p>
   </div>
 </footer>
@@ -189,6 +239,24 @@ ${script ? `<div id="tip" role="tooltip" hidden></div>\n<script src="${p}app.js?
 ${["fab.js", ...extraScripts].map((f) => `<script src="${p}${f}?v=${VER}" defer></script>\n`).join("")}</body>
 </html>
 `;
+}
+
+// Menu principale: sei voci, quattro con un elenco che si apre (details/summary: funziona anche senza JavaScript).
+const NAV = [
+  { href: "index.html#map", label: "Map" },
+  { label: "Places", items: [{ href: "places/index.html", label: "All places", id: "places" }, { href: "places/art/index.html", label: "Art", id: "art" }, { href: "capitals/index.html", label: "Capitals", id: "capitals" }, { href: "countries/index.html", label: "Countries", id: "countries" }] },
+  { label: "Stories", items: [{ href: "stories/index.html", label: "History & Myths", id: "stories" }, { href: "food/index.html", label: "Food", id: "food" }, { href: "migration/index.html", label: "Migration", id: "migration" }] },
+  { href: "peoples/index.html", label: "Peoples", id: "peoples" },
+  { label: "Play", items: [{ href: "quiz/index.html", label: "Quiz", id: "quiz" }, { href: "explore/index.html", label: "Connections", id: "explore" }, { href: "true-size/index.html", label: "True size", id: "true-size" }, { href: "society/index.html", label: "Society", id: "society" }] },
+  { label: "About", items: [{ href: "method/index.html", label: "Method", id: "method" }, { href: "education/index.html", label: "Education", id: "education" }] },
+];
+function navHtml(p, current) {
+  const a = (it) => `<a href="${p}${it.href}"${it.id && it.id === current ? ' aria-current="page"' : ""}>${esc(it.label)}</a>`;
+  return `<nav aria-label="Main" class="mainnav">${NAV.map((g) => {
+    if (!g.items) return a(g);
+    const on = g.items.some((it) => it.id === current);
+    return `<details class="nav-g${on ? " is-current" : ""}"><summary>${esc(g.label)}<svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="nav-pop">${g.items.map(a).join("")}</div></details>`;
+  }).join("")}</nav>`;
 }
 
 // Pulsante flottante: salta alle sezioni della pagina o torna in cima. Senza JavaScript resta nascosto.
@@ -352,7 +420,9 @@ const fmtAmt = (n) => (Number.isInteger(n) ? String(n) : String(Math.round(n * 1
 function recipeHtml(b, cite) {
   const ing = b.ingredients.map((i) => `<li${i.amount != null ? ` data-amount="${i.amount}"` : ""} data-unit="${esc(i.unit || "")}"><span class="rc-amt">${i.amount != null ? esc(fmtAmt(i.amount)) + (i.unit ? " " + esc(i.unit) : "") : esc(i.unit || "")}</span> <span class="rc-name">${esc(i.name)}</span>${i.note ? ` <em class="rc-note">${esc(i.note)}</em>` : ""}</li>`).join("");
   const steps = b.steps.map((st) => `<li${st.minutes ? ` data-min="${st.minutes}"` : ""}>${esc(st.text)}${st.minutes ? ` <span class="rc-time">(${st.minutes} min)</span>` : ""}</li>`).join("");
-  return `<div class="recipe" data-base="${b.servings}"><p class="chart-title">${esc(b.title)}</p><p class="chart-sub">${esc(b.sub || "One version of the dish, as given by the source. Recipes differ from cook to cook.")}${cite(b.cite)}</p><p class="rc-serv-k">Makes <strong class="rc-serv-n">${b.servings}</strong> servings</p><h3 class="rc-h">Ingredients</h3><ul class="rc-ing">${ing}</ul><h3 class="rc-h">Steps</h3><ol class="rc-steps">${steps}</ol><p class="note-small">${esc(b.note)}</p></div>`;
+  const total = b.steps.reduce((n, st) => n + (st.minutes || 0), 0);
+  const totalTxt = total >= 60 ? `${Math.floor(total / 60)} h${total % 60 ? ` ${total % 60} min` : ""}` : `${total} min`;
+  return `<div class="recipe" data-base="${b.servings}"><div class="rc-head"><p class="chart-title">${esc(b.title)}</p><p class="chart-sub">${esc(b.sub || "One version of the dish, as given by the source. Recipes differ from cook to cook.")}${cite(b.cite)}</p><ul class="rc-meta">${total ? `<li><strong>${totalTxt}</strong><span>timed steps</span></li>` : ""}<li><strong>${b.steps.length}</strong><span>steps</span></li><li><strong>${b.ingredients.length}</strong><span>ingredients</span></li></ul><p class="rc-serv-k">Makes <strong class="rc-serv-n">${b.servings}</strong> servings</p></div><div class="rc-cols"><div class="rc-col-ing"><h3 class="rc-h">Ingredients</h3><ul class="rc-ing">${ing}</ul></div><div class="rc-col-steps"><h3 class="rc-h">Steps</h3><ol class="rc-steps">${steps}</ol></div></div><p class="note-small">${esc(b.note)}</p></div>`;
 }
 
 function renderPlace(p) {
@@ -442,6 +512,7 @@ ${credit}
 ${sections}
 ${deeperHtml(p.deeper)}
 ${pageChecks("place", p.slug, cite)}
+${placeLinksHtml(p)}
 ${gaps}
 ${sourcesHtml}
   </article>
@@ -471,7 +542,6 @@ ${sourcesHtml}
 // ---------- pagine ----------
 const published = places.map((x) => x.data).filter((p) => includeDrafts || p.status === "published");
 
-for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
 // In vetrina: schede pubblicate di paesi diversi prima, poi le altre (non le prime tre in ordine alfabetico)
 const featured = (() => {
@@ -537,12 +607,72 @@ const countriesBand = cList.length
 const storyKinds = config.storyKinds || [];
 const kindOf = Object.fromEntries(storyKinds.map((k) => [k.id, k]));
 const stories = (data.stories || []).map((x) => x.data).filter((x) => includeDrafts || x.status === "published");
-const storyHref = (x, p = "") => `${p}stories/${x.slug}/index.html`;
-const wordsOf = (st) => st.sections.reduce((n, sec) => n + sec.blocks.reduce((m, b) => m + (b.parts || b.items || []).reduce((k, x) => k + String(x.text).split(/\s+/).length, 0), 0), 0);
-const readMin = (st) => Math.max(1, Math.round(wordsOf(st) / 200));
 const countrySlug = (name) => name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const cSlug = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, countrySlug(c.name)]));
 const cName = Object.fromEntries((data.countries ? data.countries.countries : []).map((c) => [c.iso3, c.name]));
+// Collegamenti interni derivati dai dati: relazioni scritte a mano (stories.places, capitals.places, peoples.places)
+// più le menzioni esatte del nome di un luogo nel testo di una storia (nomi di almeno 7 caratteri, piatti esclusi).
+const capAvail = () => capitals.map(({ data: cp }) => cp).filter((cp) => (cp.sections || []).length && (cp.status === "published" || includeDrafts));
+const peopleAvail = () => peoples.map(({ data: pp }) => pp).filter((pp) => pp.status === "published" || includeDrafts);
+const storyText = (st) => [st.title, st.dek || "", ...(st.keyPoints || []).map((k) => k.text), ...st.sections.flatMap((sec) => sec.blocks.flatMap((b) => [...(b.parts || []), ...(b.items || [])].map((x) => String(x.text || ""))))].join(" \n ");
+const reEsc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+let _mentions = null;
+function placeMentions() {
+  if (_mentions) return _mentions;
+  _mentions = new Map(); // slug luogo -> Set slug storie
+  const cands = published.filter((pl) => pl.type !== "dish" && pl.name && pl.name.length >= 7);
+  for (const st of stories) {
+    const txt = storyText(st);
+    for (const pl of cands) {
+      const names = [pl.name, pl.name.replace(/\s*\(.*?\)\s*/g, " ").trim()].filter((n, i, a) => n.length >= 7 && a.indexOf(n) === i);
+      if (names.some((n) => new RegExp(`(^|[^\\p{L}])${reEsc(n)}([^\\p{L}]|$)`, "u").test(txt))) {
+        if (!_mentions.has(pl.slug)) _mentions.set(pl.slug, new Set());
+        _mentions.get(pl.slug).add(st.slug);
+      }
+    }
+  }
+  return _mentions;
+}
+// Nomi con cui una storia nomina un popolo (scelti a mano: "San" da solo è troppo ambiguo, serve "San people").
+const PEOPLE_ALIASES = { fula: ["Fula", "Fulani", "Fulbe", "Peul"], maasai: ["Maasai", "Masai"], amazigh: ["Amazigh", "Imazighen", "Berber"], oromo: ["Oromo"], san: ["San people", "San peoples", "San communities"], yoruba: ["Yoruba"] };
+let _pmentions = null;
+function peopleMentions() {
+  if (_pmentions) return _pmentions;
+  _pmentions = new Map();
+  for (const st of stories) {
+    const txt = storyText(st);
+    for (const [slug, names] of Object.entries(PEOPLE_ALIASES)) {
+      if (names.some((n) => new RegExp(`(^|[^\\p{L}])${reEsc(n)}([^\\p{L}]|$)`, "u").test(txt))) {
+        if (!_pmentions.has(slug)) _pmentions.set(slug, new Set());
+        _pmentions.get(slug).add(st.slug);
+      }
+    }
+  }
+  return _pmentions;
+}
+const storyPeoples = (st) => [...new Set([...(st.peoples || []), ...[...peopleMentions().entries()].filter(([, v]) => v.has(st.slug)).map(([k]) => k)])];
+const storyPlaces = (st) => [...new Set([...(st.places || []), ...[...placeMentions().entries()].filter(([, v]) => v.has(st.slug)).map(([k]) => k)])];
+function placeLinksHtml(pl) {
+  const up = "../../";
+  const caps = capAvail().filter((cp) => (cp.places || []).includes(pl.slug));
+  const pps = peopleAvail().filter((pp) => (pp.places || []).includes(pl.slug));
+  const ment = placeMentions().get(pl.slug) || new Set();
+  const sts = stories.filter((st) => (st.places || []).includes(pl.slug) || ment.has(st.slug));
+  const li = [
+    ...caps.map((cp) => `<li>Capital: <a href="${up}capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a></li>`),
+    ...pps.map((pp) => `<li>People: <a href="${up}peoples/${esc(pp.slug)}/index.html">${esc(pp.name)}</a></li>`),
+    ...sts.map((st) => `<li>Story: <a href="${up}stories/${esc(st.slug)}/index.html">${esc(st.title)}</a></li>`),
+  ];
+  const sameC = published.filter((x) => x.slug !== pl.slug && x.country === pl.country && x.type !== "dish");
+  const pick = sameC.filter((x) => x.type === pl.type).concat(sameC.filter((x) => x.type !== pl.type)).slice(0, 4);
+  if (pick.length) li.push(`<li>More in ${esc(cName[pl.country] || pl.country)}: ${pick.map((x) => `<a href="${up}places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(" · ")}</li>`);
+  return li.length ? `<aside class="related linked-by" aria-label="Linked pages"><h2>Keep exploring</h2><p class="note-small">Capital, people and story links are pages that name this place or list it among their own.</p><ul>${li.join("")}</ul></aside>` : "";
+}
+const storyHref = (x, p = "") => `${p}stories/${x.slug}/index.html`;
+const wordsOf = (st) => st.sections.reduce((n, sec) => n + sec.blocks.reduce((m, b) => m + (b.parts || b.items || []).reduce((k, x) => k + String(x.text).split(/\s+/).length, 0), 0), 0);
+const readMin = (st) => Math.max(1, Math.round(wordsOf(st) / 200));
+// Pagine dei luoghi: generate qui perché i collegamenti hanno bisogno di storie, capitali e popoli.
+for (const p of published) write(`places/${p.slug}/index.html`, renderPlace(p));
 
 function storyCard(st, p = "") {
   const k = kindOf[st.kind];
@@ -619,17 +749,17 @@ ${shareSection({ type: "story", id: st.slug, name: st.title, kinds: kindsHere, h
   const keyHtml = st.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${st.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${st.gaps.map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
   const relCountries = (st.countries || []).map((c) => `<a href="../../countries/${esc(cSlug[c] || "")}/index.html">${esc(cName[c] || c)}</a>`).join(", ");
-  const relPlaces = (st.places || []).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
-  const relPeoples = (st.peoples || []).map((sl) => peoples.find(({ data: pp }) => pp.slug === sl && (pp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: pp }) => `<a href="../../peoples/${esc(pp.slug)}/index.html">${esc(pp.name)}</a>`).join(", ");
+  const relPlaces = storyPlaces(st).map((slug) => published.find((x) => x.slug === slug)).filter(Boolean).map((x) => `<a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a>`).join(", ");
+  const relPeoples = storyPeoples(st).map((sl) => peoples.find(({ data: pp }) => pp.slug === sl && (pp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: pp }) => `<a href="../../peoples/${esc(pp.slug)}/index.html">${esc(pp.name)}</a>`).join(", ");
   const toolLi = st.tool ? `<li><a href="../../${esc(st.tool.href)}/index.html">${esc(st.tool.label)}</a></li>` : "";
-  const relStories = stories.filter((x) => x.slug !== st.slug && ((x.countries || []).some((c) => (st.countries || []).includes(c)) || (x.places || []).some((pl) => (st.places || []).includes(pl)))).slice(0, 4).map((x) => `<a href="../${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
+  const relStories = (() => { const near = stories.filter((x) => x.slug !== st.slug && ((x.countries || []).some((c) => (st.countries || []).includes(c)) || (x.places || []).some((pl) => (st.places || []).includes(pl)) || storyPeoples(x).some((pp) => storyPeoples(st).includes(pp)))); const same = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind && !near.includes(x)); return [...near.slice(0, 4), ...same].slice(0, Math.max(4, Math.min(near.length, 4))); })().map((x) => `<a href="../${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const relCaps = (st.countries || []).map((iso) => capitals.find(({ data: cp }) => cp.country === iso && (cp.sections || []).length && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a>`).join(", ");
   const related = relCountries || relPlaces || toolLi || relStories || relCaps || relPeoples ? `<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul>${toolLi}${relCountries ? `<li>Country figures: ${relCountries}</li>` : ""}${relPlaces ? `<li>Place cards: ${relPlaces}</li>` : ""}${relCaps ? `<li>Capital: ${relCaps}</li>` : ""}${relPeoples ? `<li>People: ${relPeoples}</li>` : ""}${relStories ? `<li>Related stories: ${relStories}</li>` : ""}<li><a href="../index.html">All stories</a></li></ul></aside>` : "";
   const more = stories.filter((x) => x.slug !== st.slug && x.kind === st.kind).slice(0, 2);
   const moreHtml = more.length ? `<section class="more"><h2>More ${esc(k.label.toLowerCase())}</h2><ul class="scards">${more.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : "";
   const trailsHere = (((data.trails && data.trails.trails) || [])).map((t) => ({ ...t, steps: t.steps.filter((x) => stories.some((y) => y.slug === x.story)) })).filter((t) => t.steps.length >= 4 && t.steps.some((x) => x.story === st.slug)).map((t) => ({ id: t.id, title: t.title, steps: t.steps.map((x) => ({ slug: x.story, title: (stories.find((y) => y.slug === x.story) || {}).title, why: x.why })) }));
   const trailData = trailsHere.length ? `<script type="application/json" id="trail-data">${JSON.stringify(trailsHere).replace(/</g, "\\u003c")}</script>` : "";
-  const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle })}
+  const body = `${compactHero({ kicker: k.label, title: st.title, sub: st.subtitle, scene: st.kind === "food" ? "fields" : "ruins" })}
 <div class="wrap prose-hero"><p class="story-meta">${readMin(st)} minute read · every sentence below carries its source number</p>
 <div class="read-progress" aria-hidden="true"><span></span></div><div id="trail-bar" class="trail-bar" hidden></div>${trailData}${keyHtml}<article class="story">${secs}
 ${checks}
@@ -671,7 +801,7 @@ function renderStories() {
   const gameItems = histMythStories.flatMap((x) => (x.keyPoints || []).filter((k) => k.text.length >= 50 && k.text.length <= 230).map((k) => ({ t: k.text, s: x.slug, n: x.title, k: x.kind })));
   const gameHtml = gameItems.length >= 20 ? `<section id="sec-game" class="sgame" aria-labelledby="sg-h"><span class="layer-tag rec">Game</span><h2 id="sg-h">Which story is this from?</h2><p class="note-small">A fact from the stories, four possible stories. Six rounds; streaks count. Nothing is saved.</p><noscript><p class="note-small">This game needs JavaScript.</p></noscript><div id="sgame" hidden></div><script type="application/json" id="sgame-data">${JSON.stringify({ items: gameItems, base: "" }).replace(/</g, "\\u003c")}</script></section>` : "";
 
-  const body = `${compactHero({ kicker: "Learn", title: "History & Myths", sub: "Real history told with its sources, and common ideas about Africa checked against the record." })}
+  const body = `${compactHero({ scene: "ruins", kicker: "Learn", title: "History & Myths", sub: "Real history told with its sources, and common ideas about Africa checked against the record." })}
 <div class="wrap">
 <section class="hero-lede">
   <p class="lede">The place cards say where. These pages say what happened and what people get wrong. They follow the same rule: every claim has a source, and each story ends with what is still not known.</p>
@@ -733,6 +863,65 @@ ${trailsHtml}
   });
 }
 
+const FOOD_STORY_IMG = { "coffee-the-ethiopian-bean-that-woke-the-world": "food-coffee", "couscous-the-dish-that-united-the-maghreb": "food-couscous", "fufu-and-ugali-the-staple-that-feeds-a-continent": "food-fufu" };
+let _storyImgs = null;
+function foodStoryImage(st) {
+  for (const sec of st.sections) for (const b of sec.blocks) if (b.type === "figure" && b.image) return b.image;
+  if (!_storyImgs) { const f = path.join(root, "content", "data", "story-images.json"); _storyImgs = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : {}; }
+  return _storyImgs[FOOD_STORY_IMG[st.slug]] || null;
+}
+function foodStoryCard(st, p = "") {
+  const im = foodStoryImage(st);
+  const img = im ? `${p}img/stories/${im.file}-800.jpg` : "";
+  const imgHtml = img
+    ? `<img src="${esc(img)}" alt="${esc(im.alt || "")}" width="800" height="533" loading="lazy">`
+    : `<div class="food-card-art">${art(st.slug, 3, 2)}</div>`;
+
+  return `<li>
+    <a class="food-card" href="${esc(storyHref(st, p))}">
+      <div class="food-card-media">
+        ${imgHtml}
+        <span class="food-card-tag">${readMin(st)} min read</span>
+      </div>
+      <div class="food-card-body">
+        <span class="food-card-kicker">Story</span>
+        <h3 class="food-card-title">${esc(st.title)}</h3>
+        <p class="food-card-desc">${esc(st.subtitle)}</p>
+        <div class="food-card-footer">
+          <span>${(st.countries || []).map((c) => esc(cName[c] || c)).join(" · ")}</span>
+          <span class="food-card-more">Read story →</span>
+        </div>
+      </div>
+    </a>
+  </li>`;
+}
+
+function foodDishCard(d, p = "") {
+  const hasRecipe = (d.sections || []).some((sec) => (sec.blocks || []).some((b) => b.type === "recipe"));
+  const img = d.image ? `${p}img/places/${esc(d.image.file)}-800.jpg` : "";
+  const imgHtml = img
+    ? `<img src="${esc(img)}" alt="${esc(d.image.alt || d.name)}" width="800" height="533" loading="lazy">`
+    : `<div class="food-card-art">${art(d.slug, 3, 2)}</div>`;
+
+  return `<li>
+    <a class="food-card" href="${p}places/${esc(d.slug)}/index.html">
+      <div class="food-card-media">
+        ${imgHtml}
+        ${hasRecipe ? '<span class="food-card-tag has-recipe">Interactive recipe</span>' : '<span class="food-card-tag">Documented dish</span>'}
+      </div>
+      <div class="food-card-body">
+        <span class="food-card-kicker">Dish · ${esc(cName[d.country] || d.region)}</span>
+        <h3 class="food-card-title">${esc(d.name)}</h3>
+        <p class="food-card-desc">${esc(d.subtitle || "")}</p>
+        <div class="food-card-footer">
+          <span>${esc(d.region || "")}</span>
+          <span class="food-card-more">${hasRecipe ? "View recipe →" : "View dish →"}</span>
+        </div>
+      </div>
+    </a>
+  </li>`;
+}
+
 function renderFood() {
   const foodStories = stories.filter((x) => x.kind === "food");
   const storyBySlug = Object.fromEntries(stories.map((x) => [x.slug, x]));
@@ -743,31 +932,32 @@ function renderFood() {
 
   const dishes = published.filter((p) => p.type === "dish").sort((a, b) => a.name.localeCompare(b.name));
 
-  const foodTrailsHtml = foodTrails.length ? `<section id="sec-trail" class="trails"><span class="layer-tag rec">Reading trail</span><h2>Follow the food trail</h2><p class="note-small">${esc(foodTrails[0].intro)}</p><ol class="trail-list"><li class="trail"><h3>${esc(foodTrails[0].title)}</h3><p>${esc(foodTrails[0].intro)}</p><ol class="trail-steps">${foodTrails[0].steps.map((stp, i) => `<li><a href="${esc(storyHref(storyBySlug[stp.story], "../"))}?trail=${esc(foodTrails[0].id)}&amp;step=${i + 1}"><span class="trail-n" aria-hidden="true">${i + 1}</span><span>${esc(storyBySlug[stp.story].title)}</span></a></li>`).join("")}</ol><p><a class="btn" href="${esc(storyHref(storyBySlug[foodTrails[0].steps[0].story], "../"))}?trail=${esc(foodTrails[0].id)}&amp;step=1">Start this trail</a></p></li></ol></section>` : "";
+  const hasRec = (d) => (d.sections || []).some((sec) => (sec.blocks || []).some((x) => x.type === "recipe"));
+  const fullDishes = dishes.filter((d) => (d.sections || []).length);
+  const emptyDishes = dishes.filter((d) => !(d.sections || []).length);
+  const regionOf = (iso) => subOf[iso] || "other";
+  const regions = config.subregions.map((r) => {
+    const sts = foodStories.filter((x) => regionOf((x.countries || [])[0]) === r.id);
+    const ds = fullDishes.filter((d) => regionOf(d.country) === r.id).sort((a, b) => (hasRec(b) - hasRec(a)) || a.name.localeCompare(b.name));
+    return { r, sts, ds };
+  }).filter((g) => g.sts.length || g.ds.length);
+  const recipeCount = fullDishes.filter(hasRec).length;
+  const trail = foodTrails[0];
+  const trailHtml = trail ? `<aside class="food-trail-line"><p><strong>Six stories in order.</strong> ${esc(trail.intro)}</p><a class="btn" href="${esc(storyHref(storyBySlug[trail.steps[0].story], "../"))}?trail=${esc(trail.id)}&amp;step=1">Start the food trail</a></aside>` : "";
+  const regionHtml = regions.map(({ r, sts, ds }) => `<section id="fr-${esc(r.id)}" class="food-region"><h2>${esc(r.label)}</h2><p class="blurb">${[sts.length ? `${sts.length} ${sts.length === 1 ? "story" : "stories"} about a staple or a crop` : "", ds.length ? `${ds.length} ${ds.length === 1 ? "dish" : "dishes"}${ds.some(hasRec) ? `, ${ds.filter(hasRec).length} with a recipe you can cook` : ""}` : ""].filter(Boolean).join(" · ")}</p><ul class="food-grid">${sts.map((x) => foodStoryCard(x, "../")).join("")}${ds.map((d) => foodDishCard(d, "../")).join("")}</ul></section>`).join("\n");
+  const credits = (() => { const cr = foodStories.map((x) => [x, foodStoryImage(x)]).filter(([, im]) => im && im.credit); return cr.length ? `<p class="note-small food-credits">Story photos: ${cr.map(([x, im]) => `${esc(x.title.split(":")[0])} by ${esc(im.credit)}, <a href="${esc(im.licenseUrl)}">${esc(im.license)}</a>, <a href="${esc(im.source)}">Wikimedia Commons</a>`).join("; ")}. Dish photos are credited on each dish card.</p>` : ""; })();
+  const todoHtml = emptyDishes.length ? `<details class="fold food-todo"><summary><span>${emptyDishes.length} more dishes in preparation</span></summary><p class="note-small">One dish per country is planned. These cards have no sourced content yet; each link opens an empty draft.</p><ul class="food-todo-list">${emptyDishes.map((d) => `<li><a href="../places/${esc(d.slug)}/index.html">${esc(d.name)}</a> <span>${esc(cName[d.country] || d.country)}</span></li>`).join("")}</ul></details>` : "";
 
-  const dishesHtml = dishes.length ? `<section id="sec-dishes" class="story-group"><span class="layer-tag rec">Dishes &amp; Recipes</span><h2>Documented dishes</h2><p class="blurb">Dishes from across the continent with their ingredients, preparation methods, culinary origins, and interactive recipes where recorded.</p><ul class="scards">${dishes.map((d) => `<li><a class="scard" href="../places/${esc(d.slug)}/index.html" data-kind="food"><span class="kicker">Dish · ${esc(cName[d.country] || d.region)}</span><span class="scard-t">${esc(d.name)}</span><span class="scard-s">${esc(d.subtitle || "")}</span><span class="scard-c">${esc(d.region || "")}</span>${(d.sections || []).some((sec) => (sec.blocks || []).some((b) => b.type === "recipe")) ? '<span class="scard-q">Interactive recipe inside</span>' : ""}</a></li>`).join("")}</ul></section>` : "";
-
-  const body = `${compactHero({ kicker: "Heritage & Living Culture", title: "Food & Foodways", sub: "Dishes, staple crops, culinary techniques and the arguments behind them." })}
-<div class="wrap">
+  const body = `${compactHero({ scene: "fields", kicker: "Heritage & Living Culture", title: "Food & Foodways", sub: "Dishes, staple crops, culinary techniques and the arguments behind them." })}
+<div class="wrap food-page-wrap">
 <section class="hero-lede">
-  <p class="lede">Food in Africa is not a static tourist menu of "national dishes". It is living agricultural heritage: indigenous grains like teff and fonio, American crops like cassava, ancient fermentation methods, and shared community rituals. Every dish and story keeps documented facts and living personal accounts apart.</p>
-  <nav class="story-nav-jump" aria-label="Jump to section">
-    <a href="#sec-crops">Crops &amp; Foodways (${foodStories.length})</a>
-    ${foodTrails.length ? '<a href="#sec-trail">Reading trail</a>' : ""}
-    ${dishes.length ? `<a href="#sec-dishes">Documented dishes (${dishes.length})</a>` : ""}
-  </nav>
+  <p class="lede">Food in Africa is not a static tourist menu of "national dishes". It is living agricultural heritage: indigenous grains like teff and fonio, American crops like cassava, ancient fermentation methods, and shared community rituals.</p>
+  <p>The page goes region by region. <strong>Stories</strong> follow a staple or a crop through history; <strong>dishes</strong> are what ends up on the plate, ${recipeCount} of them with a recipe that scales servings and times each step. Facts come from sources; what cooks tell us is kept apart.</p>
+  <nav class="story-nav-jump" aria-label="Jump to a region">${regions.map(({ r }) => `<a href="#fr-${esc(r.id)}">${esc(r.label.replace(/ Africa$/, ""))}</a>`).join("")}</nav>
 </section>
-
-<section id="sec-crops" class="story-group">
-  <span class="layer-tag rec">Staples &amp; Origins</span>
-  <h2>Crops, staples and trade</h2>
-  <p class="blurb">In-depth essays on how coffee, cassava, couscous, injera, jollof rice and fufu shaped daily life, regional diplomacy and global trade.</p>
-  <ul class="scards">${foodStories.map((x) => storyCard(x, "../")).join("")}</ul>
-</section>
-
-${foodTrailsHtml}
-
-${dishesHtml}
+${trailHtml}
+${regionHtml}
+<section id="sec-more" class="food-more">${credits}${todoHtml}</section>
 </div>`;
 
   return layout({
@@ -777,11 +967,7 @@ ${dishesHtml}
     current: "food",
     body,
     extraScripts: ["story.js", "recipe.js"],
-    jump: [
-      { id: "sec-crops", label: "Crops & Food" },
-      ...(foodTrails.length ? [{ id: "sec-trail", label: "Trail" }] : []),
-      ...(dishes.length ? [{ id: "sec-dishes", label: "Dishes" }] : [])
-    ]
+    jump: regions.map(({ r }) => ({ id: "fr-" + r.id, label: r.label.replace(/ Africa$/, "") }))
   });
 }
 
@@ -833,6 +1019,18 @@ const homeQ = ((data.quiz && data.quiz.questions) || []).find((q) => q.id === "m
 const homeQuestion = homeQ ? `<div class="checks live-q"><p class="live-q-t">Try one now</p>${checkHtmlWith({ ...homeQ, explain: homeQ.explain + (homeQ.story ? " Read more: " + ((stories.find((x) => x.slug === homeQ.story) || {}).title || "") + "." : "") }, () => "")}<p class="check-score" role="status" aria-live="polite" hidden></p></div>` : "";
 const homeTypeLabel = Object.fromEntries((config.placeTypes || []).map((t) => [t.id, t.label]));
 const quizCount = ((data.quiz && data.quiz.questions) || []).length;
+const homePeoples = peoples.map(({ data: pp }) => pp).filter((pp) => pp.status === "published" || includeDrafts).map((pp) => { let im = null; for (const sec of pp.sections || []) for (const b of sec.blocks) if (!im && b.type === "figure" && b.image) im = b.image; return { pp, im }; }).filter((x) => x.im).slice(0, 6);
+const homeCapitals = (() => {
+  const bySlug = new Map(published.map((x) => [x.slug, x]));
+  const out = [];
+  for (const { data: cp } of capitals) {
+    if (!((cp.sections || []).length && (cp.status === "published" || includeDrafts))) continue;
+    const pl = (cp.places || []).map((sl) => bySlug.get(sl)).find((y) => y && y.image);
+    if (pl && out.length < 4) out.push({ cp, pl });
+  }
+  return out;
+})();
+const homeLookRows = `${homePeoples.length ? `<h3 class="way-sub">Peoples</h3><ul class="minis">${homePeoples.map(({ pp, im }) => `<li><a class="mini" href="peoples/${esc(pp.slug)}/index.html"><img src="img/stories/${esc(im.file)}-800.jpg" alt="" width="800" height="533" loading="lazy"><span class="mini-t">${esc(pp.name.replace(/\s*\(.*\)$/, ""))}</span><span class="mini-s">${esc((pp.countries || []).slice(0, 2).map((i) => cName[i] || i).join(", "))}${(pp.countries || []).length > 2 ? " and more" : ""}</span></a></li>`).join("")}</ul>` : ""}${homeCapitals.length ? `<h3 class="way-sub">Capitals</h3><ul class="minis">${homeCapitals.map(({ cp, pl }) => `<li><a class="mini" href="capitals/${esc(cp.slug)}/index.html"><img src="img/places/${esc(pl.image.file)}-800.jpg" alt="" width="800" height="533" loading="lazy"><span class="mini-t">${esc(cp.name)}</span><span class="mini-s">Capital of ${esc(cName[cp.country] || cp.country)}</span></a></li>`).join("")}</ul>` : ""}`;
 
 write("index.html", layout({
   title: config.name,
@@ -841,7 +1039,7 @@ write("index.html", layout({
   script: true,
   extraScripts: ["story.js"],
   bodyClass: "home",
-  jump: [{ id: "about", label: "What it is" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), { id: "read", label: "Read" }, { id: "look", label: "Look" }, { id: "play", label: "Play" }, { id: "layers", label: "Contribute" }, ...(countriesBand ? [{ id: "countries", label: "Countries" }] : [])],
+  jump: [{ id: "about", label: "What it is" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), { id: "look", label: "Look" }, { id: "read", label: "Read" }, { id: "play", label: "Play" }],
   body: `
 <section class="scape-hero compact">
   ${landscape()}
@@ -859,11 +1057,26 @@ write("index.html", layout({
       <li><strong>Sourced.</strong> Each page also says what is still not known. <a href="method/index.html">How it works</a></li>
       <li><strong>Two voices.</strong> The documented record and what people who live there say are never mixed.</li>
       <li><strong>Private.</strong> Nothing you do here is saved or sent anywhere.</li>
+      <li><strong>Open to correction.</strong> If you know a place, a dish or a people from the inside, every page has a form to correct the record or add your account.</li>
     </ul>
   </div>
   <p class="home-status">Ready now: ${stories.length} stories, ${livePlaces} place cards and the quiz. In preparation, and not yet read by a person who knows the subject: ${draftPlaces ? draftPlaces + " more place cards, " : ""}${capitals.length ? capitals.length + " capital profiles, " : ""}the peoples pages and most of the art catalogue. Anything in preparation is marked as such.</p>
 </section>
 ${mapSection}
+<section id="look" class="night section way" aria-labelledby="look-h">
+  <div class="wrap way-grid">
+    <div class="way-text">
+      <h2 id="look-h">Look</h2>
+      <p class="lede">Places you can open, art seen through what it is for, the peoples behind the old labels and the capitals behind the names on the map.</p>
+      <p class="actions"><a class="btn btn-cream" href="places/index.html">Browse the places</a> <a class="btn btn-cream" href="places/art/index.html">Art</a>${capsAvail ? ' <a class="btn btn-cream" href="capitals/index.html">Capitals</a>' : ""}${peoplesAvail ? ' <a class="btn btn-cream" href="peoples/index.html">Peoples</a>' : ""} <a class="btn btn-cream" href="countries/index.html">Countries</a></p>
+    </div>
+    <div class="way-body">
+      ${homePlaceCards.length ? `<h3 class="way-sub">From the place cards</h3><ul class="minis">${homePlaceCards.map((x) => miniCard(x, homeTypeLabel[x.type] || x.type)).join("")}</ul>` : ""}
+      ${homeArtCards.length ? `<h3 class="way-sub">From the art index</h3><ul class="minis">${homeArtCards.map((a) => miniCard(a.place, a.label)).join("")}</ul>` : ""}
+      ${homeLookRows}
+    </div>
+  </div>
+</section>
 <section id="read" class="band-sand section way" aria-labelledby="read-h">
   <div class="wrap way-grid">
     <div class="way-text">
@@ -874,19 +1087,6 @@ ${mapSection}
     <div class="way-body">
       <ul class="scards">${homeStoryList.map((x) => storyCard(x, "")).join("")}</ul>
       ${homeTrails.length ? `<h3 class="way-sub">Or follow a trail</h3><ol class="home-trails">${homeTrails.map((t) => `<li><a href="${esc(storyHref(homeStoryBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1"><strong>${esc(t.title)}</strong><span>${esc(t.intro)} ${t.steps.length} stops.</span></a></li>`).join("")}</ol>` : ""}
-    </div>
-  </div>
-</section>
-<section id="look" class="night section way" aria-labelledby="look-h">
-  <div class="wrap way-grid">
-    <div class="way-text">
-      <h2 id="look-h">Look</h2>
-      <p class="lede">Places you can open, art seen through what it is for, and the people and cities behind the names on the map.</p>
-      <p class="actions"><a class="btn btn-cream" href="places/index.html">Browse the places</a> <a class="btn btn-cream" href="places/art/index.html">Art</a>${capsAvail ? ' <a class="btn btn-cream" href="capitals/index.html">Capitals</a>' : ""}${peoplesAvail ? ' <a class="btn btn-cream" href="peoples/index.html">Peoples</a>' : ""} <a class="btn btn-cream" href="countries/index.html">Countries</a></p>
-    </div>
-    <div class="way-body">
-      ${homePlaceCards.length ? `<h3 class="way-sub">From the place cards</h3><ul class="minis">${homePlaceCards.map((x) => miniCard(x, homeTypeLabel[x.type] || x.type)).join("")}</ul>` : ""}
-      ${homeArtCards.length ? `<h3 class="way-sub">From the art index</h3><ul class="minis">${homeArtCards.map((a) => miniCard(a.place, a.label)).join("")}</ul>` : ""}
     </div>
   </div>
 </section>
@@ -908,25 +1108,7 @@ ${mapSection}
       </ul>
     </div>
   </div>
-</section>
-<section id="layers" class="wrap suns-sec" aria-label="The two layers of every card">
-  <h2 class="suns-title">Contribute</h2>
-  <p class="lede about-lede">The record cannot know everything. Every page keeps two kinds of knowledge apart, and if you know a place, a dish or a people from the inside, you can correct the record or add your own account.</p>
-  <div class="suns">
-    <article class="sun sun-rec">
-      <span class="layer-tag">In the record</span>
-      <h3>What the documents say</h3>
-      <p>Every statement has a numbered citation, and every source is labelled by its kind and by how far it has been checked.</p>
-    </article>
-    <article class="sun sun-voi">
-      <span class="layer-tag">From people who know this place</span>
-      <h3>What they tell us</h3>
-      <p>One person's experience, shown as theirs, with the name and connection they chose to give. Collected in person or by direct message, with consent.</p>
-      <p class="sun-more">${config.channels.some((c) => c.value) ? '<a href="places/index.html">Know a place? Open its card and write a note</a>' : '<a href="method/index.html">How notes are collected</a>'}</p>
-    </article>
-  </div>
-</section>
-${countriesBand}`
+</section>`
 }));
 
 // ---------- pagina Countries ----------
@@ -1015,11 +1197,73 @@ function renderCountries(list) {
     cards: cardsOf(c.iso3).map((p) => ({ name: p.name, href: `../places/${p.slug}/index.html` })),
     voices: (notes[`country-${c.iso3}`] || []).map((n) => noteCard(n, config.countryNoteKinds || [])).join("")
   }]));
+  const capOf = (iso) => capitals.find(({ data: cp }) => cp.country === iso)?.data || null;
+  const peoplesOf = (iso) => peoples.filter(({ data: pe }) => (pe.countries || []).includes(iso) && (pe.status === "published" || includeDrafts)).map(({ data: pe }) => pe);
+  const storiesOf = (iso) => stories.filter((s) => (s.countries || []).includes(iso));
+
+  const countryCard = (c) => {
+    const cp = capOf(c.iso3);
+    const pl = cardsOf(c.iso3);
+    const pe = peoplesOf(c.iso3);
+    const st = storiesOf(c.iso3);
+    const subName = subLabel[c.subregion] || c.subregion;
+    const url = `${cSlug[c.iso3]}/index.html`;
+
+    return `<li id="country-${esc(c.iso3)}" class="country-grid-card" data-sub="${esc(c.subregion)}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}">
+      <article class="cgc-inner">
+        <header class="cgc-header">
+          <div class="cgc-top">
+            <span class="cgc-subregion">${esc(subName)}</span>
+            <span class="cgc-iso">${esc(c.iso3)}</span>
+          </div>
+          <h3 class="cgc-title"><a href="${esc(url)}">${esc(c.name)}</a></h3>
+          <p class="cgc-capital">Capital: ${cp ? `<a href="../capitals/${esc(cp.slug)}/index.html">${esc(c.capital)}</a>` : esc(c.capital)}</p>
+        </header>
+
+        <div class="cgc-kpis">
+          <div class="cgc-kpi"><span class="cgc-kpi-k">Population</span><span class="cgc-kpi-v">${fmtPop(c.population)}</span></div>
+          <div class="cgc-kpi"><span class="cgc-kpi-k">Area</span><span class="cgc-kpi-v">${fmtInt(c.area)} km²</span></div>
+          <div class="cgc-kpi"><span class="cgc-kpi-k">Density</span><span class="cgc-kpi-v">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}/km²</span></div>
+        </div>
+
+        <div class="cgc-badges" aria-label="Connected content in the site">
+          ${cp ? `<a class="cgc-badge cgc-b-cap" href="../capitals/${esc(cp.slug)}/index.html" title="Capital city guide: ${esc(c.capital)}">Capital guide</a>` : ""}
+          ${pl.length ? `<a class="cgc-badge cgc-b-place" href="${esc(url)}#places" title="${pl.length} place cards">${pl.length} ${pl.length === 1 ? "place" : "places"}</a>` : ""}
+          ${pe.length ? `<a class="cgc-badge cgc-b-people" href="${esc(url)}#peoples" title="${pe.length} documented peoples">${pe.length} ${pe.length === 1 ? "people" : "peoples"}</a>` : ""}
+          ${st.length ? `<a class="cgc-badge cgc-b-story" href="${esc(url)}#stories" title="${st.length} stories">${st.length} ${st.length === 1 ? "story" : "stories"}</a>` : ""}
+        </div>
+
+        <div class="cgc-actions">
+          <a class="cgc-cta" href="${esc(url)}">Explore country profile &rarr;</a>
+        </div>
+      </article>
+    </li>`;
+  };
+
+  const groups = config.subregions.map((r) => ({
+    ...r,
+    items: list.filter((c) => c.subregion === r.id).sort((a, b) => a.name.localeCompare(b.name, "en"))
+  })).filter((g) => g.items.length);
+
+  const groupRows = groups.map((g) => `
+    <section class="country-group" id="group-${esc(g.id)}">
+      <div class="cg-head">
+        <h2>${esc(g.label)}</h2>
+        <span class="cg-count">${g.items.length} countries</span>
+      </div>
+      <ul class="country-grid">
+        ${g.items.map(countryCard).join("")}
+      </ul>
+    </section>
+  `).join("");
+
+  const jump = groups.map((g) => `<a href="#group-${esc(g.id)}">${esc(g.label)} (${g.items.length})</a>`).join("");
+
   // tabella
   const rows = [...list].sort((a, b) => a.name.localeCompare(b.name, "en")).map((c) => {
     const cards = cardsOf(c.iso3);
     const cardLink = cards.length ? ` <a class="cardlink" href="../places/${esc(cards[0].slug)}/index.html">${cards.length === 1 ? "1 place card" : `${cards.length} place cards`}</a>` : "";
-    return `<tr id="c-${c.iso3}" data-iso="${c.iso3}" tabindex="0" data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}">${esc(c.name)}${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td><td data-v="${esc(blocShorts(c.iso3).join(" "))}" class="blocs-cell">${esc(blocShorts(c.iso3).join(" · ") || "none of these")}</td></tr>`;
+    return `<tr id="c-${c.iso3}" data-iso="${c.iso3}" tabindex="0" data-sub="${c.subregion}" data-name="${esc((c.name + " " + c.capital).toLowerCase())}"><th scope="row" data-v="${esc(c.name)}"><a class="tbl-country-link" href="${cSlug[c.iso3]}/index.html">${esc(c.name)}</a>${cardLink}</th><td data-v="${esc(c.capital)}">${esc(c.capital)}</td><td data-v="${esc(subLabel[c.subregion])}">${esc(subLabel[c.subregion])}</td><td class="num" data-v="${c.area}">${fmtInt(c.area)}</td><td class="num" data-v="${c.population}">${fmtInt(c.population)}</td><td class="num" data-v="${den(c).toFixed(3)}">${den(c) < 10 ? den(c).toFixed(1) : fmtInt(den(c))}</td><td data-v="${esc(blocShorts(c.iso3).join(" "))}" class="blocs-cell">${esc(blocShorts(c.iso3).join(" · ") || "none of these")}</td></tr>`;
   }).join("");
   const subOptions = config.subregions.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
 
@@ -1043,17 +1287,31 @@ function renderCountries(list) {
   }
 
   const body = `
-${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where each of the 54 countries sits, its capital, its area and its population." })}
+${compactHero({ scene: "acacia", kicker: "The Living Atlas", title: "54 African countries", sub: "Explore each sovereign nation through its capital, heritage places, cultural communities, history and facts." })}
 <div class="wrap">
 <section class="hero-lede">
-  <p class="lede">The figures are the World Bank's${cite(["wb-population", "wb-area", "wb-countries"])}. The shading, the charts and the percentages are calculated here from those figures. Nothing on this page comes from local voices: it is all in the record, and the sources are listed at the bottom.</p>
+  <p class="lede">Africa is made of 54 sovereign nations. Every country on this site has its own dedicated profile connecting its capital city, places of art and nature, living peoples, stories, and verified geographic figures. Follow the threads through a single country or compare the continent as a whole.</p>
 </section>
 
 <section class="kpis" aria-label="Africa in four numbers">${kpis}</section>
 
 </div>
 <div class="wrap section" data-tabs>
-<section id="map" class="panel" data-tab data-tab-label="Map" aria-labelledby="cmap-h">
+<section id="profiles" class="panel" data-tab data-tab-label="Country profiles (54)" aria-labelledby="cprof-h">
+  <div class="phead">
+    <div>
+      <h2 id="cprof-h">All 54 Country Profiles</h2>
+      <p class="fine" style="margin-top:4px">Select any country to open its dedicated guide with capital city, heritage places, cultural peoples, history and facts.</p>
+    </div>
+    <div class="tools" id="ptools" hidden>
+      <label class="sr" for="pq">Search country or capital</label>
+      <input id="pq" type="search" placeholder="Search country or capital" autocomplete="off">
+    </div>
+  </div>
+  <nav class="pi-jump country-jump" aria-label="Subregions">${jump}</nav>
+  ${groupRows}
+</section>
+<section id="map" class="panel" data-tab data-tab-label="Interactive map" aria-labelledby="cmap-h">
   <div class="phead">
     <h2 id="cmap-h">Map</h2>
     <div class="seg" id="metric" role="group" aria-label="Shade the map by" hidden>
@@ -1078,7 +1336,7 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
   </div>
   <p class="fine">Country outlines${cite(["natural-earth"])} show de facto boundaries and are not a statement about disputed ones. Subregions follow the United Nations statistical groups${cite(["un-m49"])}.</p>
 </section>
-<section id="charts" class="charts" data-tab data-tab-label="Charts">
+<section id="charts" class="charts" data-tab data-tab-label="Comparative charts">
   <figure class="chart">
     <h2>The five most populous countries hold ${share(top5)} of Africa's people</h2>
     <p class="chart-sub">Fifteen most populous countries, people${cite(["wb-population"])}</p>
@@ -1099,7 +1357,7 @@ ${compactHero({ kicker: "Reference", title: "Africa by the numbers", sub: "Where
     <figcaption>The diagonal lines mark equal density, labelled in people per km²: countries on the same line are equally crowded. Densities run from ${fmtDen(sparsest)} in ${esc(sparsest.name)} to ${fmtDen(densest)} in ${esc(densest.name)}. ${esc(bigArea.name)} is the largest by area. Density is calculated here and counts empty land, such as desert, in the area.</figcaption>
   </figure>
 </section>
-<section id="table" class="panel" data-tab data-tab-label="All 54 countries" aria-labelledby="tab-h">
+<section id="table" class="panel" data-tab data-tab-label="Data table" aria-labelledby="tab-h">
   <div class="phead">
     <h2 id="tab-h">All ${list.length} countries <span class="count" id="tcount" aria-live="polite"></span></h2>
     <div class="tools" id="tools" hidden>
@@ -1136,7 +1394,7 @@ ${sourcesList()}
 </div>
 <script type="application/json" id="cdata">${JSON.stringify(detailData).replace(/</g, "\\u003c")}</script>`;
 
-  return layout({ title: `Africa by the numbers · ${config.name}`, description: "Map, capitals, area and population of the 54 African countries.", depth: 1, current: "countries", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }, { id: "share", label: "Add yours" }] });
+  return layout({ title: `54 Countries · Living Atlas · ${config.name}`, description: "The 54 African countries: dedicated country profiles, capitals, places, peoples, stories, interactive maps and comparative figures.", depth: 1, current: "countries", bodyClass: "still", script: true, extraScripts: ["share.js"], body, jump: [{ id: "profiles", label: "Profiles" }, { id: "map", label: "Map" }, { id: "charts", label: "Charts" }, { id: "table", label: "Table" }, { id: "share", label: "Add yours" }] });
 }
 
 
@@ -1234,7 +1492,7 @@ function renderSociety(list) {
   const estGov = estS("How many of the 54 countries do you think are presidential republics?", 0, 54, govCount[0].items.length, [{ text: `${govCount[0].items.length}, counted here from the Factbook's government labels.`, cite: CIA }]);
   const estLang = estS("In how many countries is French marked as an official language?", 0, 54, (langN["French"] || []).length, [{ text: `${(langN["French"] || []).length}, counted here from the Factbook's labels.`, cite: CIA }]);
   const body = `
-${compactHero({ kicker: "Reference", title: "Society", sub: "Faith, government and language labels in the 54 countries, with a view of two countries side by side." })}
+${compactHero({ scene: "acacia", kicker: "Reference", title: "Society", sub: "Faith, government and language labels in the 54 countries, with a view of two countries side by side." })}
 <div class="wrap">
 <section class="hero-lede">
   <p class="lede">Every label here comes from the World Factbook's entry for each country${cite(["cia-factbook"])}. The language section keeps three things apart: languages marked official at national level, African language names mentioned in the entry, and Glottolog families for the fourteen quiz languages. None of these is a census of speakers. Nothing on this page comes from local voices, and the Factbook's estimates come from different years.</p>
@@ -1346,7 +1604,7 @@ function renderTrueSize() {
     shapes: ts.shapes.map((s) => ({ id: s.id, label: s.label, note: s.note, anchor: s.anchor, area: s.area, rings: s.rings }))
   };
   const rows = [...ts.shapes].sort((a, b) => b.area - a.area).map((s) => `<tr><th scope="row">${esc(s.label)}</th><td class="n">${esc(mm(s.area))}</td><td class="n">${ratio(s.area)}</td></tr>`).join("");
-  const body = `${compactHero({ kicker: "Tool", title: "True size", sub: "Lay other countries over Africa and see how big it really is." })}
+  const body = `${compactHero({ scene: "acacia", kicker: "Tool", title: "True size", sub: "Lay other countries over Africa and see how big it really is." })}
 <div class="wrap section">
 <section class="panel ts" aria-labelledby="ts-h">
   <h2 id="ts-h">Drag a country onto Africa</h2>
@@ -1471,7 +1729,7 @@ function renderQuiz(list) {
   const payload = { questions: all.map((x) => ({ id: x.id, t: x.topic, q: x.q, o: x.options, a: x.answer, e: x.explain, c: x.cite, s: x.story ? `../stories/${x.story}/index.html` : x.place ? `../places/${x.place}/index.html` : x.people ? `../peoples/${x.people}/index.html` : x.capital ? `../capitals/${x.capital}/index.html` : "" })), sources: srcOut, rounds: 8 };
   const leadTopic = topics[0];
   const subTopics = topics.slice(1);
-  const body = `${compactHero({ kicker: "Learn", title: "Quiz", sub: "Questions drawn from the stories and figures on this site. Each answer comes with its source." })}
+  const body = `${compactHero({ scene: "giraffes", kicker: "Learn", title: "Quiz", sub: "Questions drawn from the stories and figures on this site. Each answer comes with its source." })}
 <div class="wrap section">
 <section class="panel quiz" id="quiz" aria-labelledby="quiz-h">
   <h2 id="quiz-h">Test what you know</h2>
@@ -1530,7 +1788,7 @@ function renderLanguages(list) {
     const ns = (notes[`phrase-${p.id}`] || []).slice().sort((a, b) => b.added.localeCompare(a.added));
     return `<article class="ph" id="ph-${esc(p.id)}"><h3>${esc(p.label)} <span class="ph-t">${esc(p.phrase)}</span></h3><p class="ph-m">“${esc(p.phrase)}” means “${esc(p.meaning)}”.${cite(p.cite)}</p>${ns.length ? `<div class="notes">${ns.map((n) => noteCard(n, noteKinds)).join("")}</div>` : `<p class="fine">No speaker has looked at this phrase yet.</p>`}</article>`;
   }).join("");
-  const body = `${compactHero({ kicker: "Learn", title: "Languages", sub: "Fourteen African languages: where they come from, where they are mentioned, and which you can learn on Duolingo." })}
+  const body = `${compactHero({ scene: "huts", kicker: "Learn", title: "Languages", sub: "Fourteen African languages: where they come from, where they are mentioned, and which you can learn on Duolingo." })}
 <div class="wrap"><nav class="pi-jump lang-jump" aria-label="On this page"><a href="#table">The languages</a><a href="#duolingo">Duolingo</a><a href="#phrases">Phrases</a><a href="#share">Add yours</a></nav></div>
 <div class="wrap section">
 <section class="panel" id="table" aria-labelledby="lg-h">
@@ -1612,8 +1870,71 @@ function renderCountryPage(c, list) {
     relText ? ["Religion, share of people", `${relText}${rel.year ? ` (${rel.year} estimate)` : ""}`, ["cia-factbook"]] : (pr.religions ? ["Religion", dec(pr.religions), ["cia-factbook"]] : null),
     blocs.length ? ["Regional blocs", blocs.map((b) => b.short).join(", "), blocCites] : null
   ].filter(Boolean).map(([k, v, ids]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${cite(ids)}</dd></div>`).join("");
+  const cap = capitals.find(({ data: cp }) => cp.country === c.iso3 && (cp.status === "published" || includeDrafts))?.data || null;
+  const myPeoples = peoples.filter(({ data: pe }) => (pe.countries || []).includes(c.iso3) && (pe.status === "published" || includeDrafts)).map(({ data: pe }) => pe);
+  const peopleImg = (x) => {
+    if (x.image) return x.image;
+    for (const sec of x.sections || []) for (const b of sec.blocks || []) if (b.type === "figure" && b.image) return b.image;
+    return null;
+  };
+  const capSpotlight = cap ? `
+<section id="capital" class="cp-sec cp-capital-spotlight" aria-labelledby="cap-spot-h">
+  <div class="sec-head"><span class="layer-tag rec">Capital city</span></div>
+  <h2 id="cap-spot-h">${esc(c.capital)} · Capital of ${esc(c.name)}</h2>
+  <div class="capital-spot-card">
+    ${cap.image ? `<div class="csc-img"><img src="../../img/capitals/${esc(cap.image.file)}-800.jpg" alt="${esc(cap.image.alt || c.capital)}" width="360" height="240" loading="lazy"></div>` : ""}
+    <div class="csc-content">
+      <p class="csc-sub">${esc(cap.subtitle)}</p>
+      ${(cap.keyPoints || []).slice(0, 2).map((kp) => `<p class="csc-kp">${esc(kp.text)}</p>`).join("")}
+      <a class="csc-btn" href="../../capitals/${esc(cap.slug)}/index.html">Open ${esc(c.capital)} city profile &rarr;</a>
+    </div>
+  </div>
+</section>` : "";
+  const peoplesSec = myPeoples.length ? `
+<section id="peoples" class="cp-sec cp-peoples" aria-labelledby="cpp-h">
+  <div class="sec-head"><span class="layer-tag rec">Cultural heritage</span></div>
+  <h2 id="cpp-h">Peoples connected to ${esc(c.name)}</h2>
+  <p class="note-small">Living communities and ethnic cultures with deep historical roots in ${esc(c.name)}. The site describes them through language, traditions and documented sources, strictly avoiding colonial terms like 'tribes'.</p>
+  <ul class="country-peoples-list">
+    ${myPeoples.map((pe) => {
+      const im = peopleImg(pe);
+      return `<li><a class="cpl-card" href="../../peoples/${esc(pe.slug)}/index.html">
+        ${im ? `<img src="../../img/stories/${esc(im.file)}-800.jpg" alt="" width="96" height="72" loading="lazy">` : `<span class="cap-ph" aria-hidden="true">${esc(pe.name.charAt(0))}</span>`}
+        <div class="cpl-text"><strong>${esc(pe.name)}</strong><em>${esc(pe.subtitle)}</em></div>
+      </a></li>`;
+    }).join("")}
+  </ul>
+</section>` : "";
+  const regionCountries = list.filter((x) => x.subregion === c.subregion).sort((a, b) => a.name.localeCompare(b.name, "en"));
+  const myIdx = regionCountries.findIndex((x) => x.iso3 === c.iso3);
+  const prevC = myIdx > 0 ? regionCountries[myIdx - 1] : regionCountries[regionCountries.length - 1];
+  const nextC = myIdx < regionCountries.length - 1 ? regionCountries[myIdx + 1] : regionCountries[0];
+  const journeyNav = `
+<nav class="country-journey" aria-label="Travel through ${esc(sub)}">
+  <div class="cj-inner">
+    <div class="cj-title">
+      <span class="cj-sub">Regional pathway</span>
+      <strong>Explore ${esc(sub)}</strong>
+      <span class="cj-meta">${regionCountries.length} countries in this region</span>
+    </div>
+    <div class="cj-links">
+      <a class="cj-btn cj-prev" href="../${esc(cSlug[prevC.iso3])}/index.html" rel="prev">
+        <span class="cj-dir">&larr; Previous country</span>
+        <span class="cj-dest">${esc(prevC.name)}</span>
+      </a>
+      <a class="cj-btn cj-hub" href="../index.html#country-${esc(c.iso3)}">
+        <span class="cj-dir">All 54</span>
+        <span class="cj-dest">Countries Atlas</span>
+      </a>
+      <a class="cj-btn cj-next" href="../${esc(cSlug[nextC.iso3])}/index.html" rel="next">
+        <span class="cj-dir">Next country &rarr;</span>
+        <span class="cj-dest">${esc(nextC.name)}</span>
+      </a>
+    </div>
+  </div>
+</nav>`;
   const lede = `${esc(c.name)} is in ${esc(sub)}. Its capital is ${esc(c.capital)}${cite(["wb-countries"])}. About ${esc(fmtPop(c.population))} people live there${cite(["wb-population"])}, on ${esc(fmtInt(c.area))} km²${cite(["wb-area"])}: ${rPop === 1 ? "the most populous" : `number ${rPop} by population`} and number ${rArea} by area of the ${list.length} countries on this site. The sentences and figures on this page are calculated from those sources; the writing about places and people is on the cards and stories below.`;
-  const body = `${compactHero({ kicker: sub, title: c.name, sub: `Capital ${c.capital} · ${fmtPop(c.population)} people` })}
+  const body = `${compactHero({ scene: "acacia", kicker: sub, title: c.name, sub: `Capital ${c.capital} · ${fmtPop(c.population)} people` })}
 <div class="wrap section">
 <section class="kpis" aria-label="${esc(c.name)} in four numbers">${kp.map(([k, v]) => `<div class="kpi"><span class="kl">${esc(k)}</span><span class="kv">${esc(v)}</span></div>`).join("")}</section>
 <section class="panel cp" id="facts" aria-labelledby="cp-h" style="margin-top:24px">
@@ -1623,10 +1944,20 @@ function renderCountryPage(c, list) {
     <div class="cp-map">${countryLocator(c.iso3, `Map of Africa with ${c.name} highlighted.`)}</div>
   </div>
 </section>
+${capSpotlight}
 ${cards.length ? `<section id="places" class="cp-sec" aria-labelledby="cpl-h"><h2 id="cpl-h">Places in ${esc(c.name)}</h2><ul class="arches cp-cards">${cards.map(card).join("")}</ul></section>` : ""}
+${peoplesSec}
 ${myStories.length ? `<section id="stories" class="cp-sec" aria-labelledby="cps-h"><h2 id="cps-h">Stories that touch ${esc(c.name)}</h2><ul class="scards">${myStories.map((x) => storyCard(x, "../../")).join("")}</ul></section>` : ""}
+${journeyNav}
 <section id="more" class="cp-sec" aria-labelledby="cpm-h"><h2 id="cpm-h">Keep exploring</h2>
-  <ul class="duo-list"><li><a href="../../capitals/index.html#cap-${esc(c.iso3)}">${esc(c.capital)}</a>, this country's capital and its place-card status.</li><li><a href="../index.html#c-${esc(c.iso3)}">${esc(c.name)} in the table of all 54 countries</a>, to compare its figures.</li><li><a href="../../society/index.html">Society</a>: faith, government and languages side by side.</li><li><a href="../../quiz/index.html">The quiz</a>, with questions on countries, history and food.</li></ul></section>
+  <ul class="duo-list">
+    ${cap ? `<li><a href="../../capitals/${esc(cap.slug)}/index.html">${esc(c.capital)}</a>, capital city of ${esc(c.name)}: its history and places.</li>` : ""}
+    <li><a href="../../explore/index.html#c:${esc(c.iso3)}">Trace ${esc(c.name)} in Connections</a>: follow all editorial links to places, peoples and stories.</li>
+    <li><a href="../index.html#country-${esc(c.iso3)}">Compare ${esc(c.name)} with all 54 countries</a> in the Living Atlas.</li>
+    <li><a href="../../society/index.html">Society</a>: faith, government and languages side by side.</li>
+    <li><a href="../../quiz/index.html">The quiz</a>, with questions on countries, history and food.</li>
+  </ul>
+</section>
 <section class="story-voices" id="voices" aria-labelledby="cpv-h"><span class="layer-tag voi">From people who know ${esc(c.name)}</span><h2 id="cpv-h">What readers add</h2>
 ${cNotes.length ? `<div class="notes">${cNotes.map((n) => noteCard(n, kinds)).join("")}</div>` : `<div class="empty"><strong>No local voice on ${esc(c.name)} yet.</strong><span>Notes are added once the author has agreed to publication, and are read by people who know the subject afterwards.</span></div>`}
 ${shareSection({ type: "country", id: c.iso3, name: c.name, kinds, heading: `Do you know ${c.name} well?`, intro: "Add what the figures miss, or tell us what looks wrong.", depth: 2 })}
@@ -1641,7 +1972,15 @@ ${shareSection({ type: "country", id: c.iso3, name: c.name, kinds, heading: `Do 
 </section>
 ${sourcesList()}
 </div>`;
-  return layout({ title: `${c.name} · ${config.name}`, description: `${c.name}: capital, population, area, languages, religion, regional blocs, places and stories.`, depth: 2, current: "countries", bodyClass: "still", script: false, extraScripts: ["share.js"], body, jump: [{ id: "facts", label: "At a glance" }, ...(cards.length ? [{ id: "places", label: "Places" }] : []), ...(myStories.length ? [{ id: "stories", label: "Stories" }] : []), { id: "voices", label: "Add yours" }] });
+  const countryJump = [
+    { id: "facts", label: "At a glance" },
+    ...(cap ? [{ id: "capital", label: "Capital" }] : []),
+    ...(cards.length ? [{ id: "places", label: "Places" }] : []),
+    ...(myPeoples.length ? [{ id: "peoples", label: "Peoples" }] : []),
+    ...(myStories.length ? [{ id: "stories", label: "Stories" }] : []),
+    { id: "voices", label: "Add yours" }
+  ];
+  return layout({ title: `${c.name} · ${config.name}`, description: `${c.name}: capital, population, area, languages, religion, regional blocs, places and stories.`, depth: 2, current: "countries", bodyClass: "still", script: false, extraScripts: ["share.js"], body, jump: countryJump });
 }
 if (data.countries) for (const c of data.countries.countries) write(`countries/${cSlug[c.iso3]}/index.html`, renderCountryPage(c, data.countries.countries));
 
@@ -1667,7 +2006,7 @@ write("method/index.html", layout({
     if (!methodPage) {
       const mm = methodHtml.match(/^\s*<h1>(.*?)<\/h1>\s*<p class="lede">(.*?)<\/p>/s);
       const rest = mm ? methodHtml.slice(mm[0].length) : methodHtml;
-      return `${compactHero({ kicker: "How it works", title: mm ? mm[1] : "Method", sub: mm ? mm[2] : "" })}
+      return `${compactHero({ scene: "palms", kicker: "How it works", title: mm ? mm[1] : "Method", sub: mm ? mm[2] : "" })}
 <div class="wrap prose-hero"><div class="prose">${rest.replace("<!--contact-->", contactLine)}</div></div>`;
     }
     // Numeri contati dal contenuto del sito ogni volta che si costruisce la pagina.
@@ -1737,7 +2076,7 @@ write("method/index.html", layout({
     <div id="rag-result" class="rag-result" hidden aria-live="polite"></div>
   </div>
 </section>`;
-    return `${compactHero({ kicker: "How it works", title: pg.title, sub: pg.lede })}
+    return `${compactHero({ scene: "palms", kicker: "How it works", title: pg.title, sub: pg.lede })}
 <div class="wrap"><nav class="pi-jump lang-jump" aria-label="On this page"><a href="#method-rag">Ask Method</a><a href="#sec-purpose">Purpose &amp; Fit</a><a href="#sec-the-record">The Record</a><a href="#sec-local-voices">Voices</a><a href="#sec-what-this-site-collects">Privacy</a><a href="#sec-sustainability-and-social-mission">Fair Knowledge</a><a href="#sec-who-makes-this">Governance</a></nav></div>
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${kp}${ragWidget}<article class="story method">${secs}</article></div>`;
   })()
@@ -1753,6 +2092,7 @@ function renderEducation() {
   ];
 
   const body = `${compactHero({
+    scene: "palms",
     kicker: "Higher Education & Impact",
     title: "Education & Social Mission",
     sub: "Interactive tools for universities and schools, grounded in verifiable sources, strict privacy and ethical local knowledge."
@@ -1926,7 +2266,7 @@ function renderArt() {
   const countText = `${totalCards} ${totalCards === 1 ? "card" : "cards"} in ${groups.length} ${groups.length === 1 ? "category" : "categories"}${includeDrafts ? " (drafts included)" : ""}.`;
   const path = artCatalog.path;
   const pathSection = path ? `<section class="band-saffron art-path" aria-labelledby="art-path-h"><div class="wrap"><p class="kicker">A guided thread</p><h2 id="art-path-h">${esc(path.title)}</h2><p class="lede">${esc(path.intro)}</p>${renderRich({ type: "order", prompt: path.prompt, items: path.items.map((it) => ({ ...it, label: bySlug.get(it.slug)?.name || it.slug, href: `../${it.slug}/index.html` })) }, () => "", { up: "../../" })}</div></section>` : "";
-  const body = `${compactHero({ kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
+  const body = `${compactHero({ scene: "kopje", kicker: "Places · Art", title: artCatalog.title, sub: artCatalog.lede })}
 <div class="wrap places-index art-index">
   <p class="places-subnav"><a class="btn btn-alt" href="../index.html">← All places</a></p>
   <p class="art-note">This is a growing index, not a gallery. Open a place card to see its sources, image credit and the local voice the project is still waiting for.</p>
@@ -1962,8 +2302,11 @@ ${shareSection({ type: "capital", id: c.slug, name: c.name, kinds: config.noteKi
 </section>`;
   const capStories = stories.filter((x) => (x.countries || []).includes(c.country)).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
   const cSlugC = cSlug[c.country] ? `<li>Country page: <a href="../../countries/${esc(cSlug[c.country])}/index.html">${esc(country)}</a></li>` : "";
-  const body = `${compactHero({ kicker: `Capital · ${country}`, title: c.name, sub: c.subtitle })}
-<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
+  const heroImg = c.image
+    ? `<figure class="cap-hero-fig"><img src="../../img/capitals/${esc(c.image.file)}-1600.jpg" srcset="../../img/capitals/${esc(c.image.file)}-800.jpg 800w, ../../img/capitals/${esc(c.image.file)}-1600.jpg 1600w" sizes="(max-width: 900px) 100vw, 900px" alt="${esc(c.image.alt || c.name)}" loading="lazy"><figcaption class="photo-note">${esc(c.image.caption)} Photo: ${esc(c.image.credit)}, <a href="${esc(c.image.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(c.image.license)}</a>, via <a href="${esc(c.image.source)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</figcaption></figure>`
+    : "";
+  const body = `${compactHero({ scene: "city", kicker: `Capital · ${country}`, title: c.name, sub: c.subtitle })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}${heroImg}<article class="story">${secs}
 ${seeHtml}
 ${pageChecks("capital", c.slug, cite)}
 ${gaps}
@@ -2047,7 +2390,7 @@ function renderPeoples() {
   const pgameHtml = new Set(pgItems.map((i) => i.s)).size >= 4 ? `<section id="sec-game" class="sgame" aria-labelledby="sg-h"><span class="layer-tag rec">Game</span><h2 id="sg-h">Which people is this about?</h2><p class="note-small">A fact from the sources, four peoples to choose from. Each answer links to the page that explains it. Nothing is saved.</p><noscript><p class="note-small">This game needs JavaScript.</p></noscript><div id="sgame" hidden></div><script type="application/json" id="sgame-data">${JSON.stringify({ items: pgItems, base: "", dir: "", rounds: 5, noun: "page" }).replace(/</g, "\\u003c")}</script></section>` : "";
   const secsHtml = sections.map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}${["table", "borders"].includes(sec.id) ? `<details class="fold"><summary><span>${esc(sec.title)}</span></summary>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}</details>` : `<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../" })).join("")}`}</section>`).join("\n");
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul><li>These shares come from one reference work, with different years and spellings per country, and a country that counts by language or by region is not comparable to one that counts by group.</li><li>Many people belong to more than one group, or to none that a form can name; a table of labels cannot show that.</li><li>No person from the groups named here has read this page yet.</li></ul></section>`;
-  const body = `${compactHero({ kicker: "Peoples", title: "Peoples, not 'tribes'", sub: "Who the sources name, country by country, and how little the old labels explain." })}
+  const body = `${compactHero({ scene: "huts", kicker: "Peoples", title: "Peoples, not 'tribes'", sub: "Who the sources name, country by country, and how little the old labels explain." })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
 <aside class="keypoints"><h2>In short</h2><ul><li>The word 'tribe' belongs to the colonial period; this site writes about peoples, languages and the labels a source uses. <a href="../stories/does-africa-have-tribes/index.html">Read why</a>.</li><li>In ${parsed.length} countries with percentages, the largest named group is above 50% in ${majority} and below 25% in ${under25}${cite(["cia-factbook"])}.</li></ul></aside>
 ${blocks1.map((b) => renderRich(b, cite, { up: "../" })).join("")}
@@ -2060,13 +2403,54 @@ ${sourcesList()}</article></div>`;
   return layout({ title: `Peoples · ${config.name}`, description: "Ethnic groups by country as the sources name them, why the word 'tribe' is avoided, and profiles of peoples with their sources.", depth: 1, current: "peoples", body, extraScripts: ["story.js", "storygame.js", "share.js"], jump: [{ id: "sec-profiles", label: "Peoples" }, { id: "sec-game", label: "Game" }, { id: "sec-numbers", label: "Numbers" }, { id: "sec-table", label: "Table" }, ...(sharedList.length ? [{ id: "sec-borders", label: "Borders" }] : []), ...(profList.length ? [{ id: "sec-profiles", label: "Profiles" }] : []), { id: "sec-sources", label: "Sources" }] });
 }
 
+// ---------- pagina Migration: dati in content/data/migration.json (ogni fatto citato; i dibattiti restano separati) ----------
+function renderMigration(M) {
+  const { cite, list: sourcesList } = makeCiter();
+  const order = ["who-moves", "why-they-leave", "routes", "jobs", "europe", "history"];
+  const secs = order.map((id) => M.sections.find((x) => x.id === id)).filter(Boolean);
+  const chartOf = (sec, id) => (sec.charts || []).find((c) => c.id === id);
+  const v = (sec, cid, label) => { const c = chartOf(sec, cid); const r = c && c.rows.find((x) => x.label.startsWith(label)); return r ? { value: r.value, cite: c.cite } : null; };
+  const S = Object.fromEntries(secs.map((x) => [x.id, x]));
+  const inAfrica = S["who-moves"] && v(S["who-moves"], "african-migrant-destinations", "Within Africa");
+  const inEurope = S["who-moves"] && v(S["who-moves"], "african-migrant-destinations", "Europe");
+  const eri = S["why-they-leave"] && v(S["why-they-leave"], "eu-recognition-rate-2025", "Eritrea");
+  const permits = S.europe && v(S.europe, "regular_vs_irregular", "First residence permits");
+  const irregular = S.europe && v(S.europe, "regular_vs_irregular", "Irregular border crossings");
+  const agri = S.jobs && v(S.jobs, "italy_foreign_share_value_added_by_sector", "Agriculture");
+  const checks = [];
+  if (inAfrica && inEurope) checks.push({ type: "check", q: "In 2024, where did most people born in Africa who live outside their own country actually live?", options: ["In another African country", "In Europe", "In North America", "In Asia"], answer: "In another African country", explain: `About ${inAfrica.value} million lived in another African country, against ${inEurope.value} million in geographic Europe. See "Who moves, and where to".` });
+  if (permits && irregular) checks.push({ type: "check", q: "Myth or fact: most people who come to the EU from outside each year arrive irregularly, by boat or across a land border.", options: ["Myth", "Fact"], answer: "Myth", explain: `In 2025 the EU issued about ${Math.round(permits.value / 100000) / 10} million first residence permits, while Frontex detected about ${Math.round(irregular.value / 1000)},000 irregular crossings (detections, not people). See "What Europe pays, and what it receives".` });
+  const est = [];
+  if (eri) est.push({ type: "estimate", prompt: "In 2025, what share of first-instance asylum decisions for Eritreans in the EU granted protection?", min: 0, max: 100, step: 1, unit: "%", answer: eri.value, parts: [{ text: `EU asylum offices said yes in ${eri.value}% of first-instance decisions for Eritreans in 2025. The average for all nationalities was much lower.`, cite: eri.cite }] });
+  if (agri) est.push({ type: "estimate", prompt: "What share of the value added in Italian agriculture was produced by foreign workers in 2025?", min: 0, max: 60, step: 0.5, unit: "%", answer: agri.value, decimals: 1, parts: [{ text: `About ${agri.value}%, the highest of any sector, according to Fondazione Leone Moressa on ISTAT data.`, cite: agri.cite }] });
+  const factList = (fs) => `<ul class="mig-facts">${fs.map((f) => `<li>${esc(f.text)}${cite(f.cite)}${f.page ? ` <span class="note-small">(${/–/.test(f.page) ? "pp." : "p."} ${esc(f.page)})</span>` : ""}</li>`).join("")}</ul>`;
+  const secHtml = secs.map((sec, i) => {
+    const plain = sec.facts.filter((f) => !f.debate), deb = sec.facts.filter((f) => f.debate);
+    const shown = plain.slice(0, 8), more = plain.slice(8);
+    const charts = (sec.charts || []).map((c) => renderRich({ type: "chart", kind: "bars", title: c.title, sub: c.sub, rows: c.rows, cite: c.cite, note: "" }, cite, { up: "../" })).join("");
+    const extra = sec.id === "who-moves" ? checks.slice(0, 1) : sec.id === "why-they-leave" ? est.slice(0, 1) : sec.id === "jobs" ? est.slice(1) : sec.id === "europe" ? checks.slice(1) : [];
+    return `<section id="sec-${esc(sec.id)}" class="mig-sec">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2><p class="mig-intro">${esc(sec.intro)}</p>${charts}${factList(shown)}${more.length ? `<details class="fold"><summary><span>${more.length} more facts</span></summary>${factList(more)}</details>` : ""}${deb.length ? `<aside class="callout mig-debate"><p class="callout-t">Where research disagrees</p><ul class="mig-facts">${deb.map((f) => `<li>${esc(f.text)}${cite(f.cite)}</li>`).join("")}</ul></aside>` : ""}${extra.length ? `<div class="checks">${extra.map((b) => renderRich(b, cite, { up: "../" })).join("")}</div>` : ""}</section>`;
+  }).join("\n");
+  const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul><li>Several UN agency sites (IOM, UNHCR) block automated reading, so some of their figures are quoted as reported by Frontex, Eurostat, the UN news service or the press. Each citation says where the number was read.</li><li>Deaths on the routes are counted from known cases: IOM calls its own figures a lower bound, and other counts are higher.</li><li>No readable official source gives the number of people born in Africa who live in the EU as a whole.</li>${(M.gaps || []).slice(0, 8).map((g) => `<li>${esc(g)}</li>`).join("")}<li>Voices: none yet. This page was written from published sources; people who made these journeys are not quoted here unless a source quotes them.</li></ul></section>`;
+  const body = `${compactHero({ scene: "sea", kicker: "Society", title: "Migration, without the myths", sub: "Who moves and where, what people flee, how they cross, and what research says about jobs." })}
+<div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
+<aside class="keypoints"><h2>In short</h2><ul>${secs.filter((x) => x.id !== "history").map((x) => `<li><a href="#sec-${esc(x.id)}">${esc(x.title)}</a>: ${esc(x.intro)}</li>`).join("")}</ul></aside>
+<aside class="callout mig-claim"><p class="callout-t">The claim this page tests</p><p>"They come to take our jobs." It is often said about migrants from Africa. The sections below look at who actually moves, why, how, and what the research on jobs and wages finds, including the studies that find costs for some workers. Every number has a source, and where researchers disagree the page says so.</p></aside>
+<nav class="story-nav-jump" aria-label="Jump to a section">${secs.map((x) => `<a href="#sec-${esc(x.id)}">${esc(x.title.replace(/^"They take our jobs": /, "Jobs: "))}</a>`).join("")}</nav>
+${secHtml}
+${gaps}
+<aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li><a href="../stories/europes-plan-for-africa-eurafrica/index.html">Europe's plan for Africa, in its own words</a></li><li><a href="../stories/did-one-conference-carve-up-africa/index.html">Did one conference carve up Africa?</a></li><li><a href="../society/index.html">Society: faith, government and language</a></li><li><a href="../peoples/index.html">Peoples, not 'tribes'</a></li></ul></aside>
+${sourcesList()}</article></div>`;
+  return layout({ title: `Migration · ${config.name}`, description: "African migration with sources: who moves and where, what people flee, routes and smuggling, what research says about jobs, and Europe's deals.", depth: 1, current: "migration", body, extraScripts: ["story.js", "share.js"], jump: secs.map((x) => ({ id: "sec-" + x.id, label: x.title.split(",")[0].replace(/^"They take our jobs": .*/, "Jobs") })) });
+}
+
 // Scheda di un popolo: stessi blocchi delle storie, più i paesi collegati; le voci di chi appartiene al popolo restano separate dal quadro documentato.
 function renderPeople(c) {
   const { cite, list: sourcesList } = makeCiter();
   const keyHtml = c.keyPoints ? `<aside class="keypoints" aria-labelledby="kp-h"><h2 id="kp-h">In short</h2><ul>${c.keyPoints.map((x) => `<li>${esc(x.text)}${x.cite ? cite(x.cite) : ""}</li>`).join("")}</ul></aside>` : "";
   const secs = (c.sections || []).map((sec, i) => `<section id="sec-${esc(sec.id)}">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2>${sec.blocks.map((b) => renderRich(b, cite, { up: "../../" })).join("")}</section>`).join("\n");
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul>${(c.gaps || []).map((g) => `<li>${esc(g)}</li>`).join("")}</ul></section>`;
-  const linkedStories = stories.filter((x) => (x.peoples || []).includes(c.slug)).map((x) => `<li>Story: <a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a></li>`);
+  const linkedStories = stories.filter((x) => storyPeoples(x).includes(c.slug)).map((x) => `<li>Story: <a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a></li>`);
   const linkedPlaces = (c.places || []).map((sl) => published.find((x) => x.slug === sl)).filter(Boolean).map((x) => `<li>Place: <a href="../../places/${esc(x.slug)}/index.html">${esc(x.name)}</a></li>`);
   const linkedCaps = (c.capitals || []).map((sl) => capitals.find(({ data: cp }) => cp.slug === sl && (cp.status === "published" || includeDrafts))).filter(Boolean).map(({ data: cp }) => `<li>Capital: <a href="../../capitals/${esc(cp.slug)}/index.html">${esc(cp.name)}</a></li>`);
   const peopleRelated = linkedStories.length || linkedPlaces.length || linkedCaps.length ? `<aside class="related" aria-label="Related"><h2>Linked by name</h2><p class="note-small">These links are chosen by hand: each page named below mentions this people in its own sources.</p><ul>${[...linkedStories, ...linkedPlaces, ...linkedCaps].join("")}<li><a href="../index.html">All peoples</a></li></ul></aside>` : "";
@@ -2077,7 +2461,7 @@ ${shareSection({ type: "people", id: c.slug, name: c.name, kinds: config.noteKin
 </section>`;
   const cl = (c.countries || []).map((iso) => cSlug[iso] ? `<a href="../../countries/${esc(cSlug[iso])}/index.html">${esc(cName[iso] || iso)}</a>` : esc(cName[iso] || iso)).join(" · ");
   const sts = stories.filter((x) => (x.countries || []).some((i) => (c.countries || []).includes(i))).slice(0, 4).map((x) => `<a href="../../stories/${esc(x.slug)}/index.html">${esc(x.title)}</a>`).join(" · ");
-  const body = `${compactHero({ kicker: `People · ${(c.countries || []).map((i) => cName[i] || i).join(", ")}`, title: c.name, sub: c.subtitle })}
+  const body = `${compactHero({ scene: "huts", kicker: `People · ${(c.countries || []).map((i) => cName[i] || i).join(", ")}`, title: c.name, sub: c.subtitle })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div>${keyHtml}<article class="story">${secs}
 ${peopleRelated}
 ${pageChecks("people", c.slug, cite)}
@@ -2110,7 +2494,7 @@ function renderExplore() {
     for (const st of stories) if ((st.peoples || []).includes(pp.slug)) edges.push([`e:${pp.slug}`, `s:${st.slug}`]);
   }
   const graph = { nodes, edges };
-  const body = `${compactHero({ kicker: "Explore", title: "Connections", sub: "Everything on this site is linked to something else. Pick a starting point and follow the threads." })}
+  const body = `${compactHero({ scene: "giraffes", kicker: "Explore", title: "Connections", sub: "Everything on this site is linked to something else. Pick a starting point and follow the threads." })}
 <div class="wrap prose-hero">
 <section class="explore" id="explore" aria-labelledby="ex-h">
   <div class="explore-intro">
@@ -2215,14 +2599,20 @@ function renderCapitals() {
     const profile = profileFor(c);
     const related = relatedFor(c);
     const relatedText = related.length ? related.map((p) => `<a href="../places/${esc(p.slug)}/index.html">${esc(p.name)}</a>`).join(", ") : "";
-    return `<li id="cap-${esc(c.iso3)}" class="capital-row"><div class="capital-link"><span class="capital-city">${esc(c.capital)}</span><span class="capital-country">${esc(c.name)}</span>${profile && profile.status === "published" ? `<a class="capital-status linked" href="../capitals/${esc(profile.slug)}/index.html">Open city profile</a>` : `<span class="capital-status">City profile in preparation</span>`}${relatedText ? `<span class="capital-related"><b>Related place cards:</b> ${relatedText}</span>` : ""}</div></li>`;
+    const isPub = profile && (profile.status === "published" || includeDrafts);
+    const imgHtml = profile && profile.image
+      ? (isPub
+        ? `<a class="capital-thumb-link" href="../capitals/${esc(profile.slug)}/index.html" aria-label="${esc(c.capital)} city profile"><img src="../img/capitals/${esc(profile.image.file)}-800.jpg" alt="${esc(profile.image.alt || c.capital)}" width="120" height="90" loading="lazy"></a>`
+        : `<span class="capital-thumb-link"><img src="../img/capitals/${esc(profile.image.file)}-800.jpg" alt="${esc(profile.image.alt || c.capital)}" width="120" height="90" loading="lazy"></span>`)
+      : `<span class="capital-thumb-link capital-ph" aria-hidden="true">${esc(c.capital.charAt(0))}</span>`;
+    return `<li id="cap-${esc(c.iso3)}" class="capital-row"><div class="capital-link">${imgHtml}<div class="capital-body"><span class="capital-city">${isPub ? `<a href="../capitals/${esc(profile.slug)}/index.html">${esc(c.capital)}</a>` : esc(c.capital)}</span><span class="capital-country">${esc(c.name)}</span>${isPub ? `<a class="capital-status linked" href="../capitals/${esc(profile.slug)}/index.html">Open city profile &rarr;</a>` : `<span class="capital-status">City profile in preparation</span>`}${relatedText ? `<span class="capital-related"><b>Related place cards:</b> ${relatedText}</span>` : ""}</div></div></li>`;
   };
   const groups = config.subregions.map((r) => ({ ...r, items: countries.filter((c) => c.subregion === r.id).sort((a, b) => a.name.localeCompare(b.name, "en")) })).filter((g) => g.items.length);
   const rows = groups.map((g) => `<section class="capital-group" id="cap-region-${esc(g.id)}"><h2>${esc(g.label)}</h2><ul class="capital-list">${g.items.map(row).join("")}</ul></section>`).join("");
   const jump = groups.map((g) => `<a href="#cap-region-${esc(g.id)}">${esc(g.label)}</a>`).join("");
   const withCards = countries.filter((c) => profileFor(c)?.status === "published").length;
   const withRelated = countries.filter((c) => relatedFor(c).length).length;
-  const body = `${compactHero({ kicker: "Places", title: "African capitals", sub: "The capital named in the country record, and the place card when one exists." })}
+  const body = `${compactHero({ scene: "city", kicker: "Places", title: "African capitals", sub: "The capital named in the country record, and the place card when one exists." })}
 <div class="wrap places-index">
   <p class="pi-count">${countries.length} capitals · ${withCards} city cards · ${withRelated} capitals with related place cards · ${countries.length - withCards} city cards still to write.</p>
   <section class="hero-lede"><p class="lede">This index keeps two things apart: a card about the capital city itself, and place cards located in or linked to that city. Both are useful, but they are not the same kind of guide.</p></section>
@@ -2235,6 +2625,7 @@ function renderCapitals() {
 write("capitals/index.html", renderCapitals());
 write("explore/index.html", renderExplore());
 write("peoples/index.html", renderPeoples());
+{ const mf = path.join(root, "content", "data", "migration.json"); if (fs.existsSync(mf)) write("migration/index.html", renderMigration(JSON.parse(fs.readFileSync(mf, "utf8")))); }
 for (const { data: c } of peoples) {
   if (c.status !== "published" && !includeDrafts) continue;
   if (!(c.sections || []).length) continue;
@@ -2303,14 +2694,27 @@ fs.copyFileSync(path.join(root, "src", "method-qa.js"), path.join(dist, "method-
 fs.mkdirSync(path.join(dist, "vendor"), { recursive: true });
 fs.copyFileSync(path.join(root, "node_modules", "motion", "dist", "motion.js"), path.join(dist, "vendor", "motion.js"));
 fs.copyFileSync(path.join(root, "node_modules", "motion", "LICENSE.md"), path.join(dist, "vendor", "motion-LICENSE.md"));
-// Solo le foto delle schede pubblicate: quelle delle bozze non vanno online.
-for (const pl of published) {
-  if (!pl.image) continue;
+// Foto delle schede pubblicate (o bozze se includeDrafts), più le immagini usate come anteprime nelle pagine:
+const placesToCopy = new Set(published.filter((pl) => pl.image).map((pl) => pl.image.file));
+for (const extra of ["merkato", "nakasero-market", "medina-of-fez"]) {
+  placesToCopy.add(extra);
+}
+for (const file of placesToCopy) {
   for (const size of [800, 1600]) {
-    const name = `${pl.image.file}-${size}.jpg`;
-    fs.mkdirSync(path.join(dist, "img", "places"), { recursive: true });
-    fs.copyFileSync(path.join(root, "src", "img", "places", name), path.join(dist, "img", "places", name));
+    const name = `${file}-${size}.jpg`;
+    const srcPath = path.join(root, "src", "img", "places", name);
+    if (fs.existsSync(srcPath)) {
+      fs.mkdirSync(path.join(dist, "img", "places"), { recursive: true });
+      fs.copyFileSync(srcPath, path.join(dist, "img", "places", name));
+    }
   }
+}
+// Immagini delle schede Food che non vengono da una figura della storia.
+for (const id of Object.values(FOOD_STORY_IMG)) {
+  const name = `${id}-800.jpg`, from = path.join(root, "src", "img", "stories", name);
+  if (!fs.existsSync(from)) continue;
+  fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
+  fs.copyFileSync(from, path.join(dist, "img", "stories", name));
 }
 // Immagini dei popoli (figure nelle schede): stessa cartella delle immagini delle storie.
 for (const { data: pe } of peoples) {
@@ -2330,6 +2734,18 @@ for (const st of stories) {
       const name = `${b.image.file}-${size}.jpg`;
       fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
       fs.copyFileSync(path.join(root, "src", "img", "stories", name), path.join(dist, "img", "stories", name));
+    }
+  }
+}
+// Immagini delle capitali:
+for (const { data: c } of capitals) {
+  if (!(c.status === "published" || includeDrafts) || !c.image) continue;
+  for (const size of [800, 1600]) {
+    const name = `${c.image.file}-${size}.jpg`;
+    const srcPath = path.join(root, "src", "img", "capitals", name);
+    if (fs.existsSync(srcPath)) {
+      fs.mkdirSync(path.join(dist, "img", "capitals"), { recursive: true });
+      fs.copyFileSync(srcPath, path.join(dist, "img", "capitals", name));
     }
   }
 }

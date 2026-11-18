@@ -1,6 +1,6 @@
 {
   "slug": "bamako-mali",
-  "status": "draft",
+  "status": "published",
   "country": "MLI",
   "name": "Bamako",
   "subtitle": "Bamako, capital of Mali: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -305,5 +305,16 @@
     "Not found in a readable source: Mosque capacity and architecture of the Bamako Grande Mosquée not verified.",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Mali has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-bamako-mali",
+    "alt": "Photograph of Bamako, capital of Mali.",
+    "caption": "Bamako, capital of Mali.",
+    "credit": "Gregor Rom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Pont_des_Martyrs_Bamako_(cropped).jpg",
+    "width": 800,
+    "height": 450
+  }
 }

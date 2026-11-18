@@ -85,5 +85,14 @@
     "Not found in a readable source: Current state of the Jos Museum collection: no readable institutional source found (NCMM, Met and Smithsonian pages are JavaScript-blocked or unreadable).",
     "Not found in a readable source: Materials beyond 'terracotta' and a maker-level description: not separately sourced.",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "nok-terracotta-sculptures-and-the-jos-museum",
+    "alt": "Scultura in terracotta della cultura Nok con caratteristici occhi triangolari traforati.",
+    "caption": "Figura in terracotta della cultura Nok (Nigeria centrale), databile al I millennio a.C.",
+    "credit": "Zbobai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Erected_Nok_Terracotta.jpg"
+  }
 }

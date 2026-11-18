@@ -5,10 +5,74 @@
   "country": "LSO",
   "name": "Papa le moroho",
   "region": "Lesotho",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Papa le moroho is stiff maize-meal porridge (papa) eaten with moroho, cooked green leafy vegetables.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "Moroho is the Sesotho (and Venda) name for leafy vegetables; isiXhosa and isiZulu speakers say imifino.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-5a214d"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "The vegetables can be young leaves, succulent stems, flowers and very young fruits.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-5a214d"
+      ]
+    },
+    {
+      "label": "A number",
+      "value": "The literature records 90 wild plants used as vegetables by the Basotho.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-5a214d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Papa le moroho is stiff maize-meal porridge (papa) eaten with moroho, cooked green leafy vegetables. Moroho is the Sesotho word for leafy vegetables, which can include young leaves, succulent stems, flowers and very young fruits; a 2023 review counted 90 wild plants the Basotho use as vegetables.",
+              "cite": [
+                "cap-pmc-ncbi-nlm-nih-gov-5a214d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In a survey of Basotho women, stiff maize porridge was eaten with all meals, often with moroho; homemade stiff porridge was eaten far more often in rural than urban areas, where bought porridge was more common.",
+              "cite": [
+                "cap-pmc-ncbi-nlm-nih-gov-5a214d"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: No complete recipe from an acceptable source.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

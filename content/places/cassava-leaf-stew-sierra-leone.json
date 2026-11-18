@@ -5,10 +5,99 @@
   "country": "SLE",
   "name": "Cassava leaf stew",
   "region": "Sierra Leone",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Cassava leaf stew is a Sierra Leonean stew of pounded or blended cassava leaves cooked with oil, onions, meat or fish and, in many versions, peanut butter.",
+  "facts": [
+    {
+      "label": "Status",
+      "value": "A comfort food for many Sierra Leoneans, also popular across West Africa with slight variations.",
+      "cite": [
+        "cap-tourismsierraleone-com-756361"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Served over white rice.",
+      "cite": [
+        "cap-tourismsierraleone-com-756361"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "In Maria Bradford's description, pounded and shredded cassava leaves are cooked in coconut oil with onions, ogiri (fermented oil seeds), butter beans, peanut butter and a little okra, and eaten with chilli.",
+      "cite": [
+        "cap-nationalgeographic-com-8c15d8"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "Palm oil is the foundation of many stews in Sierra Leone, and it turns deep brown when mixed with cassava leaves.",
+      "cite": [
+        "cap-csmonitor-com-7b7bd0"
+      ]
+    },
+    {
+      "label": "Where",
+      "value": "The cassava leaf and other West African staples cross national as well as provincial boundaries.",
+      "cite": [
+        "cap-csmonitor-com-7b7bd0"
+      ]
+    },
+    {
+      "label": "Nutrition",
+      "value": "Sierra Leone's dietary guidelines list cassava leaves among commonly available dark green leafy vegetables rich in vitamin A.",
+      "cite": [
+        "cap-afro-who-int-59568b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cassava leaf stew is a Sierra Leonean stew of pounded or blended cassava leaves cooked with oil, onions, meat or fish and, in many versions, peanut butter. Palm oil is the base of many stews in Sierra Leone and turns deep brown when it meets the leaves; Maria Bradford's version uses coconut oil, ogiri, butter beans and a little okra. The national tourist board calls it a comfort food for many Sierra Leoneans and notes that it is cooked across West Africa with variations.",
+              "cite": [
+                "cap-tourismsierraleone-com-756361",
+                "cap-nationalgeographic-com-8c15d8",
+                "cap-csmonitor-com-7b7bd0",
+                "cap-afro-who-int-59568b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is served over white rice and eaten with chilli; Freetown eateries serve it alongside groundnut stew.",
+              "cite": [
+                "cap-tourismsierraleone-com-756361",
+                "cap-nationalgeographic-com-8c15d8",
+                "cap-csmonitor-com-7b7bd0",
+                "cap-afro-who-int-59568b"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

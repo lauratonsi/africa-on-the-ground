@@ -55,5 +55,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "chapungu-sculpture-park",
+    "alt": "Scultura monumentale in serpentina dello scultore zimbabwese Bernard Sakarombe al Chapungu Sculpture Park.",
+    "caption": "Scultura in pietra ('Never Been Kissed' di Bernard Sakarombe) esposta al Chapungu Sculpture Park di Harare.",
+    "credit": "Lyn Mushakwe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Never_Been_Kissed_by_Bernard_Sakarombe.jpg"
+  }
 }

@@ -5,10 +5,88 @@
   "country": "LBY",
   "name": "Bazin",
   "region": "Libya",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bazin is a Libyan dough made from barley flour cooked in boiling salted water and served with a stew.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A Libyan barley-based dough served with a stew.",
+      "cite": [
+        "cap-al-monitor-com-cc8a7b"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Originally a Berber dish; a classic family meal from Tripolitania, the historic north-western region of Libya.",
+      "cite": [
+        "cap-al-monitor-com-cc8a7b"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "Barley flour is mixed into boiling salted water, cooked for at least an hour, then kneaded, divided and shaped into domes.",
+      "cite": [
+        "cap-al-monitor-com-cc8a7b"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Typically eaten by hand from a shared platter, with guests sitting on the ground around it.",
+      "cite": [
+        "cap-al-monitor-com-cc8a7b"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Volunteers in Tajura cook bazin for fasting people during Ramadan; one cook said that in the old days the dish was limited to the home.",
+      "cite": [
+        "cap-al-monitor-com-cc8a7b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bazin is a Libyan dough made from barley flour cooked in boiling salted water and served with a stew. The best-known version uses three parts barley flour to one part wheat flour; the cooked dough is kneaded and shaped into domes. It is an originally Berber (Amazigh) dish and a classic family meal from Tripolitania, in north-western Libya.",
+              "cite": [
+                "cap-al-monitor-com-cc8a7b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is typically eaten by hand from a shared platter, often for lunch on Fridays, with stews that may feature lamb, camel meat, chicken, squid or broad beans; during Ramadan, volunteers in Tajura cook it for people breaking the fast.",
+              "cite": [
+                "cap-al-monitor-com-cc8a7b"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: No academic or institutional source found for bazin; facts rest on AFP and a Libyan cook's blog.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

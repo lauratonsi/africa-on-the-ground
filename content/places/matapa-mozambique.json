@@ -5,10 +5,179 @@
   "country": "MOZ",
   "name": "Matapa",
   "region": "Mozambique",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Matapa is a traditional Mozambican dish of pounded cassava leaves cooked with garlic, onion, pounded peanuts and coconut, often with dried or fresh shrimp or with crab.",
+  "facts": [
+    {
+      "label": "Main ingredients",
+      "value": "Pounded cassava leaves, onion, dried or fresh shrimp, chopped garlic, salt, oil, pounded peanuts and coconut",
+      "cite": [
+        "cap-istituto-oikos-org-2c444e"
+      ]
+    },
+    {
+      "label": "Peanut milk",
+      "value": "Coconut milk is made by pouring hot water over grated coconut and straining it; pounded peanuts are added and strained again to give a peanut milk",
+      "cite": [
+        "cap-istituto-oikos-org-2c444e"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The pounded cassava leaves cook with garlic in very little water for about 20 minutes, then simmer with the peanut milk for 1 hour",
+      "cite": [
+        "cap-istituto-oikos-org-2c444e"
+      ]
+    },
+    {
+      "label": "Variants",
+      "value": "Matapa is also made with moringa leaves or with spinach (nhewe), eaten with rice or xima",
+      "cite": [
+        "cap-istituto-oikos-org-2c444e"
+      ]
+    },
+    {
+      "label": "Mozambican meal",
+      "value": "Today's Mozambican cooking is mainly curry (caril) served with rice or xima",
+      "cite": [
+        "cap-istituto-oikos-org-2c444e"
+      ]
+    },
+    {
+      "label": "Seafood",
+      "value": "A popular Mozambican stew in which fresh crab is slowly simmered in a peanut and coconut sauce; this version is served at a restaurant in Mozambique",
+      "cite": [
+        "cap-sbs-com-au-922880"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A traditional Mozambican dish made with cassava leaves, which a chef recommends serving with pap",
+      "cite": [
+        "cap-timeslive-co-za-342458"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Matapa is a traditional Mozambican dish of pounded cassava leaves cooked with garlic, onion, pounded peanuts and coconut, often with dried or fresh shrimp or with crab. The leaves cook first in very little water, then simmer for about an hour in a milk made from coconut and peanuts. Versions are also made with moringa leaves or spinach (nhewe).",
+              "cite": [
+                "cap-istituto-oikos-org-2c444e",
+                "cap-sbs-com-au-922880",
+                "cap-timeslive-co-za-342458"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Matapa variants are eaten with rice or xima; one South African chef recommends serving it with pap, and a Mozambican restaurant cook serves it with steamed white rice.",
+              "cite": [
+                "cap-istituto-oikos-org-2c444e",
+                "cap-sbs-com-au-922880",
+                "cap-timeslive-co-za-342458"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Carb and coconut matapa",
+          "servings": 4,
+          "sub": "One version of the dish, as given by SBS Food; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-sbs-com-au-922880"
+          ],
+          "note": "Recipe of Sonia, who serves it at her restaurant in Mozambique, filmed for Sarah Graham's Food Safari. Australian cup = 250 ml. Spinach is given first with cassava leaves as the alternative.",
+          "ingredients": [
+            {
+              "name": "garlic clove",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "small onion, chopped",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "ripe tomato, chopped",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "unsalted peanuts",
+              "amount": 1.75,
+              "unit": "cups"
+            },
+            {
+              "name": "coconut milk",
+              "amount": 0.75,
+              "unit": "cup"
+            },
+            {
+              "name": "salt",
+              "amount": null,
+              "unit": "to taste"
+            },
+            {
+              "name": "fresh crabs, steamed 6-10 minutes (or 6-8 large fresh prawns, steamed)",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "spinach (or cassava leaves)",
+              "amount": 1,
+              "unit": "large bunch"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Chop the greens and garlic finely and put them in a large pot with a pinch of salt, the onion, the tomato and only enough water to cover; cook on medium-high heat until smooth and nearly sticky.",
+              "minutes": 30
+            },
+            {
+              "text": "While the greens cook, grind the peanuts very finely (to about 1½ cups) and work them into a paste with a little of the coconut milk."
+            },
+            {
+              "text": "Stir the peanut paste, the rest of the coconut milk and the steamed crab into the greens."
+            },
+            {
+              "text": "Simmer gently on low heat, adjust the seasoning and serve with steamed white rice.",
+              "minutes": 60
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No UNESCO, government or academic text on matapa itself was found; the main source is an NGO manual made with Cabo Delgado health and education directorates.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

@@ -5,10 +5,103 @@
   "country": "MRT",
   "name": "Méchoui (roast lamb)",
   "region": "Mauritania",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Among Moorish nomadic herders in Mauritania, when an animal is slaughtered the best pieces are grilled directly on the embers (meshwiy), while the rest is boiled in a pot.",
+  "facts": [
+    {
+      "label": "How it is cooked",
+      "value": "When an animal is slaughtered, the best pieces are grilled directly on the embers (meshwiy)",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Rest of the animal",
+      "value": "The remaining meat is boiled (metbûkh) in a pot",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Served to guests",
+      "value": "For a guest, the best pieces are cooked in the embers or boiled and served as a snack (tajîn) to the guest and the men of the tent",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "The other, boiled pieces come later on a dish of rice or couscous",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Meaning",
+      "value": "Slaughtering an animal in a guest's honour is the high point of hospitality practices",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Custom",
+      "value": "Keshwa is the gift of a slaughtered animal in honour of a tent that has just settled nearby",
+      "cite": [
+        "cap-lemangeur-ocha-com-af8606"
+      ]
+    },
+    {
+      "label": "Festive occasion",
+      "value": "At the feast ending the pilgrimage to Mecca, a married man is expected to offer a lamb",
+      "cite": [
+        "cap-everyculture-com-0e4e4d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Among Moorish nomadic herders in Mauritania, when an animal is slaughtered the best pieces are grilled directly on the embers (meshwiy), while the rest is boiled in a pot. Slaughtering an animal in a guest's honour is described as the high point of Moorish hospitality.",
+              "cite": [
+                "cap-lemangeur-ocha-com-af8606",
+                "cap-everyculture-com-0e4e4d"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "For a guest, the best pieces are cooked in the embers and served as a first course to the guest and the men of the tent, with boiled meat following on rice or couscous; a lamb is also expected at the feast ending the pilgrimage to Mecca.",
+              "cite": [
+                "cap-lemangeur-ocha-com-af8606",
+                "cap-everyculture-com-0e4e4d"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No source meeting rule 3 describing a whole spit-roasted lamb (méchoui) in Mauritania specifically; facts describe Moorish grilled meat (meshwiy) and animal slaughter for guests and feasts. No complete recipe from a qualifying source.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

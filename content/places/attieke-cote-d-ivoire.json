@@ -5,10 +5,133 @@
   "country": "CIV",
   "name": "Attiéké",
   "region": "Côte d'Ivoire",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Attiéké is a dish made from steamed cassava: the tubers are ground and mixed with fermented cassava to make a semolina, which is then steamed.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A dish made from steamed cassava tubers.",
+      "cite": [
+        "cap-ich-unesco-org-14a3c2"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "The cassava is ground and mixed with fermented cassava to make a semolina, which is then steamed.",
+      "cite": [
+        "cap-ich-unesco-org-14a3c2"
+      ]
+    },
+    {
+      "label": "Who makes it",
+      "value": "Traditionally produced by women for household consumption.",
+      "cite": [
+        "cap-ich-unesco-org-14a3c2"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Produced by the lagoon peoples of Côte d’Ivoire.",
+      "cite": [
+        "cap-ich-unesco-org-14a3c2"
+      ]
+    },
+    {
+      "label": "Distribution",
+      "value": "After cooling it is packaged and distributed in baskets lined with cassava leaves.",
+      "cite": [
+        "cap-ich-unesco-org-14a3c2"
+      ]
+    },
+    {
+      "label": "Ceremonies",
+      "value": "A staple food at inaugurations, weddings, baptisms and funeral ceremonies.",
+      "cite": [
+        "cap-ich-unesco-org-240163"
+      ]
+    },
+    {
+      "label": "Place in the diet",
+      "value": "Accounts for about 5% of food expenses and 20.5% of calories in the diet of many Ivorian populations.",
+      "cite": [
+        "cap-ich-unesco-org-240163"
+      ]
+    },
+    {
+      "label": "UNESCO inscription",
+      "value": "Inscribed on the Representative List of the Intangible Cultural Heritage of Humanity at the 19th session of the Committee (Asunción, 2024).",
+      "cite": [
+        "cap-ich-unesco-org-240163"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "A slightly sour cassava semolina that accompanies fish and meat in sauce.",
+      "cite": [
+        "cap-fratmat-info-109437"
+      ]
+    },
+    {
+      "label": "When it is eaten",
+      "value": "Eaten every day and at ceremonies such as weddings, baptisms and funerals (Côte d’Ivoire's permanent delegate to UNESCO).",
+      "cite": [
+        "cap-fratmat-info-109437"
+      ]
+    },
+    {
+      "label": "Geographical indication",
+      "value": "In 2023 the African Intellectual Property Organization (OAPI) registered “attiéké des lagunes” as a protected geographical indication.",
+      "cite": [
+        "cap-fratmat-info-109437"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Attiéké is a dish made from steamed cassava: the tubers are ground and mixed with fermented cassava to make a semolina, which is then steamed. It is associated with the lagoon peoples of Côte d’Ivoire and is traditionally produced by women. In 2024 UNESCO inscribed the skills related to its production on the Representative List of the Intangible Cultural Heritage of Humanity.",
+              "cite": [
+                "cap-ich-unesco-org-14a3c2",
+                "cap-ich-unesco-org-240163",
+                "cap-fratmat-info-109437"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is eaten every day and at ceremonies such as weddings, baptisms and funerals, usually with fish or meat in sauce.",
+              "cite": [
+                "cap-ich-unesco-org-14a3c2",
+                "cap-ich-unesco-org-240163",
+                "cap-fratmat-info-109437"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No complete recipe with quantities from an acceptable source (attiéké is usually bought ready-made; recipe pages found were blogs or general sites).",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

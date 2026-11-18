@@ -63,5 +63,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "inema-arts-center",
+    "alt": "Opere pittoriche e sculture colorate all'Inema Arts Center di Kigali.",
+    "caption": "Spazio espositivo dell'Inema Arts Center a Kigali, fondato per promuovere l'arte contemporanea ruandese.",
+    "credit": "Jim Joel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Inema_Art_Center.jpg"
+  }
 }

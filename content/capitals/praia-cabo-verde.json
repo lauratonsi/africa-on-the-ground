@@ -1,6 +1,6 @@
 {
   "slug": "praia-cabo-verde",
-  "status": "draft",
+  "status": "published",
   "country": "CPV",
   "name": "Praia",
   "subtitle": "Praia, capital of Cabo Verde: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -298,5 +298,16 @@
     "Not found in a readable source: Museu Etnográfico: reopening date conflicts between sources (17 vs 18 October 2016), not recorded.",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Cabo Verde has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-praia-cabo-verde",
+    "alt": "Photograph of Praia, capital of Cabo Verde.",
+    "caption": "Praia, capital of Cabo Verde.",
+    "credit": "GualdimG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Rua_Pedonal%2C_Praia%2C_Cabo_Verde_01.jpg",
+    "width": 800,
+    "height": 600
+  }
 }

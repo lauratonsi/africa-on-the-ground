@@ -64,12 +64,12 @@
           "type": "figure",
           "image": {
             "file": "people-amazigh",
-            "alt": "A shop sign in Morocco with the same text written three times: in Tifinagh letters, in Arabic, and in French.",
-            "caption": "A shop sign in Morocco: the same text in Tifinagh (the script used for Amazigh languages), Arabic and French.",
-            "credit": "Mohamed Amarochan",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-            "source": "https://commons.wikimedia.org/wiki/File:Tifinagh_writing.JPG",
+            "alt": "A multi-storey stone fortified granary with small wooden windows and a central courtyard in the Anti-Atlas mountains.",
+            "caption": "The collective fortified granary (agadir) of Inoumar in Morocco's Anti-Atlas, a communal storehouse managed for centuries by Amazigh village assemblies.",
+            "credit": "Tadam",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "https://commons.wikimedia.org/wiki/File:Agadir_Inoumar.jpg",
             "width": 800,
             "height": 600
           }

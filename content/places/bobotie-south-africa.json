@@ -5,10 +5,266 @@
   "country": "ZAF",
   "name": "Bobotie",
   "region": "South Africa",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Bobotie is a South African baked dish of curried ground meat with dried fruit and nuts, topped with an egg and milk mixture.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A South African dish of curry, dried fruit, ground meat and nuts, topped with an egg and milk mixture.",
+      "cite": [
+        "cap-csmonitor-com-3d554f"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Traditionally served with yellow rice.",
+      "cite": [
+        "cap-dailymaverick-co-za-33b95d"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "The inspiration for the dish reached South Africa with the slave trade of the Dutch East India Company.",
+      "cite": [
+        "cap-dailymaverick-co-za-33b95d"
+      ]
+    },
+    {
+      "label": "Adaptation",
+      "value": "The early Cape Malay cooks replaced Malaysian ingredients with what was available at the Cape.",
+      "cite": [
+        "cap-dailymaverick-co-za-33b95d"
+      ]
+    },
+    {
+      "label": "Status",
+      "value": "According to Cape Malay cook Cass Abrahams, bobotie was at first considered kitchen food (kombuiskos), not fit to serve to guests.",
+      "cite": [
+        "cap-dailymaverick-co-za-33b95d"
+      ]
+    },
+    {
+      "label": "Debate on origin",
+      "value": "Its origins and 'ownership' are contested. Food writers Pieter Veldsman and Renata Coetzee hold that it was invented at the Cape by slaves who knew Eastern spices; HW Claassens argues it arrived with the original Dutch settlers.",
+      "cite": [
+        "cap-namibian-com-na-fc030a"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "The name bobotie was already in use by 1752.",
+      "cite": [
+        "cap-namibian-com-na-fc030a"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "In 1951 it was the South African dish chosen for a United Nations recipe book on world cuisine.",
+      "cite": [
+        "cap-namibian-com-na-fc030a"
+      ]
+    },
+    {
+      "label": "Today",
+      "value": "A common dish in South Africa, made in many variations.",
+      "cite": [
+        "cap-csmonitor-com-3d554f"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Bobotie is a South African baked dish of curried ground meat with dried fruit and nuts, topped with an egg and milk mixture. It is linked to Cape Malay cooking and to the slave trade of the Dutch East India Company, though its origins are contested: one food historian argues it came with the first Dutch settlers, and the name was in use by 1752.",
+              "cite": [
+                "cap-csmonitor-com-3d554f",
+                "cap-dailymaverick-co-za-33b95d",
+                "cap-namibian-com-na-fc030a"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is traditionally served with yellow rice and is a common dish in South Africa, made in many variations.",
+              "cite": [
+                "cap-csmonitor-com-3d554f",
+                "cap-dailymaverick-co-za-33b95d",
+                "cap-namibian-com-na-fc030a"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Bobotie: The Cape on a plate",
+          "servings": 4,
+          "sub": "One version of the dish, as given by Farmer's Weekly; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-farmersweekly-co-za-593014"
+          ],
+          "note": "The source says the recipe serves 4 to 6 and bakes for 30 to 40 minutes. It suggests basmati or long-grain rice, mango pickle, and chopped onion, tomato and green chilli on the side.",
+          "ingredients": [
+            {
+              "name": "minced lamb or mutton",
+              "amount": 300,
+              "unit": "g"
+            },
+            {
+              "name": "minced beef (topside)",
+              "amount": 300,
+              "unit": "g"
+            },
+            {
+              "name": "white bread",
+              "amount": 3,
+              "unit": "slices"
+            },
+            {
+              "name": "carrots",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "eggs",
+              "amount": 3,
+              "unit": ""
+            },
+            {
+              "name": "canola or sunflower oil",
+              "amount": 50,
+              "unit": "ml"
+            },
+            {
+              "name": "big onions",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "garlic",
+              "amount": 5,
+              "unit": "cloves"
+            },
+            {
+              "name": "bay leaves",
+              "unit": "1 or 2"
+            },
+            {
+              "name": "fresh ginger root",
+              "amount": 60,
+              "unit": "mm"
+            },
+            {
+              "name": "jaggery (palm sugar)",
+              "amount": 1,
+              "unit": "tablespoon"
+            },
+            {
+              "name": "lemon",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "cream",
+              "amount": 125,
+              "unit": "ml"
+            },
+            {
+              "name": "plain yoghurt",
+              "amount": 125,
+              "unit": "ml"
+            },
+            {
+              "name": "whole coriander seeds (masala)",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "white cardamom pods (masala)",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "whole cumin seeds (masala)",
+              "amount": 1,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "ground nutmeg (masala)",
+              "amount": 0.5,
+              "unit": "teaspoon"
+            },
+            {
+              "name": "cinnamon stick (masala)",
+              "amount": 75,
+              "unit": "mm"
+            },
+            {
+              "name": "dried chillies (masala)",
+              "amount": 2,
+              "unit": ""
+            }
+          ],
+          "steps": [
+            {
+              "text": "Toast all the whole masala spices (not the nutmeg) in a dry pot over medium heat, stirring, until they darken slightly and smell roasted; take off the heat before they burn."
+            },
+            {
+              "text": "Grind the toasted spices to a fine powder, mix in the nutmeg and set aside."
+            },
+            {
+              "text": "Peel and grate the ginger and carrots, slice the onions thinly and crush and chop the garlic."
+            },
+            {
+              "text": "In a heavy frying pan with a thin film of oil, fry the garlic and ginger over medium heat.",
+              "minutes": 1
+            },
+            {
+              "text": "Add the onion and cook gently until soft, then crumble in both minces and brown them."
+            },
+            {
+              "text": "Stir in the spice mix, bay leaves and grated carrot, then the jaggery (or brown sugar), the juice of the lemon, and salt and black pepper to taste."
+            },
+            {
+              "text": "Moisten the bread with a little water, mash it by hand and stir it into the meat. Heat the oven to 180°C."
+            },
+            {
+              "text": "Spread the meat in a shallow rectangular oven dish. Beat the cream and yoghurt with two whole eggs and one egg yolk and pour over the meat."
+            },
+            {
+              "text": "Bake until the custard is set and lightly browned.",
+              "minutes": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

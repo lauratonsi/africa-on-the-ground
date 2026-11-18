@@ -1,6 +1,6 @@
 {
   "slug": "accra-ghana",
-  "status": "draft",
+  "status": "published",
   "country": "GHA",
   "name": "Accra",
   "subtitle": "Accra, capital of Ghana: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -208,5 +208,16 @@
     "Socioeconomic data for recent suburban expansions in East Legon and Tema are partially updated.",
     "First-hand local voices from Ga Mantse traditional palace elders and Jamestown artisanal fishers are missing.",
     "Cityscape photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-accra-ghana",
+    "alt": "Photograph of Accra, capital of Ghana.",
+    "caption": "Accra, capital of Ghana.",
+    "credit": "Celestinesucess",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_Star_Gate%2C_Accra.jpg",
+    "width": 800,
+    "height": 1066
+  }
 }

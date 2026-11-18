@@ -1,6 +1,6 @@
 {
   "slug": "kigali-rwanda",
-  "status": "draft",
+  "status": "published",
   "country": "RWA",
   "name": "Kigali",
   "subtitle": "Kigali, capital of Rwanda: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -253,5 +253,16 @@
     "Not found in a readable source: Myth: none stated explicitly by a source",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Rwanda has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-kigali-rwanda",
+    "alt": "Photograph of Kigali, capital of Rwanda.",
+    "caption": "Kigali, capital of Rwanda.",
+    "credit": "BalukuBrian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kigali_Convention_Center_outside_parking_and_compound.jpg",
+    "width": 800,
+    "height": 450
+  }
 }

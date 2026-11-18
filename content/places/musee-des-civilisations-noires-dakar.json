@@ -55,5 +55,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "musee-des-civilisations-noires-dakar",
+    "alt": "L'imponente edificio circolare del Musée des Civilisations Noires a Dakar.",
+    "caption": "Il Musée des Civilisations Noires a Dakar, inaugurato nel 2018 per valorizzare le culture africane e della diaspora.",
+    "credit": "PMO Barbados",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_civilisations_noires_2022.jpg"
+  }
 }

@@ -5,10 +5,179 @@
   "country": "COM",
   "name": "Pilao",
   "region": "Comoros",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Pilao is a Comorian spiced rice dish; one Comorian recipe cooks rice with chicken, saffron, curry, cardamom, coriander and cinnamon until the rice absorbs all the liquid.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Pilao is a spiced rice dish",
+      "cite": [
+        "cap-dante-univ-tlse2-fr-dafb76"
+      ]
+    },
+    {
+      "label": "Ceremonies",
+      "value": "Even at a modest ceremony (mdvoihiricho), pilao remains indispensable, served with mkatra boin'tam (rice bread), madaba (cassava leaves) and grilled meats called djocho",
+      "cite": [
+        "cap-dante-univ-tlse2-fr-dafb76"
+      ]
+    },
+    {
+      "label": "Weddings",
+      "value": "At weddings in wealthier families, emblematic dishes such as pilao, madaba and Comorian-style lobster are joined by luxury or exotic foods",
+      "cite": [
+        "cap-dante-univ-tlse2-fr-dafb76"
+      ]
+    },
+    {
+      "label": "Major occasions",
+      "value": "Pilaou is among the dishes a person from a traditional Comorian family grows up expecting at major occasions",
+      "cite": [
+        "cap-dante-univ-tlse2-fr-dafb76"
+      ]
+    },
+    {
+      "label": "Ingredients (one recipe)",
+      "value": "A Comorian recipe uses chicken, rice and saffron with curry, cardamom, coriander and cinnamon",
+      "cite": [
+        "cap-afrik-com-b17811"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The rice cooks in the sauce over low heat for about half an hour until it absorbs all the water",
+      "cite": [
+        "cap-afrik-com-b17811"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pilao is a Comorian spiced rice dish; one Comorian recipe cooks rice with chicken, saffron, curry, cardamom, coriander and cinnamon until the rice absorbs all the liquid. It is one of the emblematic dishes of Comorian ceremonies.",
+              "cite": [
+                "cap-dante-univ-tlse2-fr-dafb76",
+                "cap-afrik-com-b17811"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pilao is indispensable at major occasions, even at modest ceremonies, where it is served with rice bread, madaba and grilled meats, and it features among the emblematic dishes at weddings.",
+              "cite": [
+                "cap-dante-univ-tlse2-fr-dafb76",
+                "cap-afrik-com-b17811"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Recette du poulet au pilao",
+          "servings": 4,
+          "sub": "One version of the dish, as given by Afrik.com; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-afrik-com-b17811"
+          ],
+          "note": "Spice quantities are not given by the source; prep 20 minutes, cooking 50 minutes. Saffron is listed but its use is not stated in the steps.",
+          "ingredients": [
+            {
+              "name": "chicken (boneless)",
+              "amount": 1,
+              "unit": "kg"
+            },
+            {
+              "name": "tomatoes",
+              "amount": 3,
+              "unit": ""
+            },
+            {
+              "name": "onions",
+              "amount": 2,
+              "unit": ""
+            },
+            {
+              "name": "garlic cloves",
+              "amount": 3,
+              "unit": ""
+            },
+            {
+              "name": "rice",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "name": "saffron",
+              "amount": 2,
+              "unit": "pinches"
+            },
+            {
+              "name": "spices: curry, cardamom, coriander, cinnamon",
+              "amount": null,
+              "unit": ""
+            },
+            {
+              "name": "salt and pepper",
+              "amount": null,
+              "unit": ""
+            },
+            {
+              "name": "hot water",
+              "amount": 50,
+              "unit": "cl"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Cut the chicken into small pieces, toss with half the spices and the finely chopped garlic, brown it in oil in a large pan and set aside."
+            },
+            {
+              "text": "In a casserole, soften the finely chopped onions, add the diced tomatoes and simmer gently.",
+              "minutes": 10
+            },
+            {
+              "text": "Stir in the rice with the rest of the spices so every grain is coated in sauce."
+            },
+            {
+              "text": "Return the chicken, stir and cook on low heat.",
+              "minutes": 10
+            },
+            {
+              "text": "Pour the hot water over the rice, cover and cook gently until the rice has absorbed all the liquid.",
+              "minutes": 30
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No Comorian institutional or press source on pilao was found; the academic source is a Master 1 dissertation.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

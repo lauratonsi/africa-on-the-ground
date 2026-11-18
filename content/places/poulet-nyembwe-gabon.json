@@ -5,10 +5,97 @@
   "country": "GAB",
   "name": "Poulet nyembwe",
   "region": "Gabon",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Poulet nyembwe is smoked chicken cooked in a palm-nut sauce, also called sauce graine.",
+  "facts": [
+    {
+      "label": "Status",
+      "value": "A traditional dish of Gabon, often considered the national dish.",
+      "cite": [
+        "cap-afrik-com-1e3e05"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Mainly smoked chicken cooked in a palm-nut sauce, also called sauce graine.",
+      "cite": [
+        "cap-afrik-com-1e3e05"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Nyembwé means palm oil in Myènè, a Bantu language spoken in Gabon.",
+      "cite": [
+        "cap-afrik-com-1e3e05"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The smoked chicken pieces go in once the palm-nut sauce starts to thicken.",
+      "cite": [
+        "cap-afrik-com-1e3e05"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "The dish comes from the Myènè people.",
+      "cite": [
+        "cap-routard-com-4562ca"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Usually served with plantain, rice, cassava or yam purée.",
+      "cite": [
+        "cap-routard-com-4562ca"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Poulet nyembwe is smoked chicken cooked in a palm-nut sauce, also called sauce graine. Nyembwe means palm oil in Myènè, a Bantu language of Gabon, and the dish comes from the Myènè people. It is often considered Gabon's national dish.",
+              "cite": [
+                "cap-afrik-com-1e3e05",
+                "cap-routard-com-4562ca"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is usually served with plantain, rice, cassava or yam purée.",
+              "cite": [
+                "cap-afrik-com-1e3e05",
+                "cap-routard-com-4562ca"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Afrik.com gives a recipe for 6 but no quantity for the smoked chicken, so it was not recorded as a complete recipe.",
+    "Not found in a readable source: No academic source found; the Routard entry is a printed travel guide's food section.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

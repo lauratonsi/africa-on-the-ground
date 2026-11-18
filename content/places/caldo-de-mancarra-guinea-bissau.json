@@ -5,10 +5,96 @@
   "country": "GNB",
   "name": "Caldo de mancarra",
   "region": "Guinea-Bissau",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Caldo de mancarra is a stew of fish, chicken or meat based on peanut paste diluted with water; mancarra is the Guinean name for the peanut.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "Mancarra is the Guinean name for the peanut.",
+      "cite": [
+        "cap-e-konomista-pt-3c5b09"
+      ]
+    },
+    {
+      "label": "Place in the cuisine",
+      "value": "One of the most common and typical dishes of Guinea-Bissau, as the peanut is one of the most widely found foods in the country.",
+      "cite": [
+        "cap-e-konomista-pt-3c5b09"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A stew of fish, chicken or meat based on peanut paste diluted with water, described by a man from near Bissau as the best-known dish.",
+      "cite": [
+        "cap-pratofeito-substack-com-61dc5f"
+      ]
+    },
+    {
+      "label": "Variation",
+      "value": "Like caldo de chabéu, it can be made with different main ingredients (mafés), without a single official version.",
+      "cite": [
+        "cap-pratofeito-substack-com-61dc5f"
+      ]
+    },
+    {
+      "label": "Related dish",
+      "value": "Very similar to the Senegalese peanut stew mafé.",
+      "cite": [
+        "cap-pratofeito-substack-com-61dc5f"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "Served with white rice.",
+      "cite": [
+        "cap-e-konomista-pt-3c5b09"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Caldo de mancarra is a stew of fish, chicken or meat based on peanut paste diluted with water; mancarra is the Guinean name for the peanut. It is described as one of the most common and typical dishes of Guinea-Bissau, where the peanut is one of the most widely found foods.",
+              "cite": [
+                "cap-e-konomista-pt-3c5b09",
+                "cap-pratofeito-substack-com-61dc5f"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is served with white rice.",
+              "cite": [
+                "cap-e-konomista-pt-3c5b09",
+                "cap-pratofeito-substack-com-61dc5f"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No academic, institutional or major-press source on the dish was found; facts rest on a Portuguese online magazine and an interview-based food newsletter.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

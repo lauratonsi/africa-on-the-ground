@@ -1,0 +1,261 @@
+{
+  "slug": "do-most-african-migrants-go-to-europe",
+  "status": "published",
+  "kind": "myth",
+  "title": "Do most African migrants go to Europe?",
+  "subtitle": "The majority of Africans who move stay on the continent: nearly 21 million live in another African state, compared with roughly 11 million in Europe.",
+  "countries": [
+    "UGA",
+    "ETH",
+    "TCD",
+    "ZAF",
+    "CIV"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "claim",
+      "title": "The idea",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "European headlines and political discourse frequently describe African migration as a massive, relentless exodus pointed entirely at the shores of the Mediterranean.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "estimate",
+          "prompt": "What percentage of African international migrants reside within the African continent rather than outside it?",
+          "min": 10,
+          "max": 90,
+          "step": 5,
+          "unit": "%",
+          "answer": 52,
+          "decimals": 0,
+          "parts": [
+            {
+              "text": "About 52 percent: in UN DESA and IOM data, 20.8 million of the roughly 40.2 million African international migrants live in another African nation.",
+              "cite": [
+                "undesa-migration-stock-2020",
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "continental-stock",
+      "title": "The geography of African mobility",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "20.8M",
+              "label": "African migrants living in another African country (2020)",
+              "cite": [
+                "undesa-migration-stock-2020"
+              ]
+            },
+            {
+              "value": "19.5M",
+              "label": "African migrants living outside Africa worldwide",
+              "cite": [
+                "undesa-migration-stock-2020"
+              ]
+            },
+            {
+              "value": "~11M",
+              "label": "African-born residents in all 27 EU member states combined",
+              "cite": [
+                "undesa-migration-stock-2020",
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "According to the United Nations Department of Economic and Social Affairs (UN DESA) International Migrant Stock, more African migrants live within Africa than outside it.",
+              "cite": [
+                "undesa-migration-stock-2020"
+              ]
+            },
+            {
+              "text": " In 2020, roughly 20.8 million African-born people resided in an African country different from the one in which they were born, whereas 19.5 million resided outside the continent.",
+              "cite": [
+                "undesa-migration-stock-2020",
+                "iom-african-migration-report-2024"
+              ]
+            },
+            {
+              "text": " Of those outside Africa, approximately 11 million lived in Europe, about 5 million in Asia (chiefly in the Gulf States), and roughly 3 million in the Americas.",
+              "cite": [
+                "undesa-migration-stock-2020"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Across the entire European Union, African-born residents represent less than 3 percent of the total EU population of roughly 450 million.",
+              "cite": [
+                "undesa-migration-stock-2020"
+              ]
+            },
+            {
+              "text": " The perception of an entire continent emptying out toward Europe is flatly contradicted by demography.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regional-corridors",
+      "title": "Borders, regional trade and circular labour",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The Second Edition of the African Migration Report, jointly published by the African Union Commission and the International Organization for Migration (IOM), shows that the vast bulk of mobility across Africa follows long-standing historic corridors between adjacent neighbours.",
+              "cite": [
+                "iom-african-migration-report-2024"
+              ]
+            },
+            {
+              "text": " In West Africa, the Economic Community of West African States (ECOWAS) has guaranteed the free movement of persons, right of residence, and establishment since 1979.",
+              "cite": [
+                "iom-african-migration-report-2024"
+              ]
+            },
+            {
+              "text": " Over 80 percent of migration originating in West African countries remains inside the ECOWAS region, driven by seasonal agricultural cycles, cocoa harvesting in Côte d'Ivoire, and cross-border commercial networks linking Nigeria, Ghana, and Senegal.",
+              "cite": [
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Southern Africa, the regional economy gravitates toward South Africa, which hosts over 2.8 million international migrants, predominantly from Zimbabwe, Mozambique, and Lesotho.",
+              "cite": [
+                "undesa-migration-stock-2020",
+                "iom-african-migration-report-2024"
+              ]
+            },
+            {
+              "text": " In the East and Horn of Africa, nomadic pastoralism and circular labour mobility between Kenya, Uganda, Tanzania, and Ethiopia mean that moving across borders is a routine livelihood strategy rather than a permanent rupture.",
+              "cite": [
+                "iom-african-migration-report-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refugee-hosting",
+      "title": "Who hosts the displaced?",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "1.6M+",
+              "label": "refugees hosted in Uganda alone (2024)",
+              "cite": [
+                "unhcr-global-trends-2023"
+              ]
+            },
+            {
+              "value": "1M+",
+              "label": "refugees and returnees in Chad, including 600,000+ Sudanese",
+              "cite": [
+                "unhcr-global-trends-2023",
+                "unhcr-sudan-emergency-2024"
+              ]
+            },
+            {
+              "value": "75%+",
+              "label": "of globally displaced people hosted in low- and middle-income nations",
+              "cite": [
+                "unhcr-global-trends-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "When violence or environmental shocks compel people to flee their homes, the overwhelming burden of reception falls on immediate neighbours inside Africa, not on wealthy industrialized states.",
+              "editorial": true
+            },
+            {
+              "text": " According to UNHCR's Global Trends report, low- and middle-income countries host over 75 percent of the world's refugees and people in need of international protection.",
+              "cite": [
+                "unhcr-global-trends-2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Uganda has long maintained one of the world's most progressive refugee frameworks, granting refugees plots of arable land to cultivate, freedom of movement, and access to state education and healthcare.",
+              "cite": [
+                "unhcr-global-trends-2023"
+              ]
+            },
+            {
+              "text": " By 2024, Uganda hosted over 1.6 million refugees, primarily from South Sudan and the eastern Democratic Republic of the Congo.",
+              "cite": [
+                "unhcr-global-trends-2023"
+              ]
+            },
+            {
+              "text": " Similarly, eastern Chad, despite facing severe food insecurity and arid conditions, opened its borders to hundreds of thousands of Sudanese fleeing massacres in Darfur.",
+              "cite": [
+                "unhcr-sudan-emergency-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Internal displacement dwarfs international journeys",
+          "parts": [
+            {
+              "text": "According to the Internal Displacement Monitoring Centre (IDMC GRID 2024), over 35 million Africans live displaced within their own country's borders because of conflict and natural disasters.",
+              "cite": [
+                "idmc-grid-2024"
+              ]
+            },
+            {
+              "text": " Moving across an international border is already a minority outcome; reaching another continent is the exception of an exception.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Informal cross-border mobility in regional economic communities like ECOWAS or EAC often bypasses official border posts, meaning statistical counts likely understate circular seasonal mobility.",
+    "Census counts in several African nations are years apart, so regional migrant stock totals rely partly on demographic interpolations by UN DESA."
+  ]
+}

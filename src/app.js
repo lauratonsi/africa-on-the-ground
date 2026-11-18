@@ -258,7 +258,7 @@
     if (on) pickBloc(on.getAttribute("data-bloc-pick"));
   }
 
-  var tools = $("tools"), q = $("q"), tsub = $("tsub"), sub = $("sub"), subfilter = $("subfilter"), tcount = $("tcount");
+  var tools = $("tools"), q = $("q"), pq = $("pq"), ptools = $("ptools"), tsub = $("tsub"), sub = $("sub"), subfilter = $("subfilter"), tcount = $("tcount");
   var rows = all("tbody tr", table);
   var state = { sub: "all", q: "" };
   function apply() {
@@ -267,16 +267,22 @@
       var on = (state.sub === "all" || tr.getAttribute("data-sub") === state.sub) && (!state.q || tr.getAttribute("data-name").indexOf(state.q) >= 0);
       tr.hidden = !on; if (on) n++;
     });
+    all(".country-grid-card").forEach(function (card) {
+      var on = (state.sub === "all" || card.getAttribute("data-sub") === state.sub) && (!state.q || card.getAttribute("data-name").indexOf(state.q) >= 0);
+      card.hidden = !on;
+    });
     if (tcount) tcount.textContent = n === rows.length ? "" : n + " shown";
     all("[data-sub]", document.querySelector("main")).forEach(function (el) {
-      if (el.tagName === "TR" || el.closest("table")) return;
+      if (el.tagName === "TR" || el.classList.contains("country-grid-card") || el.closest("table")) return;
       el.classList.toggle("dim", state.sub !== "all" && el.getAttribute("data-sub") !== state.sub);
     });
     if (tsub) tsub.value = state.sub; if (sub) sub.value = state.sub;
   }
   if (tools) tools.hidden = false;
+  if (ptools) ptools.hidden = false;
   if (subfilter) subfilter.hidden = false;
-  if (q) q.addEventListener("input", function () { state.q = q.value.trim().toLowerCase(); apply(); });
+  if (pq) pq.addEventListener("input", function () { state.q = pq.value.trim().toLowerCase(); if (q) q.value = pq.value; apply(); });
+  if (q) q.addEventListener("input", function () { state.q = q.value.trim().toLowerCase(); if (pq) pq.value = q.value; apply(); });
   [tsub, sub].forEach(function (s) { if (s) s.addEventListener("change", function () { state.sub = s.value; apply(); }); });
 
   // ordinamento per colonna
@@ -348,7 +354,7 @@
       detail.appendChild(pdl);
       detail.appendChild(el("p", "detail-rank", "Rank of " + d.n + ": #" + d.rankPop + " by population, #" + d.rankArea + " by area, #" + d.rankDen + " by density."));
       if (d.voices) { var vb = el("div", "detail-voices"); var vh = el("h4", null, "Notes from people who know " + d.name); vb.appendChild(vh); vb.insertAdjacentHTML("beforeend", d.voices); detail.appendChild(vb); }
-      var pg = el("a", "detail-card", "Open the page of " + d.name); pg.href = d.page; detail.appendChild(pg);
+      var pg = el("a", "detail-card detail-card-primary", "Explore full country profile for " + d.name + " →"); pg.href = d.page; detail.appendChild(pg);
       d.cards.forEach(function (c) { var a = el("a", "detail-card", "Place card: " + c.name); a.href = c.href; detail.appendChild(a); });
       var b = el("button", "detail-clear", "Clear selection"); b.type = "button"; b.addEventListener("click", clear); detail.appendChild(b);
       if (history.replaceState) history.replaceState(null, "", "#c-" + iso);

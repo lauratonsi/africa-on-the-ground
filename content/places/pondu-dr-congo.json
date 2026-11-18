@@ -5,10 +5,112 @@
   "country": "COD",
   "name": "Pondu",
   "region": "DR Congo",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Pondu is the Congolese name for cassava leaves and for the dish made from them.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Cassava leaves, described as an emblematic dish of the DR Congo.",
+      "cite": [
+        "cap-acp-cd-ea80b6"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "Whole leaves are first turned into ground leaves, which are then cooked into the prepared pondu dish.",
+      "cite": [
+        "cap-orbi-uliege-be-e41894"
+      ]
+    },
+    {
+      "label": "Cooking time",
+      "value": "Cooking cassava leaves (pondu or pondu-madesu) takes at least 120 minutes.",
+      "cite": [
+        "cap-orbi-uliege-be-e41894"
+      ]
+    },
+    {
+      "label": "Versions",
+      "value": "The most common are pondu ya madesu (with beans), limbondo (with bicarbonate) and saka saka or matamba (without bicarbonate or beans).",
+      "cite": [
+        "cap-orbi-uliege-be-e41894"
+      ]
+    },
+    {
+      "label": "Quantity eaten",
+      "value": "Households and hotels, restaurants and cafés in Kinshasa consume about 699,685 tonnes of cassava leaves a year (Kinkela et al., 2017).",
+      "cite": [
+        "cap-orbi-uliege-be-e41894"
+      ]
+    },
+    {
+      "label": "Cultural value",
+      "value": "A household survey found that cassava leaves and chikwangue have strong symbolic and cultural value.",
+      "cite": [
+        "cap-orbi-uliege-be-e41894"
+      ]
+    },
+    {
+      "label": "Daily food",
+      "value": "Cassava leaves are part of the daily meals of Kinshasa residents.",
+      "cite": [
+        "cap-afrique-le360-ma-f31824"
+      ]
+    },
+    {
+      "label": "Markets",
+      "value": "Commonly called pondu, cassava leaves are the most visible produce on Kinshasa's market stalls.",
+      "cite": [
+        "cap-afrique-le360-ma-f31824"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Pondu is the Congolese name for cassava leaves and for the dish made from them. The leaves are first ground and then cooked into the prepared dish, for at least two hours. The most common versions in Kinshasa are pondu ya madesu (with beans), limbondo (with bicarbonate) and saka saka or matamba (with neither).",
+              "cite": [
+                "cap-acp-cd-ea80b6",
+                "cap-orbi-uliege-be-e41894",
+                "cap-afrique-le360-ma-f31824"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Cassava leaves are part of the daily meals of Kinshasa residents and the most visible produce on the city's market stalls.",
+              "cite": [
+                "cap-acp-cd-ea80b6",
+                "cap-orbi-uliege-be-e41894",
+                "cap-afrique-le360-ma-f31824"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No complete recipe with quantities from an acceptable source.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

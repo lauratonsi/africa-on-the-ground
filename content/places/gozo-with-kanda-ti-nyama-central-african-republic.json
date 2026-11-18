@@ -5,10 +5,109 @@
   "country": "CAF",
   "name": "Gozo with kanda ti nyama",
   "region": "Central African Republic",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Gozo is the cassava staple of Central African meals and is named among the emblematic dishes of Bangui; cassava, peeled, retted to remove toxins and dried, supplies about half of the country's food en",
+  "facts": [
+    {
+      "label": "Emblematic dish",
+      "value": "Gozo is named among the emblematic dishes of Bangui, with fish maboké and fufu with okra",
+      "cite": [
+        "cap-africa24tv-com-224c85"
+      ]
+    },
+    {
+      "label": "Daily lunch",
+      "value": "A Bangui resident describes the cassava eaten at lunch with yetoum leaves and groundnut meat as 'gozo', a flagship dish never missing from the lunch table",
+      "cite": [
+        "cap-africa24tv-com-224c85"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Many young people pay little attention to these traditional dishes and prefer Western food",
+      "cite": [
+        "cap-africa24tv-com-224c85"
+      ]
+    },
+    {
+      "label": "Base crop",
+      "value": "Cassava, the base of gozo, supplies about half of food energy needs in the Central African Republic (FAO figure for CAR, Congo and Zaire)",
+      "cite": [
+        "cap-fao-org-a60637"
+      ]
+    },
+    {
+      "label": "Processing",
+      "value": "Cassava is the population's main staple; it is processed by peeling, retting (soaking to detoxify the tubers) and drying",
+      "cite": [
+        "cap-respect-international-2f64ca"
+      ]
+    },
+    {
+      "label": "Kanda",
+      "value": "Kanda is a Central African Republic speciality of seasoned, fried minced-meat balls simmered in a sauce of ground pumpkin seeds and fresh tomatoes",
+      "cite": [
+        "cap-afrik-com-82deed"
+      ]
+    },
+    {
+      "label": "Kanda served with",
+      "value": "Kanda is often served with fufu, cassava or rice",
+      "cite": [
+        "cap-afrik-com-82deed"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gozo is the cassava staple of Central African meals and is named among the emblematic dishes of Bangui; cassava, peeled, retted to remove toxins and dried, supplies about half of the country's food energy. Kanda is a Central African speciality of seasoned, fried meatballs simmered in a sauce of ground pumpkin seeds and tomatoes.",
+              "cite": [
+                "cap-africa24tv-com-224c85",
+                "cap-fao-org-a60637",
+                "cap-respect-international-2f64ca",
+                "cap-afrik-com-82deed"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Gozo is a lunchtime staple eaten with leaf and groundnut sauces, and kanda is often served with fufu, cassava or rice.",
+              "cite": [
+                "cap-africa24tv-com-224c85",
+                "cap-fao-org-a60637",
+                "cap-respect-international-2f64ca",
+                "cap-afrik-com-82deed"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No academic or institutional source defining gozo itself (as a cassava-flour paste) could be read; the gozo facts rest on one Africa24 report plus cassava-level FAO and value-chain data.",
+    "Not found in a readable source: No good source names 'kanda ti nyama' or explains the name; facts cover kanda in general.",
+    "Not found in a readable source: Recipe: the only kanda recipe found (afrik.com) has an evident quantity error ('600 Kg' of minced beef), so none is recorded.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

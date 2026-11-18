@@ -1,6 +1,6 @@
 {
   "slug": "cairo-egypt",
-  "status": "draft",
+  "status": "published",
   "country": "EGY",
   "name": "Cairo",
   "subtitle": "Cairo, capital of Egypt: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -234,5 +234,16 @@
     "Difference between the administrative Cairo Governorate (9.54M in 2017) and the Greater Cairo metropolitan megacity (exceeding 20.1 million).",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Egypt has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-cairo-egypt",
+    "alt": "Photograph of Cairo, capital of Egypt.",
+    "caption": "Cairo, capital of Egypt.",
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Cairo_skyline%2C_Nile_River%2C_Egypt.jpg",
+    "width": 800,
+    "height": 533
+  }
 }

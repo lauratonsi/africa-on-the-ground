@@ -85,5 +85,14 @@
     "Not found in a readable source: Palace completion year not verified from a readable source",
     "Not found in a readable source: Founding date of the kingdom differs between sources (1384 AFP vs 1394 elsewhere); not asserted",
     "Local voices: none yet."
-  ]
+  ],
+  "image": {
+    "file": "royal-palace-and-museum-of-foumban-bamum-kingdom",
+    "alt": "La facciata del palazzo reale dei sovrani Bamum a Foumban, Camerun.",
+    "caption": "Il palazzo reale e museo di Foumban, edificato sotto il regno del celebre re Njoya.",
+    "credit": "Fotsingboris",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_royal_de_FOUMBAN.jpg"
+  }
 }

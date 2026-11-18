@@ -5,10 +5,157 @@
   "country": "TGO",
   "name": "Akoumé",
   "region": "Togo",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Akoumé is the Togolese name for tô, a thick cooked paste of cereal flour (millet, sorghum, maize, cassava or a mix) stirred into boiling water.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "Tô, a millet paste, is called akoumé in Togo.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "What it is",
+      "value": "A staple dish in Mali, Burkina Faso, Benin and Togo.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "Made from millet, sorghum, maize or cassava flour, or a mix of them, and water.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "Maize is the staple food in Togo.",
+      "cite": [
+        "cap-afrik-com-4beadb"
+      ]
+    },
+    {
+      "label": "How often it is eaten",
+      "value": "It is often eaten every day, as rice is in Asia.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "It is eaten with a sauce made with vegetables, meat or chicken.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "It is cooked in unsalted water; the sauce supplies the seasoning.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "Tô is said to be of Bambara origin.",
+      "cite": [
+        "cap-afrik-com-a8198c"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Akoumé is the Togolese name for tô, a thick cooked paste of cereal flour (millet, sorghum, maize, cassava or a mix) stirred into boiling water. It is a staple in Mali, Burkina Faso, Benin and Togo, said to be of Bambara origin, and maize is the staple grain in Togo.",
+              "cite": [
+                "cap-afrik-com-a8198c",
+                "cap-afrik-com-4beadb"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is often eaten daily, with a sauce of vegetables, meat or chicken; the paste is cooked without salt and the sauce gives it flavour.",
+              "cite": [
+                "cap-afrik-com-a8198c",
+                "cap-afrik-com-4beadb"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Tô (Akoumé)",
+          "servings": 6,
+          "sub": "One version of the dish, as given by Afrik.com; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-afrik-com-a8198c"
+          ],
+          "note": "The source gives 30 minutes in total for preparation and cooking. It is the publisher's general tô recipe, not a specifically Togolese one.",
+          "ingredients": [
+            {
+              "name": "millet, sorghum, maize or cassava flour, or a mix",
+              "amount": 500,
+              "unit": "g"
+            },
+            {
+              "name": "water",
+              "amount": 2,
+              "unit": "litres"
+            }
+          ],
+          "steps": [
+            {
+              "text": "Bring the water to the boil, without salt."
+            },
+            {
+              "text": "Put the flour in a bowl and work in about three-quarters of a litre of the boiling water, a little at a time, to make a paste."
+            },
+            {
+              "text": "Move the paste to a pot over low heat and keep adding the remaining boiling water bit by bit, stirring all the time so it neither sticks nor forms lumps."
+            },
+            {
+              "text": "Keep stirring until the paste is thick, adding more boiling water if needed; it is done when it comes away from the sides of the pot."
+            },
+            {
+              "text": "Shape portions by hand and serve each with meat, chicken or fish in a sauce."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: No academic or institutional source on akoumé specifically could be read; all facts come from Afrik.com. The Routard guide (travel guide) and recipe/content sites were not used.",
+    "Not found in a readable source: Pairings often cited online (gboma or okra sauce) were not found in a rule-3 source.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

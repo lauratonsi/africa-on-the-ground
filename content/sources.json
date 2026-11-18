@@ -1134,7 +1134,7 @@
     "publisher": "Roads & Kingdoms, photographs and text by Annie Risemberg (2018)",
     "url": "https://roadsandkingdoms.com/2018/saving-the-great-mosque-of-djenne/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Press report on the April replastering ceremony and on the security situation in Mali in 2018.",
     "retrieved": "2026-10-07"
   },
@@ -3038,7 +3038,7 @@
     "publisher": "citypopulation.de (credits Statistics Botswana)",
     "url": "https://www.citypopulation.de/en/botswana/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “2022-03-18 | 246,325” This is a secondary or unofficial source: confirm with an official page.",
     "retrieved": "2026-11-14"
   },
@@ -3078,7 +3078,7 @@
     "publisher": "Commonwealth Walkway",
     "url": "https://commonwealthwalkway.info/place/the-three-dikgosi-monument/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The monument was inaugurated on 29 September 2005 by Festus Mogae, President of Botswana at the time.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -3128,7 +3128,7 @@
     "publisher": "citypopulation.de (citing Lesotho Bureau of Statistics)",
     "url": "https://www.citypopulation.de/en/lesotho/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Maseru includes population from Berea district.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -3198,7 +3198,7 @@
     "publisher": "City Population (citypopulation.de), citing Statistics South Africa (Census date 2022)",
     "url": "https://www.citypopulation.de/en/southafrica/admin/gauteng/TSH__city_of_tshwane",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Source: Statistics South Africa.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -3398,7 +3398,7 @@
     "publisher": "namibweb.com",
     "url": "https://www.namibweb.com/hiskat.htm",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The police shot and killed 11 people and some 44 required medical attention.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -3508,7 +3508,7 @@
     "publisher": "citypopulation.de (credits Central Statistical Office Swaziland)",
     "url": "https://www.citypopulation.de/en/eswatini/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Central Statistical Office Swaziland” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -3598,7 +3598,7 @@
     "publisher": "CityPopulation (credits Office National des Statistiques, Algérie)",
     "url": "https://www.citypopulation.de/en/algeria/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3652,7 +3652,7 @@
     "publisher": "CityPopulation (credits Haut-Commissariat au Plan, Royaume du Maroc)",
     "url": "https://www.citypopulation.de/en/morocco/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3697,7 +3697,7 @@
     "publisher": "CityPopulation (credits Institut National de la Statistique, Tunisie)",
     "url": "https://www.citypopulation.de/en/tunisia/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3742,7 +3742,7 @@
     "publisher": "CityPopulation (credits Central Agency for Public Mobilization and Statistics, Egypt)",
     "url": "https://www.citypopulation.de/en/egypt/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3796,7 +3796,7 @@
     "publisher": "CityPopulation (credits Bureau of Statistics and Census, Libya)",
     "url": "https://www.citypopulation.de/en/libya/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3841,7 +3841,7 @@
     "publisher": "CityPopulation",
     "url": "https://www.citypopulation.de/en/sudan/cities/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3886,7 +3886,7 @@
     "publisher": "CityPopulation",
     "url": "https://www.citypopulation.de/en/cameroon/cities/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -3967,7 +3967,7 @@
     "publisher": "CityPopulation",
     "url": "https://www.citypopulation.de/en/gabon/cities/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -4003,7 +4003,7 @@
     "publisher": "CityPopulation",
     "url": "https://www.citypopulation.de/en/saotome/cities/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -4048,7 +4048,7 @@
     "publisher": "CityPopulation",
     "url": "https://www.citypopulation.de/en/ghana/admin/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "retrieved": "2026-11-14"
   },
   {
@@ -4147,7 +4147,7 @@
     "publisher": "citypopulation.de (names Ethiopian Statistics Service as its source) (page lists projection of 2022-07-01)",
     "url": "https://citypopulation.de/en/ethiopia/admin/ET14__adis_abeba/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Source: Ethiopian Statistics Service (web) - projection 2022-07-01: 3,859,999” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -4257,7 +4257,7 @@
     "publisher": "citypopulation.de (figure attributed to UN World Urbanization Prospects: The 2018 Revision) (n.d.)",
     "url": "https://www.citypopulation.de/en/eritrea/cities/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The reliability of all population figures for Eritrea is low.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -4337,7 +4337,7 @@
     "publisher": "citypopulation.de (data from INSTAD, Institut National de la Statistique de Djibouti) (2024 census)",
     "url": "https://www.citypopulation.de/en/djibouti/city/admin/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “767,250 Population [2024] – census” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -4437,7 +4437,7 @@
     "publisher": "citypopulation.de (cites UNFPA / UN World Urbanization Prospects 2014)",
     "url": "https://citypopulation.de/Somalia.html",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “For Mogadishu the result of the population estimation survey 2014 for Banaardir is tabulated.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -4447,7 +4447,7 @@
     "publisher": "African History Extra (Substack), Journal of African Cities chapter 16 (isaac Samuel · 2025-03-09)",
     "url": "https://www.africanhistoryextra.com/p/a-complete-history-of-mogadishu-ca",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Ibn Battuta who visited the city around 1331 and described it as \"a large town.\"” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -4547,7 +4547,7 @@
     "publisher": "citypopulation.de (data source named: Kenya National Bureau of Statistics)",
     "url": "https://www.citypopulation.de/en/kenya/admin/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Nairobi County 2019 census: 4,397,073 (page names source: Kenya National Bureau of Statistics). Quote is the extracted figure, not verbatim sentence.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5130,7 +5130,7 @@
     "publisher": "SJ Group (Surbana Jurong) (2025-06-11)",
     "url": "https://sjgroup.com/projects/kigali/",
     "tier": "primary",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Building on the 2013 plan, this next-generation update adopts a data-rich, participatory methodology” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5320,7 +5320,7 @@
     "publisher": "citypopulation.de (states source: National Bureau of Statistics Tanzania) (2022 census)",
     "url": "https://citypopulation.de/en/tanzania/admin/dodoma/0105__dodoma_city/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “765,179 (2022 census figure for Dodoma City; page names the National Bureau of Statistics Tanzania as source)” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5430,7 +5430,7 @@
     "publisher": "citypopulation.de (names Central Statistical Office Zambia as its source)",
     "url": "https://www.citypopulation.de/en/zambia/admin/lusaka/0504__lusaka",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “2022: 2,212,301 (2010: 1,747,152; 2000: 1,084,703)” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5720,7 +5720,7 @@
     "publisher": "Universite Paris VII (hosted on memoireonline.com) (Said Mohamed Said Hassani · 2004)",
     "url": "https://www.memoireonline.com/06/09/2115/m_La-resistance--la-conqute-et--la-domination-coloniale-en-Grande-Comore-1880-194017.html",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “dont la capitale est MORONI” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5790,7 +5790,7 @@
     "publisher": "citypopulation.de (citing Institut National de la Statistique Madagascar)",
     "url": "https://www.citypopulation.de/en/madagascar/admin/analamanga/11101__antananarivo_renivohitra",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The 2018 figures are final.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5830,7 +5830,7 @@
     "publisher": "MADAMAGAZINE (Masika sipa)",
     "url": "https://www.madamagazine.com/en/der-palast-des-premierministers/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “replaced by the present stone building in 1872” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5880,7 +5880,7 @@
     "publisher": "citypopulation.de (compiles Instituto Nacional de Estatistica Mocambique) (census 2017-08-01)",
     "url": "https://citypopulation.de/en/mozambique/admin/11__maputo_cidade/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The tabulated population figures are not adjusted for underenumeration.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5900,7 +5900,7 @@
     "publisher": "Cultural Heritage Online (Luigi De Marchi · 2026-06-08)",
     "url": "https://culturalheritageonline.com/places/maputo-lourenco-marques-and-african-art-deco/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Maputo was called Lourenço Marques until 1976, the year after Mozambican independence.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -5910,7 +5910,7 @@
     "publisher": "BUALA (Roberto Conduru · 2020-06-11)",
     "url": "https://www.buala.org/en/to-read/writing-with-bodies-installing-a-new-history-of-mozambique-from-maputo-fortress",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “was built by Portuguese in 1780s on the ruins of previous fortifications built by Dutch and Austrians.” This is a secondary or unofficial source: confirm with an official page.",
     "retrieved": "2026-11-14"
   },
@@ -6080,7 +6080,7 @@
     "publisher": "citypopulation.de",
     "url": "https://www.citypopulation.de/en/seychelles/cities",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “2022-07-01 | Cfa | 29,664 (sources: National Statistics Bureau, Seychelles)” This is a secondary or unofficial source: confirm with an official page.",
     "retrieved": "2026-11-14"
   },
@@ -6090,7 +6090,7 @@
     "publisher": "International Magazine Kreol (Editor · 2018-08-08)",
     "url": "https://kreolmagazine.com/victoria-capital-of-seychelles-celebrating-its-240th-anniversary/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “Victoria was founded by the French later in 1778.” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -6200,7 +6200,7 @@
     "publisher": "citypopulation.de (citing South Sudan National Bureau of Statistics) (not shown)",
     "url": "https://www.citypopulation.de/en/southsudan/admin/central_equatoria/9202__juba",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “2008 census (April 22, 2008): 368,436 residents; 2017 projection: 525,953” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -6210,7 +6210,7 @@
     "publisher": "Juba in the Making (jubainthemaking.com) (Brendan Tuttle · not shown (c. 2021, inferred))",
     "url": "https://jubainthemaking.com/to-the-juba-wharf/",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Read through a summarising fetch; the quote is as reported, check it against the page: “The site was chosen as a new administrative headquarters in 1927 by Arthur Wallace Skrine” This is a secondary or unofficial source: confirm with an official page. Quote confirmed on the page by an automatic text check on 15 November 2026.",
     "retrieved": "2026-11-14"
   },
@@ -7150,7 +7150,7 @@
     "publisher": "Access Gambia",
     "url": "https://www.accessgambia.com/information/banjul-history.html",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7160,7 +7160,7 @@
     "publisher": "GlobalSecurity.org",
     "url": "https://www.globalsecurity.org/military/world/africa/gm-history-04.htm",
     "tier": "encyclopedia",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7210,7 +7210,7 @@
     "publisher": "My Gambia",
     "url": "https://www.my-gambia.com/mymagazine/national-museum-of-the-gambia/page/3/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7260,7 +7260,7 @@
     "publisher": "Instituto Nacional de Estatística, Guiné-Bissau (archived copy) (2009)",
     "url": "https://web.archive.org/web/20171105140643/http://www.stat-guinebissau.com/publicacao/caracteristicas_socio_cultural.pdf",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7270,7 +7270,7 @@
     "publisher": "Universidade Federal de Sergipe (academic paper) (Carlos Franco Liberato)",
     "url": "https://aladaainternacional.com/wp-content/uploads/Bissau-1765-–1846-de-factoria-a-enclave-portugues.pdf",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7280,7 +7280,7 @@
     "publisher": "GlobalSecurity.org (Library of Congress country study)",
     "url": "https://www.globalsecurity.org/military/world/africa/gnb-history-pt.htm",
     "tier": "encyclopedia",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7390,7 +7390,7 @@
     "publisher": "Encyclopedia of African History (K. Shillington, ed.), web copy",
     "url": "https://webguine.site/bibliotheque/shillington_encyclopedia/guinea_colonial_period.html",
     "tier": "encyclopedia",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7400,7 +7400,7 @@
     "publisher": "Wakat Séra (2018-03-19)",
     "url": "https://www.wakatsera.com/guinee-le-plus-grand-marche-de-conakry-ravage-par-un-incendie/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7510,7 +7510,7 @@
     "publisher": "Agence Congolaise de Presse (ACP)",
     "url": "https://acp.cd/culture/rdc-lechangeur-de-limete-un-reve-monumental-de-mobutu-demeure-inacheve-a-kinshasa/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7580,7 +7580,7 @@
     "publisher": "Agence Congolaise de Presse (ACP)",
     "url": "https://acp.cd/culture/la-coiffe-kusthu-du-kasai-oriental-mise-en-valeur-au-mnrdc/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7590,7 +7590,7 @@
     "publisher": "Agence Congolaise de Presse (ACP)",
     "url": "https://acp.cd/culture/rdc-la-croisette-tetela-illustre-lhistoire-monetaire-et-commerciale-precoloniale-congolaise/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7610,7 +7610,7 @@
     "publisher": "Daily Tribune (AFP) (2026-01-04)",
     "url": "https://tribune.net.ph/2026/01/04/eguinea-relocates-capital-to-city-of-peace",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7620,7 +7620,7 @@
     "publisher": "Kuwait Times (AFP) (2026)",
     "url": "https://kuwaittimes.com/article/49584/world/equatorial-guineas-new-capital-still-has-no-residents/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7680,7 +7680,7 @@
     "publisher": "Antonio Gaudí Foundation",
     "url": "https://en.fundacionantoniogaudi.org/another-gaudis-work-in-africa/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7690,7 +7690,7 @@
     "publisher": "Business Standard (AFP/PTI) (2020-01-16)",
     "url": "https://www.business-standard.com/article/pti-stories/blaze-engulfs-historic-e-guinea-cathedral-120011600102_1.html",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7750,7 +7750,7 @@
     "publisher": "GlobalSecurity.org reproduction of the US Library of Congress Country Study (1985)",
     "url": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_earlycolony.htm",
     "tier": "primary",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7820,7 +7820,7 @@
     "publisher": "Encyclopedia.com",
     "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mossi-0",
     "tier": "encyclopedia",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7840,7 +7840,7 @@
     "publisher": "Wakat Séra (2022-11)",
     "url": "https://www.wakatsera.com/?p=77776",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7930,7 +7930,7 @@
     "publisher": "Mémoire Online",
     "url": "https://www.memoireonline.com/12/21/12505/m_Sauvegarde-et-valorisation-du-patrimoine-immateriel-beninois-un-centre-de-promotion-des-rythmes-e7.html",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -7950,7 +7950,7 @@
     "publisher": "Saudi Gazette (AFP) (Sophie Bouillon · 2016-08-06)",
     "url": "https://saudigazette.com.sa/article/160644",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8110,7 +8110,7 @@
     "publisher": "Commonwealth Union (Ruwanthi Abeyakoon · 2025-07-31)",
     "url": "https://www.commonwealthunion.com/nigerias-abuja-national-mosque-a-symbol-of-faith-culture-and-unity/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8170,7 +8170,7 @@
     "publisher": "Bamada.net (2017)",
     "url": "https://bamada.net/en-guise-de-reconnaissance-envers-larabie-saoudite-la-grande-mosquee-de-bamako-baptisee-mosquee-roi-faycal-bin-abdulaziz",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8260,7 +8260,7 @@
     "publisher": "LIZIBA (portail du gouvernement congolais)",
     "url": "https://liziba.cg/en/departement-brazzaville",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8400,7 +8400,7 @@
     "publisher": "Agence sénégalaise de promotion touristique",
     "url": "https://www.visitezlesenegal.com/en/destinations/dakar/pointe-des-almadies/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8420,7 +8420,7 @@
     "publisher": "Biennale de l'art africain contemporain de Dakar (2022-03-30)",
     "url": "https://biennaledakar.org/2022/03/30/histoire-de-la-biennale-de-dakar/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8460,7 +8460,7 @@
     "publisher": "Arab News / AFP (2020-08-04)",
     "url": "https://www.arabnews.pk/node/1714311",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8540,7 +8540,7 @@
     "publisher": "Bright Continent (Cleveland State University)",
     "url": "https://access.thebrightcontinent.org/items/show/30",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8550,7 +8550,7 @@
     "publisher": "Google Arts & Culture (Sierra Leone National Museum)",
     "url": "https://artsandculture.google.com/story/sierra-leone-39-s-national-treasure-sierra-leone-national-museum/OAWBeYEzXLjMCw?hl=en",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8760,7 +8760,7 @@
     "publisher": "Beglobality",
     "url": "https://beglobality.com/locations/musee-national-du-tchad-national-museum-of-chad/",
     "tier": "press",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -8770,7 +8770,7 @@
     "publisher": "Explore Chad",
     "url": "https://explore-chad.org/en/the-lakes-of-ouninaga/",
     "tier": "institutional",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -9150,7 +9150,7 @@
     "publisher": "UIRTUS (revue académique) (Kouakou Didié · 2021)",
     "url": "https://uirtus.net/2021/11/30/resume-problematique-du-transfert-effectif-de-la-capitale-politique-et-administrative-a-yamoussoukro-cote-divoire-1983-2017/",
     "tier": "academic",
-    "status": "to-verify",
+    "status": "verified",
     "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
     "retrieved": "2026-11-15"
   },
@@ -10360,5 +10360,2208 @@
     "tier": "academic",
     "status": "verified",
     "retrieved": "2026-11-17"
+  },
+  {
+    "id": "unesco-whc-39",
+    "title": "Ngorongoro Conservation Area",
+    "publisher": "UNESCO World Heritage Centre, World Heritage List (open data, CC BY-SA 4.0)",
+    "url": "https://whc.unesco.org/en/list/39/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Read from UNESCO's open-data record (data.unesco.org, dataset whc001); the web page itself could not be opened from this project's tools. Texts are UNESCO's own.",
+    "retrieved": "2026-10-07"
+  },
+  {
+    "id": "undesa-migration-stock-2020",
+    "title": "International Migrant Stock 2020",
+    "publisher": "United Nations Department of Economic and Social Affairs (UN DESA)",
+    "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "iom-african-migration-report-2024",
+    "title": "African Migration Report: Second Edition - Connecting the Disconnect",
+    "publisher": "International Organization for Migration (IOM) & African Union Commission (AUC)",
+    "url": "https://publications.iom.int/system/files/pdf/pub2024-001-r-african-migration-report-second-edition.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "unhcr-global-trends-2023",
+    "title": "Global Trends: Forced Displacement in 2023",
+    "publisher": "UN High Commissioner for Refugees (UNHCR)",
+    "url": "https://www.unhcr.org/global-trends-report-2023",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "idmc-grid-2024",
+    "title": "Global Report on Internal Displacement 2024 (GRID)",
+    "publisher": "Internal Displacement Monitoring Centre (IDMC)",
+    "url": "https://www.internal-displacement.org/global-report/grid2024/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "unhcr-sudan-emergency-2024",
+    "title": "Sudan Situation Operational Update 2024",
+    "publisher": "UN High Commissioner for Refugees (UNHCR)",
+    "url": "https://data.unhcr.org/en/situations/sudan",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "un-coi-eritrea-2015",
+    "title": "Report of the Commission of Inquiry on Human Rights in Eritrea (A/HRC/29/CRP.1)",
+    "publisher": "UN Human Rights Council",
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/coi-eritrea/report-coi-eritrea",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "euaa-asylum-report-2024",
+    "title": "EUAA Asylum Report 2024: Annual Report on the Situation of Asylum in the European Union",
+    "publisher": "European Union Agency for Asylum (EUAA)",
+    "url": "https://euaa.europa.eu/asylum-report-2024",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "un-ffm-libya-2023",
+    "title": "Report of the Independent Fact-Finding Mission on Libya (A/HRC/52/83)",
+    "publisher": "UN Human Rights Council",
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/ffm-libya/index",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "iom-missing-migrants-2024",
+    "title": "Missing Migrants Project: Tracking Deaths Along Migration Routes",
+    "publisher": "International Organization for Migration (IOM)",
+    "url": "https://missingmigrants.iom.int/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "unodc-smuggling-trafficking-protocols",
+    "title": "Protocol against the Smuggling of Migrants and Protocol to Prevent Trafficking in Persons",
+    "publisher": "United Nations Office on Drugs and Crime (UNODC)",
+    "url": "https://www.unodc.org/unodc/en/treaties/CTOC/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "card-1990-mariel-boatlift",
+    "title": "The Impact of the Mariel Boatlift on the Miami Labor Market",
+    "author": "David Card",
+    "publisher": "Industrial and Labor Relations Review, Vol. 43, No. 2",
+    "url": "https://doi.org/10.2307/2523702",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "foged-peri-2016-immigrants-effect",
+    "title": "Immigrants' Effect on Native Workers: New Analysis on Longitudinal Data",
+    "author": "Mette Foged and Giovanni Peri",
+    "publisher": "American Economic Journal: Applied Economics, Vol. 8, No. 2",
+    "url": "https://doi.org/10.1257/app.20150114",
+    "tier": "academic",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "banca-d-italia-paper-886",
+    "title": "L'impatto economico dell'immigrazione in Italia: evidenze e prospettive",
+    "publisher": "Banca d'Italia (Questioni di Economia e Finanza)",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "fondazione-leone-moressa-2024",
+    "title": "Rapporto annuale sull'economia dell'immigrazione 2024",
+    "publisher": "Fondazione Leone Moressa",
+    "url": "https://www.fondazioneleonemoressa.org/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "ela-shortage-surplus-occupations-2024",
+    "title": "Report on Labour Shortages and Surpluses 2023-2024",
+    "publisher": "European Labour Authority (ELA)",
+    "url": "https://www.ela.europa.eu/en/publications/report-labour-shortages-and-surpluses-2024",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "eurostat-migr-resfirst",
+    "title": "First permits by reason, length of validity and citizenship [MIGR_RESFIRST]",
+    "publisher": "Eurostat",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "frontex-risk-analysis-2024",
+    "title": "Risk Analysis for 2024/2025",
+    "publisher": "Frontex - European Border and Coast Guard Agency",
+    "url": "https://www.frontex.europa.eu/what-we-do/monitoring-and-risk-analysis/risk-analysis-reports/",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "eca-special-report-17-2024",
+    "title": "Special Report 17/2024: The EU Emergency Trust Fund for Africa",
+    "publisher": "European Court of Auditors (ECA)",
+    "url": "https://www.eca.europa.eu/en/publications/SR-2024-17",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "knomad-world-bank-brief-40",
+    "title": "Migration and Development Brief 40: Remittances in 2024",
+    "publisher": "KNOMAD / World Bank",
+    "url": "https://www.knomad.org/publication/migration-and-development-brief-40",
+    "tier": "institutional",
+    "status": "verified",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "id": "cap-swp-berlin-org-9204f2",
+    "title": "Mapping African Migration: Insights from UN DESA Data on Patterns, Trends, and Misconceptions (SWP Working Paper No. 03)",
+    "publisher": "Stiftung Wissenschaft und Politik (SWP), Berlin (Nadine Biehler, Emma Landmesser, Rebecca Majewski · 2025-12)",
+    "url": "https://www.swp-berlin.org/publications/products/arbeitspapiere/SWP_Working_Paper_Mapping_African_Migration_2025.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mo-ibrahim-foundation-8b8e67",
+    "title": "African Migrations: Facts and Figures",
+    "publisher": "Mo Ibrahim Foundation (2024-11)",
+    "url": "https://mo.ibrahim.foundation/sites/default/files/2025-12/2024-facts-figures-african-migrations.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-au-int-22a3d6",
+    "title": "Africa Migration Report, Second Edition: Connecting the threads",
+    "publisher": "IOM and African Union Commission (2024-03)",
+    "url": "https://www.au.int/sites/default/files/documents/43660-doc-IOM_AU_Africa_Migration_Report_Second_Edition_MAR2024_web-1.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-un-org-15dbda",
+    "title": "International Migration 2020 Highlights",
+    "publisher": "UN DESA, Population Division (2020)",
+    "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2020_international_migration_highlights.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-niussp-org-a62891",
+    "title": "African migration: is the continent really on the move?",
+    "publisher": "N-IUSSP (International Union for the Scientific Study of Population) (Marie-Laurence Flahaux, Hein de Haas · 2016-03-29)",
+    "url": "https://niussp.org/?p=639",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-bd5d0f",
+    "title": "EU population diversity by citizenship and country of birth (Statistics Explained, PDF)",
+    "publisher": "Eurostat (2026-02-02)",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/1275.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-commission-europa-eu-019635",
+    "title": "Statistics on migration to Europe",
+    "publisher": "European Commission (2026)",
+    "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/promoting-our-european-way-life/statistics-migration-europe_en",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-asile-ch-cf0359",
+    "title": "Global Trends: Forced Displacement in 2025 (UNHCR report; copy hosted by asile.ch because unhcr.org returns 403)",
+    "publisher": "UNHCR (2026-06)",
+    "url": "https://asile.ch/wp-content/uploads/2026/07/global-trends-report-2025.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-api-internal-displacement-org-6fc8e4",
+    "title": "Global Report on Internal Displacement 2026",
+    "publisher": "Internal Displacement Monitoring Centre (IDMC) (2026-05)",
+    "url": "https://api.internal-displacement.org/sites/default/files/2026-05/IDMC-GRID-2026-Global-Report-on-Internal-Displacement.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sudan-un-org-c5909d",
+    "title": "UN urges global action to protect and support civilians devastated by Sudan's war (press release)",
+    "publisher": "United Nations (OCHA and UNHCR) (2025-02-17)",
+    "url": "https://sudan.un.org/sites/default/files/2025-02/Press%20release%20OCHA-UNHCR%20Sudan%20launch_17.02.2025_EN.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unognewsroom-org-ceadc2",
+    "title": "Sudan returns – IOM (press briefing story)",
+    "publisher": "UN Geneva Newsroom / IOM (2026-04-21)",
+    "url": "https://www.unognewsroom.org/story/en/3093/sudan-returns-iom",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-70d8c4",
+    "title": "UN mission finds RSF destruction in el-Fasher bears 'hallmarks of genocide'",
+    "publisher": "Al Jazeera (Al Jazeera Staff · 2026-02-19)",
+    "url": "https://www.aljazeera.com/news/2026/2/19/un-mission-finds-rsf-destruction-in-el-fasher-bears-hallmarks-of-genocide",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-documents-un-org-745751",
+    "title": "Situation of human rights in Eritrea: Report of the Special Rapporteur (A/HRC/59/24)",
+    "publisher": "UN Human Rights Council (Mohamed Abdelsalam Babiker · 2025-05-12)",
+    "url": "https://documents.un.org/doc/undoc/gen/g25/068/95/pdf/g2506895.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-documents-un-org-ce6111",
+    "title": "Report of the Commission of Inquiry on Human Rights in Eritrea (A/HRC/32/47)",
+    "publisher": "UN Human Rights Council (2016-05-09)",
+    "url": "https://documents.un.org/doc/undoc/gen/g16/093/42/pdf/g1609342.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-swissinfo-ch-3bc839",
+    "title": "Eritrean military service no grounds for asylum, rules Swiss court",
+    "publisher": "swissinfo.ch (2018-08)",
+    "url": "https://www.swissinfo.ch/eng/deportation_swiss-court-tightens-admission-criteria-for-eritrean-asylum-seekers/44253334",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-euaa-europa-eu-be041a",
+    "title": "Latest Asylum Trends 2025: Annual Analysis",
+    "publisher": "European Union Agency for Asylum (EUAA) (2026-03)",
+    "url": "https://euaa.europa.eu/sites/default/files/publications/2026-02/EUAA_Latest_Asylum_Trends_2025_0.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-euaa-europa-eu-8d69f3",
+    "title": "Latest Asylum Trends: Mid-Year Review 2026",
+    "publisher": "European Union Agency for Asylum (EUAA) (2026-09)",
+    "url": "https://euaa.europa.eu/sites/default/files/publications/2026-09/Latest_Asylum_Trends_MYR_2026.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-6031e0",
+    "title": "Asylum decisions - annual statistics",
+    "publisher": "Eurostat (2026-04-17)",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Asylum_decisions_-_annual_statistics",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unhcr-ca-730174",
+    "title": "UNHCR calls for urgent international support to advance solutions for Sahel's forcibly displaced",
+    "publisher": "UNHCR (via UNHCR Canada) (2025-10-10)",
+    "url": "https://www.unhcr.ca/news/unhcr-calls-for-urgent-international-support-to-advance-solutions-for-sahels-forcibly-displaced/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unric-org-8285a0",
+    "title": "Central Sahel: Mali, Burkina Faso, and Niger, Three Countries on the Brink",
+    "publisher": "UN Regional Information Centre (UNRIC) (2026-05-13)",
+    "url": "https://unric.org/en/central-sahel-mali-burkina-faso-and-niger-three-countries-on-the-brink/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-api-internal-displacement-org-bf0f82",
+    "title": "Global Report on Internal Displacement 2023",
+    "publisher": "Internal Displacement Monitoring Centre (IDMC) (2023-05)",
+    "url": "https://api.internal-displacement.org/sites/default/files/publications/documents/IDMC_GRID_2023_Global_Report_on_Internal_Displacement_LR.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-hrw-org-7506ce",
+    "title": "Uganda: Anti-LGBT Law Unleashed Abuse",
+    "publisher": "Human Rights Watch (2025-05-26)",
+    "url": "https://www.hrw.org/news/2025/05/26/uganda-anti-lgbt-law-unleashed-abuse-0",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-emnbelgium-be-6c8564",
+    "title": "Scaling Fences: Voices of Irregular African Migrants to Europe (UNDP, 2019) – summary",
+    "publisher": "European Migration Network Belgium (summarising UNDP)",
+    "url": "https://emnbelgium.be/nl/node/3886",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mixedmigration-org-ad1146",
+    "title": "Finding the way to Tunisia: Understanding mixed migration to Tunisia (4Mi infographic)",
+    "publisher": "Mixed Migration Centre (2026-06)",
+    "url": "https://mixedmigration.org/wp-content/uploads/2026/06/449_Finding-the-Way-to-Tunisia-Infographic.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unodc-org-0257b8",
+    "title": "United Nations Convention against Transnational Organized Crime and the Protocols thereto",
+    "publisher": "UNODC (2004)",
+    "url": "https://www.unodc.org/documents/middleeastandnorthafrica/organised-crime/UNITED_NATIONS_CONVENTION_AGAINST_TRANSNATIONAL_ORGANIZED_CRIME_AND_THE_PROTOCOLS_THERETO.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontex-europa-eu-a980d3",
+    "title": "Significant rise in irregular border crossings in 2023, highest since 2016",
+    "publisher": "Frontex (2024-01)",
+    "url": "https://www.frontex.europa.eu/media-centre/news/news-release/significant-rise-in-irregular-border-crossings-in-2023-highest-since-2016-C0gGpm",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontex-europa-eu-688992",
+    "title": "Irregular border crossings into EU drop sharply in 2024",
+    "publisher": "Frontex (2025-01)",
+    "url": "https://frontex.europa.eu/media-centre/news/news-release/irregular-border-crossings-into-eu-drop-sharply-in-2024-oqpweX",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontex-europa-eu-764820",
+    "title": "Frontex: Irregular border crossings down 26% in 2025, Europe must stay prepared",
+    "publisher": "Frontex (2026-01)",
+    "url": "https://www.frontex.europa.eu/media-centre/news/news-release/frontex-irregular-border-crossings-down-26-in-2025-europe-must-stay-prepared-lyKpVb",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-libertaciviliimmigrazione-dlci-interno-gov-it-23f957",
+    "title": "Cruscotto statistico giornaliero, 31 dicembre 2025",
+    "publisher": "Ministero dell'Interno (Italy), Dipartimento per le libertà civili e l'immigrazione (2025-12-31)",
+    "url": "https://libertaciviliimmigrazione.dlci.interno.gov.it/sites/default/files/2025-12/Cruscotto%20statistico%20giornaliero%2031-12-2025.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-arabnews-pk-c1e04c",
+    "title": "Migrant entries into Spain drop over 40 percent in 2025",
+    "publisher": "Arab News (AFP) (2026-01-06)",
+    "url": "https://www.arabnews.pk/node/2628494",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-al-monitor-com-8668d5",
+    "title": "UN says 2023 was deadliest year for migrants in a decade",
+    "publisher": "Al-Monitor (AFP) (2024-03)",
+    "url": "https://www.al-monitor.com/originals/2024/03/un-says-2023-was-deadliest-year-migrants-decade",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-euronews-com-eb2ed1",
+    "title": "Almost 8,000 people died or disappeared on migration routes in 2025, IOM says",
+    "publisher": "Euronews (2026-04-21)",
+    "url": "https://www.euronews.com/2026/04/21/almost-8000-people-died-or-disappeared-on-migration-routes-in-2025-iom-says",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-arabnews-pk-e9302b",
+    "title": "7,900 people died, disappeared on migration routes in 2025: UN",
+    "publisher": "Arab News (AFP) (2026-04)",
+    "url": "https://www.arabnews.pk/node/2640735",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unric-org-14063a",
+    "title": "Migration: twice as many migrants die crossing the Sahara than the Mediterranean Sea",
+    "publisher": "UN Regional Information Centre (UNRIC), on the UNHCR-IOM-MMC report 'On this journey, no one cares if you live or die' Vol. 2 (2024-07)",
+    "url": "https://unric.org/en/migration-twice-as-many-migrants-die-crossing-the-sahara-than-the-mediterranean-sea/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ecoi-net-534f71",
+    "title": "Report of the Independent Fact-Finding Mission on Libya (A/HRC/52/83)",
+    "publisher": "UN Human Rights Council (2023-03-20)",
+    "url": "https://www.ecoi.net/en/file/local/2090006/G2304304.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unodc-org-110592",
+    "title": "Smuggling of migrants on the Central Mediterranean Route: update (October 2024)",
+    "publisher": "UNODC Observatory on Smuggling of Migrants (2024-10)",
+    "url": "https://unodc.org/documents/data-and-analysis/glosom/Observatory/2024/CMRUpdate_Oct2024.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-occrp-org-b17dd8",
+    "title": "Smugglers Collected Up to $509M on Europe Routes in 2025",
+    "publisher": "OCCRP (2026-10)",
+    "url": "https://occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unodc-org-c0e4cd",
+    "title": "Links between smuggling of migrants and organized crime along the Central and Western Mediterranean routes (summary)",
+    "publisher": "UNODC (2024)",
+    "url": "https://Www.Unodc.Org/romena/uploads/documents/2024/Two_Pager_Report_Links_between_SOM_and_OC_along_the_Central_and_West_Med_routes_2024_.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unodc-org-7d4363",
+    "title": "5 facts you need to know about migrant smuggling",
+    "publisher": "UNODC (2024-12)",
+    "url": "https://unodc.org/unodc/frontpage/2024/December/5-facts-you-need-to-know-about-migrant-smuggling.html",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nature-com-252990",
+    "title": "Search-and-rescue in the Central Mediterranean Route does not induce migration",
+    "publisher": "Scientific Reports (Rodríguez Sánchez et al. · 2023)",
+    "url": "https://www.nature.com/articles/s41598-023-38119-4",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-econpapers-repec-org-a2542e",
+    "title": "Migrants at Sea: Unintended Consequences of Search and Rescue Operations",
+    "publisher": "American Economic Journal: Economic Policy 16(2) (abstract via EconPapers) (Claudio Deiana, Vikram Maheshri, Giovanni Mastrobuoni · 2024)",
+    "url": "https://econpapers.repec.org/RePEc:aea:aejpol:v:16:y:2024:i:2:p:335-65",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-13415e",
+    "title": "Euro area job vacancy rate at 2.1%",
+    "publisher": "Eurostat (2026-09-15)",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-15092026-bp",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-regione-piemonte-it-5c4d66",
+    "title": "EURES Report on labour shortages and surpluses 2024 (updated version)",
+    "publisher": "European Labour Authority (copy hosted by Regione Piemonte) (2025)",
+    "url": "https://www.regione.piemonte.it/web/media/56798/download",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ela-europa-eu-bed488",
+    "title": "Gaps on the European labour market 2024 continue to increase",
+    "publisher": "European Labour Authority (2025-06-30)",
+    "url": "https://www.ela.europa.eu/en/news/gaps-european-labour-market-2024-continue-increase",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-562479",
+    "title": "Population projections in the EU",
+    "publisher": "Eurostat (Statistics Explained) (2026-04)",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_projections_in_the_EU",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-istat-it-528bce",
+    "title": "Previsioni della popolazione residente, delle famiglie e delle forze lavoro - base 1/1/2025",
+    "publisher": "ISTAT (2026-08-31)",
+    "url": "https://www.istat.it/wp-content/uploads/2026/08/Previsioni-popolazione-residente-famiglie-forze-lavoro.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fondazioneleonemoressa-org-22a5d4",
+    "title": "Rapporto annuale 2026 sull'economia dell'immigrazione - comunicato stampa",
+    "publisher": "Fondazione Leone Moressa (2026-10-13)",
+    "url": "https://www.fondazioneleonemoressa.org/new/wp-content/uploads/2026/10/Comunicato-Stampa-FLM-2026-EMBARGO-1.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-davidcard-berkeley-edu-158240",
+    "title": "The Impact of the Mariel Boatlift on the Miami Labor Market",
+    "publisher": "Industrial and Labor Relations Review (David Card · 1990-01)",
+    "url": "https://davidcard.berkeley.edu/papers/mariel-impact.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nber-org-727e87",
+    "title": "The Wage Impact of the Marielitos: A Reappraisal (NBER Working Paper 21588)",
+    "publisher": "National Bureau of Economic Research (George J. Borjas · 2015-09)",
+    "url": "https://www.nber.org/system/files/working_papers/w21588/w21588.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nber-org-a975ab",
+    "title": "The Labor Market Effects of a Refugee Wave: Synthetic Control Method Meets the Mariel Boatlift (NBER Working Paper 21801)",
+    "publisher": "National Bureau of Economic Research (Giovanni Peri, Vasil Yasenov · 2015-12)",
+    "url": "https://www.nber.org/system/files/working_papers/w21801/w21801.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nber-org-7b7c3c",
+    "title": "Immigrants' and Native Workers: New Analysis on Longitudinal Data (NBER Working Paper 19315)",
+    "publisher": "National Bureau of Economic Research (Mette Foged, Giovanni Peri · 2013-08)",
+    "url": "https://www.nber.org/system/files/working_papers/w19315/w19315.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-docs-iza-org-33bca6",
+    "title": "Labor Supply Shocks, Native Wages, and the Adjustment of Local Employment (IZA DP 10114)",
+    "publisher": "IZA Institute of Labor Economics (Christian Dustmann, Uta Schönberg, Jan Stuhler · 2016-08)",
+    "url": "https://docs.iza.org/dp10114.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-bancaditalia-it-4ed160",
+    "title": "Immigrazione, struttura occupazionale e protezione dell'impiego (Temi di discussione n. 886)",
+    "publisher": "Banca d'Italia (Francesco D'Amuri, Giovanni Peri · 2012-10)",
+    "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2012/2012-0886/index.html",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cidob-org-d9b839",
+    "title": "Los efectos de la inmigración sobre las condiciones de los trabajadores nativos en el mercado de trabajo: evidencia para España",
+    "publisher": "CIDOB (Anuario de la Inmigración en España) (Raquel Carrasco, Juan F. Jimeno, Ana Carolina Ortega · 2008)",
+    "url": "https://www.cidob.org/sites/default/files/2024-11/158_171_Carrasco_Jimeno_Ortega.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-oecd-org-07b7d6",
+    "title": "International Migration Outlook 2021 (chapter 4: The fiscal impact of immigration in OECD countries since the mid-2000s)",
+    "publisher": "OECD (2021-10)",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/10/international-migration-outlook-2021_ea4f9277/29f23e9d-en.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fondazioneleonemoressa-org-8a986b",
+    "title": "Rapporto annuale 2026 sull'economia dell'immigrazione - Executive Summary",
+    "publisher": "Fondazione Leone Moressa (2026-10-13)",
+    "url": "https://www.fondazioneleonemoressa.org/new/wp-content/uploads/2026/10/Executive-Summary-2026-FLM_ita.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lavoro-gov-it-daaaef",
+    "title": "Flussi 2026-2028, pubblicato il decreto da oltre 497mila ingressi",
+    "publisher": "Ministero del Lavoro e delle Politiche Sociali (2025-10-16)",
+    "url": "https://lavoro.gov.it/priorita/pagine/flussi-2026-2028-pubblicato-il-decreto-da-oltre-497mila-ingressi",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ilpost-it-659da9",
+    "title": "Il decreto flussi funziona sempre peggio",
+    "publisher": "Il Post (2026-02-21)",
+    "url": "https://www.ilpost.it/2026/02/21/numeri-dati-decreto-flussi/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-files-collettiva-it-ab6fef",
+    "title": "VII Rapporto Agromafie e caporalato",
+    "publisher": "Osservatorio Placido Rizzotto - FLAI CGIL (2024-12)",
+    "url": "https://files.collettiva.it/version/c:NmIwMGZjMjMtZWE5Mi00:ZGFmYTM4NTktN2VlYy00/VII%20Rapporto%20Agromafie%20e%20caporalato.pdf",
+    "tier": "primary",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-aba202",
+    "title": "Migrant workers exploited, abused in Italy's prized fine wine vineyards",
+    "publisher": "Al Jazeera (2024-03-19)",
+    "url": "https://www.aljazeera.com/features/2024/3/19/migrant-workers-exploited-abused-in-italys-prized-fine-wine-vineyards",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ela-europa-eu-91f8e9",
+    "title": "Good practice fiche: Italy - National Action Plan against labour exploitation in agriculture",
+    "publisher": "European Labour Authority (2022-01)",
+    "url": "https://www.ela.europa.eu/sites/default/files/2022-01/GP-fiche_IT_National-action-plan.2022_EN.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-eca-europa-eu-5025c4",
+    "title": "Special report 17/2024: The EU trust fund for Africa",
+    "publisher": "European Court of Auditors (2024-09)",
+    "url": "https://www.eca.europa.eu/ECAPublications/SR-2024-17/SR-2024-17_EN.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-amnesty-org-518248",
+    "title": "Libya/EU: Conditions remain 'hellish' as EU marks 5 years of cooperation agreements",
+    "publisher": "Amnesty International (2022-01)",
+    "url": "https://www.amnesty.org/en/latest/news/2022/01/libya-eu-conditions-remain-hellish-as-eu-marks-5-years-of-cooperation-agreements/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-hrw-org-a33830",
+    "title": "Italy Re-Ups Funding to Force Migrants Back to Libya",
+    "publisher": "Human Rights Watch (2023-02-01)",
+    "url": "https://www.hrw.org/news/2023/02/01/italy-reups-funding-force-migrants-back-libya",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unognewsroom-org-c30a64",
+    "title": "Fact-Finding Mission Libya - press conference, 27 March 2023",
+    "publisher": "UN Geneva (UNOG) Newsroom (2023-03-27)",
+    "url": "https://www.unognewsroom.org/story/en/1545/fact-finding-mission-libya-press-conference-27-march-2023/0",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-08a5b9",
+    "title": "UN mission accuses EU of aiding crimes against humanity in Libya",
+    "publisher": "Al Jazeera (2023-03-27)",
+    "url": "https://www.aljazeera.com/news/2023/3/27/un-mission-accuses-eu-of-aiding-crimes-against-humanity-in-libya-2",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-euronews-com-685f26",
+    "title": "The contentious EU-Tunisia deal is finally here. But what exactly is in it?",
+    "publisher": "Euronews (2023-07-17)",
+    "url": "https://www.euronews.com/2023/07/17/the-contentious-eu-tunisia-deal-is-finally-here-but-what-exactly-is-in-it",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-al-monitor-com-8aef3a",
+    "title": "EU, Tunisia sign 'strategic' deal on migration, economy (AFP)",
+    "publisher": "Al-Monitor / AFP (2023-07-16)",
+    "url": "https://www.al-monitor.com/originals/2023/07/eu-tunisia-sign-strategic-deal-migration-economy",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-theioi-org-e2c12e",
+    "title": "European Ombudsman criticises Commission failure to inform public how it assessed human rights risks in EU-Tunisia agreement",
+    "publisher": "International Ombudsman Institute (reproducing European Ombudsman release) (2024-10)",
+    "url": "https://www.theioi.org/ioi-news/current-news/european-ombudsman-criticises-commission-failure-to-inform-public-how-it-assessed-human-rights-risks-in-eu-tunisia-agreement",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-euronews-com-cb632b",
+    "title": "Analysis: The EU's big bet on Egypt comes with a high price and high risks",
+    "publisher": "Euronews (2024-03-18)",
+    "url": "https://www.euronews.com/2024/03/18/analysis-the-eus-big-bet-on-egypt-comes-with-a-high-price-and-high-risks",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-statewatch-org-252a39",
+    "title": "Outsourcing borders: monitoring EU externalisation policy, bulletin 15 - Migration partnerships",
+    "publisher": "Statewatch",
+    "url": "https://www.statewatch.org/outsourcing-borders-monitoring-eu-externalisation-policy/bulletin-15/migration-partnerships",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-bd3ef8",
+    "title": "Residence permits - statistics on first permits issued during the year",
+    "publisher": "Eurostat (Statistics Explained) (2026-09)",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Residence_permits_-_statistics_on_first_permits_issued_during_the_year",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-frontex-europa-eu-60c24f",
+    "title": "Frontex: Irregular border crossings down 26% in 2025, Europe must stay prepared",
+    "publisher": "Frontex (2026-01-15)",
+    "url": "https://www.frontex.europa.eu/media-centre/news/news-release/frontex-irregular-border-crossings-down-26-in-2025-europe-must-stay-prepared-lyKpVb?etrans=en",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-documents1-worldbank-org-bafcd8",
+    "title": "Migration and Development Brief 40: Remittances Slowed in 2023, Expected to Grow Faster in 2024",
+    "publisher": "World Bank / KNOMAD (2024-06)",
+    "url": "https://documents1.worldbank.org/curated/en/099714008132436612/pdf/IDU1a9cf73b51fcad1425a1a0dd1cc8f2f3331ce.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-blogs-worldbank-org-ad370a",
+    "title": "In 2024, remittance flows to low- and middle-income countries are expected to reach $685 billion, larger than FDI and ODA combined",
+    "publisher": "World Bank (People Move blog) (2024-12-18)",
+    "url": "https://blogs.worldbank.org/en/peoplemove/in-2024--remittance-flows-to-low--and-middle-income-countries-ar",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unctad-org-8d4bf1",
+    "title": "Africa: Foreign investment hit record high in 2024 (World Investment Report 2025 press release)",
+    "publisher": "UNCTAD (2025-06-19)",
+    "url": "https://unctad.org/system/files/press-material/pr25007_wir25_africa_final_en.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-focsiv-it-4e7cc0",
+    "title": "Preliminary official development assistance levels in 2024: Detailed Summary Note, DCD(2025)6",
+    "publisher": "OECD Development Co-operation Directorate (copy hosted by FOCSIV) (2025-04-16)",
+    "url": "https://www.focsiv.it/wp-content/uploads/2025/04/DCD20256.en_.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-donorplatform-org-772559",
+    "title": "Cuts in official development assistance: OECD projections for 2025 and the near term",
+    "publisher": "OECD (copy hosted by Global Donor Platform for Rural Development) (2025-06-26)",
+    "url": "https://www.donorplatform.org/wp-content/uploads/2025/08/8c530629-en.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ec-europa-eu-903f6b",
+    "title": "Enforcement of immigration legislation statistics",
+    "publisher": "Eurostat (Statistics Explained)",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Enforcement_of_immigration_legislation_statistics",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-docs-iza-org-994da7",
+    "title": "Does Development Reduce Migration? (IZA DP No. 8592)",
+    "publisher": "IZA Institute of Labor Economics (Michael A. Clemens · 2014-10)",
+    "url": "https://docs.iza.org/dp8592.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ifw-kiel-de-c79015",
+    "title": "Development aid alone will not reduce migration",
+    "publisher": "Kiel Institute for the World Economy (Mauro Lanati, Rainer Thiele · 2018)",
+    "url": "https://ifw-kiel.de/publications/news/development-aid-alone-will-not-reduce-migration",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-a8198c",
+    "title": "Tô (Akoumé)",
+    "publisher": "Afrik.com (Amina Savoura · 2011-05-31)",
+    "url": "https://www.afrik.com/akoume",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-4beadb",
+    "title": "Lomé vide ses greniers de maïs",
+    "publisher": "Afrik.com (2001-05-18)",
+    "url": "https://www.afrik.com/lome-vide-ses-greniers-de-mais",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-unwto-org-441d00",
+    "title": "Benin, Georgiana Viou - Amiwo with grilled chicken",
+    "publisher": "UN Tourism (UNWTO), African Gastronomy (Georgiana Viou)",
+    "url": "https://www.unwto.org/africa/african-gastronomy/benin",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-5d7786",
+    "title": "Poulet Amiwô",
+    "publisher": "Afrik.com (Amina Savoura · 2017-06-29)",
+    "url": "https://www.afrik.com/poulet-amiwo",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-bf1695",
+    "title": "Bomiwô : le secret d'un plat vodun qui conquiert le monde",
+    "publisher": "Afrik.com (Maceo Ouitona · 2024-09-05)",
+    "url": "https://www.afrik.com/bomiwo-le-secret-d-un-plat-vodun-qui-conquiert-le-monde",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ich-unesco-org-14a3c2",
+    "title": "Skills related to Attiéké production in Côte d’Ivoire",
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "url": "https://ich.unesco.org/en/RL/know-how-related-to-attieke-production-in-cote-divoire-02086",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ich-unesco-org-240163",
+    "title": "Decision of the Intergovernmental Committee: 19.COM 7.b.31",
+    "publisher": "UNESCO Intangible Cultural Heritage (2024)",
+    "url": "https://ich.unesco.org/en/Decisions/19.COM/7.b.31",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fratmat-info-109437",
+    "title": "L'Unesco inscrit l'attiéké, plat emblématique de la Côte d'Ivoire, au patrimoine immatériel",
+    "publisher": "Fraternité Matin (2024-12-05)",
+    "url": "https://www.fratmat.info/article/2342766/culture/lunesco-inscrit-lattieke-plat-emblematique-de-la-cote-divoire-au-patrimoine-immateriel",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nhs-uk-497e8f",
+    "title": "Bariis iskukaris recipe",
+    "publisher": "NHS (Healthier Families)",
+    "url": "https://www.nhs.uk/healthier-families/recipes/bariis-iskukaris/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mndaily-com-dad4b2",
+    "title": "Sharing Food: Bariis iskukaris (Somali-style rice)",
+    "publisher": "The Minnesota Daily (2021-02-02)",
+    "url": "https://mndaily.com/265164/uncategorized/sharing-food-bariis-iskukaris-somali-style-rice",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cssalaska-org-ad8c3e",
+    "title": "Xawaash recipe (Bariis, Somali rice)",
+    "publisher": "Catholic Social Services Alaska",
+    "url": "https://www.cssalaska.org/wp-content/uploads/2023/03/Xawaash-Recipe1.pdf",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-al-monitor-com-cc8a7b",
+    "title": "Ramadan culinary traditions defy crisis to bring Libyans together",
+    "publisher": "Al-Monitor (Agence France-Presse) (2024-03-20)",
+    "url": "https://www.al-monitor.com/originals/2024/03/ramadan-culinary-traditions-defy-crisis-bring-libyans-together",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-csmonitor-com-3d554f",
+    "title": "A tasty reminder of home",
+    "publisher": "The Christian Science Monitor (2009-03-04)",
+    "url": "https://m.csmonitor.com/The-Culture/Food/2009/0304/p18s03-lifo.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dailymaverick-co-za-33b95d",
+    "title": "Good, better, bobotie: The hard life behind that fresh farm egg",
+    "publisher": "Daily Maverick (Louzel Lombard Steyn · 2019-06-21)",
+    "url": "https://www.dailymaverick.co.za/article/2019-06-21-good-better-bobotie-the-hard-life-behind-that-fresh-farm-egg/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-namibian-com-na-fc030a",
+    "title": "Iconic Bobotie",
+    "publisher": "The Namibian (2020-06-26)",
+    "url": "https://www.namibian.com.na/iconic-bobotie/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-farmersweekly-co-za-593014",
+    "title": "Bobotie: The Cape on a plate",
+    "publisher": "Farmer's Weekly (David Basckin · 2014-11-06)",
+    "url": "https://www.farmersweekly.co.za/lifestyle/recipes/bobotie-the-cape-on-a-plate/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-discovertunisia-com-2b1eab",
+    "title": "Experiencing a new world of food and drink",
+    "publisher": "Office National du Tourisme Tunisien (Discover Tunisia)",
+    "url": "https://www.discovertunisia.com/uk/en/node/316",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-roadsandkingdoms-com-0ef6cc",
+    "title": "Brik a L'oeuf: The Tunisian Dumpling",
+    "publisher": "Roads & Kingdoms (Sarah Souli · 2016-05-31)",
+    "url": "https://roadsandkingdoms.com/2016/brik/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lepetitjournal-com-f60ddb",
+    "title": "RECETTES DU RAMADAN - les briks",
+    "publisher": "Lepetitjournal Tunis (2023-03-22)",
+    "url": "https://lepetitjournal.com/vivre-a-tunis/recettes-ramadan-briks-53915",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thenationalnews-com-cd1ef9",
+    "title": "Ramadan recipe: Tunisian brik with shrimp",
+    "publisher": "The National (2021-05-05)",
+    "url": "https://thenationalnews.com/lifestyle/food/ramadan-recipe-tunisian-brik-with-shrimp-1.1216923",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-e-konomista-pt-3c5b09",
+    "title": "Sabores da Guiné: como preparar caldo de mancarra",
+    "publisher": "e-konomista (Mónica Carvalho · 2021-08-02)",
+    "url": "https://www.e-konomista.pt/caldo-de-mancarra/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-pratofeito-substack-com-61dc5f",
+    "title": "A Guiné de Josué",
+    "publisher": "Prato Feito (newsletter) (Mateus Habib · 2023-08-20)",
+    "url": "https://pratofeito.substack.com/p/a-guine-de-josue",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-teleculinaria-pt-32009d",
+    "title": "À volta do Mundo – São Tomé e Príncipe",
+    "publisher": "Teleculinária",
+    "url": "https://teleculinaria.pt/blog/a-volta-do-mundo-sao-tome-e-principe/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-untourism-int-9ff084",
+    "title": "São Tomé and Príncipe, Antónia Oliveira, Calulu",
+    "publisher": "UN Tourism (World Tourism Organization), African gastronomy (Antónia Oliveira)",
+    "url": "https://www.untourism.int/africa/african-gastronomy/sao-tome-and-principe",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tourismsierraleone-com-756361",
+    "title": "Traditional Sierra Leonean Dishes: Our Favorite Cassava Leaf Soup Recipe",
+    "publisher": "Sierra Leone Tourism (National Tourist Board) (2024-09-27)",
+    "url": "https://tourismsierraleone.com/stories/traditional-cassava-leaf-soup-recipe/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nationalgeographic-com-8c15d8",
+    "title": "A taste of Sierra Leone with Maria Bradford",
+    "publisher": "National Geographic Traveller (Maria Bradford)",
+    "url": "https://www.nationalgeographic.com/travel/article/taste-of-sierra-leone-food-maria-bradford",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-csmonitor-com-7b7bd0",
+    "title": "For 'fufu' in Freetown, this African diner's the place",
+    "publisher": "The Christian Science Monitor (2008-10-20)",
+    "url": "https://www.csmonitor.com/The-Culture/2008/1020/for-fufu-in-freetown-this-african-diner-s-the-place",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afro-who-int-59568b",
+    "title": "Sierra Leone Food Based Dietary Guidelines for Healthy Eating",
+    "publisher": "Government of Sierra Leone / WHO Regional Office for Africa (2016)",
+    "url": "https://www.afro.who.int/sites/default/files/2017-05/sierra-leone-food-based-dietary-guidelines-for-healthy-eating.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tsa-algerie-com-a02423",
+    "title": "Cuisine algérienne : la Chakhchoukha classée numéro 1 en Afrique",
+    "publisher": "TSA (Tout sur l'Algérie) (2024-05-01)",
+    "url": "https://www.tsa-algerie.com/cuisine-algerienne-la-chakhchoukha-classee-numero-1-en-afrique",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lepetitjournal-com-fa97d4",
+    "title": "Le Mawlid Ennabawi en Algérie : entre fête et spiritualité",
+    "publisher": "Le Petit Journal (Alger) (Hadia Beghoura · 2020-10-25)",
+    "url": "https://lepetitjournal.com/alger/le-mawlid-ennabawi-en-algerie-entre-fete-et-spiritualite-290488",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-590c41",
+    "title": "Dambou",
+    "publisher": "Afrik.com (Amina Savoura · 2018-06-02)",
+    "url": "https://www.afrik.com/dambou",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-alwihdainfo-com-ec3950",
+    "title": "Tchad - Le Festival Dary 5 : La Province de Ndjamena présente son art culinaire",
+    "publisher": "Alwihda Info (2024-01-22)",
+    "url": "https://www.alwihdainfo.com/Tchad-Le-Festival-Dary-5-La-Province-de-Ndjamena-presente-son-art-culinaire_a129587.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-defimedia-info-2a648c",
+    "title": "‘Dewa dholl puri’ in The Guardian",
+    "publisher": "Defimedia (News on Sunday) (2018-01-22)",
+    "url": "https://defimedia.info/dewa-dholl-puri-guardian",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-defimedia-info-3791f5",
+    "title": "Ramesh Ramsahye Maraz: the brains behind the family business of the Original ‘Dholl Puri’",
+    "publisher": "Defimedia (News on Sunday) (2019-01-25)",
+    "url": "https://defimedia.info/ramesh-ramsahye-maraz-brains-behind-family-business-original-dholl-puri",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sbs-com-au-5412cb",
+    "title": "Dholl puri",
+    "publisher": "SBS Food (Kavi Hurrydoss · 2022-10-14)",
+    "url": "https://www.sbs.com.au/food/recipes/dholl-puri",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-gna-org-gh-e2df97",
+    "title": "Innovations in 'Fufu' preparations driving the youth back to their traditional delicacy",
+    "publisher": "Ghana News Agency (Kwabia Owusu-Mensah and Dominic Antwi Agyei)",
+    "url": "https://gna.org.gh/?p=151576",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-langmedia-fivecolleges-edu-37d890",
+    "title": "Eating at Home (Ghana: Culture and Everyday Life)",
+    "publisher": "Five College Center for World Languages",
+    "url": "https://www.langmedia.fivecolleges.edu/resources/ghana/food/eating-home",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-timeout-com-ae0ba0",
+    "title": "Traditional Ghanaian recipes: Goat light soup",
+    "publisher": "Time Out Accra (2013-06-07)",
+    "url": "https://www.timeout.com/accra/food-and-drink/traditional-ghanaian-recipes-goat-light-soup",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-pmc-ncbi-nlm-nih-gov-316f87",
+    "title": "Yield and quality attributes of faba bean inbred lines grown under marginal environmental conditions of Sudan",
+    "publisher": "Food Science & Nutrition (University of Khartoum authors) (2015-05-19)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4708656",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-tropentag-de-690f00",
+    "title": "Economics of Faba Bean Production and Marketing in Northern Sudan",
+    "publisher": "Tropentag 2007, University of Kassel and University of Göttingen (Elgilany A. Ahmed, Abubakr Mohamed, Khalid Siddig · 2007)",
+    "url": "https://www.tropentag.de/2007/abstracts/full/564.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-aljazeera-com-a6d7ea",
+    "title": "Ramadan recipe: In Sudan, fuul completes the iftar table",
+    "publisher": "Al Jazeera (Dallia Abdelmoneim · 2023-04-07)",
+    "url": "https://www.aljazeera.com/features/2023/4/7/ramadan-recipe-in-sudan-fuul-completes-the-iftar-table",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-africa24tv-com-224c85",
+    "title": "Centrafrique : la tradition culinaire à l'épreuve de la modernité",
+    "publisher": "Africa24 TV",
+    "url": "https://africa24tv.com/centrafrique-la-tradition-culinaire-a-lepreuve-de-la-modernite/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fao-org-a60637",
+    "title": "Will cassava remain a staple food in the Congo?",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/4/U3550t/u3550t0c.htm",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-respect-international-2f64ca",
+    "title": "Value Chains Assessment in the Central African Republic",
+    "publisher": "RESPECT (Responsible Sourcing) report (2021)",
+    "url": "https://respect.international/wp-content/uploads/2021/02/Value-Chains-Assessment-in-the-Central-African-Republic.pdf",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-82deed",
+    "title": "Kanda : boulettes de viande de bœuf aux graines de courge",
+    "publisher": "Afrik.com",
+    "url": "https://www.afrik.com/kanda",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-isabu-bi-c1198f",
+    "title": "Ifishi: Mais composite (Kirundi)",
+    "publisher": "Institut des Sciences Agronomiques du Burundi (ISABU)",
+    "url": "https://isabu.bi/wp-content/uploads/2021/09/Ifishi-Mais-Composite-V-Kirundi.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-isabu-bi-2e670d",
+    "title": "Catalogue des variétés de haricot, tome 2",
+    "publisher": "Institut des Sciences Agronomiques du Burundi (ISABU) (2020)",
+    "url": "https://isabu.bi/wp-content/uploads/2024/02/2.1.CATALOGUE-HARICOT.FRA_.TOME2-PRINT-31-12-2020-1.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-isabu-bi-0375fb",
+    "title": "Bulletin de la recherche agronomique au Burundi n°12",
+    "publisher": "Institut des Sciences Agronomiques du Burundi (ISABU) (2016)",
+    "url": "https://isabu.bi/wp-content/uploads/2021/09/Bulletin-n°12-VF.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-isabu-bi-f6a98c",
+    "title": "Bulletin de la recherche agronomique au Burundi n°21",
+    "publisher": "Institut des Sciences Agronomiques du Burundi (ISABU) (2018)",
+    "url": "https://isabu.bi/wp-content/uploads/2021/09/BULLETIN-N°21-VF.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-amp-cbc-ca-88780b",
+    "title": "Joy of feeding: Rwandan shares traditional recipe at UBC multicultural event",
+    "publisher": "CBC News (2015-09-18)",
+    "url": "https://amp.cbc.ca/news/canada/british-columbia/joy-of-feeding-rwandan-shares-traditional-recipe-at-ubc-multicultural-event-1.3233666",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-academicjournals-org-1584e2",
+    "title": "Shelf life of solar dried cassava leaves (Manihot esculenta Crantz)",
+    "publisher": "African Journal of Biotechnology 13(42) (M. G. Umuhozariho, N. B. Shayo, J. M. Msuya, P. Y. K. Sallah · 2014-10-15)",
+    "url": "https://academicjournals.org/journal/AJB/article-full-text-pdf/FE5A87448142",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-worldvision-org-6fb75f",
+    "title": "In the kitchen: Isombe recipe",
+    "publisher": "World Vision (US)",
+    "url": "https://worldvision.org/economic-empowerment-news-stories/isombe-recipe",
+    "tier": "primary",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-doi-org-c9fbb0",
+    "title": "Cyanide and selected nutrients content of different preparations of leaves from three cassava species",
+    "publisher": "African Journal of Food Science 8(3) (M. G. Umuhozariho, N. B. Shayo, J. M. Msuya, P. Y. K. Sallah · 2014-03-31)",
+    "url": "https://doi.org/10.5897/ajfs2013.1100",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-repository-unam-edu-na-d990d5",
+    "title": "Analysis of food safety and food handling knowledge among street food vendors in selected local food markets in Windhoek (MSc thesis)",
+    "publisher": "University of Namibia (Paulus Ngalangi · 2022-10)",
+    "url": "https://repository.unam.edu.na/bitstreams/abaf53b0-4bd1-4858-ba5e-a848b75be707/download",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-namibian-com-na-728e6c",
+    "title": "Fire, Meat and Flirting – Welcome to Single Quarters",
+    "publisher": "The Namibian (2025-08-09)",
+    "url": "https://www.namibian.com.na/fire-meat-and-flirting-welcome-to-single-quarters/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-neweralive-na-e6a5af",
+    "title": "Kapanas, a way of life in sprawling Katutura",
+    "publisher": "New Era (Pinehas Nakaziko · 2014-05-23)",
+    "url": "https://neweralive.na/?p=181003",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-riftvalley-net-c4abb1",
+    "title": "South Sudan's Changing Tastes: Conflict, displacement and food imports",
+    "publisher": "Rift Valley Institute (X-Border Local Research Network) (Deng Kuol, Edward Thomas, Elizabeth Nyibol et al. · 2020)",
+    "url": "https://riftvalley.net/wp-content/uploads/2020/06/South-Sudans-Changing-Tastes-RVI-X-Border-Project-2020_0.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fao-org-590dc7",
+    "title": "Sorghum and millets in human nutrition",
+    "publisher": "FAO (1995)",
+    "url": "https://www.fao.org/4/T0818E/T0818E0h.htm",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-annalsmicrobiology-biomedcentral-com-8055dd",
+    "title": "Pyrosequencing scrutiny of bacterial and fungal communities in two Sudanese sorghum-based fermented foods",
+    "publisher": "Annals of Microbiology (Mohamed Mutasim Eltayeb et al. · 2020)",
+    "url": "https://annalsmicrobiology.biomedcentral.com/articles/10.1186/s13213-020-01595-4",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-repository-up-ac-za-f29bc8",
+    "title": "Protein quality and physical characteristics of Kisra (fermented sorghum pancake-like flatbread) made from tannin and non-tannin sorghum cul",
+    "publisher": "Cereal Chemistry (University of Pretoria repository) (A.M. AwadElkareem, J.R.N. Taylor · 2011)",
+    "url": "https://repository.up.ac.za/items/0237909e-2533-43e4-8dc8-a4ab55fdc22f/full",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-istituto-oikos-org-2c444e",
+    "title": "Manual de alimentação saudável e consumo responsável",
+    "publisher": "Istituto Oikos with E.C.O. Moçambique (Pemba, Cabo Delgado)",
+    "url": "https://www.istituto-oikos.org/wp-content/uploads/2025/05/manuale_alimentazione_web_RnAqG2q-1.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sbs-com-au-922880",
+    "title": "Carb and coconut matapa",
+    "publisher": "SBS Food (Sarah Graham, Sonia Induna · 2021-02-03)",
+    "url": "https://www.sbs.com.au/food/recipe/carb-and-coconut-matapa/rb3a1eke4",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-timeslive-co-za-342458",
+    "title": "RECIPE | Matapa and prawns to get you in the mood for the holidays",
+    "publisher": "TimesLIVE (2023-11-30)",
+    "url": "https://www.timeslive.co.za/lifestyle/2023-11-30-recipe--matapa-and-prawns-to-get-you-in-the-mood-for-the-holidays/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-mel-cgiar-org-2a901a",
+    "title": "Gendered Food Mapping on Matooke in Uganda (RTBfoods Field Scientific Report)",
+    "publisher": "RTBfoods / Bioversity International and NARL (CGIAR) (Pricilla Marimo, Kenneth Akankwasa, Innocent Mpirirwe, Lilian Ndagire · 2021)",
+    "url": "https://mel.cgiar.org/reporting/download/report_file_id/17801",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fao-org-75dca8",
+    "title": "Economic significance of banana varieties other than Cavendish – Uganda case study (CCP:BA/TF 11/CRS 6)",
+    "publisher": "FAO Committee on Commodity Problems (paper by Bioversity International) (Deborah Karamura · 2011)",
+    "url": "https://fao.org/docrep/meeting/022/ma801E.pdf",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-monitor-co-ug-84a2fe",
+    "title": "Why matooke farming is losing ground in Bukedi",
+    "publisher": "Daily Monitor (Mudangha Kolyangha · 2025-08-25)",
+    "url": "https://www.monitor.co.ug/uganda/news/national/why-matooke-farming-is-losing-ground-in-bukedi-5166588",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-lemangeur-ocha-com-af8606",
+    "title": "Alimentation, diététique et relations sociales au Sahara : l’exemple des pasteurs nomades maures de Mauritanie",
+    "publisher": "OCHA (Observatoire Cniel des Habitudes Alimentaires), lemangeur-ocha.com (Sébastien Boulay · 2008-06-17)",
+    "url": "https://www.lemangeur-ocha.com/wp-content/uploads/2012/04/S-Boulay-alimentation-sahara.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-everyculture-com-0e4e4d",
+    "title": "Culture of Mauritania",
+    "publisher": "Countries and Their Cultures (EveryCulture.com)",
+    "url": "https://EveryCulture.com/Ma-Ni/Mauritania.html",
+    "tier": "encyclopedia",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ojs-lib-umassd-edu-35ebb3",
+    "title": "From Peixefritismo to Yellow-bean Stew: Angolan National Cuisine in the Pot and in the Novel",
+    "publisher": "Portuguese Literary & Cultural Studies 15/16 (UMass Dartmouth) (Igor Cusack)",
+    "url": "https://ojs.lib.umassd.edu/index.php/plcs/article/download/PLCS15_16_Cusack_page215/381/1532",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-e05a0f",
+    "title": "Le muamba de galinha, plat emblématique de l'Angola",
+    "publisher": "Afrik.com (Amina Savoura · 2025-02-15)",
+    "url": "https://www.afrik.com/le-muamba-de-galinha-plat-emblematique-de-l-angola",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-correiobraziliense-com-br-1669dc",
+    "title": "Funge (article)",
+    "publisher": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/aqui/?p=2612",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-teleculinaria-pt-dd6601",
+    "title": "Muamba de galinha",
+    "publisher": "Teleculinária",
+    "url": "https://teleculinaria.pt/?p=29565",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-3b2dd8",
+    "title": "Le ndolè, ce mythique plat camerounais qui s'invite à table à Libreville",
+    "publisher": "Le360 Afrique (Ismael Obiang Nze · 2022-03-20)",
+    "url": "https://afrique.le360.ma/gabon/societe/2022/03/20/37378-le-ndole-ce-mythique-plat-camerounais-qui-sinvite-table-libreville-37378",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ajfand-net-b865ec",
+    "title": "Effect of processing and preservation methods on vitamin C and total carotenoid levels of some Vernonia (bitter leaf) species",
+    "publisher": "African Journal of Food, Agriculture, Nutrition and Development (A.R. Ejoh et al. · 2005)",
+    "url": "https://www.ajfand.net/Volume5/No2/Ejoh1525.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-fr-journalducameroun-com-11d591",
+    "title": "Cameroun : le ndolè classé 47ème meilleure cuisine du monde !",
+    "publisher": "Journal du Cameroun (Bertin Onana · 2023-06-01)",
+    "url": "https://fr.journalducameroun.com/cameroun-le-ndole-classe-47eme-meilleure-cuisine-du-monde/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-camer-be-fc622b",
+    "title": "Le Ndolè décroche son passeport officiel à l'OAPI",
+    "publisher": "Camer.be (Onana Nestor · 2026-10-30)",
+    "url": "https://camer.be/culture/art/cameroun-le-ndole-decroche-son-passeport-officiel-a-loapi",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebi-ac-uk-46495c",
+    "title": "Sensory panel results of a dried fish powder supplement among caregivers and young children in Zambia",
+    "publisher": "Public Health Nutrition (Cambridge University Press), via Europe PMC (Ragsdale K, Read-Wahidi MR, Mudege NN, Iannotti LL, Muzungaire L, Funduluka P. · 2023-11-30)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10897570/fullTextXML",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebi-ac-uk-c076e5",
+    "title": "Determinants of dietary patterns in school going adolescents in Urban Zambia",
+    "publisher": "Frontiers in Nutrition, via Europe PMC (Mukanu MM, Delobelle P, Thow AM, Mchiza ZJ. · 2022-08-25)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9452662/fullTextXML",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebi-ac-uk-a5f3b3",
+    "title": "Estimating minimum dietary diversity for children aged 6-23 months: a comparison of agreement and cost of two recall methods in Cambodia and",
+    "publisher": "Public Health Nutrition (Cambridge University Press), via Europe PMC (Hackl LS, Du-Skabrin L, Ok A, Kumwenda C, et al. · 2024-01-22)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10966926/fullTextXML",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-taste-co-za-dba810",
+    "title": "Fisashi (vegetables in groundnut sauce)",
+    "publisher": "TASTE (Woolworths) (Lulu Wood · 2024-09-20)",
+    "url": "https://taste.co.za/recipes/fisashi-vegetables-in-groundnut-sauce",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ich-unesco-org-6c68c4",
+    "title": "Nsima, culinary tradition of Malawi",
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "url": "https://ich.unesco.org/en/RL/nsima-culinary-tradition-of-malawi-01292",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-pmc-ncbi-nlm-nih-gov-f11d65",
+    "title": "Glycemic responses to maize flour stiff porridges prepared using local recipes in Malawi",
+    "publisher": "Food Science & Nutrition (Vincent Mlotha, Agnes Mbachi Mwangwela, William Kasapila, Edwin W.P. Siyame, Kingsley Masamba · 2016)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4779488/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ich-unesco-org-d60352",
+    "title": "Decision of the Intergovernmental Committee: 12.COM 11.b.21",
+    "publisher": "UNESCO Intangible Cultural Heritage (2017)",
+    "url": "https://ich.unesco.org/en/Decisions/12.COM/11.b.21",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-enjoyliberia-travel-c4dd34",
+    "title": "Exploring the flavors of Liberia: what to know about Liberian food",
+    "publisher": "Enjoy Liberia (Ministry of Information, Culture & Tourism, Liberia)",
+    "url": "https://enjoyliberia.travel/blog/post/exploring-the-flavors-of-liberia-what-to-know-ab-2",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-spotlight-online-de-9bc94f",
+    "title": "Her mother's passion (interview transcript: Pandora Hodge, social entrepreneur from Liberia)",
+    "publisher": "Spotlight",
+    "url": "https://www.spotlight-online.de/plus0818",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-untourism-int-7fd58f",
+    "title": "Liberia, Alex M. Yamah, Smoked chicken palm butter",
+    "publisher": "UN Tourism (World Tourism Organization), African gastronomy (Alex M. Yamah)",
+    "url": "https://www.untourism.int/africa/african-gastronomy/liberia",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-pmc-ncbi-nlm-nih-gov-5a214d",
+    "title": "Exploring the Use of Indigenous Wild Vegetables by the Basotho People of Southern Africa: A Comprehensive Review of the Literature and Nutri",
+    "publisher": "PubMed Central (journal article, 2023) (2023)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10378859/",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-web-archive-org-a90cf4",
+    "title": "Gastronomía",
+    "publisher": "Página Oficial del Gobierno de la República de Guinea Ecuatorial (guineaecuatorialpress.com), via Internet Archive",
+    "url": "https://web.archive.org/web/20210426125947/https://www.guineaecuatorialpress.com/noticia.php?id=135",
+    "tier": "institutional",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-as-com-b3d0d0",
+    "title": "El 'Masterchef' de Malabo y su mítica 'pepe-sup'",
+    "publisher": "AS (Paco Zamora · 2015-01-25)",
+    "url": "https://as.com/opinion/2015/01/25/portada/1422146103_138813.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-dante-univ-tlse2-fr-dafb76",
+    "title": "Normes sociales alimentaires - Etude de cas - Mariage comorien (mémoire de Master 1)",
+    "publisher": "Université Toulouse - Jean Jaurès, ISTHIA (Soilahou-Eddine Abdou El Anziz · 2025)",
+    "url": "https://dante.univ-tlse2.fr/files/original/ab1031b6623cdc5398f218f46effd45436e59e25.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-b17811",
+    "title": "Recette du poulet au pilao",
+    "publisher": "Afrik.com (Amina Savoura · 2012-08-02)",
+    "url": "https://www.afrik.com/poulet-au-pilao",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-acp-cd-ea80b6",
+    "title": "RDC : le « pondu », une nouvelle opportunité entrepreneuriale",
+    "publisher": "Agence Congolaise de Presse (ACP) (2025-07-31)",
+    "url": "https://acp.cd/business/rdc-le-pondu-une-nouvelle-opportunite-entrepreneuriale/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-orbi-uliege-be-e41894",
+    "title": "Évolution des modes de consommation alimentaires à Kinshasa : enjeux pour la filière manioc en zone périurbaine (thèse de doctorat)",
+    "publisher": "ERAIFT / Université de Liège (ORBi) (Papy Bonkena Bokombola · 2020)",
+    "url": "https://orbi.uliege.be/bitstream/2268/248675/1/Th%C3%A8se%20Papy%20Bonkena_vsfinale_Fev2020.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-f31824",
+    "title": "Kinshasa: à défaut de manioc, on mange ses feuilles",
+    "publisher": "Le360 Afrique (Christian Nyamabu Kabeya · 2023-11-26)",
+    "url": "https://afrique.le360.ma/societe/kinshasa-a-defaut-de-manioc-on-mange-ses-feuilles_S5RUFR4BKNATBAWGFAMI5IXYOQ",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-c9bfd2",
+    "title": "Poulet a la Mouabe ou Moambé",
+    "publisher": "Afrik.com (Amina Savoura · 2016-10-04)",
+    "url": "https://www.afrik.com/poulet-a-la-mouabe-ou-moambe",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-edition-cnn-com-19691b",
+    "title": "Africa's best dishes (CNN Travel)",
+    "publisher": "CNN",
+    "url": "https://edition.cnn.com/travel/article/africa-food-dishes/index.html",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-untourism-int-e248a0",
+    "title": "Republic of Congo, Honor Toudissa, Saka-saka “pondu”",
+    "publisher": "UN Tourism (World Tourism Organization), African gastronomy (Honor Toudissa)",
+    "url": "https://www.untourism.int/africa/african-gastronomy/republic-of-congo",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-rtbf-be-6c5f90",
+    "title": "La Moambe",
+    "publisher": "RTBF (2014-03-18)",
+    "url": "https://www.rtbf.be/tv/emission/detail_un-gars-un-chef/recettes/article_la-moambe?id=8225360&emissionId=5931",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-1e3e05",
+    "title": "Niemboue, le poulet à la gabonaise",
+    "publisher": "Afrik.com (Amina Savoura · 2017-10-30)",
+    "url": "https://www.afrik.com/niemboue-le-poulet-a-la-gabonaise",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-routard-com-4562ca",
+    "title": "Gabon: cuisine et boissons",
+    "publisher": "Le Guide du Routard",
+    "url": "https://www.routard.com/guide/gabon/3880/cuisine_et_boissons.htm",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-ca08af",
+    "title": "Les sauces \"mbouroukhè\", de légendaires plats guinéens aux feuilles de patates",
+    "publisher": "Le360 Afrique (Mamadou Mouctar Souaré · 2022-03-15)",
+    "url": "https://afrique.le360.ma/guinee/culture/2022/03/15/37233-les-sauces-mbouroukhe-de-legendaires-plats-guineens-aux-feuilles-de-patates-37233",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-252a0a",
+    "title": "Borokhé",
+    "publisher": "Afrik.com",
+    "url": "https://www.afrik.com/borokhe",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrique-le360-ma-d2443c",
+    "title": "Agriculture: en Guinée, les feuilles du manioc supplantent le tubercule",
+    "publisher": "Le360 Afrique (Mamadou Mouctar Souaré · 2024-05-05)",
+    "url": "https://afrique.le360.ma/societe/agriculture-en-guinee-les-feuilles-du-manioc-supplantent-le-tubercule_3QCQKTO445GPPAJ6VOFDV5KV3Y/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-kreolmagazine-com-93e17a",
+    "title": "Recipes – Romazava: Traditional Malagasy Dish",
+    "publisher": "Kreol Magazine (2024-08-16)",
+    "url": "https://kreolmagazine.com/culture/food-cuisine/recipes-romazava-traditional-malagasy-dish/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-afrik-com-2991c5",
+    "title": "Romazava",
+    "publisher": "Afrik.com (Amina Savoura · 2013-01-12)",
+    "url": "https://www.afrik.com/romazava",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ebi-ac-uk-8c04d7",
+    "title": "The Consumption of Edible Leaves by Afro-Descendants in French Guiana and Suriname: An Overview of a Constantly Evolving Ethno-Culinary Prac",
+    "publisher": "Plants (MDPI), via Europe PMC (Tareau MA, Greene AM, Ansoe-Tareau C, Pinas N, Rapinski M. · 2026-07-06)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13363756/fullTextXML",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-motspluriels-arts-uwa-edu-au-a32360",
+    "title": "Talking food: a conversation about Zimbabwe, cooking, eating, and social living",
+    "publisher": "Mots Pluriels (no 15) (Gertie Bonzo, Norma Kitson and Joan Wardrop · 2000-09)",
+    "url": "https://motspluriels.arts.uwa.edu.au/MP1500jw.html",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-upjournals-up-ac-za-7e677a",
+    "title": "Hunger and power: Politics, food (in)security and the development of small grains in Zimbabwe, 2000-2010",
+    "publisher": "Historia (Historical Association of South Africa) (Bryan Kauma and Sandra Swart · 2022-05)",
+    "url": "https://upjournals.up.ac.za/index.php/historia/article/download/4093/3699/16133",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-untourism-int-a2d697",
+    "title": "Seychelles, Flavien Joubert, Baked whole red snapper creole style",
+    "publisher": "UN Tourism (World Tourism Organization), African gastronomy (Flavien Joubert)",
+    "url": "https://www.untourism.int/africa/african-gastronomy/seychelles",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-kreolmagazine-com-4f3d6d",
+    "title": "Seychelles – Creole Fish Curry Served with Creole Rice",
+    "publisher": "Kreol Magazine (2016-02-17)",
+    "url": "https://kreolmagazine.com/seychelles-creole-fish-curry-served-with-creole-rice/",
+    "tier": "press",
+    "status": "to-verify",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-timeslive-co-za-0c2f1a",
+    "title": "RECIPE: Seychelles fish curry with coconut rice",
+    "publisher": "Sunday Times (TimesLIVE), South Africa (Rakesh Pultee · 2018-05-27)",
+    "url": "https://www.timeslive.co.za/sunday-times/lifestyle/food/2018-05-26-recipe-seychelles-fish-curry-with-coconut-rice/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-cyprus-mail-com-8a9f49",
+    "title": "What's Eaten Where: Eswatini",
+    "publisher": "Cyprus Mail (Alix Norman · 2022-11-26)",
+    "url": "https://cyprus-mail.com/2022/11/26/595825",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-scholar-ufs-ac-za-3f2f30",
+    "title": "Understanding the food insecurity of vulnerable households residing in KaLanga, Swaziland (MSc dissertation)",
+    "publisher": "University of the Free State (Vuyisile Colleen Mondlane · 2020-08)",
+    "url": "https://scholar.ufs.ac.za/bitstreams/9388bae7-f0ca-41ae-b569-1de6dcced8d5/download",
+    "tier": "institutional",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-ccrp-org-ce4667",
+    "title": "Mets et produits traditionnels du Centre Nord, Burkina Faso (livret de recettes)",
+    "publisher": "IRSAT / CNRST (Burkina Faso), with the McKnight Foundation Collaborative Crop Research Program (Fatoumata Ba/Hama, Rasmata Dabo, Korotimi Rouamba, Hyacinthe Kante/Traore · 2023)",
+    "url": "https://www.ccrp.org/wp-content/uploads/2023/12/Mets-et-Produits-Traditionnels-du-Centre-Nord.pdf",
+    "tier": "academic",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-sidwaya-info-55a7da",
+    "title": "« Consommons local » en milieu urbain : retour des mets traditionnels dans nos assiettes",
+    "publisher": "Sidwaya (2022-12-21)",
+    "url": "https://www.sidwaya.info/consommons-local-en-milieu-urbain-retour-des-mets-traditionnels-dans-nos-assiettes/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-content-ctpublic-org-3d184b",
+    "title": "Zanzibar Pilau (Rice Pilaf)",
+    "publisher": "Connecticut Public (excerpt from In Bibi's Kitchen, Ten Speed Press 2020) (Hawa Hassan with Julia Turshen)",
+    "url": "https://content.ctpublic.org/?p=55665",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-explorepartsunknown-com-a802b0",
+    "title": "Your guide to Tanzanian cuisine",
+    "publisher": "Explore Parts Unknown (CNN)",
+    "url": "https://explorepartsunknown.com/tanzania/your-guide-to-tanzanian-cuisine/",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-nationalgeographic-com-7816c2",
+    "title": "This idyllic Tanzanian island is the cradle of African Swahili culture—here's why",
+    "publisher": "National Geographic",
+    "url": "https://www.nationalgeographic.com/travel/article/why-tanzanias-zanzibar-is-the-cradle-of-african-swahili-culture",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-arabnews-pk-2787e6",
+    "title": "What We Are Eating Today: Zgni Eats",
+    "publisher": "Arab News (Nada Hameed · 2021-04-02)",
+    "url": "https://www.arabnews.pk/node/1836146",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-thecaterer-com-859a32",
+    "title": "Recipe of the week: Eritrean zigne with ajibo and teff injera (from Feast With Purpose)",
+    "publisher": "The Caterer (2020-08-06)",
+    "url": "https://thecaterer.com/indepth/eritrean-zigne-feast-with-purpose",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
+  },
+  {
+    "id": "cap-greatbritishchefs-com-691907",
+    "title": "Zigni berbere (spicy Eritrean beef stew)",
+    "publisher": "Great British Chefs (GBC Kitchen · 2018)",
+    "url": "https://www.greatbritishchefs.com/recipes/zigni-berbere-recipe",
+    "tier": "press",
+    "status": "verified",
+    "note": "Quote confirmed on the page by an automatic text check on 15 November 2026. The site is not on the list of trusted domains: read it against a stronger source.",
+    "retrieved": "2026-11-15"
   }
 ]

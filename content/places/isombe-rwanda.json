@@ -5,10 +5,113 @@
   "country": "RWA",
   "name": "Isombe",
   "region": "Rwanda",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Isombe is a traditional Rwandan stew of cassava leaves; in Rwanda the name is also used for cassava leaves preserved by drying.",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "A traditional Rwandan stew",
+      "cite": [
+        "cap-amp-cbc-ca-88780b"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "In Rwanda, isombe is the name of the (solar-)dried cassava leaf product; the Tanzanian equivalent is kisanvu",
+      "cite": [
+        "cap-academicjournals-org-1584e2"
+      ]
+    },
+    {
+      "label": "Preservation",
+      "value": "In lowland areas of Rwanda where cassava is the main crop, cassava leaves are sun-dried until brittle and stored for eating through the long dry season",
+      "cite": [
+        "cap-academicjournals-org-1584e2"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Fresh vegetables combined with peanut butter; served as a side or main dish",
+      "cite": [
+        "cap-worldvision-org-6fb75f"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Rice and bread",
+      "cite": [
+        "cap-worldvision-org-6fb75f"
+      ]
+    },
+    {
+      "label": "Who makes it",
+      "value": "Passed down in families: a Rwandan cook in Canada learned it from her grandmother",
+      "cite": [
+        "cap-amp-cbc-ca-88780b"
+      ]
+    },
+    {
+      "label": "Safety",
+      "value": "Cyanide remaining in boiled cassava leaves was judged safe because the vegetable is served in small quantities as a side food",
+      "cite": [
+        "cap-doi-org-c9fbb0"
+      ]
+    },
+    {
+      "label": "Safety advice",
+      "value": "Researchers advised against making cassava leaves an everyday food, especially for children, and recommended longer cooking",
+      "cite": [
+        "cap-doi-org-c9fbb0"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Isombe is a traditional Rwandan stew of cassava leaves; in Rwanda the name is also used for cassava leaves preserved by drying. Cooked greens are combined with peanut butter, and palm oil may be added.",
+              "cite": [
+                "cap-amp-cbc-ca-88780b",
+                "cap-academicjournals-org-1584e2",
+                "cap-worldvision-org-6fb75f",
+                "cap-doi-org-c9fbb0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It can be served as a side or a main dish, with rice and bread. Researchers studying cassava-leaf preparations in Rwanda note the vegetable is eaten in small quantities as a side food and advise against making it an everyday food for children.",
+              "cite": [
+                "cap-amp-cbc-ca-88780b",
+                "cap-academicjournals-org-1584e2",
+                "cap-worldvision-org-6fb75f",
+                "cap-doi-org-c9fbb0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

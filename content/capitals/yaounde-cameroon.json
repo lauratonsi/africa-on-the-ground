@@ -1,6 +1,6 @@
 {
   "slug": "yaounde-cameroon",
-  "status": "draft",
+  "status": "published",
   "country": "CMR",
   "name": "Yaoundé",
   "subtitle": "Yaoundé, capital of Cameroon: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -210,5 +210,16 @@
     "Final published tables of the 4th General Population Census (4e RGPH) remain pending from BUCREP and INS.",
     "First-hand local voices and memories of urban market life in Mokolo and Mfoundi are still missing.",
     "Cityscape photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-yaounde-cameroon",
+    "alt": "Photograph of Yaoundé, capital of Cameroon.",
+    "caption": "Yaoundé, capital of Cameroon.",
+    "credit": "Franco237",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Yaound%C3%A9_du_monument_de_la_r%C3%A9unification_1.jpg",
+    "width": 800,
+    "height": 533
+  }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "bangui-central-african-republic",
-  "status": "draft",
+  "status": "published",
   "country": "CAF",
   "name": "Bangui",
   "subtitle": "Bangui, capital of Central African Republic: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -315,5 +315,16 @@
     "Not found in a readable source: No well-sourced myth-or-fact item found",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Central African Republic has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-bangui-central-african-republic",
+    "alt": "Photograph of Bangui, capital of Central African Republic.",
+    "caption": "Bangui, capital of Central African Republic.",
+    "credit": "Freeman Sipila (VOA)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Une_foule_devant_la_Cath%C3%A9drale_de_Bangui%2C_le_7_mai_2018.jpg",
+    "width": 800,
+    "height": 600
+  }
 }

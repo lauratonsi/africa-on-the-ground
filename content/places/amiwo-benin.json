@@ -5,10 +5,106 @@
   "country": "BEN",
   "name": "Amiwo",
   "region": "Benin",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Amiwo, known in French as Beninese red paste, is a corn-flour dish cooked in a tomato sauce and is one of the main dishes of Benin households.",
+  "facts": [
+    {
+      "label": "Place in daily life",
+      "value": "Amiwo has been, from its origins to today, one of the main dishes of Benin households",
+      "cite": [
+        "cap-unwto-org-441d00"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "A ritual dish from the Vodoun convents",
+      "cite": [
+        "cap-unwto-org-441d00"
+      ]
+    },
+    {
+      "label": "Change over time",
+      "value": "Red palm oil was once its main ingredient; it was replaced by tomato sauce",
+      "cite": [
+        "cap-unwto-org-441d00"
+      ]
+    },
+    {
+      "label": "Link to Ouidah",
+      "value": "Identical to the Afro-Brazilian (Agouda) cuisine of Ouidah",
+      "cite": [
+        "cap-unwto-org-441d00"
+      ]
+    },
+    {
+      "label": "How it is made",
+      "value": "Corn flour is stirred into a boiling tomato sauce, worked quickly with a wooden spatula, then set in oiled moulds and turned out onto a plate with a sautéed sauce",
+      "cite": [
+        "cap-unwto-org-441d00"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "Known in French as the Beninese red paste (pâte rouge)",
+      "cite": [
+        "cap-afrik-com-5d7786"
+      ]
+    },
+    {
+      "label": "Ceremonies",
+      "value": "Under the name Bomiwô, the source describes a corn-flour dish long reserved by Vodun convents for ceremonies and often served with chicken",
+      "cite": [
+        "cap-afrik-com-bf1695"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Amiwo, known in French as Beninese red paste, is a corn-flour dish cooked in a tomato sauce and is one of the main dishes of Benin households. It began as a ritual dish of the Vodoun convents, made then with red palm oil, which tomato sauce later replaced, and it matches the Afro-Brazilian (Agouda) cooking of Ouidah.",
+              "cite": [
+                "cap-unwto-org-441d00",
+                "cap-afrik-com-5d7786",
+                "cap-afrik-com-bf1695"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is set in oiled moulds, turned out onto a plate with a sautéed sauce, and is often served with chicken.",
+              "cite": [
+                "cap-unwto-org-441d00",
+                "cap-afrik-com-5d7786",
+                "cap-afrik-com-bf1695"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: Recipe: the UN Tourism recipe by chef Georgiana Viou gives no servings and no amount of water, and the afrik.com recipe gives no servings, so no recipe is recorded.",
+    "Not found in a readable source: No academic source on amiwo was found.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

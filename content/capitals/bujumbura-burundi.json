@@ -1,6 +1,6 @@
 {
   "slug": "bujumbura-burundi",
-  "status": "draft",
+  "status": "published",
   "country": "BDI",
   "name": "Bujumbura",
   "subtitle": "Bujumbura, capital of Burundi: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -246,5 +246,16 @@
     "Not found in a readable source: Myth/misconception: none explicitly stated by a readable source",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Burundi has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-bujumbura-burundi",
+    "alt": "Photograph of Bujumbura, capital of Burundi.",
+    "caption": "Bujumbura, capital of Burundi.",
+    "credit": "Adken123",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Bujumbura_monument_unite.jpg",
+    "width": 800,
+    "height": 533
+  }
 }

@@ -55,5 +55,14 @@
     "Full digital catalogue with 3D photogrammetric scans of archaeological textiles is in development.",
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "musee-national-du-mali-bamako",
+    "alt": "Facciata in pietra arenaria locale del Musée National du Mali a Bamako.",
+    "caption": "Il Musée National du Mali a Bamako, costruito in pietra locale e immerso nel parco botanico.",
+    "credit": "Carolinerre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Au_Mus%C3%A9e_National_du_Mali_-_Bamako%2C_MALI.jpg"
+  }
 }

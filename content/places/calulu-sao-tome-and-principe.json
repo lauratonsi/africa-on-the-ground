@@ -5,10 +5,102 @@
   "country": "STP",
   "name": "Calulu",
   "region": "São Tomé and Príncipe",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Calulu is the traditional dish of São Tomé and Príncipe, made with smoked fish or with meat.",
+  "facts": [
+    {
+      "label": "Type of dish",
+      "value": "The traditional dish of São Tomé and Príncipe, made with smoked fish or with meat",
+      "cite": [
+        "cap-teleculinaria-pt-32009d"
+      ]
+    },
+    {
+      "label": "Served with",
+      "value": "Banana angu (mashed plantain or breadfruit banana), rice, fuba and cassava flour",
+      "cite": [
+        "cap-teleculinaria-pt-32009d"
+      ]
+    },
+    {
+      "label": "When eaten",
+      "value": "A typical family meal",
+      "cite": [
+        "cap-untourism-int-9ff084"
+      ]
+    },
+    {
+      "label": "Reputation",
+      "value": "Considered a rich delicacy",
+      "cite": [
+        "cap-untourism-int-9ff084"
+      ]
+    },
+    {
+      "label": "Main ingredients",
+      "value": "Chicken or fish, chopped okra, onion, tomatoes, palm oil and breadfruit",
+      "cite": [
+        "cap-untourism-int-9ff084"
+      ]
+    },
+    {
+      "label": "Leaves",
+      "value": "Several kinds of chopped local leaves, including turtle, otagi, mússua and dot leaves",
+      "cite": [
+        "cap-untourism-int-9ff084"
+      ]
+    },
+    {
+      "label": "Cooking",
+      "value": "The pot is simmered for 30 to 45 minutes",
+      "cite": [
+        "cap-untourism-int-9ff084"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Calulu is the traditional dish of São Tomé and Príncipe, made with smoked fish or with meat. Chicken or fish is cooked with a mix of chopped local leaves, okra, onion, tomatoes, palm oil and breadfruit.",
+              "cite": [
+                "cap-teleculinaria-pt-32009d",
+                "cap-untourism-int-9ff084"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is a typical family meal, regarded as a rich delicacy, and is eaten with banana angu (a mash of plantain or breadfruit banana), rice, fuba or cassava flour.",
+              "cite": [
+                "cap-teleculinaria-pt-32009d",
+                "cap-untourism-int-9ff084"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

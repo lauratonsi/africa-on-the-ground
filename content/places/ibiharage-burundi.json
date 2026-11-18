@@ -5,10 +5,101 @@
   "country": "BDI",
   "name": "Ibiharage",
   "region": "Burundi",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Ibiharage is the Kirundi word for beans, listed among the legumes in Burundian agricultural guidance.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "In a Kirundi-language crop sheet from Burundi's agricultural research institute, ibiharage is listed among the legumes (ibinyamikera), with ubushaza and isoya.",
+      "cite": [
+        "cap-isabu-bi-c1198f"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "Beans are grown in every natural region of Burundi and are the main source of plant protein.",
+      "cite": [
+        "cap-isabu-bi-2e670d"
+      ]
+    },
+    {
+      "label": "Consumption",
+      "value": "About 60 kg per person per year, making beans a staple food of Burundians.",
+      "cite": [
+        "cap-isabu-bi-2e670d"
+      ]
+    },
+    {
+      "label": "At meals",
+      "value": "The most consumed food at all meals, providing 20% of calories and 50% of protein.",
+      "cite": [
+        "cap-isabu-bi-0375fb"
+      ]
+    },
+    {
+      "label": "Daily food",
+      "value": "Beans are eaten daily in Burundi.",
+      "cite": [
+        "cap-isabu-bi-f6a98c"
+      ]
+    },
+    {
+      "label": "Trade",
+      "value": "Beans are the most traded foodstuff in Burundi's markets.",
+      "cite": [
+        "cap-isabu-bi-2e670d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ibiharage is the Kirundi word for beans, listed among the legumes in Burundian agricultural guidance. Beans are grown in every natural region of Burundi and are the country's main source of plant protein; at about 60 kg per person per year they are a staple food.",
+              "cite": [
+                "cap-isabu-bi-c1198f",
+                "cap-isabu-bi-2e670d",
+                "cap-isabu-bi-0375fb",
+                "cap-isabu-bi-f6a98c"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Beans are eaten daily in Burundi and are the most consumed food at all meals.",
+              "cite": [
+                "cap-isabu-bi-c1198f",
+                "cap-isabu-bi-2e670d",
+                "cap-isabu-bi-0375fb",
+                "cap-isabu-bi-f6a98c"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Every fact on this card comes from one source; a second, independent source would make it stronger.",
+    "Not found in a readable source: No acceptable source describes ibiharage as a prepared dish (how the beans are cooked, e.g. fried with onion). Pages that do were recipe blogs, a remittance-company blog, an expat guide and an apparently machine-written magazine recipe. The facts here are about beans in Burundi, from the national agricultural research institute; the card may need to be framed as such or the dish dropped.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

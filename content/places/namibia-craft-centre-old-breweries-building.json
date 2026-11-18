@@ -64,5 +64,14 @@
     "The description is summarised from the sources listed here and should be read against them.",
     "Local voices: none yet.",
     "Photograph: see the licence line if one is shown."
-  ]
+  ],
+  "image": {
+    "file": "namibia-craft-centre-old-breweries-building",
+    "alt": "Artigianato, tessuti e intagli in esposizione a Windhoek, Namibia.",
+    "caption": "Artigianato tradizionale ed etnico in esposizione a Windhoek, nel complesso delle Old Breweries.",
+    "credit": "Auchab",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Crafts_and_Arts_Namibia_-_Windhoek.jpg"
+  }
 }

@@ -5,10 +5,230 @@
   "country": "TUN",
   "name": "Brik",
   "region": "Tunisia",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Brik is a triangle-shaped fried pastry, typically filled with meat or fish and an egg, made from a paper-thin pastry sheet called malsouka.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A triangle-shaped fried pastry, typically filled with meat or fish and an egg",
+      "cite": [
+        "cap-discovertunisia-com-2b1eab"
+      ]
+    },
+    {
+      "label": "Pastry",
+      "value": "Made with a paper-thin pastry sheet, called malsouka",
+      "cite": [
+        "cap-roadsandkingdoms-com-0ef6cc"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": "The word brik possibly comes from the Turkish börek",
+      "cite": [
+        "cap-roadsandkingdoms-com-0ef6cc"
+      ]
+    },
+    {
+      "label": "Origin (debated)",
+      "value": "More likely originated in or around southern Tunisia as the work of Tunisian Jews, though this is contested",
+      "cite": [
+        "cap-roadsandkingdoms-com-0ef6cc"
+      ]
+    },
+    {
+      "label": "Regional fillings",
+      "value": "Fillings vary by region; the Djerba way uses potato, parsley and harissa",
+      "cite": [
+        "cap-roadsandkingdoms-com-0ef6cc"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "The egg yolk is kept runny",
+      "cite": [
+        "cap-roadsandkingdoms-com-0ef6cc"
+      ]
+    },
+    {
+      "label": "When",
+      "value": "An essential dish of Tunisian cuisine and of Ramadan",
+      "cite": [
+        "cap-lepetitjournal-com-f60ddb"
+      ]
+    },
+    {
+      "label": "Wrappers",
+      "value": "In Tunisia brik is made with malsouka or warka, paper-thin wrappers; it is typically triangular, while tube-shaped ones are called asabe Fatima (Fatima's fingers)",
+      "cite": [
+        "cap-thenationalnews-com-cd1ef9"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brik is a triangle-shaped fried pastry, typically filled with meat or fish and an egg, made from a paper-thin pastry sheet called malsouka. Its origins are unclear: the name may come from the Turkish börek, while one account places its origin in southern Tunisia among Tunisian Jews. Fillings vary by region, such as the Djerba version with potato, parsley and harissa.",
+              "cite": [
+                "cap-discovertunisia-com-2b1eab",
+                "cap-roadsandkingdoms-com-0ef6cc",
+                "cap-lepetitjournal-com-f60ddb",
+                "cap-thenationalnews-com-cd1ef9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Brik is a dish of Tunisian cuisine that is also essential during Ramadan, and the egg yolk inside is kept runny.",
+              "cite": [
+                "cap-discovertunisia-com-2b1eab",
+                "cap-roadsandkingdoms-com-0ef6cc",
+                "cap-lepetitjournal-com-f60ddb",
+                "cap-thenationalnews-com-cd1ef9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "title": "Cook it",
+      "blocks": [
+        {
+          "type": "recipe",
+          "title": "Najet Hadriche's Tunisian brik with shrimp",
+          "servings": 20,
+          "sub": "One version of the dish, as given by The National; the steps are summarised in our own words. Recipes differ from cook to cook.",
+          "cite": [
+            "cap-thenationalnews-com-cd1ef9"
+          ],
+          "note": "Makes 20 to 25 rolls. This is a tube-shaped shrimp and tuna variant (asabe Fatima) made with spring roll wrappers in place of malsouka; the common brik is triangular with a whole egg.",
+          "ingredients": [
+            {
+              "name": "small onion, finely chopped",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "potato, cut into small squares and boiled",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "parsley, finely chopped",
+              "amount": 1,
+              "unit": "cup"
+            },
+            {
+              "name": "shrimp, shelled, cleaned, deveined and chopped",
+              "amount": 500,
+              "unit": "g"
+            },
+            {
+              "name": "tinned tuna, drained",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "name": "capers, chopped",
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            {
+              "name": "ground coriander",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "ground caraway",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "cinnamon powder",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "turmeric powder",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "black pepper",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "chilli powder (optional)",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "name": "salt",
+              "amount": 1,
+              "unit": "tsp"
+            },
+            {
+              "name": "egg, beaten",
+              "amount": 1,
+              "unit": ""
+            },
+            {
+              "name": "small spring roll wrappers, frozen",
+              "amount": 1,
+              "unit": "packet"
+            },
+            {
+              "name": "cooking oil for frying",
+              "amount": null,
+              "unit": ""
+            }
+          ],
+          "steps": [
+            {
+              "text": "Mash the onion, boiled potato and parsley together in a bowl until combined."
+            },
+            {
+              "text": "Mix in the shrimp and tuna, then the spices, salt and pepper, and finally the beaten egg until everything is evenly blended."
+            },
+            {
+              "text": "Lay out one wrapper at a time, keeping the rest covered. Put a tablespoon of filling across the centre on the diagonal, fold a corner over it, tuck in the sides and roll it up into a cigar, sealing the end with a drop of water. Repeat until the filling is used up (the rolls can be frozen now and thawed for 15 minutes before frying)."
+            },
+            {
+              "text": "Heat 4 to 5 cm of oil in a frying pan over medium heat and fry the rolls in batches, turning once halfway, until golden on all sides.",
+              "minutes": 6
+            },
+            {
+              "text": "Drain on paper towels and serve straight away with lemon wedges."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No UNESCO or academic source on brik was found; facts rest on the national tourism office and press.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

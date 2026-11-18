@@ -35,3 +35,17 @@
   var nav = cur && cur.parentNode;
   if (nav && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = Math.max(0, cur.offsetLeft - 24);
 })();
+
+// Menu principale: un solo elenco aperto alla volta; si chiude con Esc o cliccando fuori.
+(function () {
+  var groups = Array.prototype.slice.call(document.querySelectorAll(".mainnav details"));
+  if (!groups.length) return;
+  groups.forEach(function (d) {
+    d.addEventListener("toggle", function () { if (d.open) groups.forEach(function (o) { if (o !== d) o.open = false; }); });
+  });
+  document.addEventListener("click", function (e) { groups.forEach(function (d) { if (d.open && !d.contains(e.target)) d.open = false; }); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    groups.forEach(function (d) { if (d.open) { d.open = false; d.querySelector("summary").focus(); } });
+  });
+})();

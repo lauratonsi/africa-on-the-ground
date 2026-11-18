@@ -5,10 +5,141 @@
   "country": "CMR",
   "name": "Ndolé",
   "region": "Cameroon",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Ndolé is a Cameroonian dish of bitter leaves (Vernonia, also called bitterleaf) cooked with groundnut paste, to which meat, smoked fish or shrimp are added.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A Cameroonian dish made from ndolé leaves and groundnut paste.",
+      "cite": [
+        "cap-afrique-le360-ma-3b2dd8"
+      ]
+    },
+    {
+      "label": "Main ingredient",
+      "value": "The leaves are Vernonia, known as ndolé or bitterleaf, one of the most widely eaten leafy vegetables in Cameroon.",
+      "cite": [
+        "cap-ajfand-net-b865ec"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The green leaves are boiled in water two or three times with rock salt to remove their bitterness.",
+      "cite": [
+        "cap-fr-journalducameroun-com-11d591"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "In local processing, raw or boiled leaves are squeezed and washed to remove the bitter taste and foam.",
+      "cite": [
+        "cap-ajfand-net-b865ec"
+      ]
+    },
+    {
+      "label": "Other ingredients",
+      "value": "Shrimp, smoked fish, smoked meat or vegetables may be added to the leaves and groundnut paste.",
+      "cite": [
+        "cap-afrique-le360-ma-3b2dd8"
+      ]
+    },
+    {
+      "label": "Origin",
+      "value": "An old dish of the Sawa people that quickly became a national dish.",
+      "cite": [
+        "cap-fr-journalducameroun-com-11d591"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The leaves are washed, beaten and rinsed several times to tame the bitterness, then combined with groundnut paste, spices and a protein: meat, smoked fish or shrimp.",
+      "cite": [
+        "cap-camer-be-fc622b"
+      ]
+    },
+    {
+      "label": "Neighbouring versions",
+      "value": "The leaf dish is also known in Benin (Amanvivè) and Togo (Aloma), but only Cameroon combines it with meat, shellfish and groundnut.",
+      "cite": [
+        "cap-fr-journalducameroun-com-11d591"
+      ]
+    },
+    {
+      "label": "Versions and social meaning",
+      "value": "Versions range from simple (meat), to mixed (meat and smoked fish), to 'royal' (meat, smoked fish and shrimp), which indicate the family's social category.",
+      "cite": [
+        "cap-fr-journalducameroun-com-11d591"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Served with plantain (fried or boiled), cassava or rice.",
+      "cite": [
+        "cap-fr-journalducameroun-com-11d591"
+      ]
+    },
+    {
+      "label": "Who makes it",
+      "value": "The recipe is passed down through the generations, most often between women, and there are almost as many versions as families.",
+      "cite": [
+        "cap-afrique-le360-ma-3b2dd8"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": "'Ndolè Sawa' was registered as a collective trademark with OAPI for 10 years; the certificate was handed to the president of the Ngondo on 27 October 2026.",
+      "cite": [
+        "cap-camer-be-fc622b"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Ndolé is a Cameroonian dish of bitter leaves (Vernonia, also called bitterleaf) cooked with groundnut paste, to which meat, smoked fish or shrimp are added. The leaves are boiled two or three times, or washed and squeezed, to remove their bitterness. It is an old dish of the Sawa people of the Littoral that became a national dish, and in October 2026 the name 'Ndolè Sawa' was registered as a collective trademark with the African Intellectual Property Organization (OAPI).",
+              "cite": [
+                "cap-afrique-le360-ma-3b2dd8",
+                "cap-ajfand-net-b865ec",
+                "cap-fr-journalducameroun-com-11d591",
+                "cap-camer-be-fc622b"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is eaten with plantain (fried or boiled), cassava or rice. Its versions range from meat only to meat with smoked fish and shrimp, which signals a family's social standing.",
+              "cite": [
+                "cap-afrique-le360-ma-3b2dd8",
+                "cap-ajfand-net-b865ec",
+                "cap-fr-journalducameroun-com-11d591",
+                "cap-camer-be-fc622b"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

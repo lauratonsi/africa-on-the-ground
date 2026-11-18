@@ -1,6 +1,6 @@
 {
   "slug": "dodoma-tanzania",
-  "status": "draft",
+  "status": "published",
   "country": "TZA",
   "name": "Dodoma",
   "subtitle": "Dodoma, capital of Tanzania: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -262,5 +262,16 @@
     "Not found in a readable source: Sources differ: TANU decision Aug 1973 (Daily News) vs Oct 1973 conference (Citizen)",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Tanzania has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-dodoma-tanzania",
+    "alt": "Photograph of Dodoma, capital of Tanzania.",
+    "caption": "Dodoma, capital of Tanzania.",
+    "credit": "Mangapwani",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodoma_Mosque%2C_Front%2C_Dodoma_City_Counci.jpg",
+    "width": 800,
+    "height": 366
+  }
 }

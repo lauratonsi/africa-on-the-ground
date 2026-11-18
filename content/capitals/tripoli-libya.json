@@ -1,6 +1,6 @@
 {
   "slug": "tripoli-libya",
-  "status": "draft",
+  "status": "published",
   "country": "LBY",
   "name": "Tripoli",
   "subtitle": "Tripoli, capital of Libya: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -202,5 +202,16 @@
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Libya has read this profile yet.",
     "Some statements were removed on 15 November 2026 because the page cited for them did not contain the quoted words in an automatic check."
-  ]
+  ],
+  "image": {
+    "file": "capital-tripoli-libya",
+    "alt": "Photograph of Tripoli, capital of Libya.",
+    "caption": "Tripoli, capital of Libya.",
+    "credit": "Daniel and Kate Pett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Arch_Tripoli_Libya.jpg",
+    "width": 800,
+    "height": 600
+  }
 }

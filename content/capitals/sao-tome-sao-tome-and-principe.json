@@ -1,6 +1,6 @@
 {
   "slug": "sao-tome-sao-tome-and-principe",
-  "status": "draft",
+  "status": "published",
   "country": "STP",
   "name": "São Tomé",
   "subtitle": "São Tomé, capital of São Tomé and Príncipe: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -217,5 +217,16 @@
     "Detailed census microdata from the 2024 census remain in provisional release.",
     "First-hand local voices from traditional herbalists and cocoa artisans are still missing.",
     "Cityscape photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "capital-sao-tome-sao-tome-and-principe",
+    "alt": "Photograph of São Tomé, capital of São Tomé and Príncipe.",
+    "caption": "São Tomé, capital of São Tomé and Príncipe.",
+    "credit": "Ji-Elle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Statues_d'explorateurs_au_fort_de_S%C3%A3o_Sebasti%C3%A3o_de_S%C3%A3o_Tom%C3%A9.jpg",
+    "width": 800,
+    "height": 533
+  }
 }

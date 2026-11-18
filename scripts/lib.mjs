@@ -363,6 +363,14 @@ const checkRecipeBlock = (b, bw, checkCite) => {
     if (!["draft", "published"].includes(c.status)) err(`${w}: status deve essere "draft" o "published".`);
     if (!/^[A-Z]{3}$/.test(c.country || "") || (countries && !(countries.countries || []).some((x) => x.iso3 === c.country))) err(`${w}: country non valido.`);
     for (const k of ["name", "subtitle"]) if (!c[k]) err(`${w}: manca "${k}".`);
+    if (c.image != null) {
+      const im = c.image;
+      for (const k of ["file", "alt", "caption", "credit", "license"]) if (!im[k] || typeof im[k] !== "string") err(`${w}: image richiede "${k}".`);
+      for (const k of ["licenseUrl", "source"]) if (!/^https:\/\//.test(im[k] || "")) err(`${w}: image.${k} deve essere un indirizzo https.`);
+      for (const size of [800, 1600]) {
+        if (im.file && !fs.existsSync(path.join(root, "src", "img", "capitals", `${im.file}-${size}.jpg`))) err(`${w}: manca src/img/capitals/${im.file}-${size}.jpg.`);
+      }
+    }
     for (const slug of c.places || []) if (!places.some((x) => x.data.slug === slug)) err(`${w}: il luogo "${slug}" non esiste.`);
     checkDeeper(c.deeper, w);
     (c.facts || []).forEach((f, i) => { if (!f.label || !f.value) err(`${w}: facts[${i}] senza label o value.`); checkCite(f.cite, `${w}: facts[${i}]`); });

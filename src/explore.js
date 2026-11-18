@@ -525,5 +525,12 @@
   // Initial starting point
   var poolInit = G.nodes.filter(function (n) { return (adj[n.id] || []).length > 4; });
   var initial = poolInit.length ? poolInit[Math.floor(Math.random() * poolInit.length)] : G.nodes[0];
+  var rawHash = location.hash ? location.hash.replace(/^#/, "").trim() : "";
+  if (rawHash) {
+    var match = G.nodes.find(function (n) {
+      return n.id === rawHash || n.id === "c:" + rawHash || n.id === "k:" + rawHash || n.id.toLowerCase() === rawHash.toLowerCase();
+    });
+    if (match) initial = match;
+  }
   if (initial) go(initial.id);
 })();

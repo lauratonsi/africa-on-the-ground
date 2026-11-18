@@ -55,5 +55,14 @@
     "Full digital inventory of Islamic and Punic holdings remains partially available online.",
     "Local voices: none yet.",
     "Photograph: not yet linked."
-  ]
+  ],
+  "image": {
+    "file": "bardo-national-museum-tunis",
+    "alt": "Il celebre mosaico romano del poeta Virgilio seduto tra le muse Clio e Melpomene, conservato al Museo del Bardo.",
+    "caption": "Il celebre mosaico di Virgilio (III secolo d.C.), fiore all'occhiello della collezione di mosaici romani del Museo del Bardo a Tunisi.",
+    "credit": "David Bjorgen",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Virgil_Mosaic_Bardo_Museum_Tunis.jpg"
+  }
 }

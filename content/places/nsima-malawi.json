@@ -5,10 +5,119 @@
   "country": "MWI",
   "name": "Nsima",
   "region": "Malawi",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Nsima is a thick porridge made with maize flour, and the name also covers Malawi's wider culinary tradition built around it.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "Both the name of Malawi's culinary and dietary tradition and of one part of it, a thick porridge made with maize flour.",
+      "cite": [
+        "cap-ich-unesco-org-6c68c4"
+      ]
+    },
+    {
+      "label": "Flours",
+      "value": "Made traditionally from three flours known locally as mgaiwa, gramil and white cornmeal (woyera).",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-f11d65"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "Side dishes known as relish (legumes, meat, fish and vegetables) and chilli and tomato sauces.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-f11d65"
+      ]
+    },
+    {
+      "label": "Place in the diet",
+      "value": "Nsima is the main meal in Malawi.",
+      "cite": [
+        "cap-pmc-ncbi-nlm-nih-gov-f11d65"
+      ]
+    },
+    {
+      "label": "How it is eaten",
+      "value": "Eating nsima is a communal tradition in families and a way to strengthen bonds.",
+      "cite": [
+        "cap-ich-unesco-org-6c68c4"
+      ]
+    },
+    {
+      "label": "Who makes it",
+      "value": "Girls learn early to pound maize or sift flour to make nsima, while boys hunt for animals to provide accompaniments.",
+      "cite": [
+        "cap-ich-unesco-org-6c68c4"
+      ]
+    },
+    {
+      "label": "Hospitality",
+      "value": "Serving nsima is a welcoming custom to show hospitality to guests.",
+      "cite": [
+        "cap-ich-unesco-org-d60352"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "UNESCO's committee said inscription could help bring nsima back into cooking in towns, where people have moved away from the tradition.",
+      "cite": [
+        "cap-ich-unesco-org-d60352"
+      ]
+    },
+    {
+      "label": "UNESCO inscription",
+      "value": "Inscribed on the Representative List of the Intangible Cultural Heritage of Humanity in 2017.",
+      "cite": [
+        "cap-ich-unesco-org-d60352"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nsima is a thick porridge made with maize flour, and the name also covers Malawi's wider culinary tradition built around it. It is made traditionally from different maize flours, including whole maize flour (mgaiwa) and white refined flour (woyera). UNESCO inscribed the tradition on its Representative List in 2017.",
+              "cite": [
+                "cap-ich-unesco-org-6c68c4",
+                "cap-pmc-ncbi-nlm-nih-gov-f11d65",
+                "cap-ich-unesco-org-d60352"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Nsima is the main meal in Malawi, eaten communally in families with relishes of legumes, meat, fish and vegetables and with chilli and tomato sauces.",
+              "cite": [
+                "cap-ich-unesco-org-6c68c4",
+                "cap-pmc-ncbi-nlm-nih-gov-f11d65",
+                "cap-ich-unesco-org-d60352"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: No complete recipe from an acceptable source that could be read (the IFAD 'Recipes for Change' page is blocked; others were blogs or volunteer pages).",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

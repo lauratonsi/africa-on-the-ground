@@ -1,8 +1,32 @@
 {
-  "amazigh": { "file": "Tifinagh writing.JPG", "alt": "A shop sign in Morocco with the same text written three times: in Tifinagh letters, in Arabic, and in French.", "caption": "A shop sign in Morocco: the same text in Tifinagh (the script used for Amazigh languages), Arabic and French." },
-  "fula": { "file": "Chapeau berger Peul-Institut d'ethnologie de Strasbourg-2.jpg", "alt": "A conical woven hat with leather trim and white diamond-shaped inlays, on a dark background.", "caption": "A Fula herder's hat from the Fouta Djallon, Guinea (plant fibre and leather), in the ethnographic collection of the University of Strasbourg." },
-  "yoruba": { "file": "Osun Osogbo Sacred Groove - The Sculpture of a Flying Tortoise.jpg", "alt": "Large red-brown sculptures arching over a dirt path in a forest.", "caption": "Sculptures along a path in the Osun-Osogbo Sacred Grove, a forest with shrines in Osun State, Nigeria." },
-  "maasai": { "file": "A typical Maasai boma.jpg", "alt": "A round house of mud walls and a thatched roof, with a fence on the right and a bare hill behind.", "caption": "A house in a Maasai homestead (boma) in the Ngorongoro Conservation Area, Tanzania." },
-  "san": { "file": "ELANDS - San rock paintings at Eland Cave, Cathedral Peak, South Africa, 2017.jpg", "alt": "A rock-shelter wall covered with red and ochre paintings of many antelope.", "caption": "A panel of San rock paintings at Eland Cave, Cathedral Peak area, Drakensberg, South Africa." },
-  "oromo": { "file": "Bale mountains.jpg", "alt": "Green mountain slopes with tall lobelia plants and trees under a cloudy sky.", "caption": "The Bale Mountains, in Ethiopia's Oromia region." }
+  "amazigh": {
+    "file": "Agadir Inoumar.jpg",
+    "alt": "A multi-storey stone fortified granary with small wooden windows and a central courtyard in the Anti-Atlas mountains.",
+    "caption": "The collective fortified granary (agadir) of Inoumar in Morocco's Anti-Atlas, a communal storehouse managed for centuries by Amazigh village assemblies."
+  },
+  "fula": {
+    "file": "A Fulani Herders and His Herd.jpg",
+    "alt": "A Fulani pastoralist herding a large group of cattle across open savanna.",
+    "caption": "A Fulani pastoralist herding cattle, central to the seasonal transhumance and pastoral life across the West African Sahel and savanna."
+  },
+  "yoruba": {
+    "file": "A crowd attending the Osun Osogbo Annual festival.jpg",
+    "alt": "A large crowd in colorful clothing gathered along a tree-lined road during the Osun-Osogbo festival.",
+    "caption": "Crowds attending the annual Osun-Osogbo festival in Osun State, Nigeria, celebrating at the sacred grove."
+  },
+  "maasai": {
+    "file": "Maasai dance.jpg",
+    "alt": "Maasai community members in red and patterned shuka cloth performing the traditional jumping dance outdoors.",
+    "caption": "Maasai community members performing the traditional jumping dance (Adumu), an expression of shared cultural ritual and community."
+  },
+  "san": {
+    "file": "Khomani San people, Kalahari, Northern Cape, South Africa (20543494255).jpg",
+    "alt": "Members of the ǂKhomani San community walking through red Kalahari dunes, examining desert plants.",
+    "caption": "Members of the ǂKhomani San community in the southern Kalahari, sharing botanical knowledge and tracking practices passed down across generations."
+  },
+  "oromo": {
+    "file": "Irreecha Festival.jpg",
+    "alt": "A large crowd gathered by the lake shore holding green grass bunches in celebration.",
+    "caption": "Celebrations of Irreecha, the Oromo thanksgiving festival, at Lake Hora Arsadi in Bishoftu, Ethiopia, where millions gather annually with bunches of fresh grass (coqorsaa)."
+  }
 }

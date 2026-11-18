@@ -1,0 +1,213 @@
+{
+  "slug": "europes-migration-ledger-agreements-permits-and-remittances",
+  "status": "published",
+  "kind": "history",
+  "title": "Europe's migration ledger: agreements, permits and remittances",
+  "subtitle": "Beyond headlines of border walls and sea crossings, real relations involve billions in externalized deals, regular visas that dwarf irregular arrivals, and diaspora money that outstrips foreign aid.",
+  "countries": [
+    "TUN",
+    "LBY",
+    "EGY",
+    "MRT",
+    "SEN"
+  ],
+  "places": [],
+  "sections": [
+    {
+      "id": "externalization-deals",
+      "title": "The price of externalization",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Over the past decade, European migration diplomacy has increasingly focused on 'externalization'—signing bilateral financial agreements with transit countries across North Africa and the Sahel to halt departures before migrants reach European territorial waters.",
+              "editorial": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "This framework includes the 2017 Italy-Libya Memorandum of Understanding, the 2023 EU-Tunisia Memorandum, and multi-million-euro partnerships concluded with Mauritania and Egypt.",
+              "cite": [
+                "eca-special-report-17-2024",
+                "un-ffm-libya-2023"
+              ]
+            },
+            {
+              "text": " A central financing vehicle was the European Union Emergency Trust Fund for Africa (EUTF for Africa), which allocated over €5 billion across 27 partner countries.",
+              "cite": [
+                "eca-special-report-17-2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "In Special Report 17/2024, the European Court of Auditors evaluated the EUTF for Africa, concluding that while the fund was rapid and flexible, it was too dispersed and lacked a clear focus.",
+              "cite": [
+                "eca-special-report-17-2024"
+              ]
+            },
+            {
+              "text": " The auditors emphasized that the fund could not demonstrate sustainable reductions in the root causes of instability and pointed to significant weaknesses in monitoring human rights risks, particularly regarding support for security and border forces.",
+              "cite": [
+                "eca-special-report-17-2024"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regular-vs-irregular",
+      "title": "Regular permits dwarf irregular arrivals",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "450,000+",
+              "label": "first EU regular residence permits issued annually to African citizens",
+              "cite": [
+                "eurostat-migr-resfirst"
+              ]
+            },
+            {
+              "value": "Family & study",
+              "label": "primary legal reasons for residence permits granted by EU member states",
+              "cite": [
+                "eurostat-migr-resfirst"
+              ]
+            },
+            {
+              "value": "Far smaller",
+              "label": "annual irregular sea and land border detections compared to legal admissions",
+              "cite": [
+                "frontex-risk-analysis-2024",
+                "eurostat-migr-resfirst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Media reporting tends to present undocumented dinghy crossings as the dominant reality of African arrival in Europe. Official Eurostat data on first residence permits (MIGR_RESFIRST) paints an entirely different picture.",
+              "cite": [
+                "eurostat-migr-resfirst"
+              ]
+            },
+            {
+              "text": " Each year, European Union member states grant between 400,000 and 500,000 first regular residence permits to African nationals through legal channels.",
+              "cite": [
+                "eurostat-migr-resfirst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The vast majority of these permits are issued for family reunification, university education, and authorized employment in hospitals, engineering firms, and agricultural programmes.",
+              "cite": [
+                "eurostat-migr-resfirst"
+              ]
+            },
+            {
+              "text": " Even in peak years, irregular border crossings detected by Frontex represent a small fraction of the total volume of Africans who arrive in Europe lawfully with passports and visas.",
+              "cite": [
+                "frontex-risk-analysis-2024",
+                "eurostat-migr-resfirst"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remittances-power",
+      "title": "Remittances: the diaspora outstripping foreign aid",
+      "blocks": [
+        {
+          "type": "stat",
+          "items": [
+            {
+              "value": "$54B+",
+              "label": "annual remittances sent to Sub-Saharan Africa (World Bank / KNOMAD)",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            },
+            {
+              "value": "> ODA & FDI",
+              "label": "remittances exceed official development aid and foreign direct investment",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            },
+            {
+              "value": "Direct impact",
+              "label": "funds flow straight to families for food, education and healthcare",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "The financial flow that defines African migration is not foreign aid moving south, but private earnings sent home by African diaspora workers.",
+              "editorial": true
+            },
+            {
+              "text": " According to the World Bank's KNOMAD Migration and Development Brief 40, formal remittance flows to Sub-Saharan Africa exceed $54 billion annually, with North African states receiving billions more.",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Remittances consistently outstrip total Official Development Assistance (ODA) and Foreign Direct Investment (FDI) received by the continent.",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            },
+            {
+              "text": " Unlike institutional aid, which often gets entangled in administrative overhead or diplomatic conditions, remittance transfers arrive directly in the hands of relatives—immediately funding school tuition, medical prescriptions, housing construction, and small family enterprises.",
+              "cite": [
+                "knomad-world-bank-brief-40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "The true economic engine",
+          "parts": [
+            {
+              "text": "The African diaspora is the continent's most dependable and effective development partner. Migration is not a drain on Africa's future, but one of its primary economic lifelines.",
+              "editorial": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "A significant volume of diaspora remittances travels through informal transfer systems (such as Hawala or cash in transit), so World Bank and central bank statistics reflect only formal banking and wire transactions.",
+    "Independent verification of bilateral migration funds is limited by confidential operational clauses and lack of third-party monitoring along transit borders."
+  ]
+}

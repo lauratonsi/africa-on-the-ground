@@ -5,10 +5,117 @@
   "country": "BFA",
   "name": "Tô",
   "region": "Burkina Faso",
-  "subtitle": "Draft card in preparation.",
-  "facts": [],
-  "sections": [],
+  "subtitle": "Tô (sagbo in the Centre-Nord booklet) is a firm cooked paste of millet or sorghum flour; maize tô is also eaten.",
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A dish of millet or sorghum flour, described in a Burkinabè research institute recipe booklet under the name tô (sagbo).",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "Preparation of the grain",
+      "value": "Sorghum grains are soaked for 12 hours, then washed, picked over and drained before grinding.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "How it is cooked",
+      "value": "The fine flour is split three quarters to one quarter; the small part is mixed with water to make a 'flour milk'.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "Cooking liquid",
+      "value": "In this version the cooking liquid is an infusion of roselle (Hibiscus sabdariffa) petals soaked in hot water for 2 hours, which is brought to the boil before the flour milk is added.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "Finishing",
+      "value": "The larger part of the flour is added gradually while working it with a spatula.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "Serving",
+      "value": "Served with a ladle in small balls.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "Eaten with",
+      "value": "A sauce of sorrel, jute, amaranth, spinach or okra leaves, or thinned in water, milk or yoghurt.",
+      "cite": [
+        "cap-ccrp-org-ce4667"
+      ]
+    },
+    {
+      "label": "In restaurants",
+      "value": "In a Ouagadougou restaurant serving local food, diners ate maize tô with koumvando (African eggplant leaves).",
+      "cite": [
+        "cap-sidwaya-info-55a7da"
+      ]
+    },
+    {
+      "label": "Change",
+      "value": "Burkinabè city dwellers are increasingly fond of traditional dishes long confined to rural areas.",
+      "cite": [
+        "cap-sidwaya-info-55a7da"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What it is",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "Tô (sagbo in the Centre-Nord booklet) is a firm cooked paste of millet or sorghum flour; maize tô is also eaten. The sifted flour is split into a small part, mixed with water into a 'flour milk' and boiled, and a larger part, worked in gradually with a spatula until the paste is cooked and supple.",
+              "cite": [
+                "cap-ccrp-org-ce4667",
+                "cap-sidwaya-info-55a7da"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "facts"
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "title": "How it is eaten",
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "text": "It is served with a ladle in small balls and eaten with a sauce such as sorrel, jute (corète), amaranth or okra, or thinned with water, milk or yoghurt. City dwellers are increasingly eating traditional dishes such as tô, long associated with rural areas.",
+              "cite": [
+                "cap-ccrp-org-ce4667",
+                "cap-sidwaya-info-55a7da"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "gaps": [
-    "The dish has not been researched yet: ingredients, preparation, context, sources and local voices are still missing."
+    "The description is summarised from the sources listed here and should be read against them.",
+    "Not found in a readable source: The IRSAT/CNRST booklet gives the full method but only proportions (3/4 and 1/4 of the flour, water 'idem'), not quantities, so it was not recorded as a recipe. No other complete recipe from an acceptable source was found.",
+    "Voices from people who cook this dish: none yet.",
+    "Photograph: none yet."
   ]
 }

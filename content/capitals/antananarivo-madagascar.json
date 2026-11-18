@@ -1,6 +1,6 @@
 {
   "slug": "antananarivo-madagascar",
-  "status": "draft",
+  "status": "published",
   "country": "MDG",
   "name": "Antananarivo",
   "subtitle": "Antananarivo, capital of Madagascar: its numbers, a short history and places to see beyond the World Heritage list.",
@@ -254,5 +254,16 @@
     "Not found in a readable source: Zoma end year 1997 only seen in Lonely Planet (travel guide, skipped); Persée says 'end of the 1990s'",
     "The places are a first selection, not a complete list; the sources behind each one are on its card.",
     "No one from Madagascar has read this profile yet."
-  ]
+  ],
+  "image": {
+    "file": "capital-antananarivo-madagascar",
+    "alt": "Photograph of Antananarivo, capital of Madagascar.",
+    "caption": "Antananarivo, capital of Madagascar.",
+    "credit": "Hery Zo Rakotondramanana",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Reconstructed_Rova_Antananarivo_Madagascar.jpg",
+    "width": 800,
+    "height": 555
+  }
 }
