@@ -1040,72 +1040,127 @@ write("index.html", layout({
   script: true,
   extraScripts: ["story.js"],
   bodyClass: "home",
-  jump: [{ id: "about", label: "What it is" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), { id: "look", label: "Look" }, { id: "read", label: "Read" }, { id: "play", label: "Play" }],
+  jump: [{ id: "discover", label: "Pathways" }, ...(mapSection ? [{ id: "map", label: "Map" }] : []), { id: "featured", label: "Featured" }, { id: "play", label: "Play" }],
   body: `
 <section class="scape-hero compact">
   ${landscape()}
   <div class="scape-text">
     <h1>${esc(config.name)}</h1>
     <p class="scape-sub">${esc(config.tagline)}</p>
-    <p class="actions"><a class="btn btn-cream" href="#map">Start from the map</a> <a class="btn btn-cream" href="#read">Follow a trail</a></p>
+    <p class="actions"><a class="btn btn-cream" href="#map">Explore the map ↓</a> <a class="btn btn-cream btn-ghost" href="#discover">Discover pathways →</a></p>
   </div>
 </section>
-<section id="about" class="wrap home-intro" aria-labelledby="about-h">
-  <h2 id="about-h">Learn about Africa by guessing first, then checking</h2>
-  <div class="home-intro-cols">
-    <p class="lede">Stories, places, capitals, peoples, art and data about the 54 African countries, written for adults. Each page asks you something before it tells you, and every claim carries a numbered source. This is not a travel guide.</p>
-    <ul class="home-facts">
-      <li><strong>Sourced.</strong> Each page also says what is still not known. <a href="method/index.html">How it works</a></li>
-      <li><strong>Two voices.</strong> The documented record and what people who live there say are never mixed.</li>
-      <li><strong>Private.</strong> Nothing you do here is saved or sent anywhere.</li>
-      <li><strong>Open to correction.</strong> If you know a place, a dish or a people from the inside, every page has a form to correct the record or add your account.</li>
-    </ul>
+
+<section id="discover" class="wrap home-discover" aria-labelledby="discover-h">
+  <div class="discover-head">
+    <p class="layer-tag rec">The Living Atlas</p>
+    <h2 id="discover-h">54 African countries, explored through four pathways</h2>
+    <p class="lede">Every card asks you to guess before it reveals. Every claim carries a verified source, every gap is acknowledged, and local accounts remain separate from the historical record.</p>
   </div>
-  <p class="home-status">Ready now: ${stories.length} stories, ${livePlaces} place cards and the quiz. In preparation, and not yet read by a person who knows the subject: ${draftPlaces ? draftPlaces + " more place cards, " : ""}${capitals.length ? capitals.length + " capital profiles, " : ""}the peoples pages and most of the art catalogue. Anything in preparation is marked as such.</p>
+
+  <ul class="home-pathways">
+    <li class="pathway-card">
+      <div class="pathway-img-wrap">
+        <img src="img/places/rock-hewn-churches-of-lalibela-800.jpg" alt="Rock-Hewn Churches of Lalibela" width="800" height="450" loading="lazy">
+        <span class="pathway-badge">${livePlaces} places</span>
+      </div>
+      <div class="pathway-content">
+        <h3 class="pathway-title">Places &amp; Art</h3>
+        <p class="pathway-desc">UNESCO World Heritage sites, architectural monuments and historic African artworks understood through their original ceremonial and social functions.</p>
+        <a class="pathway-cta" href="places/index.html">Browse places &amp; art &rarr;</a>
+      </div>
+    </li>
+
+    <li class="pathway-card">
+      <div class="pathway-img-wrap">
+        <img src="img/stories/adwa-painting-800.jpg" alt="The Battle of Adwa painting" width="800" height="450" loading="lazy">
+        <span class="pathway-badge">${stories.length} investigations</span>
+      </div>
+      <div class="pathway-content">
+        <h3 class="pathway-title">History &amp; Myths</h3>
+        <p class="pathway-desc">Short investigations testing common assumptions against the historical record: the myth of 'tribes', the partition of Africa, ancient empires and culinary crossroads.</p>
+        <a class="pathway-cta" href="stories/index.html">Read history &amp; myths &rarr;</a>
+      </div>
+    </li>
+
+    <li class="pathway-card">
+      <div class="pathway-img-wrap">
+        <img src="img/capitals/capital-algiers-algeria-800.jpg" alt="Algiers capital city" width="800" height="450" loading="lazy">
+        <span class="pathway-badge">54 sovereign states</span>
+      </div>
+      <div class="pathway-content">
+        <h3 class="pathway-title">Countries &amp; Capitals</h3>
+        <p class="pathway-desc">Complete national profiles for all 54 states, comparative demographics, regional journeys across subregions, and dedicated guides to each capital city.</p>
+        <a class="pathway-cta" href="countries/index.html">Explore countries &amp; capitals &rarr;</a>
+      </div>
+    </li>
+
+    <li class="pathway-card">
+      <div class="pathway-img-wrap">
+        <img src="img/stories/people-fula-800.jpg" alt="Fula cultural traditions" width="800" height="450" loading="lazy">
+        <span class="pathway-badge">Peoples &amp; Culture</span>
+      </div>
+      <div class="pathway-content">
+        <h3 class="pathway-title">Peoples &amp; Societies</h3>
+        <p class="pathway-desc">Moving beyond colonial categories: documented ethnic and linguistic groups as sources name them, their cross-border heritage, institutions and living traditions.</p>
+        <a class="pathway-cta" href="peoples/index.html">Meet the peoples &rarr;</a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="home-method-strip">
+    <div class="hms-item">
+      <span class="hms-tag">Sourced Record</span>
+      <p>Every factual claim carries a numbered citation back to verified archives, statistics or research.</p>
+    </div>
+    <div class="hms-item">
+      <span class="hms-tag">Two Voices</span>
+      <p>Documented historical facts and lived local accounts are never mixed together.</p>
+    </div>
+    <div class="hms-item">
+      <span class="hms-tag">Private &amp; Offline</span>
+      <p>No cookies, no analytics, no external tracking. The entire project runs locally in your browser.</p>
+    </div>
+    <div class="hms-item">
+      <span class="hms-tag">Open to Correction</span>
+      <p>Every page has an integrated note form for readers from that community to correct or enrich the record.</p>
+    </div>
+  </div>
+  <p class="home-method-link"><a href="method/index.html">Read how this project is built and audited &rarr;</a></p>
 </section>
+
 ${mapSection}
-<section id="look" class="night section way" aria-labelledby="look-h">
+
+<section id="featured" class="band-sand section way" aria-labelledby="featured-h">
   <div class="wrap way-grid">
     <div class="way-text">
-      <h2 id="look-h">Look</h2>
-      <p class="lede">Places you can open, art seen through what it is for, the peoples behind the old labels and the capitals behind the names on the map.</p>
-      <p class="actions"><a class="btn btn-cream" href="places/index.html">Browse the places</a> <a class="btn btn-cream" href="places/art/index.html">Art</a>${capsAvail ? ' <a class="btn btn-cream" href="capitals/index.html">Capitals</a>' : ""}${peoplesAvail ? ' <a class="btn btn-cream" href="peoples/index.html">Peoples</a>' : ""} <a class="btn btn-cream" href="countries/index.html">Countries</a></p>
-    </div>
-    <div class="way-body">
-      ${homePlaceCards.length ? `<h3 class="way-sub">From the place cards</h3><ul class="minis">${homePlaceCards.map((x) => miniCard(x, homeTypeLabel[x.type] || x.type)).join("")}</ul>` : ""}
-      ${homeArtCards.length ? `<h3 class="way-sub">From the art index</h3><ul class="minis">${homeArtCards.map((a) => miniCard(a.place, a.label)).join("")}</ul>` : ""}
-      ${homeLookRows}
-    </div>
-  </div>
-</section>
-<section id="read" class="band-sand section way" aria-labelledby="read-h">
-  <div class="wrap way-grid">
-    <div class="way-text">
-      <h2 id="read-h">Read</h2>
-      <p class="lede">Short stories that start from a question: myths checked against the record, history you were rarely taught, and the food behind the places.</p>
-      <p class="actions"><a class="btn" href="stories/index.html">History &amp; Myths</a> <a class="btn btn-alt" href="food/index.html">Food &amp; Foodways</a></p>
+      <h2 id="featured-h">Start somewhere</h2>
+      <p class="lede">Short stories that begin from a question: myths tested against the record, history rarely taught in schools, and the foodways that bridge nations.</p>
+      <p class="actions"><a class="btn" href="stories/index.html">All stories</a> <a class="btn btn-alt" href="food/index.html">Food &amp; Foodways</a></p>
     </div>
     <div class="way-body">
       <ul class="scards">${homeStoryList.map((x) => storyCard(x, "")).join("")}</ul>
-      ${homeTrails.length ? `<h3 class="way-sub">Or follow a trail</h3><ol class="home-trails">${homeTrails.map((t) => `<li><a href="${esc(storyHref(homeStoryBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1"><strong>${esc(t.title)}</strong><span>${esc(t.intro)} ${t.steps.length} stops.</span></a></li>`).join("")}</ol>` : ""}
+      ${homePlaceCards.length ? `<h3 class="way-sub">Curated landmarks</h3><ul class="minis">${homePlaceCards.map((x) => miniCard(x, homeTypeLabel[x.type] || x.type)).join("")}</ul>` : ""}
+      ${homeTrails.length ? `<div class="home-featured-extra"><h3 class="home-featured-sub">Or follow an editorial trail across borders</h3><ul class="home-trails-grid">${homeTrails.map((t) => `<li><a class="trail-card" href="${esc(storyHref(homeStoryBySlug[t.steps[0].story], ""))}?trail=${esc(t.id)}&amp;step=1"><span class="trail-card-tag">${t.steps.length} stops</span><strong>${esc(t.title)}</strong><span>${esc(t.intro)}</span></a></li>`).join("")}</ul></div>` : ""}
     </div>
   </div>
 </section>
+
 <section id="play" class="band-saffron section way" aria-labelledby="play-h">
   <div class="wrap way-grid">
     <div class="way-text">
       <h2 id="play-h">Play</h2>
-      <p class="lede">You learn faster when you commit to an answer first. Everything here runs in your browser and forgets you when you leave.</p>
+      <p class="lede">You learn faster when you commit to an answer first. Interactive challenges that test what you know and reveal the data behind it.</p>
       ${homeQuestion}
     </div>
     <div class="way-body">
-      <ul class="play-list">
-        <li><a href="quiz/index.html"><strong>Quiz</strong><span>${quizCount} curated questions plus others built from the country, language and bloc data, each with its source.</span></a></li>
-        <li><a href="stories/index.html#sec-game"><strong>Which story is this from?</strong><span>A fact, four stories, a streak to keep.</span></a></li>
-        <li><a href="explore/index.html"><strong>Connections</strong><span>Follow the links between countries, places, peoples and stories, or race to the shortest route.</span></a></li>
-        <li><a href="society/index.html"><strong>Society games</strong><span>Faith, government and language: guess, then see the data.</span></a></li>
-        <li><a href="true-size/index.html"><strong>True size</strong><span>Drag countries over Africa on an equal-area map.</span></a></li>
-        <li><a href="languages/index.html"><strong>Which language is this?</strong><span>A phrase, four languages, and where it is spoken.</span></a></li>
+      <ul class="play-grid">
+        <li><a class="play-card" href="quiz/index.html"><strong>Interactive Quiz</strong><span>${quizCount} curated questions on history, geography and languages, each with its citation.</span><span class="pc-arrow">Take the quiz &rarr;</span></a></li>
+        <li><a class="play-card" href="explore/index.html"><strong>Connections Graph</strong><span>Follow the editorial links between countries, places, peoples and stories, or race the Thread Quest.</span><span class="pc-arrow">Explore network &rarr;</span></a></li>
+        <li><a class="play-card" href="true-size/index.html"><strong>True Size Comparison</strong><span>Drag countries over Africa on an equal-area projection map to see real continental scales.</span><span class="pc-arrow">Compare sizes &rarr;</span></a></li>
+        <li><a class="play-card" href="society/index.html"><strong>Society &amp; Demographics</strong><span>Faith, forms of government and linguistic families: guess the shares, then see the data.</span><span class="pc-arrow">Explore society &rarr;</span></a></li>
+        <li><a class="play-card" href="stories/index.html#sec-game"><strong>Which Story Is This?</strong><span>A single documented fact, four story options, and a streak counter to challenge yourself.</span><span class="pc-arrow">Play trivia &rarr;</span></a></li>
+        <li><a class="play-card" href="languages/index.html"><strong>Language Recognition</strong><span>Read a real phrase, choose between four African languages, and learn where it is spoken.</span><span class="pc-arrow">Guess language &rarr;</span></a></li>
       </ul>
     </div>
   </div>
