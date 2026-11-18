@@ -2473,19 +2473,60 @@ function renderMigration(M) {
   const permits = S.europe && v(S.europe, "regular_vs_irregular", "First residence permits");
   const irregular = S.europe && v(S.europe, "regular_vs_irregular", "Irregular border crossings");
   const agri = S.jobs && v(S.jobs, "italy_foreign_share_value_added_by_sector", "Agriculture");
-  const checks = [];
-  if (inAfrica && inEurope) checks.push({ type: "check", q: "In 2024, where did most people born in Africa who live outside their own country actually live?", options: ["In another African country", "In Europe", "In North America", "In Asia"], answer: "In another African country", explain: `About ${inAfrica.value} million lived in another African country, against ${inEurope.value} million in geographic Europe. See "Who moves, and where to".` });
-  if (permits && irregular) checks.push({ type: "check", q: "Myth or fact: most people who come to the EU from outside each year arrive irregularly, by boat or across a land border.", options: ["Myth", "Fact"], answer: "Myth", explain: `In 2025 the EU issued about ${Math.round(permits.value / 100000) / 10} million first residence permits, while Frontex detected about ${Math.round(irregular.value / 1000)},000 irregular crossings (detections, not people). See "What Europe pays, and what it receives".` });
-  const est = [];
-  if (eri) est.push({ type: "estimate", prompt: "In 2025, what share of first-instance asylum decisions for Eritreans in the EU granted protection?", min: 0, max: 100, step: 1, unit: "%", answer: eri.value, parts: [{ text: `EU asylum offices said yes in ${eri.value}% of first-instance decisions for Eritreans in 2025. The average for all nationalities was much lower.`, cite: eri.cite }] });
-  if (agri) est.push({ type: "estimate", prompt: "What share of the value added in Italian agriculture was produced by foreign workers in 2025?", min: 0, max: 60, step: 0.5, unit: "%", answer: agri.value, decimals: 1, parts: [{ text: `About ${agri.value}%, the highest of any sector, according to Fondazione Leone Moressa on ISTAT data.`, cite: agri.cite }] });
+
+  const mythFactQuestions = [
+    {
+      q: "1. Myth or fact: Most people born in Africa who emigrate live in Europe.",
+      options: ["Myth", "Fact"],
+      answer: "Myth",
+      explain: `About ${inAfrica ? inAfrica.value : "25.1"} million African international migrants live in another African country (~82%), while ${inEurope ? inEurope.value : "10.6"} million live in geographic Europe. Movement within Africa is the dominant norm.`,
+      cite: inAfrica ? inAfrica.cite : ["cap-swp-berlin-org-9204f2"]
+    },
+    {
+      q: "2. Myth or fact: Most foreign citizens who enter the EU each year arrive irregularly across a sea or land border.",
+      options: ["Myth", "Fact"],
+      answer: "Myth",
+      explain: `In 2025 the EU issued about ${permits ? (Math.round(permits.value / 100000) / 10) : "3.9"} million regular first residence permits (for work, study, and family), while Frontex recorded ~${irregular ? Math.round(irregular.value / 1000) : "180"},000 irregular border crossing detections across all borders. Regular channels dwarf irregular arrivals by more than 20 to 1.`,
+      cite: permits ? permits.cite : ["cap-ec-europa-eu-bd3ef8"]
+    },
+    {
+      q: "3. Myth or fact: Empirical economic studies show foreign workers displace native workers and reduce average native wages.",
+      options: ["Myth", "Fact"],
+      answer: "Myth",
+      explain: "Economists across Italy, Germany, Denmark and the US (Card, Peri, Foged, D'Amuri) find foreign workers predominantly fill structural shortages in complementary manual or service roles, enabling native workers to specialize in communication and supervision with zero or slightly positive overall wage effects.",
+      cite: ["cap-nber-org-727e87", "cap-docs-iza-org-33bca6"]
+    },
+    {
+      q: "4. Myth or fact: In Italian agriculture, foreign workers produce more than one-fifth of the sector's total value added.",
+      options: ["Myth", "Fact"],
+      answer: "Fact",
+      explain: `According to Fondazione Leone Moressa on ISTAT data, foreign-born workers generate about ${agri ? agri.value : "21.3"}% of total agricultural value added in Italy, the highest share of any economic sector in the country.`,
+      cite: agri ? agri.cite : ["cap-fondazioneleonemoressa-org-22a5d4"]
+    }
+  ];
+
   const factList = (fs) => `<ul class="mig-facts">${fs.map((f) => `<li>${esc(f.text)}${cite(f.cite)}${f.page ? ` <span class="note-small">(${/–/.test(f.page) ? "pp." : "p."} ${esc(f.page)})</span>` : ""}</li>`).join("")}</ul>`;
 
   const renderSec = (sec, isFirstInCluster) => {
     const plain = sec.facts.filter((f) => !f.debate), deb = sec.facts.filter((f) => f.debate);
     const shown = plain.slice(0, 8), more = plain.slice(8);
     const charts = (sec.charts || []).map((c) => renderRich({ type: "chart", kind: "bars", title: c.title, sub: c.sub, rows: c.rows, cite: c.cite, note: "" }, cite, { up: "../" })).join("");
-    const extra = sec.id === "who-moves" ? checks.slice(0, 1) : sec.id === "why-they-leave" ? est.slice(0, 1) : sec.id === "jobs" ? est.slice(1) : sec.id === "europe" ? checks.slice(1) : [];
+
+    const extra = [];
+    if (sec.id === "who-moves") {
+      extra.push({ type: "estimate", prompt: "What share of all African migrants living outside their birth country live in another African country (rather than in Europe or elsewhere)?", min: 0, max: 100, step: 1, unit: "%", answer: 82, parts: [{ text: "About 82% (~25.1 million people) live in another African country, while about 10.6 million live in geographic Europe, according to UN DESA data.", cite: inAfrica ? inAfrica.cite : ["cap-swp-berlin-org-9204f2"] }] });
+    } else if (sec.id === "why-they-leave") {
+      if (eri) extra.push({ type: "estimate", prompt: "In 2025, what share of first-instance asylum decisions for Eritreans in the EU granted international protection?", min: 0, max: 100, step: 1, unit: "%", answer: eri.value, parts: [{ text: `EU asylum offices granted protection in ${eri.value}% of first-instance decisions for Eritreans in 2025. People flee indefinite military conscription and political persecution.`, cite: eri.cite }] });
+    } else if (sec.id === "routes") {
+      extra.push({ type: "rawhtml", html: `<div class="mig-comparator"><h4 class="mig-comparator-title">Reality Check: Regular Permits vs Irregular Crossings</h4><p class="mig-comparator-sub">Media coverage focuses almost exclusively on boat crossings, but official statistics reveal the true scale of regular vs irregular movements:</p><div class="mig-compare-bars"><div class="mig-compare-item"><div class="mig-compare-label"><span>First residence permits issued by EU (regular)</span><span>3,900,000 (~95.6%)</span></div><div class="mig-compare-track"><div class="mig-compare-fill permits"></div></div></div><div class="mig-compare-item"><div class="mig-compare-label"><span>Frontex irregular border crossing detections</span><span>~180,000 (~4.4%)</span></div><div class="mig-compare-track"><div class="mig-compare-fill crossings"></div></div></div></div></div>` });
+    } else if (sec.id === "jobs") {
+      if (agri) extra.push({ type: "estimate", prompt: "What share of total value added in Italian agriculture was produced by foreign workers in 2025?", min: 0, max: 60, step: 0.5, unit: "%", answer: agri.value, decimals: 1, parts: [{ text: `About ${agri.value}%, the highest of any economic sector, according to Fondazione Leone Moressa on ISTAT data. Italian food production relies structurally on migrant labour.`, cite: agri.cite }] });
+    } else if (sec.id === "europe") {
+      extra.push({ type: "rawhtml", html: `<div class="mig-comparator"><h4 class="mig-comparator-title">Remittances vs Official Development Assistance (ODA)</h4><p class="mig-comparator-sub">Money sent home by African diaspora workers dwarfs total European foreign aid to the entire continent:</p><div class="mig-compare-bars"><div class="mig-compare-item"><div class="mig-compare-label"><span>Remittances sent by African migrants to Africa</span><span>$54 Billion / year</span></div><div class="mig-compare-track"><div class="mig-compare-fill remittances"></div></div></div><div class="mig-compare-item"><div class="mig-compare-label"><span>Total EU bilateral development aid (ODA)</span><span>~$15 Billion / year</span></div><div class="mig-compare-track"><div class="mig-compare-fill aid"></div></div></div></div></div>` });
+    } else if (sec.id === "history") {
+      extra.push({ type: "estimate", prompt: "In what year did European intellectuals and diplomats form the first official 'Eurafrica' doctrine, planning large-scale European settlement into Africa?", min: 1900, max: 1960, step: 1, unit: "", answer: 1929, parts: [{ text: "In 1929, with Richard Coudenhove-Kalergi and French and German colonial advocates, European powers envisioned Africa as an empty space to absorb millions of European emigrants.", cite: ["hansen-jonsson-2014-eurafrica"] }] });
+    }
+
     return `<section id="sec-${esc(sec.id)}" class="mig-sec">${isFirstInCluster ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h3>${esc(sec.title)}</h3><p class="mig-intro">${esc(sec.intro)}</p>${charts}${factList(shown)}${more.length ? `<details class="fold"><summary><span>${more.length} more facts</span></summary>${factList(more)}</details>` : ""}${deb.length ? `<aside class="callout mig-debate"><p class="callout-t">Where research disagrees</p><ul class="mig-facts">${deb.map((f) => `<li>${esc(f.text)}${cite(f.cite)}</li>`).join("")}</ul></aside>` : ""}${extra.length ? `<div class="checks">${extra.map((b) => renderRich(b, cite, { up: "../" })).join("")}</div>` : ""}</section>`;
   };
 
@@ -2553,6 +2594,33 @@ function renderMigration(M) {
     `).join("")}
   </div>`;
 
+  const challengeHtml = `<section class="checks mig-challenge" aria-labelledby="mc-h">
+    <div class="mig-challenge-head">
+      <span class="layer-tag rec">Interactive Challenge</span>
+      <h2 id="mc-h">Myth or Fact? Test your assumptions first</h2>
+      <p class="lede">Before examining the 143 documented facts below, guess whether these four pervasive claims hold up against official census records, Eurostat data, and empirical research. Commit to an answer to see the sourced reality.</p>
+    </div>
+    ${mythFactQuestions.map((q) => checkHtmlWith(q, cite)).join("")}
+    <p class="check-score" role="status" aria-live="polite" hidden></p>
+  </section>`;
+
+  const interactiveBarHtml = `<div class="mig-interactive-bar" aria-label="Interactive fact search and filter">
+    <div class="mig-search-input-wrap">
+      <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><line x1="12.5" y1="12.5" x2="17.5" y2="17.5"/></svg>
+      <input type="search" id="mig-search" placeholder="Search 143 facts by keyword, country, or source (e.g. Italy, Frontex, wages, Libya, asylum, remittances)..." aria-label="Filter all 143 migration facts by keyword">
+    </div>
+    <div class="mig-chips" role="group" aria-label="Filter facts by cluster topic">
+      <button type="button" class="mig-chip is-active" data-tag="all" aria-pressed="true">All facts (143)</button>
+      <button type="button" class="mig-chip" data-tag="who-moves" data-cluster="cluster-movements" aria-pressed="false">Destinations</button>
+      <button type="button" class="mig-chip" data-tag="why-they-leave" data-cluster="cluster-movements" aria-pressed="false">Asylum &amp; War</button>
+      <button type="button" class="mig-chip" data-tag="routes" data-cluster="cluster-routes" aria-pressed="false">Sea &amp; Sahara Routes</button>
+      <button type="button" class="mig-chip" data-tag="europe" data-cluster="cluster-routes" aria-pressed="false">EU Deals &amp; Permits</button>
+      <button type="button" class="mig-chip" data-tag="jobs" data-cluster="cluster-jobs" aria-pressed="false">Jobs &amp; Wages</button>
+      <button type="button" class="mig-chip" data-tag="debates" aria-pressed="false">Contested Debates</button>
+    </div>
+    <p class="mig-filter-count" id="mig-filter-count" role="status" aria-live="polite">Showing all 143 documented facts</p>
+  </div>`;
+
   const clusterPanels = clusters.map((cl) => {
     const secList = cl.secIds.map((id) => S[id]).filter(Boolean);
     const secsInCluster = secList.map((sec, idx) => renderSec(sec, idx === 0)).join("\n");
@@ -2575,13 +2643,15 @@ function renderMigration(M) {
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
 <aside class="callout mig-claim"><p class="callout-t">The claim this page tests</p><p>"They come to take our jobs." It is often said about migrants from Africa. The clusters below explore who actually moves, why, how, and what the research on jobs and wages finds, including the studies that find costs for some workers. Every number has a source, and where researchers disagree the page says so.</p></aside>
 ${overviewHtml}
+${challengeHtml}
+${interactiveBarHtml}
 <div data-tabs>
 ${clusterPanels}
 </div>
 ${gaps}
 <aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li><a href="../stories/europes-plan-for-africa-eurafrica/index.html">Europe's plan for Africa, in its own words</a></li><li><a href="../stories/did-one-conference-carve-up-africa/index.html">Did one conference carve up Africa?</a></li><li><a href="../society/index.html">Society: faith, government and language</a></li><li><a href="../peoples/index.html">Peoples, not 'tribes'</a></li></ul></aside>
 ${sourcesList()}</article></div>`;
-  return layout({ title: `Migration · ${config.name}`, description: "African migration with sources: who moves and where, what people flee, routes and smuggling, what research says about jobs, and Europe's deals.", depth: 1, current: "migration", body, script: true, extraScripts: ["story.js", "share.js"], jump: [...clusters.map((cl) => ({ id: cl.id, label: cl.label })), { id: "sec-gaps", label: "Gaps" }, { id: "sec-sources", label: "Sources" }] });
+  return layout({ title: `Migration · ${config.name}`, description: "African migration with sources: who moves and where, what people flee, routes and smuggling, what research says about jobs, and Europe's deals.", depth: 1, current: "migration", body, script: true, extraScripts: ["story.js", "share.js"], jump: [{ id: "mc-h", label: "Challenge" }, ...clusters.map((cl) => ({ id: cl.id, label: cl.label })), { id: "sec-gaps", label: "Gaps" }, { id: "sec-sources", label: "Sources" }] });
 }
 
 // Scheda di un popolo: stessi blocchi delle storie, più i paesi collegati; le voci di chi appartiene al popolo restano separate dal quadro documentato.
@@ -2863,6 +2933,14 @@ for (const id of Object.values(FOOD_STORY_IMG)) {
   if (!fs.existsSync(from)) continue;
   fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
   fs.copyFileSync(from, path.join(dist, "img", "stories", name));
+}
+// Immagini usate come copertina nella landing page (pathway cards)
+for (const name of ["people-fula-800.jpg", "people-fula-1600.jpg"]) {
+  const from = path.join(root, "src", "img", "stories", name);
+  if (fs.existsSync(from)) {
+    fs.mkdirSync(path.join(dist, "img", "stories"), { recursive: true });
+    fs.copyFileSync(from, path.join(dist, "img", "stories", name));
+  }
 }
 // Immagini dei popoli (figure nelle schede): stessa cartella delle immagini delle storie.
 for (const { data: pe } of peoples) {

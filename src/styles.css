@@ -2581,3 +2581,36 @@ html.rc-cook-open { overflow: hidden; }
 .mig-cluster-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-top: 44px; padding: 18px 22px; background: var(--record-tint); border-radius: var(--radius); border-left: 4px solid var(--record); }
 .mig-cluster-foot p { margin: 0; font-size: .95rem; font-weight: 600; color: var(--ink); }
 .mig-cluster-foot .btn { font-size: .9rem; font-weight: 700; }
+
+/* Migration Interactive Challenge & Fact Filter */
+.mig-challenge { margin: 32px 0 36px; padding: 26px 28px; background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.mig-challenge-head { margin-bottom: 20px; }
+.mig-challenge-head h2 { font-size: 1.6rem; margin: 6px 0 8px; color: var(--ink); }
+.mig-challenge-head .lede { font-size: 1.05rem; color: var(--ink-soft); margin: 0; }
+.mig-challenge .check { margin-top: 14px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+.mig-challenge .check-q { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; }
+
+.mig-interactive-bar { margin: 28px 0 24px; padding: 20px 22px; background: var(--record-tint); border: 1.5px solid var(--line); border-radius: var(--radius); display: flex; flex-direction: column; gap: 14px; }
+.mig-search-input-wrap { position: relative; width: 100%; display: flex; align-items: center; }
+.mig-search-input-wrap svg { position: absolute; left: 14px; color: var(--ink-soft); pointer-events: none; }
+.mig-search-input-wrap input { width: 100%; padding: 12px 16px 12px 42px; font: inherit; font-size: .95rem; background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); border-radius: 999px; box-shadow: inset 0 1px 3px rgba(0,0,0,.04); transition: border-color .15s ease, box-shadow .15s ease; }
+.mig-search-input-wrap input:focus { outline: none; border-color: var(--record); box-shadow: 0 0 0 3px var(--ring); }
+.mig-chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.mig-chip { font: inherit; font-size: .82rem; font-weight: 700; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft); cursor: pointer; transition: all .15s ease; }
+.mig-chip:hover { border-color: var(--record); color: var(--ink); }
+.mig-chip.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+.mig-filter-count { margin: 0; font-size: .86rem; font-weight: 600; color: var(--record); }
+
+/* Comparator Card */
+.mig-comparator { margin: 28px 0 32px; padding: 22px 24px; background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.mig-comparator-title { font-size: 1.2rem; font-weight: 800; margin: 0 0 6px; color: var(--ink); }
+.mig-comparator-sub { font-size: .92rem; color: var(--ink-soft); margin: 0 0 16px; line-height: 1.45; }
+.mig-compare-bars { display: grid; gap: 14px; }
+.mig-compare-item { display: grid; gap: 4px; }
+.mig-compare-label { display: flex; justify-content: space-between; font-size: .88rem; font-weight: 700; color: var(--ink); }
+.mig-compare-track { width: 100%; height: 14px; background: var(--record-tint); border-radius: 999px; overflow: hidden; }
+.mig-compare-fill { height: 100%; border-radius: 999px; transition: width .4s ease; }
+.mig-compare-fill.permits { background: var(--viz-2, #2a52be); width: 95.6%; }
+.mig-compare-fill.crossings { background: var(--accent, #e65100); width: 4.4%; }
+.mig-compare-fill.remittances { background: #2e7d32; width: 78%; }
+.mig-compare-fill.aid { background: #1565c0; width: 22%; }

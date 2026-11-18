@@ -376,4 +376,67 @@
     var m = /^#c-([A-Z]{3})$/.exec(location.hash);
     if (m && data[m[1]]) { fromHash = true; select(m[1], "map"); fromHash = false; } else showHint();
   }
+
+  // ---------- ricerca interattiva e filtri nella pagina Migration ----------
+  var migInput = document.getElementById("mig-search");
+  if (migInput) {
+    var allFacts = all(".mig-facts li");
+    var folds = all(".mig-sec details.fold");
+    var countEl = document.getElementById("mig-filter-count");
+    var chips = all(".mig-chip");
+
+    function filterFacts() {
+      var query = migInput.value.trim().toLowerCase();
+      var activeChip = document.querySelector(".mig-chip.is-active");
+      var tag = activeChip ? activeChip.getAttribute("data-tag") : "all";
+      var visible = 0;
+
+      allFacts.forEach(function (li) {
+        var text = li.textContent.toLowerCase();
+        var matchText = !query || text.indexOf(query) !== -1;
+        var parentSec = li.closest(".mig-sec");
+        var secId = parentSec ? parentSec.id : "";
+        var matchTag = tag === "all" ||
+          (tag === "debates" && li.closest(".mig-debate")) ||
+          (tag === "who-moves" && secId === "sec-who-moves") ||
+          (tag === "why-they-leave" && secId === "sec-why-they-leave") ||
+          (tag === "routes" && secId === "sec-routes") ||
+          (tag === "jobs" && secId === "sec-jobs") ||
+          (tag === "europe" && secId === "sec-europe");
+
+        var on = matchText && matchTag;
+        li.hidden = !on;
+        if (on) visible++;
+      });
+
+      if (query) {
+        folds.forEach(function (fold) {
+          var hasMatch = fold.querySelector("li:not([hidden])");
+          if (hasMatch) fold.open = true;
+        });
+      }
+
+      if (countEl) {
+        countEl.textContent = (query || tag !== "all")
+          ? "Found " + visible + " of " + allFacts.length + " facts"
+          : "Showing all " + allFacts.length + " documented facts";
+      }
+    }
+
+    migInput.addEventListener("input", filterFacts);
+
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        chips.forEach(function (c) { c.classList.remove("is-active"); c.setAttribute("aria-pressed", "false"); });
+        chip.classList.add("is-active");
+        chip.setAttribute("aria-pressed", "true");
+        var targetCluster = chip.getAttribute("data-cluster");
+        if (targetCluster) {
+          var tabBtn = document.getElementById("tab-" + targetCluster);
+          if (tabBtn) tabBtn.click();
+        }
+        filterFacts();
+      });
+    });
+  }
 })();
