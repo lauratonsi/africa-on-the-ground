@@ -2424,24 +2424,108 @@ function renderMigration(M) {
   if (eri) est.push({ type: "estimate", prompt: "In 2025, what share of first-instance asylum decisions for Eritreans in the EU granted protection?", min: 0, max: 100, step: 1, unit: "%", answer: eri.value, parts: [{ text: `EU asylum offices said yes in ${eri.value}% of first-instance decisions for Eritreans in 2025. The average for all nationalities was much lower.`, cite: eri.cite }] });
   if (agri) est.push({ type: "estimate", prompt: "What share of the value added in Italian agriculture was produced by foreign workers in 2025?", min: 0, max: 60, step: 0.5, unit: "%", answer: agri.value, decimals: 1, parts: [{ text: `About ${agri.value}%, the highest of any sector, according to Fondazione Leone Moressa on ISTAT data.`, cite: agri.cite }] });
   const factList = (fs) => `<ul class="mig-facts">${fs.map((f) => `<li>${esc(f.text)}${cite(f.cite)}${f.page ? ` <span class="note-small">(${/–/.test(f.page) ? "pp." : "p."} ${esc(f.page)})</span>` : ""}</li>`).join("")}</ul>`;
-  const secHtml = secs.map((sec, i) => {
+
+  const renderSec = (sec, isFirstInCluster) => {
     const plain = sec.facts.filter((f) => !f.debate), deb = sec.facts.filter((f) => f.debate);
     const shown = plain.slice(0, 8), more = plain.slice(8);
     const charts = (sec.charts || []).map((c) => renderRich({ type: "chart", kind: "bars", title: c.title, sub: c.sub, rows: c.rows, cite: c.cite, note: "" }, cite, { up: "../" })).join("");
     const extra = sec.id === "who-moves" ? checks.slice(0, 1) : sec.id === "why-they-leave" ? est.slice(0, 1) : sec.id === "jobs" ? est.slice(1) : sec.id === "europe" ? checks.slice(1) : [];
-    return `<section id="sec-${esc(sec.id)}" class="mig-sec">${i === 0 ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h2>${esc(sec.title)}</h2><p class="mig-intro">${esc(sec.intro)}</p>${charts}${factList(shown)}${more.length ? `<details class="fold"><summary><span>${more.length} more facts</span></summary>${factList(more)}</details>` : ""}${deb.length ? `<aside class="callout mig-debate"><p class="callout-t">Where research disagrees</p><ul class="mig-facts">${deb.map((f) => `<li>${esc(f.text)}${cite(f.cite)}</li>`).join("")}</ul></aside>` : ""}${extra.length ? `<div class="checks">${extra.map((b) => renderRich(b, cite, { up: "../" })).join("")}</div>` : ""}</section>`;
+    return `<section id="sec-${esc(sec.id)}" class="mig-sec">${isFirstInCluster ? '<div class="sec-head"><span class="layer-tag rec">In the record</span></div>' : ""}<h3>${esc(sec.title)}</h3><p class="mig-intro">${esc(sec.intro)}</p>${charts}${factList(shown)}${more.length ? `<details class="fold"><summary><span>${more.length} more facts</span></summary>${factList(more)}</details>` : ""}${deb.length ? `<aside class="callout mig-debate"><p class="callout-t">Where research disagrees</p><ul class="mig-facts">${deb.map((f) => `<li>${esc(f.text)}${cite(f.cite)}</li>`).join("")}</ul></aside>` : ""}${extra.length ? `<div class="checks">${extra.map((b) => renderRich(b, cite, { up: "../" })).join("")}</div>` : ""}</section>`;
+  };
+
+  const clusters = [
+    {
+      id: "cluster-movements",
+      label: "1. Who moves & Why",
+      kicker: "Flows & Root Causes",
+      title: "Who moves, where to, and why people leave",
+      desc: "Where African migrants actually live (most stay in Africa), what people flee, and why international movement is an exception.",
+      secIds: ["who-moves", "why-they-leave"],
+      stat: "82%",
+      statLabel: "Internal African Flows",
+      statSub: "of African migrants living abroad reside in another African country (~25.1M vs 10.6M in Europe).",
+      next: { id: "cluster-routes", label: "2. Routes & Policies →" }
+    },
+    {
+      id: "cluster-routes",
+      label: "2. Routes & Policies",
+      kicker: "Crossings & Enforcement",
+      title: "Crossings, human cost and European agreements",
+      desc: "The Sahara and sea crossings, deaths along the way, Frontex detections vs millions of regular EU residence permits, and deals with transit regimes.",
+      secIds: ["routes", "europe"],
+      stat: "3.9M vs 180k",
+      statLabel: "Permits vs Irregular Crossings",
+      statSub: "regular EU residence permits issued annually vs irregular crossings detected across all borders.",
+      next: { id: "cluster-jobs", label: "3. Jobs & Economics →" }
+    },
+    {
+      id: "cluster-jobs",
+      label: "3. Jobs & Economics",
+      kicker: "Labour & Wages",
+      title: "Testing the claim: 'They take our jobs'",
+      desc: "What decades of empirical labour economics show: complementary work, essential sectors, and wage effects across the workforce.",
+      secIds: ["jobs"],
+      stat: "21.3%",
+      statLabel: "Agricultural Value Added",
+      statSub: "produced by foreign-born workers in Italy; systemic labour complementarity in essential sectors.",
+      next: { id: "cluster-history", label: "4. Historical Perspective →" }
+    },
+    {
+      id: "cluster-history",
+      label: "4. Historical Perspective",
+      kicker: "Reverse Migration",
+      title: "When migration went the other way",
+      desc: "From the Eurafrica doctrine of the 1920s to demographic imperialism: European projects that cast Africa as land for Europe's emigrants.",
+      secIds: ["history"],
+      stat: "1929",
+      statLabel: "Eurafrica Doctrine",
+      statSub: "European demographic projects aimed to direct millions of European settlers to Africa.",
+      next: { id: "cluster-movements", label: "Back to 1. Who moves & Why →" }
+    }
+  ];
+
+  const overviewHtml = `<div class="mig-overview-grid" aria-label="Executive summary of key findings">
+    ${clusters.map((cl) => `
+      <div class="mig-overview-card">
+        <div class="moc-top">
+          <p class="moc-label">${esc(cl.statLabel)}</p>
+          <p class="moc-num">${esc(cl.stat)}</p>
+          <p class="moc-sub">${esc(cl.statSub)}</p>
+        </div>
+        <a href="#${esc(cl.id)}" class="moc-link">Explore ${esc(cl.label)} →</a>
+      </div>
+    `).join("")}
+  </div>`;
+
+  const clusterPanels = clusters.map((cl) => {
+    const secList = cl.secIds.map((id) => S[id]).filter(Boolean);
+    const secsInCluster = secList.map((sec, idx) => renderSec(sec, idx === 0)).join("\n");
+    return `<div id="${esc(cl.id)}" data-tab data-tab-label="${esc(cl.label)}" class="mig-cluster-panel">
+      <div class="mig-cluster-header">
+        <p class="mig-cluster-kicker">${esc(cl.kicker)}</p>
+        <h2 class="mig-cluster-title">${esc(cl.title)}</h2>
+        <p class="mig-cluster-desc">${esc(cl.desc)}</p>
+      </div>
+      ${secsInCluster}
+      <div class="mig-cluster-foot">
+        <p>Finished this cluster?</p>
+        <a href="#${esc(cl.next.id)}" class="btn btn-s">${esc(cl.next.label)}</a>
+      </div>
+    </div>`;
   }).join("\n");
+
   const gaps = `<section id="sec-gaps" class="gaps"><span class="layer-tag gap">What we do not know</span><ul><li>Several UN agency sites (IOM, UNHCR) block automated reading, so some of their figures are quoted as reported by Frontex, Eurostat, the UN news service or the press. Each citation says where the number was read.</li><li>Deaths on the routes are counted from known cases: IOM calls its own figures a lower bound, and other counts are higher.</li><li>No readable official source gives the number of people born in Africa who live in the EU as a whole.</li>${(M.gaps || []).slice(0, 8).map((g) => `<li>${esc(g)}</li>`).join("")}<li>Voices: none yet. This page was written from published sources; people who made these journeys are not quoted here unless a source quotes them.</li></ul></section>`;
   const body = `${compactHero({ scene: "sea", kicker: "Society", title: "Migration, without the myths", sub: "Who moves and where, what people flee, how they cross, and what research says about jobs." })}
 <div class="wrap prose-hero"><div class="read-progress" aria-hidden="true"><span></span></div><article class="story">
-<aside class="keypoints"><h2>In short</h2><ul>${secs.filter((x) => x.id !== "history").map((x) => `<li><a href="#sec-${esc(x.id)}">${esc(x.title)}</a>: ${esc(x.intro)}</li>`).join("")}</ul></aside>
-<aside class="callout mig-claim"><p class="callout-t">The claim this page tests</p><p>"They come to take our jobs." It is often said about migrants from Africa. The sections below look at who actually moves, why, how, and what the research on jobs and wages finds, including the studies that find costs for some workers. Every number has a source, and where researchers disagree the page says so.</p></aside>
-<nav class="story-nav-jump" aria-label="Jump to a section">${secs.map((x) => `<a href="#sec-${esc(x.id)}">${esc(x.title.replace(/^"They take our jobs": /, "Jobs: "))}</a>`).join("")}</nav>
-${secHtml}
+<aside class="callout mig-claim"><p class="callout-t">The claim this page tests</p><p>"They come to take our jobs." It is often said about migrants from Africa. The clusters below explore who actually moves, why, how, and what the research on jobs and wages finds, including the studies that find costs for some workers. Every number has a source, and where researchers disagree the page says so.</p></aside>
+${overviewHtml}
+<div data-tabs>
+${clusterPanels}
+</div>
 ${gaps}
 <aside class="related" aria-label="Related"><h2>Keep exploring</h2><ul><li><a href="../stories/europes-plan-for-africa-eurafrica/index.html">Europe's plan for Africa, in its own words</a></li><li><a href="../stories/did-one-conference-carve-up-africa/index.html">Did one conference carve up Africa?</a></li><li><a href="../society/index.html">Society: faith, government and language</a></li><li><a href="../peoples/index.html">Peoples, not 'tribes'</a></li></ul></aside>
 ${sourcesList()}</article></div>`;
-  return layout({ title: `Migration · ${config.name}`, description: "African migration with sources: who moves and where, what people flee, routes and smuggling, what research says about jobs, and Europe's deals.", depth: 1, current: "migration", body, extraScripts: ["story.js", "share.js"], jump: secs.map((x) => ({ id: "sec-" + x.id, label: x.title.split(",")[0].replace(/^"They take our jobs": .*/, "Jobs") })) });
+  return layout({ title: `Migration · ${config.name}`, description: "African migration with sources: who moves and where, what people flee, routes and smuggling, what research says about jobs, and Europe's deals.", depth: 1, current: "migration", body, script: true, extraScripts: ["story.js", "share.js"], jump: [...clusters.map((cl) => ({ id: cl.id, label: cl.label })), { id: "sec-gaps", label: "Gaps" }, { id: "sec-sources", label: "Sources" }] });
 }
 
 // Scheda di un popolo: stessi blocchi delle storie, più i paesi collegati; le voci di chi appartiene al popolo restano separate dal quadro documentato.

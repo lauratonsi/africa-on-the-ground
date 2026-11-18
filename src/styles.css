@@ -2500,8 +2500,28 @@ html.rc-cook-open { overflow: hidden; }
 .food-region .blurb { margin-top: 0; }
 .food-more { margin: 32px 0 8px; }
 /* Migration */
-.mig-sec { margin-top: 40px; }
+.mig-sec { margin-top: 36px; }
+.mig-sec:first-of-type { margin-top: 20px; }
 .mig-intro { font-size: 1.12rem; }
 .mig-facts { padding-left: 1.2rem; display: grid; gap: 8px; }
 .mig-debate { margin-top: 18px; }
 .mig-claim { margin: 22px 0; }
+
+/* Migration Clusters & Overview Dashboard */
+.mig-overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 24px 0 32px; }
+.mig-overview-card { background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 18px 20px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px; box-shadow: var(--shadow); transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease; }
+.mig-overview-card:hover, .mig-overview-card:focus-within { border-color: var(--record); transform: translateY(-2px); box-shadow: 0 10px 24px -6px rgba(12, 9, 36, .12); }
+.moc-top { display: flex; flex-direction: column; gap: 4px; }
+.moc-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 800; color: var(--record); margin: 0; }
+.moc-num { font-size: 2.1rem; font-weight: 800; line-height: 1.1; color: var(--ink); margin: 0; }
+.moc-sub { font-size: .92rem; color: var(--ink-soft); margin: 0; line-height: 1.45; }
+.moc-link { font-size: .88rem; font-weight: 700; color: var(--ink); text-decoration: none; align-self: flex-start; margin-top: 4px; display: inline-flex; align-items: center; gap: 4px; }
+.moc-link:hover { color: var(--record); text-decoration: underline; }
+
+.mig-cluster-header { margin: 12px 0 24px; padding-bottom: 16px; border-bottom: 2px solid var(--line); }
+.mig-cluster-kicker { font-size: .8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--record); margin: 0 0 6px; }
+.mig-cluster-title { font-size: 1.7rem; font-weight: 800; margin: 0 0 8px; color: var(--ink); line-height: 1.25; }
+.mig-cluster-desc { font-size: 1.05rem; color: var(--ink-soft); margin: 0; line-height: 1.5; max-width: 65ch; }
+.mig-cluster-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-top: 44px; padding: 18px 22px; background: var(--record-tint); border-radius: var(--radius); border-left: 4px solid var(--record); }
+.mig-cluster-foot p { margin: 0; font-size: .95rem; font-weight: 600; color: var(--ink); }
+.mig-cluster-foot .btn { font-size: .9rem; font-weight: 700; }
